@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Study</title>
+    <!-- viewport setup -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- lab.js and libraries -->
+    <script src="lib/lab.js" data-labjs-script="library"></script>
+    <!-- lab.js fallback not needed??? -->
+    <link rel="stylesheet" href="lib/lab.css" />
+
+    <!-- actual experiment code (modular components of study) -->
+    <script defer src="./src/js/content/texts.js"></script>
+    <!-- > content: -->
+    <script defer src="./src/js/content/surveyScales.js"></script>
+    <script defer src="./src/js/content/AIT_AT.js"></script>
+
+    <!-- > paradata: -->
+    <script defer src="./src/js/paradata/paradata_focus.js"></script>
+
+
+    <script defer src="study.js"></script>
+
+      <!-- > style sheet -->
+    <link rel="stylesheet" href="./src/css/style.css">
+     
+    <link rel="stylesheet" href="./src/css/toastrmin.css">
+
+    <!-- additional js libraries -->
+    <script src="src/js/additional libraries/jatos.js"></script>
+
+    <script src="./src/js/additional libraries/jquery.js" crossorigin="anonymous"></script>
+    <script src="./src/js/additional libraries/jqueryUI.js" crossorigin="anonymous"></script>
+
+    <script src="./src/js/additional libraries/toastrmin.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body id="hideall">
+    <!-- If you'd rather have a container with a fixed width
+         and variable height, try removing the fullscreen class below -->
+      <!-- 
+      <header class="content-vertical-center content-horizontal-center">
+     <div class="container fullscreen">
+        </div>
+      </header>
+    -->
+      <!--     <main class="content-vertical-center content-horizontal-center" data-labjs-section="main"> -->
+      <main data-labjs-section="main" style="font-size: 30px;">
+        <!-- the nested div is helpful because the centering would
+             otherwise break the natural flow of content -->
+        <div>
+          <img src="lib/loading.svg" alt="loading icon" style="padding: 1rem"><br>
+          <p>
+            <strong>Preparing experiment</strong><br>
+            <span class="text-muted">please wait a moment</span>
+          </p>
+        </div>
+      </main>
+  
+      <!--  Again, please feel free to replace the footer content,
+               or to remove the footer if you don't need it 
+      <footer class="content-vertical-center content-horizontal-center" style="background-color: red;">
+        <div>
+          <small class="text-muted">Awesome lab, prestigious institution™</small>
+        </div>
+      </footer>
+      -->
+  
+      <div style="position: relative; visibility: hidden;" class="content-horizontal-center content-vertical-center">
+        <div class="progress" style="position: fixed; bottom: 0; width:95%; margin: 0 auto;   background:#666;">
+          <div class="progress-bar" style="  background: #229954 ;"> </div>
+        </div>
+      </div>
+      </div>
+  </body>
+  
+  <div id="alert" style="background: white; visibility: hidden;" class="defocus">
+    <div id="alert-text" style="text-align: center; font-size: 28px;">
+      <strong>Please do not change or minimize the browser window while the study is in progress.</strong>
+        <br>
+        <button id="alert-button-text" type="button" onclick="document.getElementById('alert').style.visibility = 'hidden'; 
+     document.getElementById('hideall').style.visibility = 'visible'; enterFullscreen()" style="font-size: 24px;">
+            Click here to continue
+        </button>
+    </div>
+  </div>
+
+  
+</html>

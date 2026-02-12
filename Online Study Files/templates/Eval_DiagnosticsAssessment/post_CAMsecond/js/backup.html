@@ -1,0 +1,52 @@
+<!-- CET -->
+<div class="page-item page-item-likert" style="margin-left:20%; margin-right: 20%">
+    <form id="ratingBasalAttributes">
+        <div style="display: flex; justify-content: space-around">
+        <!-- Option A -->
+        <label>
+        <table align="center" border="1" cellpadding="1" cellspacing="1" style="width:400px; margin-right:50px;">
+     <tbody>
+      <tr>
+       <td colspan="2" style="text-align: center;"><strong>Option A</strong></td>
+      </tr>
+      <tr>
+       <td>&nbsp;Carbon Emission<br/>`
+       + '&nbsp;<strong> ${ parameters.CE_A } lbs. CO2 <br/>(~${ parameters.CM_A }car miles)</strong></td>' + `
+       <td>&nbsp;Bonus Payment<br/>
+       `
+       + '   &nbsp;<strong>${ parameters.BP_A } cents<br/><br/></strong></td>' + `
+      </tr>
+      <tr>
+       </tbody>
+    </table>
+    <input type="radio" name="choosenOption" value="optionA" id="optionA" style="transform: scale(2); margin-top: 10px;">
+    </label>
+    
+    <br>
+    
+    <!-- Option B -->
+    <label>
+    <table align="center" border="1" cellpadding="1" cellspacing="1" style="width:400px;">
+    <tbody>
+    <tr>
+    <td colspan="2" style="text-align: center;"><strong>Option B</strong></td>
+    </tr>
+    <tr>
+    <td>&nbsp;Carbon Emission<br/>`
+    + '&nbsp;<strong> ${ parameters.CE_B } lbs. CO2 <br/>(~${ parameters.CM_B }car miles)</strong></td>' + `
+    <td>&nbsp;Bonus Payment<br/>
+    `
+    + '   &nbsp;<strong>${ parameters.BP_B } cents<br/><br/></strong></td>' + `
+    </tr>
+    <tr>
+    </tbody>
+    </table>
+    <input type="radio" name="choosenOption" value="optionB" id="optionB" style="transform: scale(2); margin-top: 10px;">
+    </label>
+    </div>
+        </div>
+      </form>
+    
+        <button id="continue" type="submit" form="ratingBasalAttributes">
+        Bitte klicken Sie auf eine der Optionen, um fortzufahren
+      </button>

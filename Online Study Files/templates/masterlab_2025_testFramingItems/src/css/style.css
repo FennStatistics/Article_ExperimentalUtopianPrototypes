@@ -1,0 +1,397 @@
+/* Increase size of radio buttons */
+.rating-form input[type="radio"] {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+}
+
+
+/* vignette */
+    .concept {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+    .concept h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.8rem;
+      color: #005a9c;
+      border-bottom: 2px solid #005a9c;
+      padding-bottom: 0.3rem;
+      display: block;
+      margin: 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .concept p {
+      margin: 0.6rem 0;
+    }
+    .concept p:first-of-type {
+      font-weight: bold;
+    }
+    .concept p:last-of-type {
+      font-style: italic;
+    }
+
+
+
+
+
+td .text-left {
+  font-size: 24px;
+}
+
+td label.text-left strong {
+  font-size: 26px;
+}
+
+select {
+  font-size: 20px; /* Adjust as needed */
+  padding: 8px;
+}
+
+select option {
+  font-size: 20px;
+}
+
+
+
+
+#submitAssoButton, #finalResponse, #skipResponse, #unknownResponse {
+  font-size: 1.25rem;   /* Increases text size */
+  padding: 0.75rem 1.5rem; /* More space inside the button */
+  border-radius: 0.5rem; /* Optional: makes corners rounded */
+  min-width: 150px;      /* Optional: sets a minimum width */
+  cursor: pointer;       /* Makes it clear it's clickable */
+}
+#submitAssoButton:hover, #finalResponse:hover, #skipResponse:hover, #unknownResponse:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+
+#continue {
+  background-color: #4CAF50; /* green */
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#continue:hover {
+  background-color: #046809;
+  color: white;
+}
+
+
+footer #continue {
+  font-size: 20px; /* Adjust the size as needed */
+}
+
+
+
+
+
+.text-muted{
+  font-size: 22px;
+}
+
+.page-item-table * {
+  font-size: 20px; /* Adjust the size as needed */
+}
+
+kbd {
+  font-size: 30px;
+}
+
+
+.content-horizontal-right *{
+  margin-right: 15%;
+}
+
+.ui-helper-hidden-accessible {
+  display: none !important;
+}
+  
+  /* Style for primes */
+.content-canvas {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the visible screen */
+  margin: 0; /* Remove default margins */
+}
+
+/* Style for the image container */
+.image-container {
+  width: 50%; /* Adjust width as needed */
+  aspect-ratio: 3 / 4; /* Maintain 3:4 ratio */
+  max-width: 250px; /* Ensure the image has a minimum width */
+  max-height: 333px; /* Ensure the container has a minimum width */
+  overflow: hidden; /* Prevent overflow if the image doesn’t match perfectly */
+  display: flex; /* Optional: center the image inside */
+  justify-content: center; /* Center the image horizontally (optional) */
+  align-items: center; /* Center the image vertically (optional) */
+}
+
+/* Style for the image */
+#prime_image {
+  width: 100%; /* Fit image to the container width */
+  height: 100%; /* Match container height */
+  object-fit: cover; /* Prevent distortion while filling the container */
+  max-width: 250px; /* Ensure the image has a minimum width */
+  max-height: 333px; /* Ensure the container has a minimum width */
+}
+
+
+
+
+/* ratings primes */
+/* Align the rating scale and add spacing */
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Style the form and radio buttons */
+.rating-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.rating-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Increase size of radio buttons */
+.rating-form input[type="radio"] {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+/* Style the numbers below the radio buttons */
+.rating-label {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Text for low and high weight labels */
+.low-weight,
+.high-weight {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+/* canvas screen */
+    /* Center the canvas horizontally and vertically */
+    .content-canvas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full viewport height */
+    }
+
+
+/* blue dot task */
+.scale {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  gap: 10px;
+}
+.scale button, .blue-dot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: #4A90E2;
+}
+
+
+.blue-dot {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0033cc;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#blue-dot-footer {
+  margin-top: 200px;
+}
+
+
+
+
+#toprightdiv {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  margin-right: 20px;
+  color: red;
+  border: 2px solid black; /* This adds a line around the div */
+  background-color: yellow; /* This sets the background color of the div */
+  padding: 5px; /* This adds space around the text inside the div */
+}
+
+
+#toprightdiv_pagenumber {
+  position: fixed;
+  top: 65px;
+  right: 0;
+  margin-right: 20px;
+  color: red;
+  border: 2px solid black; /* This adds a line around the div */
+  background-color: yellow; /* This sets the background color of the div */
+  padding: 5px; /* This adds space around the text inside the div */
+}
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    float: left;
+    width: 20%;
+    align-items: center;
+    text-align: left;
+  }
+
+  .column2 {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+
+
+input[type="radio"] {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+.defocus {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.centerIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.w-xl {
+    width: 100%;
+    max-width: calc(3 * 320px);
+    max-width: calc(3 * var(--width-min-container));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .w-xxl {
+    width: 130%;
+    max-width: calc(4 * 320px);
+    max-width: calc(4 * var(--width-min-container));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* adjust affective imagery*/
+.form-group {
+  margin: 5px
+}
+
+.form-control {
+  width: 100%;
+}
+
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+input:focus {
+  border-color: black;
+}
+
+input[type="text"]:disabled {
+  background: rgb(200, 200, 200);
+}
+
+
+.progress-bar-AffectiveImg {
+  width: 0%;
+  min-height: 8px;
+  background-color: #f8f8f8;
+  background-color: var(--color-gray-background);
+  border-right: 1px solid #efefef;
+  border-right: 1px solid var(--color-border-internal);
+  box-sizing: content-box;
+}
+
+
+.buttons {
+  margin: 0 auto;
+  margin-left: 30%;
+}
