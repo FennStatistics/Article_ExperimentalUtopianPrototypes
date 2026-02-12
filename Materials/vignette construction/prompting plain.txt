@@ -1,0 +1,75 @@
+________________________________________
+
+- Utopia_Prototype label: {{Modern Green Utopia}}
+
+Using ONLY the sources in this notebook, define “{{Utopia_Prototype}}” as used in the literature.
+•	Give a 4–6 sentence definition.
+•	List 8 defining features (bullet points) of the “{{Utopia_Prototype}}”.
+•	List 3 adjacent Utopias and explain in 1 sentence each how they differ.
+•	Extract 5 short quotes (≤25 words each) that best anchor the definition, with source + page/section.
+
+________________________________________
+
+- Utopia_Prototype label: {{Modern Green Utopia}}
+
+
+Extract prototype “attribute cards” (key factors) for “{{Utopia_Prototype}}”
+Output a compact card with:
+•	Core organizing principle (1 sentence) of the “{{Utopia_Prototype}}”
+•	Key factors — 8 bullet points
+•	Mechanism sentence: “Because X, society achieves Y via Z.”
+•	Do-not-include / exclusions (3 bullets) to prevent overlap with other Utopias (the seven Utopias considered are Futurist Utopia, AI-Centered Utopia, Primitivist (Arcadian) Utopia, Modern Green Utopia, Religious (Millennial) Utopia, Institutional (Law-Based) Utopia, Moral Commonwealth (Anarchic) Utopia)
+•	Plausibility anchors: 2–3 notes on what makes it feel possible (no evaluation)
+•	Extract the 4 content dimensions (with citations, verbatim or close paraphrase if possible) and present them as a separate block titled “Content dimensions” using exactly these labels how the “{{Utopia_Prototype}}” is contributing to:
++ Desirability: inherent attractiveness/personal appeal/idealness; foundational but insufficient alone for critique/change
++ Beneficence: moral/pro-social; welfare/rights/greater good
++ Innovative: specificity/novelty; provides “how” of transformation
++ Possible: perceived achievability (not probability/certainty); psychological investment in realization
+
+
+________________________________________
+
+- Utopia_Prototype label: {{Modern Green Utopia}}
+
+
+Take your previous “{{Utopia_Prototype}}” outputs and rewrite it as a SPECIFIC, OPERATIONALIZED attribute card suitable for vignette construction and manipulation checks.
+
+Rules:
+
+•	Keep the same headings, but make every bullet concrete and testable (i.e., something a reader could point to in a vignette). Avoid abstract words unless you immediately specify how it appears.
+•	For each of the 8 key factors, provide three subfields:
++ Indicator (what readers would notice): one short clause
++ Implementation (how the society does it): one short clause
++ Boundary condition (what it does NOT imply): one short clause
+•	Add a section “Signature institutions / artifacts (pick 5)”: name 5 concrete institutions or artifacts that uniquely signal “{{Utopia_Prototype}}”, each with 1-line description.
+•	Add a section “Confusability risks”: list 3 ways it could be mistaken for other utopias and how to avoid that in wording (the seven Utopias considered are Futurist Utopia, AI-Centered Utopia, Primitivist (Arcadian) Utopia, Modern Green Utopia, Religious (Millennial) Utopia, Institutional (Law-Based) Utopia, Moral Commonwealth (Anarchic) Utopia).
+
+________________________________________
+
+
+PROTOTYPE TO WRITE
+- Utopia_Prototype label: {{Modern Green Utopia}}
+
+
+You are assisting with experimental stimulus writing for a within-subject study on Utopian Prototypes. 
+Write ONE vignette for the prototype specified below.
+
+HARD CONSTRAINTS (must follow exactly)
+1) Use ONLY the information in the RAG OUTPUT below. Do NOT add facts, examples, institutions, technologies, or assumptions that are not explicitly stated there.
+2) Audience: lay participants. Use plain language, short sentences, and avoid jargon. If a technical term appears in RAG OUTPUT, explain it in everyday terms in the same sentence.
+3) Length: 100 words total (±5 words).
+4) Structure: EXACTLY 7 sentences, with the following functions:
+   - Introduction (Sentences 1–2): Introduce the society’s core organizing principle of the “{{Utopia_Prototype}}” and what it looks like in everyday life. Use familiar references (e.g., “like a public service you already know”) rather than technical detail.
+   - Main Text (Sentences 3–5): Describe how the society actually works in accessible language. Include:
+        (a) at least 2 of the prototype’s KEY FACTORS as concrete, observable features,
+        (b) exactly 1 explicit mechanism statement in plain language that mirrors: “Because X, society achieves Y via Z.”
+   - Conclusion (Sentences 6–7): State the societal relevance (what this organization principle changes in daily coordination) and restate the organizing principle in neutral terms.
+5) Manipulation fidelity (1 sentence):
+   - Include at least 1 “signature institution/artifact” if provided in RAG OUTPUT.
+   - Respect all “Do-not-include / exclusions” from RAG OUTPUT (do not accidentally overlap with other utopias).
+6) Output: Return ONLY the vignette text (no headings, no bullet points, no metadata).
+
+
+
+RAG OUTPUT (authoritative source material):
+{{PASTE RAG OUTPUT HERE}}
