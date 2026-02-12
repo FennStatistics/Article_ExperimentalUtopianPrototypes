@@ -1,0 +1,146 @@
+PROTOTYPE TO WRITE
+- Utopia_Prototype label: {{Primitivist (Arcadian) Utopia}}
+
+
+You are assisting with experimental stimulus writing for a within-subject study on Utopian Prototypes. 
+Write ONE vignette for the prototype specified below.
+
+HARD CONSTRAINTS (must follow exactly)
+1) Use ONLY the information in the RAG OUTPUT below. Do NOT add facts, examples, institutions, technologies, or assumptions that are not explicitly stated there.
+2) Audience: lay participants. Use plain language, short sentences, and avoid jargon. If a technical term appears in RAG OUTPUT, explain it in everyday terms in the same sentence.
+3) Length: 100 words total (±5 words).
+4) Structure: EXACTLY 7 sentences, with the following functions:
+   - Introduction (Sentences 1–2): Introduce the society’s core organizing principle of the “{{Utopia_Prototype}}” and what it looks like in everyday life. Use familiar references (e.g., “like a public service you already know”) rather than technical detail.
+   - Main Text (Sentences 3–5): Describe how the society actually works in accessible language. Include:
+        (a) at least 2 of the prototype’s KEY FACTORS as concrete, observable features,
+        (b) exactly 1 explicit mechanism statement in plain language that mirrors: “Because X, society achieves Y via Z.”
+   - Conclusion (Sentences 6–7): State the societal relevance (what this organization principle changes in daily coordination) and restate the organizing principle in neutral terms.
+5) Manipulation fidelity (1 sentence):
+   - Include at least 1 “signature institution/artifact” if provided in RAG OUTPUT.
+   - Respect all “Do-not-include / exclusions” from RAG OUTPUT (do not accidentally overlap with other utopias).
+6) Output: Return ONLY the vignette text (no headings, no bullet points, no metadata).
+
+
+
+RAG OUTPUT (authoritative source material):
+
+### Primitivist (Arcadian) Utopia: Definition and Characteristics
+
+**Definition**
+The **Primitivist (Arcadian) Utopia** represents an ideal society where humanity lives in a **simple, natural community** in complete harmony with the environment. Rooted in historical pessimism, it seeks to **regenerate society to its original state of innocence and peace**, often referred to as a "Golden Age". In this model, life is reduced to the **barest necessities**, rendering formal institutions, rulers, and legal systems redundant. Social harmony is achieved not through external laws, but through the **moderation of human desires** to match the benevolent provisions of nature. This prototype reflects a **"nostalgic grief"** for a lost world of idyllic bliss and a yearning for containment within an immediate natural setting.
+
+**Defining Features**
+*   **Harmony with Nature:** Humans live in a non-exploitative, balanced relationship with plants and animals.
+*   **Anomia (Absence of Law):** Formal legal systems are discarded, as behavior is regulated by basic necessities rather than artificial rules.
+*   **Principle of Sufficiency:** Satisfaction is found in having "just enough" rather than seeking material expansion.
+*   **Moderation of Desire:** Human wants are reduced to a "natural" level that the immediate environment can sustain.
+*   **Redundant Institutions:** The society functions without rulers to exact obedience, organized religion to impose codes, or institutions to create regulations.
+*   **Spontaneous Morality:** Inhabitants are viewed as intrinsically virtuous or "noble savages" who behave ethically without external guidelines.
+*   **Rejection of Advanced Technology:** Society prioritizes simple living and manual work, often viewing industrialization as a source of alienation.
+*   **Nostalgic Orientation:** The vision is frequently backward-looking, attempting to recover a "prelapsarian" state of childhood innocence or tribal simplicity.
+
+**Adjacent Utopias**
+1.  **Modern Green Utopia:** While both prioritize ecological health, the Modern Green Utopia utilizes **sustainable technologies** and green modernization rather than rejecting science and returning to primitive lifestyles.
+2.  **Institutional (Law-Based) Utopia:** Unlike the anomic Primitivist model, the Institutional Utopia relies on **perfect laws, bureaucratic structures, and state regulation** to achieve social order.
+3.  **Abundance (Cockaygne) Utopia:** Whereas Primitivism manages potential scarcity by **limiting desires**, the Abundance model assumes **limitless material resources** to satisfy every possible human whim.
+
+**Key Anchor Quotes**
+1.  "Life is reduced to the barest necessities, rendering all the institutions redundant." (**Source: "The Law-Based Utopia",**)
+2.  "Nature is generously benevolent ... but at the same time men’s desires ... are assumed to be moderated." (**Source: "The Law-Based Utopia",**)
+3.  "Harmony between man and nature in Arcadia which parallels a social harmony between men of moderation." (**Source: "The Law-Based Utopia",**)
+4.  "Utopia promised the regeneration of society to its original state of innocence and peace." (**Source: "Utopianism after More",**)
+5.  "A simple, natural community of the future where people live in harmony with nature." (**Source: "Utopia and Dystopia",**)
+
+
+### Prototype Attribute Card: Primitivist (Arcadian) Utopia
+
+*   **Core organizing principle:** Society is organized as a simple, natural community where human desires are moderated to match the benevolent provisions of the natural environment, aiming to recover an original state of innocence and peace.
+*   **Key factors:**
+    *   **Harmony with Nature:** Humans live in a non-exploitative, balanced relationship with plants and animals.
+    *   **Anomia (Absence of Law):** Formal legal systems are discarded, as behavior is regulated by basic necessities rather than artificial rules.
+    *   **Principle of Sufficiency:** Satisfaction is found in having "just enough" to live a simple life rather than seeking material expansion.
+    *   **Redundant Institutions:** The society functions without rulers to exact obedience, organized religion to impose codes, or institutions to create regulations.
+    *   **Spontaneous Morality:** Inhabitants are viewed as intrinsically virtuous, behaving ethically without the need for external guidelines.
+    *   **Rejection of Technology:** Advanced science and industry are viewed as contrary to natural living and sources of alienation, and are thus discarded.
+    *   **Life Reduced to Essentials:** Social friction and crime are eliminated by reducing life to the barest necessities.
+    *   **Nostalgic Orientation:** The vision is often backward-looking, attempting to recover a "Golden Age" or a "prelapsarian" state of childhood innocence.
+*   **Mechanism sentence:** Because **human desires are moderated to a natural level of sufficiency**, society achieves **internal peace and ecological balance** via **the abolition of artificial laws and the redundancy of complex social institutions**.
+*   **Do-not-include / Exclusions:**
+    *   Exclude the use of "sustainable technologies" or "green modernization" intended to maintain urban-industrial living standards (distinguishes from **Modern Green Utopia**).
+    *   Exclude perfect laws, bureaucratic management, or state-led distribution systems (distinguishes from **Institutional (Law-Based) Utopia**).
+    *   Exclude the assumption of "absolute abundance" where limitless material resources satisfy every possible human whim (distinguishes from **Futurist/Abundance Utopia**).
+*   **Plausibility anchors:**
+    *   **Historical Precedents:** It draws plausibility from the documented existence of small-scale, egalitarian tribal societies and hunter-gatherer bands.
+    *   **Cultural Universality:** The "Golden Age" or "Garden of Eden" myth is found as a foundational "avatar" in nearly every global culture.
+    *   **Biophilia Hypothesis:** The proposal is anchored in the idea of an innate human affinity for the natural world.
+
+---
+
+### Content dimensions
+
+*   **Desirability:** This prototype is presented as an inherently attractive "place of felicitie" that values "beauty over capital" and "life over property". It appeals to a nostalgic "yearning for containment" where people can be "glad and strong" in a reassuring natural environment.
+*   **Beneficence:** The model contributes to the greater good by replacing "competitive emulation" with "friendship between equals" and a "deep zoe-egalitarianism" that recognizes all life forms as inherently valuable and protected from exploitation.
+*   **Innovative:** It provides the "how" of transformation through the radical "substitution of non-material for material satisfactions" and the "negation of all hierarchical forms," offering a path to "denaturalize" capitalist society by reconfiguring human needs.
+*   **Possible:** Perceived achievability is anchored in "prefigurative politics," where participants choose to "live better alternatives in the here and now" and view utopia as an aspirational "plausible future" based on existing human social instincts like mutual aid.
+
+
+### Specific Operationalized Attribute Card: Primitivist (Arcadian) Utopia
+
+*   **Core organizing principle:** Society functions as a stateless, non-technological community where human desires are reduced to a "natural" level that the immediate environment can satisfy without industrial intervention.
+
+*   **Key Factors:**
+    1.  **Harmony with Nature**
+        *   *Indicator:* Landscapes contain no fences, industrial waste, or pavement.
+        *   *Implementation:* Inhabitants live in open-air dwellings alongside wild plants and animals.
+        *   *Boundary condition:* Does not imply "managed" conservation or human-dominated parklands.
+    2.  **Principle of Sufficiency**
+        *   *Indicator:* Residents possess only basic manual tools and essential garments.
+        *   *Implementation:* Voluntary refusal to accumulate surplus food or material wealth.
+        *   *Boundary condition:* Does not imply enforced poverty or starvation.
+    3.  **Anomia (Absence of Law)**
+        *   *Indicator:* The community contains no courthouses, police, or written statutes.
+        *   *Implementation:* Personal disputes are resolved through face-to-face altruistic mediation.
+        *   *Boundary condition:* Does not imply chaotic violence or rule-by-whim.
+    4.  **Rejection of Advanced Technology**
+        *   *Indicator:* Absence of electricity, digital devices, and automated machinery.
+        *   *Implementation:* All necessary tasks are performed via manual husbandry and craftwork.
+        *   *Boundary condition:* Does not imply a lack of skills (e.g., deep knowledge of medicinal plants is used).
+    5.  **Spontaneous Morality**
+        *   *Indicator:* People share tools and food without contracts or internal accounting.
+        *   *Implementation:* Reliance on innate human virtue and the "noble savage" instinct.
+        *   *Boundary condition:* Does not imply external indoctrination or legal moral codes.
+    6.  **Life Reduced to Essentials**
+        *   *Indicator:* Housing is built from unrefined local materials like mud, wood, or stone.
+        *   *Implementation:* Elimination of all status-driven or "artificial" consumption.
+        *   *Boundary condition:* Does not imply a lack of aesthetic or spiritual expression (e.g., music and dance remain).
+    7.  **Redundant Institutions**
+        *   *Indicator:* No central government, church hierarchies, or nuclear family legal structures.
+        *   *Implementation:* Organization into small-scale "life-groups" or tribal bands.
+        *   *Boundary condition:* Does not imply a lack of any social coordination or mutual aid.
+    8.  **Nostalgic Orientation**
+        *   *Indicator:* Frequent references to the peace of "ancestors" or "original" human states.
+        *   *Implementation:* Adopting the documented social habits of hunter-gatherer cultures.
+        *   *Boundary condition:* Does not imply a rejection of the future, but a "backward glance" for a social model.
+
+*   **Mechanism sentence:** Because **human desires are moderated to the level of natural provision**, society achieves **internal peace and ecological stability** via **the abolition of artificial laws and complex technology.**
+
+*   **Signature institutions / artifacts:**
+    1.  **The Primitive Hut:** Unrefined dwellings built from local vegetation and mud without plumbing or power.
+    2.  **Hand-Forged Knife:** A Hammered, manual tool representing self-sufficiency over mass production.
+    3.  **The Central Fire:** A communal gathering point for decision-making through face-to-face discussion.
+    4.  **Fiber/Skin Clothing:** Uniform, simple garments made from local natural resources.
+    5.  **Oral Repository:** The transmission of tribal knowledge solely through song and story.
+
+*   **Confusability risks:**
+    1.  **Modern Green Utopia:** Mistaken if technology is described as "eco-friendly." *Avoid by specifying the TOTAL removal of electricity and industry.*
+    2.  **Moral Commonwealth (Anarchic):** Mistaken if the focus is only on human ethics. *Avoid by specifying that order is anchored in the benevolent provision of the ENVIRONMENT, not just human character.*
+    3.  **Religious (Millennial) Utopia:** Mistaken if virtue is seen as a "commandment." *Avoid by clarifying that goodness is a "spontaneous" natural instinct, not a divine mandate.*
+
+---
+
+### Content dimensions
+
+*   **Desirability:** This prototype is an attractive "place of felicitie" where people are "glad and strong" and prioritize **"beauty over capital, life over property"**.
+*   **Beneficence:** It serves the greater good through **"zoe-egalitarianism,"** which dismantles species supremacy and recognizes the inherent value of **"animals and non-humans"**.
+*   **Innovative:** It provides transformation via the radical **"substitution of non-material for material satisfactions"** and the **"negation of all hierarchical forms"**.
+*   **Possible:** Achievability is anchored in **"prefigurative politics,"** where activists choose to **"live better alternatives in the here and now"** rather than waiting for future progress.

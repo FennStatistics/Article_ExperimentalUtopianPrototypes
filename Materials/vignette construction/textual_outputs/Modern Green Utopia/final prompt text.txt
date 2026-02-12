@@ -1,0 +1,148 @@
+PROTOTYPE TO WRITE
+- Utopia_Prototype label: {{Modern Green Utopia}}
+
+
+You are assisting with experimental stimulus writing for a within-subject study on Utopian Prototypes. 
+Write ONE vignette for the prototype specified below.
+
+HARD CONSTRAINTS (must follow exactly)
+1) Use ONLY the information in the RAG OUTPUT below. Do NOT add facts, examples, institutions, technologies, or assumptions that are not explicitly stated there.
+2) Audience: lay participants. Use plain language, short sentences, and avoid jargon. If a technical term appears in RAG OUTPUT, explain it in everyday terms in the same sentence.
+3) Length: 100 words total (±5 words).
+4) Structure: EXACTLY 7 sentences, with the following functions:
+   - Introduction (Sentences 1–2): Introduce the society’s core organizing principle of the “{{Utopia_Prototype}}” and what it looks like in everyday life. Use familiar references (e.g., “like a public service you already know”) rather than technical detail.
+   - Main Text (Sentences 3–5): Describe how the society actually works in accessible language. Include:
+        (a) at least 2 of the prototype’s KEY FACTORS as concrete, observable features,
+        (b) exactly 1 explicit mechanism statement in plain language that mirrors: “Because X, society achieves Y via Z.”
+   - Conclusion (Sentences 6–7): State the societal relevance (what this organization principle changes in daily coordination) and restate the organizing principle in neutral terms.
+5) Manipulation fidelity (1 sentence):
+   - Include at least 1 “signature institution/artifact” if provided in RAG OUTPUT.
+   - Respect all “Do-not-include / exclusions” from RAG OUTPUT (do not accidentally overlap with other utopias).
+6) Output: Return ONLY the vignette text (no headings, no bullet points, no metadata).
+
+
+
+RAG OUTPUT (authoritative source material):
+
+The **Modern Green Utopia** is an ideal society characterized by **ecological modernization**, where **sustainable technology** and clean energy are used to reconcile human development with the preservation of the biosphere. It is built upon the **principle of sufficiency**, aiming for a state of "just enough" material wealth to eliminate poverty while rejecting the waste of over-consumption. This model often envisions **urbanized environments** that integrate natural habitats, plants, and animals into a well-functioning cityscape. A defining psychological feature of this prototype is its reliance on **participative efficacy**, fostering the belief that ordinary people can and must actively engage in constructing a better world. It is governed by **laws and institutions** designed to maintain a stable, harmonious balance between social needs and ecological limits.
+
+**Defining Features**
+*   **Ecological Modernization:** The inventive use of **modern technology** (e.g., solar and wind power) is considered crucial to solving environmental crises.
+*   **Material Sufficiency:** Society aims for "just enough" to share fairly, ensuring the **eradication of poverty** without seeking limitless material growth.
+*   **Urban-Nature Integration:** People live in **ecologically friendly cities** featuring abundant greenery and preserved natural habitats.
+*   **Participative Efficacy:** The society functions through the belief that **ordinary citizens** have the agency to make a meaningful difference in the collective future.
+*   **Social Warmth and Morality:** The vision is imbued with high levels of **interpersonal warmth**, benevolence, and social equality.
+*   **Institutional Regulation:** Relies on **optimized social institutions** and laws to manage the gap between human desires and limited resources.
+*   **Clean Energy Transition:** The society is powered by **clean, sustainable energy** sources to eliminate industrial pollution.
+*   **Needs-Based Coordination:** Production is often organized through small-scale communities planning in a **needs-based framework**.
+
+**Adjacent Utopias**
+1.  **Primitivist Utopia:** While Modern Green seeks a technologically advanced balance with nature, Primitivism views **science and ecology as contradictory**, favoring a return to a simple, non-technological past.
+2.  **Futurist Utopia:** In contrast to the moderation of the Modern Green model, the Futurist prototype focuses on **material abundance and AI-driven maximization**, often viewing nature as secondary or resource-based.
+3.  **Religious (Millennial) Utopia:** While Modern Green is a secular project based on human design and technology, the Religious model depends on **supernatural powers** or divine intervention to transform the world.
+
+**Key Anchor Quotes**
+1.  "An ecologically friendly urbanised society of the future, where people live in peace and happiness, enjoying a cityscape with trees and plants." [1026: Table 3]
+2.  "The Green utopia represents an alternative of 'sufficiency', resolving Davis’ collective problem through restraint and the substitution of non‐material for material satisfactions." [462: Section 2]
+3.  "Modern ecological utopias ... envision more inventive ways of using modern technology in an environmentally friendly way." [464: Section 2]
+4.  "This society harnesses clean energy sources and sustainable technology to ensure citizens enjoy a healthy natural environment free of pollution." [471: Section 4.2]
+5.  "The Green utopia was shown to elicit greater perceptions of participative efficacy, which in turn predicted the increase in social change motivation." [460: Abstract]
+
+
+### Prototype Attribute Card: Modern Green Utopia
+
+*   **Core organizing principle:** Society is organized around the principle of ecological modernization, utilizing sustainable technology and clean energy to achieve a state of material sufficiency while ensuring the harmonious coexistence of urban development and the natural environment.
+
+*   **Key factors:**
+    *   **Ecological Modernization:** The inventive use of modern science and green technology is central to solving environmental crises.
+    *   **Principle of Sufficiency:** Social order is maintained by balancing human comfort with ecological limits, seeking "just enough" rather than material maximization.
+    *   **Urban-Nature Integration:** Citizens live in ecologically friendly cities designed with abundant green spaces, trees, and preserved animal habitats.
+    *   **Clean Energy Transition:** The society is powered exclusively by clean, sustainable energy sources such as solar and wind power.
+    *   **Participative Efficacy:** Inhabitants hold a strong belief that ordinary people have the agency to meaningfully participate in constructing and realizing the utopian vision.
+    *   **High Social Warmth:** The social fabric is characterized by high levels of interpersonal warmth, friendliness, and positive emotional connections.
+    *   **Eradication of Poverty:** Resources are distributed through optimized institutions to ensure there is enough to share fairly, eliminating poverty.
+    *   **Institutional Regulation:** Reliance on well-functioning laws and governance structures to manage resources and maintain the social-ecological balance.
+
+*   **Mechanism sentence:** Because **human desires are moderated to a level of sufficiency and supported by green innovation**, society achieves **ecological integrity and high social welfare** via **participatory governance and the implementation of sustainable technologies.**
+
+*   **Do-not-include / Exclusions:**
+    *   Exclude the rejection of modern science or a return to a pre-technological, manual-labor-only existence (distinguishes from **Primitivist (Arcadian) Utopia**).
+    *   Exclude the pursuit of limitless material abundance or AI-driven maximization of consumption (distinguishes from **Futurist Utopia**).
+    *   Exclude reliance on supernatural intervention or a divine transformation of human nature (distinguishes from **Religious (Millennial) Utopia**).
+
+*   **Plausibility anchors:**
+    *   **Prefigurative Experiments:** The existence of real-world "ecovillages" and sustainable neighborhoods serves as a tangible demonstration that alternative living arrangements are feasible.
+    *   **Technological Maturity:** The availability and proven efficacy of green technologies like solar and wind power provide a realistic foundation for energy independence.
+    *   **Psychological Investment:** High scores in "participative efficacy" show that people perceive this model as something they can actively help achieve.
+
+---
+
+### Content dimensions
+
+*   **Desirability:** This prototype is perceived to entail "warmth" and "positive emotions," envisioned as a "place of felicitie" where people live in "peace and happiness". It appeals to the ideal of a well-functioning society where progress does not come at the cost of interpersonal connection.
+*   **Beneficence:** The model is "morally unified" and "beneficent," prioritizing the "greater good" by ensuring that "nobody lives in poverty" and that the "integrity of the biosphere" is protected. It seeks to "better the condition of all humans" through an "equitable and sustainable society".
+*   **Innovative:** It provides the "how" of transformation through "ecological modernization" and the radical "substitution of non-material for material satisfactions". It offers a blueprint for "denaturalizing capitalist society" by reconfiguring human needs toward "simplicity and sufficiency".
+*   **Possible:** Perceived achievability is anchored in "participative efficacy," the belief that "ordinary people can help realize this version of society". Its plausibility is further bolstered by "prefigurative politics," where communities "collectively prefigure new forms in the here and now".
+
+
+
+### Specific Operationalized Attribute Card: Modern Green Utopia
+
+*   **Core organizing principle:** Society is organized around the principle of ecological modernization, leveraging advanced sustainable technology and local participatory planning to maintain a high quality of life within fixed planetary boundaries.
+
+*   **Key Factors:**
+    1.  **Ecological Modernization**
+        *   **Indicator:** Visible high-tech infrastructure like automated recycling hubs and clean-tech manufacturing plants in city centers.
+        *   **Implementation:** Scientists and engineers design inventive, non-polluting machinery specifically to resolve environmental damage.
+        *   **Boundary condition:** Does not imply a rejection of industrial processes or a return to manual-only labor.
+    2.  **Principle of Sufficiency**
+        *   **Indicator:** Modular housing units sized for comfort rather than status and shared neighborhood tool-shares.
+        *   **Implementation:** Legal limits are placed on material accumulation to ensure resources are shared fairly among all citizens.
+        *   **Boundary condition:** Does not imply enforced poverty, rationing of basic food, or the absence of all personal property.
+    3.  **Urban-Nature Integration**
+        *   **Indicator:** Cityscapes featuring multi-story vertical forests and unpaved transit paths made of permeable greenery.
+        *   **Implementation:** Zoning laws mandate that at least 50% of urban space is dedicated to active habitats for wild plants and animals.
+        *   **Boundary condition:** Does not imply an unmanaged wilderness or the total absence of skyscrapers and pavement.
+    4.  **Clean Energy Transition**
+        *   **Indicator:** The total absence of fossil-fuel odors, smokestacks, gas stations, or overhead power lines.
+        *   **Implementation:** The entire regional grid is powered exclusively by a decentralized network of solar and wind arrays.
+        *   **Boundary condition:** Does not imply a lack of reliable electricity or limited power for essential medical and research facilities.
+    5.  **Participative Efficacy**
+        *   **Indicator:** Daily public assembly meetings in neighborhood hubs where residents vote on local production quotas.
+        *   **Implementation:** Citizens are given legal authority to determine regional resource use through direct deliberative processes.
+        *   **Boundary condition:** Does not imply rule by a technocratic elite or distant governmental experts.
+    6.  **High Social Warmth**
+        *   **Indicator:** Frequent strangers greeting each other and communal dining halls bustling with active, intergenerational conversation.
+        *   **Implementation:** Educational systems prioritize collaborative conflict resolution and pro-social behaviors as core metrics of success.
+        *   **Boundary condition:** Does not imply the forced suppression of individual personality or the lack of private living space.
+    7.  **Eradication of Poverty**
+        *   **Indicator:** No visible homelessness, slums, or food lines across any district of the city.
+        *   **Implementation:** Well-functioning institutions distribute essential goods directly to every household based on identified needs.
+        *   **Boundary condition:** Does not imply absolute material equality where everyone possesses identical items.
+    8.  **Institutional Regulation**
+        *   **Indicator:** Large digital registers in public squares displaying the real-time ecological impact of all local projects.
+        *   **Implementation:** Governance boards enforce strict laws that prevent any community activity from exceeding local bio-capacity.
+        *   **Boundary condition:** Does not imply the absence of formal laws (anomia) or purely "spontaneous" behavior.
+
+*   **Mechanism sentence:** Because **human consumption is capped at a level of material sufficiency and supported by clean innovation**, society achieves **permanent ecological stability and high social welfare** via **participatory citizen assemblies and the implementation of sustainable technologies**.
+
+*   **Signature institutions / artifacts:**
+    1.  **The Neighborhood Solar Kiln:** A community-managed facility using advanced clean heat for carbon-neutral glass and ceramic creation.
+    2.  **The Common Resource Card:** A digital ID allowing any resident to access shared high-quality electric vehicles and specialized tools.
+    3.  **The Assembly Hall:** A central urban building dedicated to daily face-to-face deliberation and voting by ordinary residents.
+    4.  **Bio-Capacity Dashboard:** A handheld device showing every citizen their neighborhood's real-time energy use versus ecological limits.
+    5.  **Habitat Bridges:** Wide, forested urban overpasses that allow wildlife to migrate through the city without human contact.
+
+*   **Confusability risks:**
+    1.  **Primitivist (Arcadian) Utopia:** Mistaken if the focus is only on "nature." **Avoid** by highlighting the presence of advanced sustainable technologies (e.g., solar, AI, bio-engineering) and urban environments.
+    2.  **Futurist Utopia:** Mistaken if the focus is only on "tech." **Avoid** by emphasizing material **sufficiency and moderation** rather than limitless growth and abundance.
+    3.  **Institutional (Law-Based) Utopia:** Mistaken if the focus is only on "rules." **Avoid** by specifying that regulations are made via **bottom-up participation** (efficacy), not top-down bureaucracy.
+
+---
+
+### Content dimensions
+
+*   **Desirability:** This vision is perceived to entail high levels of **"warmth" and "positive emotions,"** presented as a **"place of felicitie"** where people live in **"peace and happiness"** within a cityscape.
+*   **Beneficence:** The model is **"morally unified"** and prioritizes the **"greater good"** by ensuring that **"nobody lives in poverty"** and that the **"integrity of the biosphere"** is protected through a focus on welfare over profit.
+*   **Innovative:** It provides the "how" of transformation through **"ecological modernization"** and the radical **"substitution of non-material for material satisfactions,"** offering a specific path to **"denaturalize"** capitalist growth imperatives.
+*   **Possible:** Achievability is anchored in **"participative efficacy,"** the strong belief that **"ordinary people can help realize this version of society"** through collective action and sustainable lifestyle choices.
