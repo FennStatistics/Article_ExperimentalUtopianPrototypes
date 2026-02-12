@@ -1,0 +1,74 @@
+---
+title: "Data analysis"
+author: "Julius Fenn"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    html-math-method: katex
+    number-sections: true
+---
+
+
+# Notes
+
+
+# global variables
+
+Define your global variables (e.g., to reduce run time):
+
+```{r}
+#| label: global variables
+
+
+```
+
+
+# functions
+
+```{r}
+########################################
+# xx
+########################################
+### argss:
+# xx
+
+
+```
+
+
+# load packages
+
+```{r}
+#| label: load packages
+#| warning: false
+
+### load packages (also packages loaded, which are not needed for data preperation)
+require(pacman)
+p_load('tidyverse', 'jsonlite',
+       'stargazer',  'DT', 'psych',
+       'writexl', 'associatoR',
+       'ggstatsplot')
+# devtools::install_github("samuelae/associatoR")
+```
+
+
+# load prepared data
+
+```{r}
+setwd("../01_dataPreperation/outputs")
+
+```
+
+
+# Check and summarize scales
+
+
+
+
+## compute mean scores
+
+
+
+# Analyze data
+
