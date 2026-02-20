@@ -1,0 +1,318 @@
+You are about to receive structured information for **seven Utopian Prototypes** (core organizing principle + key factors + supporting arguments) extracted from my PDFs and RAG system. Follow the instructions exactly.
+
+**Objective:** Generate **seven scenario vignettes** for psychological framing research. The **setting must be identical** across all vignettes; the **Utopian Prototype must differ significantly** (via coordination logic, legitimacy, and key factors).
+**Your Persona:** Expert scenario researcher (futures studies), writing for a general audience; rigorous, traceable, controlled variation.
+
+### Fixed setting (use verbatim in every vignette; do not change facts)
+
+All vignettes take place in **the same place and time**:
+**A mid-21st-century city-district (~50,000 residents) is rebuilded after years of overlapping crises under a new social model**
+
+### Inputs you will receive
+
+For each prototype:
+
+* **Core organizing principle** (and key arguments)
+* **Key factors** (and key arguments)
+* Optional: short supporting excerpts
+
+### Task
+
+For each prototype below, write **one vignette**:
+
+* Futurist Utopia
+* AI-Centered Utopia
+* Primitivist (Arcadian) Utopia
+* Modern Green Utopia
+* Religious (Millennial) Utopia
+* Institutional (Law-Based) Utopia
+* Moral Commonwealth (Anarchic) Utopia
+
+### Hard constraints (strict)
+
+1. **Use ONLY the provided inputs** for each prototype. No external knowledge, no added assumptions.
+2. **Every sentence must be grounded** in the provided inputs. If a needed element is missing, write: **“Insufficient evidence in provided inputs.”**
+3. **Controlled format:** exactly **8 sentences** per vignette and follow the structure below.
+4. **Controlled style:** lay language, no jargon, no persuasion, no moral evaluation, no bias; only everyday comparisons if needed.
+5. **Framing isolation:** Sentences 1–2 must describe the **same fixed setting** across all vignettes (same objects/places). Variation is allowed only in **how the district is organized** (sentences 3–8) as implied by the prototype.
+
+### Vignette structure (8 sentences each, similar word length)
+
+1) **Setting (fixed):** Describe the district’s everyday anchors using the same elements: housing blocks, mobility, food provisioning, energy/water. (Keep these one sentence as similar as possible across all seven.)
+2-3) **Coordination logic:** How decisions and coordination work (from core organizing principle).
+4) **Legitimation:** What counts as legitimate authority/justification.
+5–7) **Key factors in action:** Mention **exactly three** key factors shaping operations (one factor per sentence; no jargon).
+8) **Stability/tension:** One neutral sentence on what stabilizes the Utopian Prototype or what tension it must manage.
+
+### Output format
+
+Use headings only; no extra commentary:
+
+**[Prototype name]**
+Sentence 1 … Sentence 8.
+
+##### INPUT
+
+### **Moral Commonwealth (Anarchic) Utopia**
+
+**Definition**
+The **Moral Commonwealth (Anarchic) Utopia** (alternatively labeled **Moralia**) is a society formed by a "community of people so learned or so pious by nature that they require no external rules of conduct" because their actions are instinctively moral. Social coordination is achieved through "self-regulation" and a "code of categorical prescriptions, enforceable by conscience, not by coercion". It prioritizes the "moral reformation of every individual" to ensure that the "good person" and the "good citizen" are identical, behaving correctly without the need for external guidelines. Authority is legitimized not by state power, but by the "spontaneous morality" and "altruism" of humans who have been "reprogrammed and disciplined" to favor the common good over self-interest. This model envisions a "stateless, classless, decentralized society" where "voluntarism and self-discipline" replace command and the "tyranny of personal government".
+
+**Core organizing principle**
+The core organizing principle is the achievement of total social harmony through the internal moral perfection and self-restraint of individuals, which renders external laws and coercive state institutions redundant.
+
+**Key factors**
+*   **Internalized Ethics —** Direction: Radical "reform of human nature" to create "perfect moral agents" who cannot act against self-imposed ethical rules.
+*   **Regulatory Framework —** Direction: Total transition from "artificial laws" to "anarchistic" self-regulation guided by conscience rather than formal statutes.
+*   **Governance Scale —** Direction: "Absolute negation of the state" and large-scale bureaucracy in favor of decentralized, "face-to-face" general assemblies.
+*   **Resource Distribution —** Direction: Spontaneous "sharing of available resources" by altruistic individuals who have eliminated "competitive emulation".
+*   **Organizational Units —** Direction: Structuring society around "affinity groups" — collectives of intimate friends whose common interests form the basis of community.
+*   **Conflict Resolution —** Direction: Elimination of "intersubjective conflicts" through the removal of private property and the "moral reformation of every individual".
+*   **Incentive for Labor —** Direction: Transition from "extorted labour" to "voluntary and caring contributions" driven by "productive needs" and internal motivation.
+*   **Individual Autonomy —** Direction: Elevation of "libidinal upsurge" and liberated personal relations, where the individual is "governed only by his or her wishes" within a pro-social framework.
+
+
+### Institutional (Law-Based) Utopia: Definition and Key Factors
+
+**Definition**
+The **Institutional (Law-Based) Utopia** is an ideal society characterized by the "perfection of its legal, bureaucratic and formal structures" rather than the perfection of human nature. Society coordinates through a "complex legal network of such close mesh as to leave individuals with very little freedom of action" to prevent social disorder. It prioritizes the management of the "collective problem"—the gap between limited resources and potentially unlimited human desires—through sophisticated organizational systems. Authority is legitimized by a "perfect institutional framework of government" where the rulers are not above the law, ensuring that order is maintained even if citizens are not significantly better by nature. This model admits human nature is irreducibly imperfect and utilizes law as an "indispensable instrument for producing a radical transformation of society". Ultimately, it seeks to build a permanent political system that "resolves social problems and maintains social perfection for ever".
+
+**Core organizing principle**
+Society is organized around the **idealization of organization**, utilizing bureaucratic, educational, and legal systems to contain human transgression and rationally apportion a limited supply of material satisfactions.
+
+**Key factors**
+*   **Legal Simplification and Certainty —** Direction: Creation of a schematic system with few, understandable, and self-interpreting laws to eliminate the need for legal experts and ensure every citizen knows their duties.
+*   **Strict and Inexorable Enforcement —** Direction: Rigorous application of legal sanctions and "the formative power of discipline" to eliminate deviant behavior and ensure political obedience.
+*   **Comprehensive Hyper-regulation —** Direction: Normative intervention in all public and private actions from birth to death, operating on the principle that "if the law did not say expressly that you could do something, you could not do it".
+*   **Rational Distribution Systems —** Direction: Establishment of state-managed, regional distribution networks for goods ("artificial abundance") to resolve scarcity and remove the roots of unfair behavior.
+*   **Compulsory Social Labor —** Direction: Universal requirement for productive work (e.g., agricultural labor) to transform the environment and ensure collective prosperity.
+*   **Institutional Moral Conditioning —** Direction: Implementation of mandatory educational programs and state-supervised moral philosophy to mould citizens into "good subjects" who internalize the society's values.
+*   **Abolition of Private Property —** Direction: Total elimination of private ownership to remove motives for fraud, theft, and "competitive emulation".
+*   **Centralized State Authority —** Direction: Consolidation of power in a unitary state that tolerates no independent entities and enforces a uniform hierarchy of courts.
+
+
+### **Religious (Millennial) Utopia**
+
+**Definition**
+The **Religious (Millennial) Utopia** is a state of ideal existence where social and ecological harmony is achieved through the intervention of a *deus ex machina* or supernatural power that transforms both humanity and the natural environment. Society coordinates through a community of "angels"—rational beings who have undergone a fundamental change in nature to instinctively know what is right and behave accordingly. This model prioritizes spiritual satisfaction, core moral convictions, and a life restricted to "just the necessities" over material wealth, science, or technology. Authority is legitimized by the revealed will of a divine power or a charismatic figure, such as a Messiah or Mahdi, who defeats evil to establish a reign of justice. Ultimately, the society is characterized by an "End of Days" perspective where historical conflict is resolved and humanity returns to a primordial state of grace.
+
+**Core organizing principle**
+The core organizing principle is the miraculous transformation of human nature and the physical world by divine agency to eliminate the conflict between human desires and limited resources.
+
+**Key factors**
+*   **Supernatural Transition** — The sudden shift to an ideal state triggered by divine intervention rather than human political or social effort.
+*   **Internalized Morality** — The replacement of artificial legal institutions with an internal code of categorical prescriptions enforceable solely by conscience.
+*   **Divine Scarcity Resolution** — The miraculous achievement of parity between moderated human desires and the provisions of the natural world.
+*   **Spiritual Sufficiency** — A cultural state where citizens are satisfied with necessities and care for the environment while rejecting material maximization.
+*   **Eschatological Finality** — The belief in a "final end" or "End of Days" that gives purpose to earthly existence by fulfilling the promise of a Kingdom of God on earth.
+*   **Technological Marginalization** — A societal direction where scientific and technological tools are considered unimportant compared to religious piety.
+*   **Hierarchical Divine Guardianship** — The concentration of power in "God’s interpreters" or clerical authorities who govern mores rather than written statutes.
+*   **Restoration of Innocence** — The recovery of a "prelapsarian" state of nature and human virtue, returning society to its original state of peace.
+
+
+
+### Prototype Card: Modern Green Utopia
+
+**Definition**
+The Modern Green Utopia is an ecologically friendly, urbanised society characterized by peace, happiness, and a cityscape integrated with trees and plants. Society coordinates through "optimized social institutions" and "bottom-up governance" where residents directly participate in decision-making processes. It prioritizes "ecological modernization," utilizing "sustainable technology" and clean energy to overcome environmental crises while maintaining social viability. Authority is legitimized by "participative efficacy"—the strong belief that ordinary people have the agency to meaningfully construct and participate in their society. The social order is sustained by the "principle of sufficiency," which focuses on achieving "just enough" material comfort to eliminate poverty and inequality rather than seeking limitless growth.
+
+**Core organizing principle**
+The Modern Green Utopia is organized around the principle of ecological modernization and material sufficiency, reconciling technological advancement with planetary stewardship through participatory democratic institutions.
+
+**Key factors**
+*   **Ecological Modernization** — Inventive application of "clean energy sources and sustainable technology" to reconcile economic activity with environmental preservation.
+*   **Material Sufficiency** — Transitioning from material growth to a "moderation principle" that provides "just enough to share so that nobody lives in poverty".
+*   **Participative Efficacy** — High levels of social engagement driven by the belief that "ordinary people can help realize this version of society" through their own actions.
+*   **Urban-Nature Integration** — Design of "ecologically friendly urbanised" spaces where "people live alongside spaces provided for abundant plants and animals" that are carefully preserved.
+*   **Participatory Governance** — Implementation of "bottom-up governance of residents" to reduce hierarchies in decision-making and grant citizens greater influence over system changes.
+*   **Clean Energy Transition** — Total societal shift to reliance on "green technologies" such as solar and wind power to ensure a healthy environment free of pollution.
+*   **Social Benevolence** — Cultivation of a social fabric characterized by "greater interpersonal warmth, social progress, and positive emotion" among inhabitants.
+*   **Optimized Institutional Regulation** — Use of well-functioning "laws and institutions" to manage the balance between human desires and limited natural resources.
+
+
+
+### Primitivist (Arcadian) Utopia
+
+**Definition**
+The **Primitivist (Arcadian) Utopia** represents a vision of a simple, natural community where humanity lives in complete harmony with the natural environment [1020: Table 3]. Society coordinates itself through **anomia**, the hallmark absence of formal legal systems, as social perfection is achieved by the abolition of artificial rules and customary codes [20: 227]. **Human desires are prioritized for moderation**, assuming a level of "just enough" that matches the benevolent, non-hostile provisions of nature [25: 229, 450: xiii]. **Authority is non-existent or redundant**, as there are no rulers to exact obedience or institutions to create regulations; instead, behavior is regulated by basic necessities [21/23: 228]. This model is legitimized by a **transformed human nature** in which inhabitants are intrinsically virtuous and satisfy simple needs without friction or aspirations for material accumulation [23: 228, 1013: 4]. The vision often functions as a **nostalgic recovery** of an original "Golden Age" or a "prelapsarian" state of innocence and peace [3: 56, 8: 61].
+
+**Core organizing principle**
+Society is organized as an **anomic community of moderation** where human needs are reduced to a natural level of sufficiency to achieve spontaneous social and ecological balance [23: 228, 25: 229].
+
+**Key factors**
+*   **Material Demand —** Direction: Reduction of human wants to the level of the "barest necessities" to eliminate the scarcity gap [21/23: 228, 450: xiii].
+*   **Institutional Presence —** Direction: Total redundancy and elimination of the state, organized religion, and formal bureaucratic structures [21/23: 228, 483: 35].
+*   **Regulatory Framework —** Direction: Shift from artificial laws to **anomia**, where conduct is guided by spontaneous morality and the "tyranny of necessities" [20: 227, 24: 229].
+*   **Ecological Integration —** Direction: Transition from the domination of nature to a **non-exploitative coexistence** where humans are viewed as a humble part of a benevolent biosphere [25: 229, 583: 639].
+*   **Economic Growth Imperative —** Direction: Explicit rejection of material expansion in favor of **"degrowth"** and voluntary simplicity [23: 228, 1017: 9].
+*   **Technological Sophistication —** Direction: Preference for manual, pastoral existence and the **repudiation of technological artifice** associated with city-states [183: 267, 493: 49].
+*   **Social Relations —** Direction: Transition toward **liberated personal and domestic relations**, specifically the removal of state regulation over human sexuality [5: 58, 11: 65].
+*   **Temporal Orientation —** Direction: A **"backward glance"** toward recovering the peace and original wisdom of a lost Golden Age [3: 56, 8: 61].
+
+
+### **AI-Centered Utopia**
+
+**Definition**
+The **AI-Centered Utopia** (alternatively described as the **Futurist** or **Sci-Fi** utopia) is a technologically advanced society that prioritizes the use of immense energy sources and advanced automation to fulfill almost every possible human need and desire. In this world, social coordination is achieved by delegating repetitive, energy-intensive, and low-skill labor to machines, robots, and computers. This delegation precipitates a post-scarcity economy characterized by the principle of maximization, which focuses on increasing levels of leisure and material comfort. As material limitations are overcome, human activity is redirected away from toil toward high-skill creative pursuits, exploration, and self-enhancement. Authority is legitimized through the optimization of social institutions and legal frameworks designed to ensure the efficient operation of the technological system and the equitable distribution of its benefits.
+
+**Core organizing principle**
+Society is organized around the principle of material maximization, leveraging advanced science and autonomous technology to eliminate scarcity and liberate humanity from physical toil.
+
+**Key factors**
+*   **Level of Automation** — The total delegation of repetitive, energy-intensive, and low-skill production tasks to machines and robotic systems.
+*   **Energy Mastery** — The successful harnessing of immense energy sources, such as nuclear fusion, to sustain a high-output, abundant lifestyle.
+*   **Economic Transition** — The shift from currency-centric economics focused on capital to a post-scarcity economy focused on self-enhancement and use-values.
+*   **Institutional Governance** — The use of optimized laws and bureaucratic structures to regulate the development of AI and ensure the system functions for the common good.
+*   **Human Work Reorientation** — The movement of human activity toward high-skill, low-output sectors requiring creativity, education, and a personal touch.
+*   **Propertization of Technology** — The legal classification of advanced artifacts as either privately owned intellectual property or "public property from the machine".
+*   **Value Embedding** — The proactive and explicit coding of pro-social values, such as altruism and solidarity, directly into the design and infrastructure of technology.
+*   **Technological Accessibility** — The democratization of AI tools through open-source models to mitigate the concentration of power and distribute benefits widely.
+
+
+### Futurist Utopia: Definition and Key Factors
+
+**Definition**
+The **Futurist Utopia** is a technologically advanced society that resolves the "collective problem" of conflicting resources and human desires through the achievement of material abundance. Society coordinates through highly planned structures and sophisticated laws and institutions designed to ensure a well-functioning, sophisticated lifestyle. It prioritizes human self-actualization, creative pursuits, and the exploration of "strange new worlds" over the acquisition of wealth or capital accumulation. Authority is legitimized by a commitment to rationalism, egalitarian meritocracy, and the willingness to entrust the direction of society to scientific knowledge. Ultimately, this model envisions a humanity that has enlightened and transcended itself, exploiting immense energy sources to fulfill almost every possible need.
+
+**Core Organizing Principle**
+The core organizing principle is the systematic application of advanced science, technology, and optimized institutional planning to achieve a post-scarcity state of material abundance and social order.
+
+**Key Factors**
+*   **Post-Scarcity Technology** — Accelerated advancement in artificial intelligence, robotics, and nanotechnology to precipitate an era free of material limitations.
+*   **Economic Transition** — Abandonment of currency-based economics and the " economic problem" of subsistence in favor of a philosophy of self-enhancement.
+*   **Automated Production** — Total removal of human labor requirements from material reproduction via the "ultimate labor-saving technology" of matter synthesis.
+*   **Egalitarian Meritocracy** — Social organization based on mutual benefits, tolerance, and status derived from personal achievement rather than discretionary spending.
+*   **Scientific Direction** — Collective willingness to entrust the direction of major societal concerns to science and technological elites.
+*   **Maximization Principle** — Pursuit of a "maximal ideal society" characterized by ever-increasing levels of material comfort, leisure, and sophisticated appliances.
+*   **Global/Interstellar Governance** — Coordination of diverse civilizations through a centralized, galaxy-spanning framework focused on social and economic improvement.
+*   **Decoupling of Status and Property** — Social reforms that separate property ownership from social recognition and respect, ending "conspicuous consumption".
+
+
+## Futurist Utopia
+
+**A. Core organizing principle (max 2 sentences)**
+Society coordinates through continuous scientific/technological innovation and rational planning, using technical mastery to overcome scarcity and optimize material well-being. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+Authority and legitimacy flow from science- and technology-enabled institutions/laws that keep a technologically advanced society “well-functioning,” rather than from morality or religion. (10.108010463283.2025.2458961.pdf, p. 23). 
+
+**B. Key factors (up to 8 bullet points)**
+
+* Science/innovation capacity — continuous innovation is the primary mechanism for solving collective problems. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Technological advancement level — advanced technology is central for meeting needs and desires. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Rational planning intensity — coordination relies on rational planning and optimization. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Material well-being optimization — explicit priority on optimizing material well-being/comfort. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Progress/maximization orientation — societal direction emphasizes progress and maximization. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Institutional/law scaffolding — laws and institutions are constructed to ensure a well-functioning, advanced society. (10.108010463283.2025.2458961.pdf, p. 23). 
+* AI use for need-fulfillment — AI is used to fulfill human needs and desires within the technological society. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Energy/technical infrastructure scale — “immense energy sources” and high-capacity infrastructure enable the envisioned system. (10.108010463283.2025.2458961.pdf, p. 23). 
+
+---
+
+## AI-Centered Utopia
+
+**A. Core organizing principle (max 2 sentences)**
+Society coordinates primarily through AI-centered governance and decision-making, using data-driven allocation and algorithmic optimization to manage complexity beyond human institutional limits. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+Authority is legitimized by efficiency, coordination gains, and reduced human bias achieved via AI systems that steer resource allocation and social order. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+
+**B. Key factors (up to 8 bullet points)**
+
+* AI governance centrality — AI is central to governance and coordination rather than ancillary. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Decision-making architecture — algorithmic decision-making guides societal choices and allocations. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Resource allocation regime — data-driven allocation is used for distributing resources. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Optimization objective — societal coordination is framed as algorithmic optimization. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Efficiency/coordination level — coordination efficiency is a defining performance criterion. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Human bias reduction — reduced human bias is an explicit design outcome of AI governance. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Complexity management capacity — AI manages large-scale societal complexity beyond human institutional limits. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+
+---
+
+## Primitivist (Arcadian) Utopia
+
+**A. Core organizing principle (max 2 sentences)**
+Society coordinates through low-technology, small-scale communal organization and sufficiency-based living in close harmony with nature. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+Authority is minimized because the model assumes reduced need for formal rules/institutions, with contentment grounded in “just the necessities of life” taken from the natural environment. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17; 10.108010463283.2025.2458961.pdf, p. 23).
+
+**B. Key factors (up to 8 bullet points)**
+
+* Technological reliance — minimal technology and low technological reliance define the system. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Living standard — simple living organized around sufficiency rather than excess. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Human–nature relation — harmony with nature structures daily life and collective expectations. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Scale of social organization — small-scale communal organization is the dominant form. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Institutionalization level — low institutionalization reduces the need for formal rules. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Moral self-regulation — people follow their “core moral beliefs” as part of the societal profile. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Resource extraction norm — people “only ever take what they need” from the environment. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Role of laws/institutions — there are “some laws and institutions,” but they are limited relative to other models. (10.108010463283.2025.2458961.pdf, p. 23). 
+
+---
+
+## Modern Green Utopia
+
+**A. Core organizing principle (max 2 sentences)**
+Society coordinates around ecological sustainability combined with economic security, using selectively adopted (green) technology to maintain long-term human–nature balance while avoiding poverty. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+Authority and legitimacy rest on institutions and shared moral commitments that enable a well-functioning, ecologically friendly society with enough resources shared so that nobody lives in poverty. (10.108010463283.2025.2458961.pdf, p. 23). 
+
+**B. Key factors (up to 8 bullet points)**
+
+* Ecological sustainability target — environmental protection is a primary societal goal. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Technology policy — selective/green technology adoption supports sustainability aims. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17; 10.108010463283.2025.2458961.pdf, p. 23).
+* Moderation/sufficiency orientation — moderation (sufficiency rather than excess) is the guiding consumption principle. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Economic security — stable prosperity and low poverty/absence of poverty are explicit outcomes. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17; 10.108010463283.2025.2458961.pdf, p. 23).
+* Resource-sharing sufficiency — “enough resources to share” so nobody lives in poverty. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Urban ecological form — ecologically friendly, urbanised cityscape with biodiversity/greenery. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Institutional design for functioning — laws and institutions are set up to ensure a well-functioning society. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Moral emphasis — morality is identified as important in this profile. (10.108010463283.2025.2458961.pdf, p. 23). 
+
+---
+
+## Religious (Millennial) Utopia
+
+**A. Core organizing principle (max 2 sentences)**
+Society coordinates around transcendent moral authority and shared religious beliefs, with social order and collective well-being secured through divine guidance and spiritually grounded norms. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+Authority is legitimized by religion’s pivotal role and (often) supernatural transformation/resolution of societal limitations rather than by science/technology or extensive institutions. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17; 10.108010463283.2025.2458961.pdf, p. 23).
+
+**B. Key factors (up to 8 bullet points)**
+
+* Transcendent authority — divine/transcendent authority structures legitimacy and order. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Religious norm system — shared religious norms define acceptable conduct and coordination. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Spiritual transformation — spiritual transformation is a core mechanism for social order. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Moral order grounded in faith — morality is explicitly grounded in religious faith. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Supernatural resolution — supernatural powers/true believers transform society and the natural world. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Technology marginality — science and technology are described as unimportant. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Institutional minimalism — laws and institutions “play a small part” relative to religion/morality. (10.108010463283.2025.2458961.pdf, p. 23). 
+* Sufficiency/contentment — people are “satisfied with what they have,” aligning the profile with sufficiency. (10.108010463283.2025.2458961.pdf, p. 23). 
+
+---
+
+## Institutional (Law-Based) Utopia
+
+**A. Core organizing principle (max 2 sentences)**
+Society coordinates through robust, legitimate institutions and clear legal frameworks that regulate behavior, coordinate collective life, and guarantee fairness/welfare/stability while assuming persistent human imperfection. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+Authority is legitimized by the rule of law—external behavioral regulation with enforceable sanctions—aiming at stability/predictability and a “government of laws” rather than persons. (Profiles_of_an_Ideal_Society_2_0-26.pdf, pp. 17, 14).
+
+**B. Key factors (up to 8 bullet points)**
+
+* Formal institutions strength — formal institutions are central instruments of coordination. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Rule-of-law clarity — clear legal frameworks structure collective life. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* External behavioral regulation — behavior is regulated externally rather than by perfect moral agency. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17; p. 14).
+* Enforceable sanctions — enforceable sanctions are a defining regulatory tool. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Stability/predictability — stability and predictability are explicit institutional outcomes. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Government of laws principle — legitimacy depends on rulers not being above the law (anti–arbitrary rule). (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 14). 
+* Legal-code simplicity/accessibility — the ideal legal system is described as extremely simple, accessible, and written in common language. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 14). 
+* Human imperfection assumption — institutions are built assuming enduring human imperfection. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+
+---
+
+## Moral Commonwealth (Anarchic) Utopia
+
+**A. Core organizing principle (max 2 sentences)**
+Society coordinates through internalized moral commitment and pro-social dispositions, so cooperation and order emerge without reliance on coercive institutions or technological control. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+Authority is minimized because regulation is primarily conscience-based, enabling voluntary cooperation/resource sharing and reducing the need for formal governance (anomic tendencies). (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+
+**B. Key factors (up to 8 bullet points)**
+
+* Intrinsic morality/altruism — intrinsic moral/pro-social dispositions are assumed as the backbone of order. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Internalized regulation — conscience-based regulation substitutes for external enforcement. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Voluntary cooperation — cooperation is voluntary rather than coerced. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Voluntary resource sharing — resource sharing is voluntary/spontaneous rather than administered by institutions. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Low coercion — coercive mechanisms are minimized as a design feature. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Minimal formal authority — formal governance structures are minimized (anomic tendencies). (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 
+* Absence of technological control — social order does not depend on technological control systems. (Profiles_of_an_Ideal_Society_2_0-26.pdf, p. 17). 

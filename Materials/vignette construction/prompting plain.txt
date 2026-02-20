@@ -1,3 +1,139 @@
+scan through my PDFs multiple times and extract for each of the following seven Utopian Prototypes:
+
+Futurist Utopia
+AI-Centered Utopia
+Primitivist (Arcadian) Utopia
+Modern Green Utopia
+Religious (Millennial) Utopia
+Institutional (Law-Based) Utopia
+Moral Commonwealth (Anarchic) Utopia
+
+For each prototype, produce:
+
+A. Core organizing principle (max 2 sentences)
+- State the central logic (how society coordinates, what is prioritized, what legitimizes authority).
+- Keep it analytical (no storytelling).
+
+B. Key factors (up to 8 bullet points)
+- Provide variables/parameters/trends/developments/events that would be central in a scenario process (i.e., high leverage for shaping and differentiating futures).
+- Write each bullet as “Factor — short descriptor of direction/state” (e.g., “Governance architecture — algorithmic adjudication replaces courts”).
+- Avoid overlap; ensure factors are distinct and operationalizable.
+- Evidence rule: Every sentence/bullet must be supported with an inline citation to the PDFs (page number or clear location), and you must not introduce concepts not grounded in the PDFs.
+
+Output format: headings per prototype; no extra commentary.
+
+________________________________________
+
+
+- Utopia_Prototype label: {{aaaa}}
+
+Use ONLY the PDFs in this notebook. No external knowledge.
+Every sentence and every bullet must include an inline citation (source + page/section). If evidence is missing, write: “Insufficient evidence in provided sources.”
+
+Output (for {{Utopia_Prototype}})
+- Definition (4–6 sentences): what it is in the sources (how society coordinates, what is prioritized, what legitimizes authority).
+- Core organizing principle (1 sentence).
+- Key factors (up to 8 bullet points):
+* Provide variables/parameters/trends/developments/events that would be central in a scenario process (i.e., high leverage for shaping and differentiating futures).
+* Write each bullet as “Factor — short descriptor of direction/state”.
+* Avoid overlap; ensure factors are distinct and operationalizable.
+* Evidence rule: Every sentence/bullet must be supported with an inline citation to the PDFs (page number or clear location), and you must not introduce concepts not grounded in the PDFs.
+
+
+________________________________________
+
+scan through information retrieved from Retrieval Augmented Generation system below multiple times and extract for each of the following seven Utopian Prototypes:
+
+Futurist Utopia
+AI-Centered Utopia
+Primitivist (Arcadian) Utopia
+Modern Green Utopia
+Religious (Millennial) Utopia
+Institutional (Law-Based) Utopia
+Moral Commonwealth (Anarchic) Utopia
+
+the following:
+FIRST:
+- identifiy important arguments for the Core organizing principle:
+* central logic (how society coordinates, what is prioritized, what legitimizes authority)
+- identifiy important arguments for the Key factors:
+* variables/parameters/trends/developments/events that would be central in a scenario process (i.e., high leverage for shaping and differentiating futures)
+* Avoid overlap; ensure factors are distinct and operationalizable
+
+SECOND:
+- incorporayte these in the seven Utopian Prototypes and improve these
+- Evidence rule: Every sentence/bullet must be supported, and you must not introduce concepts not grounded in the information below.
+
+Output format: headings per prototype; no extra commentary.
+
+### RAG output:
+
+
+
+________________________________________
+
+
+
+You are about to receive structured information for **seven Utopian Prototypes** (core organizing principle + key factors + supporting arguments) extracted from my PDFs and RAG system. Follow the instructions exactly.
+
+**Objective:** Generate **seven scenario vignettes** for psychological framing research. The **setting must be identical** across all vignettes; the **Utopian Prototype must differ significantly** (via coordination logic, legitimacy, and key factors).
+**Your Persona:** Expert scenario researcher (futures studies), writing for a general audience; rigorous, traceable, controlled variation.
+
+### Fixed setting (use verbatim in every vignette; do not change facts)
+
+All vignettes take place in **the same place and time**:
+**A mid-21st-century city-district (~50,000 residents) rebuilding after years of overlapping crises (resource pressure, institutional strain, social conflict).**
+The district has **shared housing blocks, a mobility network, food provisioning points, energy/water infrastructure, and a local decision forum**. Daily life is stable enough to describe, but the district is reorganized under a new social model.
+
+### Inputs you will receive
+
+For each prototype:
+
+* **Core organizing principle** (and key arguments)
+* **Key factors** (and key arguments)
+* Optional: short supporting excerpts
+
+### Task
+
+For each prototype below, write **one vignette**:
+
+* Futurist Utopia
+* AI-Centered Utopia
+* Primitivist (Arcadian) Utopia
+* Modern Green Utopia
+* Religious (Millennial) Utopia
+* Institutional (Law-Based) Utopia
+* Moral Commonwealth (Anarchic) Utopia
+
+### Hard constraints (strict)
+
+1. **Use ONLY the provided inputs** for each prototype. No external knowledge, no added assumptions.
+2. **Every sentence must be grounded** in the provided inputs. If a needed element is missing, write: **“Insufficient evidence in provided inputs.”**
+3. **Controlled format:** exactly **8 sentences** per vignette and follow the structure below.
+4. **Controlled style:** lay language, no jargon, no persuasion, no moral evaluation, no bias; only everyday comparisons if needed.
+5. **Framing isolation:** Sentences 1–2 must describe the **same fixed setting** across all vignettes (same objects/places). Variation is allowed only in **how the district is organized** (sentences 3–8) as implied by the prototype.
+
+### Vignette structure (8 sentences each, similar word length)
+
+1) **Setting (fixed):** Describe the district’s everyday anchors using the same elements: housing blocks, mobility, food provisioning, energy/water. (Keep these one sentence as similar as possible across all seven.)
+2-3) **Coordination logic:** How decisions and coordination work (from core organizing principle).
+4) **Legitimation:** What counts as legitimate authority/justification.
+5–7) **Key factors in action:** Mention **exactly three** key factors shaping operations (one factor per sentence; no jargon).
+8) **Stability/tension:** One neutral sentence on what stabilizes the Utopian Prototype or what tension it must manage.
+
+### Output format
+
+Use headings only; no extra commentary:
+
+**[Prototype name]**
+Sentence 1 … Sentence 8.
+
+##### INPUT
+
+[Paste my compiled results for all seven prototypes here.]
+
+
+________________________________________
 ________________________________________
 
 - Utopia_Prototype label: {{Modern Green Utopia}}
