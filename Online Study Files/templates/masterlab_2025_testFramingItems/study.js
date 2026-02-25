@@ -13,15 +13,10 @@ var numElementsCounter = 0;
 var URLparams_global;
 var paracountclicks = 0;
 
-var framingCondition = "neutral"; // default
+var futureSocietyCondition = "neutral"; // default
 
-var orderSurveys_Ecological_First = true; // default
-var orderSurveys_Bioinspiration_First = false; // default
-
-var technologyConditon = "Self-Shading Facade" // Self-Shading Facade OR Soft Walker Robot 
-
-
-
+var nameFutureSociety = "described future society"; // Self-Shading Facade OR Soft Walker Robot
+var codingFutureSociety = futureSocietyCondition;
 
 /* 
 ################### Start of Study ###################
@@ -39,11 +34,11 @@ const Greetings_htmlForm = new lab.html.Form({
         ) {
           alert(
             "It seems that your screen size you are using is smaller than 1200x700 pixels (height x width):\n" +
-            "> your screen width: " +
-            study.state.meta.screen_width +
-            " your screen height: " +
-            study.state.meta.screen_height +
-            "\nStudy is aborted!"
+              "> your screen width: " +
+              study.state.meta.screen_width +
+              " your screen height: " +
+              study.state.meta.screen_height +
+              "\nStudy is aborted!"
           );
           jatos.abortStudy("study aborted - screen to small");
         }
@@ -72,28 +67,14 @@ const Greetings_htmlForm = new lab.html.Form({
             URLparams_global.PROLIFIC_PID
           );
 
-
-          if (typeof URLparams_global.framingCondition != "undefined") {
+          if (typeof URLparams_global.futureSocietyCondition != "undefined") {
             // overwrite global variable:
-            framingCondition = URLparams_global.framingCondition;
-            // store framing condition
+            futureSocietyCondition = URLparams_global.futureSocietyCondition;
+            // store futureSocietyCondition condition
             study.options.datastore.set(
-              "framingCondition",
-              URLparams_global.framingCondition
+              "futureSocietyCondition",
+              URLparams_global.futureSocietyCondition
             );
-
-            // update skip condition
-            if (framingCondition == "neutral") {
-              const ecologicalFirst = Math.random() < 0.5;
-              orderSurveys_Ecological_First = ecologicalFirst;
-              orderSurveys_Bioinspiration_First = !ecologicalFirst;
-            } else if (framingCondition == "bioinspired") {
-              orderSurveys_Ecological_First = false;
-              orderSurveys_Bioinspiration_First = true;
-            } else if (framingCondition == "sustainable") {
-              orderSurveys_Ecological_First = true;
-              orderSurveys_Bioinspiration_First = false;
-            }
           }
         }
       }
@@ -141,7 +122,7 @@ const ExclusionCriteria_htmlForm = new lab.html.Form({
   title: "ExclusionCriteria",
   content: textObj.exclusionCriteria,
   messageHandlers: {
-    run: function anonymous() { },
+    run: function anonymous() {},
     commit: () => {
       // progress bar
       numElementsCounter++;
@@ -166,7 +147,7 @@ const AttentionCheck_htmlForm = new lab.html.Form({
   title: "AttentionCheck",
   content: textObj.attentionCheck,
   messageHandlers: {
-    run: function anonymous() { },
+    run: function anonymous() {},
     commit: () => {
       var attCheck_array = [];
       $("fieldset :checkbox").each(function () {
@@ -213,7 +194,81 @@ const SetupStudy_htmlForm = new lab.html.Form({
   },
 });
 
+/* 
+################### Scenario Text ###################
+*/
+const different_futureSocieties = {
+  neutral: {
+    Vignette: "neutral",
+    Vignette_header: "Self-Shading Facade",
+    Vignette_text1:
+      "The Self-Shading Facade is a recent development in innovative materials for architecture. Its surface is made up of hundreds of small, curved modules suspended across window frames.",
+    Vignette_text2:
+      "These modules are made of layered materials that bend in response to changing humidity. As humidity rises or falls, the facade’s individual elements autonomously curl or flatten, adjusting how much light and heat pass through. The movement is driven by the structure of the materials themselves, without the need for motors or electronics.",
+    Vignette_text3:
+      "This technology contributes to innovative architecture materials and building energy regulation. It is a <b>functional system designed using recent advances in materials science</b>.",
+  },
+  bioinspired: {
+    Vignette: "bioinspired",
+    Vignette_header: "Self-Shading Facade",
+    Vignette_text1:
+      "The Self-Shading Facade is a recent development in innovative materials for architecture. Its surface is made up of hundreds of small, curved modules suspended across window frames.",
+    Vignette_text2:
+      "These modules are made of layered materials that bend in response to changing humidity. The design draws inspiration from natural plant structures, particularly pine cones, which open and close in response to humidity. The layers are inspired by how cellulose fibers are arranged in these plants to guide the direction of bending.",
+    Vignette_text3:
+      "This technology brings ideas from the natural world into architectural innovation. Its <b>function and movement are grounded in biomimetic design</b>.",
+  },
+  sustainable: {
+    Vignette: "sustainable",
+    Vignette_header: "Self-Shading Facade",
+    Vignette_text1:
+      "The Self-Shading Facade is a recent development in innovative materials for architecture. Its  surface is made up of hundreds of small, curved modules suspended across window frames.",
+    Vignette_text2:
+      "These modules are made of layered materials that react to humidity changes without needing external energy. Their composition helps reduce reliance on synthetic or carbon-intensive materials. Because the facade adjusts shading based on weather, it offers a way to reduce energy use  in buildings.",
+    Vignette_text3:
+      "This technology supports climate-friendly architectural innovation and resource efficiency. Its <b>passive, energy-autonomous operation reflects sustainable design principles</b>.",
+  },
+};
 
+// Transition from AIT to survey scales
+const ScenarioText_htmlForm = new lab.html.Form({
+  title: "Scenario Text",
+  content: textObj.ScenarioText,
+  messageHandlers: {
+    run: () => {
+      // overwrite text:
+      const currentSociety = different_futureSocieties[futureSocietyCondition];
+
+      $("#vignette_title").html(currentSociety.Vignette_header);
+      $("#vignette_first").html(currentSociety.Vignette_text1);
+      $("#vignette_second").html(currentSociety.Vignette_text2);
+      $("#vignette_third").html(currentSociety.Vignette_text3);
+
+      // hide submit button
+      document.querySelector("button").style.visibility = "hidden";
+      setTimeout(
+        () => (document.querySelector("button").style.visibility = "visible"),
+        15000 // 15000 (15 seconds)
+      );
+    },
+    commit: () => {
+      // progress bar
+      numElementsCounter++;
+      document.querySelector(".progress-bar").style.width =
+        (numElementsCounter / numElements) * 100 + "%";
+
+      if (typeof jatos.jQuery === "function") {
+        // If JATOS is available, send data there
+        var resultJson = study.options.datastore.exportJson();
+        console.log("result data sent to JATOS");
+        jatos
+          .submitResultData(resultJson)
+          .then(() => console.log("success"))
+          .catch(() => console.log("error"));
+      }
+    },
+  },
+});
 
 /* 
 ################### Association Task: Mini Snowball word association task ###################
@@ -242,7 +297,6 @@ const TransitionToAIT_htmlForm = new lab.html.Form({
   },
 });
 
-
 // task
 let global_counterInner = 0;
 let global_counterOuter = 0;
@@ -261,8 +315,6 @@ const text = new lab.html.Screen({
   },
 });
 
-
-
 const updateParams_inner_before = new lab.html.Screen({
   title: "updateParams inner before AT",
   content: `
@@ -271,6 +323,9 @@ const updateParams_inner_before = new lab.html.Screen({
   messageHandlers: {
     run: () => {
       AT_Snowball_Boolean = true; // set boolean to true
+
+      // do not show affective imagery rating after first round
+      boolSkipAffectImgRating = true;
     },
   },
 });
@@ -283,8 +338,6 @@ const updateParams_inner_after = new lab.html.Screen({
   messageHandlers: {
     run: () => {
       global_counterInner++;
-
-      AT_Snowball_Boolean = false; // set boolean to true
     },
   },
 });
@@ -308,7 +361,7 @@ const loopInner = new lab.flow.Loop({
   ],
   sample: {
     mode: "draw-shuffle",
-    n: "5",
+    n: "1",
   },
 });
 
@@ -330,7 +383,6 @@ const updateParams_outer = new lab.html.Screen({
         sucsessfulAssociations
       );
 
-
       global_counterOuter++;
       global_counterInner = 0; // reset inner counter
 
@@ -340,7 +392,6 @@ const updateParams_outer = new lab.html.Screen({
     },
   },
 });
-
 
 let instructionsResetDone_AT_Snowball = false; // <-- flag to track if reset has happened
 
@@ -364,7 +415,6 @@ const updateText_Inst_AT_Snowball = new lab.html.Screen({
   },
 });
 
-
 const updateText_Task_AT_Snowball = new lab.html.Screen({
   title: "Update Text AT Snowball Task",
   content: `
@@ -377,6 +427,25 @@ const updateText_Task_AT_Snowball = new lab.html.Screen({
   },
 });
 
+// !!!
+const beforeSecondOrderAssociations_htmlForm = new lab.html.Form({
+  title: "before second order associations",
+  content: textObj.beforeSecondOrderAssociations,
+  skip: "${ hasShownBeforeSecondOrderAssociations }",
+  messageHandlers: {
+    run: function anonymous() {
+      if (studyCondition_global == "PersonnelSelection") {
+        $("#scenarioText").html(
+          "Ein Mensch beaufsichtigt KI, die Personalauswahl durchführt."
+        );
+      } else {
+        $("#scenarioText").html(
+          "Ein Mensch beaufsichtigt KI, die medizinische Diagnostik durchführt."
+        );
+      }
+    },
+  },
+});
 
 const SequenceTestOuter = new lab.flow.Sequence({
   title: "Sequence Test Outer",
@@ -386,19 +455,18 @@ const SequenceTestOuter = new lab.flow.Sequence({
     AIT_AT_Inst_htmlForm,
     updateText_Task_AT_Snowball,
     AffectiveImagery_htmlForm,
-    loopInner,
-    updateParams_outer
+    AffectiveImageryAffect_htmlForm,
+    // beforeSecondOrderAssociations_htmlForm,
+    // loopInner,
+    updateParams_outer,
   ],
 });
-
-
 
 const loopOuter = new lab.flow.Loop({
   template: SequenceTestOuter,
   templateParameters: [
     {
-      cue: "Person with <strong>overweight</strong>",
-      cue_coding: "overweight",
+      not_needed2: "",
     },
   ],
   sample: {
@@ -407,60 +475,15 @@ const loopOuter = new lab.flow.Loop({
   },
 });
 
-
-
-
 /* 
-################### Scenario Text ###################
+################### Survey Scales ###################
 */
-const framings_SRW = {
-  neutral: {
-    Vignette: "neutral",
-    Vignette_header: "Self-Shading Facade",
-    Vignette_text1: "The Self-Shading Facade is a recent development in innovative materials for architecture. Its surface is made up of hundreds of small, curved modules suspended across window frames.",
-    Vignette_text2: "These modules are made of layered materials that bend in response to changing humidity. As humidity rises or falls, the facade’s individual elements autonomously curl or flatten, adjusting how much light and heat pass through. The movement is driven by the structure of the materials themselves, without the need for motors or electronics.",
-    Vignette_text3: "This technology contributes to innovative architecture materials and building energy regulation. It is a <b>functional system designed using recent advances in materials science</b>.",
-  },
-  bioinspired: {
-    Vignette: "bioinspired",
-    Vignette_header: "Self-Shading Facade",
-    Vignette_text1: "The Self-Shading Facade is a recent development in innovative materials for architecture. Its surface is made up of hundreds of small, curved modules suspended across window frames.",
-    Vignette_text2: "These modules are made of layered materials that bend in response to changing humidity. The design draws inspiration from natural plant structures, particularly pine cones, which open and close in response to humidity. The layers are inspired by how cellulose fibers are arranged in these plants to guide the direction of bending.",
-    Vignette_text3: "This technology brings ideas from the natural world into architectural innovation. Its <b>function and movement are grounded in biomimetic design</b>."
-  },
-  sustainable: {
-    Vignette: "sustainable",
-    Vignette_header: "Self-Shading Facade",
-    Vignette_text1: "The Self-Shading Facade is a recent development in innovative materials for architecture. Its  surface is made up of hundreds of small, curved modules suspended across window frames.",
-    Vignette_text2: "These modules are made of layered materials that react to humidity changes without needing external energy. Their composition helps reduce reliance on synthetic or carbon-intensive materials. Because the facade adjusts shading based on weather, it offers a way to reduce energy use  in buildings.",
-    Vignette_text3: "This technology supports climate-friendly architectural innovation and resource efficiency. Its <b>passive, energy-autonomous operation reflects sustainable design principles</b>."
-  }
-}
 
-
-
-// Transition from AIT to survey scales
-const ScenarioText_htmlForm = new lab.html.Form({
-  title: "Scenario Text",
-  content: textObj.ScenarioText,
+const understandingText_htmlForm = new lab.html.Form({
+  title: "understandingText",
+  content: textObj.understandingText,
   messageHandlers: {
-    run: () => {
-      // overwrite text:
-      const currentFraming = framings_SRW[framingCondition];
-
-      $("#vignette_title").html(currentFraming.Vignette_header);
-      $("#vignette_first").html(currentFraming.Vignette_text1);
-      $("#vignette_second").html(currentFraming.Vignette_text2);
-      $("#vignette_third").html(currentFraming.Vignette_text3);
-
-      // hide submit button
-      document.querySelector("button").style.visibility = "hidden";
-      setTimeout(
-        () => (document.querySelector("button").style.visibility = "visible"),
-        15000 // 15000 (15 seconds)
-      );
-    },
-    commit: () => {
+    commit: function anonymous() {
       // progress bar
       numElementsCounter++;
       document.querySelector(".progress-bar").style.width =
@@ -469,7 +492,6 @@ const ScenarioText_htmlForm = new lab.html.Form({
       if (typeof jatos.jQuery === "function") {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
-        console.log("result data sent to JATOS");
         jatos
           .submitResultData(resultJson)
           .then(() => console.log("success"))
@@ -479,106 +501,161 @@ const ScenarioText_htmlForm = new lab.html.Form({
   },
 });
 
-
-/* 
-################### Survey Scales ###################
-*/
-
-// >>> Perceived ecological dimension 
-const EcologicalDimension_Scale_htmlForm = new lab.html.Page({
-  title: "Ecological Dimension Scale",
-  items: [
-    {
-      required: Required_Testing,
-      type: "likert",
-      items: items_Ecology,
-      width: "7",
-      anchors: [
-        "I strongly disagree",
-        "I moderately disagree",
-        "I<br>slightly disagree",
-        "neutral",
-        "I slightly agree",
-        "I moderately agree",
-        "I strongly agree",
-      ],
-      label: "Answer the following statements and indicate to what extent you agree with them.",
-      help: "Please answer each statement, even if you're not entirely sure what your answer should be.",
-      shuffle: false,
-      name: "EcologicalDimension",
-    },
-  ],
-  submitButtonText: "Continue →",
-  submitButtonPosition: "right",
-  width: "l",
+const quesClearBiasUtopia_htmlForm = new lab.html.Form({
+  title: "quesClearBiasUtopia",
+  content: textObj.postClearBias, // or rename if you create a new text object
   messageHandlers: {
     run: function anonymous() {
-      // overwrite technology placeholder
-      $('[id="techname"]').each(function () {
-        $(this).text(technologyConditon);
+      $("#hideClearUtopiatext").hide();
+      $("#hideBiasUtopiatext").hide();
+
+      $("#clearUtopia").on("input", () => {
+        var tmpValue = $("#clearUtopia option:selected")[0].value;
+
+        if (tmpValue <= 2) {
+          $("#hideClearUtopiatext").show();
+        } else {
+          $("#hideClearUtopiatext").hide();
+        }
       });
 
-      // add id to button
-      $('button[type="submit"][form="page-form"]').attr('id', 'continue');
+      $("#biasUtopia").on("input", () => {
+        var tmpValue2 = $("#biasUtopia option:selected")[0].value;
 
-      // adjust size of scale
-      document.querySelectorAll("div")[0].classList = ["text-left"];
-      document.querySelectorAll("main")[1].classList = ["w-xxl"];
-      document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
-     <col style=\"width: 43%\">
-     <col style=\"width: 7%\">
-     <col style=\"width: 7%\">
-      <col style=\"width: 7%\">
-      <col style=\"width: 7%\">
-      <col style=\"width: 7%\">
-      <col style=\"width: 7%\">
-      <col style=\"width: 7%\">
-     `;
-      // sticky labels to front
-      $("thead").first().css("z-index", "20");
-      // collect paradata
-      paracountclicks = 0;
-      document.querySelectorAll("input").forEach((item) => {
-        item.addEventListener("click", (event) => {
-          paracountclicks++;
-          console.log("input clicked", paracountclicks);
-        });
+        if (tmpValue2 != 2) {
+          $("#hideBiasUtopiatext").show();
+        } else {
+          $("#hideBiasUtopiatext").hide();
+        }
       });
     },
-    end: function anonymous() {
-      // collect paradata: number of clicks
-      let numberitems = document.querySelectorAll("tbody tr").length;
-      paracountclicks -= numberitems;
-      study.options.datastore.set("para_countclicks", paracountclicks);
-    },
+
     commit: function anonymous() {
       // progress bar
       numElementsCounter++;
+      document.querySelector(".progress-bar").style.width =
+        (numElementsCounter / numElements) * 100 + "%";
+
+      if (typeof jatos.jQuery === "function") {
+        // If JATOS is available, send data there
+        var resultJson = study.options.datastore.exportJson();
+        jatos
+          .submitResultData(resultJson)
+          .then(() => console.log("success"))
+          .catch(() => console.log("error"));
+      }
     },
   },
 });
 
+// lab.js component for Utopian Prototype assignment task
+const quesPrototypeAssign_htmlForm = new lab.html.Form({
+  title: "quesPrototypeAssign",
+  content: textObj.assignmentTask, // <-- set this to the HTML string above
+  messageHandlers: {
+    run: function () {
+      $(document).off(".protoAssign");
+      $("#protoAssignForm").off(".protoAssign");
 
-// >>> Perceived bioinspiration
-const Bioinspiration_Scale_htmlForm = new lab.html.Page({
-  title: "Bioinspiration Scale",
+      // jQuery UI styling (optional)
+      if ($.fn.checkboxradio) {
+        $("#protoRadioGroup input[type='radio']").checkboxradio();
+        $("#protoConfidenceGroup input[type='radio']").checkboxradio({
+          icon: false,
+        });
+      }
+
+      // Hide optional follow-up initially
+      $("#hideProtoReason").hide();
+
+      // ---------- Confidence radio handling ----------
+      // Ensure hidden confidence field has default value
+      const initialConf =
+        $("input[name='protoConfidenceRadio']:checked").val() || "4";
+      $("#protoConfidence").val(initialConf);
+
+      // Show/hide follow-up based on initial value
+      if (Number(initialConf) <= 3) {
+        $("#hideProtoReason").show();
+      } else {
+        $("#hideProtoReason").hide();
+        $("#protoReasonText").val("");
+      }
+
+      // Delegated handler works reliably with jQuery UI
+      $(document).on(
+        "change.protoAssign",
+        "input[name='protoConfidenceRadio']",
+        function () {
+          const conf = Number($(this).val());
+          $("#protoConfidence").val(String(conf));
+          console.log("Confidence selected:", conf);
+
+          if (conf <= 3) {
+            $("#hideProtoReason").show();
+          } else {
+            $("#hideProtoReason").hide();
+            $("#protoReasonText").val("");
+          }
+        }
+      );
+
+      // ---------- Form validation ----------
+      $("#protoAssignForm").on("submit.protoAssign", function (e) {
+        if (!$("input[name='utopiaPrototypeAssignment']:checked").length) {
+          e.preventDefault();
+          alert("Please select the Utopian Prototype that fits best.");
+          return false;
+        }
+
+        if (!$("input[name='protoConfidenceRadio']:checked").length) {
+          e.preventDefault();
+          alert("Please select how confident you are in your choice.");
+          return false;
+        }
+      });
+    },
+
+    commit: function () {
+      // progress bar (same pattern as your other pages)
+      numElementsCounter++;
+      document.querySelector(".progress-bar").style.width =
+        (numElementsCounter / numElements) * 100 + "%";
+
+      // JATOS submit (same pattern as your other pages)
+      if (typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
+        var resultJson = study.options.datastore.exportJson();
+        jatos
+          .submitResultData(resultJson)
+          .then(() => console.log("success"))
+          .catch(() => console.log("error"));
+      }
+    },
+  },
+});
+
+const quesAttributesFutureSociety_htmlForm = new lab.html.Page({
+  title: "quesAttributes",
   items: [
     {
-      required: Required_Testing,
+      required: true,
       type: "likert",
-      items: items_Bioinspiration,
-      width: "5",
+      items: items_quesAttributes,
+      width: "7",
       anchors: [
-        "Strongly disagree",
+        "Strongly Disagree",
         "Disagree",
+        "Somewhat Disagree",
         "Neutral",
+        "Somewhat Agree",
         "Agree",
-        "Strongly agree",
+        "Strongly Agree",
       ],
-      label: "Please read each statement carefully and indicate how much you agree with it.",
-      help: "Please answer each statement, even if you're not entirely sure what your answer should be.",
+      label:
+        "Please rate the described society on the following attributes. The described society is...",
+      help: "Read each of these statements and then mark the answer option that most applies.",
       shuffle: false,
-      name: "Bioinspiration",
+      name: "attributesFutureSociety",
     },
   ],
   submitButtonText: "Continue →",
@@ -586,27 +663,19 @@ const Bioinspiration_Scale_htmlForm = new lab.html.Page({
   width: "l",
   messageHandlers: {
     run: function anonymous() {
-      // overwrite technology placeholder
-      $('[id="techname"]').each(function () {
-        $(this).text(technologyConditon);
-      });
-
-      // add id to button
-      $('button[type="submit"][form="page-form"]').attr('id', 'continue');
-
       // adjust size of scale
       document.querySelectorAll("div")[0].classList = ["text-left"];
       document.querySelectorAll("main")[1].classList = ["w-xl"];
       document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
-     <col style=\"width: 30%\">
-     <col style=\"width: 7%\">
-     <col style=\"width: 7%\">
-      <col style=\"width: 7%\">
-      <col style=\"width: 7%\">
-      <col style=\"width: 7%\">
+     <col style=\"width: 65%\">
+     <col style=\"width: 5%\">
+     <col style=\"width: 5%\">
+     <col style=\"width: 5%\">
+     <col style=\"width: 5%\">
+     <col style=\"width: 5%\">
+     <col style=\"width: 5%\">
+     <col style=\"width: 5%\">
      `;
-      // sticky labels to front
-      $("thead").first().css("z-index", "20");
       // collect paradata
       paracountclicks = 0;
       document.querySelectorAll("input").forEach((item) => {
@@ -617,7 +686,7 @@ const Bioinspiration_Scale_htmlForm = new lab.html.Page({
       });
     },
     end: function anonymous() {
-      // collect paradata: number of clicks
+      // collect paradata
       let numberitems = document.querySelectorAll("tbody tr").length;
       paracountclicks -= numberitems;
       study.options.datastore.set("para_countclicks", paracountclicks);
@@ -625,38 +694,11 @@ const Bioinspiration_Scale_htmlForm = new lab.html.Page({
     commit: function anonymous() {
       // progress bar
       numElementsCounter++;
+      document.querySelector(".progress-bar").style.width =
+        (numElementsCounter / numElements) * 100 + "%";
     },
   },
 });
-
-
-
-const Sequence_Ecological_Bioinspiration = new lab.flow.Sequence({
-  title: "Sequence Ecological Bioinspiration",
-  tardy: true,
-  skip: "${ !orderSurveys_Ecological_First }",
-  shuffle: false,
-  content: [
-    EcologicalDimension_Scale_htmlForm,
-    Bioinspiration_Scale_htmlForm,
-  ],
-});
-
-
-
-const Sequence_Bioinspiration_Ecological = new lab.flow.Sequence({
-  title: "Sequence Bioinspiration Ecological",
-  tardy: true,
-  skip: "${ !orderSurveys_Bioinspiration_First }",
-  shuffle: false,
-  content: [
-    Bioinspiration_Scale_htmlForm,
-    EcologicalDimension_Scale_htmlForm,
-  ],
-});
-
-
-
 
 /* 
 ################### End of Study ###################
@@ -685,17 +727,13 @@ const TransitionToFinal_htmlForm = new lab.html.Form({
   },
 });
 
-
-
-
 // socio demographic questions
 const SocioDemo_htmlScreen = new lab.html.Form({
   title: "socio demographic questions",
   content: textObj.socioDemo,
   messageHandlers: {
     run: () => {
-      $("#techname").html(technologyConditon);
-
+      $("#techname").html(nameFutureSociety);
 
       $(document).ready(function () {
         // Extract country names from the dropdown
@@ -731,8 +769,6 @@ const SocioDemo_htmlScreen = new lab.html.Form({
   },
 });
 
-
-
 // feedback screen conscientious completion
 const ConscientiousCompletion_htmlScreen = new lab.html.Form({
   title: "ConscientiousCompletion",
@@ -746,7 +782,6 @@ const ConscientiousCompletion_htmlScreen = new lab.html.Form({
     },
   },
 });
-
 
 // feedback screen general
 const FeedbackScreen_htmlScreen = new lab.html.Form({
@@ -833,8 +868,6 @@ const EndingScreen_htmlScreen = new lab.html.Screen({
   },
 });
 
-
-
 // Define the sequence of components that define the study
 const study = new lab.flow.Sequence({
   metadata: {
@@ -842,20 +875,16 @@ const study = new lab.flow.Sequence({
       "Public Perceptions of Bio-Inspired Technologies and Their Relationship to Sustainability: A Mixed-Methods Investigation",
     description:
       "This online study examines the conceptual association between bio-inspired technologies and sustainability in the public imagination.",
-    repository:
-      "https://github.com/FennStatistics/livMatS_MasterLab_2025",
-    contributors:
-      "Stephanie Bugler, Julius Fenn, Michael Gorki, Roland Thomaschke, Andrea Kiesel; study programmed by Katja Pollak and Julius Fenn",
+    repository: "https://github.com/FennStatistics/livMatS_MasterLab_2025",
+    contributors: "study programmed by Julius Fenn",
   },
   plugins: [
     new lab.plugins.Metadata(),
     // new lab.plugins.Fullscreen(),
-    // new lab.plugins.Debug(), // comment out finally
+    new lab.plugins.Debug(), // comment out finally
     // new lab.plugins.Download()
   ],
   content: [
-        ScenarioText_htmlForm,
-
     // >>> introduction phase
     Greetings_htmlForm,
 
@@ -867,27 +896,23 @@ const study = new lab.flow.Sequence({
 
     ScenarioText_htmlForm,
 
-    // >>> survey scales
-    // randomize order depending on framing
-    // > if sustainability framing first sus
-    // > if bioinspired framing first bioins
-    // > if neutral framing randomize it
-    Sequence_Ecological_Bioinspiration,
-    Sequence_Bioinspiration_Ecological,
-
-
     // >>> Snowball task
-    //TransitionToAIT_htmlForm,
-    //loopOuter,
+    TransitionToAIT_htmlForm,
+    loopOuter,
 
+    // >>> survey scales
+    understandingText_htmlForm,
+    quesClearBiasUtopia_htmlForm,
+    quesAttributesFutureSociety_htmlForm,
+    quesPrototypeAssign_htmlForm,
 
     // >>> ending phase post
-    TransitionToFinal_htmlForm,
+    // TransitionToFinal_htmlForm,
 
-    SocioDemo_htmlScreen,
+    // SocioDemo_htmlScreen,
 
     // >>> ending phase final
-    ConscientiousCompletion_htmlScreen,
+    // ConscientiousCompletion_htmlScreen,
 
     FeedbackScreen_htmlScreen,
     EndingScreen_htmlScreen,

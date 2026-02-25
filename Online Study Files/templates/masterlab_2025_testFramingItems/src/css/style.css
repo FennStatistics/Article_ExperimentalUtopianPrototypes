@@ -395,3 +395,117 @@ input[type="text"]:disabled {
   margin: 0 auto;
   margin-left: 30%;
 }
+
+
+/* Style assignment task */
+/* Prototype assignment component */
+#protoAssignForm { margin-top: .5rem; }
+#protoAssignForm .font-weight-bold { font-weight: 600; line-height: 1.35; }
+#protoAssignForm .small { font-size: .875rem; }
+#protoAssignForm .text-muted { color: #666; }
+#protoAssignForm .w-100 { width: 100%; }
+
+/* Blocks (single-column layout) */
+#protoAssignForm .proto-block {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: .9rem;
+  background: #fff;
+}
+
+/* Prototype options */
+#protoRadioGroup {
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: .9rem;
+  background: #fafafa;
+}
+
+#protoRadioGroup label {
+  display: block;
+  margin: .45rem 0;              /* more space between labels */
+  padding: .5rem .65rem;         /* more internal space */
+  border-radius: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+#protoRadioGroup input[type="radio"] {
+  margin-right: .55rem;
+  transform: translateY(1px);
+}
+
+/* jQuery UI radio labels */
+#protoRadioGroup .ui-checkboxradio-label {
+  display: block;
+  margin: .45rem 0;
+  padding: .65rem .8rem;         /* more space */
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  line-height: 1.4;
+}
+
+#protoRadioGroup .ui-checkboxradio-label:hover {
+  background: #f3f6fb;
+  border-color: #d7e3f7;
+}
+
+#protoRadioGroup .ui-checkboxradio-checked {
+  background: #eef4ff;
+  border-color: #bfd3f5;
+  font-weight: 600;
+}
+
+/* Confidence buttons */
+#protoConfidenceGroup {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: .55rem;                   /* more space between buttons */
+}
+
+.conf-option { display: block; text-align: center; cursor: pointer; }
+.conf-option > span {
+  display: block;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  background: #fafafa;
+  padding: .65rem .3rem;         /* more height/space */
+  line-height: 1.2;
+}
+.conf-option small { color: #666; font-size: .72rem; }
+
+/* jQuery UI confidence labels */
+#protoConfidenceGroup .ui-checkboxradio-label {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: .65rem .3rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  background: #fafafa;
+  line-height: 1.2;
+}
+#protoConfidenceGroup .ui-checkboxradio-checked {
+  background: #eef4ff;
+  border-color: #bfd3f5;
+  font-weight: 600;
+}
+
+/* Follow-up textarea */
+#protoReasonText {
+  width: 100%;
+  min-height: 84px;
+  resize: vertical;
+  box-sizing: border-box;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  padding: .55rem .65rem;
+}
+
+#protoReasonText:focus {
+  outline: none;
+  border-color: #9fb8e7;
+  box-shadow: 0 0 0 2px rgba(159,184,231,.2);
+}

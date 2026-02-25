@@ -3,7 +3,7 @@ var arraydefocusevent = [];
 var lastBlurTimestamp;
 
 
-if(true){ // turn on and off focus event listener for debugging
+if(false){ // turn on and off focus event listener for debugging
     function enterFullscreen() {
         if (document.documentElement.requestFullscreen) {
             document.documentElement.requestFullscreen();

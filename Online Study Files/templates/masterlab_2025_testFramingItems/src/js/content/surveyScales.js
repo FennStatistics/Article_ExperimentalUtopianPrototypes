@@ -1,17 +1,11 @@
-/* 
-Survey Scales: 
-*/
-
-
-
 /*
 Use the modern version of the Fisher–Yates shuffle algorithm:
 https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#The_modern_algorithm
 */
 function shuffle(queslist) {
-  let array_emp = [];
+  let array_emp = []
   for (var i = 0; i < queslist.ques.length; i++) {
-    array_emp.push(i);
+    array_emp.push(i)
   }
 
   let j, x;
@@ -33,80 +27,104 @@ function createitems(queslist, quesindex) {
     quesitems.push({
       label: tmp_ques,
       coding: tmp_label,
-    });
+    })
+
   }
   return quesitems;
 }
 
 
-/* items of perceived ecological dimension */
-let EcologyItemsList = {
+
+
+
+/* Attributes of the ideal future society */
+let quesAttributes = {
   ques: [
-    `The <span id="techname">XXX</span> is environmentally friendly.`,
-    `The <span id="techname">XXX</span> helps to save resources.`,
-    `The <span id="techname">XXX</span> has more environmental benefits compared to similar products.`,
-    `The <span id="techname">XXX</span> has a positive impact on the environment in that it extends the life of discarded materials. `
+    "Utopian",
+    "Desirable",
+    "Ideal",
+    "Beneficial for the greater good",
+    "Imaginative",
+    "Innovative",
+    "Creative",
+    "Possible"
   ],
-  scale: ["1", "2", "3", "4"]
+  scale: ["1", "2", "3", "4", "5", "6", "7"]
 };
 
-var index_EcologyItemsList = shuffle(EcologyItemsList);
-console.log("EcologyItemsList: ", EcologyItemsList);
-console.log("EcologyItemsList index: ", index_EcologyItemsList);
-
-var items_Ecology = createitems(EcologyItemsList, index_EcologyItemsList);
-console.log(items_Ecology.slice(0, 4));
-
+var index_quesAttributes = shuffle(quesAttributes);
+console.log("quesAttributes index: ", index_quesAttributes);
+console.log("quesAttributes: ", quesAttributes);
+var items_quesAttributes = createitems(quesAttributes, index_quesAttributes);
+console.log(items_quesAttributes);
 
 
-/* items of perceived bioinspiration */
-let BioinspirationItemsList = {
-  ques: [
-    // Visual Resemblance to Nature 
-    `The <span id="techname">XXX</span> sounds like something I might find in the natural world.`,
-    `The <span id="techname">XXX</span>’s description reminds me of an animal, plant, or natural environment.`,
-    `In this <span id="techname">XXX</span>  I can easily imagine forms that imitate living creatures or natural patterns.`,
-    `Imagining the look of the <span id="techname">XXX</span>, I do not think of examples from the natural world.`,
-    // Intentionality & Perceived Inspiration 
-    `It seems clear the designers deliberately took ideas from living nature for <span id="techname">XXX</span>.`,
-    `The <span id="techname">XXX</span> does not seem to be directly modeled on observations of living beings.`,
-    `I feel the designers of the <span id="techname">XXX</span> made a purposeful attempt to take inspiration from the natural world.`,
-    `I believe the <span id="techname">XXX</span>  was planned with examples from living nature firmly in mind.`,
-    // Perceived Naturalness
-    `The <span id="techname">XXX</span> gives off a natural vibe, like it belongs in a natural environment.`,
-    `The <span id="techname">XXX</span> does not strike me as a typical human-made device.`,
-    `The <span id="techname">XXX</span> fits seamlessly with natural surroundings when I imagine it in place.`,
-    `Overall, the <span id="techname">XXX</span> comes across as a naturally derived, rather than purely engineered, object.`
+
+
+/* moral intensity SAI */
+let quesMoralIntensitySAI = {
+  ques: ["The negative consequences (if any) using the HomeMate will be very serious.",
+    "The overall harm (if any) using the HomeMate will be very small.",
+    "There is a very small likelihood that using the HomeMate will actually cause any harm.",
+    "Using the HomeMate is likely to cause harm.",
+    "Using the HomeMate will not cause any harm in the immediate future.",
+    "The negative effects (if any) using the HomeMate will be felt very quickly.",
+    "People are not likely to agree about whether using the HomeMate is right or wrong.",
+    "Most people would agree if it is appropriate to use the HomeMate.",
+    "The harmful consequences (if any) using the HomeMate will be concentrated on a small number of people.",
+    "Any negative effects using the HomeMate will be spread across a large number of individuals."
   ],
-  scale: ["VRtN1", "VRtN2", "VRtN3", "VRtN4r", "IPI1", "IPI2r", "IPI3", "IPI4", "PN1", "PN2r", "PN3", "PN4"]
-};
+  scale: ["MC1r", "MC2", "PE1", "PE2r", "TI1", "TI2r", "SC1", "SC2r", "CE1r", "CE2"]
+}
+/*
+    "The harmful effects (if any) of the decision to deploy SAI will affect people that are close to the decision maker.",
+    "The decision maker is unlikely to be close to anyone who might be negatively affected by the decision to deploy SAI.",
+
+    "PX1r", "PX2",
+*/
+
+
+var index_quesMoralIntensitySAI = shuffle(quesMoralIntensitySAI);
+console.log("quesMoralIntensitySAI index: ", index_quesMoralIntensitySAI);
+console.log("quesMoralIntensitySAI: ", quesMoralIntensitySAI);
+
+var items_quesMoralIntensitySAI = createitems(quesMoralIntensitySAI, index_quesMoralIntensitySAI);
+console.log(items_quesMoralIntensitySAI);
 
 
 
-var index_BioinspirationItemsList = shuffle(BioinspirationItemsList);
-console.log("BioinspirationItemsList: ", BioinspirationItemsList);
-console.log("BioinspirationItemsList index: ", BioinspirationItemsList);
 
-var items_Bioinspiration = createitems(BioinspirationItemsList, index_BioinspirationItemsList);
-console.log(items_Bioinspiration.slice(0, 4));
 
-/* IF PICTURED TECH IS A ROBOT, THEN USE THESE ITEMS 
-  ques: [
-    // Visual Resemblance to Nature 
-  `The <span id="techname">XXX</span> looks like something I might find in the natural world.`,
-  `The <span id="techname">XXX</span>’s overall shape reminds me of an animal, plant, or natural environment.`,
-  `In this <span id="techname">XXX</span> I can easily spot forms that imitate living creatures or natural patterns.`,
-  `Looking at the <span id="techname">XXX</span>, I do not think of examples from the natural world.`,
-  // Intentionality & Perceived Inspiration 
-  `It seems clear the designers deliberately took ideas from living nature for the <span id="techname">XXX</span>.`,
-  `The <span id="techname">XXX</span> does not appear to be directly modeled on observations of living beings.`,
-  `I feel the designers of the <span id="techname">XXX</span> made a purposeful attempt to take inspiration from the natural world.`,
-  `I believe the <span id="techname">XXX</span> was planned with examples from living nature firmly in mind.`,
-  // Perceived Naturalness
-  `The <span id="techname">XXX</span> gives off a natural vibe, like it belongs in a natural environment.`,
-  `The <span id="techname">XXX</span> does not strike me as a typical human-made device.`,
-  `The <span id="techname">XXX</span> fits seamlessly with natural surroundings when I imagine it in place.`,
-  `Overall, the <span id="techname">XXX</span> comes across as a naturally derived, rather than purely engineered, object.`
-  ],
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PANAS SCALE */
+let quespanaslist = {
+  ques: ["interessiert", "bekümmert", "freudig erregt", "verärgert", "stark", "schuldig", "erschrocken", "feindselig", "begeistert", "stolz", "gereizt", "wach", "beschämt", "angeregt", "nervös", "entschlossen", "aufmerksam", "durcheinander", "aktiv", "ängstlich"],
+  scale: ["01p", "01n", "02p", "02n", "03p", "03n", "04n", "05n", "04p", "05p", "06n", "06p", "07n", "07p", "08n", "08p", "09p", "09n", "10p", "10n"]
+}
+/*
+let quespanaslist = {
+  ques: ["interested", "distressed", "excited", "upset", "strong", "guilty", "scared", "hostile", "enthusiastic", "proud", "irritable", "alert", "ashamed", "inspired", "nervous", "determined", "attentive", "jittery", "active", "afraid"],
+  scale: ["01p", "01n", "02p", "02n", "03p", "03n", "04n", "05n", "04p", "05p", "06n", "06p", "07n", "07p", "08n", "08p", "09p", "09n", "10p", "10n"]
+}
+
+
+var index_quespanas = shuffle(quespanaslist);
+//console.log("quespanasindex: ", index_quespanas);
+//console.log("quespanaslist: ", quespanaslist);
+
+var items_quespanas = createitems(quespanaslist, index_quespanas);
+//console.log(items_quespanas.slice(0, 4));
 */

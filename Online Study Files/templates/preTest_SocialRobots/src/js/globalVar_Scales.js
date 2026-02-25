@@ -55,7 +55,6 @@ console.log("quesUncertaintySAI: ", quesUncertaintySAI);
 var items_quesUncertaintySAI = createitems(quesUncertaintySAI, index_quesUncertaintySAI);
 console.log(items_quesUncertaintySAI);
 
-const usedTechnology = "SUPER MEGA TRUMP"
 
 /* moral intensity SAI */
 let quesMoralIntensitySAI = {

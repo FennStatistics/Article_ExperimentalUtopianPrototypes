@@ -76,8 +76,6 @@ const textObj = {
     <p>
         <strong>Julius Fenn</strong><br>
         <a href="mailto:julius.fenn@psychologie.uni-freiburg.de">julius.fenn@psychologie.uni-freiburg.de</a> or <br>
-        <strong>Stephanie Bugler</strong><br>
-        <a href="mailto:stephanie.bugler@email.uni-freiburg.de">stephanie.bugler@email.uni-freiburg.de</a> <br>
         University of Freiburg<br>
         Institute of Psychology<br>
         Department of General Psychology<br>
@@ -319,14 +317,14 @@ We care about the quality of our experimental and survey data. To get the most a
 This study is divided into two parts:
        </section>
  <br>
- <table>
-   <tr>
-   <td>1) <b>Scenario Text</b>: Read a scenario text, which describes an emerging technology.</td>
-   </tr>
-   <tr>
-     <td>2) <b>Questionnaire</b>: Answer questions regarding the emerging technology.</td>
-   </tr>
- </table>
+<table>
+  <tr>
+    <td>1) Read a short text describing a future society.</td>
+  </tr>
+  <tr>
+    <td>2) Based on the text, answer a few questions about how clear and understandable it is.</td>
+  </tr>
+</table>
  <br>
  <section>
  Within each task, you will receive detailed instructions to help you understand what is expected. Please make sure to read them carefully.
@@ -341,261 +339,7 @@ This study is divided into two parts:
      </button>
    </footer>
    `,
-   // ################### Association Task Snowball ###################
-     TransitionToAIT: `
-  <header>
-      <h2>Thank you for completing the Reaction Time Task!</h2>
-</header>
-
-<main class="content-horizontal-center content-vertical-center">
-  <div class="w-xl text-justify">
-          <section>
-              <p>You have completed the reaction time task. Next, you will move on to the <strong>Word Association Task</strong>. This task involves responding to a specific word with the first thoughts or associations that come to your mind. Please read the instructions for this task carefully before starting.</p>
-          </section>
-  </div>
-</main>
-<form id="page-form">
-</form>
-
-<footer class="content-vertical-center content-horizontal-right">
-  <button id="continue" type="submit" form="page-form">
-      Continue &rarr;
-  </button>
-</footer>
-  `,
-   AT_Snowball_Inst: `
-    <header>
-  <h2>Instructions "Word Association Game"</h2>
-</header>
-
-<main class="content-horizontal-center content-vertical-center">
-  <div class="w-xl text-justify">
-      <strong>How it works...</strong>
-      <section>
-          On the top of the screen a word will be shown. Enter the first word that comes to your mind when reading that
-          word.
-      </section>
-      <br>
-      <section>
-              Use the <kbd>Enter</kbd> key or press the <button style="padding:2px; margin-left:0px; margin-right: 0px; font-size: 30px;" disabled="disabled">Next
-              response</button> button to add five associations.
-      </section>
-      <br>
-      <br>
-      <strong>Hint</strong>
-      <section>
-          Only give associations to the word on top of the screen (not to your previous responses!).
-      </section>
-  </div>
-</main>
-<form id="page-form">
-</form>
-
-<footer class="content-vertical-center content-horizontal-right">
-  <button id="continue" type="submit" form="page-form">
-      Continue &rarr;
-  </button>
-</footer>
-      `,
-      AT_Snowball_Task: `
-       <main class="content-horizontal-center content-vertical-center">
-      <div>
-          What are the first thoughts or images that come to your mind when you think of: 
-          <br>
-          <br>
-    <div style="align-items: display: flex;"> <strong style="font-size: 22px;">
-         <span id="cueWord" style="font-size: 36px;">replace me</span>
-    </strong>
-    </div>
-    <br>
-        <form id="affectiveImageryForm">
-          <div class="affectiveImagery">
-              <div class="form-group">
-                  <input id="R1" name="R1" class="form-control" placeholder="Enter your first association" type="text"
-                      autocorrect="off" autocapitalize="none" autofocus autocomplete="off" tabindex="1">
-              </div>
-              <div class="form-group">
-                  <input id="R2" name="R2" class="form-control" placeholder="" type="text" autocorrect="off"
-                      autocapitalize="none" autofocus="" autocomplete="off" tabindex="2" disabled="">
-              </div>
-              <div class="form-group">
-                  <input id="R3" name="R3" class="form-control" placeholder="" type="text" autocorrect="off"
-                      autocapitalize="none" autofocus="" autocomplete="off" tabindex="3" disabled="">
-              </div>
-              <div class="form-group">
-                  <input id="R4" name="R4" class="form-control" placeholder="" type="text" autocorrect="off"
-                      autocapitalize="none" autofocus="" autocomplete="off" tabindex="4" disabled="">
-              </div>
-              <div class="form-group">
-                  <input id="R5" name="R5" class="form-control" placeholder="" type="text" autocorrect="off"
-                      autocapitalize="none" autofocus="" autocomplete="off" tabindex="5" disabled="">
-              </div>
-    
-              <small class="text-muted" id="progressLabel">Progress</small>
-            
-              <div class="progress" style="background: white;">
-                <div class="progress-bar-AffectiveImg" style="background: #229954;"> 
-              </div>
-            </div>
-    
-    
-            <div style="align-items: display: flex;">
-            <!-- Prevent implicit submission of the form -->
-            <button type="submit" disabled style="display: none" aria-hidden="true"></button>
-          
-                  <button type="button" class="btn btn-default" tabindex="-1" id="submitAssoButton"><span
-                          class="glyphicon glyphicon-plus"></span>&nbsp;Next response</button>
-                  <button type="submit" class="btn btn-default" tabindex="-1" id="finalResponse"><span
-                          class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;End the input</button>
-                  <button type="submit" class="btn btn-default" tabindex="-1" id="skipResponse"><span
-                          class="glyphicon glyphicon-minus" form="affectiveImageryForm"></span>&nbsp;No more entries</button>
-                  <button type="submit" class="btn btn-default" tabindex="-1" id="unknownResponse"><span
-                          class="glyphicon glyphicon-remove" form="affectiveImageryForm"></span>&nbsp;Unknown word</button>
-              </div>
-          </div>
-      </form>
-      </div>
-      
-    </main>
-        `,  
-  AffectiveImageryInst: `
-  <header>
-  <h2>Instructions "Word Association Game" </h2>
-</header>
-
-<main class="content-horizontal-center content-vertical-center">
-  <div class="w-xl text-justify">
-      <strong>How it works...</strong>
-      <section>
-          On the top of the screen a word will be shown. Enter the first word that comes to your mind when reading that
-          word.
-      </section>
-      <br>
-      <section>
-              Use the <kbd>Enter</kbd> key or press the <button style="padding:2px; margin-left:0px; margin-right: 0px; font-size: 30px;" disabled="disabled">Next
-              response</button> button to add five associations.
-      </section>
-      <br>
-      <br>
-      <strong>Hint</strong>
-      <section>
-          Only give associations to the word on top of the screen (not to your previous responses!).
-      </section>
-  </div>
-</main>
-<form id="page-form">
-</form>
-
-<footer class="content-vertical-center content-horizontal-right">
-  <button id="continue" type="submit" form="page-form">
-      Continue &rarr;
-  </button>
-</footer>
-  `,
-   AffectiveImageryInst_full: `
-   <header>
-   <h2>Instructions "Word Association Game" </h2>
- </header>
- 
- <main class="content-horizontal-center content-vertical-center">
-   <div class="w-xl text-justify">
-       <strong>How it works...</strong>
-       <section>
-           On the top of the screen a word will be shown. Enter the first word that comes to your mind when reading that
-           word. Only if you really don't know that word, press <button
-               style="padding:2px; margin-left:0px; margin-right: 0px;" disabled="disabled">Unknown word</button>.
-       </section>
-       <br>
-       <section>
-           Press <button style="padding:2px; margin-left:0px; margin-right: 0px;" disabled="disabled">Next
-               response</button> to add up to five words or press <button
-               style="padding:2px; margin-left:0px; margin-right: 0px;" disabled="disabled">No more
-               entries</button> if you can't think of any more.
-               <br>
-               <br>
-               Use the <kbd>Enter</kbd> key or press the <button style="padding:2px; margin-left:0px; margin-right: 0px;" disabled="disabled;>Next
-               response</button> button to add associations.
-       </section>
-       <br>
-       <br>
-       <strong>  Some hints</strong>
-       <section>
-           Only give associations to the word on top of the screen (not to your previous responses!).
-       </section>
-   </div>
- </main>
- <form id="page-form">
- </form>
- 
- <footer class="content-vertical-center content-horizontal-right">
-   <button id="continue" type="submit" form="page-form">
-       Continue &rarr;
-   </button>
- </footer>
-   `,
-   AffectiveImagery: `
-   <main class="content-horizontal-center content-vertical-center">
-   <div>
-       What are the first thoughts or images that come to your mind when you think of: 
-       <br>
-       <br>
- <div style="align-items: display: flex;"> <strong style="font-size: 22px;">
-      <span id="cueWord" style="font-size: 36px;">replace me</span>
- </strong>
- </div>
- <br>
-     <form id="affectiveImageryForm">
-       <div class="affectiveImagery">
-           <div class="form-group">
-               <input id="R1" name="R1" class="form-control" placeholder="Enter your first association" type="text"
-                   autocorrect="off" autocapitalize="none" autofocus autocomplete="off" tabindex="1">
-           </div>
-           <div class="form-group">
-               <input id="R2" name="R2" class="form-control" placeholder="" type="text" autocorrect="off"
-                   autocapitalize="none" autofocus="" autocomplete="off" tabindex="2" disabled="">
-           </div>
-           <div class="form-group">
-               <input id="R3" name="R3" class="form-control" placeholder="" type="text" autocorrect="off"
-                   autocapitalize="none" autofocus="" autocomplete="off" tabindex="3" disabled="">
-           </div>
-           <div class="form-group">
-               <input id="R4" name="R4" class="form-control" placeholder="" type="text" autocorrect="off"
-                   autocapitalize="none" autofocus="" autocomplete="off" tabindex="4" disabled="">
-           </div>
-           <div class="form-group">
-               <input id="R5" name="R5" class="form-control" placeholder="" type="text" autocorrect="off"
-                   autocapitalize="none" autofocus="" autocomplete="off" tabindex="5" disabled="">
-           </div>
- 
-           <small class="text-muted" id="progressLabel">Progress</small>
-         
-           <div class="progress" style="background: white;">
-             <div class="progress-bar-AffectiveImg" style="background: #229954;"> 
-           </div>
-         </div>
- 
- 
-         <div style="align-items: display: flex;">
-         <!-- Prevent implicit submission of the form -->
-         <button type="submit" disabled style="display: none" aria-hidden="true"></button>
-       
-               <button type="button" class="btn btn-default" tabindex="-1" id="submitAssoButton"><span
-                       class="glyphicon glyphicon-plus"></span>&nbsp;Next response</button>
-               <button type="submit" class="btn btn-default" tabindex="-1" id="finalResponse"><span
-                       class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;End the input</button>
-               <button type="submit" class="btn btn-default" tabindex="-1" id="skipResponse"><span
-                       class="glyphicon glyphicon-minus" form="affectiveImageryForm"></span>&nbsp;No more entries</button>
-               <button type="submit" class="btn btn-default" tabindex="-1" id="unknownResponse"><span
-                       class="glyphicon glyphicon-remove" form="affectiveImageryForm"></span>&nbsp;Unknown word</button>
-           </div>
-       </div>
-   </form>
-   </div>
-   
- </main>
-   `,
-
-// ################### Scenario Text ###################
+  // ################### Scenario Text ###################
 ScenarioText: `
 <header>
  <h2>Please read the following text carefully. Afterwards we will ask you to answer several questions:</h2>
@@ -629,7 +373,332 @@ ScenarioText: `
 
 
 
+// ################### Survey Scales ###################
+  postClearBias: `
+<header>
+  <h2>
+    Please answer the following questions:
+  </h2>
+</header>
 
+<p>Please refer to the text about the future society when answering the questions.</p>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+    <form id="demography">
+      <table>
+
+        <!-- Clarity -->
+        <tr style="height: 100px">
+          <td class="font-weight-bold text-left">
+            Do you feel that the information you just read was clear?
+          </td>
+          <td>
+            <select id="clearUtopia" name="clearUtopia" required class="w-100">
+              <option value="" selected>
+                -- Please select --
+              </option>
+              <option value="4">It was completely clear.</option>
+              <option value="3">It was somewhat clear.</option>
+              <option value="2">It was somewhat unclear.</option>
+              <option value="1">It was completely unclear.</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- Clarity follow-up -->
+        <tr id="hideClearUtopiatext" style="height: 100px">
+          <td class="font-weight-bold text-left">
+            Why do you think the information about the future society was unclear?
+            <br>
+            <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0">
+              Please write a short answer.
+            </p>
+          </td>
+          <td>
+            <textarea id="clearUtopiatext" name="clearUtopiatext" class="w-100" rows="3"></textarea>
+          </td>
+        </tr>
+
+        <!-- Neutrality / Bias -->
+        <tr style="height: 100px">
+          <td class="font-weight-bold text-left">
+            Do you feel that the information you just read was biased?
+          </td>
+          <td>
+            <select id="biasUtopia" name="biasUtopia" required class="w-100">
+              <option value="" selected>
+                -- Please select --
+              </option>
+              <option value="3">It was supportive of this future society.</option>
+              <option value="2">It was neutral, and did not support or oppose this future society.</option>
+              <option value="1">It was opposed to this future society.</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- Bias follow-up -->
+        <tr id="hideBiasUtopiatext" style="height: 100px">
+          <td class="font-weight-bold text-left">
+            Why do you think the information about the future society was not neutral?
+            <br>
+            <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0">
+              Please write a short answer.
+            </p>
+          </td>
+          <td>
+            <textarea id="biasUtopiatext" name="biasUtopiatext" class="w-100" rows="3"></textarea>
+          </td>
+        </tr>
+
+        <!-- Column balance -->
+        <colgroup>
+          <col style="width: 50%">
+          <col style="width: 50%">
+        </colgroup>
+      </table>
+    </form>
+  </div>
+</main>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <div class="w-l text-justify"></div>
+  <button id="continue" type="submit" form="demography">
+    Continue &rarr;
+  </button>
+</footer>
+  `,
+  
+  understandingText: `
+<header>
+  <h2>
+    Please answer the following questions:
+  </h2>
+</header>
+
+<p>When answering the questions, please refer to the text about the future society that you have just read.</p>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+    <form id="demography">
+      <table>
+
+        <!-- General understanding -->
+        <tr style="height: 100px">
+          <td class="font-weight-bold text-left">
+            Please describe the future society presented in the text.
+            <br>
+            <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0">
+              Please write a short answer.
+            </p>
+          </td>
+          <td>
+            <textarea id="undUtopiaGeneral" name="undUtopiaGeneral" class="w-100" rows="3" required></textarea>
+          </td>
+        </tr>
+
+        <!-- Goals -->
+        <tr style="height: 100px">
+          <td class="font-weight-bold text-left">
+            What are the main goals of this future society?
+            <br>
+            <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0">
+              Please write a short answer.
+            </p>
+          </td>
+          <td>
+            <textarea id="undUtopiaGoal" name="undUtopiaGoal" class="w-100" rows="3" required></textarea>
+          </td>
+        </tr>
+
+        <!-- Mechanisms -->
+        <tr style="height: 100px">
+          <td class="font-weight-bold text-left">
+            How does this society work to achieve these goals (e.g., rules, institutions, or practices)?
+            <br>
+            <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0">
+              Please write a short answer.
+            </p>
+          </td>
+          <td>
+            <textarea id="undUtopiaHow" name="undUtopiaHow" class="w-100" rows="3" required></textarea>
+          </td>
+        </tr>
+
+        <!-- Column balance -->
+        <colgroup>
+          <col style="width: 50%">
+          <col style="width: 50%">
+        </colgroup>
+      </table>
+    </form>
+  </div>
+</main>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <div class="w-l text-justify"></div>
+  <button id="continue" type="submit" form="demography">
+    Continue &rarr;
+  </button>
+</footer>
+  `,
+
+
+    assignmentTask: `
+<header>
+  <h2>Please answer the following question:</h2>
+</header>
+
+<p>
+  Please refer to the text about the future society you have just read.
+</p>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+
+    <!-- 
+      IMPORTANT:
+      Set the correct prototype for the currently shown vignette in data-correct-prototype.
+      Example values:
+      futurist, ai_centered, primitivist_arcadian, modern_green,
+      religious_millennial, institutional_law, moral_commonwealth_anarchic
+    -->
+    <form id="protoAssignForm" data-correct-prototype="futurist" novalidate>
+
+      <!-- Prototype assignment -->
+      <div class="proto-block">
+        <div class="font-weight-bold text-left">
+          Which Utopian Prototype does this future society most closely represent?
+          <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0 0 0">
+            Please select the one option that fits best.
+          </p>
+        </div>
+
+        <div id="protoRadioGroup" class="w-100" style="margin-top: 0.75rem;">
+
+          <label for="proto_futurist" class="proto-option">
+            <input type="radio" id="proto_futurist" name="utopiaPrototypeAssignment" value="futurist" required>
+            <span>
+              <strong>Futurist</strong> — A society organized around continuous scientific and technological innovation, rational planning, and optimization to solve collective problems.
+            </span>
+          </label>
+
+          <label for="proto_ai_centered" class="proto-option">
+            <input type="radio" id="proto_ai_centered" name="utopiaPrototypeAssignment" value="ai_centered">
+            <span>
+              <strong>AI-Centered</strong> — A society primarily coordinated by AI systems that use data-driven decisions to manage resources, fairness, and social order.
+            </span>
+          </label>
+
+          <label for="proto_primitivist_arcadian" class="proto-option">
+            <input type="radio" id="proto_primitivist_arcadian" name="utopiaPrototypeAssignment" value="primitivist_arcadian">
+            <span>
+              <strong>Primitivist (Arcadian)</strong> — A low-technology, small-scale society that lives simply and communally in close harmony with nature.
+            </span>
+          </label>
+
+          <label for="proto_modern_green" class="proto-option">
+            <input type="radio" id="proto_modern_green" name="utopiaPrototypeAssignment" value="modern_green">
+            <span>
+              <strong>Modern Green</strong> — A society that balances ecological sustainability and economic security through shared resources, institutions, and selective green technology.
+            </span>
+          </label>
+
+          <label for="proto_religious_millennial" class="proto-option">
+            <input type="radio" id="proto_religious_millennial" name="utopiaPrototypeAssignment" value="religious_millennial">
+            <span>
+              <strong>Religious (Millennial)</strong> — A society guided by sacred beliefs and transcendent moral authority, where social order is grounded in religion and spiritual norms.
+            </span>
+          </label>
+
+          <label for="proto_institutional_law" class="proto-option">
+            <input type="radio" id="proto_institutional_law" name="utopiaPrototypeAssignment" value="institutional_law">
+            <span>
+              <strong>Institutional (Law-Based)</strong> — A society coordinated through strong institutions, clear laws, and enforceable rules to maintain stability and predictability.
+            </span>
+          </label>
+
+          <label for="proto_moral_commonwealth_anarchic" class="proto-option">
+            <input type="radio" id="proto_moral_commonwealth_anarchic" name="utopiaPrototypeAssignment" value="moral_commonwealth_anarchic">
+            <span>
+              <strong>Moral Commonwealth (Anarchic)</strong> — A society held together by internalized morality, voluntary cooperation, and minimal coercive authority.
+            </span>
+          </label>
+        </div>
+      </div>
+
+<!-- Confidence -->
+<div class="proto-block" style="margin-top: 1rem;">
+  <div class="font-weight-bold text-left">
+    How confident are you in your choice?
+    <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0 0 0">
+      Please select one option.
+    </p>
+  </div>
+
+  <div id="protoConfidenceGroup" style="margin-top: 0.6rem;">
+<label for="conf_1" class="conf-option">
+  <input type="radio" id="conf_1" name="protoConfidenceRadio" value="1" required>
+  <span>1<br><small>Not at all<br>confident</small></span>
+</label>
+
+<label for="conf_2" class="conf-option">
+  <input type="radio" id="conf_2" name="protoConfidenceRadio" value="2">
+  <span>2<br><small>Slightly<br>confident</small></span>
+</label>
+
+<label for="conf_3" class="conf-option">
+  <input type="radio" id="conf_3" name="protoConfidenceRadio" value="3">
+  <span>3<br><small>Somewhat<br>confident</small></span>
+</label>
+
+<label for="conf_4" class="conf-option">
+  <input type="radio" id="conf_4" name="protoConfidenceRadio" value="4">
+  <span>4<br><small>Moderately<br>confident</small></span>
+</label>
+
+<label for="conf_5" class="conf-option">
+  <input type="radio" id="conf_5" name="protoConfidenceRadio" value="5">
+  <span>5<br><small>Fairly<br>confident</small></span>
+</label>
+
+<label for="conf_6" class="conf-option">
+  <input type="radio" id="conf_6" name="protoConfidenceRadio" value="6">
+  <span>6<br><small>Highly<br>confident</small></span>
+</label>
+
+<label for="conf_7" class="conf-option">
+  <input type="radio" id="conf_7" name="protoConfidenceRadio" value="7">
+  <span>7<br><small>Very<br>confident</small></span>
+</label>
+  </div>
+
+</div>
+
+      <!-- Optional follow-up if low confidence -->
+      <div id="hideProtoReason" class="proto-block" style="margin-top: 1rem;">
+        <div class="font-weight-bold text-left">
+          What made the classification difficult?
+          <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0 0 0">
+            Optional short answer (shown only when confidence is low).
+          </p>
+        </div>
+
+        <div style="margin-top: 0.6rem;">
+          <textarea id="protoReasonText" name="protoReasonText" class="w-100" rows="5" placeholder="Please provide a short answer..."></textarea>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</main>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <button id="continue" type="submit" form="protoAssignForm">
+    Continue &rarr;
+  </button>
+</footer>
+  `,
 
 
 
@@ -1133,4 +1202,278 @@ ConscientiousCompletion: `
 </button>
 </footer>
   `,
+
+
+
+
+
+
+
+
+     // ################### Association Task Snowball ###################
+     TransitionToAIT: `
+  <header>
+      <h2>Thank you for completing the Reaction Time Task!</h2>
+</header>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+          <section>
+              <p>You have completed the reaction time task. Next, you will move on to the <strong>Word Association Task</strong>. This task involves responding to a specific word with the first thoughts or associations that come to your mind. Please read the instructions for this task carefully before starting.</p>
+          </section>
+  </div>
+</main>
+<form id="page-form">
+</form>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <button id="continue" type="submit" form="page-form">
+      Continue &rarr;
+  </button>
+</footer>
+  `,
+   AT_Snowball_Inst: `
+<header>
+  <h2>Instruktionen: „Wortassoziationsaufgabe“</h2>
+</header>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+    <strong>So funktioniert es…</strong>
+    <section>
+      Oben auf dem Bildschirm wird ein Szenario beschrieben. Geben Sie das erste Wort oder den ersten Gedanken ein,
+      der Ihnen in den Sinn kommt, wenn Sie sich dieses Szenario vorstellen.
+    </section>
+    <br>
+    <section>
+      Verwenden Sie die 
+      <button style="padding:2px; margin-left:0px; margin-right: 0px; font-size: 30px;" disabled="disabled">Enter</button>
+      Taste oder klicken Sie auf den Button 
+      <button style="padding:2px; margin-left:0px; margin-right: 0px; font-size: 30px;" disabled="disabled">Nächste Antwort</button>,
+      um insgesamt fünf Assoziationen einzugeben.
+    </section>
+    <br>
+    <br>
+    <strong>Hinweise:</strong>
+    <section>
+      <ul>
+        <li>Vermeiden Sie Wiederholungen und ganze Sätze.</li>
+        <li>Bilden Sie bitte jeweils nur Assoziationen zu dem oben genannten Szenario.</li>
+        <li>Antworten Sie so spontan wie möglich.</li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<form id="page-form">
+</form>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <button id="continue" type="submit" form="page-form">
+    Weiter &rarr;
+  </button>
+</footer>
+      `,
+      AT_Snowball_Task: `
+       <main class="content-horizontal-center content-vertical-center">
+      <div style="width: 90%; text-align: center;">
+<span id="replaceTextTop">Geben Sie Worte oder Gedanken ein, die Ihnen in den Sinn kommen, wenn Sie sich Folgendes vorstellen:</span>
+          <br>
+          <br>
+    <div style="align-items: display: flex;">
+         <span id="cueWord" style="font-size: 36px;">replace me</span>
+
+    </div>
+    <br>
+        <form id="affectiveImageryForm">
+          <div class="affectiveImagery">
+              <div class="form-group">
+                  <input id="R1" name="R1" class="form-control" placeholder="Geben Sie Ihre erste Assoziation ein." type="text"
+                      autocorrect="off" autocapitalize="none" autofocus autocomplete="off" tabindex="1">
+              </div>
+              <div class="form-group">
+                  <input id="R2" name="R2" class="form-control" placeholder="" type="text" autocorrect="off"
+                      autocapitalize="none" autofocus="" autocomplete="off" tabindex="2" disabled="">
+              </div>
+              <div class="form-group">
+                  <input id="R3" name="R3" class="form-control" placeholder="" type="text" autocorrect="off"
+                      autocapitalize="none" autofocus="" autocomplete="off" tabindex="3" disabled="">
+              </div>
+              <div class="form-group">
+                  <input id="R4" name="R4" class="form-control" placeholder="" type="text" autocorrect="off"
+                      autocapitalize="none" autofocus="" autocomplete="off" tabindex="4" disabled="">
+              </div>
+              <div class="form-group">
+                  <input id="R5" name="R5" class="form-control" placeholder="" type="text" autocorrect="off"
+                      autocapitalize="none" autofocus="" autocomplete="off" tabindex="5" disabled="">
+              </div>
+    
+              <small class="text-muted" id="progressLabel">Fortschritt</small>
+            
+              <div class="progress" style="background: white;">
+                <div class="progress-bar-AffectiveImg" style="background: #229954;"> 
+              </div>
+            </div>
+    
+    
+            <div style="align-items: display: flex;">
+            <!-- Prevent implicit submission of the form -->
+            <button type="submit" disabled style="display: none" aria-hidden="true"></button>
+          
+<button type="button" class="btn btn-default" tabindex="-1" id="submitAssoButton">
+  <span class="glyphicon glyphicon-plus"></span>&nbsp;Nächste Antwort
+</button>
+<button type="submit" class="btn btn-default" tabindex="-1" id="finalResponse">
+  <span class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;Eingabe beenden
+</button>
+<button type="submit" class="btn btn-default" tabindex="-1" id="skipResponse">
+  <span class="glyphicon glyphicon-minus" form="affectiveImageryForm"></span>&nbsp;Keine weiteren Eingaben
+</button>
+<button type="submit" class="btn btn-default" tabindex="-1" id="unknownResponse">
+  <span class="glyphicon glyphicon-remove" form="affectiveImageryForm"></span>&nbsp;Unbekanntes Wort
+</button>
+
+              </div>
+          </div>
+      </form>
+      </div>
+      
+    </main>
+        `,  
+  AffectiveImageryInst: `
+  <header>
+  <h2>Instructions "Word Association Game" </h2>
+</header>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+      <strong>How it works...</strong>
+      <section>
+          On the top of the screen a word will be shown. Enter the first word that comes to your mind when reading that
+          word.
+      </section>
+      <br>
+      <section>
+              Use the <kbd>Enter</kbd> key or press the <button style="padding:2px; margin-left:0px; margin-right: 0px; font-size: 30px;" disabled="disabled">Next
+              response</button> button to add five associations.
+      </section>
+      <br>
+      <br>
+      <strong>Hint</strong>
+      <section>
+          Only give associations to the word on top of the screen (not to your previous responses!).
+      </section>
+  </div>
+</main>
+<form id="page-form">
+</form>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <button id="continue" type="submit" form="page-form">
+      Continue &rarr;
+  </button>
+</footer>
+  `,
+   AffectiveImageryInst_full: `
+   <header>
+   <h2>Instructions "Word Association Game" </h2>
+ </header>
+ 
+ <main class="content-horizontal-center content-vertical-center">
+   <div class="w-xl text-justify">
+       <strong>How it works...</strong>
+       <section>
+           On the top of the screen a word will be shown. Enter the first word that comes to your mind when reading that
+           word. Only if you really don't know that word, press <button
+               style="padding:2px; margin-left:0px; margin-right: 0px;" disabled="disabled">Unknown word</button>.
+       </section>
+       <br>
+       <section>
+           Press <button style="padding:2px; margin-left:0px; margin-right: 0px;" disabled="disabled">Next
+               response</button> to add up to five words or press <button
+               style="padding:2px; margin-left:0px; margin-right: 0px;" disabled="disabled">No more
+               entries</button> if you can't think of any more.
+               <br>
+               <br>
+               Use the <kbd>Enter</kbd> key or press the <button style="padding:2px; margin-left:0px; margin-right: 0px;" disabled="disabled;>Next
+               response</button> button to add associations.
+       </section>
+       <br>
+       <br>
+       <strong>  Some hints</strong>
+       <section>
+           Only give associations to the word on top of the screen (not to your previous responses!).
+       </section>
+   </div>
+ </main>
+ <form id="page-form">
+ </form>
+ 
+ <footer class="content-vertical-center content-horizontal-right">
+   <button id="continue" type="submit" form="page-form">
+       Continue &rarr;
+   </button>
+ </footer>
+   `,
+   AffectiveImagery: `
+   <main class="content-horizontal-center content-vertical-center">
+   <div>
+       Geben Sie Worte oder Gedanken ein, die Ihnen in den Sinn kommen, wenn Sie sich folgendes Szenario vorstellen:
+       <br>
+       <br>
+ <div style="align-items: display: flex;"> <strong style="font-size: 22px;">
+      <span id="cueWord" style="font-size: 36px;">replace me</span>
+ </strong>
+ </div>
+ <br>
+     <form id="affectiveImageryForm">
+       <div class="affectiveImagery">
+           <div class="form-group">
+               <input id="R1" name="R1" class="form-control" placeholder="Enter your first association" type="text"
+                   autocorrect="off" autocapitalize="none" autofocus autocomplete="off" tabindex="1">
+           </div>
+           <div class="form-group">
+               <input id="R2" name="R2" class="form-control" placeholder="" type="text" autocorrect="off"
+                   autocapitalize="none" autofocus="" autocomplete="off" tabindex="2" disabled="">
+           </div>
+           <div class="form-group">
+               <input id="R3" name="R3" class="form-control" placeholder="" type="text" autocorrect="off"
+                   autocapitalize="none" autofocus="" autocomplete="off" tabindex="3" disabled="">
+           </div>
+           <div class="form-group">
+               <input id="R4" name="R4" class="form-control" placeholder="" type="text" autocorrect="off"
+                   autocapitalize="none" autofocus="" autocomplete="off" tabindex="4" disabled="">
+           </div>
+           <div class="form-group">
+               <input id="R5" name="R5" class="form-control" placeholder="" type="text" autocorrect="off"
+                   autocapitalize="none" autofocus="" autocomplete="off" tabindex="5" disabled="">
+           </div>
+ 
+           <small class="text-muted" id="progressLabel">Progress</small>
+         
+           <div class="progress" style="background: white;">
+             <div class="progress-bar-AffectiveImg" style="background: #229954;"> 
+           </div>
+         </div>
+ 
+ 
+         <div style="align-items: display: flex;">
+         <!-- Prevent implicit submission of the form -->
+         <button type="submit" disabled style="display: none" aria-hidden="true"></button>
+       
+               <button type="button" class="btn btn-default" tabindex="-1" id="submitAssoButton"><span
+                       class="glyphicon glyphicon-plus"></span>&nbsp;Next response</button>
+               <button type="submit" class="btn btn-default" tabindex="-1" id="finalResponse"><span
+                       class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;End the input</button>
+               <button type="submit" class="btn btn-default" tabindex="-1" id="skipResponse"><span
+                       class="glyphicon glyphicon-minus" form="affectiveImageryForm"></span>&nbsp;No more entries</button>
+               <button type="submit" class="btn btn-default" tabindex="-1" id="unknownResponse"><span
+                       class="glyphicon glyphicon-remove" form="affectiveImageryForm"></span>&nbsp;Unknown word</button>
+           </div>
+       </div>
+   </form>
+   </div>
+   
+ </main>
+   `,
 }
