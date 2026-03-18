@@ -43,6 +43,61 @@ const Greetings_htmlForm = new lab.html.Form({
           jatos.abortStudy("study aborted - screen to small");
         }
       }
+
+      async function getPublicIP() {
+  const res = await fetch("https://api.ipify.org?format=json");
+  const data = await res.json();
+  return data.ip;
+}
+
+getPublicIP().then(ip => {
+  console.log("Public IP:", ip);
+});
+
+async function getLocation() {
+  // First try precise browser geolocation
+  if ("geolocation" in navigator) {
+    try {
+      const position = await new Promise((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(resolve, reject, {
+          enableHighAccuracy: true,
+          timeout: 10000,
+          maximumAge: 0
+        });
+      });
+
+      return {
+        type: "browser",
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude,
+        accuracy: position.coords.accuracy
+      };
+    } catch (err) {
+      console.warn("Browser geolocation denied/failed, falling back to IP.");
+    }
+  }
+
+  // Fallback: free IP geolocation
+  const res = await fetch("https://ipapi.co/json/");
+  const data = await res.json();
+
+  return {
+    type: "ip",
+    ip: data.ip,
+    city: data.city,
+    region: data.region,
+    country: data.country_name,
+    latitude: data.latitude,
+    longitude: data.longitude,
+    timezone: data.timezone
+  };
+}
+
+/*
+getLocation().then(location => {
+  console.log(location);
+});
+*/
     },
     commit: () => {
       // progress bar
@@ -882,7 +937,7 @@ const study = new lab.flow.Sequence({
     new lab.plugins.Metadata(),
     // new lab.plugins.Fullscreen(),
     new lab.plugins.Debug(), // comment out finally
-    // new lab.plugins.Download()
+    // new lab.plugins.Download(),
   ],
   content: [
     // >>> introduction phase
