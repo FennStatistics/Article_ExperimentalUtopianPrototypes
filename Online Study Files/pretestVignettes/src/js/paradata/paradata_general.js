@@ -15,6 +15,7 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
   const state = {
     started: false,
     startTime: Date.now(),
+    stoppedAt: null,
     clipboardEvents: [],
     mouseEvents: [],
     scrollEvents: [],
@@ -253,6 +254,7 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
       meta: {
         startedAt: new Date(state.startTime).toISOString(),
         updatedAt: nowIso(),
+        stoppedAt: state.stoppedAt,
       },
     };
   };
@@ -319,6 +321,15 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
     document.removeEventListener("scroll", handleScroll, true);
     document.removeEventListener("keydown", handleKeyDown, true);
     state.started = false;
+    state.stoppedAt = nowIso();
+    console.log("[paradata] stopped", state.stoppedAt);
+    try {
+      if (typeof study !== "undefined" && study?.options?.datastore?.set) {
+        study.options.datastore.set(PARADATA_KEY, getSnapshot());
+      }
+    } catch (e) {
+      // ignore datastore errors
+    }
   };
 
   window.paradataGeneral = {

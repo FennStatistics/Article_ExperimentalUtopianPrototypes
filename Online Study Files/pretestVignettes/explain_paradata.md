@@ -89,6 +89,12 @@ Handled by `src/js/paradata/paradata_focus.js` only (no duplication in general p
 - `paradata_general` (single object) is updated periodically during the study.
 - Focus/blur events are stored in `para_defocuscount` by the focus collector.
 
+## Lifecycle and stop logging
+
+- `paradata_general` starts automatically on page load.
+- It can be stopped manually by calling `window.paradataGeneral.stop()`.
+- When stopped, a console log is written and `paradata_general.meta.stoppedAt` is stored in the lab.js datastore.
+
 ## Notes on scope
 
 - Paradata is **behavioral metadata**, not survey answers.
