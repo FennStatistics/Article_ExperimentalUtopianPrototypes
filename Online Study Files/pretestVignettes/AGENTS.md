@@ -1,14 +1,26 @@
 # Agent Guide for pretestVignettes
 
 ## Project overview
-- This repo is a static lab.js study delivered by `index.html` and `study.js`.
-- There is no build system or package manager in this folder.
-- Core study flow lives in `study.js` and uses lab.js components and jQuery.
-- Text blocks and HTML templates live in `src/js/content/texts.js`.
-- Survey scale data and helper utilities live in `src/js/content/surveyScales.js`.
-- Affective imagery task logic lives in `src/js/content/AIT_AT.js`.
+- Static lab.js study delivered by `index.html` and `study.js`.
+- No build system, bundler, or package manager in this folder.
+- Study flow is composed in `study.js` using lab.js components defined in phase files.
+- Text + UI HTML lives inside each phase file as template literals.
+- AIT logic and screens are in `src/js/phases/ait.js` (no separate module file).
+- Survey item pools and helper data live in `src/js/content/surveyScales.js`.
+- Global flags (local testing + required responses) live in `src/js/globals.js`.
 - Styles are in `src/css/style.css` (plus vendor `src/css/toastrmin.css`).
-- Additional libraries are loaded from `lib/` and `src/js/additional libraries/`.
+- Additional libraries load from `lib/` and `src/js/additional libraries/`.
+
+## Key file layout
+- `index.html`: script order, library includes, base markup, progress bar.
+- `src/js/globals.js`: `localTesting`, `Required_Testing` flags.
+- `study.js`: global vars + `lab.flow.Sequence` assembly + start logic.
+- `src/js/phases/intro.js`: consent + onboarding screens.
+- `src/js/phases/scenario.js`: vignette text + condition handling.
+- `src/js/phases/ait.js`: AIT instructions, task, loops, rating screen.
+- `src/js/phases/scales.js`: survey scales and prototype assignment.
+- `src/js/phases/ending.js`: feedback + ending/redirect.
+- `src/js/paradata/paradata_focus.js`: focus/defocus tracking.
 
 ## Build, lint, test commands
 - Build: not configured (static HTML + JS).
@@ -19,74 +31,109 @@
 - Preferred: run a local server to avoid file:// restrictions.
 - Command: `python3 -m http.server 8000`
 - Open: `http://localhost:8000/index.html`
-- If you must open the file directly, open `index.html`, but note browser security limits can block `fetch`.
+- Direct `file://` open can block `fetch` and JATOS logic.
 
 ## Running a single test or screen
-- There is no automated test runner.
+- No automated test runner.
 - To test a single screen, temporarily limit `content` in `study.js` to only the component under test.
 - Alternative: keep `lab.plugins.Debug()` enabled and use its UI to skip forward.
-- To test a specific vignette condition without JATOS, temporarily set `futureSocietyCondition` in `study.js`.
+- To test a specific vignette condition locally, set `futureSocietyCondition` in `study.js`.
 - Revert any temporary testing edits before finalizing changes.
 
-## Code style and conventions
-- Language: plain browser JavaScript (no bundler, no modules).
-- Indentation: 2 spaces; keep existing formatting style.
-- Strings: mostly double quotes; keep existing string quote style in each file.
-- Semicolons are used; keep them.
-- Prefer `const` and `let` for new code, but do not refactor existing `var` globals unless required.
-- Keep global variables at top of files; these are relied on across scripts.
-- Avoid renaming IDs, classes, or `name` fields in HTML strings unless also updating selectors.
+## Globals and configuration
+- `src/js/globals.js` defines:
+  - `localTesting`: `true` locally, set to `false` on JATOS.
+  - `Required_Testing`: `true` to force required responses, `false` to relax.
+- JATOS calls are guarded with: `!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function"`.
+- Do not redeclare these flags elsewhere (avoid ReferenceError and shadowing).
 
-## Imports and script order
-- Script tags are ordered in `index.html` and are significant.
-- `texts.js`, `surveyScales.js`, and `AIT_AT.js` are loaded before `study.js`.
-- If adding new scripts, include them before `study.js` if `study.js` depends on them.
-- Avoid introducing module imports; keep scripts as global browser files.
+## Script order and imports
+- Script tags in `index.html` are significant.
+- Current order (simplified):
+  1) `lib/lab.js`
+  2) `src/js/globals.js`
+  3) `src/js/content/surveyScales.js`
+  4) `src/js/phases/*.js`
+  5) `study.js`
+  6) vendor libs + CSS
+- Avoid ES module imports; scripts must stay global browser JS.
+- If adding a new phase file, include it before `study.js`.
 
 ## HTML and text content rules
-- Use template literals for large HTML blocks (see `src/js/content/texts.js`).
-- Keep inline styles consistent with existing markup when editing text blocks.
-- Preserve `id` values used by `study.js` and `AIT_AT.js` (`#continue`, `#protoAssignForm`, `#cueWord`, etc.).
-- For new text blocks, add them to `textObj` in `src/js/content/texts.js` and reference from `study.js`.
+- Use template literals for large HTML blocks inside phase files.
+- Keep inline styles consistent with existing markup.
+- Preserve `id` and `name` attributes used by selectors or lab.js.
+- Avoid changing form `id`s and `name`s unless you update all selectors.
+- Do not move text into new files unless you also update script order.
 
 ## Lab.js patterns
 - Components are created with `lab.html.Form`, `lab.html.Page`, or `lab.html.Screen`.
-- Use `messageHandlers` with `run`, `commit`, `end`, or `epilogue` to hook behavior.
-- Progress bar is updated via `numElementsCounter` and `.progress-bar` in `study.js`.
-- Data is stored via `study.options.datastore.set` and exported with `exportJson()`.
-- If JATOS is present, data is submitted in `commit` handlers.
+- Use `messageHandlers` (`run`, `commit`, `end`, `epilogue`) for behavior.
+- Progress bar updates use `numElementsCounter` and `.progress-bar`.
+- Data is stored with `study.options.datastore.set` and exported via `exportJson()`.
+- JATOS submissions happen in `commit` handlers and the ending `epilogue`.
+- Avoid async work inside `commit` that can block screen transitions.
+- When using `skip`, ensure the skip expression references global vars.
+
+## AIT task specifics
+- AIT globals (`AIT_cue`, `AIT_cue_visibile`, `boolSkipAffectImgInstruction`) live in `src/js/phases/ait.js`.
+- Outer/inner loops are controlled by `loopOuter` and `loopInner`; edit with care.
+- `updateParams_outer` stores `sucsessfulAssociations` and `unsucsessfulAssociations` to the datastore.
+- Instruction text is injected via `currenText` and `#replaceInstructions`.
+- Button labels and placeholders are part of the HTML strings; keep IDs stable.
+
+## JavaScript style and formatting
+- Language: plain browser JavaScript, no TypeScript.
+- Indentation: 2 spaces.
+- Strings: mostly double quotes; keep local file style.
+- Semicolons are used; keep them.
+- Prefer `const`/`let` for new code; do not refactor existing `var` globals unless required.
+- Keep global variables near the top of each file.
+- Avoid large refactors; follow existing patterns.
+- Keep inline HTML in template literals; do not concatenate long strings.
+- Avoid introducing ES6 modules or bundler assumptions.
+
+## Naming conventions
+- Component variables use `PascalCase_htmlForm` / `PascalCase_htmlScreen`.
+- Helper functions use `camelCase` (e.g., `continueornot`).
+- Global booleans use `bool` prefix or descriptive names.
+- Data keys in datastore should stay stable.
 
 ## jQuery and DOM usage
 - jQuery is available globally as `$` (loaded in `index.html`).
-- Prefer jQuery for DOM queries and event binding to match existing code.
-- Use delegated events when HTML is injected or dynamically created.
+- Prefer jQuery for DOM queries and event binding.
+- Use delegated events for dynamically injected HTML.
 - When using jQuery UI widgets, check `$.fn` existence before calling.
 
 ## Types and data handling
-- There is no TypeScript; use runtime guards and simple checks.
-- Keep data structures plain (arrays and objects) for datastore export.
-- Use stable keys in `study.options.datastore.set` to avoid breaking analysis scripts.
+- Use plain objects/arrays for datastore export.
+- Use runtime guards instead of TS types.
+- Avoid changing existing datastore keys unless analysis scripts are updated.
+- When adding new fields, choose stable, snake-case or camelCase keys and document them.
 
-## Naming conventions
-- Component variables are `PascalCase_htmlForm` or similar (`Greetings_htmlForm`).
-- Helper functions are `camelCase` (`continueornot`, `shuffle`).
-- Global booleans use `bool` or descriptive names (existing style).
+## Progress and required responses
+- `numElements` in `study.js` must match the number of progress-tracked screens.
+- Increment `numElementsCounter` once per screen `commit`.
+- `Required_Testing` toggles required survey responses; use booleans, not strings.
+- Avoid mixing `required` HTML attributes and lab.js `required` flags unless needed.
 
 ## Error handling and user feedback
-- Use `alert()` for blocking validation errors (as current code does).
-- Use `toastr.warning` for non-blocking validation feedback in AIT tasks.
-- Avoid throwing errors in handlers that would halt the study flow.
-- When adding external requests, wrap in `try/catch` and log failures.
+- Use `alert()` for blocking validation errors (existing pattern).
+- Use `toastr.warning` for non-blocking validation in AIT tasks.
+- Avoid throwing errors in message handlers; they can halt study flow.
+- Wrap external requests in `try/catch` and log failures.
+- Prefer user-visible messages in plain English; do not change HTML structure.
 
 ## Logging
-- Console logging is used extensively; keep logs concise.
-- Avoid removing important logs that document data submission or flow control.
+- Console logs document flow and data submission.
+- Keep logs concise; do not remove important submission logs.
+- Avoid logging PII or full response text in production runs.
 
 ## CSS conventions
 - Styles are plain CSS in `src/css/style.css`.
 - Keep selectors stable; many are referenced by ID from HTML strings.
-- Prefer class-based styling for new components; reserve IDs for behaviors.
-- Avoid introducing CSS frameworks; extend existing style file.
+- Prefer class-based styling for new UI; reserve IDs for behavior.
+- Avoid introducing CSS frameworks.
 
 ## Assets and external libraries
 - `lib/` contains lab.js and lab.css.
@@ -94,16 +141,25 @@
 - Do not upgrade or replace vendor files unless explicitly requested.
 
 ## Data privacy and external calls
-- `study.js` currently calls external IP and location services.
-- If editing these calls, keep user consent and study ethics in mind.
+- `src/js/phases/intro.js` includes IP/location calls.
+- If editing these calls, consider consent and ethics.
 - Avoid adding new external endpoints without a clear need.
+- Keep external calls behind `localTesting` if they should not run locally.
+
+## Manual QA checklist
+- Consent screen loads and gating works.
+- Scenario text swaps based on `futureSocietyCondition`.
+- AIT loop runs and stores associations.
+- Scales submit without validation issues.
+- Ending screen submits and redirects (only on JATOS).
 
 ## Cursor and Copilot rules
-- No `.cursor/rules/`, `.cursorrules`, or `.github/copilot-instructions.md` found in this repo.
+- No `.cursor/rules/`, `.cursorrules`, or `.github/copilot-instructions.md` found.
 
 ## Common edit locations
 - Study flow sequence: `study.js`.
-- Page text and HTML templates: `src/js/content/texts.js`.
+- Global flags: `src/js/globals.js`.
+- Text + screen logic: `src/js/phases/*.js`.
 - Survey item pools: `src/js/content/surveyScales.js`.
-- AIT task logic: `src/js/content/AIT_AT.js`.
+- AIT logic: `src/js/phases/ait.js`.
 - Styling: `src/css/style.css`.
