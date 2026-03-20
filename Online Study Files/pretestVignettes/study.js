@@ -3,7 +3,8 @@
 */
 
 /* for testing study */
-const Required_Testing = true; // set to false for production !!!
+const Required_Testing = true; // set to true for production !!!
+const localTesting = true; // set to false when running on JATOS !!!
 
 /* number of components / elements to set progress bar */
 const numElements = 11;
@@ -39,6 +40,8 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [
+        loopOuter,
+
     // >>> introduction phase
     Greetings_htmlForm,
 
@@ -74,7 +77,7 @@ const study = new lab.flow.Sequence({
 });
 
 // Start the study
-if (typeof jatos.jQuery === "function") {
+if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
   jatos.onLoad(() => study.run());
 } else {
   study.run();

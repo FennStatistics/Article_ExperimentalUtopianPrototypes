@@ -528,7 +528,7 @@ const TransitionToFinal_htmlForm = new lab.html.Form({
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
 
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
         console.log("result data sent to JATOS");
@@ -608,7 +608,7 @@ const FeedbackScreen_htmlScreen = new lab.html.Form({
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
 
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
         console.log("result data sent to JATOS");
@@ -637,7 +637,7 @@ const EndingScreen_htmlScreen = new lab.html.Screen({
       // alert(numElementsCounter);
     },
     epilogue: function anonymous() {
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
         console.log("my result data sent to JATOS final time");

@@ -26,32 +26,32 @@ const transitionToAITText = `
 
 const AT_Snowball_Inst_Text = `
 <header>
-  <h2>Instruktionen: „Wortassoziationsaufgabe“</h2>
+  <h2>Instructions: "Word Association Task"</h2>
 </header>
 
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
-    <strong>So funktioniert es…</strong>
+    <strong>How it works...</strong>
     <section>
-      Oben auf dem Bildschirm wird ein Szenario beschrieben. Geben Sie das erste Wort oder den ersten Gedanken ein,
-      der Ihnen in den Sinn kommt, wenn Sie sich dieses Szenario vorstellen.
+      A scenario will be described at the top of the screen. Please enter the first word or thought
+      that comes to mind when you imagine this scenario.
     </section>
     <br>
     <section>
-      Verwenden Sie die 
+      Use the 
       <button style="padding:2px; margin-left:0px; margin-right: 0px; font-size: 30px;" disabled="disabled">Enter</button>
-      Taste oder klicken Sie auf den Button 
-      <button style="padding:2px; margin-left:0px; margin-right: 0px; font-size: 30px;" disabled="disabled">Nächste Antwort</button>,
-      um insgesamt fünf Assoziationen einzugeben.
+      key or click the 
+      <button style="padding:2px; margin-left:0px; margin-right: 0px; font-size: 30px;" disabled="disabled">Next response</button>
+      button to enter a total of five associations.
     </section>
     <br>
     <br>
-    <strong>Hinweise:</strong>
+    <strong>Notes:</strong>
     <section>
       <ul>
-        <li>Vermeiden Sie Wiederholungen und ganze Sätze.</li>
-        <li>Bilden Sie bitte jeweils nur Assoziationen zu dem oben genannten Szenario.</li>
-        <li>Antworten Sie so spontan wie möglich.</li>
+        <li>Please avoid repetitions and full sentences.</li>
+        <li>Please only provide associations to the scenario described above.</li>
+        <li>Respond as spontaneously as possible.</li>
       </ul>
     </section>
   </div>
@@ -62,7 +62,7 @@ const AT_Snowball_Inst_Text = `
 
 <footer class="content-vertical-center content-horizontal-right">
   <button id="continue" type="submit" form="page-form">
-    Weiter &rarr;
+    Continue &rarr;
   </button>
 </footer>
       `;
@@ -70,7 +70,7 @@ const AT_Snowball_Inst_Text = `
 const AT_Snowball_Task_Text = `
        <main class="content-horizontal-center content-vertical-center">
       <div style="width: 90%; text-align: center;">
-<span id="replaceTextTop">Geben Sie Worte oder Gedanken ein, die Ihnen in den Sinn kommen, wenn Sie sich Folgendes vorstellen:</span>
+<span id="replaceTextTop">Enter words or thoughts that come to mind when you imagine the following:</span>
           <br>
           <br>
     <div style="align-items: display: flex;">
@@ -81,7 +81,7 @@ const AT_Snowball_Task_Text = `
         <form id="affectiveImageryForm">
           <div class="affectiveImagery">
               <div class="form-group">
-                  <input id="R1" name="R1" class="form-control" placeholder="Geben Sie Ihre erste Assoziation ein." type="text"
+                  <input id="R1" name="R1" class="form-control" placeholder="Enter your first association." type="text"
                       autocorrect="off" autocapitalize="none" autofocus autocomplete="off" tabindex="1">
               </div>
               <div class="form-group">
@@ -101,7 +101,7 @@ const AT_Snowball_Task_Text = `
                       autocapitalize="none" autofocus="" autocomplete="off" tabindex="5" disabled="">
               </div>
     
-              <small class="text-muted" id="progressLabel">Fortschritt</small>
+              <small class="text-muted" id="progressLabel">Progress</small>
             
               <div class="progress" style="background: white;">
                 <div class="progress-bar-AffectiveImg" style="background: #229954;"> 
@@ -114,16 +114,16 @@ const AT_Snowball_Task_Text = `
             <button type="submit" disabled style="display: none" aria-hidden="true"></button>
           
 <button type="button" class="btn btn-default" tabindex="-1" id="submitAssoButton">
-  <span class="glyphicon glyphicon-plus"></span>&nbsp;Nächste Antwort
+  <span class="glyphicon glyphicon-plus"></span>&nbsp;Next response
 </button>
 <button type="submit" class="btn btn-default" tabindex="-1" id="finalResponse">
-  <span class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;Eingabe beenden
+  <span class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;Finish input
 </button>
 <button type="submit" class="btn btn-default" tabindex="-1" id="skipResponse">
-  <span class="glyphicon glyphicon-minus" form="affectiveImageryForm"></span>&nbsp;Keine weiteren Eingaben
+  <span class="glyphicon glyphicon-minus" form="affectiveImageryForm"></span>&nbsp;No more entries
 </button>
 <button type="submit" class="btn btn-default" tabindex="-1" id="unknownResponse">
-  <span class="glyphicon glyphicon-remove" form="affectiveImageryForm"></span>&nbsp;Unbekanntes Wort
+  <span class="glyphicon glyphicon-remove" form="affectiveImageryForm"></span>&nbsp;Unknown word
 </button>
 
               </div>
@@ -214,7 +214,7 @@ const AffectiveImageryInst_full_Text = `
 const AffectiveImagery_Text = `
    <main class="content-horizontal-center content-vertical-center">
    <div>
-       Geben Sie Worte oder Gedanken ein, die Ihnen in den Sinn kommen, wenn Sie sich folgendes Szenario vorstellen:
+       Enter words or thoughts that come to mind when you imagine the following scenario:
        <br>
        <br>
  <div style="align-items: display: flex;"> <strong style="font-size: 22px;">
@@ -260,7 +260,7 @@ const AffectiveImagery_Text = `
                <button type="button" class="btn btn-default" tabindex="-1" id="submitAssoButton"><span
                        class="glyphicon glyphicon-plus"></span>&nbsp;Next response</button>
                <button type="submit" class="btn btn-default" tabindex="-1" id="finalResponse"><span
-                       class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;End the input</button>
+                       class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;Finish input</button>
                <button type="submit" class="btn btn-default" tabindex="-1" id="skipResponse"><span
                        class="glyphicon glyphicon-minus" form="affectiveImageryForm"></span>&nbsp;No more entries</button>
                <button type="submit" class="btn btn-default" tabindex="-1" id="unknownResponse"><span
@@ -286,7 +286,7 @@ const TransitionToAIT_htmlForm = new lab.html.Form({
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
 
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
         console.log("result data sent to JATOS");
@@ -375,7 +375,7 @@ const AffectiveImagery_htmlForm = new lab.html.Form({
         // AIT_cue_visibile = AIT_cue_visibile + "im Kontext von dem folgenden Szenario:" + scenario_backup;
         AIT_cue_visibile = `
         <strong style="font-size:42px">${AIT_cue_visibile}</strong><br>
-        <span style="font-size:30px">im Kontext von dem Szenario:</span><br>
+        <span style="font-size:30px">in the context of the scenario:</span><br>
         <strong>${scenario_backup}</strong>
         `;
 
@@ -396,7 +396,7 @@ const AffectiveImagery_htmlForm = new lab.html.Form({
       boolSkipAffectImgInstruction = true; // skip instruction page after first run
 
       var timesClicked = 1;
-      const placeholderLabel = ["zweite", "dritte", "vierte", "fünfte"];
+      const placeholderLabel = ["second", "third", "fourth", "fifth"];
 
       var currentElement = undefined;
       var inputValue = undefined;
@@ -499,9 +499,9 @@ const AffectiveImagery_htmlForm = new lab.html.Form({
             if (currentElement != "#R5") {
               // change placeholder
               document.querySelector(nextElement).placeholder =
-                "Geben Sie Ihre " +
+                "Enter your " +
                 placeholderLabel[timesClicked - 1] +
-                " Assoziation ein.";
+                " association.";
               // set disabled to true or false
               document.querySelector(currentElement).disabled = true;
               document.querySelector(nextElement).disabled = false;
@@ -588,24 +588,23 @@ const AffectiveImageryAffect_htmlForm = new lab.html.Page({
       ],
       width: "7",
       anchors: [
-        "sehr negativ",
-        "negativ",
-        "etwas negativ",
+        "very negative",
+        "negative",
+        "somewhat negative",
         "neutral",
-        "etwas positiv",
-        "positiv",
-        "sehr positiv",
+        "somewhat positive",
+        "positive",
+        "very positive",
       ],
 
-label: `Bitte geben Sie an, inwieweit Sie Ihre genannten Worte oder Gedanken zu 
-<br><strong id="cueWord_rating" style="font-size: 16px; display: inline-block; margin-left: 25px;">XXX</strong>
-<br> als positiv oder negativ wahrnehmen:`,
-      help: "Lesen Sie jeden Ihrer Worte oder Gedanken und markieren Sie dann die Antwortoption, die am besten zutrifft.",
+label: `Please indicate how positive or negative you perceive the words or thoughts you listed for 
+<br><strong id="cueWord_rating" style="font-size: 16px; display: inline-block; margin-left: 25px;">XXX</strong>`,
+      help: "Read each of your words or thoughts and then select the response option that fits best.",
       shuffle: true,
       name: "${AIT_cue}",
     },
   ],
-  submitButtonText: "Weiter →",
+  submitButtonText: "Continue →",
   submitButtonPosition: "right",
   width: "l",
   messageHandlers: {
@@ -836,11 +835,11 @@ const beforeSecondOrderAssociations_htmlForm = new lab.html.Form({
     run: function anonymous() {
       if (studyCondition_global == "PersonnelSelection") {
         $("#scenarioText").html(
-          "Ein Mensch beaufsichtigt KI, die Personalauswahl durchführt."
+          "A person supervises AI that conducts personnel selection."
         );
       } else {
         $("#scenarioText").html(
-          "Ein Mensch beaufsichtigt KI, die medizinische Diagnostik durchführt."
+          "A person supervises AI that performs medical diagnostics."
         );
       }
     },

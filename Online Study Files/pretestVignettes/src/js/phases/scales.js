@@ -337,7 +337,7 @@ const understandingText_htmlForm = new lab.html.Form({
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
 
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
         jatos
@@ -384,7 +384,7 @@ const quesClearBiasUtopia_htmlForm = new lab.html.Form({
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
 
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
         jatos
@@ -471,7 +471,7 @@ const quesPrototypeAssign_htmlForm = new lab.html.Form({
         (numElementsCounter / numElements) * 100 + "%";
 
       // JATOS submit (same pattern as your other pages)
-      if (typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         var resultJson = study.options.datastore.exportJson();
         jatos
           .submitResultData(resultJson)

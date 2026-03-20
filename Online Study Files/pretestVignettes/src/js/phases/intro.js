@@ -351,7 +351,7 @@ const Greetings_htmlForm = new lab.html.Form({
   content: greetingsText,
   messageHandlers: {
     run: function anonymous() {
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         if (
           study.state.meta.screen_height < 700 &&
           study.state.meta.screen_width < 1200
@@ -430,7 +430,7 @@ const Greetings_htmlForm = new lab.html.Form({
         (numElementsCounter / numElements) * 100 + "%";
 
       // get URL params
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         URLparams_global = jatos.urlQueryParameters;
         console.log("URLparams_global:", URLparams_global);
 
@@ -471,7 +471,7 @@ const InformCon_htmlForm = new lab.html.Form({
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
 
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
         console.log("result data sent to JATOS first time");
@@ -560,7 +560,7 @@ const SetupStudy_htmlForm = new lab.html.Form({
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
 
-      if (typeof jatos.jQuery === "function") {
+      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
         console.log("result data sent to JATOS second time");
