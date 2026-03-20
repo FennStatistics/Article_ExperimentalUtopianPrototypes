@@ -21,6 +21,7 @@
 - `src/js/phases/scales.js`: survey scales and prototype assignment.
 - `src/js/phases/ending.js`: feedback + ending/redirect.
 - `src/js/paradata/paradata_focus.js`: focus/defocus tracking.
+- `src/js/paradata/paradata_general.js`: general paradata (clipboard/mouse/scroll/typing timing).
 
 ## Build, lint, test commands
 - Build: not configured (static HTML + JS).
