@@ -14,35 +14,39 @@ input[type="radio"] {
 
 
 /* vignette */
-    .concept {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      padding: 1rem 1.5rem;
-      margin-bottom: 2rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-      text-align: left;
-    }
-    .concept h2 {
-      font-size: 1.8rem;
-      margin-bottom: 0.8rem;
-      color: #005a9c;
-      border-bottom: 2px solid #005a9c;
-      padding-bottom: 0.3rem;
-      display: block;
-      margin: 0;
-      width: 100%;
-      box-sizing: border-box;
-    }
-    .concept p {
-      margin: 0.6rem 0;
-    }
-    .concept p:first-of-type {
-      font-weight: bold;
-    }
-    .concept p:last-of-type {
-      font-style: italic;
-    }
+.concept {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.concept h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #005a9c;
+  border-bottom: 2px solid #005a9c;
+  padding-bottom: 0.3rem;
+  display: block;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.concept p {
+  margin: 0.6rem 0;
+}
+
+.concept p:first-of-type {
+  font-weight: bold;
+}
+
+.concept p:last-of-type {
+  font-style: italic;
+}
 
 
 
@@ -57,7 +61,8 @@ td label.text-left strong {
 }
 
 select {
-  font-size: 20px; /* Adjust as needed */
+  font-size: 20px;
+  /* Adjust as needed */
   padding: 8px;
 }
 
@@ -67,22 +72,45 @@ select option {
 
 
 
-
-#submitAssoButton, #finalResponse, #skipResponse, #unknownResponse {
-  font-size: 1.25rem;   /* Increases text size */
-  padding: 0.75rem 1.5rem; /* More space inside the button */
-  border-radius: 0.5rem; /* Optional: makes corners rounded */
-  min-width: 150px;      /* Optional: sets a minimum width */
-  cursor: pointer;       /* Makes it clear it's clickable */
+.affectiveImagery .form-group {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#submitAssoButton:hover, #finalResponse:hover, #skipResponse:hover, #unknownResponse:hover {
+
+.form-control {
+  font-size: 22px;
+  padding: 10px;
+}
+
+#submitAssoButton,
+#finalResponse,
+#skipResponse,
+#unknownResponse {
+  font-size: 1.25rem;
+  /* Increases text size */
+  padding: 0.75rem 1.5rem;
+  /* More space inside the button */
+  border-radius: 0.5rem;
+  /* Optional: makes corners rounded */
+  min-width: 150px;
+  /* Optional: sets a minimum width */
+  cursor: pointer;
+  /* Makes it clear it's clickable */
+}
+
+#submitAssoButton:hover,
+#finalResponse:hover,
+#skipResponse:hover,
+#unknownResponse:hover {
   background-color: #f0f0f0;
   transform: scale(1.05);
 }
 
 
 #continue {
-  background-color: #4CAF50; /* green */
+  background-color: #4CAF50;
+  /* green */
   border: none;
   color: white;
   font-size: 16px;
@@ -102,19 +130,21 @@ select option {
 
 
 footer #continue {
-  font-size: 20px; /* Adjust the size as needed */
+  font-size: 20px;
+  /* Adjust the size as needed */
 }
 
 
 
 
 
-.text-muted{
+.text-muted {
   font-size: 22px;
 }
 
 .page-item-table * {
-  font-size: 20px; /* Adjust the size as needed */
+  font-size: 20px;
+  /* Adjust the size as needed */
 }
 
 kbd {
@@ -122,42 +152,60 @@ kbd {
 }
 
 
-.content-horizontal-right *{
+.content-horizontal-right * {
   margin-right: 15%;
 }
 
 .ui-helper-hidden-accessible {
   display: none !important;
 }
-  
-  /* Style for primes */
+
+/* Style for primes */
 .content-canvas {
-  display: flex; /* Enable flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Full height of the visible screen */
-  margin: 0; /* Remove default margins */
+  display: flex;
+  /* Enable flexbox */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 100vh;
+  /* Full height of the visible screen */
+  margin: 0;
+  /* Remove default margins */
 }
 
 /* Style for the image container */
 .image-container {
-  width: 50%; /* Adjust width as needed */
-  aspect-ratio: 3 / 4; /* Maintain 3:4 ratio */
-  max-width: 250px; /* Ensure the image has a minimum width */
-  max-height: 333px; /* Ensure the container has a minimum width */
-  overflow: hidden; /* Prevent overflow if the image doesn’t match perfectly */
-  display: flex; /* Optional: center the image inside */
-  justify-content: center; /* Center the image horizontally (optional) */
-  align-items: center; /* Center the image vertically (optional) */
+  width: 50%;
+  /* Adjust width as needed */
+  aspect-ratio: 3 / 4;
+  /* Maintain 3:4 ratio */
+  max-width: 250px;
+  /* Ensure the image has a minimum width */
+  max-height: 333px;
+  /* Ensure the container has a minimum width */
+  overflow: hidden;
+  /* Prevent overflow if the image doesn’t match perfectly */
+  display: flex;
+  /* Optional: center the image inside */
+  justify-content: center;
+  /* Center the image horizontally (optional) */
+  align-items: center;
+  /* Center the image vertically (optional) */
 }
 
 /* Style for the image */
 #prime_image {
-  width: 100%; /* Fit image to the container width */
-  height: 100%; /* Match container height */
-  object-fit: cover; /* Prevent distortion while filling the container */
-  max-width: 250px; /* Ensure the image has a minimum width */
-  max-height: 333px; /* Ensure the container has a minimum width */
+  width: 100%;
+  /* Fit image to the container width */
+  height: 100%;
+  /* Match container height */
+  object-fit: cover;
+  /* Prevent distortion while filling the container */
+  max-width: 250px;
+  /* Ensure the image has a minimum width */
+  max-height: 333px;
+  /* Ensure the container has a minimum width */
 }
 
 
@@ -211,19 +259,20 @@ kbd {
 
 
 /* canvas screen */
-    /* Center the canvas horizontally and vertically */
-    .content-canvas {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh; /* Full viewport height */
-    }
+/* Center the canvas horizontally and vertically */
+.content-canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Full viewport height */
+}
 
 
 /* blue dot task */
 .scale {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   color: white;
@@ -231,7 +280,9 @@ kbd {
   text-align: center;
   gap: 10px;
 }
-.scale button, .blue-dot {
+
+.scale button,
+.blue-dot {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -271,9 +322,12 @@ kbd {
   right: 0;
   margin-right: 20px;
   color: red;
-  border: 2px solid black; /* This adds a line around the div */
-  background-color: yellow; /* This sets the background color of the div */
-  padding: 5px; /* This adds space around the text inside the div */
+  border: 2px solid black;
+  /* This adds a line around the div */
+  background-color: yellow;
+  /* This sets the background color of the div */
+  padding: 5px;
+  /* This adds space around the text inside the div */
 }
 
 
@@ -283,81 +337,90 @@ kbd {
   right: 0;
   margin-right: 20px;
   color: red;
-  border: 2px solid black; /* This adds a line around the div */
-  background-color: yellow; /* This sets the background color of the div */
-  padding: 5px; /* This adds space around the text inside the div */
+  border: 2px solid black;
+  /* This adds a line around the div */
+  background-color: yellow;
+  /* This sets the background color of the div */
+  padding: 5px;
+  /* This adds space around the text inside the div */
 }
- /* Three image containers (use 25% for four, and 50% for two, etc) */
- .column {
-    float: left;
-    width: 20%;
-    align-items: center;
-    text-align: left;
-  }
 
-  .column2 {
-    float: left;
-    width: 70%;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-    margin-left: 20px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  align-items: center;
+  text-align: left;
+}
+
+.column2 {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
 input[type="radio"] {
-    -ms-transform: scale(1.5);
-    /* IE 9 */
-    -webkit-transform: scale(1.5);
-    /* Chrome, Safari, Opera */
-    transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Chrome, Safari, Opera */
+  transform: scale(1.5);
 }
 
 .defocus {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .centerIMG {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6{
-    margin-left: 10%;
-    margin-right: 10%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 
 .w-xl {
-    width: 100%;
-    max-width: calc(3 * 320px);
-    max-width: calc(3 * var(--width-min-container));
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 100%;
+  max-width: calc(3 * 320px);
+  max-width: calc(3 * var(--width-min-container));
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .w-xxl {
-    width: 130%;
-    max-width: calc(4 * 320px);
-    max-width: calc(4 * var(--width-min-container));
-    margin-left: auto;
-    margin-right: auto;
-  }
+.w-xxl {
+  width: 130%;
+  max-width: calc(4 * 320px);
+  max-width: calc(4 * var(--width-min-container));
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  /* adjust affective imagery*/
+/* adjust affective imagery*/
 .form-group {
   margin: 5px
 }
@@ -367,7 +430,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
 }
 
@@ -399,11 +463,26 @@ input[type="text"]:disabled {
 
 /* Style assignment task */
 /* Prototype assignment component */
-#protoAssignForm { margin-top: .5rem; }
-#protoAssignForm .font-weight-bold { font-weight: 600; line-height: 1.35; }
-#protoAssignForm .small { font-size: .875rem; }
-#protoAssignForm .text-muted { color: #666; }
-#protoAssignForm .w-100 { width: 100%; }
+#protoAssignForm {
+  margin-top: .5rem;
+}
+
+#protoAssignForm .font-weight-bold {
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+#protoAssignForm .small {
+  font-size: .875rem;
+}
+
+#protoAssignForm .text-muted {
+  color: #666;
+}
+
+#protoAssignForm .w-100 {
+  width: 100%;
+}
 
 /* Blocks (single-column layout) */
 #protoAssignForm .proto-block {
@@ -424,8 +503,10 @@ input[type="text"]:disabled {
 
 #protoRadioGroup label {
   display: block;
-  margin: .45rem 0;              /* more space between labels */
-  padding: .5rem .65rem;         /* more internal space */
+  margin: .45rem 0;
+  /* more space between labels */
+  padding: .5rem .65rem;
+  /* more internal space */
   border-radius: 8px;
   line-height: 1.4;
   cursor: pointer;
@@ -440,7 +521,8 @@ input[type="text"]:disabled {
 #protoRadioGroup .ui-checkboxradio-label {
   display: block;
   margin: .45rem 0;
-  padding: .65rem .8rem;         /* more space */
+  padding: .65rem .8rem;
+  /* more space */
   border: 1px solid transparent;
   border-radius: 8px;
   background: transparent;
@@ -462,19 +544,30 @@ input[type="text"]:disabled {
 #protoConfidenceGroup {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: .55rem;                   /* more space between buttons */
+  gap: .55rem;
+  /* more space between buttons */
 }
 
-.conf-option { display: block; text-align: center; cursor: pointer; }
-.conf-option > span {
+.conf-option {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.conf-option>span {
   display: block;
   border: 1px solid #dcdcdc;
   border-radius: 8px;
   background: #fafafa;
-  padding: .65rem .3rem;         /* more height/space */
+  padding: .65rem .3rem;
+  /* more height/space */
   line-height: 1.2;
 }
-.conf-option small { color: #666; font-size: .72rem; }
+
+.conf-option small {
+  color: #666;
+  font-size: .72rem;
+}
 
 /* jQuery UI confidence labels */
 #protoConfidenceGroup .ui-checkboxradio-label {
@@ -487,6 +580,7 @@ input[type="text"]:disabled {
   background: #fafafa;
   line-height: 1.2;
 }
+
 #protoConfidenceGroup .ui-checkboxradio-checked {
   background: #eef4ff;
   border-color: #bfd3f5;
@@ -507,5 +601,5 @@ input[type="text"]:disabled {
 #protoReasonText:focus {
   outline: none;
   border-color: #9fb8e7;
-  box-shadow: 0 0 0 2px rgba(159,184,231,.2);
+  box-shadow: 0 0 0 2px rgba(159, 184, 231, .2);
 }

@@ -83,14 +83,14 @@ let quesMoralIntensitySAI = {
     "PX1r", "PX2",
 */
 
-
+/*
 var index_quesMoralIntensitySAI = shuffle(quesMoralIntensitySAI);
 console.log("quesMoralIntensitySAI index: ", index_quesMoralIntensitySAI);
 console.log("quesMoralIntensitySAI: ", quesMoralIntensitySAI);
 
 var items_quesMoralIntensitySAI = createitems(quesMoralIntensitySAI, index_quesMoralIntensitySAI);
 console.log(items_quesMoralIntensitySAI);
-
++/
 
 
 

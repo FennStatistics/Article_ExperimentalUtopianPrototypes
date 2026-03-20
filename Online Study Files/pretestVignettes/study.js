@@ -3,8 +3,7 @@
 */
 
 /* for testing study */
-const Required_Testing = true; // set to true for production !!!
-const localTesting = true; // set to false when running on JATOS !!!
+// Required_Testing and localTesting are defined in src/js/globals.js
 
 /* number of components / elements to set progress bar */
 const numElements = 11;
@@ -40,6 +39,8 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [
+    loopOuter,
+    
     // >>> introduction phase
     Greetings_htmlForm,
 

@@ -486,7 +486,8 @@ const quesAttributesFutureSociety_htmlForm = new lab.html.Page({
   title: "quesAttributes",
   items: [
     {
-      required: true,
+      tardy: true,
+      required: Required_Testing,
       type: "likert",
       items: items_quesAttributes,
       width: "7",
@@ -524,6 +525,7 @@ const quesAttributesFutureSociety_htmlForm = new lab.html.Page({
      <col style=\"width: 5%\">
      <col style=\"width: 5%\">
      `;
+     document.querySelectorAll("button")[0].id = "continue";
       // collect paradata
       paracountclicks = 0;
       document.querySelectorAll("input").forEach((item) => {
