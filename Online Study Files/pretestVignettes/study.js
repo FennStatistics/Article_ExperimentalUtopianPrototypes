@@ -40,8 +40,6 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [
-        loopOuter,
-
     // >>> introduction phase
     Greetings_htmlForm,
 

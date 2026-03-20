@@ -373,10 +373,11 @@ const Greetings_htmlForm = new lab.html.Form({
         const data = await res.json();
         return data.ip;
       }
-
+/*
       getPublicIP().then((ip) => {
         console.log("Public IP:", ip);
       });
+      */
 
       async function getLocation() {
         // First try precise browser geolocation
