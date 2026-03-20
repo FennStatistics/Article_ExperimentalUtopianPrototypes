@@ -163,10 +163,13 @@ const exclusionCriteriaText = `
              <li>Please read all instructions carefully and comply with them.</li>
          </ul>
 <br>
-<br>
 We care about the quality of our experimental and survey data. To get the most accurate measures of your opinions, it is important that you provide thoughtful answers to each questions in this survey. 
 <br>
 <form id="page-form">
+  <div aria-hidden="true" style="position:absolute; left:-9999px; width:1px; height:1px; opacity:0; overflow:hidden;">
+    <label for="hp_exclusionCriteria">Instruction check: please type EXACTLY "I read the instructions" in the box below.</label>
+    <input type="text" id="hp_exclusionCriteria" name="hp_exclusionCriteria" autocomplete="off" tabindex="-1">
+  </div>
 <!-- see: https://www.qualtrics.com/blog/attention-checks-and-data-quality/ -->
 <!-- multiple choice + text field --> 
 <div class="page-item page-item-radio" id="page-item-ques_dummycam">
@@ -448,6 +451,14 @@ const ExclusionCriteria_htmlForm = new lab.html.Form({
   messageHandlers: {
     run: function anonymous() {},
     commit: () => {
+      const honeypotValue = $("#hp_exclusionCriteria").val();
+      if (honeypotValue && honeypotValue.trim().length > 0) {
+        study.options.datastore.set("hp_exclusionCriteria", true);
+        study.options.datastore.set("hp_exclusionCriteria_value", honeypotValue);
+      } else {
+        study.options.datastore.set("hp_exclusionCriteria", false);
+      }
+
       // progress bar
       numElementsCounter++;
       document.querySelector(".progress-bar").style.width =

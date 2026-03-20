@@ -67,6 +67,7 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
       cookieEnabled: navigator.cookieEnabled,
       online: navigator.onLine,
       doNotTrack: navigator.doNotTrack,
+      webdriver: navigator.webdriver,
       hardwareConcurrency: navigator.hardwareConcurrency,
       deviceMemory: navigator.deviceMemory || null,
       maxTouchPoints: navigator.maxTouchPoints,
