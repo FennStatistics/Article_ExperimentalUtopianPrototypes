@@ -148,23 +148,24 @@ const informConNoText = `
 
 const exclusionCriteriaText = `
    <header>
-     <h2>Thank you for agreeing to the conditions of participation. </h2>
- </header>
- 
- <main class="content-horizontal-center content-vertical-center">
-     <div class="w-xl text-justify">
-         <section>
-             Before we begin, we would like to draw your attention to the following rules during the online study:
-         </section>
-         <br>
-         <ul>
-             <li>Please answer the study in a focused manner.</li>
-             <li>Do not leave the browser screen of the study unless you are explicitly asked to do so. </li>
-             <li>Please read all instructions carefully and comply with them.</li>
-         </ul>
-<br>
-We care about the quality of our experimental and survey data. To get the most accurate measures of your opinions, it is important that you provide thoughtful answers to each questions in this survey. 
-<br>
+      <h2>Thank you for agreeing to the conditions of participation. </h2>
+  </header>
+  
+  <main class="content-horizontal-center content-vertical-center">
+      <div class="w-xl text-justify">
+          <section>
+              Before we begin, we would like to draw your attention to the following rules during the online study:
+          </section>
+          <br>
+          <ul>
+              <li>Please answer the study in a focused manner.</li>
+              <li>Do not leave the browser screen of the study unless you are explicitly asked to do so. </li>
+              <li>Please read all instructions carefully and comply with them.</li>
+              <li>Do not use bots or AI tools (e.g., Large Language Models such as ChatGPT) to answer any part of this study.</li>
+          </ul>
+ <br>
+ We care about the quality of our experimental and survey data. To get the most accurate measures of your opinions, it is important that you provide thoughtful answers to each question in this survey. 
+ <br>
 <form id="page-form">
   <div aria-hidden="true" style="position:absolute; left:-9999px; width:1px; height:1px; opacity:0; overflow:hidden;">
     <label for="hp_exclusionCriteria">Instruction check: please type EXACTLY "I read the instructions" in the box below.</label>
@@ -317,28 +318,31 @@ const attentionCheckText = `
 
 const setupStudyText = `
    <header>
-     <h2>Overview of the study:</h2>
-   </header>
-   
-   <main class="content-horizontal-center content-vertical-center">
-   <div class="w-xl text-justify">
- <section>
-This study is divided into two parts:
-       </section>
- <br>
-<table>
-  <tr>
-    <td>1) Read a short text and imagine to live in this society.</td>
-  </tr>
-  <tr>
-    <td>2) Based on the text, answer a few questions about your emotional response and how clear and understandable it is.</td>
-  </tr>
-</table>
- <br>
- <section>
- Within each task, you will receive detailed instructions to help you understand what is expected. Please make sure to read them carefully.
-   </div>
- </main>
+      <h2>Overview of the study:</h2>
+    </header>
+    
+    <main class="content-horizontal-center content-vertical-center">
+    <div class="w-xl text-justify">
+  <section>
+ This study consists of the following parts:
+        </section>
+  <br>
+ <table>
+   <tr>
+     <td>1) Read a short vignette and imagine living in the described society.</td>
+   </tr>
+   <tr>
+     <td>2) Complete a short association task (AIT) that measures your spontaneous associations and emotional evaluation of the society.</td>
+   </tr>
+   <tr>
+     <td>3) Answer a few questions about the vignette (e.g., how understandable it was), potential bias, and perceived attributes of the society.</td>
+   </tr>
+ </table>
+  <br>
+  <section>
+  Within each task, you will receive detailed instructions to help you understand what is expected. Please make sure to read them carefully.
+    </div>
+  </main>
    <form id="page-form"> 
    </form>
    
