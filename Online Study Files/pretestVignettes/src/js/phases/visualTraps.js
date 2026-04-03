@@ -1,8 +1,8 @@
 /*
 ################### Visual Traps (Cognitive Traps) ###################
 
-Source stimuli and answer options are based on:
-`study visual traps/` (Qualtrics export + stimuli).
+Source stimuli are copied from `study visual traps/stimuli/`.
+Answer options are a harmonized 4-option set (not the original Qualtrics option counts).
 
 This phase shows 6 visual trap items (Shape Overload excluded).
 Order is randomized via `index_visualTraps` created in `study.js`.
@@ -16,8 +16,12 @@ const visualTrapText = `
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xxl text-justify">
 
+    <p class="text-left" style="margin: 0 5% 0.75rem 5%; font-size: 20px; color: #444;">
+      Please look at the image and choose the best answer. If you are unsure, please make your best guess.
+    </p>
+
     <div style="text-align:center; margin: 0.5rem 0 1rem 0;">
-      <img id="trapImage" alt="Visual perception stimulus" style="max-width: 100%; max-height: 55vh; height: auto;" />
+      <img id="trapImage" alt="Visual perception stimulus" style="max-width: 100%; max-height: 55vh; height: auto; object-fit: contain;" />
     </div>
 
     <div class="page-item page-item-radio" style="margin: 0 5%;">
@@ -44,16 +48,14 @@ const different_visualTraps = {
     trapId: "Planets",
     imageSrc: "src/static/visualTraps/SurroundedPlanets.png",
     questionText:
-      "Look at the 6 planets in this image. Each planet is surrounded by several shapes (triangles, circles, rectangles, etc.). Don't worry about the color, size, or type of shape - just count how many shapes surround each planet. Five planets have 5 shapes surrounding them. One planet has 4 shapes surrounding it. What color is the planet that has only 4 shapes surrounding it?",
+      "Look at the 6 planets in this image. Each planet is surrounded by several shapes. Don't worry about the color, size, or type of shape - just count how many shapes surround each planet. Five planets have 5 shapes surrounding them. One planet has 4 shapes surrounding it. What color is the planet that has only 4 shapes surrounding it?",
     choices: [
-      { value: "4", label: "Purple" },
-      { value: "16", label: "Orange" },
-      { value: "17", label: "Blue" },
-      { value: "18", label: "Red" },
-      { value: "19", label: "Green" },
-      { value: "20", label: "Gray" },
+      { value: "1", label: "Purple" },
+      { value: "2", label: "Orange" },
+      { value: "3", label: "Blue" },
+      { value: "4", label: "Green" },
     ],
-    correctValue: "16",
+    correctValue: "2",
   },
   cafeWall: {
     trapId: "CafeWall",
@@ -61,10 +63,12 @@ const different_visualTraps = {
     questionText:
       "Are all the gray lines PERFECTLY STRAIGHT / HORIZONTAL or SLANTED / DIAGONAL?",
     choices: [
-      { value: "4", label: "Straight / Horizontal" },
-      { value: "14", label: "Slanted / Diagonal" },
+      { value: "1", label: "Straight / Horizontal" },
+      { value: "2", label: "Slightly curved" },
+      { value: "3", label: "Slanted / Diagonal" },
+      { value: "4", label: "Mixed: some straight, some slanted" },
     ],
-    correctValue: "14",
+    correctValue: "3",
   },
   collision: {
     trapId: "Collision",
@@ -72,21 +76,12 @@ const different_visualTraps = {
     questionText:
       "The largest circle will move straight to the left towards the smallest circle. What are the objects in the way, if any? That is, which objects, if any, would the largest circle collide with?",
     choices: [
-      { value: "4", label: "Green Triangle Only" },
-      { value: "14", label: "Green Triangle and Green Rectangle" },
-      { value: "16", label: "Blue Triangle and Orange Circle" },
-      { value: "17", label: "Blue Triangle and Green Triangle" },
-      { value: "18", label: "Yellow Rectangle and Green Triangle" },
-      {
-        value: "19",
-        label: "Green Triangle, Orange Circle, and Blue Triangle",
-      },
-      { value: "20", label: "Black Rectangle Only" },
-      { value: "21", label: "Two Green Triangles" },
-      { value: "22", label: "Blue Triangle and Yellow Rectangle" },
-      { value: "23", label: "Black Rectangle and Blue Star" },
+      { value: "1", label: "Green Triangle Only" },
+      { value: "2", label: "Green Triangle and Green Rectangle" },
+      { value: "3", label: "Blue Triangle and Orange Circle" },
+      { value: "4", label: "No object would be hit" },
     ],
-    correctValue: "4",
+    correctValue: "1",
   },
   robot: {
     trapId: "Robot",
@@ -94,36 +89,36 @@ const different_visualTraps = {
     questionText:
       "Across each step, the robot moves with the same speed and trajectory. Where is it most likely that the robot will be located on Step 4?",
     choices: [
-      { value: "1", label: "Mostly on the bottom right of the square" },
-      { value: "2", label: "Mostly on the bottom left of the square" },
-      { value: "3", label: "Mostly on the upper right of the square" },
-      { value: "4", label: "Mostly on the upper left of the square" },
-      { value: "5", label: "Mostly around the center of the square" },
-      { value: "6", label: "Off-screen (outside the square)" },
+      { value: "1", label: "Mostly on the bottom left of the square" },
+      { value: "2", label: "Mostly on the upper right of the square" },
+      { value: "3", label: "Mostly around the center of the square" },
+      { value: "4", label: "Off-screen (outside the square)" },
     ],
-    correctValue: "5",
+    correctValue: "3",
   },
   lines: {
     trapId: "Lines",
     imageSrc: "src/static/visualTraps/ModifiedMullerLyer.png",
     questionText: "Which is longer, the blue line or the red line?",
     choices: [
-      { value: "4", label: "Blue Line" },
-      { value: "14", label: "Red Line" },
-      { value: "16", label: "NONE (they are the same size)" },
+      { value: "1", label: "Blue Line" },
+      { value: "2", label: "Red Line" },
+      { value: "3", label: "NONE (they are the same size)" },
+      { value: "4", label: "Cannot be determined from the image" },
     ],
-    correctValue: "4",
+    correctValue: "1",
   },
   circles: {
     trapId: "Circles",
     imageSrc: "src/static/visualTraps/ModifiedEbbinghaus.jpg",
     questionText: "Which is bigger, the blue circle or the red circle?",
     choices: [
-      { value: "4", label: "Blue Circle" },
-      { value: "14", label: "Red Circle" },
-      { value: "16", label: "NONE (they are the same size)" },
+      { value: "1", label: "Blue Circle" },
+      { value: "2", label: "Red Circle" },
+      { value: "3", label: "NONE (they are the same size)" },
+      { value: "4", label: "Cannot be determined from the image" },
     ],
-    correctValue: "14",
+    correctValue: "2",
   },
 };
 
@@ -132,8 +127,21 @@ const totalVisualTraps = arrayVisualTraps.length;
 
 var counterVisualTraps = 0;
 var currentVisualTrap = undefined;
+var currentVisualTrapChoicesShown = undefined;
+var currentVisualTrapStartTime = undefined;
 var visualTrapOrder = [];
 var visualTrapTrials = [];
+
+function shuffleArrayCopy(arr) {
+  const copy = arr.slice();
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const tmp = copy[i];
+    copy[i] = copy[j];
+    copy[j] = tmp;
+  }
+  return copy;
+}
 
 function renderVisualTrapOptions(trap) {
   const container = document.getElementById("trapOptions");
@@ -160,8 +168,14 @@ const VisualTraps_htmlForm = new lab.html.Form({
   content: visualTrapText,
   messageHandlers: {
     run: () => {
-      const trap = arrayVisualTraps[index_visualTraps[counterVisualTraps]];
+      const trapOriginal = arrayVisualTraps[index_visualTraps[counterVisualTraps]];
+      const trap = Object.assign({}, trapOriginal);
+      trap.choices = shuffleArrayCopy(trapOriginal.choices);
+
       currentVisualTrap = trap;
+      currentVisualTrapChoicesShown = trap.choices;
+      currentVisualTrapStartTime = Date.now();
+
       visualTrapOrder.push(trap.trapId);
 
       // Set image and question
@@ -182,6 +196,19 @@ const VisualTraps_htmlForm = new lab.html.Form({
         (numElementsCounter / numElements) * 100 + "%";
 
       const selected = $("input[name='visualTrapResponse']:checked").val();
+      const rtMs =
+        typeof currentVisualTrapStartTime === "number"
+          ? Math.max(0, Date.now() - currentVisualTrapStartTime)
+          : null;
+
+      let selectedLabel = null;
+      if (selected !== undefined && currentVisualTrapChoicesShown) {
+        const hit = currentVisualTrapChoicesShown.find(
+          (c) => String(c.value) === String(selected)
+        );
+        selectedLabel = hit ? hit.label : null;
+      }
+
       const correct =
         selected !== undefined && selected === currentVisualTrap.correctValue;
 
@@ -191,15 +218,36 @@ const VisualTraps_htmlForm = new lab.html.Form({
         selected || null
       );
       study.options.datastore.set(
+        "visualTrap_" + currentVisualTrap.trapId + "_responseLabel",
+        selectedLabel
+      );
+      study.options.datastore.set(
         "visualTrap_" + currentVisualTrap.trapId + "_correct",
         correct
+      );
+      study.options.datastore.set(
+        "visualTrap_" + currentVisualTrap.trapId + "_rtMs",
+        rtMs
+      );
+      study.options.datastore.set(
+        "visualTrap_" + currentVisualTrap.trapId + "_optionOrder",
+        (currentVisualTrapChoicesShown || []).map((c) => ({
+          value: c.value,
+          label: c.label,
+        }))
       );
 
       // Store overall ordering + trial list
       visualTrapTrials.push({
         trapId: currentVisualTrap.trapId,
         response: selected || null,
+        responseLabel: selectedLabel,
         correct: correct,
+        rtMs: rtMs,
+        optionOrder: (currentVisualTrapChoicesShown || []).map((c) => ({
+          value: c.value,
+          label: c.label,
+        })),
         timestamp: new Date().toISOString(),
       });
       study.options.datastore.set("visualTrap_order", visualTrapOrder);
