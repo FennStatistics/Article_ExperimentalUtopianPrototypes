@@ -140,10 +140,11 @@ footer #continue {
 /* visual traps (cognitive traps) */
 .visual-traps {
   --trap-accent: #229954;
+  --trap-accent-dark: #046809;
   --trap-border: #d7dde3;
   --trap-bg: #ffffff;
   --trap-card-bg: #f7f9fb;
-  --trap-card-bg-hover: #eef3f7;
+  --trap-card-bg-hover: #eaf7ef;
   --trap-card-bg-checked: #eaf7ef;
 }
 
@@ -207,7 +208,7 @@ footer #continue {
   box-sizing: border-box;
   border-radius: 14px;
   background: var(--trap-card-bg);
-  border: 1px solid var(--trap-border);
+  border: 2px solid var(--trap-border);
   font-size: 20px;
   line-height: 1.15;
   transition: background-color 120ms ease, border-color 120ms ease,
@@ -216,15 +217,25 @@ footer #continue {
 
 .visual-traps .trap-option:hover .trap-option-card {
   background: var(--trap-card-bg-hover);
-  border-color: rgba(34, 153, 84, 0.55);
+  border-color: var(--trap-accent-dark);
+  border-width: 3px;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
   transform: translateY(-1px);
 }
 
+.visual-traps .trap-option:active .trap-option-card {
+  background: var(--trap-card-bg-hover);
+  border-color: var(--trap-accent-dark);
+  border-width: 3px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
+  transform: translateY(0);
+}
+
 .visual-traps .trap-option input[type="radio"]:checked + .trap-option-card {
   background: var(--trap-card-bg-checked);
-  border-color: var(--trap-accent);
-  box-shadow: 0 0 0 3px rgba(34, 153, 84, 0.18), 0 10px 22px rgba(0, 0, 0, 0.08);
+  border-color: var(--trap-accent-dark);
+  border-width: 3px;
+  box-shadow: 0 0 0 3px rgba(34, 153, 84, 0.16), 0 10px 22px rgba(0, 0, 0, 0.08);
 }
 
 .visual-traps .trap-option input[type="radio"]:focus-visible + .trap-option-card {
