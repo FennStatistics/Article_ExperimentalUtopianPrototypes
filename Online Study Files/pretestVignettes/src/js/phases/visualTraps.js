@@ -10,14 +10,14 @@ Order is randomized via `index_visualTraps` created in `study.js`.
 
 const visualTrapText = `
 <header>
-  <h2>Visual Perception Task</h2>
+  <h2>Visual Perception and Reasoning</h2>
 </header>
 
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xxl text-justify visual-traps">
 
     <p class="trap-instruction">
-      Please look at the image and choose the best answer. If you are unsure, please make your best guess.
+      These are short visual perception and reasoning questions. Please look at the image and choose the best answer. If you are unsure, make your best guess.
     </p>
 
     <div class="trap-image-frame" aria-hidden="false">
@@ -41,7 +41,7 @@ const visualTrapText = `
 </footer>
 `;
 
-const visualTrapHeader = "VISUAL PERCEPTION TASK - PLEASE READ CAREFULLY";
+const visualTrapHeader = "VISUAL PERCEPTION TASK";
 
 const different_visualTraps = {
   planets: {

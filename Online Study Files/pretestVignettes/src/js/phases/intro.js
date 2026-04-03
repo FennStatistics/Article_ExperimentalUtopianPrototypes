@@ -323,25 +323,28 @@ const setupStudyText = `
     <main class="content-horizontal-center content-vertical-center">
     <div class="w-xl text-justify">
   <section>
- This study consists of the following parts:
+ This study includes the following parts:
         </section>
   <br>
  <table>
    <tr>
-     <td>1) Read a short vignette and imagine living in the described society.</td>
+     <td>Read short texts and answer questions.</td>
    </tr>
    <tr>
-     <td>2) Complete a short association task (AIT) that measures your spontaneous associations and emotional evaluation of the society.</td>
+     <td>Complete a few brief visual perception tasks (images with short questions).</td>
    </tr>
    <tr>
-     <td>3) Answer a few questions about the vignette (e.g., how understandable it was), potential bias, and perceived attributes of the society.</td>
+     <td>Complete a short association task (AIT) about the described society (spontaneous associations and emotional evaluation).</td>
+   </tr>
+   <tr>
+     <td>Answer a few final questions (e.g., how understandable the vignette was, perceived attributes of the society).</td>
    </tr>
  </table>
   <br>
   <section>
-  Within each task, you will receive detailed instructions to help you understand what is expected. Please make sure to read them carefully.
-    </div>
-  </main>
+  Within each part, you will receive detailed instructions about what to do. Please read them carefully.
+     </div>
+   </main>
    <form id="page-form"> 
    </form>
    
