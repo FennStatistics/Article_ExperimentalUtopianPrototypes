@@ -37,11 +37,10 @@ console.log("futureSocieties: ", arrayFutureSocieties);
 
 // var futureSocietyCondition = arrayFutureSocieties[index_futureSocieties[0]].Vignette; // randomize which future society is shown first
 // var futureSocietyCondition = "aicentered"; // default
-
+var futureSocietyCondition; // to be set in ScenarioText_htmlForm message handler
 
 var nameFutureSociety = "described future society"; // Self-Shading Facade OR Soft Walker Robot
-// var codingFutureSociety = futureSocietyCondition;
-var codingFutureSociety;
+var codingFutureSociety; // to be set in ScenarioText_htmlForm message handler
 /* 
 ################### Start of Study ###################
 */
@@ -63,8 +62,8 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [   
+    ScenarioText_htmlForm,
 
-    loop_Scenarios,
 
     // >>> introduction phase
     Greetings_htmlForm,
@@ -76,6 +75,7 @@ const study = new lab.flow.Sequence({
     SetupStudy_htmlForm,
 
     ScenarioText_htmlForm,
+    // loop_Scenarios,
 
     // >>> Snowball task
     TransitionToAIT_htmlForm,

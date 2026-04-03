@@ -396,18 +396,14 @@ const Greetings_htmlForm = new lab.html.Form({
 
           if (typeof URLparams_global.futureSocietyCondition != "undefined") {
             // overwrite global variable:
-            futureSocietyCondition = URLparams_global.futureSocietyCondition;
-            // store futureSocietyCondition condition
-            study.options.datastore.set(
-              "futureSocietyCondition",
-              URLparams_global.futureSocietyCondition
-            );
+            console.log("futureSocietyCondition set via URL parameter: ", URLparams_global.futureSocietyCondition);
           }
         }
       }
     },
   },
 });
+
 
 const InformCon_htmlForm = new lab.html.Form({
   title: "InformedConsent",
