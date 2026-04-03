@@ -2,7 +2,6 @@
 ################### Scenario Text ###################
 */
 
-
 const scenarioText = `
 <header>
  <h2>Please read the following text carefully. Afterwards we will ask you to answer several questions:</h2>
@@ -33,7 +32,6 @@ const scenarioText = `
 </footer>
 `;
 
-
 // number of vignettes
 const totalVignettes = 7;
 const genericHeader = "Imagine Living in This Society";
@@ -45,26 +43,22 @@ const different_futureSocieties = {
   aicentered: {
     Vignette: "aicentered",
     Vignette_header: genericHeader,
-    Vignette_text1:
-      introText,
+    Vignette_text1: introText,
     Vignette_text2:
-      "Living together is handled mainly through AI-centered governance and decision-making that uses allocation based on data and computer-based optimization to handle a level of complexity that human institutions struggle to manage. Legitimate authority is justified by efficiency, coordination gains, and reduced human bias produced by AI systems that steer allocation and order. AI is not a side tool but the core coordinator for how the community is run. The allocation of resources is data-driven rather than being decided by human judgement. The system is designed to reduce the influence of personal bias and favoritism.",    
-      Vignette_text3:
-      "A key tension is making sure computer-based optimization stays aligned with the goals of fairness and order while handling complexity at scale.",  
-    },
+      "Living together is handled mainly through AI-centered governance and decision-making that uses allocation based on data and computer-based optimization to handle a level of complexity that human institutions struggle to manage. Legitimate authority is justified by efficiency, coordination gains, and reduced human bias produced by AI systems that steer allocation and order. AI is not a side tool but the core coordinator for how the community is run. The allocation of resources is data-driven rather than being decided by human judgement. The system is designed to reduce the influence of personal bias and favoritism.",
+    Vignette_text3:
+      "A key tension is making sure computer-based optimization stays aligned with the goals of fairness and order while handling complexity at scale.",
+  },
   primitivist: {
     Vignette: "neutral",
     Vignette_header: "Self-Shading Facade",
-    Vignette_text1:
-      introText,
-    Vignette_text2:
-      "aaaaaaa",    
-      Vignette_text3:
-      "aaaaaaa",  
-    },
+    Vignette_text1: introText,
+    Vignette_text2: "aaaaaaa",
+    Vignette_text3: "aaaaaaa",
+  },
 };
 
-
+var counter = 1; // global counter for scenarios
 const ScenarioText_htmlForm = new lab.html.Form({
   title: "Scenario Text",
   content: scenarioText,
@@ -78,14 +72,18 @@ const ScenarioText_htmlForm = new lab.html.Form({
       $("#vignette_second").html(currentSociety.Vignette_text2);
       $("#vignette_third").html(currentSociety.Vignette_text3);
 
-      var trialNumber = study.state.vignetteCounter || 1; // Assuming you have a counter
-      $("#vignette_title").html(`${genericHeader} (${trialNumber} of ${totalVignettes}):`);
+      var trialNumber = counter; // Assuming you have a counter
+      console.log("Trial number:", trialNumber);
+      $("#vignette_title").html(
+        `${genericHeader} (${trialNumber} of ${totalVignettes}):`,
+      );
+      counter++;
 
       // hide submit button
       document.querySelector("button").style.visibility = "hidden";
       setTimeout(
         () => (document.querySelector("button").style.visibility = "visible"),
-        15000 // 15000 (15 seconds)
+        0, // 15000 (15 seconds)
       );
     },
     commit: () => {
@@ -94,7 +92,11 @@ const ScenarioText_htmlForm = new lab.html.Form({
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
 
-      if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
+      if (
+        !localTesting &&
+        typeof jatos !== "undefined" &&
+        typeof jatos.jQuery === "function"
+      ) {
         // If JATOS is available, send data there
         var resultJson = study.options.datastore.exportJson();
         console.log("result data sent to JATOS");
@@ -105,4 +107,24 @@ const ScenarioText_htmlForm = new lab.html.Form({
       }
     },
   },
+});
+
+const SequenceLoop_Scenarios = new lab.flow.Sequence({
+  title: "Sequence Loop Scenarios",
+  shuffle: false,
+  content: [ScenarioText_htmlForm],
+});
+
+const loop_Scenarios = new lab.flow.Loop({
+  template: SequenceLoop_Scenarios,
+  templateParameters: [
+    {
+      notNeeded: "",
+    },
+  ],
+  sample: {
+    mode: "draw-shuffle",
+    n: totalVignettes,
+  },
+  indexParameter: "counterScenarios",
 });

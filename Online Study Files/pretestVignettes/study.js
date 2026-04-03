@@ -39,7 +39,8 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [   
-        ScenarioText_htmlForm,
+    
+    loop_Scenarios,
 
     // >>> introduction phase
     Greetings_htmlForm,
