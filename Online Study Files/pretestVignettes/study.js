@@ -6,7 +6,8 @@
 // Required_Testing and localTesting are defined in src/js/globals.js
 
 /* number of components / elements to set progress bar */
-const numElements = 11;
+// Note: this is used for the simple footer progress bar; update when adding/removing phases.
+const numElements = 17;
 var numElementsCounter = 0;
 
 /* global variables */
@@ -35,6 +36,11 @@ var index_futureSocieties = shuffle(arrayFutureSocieties);
 console.log("futureSocieties index: ", index_futureSocieties);
 console.log("futureSocieties: ", arrayFutureSocieties);
 
+// visual traps (cognitive traps)
+var index_visualTraps = shuffle(arrayVisualTraps);
+console.log("visualTraps index: ", index_visualTraps);
+console.log("visualTraps: ", arrayVisualTraps);
+
 // var futureSocietyCondition = arrayFutureSocieties[index_futureSocieties[0]].Vignette; // randomize which future society is shown first
 // var futureSocietyCondition = "aicentered"; // default
 var futureSocietyCondition; // to be set in ScenarioText_htmlForm message handler
@@ -62,6 +68,8 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [   
+        loop_VisualTraps,
+
     // >>> introduction phase
     Greetings_htmlForm,
 
@@ -70,6 +78,8 @@ const study = new lab.flow.Sequence({
     ExclusionCriteria_htmlForm,
     //AttentionCheck_htmlForm,
     SetupStudy_htmlForm,
+
+    loop_VisualTraps,
 
     ScenarioText_htmlForm,
     // loop_Scenarios,
