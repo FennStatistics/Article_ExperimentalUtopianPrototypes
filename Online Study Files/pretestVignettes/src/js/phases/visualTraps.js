@@ -43,6 +43,49 @@ const visualTrapText = `
 
 const visualTrapHeader = "VISUAL PERCEPTION TASK";
 
+const transitionToScenarioText = `
+<header>
+  <h2>Next part of the study</h2>
+</header>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+    <section>
+      Next, you will read a short text describing a possible future society.
+    </section>
+    <br>
+    <section>
+      Please imagine you are living in that society.
+    </section>
+    <br>
+    <section>
+      Afterward, you will answer a few questions about your impressions and responses.
+    </section>
+  </div>
+</main>
+
+<form id="page-form"></form>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <button id="continue" type="submit" form="page-form">
+    Continue &rarr;
+  </button>
+</footer>
+`;
+
+const TransitionToScenario_htmlForm = new lab.html.Form({
+  title: "TransitionToScenario",
+  content: transitionToScenarioText,
+  messageHandlers: {
+    commit: () => {
+      // progress bar
+      numElementsCounter++;
+      document.querySelector(".progress-bar").style.width =
+        (numElementsCounter / numElements) * 100 + "%";
+    },
+  },
+});
+
 const different_visualTraps = {
   planets: {
     trapId: "Planets",

@@ -7,7 +7,7 @@
 
 /* number of components / elements to set progress bar */
 // Note: this is used for the simple footer progress bar; update when adding/removing phases.
-const numElements = 17;
+const numElements = 18;
 var numElementsCounter = 0;
 
 /* global variables */
@@ -68,6 +68,8 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [   
+        TransitionToScenario_htmlForm,
+
         loop_VisualTraps,
 
     // >>> introduction phase
@@ -80,6 +82,8 @@ const study = new lab.flow.Sequence({
     SetupStudy_htmlForm,
 
     loop_VisualTraps,
+
+    TransitionToScenario_htmlForm,
 
     ScenarioText_htmlForm,
     // loop_Scenarios,
