@@ -18,6 +18,11 @@ If you are working inside the lab.js study, also read: `Online Study Files/prete
 - Lint: none configured.
 - Automated tests: none configured.
 
+## Prerequisites (typical)
+- Online study manual run: Python 3 (for `python3 -m http.server`).
+- Analyses: Quarto + R.
+- No `package.json`, `Makefile`, or CI-driven commands are assumed in this repo.
+
 Practical "tests" in this repo are manual runs:
 - Online study: run locally in a browser with a local HTTP server.
 - Analyses: render a single `.qmd` file with Quarto.
@@ -124,6 +129,11 @@ Data privacy:
 - AIT loop runs; expected datastore fields populate.
 - Survey scales submit without validation dead-ends.
 - Ending screen behavior: local vs JATOS submission/redirect guards.
+
+## Manual QA checklist (analyses)
+- Render one target `.qmd` and confirm it completes without errors.
+- Confirm outputs land in the local `outputs/` folders (avoid writing elsewhere).
+- Avoid committing rendered HTML or large derived datasets unless explicitly requested.
 
 ## Repo-specific gotchas
 - `README.md` is UTF-16 LE with CRLF; preserve encoding/line endings if you must edit it.
