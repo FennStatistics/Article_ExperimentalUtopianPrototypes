@@ -13,11 +13,35 @@ var numElementsCounter = 0;
 var URLparams_global;
 var paracountclicks = 0;
 
-var futureSocietyCondition = "aicentered"; // default
+
+// future society:
+function shuffle(queslist) {
+  let array_emp = []
+  for (var i = 0; i < queslist.length; i++) {
+    array_emp.push(i)
+  }
+
+  let j, x;
+  for (i = array_emp.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * (i + 1));
+    x = array_emp[i];
+    array_emp[i] = array_emp[j];
+    array_emp[j] = x;
+  }
+  return array_emp;
+}
+
+var index_futureSocieties = shuffle(arrayFutureSocieties);
+console.log("futureSocieties index: ", index_futureSocieties);
+console.log("futureSocieties: ", arrayFutureSocieties);
+
+// var futureSocietyCondition = arrayFutureSocieties[index_futureSocieties[0]].Vignette; // randomize which future society is shown first
+// var futureSocietyCondition = "aicentered"; // default
+
 
 var nameFutureSociety = "described future society"; // Self-Shading Facade OR Soft Walker Robot
-var codingFutureSociety = futureSocietyCondition;
-
+// var codingFutureSociety = futureSocietyCondition;
+var codingFutureSociety;
 /* 
 ################### Start of Study ###################
 */
@@ -39,7 +63,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [   
-    
+
     loop_Scenarios,
 
     // >>> introduction phase
