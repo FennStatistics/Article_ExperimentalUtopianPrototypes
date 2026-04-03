@@ -4,7 +4,7 @@
 
 const transitionToFinalText = `
 <header>
- <h2>Thank you for completing the Questionnaires!</h2>
+ <h2>Thank you for completing the questionnaires!</h2>
  </header>
 
 <main class="content-horizontal-center content-vertical-center">
@@ -112,9 +112,9 @@ Please answer the following questions about yourself:
             <!-- Country / Residency -->
       <tr style="height: 80px">
         <td class="font-weight-bold text-left">
-      Where is your current residency?
+      Where do you currently live?
        <br>
-    <span style="color: lightgray; font-size: smaller;">Please indicate the name of the country you are currently living.</span>
+    <span style="color: lightgray; font-size: smaller;">Please indicate the name of the country you are currently living in.</span>
         </td>
         <td>
             <div>
@@ -469,7 +469,7 @@ const conscientiousCompletionText = `
 const feedbackQuesText = `
   <header>
     <h2>
-    Please answer the following last question if you wish:
+    Please answer the final question, if you wish:
     </h2>
   </header>
   
@@ -501,7 +501,7 @@ const feedbackQuesText = `
 
 const endingScreenText = `
   <header>
-  <h2> Thank you very much for your participation ! </h2>
+  <h2> Thank you very much for your participation! </h2>
   </header>
 
   <main class="content-horizontal-center content-vertical-center">

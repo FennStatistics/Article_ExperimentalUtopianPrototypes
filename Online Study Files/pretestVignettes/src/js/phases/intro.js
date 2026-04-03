@@ -17,8 +17,7 @@ const greetingsText = `
  <main class="content-horizontal-center content-vertical-center">
    <div class="w-xl text-justify">
 
-       <i> Important note in advance: You can always enlarge or reduce the text and images of the study so that you can
-           read them better: </i>
+        <i> Important note: You can always zoom in or out so you can read the text and images more easily: </i>
        <ul>
            <li>
                Windows: Hold down the <kbd>Ctrl</kbd> key and move your mouse wheel or press the <kbd>+</kbd> or
@@ -29,14 +28,14 @@ const greetingsText = `
        </ul>
        <br>     
        <section>
-           With our research, we aim to get a better understanding of human behavior and mental processes. For this
-           purpose, in the following study, your behavior will be measured (e.g., choices, reaction times, whether you left fullscreen).
+            With our research, we aim to get a better understanding of human behavior and mental processes. In this study,
+            we will measure your behavior (e.g., choices, reaction times, and whether you leave full screen).
        </section>
        <br>
        <section>
            The duration of the study is <b>approximately 6 minutes</b>. Please use a <strong>computer or
                laptop with a keyboard</strong> for the study. Please ensure that you can
-           participate in the study without being disturbed. First of all, we would like to ask you to agree to the informed consent on the following page.
+            participate in the study without being disturbed. First, please review and agree to the informed consent on the next page.
        </section>
    </div>
  </main>
@@ -158,7 +157,7 @@ const exclusionCriteriaText = `
           </section>
           <br>
           <ul>
-              <li>Please answer the study in a focused manner.</li>
+              <li>Please complete the study in a focused manner.</li>
               <li>Do not leave the browser screen of the study unless you are explicitly asked to do so. </li>
               <li>Please read all instructions carefully and comply with them.</li>
               <li>Do not use bots or AI tools (e.g., Large Language Models such as ChatGPT) to answer any part of this study.</li>
@@ -175,7 +174,7 @@ const exclusionCriteriaText = `
 <!-- multiple choice + text field --> 
 <div class="page-item page-item-radio" id="page-item-ques_dummycam">
  <p class="text-left font-weight-bold" style="margin: 1rem 0 0.25rem">
- Do you commit to providing thoughtful answers in this survey?
+  Do you agree to provide thoughtful answers in this survey?
  </p>
  <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0">
  </p>
@@ -238,7 +237,7 @@ const exclusionCriteriaText = `
 
 const attentionCheckText = `
    <header>
-     <h2>Before starting the study we would like to get to know you:</h2>
+      <h2>Before starting the study, we'd like to get to know you:</h2>
    </header>
    
    <main class="content-horizontal-center content-vertical-center">
@@ -248,7 +247,7 @@ const attentionCheckText = `
  can greatly impact the decision process. To facilitate our research on attitudes towards emerging technologies, we are interested in knowing certain factors about you, 
  the decision-maker. Specifically, we are interested in whether you take the time to read the instructions; if not, then some of the specific characteristics of 
  the described emerging technologies can be overlooked. So, to demonstrate that you have read the instructions, please ignore the sports items below and instead 
- select the box marked "other" and type "I read the instructions" in the text box, then click continue. Thank you very much.
+  select the box marked "Other" and type "I read the instructions" in the text box, then click continue. Thank you very much.
  </section>
  <br>
  <br>

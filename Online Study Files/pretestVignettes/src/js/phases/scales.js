@@ -9,7 +9,7 @@ const postClearBiasText = `
   </h2>
 </header>
 
-<p>Please refer to the text about the future society when answering the questions.</p>
+<p>Please refer to the text about the future society when answering these questions.</p>
 
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">

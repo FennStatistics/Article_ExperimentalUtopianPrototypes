@@ -10,7 +10,7 @@ const transitionToAITText = `
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
           <section>
-              <p>You have completed the reaction time task. Next, you will move on to the <strong>Word Association Task</strong>. This task involves responding to a specific word with the first thoughts or associations that come to your mind. Please read the instructions for this task carefully before starting.</p>
+               <p>You have completed the reaction time task. Next, you will move on to the <strong>Word Association Task</strong>. This task involves responding to a specific word with the first thoughts or associations that come to mind. Please read the instructions for this task carefully before starting.</p>
           </section>
   </div>
 </main>
@@ -117,7 +117,7 @@ const AT_Snowball_Task_Text = `
   <span class="glyphicon glyphicon-plus"></span>&nbsp;Next response
 </button>
 <button type="submit" class="btn btn-default" tabindex="-1" id="finalResponse">
-  <span class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;Finish input
+  <span class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;Finish
 </button>
 <button type="submit" class="btn btn-default" tabindex="-1" id="skipResponse">
   <span class="glyphicon glyphicon-minus" form="affectiveImageryForm"></span>&nbsp;No more entries
@@ -143,7 +143,7 @@ const AffectiveImageryInst_Text = `
   <div class="w-xl text-justify">
       <strong>How it works...</strong>
       <section>
-          On the top of the screen a word will be shown. Enter the first word that comes to your mind when reading that
+          At the top of the screen, a word will be shown. Enter the first word that comes to mind when reading that
           word.
       </section>
       <br>
@@ -178,7 +178,7 @@ const AffectiveImageryInst_full_Text = `
    <div class="w-xl text-justify">
        <strong>How it works...</strong>
        <section>
-           On the top of the screen a word will be shown. Enter the first word that comes to your mind when reading that
+           At the top of the screen, a word will be shown. Enter the first word that comes to mind when reading that
            word. Only if you really don't know that word, press <button
                style="padding:2px; margin-left:0px; margin-right: 0px;" disabled="disabled">Unknown word</button>.
        </section>
@@ -195,7 +195,7 @@ const AffectiveImageryInst_full_Text = `
        </section>
        <br>
        <br>
-       <strong>  Some hints</strong>
+        <strong>  Some hints:</strong>
        <section>
            Only give associations to the word on top of the screen (not to your previous responses!).
        </section>
@@ -260,7 +260,7 @@ const AffectiveImagery_Text = `
                <button type="button" class="btn btn-default" tabindex="-1" id="submitAssoButton"><span
                        class="glyphicon glyphicon-plus"></span>&nbsp;Next response</button>
                <button type="submit" class="btn btn-default" tabindex="-1" id="finalResponse"><span
-                       class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;Finish input</button>
+                        class="glyphicon glyphicon-ok" form="affectiveImageryForm"></span>&nbsp;Finish</button>
                <button type="submit" class="btn btn-default" tabindex="-1" id="skipResponse"><span
                        class="glyphicon glyphicon-minus" form="affectiveImageryForm"></span>&nbsp;No more entries</button>
                <button type="submit" class="btn btn-default" tabindex="-1" id="unknownResponse"><span
