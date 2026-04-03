@@ -137,6 +137,109 @@ footer #continue {
   /* Adjust the size as needed */
 }
 
+/* visual traps (cognitive traps) */
+.visual-traps {
+  --trap-accent: #229954;
+  --trap-border: #d7dde3;
+  --trap-bg: #ffffff;
+  --trap-card-bg: #f7f9fb;
+  --trap-card-bg-hover: #eef3f7;
+  --trap-card-bg-checked: #eaf7ef;
+}
+
+.visual-traps .trap-instruction {
+  margin: 0 5% 0.75rem 5%;
+  font-size: 18px;
+  color: #444;
+}
+
+.visual-traps .trap-image-frame {
+  margin: 0.5rem auto 1rem auto;
+  width: 728px;
+  height: 468px;
+  max-width: 92vw;
+  max-height: 46vh;
+  background: var(--trap-bg);
+  border: 1px solid var(--trap-border);
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visual-traps .trap-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.visual-traps .trap-options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.visual-traps .trap-option {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  height: 100%;
+}
+
+.visual-traps .trap-option input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.visual-traps .trap-option-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 86px;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  border-radius: 14px;
+  background: var(--trap-card-bg);
+  border: 1px solid var(--trap-border);
+  font-size: 20px;
+  line-height: 1.15;
+  transition: background-color 120ms ease, border-color 120ms ease,
+    box-shadow 120ms ease, transform 120ms ease;
+}
+
+.visual-traps .trap-option:hover .trap-option-card {
+  background: var(--trap-card-bg-hover);
+  border-color: rgba(34, 153, 84, 0.55);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.visual-traps .trap-option input[type="radio"]:checked + .trap-option-card {
+  background: var(--trap-card-bg-checked);
+  border-color: var(--trap-accent);
+  box-shadow: 0 0 0 3px rgba(34, 153, 84, 0.18), 0 10px 22px rgba(0, 0, 0, 0.08);
+}
+
+.visual-traps .trap-option input[type="radio"]:focus-visible + .trap-option-card {
+  outline: 3px solid rgba(0, 90, 156, 0.35);
+  outline-offset: 2px;
+}
+
+@media (max-width: 520px) {
+  .visual-traps .trap-option-card {
+    height: 92px;
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
 
 
 

@@ -14,21 +14,21 @@ const visualTrapText = `
 </header>
 
 <main class="content-horizontal-center content-vertical-center">
-  <div class="w-xxl text-justify">
+  <div class="w-xxl text-justify visual-traps">
 
-    <p class="text-left" style="margin: 0 5% 0.75rem 5%; font-size: 20px; color: #444;">
+    <p class="trap-instruction">
       Please look at the image and choose the best answer. If you are unsure, please make your best guess.
     </p>
 
-    <div style="text-align:center; margin: 0.5rem 0 1rem 0;">
-      <img id="trapImage" alt="Visual perception stimulus" style="max-width: 100%; max-height: 55vh; height: auto; object-fit: contain;" />
+    <div class="trap-image-frame" aria-hidden="false">
+      <img id="trapImage" class="trap-image" alt="Visual perception stimulus" />
     </div>
 
     <div class="page-item page-item-radio" style="margin: 0 5%;">
       <p id="trapQuestion" class="text-left font-weight-bold" style="margin: 0 0 0.75rem; font-size: 26px;"></p>
 
       <form id="visualTrapForm" autocomplete="off">
-        <div id="trapOptions" style="text-align: left; font-size: 26px;"></div>
+        <div id="trapOptions" class="trap-options-grid"></div>
       </form>
     </div>
   </div>
@@ -153,9 +153,9 @@ function renderVisualTrapOptions(trap) {
   trap.choices.forEach((choice, idx) => {
     const req = idx === 0 ? requiredAttr : "";
     html += `
-      <label style="display:block; margin: 0.45rem 0; cursor: pointer;">
+      <label class="trap-option">
         <input type="radio" name="visualTrapResponse" value="${choice.value}"${req}>
-        <span style="margin-left: 0.35rem;">${choice.label}</span>
+        <span class="trap-option-card">${choice.label}</span>
       </label>
     `;
   });
