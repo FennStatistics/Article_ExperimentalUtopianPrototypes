@@ -8,3 +8,7 @@
 **/rsconnect
 
 **/API_key.py
+
+
+.DS_Store
+**/.DS_Store
