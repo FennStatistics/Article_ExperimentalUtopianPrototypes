@@ -73,7 +73,7 @@ const informConText = `
     <p><b>Publication of the collected data.</b> Your data will be used <strong>exclusively for scientific purposes</strong>. Any future publication of the data will be in fully anonymized form and also solely for scientific research purposes. The fully anonymized data will be made publicly available, for example, via the Open Science Framework (OSF) and/or GitHub.</p>
 
     <p><b>Responsibilities.</b> This study follows the <strong>recommendations of the German Research Foundation (DFG) and the German Psychological Society (DGPs)</strong> for ensuring quality and transparency in research.</p>
-    <p>If you have any questions now or after the study, please contact the principal investigators Julius Fenn or Stephanie Bugler:</p>
+    <p>If you have any questions now or after the study, please contact the principal investigator Julius Fenn:</p>
 
 
     <p>
@@ -328,10 +328,10 @@ This study is divided into two parts:
  <br>
 <table>
   <tr>
-    <td>1) Read a short text describing a future society.</td>
+    <td>1) Read a short text and imagine to live in this society.</td>
   </tr>
   <tr>
-    <td>2) Based on the text, answer a few questions about how clear and understandable it is.</td>
+    <td>2) Based on the text, answer a few questions about your emotional response and how clear and understandable it is.</td>
   </tr>
 </table>
  <br>
