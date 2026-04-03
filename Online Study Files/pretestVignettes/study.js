@@ -13,7 +13,7 @@ var numElementsCounter = 0;
 var URLparams_global;
 var paracountclicks = 0;
 
-var futureSocietyCondition = "neutral"; // default
+var futureSocietyCondition = "aicentered"; // default
 
 var nameFutureSociety = "described future society"; // Self-Shading Facade OR Soft Walker Robot
 var codingFutureSociety = futureSocietyCondition;
@@ -39,7 +39,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [   
-        ExclusionCriteria_htmlForm,
+        ScenarioText_htmlForm,
 
     // >>> introduction phase
     Greetings_htmlForm,

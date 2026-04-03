@@ -2,6 +2,7 @@
 ################### Scenario Text ###################
 */
 
+
 const scenarioText = `
 <header>
  <h2>Please read the following text carefully. Afterwards we will ask you to answer several questions:</h2>
@@ -9,7 +10,7 @@ const scenarioText = `
 
 <main class="content-horizontal-center content-vertical-center">
 <div class="w-xxl text-justify">
-<div class="page-item page-item-likert" style="margin-left:10%; margin-right: 10%">
+<div class="page-item page-item-likert" style="margin-left:5%; margin-right: 5%">
   <div class="concept">
     <h2 id="vignette_title">XX</h2>
     <p id="vignette_first">XX1</p>
@@ -32,38 +33,37 @@ const scenarioText = `
 </footer>
 `;
 
+
+// number of vignettes
+const totalVignettes = 7;
+const genericHeader = "Imagine Living in This Society";
+const introText = `
+Imagine a society in 100 years that has recently overcome a period of crisis. People are now living peacefully. Although food, energy, water and basic services are available, these resources are not abundant.
+`;
+
 const different_futureSocieties = {
-  neutral: {
+  aicentered: {
+    Vignette: "aicentered",
+    Vignette_header: genericHeader,
+    Vignette_text1:
+      introText,
+    Vignette_text2:
+      "Living together is handled mainly through AI-centered governance and decision-making that uses allocation based on data and computer-based optimization to handle a level of complexity that human institutions struggle to manage. Legitimate authority is justified by efficiency, coordination gains, and reduced human bias produced by AI systems that steer allocation and order. AI is not a side tool but the core coordinator for how the community is run. The allocation of resources is data-driven rather than being decided by human judgement. The system is designed to reduce the influence of personal bias and favoritism.",    
+      Vignette_text3:
+      "A key tension is making sure computer-based optimization stays aligned with the goals of fairness and order while handling complexity at scale.",  
+    },
+  primitivist: {
     Vignette: "neutral",
     Vignette_header: "Self-Shading Facade",
     Vignette_text1:
-      "The Self-Shading Facade is a recent development in innovative materials for architecture. Its surface is made up of hundreds of small, curved modules suspended across window frames.",
+      introText,
     Vignette_text2:
-      "These modules are made of layered materials that bend in response to changing humidity. As humidity rises or falls, the facade’s individual elements autonomously curl or flatten, adjusting how much light and heat pass through. The movement is driven by the structure of the materials themselves, without the need for motors or electronics.",
-    Vignette_text3:
-      "This technology contributes to innovative architecture materials and building energy regulation. It is a <b>functional system designed using recent advances in materials science</b>.",
-  },
-  bioinspired: {
-    Vignette: "bioinspired",
-    Vignette_header: "Self-Shading Facade",
-    Vignette_text1:
-      "The Self-Shading Facade is a recent development in innovative materials for architecture. Its surface is made up of hundreds of small, curved modules suspended across window frames.",
-    Vignette_text2:
-      "These modules are made of layered materials that bend in response to changing humidity. The design draws inspiration from natural plant structures, particularly pine cones, which open and close in response to humidity. The layers are inspired by how cellulose fibers are arranged in these plants to guide the direction of bending.",
-    Vignette_text3:
-      "This technology brings ideas from the natural world into architectural innovation. Its <b>function and movement are grounded in biomimetic design</b>.",
-  },
-  sustainable: {
-    Vignette: "sustainable",
-    Vignette_header: "Self-Shading Facade",
-    Vignette_text1:
-      "The Self-Shading Facade is a recent development in innovative materials for architecture. Its  surface is made up of hundreds of small, curved modules suspended across window frames.",
-    Vignette_text2:
-      "These modules are made of layered materials that react to humidity changes without needing external energy. Their composition helps reduce reliance on synthetic or carbon-intensive materials. Because the facade adjusts shading based on weather, it offers a way to reduce energy use  in buildings.",
-    Vignette_text3:
-      "This technology supports climate-friendly architectural innovation and resource efficiency. Its <b>passive, energy-autonomous operation reflects sustainable design principles</b>.",
-  },
+      "aaaaaaa",    
+      Vignette_text3:
+      "aaaaaaa",  
+    },
 };
+
 
 const ScenarioText_htmlForm = new lab.html.Form({
   title: "Scenario Text",
@@ -77,6 +77,9 @@ const ScenarioText_htmlForm = new lab.html.Form({
       $("#vignette_first").html(currentSociety.Vignette_text1);
       $("#vignette_second").html(currentSociety.Vignette_text2);
       $("#vignette_third").html(currentSociety.Vignette_text3);
+
+      var trialNumber = study.state.vignetteCounter || 1; // Assuming you have a counter
+      $("#vignette_title").html(`${genericHeader} (${trialNumber} of ${totalVignettes}):`);
 
       // hide submit button
       document.querySelector("button").style.visibility = "hidden";

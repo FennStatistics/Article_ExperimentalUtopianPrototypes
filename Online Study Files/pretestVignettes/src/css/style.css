@@ -34,6 +34,8 @@ input[type="radio"] {
   margin: 0;
   width: 100%;
   box-sizing: border-box;
+  align-items: center;
+  text-align: center;
 }
 
 .concept p {
@@ -41,11 +43,12 @@ input[type="radio"] {
 }
 
 .concept p:first-of-type {
-  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .concept p:last-of-type {
-  font-style: italic;
+  margin-top: 20px;
+  font-weight: bold;
 }
 
 
