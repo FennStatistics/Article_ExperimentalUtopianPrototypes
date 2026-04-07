@@ -33,7 +33,7 @@ const greetingsText = `
        </section>
        <br>
        <section>
-           The duration of the study is <b>approximately 10 minutes</b>. Please use a <strong>computer or
+           The study takes no more than <strong>10 minutes</strong>. Please use a <strong>computer or
                laptop with a keyboard</strong> for the study. Please ensure that you can
             participate in the study without being disturbed. First, please review and agree to the informed consent on the next page.
        </section>

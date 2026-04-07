@@ -651,7 +651,7 @@ const EndingScreen_htmlScreen = new lab.html.Screen({
           study.options.datastore.extract("sender").includes("FeedbackScreen")
         ) {
           jatos.endStudyAndRedirect(
-            "https://app.prolific.com/submissions/complete?cc=CP2ZDXDH", // !!!
+            "https://app.prolific.com/submissions/complete?cc=CT77F9FI", // !!!
             true,
             "everything worked fine"
           );
