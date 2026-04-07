@@ -77,6 +77,9 @@ const TransitionToScenario_htmlForm = new lab.html.Form({
   title: "TransitionToScenario",
   content: transitionToScenarioText,
   messageHandlers: {
+    run: () => {
+      study.options.datastore.set("visualTrap_order", visualTrapOrder);
+    },
     commit: () => {
       // progress bar
       numElementsCounter++;
@@ -211,7 +214,8 @@ const VisualTraps_htmlForm = new lab.html.Form({
   content: visualTrapText,
   messageHandlers: {
     run: () => {
-      const trapOriginal = arrayVisualTraps[index_visualTraps[counterVisualTraps]];
+      const trapOriginal =
+        arrayVisualTraps[index_visualTraps[counterVisualTraps]];
       const trap = Object.assign({}, trapOriginal);
       trap.choices = shuffleArrayCopy(trapOriginal.choices);
 
@@ -247,40 +251,42 @@ const VisualTraps_htmlForm = new lab.html.Form({
       let selectedLabel = null;
       if (selected !== undefined && currentVisualTrapChoicesShown) {
         const hit = currentVisualTrapChoicesShown.find(
-          (c) => String(c.value) === String(selected)
+          (c) => String(c.value) === String(selected),
         );
         selectedLabel = hit ? hit.label : null;
       }
 
       const correct =
         selected !== undefined && selected === currentVisualTrap.correctValue;
+      // console.log(`Visual Trap Response: trapId=${currentVisualTrap.trapId}, selected=${selected}, selectedLabel=${selectedLabel}, correct=${correct}, rtMs=${rtMs}`);
 
       // Store per-trap values (stable keys)
       study.options.datastore.set(
         "visualTrap_" + currentVisualTrap.trapId + "_response",
-        selected || null
+        selected || null,
       );
       study.options.datastore.set(
         "visualTrap_" + currentVisualTrap.trapId + "_responseLabel",
-        selectedLabel
+        selectedLabel,
       );
       study.options.datastore.set(
         "visualTrap_" + currentVisualTrap.trapId + "_correct",
-        correct
+        correct,
       );
       study.options.datastore.set(
         "visualTrap_" + currentVisualTrap.trapId + "_rtMs",
-        rtMs
+        rtMs,
       );
       study.options.datastore.set(
         "visualTrap_" + currentVisualTrap.trapId + "_optionOrder",
         (currentVisualTrapChoicesShown || []).map((c) => ({
           value: c.value,
           label: c.label,
-        }))
+        })),
       );
 
       // Store overall ordering + trial list
+      /*
       visualTrapTrials.push({
         trapId: currentVisualTrap.trapId,
         response: selected || null,
@@ -293,8 +299,8 @@ const VisualTraps_htmlForm = new lab.html.Form({
         })),
         timestamp: new Date().toISOString(),
       });
-      study.options.datastore.set("visualTrap_order", visualTrapOrder);
       study.options.datastore.set("visualTrap_trials", visualTrapTrials);
+      */
 
       if (
         !localTesting &&

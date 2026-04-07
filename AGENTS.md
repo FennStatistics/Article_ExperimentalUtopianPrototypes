@@ -1,6 +1,7 @@
 # Agent Guide (Article_ExperimentalUtopianPrototypes)
 
-This repo contains (A) a static lab.js online study and (B) Quarto/R analysis scripts.
+Scope: this repo contains (A) a static lab.js online study and (B) Quarto/R analysis scripts.
+If you work inside the study folder, also read `Online Study Files/pretestVignettes/AGENTS.md`.
 
 ## Repo map
 - `Online Study Files/pretestVignettes/`: runnable lab.js study (HTML + browser JS + CSS).
@@ -10,8 +11,6 @@ This repo contains (A) a static lab.js online study and (B) Quarto/R analysis sc
 
 Related but usually not edited during this project:
 - `Online Study Files/templates/`: legacy/template studies; treat as vendor/reference unless explicitly working on templates.
-
-If you are working inside the lab.js study, also read: `Online Study Files/pretestVignettes/AGENTS.md`.
 
 ## Build / lint / test commands (what actually exists)
 - Build: none (no bundler/package manager at repo root).
@@ -66,16 +65,16 @@ Main study analyses:
 - Vendor/library code under `Online Study Files/**/lib/` and `Online Study Files/**/src/js/additional libraries/` should not be modified unless explicitly requested.
 
 ### JavaScript (lab.js study)
-- No ES modules: do not use `import`/`export`.
-- Script order matters: scripts load via `<script>` tags in `Online Study Files/pretestVignettes/index.html`.
 - Language: plain browser JavaScript (no TypeScript).
-- Formatting: 2-space indentation; semicolons; match existing quote style (commonly `"` in this study).
+- Imports: no ES modules; scripts are globals loaded by `<script>` order in `Online Study Files/pretestVignettes/index.html`.
+- Formatting: 2-space indentation; semicolons; match local quote style (mostly `"`).
 - Types: use runtime guards (`typeof`, null checks); do not introduce TS-style types.
-- Naming:
-  - lab.js components: `PascalCase_htmlForm` / `PascalCase_htmlScreen`.
-  - helpers: `camelCase`.
-  - booleans: `bool...` prefix or descriptive names.
-- Data: datastore keys must remain stable; changing keys requires updating `Analyses/**` scripts.
+
+Naming:
+- lab.js components: `PascalCase_htmlForm` / `PascalCase_htmlScreen`.
+- helpers: `camelCase`.
+- booleans: `bool...` prefix or descriptive names.
+- datastore keys must remain stable (update `Analyses/**` if they change).
 
 Common entry points (study):
 - `Online Study Files/pretestVignettes/index.html`: script order and library includes.
@@ -94,8 +93,7 @@ Common entry points (study):
 - Prefer user-visible validation over exceptions; do not throw inside handlers.
 
 JATOS / local testing guards:
-- Code that depends on JATOS should be guarded (pattern used in this repo):
-  - `!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function"`
+- Guard JATOS calls with: `!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function"`.
 - Do not redeclare or shadow `localTesting` / `Required_Testing`.
 
 ### jQuery / DOM
@@ -108,7 +106,7 @@ JATOS / local testing guards:
 - Use `toastr.warning` for non-blocking validation (used in AIT code).
 - Keep logs concise; avoid logging PII or full free-text responses.
 
-Data privacy:
+### Data privacy
 - Avoid adding new external endpoints without a clear research need and consent coverage.
 - Keep any local-only external calls behind `localTesting` where appropriate.
 
