@@ -1,0 +1,441 @@
+---
+title: "Data analysis all studies"
+author: "Richard Bergs, Julius Fenn"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    html-math-method: katex
+    number-sections: true
+---
+
+
+# Notes
+
+
+# global variables
+
+Define your global variables (e.g., to reduce run time):
+
+```{r}
+#| label: global variables
+
+
+```
+
+
+# functions
+
+```{r}
+########################################
+# xx
+########################################
+### argss:
+# xx
+
+
+```
+
+
+# load packages, functions, and data
+
+## packages
+
+```{r}
+#| label: load packages
+#| warning: false
+
+### load packages (also packages loaded, which are not needed for data preperation)
+require(pacman)
+p_load('tidyverse', 'jsonlite',
+       'stargazer',  'DT', 'psych',
+       'writexl', 'associatoR',
+       'ggstatsplot', 
+       'afex', 'emmeans', 'effectsize',
+       'moments', 'lavaan', 'semPlot')
+# devtools::install_github("samuelae/associatoR")
+```
+
+## load external functions
+
+```{r}
+#| echo: true
+#| warning: false
+
+
+### load functions
+# print(getwd())
+setwd("functions")
+for(i in 1:length(dir())){
+  # print(dir()[i])
+  source(dir()[i], encoding = "utf-8")
+}
+```
+
+
+## load prepared data
+
+```{r}
+setwd("outputs/questionnaire")
+
+ques_study <- readRDS(file = paste0("ques_study", ".rds"))
+```
+
+```{r}
+setwd("outputs/associations_translated")
+
+ass_study <- readxl::read_excel(path = paste0("ass_study_translated_sentiment", ".xlsx"), sheet = 1)
+str(ass_study)
+dim(ass_study)
+```
+
+
+
+
+
+# check and compute mean values of valence, scales
+
+## mean values of valence
+
+```{r}
+library(dplyr)
+
+compute_mean_sd_valence <- function(data,
+                                 id_col = "participant_id",
+                                 condition_col = "study_condition",
+                                 valence_col = "valence") {
+  
+  data %>%
+    mutate(
+      valence = as.numeric(.data[[valence_col]])
+    ) %>%
+    filter(!is.na(valence)) %>%
+    group_by(
+      participant_id = .data[[id_col]],
+      study_condition = .data[[condition_col]]
+    ) %>%
+    summarise(
+      mean_valence = mean(valence, na.rm = TRUE),
+      sd_valence   = sd(valence, na.rm = TRUE),
+      n_ratings    = n(),
+      .groups = "drop"
+    )
+}
+
+mean_sd_valence_per_person <- compute_mean_sd_valence(ass_study)
+
+str(mean_sd_valence_per_person)
+```
+
+append variable to ques_study:
+
+```{r}
+ques_study <- ques_study %>%
+  left_join(
+    mean_sd_valence_per_person %>%
+      select(participant_id, mean_valence, sd_valence),
+    by = c("PROLIFIC_PID" = "participant_id")
+  )
+```
+
+
+## mean values of scales
+
+### EFA overall
+
+
+Remark: factors scores were computed using "tenBerge", which preserves correlation structure, but not as widely used in applied psych research (often "regression" used).
+
+
+```{r}
+#### Overall EFA
+regExOverall <- "^AIAS|^PTTA"
+
+psych::cor.plot(r = cor(ques_study[, str_detect(string = colnames(ques_study),
+                                                   pattern = regExOverall)]
+                        , use = "pairwise.complete.obs"),
+                upper = FALSE, xlas = 2, main = "Overall")
+
+#> parallel analysis
+tmp_parallelAnalysis <- dimensionalityTest(label = "Overall",
+                             regEx = regExOverall, dataset = ques_study)
+
+#> EFA
+tmp_EFA_overall <- explorativeFactorAnalysis(label = "Overall",
+                                 regEx = regExOverall,
+                                 dataset = ques_study, nfac = tmp_parallelAnalysis$nfact) # manually set
+tmp_EFA_overall[[1]]
+tmp_EFA_overall[[1]]$loadings
+```
+
+### Descriptives, correlation plot, EFA, CFA for AIAS
+
+```{r}
+regEx <- "^AIAS"
+nameVariable <- "AIAS"
+  
+tmp_numVars <- sum(str_detect(string = colnames(ques_study), pattern = regEx))
+cat("\n>>>",  tmp_numVars, "items )<<<\n\n")
+tmp_dat <- na.omit(ques_study[,str_detect(string = colnames(ques_study), pattern = regEx)])
+tmp <- CFAstats(dataset = tmp_dat, regularExp = regEx, labelLatent = str_remove(string = nameVariable, pattern = "mean_"), 
+                  showPlots = TRUE, 
+                  computeEFA = TRUE, 
+                  computeCFA = TRUE, 
+                  computeCFAMplus = FALSE)
+```
+
+
+
+
+### Descriptives, correlation plot, EFA, CFA for PTTA
+
+```{r}
+regEx <- "^PTTA"
+nameVariable <- "PTTA"
+  
+tmp_numVars <- sum(str_detect(string = colnames(ques_study), pattern = regEx))
+cat("\n>>>",  tmp_numVars, "items )<<<\n\n")
+tmp_dat <- na.omit(ques_study[,str_detect(string = colnames(ques_study), pattern = regEx)])
+tmp <- CFAstats(dataset = tmp_dat, regularExp = regEx, labelLatent = str_remove(string = nameVariable, pattern = "mean_"), 
+                  showPlots = TRUE, 
+                  computeEFA = TRUE, 
+                  computeCFA = TRUE, 
+                  computeCFAMplus = FALSE)
+```
+
+### compute mean scores
+
+```{r}
+ques_study$mean_AIAS <- rowMeans(x = ques_study[, str_subset(string = colnames(ques_study), pattern = "^AIAS")], na.rm = FALSE) # no missing
+ques_study$mean_PTTA <- rowMeans(x = ques_study[, str_subset(string = colnames(ques_study), pattern = "^PTTA")], na.rm = FALSE) # no missing
+```
+
+
+
+# Descriptive Statistics
+
+**sample**
+
+```{r}
+table(ques_study$sociodemo_gender)
+table(ques_study$sociodemo_gender) / nrow(ques_study)
+
+summary(ques_study$sociodemo_age)
+hist(ques_study$sociodemo_age)
+```
+
+```{r}
+# Ich finde es wichtig, dass ein Mensch in dem beschriebenen Kontext Aufsicht über KI hat.
+barplot(table(ques_study$`PUR-1`))
+# Ich halte den Einsatz von KI in diesem Kontext für riskant.
+barplot(table(ques_study$`PUR-2`))
+```
+
+**scales**
+
+```{r}
+psych::corPlot(r = cor(ques_study[, c("mean_AIAS", "mean_PTTA", "PUR-1", "PUR-2", "mean_valence")], use = "pairwise"))
+```
+
+
+# Analyze data - scales
+
+```{r}
+ggstatsplot::ggbetweenstats(data = ques_study, x = study_condition, y = mean_valence, type = "parametric")
+# ggstatsplot::ggbetweenstats(data = mean_sd_valence_per_person, x = study_condition, y = mean_valence, type = "parametric")
+
+# Run the Between-Subjects ANOVA
+model_anova <- aov_ez(
+  id = "PROLIFIC_PID",      # Replace with your subject ID column name
+  dv = "mean_valence",           # Your Dependent Variable
+  data = ques_study, 
+  between = "study_condition" # Your Independent Variable
+)
+
+# Print the ANOVA table
+print(model_anova)
+
+# Get the marginal means
+ls_means <- emmeans(model_anova, specs = "study_condition")
+
+# Perform pairwise comparisons
+post_hocs <- pairs(ls_means, adjust = "tukey")
+
+# View results
+print(post_hocs)
+```
+
+```{r}
+ass_study_clean <- ass_study %>%
+  filter(!is.na(sentiment_label),
+         !is.na(study_condition)) %>%
+  mutate(
+    sentiment_label = factor(sentiment_label),
+    study_condition = factor(study_condition)
+  )
+
+tab <- table(ass_study_clean$sentiment_label,
+             ass_study_clean$study_condition)
+
+tab
+
+chisq_res <- chisq.test(tab)
+
+chisq_res
+
+chisq_res$expected
+
+cramers_v(tab)
+
+
+ggplot(ass_study_clean,
+       aes(x = study_condition,
+           fill = sentiment_label)) +
+  geom_bar(position = "fill") +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(
+    x = "Study Condition",
+    y = "Proportion",
+    fill = "Sentiment",
+    title = "Sentiment Distribution by Study Condition"
+  ) +
+  theme_minimal(base_size = 14)
+```
+
+
+
+
+```{r}
+ggstatsplot::ggbetweenstats(data = ques_study, x = study_condition, y = `PUR-2`, type = "parametric")
+
+# Run the Between-Subjects ANOVA
+model_anova <- aov_ez(
+  id = "PROLIFIC_PID",      # Replace with your subject ID column name
+  dv = "PUR-2",           # Your Dependent Variable
+  data = ques_study, 
+  between = "study_condition" # Your Independent Variable
+)
+
+# Print the ANOVA table
+print(model_anova)
+
+# Get the marginal means
+ls_means <- emmeans(model_anova, specs = "study_condition")
+
+# Perform pairwise comparisons
+post_hocs <- pairs(ls_means, adjust = "tukey")
+
+# View results
+print(post_hocs)
+```
+
+```{r}
+ggstatsplot::ggbetweenstats(data = ques_study, x = study_condition, y = mean_AIAS, type = "parametric")
+
+# Run the Between-Subjects ANOVA
+model_anova <- aov_ez(
+  id = "PROLIFIC_PID",      # Replace with your subject ID column name
+  dv = "mean_AIAS",           # Your Dependent Variable
+  data = ques_study, 
+  between = "study_condition" # Your Independent Variable
+)
+
+# Print the ANOVA table
+print(model_anova)
+
+
+# Get the marginal means
+ls_means <- emmeans(model_anova, specs = "study_condition")
+
+# Perform pairwise comparisons
+post_hocs <- pairs(ls_means, adjust = "tukey")
+
+# View results
+print(post_hocs)
+```
+
+
+
+```{r}
+ggstatsplot::ggbetweenstats(data = ques_study, x = study_condition, y = mean_PTTA, type = "parametric")
+
+# Run the Between-Subjects ANOVA
+model_anova <- aov_ez(
+  id = "PROLIFIC_PID",      # Replace with your subject ID column name
+  dv = "mean_PTTA",           # Your Dependent Variable
+  data = ques_study, 
+  between = "study_condition" # Your Independent Variable
+)
+
+# Print the ANOVA table
+print(model_anova)
+
+
+# Get the marginal means
+ls_means <- emmeans(model_anova, specs = "study_condition")
+
+# Perform pairwise comparisons
+post_hocs <- pairs(ls_means, adjust = "tukey")
+
+# View results
+print(post_hocs)
+```
+
+# Analyze data - word associations
+
+```{r}
+normalize_text <- function(text,
+                           lowercase = TRUE,
+                           remove_punctuation = TRUE,
+                           remove_numbers = TRUE,
+                           remove_extra_spaces = TRUE,
+                           normalize_umlauts = TRUE) {
+  
+  # ensure character
+  text <- as.character(text)
+  
+  # convert encoding safely (important for German text)
+  text <- iconv(text, to = "UTF-8")
+  
+  # lowercase
+  if (lowercase) {
+    text <- tolower(text)
+  }
+  
+  # normalize German umlauts (optional but common)
+  if (normalize_umlauts) {
+    text <- gsub("ä", "ae", text, fixed = TRUE)
+    text <- gsub("ö", "oe", text, fixed = TRUE)
+    text <- gsub("ü", "ue", text, fixed = TRUE)
+    text <- gsub("ß", "ss", text, fixed = TRUE)
+  }
+  
+  # remove punctuation
+  if (remove_punctuation) {
+    text <- gsub("[[:punct:]]+", " ", text)
+  }
+  
+  # remove numbers
+  if (remove_numbers) {
+    text <- gsub("[0-9]+", " ", text)
+  }
+  
+  # remove extra whitespace
+  if (remove_extra_spaces) {
+    text <- gsub("\\s+", " ", text)
+  }
+  
+  # trim leading/trailing spaces
+  text <- trimws(text)
+  
+  return(text)
+}
+
+length(unique(ass_study$response))
+length(unique(ass_study$response_translated))
+
+ass_study$response_translated_clean <- normalize_text(text = ass_study$response_translated)
+
+length(unique(ass_study$response_translated_clean))
+```
+

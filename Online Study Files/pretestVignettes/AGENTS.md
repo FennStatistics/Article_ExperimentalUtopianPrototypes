@@ -13,6 +13,7 @@ Repo-wide conventions (Analyses, encoding gotchas, etc.) are in `AGENTS.md` at r
 - Global flags (local testing + required responses) live in `src/js/globals.js`.
 - Styles are in `src/css/style.css` (plus vendor `src/css/toastrmin.css`).
 - Additional libraries load from `lib/` and `src/js/additional libraries/`.
+- Analysis outputs and study data live in `analysis_pretestVignettes/`.
 
 ## Key file layout
 - `index.html`: script order, library includes, base markup, progress bar.
@@ -25,6 +26,7 @@ Repo-wide conventions (Analyses, encoding gotchas, etc.) are in `AGENTS.md` at r
 - `src/js/phases/ending.js`: feedback + ending/redirect.
 - `src/js/paradata/paradata_focus.js`: focus/defocus tracking.
 - `src/js/paradata/paradata_general.js`: general paradata (clipboard/mouse/scroll/typing timing).
+- `analysis_pretestVignettes/`: analysis outputs and stored study data.
 
 ## Build, lint, test commands
 - Build: not configured (static HTML + JS).
@@ -102,6 +104,10 @@ Repo-wide conventions (Analyses, encoding gotchas, etc.) are in `AGENTS.md` at r
 
 ## Vendor libraries
 - `lib/` and `src/js/additional libraries/` are vendor code; do not edit unless explicitly requested.
+
+## Data and templates
+- Raw data lives only in `analysis_pretestVignettes/01_dataPreperation/data/`; do not edit or commit raw data unless explicitly requested.
+- `../templates/` is legacy/template code from an older study; treat as reference only.
 
 ## Cursor and Copilot rules
 - No `.cursor/rules/`, `.cursorrules`, or `.github/copilot-instructions.md` found.

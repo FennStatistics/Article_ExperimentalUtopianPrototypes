@@ -1,0 +1,80 @@
+---
+title: "Data preperation"
+author: "Julius Fenn"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    html-math-method: katex
+    number-sections: true
+---
+
+
+# Notes
+
+
+# global variables
+
+Define your global variables (e.g., to reduce run time):
+
+```{r}
+#| label: global variables
+
+# aaa
+```
+
+# functions
+
+```{r}
+########################################
+# aaa
+########################################
+### args:
+# aaa = bbb
+
+```
+
+
+# load packages
+
+```{r}
+#| label: load packages
+#| warning: false
+
+### load packages (also packages loaded, which are not needed for data preperation)
+require(pacman)
+p_load('tidyverse',
+       'stargazer',  'DT', 'psych',
+       'writexl', 'readxl', 'haven')
+```
+
+# load and prepare raw data files
+
+corrupt csv file: 
+
+```{r}
+setwd("data")
+
+
+```
+
+
+# aaa
+
+aaa
+
+
+
+
+# save data sets
+
+
+```{r}
+setwd("outputs")
+
+saveRDS(ds, file = paste0("ds", ".rds"))
+writexl::write_xlsx(x = ds, path = paste0("ds", ".xlsx"))
+write.csv2(x = ds, file =  paste0("ds", ".csv"))
+haven::write_sav(data = ds, path = paste0("ds", ".sav"))
+```
+
