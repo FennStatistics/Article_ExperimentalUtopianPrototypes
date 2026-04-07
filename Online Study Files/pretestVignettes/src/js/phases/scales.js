@@ -44,7 +44,7 @@ const postClearBiasText = `
             </p>
           </td>
           <td>
-            <textarea id="clearUtopiatext" name="clearUtopiatext" class="w-100" rows="3"></textarea>
+            <textarea id="clearUtopiatext" name="clearUtopiatext" class="w-100" rows="5"></textarea>
           </td>
         </tr>
 
@@ -75,7 +75,7 @@ const postClearBiasText = `
             </p>
           </td>
           <td>
-            <textarea id="biasUtopiatext" name="biasUtopiatext" class="w-100" rows="3"></textarea>
+            <textarea id="biasUtopiatext" name="biasUtopiatext" class="w-100" rows="5"></textarea>
           </td>
         </tr>
 

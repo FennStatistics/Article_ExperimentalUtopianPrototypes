@@ -1,6 +1,16 @@
-#undUtopiaGeneral, #undUtopiaGoal, #undUtopiaHow {
+#undUtopiaGeneral, #undUtopiaGoal, #undUtopiaHow, #clearUtopiatext, #biasUtopiatext {
   font-size: 22px;
   padding: 10px;
+}
+
+#biasUtopia, #clearUtopia {
+  font-size: 24px;
+  line-height: 1.4;
+  padding: 6px 10px;
+  height: auto;
+}
+#biasUtopia, #clearUtopia option {
+  font-size: 24px;
 }
 
 /* Increase size of radio buttons */

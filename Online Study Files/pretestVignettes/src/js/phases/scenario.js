@@ -150,10 +150,10 @@ const ScenarioText_htmlForm = new lab.html.Form({
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
 
-      // store futureSocietyCondition condition
+      // store condition of future society
       study.options.datastore.set(
-        "futureSocietyCondition",
-        futureSocietyCondition,
+        "condition_FutureSociety",
+        codingFutureSociety,
       );
 
       if (

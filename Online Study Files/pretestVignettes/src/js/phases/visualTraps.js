@@ -300,7 +300,7 @@ const VisualTraps_htmlForm = new lab.html.Form({
         timestamp: new Date().toISOString(),
       });
       study.options.datastore.set("visualTrap_trials", visualTrapTrials);
-      */
+   
 
       if (
         !localTesting &&
@@ -314,6 +314,7 @@ const VisualTraps_htmlForm = new lab.html.Form({
           .then(() => console.log("success"))
           .catch(() => console.log("error"));
       }
+             */
     },
   },
 });
