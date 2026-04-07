@@ -49,7 +49,7 @@ let quesAttributes = {
     "Creative",
     "Possible"
   ],
-  scale: ["1", "2", "3", "4", "5", "6", "7"]
+  scale: ["1", "2", "3", "4", "5", "6", "7"] // !!! add 8 in future study
 };
 
 var index_quesAttributes = shuffle(quesAttributes);
