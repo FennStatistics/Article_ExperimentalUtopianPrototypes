@@ -9,7 +9,7 @@ const postClearBiasText = `
   </h2>
 </header>
 
-<p>Please refer to the text about the future society when answering these questions.</p>
+<p>Please refer to the future society described in the text you just read when answering these questions.</p>
 
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
@@ -104,7 +104,7 @@ const understandingText = `
   </h2>
 </header>
 
-<p>When answering the questions, please refer to the text about the future society that you have just read.</p>
+<p>When answering the questions, please refer to the future society described in the text you just read.</p>
 
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xxl text-justify">
@@ -177,7 +177,7 @@ const assignmentTaskText = `
 </header>
 
 <p>
-  Please refer to the text about the future society you have just read.
+  Please refer to the future society described in the text you just read.
 </p>
 
 <main class="content-horizontal-center content-vertical-center">
@@ -501,7 +501,7 @@ const quesAttributesFutureSociety_htmlForm = new lab.html.Page({
         "Strongly Agree",
       ],
       label:
-        "Please rate the described society on the following attributes. The described society is...",
+        "Please rate the future society described in the text you just read on the following attributes. The described society is...",
       help: "Read each of these statements and then mark the answer option that most applies.",
       shuffle: false,
       name: "attributesFutureSociety",

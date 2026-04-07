@@ -10,7 +10,7 @@ const transitionToAITText = `
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
           <section>
-               <p>You have completed the reaction time task. Next, you will move on to the <strong>Word Association Task</strong>. This task involves responding to a specific word with the first thoughts or associations that come to mind. Please read the instructions for this task carefully before starting.</p>
+               <p>You have completed the reaction time task. Next, you will move on to the <strong>Word Association Task</strong>. This task involves responding to a specific word with the first thoughts or associations that come to mind. Please keep the future society you just read about in mind for the next task. Please read the instructions for this task carefully before starting.</p>
           </section>
   </div>
 </main>
@@ -33,8 +33,8 @@ const AT_Snowball_Inst_Text = `
   <div class="w-xl text-justify">
     <strong>How it works...</strong>
     <section>
-      A scenario will be described at the top of the screen. Please enter the first word or thought
-      that comes to mind when you imagine this scenario.
+      Please keep the future society you just read about in mind. Please enter the first word or thought
+      that comes to mind when you imagine that future society.
     </section>
     <br>
     <section>
@@ -50,7 +50,7 @@ const AT_Snowball_Inst_Text = `
     <section>
       <ul>
         <li>Please avoid repetitions and full sentences.</li>
-        <li>Please only provide associations to the scenario described above.</li>
+        <li>Please only provide associations to the future society you just read about.</li>
         <li>Respond as spontaneously as possible.</li>
       </ul>
     </section>
@@ -70,7 +70,7 @@ const AT_Snowball_Inst_Text = `
 const AT_Snowball_Task_Text = `
        <main class="content-horizontal-center content-vertical-center">
       <div style="width: 90%; text-align: center;">
-<span id="replaceTextTop">Enter words or thoughts that come to mind when you imagine the following:</span>
+<span id="replaceTextTop">Enter words or thoughts that come to mind when you imagine the future society you just read about:</span>
           <br>
           <br>
     <div style="align-items: display: flex;">

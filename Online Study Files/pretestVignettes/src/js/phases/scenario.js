@@ -4,7 +4,7 @@
 
 const scenarioText = `
 <header>
- <h2>Please read the following text carefully. Afterward, we will ask you to answer several questions:</h2>
+ <h2>Please read the following text carefully. All upcoming questions and a word association task will refer to this future society.</h2>
  </header>
 
 <main class="content-horizontal-center content-vertical-center">

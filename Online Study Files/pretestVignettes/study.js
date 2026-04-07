@@ -55,10 +55,10 @@ var codingFutureSociety; // to be set in ScenarioText_htmlForm message handler
 const study = new lab.flow.Sequence({
   metadata: {
     title:
-      "Public Perceptions of Bio-Inspired Technologies and Their Relationship to Sustainability: A Mixed-Methods Investigation",
+      "Pretest: Visions of Progress: A Within-Subject Experimental Analysis of Utopian Prototypes, Profiles, and Systemic Attitudes",
     description:
-      "This online study examines the conceptual association between bio-inspired technologies and sustainability in the public imagination.",
-    repository: "https://github.com/FennStatistics/livMatS_MasterLab_2025",
+      "Pretest of vision of progress study.",
+    repository: "https://github.com/FennStatistics/Article_ExperimentalUtopianPrototypes",
     contributors: "study programmed by Julius Fenn",
   },
   plugins: [
