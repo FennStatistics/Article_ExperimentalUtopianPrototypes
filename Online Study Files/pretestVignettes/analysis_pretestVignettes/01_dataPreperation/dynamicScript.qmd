@@ -9,72 +9,401 @@ format:
     number-sections: true
 ---
 
-
 # Notes
 
+This script prepares the pretest vignette data and outputs a single clean table
+that only includes fully completed participants (JATOS FINISHED + all required
+responses + 5 word associations).
 
 # global variables
 
-Define your global variables (e.g., to reduce run time):
-
 ```{r}
-#| label: global variables
+#| label: global-variables
 
-# aaa
+createRawFiles <- TRUE
+
+data_root <- "data"
+output_root <- "outputs"
+raw_output_dir <- file.path(output_root, "raw")
+questionnaire_output_dir <- file.path(output_root, "questionnaire")
+associations_output_dir <- file.path(output_root, "associations")
 ```
 
 # functions
 
 ```{r}
 ########################################
-# aaa
+# from JATOS data set to classical data frame (2D)
 ########################################
 ### args:
-# aaa = bbb
+# dataset = dat
+# listvars = vec_ques
+# notNumeric = vec_notNumeric
+# verbose = TRUE
 
+questionnairetype <- function(dataset,
+                              listvars,
+                              notNumeric,
+                              verbose = FALSE) {
+  datasetques <- data.frame(ID = unique(dataset$ID))
+
+  for (c in seq_along(listvars)) {
+    if (verbose) {
+      print(c)
+    }
+
+    if (any(colnames(dataset) == listvars[c])) {
+      if (verbose) {
+        print(listvars[c])
+      }
+
+      tmpid <- dataset$ID[!is.na(dataset[, listvars[c]])]
+      tmpvalue <- dataset[, listvars[c]][!is.na(dataset[, listvars[c]])]
+      datasetques[listvars[c]] <- NA
+
+      if (listvars[c] %in% notNumeric) {
+        datasetques[datasetques$ID %in% tmpid, listvars[c]] <- tmpvalue
+      } else if (is.list(tmpvalue)) {
+        tmpvalue_tmp <- unique(tmpvalue)
+        tmpvalue <- c()
+        counter <- 1
+        for (i in seq_along(tmpvalue_tmp)) {
+          if (!is.null(tmpvalue_tmp[[i]])) {
+            tmpvalue[counter] <- paste0(tmpvalue_tmp[[i]], collapse = " - ")
+            counter <- counter + 1
+          }
+        }
+        datasetques[datasetques$ID %in% tmpid, listvars[c]] <- tmpvalue
+      } else {
+        datasetques[datasetques$ID %in% tmpid, listvars[c]] <- as.numeric(tmpvalue)
+      }
+    }
+  }
+  return(datasetques)
+}
+
+########################################
+# helpers
+########################################
+
+get_last_non_null <- function(x) {
+  if (length(x) == 0) return(NULL)
+  idx <- which(!purrr::map_lgl(x, is.null))
+  if (length(idx) == 0) return(NULL)
+  x[[idx[length(idx)]]]
+}
+
+parse_duration_seconds <- function(x) {
+  if (is.na(x) || x == "") return(NA_real_)
+  clean <- stringr::str_remove(x, "\\s*\\(.*\\)")
+  if (is.na(clean) || clean == "") return(NA_real_)
+  as.numeric(hms::as_hms(clean))
+}
+
+association_to_wide <- function(assoc_list) {
+  if (is.null(assoc_list) || length(assoc_list) == 0) {
+    return(tibble::tibble(
+      assoc_cue = NA_character_,
+      assoc1_response = NA_character_, assoc1_timestamp = NA_character_, assoc1_valence = NA_character_,
+      assoc2_response = NA_character_, assoc2_timestamp = NA_character_, assoc2_valence = NA_character_,
+      assoc3_response = NA_character_, assoc3_timestamp = NA_character_, assoc3_valence = NA_character_,
+      assoc4_response = NA_character_, assoc4_timestamp = NA_character_, assoc4_valence = NA_character_,
+      assoc5_response = NA_character_, assoc5_timestamp = NA_character_, assoc5_valence = NA_character_
+    ))
+  }
+
+  assoc_df <- dplyr::as_tibble(assoc_list)
+  assoc_df <- assoc_df[seq_len(min(5, nrow(assoc_df))), ]
+
+  cue_value <- if ("cue" %in% names(assoc_df)) assoc_df$cue[1] else NA_character_
+
+  out <- tibble::tibble(
+    assoc_cue = cue_value,
+    assoc1_response = assoc_df$response[1], assoc1_timestamp = assoc_df$timestamp[1], assoc1_valence = assoc_df$valence[1],
+    assoc2_response = assoc_df$response[2], assoc2_timestamp = assoc_df$timestamp[2], assoc2_valence = assoc_df$valence[2],
+    assoc3_response = assoc_df$response[3], assoc3_timestamp = assoc_df$timestamp[3], assoc3_valence = assoc_df$valence[3],
+    assoc4_response = assoc_df$response[4], assoc4_timestamp = assoc_df$timestamp[4], assoc4_valence = assoc_df$valence[4],
+    assoc5_response = assoc_df$response[5], assoc5_timestamp = assoc_df$timestamp[5], assoc5_valence = assoc_df$valence[5]
+  )
+
+  return(out)
+}
 ```
-
 
 # load packages
 
 ```{r}
-#| label: load packages
+#| label: load-packages
 #| warning: false
 
-### load packages (also packages loaded, which are not needed for data preperation)
 require(pacman)
-p_load('tidyverse',
-       'stargazer',  'DT', 'psych',
-       'writexl', 'readxl', 'haven')
+p_load(
+  "tidyverse",
+  "jsonlite",
+  "hms",
+  "writexl",
+  "readxl",
+  "haven"
+)
 ```
 
-# load and prepare raw data files
-
-corrupt csv file: 
+# create raw data files
 
 ```{r}
-setwd("data")
+#| label: process-studies
+#| warning: false
 
+if (createRawFiles) {
+  dir.create(raw_output_dir, recursive = TRUE, showWarnings = FALSE)
 
+  data_files <- list.files(
+    data_root,
+    pattern = "data.txt$",
+    recursive = TRUE,
+    full.names = TRUE
+  )
+
+  results <- list()
+  for (file in data_files) {
+    result_folder <- basename(dirname(dirname(file)))
+    result_id <- stringr::str_remove(result_folder, "^study_result_")
+
+    tmp <- jsonlite::fromJSON(file)
+    tmp[, colnames(tmp) == ""] <- NULL
+    tmp <- dplyr::as_tibble(tmp)
+    tmp$result_id <- as.character(result_id)
+
+    results[[length(results) + 1]] <- tmp
+  }
+
+  saveRDS(results, file = file.path(raw_output_dir, "study.rds"))
+  json_lines <- purrr::map_chr(results, ~ jsonlite::toJSON(.x, auto_unbox = TRUE))
+  writeLines(json_lines, con = file.path(raw_output_dir, "study.jsonl"))
+
+  print("Raw files have been created in this run!")
+} else {
+  print("Raw files have been created in previous run!")
+}
 ```
 
+# load and prepare raw data
 
-# aaa
+```{r}
+#| label: load-raw-data
 
-aaa
+study <- readRDS(file.path(raw_output_dir, "study.rds"))
+dat <- suppressMessages(bind_rows(study))
+rm(study)
 
 
 
+dat$ID <- dat$result_id
+
+dat <- dat %>%
+  dplyr::mutate(
+    meta_language = purrr::map_chr(meta, ~ if (is.null(.x$language)) NA_character_ else .x$language),
+    meta_screen_width = purrr::map_dbl(meta, ~ as.numeric(if (is.null(.x$screen_width)) NA else .x$screen_width)),
+    meta_screen_height = purrr::map_dbl(meta, ~ as.numeric(if (is.null(.x$screen_height)) NA else .x$screen_height)),
+    meta_userAgent = purrr::map_chr(meta, ~ if (is.null(.x$userAgent)) NA_character_ else .x$userAgent),
+    meta_platform = purrr::map_chr(meta, ~ if (is.null(.x$platform)) NA_character_ else .x$platform),
+    meta_timeZone = purrr::map_chr(meta, ~ if (is.null(.x$timeZone)) NA_character_ else .x$timeZone),
+    meta_timezoneOffset = purrr::map_dbl(meta, ~ as.numeric(if (is.null(.x$timezoneOffset)) NA else .x$timezoneOffset)),
+    meta_window_innerWidth = purrr::map_dbl(meta, ~ as.numeric(if (is.null(.x$window_innerWidth)) NA else .x$window_innerWidth)),
+    meta_window_innerHeight = purrr::map_dbl(meta, ~ as.numeric(if (is.null(.x$window_innerHeight)) NA else .x$window_innerHeight)),
+    meta_devicePixelRatio = purrr::map_dbl(meta, ~ as.numeric(if (is.null(.x$devicePixelRatio)) NA else .x$devicePixelRatio))
+  )
+```
+
+# load and join JATOS metadata
+
+```{r}
+#| label: jatos-metadata
+
+metadata_files <- list.files(
+  data_root,
+  pattern = "jatos_results_metadata_.*\\.csv$",
+  full.names = TRUE
+)
+
+metadata_file <- metadata_files[which.max(file.info(metadata_files)$mtime)]
+metadata <- readr::read_csv(metadata_file, show_col_types = FALSE)
+names(metadata) <- make.names(names(metadata))
+
+metadata <- metadata %>%
+  mutate(
+    result_id = as.character(Result.ID),
+    duration_seconds = purrr::map_dbl(Duration, parse_duration_seconds)
+  )
+
+dat <- dat %>%
+  left_join(metadata, by = "result_id")
+```
+
+# prepare questionnaire data
+
+```{r}
+#| label: prepare-questionnaire
+
+dat_cols <- colnames(dat)
+
+vec_visualtrap <- stringr::str_subset(dat_cols, "^visualTrap_")
+vec_visualtrap_response <- stringr::str_subset(dat_cols, "^visualTrap_.*_response$")
+vec_attributes <- stringr::str_subset(dat_cols, "^attributesFutureSociety-\\d+$")
+vec_attcheck <- stringr::str_subset(dat_cols, "^attCheck_")
+
+vec_notNumeric <- c(
+  "ID",
+  "result_id",
+  "PROLIFIC_PID",
+  "futureSocietyCondition",
+  "cue",
+  "cue_coding",
+  "meta_language",
+  "meta_userAgent",
+  "meta_platform",
+  "meta_timeZone",
+  "dummy_informedconsent",
+  "hp_exclusionCriteria",
+  "hp_exclusionCriteria_value",
+  "commCheck",
+  "clearUtopiatext",
+  "biasUtopiatext",
+  "undUtopiaGeneral",
+  "undUtopiaGoal",
+  "undUtopiaHow",
+  "utopiaPrototypeAssignment",
+  "protoConfidenceRadio",
+  "protoReasonText",
+  "State",
+  "Start.time",
+  "Last.seen",
+  "Duration",
+  vec_attcheck,
+  vec_visualtrap
+)
+
+vec_ques <- c(
+  "ID",
+  "result_id",
+  "PROLIFIC_PID",
+  "futureSocietyCondition",
+  "cue",
+  "cue_coding",
+  "dummy_informedconsent",
+  "hp_exclusionCriteria",
+  "hp_exclusionCriteria_value",
+  "commCheck",
+  "clearUtopia",
+  "clearUtopiatext",
+  "biasUtopia",
+  "biasUtopiatext",
+  "undUtopiaGeneral",
+  "undUtopiaGoal",
+  "undUtopiaHow",
+  vec_attributes,
+  "utopiaPrototypeAssignment",
+  "protoConfidenceRadio",
+  "protoReasonText",
+  vec_visualtrap,
+  "meta_language",
+  "meta_screen_width",
+  "meta_screen_height",
+  "meta_userAgent",
+  "meta_platform",
+  "meta_timeZone",
+  "meta_timezoneOffset",
+  "meta_window_innerWidth",
+  "meta_window_innerHeight",
+  "meta_devicePixelRatio",
+  "State",
+  "Start.time",
+  "Last.seen",
+  "Duration",
+  "duration_seconds",
+  vec_attcheck
+)
+
+ques_study <- questionnairetype(
+  dataset = dat,
+  listvars = vec_ques,
+  notNumeric = vec_notNumeric,
+  verbose = FALSE
+)
+
+ques_study <- ques_study %>%
+  mutate(across(where(is.character), ~ na_if(., "")))
+```
+
+# prepare associations (wide) and merge
+
+```{r}
+#| label: prepare-associations
+
+assoc_by_id <- dat %>%
+  group_by(ID) %>%
+  summarise(
+    sucsessfulAssociations = get_last_non_null(sucsessfulAssociations),
+    unsucsessfulAssociations = get_last_non_null(unsucsessfulAssociations),
+    .groups = "drop"
+  )
+
+assoc_wide <- assoc_by_id %>%
+  mutate(assoc_row = purrr::map(sucsessfulAssociations, association_to_wide)) %>%
+  select(ID, assoc_row) %>%
+  tidyr::unnest_wider(assoc_row)
+
+dat_clean <- ques_study %>%
+  left_join(assoc_wide, by = "ID")
+```
+
+# filter to complete datasets
+
+```{r}
+#| label: complete-filter
+
+required_cols <- c(
+  "PROLIFIC_PID",
+  "futureSocietyCondition",
+  "undUtopiaGeneral",
+  "undUtopiaGoal",
+  "undUtopiaHow",
+  "clearUtopia",
+  "biasUtopia",
+  "utopiaPrototypeAssignment",
+  "protoConfidenceRadio",
+  vec_attributes,
+  vec_visualtrap_response,
+  "assoc1_response",
+  "assoc2_response",
+  "assoc3_response",
+  "assoc4_response",
+  "assoc5_response"
+)
+
+is_missing <- function(x) {
+  if (is.character(x) || is.factor(x)) {
+    is.na(x) | x == ""
+  } else {
+    is.na(x)
+  }
+}
+
+clean_complete <- dat_clean %>%
+  filter(State == "FINISHED") %>%
+  filter(!if_any(all_of(required_cols), is_missing))
+
+dim(clean_complete)
+```
 
 # save data sets
 
-
 ```{r}
-setwd("outputs")
+#| label: save-outputs
 
-saveRDS(ds, file = paste0("ds", ".rds"))
-writexl::write_xlsx(x = ds, path = paste0("ds", ".xlsx"))
-write.csv2(x = ds, file =  paste0("ds", ".csv"))
-haven::write_sav(data = ds, path = paste0("ds", ".sav"))
+dir.create(questionnaire_output_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(associations_output_dir, recursive = TRUE, showWarnings = FALSE)
+
+saveRDS(clean_complete, file = file.path(questionnaire_output_dir, "clean_complete.rds"))
+writexl::write_xlsx(x = clean_complete, path = file.path(questionnaire_output_dir, "clean_complete.xlsx"))
+write.csv(clean_complete, file = file.path(questionnaire_output_dir, "clean_complete.csv"), row.names = FALSE)
 ```
-
