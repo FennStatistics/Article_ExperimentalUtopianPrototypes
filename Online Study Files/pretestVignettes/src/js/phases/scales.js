@@ -107,7 +107,7 @@ const understandingText = `
 <p>When answering the questions, please refer to the text about the future society that you have just read.</p>
 
 <main class="content-horizontal-center content-vertical-center">
-  <div class="w-xl text-justify">
+  <div class="w-xxl text-justify">
     <form id="demography">
       <table>
 
@@ -121,7 +121,7 @@ const understandingText = `
             </p>
           </td>
           <td>
-            <textarea id="undUtopiaGeneral" name="undUtopiaGeneral" class="w-100" rows="3" required></textarea>
+            <textarea id="undUtopiaGeneral" name="undUtopiaGeneral" class="w-100" rows="5" required></textarea>
           </td>
         </tr>
 
@@ -135,7 +135,7 @@ const understandingText = `
             </p>
           </td>
           <td>
-            <textarea id="undUtopiaGoal" name="undUtopiaGoal" class="w-100" rows="3" required></textarea>
+            <textarea id="undUtopiaGoal" name="undUtopiaGoal" class="w-100" rows="5" required></textarea>
           </td>
         </tr>
 
@@ -149,7 +149,7 @@ const understandingText = `
             </p>
           </td>
           <td>
-            <textarea id="undUtopiaHow" name="undUtopiaHow" class="w-100" rows="3" required></textarea>
+            <textarea id="undUtopiaHow" name="undUtopiaHow" class="w-100" rows="5" required></textarea>
           </td>
         </tr>
 

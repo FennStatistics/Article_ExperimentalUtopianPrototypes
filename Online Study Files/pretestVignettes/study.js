@@ -68,8 +68,6 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download(),
   ],
   content: [   
-        loop_VisualTraps,
-
     // >>> introduction phase
     Greetings_htmlForm,
 
@@ -87,7 +85,7 @@ const study = new lab.flow.Sequence({
     // loop_Scenarios,
 
     // >>> Snowball task
-    TransitionToAIT_htmlForm,
+    // TransitionToAIT_htmlForm,
     loopOuter,
 
     // >>> survey scales

@@ -567,23 +567,23 @@ const AffectiveImageryAffect_htmlForm = new lab.html.Page({
       items: [
         {
           label: "entry1",
-          coding: "AR1",
+          coding: "1",
         },
         {
           label: "entry2",
-          coding: "AR2",
+          coding: "2",
         },
         {
           label: "entry3",
-          coding: "AR3",
+          coding: "3",
         },
         {
           label: "entry4",
-          coding: "AR4",
+          coding: "4",
         },
         {
           label: "entry5",
-          coding: "AR5",
+          coding: "5",
         },
       ],
       width: "7",
@@ -601,7 +601,7 @@ label: `Please indicate how positive or negative you perceive the words or thoug
 <br><strong id="cueWord_rating" style="font-size: 16px; display: inline-block; margin-left: 25px;">XXX</strong>`,
       help: "Read each of your words or thoughts and then select the response option that fits best.",
       shuffle: true,
-      name: "${AIT_cue}",
+      name: "AR", // ${AIT_cue}
     },
   ],
   submitButtonText: "Continue →",

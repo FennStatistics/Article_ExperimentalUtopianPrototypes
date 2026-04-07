@@ -24,7 +24,7 @@ const scenarioText = `
 
   <footer class="content-vertical-center content-horizontal-right">
   <div class="w-xl text-justify" style="font-size:26px;">
-  Do not press "Continue" until you have read the text carefully. The "Continue" button is locked for 15 seconds.
+  Do not press "Continue" until you have read the text carefully. The "Continue" button is invisible for 15 seconds.
   </div>
   &nbsp; <button id="continue" type="submit" form="page-form">
   Continue &rarr;
@@ -141,7 +141,7 @@ const ScenarioText_htmlForm = new lab.html.Form({
       document.querySelector("button").style.visibility = "hidden";
       setTimeout(
         () => (document.querySelector("button").style.visibility = "visible"),
-        0, // 15000 (15 seconds)
+        15000, // 15000 (15 seconds)
       );
     },
     commit: () => {

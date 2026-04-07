@@ -1,3 +1,8 @@
+#undUtopiaGeneral, #undUtopiaGoal, #undUtopiaHow {
+  font-size: 22px;
+  padding: 10px;
+}
+
 /* Increase size of radio buttons */
 .rating-form input[type="radio"] {
   width: 25px;
@@ -116,12 +121,13 @@ select option {
   /* green */
   border: none;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 12px;
-  padding: 10px 24px;
+  padding: 15px 32px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
