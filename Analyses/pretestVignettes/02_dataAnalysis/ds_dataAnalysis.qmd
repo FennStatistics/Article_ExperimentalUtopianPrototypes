@@ -533,18 +533,6 @@ DT::datatable(
 
 
 ```{r}
-dat_para_events$clipboard_text[!is.na(dat_para_events$clipboard_text)]
-dat_para_events$clipboard_length[!is.na(dat_para_events$clipboard_length)]
-dat_para_events$PROLIFIC_PID[!is.na(dat_para_events$clipboard_length)]
-
-```
-
-
-
-
-
-
-```{r}
 #| label: bot-indicators-and-clustering
 #| warning: false
 #| message: false
@@ -725,47 +713,58 @@ cluster_features <- bot_df %>%
 # }
 
 
-# remove only variables that contain at least one missing value
-# 1) drop columns with any NA
-vars_with_na <- colnames(cluster_features)[colSums(is.na(cluster_features)) > 0]
-vars_with_na
+# robust NA handling: median impute per column (fallback to 0)
+cluster_features_ready <- cluster_features %>%
+  mutate(across(everything(), ~ {
+    x <- as.numeric(.x)
+    x[is.infinite(x)] <- NA_real_
+    med <- suppressWarnings(stats::median(x, na.rm = TRUE))
+    if (!is.finite(med)) med <- 0
+    x[is.na(x)] <- med
+    x
+  }))
 
-cluster_features_noNAvars <- cluster_features %>%
-  dplyr::select(-dplyr::all_of(vars_with_na))
-
-# 2) also drop zero-variance columns, which would become NaN after scale()
-vars_zero_var <- names(cluster_features_noNAvars)[
-  vapply(cluster_features_noNAvars, function(x) stats::sd(x, na.rm = TRUE) == 0, logical(1))
+# drop zero-variance columns (would create NaN after scaling)
+vars_zero_var <- names(cluster_features_ready)[
+  vapply(
+    cluster_features_ready,
+    function(x) {
+      s <- stats::sd(x, na.rm = TRUE)
+      is.na(s) || s == 0
+    },
+    logical(1)
+  )
 ]
 vars_zero_var
 
-cluster_features_ready <- cluster_features_noNAvars %>%
-  dplyr::select(-dplyr::all_of(vars_zero_var))
+cluster_features_model <- cluster_features_ready
+if (length(vars_zero_var) > 0) {
+  cluster_features_model <- cluster_features_model %>%
+    dplyr::select(-dplyr::all_of(vars_zero_var))
+}
 
-# 3) scale and convert back to data frame
-cluster_features_scaled_noNAvars <- cluster_features_ready %>%
+# scale and force any residual non-finite values to 0
+cluster_features_scaled <- cluster_features_model %>%
   scale(center = TRUE, scale = TRUE) %>%
   as.data.frame()
 
-# final checks
-#colSums(is.na(cluster_features_scaled_noNAvars))
-#sapply(cluster_features_scaled_noNAvars, sd)
-
-# scale and convert back to data frame
-cluster_features_scaled_noNAvars <- cluster_features_noNAvars %>%
-  scale(center = TRUE, scale = TRUE) %>%
-  as.data.frame()
-
+cluster_features_scaled <- cluster_features_scaled %>%
+  mutate(across(everything(), ~ {
+    x <- as.numeric(.x)
+    x[!is.finite(x)] <- 0
+    x
+  }))
 
 # clustering task
 task <- mlr3cluster::TaskClust$new(
   id = "bot_profile",
-  backend = cluster_features_scaled_noNAvars
+  backend = cluster_features_scaled
 )
 
 # evaluate candidate k values
-k_grid <- 2:6
-dmat <- dist(cluster_features_scaled_noNAvars)
+k_max <- min(6, nrow(cluster_features_scaled) - 1)
+k_grid <- if (k_max >= 2) 2:k_max else 2
+dmat <- dist(cluster_features_scaled)
 
 k_eval <- purrr::map_dfr(k_grid, function(k) {
   learner_k <- mlr3::lrn("clust.kmeans", centers = k, nstart = 30)
@@ -845,3 +844,48 @@ DT::datatable(
 )
 ```
 
+Interpetation: 
+
+```{r}
+cluster_profile
+```
+
+- Cluster 3 (n=47, 68.1%) = likely baseline/human-like majority
+  - Lowest risk score (0.234)
+  - Highest visual accuracy (0.961)
+  - Moderate RT (~21.3s) and duration (~722s)
+  - Low paste, moderate mouse, low defocus
+- Cluster 2 (n=5, 7.2%) = high-risk slow + low-accuracy pattern
+  - Highest risk score (2.2)
+  - Very low visual accuracy (0.30)
+  - Long visual RT (~39.8s) + long duration (~1450s)
+  - Very low paste/defocus
+  - More consistent with low-quality / struggling / disengaged responders than fast bots
+- Cluster 1 (n=1, 1.4%) = single extreme case
+  - Risk score 2.0, high paste (9), high defocus (9), lower mouse (272)
+  - Since n=1, treat as individual anomaly, not a stable subgroup
+- Cluster 4 (n=6, 8.7%) = medium-risk, slow with elevated defocus
+  - Risk 1.0, good-but-not-top accuracy (0.861)
+  - Long RT (~37.3s), long duration (~1514s)
+  - Defocus relatively high (4.33)
+  - Looks like distracted / interrupted participants
+- Cluster 5 (n=10, 14.5%) = active but low-risk variant
+  - Low risk (0.7), good accuracy (0.883)
+  - Very high mouse activity (~1194) and very long RT (~60.9s)
+  - Could reflect careful/slow navigation, not necessarily suspicious
+
+```{r}
+tmp_pids <- suspected_bot_table$PROLIFIC_PID[suspected_bot_table$bot_cluster == 1]
+tmp_pids
+
+tmp_pids <- suspected_bot_table$PROLIFIC_PID[suspected_bot_table$bot_cluster == 2]
+tmp_pids
+
+tmp <- rowSums(dat_ques[dat_ques$PROLIFIC_PID %in% tmp_pids, str_subset(string = colnames(dat_ques), pattern = "^visual.*_correct$")])
+barplot(table(tmp), main = "Cluster 2")
+
+
+tmp_pids <- suspected_bot_table$PROLIFIC_PID[suspected_bot_table$bot_cluster != 2]
+tmp <- rowSums(dat_ques[dat_ques$PROLIFIC_PID %in% tmp_pids, str_subset(string = colnames(dat_ques), pattern = "^visual.*_correct$")])
+barplot(table(tmp), main = "All other clusters")
+```
