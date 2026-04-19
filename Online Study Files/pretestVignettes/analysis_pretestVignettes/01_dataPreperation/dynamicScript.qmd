@@ -831,6 +831,28 @@ metadata <- metadata %>%
 
 metadata_small <- metadata %>%
   select(result_id, State, Duration, duration_seconds)
+
+table(metadata_small$State)
+```
+
+# load Prolific demographics
+
+```{r}
+#| label: prolific-demographics
+
+prolific_demographic_file <- file.path(
+  data_root,
+  "prolific_demographic_export_69d4ced16907d423ae787668.csv"
+)
+
+prolific_demographic_raw <- readr::read_csv(prolific_demographic_file, show_col_types = FALSE)
+names(prolific_demographic_raw) <- make.names(names(prolific_demographic_raw))
+
+prolific_demographic <- prolific_demographic_raw %>%
+  rename(PROLIFIC_PID = Participant.id) %>%
+  mutate(PROLIFIC_PID = as.character(PROLIFIC_PID)) %>%
+  distinct(PROLIFIC_PID, .keep_all = TRUE) %>%
+  rename_with(~ paste0("socidem_", .x), -PROLIFIC_PID)
 ```
 
 # build participant-level data
@@ -1040,7 +1062,8 @@ if (nrow(paradata_column_map) == 0) {
 }
 
 core_df <- core_df %>%
-  left_join(metadata_small, by = "result_id")
+  left_join(metadata_small, by = "result_id") %>%
+  left_join(prolific_demographic, by = "PROLIFIC_PID")
 ```
 
 # filter to complete datasets
@@ -1059,10 +1082,16 @@ required_cols <- setdiff(
   optional_text
 )
 
+table(core_df$State)
+
+
+# clean_complete <- core_df
 clean_complete <- core_df %>%
   filter(State == "FINISHED")
 
 dim(clean_complete)
+
+table(clean_complete$condition_FutureSociety)
 ```
 
 
@@ -1115,7 +1144,8 @@ num_cols <- c(
   "keyStats_median",
   "keyStats_min",
   "keyStats_max",
-  "duration_seconds"
+  "duration_seconds",
+  "socidem_Age"
 )
 
 bool_cols <- c(
@@ -1140,7 +1170,11 @@ factor_cols <- c(
   "visualTrap_CafeWall_response",
   "visualTrap_Circles_response",
   "visualTrap_Lines_response",
-  "visualTrap_Robot_response"
+  "visualTrap_Robot_response",
+  "socidem_Sex",
+  "socidem_Ethnicity.simplified",
+  "socidem_Student.status",
+  "socidem_Employment.status"
 )
 
 clean_complete <- clean_complete %>%
@@ -1170,6 +1204,8 @@ write.csv(paradata_events_long, file = file.path(paradata_output_dir, "paradata_
 saveRDS(paradata_defocus_long, file = file.path(paradata_output_dir, "paradata_defocus_long.rds"))
 writexl::write_xlsx(x = paradata_defocus_long, path = file.path(paradata_output_dir, "paradata_defocus_long.xlsx"))
 write.csv(paradata_defocus_long, file = file.path(paradata_output_dir, "paradata_defocus_long.csv"), row.names = FALSE)
+
+writexl::write_xlsx(x = clean_complete[, c("PROLIFIC_PID", "condition_FutureSociety","clearUtopia", "clearUtopiatext", "biasUtopia", "biasUtopiatext", "protoConfidenceRadio", "protoReasonText")], path = file.path(questionnaire_output_dir, "clean_complete_wide_text.xlsx"))
 ```
 
 # Summary tables
@@ -1230,6 +1266,23 @@ summary_stats_df <- clean_complete %>%
 psych::describe(summary_stats_df %>% select(where(is.numeric)))
 ```
 
+## descriptive sample
+
+```{r}
+#| label: descriptive-sample
+
+socidem_df <- clean_complete %>%
+  select(starts_with("socidem_"))
+
+psych::describe(socidem_df %>% select(where(is.numeric)))
+
+
+table(socidem_df$socidem_Sex)
+table(socidem_df$socidem_Employment.status)
+```
+
+## descriptive mean differences
+
 ```{r}
 #| label: summary-plots-anova
 
@@ -1238,8 +1291,8 @@ attr_cols <- paste0("attributesFutureSociety-", 1:8)
 
 clean_complete <- clean_complete %>%
   mutate(
-    assoc_valence_mean = rowMeans(select(., all_of(assoc_cols)), na.rm = FALSE),
-    attributes_mean = rowMeans(select(., all_of(attr_cols)), na.rm = FALSE)
+    assoc_valence_mean = rowMeans(select(., all_of(assoc_cols)), na.rm = TRUE),
+    attributes_mean = rowMeans(select(., all_of(attr_cols)), na.rm = TRUE)
   )
 
 analysis_df <- clean_complete %>%
@@ -1278,6 +1331,26 @@ ggplot(mean_summary, aes(x = condition_FutureSociety, y = mean, fill = measure))
   labs(x = "Condition", y = "Mean", fill = "Measure") +
   theme_minimal()
 
+
+anova_assoc <- afex::aov_ez(
+  id = "PROLIFIC_PID",
+  dv = "assoc_valence_mean",
+  between = "condition_FutureSociety",
+  data = analysis_df
+)
+anova_attr <- afex::aov_ez(
+  id = "PROLIFIC_PID",
+  dv = "attributes_mean",
+  between = "condition_FutureSociety",
+  data = analysis_df
+)
+
+summary(anova_assoc)
+summary(anova_attr)
+```
+
+
+```{r}
 attr_labels <- c(
   "1" = "Utopian",
   "2" = "Desirable",
@@ -1312,6 +1385,9 @@ attr_effects <- attr_long %>%
       if (is.na(ss_between) || is.na(ss_total) || ss_total == 0) NA_real_ else ss_between / ss_total
     },
     .groups = "drop"
+  ) %>%
+  mutate(
+    eta_label = ifelse(is.na(eta_sq), "eta^2=NA", paste0("eta^2=", round(eta_sq, 2)))
   )
 
 attr_effects_table <- attr_effects %>%
@@ -1324,6 +1400,12 @@ item_order <- attr_effects %>%
   arrange(desc(eta_order)) %>%
   pull(item_label)
 
+label_order <- attr_effects %>%
+  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
+  arrange(desc(eta_order)) %>%
+  mutate(facet_label = paste0(item_label, "\n", eta_label)) %>%
+  pull(facet_label)
+
 attr_summary <- attr_long %>%
   group_by(condition_FutureSociety, item_label) %>%
   summarise(
@@ -1333,57 +1415,38 @@ attr_summary <- attr_long %>%
     se = sd / sqrt(n),
     .groups = "drop"
   ) %>%
-  mutate(item_label = factor(item_label, levels = item_order))
-
-condition_eta <- analysis_df %>%
-  group_by(condition_FutureSociety) %>%
-  summarise(
-    mean = mean(attributes_mean, na.rm = TRUE),
-    n = dplyr::n(),
-    .groups = "drop"
-  ) %>%
+  left_join(attr_effects %>% select(item_label, eta_label), by = "item_label") %>%
   mutate(
-    grand_mean = mean(analysis_df$attributes_mean, na.rm = TRUE),
-    ss_level = n * (mean - grand_mean)^2
-  ) %>%
-  mutate(
-    ss_total = sum((analysis_df$attributes_mean - grand_mean)^2, na.rm = TRUE),
-    eta_sq = ifelse(ss_total == 0, NA_real_, ss_level / ss_total)
-  ) %>%
-  arrange(desc(eta_sq))
+    item_label = factor(item_label, levels = item_order),
+    facet_label = factor(paste0(item_label, "\n", eta_label), levels = label_order)
+  )
 
-condition_eta
-
-condition_order <- condition_eta %>%
+condition_order <- analysis_df %>%
+  distinct(condition_FutureSociety) %>%
+  arrange(condition_FutureSociety) %>%
   pull(condition_FutureSociety)
 
 attr_summary <- attr_summary %>%
   mutate(condition_FutureSociety = factor(condition_FutureSociety, levels = condition_order))
 
-ggplot(attr_summary, aes(x = item_label, y = mean, fill = item_label)) +
+ggplot(attr_summary, aes(x = condition_FutureSociety, y = mean, fill = condition_FutureSociety)) +
   geom_col(width = 0.7) +
   geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.2) +
-  geom_text(aes(label = round(mean, 2)),
-            position = position_stack(vjust = 0.5),
-            size = 3) +
-  facet_wrap(~ condition_FutureSociety, ncol = 2) +
-  labs(x = "Attribute", y = "Mean", fill = "Attribute") +
+  geom_text(aes(label = round(mean, 2)), vjust = -0.3, size = 3) +
+  facet_wrap(~ facet_label, ncol = 4) +
+  labs(x = "Condition", y = "Mean", fill = "Condition") +
   theme_minimal() +
-  theme(legend.position = "none", axis.text.x = element_text(angle = 30, hjust = 1))
+  theme(legend.position = "bottom", axis.text.x = element_text(angle = 30, hjust = 1))
+```
 
-anova_assoc <- afex::aov_ez(
-  id = "PROLIFIC_PID",
-  dv = "assoc_valence_mean",
-  between = "condition_FutureSociety",
-  data = analysis_df
-)
-anova_attr <- afex::aov_ez(
-  id = "PROLIFIC_PID",
-  dv = "attributes_mean",
-  between = "condition_FutureSociety",
-  data = analysis_df
-)
+```{r}
+tmp <- clean_complete[, str_subset(string = colnames(clean_complete), pattern = "attri.*[1-9]")]
+psych::corPlot(r = cor(tmp, use = "pairwise"))
 
-anova_assoc
-anova_attr
+hist(clean_complete$`attributesFutureSociety-8`)
+hist(clean_complete$`attributesFutureSociety-4`)
+
+tmp_efa <- psych::fa.parallel(x = tmp)
+tmp_fa <- psych::fa(r = cor(tmp, use = "pairwise"), nfactors = 2, n.obs = nrow(tmp))
+tmp_fa
 ```

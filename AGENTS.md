@@ -5,6 +5,7 @@ If you work inside the study folder, also read `Online Study Files/pretestVignet
 
 ## Repo map
 - `Online Study Files/pretestVignettes/`: runnable lab.js study (HTML + browser JS + CSS).
+- `Online Study Files/pretestVignettes/analysis_pretestVignettes/`: pretest outputs + stored study data (treat as generated).
 - `Analyses/`: Quarto (`.qmd`) + R data prep/analysis scripts.
 - `Materials/`: manuscript materials, figures, and supporting docs.
 - `README.md`: project overview (UTF-16 LE + CRLF; treat as special).
@@ -18,13 +19,8 @@ Related but usually not edited during this project:
 - Automated tests: none configured.
 
 ## Prerequisites (typical)
-- Online study manual run: Python 3 (for `python3 -m http.server`).
-- Analyses: Quarto + R.
+- Online study manual run: Python 3 (for `python3 -m http.server`); analyses: Quarto + R.
 - No `package.json`, `Makefile`, or CI-driven commands are assumed in this repo.
-
-Practical "tests" in this repo are manual runs:
-- Online study: run locally in a browser with a local HTTP server.
-- Analyses: render a single `.qmd` file with Quarto.
 
 ## Online study: run locally (manual test)
 Use a local server to avoid `file://` restrictions (can break `fetch`, JATOS guards, and some browser APIs).
@@ -66,7 +62,7 @@ Main study analyses:
 
 ### JavaScript (lab.js study)
 - Language: plain browser JavaScript (no TypeScript).
-- Imports: no ES modules; scripts are globals loaded by `<script>` order in `Online Study Files/pretestVignettes/index.html`.
+- Imports: no ES modules; script order in `Online Study Files/pretestVignettes/index.html` is significant (add new phase files before `study.js`).
 - Formatting: 2-space indentation; semicolons; match local quote style (mostly `"`).
 - Types: use runtime guards (`typeof`, null checks); do not introduce TS-style types.
 
@@ -81,15 +77,19 @@ Common entry points (study):
 - `Online Study Files/pretestVignettes/study.js`: assembles the full `lab.flow.Sequence` and start logic.
 - `Online Study Files/pretestVignettes/src/js/globals.js`: `localTesting`, `Required_Testing`.
 - `Online Study Files/pretestVignettes/src/js/phases/*.js`: screen content + behavior.
+- `Online Study Files/pretestVignettes/src/js/paradata/*.js`: focus/defocus + timing instrumentation.
 - `Online Study Files/pretestVignettes/src/css/style.css`: study styles.
 
 ### HTML templates
 - Large HTML blocks live in template literals inside `Online Study Files/pretestVignettes/src/js/phases/*.js`.
 - Preserve element `id`/`name` attributes referenced by selectors, lab.js, or paradata scripts.
 
-### Lab.js messageHandlers
+### Lab.js patterns
+- Components are created with `lab.html.Form`, `lab.html.Page`, or `lab.html.Screen`.
 - Put behavior in `messageHandlers` (`run`, `commit`, `end`, `epilogue`).
 - Avoid heavy async work in `commit` (it can block transitions).
+- Progress updates typically use `numElementsCounter` and `.progress-bar`; keep selectors stable.
+- Store data via `study.options.datastore.set` and export with `exportJson()`.
 - Prefer user-visible validation over exceptions; do not throw inside handlers.
 
 JATOS / local testing guards:
@@ -109,6 +109,10 @@ JATOS / local testing guards:
 ### Data privacy
 - Avoid adding new external endpoints without a clear research need and consent coverage.
 - Keep any local-only external calls behind `localTesting` where appropriate.
+
+### Data and outputs
+- Raw data lives in `Online Study Files/pretestVignettes/analysis_pretestVignettes/01_dataPreperation/data/`; do not edit or commit unless explicitly requested.
+- Analysis outputs live in `Online Study Files/pretestVignettes/analysis_pretestVignettes/` and `Analyses/**/outputs/`; avoid committing large derived files unless explicitly requested.
 
 ### CSS
 - Plain CSS in `Online Study Files/pretestVignettes/src/css/style.css`.
