@@ -44,6 +44,9 @@ p_load(
   "tidyverse",
   "psych",
   "afex",
+  "mlr3",
+  "mlr3cluster",
+  "cluster",
   "writexl",
   "readxl",
   "DT"
@@ -62,9 +65,8 @@ setwd("questionnaire")
 dat_ques <- readRDS(file = "clean_complete_wide.rds")
 
 setwd("../paradata")
-
 dat_para_defocus <- readRDS(file = "paradata_defocus_long.rds")
-dat_para_events <- readRDS(file = "dat_para_events.rds")
+dat_para_events <- readRDS(file = "paradata_events_long.rds")
 ```
 
 
@@ -530,12 +532,291 @@ DT::datatable(
 ```
 
 
+```{r}
+dat_para_events$clipboard_text[!is.na(dat_para_events$clipboard_text)]
+dat_para_events$clipboard_length[!is.na(dat_para_events$clipboard_length)]
+dat_para_events$PROLIFIC_PID[!is.na(dat_para_events$clipboard_length)]
+
+```
+
+
+
 
 
 
 ```{r}
-XXX
-```
+#| label: bot-indicators-and-clustering
+#| warning: false
+#| message: false
 
+parse_bool <- function(x) {
+  x_chr <- tolower(trimws(as.character(x)))
+  dplyr::case_when(
+    x_chr %in% c("1", "true", "t", "yes", "y") ~ 1,
+    x_chr %in% c("0", "false", "f", "no", "n") ~ 0,
+    TRUE ~ NA_real_
+  )
+}
+
+safe_num <- function(x) suppressWarnings(as.numeric(as.character(x)))
+
+vt_correct_vars <- str_subset(colnames(dat_ques), "^visualTrap_.*_correct$")
+vt_rt_vars <- str_subset(colnames(dat_ques), "^visualTrap_.*_rtMs$")
+
+vt_correct_mat <- dat_ques %>%
+  select(all_of(vt_correct_vars)) %>%
+  mutate(across(everything(), parse_bool))
+
+vt_rt_mat <- dat_ques %>%
+  select(all_of(vt_rt_vars)) %>%
+  mutate(across(everything(), safe_num))
+
+vt_wrong_count <- vt_correct_mat %>%
+  mutate(across(everything(), ~ ifelse(.x == 0, 1, 0))) %>%
+  transmute(vt_wrong_count = rowSums(across(everything()), na.rm = TRUE)) %>%
+  pull(vt_wrong_count)
+
+vt_answered_count <- vt_correct_mat %>%
+  transmute(vt_answered_count = rowSums(!is.na(across(everything())))) %>%
+  pull(vt_answered_count)
+
+vt_correct_count <- vt_correct_mat %>%
+  transmute(vt_correct_count = rowSums(across(everything()), na.rm = TRUE)) %>%
+  pull(vt_correct_count)
+
+vt_prop_correct <- ifelse(vt_answered_count > 0, vt_correct_count / vt_answered_count, NA_real_)
+
+vt_mean_rt <- vt_rt_mat %>%
+  transmute(vt_mean_rt = rowMeans(across(everything()), na.rm = TRUE)) %>%
+  pull(vt_mean_rt)
+
+vt_mean_rt_p05 <- quantile(vt_mean_rt, probs = 0.05, na.rm = TRUE)
+vt_mean_rt_p95 <- quantile(vt_mean_rt, probs = 0.95, na.rm = TRUE)
+
+
+vt_fast_count <- vt_rt_mat %>%
+  mutate(across(everything(), ~ ifelse(!is.na(.x) & .x < vt_mean_rt_p05, 1, 0))) %>%
+  transmute(vt_fast_count = rowSums(across(everything()), na.rm = TRUE)) %>%
+  pull(vt_fast_count)
+
+vt_slow_count <- vt_rt_mat %>%
+  mutate(across(everything(), ~ ifelse(!is.na(.x) & .x > vt_mean_rt_p95, 1, 0))) %>%
+  transmute(vt_slow_count = rowSums(across(everything()), na.rm = TRUE)) %>%
+  pull(vt_slow_count)
+
+webdriver_flag <- parse_bool(dat_ques$para_static_webdriver)
+honeypot_flag <- parse_bool(dat_ques$hp_exclusionCriteria)
+
+duration_seconds <- safe_num(dat_ques$duration_seconds)
+duration_p05 <- quantile(duration_seconds, probs = 0.05, na.rm = TRUE)
+duration_p95 <- quantile(duration_seconds, probs = 0.95, na.rm = TRUE)
+
+very_fast_duration_flag <- ifelse(!is.na(duration_seconds) & duration_seconds < duration_p05, 1, 0)
+very_slow_duration_flag <- ifelse(!is.na(duration_seconds) & duration_seconds > duration_p95, 1, 0)
+
+events_by_pid <- dat_para_events %>%
+  mutate(
+    key_interval_ms = safe_num(key_interval_ms),
+    clipboard_length = safe_num(clipboard_length)
+  ) %>%
+  group_by(PROLIFIC_PID) %>%
+  summarise(
+    n_events = n(),
+    n_copy = sum(event_type == "copy", na.rm = TRUE),
+    n_paste = sum(event_type == "paste", na.rm = TRUE),
+    n_mouse = sum(event_type == "mousemove", na.rm = TRUE),
+    n_scroll = sum(event_type == "scroll", na.rm = TRUE),
+    n_key_intervals = sum(!is.na(key_interval_ms)),
+    key_interval_mean = mean(key_interval_ms, na.rm = TRUE),
+    key_interval_sd = sd(key_interval_ms, na.rm = TRUE),
+    clipboard_total_chars = sum(clipboard_length, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+defocus_by_pid <- dat_para_defocus %>%
+  mutate(durationblur = safe_num(durationblur)) %>%
+  group_by(PROLIFIC_PID) %>%
+  summarise(
+    defocus_n = n(),
+    defocus_total_ms = sum(durationblur, na.rm = TRUE),
+    defocus_mean_ms = mean(durationblur, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+bot_df <- dat_ques %>%
+  select(PROLIFIC_PID, result_id, duration_seconds = duration_seconds) %>%
+  mutate(
+    duration_seconds = safe_num(duration_seconds),
+    vt_wrong_count = vt_wrong_count,
+    vt_answered_count = vt_answered_count,
+    vt_correct_count = vt_correct_count,
+    vt_prop_correct = vt_prop_correct,
+    vt_mean_rt = vt_mean_rt,
+    vt_fast_count = vt_fast_count,
+    vt_slow_count = vt_slow_count,
+    webdriver_flag = webdriver_flag,
+    honeypot_flag = honeypot_flag,
+    very_fast_duration_flag = very_fast_duration_flag,
+    very_slow_duration_flag = very_slow_duration_flag
+  ) %>%
+  left_join(events_by_pid, by = "PROLIFIC_PID") %>%
+  left_join(defocus_by_pid, by = "PROLIFIC_PID") %>%
+  mutate(
+    across(c(n_events, n_copy, n_paste, n_mouse, n_scroll, n_key_intervals,
+             clipboard_total_chars, defocus_n, defocus_total_ms, defocus_mean_ms),
+           ~ replace_na(.x, 0)),
+    key_interval_mean = ifelse(is.nan(key_interval_mean), NA_real_, key_interval_mean),
+    key_interval_sd = ifelse(is.nan(key_interval_sd), NA_real_, key_interval_sd)
+  )
+
+vt_rt_p10 <- quantile(bot_df$vt_mean_rt, 0.10, na.rm = TRUE)
+vt_rt_p90 <- quantile(bot_df$vt_mean_rt, 0.90, na.rm = TRUE)
+paste_p95 <- quantile(bot_df$n_paste, 0.95, na.rm = TRUE)
+
+bot_df <- bot_df %>%
+  mutate(
+    risk_webdriver = ifelse(webdriver_flag == 1, 1, 0),
+    risk_honeypot = ifelse(honeypot_flag == 1, 1, 0),
+    risk_many_wrong_visual = ifelse(vt_wrong_count >= 3, 1, 0),
+    risk_low_visual_accuracy = ifelse(!is.na(vt_prop_correct) & vt_prop_correct < 0.50, 1, 0),
+    risk_very_fast_visual_rt = ifelse(!is.na(vt_mean_rt) & vt_mean_rt < vt_rt_p10, 1, 0),
+    risk_very_slow_visual_rt = ifelse(!is.na(vt_mean_rt) & vt_mean_rt > vt_rt_p90, 1, 0),
+    risk_very_fast_duration = ifelse(very_fast_duration_flag == 1, 1, 0),
+    risk_high_paste = ifelse(!is.na(n_paste) & n_paste > paste_p95, 1, 0),
+    risk_low_mouse_events = ifelse(!is.na(n_mouse) & n_mouse <= 5, 1, 0),
+    risk_high_defocus = ifelse(!is.na(defocus_n) & defocus_n >= 5, 1, 0),
+    bot_risk_score = risk_webdriver + risk_honeypot + risk_many_wrong_visual +
+      risk_low_visual_accuracy + risk_very_fast_visual_rt + risk_very_slow_visual_rt +
+      risk_very_fast_duration + risk_high_paste + risk_low_mouse_events + risk_high_defocus
+  )
+
+risk_indicator_table <- bot_df %>%
+  summarise(
+    n = n(),
+    across(starts_with("risk_"), ~ mean(.x, na.rm = TRUE), .names = "{.col}_prop")
+  ) %>%
+  pivot_longer(cols = starts_with("risk_"), names_to = "indicator", values_to = "proportion_flagged") %>%
+  mutate(proportion_flagged = round(proportion_flagged, 3)) %>%
+  arrange(desc(proportion_flagged))
+
+risk_indicator_table
+
+bot_risk_score_dist <- bot_df %>%
+  count(bot_risk_score, name = "n") %>%
+  mutate(prop = round(n / sum(n), 3)) %>%
+  arrange(bot_risk_score)
+
+bot_risk_score_dist
+
+cluster_features <- bot_df %>%
+  select(
+    vt_wrong_count, vt_prop_correct, vt_mean_rt, vt_fast_count, vt_slow_count,
+    duration_seconds, n_events, n_paste, n_mouse, n_scroll,
+    n_key_intervals, key_interval_mean, key_interval_sd,
+    defocus_n, defocus_total_ms, bot_risk_score
+  ) %>%
+  mutate(across(everything(), ~ ifelse(is.infinite(.x), NA_real_, .x)))
+
+for (j in seq_len(ncol(cluster_features))) {
+  med_j <- median(cluster_features[[j]], na.rm = TRUE)
+  cluster_features[[j]][is.na(cluster_features[[j]])] <- med_j
+}
+
+
+# remove only variables that contain at least one missing value
+vars_with_na <- names(cluster_features_scaled)[colSums(is.na(cluster_features_scaled)) > 0]
+vars_with_na
+
+cluster_features_scaled_noNAvars <- cluster_features_scaled %>%
+  dplyr::select(where(is.numeric)) %>%
+  dplyr::select(-dplyr::all_of(vars_with_na))
+
+# clustering task
+task <- mlr3cluster::TaskClust$new(
+  id = "bot_profile",
+  backend = cluster_features_scaled_noNAvars
+)
+
+# evaluate candidate k values
+k_grid <- 2:6
+dmat <- dist(cluster_features_scaled_noNAvars)
+
+k_eval <- purrr::map_dfr(k_grid, function(k) {
+  learner_k <- mlr3::lrn("clust.kmeans", centers = k, nstart = 30)
+  learner_k$train(task)
+  pred_k <- learner_k$predict(task)
+  cl <- as.integer(pred_k$partition)
+
+  sil <- tryCatch({
+    mean(cluster::silhouette(cl, dmat)[, "sil_width"])
+  }, error = function(e) NA_real_)
+
+  tibble::tibble(
+    k = k,
+    avg_silhouette = sil
+  )
+})
+
+k_eval
+
+# choose best k
+best_k <- k_eval %>%
+  dplyr::filter(!is.na(avg_silhouette)) %>%
+  dplyr::arrange(dplyr::desc(avg_silhouette)) %>%
+  dplyr::slice(1) %>%
+  dplyr::pull(k)
+
+if (length(best_k) == 0 || is.na(best_k)) best_k <- 3
+
+# final model
+learner_final <- mlr3::lrn("clust.kmeans", centers = best_k, nstart = 50)
+learner_final$train(task)
+pred_final <- learner_final$predict(task)
+
+# attach cluster labels back to original data
+bot_df <- bot_df %>%
+  dplyr::mutate(bot_cluster = factor(pred_final$partition))
+
+# cluster summaries
+cluster_profile <- bot_df %>%
+  dplyr::group_by(bot_cluster) %>%
+  dplyr::summarise(
+    n = dplyr::n(),
+    prop_sample = round(n / nrow(bot_df), 3),
+    mean_bot_risk_score = round(mean(bot_risk_score, na.rm = TRUE), 3),
+    mean_vt_prop_correct = round(mean(vt_prop_correct, na.rm = TRUE), 3),
+    mean_vt_mean_rt = round(mean(vt_mean_rt, na.rm = TRUE), 1),
+    mean_duration_seconds = round(mean(duration_seconds, na.rm = TRUE), 1),
+    mean_n_paste = round(mean(n_paste, na.rm = TRUE), 2),
+    mean_n_mouse = round(mean(n_mouse, na.rm = TRUE), 2),
+    mean_defocus_n = round(mean(defocus_n, na.rm = TRUE), 2),
+    prop_webdriver = round(mean(webdriver_flag == 1, na.rm = TRUE), 3),
+    prop_honeypot = round(mean(honeypot_flag == 1, na.rm = TRUE), 3),
+    .groups = "drop"
+  ) %>%
+  dplyr::arrange(dplyr::desc(mean_bot_risk_score))
+
+cluster_profile
+
+# identify highest-risk cluster
+high_risk_cluster <- cluster_profile %>%
+  dplyr::slice(1) %>%
+  dplyr::pull(bot_cluster)
+
+suspected_bot_table <- bot_df %>%
+  dplyr::mutate(suspected_bot_cluster = ifelse(bot_cluster == high_risk_cluster, 1, 0)) %>%
+  dplyr::select(
+    PROLIFIC_PID, result_id, bot_cluster, suspected_bot_cluster, bot_risk_score,
+    vt_wrong_count, vt_prop_correct, vt_mean_rt, duration_seconds,
+    webdriver_flag, honeypot_flag, n_paste, n_mouse, defocus_n
+  ) %>%
+  dplyr::arrange(dplyr::desc(suspected_bot_cluster), dplyr::desc(bot_risk_score), vt_prop_correct)
+
+DT::datatable(
+  suspected_bot_table,
+  caption = paste0("Bot-risk profiling table (best k = ", best_k, ")"),
+  options = list(pageLength = 12, scrollX = TRUE)
+)
+```
 
 
