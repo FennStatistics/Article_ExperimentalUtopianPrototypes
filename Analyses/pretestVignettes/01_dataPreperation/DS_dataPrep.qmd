@@ -155,11 +155,45 @@ get_event_value <- function(ev, name) {
   NA
 }
 
+target_type_fallback <- function(type_val, tag_val) {
+  if (!is.null(type_val) && length(type_val) > 0 && !is.na(type_val) && type_val != "") {
+    return(as.character(type_val))
+  }
+  if (!is.null(tag_val) && length(tag_val) > 0 && !is.na(tag_val) && tag_val != "") {
+    return(tolower(as.character(tag_val)))
+  }
+  NA_character_
+}
+
 get_target_value <- function(ev, field) {
   if (is.null(ev)) return(NA)
   if (is.data.frame(ev)) {
     col <- paste0("target.", field)
-    return(ev[[col]] %||% NA)
+    if (col %in% names(ev)) {
+      val <- ev[[col]]
+      if (length(val) == 0) return(NA)
+      return(val[[1]] %||% NA)
+    }
+
+    if ("target" %in% names(ev)) {
+      target_col <- ev[["target"]]
+      if (is.list(target_col) && length(target_col) > 0) {
+        target_obj <- target_col[[1]]
+        if (is.data.frame(target_obj) && field %in% names(target_obj)) {
+          val <- target_obj[[field]]
+          if (length(val) == 0) return(NA)
+          return(val[[1]] %||% NA)
+        }
+        if (is.list(target_obj)) return(target_obj[[field]] %||% NA)
+      }
+      if (is.data.frame(target_col) && field %in% names(target_col)) {
+        val <- target_col[[field]]
+        if (length(val) == 0) return(NA)
+        return(val[[1]] %||% NA)
+      }
+    }
+
+    return(NA)
   }
   if (is.list(ev) && !is.null(ev$target)) return(ev$target[[field]] %||% NA)
   NA
@@ -301,7 +335,7 @@ build_paradata_events <- function(pid, result_id, paradata) {
         PROLIFIC_PID = pid,
         result_id = result_id,
         origin = "paradata_general",
-        event_type = "clipboard",
+        event_type = ev$type %||% "clipboard",
         event_index = i,
         timestamp = ev$timestamp %||% NA_character_,
       component = ev$component %||% NA_character_,
@@ -316,7 +350,7 @@ build_paradata_events <- function(pid, result_id, paradata) {
         clipboard_text = ev$text %||% NA_character_,
         clipboard_length = ev$length %||% NA_real_,
         target_tag = target$tag %||% NA_character_,
-        target_type = target$type %||% NA_character_,
+        target_type = target_type_fallback(target$type %||% NA_character_, target$tag %||% NA_character_),
         target_id = target$id %||% NA_character_,
         target_name = target$name %||% NA_character_,
         target_className = target$className %||% NA_character_
@@ -332,7 +366,7 @@ build_paradata_events <- function(pid, result_id, paradata) {
         PROLIFIC_PID = pid,
         result_id = result_id,
         origin = "paradata_general",
-        event_type = "mouse",
+        event_type = "mousemove",
         event_index = i,
         timestamp = ev$timestamp %||% NA_character_,
       component = ev$component %||% NA_character_,
@@ -469,7 +503,7 @@ process_paradata_general <- function(pid, result_id, paradata) {
                 PROLIFIC_PID = pid,
                 result_id = result_id,
                 origin = "paradata_general",
-                event_type = "clipboard",
+                event_type = get_event_value(ev, "type") %||% "clipboard",
                 event_index = j,
                 timestamp = get_event_value(ev, "timestamp") %||% (if (!is.null(timestamps) && !is.na(last_clip$index) && length(timestamps) >= last_clip$index) timestamps[[last_clip$index]] else NA_character_),
                 component = get_event_value(ev, "component"),
@@ -484,7 +518,7 @@ process_paradata_general <- function(pid, result_id, paradata) {
                 clipboard_text = get_event_value(ev, "text"),
                 clipboard_length = get_event_value(ev, "length"),
                 target_tag = get_target_value(ev, "tag"),
-                target_type = get_target_value(ev, "type"),
+                target_type = target_type_fallback(get_target_value(ev, "type"), get_target_value(ev, "tag")),
                 target_id = get_target_value(ev, "id"),
                 target_name = get_target_value(ev, "name"),
                 target_className = get_target_value(ev, "className")
@@ -499,7 +533,7 @@ process_paradata_general <- function(pid, result_id, paradata) {
                 PROLIFIC_PID = pid,
                 result_id = result_id,
                 origin = "paradata_general",
-                event_type = "clipboard",
+                event_type = get_event_value(ev, "type") %||% "clipboard",
                 event_index = j,
                 timestamp = get_event_value(ev, "timestamp") %||% (if (!is.null(timestamps) && !is.na(last_clip$index) && length(timestamps) >= last_clip$index) timestamps[[last_clip$index]] else NA_character_),
                 component = get_event_value(ev, "component"),
@@ -514,7 +548,7 @@ process_paradata_general <- function(pid, result_id, paradata) {
                 clipboard_text = get_event_value(ev, "text"),
                 clipboard_length = get_event_value(ev, "length"),
                 target_tag = get_target_value(ev, "tag"),
-                target_type = get_target_value(ev, "type"),
+                target_type = target_type_fallback(get_target_value(ev, "type"), get_target_value(ev, "tag")),
                 target_id = get_target_value(ev, "id"),
                 target_name = get_target_value(ev, "name"),
                 target_className = get_target_value(ev, "className")
@@ -536,7 +570,7 @@ process_paradata_general <- function(pid, result_id, paradata) {
                 PROLIFIC_PID = pid,
                 result_id = result_id,
                 origin = "paradata_general",
-                event_type = "mouse",
+                event_type = "mousemove",
                 event_index = j,
                 timestamp = ev$timestamp %||% (if (!is.null(timestamps) && !is.na(last_mouse$index) && length(timestamps) >= last_mouse$index) timestamps[[last_mouse$index]] else NA_character_),
                 component = ev$component %||% NA_character_,
@@ -566,7 +600,7 @@ process_paradata_general <- function(pid, result_id, paradata) {
                 PROLIFIC_PID = pid,
                 result_id = result_id,
                 origin = "paradata_general",
-                event_type = "mouse",
+                event_type = "mousemove",
                 event_index = j,
                 timestamp = get_event_value(ev, "timestamp") %||% (if (!is.null(timestamps) && !is.na(last_mouse$index) && length(timestamps) >= last_mouse$index) timestamps[[last_mouse$index]] else NA_character_),
                 component = get_event_value(ev, "component"),
