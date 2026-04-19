@@ -23,19 +23,14 @@ This script creates a simplified participant-level dataset using the raw
 ```{r}
 #| label: global-variables
 
-createRawFiles <- TRUE
-
-data_root <- "data"
+data_root <- "../01_dataPreperation/outputs"
 output_root <- "outputs"
-raw_output_dir <- file.path(output_root, "raw")
-questionnaire_output_dir <- file.path(output_root, "questionnaire")
-paradata_output_dir <- file.path(output_root, "paradata")
 ```
 
 # functions
 
 ```{r}
-
+# not needed
 ```
 
 # load packages
@@ -47,13 +42,11 @@ paradata_output_dir <- file.path(output_root, "paradata")
 require(pacman)
 p_load(
   "tidyverse",
-  "jsonlite",
-  "hms",
   "psych",
   "afex",
   "writexl",
   "readxl",
-  "haven"
+  "DT"
 )
 ```
 
@@ -63,8 +56,381 @@ p_load(
 #| label: load-data
 #| warning: false
 
+setwd(data_root)
+setwd("questionnaire")
+
+dat_ques <- readRDS(file = "clean_complete_wide.rds")
+
+setwd("../paradata")
+
+dat_para_defocus <- readRDS(file = "paradata_defocus_long.rds")
+dat_para_events <- readRDS(file = "dat_para_events.rds")
+```
+
+
+# Descriptive Statistics
+
+## sample
+
+
+```{r}
+#| label: descriptive-stats-sample-1
+
+socidem_vars <- str_subset(string = colnames(dat_ques), pattern = "^socidem")
+socidem_vars
+
+socidem_df <- dat_ques %>%
+  select(all_of(socidem_vars))
+
+socidem_overview <- tibble(
+  variable = socidem_vars,
+  class = purrr::map_chr(socidem_df, ~ paste(class(.x), collapse = "/")),
+  n = nrow(socidem_df),
+  n_missing = purrr::map_int(socidem_df, ~ sum(is.na(.x))),
+  missing_pct = round(100 * n_missing / n, 2),
+  n_unique = purrr::map_int(socidem_df, ~ dplyr::n_distinct(.x, na.rm = TRUE))
+)
+
+socidem_descriptives <- purrr::map_dfr(socidem_vars, function(v) {
+  x <- socidem_df[[v]]
+
+  if (is.numeric(x)) {
+    n_non_missing <- sum(!is.na(x))
+
+    tibble(
+      variable = v,
+      type = "numeric",
+      mean = if (n_non_missing == 0) NA_real_ else mean(x, na.rm = TRUE),
+      sd = if (n_non_missing <= 1) NA_real_ else sd(x, na.rm = TRUE),
+      median = if (n_non_missing == 0) NA_real_ else median(x, na.rm = TRUE),
+      min = if (n_non_missing == 0) NA_real_ else min(x, na.rm = TRUE),
+      max = if (n_non_missing == 0) NA_real_ else max(x, na.rm = TRUE),
+      top_levels = NA_character_
+    )
+  } else {
+    x_chr <- as.character(x)
+    x_chr[x_chr == ""] <- NA_character_
+    tab <- sort(table(x_chr, useNA = "no"), decreasing = TRUE)
+    k <- min(5, length(tab))
+
+    tibble(
+      variable = v,
+      type = "categorical_or_text",
+      mean = NA_real_,
+      sd = NA_real_,
+      median = NA_real_,
+      min = NA_real_,
+      max = NA_real_,
+      top_levels = if (k == 0) {
+        NA_character_
+      } else {
+        paste0(names(tab)[seq_len(k)], " (", as.integer(tab[seq_len(k)]), ")", collapse = "; ")
+      }
+    )
+  }
+})
+
+socidem_table <- socidem_overview %>%
+  left_join(socidem_descriptives, by = "variable")
+
+
+DT::datatable(data = socidem_table)
+```
+
+
+```{r}
+#| label: descriptive-stats-sample-2
+
+## factor vars:
+factor_vars <- as.character(socidem_table$variable[socidem_table$class == "factor"])
+
+for (var_name in factor_vars) {
+  cat("\nTable for:", var_name, "\n")
+  
+  tab <- table(socidem_df[[var_name]], useNA = "ifany")
+  pct <- prop.table(tab) * 100
+  
+  print(cbind(Frequency = tab, Percentage = round(pct, 1)))
+}
+
+## numeric vars:
+numeric_vars <- as.character(socidem_table$variable[socidem_table$class == "numeric"])
+
+for (var_name in numeric_vars) {
+  if (var_name %in% names(socidem_df)) {
+    x <- socidem_df[[var_name]]
+    x <- x[!is.na(x)]
+    
+    stats <- boxplot.stats(x)$stats
+    names(stats) <- c("Min", "Q1", "Median", "Q3", "Max")
+    
+    mean_x <- mean(x)
+    sd_x <- sd(x)
+    
+    boxplot(
+      x,
+      main = paste("Boxplot of", var_name),
+      ylab = var_name
+    )
+    
+    legend(
+      "topright",
+      legend = c(
+        paste(names(stats), round(stats, 2), sep = ": "),
+        paste("Mean:", round(mean_x, 2)),
+        paste("SD:", round(sd_x, 2))
+      ),
+      bty = "n",
+      cex = 0.8
+    )
+    
+    cat("\nBoxplot for:", var_name, "\n")
+    print(stats)
+    cat("Mean:", round(mean_x, 2), "\n")
+    cat("SD:", round(sd_x, 2), "\n")
+  }
+}
+
+
+rm(socidem_vars); rm(socidem_df)
+```
+
+
+## paradata
+
+
+```{r}
+#| label: descriptive-stats-paradata-1
+
+para_visualTraps_vars <- str_subset(string = colnames(dat_ques), pattern = "^visualTrap")
+para_visualTraps_vars
+
+para_visualTraps_vars_df <- dat_ques %>%
+  select(all_of(para_visualTraps_vars))
+
+para_visualTraps_overview <- tibble(
+  variable = names(para_visualTraps_vars_df),
+  class = purrr::map_chr(para_visualTraps_vars_df, ~ paste(class(.x), collapse = "/")),
+  n = nrow(para_visualTraps_vars_df),
+  n_missing = purrr::map_int(para_visualTraps_vars_df, ~ sum(is.na(.x))),
+  n_unique = purrr::map_int(para_visualTraps_vars_df, ~ dplyr::n_distinct(.x, na.rm = TRUE))
+) %>%
+  mutate(
+    missing_pct = round(100 * n_missing / n, 2)
+  )
+
+
+para_visualTrap_descriptives <- purrr::map_dfr(para_visualTraps_vars, function(v) {
+  x <- para_visualTraps_vars_df[[v]]
+
+  if (is.numeric(x)) {
+    n_non_missing <- sum(!is.na(x))
+
+    tibble(
+      variable = v,
+      type = "numeric",
+      mean = if (n_non_missing == 0) NA_real_ else mean(x, na.rm = TRUE),
+      sd = if (n_non_missing <= 1) NA_real_ else sd(x, na.rm = TRUE),
+      median = if (n_non_missing == 0) NA_real_ else median(x, na.rm = TRUE),
+      min = if (n_non_missing == 0) NA_real_ else min(x, na.rm = TRUE),
+      max = if (n_non_missing == 0) NA_real_ else max(x, na.rm = TRUE),
+      top_levels = NA_character_
+    )
+  } else {
+    x_chr <- as.character(x)
+    x_chr[x_chr == ""] <- NA_character_
+    tab <- sort(table(x_chr, useNA = "no"), decreasing = TRUE)
+    k <- min(5, length(tab))
+
+    tibble(
+      variable = v,
+      type = "categorical_or_text",
+      mean = NA_real_,
+      sd = NA_real_,
+      median = NA_real_,
+      min = NA_real_,
+      max = NA_real_,
+      top_levels = if (k == 0) {
+        NA_character_
+      } else {
+        paste0(names(tab)[seq_len(k)], " (", as.integer(tab[seq_len(k)]), ")", collapse = "; ")
+      }
+    )
+  }
+})
+
+
+para_visualTraps_table <- para_visualTraps_overview %>%
+  left_join(para_visualTrap_descriptives, by = "variable")
+
+
+DT::datatable(data = para_visualTraps_table)
+```
+
+
+
+```{r}
+#| label: descriptive-stats-paradata-2
+
+## factor vars:
+factor_vars <- as.character(para_visualTraps_table$variable[para_visualTraps_table$class == "factor"])
+
+for (var_name in factor_vars) {
+  cat("\nTable for:", var_name, "\n")
+  
+  tab <- table(para_visualTraps_vars_df[[var_name]], useNA = "ifany")
+  pct <- prop.table(tab) * 100
+  
+  print(cbind(Frequency = tab, Percentage = round(pct, 1)))
+}
+
+## numeric vars:
+numeric_vars <- as.character(para_visualTraps_table$variable[para_visualTraps_table$class %in% c("numeric", "integer")])
+
+for (var_name in numeric_vars) {
+  if (var_name %in% names(para_visualTraps_vars_df)) {
+    x <- para_visualTraps_vars_df[[var_name]]
+    x <- x[!is.na(x)]
+    
+    stats <- boxplot.stats(x)$stats
+    names(stats) <- c("Min", "Q1", "Median", "Q3", "Max")
+    
+    mean_x <- mean(x)
+    sd_x <- sd(x)
+    
+    boxplot(
+      x,
+      main = paste("Boxplot of", var_name),
+      ylab = var_name
+    )
+    
+    legend(
+      "topright",
+      legend = c(
+        paste(names(stats), round(stats, 2), sep = ": "),
+        paste("Mean:", round(mean_x, 2)),
+        paste("SD:", round(sd_x, 2))
+      ),
+      bty = "n",
+      cex = 0.8
+    )
+    
+    cat("\nBoxplot for:", var_name, "\n")
+    print(stats)
+    cat("Mean:", round(mean_x, 2), "\n")
+    cat("SD:", round(sd_x, 2), "\n")
+  }
+}
+
+
+rm(para_visualTraps_vars); rm(para_visualTraps_vars_df)
+```
+
+for static paradata:
+
+```{r}
+#| label: descriptive-stats-paradata-3
+
+para_statics_vars <- str_subset(string = colnames(dat_ques), pattern = "^para")
+para_statics_vars
+
+para_statics_vars_df <- dat_ques %>%
+  select(all_of(para_statics_vars))
+
+para_static_overview <- tibble(
+  variable = names(para_statics_vars_df),
+  class = purrr::map_chr(para_statics_vars_df, ~ paste(class(.x), collapse = "/")),
+  n = nrow(para_statics_vars_df),
+  n_missing = purrr::map_int(para_statics_vars_df, ~ sum(is.na(.x))),
+  n_unique = purrr::map_int(para_statics_vars_df, ~ dplyr::n_distinct(.x, na.rm = TRUE))
+) %>%
+  mutate(
+    missing_pct = round(100 * n_missing / n, 2)
+  )
+
+
+para_static_descriptives <- purrr::map_dfr(para_statics_vars, function(v) {
+  x <- para_statics_vars_df[[v]]
+
+  if (is.numeric(x)) {
+    n_non_missing <- sum(!is.na(x))
+
+    tibble(
+      variable = v,
+      type = "numeric",
+      mean = if (n_non_missing == 0) NA_real_ else mean(x, na.rm = TRUE),
+      sd = if (n_non_missing <= 1) NA_real_ else sd(x, na.rm = TRUE),
+      median = if (n_non_missing == 0) NA_real_ else median(x, na.rm = TRUE),
+      min = if (n_non_missing == 0) NA_real_ else min(x, na.rm = TRUE),
+      max = if (n_non_missing == 0) NA_real_ else max(x, na.rm = TRUE),
+      top_levels = NA_character_
+    )
+  } else {
+    x_chr <- as.character(x)
+    x_chr[x_chr == ""] <- NA_character_
+    tab <- sort(table(x_chr, useNA = "no"), decreasing = TRUE)
+    k <- min(5, length(tab))
+
+    tibble(
+      variable = v,
+      type = "categorical_or_text",
+      mean = NA_real_,
+      sd = NA_real_,
+      median = NA_real_,
+      min = NA_real_,
+      max = NA_real_,
+      top_levels = if (k == 0) {
+        NA_character_
+      } else {
+        paste0(names(tab)[seq_len(k)], " (", as.integer(tab[seq_len(k)]), ")", collapse = "; ")
+      }
+    )
+  }
+})
+
+
+para_static_table <- para_static_overview %>%
+  left_join(para_static_descriptives, by = "variable")
+
+
+DT::datatable(data = para_static_table)
+
+
+rm(para_statics_vars); rm(para_statics_vars_df)
+```
+
+# Search for Bots
+
+```{r}
+XXX
+```
+
+
+```{r}
+
+str_subset(string = colnames(dat_ques), pattern = "^visualTrap")
+
+
+
+dat_ques$duration_seconds
+
+
+
+dat_ques$visualTrap_Planets_correct
+
+
+dat_ques[, str_subset(string = colnames(dat_ques), pattern = "^visualTrap_Planets")]
+```
+
+
+```{r}
+dat_ques[, str_subset(string = colnames(dat_ques), pattern = "^visualTrap_Collision")]
 
 ```
+
+
+
+
 
 
 
@@ -73,20 +439,20 @@ p_load(
 ```{r}
 #| label: summary-tables
 
-paradata_column_summary <- paradata_column_map %>%
+paradata_column_summary <- dat_para_defocus %>%
   group_by(destination, field, output_field) %>%
   summarise(n_participants = dplyr::n_distinct(PROLIFIC_PID), .groups = "drop") %>%
   arrange(destination, field)
 
-paradata_participant_summary <- core_df %>%
+paradata_participant_summary <- dat_ques %>%
   select(PROLIFIC_PID, result_id, State, duration_seconds) %>%
   distinct() %>%
-  left_join(paradata_events_long %>% count(PROLIFIC_PID, name = "paradata_event_rows"), by = "PROLIFIC_PID") %>%
+  left_join(dat_para_events %>% count(PROLIFIC_PID, name = "dat_para_defocus"), by = "PROLIFIC_PID") %>%
   left_join(paradata_defocus_long %>% count(PROLIFIC_PID, name = "defocus_event_rows"), by = "PROLIFIC_PID") %>%
   left_join(paradata_column_map %>% filter(destination == "wide") %>% count(PROLIFIC_PID, name = "paradata_wide_fields"), by = "PROLIFIC_PID") %>%
   left_join(paradata_column_map %>% filter(destination == "long") %>% count(PROLIFIC_PID, name = "paradata_long_fields"), by = "PROLIFIC_PID") %>%
   mutate(
-    paradata_event_rows = tidyr::replace_na(paradata_event_rows, 0),
+    dat_para_defocus = tidyr::replace_na(dat_para_defocus, 0),
     defocus_event_rows = tidyr::replace_na(defocus_event_rows, 0),
     paradata_wide_fields = tidyr::replace_na(paradata_wide_fields, 0),
     paradata_long_fields = tidyr::replace_na(paradata_long_fields, 0)
@@ -113,11 +479,11 @@ summary_stats_df <- clean_complete %>%
   ) %>%
   left_join(
     paradata_participant_summary %>%
-      select(PROLIFIC_PID, paradata_event_rows, defocus_event_rows, paradata_wide_fields, paradata_long_fields),
+      select(PROLIFIC_PID, dat_para_defocus, defocus_event_rows, paradata_wide_fields, paradata_long_fields),
     by = "PROLIFIC_PID"
   ) %>%
   mutate(
-    paradata_event_rows = tidyr::replace_na(paradata_event_rows, 0),
+    dat_para_defocus = tidyr::replace_na(dat_para_defocus, 0),
     defocus_event_rows = tidyr::replace_na(defocus_event_rows, 0),
     paradata_wide_fields = tidyr::replace_na(paradata_wide_fields, 0),
     paradata_long_fields = tidyr::replace_na(paradata_long_fields, 0)
@@ -131,14 +497,17 @@ psych::describe(summary_stats_df %>% select(where(is.numeric)))
 ```{r}
 #| label: descriptive-sample
 
-socidem_df <- clean_complete %>%
-  select(starts_with("socidem_"))
+socidem_numeric <- socidem_df %>% select(where(is.numeric))
 
-psych::describe(socidem_df %>% select(where(is.numeric)))
+if (ncol(socidem_numeric) > 0) {
+  psych::describe(socidem_numeric)
+}
 
+socidem_level_tables %>%
+  filter(variable == "socidem_Sex")
 
-table(socidem_df$socidem_Sex)
-table(socidem_df$socidem_Employment.status)
+socidem_level_tables %>%
+  filter(variable == "socidem_Employment.status")
 ```
 
 ## descriptive mean differences
