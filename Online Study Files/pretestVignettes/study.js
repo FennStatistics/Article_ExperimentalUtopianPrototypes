@@ -14,12 +14,11 @@ var numElementsCounter = 0;
 var URLparams_global;
 var paracountclicks = 0;
 
-
 // future society:
 function shuffle(queslist) {
-  let array_emp = []
+  let array_emp = [];
   for (var i = 0; i < queslist.length; i++) {
-    array_emp.push(i)
+    array_emp.push(i);
   }
 
   let j, x;
@@ -56,9 +55,9 @@ const study = new lab.flow.Sequence({
   metadata: {
     title:
       "Pretest: Visions of Progress: A Within-Subject Experimental Analysis of Utopian Prototypes, Profiles, and Systemic Attitudes",
-    description:
-      "Pretest of vision of progress study.",
-    repository: "https://github.com/FennStatistics/Article_ExperimentalUtopianPrototypes",
+    description: "Pretest of vision of progress study.",
+    repository:
+      "https://github.com/FennStatistics/Article_ExperimentalUtopianPrototypes",
     contributors: "study programmed by Julius Fenn",
   },
   plugins: [
@@ -67,9 +66,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Debug(), // comment out finally
     // new lab.plugins.Download(),
   ],
-  content: [   
-        loop_VisualTraps,
-
+  content: [
     // >>> introduction phase
     Greetings_htmlForm,
 
@@ -110,7 +107,11 @@ const study = new lab.flow.Sequence({
 });
 
 // Start the study
-if (!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function") {
+if (
+  !localTesting &&
+  typeof jatos !== "undefined" &&
+  typeof jatos.jQuery === "function"
+) {
   jatos.onLoad(() => study.run());
 } else {
   study.run();
