@@ -616,16 +616,18 @@ very_slow_duration_flag <- ifelse(!is.na(duration_seconds) & duration_seconds > 
 
 events_by_pid <- dat_para_events %>%
   mutate(
+    event_type_norm = tolower(as.character(event_type)),
+    clipboard_type_norm = tolower(as.character(clipboard_type)),
     key_interval_ms = safe_num(key_interval_ms),
     clipboard_length = safe_num(clipboard_length)
   ) %>%
   group_by(PROLIFIC_PID) %>%
   summarise(
     n_events = n(),
-    n_copy = sum(event_type == "copy", na.rm = TRUE),
-    n_paste = sum(event_type == "paste", na.rm = TRUE),
-    n_mouse = sum(event_type == "mousemove", na.rm = TRUE),
-    n_scroll = sum(event_type == "scroll", na.rm = TRUE),
+    n_copy = sum(event_type_norm == "copy" | (event_type_norm == "clipboard" & clipboard_type_norm == "copy"), na.rm = TRUE),
+    n_paste = sum(event_type_norm == "paste" | (event_type_norm == "clipboard" & clipboard_type_norm == "paste"), na.rm = TRUE),
+    n_mouse = sum(event_type_norm %in% c("mousemove", "mouse"), na.rm = TRUE),
+    n_scroll = sum(event_type_norm == "scroll", na.rm = TRUE),
     n_key_intervals = sum(!is.na(key_interval_ms)),
     key_interval_mean = mean(key_interval_ms, na.rm = TRUE),
     key_interval_sd = sd(key_interval_ms, na.rm = TRUE),
@@ -717,19 +719,43 @@ cluster_features <- bot_df %>%
   ) %>%
   mutate(across(everything(), ~ ifelse(is.infinite(.x), NA_real_, .x)))
 
-for (j in seq_len(ncol(cluster_features))) {
-  med_j <- median(cluster_features[[j]], na.rm = TRUE)
-  cluster_features[[j]][is.na(cluster_features[[j]])] <- med_j
-}
+# for (j in seq_len(ncol(cluster_features))) {
+#   med_j <- median(cluster_features[[j]], na.rm = TRUE)
+#   cluster_features[[j]][is.na(cluster_features[[j]])] <- med_j
+# }
 
 
 # remove only variables that contain at least one missing value
-vars_with_na <- names(cluster_features_scaled)[colSums(is.na(cluster_features_scaled)) > 0]
+# 1) drop columns with any NA
+vars_with_na <- colnames(cluster_features)[colSums(is.na(cluster_features)) > 0]
 vars_with_na
 
-cluster_features_scaled_noNAvars <- cluster_features_scaled %>%
-  dplyr::select(where(is.numeric)) %>%
+cluster_features_noNAvars <- cluster_features %>%
   dplyr::select(-dplyr::all_of(vars_with_na))
+
+# 2) also drop zero-variance columns, which would become NaN after scale()
+vars_zero_var <- names(cluster_features_noNAvars)[
+  vapply(cluster_features_noNAvars, function(x) stats::sd(x, na.rm = TRUE) == 0, logical(1))
+]
+vars_zero_var
+
+cluster_features_ready <- cluster_features_noNAvars %>%
+  dplyr::select(-dplyr::all_of(vars_zero_var))
+
+# 3) scale and convert back to data frame
+cluster_features_scaled_noNAvars <- cluster_features_ready %>%
+  scale(center = TRUE, scale = TRUE) %>%
+  as.data.frame()
+
+# final checks
+#colSums(is.na(cluster_features_scaled_noNAvars))
+#sapply(cluster_features_scaled_noNAvars, sd)
+
+# scale and convert back to data frame
+cluster_features_scaled_noNAvars <- cluster_features_noNAvars %>%
+  scale(center = TRUE, scale = TRUE) %>%
+  as.data.frame()
+
 
 # clustering task
 task <- mlr3cluster::TaskClust$new(
@@ -818,5 +844,4 @@ DT::datatable(
   options = list(pageLength = 12, scrollX = TRUE)
 )
 ```
-
 
