@@ -1,5 +1,5 @@
 ---
-title: "Data preperation"
+title: "Data analysis: bots, descriptive stats"
 author: "Julius Fenn"
 format:
   html:
@@ -401,7 +401,7 @@ DT::datatable(data = para_static_table)
 rm(para_statics_vars); rm(para_statics_vars_df)
 ```
 
-# Search for Bots
+# Identify potential bots
 
 ```{r}
 #| label: visualtrap-rt-right-vs-wrong
@@ -559,6 +559,29 @@ vt_rt_mat <- dat_ques %>%
   select(all_of(vt_rt_vars)) %>%
   mutate(across(everything(), safe_num))
 
+# IER / straightlining indicator from attributes scale
+attr_cols <- str_subset(colnames(dat_ques), "^attributesFutureSociety-")
+
+attr_mat <- dat_ques %>%
+  select(all_of(attr_cols)) %>%
+  mutate(across(everything(), safe_num))
+
+attr_answered_count <- attr_mat %>%
+  transmute(attr_answered_count = rowSums(!is.na(across(everything())))) %>%
+  pull(attr_answered_count)
+
+attr_response_sd <- attr_mat %>%
+  transmute(attr_response_sd = apply(
+    across(everything()),
+    1,
+    function(x) {
+      x <- as.numeric(x)
+      if (sum(!is.na(x)) < 2) return(NA_real_)
+      stats::sd(x, na.rm = TRUE)
+    }
+  )) %>%
+  pull(attr_response_sd)
+
 vt_wrong_count <- vt_correct_mat %>%
   mutate(across(everything(), ~ ifelse(.x == 0, 1, 0))) %>%
   transmute(vt_wrong_count = rowSums(across(everything()), na.rm = TRUE)) %>%
@@ -644,6 +667,8 @@ bot_df <- dat_ques %>%
     vt_mean_rt = vt_mean_rt,
     vt_fast_count = vt_fast_count,
     vt_slow_count = vt_slow_count,
+    attr_answered_count = attr_answered_count,
+    attr_response_sd = attr_response_sd,
     webdriver_flag = webdriver_flag,
     honeypot_flag = honeypot_flag,
     very_fast_duration_flag = very_fast_duration_flag,
@@ -662,6 +687,7 @@ bot_df <- dat_ques %>%
 vt_rt_p10 <- quantile(bot_df$vt_mean_rt, 0.10, na.rm = TRUE)
 vt_rt_p90 <- quantile(bot_df$vt_mean_rt, 0.90, na.rm = TRUE)
 paste_p95 <- quantile(bot_df$n_paste, 0.95, na.rm = TRUE)
+attr_sd_p10 <- quantile(bot_df$attr_response_sd, 0.10, na.rm = TRUE)
 
 bot_df <- bot_df %>%
   mutate(
@@ -675,9 +701,11 @@ bot_df <- bot_df %>%
     risk_high_paste = ifelse(!is.na(n_paste) & n_paste > paste_p95, 1, 0),
     risk_low_mouse_events = ifelse(!is.na(n_mouse) & n_mouse <= 5, 1, 0),
     risk_high_defocus = ifelse(!is.na(defocus_n) & defocus_n >= 5, 1, 0),
+    risk_low_attr_sd = ifelse(!is.na(attr_response_sd) & attr_response_sd <= attr_sd_p10, 1, 0),
     bot_risk_score = risk_webdriver + risk_honeypot + risk_many_wrong_visual +
       risk_low_visual_accuracy + risk_very_fast_visual_rt + risk_very_slow_visual_rt +
-      risk_very_fast_duration + risk_high_paste + risk_low_mouse_events + risk_high_defocus
+      risk_very_fast_duration + risk_high_paste + risk_low_mouse_events + risk_high_defocus +
+      risk_low_attr_sd
   )
 
 risk_indicator_table <- bot_df %>%
@@ -701,6 +729,7 @@ bot_risk_score_dist
 cluster_features <- bot_df %>%
   select(
     vt_wrong_count, vt_prop_correct, vt_mean_rt, vt_fast_count, vt_slow_count,
+    attr_response_sd,
     duration_seconds, n_events, n_paste, n_mouse, n_scroll,
     n_key_intervals, key_interval_mean, key_interval_sd,
     defocus_n, defocus_total_ms, bot_risk_score
@@ -811,6 +840,7 @@ cluster_profile <- bot_df %>%
     mean_bot_risk_score = round(mean(bot_risk_score, na.rm = TRUE), 3),
     mean_vt_prop_correct = round(mean(vt_prop_correct, na.rm = TRUE), 3),
     mean_vt_mean_rt = round(mean(vt_mean_rt, na.rm = TRUE), 1),
+    mean_attr_response_sd = round(mean(attr_response_sd, na.rm = TRUE), 3),
     mean_duration_seconds = round(mean(duration_seconds, na.rm = TRUE), 1),
     mean_n_paste = round(mean(n_paste, na.rm = TRUE), 2),
     mean_n_mouse = round(mean(n_mouse, na.rm = TRUE), 2),
@@ -832,7 +862,7 @@ suspected_bot_table <- bot_df %>%
   dplyr::mutate(suspected_bot_cluster = ifelse(bot_cluster == high_risk_cluster, 1, 0)) %>%
   dplyr::select(
     PROLIFIC_PID, result_id, bot_cluster, suspected_bot_cluster, bot_risk_score,
-    vt_wrong_count, vt_prop_correct, vt_mean_rt, duration_seconds,
+    vt_wrong_count, vt_prop_correct, vt_mean_rt, attr_response_sd, duration_seconds,
     webdriver_flag, honeypot_flag, n_paste, n_mouse, defocus_n
   ) %>%
   dplyr::arrange(dplyr::desc(suspected_bot_cluster), dplyr::desc(bot_risk_score), vt_prop_correct)
@@ -850,42 +880,274 @@ Interpetation:
 cluster_profile
 ```
 
-- Cluster 3 (n=47, 68.1%) = likely baseline/human-like majority
-  - Lowest risk score (0.234)
-  - Highest visual accuracy (0.961)
-  - Moderate RT (~21.3s) and duration (~722s)
-  - Low paste, moderate mouse, low defocus
-- Cluster 2 (n=5, 7.2%) = high-risk slow + low-accuracy pattern
-  - Highest risk score (2.2)
-  - Very low visual accuracy (0.30)
-  - Long visual RT (~39.8s) + long duration (~1450s)
-  - Very low paste/defocus
-  - More consistent with low-quality / struggling / disengaged responders than fast bots
-- Cluster 1 (n=1, 1.4%) = single extreme case
-  - Risk score 2.0, high paste (9), high defocus (9), lower mouse (272)
-  - Since n=1, treat as individual anomaly, not a stable subgroup
-- Cluster 4 (n=6, 8.7%) = medium-risk, slow with elevated defocus
-  - Risk 1.0, good-but-not-top accuracy (0.861)
-  - Long RT (~37.3s), long duration (~1514s)
-  - Defocus relatively high (4.33)
-  - Looks like distracted / interrupted participants
-- Cluster 5 (n=10, 14.5%) = active but low-risk variant
-  - Low risk (0.7), good accuracy (0.883)
-  - Very high mouse activity (~1194) and very long RT (~60.9s)
-  - Could reflect careful/slow navigation, not necessarily suspicious
+Interpretation by cluster (ordered by concern):
+- Cluster 1 (n=5, 7.2%): highest concern  
+  - risk=2.60 (highest), vt_correct=0.30 (very low), attr_sd=0.334 (very low)  
+  - Pattern fits low-quality / likely IER, possibly suspicious responses.
+- Cluster 5 (n=1, 1.4%): anomaly case  
+  - risk=2.00, moderate attr SD (0.707), decent visual accuracy (0.833)  
+  - Single case; treat as individual outlier, not a stable subgroup.
+- Cluster 6 (n=9, 13.0%): moderate concern (slow responders)  
+  - risk=1.33, vt_correct=0.87 (okay), very high RT (61742 ms), attr SD moderate (0.754)  
+  - More like very slow/careful or distracted than clear bot pattern.
+- Cluster 2 (n=6, 8.7%): moderate concern  
+  - risk=1.17, vt_correct=0.861, high RT (37262 ms), attr SD moderate-high (0.826)  
+  - Could reflect slow/effortful respondents, not strong bot signal.
+- Cluster 4 (n=18, 26.1%): low concern  
+  - risk=0.556, high visual accuracy (0.972), high attr SD (1.302)  
+  - Looks like engaged human responding.
+- Cluster 3 (n=30, 43.5%): lowest concern / baseline majority  
+  - risk=0.100, high accuracy (0.956), high attr SD (1.323)  
+  - Most clearly normal-quality respondents.
 
 ```{r}
-tmp_pids <- suspected_bot_table$PROLIFIC_PID[suspected_bot_table$bot_cluster == 1]
-tmp_pids
+# barplots of two extreme groups based on number of correctly answered visual traps:
 
-tmp_pids <- suspected_bot_table$PROLIFIC_PID[suspected_bot_table$bot_cluster == 2]
-tmp_pids
+tmp_pids_c1 <- suspected_bot_table$PROLIFIC_PID[suspected_bot_table$bot_cluster == 1]
+tmp_pids_c1
 
-tmp <- rowSums(dat_ques[dat_ques$PROLIFIC_PID %in% tmp_pids, str_subset(string = colnames(dat_ques), pattern = "^visual.*_correct$")])
-barplot(table(tmp), main = "Cluster 2")
+tmp <- rowSums(dat_ques[dat_ques$PROLIFIC_PID %in% tmp_pids_c1, str_subset(string = colnames(dat_ques), pattern = "^visual.*_correct$")])
+barplot(table(tmp), main = "Cluster 1")
 
-
-tmp_pids <- suspected_bot_table$PROLIFIC_PID[suspected_bot_table$bot_cluster != 2]
-tmp <- rowSums(dat_ques[dat_ques$PROLIFIC_PID %in% tmp_pids, str_subset(string = colnames(dat_ques), pattern = "^visual.*_correct$")])
+tmp_pids_notC1 <- suspected_bot_table$PROLIFIC_PID[suspected_bot_table$bot_cluster != 1]
+tmp <- rowSums(dat_ques[dat_ques$PROLIFIC_PID %in% tmp_pids_notC1, str_subset(string = colnames(dat_ques), pattern = "^visual.*_correct$")])
 barplot(table(tmp), main = "All other clusters")
+```
+
+```{r}
+# t-tests of two extreme groups based on number of correctly answered visual traps:
+
+
+# Build analysis frame
+attr_cols <- str_subset(string = colnames(dat_ques), pattern = "^attributesFutureSociety-")
+visual_correct_cols <- str_subset(string = colnames(dat_ques), pattern = "^visual.*_correct$")
+ttest_df <- dat_ques %>%
+  mutate(
+    group_c1 = ifelse(PROLIFIC_PID %in% tmp_pids_c1, "Cluster1", "OtherClusters"),
+    duration_seconds_num = suppressWarnings(as.numeric(as.character(duration_seconds))),
+    attr_response_sd = apply(
+      select(., all_of(attr_cols)) %>% mutate(across(everything(), ~ suppressWarnings(as.numeric(as.character(.x))))),
+      1,
+      function(x) if (sum(!is.na(x)) < 2) NA_real_ else sd(x, na.rm = TRUE)
+    ),
+    visual_correct_sum = rowSums(
+      select(., all_of(visual_correct_cols)) %>% mutate(across(everything(), ~ suppressWarnings(as.numeric(as.character(.x))))),
+      na.rm = TRUE
+    )
+  ) %>%
+  filter(group_c1 %in% c("Cluster1", "OtherClusters"))
+# Descriptives by group
+ttest_df %>%
+  group_by(group_c1) %>%
+  summarise(
+    n = n(),
+    mean_duration = mean(duration_seconds_num, na.rm = TRUE),
+    sd_duration = sd(duration_seconds_num, na.rm = TRUE),
+    mean_attr_sd = mean(attr_response_sd, na.rm = TRUE),
+    sd_attr_sd = sd(attr_response_sd, na.rm = TRUE),
+    mean_visual_correct_sum = mean(visual_correct_sum, na.rm = TRUE),
+    .groups = "drop"
+  )
+# t-test 1: duration mean (Cluster 1 vs others)
+t_duration <- t.test(duration_seconds_num ~ group_c1, data = ttest_df)
+t_duration
+# t-test 2: attributes response SD mean (Cluster 1 vs others)
+t_attr_sd <- t.test(attr_response_sd ~ group_c1, data = ttest_df)
+t_attr_sd
+# Optional effect sizes (Cohen's d)
+cohens_d <- function(x, g) {
+  x1 <- x[g == "Cluster1"]; x2 <- x[g == "OtherClusters"]
+  x1 <- x1[!is.na(x1)]; x2 <- x2[!is.na(x2)]
+  n1 <- length(x1); n2 <- length(x2)
+  s1 <- sd(x1); s2 <- sd(x2)
+  sp <- sqrt(((n1 - 1) * s1^2 + (n2 - 1) * s2^2) / (n1 + n2 - 2))
+  (mean(x1) - mean(x2)) / sp
+}
+d_duration <- cohens_d(ttest_df$duration_seconds_num, ttest_df$group_c1)
+d_attr_sd <- cohens_d(ttest_df$attr_response_sd, ttest_df$group_c1)
+d_duration
+d_attr_sd
+```
+
+
+```{r}
+# check copy & paste events of single respondent:
+
+tmp_pids <- suspected_bot_table$PROLIFIC_PID[suspected_bot_table$bot_cluster == 5]
+tmp_pids
+
+dat_para_events[dat_para_events$PROLIFIC_PID %in% tmp_pids & dat_para_events$event_type %in% c("copy", "paste"), ]
+```
+
+
+# Descriptive statistics dependent variables
+
+## descriptive mean differences
+
+```{r}
+#| label: summary-plots-anova
+
+assoc_cols <- c("assoc1_valence", "assoc2_valence", "assoc3_valence", "assoc4_valence", "assoc5_valence")
+attr_cols <- paste0("attributesFutureSociety-", 1:8)
+
+clean_complete <- dat_ques %>%
+  mutate(
+    assoc_valence_mean = rowMeans(select(., all_of(assoc_cols)), na.rm = TRUE),
+    attributes_mean = rowMeans(select(., all_of(attr_cols)), na.rm = TRUE)
+  )
+
+analysis_df <- clean_complete %>%
+  select(PROLIFIC_PID, condition_FutureSociety, assoc_valence_mean, attributes_mean, all_of(attr_cols)) %>%
+  drop_na(assoc_valence_mean, attributes_mean, condition_FutureSociety)
+
+mean_summary <- analysis_df %>%
+  pivot_longer(
+    cols = c(assoc_valence_mean, attributes_mean),
+    names_to = "measure",
+    values_to = "value"
+  ) %>%
+  group_by(condition_FutureSociety, measure) %>%
+  summarise(
+    mean = mean(value, na.rm = TRUE),
+    sd = sd(value, na.rm = TRUE),
+    n = dplyr::n(),
+    se = sd / sqrt(n),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    measure = recode(
+      measure,
+      assoc_valence_mean = "Association Valence Mean",
+      attributes_mean = "Attributes Mean"
+    )
+  )
+
+ggplot(mean_summary, aes(x = condition_FutureSociety, y = mean, fill = measure)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
+  geom_errorbar(
+    aes(ymin = mean - se, ymax = mean + se),
+    position = position_dodge(width = 0.8),
+    width = 0.2
+  ) +
+  labs(x = "Condition", y = "Mean", fill = "Measure") +
+  theme_minimal()
+
+
+anova_assoc <- afex::aov_ez(
+  id = "PROLIFIC_PID",
+  dv = "assoc_valence_mean",
+  between = "condition_FutureSociety",
+  data = analysis_df
+)
+anova_attr <- afex::aov_ez(
+  id = "PROLIFIC_PID",
+  dv = "attributes_mean",
+  between = "condition_FutureSociety",
+  data = analysis_df
+)
+
+summary(anova_assoc)
+summary(anova_attr)
+```
+
+
+```{r}
+attr_labels <- c(
+  "1" = "Utopian",
+  "2" = "Desirable",
+  "3" = "Ideal",
+  "4" = "Beneficial for the greater good",
+  "5" = "Imaginative",
+  "6" = "Innovative",
+  "7" = "Creative",
+  "8" = "Possible"
+)
+
+attr_long <- analysis_df %>%
+  pivot_longer(
+    cols = all_of(attr_cols),
+    names_to = "item",
+    values_to = "value"
+  ) %>%
+  mutate(
+    item_num = stringr::str_extract(item, "[0-9]+"),
+    item_label = recode(item_num, !!!attr_labels)
+  )
+
+attr_effects <- attr_long %>%
+  filter(!is.na(value)) %>%
+  group_by(item_label) %>%
+  summarise(
+    eta_sq = {
+      fit <- aov(value ~ condition_FutureSociety)
+      ss <- summary(fit)[[1]]
+      ss_between <- ss["condition_FutureSociety", "Sum Sq"]
+      ss_total <- sum(ss[, "Sum Sq"])
+      if (is.na(ss_between) || is.na(ss_total) || ss_total == 0) NA_real_ else ss_between / ss_total
+    },
+    .groups = "drop"
+  ) %>%
+  mutate(
+    eta_label = ifelse(is.na(eta_sq), "eta^2=NA", paste0("eta^2=", round(eta_sq, 2)))
+  )
+
+attr_effects_table <- attr_effects %>%
+  arrange(desc(eta_sq))
+
+attr_effects_table
+
+item_order <- attr_effects %>%
+  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
+  arrange(desc(eta_order)) %>%
+  pull(item_label)
+
+label_order <- attr_effects %>%
+  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
+  arrange(desc(eta_order)) %>%
+  mutate(facet_label = paste0(item_label, "\n", eta_label)) %>%
+  pull(facet_label)
+
+attr_summary <- attr_long %>%
+  group_by(condition_FutureSociety, item_label) %>%
+  summarise(
+    mean = mean(value, na.rm = TRUE),
+    sd = sd(value, na.rm = TRUE),
+    n = dplyr::n(),
+    se = sd / sqrt(n),
+    .groups = "drop"
+  ) %>%
+  left_join(attr_effects %>% select(item_label, eta_label), by = "item_label") %>%
+  mutate(
+    item_label = factor(item_label, levels = item_order),
+    facet_label = factor(paste0(item_label, "\n", eta_label), levels = label_order)
+  )
+
+condition_order <- analysis_df %>%
+  distinct(condition_FutureSociety) %>%
+  arrange(condition_FutureSociety) %>%
+  pull(condition_FutureSociety)
+
+attr_summary <- attr_summary %>%
+  mutate(condition_FutureSociety = factor(condition_FutureSociety, levels = condition_order))
+
+ggplot(attr_summary, aes(x = condition_FutureSociety, y = mean, fill = condition_FutureSociety)) +
+  geom_col(width = 0.7) +
+  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.2) +
+  geom_text(aes(label = round(mean, 2)), vjust = -0.3, size = 3) +
+  facet_wrap(~ facet_label, ncol = 4) +
+  labs(x = "Condition", y = "Mean", fill = "Condition") +
+  theme_minimal() +
+  theme(legend.position = "bottom", axis.text.x = element_text(angle = 30, hjust = 1))
+```
+
+```{r}
+tmp <- clean_complete[, str_subset(string = colnames(clean_complete), pattern = "attri.*[1-9]")]
+psych::corPlot(r = cor(tmp, use = "pairwise"))
+
+hist(clean_complete$`attributesFutureSociety-8`)
+hist(clean_complete$`attributesFutureSociety-4`)
+
+tmp_efa <- psych::fa.parallel(x = tmp)
+tmp_fa <- psych::fa(r = cor(tmp, use = "pairwise"), nfactors = 2, n.obs = nrow(tmp))
+tmp_fa
 ```
