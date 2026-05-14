@@ -1,5 +1,5 @@
 /* global variables */
-const numElements = 42;
+const numElements = 43;
 var numElementsCounter = 0;
 var URLparams_global;
 var paracountclicks = 0;
@@ -39,6 +39,7 @@ const study = new lab.flow.Sequence({
     InformConsentNO_htmlForm,
     ExclusionCriteria_htmlForm,
     SetupStudy_htmlForm,
+    TestAudio_htmlForm,
     loop_VisualTraps,
     TransitionToScenario_htmlForm,
     loop_Scenarios,

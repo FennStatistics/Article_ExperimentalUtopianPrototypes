@@ -31,35 +31,6 @@ const rankingTaskText = `
 </footer>
 `;
 
-const feedbackAudio1Text = `
-<header><h2>Feedback Task 1 (Text Placeholder)</h2></header>
-<p>Please briefly explain why you ranked some societies higher and others lower.</p>
-<main class="content-horizontal-center content-vertical-center">
-  <div class="w-xl">
-    <form id="feedback1Form">
-      <textarea name="feedback_ranking_explanation_text" class="w-100" rows="8" required></textarea>
-    </form>
-  </div>
-</main>
-<footer class="content-vertical-center content-horizontal-right">
-  <button id="continue" type="submit" form="feedback1Form">Continue -></button>
-</footer>
-`;
-
-const feedbackAudio2Text = `
-<header><h2>Feedback Task 2 (Text Placeholder)</h2></header>
-<p>Please describe a missing utopia not represented in the study and what is most important about it.</p>
-<main class="content-horizontal-center content-vertical-center">
-  <div class="w-xl">
-    <form id="feedback2Form">
-      <textarea name="feedback_missing_utopia_text" class="w-100" rows="8" required></textarea>
-    </form>
-  </div>
-</main>
-<footer class="content-vertical-center content-horizontal-right">
-  <button id="continue" type="submit" form="feedback2Form">Continue -></button>
-</footer>
-`;
 
 const socioDemoText = `
 <header><h2>Demographics</h2></header>
@@ -95,26 +66,6 @@ const endingScreenText = `
 const RankingTask_htmlForm = new lab.html.Form({
   title: "RankingTask",
   content: rankingTaskText,
-  messageHandlers: {
-    commit: () => {
-      updateProgressEnding();
-    },
-  },
-});
-
-const FeedbackAudio1Placeholder_htmlForm = new lab.html.Form({
-  title: "FeedbackAudio1Placeholder",
-  content: feedbackAudio1Text,
-  messageHandlers: {
-    commit: () => {
-      updateProgressEnding();
-    },
-  },
-});
-
-const FeedbackAudio2Placeholder_htmlForm = new lab.html.Form({
-  title: "FeedbackAudio2Placeholder",
-  content: feedbackAudio2Text,
   messageHandlers: {
     commit: () => {
       updateProgressEnding();
