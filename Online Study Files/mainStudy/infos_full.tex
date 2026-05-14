@@ -1,0 +1,857 @@
+\documentclass[jou,floatsintext]{apa7}
+
+\usepackage[american]{babel}
+\usepackage{csquotes}
+
+% BibLaTeX APA
+\usepackage[
+  style=apa,
+  sortcites=true,
+  sorting=nyt,
+  backend=biber
+]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+\DeclareFieldFormat{date}{\thefield{year}}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=cyan
+}
+
+\usepackage{float}
+\usepackage{soul}
+\sethlcolor{yellow}
+
+\usepackage{tikz}
+
+\usepackage{tabularx}
+\renewcommand{\arraystretch}{1.2} % slightly more line spacing in tables
+
+\usepackage{atbegshi}  % allows adding code at every shipout
+
+\usepackage{arydshln} % dashed line
+
+\usepackage{amsmath}
+
+\usepackage{cleveref}
+
+\usepackage{stfloats}
+
+
+% ---- Place logo on every page (top-right corner) ----
+\AtBeginShipout{%
+  \AtBeginShipoutUpperLeft{%
+    \begin{tikzpicture}[remember picture,overlay]
+      \node[anchor=north east, xshift=-1cm, yshift=-1cm] 
+        at (current page.north east)
+        {\includegraphics[width=0cm]{pictures/logos/logo_Utopia.jpg}}; % !!!
+    \end{tikzpicture}%
+  }
+}
+
+% --------------------------------------------------------------------
+% Global header name — appears on all pages including page 1
+% Latin (roman) page numbering in the footer
+% --------------------------------------------------------------------
+
+\newcommand{\headerShortTitle}{Working Paper}
+
+\makeatletter
+\def\ps@man{%
+  % ---- HEADER ----
+  \def\@evenhead{%
+    \hfill
+    \begin{tabular}{c}
+      \textit{Utopian Profiles and Systemic Attitudes} - \headerShortTitle
+    \end{tabular}
+    \hfill
+  }%
+  \def\@oddhead{%
+    \hfill
+    \begin{tabular}{c}
+      \textit{Utopian Profiles and Systemic Attitudes} - \headerShortTitle
+    \end{tabular}
+    \hfill
+  }%
+  % ---- FOOTER ----
+  \def\@evenfoot{\hfill \thepage\hfill}%
+  \def\@oddfoot{\hfill \thepage\hfill}%
+}
+\makeatother
+
+
+
+\pagestyle{man}
+
+% --------------------------------------------------------------------
+% Title & Author
+% --------------------------------------------------------------------
+\title{Visions of Progress: A Within-Subject Experimental Analysis of Utopian Prototypes, Profiles, and Systemic Attitudes}
+
+\shorttitle{AAA} % not shown
+\leftheader{AAA} % not shown
+
+\authorsnames{Julius Fenn\textsuperscript{1,2}}
+
+
+\authorsaffiliations{
+ {\textsuperscript{1}Institute of Psychology, University of Freiburg, Germany},
+ {\textsuperscript{2}Cluster of Excellence livMatS @ FIT Freiburg Center for Interactive Materials
+  and Bioinspired Technologies, University of Freiburg, Germany}
+}
+
+\authornote{
+Questions concerning this report should be addressed to \addORCIDlink{Julius Fenn}{0000-0002-7569-8648},  Email: \href{mailto:julius.fenn@psychologie.uni-freiburg.de}{julius.fenn@psychologie.uni-freiburg.de}
+}
+
+\abstract{%
+%AAA
+}
+
+%\keywords{aa, bb, cc}
+
+\begin{document}
+\maketitle
+\thispagestyle{man}
+
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+
+
+% -------------------------------------------------------------------- START
+\clearpage
+\section{Knowledge Base}
+\label{sec:knowledgeBase}
+
+\subsection{Glossary of Important Terms}
+
+\begin{itemize}
+    \item \textbf{Utopia} --- Derived from the Greek \textit{ou-topos} (`no-place'') and \textit{eu-topos} (`good-place''), this term represents an imagined ideal or best possible society. Beyond a mere literary genre, it functions as ``social dreaming'' or a cognitive alternative to the status quo, serving as a catalyst for social change and a method for societal critique \parencite{levitasConceptUtopia2010, levitasUtopiaMethodImaginary2013, schoelderleGeschichteUtopieEinfuehrung2017, vieiraConceptUtopia2010}.
+    \item \textbf{Dystopia} --- Originating from the Greek \textit{dys-topos} (``bad-place''), it is the conceptual antithesis of utopia, depicting a worst possible or feared future society. It frequently extrapolates contemporary negative trends—such as totalitarianism or environmental decay—to function as a cautionary tale that evokes avoidance motivation and critical awareness of undesirable trajectories \parencite{claeysOriginsDystopiaWells2010, schoelderleGeschichteUtopieEinfuehrung2017}; historically called ''kakotopia'' by Jeremy Bentham in 1818 \parencite{vieiraConceptUtopia2010}
+    \item Utopia has often been used as the root for the formation of new words \parencite{claeysCambridgeCompanionUtopian2010}:
+    \begin{itemize}
+        \item \textit{Anti-utopia} --- Often confused with dystopia, the anti-utopia is a specific polemic directed against utopianism itself, attempting to demonstrate that the pursuit of a perfect society is fundamentally flawed and inherently leads to disaster
+        \item \textit{Euchronia} --- Representing a ''good-time'', this temporal variation of utopia locates the ideal society in a future era, suggesting that perfection is a historical destination rather than a distant geographical location
+        \item \textit{Heterotopia} --- Formulated by Michel Foucault, these are ''different places''---real, physical sites like gardens, cemeteries, or museums that exist as counter-sites to reflect, contest, or neutralize the spaces of the surrounding culture
+        \item \textit{Ecotopia} --- A specialized utopian vision centered on ecological sustainability, where social and political structures are organized to ensure a regenerative and harmonious relationship with the natural world
+        \item \textit{Femmutopia} --- A hybrid term describing the rise of feminist utopianism as a counter-hegemonic space that challenges established patriarchal traditions and envisions gender-neutral or female-centered social transformations \parencite[see][]{karaFemmutopiaRiseFeminist2025}
+        \item \textit{Ustopia} --- A portmanteau of utopia and dystopia coined by Margaret Atwood to illustrate that the two concepts are not opposites but are inextricably linked, each containing a latent version of the other
+        \item \textit{Critical Utopia} --- A term popularized by Tom Moylan to describe a 1970s subgenre that maintains the Utopian impulse while remaining critical of the limitations of the blueprint form, often incorporating elements of conflict and imperfection
+        \item ...
+    \end{itemize}
+    \item As emphasized by \cite{fernandoFunctionsUtopiaHow2018} Ruth Levitas identified three primary psychological and social functions of utopia \parencite{levitasConceptUtopia2010}:
+    \begin{itemize}
+        \item \textbf{Change ---} Defined as the teleological function of utopia, it serves as a catalyst for social and political transformation. By providing a cognitive alternative to the status quo, utopian visions facilitate collective self-regulation and mobilize action toward an idealized future state.
+        
+        \item \textbf{Criticism ---} This function establishes utopia as a normative standard or diagnostic mirror for societal evaluation. It highlights systemic failings and injustices, thereby decreasing system justification and eroding the cultural hegemony that stabilizes existing social structures.
+        
+        \item \textbf{Compensation ---} Characterized as an imaginative refuge, this function offers psychological solace and emotion-focused coping in response to perceived systemic constraints. While providing relief, it may induce political alienation or passive disengagement, where fantasy-based contentment reduces the actual striving required for real-world goal attainment
+
+        \begin{itemize}
+            \item \textbf{Mental Contrasting ---} A self-regulatory meta-cognitive strategy that involves first imagining a desired future (positive fantasy) and then immediately reflecting on the obstacles of the current reality that stand in the way of achieving that future. This process signals the need for action. It mobilizes effort and goal commitment when expectations of success are high, but facilitates wise disengagement when expectations of success are low \parencite{oettingenFutureThoughtBehaviour2012}. 
+            \item[$\rightarrow$] Empirical general: As shown in an empirical study by \cite{kappesMentalContrastingInstigates2012} mental contrasting only works if (a) high expectations of success, and (b) is specific to the particular goal being elaborated.
+           \item[$\rightarrow$] Empirical Utopian studies: \cite{fernandoFunctionsUtopiaHow2018} demonstrated that mental contrasting---the process of imagining an ideal society first, and then the current society---show no significant difference to the Utopian Imagination condition, interpreting that mental contrasting is a psychological mechanism underlying the facilitative effect of Utopian thinking; e.g., \cite{fernandoGreensSpaceInvaders2020, prescottThinkingEcologicalUtopia2025} had no explicit mental contrasting intervention
+        \end{itemize}
+\end{itemize}
+
+\item \textbf{Social Identity Theory (SIT)}: A foundational social psychological framework positing that an individual's self-concept is derived from perceived membership in social groups. Developed by \cite{turnerSocialComparisonGroup1979}, SIT highlights that group membership carries emotional and value significance, leading individuals to pursue positive distinctiveness through social comparison between the in-group and relevant out-groups. The importance of SIT for Utopian research was pointed out, for example, by \cite{fernandoFunctionsUtopiaHow2018, fernandoGreensSpaceInvaders2020, kashimaCollectiveFutureThinking2025, panayiotouImpossibleWorldsSocial2020}, whereby future (Utopian) thinking is located in the process of collective self-regulation; see also discussion in the PhD thesis of \cite{panayiotouImpossibleWorldsSocial2020}
+
+\begin{itemize}
+\item \textbf{Cognitive Alternatives}: Critical awareness that the status quo is not the only possible reality. Thereby, utopian thinking can create better (cognitive) alternatives to the status quo and instigate strategies of competition and social
+change \parencite[see Fig. 1 in][]{kashimaUtopiaIdeologyCultural2020}. As explained by \cite{panayiotouImpossibleWorldsSocial2020} to motivate change disadvantaged groups need to perceive current status hierarchies as illegitimate (current status differential violates superordinate values like justice or equality) and unstable (current system is changeable and that a different future is possible). 
+
+\item \textbf{Social Identity Model of Collective Action (SIMCA)}: An integrative framework explaining the psychological motivators of social protest through four distinct paths \parencite{agostiniComprehensivePotentiallyCrosscultural2021}:
+\begin{itemize}
+    \item \textbf{The Social Identity Perspective} This pathway posits that collective action is fundamentally driven by a psychologically relevant social identity, where individuals act as group members rather than isolated individuals. Strong identification with a group binds and obligates individuals to act on its behalf, with ''politicized identification'' acting as a particularly powerful predictor of engagement.
+    \item \textbf{The Morality Perspective} This motivator refers to collective action based on core values, moral principles, or ideologies, such as ''moral conviction''. Morality functions as a ''dual chamber'' alongside identity, providing a normative basis that obligates action by defining not just who ''we'' are, but what ''we'' stand for.
+    \item \textbf{The Injustice Perspective}: This perspective describes the emotional and cognitive response to a subjective sense of disadvantage or unfairness. While it includes the perception of unfairness, the ''emotional experience'' of injustice (such as group-based anger) is identified as the strongest specific motivator within this pathway.
+    \item \textbf{The Efficacy Perspective}: This path is defined by the group’s shared belief that they can achieve their goals through collective effort and unified action. It encompasses both ''group efficacy''---the belief in the group's general capacity—and ''participative efficacy''---the belief that one's own contribution is instrumental to the group’s success.
+    \item[$\rightarrow$] \cite{vanzomerenIntegratingWhoWe2018} proposes extending the core of SIMCA by integrating moral motivations (a broad array of violated moral beliefs such as values, rights, and convictions) with identity content (what it specifically means to be a group member), thereby conceptually and empirically linking who we are with what we stand for through the principle of normative fit \parencite[see also meta-analysis of][]{agostiniComprehensivePotentiallyCrosscultural2021} 
+\end{itemize}
+
+\item \textbf{Encapsulated Model of Social Identity in Collective Action (EMSICA)}: An alternative framework to SIMCA which proposes that social identity can emerge from and encapsulate shared emotional and cognitive reactions to a situation. Rather than identity always being the starting point, this model suggests that perceptions of injustice and group efficacy can causally precede and precipitate the formation of a social identity, which then mediates their effect on the commitment to collective action. Empirical tests of this model demonstrate that group-based anger and efficacy are often the primary drivers that forge the very group identity necessary for sustained protest \parencite{thomasSocialIdentitiesFacilitate2012}.
+
+\item \textbf{Dimensions of Efficacy}: Efficacy beliefs are a primary predictor of collective action, reflecting individuals' assessments of the potential for goal achievement through agentic action. These dimensions are categorized as follows \parencite{vanzomerenBelievingMakingDifference2013}:
+\begin{itemize}
+    \item \textbf{Individual Efficacy Beliefs:} These refer to an individual's belief that they can achieve personal goals through their own individual actions
+    \item \textbf{Group Efficacy Beliefs:} These represent the belief that the group can achieve its collective goals through joint action. In classic instrumental accounts, high group efficacy can paradoxically lead to \textit{free-riding}, as rational actors may assume the goal will be reached without their personal contribution (Olson's Rational Actor prefers to free-ride because they assume their individual action is negligible and will not alter the outcome of the collective effort)
+    \item \textbf{Participative Efficacy Beliefs:} This dimension bridges the gap between individual and group efforts. It is defined as the belief that one's own actions will \textit{make a difference} to the collective efforts aimed at achieving group goals
+\end{itemize}
+\end{itemize}
+
+    \vspace{0.1cm}
+        \hrulefill
+    \vspace{0.1cm}
+
+    \item \textbf{Utopia Prototypes/ Visions (theoretical)} --- tend to cluster around a limited number of themes and propose according to \cite{davisUtopiaIdealSociety1983} speculative solutions to the fundamental (socio-economic) problem of balancing (expansive) human desires with finite material resources like food, or lodging delineates five distinct typologies of ideal world narratives \parencite[see also][]{bruceThreeEarlyModern2009} and discussed in the context of Utopian studies by \cite{fernandoProfilesIdealSociety2023, kashimaCollectiveFutureThinking2025}:
+
+\begin{itemize}
+    \item \textit{Abundance (Cockaygne)}: Resolves scarcity via natural/magical bounty (''ivers flow with wine and poultry flies ready-roasted into the mouth''); resource surplus renders labor and social regulation redundant.
+    \begin{itemize}
+        \item Focuses on "body utopia" (or ''Utopias of sensual gratification'') and the immediate gratification of physical needs such as food, drink, and idleness---rather than intellectual or social rearrangement \parencite{aviles14LawBasedUtopia2001}; emphasized in Utopian visions like Hesiod's golden age, Eden, some versions of the millennium, and various Greek and Roman myths \parencite{sargentThreeFacesUtopianism1994}
+        \item Assumes nature or magic provides everything for humans without the requirement of labor, no ''tyranny of necessities'' \parencite{aviles14LawBasedUtopia2001, pohlUtopianismMoreRenaissance2010}.
+        \item Legal frameworks are viewed as unnecessary because conflict over resources is non-existent \parencite{aviles14LawBasedUtopia2001}.
+        \item ''Land of Cockaygne'' literally meaning the land of small cakes \parencite{pohlUtopianismMoreRenaissance2010}
+    \end{itemize}
+
+    \item \textit{Ecology (Arcadia)}: Satisfying unlimited human desires within the boundaries of limited resources by proposing a state of harmony with nature \parencite{fernandoGreensSpaceInvaders2020}; two versions: \textbf{Modern Green Utopia}: embraces ecological modernization: technology \& nature) vs. \textbf{Primitivist/ Arcadian Utopia}: return to a simple, pre-industrial life \parencite{almudiEconomicsUtopiaCoevolutionary2017, fernandoGreensSpaceInvaders2020}.
+    \begin{itemize}
+        \item Principle of sufficiency prioritizes enough over excess, advocating for simple lifestyles, nature is generous and benevolent rather than hostile \parencite{aviles14LawBasedUtopia2001, kashimaCollectiveFutureThinking2025}
+        \item Primitivism: often critiques industrialization in favor of traditional, agrarian, or sustainable systems, as expressed in the quote: ''life is reduced to the barest necessities, rendering all the institutions redundant ... there are no rulers to exact obedience, no religion to impose moral codes, no institutions to create regulations. Each person satisfies his own simple needs without friction with his neighbours, without aspirations for higher things.'' \parencite{aviles14LawBasedUtopia2001}
+        \item \textcolor{purple}{Hypothesis:} often inseparable from the Morality prototype, assuming that people in such a society follow core moral beliefs and live together in peace without the need for coercive laws \parencite[see empirical results in][]{fernandoProfilesIdealSociety2023}
+        \item[$\rightarrow$] Exemplary real-world implementation: Cloughjordan Ecovillage, an example in Ireland that features low-energy homes, renewable energy, and community-supported agriculture \parencite{caseyPrefiguringSustainableLiving2020}, which is discussed in relation to the concept of \textit{prefigurative politics} characterized by the phrase ''form the structure of the new society within the shell of the old'' \parencite[e.g.,][]{clarkeEmergentPrefigurativePolitics2025, gerberBuildingNewWorld2025}
+    \end{itemize}
+
+    \item \textit{Morality (Moral Commonwealth)}: Humans are perceived (or at least capable of) being intrinsically good, altruistic, or rational; order is maintained by a ''code of categorical prescriptions'' enforced by the individual's own conscience \parencite{aviles14LawBasedUtopia2001, fernandoGreensSpaceInvaders2020}.
+    \begin{itemize}
+        \item People are moral and selfless, they are expected to share available resources spontaneously for the common good \parencite{aviles14LawBasedUtopia2001}
+        \item Internalized Regulation not requires police or judiciary, ''societies inhabited by angels (good men who are perfect moral agents) law will disappear because of the radical reform of human nature'' \parencite{aviles14LawBasedUtopia2001}
+        \item Voluntary Sharing: Resources are distributed spontaneously due to the inherent selflessness of the citizenry, ''People will never act against the self-imposed rules because it is impossible'' \parencite{aviles14LawBasedUtopia2001}
+        \item[$\rightarrow$] Related theory \textbf{Communitarianism}: A socio-philosophical paradigm asserting the ontological priority of the collective over the individual, wherein self-actualization is contingent upon membership in an affirmative community. It posits that social harmony is achieved through shared moral maps and immanent critique, replacing liberal ethics of choice with internalized traditions and, in some archetypes (e.g., in Thomas More’s Utopia), the abolition of private property to align individual interests with the common good \parencite{uysalRevisitingCommunitarianismNeither2025, vandenheuvalLiberalismCommunitarianismSearch2006}.
+        \item[$\rightarrow$] Related theory \textbf{Reciprocity}: A behavioral mechanism for stabilizing large-scale cooperation where individuals incur personal costs to reward fair behavior (\textit{positive reciprocity}) or punish free-riders (\textit{negative reciprocity}). It serves as a bottom-up alternative to state coercion, facilitating social norm enforcement through decentralized sanctioning and challenging the \textit{homo economicus} assumption of exclusive self-interest \parencite{dubreuilStrongReciprocityEmergence2008, fehrStrongReciprocityHuman2002}; strong reciprocity is viewed as a necessary behavioral foundation for utopian models centered on collective self-regulation: powerful mechanism for the enforcement of social norms \parencite{fehrStrongReciprocityHuman2002}, in the COMMONSIM simulation (a large-scale commons-based utopia), strong reciprocity is used to stabilize reproduction within a complex web of commons \parencite{gerdesCOMMONSIMSimulatingUtopia2023}, challenging ''Homo Economicus'' by demonstrating that humans are not exclusively self-interested, strong reciprocity supports the utopian claim that individuals can agree on cooperative communities rather than competitive market systems \parencite{fehrStrongReciprocityHuman2002, gerdesCOMMONSIMSimulatingUtopia2023, vandenheuvalLiberalismCommunitarianismSearch2006} 
+        \item[$\rightarrow$] Related theory \textbf{Anarchism}: A political philosophy advocating for a state of spontaneous self-regulation and maximized individual freedom through the dissolution of centralized hierarchies and the state \parencite{bookchinPostScarcityAnarchism1986}; two extreme versions: modern technology has reached a threshold where material want can be eliminated and thereby no more coercive commodity relationships (Abundance, Modern Green) vs. return to non-civilized, hunter-gatherer, or tribal lifestyles (Anarcho-primitivism)
+    \end{itemize}
+    
+    \item \textit{Religion (Religious Millennium)}: Resolves the problem of limited resources and infinite desires through supernatural intervention (deus ex machina), which transforms both human nature and the material environment, rather than human effort \cite{fernandoProfilesIdealSociety2023, kashimaCollectiveFutureThinking2025}.
+    \begin{itemize}
+        \item Perfectionism and bad Utopianism: Religious fundamentalism's core problem is an ''attachment to perfection''. This structural paradigm permits a malign form of utopianism where the desire for a radically different, perfect alternative propels actors toward divinely sanctioned \parencite{sargissonReligiousFundamentalismUtopianism2007}
+        \item The Backward Glance of Memory: Religious Utopianism is not only a forward glance toward an anticipated future; it relies heavily on a backward glance through religious memory and tradition. This use of tradition and community feeds historical material into forward-looking political visions to provide them with legitimacy and depth \parencite{geogheganUtopiaReligionMemory2007}
+        \item The abstractness and fantastical content of ontological utopias can undermine the transformative power of the religious left. Because the vision is set in an immeasurably better, eternal reality, it often fails to function as a force for concrete social change; \textit{Ontological Utopia} serves as the foundation of every religion, providing a psychological ''odour'' to suppress the horror of the void and the knowledge of human mortality by constructing an alternative, immeasurably better reality that is eternal, perfect, and infinite (e.g., God, Brahman, Nirvana, or the Dao), may act as ''the opium of the people'' (Marx) by keeping them from social action \parencite{prosicReligiousUtopianismOthering2024}
+        \item \textit{Thomas More’s Religious Utopia concept}: The Catholic Renaissance tradition of utopianism posits religious freedom as a pragmatic instrument for achieving civic peace and internal ecclesiastical unity. This model functions as a precursor to modern liberal church-state relations by denying the state the right to coerce individual conscience while simultaneously regulating "politically dangerous" religious forms to ensure a morally unified, non-violent society. By transforming potentially disruptive sectarianism into stable support for the commonwealth, this framework suggests that the origins of modern religious toleration are rooted in Renaissance Catholic thought rather than exclusively in later Protestant theology \parencite{kesslerReligiousFreedomThomas2002}
+        \item \textbf{Restorationist View:} past-oriented utopian perspective that seeks to return society or a religious faith to an original, pure, or primitive state perceived to have existed in a historical or mythical ''Golden Age'' \parencite{geogheganUtopiaReligionMemory2007, sargissonReligiousFundamentalismUtopianism2007}; e.g., Churches of Christ are  dedicated to restoring the ''original'' church of the New Testament \parencite{sargissonReligiousFundamentalismUtopianism2007}, fundamentalist groups in Islam seek to re-enact the Medinan regime or the Rashidun Caliphate---the first caliphate after death of Muhammed \parencite{duttonNonwesternUtopianTraditions2010}, ultra-nationalist Zionist movement of Gush Emunim combined restorationism with territoriality, seeking to purify and repossess sacred lands to facilitate the coming of the Messiah and the restoration of biblical Israel \parencite{sargissonReligiousFundamentalismUtopianism2007}
+    \end{itemize}
+
+    \item \textit{Institutions (Utopia)}: Ideal society that achieves balance and order through laws, formal social structures, and bureaucratic arrangements. accepts human and natural imperfections as irreducible \parencite{aviles14LawBasedUtopia2001}.
+    \begin{itemize}
+        \item \textbf{Nomic Utopia}, meaning it is built entirely upon legal and formal rules vs. \textbf{anomic (lawless) Utopias} like Moral Commonwealth or Religion Utopia \parencite{aviles14LawBasedUtopia2001}
+        \item Seek to create good citizens whose external behavior is regulated by superior social institutions and not perfect moral agents \parencite{aviles14LawBasedUtopia2001}
+        \item Promotes a government of laws rather than a government of men, ensuring that rulers are not above the law and preventing the ''contingent will'' of a prince from causing instability \parencite{aviles14LawBasedUtopia2001}
+        \item Ideal Legal Systems---simple and accessible:  legal code is kept extremely simple with very few laws, written in common language (no Latin),  rules governing almost all public and private actions from birth to death, aws must be strictly and rigorously enforced with clear sanctions for deviant behavior \parencite{aviles14LawBasedUtopia2001}
+        \item[$\rightarrow$] Related theory \textbf{Cooperative Behavior}: Alignment of individual self-interest with the common good through either a natural human impulse or the deliberate design of social institutions \parencite{vandenheuvalLiberalismCommunitarianismSearch2006}, e.g., in Thomas More’s Utopia as private property was removed ''When the public business becomes the only way to satisfy personal needs, the individual and the collective become a singular interest'' \parencite{davisThomasMoresUtopia2010}
+        \item \textcolor{purple}{Hypothesis:} those who endorse a Futurist utopian profile place high value on Science and Institutions as the primary means to fulfill human needs while rejecting morality or religion as necessary factors \parencite[see empirical results in][]{fernandoProfilesIdealSociety2023}
+    \end{itemize}
+    
+    \item \textit{Science}: Also referred as \textit{Sci-Fi Utopia, Futurist Utopia}; Advanced scientific discovery, rational planning and technological innovation (e.g., AI) to resolve the collective problem---the conflict between limited resources and potentially unlimited human desires \parencite{fernandoGreensSpaceInvaders2020, kashimaCollectiveFutureThinking2025}
+    \begin{itemize}
+        \item uses discovery and innovation (e.g., AI, automation) to overcome physical limitations and society is guided by an aristocracy of the mind or data-driven optimization, decoupling human survival from physical labor via technologies \parencite{kashimaCollectiveFutureThinking2025, wojewodaARTIFICIALINTELLIGENCESOCIAL2023}
+        \item Important projects---\textit{Venus Project} (formerly directed by Jacque Fresco) is a non-profit organization dedicated to designing human habitats that simultaneously enhance human well-being; \textit{Cybersyn Project} (developed by Stafford Beer for Allende-era Chile) attempted to create a real-time decentralized nervous system for the national economy, using cybernetics to balance industrial coordination with democratic worker autonomy; ...
+        \item Important books---wise elites (science) in combination with advanced technologies: Tommaso Campanella’s City of the Sun (1602), Francis Bacon’s New Atlantis (1626), H. G. Wells’s  Modern Utopia (1905),  Sci-Fi literature like Iain M. Banks’ Culture series (1987..), ... which led to the formation of diverse configurations of possible societies, one example:
+        \item[$\rightarrow$] Stark Trek univerise---the replicator: producing any material object (food, clothing, industrial parts) instantly making the marginal cost of production effectively zero, it transforms previously scarce goods into valueless commodities, and '‘money went the way of the dinosaur'', with basic needs met, human effort shifts from repetitive, low-skill survival tasks to high-skill, creative end-points such as exploration, education, and self-enhancement \parencite{grechStarTreksFederation2015, saadiaTrekonomicsEconomicsStar2016}
+        \item[$\rightarrow$] Stark Trek univerise---the ethical revolution: abolition of scarcity allows the transition from the realm of necessity to the realm of freedom, where labor is no longer a means of survival (alienated labor) but becomes life's prime want---an autonomous activity for self-actualization; in the absence of monetary accumulation, social stratification is reorganized around \textit{reputation-based capital}; status is derived from scientific contribution, artistic merit, and service to the collective rather than material possession \parencite{kremserWirtschaftSTARTREK2023}; replicator alone does not create a utopia it requires a corresponding ethical shift \parencite{grechStarTreksFederation2015}
+        \item \textbf{AI Utopia} (many publications since $\sim$ 2023): (a) an imagined future society where artificial intelligence facilitates an ideal human condition, e.g. by means of enhanced control \parencite{wojewodaARTIFICIALINTELLIGENCESOCIAL2023}, and (b) a specific research agenda known as ''Artificial Utopia'' that uses AI to simulate and test better democratic and economic systems \parencite{gerdesCOMMONSIMSimulatingUtopia2023, oswaldArtificialUtopiaSimulation2025}
+        \item[$\rightarrow$] \textit{Singularity}: AI evolving to a level of super-intelligence, where machines not only outperform humans in various tasks but also continually self-improve at an exponential rate \parencite{kurzweilSingularityNearerWhen2024}, this may also encompass more advanced physical integration with humans, for example, through brain-computer interfaces, genetic engineering, and neuro-nanotechnology \parencite{carrollNavigatingUtopiaDystopia2024}; however reaching the Singularity requires AI to move beyond narrow logical-mathematical success toward a systemic perspective of intelligence; this involves integrating multiple, relatively independent faculties---such as linguistic, inter-personal, and intra-personal intelligences to mirror the multi-directionality of human nature \parencite{hoffmannPhilosophicalViewSingularity2023}
+        \item[$\rightarrow$] First empirical studies, like testing the conceptual model of future world-making of AI \parencite{pauketatWorldmakingFutureSentient2025}, or investigating impact of healthcare AI on clinical skills \parencite{aquinoUtopiaDystopiaProfessional2023}
+        \item \textcolor{purple}{Hypothesis:} people who hold this vision score high on the Science and Institutions prototypes; they often follow a maximization principle, seeking to increase human comfort through technical mastery \parencite[see empirical results in][]{fernandoProfilesIdealSociety2023}
+    \end{itemize}
+\end{itemize}
+    
+    \item \textbf{Profiles of Utopia (empirical)} --- These are empirical, person-centered configurations identified through social psychological research that reflect how individuals actually endorse and/ or combine Utopian themes. Unlike abstract prototypes, profiles represent the subjective and multidimensional visions held by ordinary people, categorized into:
+    \begin{itemize}
+        \item four profiles by \cite{fernandoProfilesIdealSociety2023}: \textit{Futurist} (Science/Institutions), \textit{Modern Green} (Morality/Ecology/Science), \textit{Primitivist} (Morality/Ecology), and \textit{Religious} (Religion/Morality) identified by 18 self-developed items
+        \item three profiles by \cite{lizzio-wilsonWhatCouldBe2025}: \textit{Change-oriented} (Desirability/Beneficence/Innovation/Possibility), \textit{Dystopian} (Ominousness/Hopelessness), and \textit{Ambivalent} (Neutrality/Fairness) identified by Latent Profile Analysis of four content dimensions of Utopias (see below)
+        \item \textcolor{purple}{Add open answer for missing prototype:} ''\textit{some participants’ Utopian visions could not be captured by the six utopia profiles because their ratings across the prototypes did not vary a great deal. This may be because the prototypes failed to capture some people’s visions of an ideal society or because some people did not think about ideal societies very much at all}'' \parencite[p. 23 in][]{kashimaCollectiveFutureThinking2025}
+    \end{itemize}
+    
+    \vspace{0.1cm}
+        \hrulefill
+    \vspace{0.1cm}
+
+    \item \textbf{Relevant Broad Theoretical Frameworks}
+    \begin{itemize}
+    \item \textbf{Possible Worlds Theory} (PWT) --- Framework from \cite{keltnerPossibleWorldsTheory2025}, which provides a synthetic theory of imagination, defining it as the capacity to construct mental representations not directly perceived through the senses or present in the immediate environment. The imagination is modeled as a cognitive-cultural system that allows for the transcendence of current reality ($\mathcal{R}_{now}$) to construct and evaluate alternative future states ($\mathcal{W}_{alt}$); see also discussion in the PhD thesis of \cite{panayiotouImpossibleWorldsSocial2020}
+    
+    \begin{itemize}
+        \item Semantic Mapping of Imaginative States: Imagination resides in a coordinate system categorizing worlds into \textit{Reality Space} (sensory/empirical), \textit{Abstract Reality} (logic/collective agreement), \textit{Imaginative Space} (fictional/utopian), and \textit{Superreality} (intense personal truth/delusion). Within the \textit{Imaginative Space} subjective belief ($R_s$) and inter-subjective consensus ($R_i$) are minimized, allowing for ''as-if'' simulations, such as imagining counterfactuals (past), prefactuals (future), or ideal states (utopias) 
+        \item[$\rightarrow$] The imagination is activated when life contradicts the grounded self---the cohesive identity that provides a consistent perspective of reality. This can be modeled as a response to deviations ($D$) from sensory, temporal, or causal properties: $\mathcal{I}_{active} = f(\mathcal{D}_{sensory}, \mathcal{D}_{social}, \mathcal{T}, \mathcal{S})$, where $\mathcal{D}_{social}$ represents social trauma or ambiguity,  $\mathcal{T}$ life transitions, $\mathcal{S}$ physical/social deprivation; see also hypothesis of the ''blocked life'' \parencite{amlingerZerstoerungslustElementeDemokratischen2025}
+        \item Unlike standard cognitive constructivism, which focuses on integrating information into existing schemas, the imagination utilizes four distinct operations to recreate reality: (a) Schema Innovation: Creating entirely new cognitive structures not rooted in lived experience, (b) Reality Escape: Generating ''as-if'' worlds for experimentation and exploration, (c) Logical Defiance: Bypassing deductive reasoning for creative leaps or (d) Symbolic Expansion: Reinterpreting cultural symbols (myths, pretense) to evolve shared representations; underlying mechanisms used to recreate reality: \textit{Addition} (exaggeration), \textit{Subtraction} (simplification), \textit{Transposition} (replacement), and \textit{Transmutation} (redefining cause-effect)
+        \item[$\rightarrow$] The ultimate function of the imagination is to move from individual mental states to Shared Realities through the embodiment of feeling states and social interactions (rituals, play)
+        \item \textit{Collective Future Thinking} operationalizes these possible worlds as mental targets for societal regulation. Let $\mathcal{P}_{BAU}$ be the "Business-as-Usual" projection and $\mathcal{U}$ be a Utopian standard: $\Delta \mathcal{G} = \| \mathcal{P}_{BAU} - \mathcal{U} \|$, where $\Delta \mathcal{G}$ represents the \textit{regulatory gap}. If $\Delta \mathcal{G} > \theta$ (a critical threshold), collective imagination triggers cultural innovation \parencite{kashimaCollectiveFutureThinking2025}
+    \end{itemize}
+
+    \item \textbf{Prefigurative Politics} --- The enactment of desired future social relations within current social change practices, involves activists striving to realize aspects of a future society in the ``here and now'' by embodying the socialities and practices they seek for broader society \parencite{centemeriFutureNowIntroduction2024, clarkeEmergentPrefigurativePolitics2025}
+    \begin{itemize}
+        \item Origin term: derived from the Latin \textit{praefigurare} (prefix \textit{prae-}, ``before''; \textit{figurare}, ``to represent'' or ``to depict''), the term literally denotes anticipating or representing future events in the present, in a contemporary political context, the term was first introduced by Carl Boggs in 1977 to describe workers' control strategies in the United States \parencite{monticelliNecessityPrefigurativePolitics2021}
+        \item A critical distinction exists between two modes of prefiguration: (a) \textbf{Planned/Project-based:} Deliberately structured efforts often organized around a clear political program or the establishment of alternative institutions, such as eco-villages, worker cooperatives, or mutual aid networks, (b) \textbf{Emergent/Resistance-based:} Spontaneous prefigurative practices that arise during the course of a struggle or uprising (e.g., the Arab Spring), where social relations are practiced through ongoing resistance rather than a pre-existing program \parencite{clarkeEmergentPrefigurativePolitics2025}
+        \item Key psychological changes/ processes include \parencite{clarkeEmergentPrefigurativePolitics2025}: Empowerment (''fostered a heightened sense of individuals' and groups' ability to effect change, as well as an increased awareness of the contingency of existing arrangements in the face of collective action and participation''), Identity Change (''collective participation and action can fundamentally shift people's self-conceptions in ways that can inform social change processes, including engagement in prefigurative politics''), Positive Sense of Community (''collective action and participation can foster a positive sense of community between group member'')
+        \item[$\rightarrow$] Prefigurative politics operationalizes utopia by collapsing the temporal gap between the means and ends of social change, manifesting "concrete utopias" through the immediate enactment of desired future social relations within current organizational practices \parencite{monticelliNecessityPrefigurativePolitics2021}, as explained in the books by \cite{wrightEnvisioningRealUtopias2010} for ''real Utopias'' and \cite{dinersteinSocialSciencesOther2017} for ''concrete Utopias''
+    \end{itemize}
+
+    \item \textbf{Possible Futures (Futures-Thinking)} --- Defined as a systematic and structured approach to conceptualizing multiple possible future states rather than a single, deterministic outcome. It involves enhancing the human capacity to understand current trajectories and imagine pathways toward alternative and preferable futures, particularly in the context of the current crises in the Anthropocene \parencite{corkExploringAlternativeFutures2023, gumusayImaginingDesirableFutures2024}
+    \begin{itemize}
+        \item[$\rightarrow$] \textbf{Futures Cone:} A taxonomic visualization of future states extending from the present moment. It categorizes futures based on knowledge and value judgments: \textit{Projected:} The 'default' business-as-usual trajectory, \textit{Probable:} Likely to happen based on current trends, \textit{Plausible:} Could happen given current knowledge, \textit{Possible:} Might happen (encompasses "might" vs "impossible"), \textit{Preferable:} Value-led visions of what should happen \parencite{corkExploringAlternativeFutures2023}
+        \item[$\rightarrow$] \textbf{Futures Prism:} Unlike the Futures Cone, the Prism explicitly incorporates the \textit{past}, analyzing how historical path-dependencies and institutional legacies are filtered through present-day techniques of futuring (e.g., modeling, staging) to project specific captured or staged futures. It serves as an analytical tool to identify how the weight of the past constrains present imagination and where cracks in the prism can be utilized to re-configure and open up radical trans-formative pathways \parencite{hajerCapturedFuturesRethinking2025}
+        \item[$\rightarrow$] \textbf{Further Approaches:} Includes scenario planning, backcasting from desirable states, and the use of speculative climate fiction as a form of political theory \parencite{corkExploringAlternativeFutures2023, hatzisavvidouEnvisioningEcopoliticalFutures2024}
+        \item Challenges and Constraints \parencite{corkExploringAlternativeFutures2023}: \textbf{Cognitive Processes:} Human cognition is often biased toward the short-term or the familiar (past-orientation), making it difficult to theorize what is not yet observable, \textbf{Cultural Biases:} Deep-seated cultural narratives and ''social addictions'' can limit the range of imagined possibilities, \textbf{Societal Capability:} like Futures-Consciousness (future-orientation and prospection), Futures-Literacy (normative capacity to improve anticipative processes within organizations) or Institutional Arrangements (structures required to couple futures-thinking with formal decision-making)
+        \item[$\rightarrow$] \textbf{The Vision Vacuum and Captured Futures:} The ''vision vacuum'' denotes a systemic scarcity of credible, shared, and generative Utopian imaginaries. This deficit in social imagination often precipitates existential anxiety and renders societies vulnerable to exclusionary crisis narratives \parencite{amlingerZerstoerungslustElementeDemokratischen2025}, potentially manifesting in a ''global bystander effect'' characterized by collective inaction despite advancing planetary decline \parencite{corkExploringAlternativeFutures2023}. This phenomenon is exacerbated by the perceived incapacity of contemporary institutions to address global challenges. Such institutional failure is frequently rooted in a restrictive technical-rational paradigm that treats the future as a closed set of identifiable risks to be managed via top-down expertise, fostered by vested interests and command-and-control structures create a state of ''captured futures'', locking socio-political trajectories into unsustainable path dependencies \parencite{hajerCapturedFuturesRethinking2025}
+        \item \textbf{Speculative Rigour Criteria:} \textbf{Generative Potency:} The ability to inspire new thoughts and actions, \textbf{Process Transparency:} Clear documentation of the imaginative process, \textbf{Plausible Desirability:} Balancing value-led goals with realistic potential, \textbf{Speculative Plausibility:} Maintaining internal consistency within the imagined future \parencite{corkExploringAlternativeFutures2023}; see also literature on future studies \parencite[e.g.,][]{masiniRethinkingFuturesStudies2006} or scenario approaches  \parencite[e.g.,][]{kosowMethodsFutureScenario2008, wiebeScenarioDevelopmentForesight2018, wrightEthicalDilemmaScenarios2014}
+        \item \textbf{Ecopolitical imaginary} refers to collective visions for sustainable futures that capture how world ordering should be structured in response to climate change, functions as an experiment in political thinking, often used to challenge Eurocentric universalism and colonial logics in global climate governance by proposing pluralistic, decolonized alternative futures \parencite{hatzisavvidouEnvisioningEcopoliticalFutures2024}
+    \end{itemize}
+\end{itemize}
+\end{itemize}
+
+
+\subsection{Methods for Empirical Utopian Research}
+
+\begin{itemize}
+    \item \textbf{correlational research} (latent profile analysis): \cite{fernandoProfilesIdealSociety2023, lizzio-wilsonWhatCouldBe2025}
+    \begin{itemize}
+        \item earlier research identified active ingredients in people’s visions of society’s future (''collective futures'') that could drive political behavior in the present \parencite{bainPromotingProenvironmentalAction2012a, bainCollectiveFuturesHow2013}
+    \end{itemize}
+    \item \textbf{experimental research} using survey scales: \cite{fernandoFunctionsUtopiaHow2018, fernandoGreensSpaceInvaders2020, panayiotouImpossibleWorldsSocial2020, prescottThinkingEcologicalUtopia2025}
+    \item textually \textbf{write out/ describe future Utopias}, e.g. ''Participants were encouraged to be as specific  and vivid as they could in the description of their world, write 200 to 300 words, and spend  approximately five minutes on this task.'' \parencite[p. 40 in][]{panayiotouImpossibleWorldsSocial2020}, ''Participants were first asked to perform a short writing task in which they imagined and described their idea of utopia, “an ideal or best possible society which is hoped or wished for”; they were asked to spend no more than about 5 min on this task. This task was included to make the idea of a utopian society and utopian thinking salient to participants, and to provide context for the subsequent questionnaire'' \parencite[p. 782 in][]{fernandoFunctionsUtopiaHow2018}, ''Participants were asked to imagine as vividly as possible, and to  write a few sentences describing, what life would be like in that society.  In the control condition, participants were asked to describe an ordinary day in their life.'' \parencite[p. 282 in][]{fernandoGreensSpaceInvaders2020}; map writing task to moral foundations \parencite[see][]{panayiotouImpossibleWorldsSocial2020}
+    \item using an \textbf{adapted verbal fluency task}, whereby participants list public events that they recollect from the past and imagine what will happen for their collective in the future \parencite[p. 13ff. in][]{kashimaCollectiveFutureThinking2025}
+    \begin{itemize}
+        \item idea: would also be possible to systematically collect associations via the ''snowball sampling paradigm'' \parencite[see][]{aeschbachMappingMentalRepresentations, wulffSemanticRepresentationRisk2022}
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsection{Collection of Important Frameworks}
+
+
+The \textbf{Identity-Norm Nexus (INN) model} posits that collective action emerges when social identities and injunctive norms become mutually constitutive through validating communication. As illustrated in the framework in \ref{fig:smithWeMustBe2015_Fig1}, the process initiates with a \textit{normative conflict}, which, through social interaction, facilitates the formation of an \textit{opinion-based group}. This interaction validates shared beliefs, leading to the \textit{internalization} of norms that define the group's essence. The resulting nexus ensures that the group's identity is inextricably linked to specific behavioral intentions for social change, effectively transforming psychological alignment into political agency \parencite{smithWeMustBe2015}.
+
+$$
+\text{Identity} + \text{Injunctive Norms} \xrightarrow{\text{Validation}} \text{Collective Action Potential}
+$$
+
+Remark: In social psychology, descriptive norms describe what people actually do, injunctive norms describe what people ought to do based on moral or social values.
+
+
+\vspace{0.1cm}
+    \hrulefill
+\vspace{0.1cm}
+
+The \textbf{Social Psychological Model of Utopian Thinking} shown in Fig. \ref{fig:badaanImaginingBetterSocieties2020_Fig1} posits that the act of imagining a ''better society'' functions as a cognitive and motivational bridge toward social change. The framework integrates four key psychological constructs \parencite{badaanImaginingBetterSocieties2020}:
+
+\begin{enumerate}
+    \item \textbf{Affective Route (Social Hope):} The pathway through which Utopian thinking generates a future-oriented positive emotion (hope), allowing the status quo to be perceived as changeable.    
+    \item \textbf{Cognitive-Motivational Route (High-Level Construal):} A shift toward abstract, goal-oriented thinking that bridges the psychological distance between the current status quo and the distal future.
+    \item \textbf{System Justification:} The psychological motive to defend and bolster existing social, economic, and political arrangements.
+    \item \textbf{Collective Action:} Intentions to engage in behavior aimed at improving the conditions of one's group or society.
+\end{enumerate}
+
+
+\cite{badaanEnvisioningChangeEmpirical2022} conducted an empirical test of this model using Structural Equation Modeling show in Fig. \ref{fig:badaanEnvisioningChangeEmpirical2022_Fig2}, key result: Within the affective-motivational route hope was a significant predictor for reduction in system justification and collective action. Within the cognitive route, although Utopian thinking fostered an abstract mindset, all other parts were not statistically significant. 
+
+\cite{dayshFutureWillBe2024} experimentally examined how both positive (utopian) and negative (dystopian) future-oriented cognitions shape collective action through distinct affective pathways. Across two experimental studies in the context of climate change, the authors demonstrate that utopian thinking reliably increases collective climate action intentions indirectly via heightened hope. Importantly, \cite{dayshFutureWillBe2024} further show that dystopian thinking operates through a parallel but affectively distinct pathway: imagining an undesirable future increases fear, which in turn can motivate collective action. However, both Utopian and dystopian thinking exhibited countervailing emotional effects---Utopian thinking reduced fear, while dystopian thinking diminished hope---often resulting in non-significant total effects on action (tested via an mediation model).
+
+
+
+
+\vspace{0.5cm}
+
+The \textbf{Imagination-to-Hope Model} by \cite{wenzelImaginingPositiveFuture2024} posit, that imagining a positive future acts as a cognitive intervention that fosters hope and commitment to collective action. According to the framework, this process is governed by the interplay of perceived desirability and possibility, which serve as pathways to hope. Drawing on Construal Level Theory \parencite{libermanRoleFeasibilityDesirability1998, tropeConstruallevelTheoryPsychological2010}, the importance of these pathways shifts with temporal distance: the perceived possibility of a goal more strongly predicts hope for near-future scenarios (e.g., 2 years), whereas the desirability of the goal is the primary driver for distant-future aspirations (e.g., 50 years). 
+
+
+$$
+\text{Imagination} \xrightarrow{}
+\text{\{Desirability,} \
+\text{Possibility\}}
+\xrightarrow[]{\text{Temporal Distance}} \text{Hope} 
+$$
+
+
+\textbf{Relationship of two models:} The models proposed by \cite{badaanImaginingBetterSocieties2020} and \cite{wenzelImaginingPositiveFuture2024} are deeply interconnected through the affective-motivational pathway of social change. Both frameworks identify the imagination of a better future as the primary driver for hope, which subsequently serves as a mediator for collective action. A possible explanation for the non-significant findings by \cite{badaanEnvisioningChangeEmpirical2022} of the cognitive route, could be that the effectiveness of cognitive pathways is dependent on temporal distance, whereby a distal Utopian future must be anchored in high desirability.
+
+\vspace{0.1cm}
+    \hrulefill
+\vspace{0.1cm}
+
+Related to previous model: \cite{lizzio-wilsonWhatCouldBe2025} defined \textbf{four content dimensions of Utopian visions}:
+
+\begin{itemize}
+    \item \textbf{Desirability:} Inherent attractiveness, personal appeal, or idealness of an imagined future society. While it is the foundational element of any utopian vision, but other features are needed in conjunction with desirability to produce critique and change.
+    \item \textbf{Beneficence:} The moral and pro-social dimension of a Utopian vision, specifically the extent to which the imagined future promotes the welfare, rights, and ''greater good'' of society as a whole. It represents the transition from a personally pleasant fantasy to a socially responsible alternative.
+    \item \textbf{Innovative:} The cognitive capacity to generate specific, radical, and novel alternatives to the existing social order. It moves beyond the mere desire for change by providing the "how" of societal transformation.
+    \item \textbf{Possible:} Cognitive appraisal that an imagined future is achievable, distinguishing it clearly from probability or certainty. It represents a psychological investment in the actualization of a vision, even when objective success remains uncertain.
+\end{itemize}
+
+Empirically \cite{lizzio-wilsonWhatCouldBe2025} identified multiple empirical profiles (see Fig. \ref{fig:lizzio-wilsonWhatCouldBe2025_Fig2}), indicating that for a vision to lead to collective action (\textit{Change-Oriented} profile), it must be high in all four dimensions. If a vision is high in desirability and innovation but low in beneficence and possibility, it remains escapist, failing to engage the affective-motivational pathway toward social change. 
+
+\vspace{0.1cm}
+    \hrulefill
+\vspace{0.1cm}
+
+The \textbf{Artificial Utopia Framework} proposed by \cite{oswaldArtificialUtopiaSimulation2025} addresses the gap between theoretical Utopian visions and their practical implementation through computational modeling. It posits that current top-down socio-economic systems can be transitioned toward bottom-up, democratized futures by using \textit{Artificial Utopias}---high-fidelity simulation environments populated by Large Language Model (LLM)-based agents. The process functions as an iterative cycle:
+
+\begin{itemize}
+    \item \textbf{Existing Socio-Economic Models:} Represents the status quo characterized by top-down governance and institutional constraints.
+    \item \textbf{Simulation \& AI Agents:} The core mechanism where LLM agents simulate complex human behaviors and social interactions within safe-to-fail laboratories.
+    \item \textbf{Exploration \& Refinement:} An iterative feedback loop that tests different institutional rules and democratic protocols to identify stable, pro-social configurations.
+    \item \textbf{Democratized Futures:} The target state of participatory governance and bottom-up democratization that has been computationally validated.
+\end{itemize}
+
+$$
+\text{Status Quo} + \underbrace{\text{AI Simulation}}_{\text{Refinement}} \xrightarrow{\text{Exploration}} \text{Democratized Future}
+$$
+
+
+As illustrated in Fig. \ref{fig:oswaldArtificialUtopiaSimulation2025_Fig3}, the framework evaluates potential societies across three primary axes of tension:
+
+\begin{itemize}
+    \item \textbf{Economic Logic (Panel A):} Positions utopias within the parameters of \textit{Average Living Standards} and \textit{Inequality}. While value systems vary, the model identifies the Utopian neighborhood as the quadrant characterized by high living standards and low inequality, aligning with egalitarian and sustainable development goals.
+    \item \textbf{Sustainability Logic (Panel B):} Maps the relationship between \textit{Environmental Sustainability} and \textit{Technological Advancement}. This dimension highlights a key trade-off: while Utopias are generally envisioned as ecologically harmonious (Ecotopia), the role of technology ranges from small-scale minimalism to multi-planetary futures.
+    \item \textbf{Political Logic (Panel C):} Evaluates the nexus of \textit{Government Legitimacy} (representation and inclusion) and \textit{Government Efficiency} (effectiveness and resource management). Utopian political systems are defined by their ability to remain representative without sacrificing the capacity to act.
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure*}[!b]
+    \centering
+    \includegraphics[width=0.90\textwidth]{pictures/smithWeMustBe2015_Fig1.JPG}
+    \caption{Communication leading to the formation of shared injunctive norms and social change.}
+    \label{fig:smithWeMustBe2015_Fig1}
+\end{figure*}
+
+\begin{figure*}[!b]
+    \centering
+    \includegraphics[width=0.90\textwidth]{pictures/badaanImaginingBetterSocieties2020_Fig1.JPG}
+    \caption{Proposed theoretical model linking utopian thinking to collective action.}
+    \label{fig:badaanImaginingBetterSocieties2020_Fig1}
+\end{figure*}
+
+\begin{figure*}[!b]
+    \centering
+    \includegraphics[width=0.90\textwidth]{pictures/badaanEnvisioningChangeEmpirical2022_Fig2.JPG}
+    \caption{***p < .001, **p < .01, *p < .05, †p = .066 (marginally significant). Solid lines represent significant direct paths. Dashed lines represent nonsignificant paths. The bidirectional arrow represents the correlated residuals between personal and social hope.}
+    \label{fig:badaanEnvisioningChangeEmpirical2022_Fig2}
+\end{figure*}
+
+\begin{figure*}[!b]
+    \centering
+    \includegraphics[width=0.90\textwidth]{pictures/lizzio-wilsonWhatCouldBe2025_Fig2.JPG}
+    \caption{Overview of the final profiles, outcomes and predictors of profile membership across Phase 1 and Phase 2. Circles represent the latent profiles, and squares represent combinations of observed (measured) variables that are expected outcomes of profile membership.}
+    \label{fig:lizzio-wilsonWhatCouldBe2025_Fig2}
+\end{figure*}
+
+\begin{figure*}[!b]
+    \centering
+    \includegraphics[width=0.90\textwidth]{pictures/oswaldArtificialUtopiaSimulation2025_Fig3.jpg}
+    \caption{The Artificial Utopia Framework: Using AI agents and simulation to bridge the gap between top-down systems and democratized futures.}
+    \label{fig:oswaldArtificialUtopiaSimulation2025_Fig3}
+\end{figure*}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\section{Introduction}
+
+Motivated by \cite{fernandoProfilesIdealSociety2023} the present study experimentally examines in a within-design the endorsement to different Utopia Prototypes and their effect on multiple attitudes like participative efficacy, utopia-motivated behavior, and how these responses relate to comparative or dispositional like measures such as life satisfaction or need for chaos (see Section \ref{sec:methods}). Thereby we assume that the motivational impact of Utopian thinking \parencite[e.g.,][]{fernandoFunctionsUtopiaHow2018} is not uniform but depends on the content of the imagined future:
+
+\begin{itemize}
+    \item \textcite{fernandoGreensSpaceInvaders2020} demonstrated that imagining a Green Utopia---characterized by sufficiency, ecological balance, and human agency---elicits higher participative efficacy and stronger social-change motivation than imagining a technologically abundant Sci-Fi utopia, even when both visions are positively evaluated. \textit{Participative efficacy}, defined as the belief that people like oneself can meaningfully contribute to realizing a collective future \parencite{vanzomerenBelievingMakingDifference2013}, emerged as an important mechanism translating Utopian imagination into action \parencite[see][]{fernandoMoreIdyllSpeculation2019, fernandoGreensSpaceInvaders2020}
+    \item Building on this work, \textcite{fernandoProfilesIdealSociety2023} identified a small number of robust, cross-culturally shared utopia profiles in lay thinking---Modern Green, Primitivist, Futurist, and Religious (and Nondescript)---based on systematic combinations of prototypical elements such as ecology, science, morality, institutions, and religion. These findings suggest that ordinary people’s visions of ideal societies are structured and recurrent rather than idiosyncratic, and that different profiles may afford different levels of perceived agency and responsibility.
+    \begin{itemize}
+        \item[$\rightarrow$] Situating Utopian thinking within the broader framework of \textit{collective future thinking}, imagined Utopias can be understood as end states that guide collective self-regulation by defining what futures are worth pursuing and how present action relates to them \parencite{kashimaCollectiveFutureThinking2025}.  
+    \end{itemize}
+    \item Complementing profile-based approaches, person-centered research on \textbf{self-generated futures} shows that Utopian thinking varies in its orientation toward change: \textcite{lizzio-wilsonWhatCouldBe2025} found that only change-oriented Utopian visions---those perceived as desirable, beneficial for the greater good, innovative, and possible---were associated with system-critical attitudes and willingness to engage in social change, whereas ambivalent or disengaged future visions failed to motivate action.
+    \item Additionally, \cite{panayiotouImpossibleWorldsSocial2020} provides a systematic analysis of \textbf{self-generated possible worlds}---participants’ own imaginings of ideal, worst, or realistic societies---as a vehicle for understanding the psychological functions of Utopian thinking (e.g., psychological distance, abstract construals, orienting attention toward higher-order values, status quo). By employing computerized text analysis (simple predefined dictionaries) on participants’ open-ended descriptions of the imagined possible worlds, \cite{panayiotouImpossibleWorldsSocial2020} coded the moral content of self-generated futures to assess the presence of words associated with the \textit{moral foundations framework} \parencite{atariMoralityWEIRDHow2023, haidtWhenMoralityOpposes2007, landowskaQuantitativeQualitativeAnalysis2024}, which conceptualizes moral reasoning in terms of a small set of evolutionarily grounded value domains: \emph{Harm/Care (Vice)}, \emph{Fairness (Vice)}, \emph{In-group Loyalty (Virtue)}, and \emph{General Morality}. Coding was conducted by computing the raw percentage of foundation-related words relative to the total word count of each response. Differences in the prevalence of moral foundation terms were interpreted as evidence that best and worst possible worlds vary systematically in their reliance on higher-order moral principles.
+\end{itemize}
+
+
+\section{Methods} \label{sec:methods}
+
+
+\subsection{Study Design}
+
+The study employs a within-subject online experiment with participants recruited via Prolific (target $N \approx 300$). Inclusion criteria are: aged 21--35, nationality, current residence in the United States, first language English (around $\sim 11,732$ active last week).
+
+Following the development of the Utopian Prototypes (see Section~\nameref{sec:vignettes}, p.~\pageref{sec:vignettes}), a pre-test is conducted to assess and refine the clarity, plausibility, and readability of the vignette materials (see Section~\nameref{sec:pretest}, p.~\pageref{sec:pretest}). The revised prototypes are then employed in the main study, in which participants are exposed to multiple Utopian Prototypes within a within-subject design (see Section~\nameref{sec:mainstudy}, p.~\pageref{sec:mainstudy}). All outcome and control measures included in the study are described in Section~\nameref{sec:measures} (p.~\pageref{sec:measures}).
+
+
+\subsection{Creation of Vignettes}
+\label{sec:vignettes}
+
+To experimentally examine how distinct Utopian Prototypes shape participative efficacy and utopia-motivated behavior, a set of seven standardized vignettes was constructed. Each vignette represents a theoretically derived vision of an ideal society and captures systematic variation in core societal organizing principles. Specifically, the prototypes comprise (a) science- and technology-oriented utopias, including a \textbf{Futurist Utopia} (science-fiction–inspired) and an \textbf{AI-centered Utopia}; (b) ecologically oriented utopias, including a \textbf{Primitivist Utopia} and a \textbf{Modern Green Utopia}; (c) a \textbf{Religious Utopia}; (d) an \textbf{Institutional law-based Utopia}; and (e) a \textbf{moral or anarchic Utopia}, in which social coordination emerges from shared moral commitment rather than formal authority. The vignettes were designed to capture systematic variation in core societal organizing principles (e.g., technology, ecology, morality, institutions, transcendence) while remaining equivalent in length, narrative structure, and descriptive detail.
+
+Vignette development followed a structured, multi-stage procedure to ensure conceptual validity, internal consistency, and experimental control:
+
+\begin{enumerate}
+    \item \textbf{Theoretical grounding and source synthesis.} A targeted review of psychological, sociological, and political theory on Utopian thinking was conducted (see Section~\nameref{sec:knowledgeBase}, p.~\pageref{sec:knowledgeBase}), with particular emphasis on prior empirical classifications of Utopia Prototypes/ Profiles \parencite{fernandoGreensSpaceInvaders2020, fernandoProfilesIdealSociety2023, kashimaCollectiveFutureThinking2025, lizzio-wilsonWhatCouldBe2025}.
+    
+    \item \textbf{Identification of defining Utopia Prototypes attributes.} For each Utopia Prototype, core defining features were identified apriori (e.g., role of technology, human–nature relations, moral regulation, institutional authority, and agency). These feature sets functioned as constraints (resembling key factors) to ensure that each vignette instantiated its intended profile while avoiding conceptual overlap with other profiles \parencite[see recommendations in][]{kosowMethodsFutureScenario2008, mietznerAdvantagesDisadvantagesScenario2005, schwartzArtLongView1991, wiebeScenarioDevelopmentForesight2018}.
+    
+    \item \textbf{AI-assisted draft generation.} Initial vignette drafts were generated using a Retrieval-Augmented Generation (RAG) pipeline in combination with a large language model (GPT-5.2). The RAG system restricted text generation to the previously synthesized theoretical sources (see also Section~\nameref{sec:knowledgeBase}, p.~\pageref{sec:knowledgeBase}), enabling the production of profile-consistent descriptions while holding constant general narrative style and informational density across vignettes.
+    
+    \item \textbf{Human editorial refinement.} Generated drafts were manually reviewed and edited to improve clarity, neutrality, and stylistic consistency. Edits focused on harmonizing length, readability, and abstraction level, and on removing evaluative language that could bias participants’ responses independently of profile content.
+    
+    \item \textbf{Expert validation.} The refined vignettes were evaluated by experts in social Psychology \textcolor{orange}{and future studies} (including authors of the present study). Feedback addressed conceptual fidelity, unintended framing cues, and plausibility of the societal arrangements described. Revisions were implemented to correct inaccuracies and sharpen profile distinctions.
+
+    \item \textbf{Pretest and manipulation check.} The revised vignettes were pretested in an independent online sample prior to the main study. Participants read a subset of the vignettes and completed (a) profile-identification items assessing whether each vignette was correctly recognized as representing its intended utopia profile, and (b) ratings of clarity, plausibility, and readability. Vignettes that failed to meet predefined criteria for recognizability or equivalence were iteratively revised.
+
+    \item \textbf{Final standardization.} A final consistency check ensured that all vignettes differed exclusively in their underlying Utopia Prototype while remaining matched on surface characteristics (e.g., word count, sentence structure, and descriptive scope). The resulting texts constituted the final stimulus materials used in the online experiment.
+\end{enumerate}
+
+
+\subsubsection{Utopia Prototypes Included in the Study}
+\label{sec:up_study}
+
+Note. The final drafted Utopia Prototypes can be found in the Appendix~\nameref{appendix:finalUtopiaProto} (p.~\pageref{appendix:finalUtopiaProto}). 
+
+The present study employs seven theoretically grounded Utopia Prototypes that represent distinct solutions to fundamental societal collective problems (e.g., allocation of resources, regulation of behavior, and sources of social order). Each vignette depicts an internally coherent ideal society that differs systematically in its dominant organizing principles while remaining comparable in scope and abstraction:
+
+\textcolor{red}{change/ adapt after conducting step 2}
+
+\begin{itemize}
+    \item \textbf{Futurist Utopia.}  
+    A science- and technology-centered society in which continuous innovation, rational planning, and technical mastery are the primary mechanisms for overcoming scarcity and coordinating social life. \\
+    \textit{Key factors:} science/innovation; technological advancement; rational planning; optimization of material well-being; progress/maximization orientation.
+
+    \item \textbf{AI-Centered Utopia.}  
+    A technologically advanced society in which artificial intelligence is central to governance and coordination, enabling data-driven allocation of resources and the management of societal complexity beyond human institutional limits. \\
+    \textit{Key factors:} AI governance/decision-making; algorithmic optimization; efficiency/coordination; reduced human bias; large-scale complexity management.
+
+    \item \textbf{Primitivist (Arcadian) Utopia.}  
+    An ecologically oriented society defined by low technological reliance, small-scale communal organization, and sufficiency-based living in close harmony with nature. \\
+    \textit{Key factors:} minimal technology; simple living/sufficiency; harmony with nature; small-scale communities; low institutionalization (reduced need for formal rules).
+
+    \item \textbf{Modern Green Utopia.}  
+    A sustainability-focused society combining ecological modernization with economic security, in which environmental protection is pursued alongside stable prosperity (e.g., absence of poverty) and selectively adopted technology. \\
+    \textit{Key factors:} ecological sustainability; selective/green technology; moderation (sufficiency rather than excess); economic security/low poverty; long-term human--nature balance.
+
+    \item \textbf{Religious (Millennial) Utopia.}  
+    A society structured around transcendent moral authority and shared religious beliefs, where social order and collective well-being are secured through divine guidance and spiritually grounded norms. \\
+    \textit{Key factors:} transcendent authority; religious norms; spiritual transformation; moral order grounded in faith; (often) supernatural resolution of societal limitations.
+
+    \item \textbf{Institutional (Law-Based) Utopia.}  
+    An ideal society in which robust, legitimate institutions and clear legal frameworks regulate behavior, coordinate collective life, and guarantee outcomes such as fairness, welfare, and stability while assuming persistent human imperfection. \\
+    \textit{Key factors:} formal institutions; rule of law; external behavioral regulation; enforceable sanctions; stability and predictability; ``government of laws''.
+
+    \item \textbf{Moral Commonwealth (Anarchic) Utopia.}  
+    A society in which social coordination emerges from internalized moral commitment and pro-social dispositions rather than from coercive institutions or technological control, minimizing the need for formal governance. \\
+    \textit{Key factors:} intrinsic morality/altruism; internalized regulation (conscience); voluntary cooperation/resource sharing; low coercion; minimal formal authority (anomic tendencies).
+\end{itemize}
+
+
+\subsection{Pre-Test}
+\label{sec:pretest}
+
+    Current Country of Residenceis any ofUnited States
+
+    Nationalityis any ofUnited States
+
+    First Languageis any ofEnglish
+
+    Ageis between18–35
+
+
+
+Prior to the main experiment, an independent pre-test was conducted to evaluate and refine the vignette materials. The primary aim of the pre-test was to ensure that the Utopian Prototypes were (a) clearly understandable and readable, (b) perceived as neutral and free of unintended evaluative bias, (c) differentiated along their intended content dimensions, and (d) correctly recognized as instantiations of their intended utopia profiles.
+
+
+\textcolor{orange}{XXX (plus study design of pre-test)} participants recruited via Prolific read a subset of the drafted vignettes and completed the following assessments:
+
+\begin{itemize}
+    \item[$(a)$] \textbf{Clearly comprehensible and readable}, such that participants could accurately extract the core societal structure, goals, and mechanisms described in each vignette;
+    \item[$(b)$]  \textbf{Perceived as neutral and unbiased}, with no unintended evaluative framing that could systematically favor or disfavor specific prototypes and with high perceived clarity of the information presented \parencite[questions adapted from][]{mercerPublicUnderstandingSolar2011};
+    \item[$(c)$]  \textbf{Systematically differentiated along theoretically defined content dimensions}, specifically desirability, beneficence, innovation, and perceived possibility \parencite{lizzio-wilsonWhatCouldBe2025}, which were measured to verify that the vignettes varied in their intended conceptual features while remaining comparable on surface characteristics;
+    \item[$(d)$]  \textbf{Correctly recognized as instantiations of their intended Utopian Prototype}, as assessed via assignment task in which participants indicated the Utopian Prototype the vignette (text about ideal society) most closely represented. Accuracy and consistency of these judgments were used to evaluate conceptual distinctiveness and to identify potential overlap between prototypes.
+    
+    \vspace{0.5cm}
+    \item \textbf{Psychological distance} \parencite{tropeConstruallevelTheoryPsychological2010} was assessed to ensure that the vignettes were construed as abstract, societally distant visions rather than as proximate, personally actionable scenarios, thereby aligning the stimuli with theoretical accounts of Utopian thinking as high-level, future-oriented mental construals. We assumed that there is not significant different between the Utopian Prototypes \parencite[see p. 40f.][]{panayiotouImpossibleWorldsSocial2020}.
+\end{itemize}
+
+
+
+\subsection{Main Study}
+\label{sec:mainstudy}
+
+
+As shown in Figure~\ref{fig:study_design_utopia}, after a welcome screen and informed consent, participants completed a within-subject procedure in which they viewed seven Utopian Prototypes in random order and evaluated each using \textit{Participative Efficacy} \parencite{fernandoGreensSpaceInvaders2020} and eight profile-indicator attributes \parencite{lizzio-wilsonWhatCouldBe2025}. Subsequently, they ranked the prototypes from least to most desirable and provided audio feedback explaining their ranking and describing any additional utopia not represented, followed by scales  (e.g., life satisfaction, Utopianism, need for chaos) and demographics.
+
+
+\textit{Note:} All utopia vignettes are presented in randomized order to control for sequence effects. The within-subject design allows direct comparison of psychological responses across different future visions within the same individual.
+
+\begin{figure*}[!tb]
+    \centering
+    \includegraphics[width=0.95\textwidth]{pictures/study_design_utopia.jpg}
+    \caption{Main study. Overview of the within-subject study design. Participants are exposed to multiple Utopian Prototypes and subsequently evaluate each, followed by comparative and dispositional measures.}
+    \label{fig:study_design_utopia}
+\end{figure*}
+
+\subsubsection{Task Overview}
+\label{sec:taskOverview}
+
+\begin{enumerate}
+    \item \textbf{Task 1a – Utopia Vignette Exposure (Reading Task)}\\
+    Participants read a series of short, standardized textual vignettes, each describing a distinct vision of an ideal future society (Utopian Prototype). The vignettes are based on previous studies \parencite{fernandoGreensSpaceInvaders2020, fernandoProfilesIdealSociety2023}  and are matched in context, length, narrative style, and readability, differing only in core attributes (see previous sections \nameref{sec:vignettes}, \nameref{sec:up_study} and \nameref{sec:pretest}).
+    
+    \item \textbf{Task 1b – Utopia Evaluation (Survey – Closed Questions)}\\
+    After each vignette, participants evaluate the depicted society using items assessing (see for more details section \nameref{sec:dvL1}):
+
+    \begin{itemize}
+        \item \textbf{Participative Efficacy (Survey – Closed Questions)}\\
+        Participants indicated the extent to which they believed that ordinary people like themselves could meaningfully contribute to realizing the depicted future society. Participative efficacy was assessed with four items adapted from \textcite{fernandoGreensSpaceInvaders2020} (originally based on \textcite{vanzomerenBelievingMakingDifference2013}), for example ''Ordinary people like me can play a part in bringing about this kind of society'' and ''Ordinary people are needed to realize this version of society.'' Responses were recorded on 7-point Likert scales (1 = \textit{strongly disagree}, 7 = \textit{strongly agree}).
+        \item \textbf{Attributes of Utopia (Survey – Closed Questions)}\\
+        Participants further evaluated each depicted society on eight attributes adapted from \textcite{lizzio-wilsonWhatCouldBe2025}. These items assessed the perceived qualitative characteristics of the future vision, including whether the society was perceived as \textit{utopian, desirable, ideal, beneficial for the greater good, imaginative, innovative, creative}, and \textit{possible}.  Responses were recorded on 7-point Likert scales (1 = \textit{strongly disagree}, 7 = \textit{strongly agree}).
+    \end{itemize}
+    
+    \item \textbf{Task 2 – Comparative Preference Task}\\
+    After completing all vignette-specific evaluations, participants completed an ordering task in which they ranked the seven Utopian Prototypes from 1 (\textit{the society/world I'd least like to live in}) to 7 (\textit{the society/world I'd most like to live in}).
+    
+    \item \textbf{Task 3 – Feedback on Rankings (Audio)}\\
+    Participants then provided a brief audio response explaining their ranking, focusing on the key reasons why they preferred certain prototypes over others.
+    
+    \item \textbf{Task 4 – Missing Utopia Elicitation (Audio)}\\
+    Finally, participants were invited to describe any additional type of utopia not represented in the presented set. In a short audio response, they outlined the core features of this alternative future and explained which aspect was especially meaningful or important to them.
+
+    \item \textbf{Task 5 – Scales}\\
+    Participants complete multiple validated scales (see for more details section \nameref{sec:scalesL2}): ''The Satisfaction With Life Scale'' \parencite{dienerSatisfactionLifeScale1985}, ''Generic Job Satisfaction Scale'' \parencite{macdonaldGenericJobSatisfaction1997}, ''Need for Chaos'' \parencite{arceneauxPeopleJustWant2021}, \textcolor{red}{ADD FINALLY}
+
+
+    \item \textbf{Final Questions – Demographics}\\
+    The survey concludes with standard demographic and background variables (e.g., age, gender, education, employment status, dream/ current job).
+\end{enumerate}
+
+
+\subsection{Measures} 
+\label{sec:measures}
+
+
+\textit{Note on hierarchical structure (L1 vs.\ L2): The present study employs a within-subject design in which each participant evaluates multiple Utopian Prototypes (vignettes). Accordingly, the data have a hierarchical (multilevel) structure. Level~1 (L1) variables are vignette-specific responses that are nested within participants and vary across Utopian Prototypes. Level~2 (L2) variables are participant-level responses to scales that do not vary across vignettes and capture (potential) stable individual differences. This distinction is used to clarify the conceptual role of each measure and to inform the statistical modeling of the data.}  
+
+
+\subsubsection{Dependent Variables (L1)}
+\label{sec:dvL1}
+
+\paragraph{Participative Efficacy.}
+Participative efficacy captures the belief that one’s own contribution can make a difference for collective efforts (distinct from group- and individual-efficacy beliefs) and predicts collective action tendencies beyond these related efficacy constructs \parencite{vanzomerenBelievingMakingDifference2013}. After each vignette, participative efficacy was assessed with four items adapted from \textcite{fernandoGreensSpaceInvaders2020} (originally based on \cite{vanzomerenBelievingMakingDifference2013}), for example, ''Ordinary people like me can play a part in bringing about this kind of society'' and ''Ordinary people are needed to realize this version of society.'' Responses were given on 7-point Likert scales (1 = \textit{strongly disagree}, 7 = \textit{strongly agree}) and averaged into a composite score; prior work using this operationalization shows excellent internal consistency (e.g., $\alpha = .94$) \parencite{fernandoGreensSpaceInvaders2020}. Evidence for construct validity is provided by confirmatory factor-analytic tests distinguishing participative efficacy from group and individual efficacy with good model fit (e.g., three-factor solution with CFI $\approx .96$ and substantially worse fit for alternative models) \parencite{vanzomerenBelievingMakingDifference2013}.
+
+\paragraph{Attributes of Utopia.}
+To capture participants’ perceived qualities of each depicted future, they additionally rated eight vignette-level attributes adapted from \textcite{lizzio-wilsonWhatCouldBe2025}: \textit{utopian, desirable, ideal, beneficial for the greater good, imaginative, innovative, creative,} and \textit{possible}. All attributes were measured as single-item indicators on 7-point Likert scales (1 = \textit{strongly disagree}, 7 = \textit{strongly agree}) and analyzed at the vignette level as profile-indicator evaluations of each Utopian Prototype.
+
+
+
+\subsubsection{Scales (L2)}
+\label{sec:scalesL2}
+
+
+\textit{Note. These measures could capture participants’ relative preferences and judgments between the presented utopia profiles; or as dispositional measures assess stable individual traits and orientations. In line with attitude--behavior research, these measures are treated as distal predictors that may moderate vignette-level responses without being reducible to them \parencite{ajzenInfluenceAttitudesBehavior2018}.}
+
+
+
+\paragraph{Need for Chaos}
+
+The focal construct was \emph{Need for Chaos} (NFC), theorized as a characteristic adaptation reflecting desires for ''new beginnings'' achieved via the destruction of established social and political order, especially when status-oriented dispositions are activated under perceived marginalization \parencite{arceneauxPeopleJustWant2021}. Operationalization relied on a validated multi-item NFCChaos battery administered in four nationally representative surveys (US $N{=}5000$, UK $N{=}5105$, Canada $N{=}1045$, Australia $N{=}1100$), with items spanning purposeless destruction, institutional “burn it down” sentiments, and a preference for turbulence. Dimensionality evidence indicated that the indicators cohere as a continuous, unidimensional trait that is positively associated with (yet empirically distinct from) status-relevant antagonistic traits (e.g., Dark Triad), supporting discriminant and nomological validity. To avoid arbitrary thresholds on a continuous scale, case-centered latent profile analysis (mixture modeling with cross-national equality constraints) was used to test whether qualitatively distinct configurations of item endorsement coexist within the single-factor space, yielding a four-profile solution with high classification quality (entropy $\approx 0.985$) and interpretable mean patterns. Substantively, profiles differentiated low endorsement from two separable ''chaos-seeking'' patterns—one oriented toward tearing down institutions to rebuild (Rebuilders; $\sim$8--13\% by country) and another endorsing destruction for its own sake (High Chaos; $\sim$3--10\%)—implying that equivalent total scores may mask distinct motivational signatures relevant for downstream inferences about political participation and extremity \parencite{arceneauxPeopleJustWant2021}.
+
+Recent integrative reviews of the psychology of virality situate the Need for Chaos scale within a broader motivational ecology of information sharing, highlighting that a desire to disrupt social order constitutes one pathway through which high-arousal, antagonistic, and divisive content spreads disproportionately online \parencite{rathjePsychologyVirality2025}. Across contexts, the review emphasizes that chaos-oriented motivations operate alongside status-seeking, identity affirmation, and reputational incentives to promote the diffusion of content that individuals may neither endorse nor enjoy, clarifying the motivational distinctiveness of Need for Chaos relative to affective negativity alone. By embedding Need for Chaos within a unified framework of psychological and environmental drivers of virality, the review reinforces the construct’s explanatory value for understanding why a small subset of individuals can disproportionately amplify socially destabilizing information \parencite{rathjePsychologyVirality2025}.
+
+\begin{itemize}
+    \item Important notes:
+    \begin{itemize}
+        \item  Need for Chaos is\textbf{conceptually related to utopian thinking} insofar as both are motivated by dissatisfaction with the status quo, but whereas utopianism seeks idealized social reconstruction through envisioned alternatives (''Rebuilders''), Need for Chaos prioritizes the destruction of existing order even in the absence of a coherent or positive end state \parencite{arceneauxPeopleJustWant2021}.
+        \item Need for Chaos is best understood as a characteristic adaptation---a relatively stable dispositional orientation rooted in enduring personality traits but contingently activated and amplified by situational experiences of marginalization or status threat, rather than as a purely momentary state or a basic personality trait \parencite{arceneauxPeopleJustWant2021}. 
+    \end{itemize}
+\end{itemize}
+
+
+\paragraph{Need for Chaos---Violence}
+
+\begin{table*}[!tb]
+\centering
+\caption{Adapted Activism and Radicalism Intention Scales (ARIS) items used in the present study}
+\label{tab:aris_adapted_items}
+\begin{tabularx}{\textwidth}{@{} l X @{}}
+\hline
+\textbf{Scale / Item} & \textbf{Wording} \\
+\hline
+\multicolumn{2}{@{}l}{\textit{Stem (for all items):} ``Thinking about the future society I would most like to live in\ldots''} \\
+\hline
+\multicolumn{2}{@{}l}{\textbf{Activism Intentions (AIS-adapted; legal/nonviolent)}} \\
+AIS1 & I would join or belong to an organization that works to promote this kind of society. \\
+AIS2 & I would donate money to organization that works towards this kind of society. \\
+AIS3 & I would volunteer my time (e.g., write petitions, distribute flyers, recruit people, etc.) for an organization that promote this kind of society. \\
+AIS4 & I would travel for one hour to join in a public rally, protest, or demonstration in support of an organization supporting this kind of society. \\
+\hline
+\multicolumn{2}{@{}l}{\textbf{Radicalism Intentions (RIS-adapted; illegal/violent tolerance/willingness)}} \\
+RIS1 & I would continue to support an organization that works toward this kind of society even if the organization sometimes breaks the law. \\
+RIS2 & I would continue to support an organization that works toward this kind of society even if the organization sometimes resorts to violence. \\
+RIS3 & I would participate in a public protest in support of this kind of society even if I thought the protest might turn violent. \\
+RIS4 & I would attack police or security forces if I saw them beating people who were supporting this kind of society. \\
+\hline
+\end{tabularx}
+
+\vspace{0.2cm}
+\raggedright
+\textit{Note.} Items are adapted from the Activism and Radicalism Intention Scales (ARIS; \cite{moskalenkoMeasuringPoliticalMobilization2009}) to match the present study's utopia-based framing.
+\end{table*}
+
+
+Goal is to distinguish:
+
+\begin{itemize}
+    \item Builder = wants radical change but with a constructive end-state; Builder-like profile: high NFC + higher AIS (and possibly some RIS), but paired with constructive utopian endorsement
+    \item Nihilist = destructive orientation without coherent reconstruction; Nihilist-like profile: high NFC + low constructive utopianism, possibly high RIS / low AIS, plus stronger generalized destructiveness
+\end{itemize}
+
+\textit{Activism and Radicalism Intention Scales} (ARIS; \cite{moskalenkoMeasuringPoliticalMobilization2009}) is a well-established instrument that explicitly distinguishes between (a) \textit{Activism} intentions (legal, non-violent political action) and (b) \textit{Radicalism} intentions (illegal and/or violent political action). In the original validation, Moskalenko and McCauley reported a consistent two-component structure (Activism vs.\ Radicalism) based on exploratory principal component analyses with oblimin rotation, with clear item separation and moderate factor correlations (e.g., $r=.33$ to $.36$ across studies). Internal consistency was good in the initial and larger validation samples (e.g., Study~1: AIS $\alpha=.86$, RIS $\alpha=.83$; Study~3: AIS $\alpha=.89$, RIS $\alpha=.84$), with somewhat lower reliabilities in one cross-national target-specific application (e.g., country target in Study~2: AIS $\alpha=.72$, RIS $\alpha=.70$) \parencite{moskalenkoMeasuringPoliticalMobilization2009}. To match the present study's goal of evaluation multiple Utopian Prototypes the items have been systematically adapted, see Table \ref{tab:aris_adapted_items} (page \pageref{tab:aris_adapted_items}). 
+
+
+
+\paragraph{The Satisfaction With Life Scale}
+
+The Satisfaction With Life Scale (SWLS) was developed to operationalize life satisfaction as a global, cognitive–judgmental component of subjective well-being, conceptually distinct from affective states and domain-specific satisfactions \parencite{dienerSatisfactionLifeScale1985}. Item generation was initially broad and theory-driven, drawing on prior distinctions between affective and cognitive evaluations of well-being, after which iterative empirical refinement excluded affect-laden and weakly loading items, resulting in a five-item unidimensional scale. Exploratory factor analytic evidence supported a single-factor structurs. Internal consistency reliability was high across samples (e.g., Cronbach’s $\alpha \approx .87$), and test–retest stability over a two-month interval provided evidence for temporal reliability appropriate to a trait-like evaluative judgment. Convergent validity was demonstrated through moderate to strong associations with other life satisfaction measures and global happiness indicators, while discriminant validity was supported by weaker relations with affect intensity and social desirability \parencite{dienerSatisfactionLifeScale1985}.
+
+
+\textcite{dienerTheoryValidityLife2013} argue that life satisfaction scales capture chronically accessible, value-weighted evaluations of life circumstances rather than transient moods or arbitrary survey responses. Converging evidence demonstrates that these judgments systematically covary with objective life conditions at individual and societal levels (e.g., income, health, political freedom), show predictable changes following major life events, and meaningfully predict future outcomes such as health, longevity, and suicide risk. Although life satisfaction reports are influenced by contextual factors (e.g., question order, momentary salience, judgment standards), these effects are typically small, controllable, and theoretically informative rather than indicative of invalid measurement \parencite{dienerTheoryValidityLife2013}.
+
+Building on longstanding use of the Satisfaction With Life Scale, \textcite{margolisNewMeasureLife2019} argue that traditional life satisfaction measures may under-represent the conceptual breadth of the construct by relying primarily on direct, positively worded items. They propose that life satisfaction is more fully captured when indirect indicators—such as regret about past choices, envy of others’ lives, and desire to change one’s life path—are incorporated alongside explicit satisfaction judgments. This broader operationalization is theoretically motivated by the view that genuine life satisfaction entails not only affirmative endorsement of one’s life, but also the relative absence of dissatisfaction-related cognitions. Empirically, the authors demonstrate that such indirect items load on the same underlying factor as direct indicators, preserve uni-dimensionality, and enhance construct bandwidth while reducing acquiescence bias, without sacrificing reliability or temporal stability \parencite{margolisNewMeasureLife2019}.
+
+$\Rightarrow$ newer measure by \textcite{margolisNewMeasureLife2019} not needed
+
+
+
+\paragraph{Generic Job Satisfaction Scale}
+
+The construct of \emph{generic job satisfaction} was operationalized as a brief, cross-occupational index that emphasizes employees' subjective evaluations of salient job facets (e.g., recognition, interpersonal relations, security, and perceived health and pay adequacy) rather than objective job conditions \parencite{macdonaldGenericJobSatisfaction1997}. Item development began with a literature-derived and employee-informed pool of 44 Likert-type statements intended to sample broadly from commonly cited satisfaction facets while remaining applicable across heterogeneous occupations. Dimensionality was evaluated via exploratory factor analyses using multiple extraction and rotation strategies to prioritize factor stability, yielding a robust primary factor that supported interpreting the instrument as a unidimensional measure of overall satisfaction. Redundant items were removed on conceptual grounds (near-duplicate content) to preserve domain coverage without inflating length, resulting in a 10-item scale with acceptable internal consistency (Cronbach's $\alpha=.77$) given the intentional heterogeneity of item content. Construct validity evidence was provided by systematic associations with theoretically adjacent workplace affect variables (e.g., isolation, boredom, perceived danger, job security) and general well-being indicators, alongside negligible mean differences across gender and major occupational groupings, consistent with the scale's intended generic applicability \parencite{macdonaldGenericJobSatisfaction1997}.
+
+Systematic review evidence positions the Generic Job Satisfaction Scale as a psychometrically adequate but deliberately narrow global measure within a highly fragmented field of job satisfaction instruments \parencite{vansaaneReliabilityValidityInstruments2003}. Reviews indicate that while such generic scales typically achieve acceptable internal consistency and construct validity, they provide limited coverage of specific work factors and rarely demonstrate responsiveness to change, constraining their evaluative use in intervention studies. Consequently, the GJSS is best interpreted as a parsimonious indicator of overall job satisfaction suited for comparative and correlational research rather than fine-grained diagnostic assessment \parencite{vansaaneReliabilityValidityInstruments2003}.
+
+
+\paragraph{Environmental Cognitive Alternatives Scale}
+
+Guided by Social Identity Theory (SIT) accounts of cognitive alternatives as antecedents of collective action \parencite{turnerSocialComparisonGroup1979}, the Environmental Cognitive Alternatives Scale (ECAS) operationalized perceived imaginability of subjectively positive, system-level alternatives to current human--nature status relations using a deliberately content-diverse item pool (36 statements) \parencite{wrightImaginingSustainableWorld2020}. Dimensionality was evaluated via exploratory factor analysis, with low-loading indicators removed (cutoff $<.50$) and remaining candidates screened for redundancy, skewness, and domain balance, yielding a parsimonious 10-item, single-factor solution explaining 58\% of item variance (mean inter-item $r=.53$, mean loading $=.73$). In an independent sample, confirmatory factor analysis supported this unidimensional measurement model, and a theoretically motivated correlated residual between two policy-focused items improved fit to conventional criteria. Internal consistency was high ($\alpha=.93$), and convergent validity was indicated by strong associations with open-ended indicators of generated alternatives (e.g., correlations with response quantity/length), while the broader nomological network showed theoretically patterned relations with identification and legitimacy/stability appraisals central to SIT-based collective action models \parencite{wrightImaginingSustainableWorld2020}.
+
+Building on social identity theory, the article argues that support for environmental social change depends not only on recognizing environmental harm but on the perceived imaginability of plausible, positive alternatives to the current human–nature relationship, termed environmental cognitive alternatives (ECA), which function as a precondition for politicized collective action \parencite[ECA first came up by SIT, see:][]{turnerSocialComparisonGroup1979}. Across three preregistered experiments, experimentally elevating access to ECA causally increased identification with environmental activists, which in turn mediated effects on willingness to engage in activism and opposition to fossil fuel infrastructure, demonstrating that identity processes are the primary pathway through which imagined alternatives translate into social change behavior. The authors further argue that ECA effects are distinct from general hope, threat perception, or system legitimacy, as manipulations selectively influenced theoretically proximal constructs while leaving distal appraisals largely unchanged, thereby supporting construct specificity and theoretical precision \parencite{lutzExperimentallyElevatingEnvironmental2025}. 
+
+
+\begin{itemize}
+    \item Important notes:
+    \begin{itemize}
+        \item With respect to utopia, the article conceptualizes utopian thinking as a special case of cognitive alternatives—one that provides idealized societal visions capable of delegitimizing the status quo and orienting collective goals, but argues that ECA need not be purely utopian and may operate through concrete, subjectively plausible futures \parencite{lutzExperimentallyElevatingEnvironmental2025}
+    \end{itemize}
+\end{itemize}
+
+
+
+\paragraph{System Justification Scale}
+
+System justification was operationalized as a situationally sensitive endorsement of the fairness, legitimacy, and functional adequacy of the prevailing U.S. social order, consistent with system justification theory’s emphasis on motivated defense of the status quo beyond ego- and group-justification processes \parencite{kayComplementaryJusticeEffects2003}. Participants completed an eight-item System Justification--America scale capturing generalized system legitimacy beliefs (e.g., perceived societal fairness and deservedness) with two reverse-keyed statements to attenuate acquiescence, and scores were aggregated to form a unitary index. Internal consistency for this composite was acceptable to high across studies (e.g., $\alpha=.87$ in Study~1; $\alpha=.75$ in Studies~2 and~4; $\alpha=.86$ in Study~3). Evidence for construct validity was provided via strong convergent association with global belief in a just world (BJW; $r=.67$) and a weaker but non-redundant relation to a balance/complementarity belief measure ($r=.37$; partial $r=.21$ controlling for BJW), consistent with the interpretation that the scale captures system-directed legitimation distinct from adjacent equilibrium beliefs \parencite{kayComplementaryJusticeEffects2003}.
+
+The core argument advanced by \textcite{jostDecadeSystemJustification2004} is that social and political attitudes cannot be adequately explained by self-interest or group-based motives alone, because individuals are also driven by a pervasive motivation to defend, legitimize, and rationalize the existing social order. Synthesizing a decade of empirical evidence, the authors demonstrate that system justification operates at both conscious and non-conscious levels and is often strongest among members of disadvantaged groups, as reflected in phenomena such as implicit out-group favoritism and the internalization of inequality. They argue that this motive helps explain widespread acquiescence to social hierarchies, resistance to change, and the ideological legitimation of inequality, even when such arrangements conflict with personal or collective interests. By distinguishing ego-, group-, and system-justification motives, the article provides a unifying framework that accounts for paradoxical patterns overlooked by social identity and social dominance theories \parencite{jostDecadeSystemJustification2004}. 
+
+Substantive cross-national conclusions drawn from the General System Justification Scale (G-SJS) are methodologically fragile   because the scale fails to demonstrate scalar measurement equivalence across countries, despite showing acceptable internal consistency and partial metric invariance.  This critique is theoretically consequential because system justification theory aspires to describe general psychological processes across societies, yet its most widely used measure may conflate system legitimacy beliefs with context-dependent constructs such as national attachment. Empirically, the authors further argue that inconsistent correlations with political orientation and collective action indicators across countries undermine assumptions about the universality of system justification’s ideological correlates \parencite{vesperUseGeneralSystem2022}. 
+
+
+
+\paragraph{Utopianism and Anti-utopianism.}
+Dispositional orientations toward utopian thinking were assessed using the Utopianism Scale developed by \cite{fernandoFunctionsUtopiaHow2018}. The scale captures individual differences in attitudes toward, and engagement with, imagining ideal societies, distinguishing between a positive orientation toward utopian thinking (\textit{Utopianism}) and skepticism regarding its potential consequences (\textit{Anti-utopianism}). This distinction reflects theoretical accounts proposing that utopian thought can serve multiple psychological functions---namely change, criticism, and compensation---by motivating societal improvement, enabling critique of current social arrangements, or providing psychological escape from present realities \parencite{levitasConceptUtopia2010}.
+
+The \textbf{Utopianism} subscale measures the perceived value and personal practice of engaging in utopian thought. Example items include: ''I often think about what an ideal society might look like,'' ''I spend a lot of time thinking about an ideal society,'' and ''It is important that people think about an ideal version of society.'' 
+
+The \textbf{Anti-utopianism} subscale assesses critical or cautionary beliefs about utopian thinking, reflecting concerns that idealized visions may be unrealistic or socially harmful. Example items include: ''Dreaming about an ideal society could be dangerous,'' ''Focusing on an ideal society can have negative consequences,'' and ''People shouldn’t try to envision an ideal society.''
+
+Participants responded on 7-point Likert scales (1 = \textit{strongly disagree}, 7 = \textit{strongly agree}). Consistent with prior validation work, factor analyses support a two-factor structure separating Utopianism and Anti-utopianism, which are modestly negatively correlated but empirically distinct constructs rather than opposite poles of a single dimension. Internal consistencies reported in the original validation studies were good to excellent, Utopianism: $\alpha = .79$–$.86$; Anti-utopianism: $\alpha = .78$–$.82$ across samples \parencite{fernandoFunctionsUtopiaHow2018}.
+
+
+
+
+
+
+
+
+
+
+
+\textcolor{red}{CONTINUE HERE - update set of possible measures !!!!!!!!!!!!!!!!!!!!!!!!!!}
+
+
+\textcolor{red}{decide on a final set of scales}
+
+\paragraph{XX - Pias Scales}
+
+
+\paragraph{XX - Collective Action}
+
+blub
+
+\begin{itemize}
+    \item Participants were asked to rate the likelihood (1 = very unlikely,  7 = very likely) that they would engage in 10 different pro‐environmental behaviours in the next 12 months (e.g., “sign a petition in  support of protecting the environment”, “give money to an environmental group”). The items were adapted from \textcite{bainCobenefitsAddressingClimate2016}, and  showed adequate reliability, $\alpha = .94$ \parencite{fernandoGreensSpaceInvaders2020}
+\end{itemize}
+
+
+
+
+
+\subsection{Training-occupation---Utopia match}
+
+\begin{itemize}
+    \item Training-occupation match
+    \begin{itemize}
+        \item Is your current job related to your field of study/training? Yes/No/Partly
+        \item Likert Scale “To what extent is your current job related to your field of study/training? Not at all related/slightly related/moderately related/strongly related/completely related
+        \item Two Step -> Field of training/study? ; Current occupation/job title? ; Relationship between training and current job: directly related/indirectly related/not related
+    \end{itemize}
+    \item Zusätzlich zu "Alter" noch fragen "Do you have children?"
+\end{itemize}
+
+
+\begin{itemize}
+    \item job satisfaction for current occupation?
+    \item job occupation - differentiate:
+    \begin{itemize}
+        \item current job
+        \item qualification
+        \item dream job in Utopian/ dream world
+        \item see classification schema:
+        \begin{itemize}
+            \item Germany: \url{https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/Publikationen/Publikationen-Nav.html}
+            \item OECD: \url{https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en/full-report/classification-and-definitions-of-occupations-and-educational-levels_3721b665.html}
+        \end{itemize}
+    \end{itemize}
+    \item 
+    \item real behavior task: charities well known in UK? - \textcolor{red}{ask Fernando}
+\end{itemize}
+
+
+
+
+
+
+
+
+
+\section{Potential Outcomes and Implications}
+
+
+\textbf{Outcomes:}
+
+
+\begin{itemize}
+    \item It is expected that Utopian Prototypes emphasizing self-determination and human agency (Primitivist, Modern Green) will elicit higher participative efficacy and stronger utopia-motivated behavior than externally determined visions (Religious, Science/Futurist). Therefor, some Utopian Prototypes are strongly correlated.
+    \item  Preferences for specific profiles are expected to predict differences in motivation and behavioural intentions. For the Nondescript profile, two subgroups are anticipated: one characterized by high life satisfaction and low willingness to change, and another by low life satisfaction and disengagement, strongly correlated with ''need for chaos''.
+    \item ...
+\end{itemize}
+
+
+\textbf{Implications:}
+
+\begin{itemize}
+    \item The project aims to clarify how the content of utopian visions influences perceived agency and motivation for social change. By linking utopia profiles to psychological correlates, the study contributes to understanding how future narratives can either foster engagement or reinforce disengagement (e.g., like destructive tendencies).
+    \item  The findings are expected to inform the strategic use of Utopian narratives in political, social, and environmental communication to counteract pessimistic future imaginaries and support constructive collective action.
+    \item ...
+\end{itemize}
+
+
+
+\clearpage
+\printbibliography
+
+
+\clearpage
+\appendix
+
+\section{Utopia Prototypes Included in the Study}
+\label{appendix:finalUtopiaProto}
+
+\textcolor{red}{will be added}
+\end{document}
