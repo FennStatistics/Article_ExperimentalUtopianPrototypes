@@ -1,5 +1,5 @@
 /* global variables */
-const numElements = 43;
+const numElements = 60;
 var numElementsCounter = 0;
 var URLparams_global;
 var paracountclicks = 0;
@@ -34,6 +34,10 @@ const study = new lab.flow.Sequence({
   },
   plugins: [new lab.plugins.Metadata()],
   content: [
+        JobBackground_htmlForm,
+    SocioDemo_htmlForm,
+
+    
     Greetings_htmlForm,
     InformCon_htmlForm,
     InformConsentNO_htmlForm,
@@ -46,7 +50,8 @@ const study = new lab.flow.Sequence({
     RankingTask_htmlForm,
     FeedbackAudio1Placeholder_htmlForm,
     FeedbackAudio2Placeholder_htmlForm,
-    ARISScale_htmlPage,
+    Sequence_Scales,
+    JobBackground_htmlForm,
     SocioDemo_htmlForm,
     FeedbackScreen_htmlScreen,
     EndingScreen_htmlScreen,
