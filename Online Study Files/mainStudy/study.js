@@ -39,8 +39,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-    CMQ_Scale_htmlForm, 
-
+SocioDemo_htmlForm,
 
     Greetings_htmlForm,
     InformCon_htmlForm,
@@ -60,7 +59,6 @@ const study = new lab.flow.Sequence({
     // dispositional scales L2
     Sequence_Scales,
     // socio demographic-questions
-    JobBackground_htmlForm,
     SocioDemo_htmlForm,
     // ending screen
     FeedbackScreen_htmlScreen,
