@@ -41,6 +41,14 @@ const study = new lab.flow.Sequence({
   content: [
 SocioDemo_htmlForm,
 
+    FeedbackAudio2Placeholder_htmlForm,
+
+
+        TransitionToScenario_htmlForm,
+    loop_Scenarios,
+
+
+
     Greetings_htmlForm,
     InformCon_htmlForm,
     InformConsentNO_htmlForm,
