@@ -1,5 +1,5 @@
 /*
-################### Main-study scales ###################
+################### Main-study scales (revised, lab.html.Form) ###################
 */
 
 function updateProgress() {
@@ -15,6 +15,16 @@ function submitToJatosIfAvailable() {
   }
 }
 
+// Fisher–Yates shuffle for randomizing item order per vignette
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 const likertAnchors = [
   "Strongly disagree",
   "Disagree",
@@ -25,16 +35,19 @@ const likertAnchors = [
   "Strongly agree",
 ];
 
-const attitudinalItems = [
-  { label: "I would like to live in a society like this.", coding: "att_live_in" },
-  {
-    label: "I can imagine having a satisfying life in this society.",
-    coding: "att_satisfying_life",
-  },
-  {
-    label: "I would support societal changes toward this kind of future.",
-    coding: "att_support_change",
-  },
+// --- Attribute items (5 retained + 1 added from former attitudinal block) ---
+// Based on pretest η² values: kept Utopian, Desirable, Ideal, Innovative
+// (strongest differentiators) plus Beneficial-for-greater-good (Lizzio-Wilson
+// beneficence dimension). Dropped: Creative, Imaginative (redundant with
+// Innovative), Possible (η² = 0.01, no differentiation).
+// Added: att_live_in (personal-fit evaluation, retained from prior attitudinal set).
+const attributeItems = [
+  { label: "This society is utopian.", coding: "att_utopian" },
+  { label: "This society is desirable.", coding: "att_desirable" },
+  { label: "This society is ideal.", coding: "att_ideal" },
+  { label: "This society is beneficial for the greater good.", coding: "att_beneficial" },
+  { label: "This society is innovative.", coding: "att_innovative" },
+  { label: "I would want to live in a society like the one just described.", coding: "att_live_in" },
 ];
 
 const participativeEfficacyItems = [
@@ -50,96 +63,171 @@ const participativeEfficacyItems = [
   { label: "Ordinary people are needed to realize this version of society.", coding: "pe4" },
 ];
 
-const attributeItems = [
-  { label: "This society is utopian.", coding: "att_utopian" },
-  { label: "This society is desirable.", coding: "att_desirable" },
-  { label: "This society is ideal.", coding: "att_ideal" },
-  { label: "This society is beneficial for the greater good.", coding: "att_beneficial" },
-  { label: "This society is imaginative.", coding: "att_imaginative" },
-  { label: "This society is innovative.", coding: "att_innovative" },
-  { label: "This society is creative.", coding: "att_creative" },
-  { label: "This society is possible.", coding: "att_possible" },
-];
+// --- Helper: build a Likert table block as HTML string ---
+// Renders one Likert grid (rows = items, columns = anchors) inside the
+// existing #page-form, so lab.js still collects responses on submit.
+function buildLikertBlock(blockName, blockLabel, items, anchors) {
+  const shuffled = shuffleArray(items);
+ let html = `
+    <div class="page-item page-item-likert locked-block" style="margin: 24px auto; width: 70%; padding: 16px; border: 1px solid #ccc; border-radius: 6px; background: #f0f0f0; transition: background-color 0.8s ease;">
+      <div class="page-item-question" style="margin-bottom: 12px; font-weight: 600;">
+        ${blockLabel}
+      </div>
+      <table class="likert-table" style="width:100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th></th>
+            ${anchors
+              .map(
+                (a) =>
+                  `<th style="font-size: 0.85em; padding: 4px; text-align:center;">${a}</th>`,
+              )
+              .join("")}
+          </tr>
+        </thead>
+        <tbody>
+  `;
+  shuffled.forEach((item) => {
+    html += `<tr>
+      <td style="padding: 8px; text-align: left;">${item.label}</td>`;
+    anchors.forEach((_, idx) => {
+      const value = idx + 1;
+      html += `<td style="text-align: center; padding: 6px;">
+        <input type="radio" name="${item.coding}" value="${value}" required>
+      </td>`;
+    });
+    html += `</tr>`;
+  });
+  html += `
+        </tbody>
+      </table>
+    </div>
+  `;
+  return html;
+}
 
-const Attitudinal_htmlPage = new lab.html.Page({
-  title: "L1 Attitudinal Items",
-  items: [
-    {
-      required: Required_Testing,
-      type: "likert",
-      items: attitudinalItems,
-      width: "7",
-      anchors: likertAnchors,
-      label: "Please answer the following items about the society you just read.",
-      name: "attitudinal_items",
-    },
-  ],
-  submitButtonText: "Continue ->",
-  submitButtonPosition: "right",
-  width: "l",
-  messageHandlers: {
-    commit: () => {
-      study.options.datastore.set("vignette_id_for_attitudes", codingFutureSociety);
-      updateProgress();
-    },
-  },
-});
+// --- Combined component HTML template ---
+// Scenario at top, then the two Likert blocks injected inside #page-form.
+function buildCombinedScenarioHTML() {
+  const peBlock = buildLikertBlock(
+    "participative_efficacy",
+    "Indicate how much each statement applies to the society described above.",
+    participativeEfficacyItems,
+    likertAnchors,
+  );
+  const attrBlock = buildLikertBlock(
+    "attribute_ratings",
+    "Indicate how much you agree about ordinary people's role in shaping this society.",
+    attributeItems,
+    likertAnchors,
+  );
 
-const ParticipativeEfficacy_htmlPage = new lab.html.Page({
-  title: "L1 Participative Efficacy",
-  items: [
-    {
-      required: Required_Testing,
-      type: "likert",
-      items: participativeEfficacyItems,
-      width: "7",
-      anchors: likertAnchors,
-      label: "Please answer the following items about the same society.",
-      name: "participative_efficacy",
-    },
-  ],
-  submitButtonText: "Continue ->",
-  submitButtonPosition: "right",
-  width: "l",
-  messageHandlers: {
-    commit: () => {
-      study.options.datastore.set("vignette_id_for_pe", codingFutureSociety);
-      updateProgress();
-    },
-  },
-});
+  return `
+    <header>
+      <h2>Please read the following text carefully. All questions below refer to this future society.</h2>
+    </header>
 
-const AttributeRatings_htmlPage = new lab.html.Page({
-  title: "L1 Attribute Ratings",
-  items: [
-    {
-      required: Required_Testing,
-      type: "likert",
-      items: attributeItems,
-      width: "7",
-      anchors: likertAnchors,
-      label: "Please rate the following statements about the same society.",
-      name: "attribute_ratings",
-    },
-  ],
-  submitButtonText: "Continue ->",
-  submitButtonPosition: "right",
-  width: "l",
+    <main class="content-horizontal-center content-vertical-center">
+      <div class="w-xxl text-justify">
+        <div class="page-item page-item-likert"
+             style="padding: 16px;
+                    border: 1px solid #ccc; border-radius: 6px;
+                    background: #fafafa; margin-bottom: 24px;">
+          <div class="concept">
+            <h2 id="vignette_title">XX</h2>
+            <p id="vignette_first">XX1</p>
+            <p id="vignette_second">XX2</p>
+            <p id="vignette_third">XX3</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="read-notice" style="text-align:right; font-size:18px;
+         margin: 8px 5% 16px 5%; color:#666;">
+      Please read the text carefully. The questions below become active after 15 seconds.
+    </div>
+
+    <form id="page-form">
+      ${attrBlock}
+      ${peBlock}
+    </form>
+
+    <footer class="content-vertical-center content-horizontal-right">
+      <div class="w-xl text-justify" style="font-size:26px;">
+        Do not press "Continue" until you have read the text and answered all questions.
+      </div>
+      &nbsp;
+      <button id="continue" type="submit" form="page-form">
+        Continue &rarr;
+      </button>
+    </footer>
+  `;
+}
+
+var counter = 0;
+
+const CombinedScenarioForm = new lab.html.Form({
+  title: "Scenario + Evaluations",
+  content: buildCombinedScenarioHTML(),
   messageHandlers: {
     run: () => {
+      // --- 1. Determine which vignette to display ---
+      if (
+        URLparams_global !== undefined &&
+        URLparams_global.futureSocietyCondition !== undefined
+      ) {
+        futureSocietyCondition = URLparams_global.futureSocietyCondition;
+      } else {
+        futureSocietyCondition =
+          arrayFutureSocieties[index_futureSocieties[counter]].Vignette;
+      }
+      const currentSociety = different_futureSocieties[futureSocietyCondition];
+      codingFutureSociety = currentSociety.Vignette;
+
+      // --- 2. Inject vignette text ---
+      var trialNumber = counter + 1;
+      $("#vignette_title").html(`${genericHeader} (${trialNumber} of ${totalVignettes})`);
+      $("#vignette_first").html(currentSociety.Vignette_text1);
+      $("#vignette_second").html(currentSociety.Vignette_text2);
+      $("#vignette_third").html(currentSociety.Vignette_text3);
+
+      window.currentTrialNumber = trialNumber;
+      counter++;
+
+   // --- 3. Hide Continue button + disable inputs for 15 seconds ---
+const submitBtn = document.querySelector("#continue");
+if (submitBtn) submitBtn.style.visibility = "hidden";
+
+const inputs = document.querySelectorAll("#page-form input");
+inputs.forEach((el) => (el.disabled = true));
+
+const lockedBlocks = document.querySelectorAll(".locked-block");
+
+setTimeout(() => {
+  if (submitBtn) submitBtn.style.visibility = "visible";
+  inputs.forEach((el) => (el.disabled = false));
+  lockedBlocks.forEach((el) => el.classList.add("unlocked"));
+  const notice = document.getElementById("read-notice");
+  if (notice) notice.style.display = "none";
+}, 15000);
+
+      // --- 4. Click-tracking for the question blocks ---
       paracountclicks = 0;
-      document.querySelectorAll("input").forEach((item) => {
+      document.querySelectorAll("#page-form input").forEach((item) => {
         item.addEventListener("click", () => {
           paracountclicks++;
         });
       });
     },
     end: () => {
-      const numberItems = document.querySelectorAll("tbody tr").length;
+      const numberItems = document.querySelectorAll("#page-form tbody tr").length;
       study.options.datastore.set("para_countclicks", paracountclicks - numberItems);
     },
     commit: () => {
-      study.options.datastore.set("vignette_id_for_attributes", codingFutureSociety);
+      study.options.datastore.set("condition_FutureSociety", codingFutureSociety);
+      study.options.datastore.set("vignette_order_position", window.currentTrialNumber);
+      study.options.datastore.set("vignette_id", codingFutureSociety);
       updateProgress();
       submitToJatosIfAvailable();
     },
@@ -149,12 +237,7 @@ const AttributeRatings_htmlPage = new lab.html.Page({
 const SequenceLoop_Scenarios = new lab.flow.Sequence({
   title: "Sequence Loop Scenarios",
   shuffle: false,
-  content: [
-    ScenarioText_htmlForm,
-    Attitudinal_htmlPage,
-    ParticipativeEfficacy_htmlPage,
-    AttributeRatings_htmlPage,
-  ],
+  content: [CombinedScenarioForm],
 });
 
 const loop_Scenarios = new lab.flow.Loop({

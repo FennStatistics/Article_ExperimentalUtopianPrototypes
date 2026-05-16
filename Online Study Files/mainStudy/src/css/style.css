@@ -1,15 +1,22 @@
-#undUtopiaGeneral, #undUtopiaGoal, #undUtopiaHow, #clearUtopiatext, #biasUtopiatext {
+#undUtopiaGeneral,
+#undUtopiaGoal,
+#undUtopiaHow,
+#clearUtopiatext,
+#biasUtopiatext {
   font-size: 22px;
   padding: 10px;
 }
 
-#biasUtopia, #clearUtopia {
+#biasUtopia,
+#clearUtopia {
   font-size: 24px;
   line-height: 1.4;
   padding: 6px 10px;
   height: auto;
 }
-#biasUtopia, #clearUtopia option {
+
+#biasUtopia,
+#clearUtopia option {
   font-size: 24px;
 }
 
@@ -247,14 +254,14 @@ footer #continue {
   transform: translateY(0);
 }
 
-.visual-traps .trap-option input[type="radio"]:checked + .trap-option-card {
+.visual-traps .trap-option input[type="radio"]:checked+.trap-option-card {
   background: var(--trap-card-bg-checked);
   border-color: var(--trap-accent-dark);
   border-width: 3px;
   box-shadow: 0 0 0 3px rgba(34, 153, 84, 0.16), 0 10px 22px rgba(0, 0, 0, 0.08);
 }
 
-.visual-traps .trap-option input[type="radio"]:focus-visible + .trap-option-card {
+.visual-traps .trap-option input[type="radio"]:focus-visible+.trap-option-card {
   outline: 3px solid rgba(0, 90, 156, 0.35);
   outline-offset: 2px;
 }
@@ -395,10 +402,12 @@ footer #continue {
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(255, 99, 71, 0.55);
   }
+
   70% {
     transform: scale(1.04);
     box-shadow: 0 0 0 16px rgba(255, 99, 71, 0);
   }
+
   100% {
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(255, 99, 71, 0);
@@ -899,4 +908,21 @@ input[type="text"]:disabled {
   color: #e5e7eb;
   cursor: default;
   transform: none;
+}
+
+.locked-block {
+  cursor: not-allowed;
+}
+
+.locked-block input {
+  cursor: not-allowed;
+}
+
+.locked-block.unlocked {
+  cursor: auto;
+  background: #ffffff !important;
+}
+
+.locked-block.unlocked input {
+  cursor: pointer;
 }
