@@ -39,9 +39,14 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-        RankingTask_htmlForm,
+        SetupStudy_htmlForm,
 
-SocioDemo_htmlForm,
+    TestAudio_htmlForm,
+
+        RankingWithAudio_htmlForm,
+
+
+    SocioDemo_htmlForm,
 
     FeedbackAudio2Placeholder_htmlForm,
 
@@ -63,8 +68,7 @@ SocioDemo_htmlForm,
     TransitionToScenario_htmlForm,
     loop_Scenarios,
     // evaluate utopias
-    RankingTask_htmlForm,
-    FeedbackAudio1Placeholder_htmlForm,
+    RankingWithAudio_htmlForm,
     FeedbackAudio2Placeholder_htmlForm,
     // dispositional scales L2
     Sequence_Scales,

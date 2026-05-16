@@ -39,41 +39,6 @@ const testAudioText = `
 </footer>
 `;
 
-const feedbackAudio1Text = `
-<header>
-  <h2>Audio feedback 1: Explain your ranking</h2>
-</header>
-
-<main class="content-horizontal-center content-vertical-center">
-  <div class="w-xl text-justify">
-    <section>
-      Please explain why you ranked some future societies higher and others lower.
-    </section>
-    <section style="margin-top: 0.5rem;">
-      Click the record button to start. Click it again to stop. You can re-record.
-    </section>
-
-    <section id="audio1-interface" style="margin-top: 1rem;">
-      <div id="audio1-controls">
-        <button id="audio1RecBtn" disabled>&#x2B24;</button>
-        <button id="audio1RetryMicBtn" type="button" style="display:none; margin-left: 0.5rem;">Request microphone access again</button>
-      </div>
-      <div class="audio-status-center">
-        <div id="audio1Clips" style="margin-top: 0.75rem;"><i>Note: your latest recording will appear here.</i></div>
-        <div id="audio1ErrorMessage" style="display:none; margin-top: 0.75rem; color: #c62828;"></div>
-      </div>
-    </section>
-  </div>
-</main>
-
-<form id="audio1-form"></form>
-
-<footer class="content-vertical-center content-horizontal-right">
-  You can only continue after recording an answer:&nbsp;
-  <button id="audio1Continue" type="submit" form="audio1-form">Continue &rarr;</button>
-</footer>
-`;
-
 const feedbackAudio2Text = `
 <header>
   <h2>Audio feedback 2: Missing utopia</h2>
@@ -106,6 +71,98 @@ const feedbackAudio2Text = `
 <footer class="content-vertical-center content-horizontal-right">
   You can only continue after recording an answer:&nbsp;
   <button id="audio2Continue" type="submit" form="audio2-form">Continue &rarr;</button>
+</footer>
+`;
+
+const rankingWithAudioText = `
+<header>
+  <h2>Rank and explain your ranking</h2>
+</header>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+    <section>
+      This step has two parts: first rank all future societies, then record a short explanation of your reasoning.
+    </section>
+    <section style="margin-top: 0.5rem;">
+      Drag societies from the left list into the right list and arrange them from 1 (least preferred) to 7 (most preferred).
+    </section>
+
+    <section style="margin-top: 1rem;">
+      <style>
+        .ranking-columns { display: flex; gap: 20px; align-items: flex-start; }
+        .ranking-column { flex: 1; }
+        .ranking-column h3 { margin: 0 0 8px 0; font-size: 20px; }
+        .ranking-list {
+          list-style: none;
+          margin: 0;
+          padding: 8px;
+          min-height: 620px;
+          height: 620px;
+          overflow-y: visible;
+          border: 1px solid #bdbdbd;
+          border-radius: 8px;
+          background: #fafafa;
+        }
+        #rankingPoolCombined, #rankingTargetCombined { height: 620px; }
+        .ranking-item {
+          margin: 6px 0;
+          padding: 10px 12px;
+          border: 1px solid #d5d5d5;
+          border-radius: 6px;
+          background: #fff;
+          cursor: move;
+        }
+        .ranking-rank {
+          display: inline-block;
+          min-width: 28px;
+          font-weight: 700;
+        }
+        .ranking-placeholder {
+          border: 2px dashed #8e8e8e;
+          border-radius: 6px;
+          height: 44px;
+          margin: 6px 0;
+          background: #f0f0f0;
+        }
+      </style>
+      <div class="ranking-columns">
+        <div class="ranking-column">
+          <h3>Available societies (A-Z)</h3>
+          <ul id="rankingPoolCombined" class="ranking-list"></ul>
+        </div>
+        <div class="ranking-column">
+          <h3>Your ranking (top = 1, bottom = 7)</h3>
+          <ul id="rankingTargetCombined" class="ranking-list"></ul>
+        </div>
+      </div>
+      <div id="rankingCombinedError" style="margin-top: 10px; color: #b00020; font-weight: 600; visibility: hidden;">
+        Please move all 7 societies to the right list.
+      </div>
+      <div id="rankingLockWrap" style="margin-top: 12px; display: none;">
+        <p style="margin: 0 0 8px 0;">Looks good? You can still reorder before locking.</p>
+        <button id="rankingLockBtn" type="button">Lock ranking and continue to audio</button>
+      </div>
+    </section>
+
+    <section id="combinedAudioSection" style="margin-top: 1rem; display: none;">
+      <p>Great. Your ranking is locked. Please record a short explanation of why you ranked the societies this way.</p>
+      <div id="audioCombinedControls">
+        <button id="audioCombinedRecBtn" disabled>&#x2B24;</button>
+        <button id="audioCombinedRetryMicBtn" type="button" style="display:none; margin-left: 0.5rem;">Request microphone access again</button>
+      </div>
+      <div class="audio-status-center">
+        <div id="audioCombinedClips" style="margin-top: 0.75rem;"><i>Note: your latest recording will appear here.</i></div>
+        <div id="audioCombinedErrorMessage" style="display:none; margin-top: 0.75rem; color: #c62828;"></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<form id="ranking-audio-form"></form>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <button id="rankingAudioContinue" type="submit" form="ranking-audio-form">Continue &rarr;</button>
 </footer>
 `;
 
@@ -477,16 +534,263 @@ const createSingleAudioForm = function (opts) {
   });
 };
 
-const FeedbackAudio1Placeholder_htmlForm = createSingleAudioForm({
-  title: "Audio Feedback 1",
-  content: feedbackAudio1Text,
-  recBtnId: "audio1RecBtn",
-  retryBtnId: "audio1RetryMicBtn",
-  clipsId: "audio1Clips",
-  errorId: "audio1ErrorMessage",
-  continueSelector: "#audio1Continue",
-  keyPrefix: "audio_ranking_explanation",
-  prompt: "Please explain why you ranked some future societies higher and others lower.",
+const RankingWithAudio_htmlForm = new lab.html.Form({
+  title: "Ranking With Audio",
+  content: rankingWithAudioText,
+  tardy: true,
+  messageHandlers: {
+    prepare: function () {
+      this._rankingLocked = false;
+      this._hasRecording = false;
+      this._audioData = null;
+      this._audioBlob = null;
+      this._durationSeconds = null;
+      this._clipUrl = null;
+      this._stream = null;
+      this._recorder = null;
+      this._chunks = [];
+      this._recordingStartTime = null;
+      this._rankingDndEvents = [];
+      this._rankingDndStartTs = Date.now();
+      this._rankingDndFirstInteractionTs = null;
+      this._rankingDndMoveCount = 0;
+      this._rankingDndReorderCount = 0;
+    },
+    run: function () {
+      const self = this;
+      const societies = [
+        { code: "rank_ai_centered", label: "AI-Centered Utopia" },
+        { code: "rank_futurist", label: "Futurist Utopia" },
+        { code: "rank_institutional", label: "Institutional (Law-Based) Utopia" },
+        { code: "rank_modern_green", label: "Modern Green Utopia" },
+        { code: "rank_moral_anarchic", label: "Moral Commonwealth (Anarchic) Utopia" },
+        { code: "rank_primitivist", label: "Primitivist (Arcadian) Utopia" },
+        { code: "rank_religious", label: "Religious Utopia" },
+      ];
+
+      const $pool = $("#rankingPoolCombined");
+      const $target = $("#rankingTargetCombined");
+      const $error = $("#rankingCombinedError");
+      const $lockWrap = $("#rankingLockWrap");
+      const $continue = $("#rankingAudioContinue");
+      $continue.hide();
+
+      $pool.empty();
+      $target.empty();
+      societies
+        .slice()
+        .sort((a, b) => a.label.localeCompare(b.label))
+        .forEach((item) => {
+          $pool.append(`<li class="ranking-item" data-code="${item.code}"><span class="ranking-rank"></span>${item.label}</li>`);
+        });
+
+      const updateRanksAndValidity = function () {
+        $("#rankingTargetCombined .ranking-item").each(function (idx) {
+          $(this).find(".ranking-rank").text(`${idx + 1}. `);
+        });
+        $("#rankingPoolCombined .ranking-item").find(".ranking-rank").text("");
+        const valid = $("#rankingTargetCombined .ranking-item").length === 7;
+        $error.css("visibility", valid ? "hidden" : "visible");
+        if (!self._rankingLocked) $lockWrap.toggle(valid);
+      };
+
+      const logEvent = function (evtType, ui, fromList, toList) {
+        const ts = Date.now();
+        if (!self._rankingDndFirstInteractionTs) self._rankingDndFirstInteractionTs = ts;
+        self._rankingDndEvents.push({
+          type: evtType,
+          item_code: ui.item.attr("data-code"),
+          from: fromList,
+          to: toList,
+          to_index: ui.item.index(),
+          ts,
+          ms_since_start: ts - self._rankingDndStartTs,
+        });
+      };
+
+      $("#rankingPoolCombined, #rankingTargetCombined").sortable({
+        connectWith: ".ranking-list",
+        placeholder: "ranking-placeholder",
+        tolerance: "pointer",
+        start: function (_event, ui) {
+          ui.item.data("fromList", this.id);
+        },
+        receive: function (_event, ui) {
+          self._rankingDndMoveCount++;
+          logEvent("receive", ui, ui.item.data("fromList"), this.id);
+          updateRanksAndValidity();
+        },
+        update: function (_event, ui) {
+          if (this.id === "rankingTargetCombined" && ui.sender == null) {
+            self._rankingDndReorderCount++;
+            self._rankingDndMoveCount++;
+            logEvent("reorder", ui, this.id, this.id);
+          }
+          updateRanksAndValidity();
+        },
+      });
+
+      const setupCombinedRecorder = async function () {
+        setErrorText("audioCombinedErrorMessage", "");
+        setElementVisible("audioCombinedRetryMicBtn", false);
+        const recBtn = document.getElementById("audioCombinedRecBtn");
+        if (recBtn) {
+          recBtn.disabled = true;
+          recBtn.classList.remove("recording");
+          recBtn.onclick = null;
+        }
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+          setErrorText("audioCombinedErrorMessage", "Audio recording is not supported by this browser.");
+          return;
+        }
+        try {
+          self._stream = stopStream(self._stream);
+          self._stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+          self._recorder = new MediaRecorder(self._stream);
+          self._chunks = [];
+
+          self._recorder.ondataavailable = function (evt) {
+            if (evt.data && evt.data.size > 0) self._chunks.push(evt.data);
+          };
+
+          self._recorder.onstop = async function () {
+            const blob = new Blob(self._chunks, { type: self._recorder.mimeType || "audio/webm" });
+            self._chunks = [];
+            self._clipUrl = revokeObjectUrl(self._clipUrl);
+            self._clipUrl = window.URL.createObjectURL(blob);
+            const fallbackSeconds = self._recordingStartTime ? (Date.now() - self._recordingStartTime) / 1000 : 0;
+            const audioMeta = getAudioMeta(blob, fallbackSeconds);
+            self._audioData = await blobToDataUrl(blob);
+            self._audioBlob = blob;
+            self._durationSeconds = audioMeta.durationSeconds;
+            const clips = document.getElementById("audioCombinedClips");
+            if (clips) {
+              clips.innerHTML = "";
+              clips.appendChild(renderClipCard(self._clipUrl, audioMeta, "Latest recording"));
+            }
+            self._hasRecording = true;
+            self._recordingStartTime = null;
+            $("#rankingAudioContinue").show();
+            if (recBtn) recBtn.classList.remove("recording");
+          };
+
+          if (!recBtn) return;
+          recBtn.disabled = false;
+          recBtn.onclick = function (event) {
+            event.preventDefault();
+            if (!self._recorder) return;
+            if (self._recorder.state === "recording") {
+              self._recorder.stop();
+              recBtn.classList.remove("recording");
+            } else {
+              self._chunks = [];
+              self._recordingStartTime = Date.now();
+              self._recorder.start();
+              recBtn.classList.add("recording");
+            }
+          };
+        } catch (err) {
+          setErrorText("audioCombinedErrorMessage", getMicErrorMessage(err));
+          setElementVisible("audioCombinedRetryMicBtn", true);
+        }
+      };
+
+      const lockButton = document.getElementById("rankingLockBtn");
+      if (lockButton) {
+        lockButton.onclick = function () {
+          const orderCodes = $("#rankingTargetCombined .ranking-item")
+            .map(function () { return $(this).attr("data-code"); })
+            .get();
+          if (orderCodes.length !== 7) {
+            document.getElementById("rankingCombinedError").style.visibility = "visible";
+            return;
+          }
+          self._rankingLocked = true;
+          $("#rankingPoolCombined, #rankingTargetCombined").sortable("disable");
+          lockButton.disabled = true;
+          lockButton.textContent = "Ranking locked";
+          study.options.datastore.set("ranking_locked", 1);
+          study.options.datastore.set("ranking_lock_ts", Date.now());
+          study.options.datastore.set("ranking_lock_order", orderCodes);
+          document.getElementById("combinedAudioSection").style.display = "block";
+          const retryBtn = document.getElementById("audioCombinedRetryMicBtn");
+          if (retryBtn) {
+            retryBtn.onclick = function (event) {
+              event.preventDefault();
+              setupCombinedRecorder();
+            };
+          }
+          setupCombinedRecorder();
+        };
+      }
+
+      updateRanksAndValidity();
+    },
+    commit: async function () {
+      const orderCodes = $("#rankingTargetCombined .ranking-item")
+        .map(function () { return $(this).attr("data-code"); })
+        .get();
+
+      if (!this._rankingLocked || orderCodes.length !== 7) {
+        document.getElementById("rankingCombinedError").style.visibility = "visible";
+        throw new Error("Ranking not locked or incomplete");
+      }
+      if (!this._hasRecording || !this._audioData) {
+        setErrorText("audioCombinedErrorMessage", "Please record your explanation before continuing.");
+        throw new Error("Audio response missing");
+      }
+
+      orderCodes.forEach((code, idx) => {
+        study.options.datastore.set(code, idx + 1);
+      });
+      study.options.datastore.set("ranking_final_order", orderCodes);
+      study.options.datastore.set("ranking_dnd_events", this._rankingDndEvents);
+      study.options.datastore.set("ranking_dnd_move_count", this._rankingDndMoveCount);
+      study.options.datastore.set("ranking_dnd_reorder_count", this._rankingDndReorderCount);
+      study.options.datastore.set(
+        "ranking_dnd_duration_ms",
+        this._rankingDndFirstInteractionTs ? Date.now() - this._rankingDndFirstInteractionTs : 0,
+      );
+
+      if (this._recorder && this._recorder.state === "recording") this._recorder.stop();
+      this._stream = stopStream(this._stream);
+
+      const prompt = "Please explain why you ranked some future societies higher and others lower.";
+      study.options.datastore.set("audio_ranking_explanation_prompt", prompt);
+      study.options.datastore.set("audio_ranking_explanation_audio", this._audioData);
+      study.options.datastore.set("audio_ranking_explanation_audio_length", this._audioData.length);
+      if (this._audioBlob) {
+        study.options.datastore.set("audio_ranking_explanation_audio_mime", this._audioBlob.type || "audio/webm");
+        study.options.datastore.set("audio_ranking_explanation_audio_size_bytes", this._audioBlob.size);
+      }
+      if (this._durationSeconds !== null) {
+        study.options.datastore.set("audio_ranking_explanation_audio_duration_seconds", this._durationSeconds);
+      }
+
+      if (hasJatosRuntime()) {
+        await submitResultDataToJatos();
+        const participantId =
+          study.options.datastore.state.sociodemo_pseudoID ||
+          study.options.datastore.state.PROLIFIC_PID ||
+          "unknown";
+        const payload = {
+          id_person: participantId,
+          type: "audio_ranking_explanation",
+          prompt,
+          audio: this._audioData,
+          audio_length: this._audioData.length,
+          audio_mime: this._audioBlob ? this._audioBlob.type || "audio/webm" : "audio/webm",
+          audio_size_bytes: this._audioBlob ? this._audioBlob.size : null,
+          audio_duration_seconds: this._durationSeconds,
+        };
+        await jatos
+          .uploadResultFile(payload, `audio_ranking_explanation_${participantId}_${Date.now()}.json`)
+          .catch(() => console.log("audio upload failed"));
+      }
+
+      advanceProgress();
+    },
+  },
 });
 
 const FeedbackAudio2Placeholder_htmlForm = createSingleAudioForm({
