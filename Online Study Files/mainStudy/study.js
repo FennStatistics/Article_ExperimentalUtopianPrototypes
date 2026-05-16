@@ -39,28 +39,6 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-        TransitionToScenario_htmlForm,
-    loop_Scenarios,
-    
-        // loop_Scenarios,
-
-        SetupStudy_htmlForm,
-        RankingWithAudio_htmlForm,
-
-    TestAudio_htmlForm,
-    MissingUtopiaAudio_htmlForm,
-
-
-
-    SocioDemo_htmlForm,
-
-
-
-        TransitionToScenario_htmlForm,
-    loop_Scenarios,
-
-
-
     Greetings_htmlForm,
     InformCon_htmlForm,
     InformConsentNO_htmlForm,
