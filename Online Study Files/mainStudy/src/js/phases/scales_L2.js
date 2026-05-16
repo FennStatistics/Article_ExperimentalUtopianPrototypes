@@ -1,0 +1,224 @@
+/*
+################### Main-study dispositional scales (L2) ###################
+*/
+
+function updateProgressL2() {
+  numElementsCounter++;
+  document.querySelector(".progress-bar").style.width =
+    (numElementsCounter / numElements) * 100 + "%";
+}
+
+const makeLikertPage = function (title, name, label, items, anchors) {
+  return new lab.html.Page({
+    title,
+    items: [
+      {
+        required: Required_Testing,
+        type: "likert",
+        items,
+        width: String(anchors.length),
+        anchors,
+        label,
+        shuffle: false,
+        name,
+      },
+    ],
+    submitButtonText: "Continue ->",
+    submitButtonPosition: "right",
+    width: "l",
+    messageHandlers: {
+      run: function () {
+      $('button[type="submit"][form="page-form"]').attr("id", "continue");
+
+      // adjust size of scale
+      document.querySelectorAll("div")[0].classList = ["text-left"];
+      document.querySelectorAll("main")[1].classList = ["w-xl"];
+      document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
+      <col style="width: 29.17%">
+      `;
+      // sticky labels to front
+      $("thead").first().css("z-index", "20");
+      // collect paradata
+      paracountclicks = 0;
+      document.querySelectorAll("input").forEach((item) => {
+        item.addEventListener("click", (event) => {
+          paracountclicks++;
+          console.log("input clicked", paracountclicks);
+        });
+      });
+      },
+      end: function anonymous() {
+      // collect paradata: number of clicks
+      let numberitems = document.querySelectorAll("tbody tr").length;
+      paracountclicks -= numberitems;
+      study.options.datastore.set("para_countclicks", paracountclicks);
+    },
+      commit: function () {
+        updateProgressL2();
+      },
+    },
+  });
+};
+
+const NFC_Scale_htmlForm = makeLikertPage(
+  "Need for Chaos",
+  "nfc_scale",
+  "Please indicate how much you agree with the following statements.",
+  items_nfc,
+  [
+    "Strongly disagree",
+    "Disagree",
+    "Somewhat disagree",
+    "Neutral",
+    "Somewhat agree",
+    "Agree",
+    "Strongly agree",
+  ],
+);
+
+const ARIS_Scale_htmlForm = makeLikertPage(
+  "Need for Chaos - Violence (ARIS-adapted)",
+  "aris_scale",
+  "Thinking about the future society you would most like to live in, indicate your agreement.",
+  items_aris,
+  [
+    "Strongly disagree",
+    "Disagree",
+    "Somewhat disagree",
+    "Neutral",
+    "Somewhat agree",
+    "Agree",
+    "Strongly agree",
+  ],
+);
+
+const SWLS_Scale_htmlForm = makeLikertPage(
+  "Satisfaction With Life Scale",
+  "swls_scale",
+  "Please indicate your agreement.",
+  items_swls,
+  [
+    "Strongly disagree",
+    "Disagree",
+    "Somewhat disagree",
+    "Neutral",
+    "Somewhat agree",
+    "Agree",
+    "Strongly agree",
+  ],
+);
+
+const SJS_Scale_htmlForm = makeLikertPage(
+  "System Justification Scale",
+  "sjs_scale",
+  "Please indicate your agreement with the following statements.",
+  items_sjs,
+  [
+    "1 - Strongly disagree",
+    "2",
+    "3",
+    "4",
+    "5 - Neutral",
+    "6",
+    "7",
+    "8",
+    "9 - Strongly agree",
+  ],
+);
+
+const UTOP_Scale_htmlForm = makeLikertPage(
+  "Utopianism",
+  "utopianism_scale",
+  "Please indicate your agreement.",
+  items_utopianism,
+  [
+    "Strongly disagree",
+    "Disagree",
+    "Somewhat disagree",
+    "Neutral",
+    "Somewhat agree",
+    "Agree",
+    "Strongly agree",
+  ],
+);
+
+const ANTIUTOP_Scale_htmlForm = makeLikertPage(
+  "Anti-utopianism",
+  "anti_utopianism_scale",
+  "Please indicate your agreement.",
+  items_antiutopianism,
+  [
+    "Strongly disagree",
+    "Disagree",
+    "Somewhat disagree",
+    "Neutral",
+    "Somewhat agree",
+    "Agree",
+    "Strongly agree",
+  ],
+);
+
+const PRDS_Scale_htmlForm = makeLikertPage(
+  "Personal Relative Deprivation Scale",
+  "prds_scale",
+  "Please indicate how much you agree with the following statements.",
+  items_prds,
+  [
+    "1 - Strongly disagree",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6 - Strongly agree",
+  ],
+);
+
+const CMQ_Scale_htmlForm = makeLikertPage(
+  "Conspiracy Mentality Questionnaire",
+  "cmq_scale",
+  "For each statement, indicate how likely you think it is true.",
+  items_cmq,
+  [
+    "0 - Certainly not",
+    "10%",
+    "20%",
+    "30%",
+    "40%",
+    "50%",
+    "60%",
+    "70%",
+    "80%",
+    "90%",
+    "10 - Certain",
+  ],
+);
+
+const BRS_Scale_htmlForm = makeLikertPage(
+  "Brief Resilience Scale",
+  "brs_scale",
+  "Please indicate the extent to which you agree with each statement.",
+  items_brs,
+  [
+    "1 - Strongly disagree",
+    "2 - Disagree",
+    "3 - Neutral",
+    "4 - Agree",
+    "5 - Strongly agree",
+  ],
+);
+
+const Sequence_Scales = new lab.flow.Sequence({
+  title: "Sequence Scales",
+  shuffle: true,
+  content: [
+    NFC_Scale_htmlForm,
+    ARIS_Scale_htmlForm,
+    SWLS_Scale_htmlForm,
+    SJS_Scale_htmlForm,
+    UTOP_Scale_htmlForm,
+    ANTIUTOP_Scale_htmlForm,
+    PRDS_Scale_htmlForm,
+    CMQ_Scale_htmlForm,
+    BRS_Scale_htmlForm,
+  ],
+});

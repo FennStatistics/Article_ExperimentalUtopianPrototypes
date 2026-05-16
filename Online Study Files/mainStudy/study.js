@@ -32,19 +32,16 @@ const study = new lab.flow.Sequence({
       "https://github.com/FennStatistics/Article_ExperimentalUtopianPrototypes",
     contributors: "study programmed by Julius Fenn",
   },
-  plugins: [new lab.plugins.Metadata()],
+  plugins: [
+    new lab.plugins.Metadata(),
+    // new lab.plugins.Fullscreen(),
+    new lab.plugins.Debug(), // comment out finally !!!
+    // new lab.plugins.Download()
+  ],
   content: [
-        Sequence_Scales,
-
-    SocioDemo_htmlForm,
-    JobBackground_htmlForm,
+    CMQ_Scale_htmlForm, 
 
 
-    RankingTask_htmlForm,
-        JobBackground_htmlForm,
-    SocioDemo_htmlForm,
-
-    
     Greetings_htmlForm,
     InformCon_htmlForm,
     InformConsentNO_htmlForm,
