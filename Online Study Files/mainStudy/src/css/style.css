@@ -275,6 +275,136 @@ footer #continue {
   font-size: 22px;
 }
 
+/* audio recorder UI (aligned with templates) */
+#controls,
+#audio2-controls,
+#audioCombinedControls {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 64px;
+}
+
+.audio-status-center {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.audio-status-center #errorMessage,
+.audio-status-center #audio2ErrorMessage,
+.audio-status-center #audioCombinedErrorMessage {
+  width: min(900px, 100%);
+  color: #c62828;
+  font-weight: 600;
+}
+
+#clips,
+#audio2Clips,
+#audioCombinedClips {
+  width: min(900px, 100%);
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#clips audio,
+#audio2Clips audio,
+#audioCombinedClips audio {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  height: 50px;
+}
+
+#recBtn,
+#audio2RecBtn,
+#audioCombinedRecBtn {
+  color: tomato;
+  padding: 1.15rem 2.35rem;
+  border-radius: 34px;
+  font-size: 1.35rem;
+  line-height: 1;
+  transition-duration: 200ms;
+}
+
+#retryMicBtn,
+#audio2RetryMicBtn,
+#audioCombinedRetryMicBtn {
+  background: #fff1f1;
+  color: #9f1239;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  position: absolute;
+  left: calc(50% + 100px);
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  transition: background-color 0.18s ease, border-color 0.18s ease,
+    color 0.18s ease, box-shadow 0.18s ease, transform 0.12s ease;
+}
+
+#retryMicBtn:hover,
+#audio2RetryMicBtn:hover,
+#audioCombinedRetryMicBtn:hover,
+#retryMicBtn:focus-visible,
+#audio2RetryMicBtn:focus-visible,
+#audioCombinedRetryMicBtn:focus-visible {
+  background: #ffe4e6;
+  border-color: #fda4af;
+  color: #881337;
+  box-shadow: 0 0 0 4px rgba(244, 63, 94, 0.16);
+  transform: translateY(-50%) translateY(-1px);
+  outline: none;
+}
+
+#retryMicBtn:active,
+#audio2RetryMicBtn:active,
+#audioCombinedRetryMicBtn:active {
+  background: #fecdd3;
+  border-color: #fb7185;
+  color: #6b102f;
+  transform: translateY(-50%);
+}
+
+#recBtn:hover,
+#audio2RecBtn:hover,
+#audioCombinedRecBtn:hover {
+  transform: scale(0.9);
+}
+
+#recBtn.recording,
+#audio2RecBtn.recording,
+#audioCombinedRecBtn.recording {
+  color: #111;
+  background: tomato;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 99, 71, 0.55);
+  }
+  70% {
+    transform: scale(1.04);
+    box-shadow: 0 0 0 16px rgba(255, 99, 71, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 99, 71, 0);
+  }
+}
+
 .page-item-table * {
   font-size: 20px;
   /* Adjust the size as needed */

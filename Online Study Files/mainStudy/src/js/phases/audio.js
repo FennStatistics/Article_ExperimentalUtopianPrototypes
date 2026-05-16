@@ -24,7 +24,7 @@ const testAudioText = `
     </section>
     <div class="audio-status-center">
       <div id="clips"><i>Note: your recording preview will appear here.</i></div>
-      <div id="errorMessage" style="display:none; margin-top: 0.75rem; color: #c62828;"></div>
+      <div id="errorMessage" style="display:none; margin-top: 0.75rem;"></div>
     </div>
   </div>
 </main>
@@ -60,7 +60,7 @@ const feedbackAudio2Text = `
       </div>
       <div class="audio-status-center">
         <div id="audio2Clips" style="margin-top: 0.75rem;"><i>Note: your latest recording will appear here.</i></div>
-        <div id="audio2ErrorMessage" style="display:none; margin-top: 0.75rem; color: #c62828;"></div>
+        <div id="audio2ErrorMessage" style="display:none; margin-top: 0.75rem;"></div>
       </div>
     </section>
   </div>
@@ -153,7 +153,7 @@ const rankingWithAudioText = `
       </div>
       <div class="audio-status-center">
         <div id="audioCombinedClips" style="margin-top: 0.75rem;"><i>Note: your latest recording will appear here.</i></div>
-        <div id="audioCombinedErrorMessage" style="display:none; margin-top: 0.75rem; color: #c62828;"></div>
+        <div id="audioCombinedErrorMessage" style="display:none; margin-top: 0.75rem;"></div>
       </div>
     </section>
   </div>
