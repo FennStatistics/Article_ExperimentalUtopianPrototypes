@@ -34,6 +34,8 @@ const study = new lab.flow.Sequence({
   },
   plugins: [new lab.plugins.Metadata()],
   content: [
+        Sequence_Scales,
+
     SocioDemo_htmlForm,
     JobBackground_htmlForm,
 
@@ -60,8 +62,10 @@ const study = new lab.flow.Sequence({
     FeedbackAudio2Placeholder_htmlForm,
     // dispositional scales L2
     Sequence_Scales,
+    // socio demographic-questions
     JobBackground_htmlForm,
     SocioDemo_htmlForm,
+    // ending screen
     FeedbackScreen_htmlScreen,
     EndingScreen_htmlScreen,
   ],
