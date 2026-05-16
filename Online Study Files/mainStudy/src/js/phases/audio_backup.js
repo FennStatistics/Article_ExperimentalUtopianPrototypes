@@ -70,7 +70,7 @@ const feedbackAudio2Text = `
 
 <footer class="content-vertical-center content-horizontal-right">
   You can only continue after recording an answer:&nbsp;
-  <button id="continue" type="submit" form="audio2-form">Continue &rarr;</button>
+  <button id="audio2Continue" type="submit" form="audio2-form">Continue &rarr;</button>
 </footer>
 `;
 
@@ -162,7 +162,7 @@ const rankingWithAudioText = `
 <form id="ranking-audio-form"></form>
 
 <footer class="content-vertical-center content-horizontal-right">
-  <button id="continue" type="submit" form="ranking-audio-form">Continue &rarr;</button>
+  <button id="rankingAudioContinue" type="submit" form="ranking-audio-form">Continue &rarr;</button>
 </footer>
 `;
 
@@ -263,30 +263,6 @@ const renderClipCard = function (blobUrl, audioMeta, labelText) {
   return clip;
 };
 
-// SAFARI/MAC FIX: Detect the best supported audio MIME type for the current browser.
-// Safari only supports audio/mp4; Chrome/Firefox prefer audio/webm.
-const getSupportedAudioMime = function () {
-  if (typeof MediaRecorder === "undefined") return "";
-  if (MediaRecorder.isTypeSupported("audio/webm")) return "audio/webm";
-  if (MediaRecorder.isTypeSupported("audio/mp4")) return "audio/mp4";
-  return "";
-};
-
-// SAFARI/MAC FIX: Create a MediaRecorder with an explicit, supported MIME type.
-// Returns both the recorder and the negotiated MIME so callers can use it as a
-// blob-type fallback in onstop (prevents Safari "Error 3" on createObjectURL).
-const createSafeRecorder = function (stream) {
-  const mimeType = getSupportedAudioMime();
-  const options = mimeType ? { mimeType } : {};
-  return { recorder: new MediaRecorder(stream, options), mimeType };
-};
-
-// Resolve the final blob MIME type, preferring what the recorder actually used,
-// then the negotiated supported MIME, then a Safari-safe default.
-const resolveBlobMime = function (recorder, supportedMime) {
-  return (recorder && recorder.mimeType) || supportedMime || "audio/mp4";
-};
-
 const detectSpeech = async function (blob) {
   try {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -302,8 +278,8 @@ const detectSpeech = async function (blob) {
     // SAFARI FIX: Callback syntax wrapped in a Promise
     const buf = await new Promise((resolve, reject) => {
       ctx.decodeAudioData(
-        arrayBuffer,
-        (decodedData) => resolve(decodedData),
+        arrayBuffer, 
+        (decodedData) => resolve(decodedData), 
         (error) => reject(error)
       );
     });
@@ -313,14 +289,14 @@ const detectSpeech = async function (blob) {
     const samples = buf.getChannelData(0);
     const frameLen = Math.floor(buf.sampleRate * 0.05); // 50ms frames
     const rmsValues = [];
-
+    
     for (let i = 0; i < samples.length; i += frameLen) {
       let sumSq = 0;
       const end = Math.min(i + frameLen, samples.length);
       for (let j = i; j < end; j++) sumSq += samples[j] * samples[j];
       rmsValues.push(Math.sqrt(sumSq / (end - i)));
     }
-
+    
     if (rmsValues.length === 0) return false;
 
     // 1. Sort to find the background noise floor (10th percentile of volume)
@@ -346,9 +322,9 @@ const detectSpeech = async function (blob) {
     // 5. Require at least 0.5 seconds of total speech (10 frames)
     // This allows a 1-second utterance in a 15-second recording to pass successfully.
     const speechDurationSeconds = activeFrames * 0.05;
-
+    
     console.log(`Speech detection - Max RMS: ${maxRMS.toFixed(4)}, Noise Floor: ${noiseFloor.toFixed(4)}, Threshold: ${threshold.toFixed(4)}, Active speech: ${speechDurationSeconds.toFixed(2)}s`);
-
+    
     return speechDurationSeconds >= 0.5;
   } catch (_e) {
     console.error("Speech detection failed:", _e);
@@ -402,10 +378,18 @@ const setupMicRecorder = async function () {
   try {
     testAudioStream = stopStream(testAudioStream);
     testAudioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    
+    // 1. SAFARI FIX: Determine the best supported format explicitly
+    let supportedMime = "";
+    if (MediaRecorder.isTypeSupported("audio/webm")) {
+      supportedMime = "audio/webm";
+    } else if (MediaRecorder.isTypeSupported("audio/mp4")) {
+      supportedMime = "audio/mp4";
+    }
 
-    // SAFARI/MAC FIX: Use shared helper for MIME detection + recorder creation
-    const { recorder, mimeType: supportedMime } = createSafeRecorder(testAudioStream);
-    testAudioRecorder = recorder;
+    // 2. SAFARI FIX: Force the MediaRecorder to use that specific format
+    const options = supportedMime ? { mimeType: supportedMime } : {};
+    testAudioRecorder = new MediaRecorder(testAudioStream, options);
     testAudioChunks = [];
 
     testAudioRecorder.ondataavailable = function (evt) {
@@ -413,19 +397,19 @@ const setupMicRecorder = async function () {
     };
 
     testAudioRecorder.onstop = async function () {
-      // SAFARI/MAC FIX: Empty-chunks guard prevents Error 3 on empty blobs
+      // 3. SAFARI FIX: Prevent Error 3 by ensuring the Blob type matches exactly
       if (testAudioChunks.length === 0) {
         setErrorText("errorMessage", "Recording failed (no audio data). Please try again.");
         return;
       }
 
-      const finalMimeType = resolveBlobMime(testAudioRecorder, supportedMime);
+      const finalMimeType = testAudioRecorder.mimeType || supportedMime || "audio/mp4";
       const blob = new Blob(testAudioChunks, { type: finalMimeType });
       testAudioChunks = [];
-
+      
       testAudioClipUrl = revokeObjectUrl(testAudioClipUrl);
       testAudioClipUrl = window.URL.createObjectURL(blob);
-
+      
       const fallbackSeconds = testRecordingStartTime ? (Date.now() - testRecordingStartTime) / 1000 : 0;
       const audioMeta = getAudioMeta(blob, fallbackSeconds);
       const clips = document.getElementById("clips");
@@ -433,11 +417,11 @@ const setupMicRecorder = async function () {
         clips.innerHTML = "";
         clips.appendChild(renderClipCard(testAudioClipUrl, audioMeta, "Latest recording"));
       }
-
+      
       hasTestRecording = true;
       testDetectedSpeech = await detectSpeech(blob);
       testRecordingStartTime = null;
-
+      
       if (testDetectedSpeech) {
         $("#continue").show();
         setErrorText("errorMessage", "");
@@ -450,8 +434,8 @@ const setupMicRecorder = async function () {
     recBtn.disabled = false;
     recBtn.onclick = function (event) {
       event.preventDefault();
-      setErrorText("errorMessage", "");
-
+      setErrorText("errorMessage", ""); 
+      
       if (!testAudioRecorder) return;
       if (testAudioRecorder.state === "recording") {
         testAudioRecorder.stop();
@@ -520,7 +504,6 @@ const createSingleAudioForm = function (opts) {
   let audioData = null;
   let audioBlob = null;
   let durationSeconds = null;
-  let supportedMime = "";
 
   const setupRecorder = async function () {
     setErrorText(opts.errorId, "");
@@ -538,11 +521,7 @@ const createSingleAudioForm = function (opts) {
     try {
       stream = stopStream(stream);
       stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-
-      // SAFARI/MAC FIX: Use shared helper for MIME detection + recorder creation
-      const created = createSafeRecorder(stream);
-      recorder = created.recorder;
-      supportedMime = created.mimeType;
+      recorder = new MediaRecorder(stream);
       chunks = [];
 
       recorder.ondataavailable = function (evt) {
@@ -550,16 +529,7 @@ const createSingleAudioForm = function (opts) {
       };
 
       recorder.onstop = async function () {
-        // SAFARI/MAC FIX: Empty-chunks guard prevents Error 3 on empty blobs
-        if (chunks.length === 0) {
-          setErrorText(opts.errorId, "Recording failed (no audio data). Please try again.");
-          if (recBtn) recBtn.classList.remove("recording");
-          return;
-        }
-
-        // SAFARI/MAC FIX: Use negotiated MIME instead of hardcoded "audio/webm"
-        const finalMimeType = resolveBlobMime(recorder, supportedMime);
-        const blob = new Blob(chunks, { type: finalMimeType });
+        const blob = new Blob(chunks, { type: recorder.mimeType || "audio/webm" });
         chunks = [];
         clipUrl = revokeObjectUrl(clipUrl);
         clipUrl = window.URL.createObjectURL(blob);
@@ -633,14 +603,11 @@ const createSingleAudioForm = function (opts) {
         if (recorder && recorder.state === "recording") recorder.stop();
         stream = stopStream(stream);
 
-        // SAFARI/MAC FIX: Use resolved blob MIME instead of hardcoded "audio/webm"
-        const blobMime = audioBlob ? (audioBlob.type || supportedMime || "audio/mp4") : (supportedMime || "audio/mp4");
-
         study.options.datastore.set(`${opts.keyPrefix}_prompt`, opts.prompt);
         study.options.datastore.set(`${opts.keyPrefix}_audio`, audioData);
         study.options.datastore.set(`${opts.keyPrefix}_audio_length`, audioData.length);
         if (audioBlob) {
-          study.options.datastore.set(`${opts.keyPrefix}_audio_mime`, blobMime);
+          study.options.datastore.set(`${opts.keyPrefix}_audio_mime`, audioBlob.type || "audio/webm");
           study.options.datastore.set(`${opts.keyPrefix}_audio_size_bytes`, audioBlob.size);
         }
         if (durationSeconds !== null) {
@@ -659,7 +626,7 @@ const createSingleAudioForm = function (opts) {
             prompt: opts.prompt,
             audio: audioData,
             audio_length: audioData.length,
-            audio_mime: blobMime,
+            audio_mime: audioBlob ? audioBlob.type || "audio/webm" : "audio/webm",
             audio_size_bytes: audioBlob ? audioBlob.size : null,
             audio_duration_seconds: durationSeconds,
           };
@@ -690,7 +657,6 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
       this._recorder = null;
       this._chunks = [];
       this._recordingStartTime = null;
-      this._supportedMime = "";
       this._rankingDndEvents = [];
       this._rankingDndStartTs = Date.now();
       this._rankingDndFirstInteractionTs = null;
@@ -713,7 +679,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
       const $target = $("#rankingTargetCombined");
       const $error = $("#rankingCombinedError");
       const $lockWrap = $("#rankingLockWrap");
-      const $continue = $("#continue");
+      const $continue = $("#rankingAudioContinue");
       $continue.hide();
 
       $pool.empty();
@@ -787,11 +753,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
         try {
           self._stream = stopStream(self._stream);
           self._stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-
-          // SAFARI/MAC FIX: Use shared helper for MIME detection + recorder creation
-          const created = createSafeRecorder(self._stream);
-          self._recorder = created.recorder;
-          self._supportedMime = created.mimeType;
+          self._recorder = new MediaRecorder(self._stream);
           self._chunks = [];
 
           self._recorder.ondataavailable = function (evt) {
@@ -799,16 +761,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
           };
 
           self._recorder.onstop = async function () {
-            // SAFARI/MAC FIX: Empty-chunks guard prevents Error 3 on empty blobs
-            if (self._chunks.length === 0) {
-              setErrorText("audioCombinedErrorMessage", "Recording failed (no audio data). Please try again.");
-              if (recBtn) recBtn.classList.remove("recording");
-              return;
-            }
-
-            // SAFARI/MAC FIX: Use negotiated MIME instead of hardcoded "audio/webm"
-            const finalMimeType = resolveBlobMime(self._recorder, self._supportedMime);
-            const blob = new Blob(self._chunks, { type: finalMimeType });
+            const blob = new Blob(self._chunks, { type: self._recorder.mimeType || "audio/webm" });
             self._chunks = [];
             self._clipUrl = revokeObjectUrl(self._clipUrl);
             self._clipUrl = window.URL.createObjectURL(blob);
@@ -824,7 +777,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
             }
             self._hasRecording = true;
             self._recordingStartTime = null;
-            $("#continue").show();
+            $("#rankingAudioContinue").show();
             if (recBtn) recBtn.classList.remove("recording");
           };
 
@@ -909,17 +862,12 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
       if (this._recorder && this._recorder.state === "recording") this._recorder.stop();
       this._stream = stopStream(this._stream);
 
-      // SAFARI/MAC FIX: Use resolved blob MIME instead of hardcoded "audio/webm"
-      const blobMime = this._audioBlob
-        ? (this._audioBlob.type || this._supportedMime || "audio/mp4")
-        : (this._supportedMime || "audio/mp4");
-
       const prompt = "Please explain why you ranked some future societies higher and others lower.";
       study.options.datastore.set("audio_ranking_explanation_prompt", prompt);
       study.options.datastore.set("audio_ranking_explanation_audio", this._audioData);
       study.options.datastore.set("audio_ranking_explanation_audio_length", this._audioData.length);
       if (this._audioBlob) {
-        study.options.datastore.set("audio_ranking_explanation_audio_mime", blobMime);
+        study.options.datastore.set("audio_ranking_explanation_audio_mime", this._audioBlob.type || "audio/webm");
         study.options.datastore.set("audio_ranking_explanation_audio_size_bytes", this._audioBlob.size);
       }
       if (this._durationSeconds !== null) {
@@ -938,7 +886,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
           prompt,
           audio: this._audioData,
           audio_length: this._audioData.length,
-          audio_mime: blobMime,
+          audio_mime: this._audioBlob ? this._audioBlob.type || "audio/webm" : "audio/webm",
           audio_size_bytes: this._audioBlob ? this._audioBlob.size : null,
           audio_duration_seconds: this._durationSeconds,
         };
@@ -959,7 +907,7 @@ const MissingUtopiaAudio_htmlForm = createSingleAudioForm({
   retryBtnId: "audio2RetryMicBtn",
   clipsId: "audio2Clips",
   errorId: "audio2ErrorMessage",
-  continueSelector: "#continue",
+  continueSelector: "#audio2Continue",
   keyPrefix: "audio_missing_utopia",
   prompt: "Please describe a type of utopia you feel is missing from the presented set and explain what matters most about it.",
 });
