@@ -1,4 +1,15 @@
-const items_nfc = [
+function shuffleItems(items) {
+  const shuffled = [...items];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const tmp = shuffled[i];
+    shuffled[i] = shuffled[j];
+    shuffled[j] = tmp;
+  }
+  return shuffled;
+}
+
+const items_nfc_base = [
   { label: "I get a kick when natural disasters strike in foreign countries.", coding: "nfc1" },
   {
     label:
@@ -23,7 +34,7 @@ const items_nfc = [
   { label: "Sometimes I just feel like destroying beautiful things.", coding: "nfc7" },
 ];
 
-const items_aris = [
+const items_aris_base = [
   {
     label: "I would join or belong to an organization that works to promote this kind of society.",
     coding: "ais1",
@@ -64,7 +75,7 @@ const items_aris = [
   },
 ];
 
-const items_utopianism = [
+const items_utopianism_base = [
   { label: "I often think about what an ideal society might look like.", coding: "utop1" },
   { label: "I spend a lot of time thinking about an ideal society.", coding: "utop2" },
   {
@@ -74,7 +85,7 @@ const items_utopianism = [
   { label: "It is important that people think about an ideal version of society.", coding: "utop4" },
 ];
 
-const items_antiutopianism = [
+const items_antiutopianism_base = [
   { label: "Dreaming about an ideal society could be dangerous.", coding: "antiutop1" },
   {
     label: "Focusing on an ideal society can have negative consequences.",
@@ -84,7 +95,7 @@ const items_antiutopianism = [
   { label: "It is useless to dream about what an ideal society might look like.", coding: "antiutop4" },
 ];
 
-const items_sjs = [
+const items_sjs_base = [
   { label: "In general, you find society to be fair.", coding: "sjs1" },
   { label: "In general, the American political system operates as it should.", coding: "sjs2" },
   { label: "American society needs to be radically restructured.", coding: "sjs3r" },
@@ -95,7 +106,7 @@ const items_sjs = [
   { label: "Society is set up so that people usually get what they deserve.", coding: "sjs8" },
 ];
 
-const items_swls = [
+const items_swls_base = [
   { label: "In most ways my life is close to my ideal.", coding: "swls1" },
   { label: "The conditions of my life are excellent.", coding: "swls2" },
   { label: "I am satisfied with my life.", coding: "swls3" },
@@ -103,7 +114,7 @@ const items_swls = [
   { label: "If I could live my life over, I would change almost nothing.", coding: "swls5" },
 ];
 
-const items_prds = [
+const items_prds_base = [
   {
     label:
       "I feel deprived when I think about what I have compared to what other people like me have.",
@@ -125,7 +136,7 @@ const items_prds = [
   },
 ];
 
-const items_cmq = [
+const items_cmq_base = [
   {
     label: "…many very important things happen in the world, which the public is never informed about.",
     coding: "cmq1",
@@ -139,7 +150,7 @@ const items_cmq = [
   { label: "…there are secret organizations that greatly influence political decisions.", coding: "cmq5" },
 ];
 
-const items_brs = [
+const items_brs_base = [
   { label: "I tend to bounce back quickly after hard times.", coding: "brs1" },
   { label: "I have a hard time making it through stressful events.", coding: "brs2r" },
   { label: "It does not take me long to recover from a stressful event.", coding: "brs3" },
@@ -147,3 +158,13 @@ const items_brs = [
   { label: "I usually come through difficult times with little trouble.", coding: "brs5" },
   { label: "I tend to take a long time to get over set-backs in my life.", coding: "brs6r" },
 ];
+
+const items_nfc = shuffleItems(items_nfc_base);
+const items_aris = shuffleItems(items_aris_base);
+const items_utopianism = shuffleItems(items_utopianism_base);
+const items_antiutopianism = shuffleItems(items_antiutopianism_base);
+const items_sjs = shuffleItems(items_sjs_base);
+const items_swls = shuffleItems(items_swls_base);
+const items_prds = shuffleItems(items_prds_base);
+const items_cmq = shuffleItems(items_cmq_base);
+const items_brs = shuffleItems(items_brs_base);
