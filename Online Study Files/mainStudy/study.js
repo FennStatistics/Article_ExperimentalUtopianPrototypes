@@ -39,6 +39,8 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
+        RankingTask_htmlForm,
+
 SocioDemo_htmlForm,
 
     FeedbackAudio2Placeholder_htmlForm,

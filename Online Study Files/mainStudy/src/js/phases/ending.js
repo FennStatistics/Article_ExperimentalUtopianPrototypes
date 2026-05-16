@@ -17,19 +17,61 @@ function submitIfJatosEnding() {
 
 const rankingTaskText = `
 <header><h2>Ordering Task</h2></header>
-<p>Please rank all seven future societies from 1 (least preferred) to 7 (most preferred). Use each rank once.</p>
+<p>Drag future societies from the left list into the right list and arrange them from 1 (most preferred) to 7 (least preferred).</p>
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
     <form id="rankingForm">
-      <table>
-        <tr><td>Futurist Utopia</td><td><input type="number" min="1" max="7" required name="rank_futurist" class="w-100"></td></tr>
-        <tr><td>AI-Centered Utopia</td><td><input type="number" min="1" max="7" required name="rank_ai_centered" class="w-100"></td></tr>
-        <tr><td>Primitivist (Arcadian) Utopia</td><td><input type="number" min="1" max="7" required name="rank_primitivist" class="w-100"></td></tr>
-        <tr><td>Modern Green Utopia</td><td><input type="number" min="1" max="7" required name="rank_modern_green" class="w-100"></td></tr>
-        <tr><td>Religious Utopia</td><td><input type="number" min="1" max="7" required name="rank_religious" class="w-100"></td></tr>
-        <tr><td>Institutional (Law-Based) Utopia</td><td><input type="number" min="1" max="7" required name="rank_institutional" class="w-100"></td></tr>
-        <tr><td>Moral Commonwealth (Anarchic) Utopia</td><td><input type="number" min="1" max="7" required name="rank_moral_anarchic" class="w-100"></td></tr>
-      </table>
+      <style>
+        .ranking-columns { display: flex; gap: 20px; align-items: flex-start; }
+        .ranking-column { flex: 1; }
+        .ranking-column h3 { margin: 0 0 8px 0; font-size: 20px; }
+        .ranking-list {
+          list-style: none;
+          margin: 0;
+          padding: 8px;
+          min-height: 320px;
+          border: 1px solid #bdbdbd;
+          border-radius: 8px;
+          background: #fafafa;
+        }
+        .ranking-item {
+          margin: 6px 0;
+          padding: 10px 12px;
+          border: 1px solid #d5d5d5;
+          border-radius: 6px;
+          background: #fff;
+          cursor: move;
+        }
+        .ranking-rank {
+          display: inline-block;
+          min-width: 28px;
+          font-weight: 700;
+        }
+        .ranking-placeholder {
+          border: 2px dashed #8e8e8e;
+          border-radius: 6px;
+          height: 44px;
+          margin: 6px 0;
+          background: #f0f0f0;
+        }
+        #rankingError {
+          margin-top: 10px;
+          color: #b00020;
+          font-weight: 600;
+          visibility: hidden;
+        }
+      </style>
+      <div class="ranking-columns">
+        <div class="ranking-column">
+          <h3>Available societies (A-Z)</h3>
+          <ul id="rankingPool" class="ranking-list"></ul>
+        </div>
+        <div class="ranking-column">
+          <h3>Your ranking (top = 1, bottom = 7)</h3>
+          <ul id="rankingTarget" class="ranking-list"></ul>
+        </div>
+      </div>
+      <div id="rankingError">Please move all 7 societies to the right list before continuing.</div>
     </form>
   </div>
 </main>
@@ -37,6 +79,12 @@ const rankingTaskText = `
   <button id="continue" type="submit" form="rankingForm">Continue -></button>
 </footer>
 `;
+
+let rankingDndEvents = [];
+let rankingDndStartTs = null;
+let rankingDndFirstInteractionTs = null;
+let rankingDndMoveCount = 0;
+let rankingDndReorderCount = 0;
 
 const socioDemoLeftRightQuestion = `
 <div class="page-item page-item-likert">
@@ -198,7 +246,112 @@ const RankingTask_htmlForm = new lab.html.Form({
   title: "RankingTask",
   content: rankingTaskText,
   messageHandlers: {
+    run: function () {
+      const societies = [
+        { code: "rank_ai_centered", label: "AI-Centered Utopia" },
+        { code: "rank_futurist", label: "Futurist Utopia" },
+        { code: "rank_institutional", label: "Institutional (Law-Based) Utopia" },
+        { code: "rank_modern_green", label: "Modern Green Utopia" },
+        { code: "rank_moral_anarchic", label: "Moral Commonwealth (Anarchic) Utopia" },
+        { code: "rank_primitivist", label: "Primitivist (Arcadian) Utopia" },
+        { code: "rank_religious", label: "Religious Utopia" },
+      ];
+
+      rankingDndEvents = [];
+      rankingDndStartTs = Date.now();
+      rankingDndFirstInteractionTs = null;
+      rankingDndMoveCount = 0;
+      rankingDndReorderCount = 0;
+
+      const $pool = $("#rankingPool");
+      const $target = $("#rankingTarget");
+      const $error = $("#rankingError");
+      const $continue = $("#continue");
+
+      $pool.empty();
+      $target.empty();
+
+      societies
+        .slice()
+        .sort((a, b) => a.label.localeCompare(b.label))
+        .forEach((item) => {
+          $pool.append(`<li class="ranking-item" data-code="${item.code}"><span class="ranking-rank"></span>${item.label}</li>`);
+        });
+
+      const updateRanksAndValidity = function () {
+        $("#rankingTarget .ranking-item").each(function (idx) {
+          $(this).find(".ranking-rank").text(`${idx + 1}. `);
+        });
+        $("#rankingPool .ranking-item").find(".ranking-rank").text("");
+
+        const valid = $("#rankingTarget .ranking-item").length === 7;
+        $continue.prop("disabled", !valid);
+        $error.css("visibility", valid ? "hidden" : "visible");
+      };
+
+      const logEvent = function (evtType, ui, fromList, toList) {
+        const ts = Date.now();
+        if (!rankingDndFirstInteractionTs) rankingDndFirstInteractionTs = ts;
+        const $item = ui.item;
+        rankingDndEvents.push({
+          type: evtType,
+          item_code: $item.attr("data-code"),
+          from: fromList,
+          to: toList,
+          to_index: $item.index(),
+          ts,
+          ms_since_start: ts - rankingDndStartTs,
+        });
+      };
+
+      $("#rankingPool, #rankingTarget").sortable({
+        connectWith: ".ranking-list",
+        placeholder: "ranking-placeholder",
+        tolerance: "pointer",
+        start: function (_event, ui) {
+          ui.item.data("fromList", this.id);
+        },
+        receive: function (_event, ui) {
+          rankingDndMoveCount++;
+          logEvent("receive", ui, ui.item.data("fromList"), this.id);
+          updateRanksAndValidity();
+        },
+        update: function (_event, ui) {
+          if (this.id === "rankingTarget" && ui.sender == null) {
+            rankingDndReorderCount++;
+            rankingDndMoveCount++;
+            logEvent("reorder", ui, this.id, this.id);
+          }
+          updateRanksAndValidity();
+        },
+      });
+
+      updateRanksAndValidity();
+    },
     commit: () => {
+      const orderCodes = $("#rankingTarget .ranking-item")
+        .map(function () {
+          return $(this).attr("data-code");
+        })
+        .get();
+
+      if (orderCodes.length !== 7) {
+        document.getElementById("rankingError").style.visibility = "visible";
+        return;
+      }
+
+      orderCodes.forEach((code, idx) => {
+        study.options.datastore.set(code, idx + 1);
+      });
+      study.options.datastore.set("ranking_final_order", orderCodes);
+      study.options.datastore.set("ranking_dnd_events", rankingDndEvents);
+      study.options.datastore.set("ranking_dnd_move_count", rankingDndMoveCount);
+      study.options.datastore.set("ranking_dnd_reorder_count", rankingDndReorderCount);
+      study.options.datastore.set(
+        "ranking_dnd_duration_ms",
+        rankingDndFirstInteractionTs ? Date.now() - rankingDndFirstInteractionTs : 0,
+      );
+
       updateProgressEnding();
     },
   },
