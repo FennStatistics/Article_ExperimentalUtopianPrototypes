@@ -172,6 +172,7 @@ let testAudioChunks = [];
 let testAudioClipUrl = null;
 let hasTestRecording = false;
 let testRecordingStartTime = null;
+let testDetectedSpeech = false;
 
 const hasJatosRuntime = function () {
   return !localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function";
@@ -262,6 +263,75 @@ const renderClipCard = function (blobUrl, audioMeta, labelText) {
   return clip;
 };
 
+const detectSpeech = async function (blob) {
+  try {
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    const ctx = new AudioContext();
+
+    // SAFARI FIX: Force the context to wake up
+    if (ctx.state === 'suspended') {
+      await ctx.resume();
+    }
+
+    const arrayBuffer = await blob.arrayBuffer();
+
+    // SAFARI FIX: Callback syntax wrapped in a Promise
+    const buf = await new Promise((resolve, reject) => {
+      ctx.decodeAudioData(
+        arrayBuffer, 
+        (decodedData) => resolve(decodedData), 
+        (error) => reject(error)
+      );
+    });
+
+    ctx.close();
+
+    const samples = buf.getChannelData(0);
+    const frameLen = Math.floor(buf.sampleRate * 0.05); // 50ms frames
+    const rmsValues = [];
+    
+    for (let i = 0; i < samples.length; i += frameLen) {
+      let sumSq = 0;
+      const end = Math.min(i + frameLen, samples.length);
+      for (let j = i; j < end; j++) sumSq += samples[j] * samples[j];
+      rmsValues.push(Math.sqrt(sumSq / (end - i)));
+    }
+    
+    if (rmsValues.length === 0) return false;
+
+    // 1. Sort to find the background noise floor (10th percentile of volume)
+    const sortedRms = [...rmsValues].sort((a, b) => a - b);
+    const maxRMS = sortedRms[sortedRms.length - 1];
+    const noiseFloor = sortedRms[Math.floor(sortedRms.length * 0.1)] || 0.0001;
+
+    // 2. Absolute silence check (microphone is likely muted or disconnected)
+    if (maxRMS < 0.001) {
+        console.log("Speech detection failed: Audio is completely silent.");
+        return false;
+    }
+
+    // 3. Dynamic thresholding
+    // We look for frames at least 2.5x louder than the background noise.
+    // We cap this threshold at 0.01 so loud continuous speech doesn't become its own noise floor.
+    const threshold = Math.min(noiseFloor * 2.5, 0.01);
+
+    // 4. Count how many 50ms frames contain speech
+    // Require the frame to be above the dynamic threshold AND above a strict absolute minimum (0.002)
+    const activeFrames = rmsValues.filter(v => v > threshold && v > 0.002).length;
+
+    // 5. Require at least 0.5 seconds of total speech (10 frames)
+    // This allows a 1-second utterance in a 15-second recording to pass successfully.
+    const speechDurationSeconds = activeFrames * 0.05;
+    
+    console.log(`Speech detection - Max RMS: ${maxRMS.toFixed(4)}, Noise Floor: ${noiseFloor.toFixed(4)}, Threshold: ${threshold.toFixed(4)}, Active speech: ${speechDurationSeconds.toFixed(2)}s`);
+    
+    return speechDurationSeconds >= 0.5;
+  } catch (_e) {
+    console.error("Speech detection failed:", _e);
+    return false;
+  }
+};
+
 const getMicErrorMessage = function (err) {
   switch (err && err.name) {
     case "NotAllowedError":
@@ -308,18 +378,38 @@ const setupMicRecorder = async function () {
   try {
     testAudioStream = stopStream(testAudioStream);
     testAudioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    testAudioRecorder = new MediaRecorder(testAudioStream);
+    
+    // 1. SAFARI FIX: Determine the best supported format explicitly
+    let supportedMime = "";
+    if (MediaRecorder.isTypeSupported("audio/webm")) {
+      supportedMime = "audio/webm";
+    } else if (MediaRecorder.isTypeSupported("audio/mp4")) {
+      supportedMime = "audio/mp4";
+    }
+
+    // 2. SAFARI FIX: Force the MediaRecorder to use that specific format
+    const options = supportedMime ? { mimeType: supportedMime } : {};
+    testAudioRecorder = new MediaRecorder(testAudioStream, options);
     testAudioChunks = [];
 
     testAudioRecorder.ondataavailable = function (evt) {
       if (evt.data && evt.data.size > 0) testAudioChunks.push(evt.data);
     };
 
-    testAudioRecorder.onstop = function () {
-      const blob = new Blob(testAudioChunks, { type: testAudioRecorder.mimeType || "audio/webm" });
+    testAudioRecorder.onstop = async function () {
+      // 3. SAFARI FIX: Prevent Error 3 by ensuring the Blob type matches exactly
+      if (testAudioChunks.length === 0) {
+        setErrorText("errorMessage", "Recording failed (no audio data). Please try again.");
+        return;
+      }
+
+      const finalMimeType = testAudioRecorder.mimeType || supportedMime || "audio/mp4";
+      const blob = new Blob(testAudioChunks, { type: finalMimeType });
       testAudioChunks = [];
+      
       testAudioClipUrl = revokeObjectUrl(testAudioClipUrl);
       testAudioClipUrl = window.URL.createObjectURL(blob);
+      
       const fallbackSeconds = testRecordingStartTime ? (Date.now() - testRecordingStartTime) / 1000 : 0;
       const audioMeta = getAudioMeta(blob, fallbackSeconds);
       const clips = document.getElementById("clips");
@@ -327,15 +417,25 @@ const setupMicRecorder = async function () {
         clips.innerHTML = "";
         clips.appendChild(renderClipCard(testAudioClipUrl, audioMeta, "Latest recording"));
       }
+      
       hasTestRecording = true;
+      testDetectedSpeech = await detectSpeech(blob);
       testRecordingStartTime = null;
-      $("#continue").show();
+      
+      if (testDetectedSpeech) {
+        $("#continue").show();
+        setErrorText("errorMessage", "");
+      } else {
+        setErrorText("errorMessage", "No speech detected. Please speak clearly into the microphone.");
+      }
     };
 
     if (!recBtn) return;
     recBtn.disabled = false;
     recBtn.onclick = function (event) {
       event.preventDefault();
+      setErrorText("errorMessage", ""); 
+      
       if (!testAudioRecorder) return;
       if (testAudioRecorder.state === "recording") {
         testAudioRecorder.stop();
@@ -360,6 +460,7 @@ const TestAudio_htmlForm = new lab.html.Form({
   messageHandlers: {
     prepare: function () {
       hasTestRecording = false;
+      testDetectedSpeech = false;
       testAudioClipUrl = revokeObjectUrl(testAudioClipUrl);
     },
     run: function () {
@@ -375,10 +476,16 @@ const TestAudio_htmlForm = new lab.html.Form({
       setupMicRecorder();
     },
     commit: function () {
+      /*
       if (!hasTestRecording) {
         setErrorText("errorMessage", "Please complete at least one successful test recording before continuing.");
         throw new Error("Microphone test not completed");
       }
+      if (!testDetectedSpeech) {
+        setErrorText("errorMessage", "No speech was detected in your recording. Please speak clearly into the microphone and try again.");
+        throw new Error("No speech detected");
+      }
+        */
       if (testAudioRecorder && testAudioRecorder.state === "recording") testAudioRecorder.stop();
       testAudioStream = stopStream(testAudioStream);
       study.options.datastore.set("mic_test_passed", 1);
