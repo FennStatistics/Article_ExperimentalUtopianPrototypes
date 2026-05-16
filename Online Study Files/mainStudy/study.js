@@ -34,6 +34,11 @@ const study = new lab.flow.Sequence({
   },
   plugins: [new lab.plugins.Metadata()],
   content: [
+    SocioDemo_htmlForm,
+    JobBackground_htmlForm,
+
+
+    RankingTask_htmlForm,
         JobBackground_htmlForm,
     SocioDemo_htmlForm,
 
@@ -44,12 +49,16 @@ const study = new lab.flow.Sequence({
     ExclusionCriteria_htmlForm,
     SetupStudy_htmlForm,
     TestAudio_htmlForm,
+    // visual traps
     loop_VisualTraps,
+    // within part L1
     TransitionToScenario_htmlForm,
     loop_Scenarios,
+    // evaluate utopias
     RankingTask_htmlForm,
     FeedbackAudio1Placeholder_htmlForm,
     FeedbackAudio2Placeholder_htmlForm,
+    // dispositional scales L2
     Sequence_Scales,
     JobBackground_htmlForm,
     SocioDemo_htmlForm,
