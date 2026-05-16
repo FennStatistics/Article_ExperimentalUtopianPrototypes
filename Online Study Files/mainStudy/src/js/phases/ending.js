@@ -29,7 +29,7 @@ const rankingTaskText = `
           list-style: none;
           margin: 0;
           padding: 8px;
-          min-height: 320px;
+          min-height: 600px;
           border: 1px solid #bdbdbd;
           border-radius: 8px;
           background: #fafafa;
