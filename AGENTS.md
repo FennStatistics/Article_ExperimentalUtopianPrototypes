@@ -4,7 +4,7 @@ Scope: whole repository.
 
 ## Repo shape (non-obvious)
 - The active code lives in two places: `Online Study Files/pretestVignettes/` (lab.js browser experiment) and `Analyses/` (Quarto + R).
-- There is no root task runner or CI config (no `package.json`, `Makefile`, `.github/workflows/`, `.pre-commit-config.yaml`, or `opencode.json`).
+- There is no root task runner or CI config (no `package.json`, `Makefile`, `.github/workflows/`, `.pre-commit-config.yaml`, or `opencode.json`), and no automated test/lint entrypoint.
 
 ## Verified commands
 - Run the browser study from repo root:
@@ -21,9 +21,11 @@ Scope: whole repository.
 - `Online Study Files/pretestVignettes/src/js/globals.js` defines `localTesting` and `Required_Testing`; phase files expect these globals.
 - Keep JATOS guards as `!localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function"` (used across `study.js` and phase files).
 - `Online Study Files/pretestVignettes/study.js` is the composition entrypoint; `lab.flow.Sequence` order is the actual participant flow.
+- When changing phase count/order, also update `numElements` in `Online Study Files/pretestVignettes/study.js` or the footer progress bar will desync.
 
 ## Analysis quirks
 - Main-study `.qmd` files use `setwd(...)` and relative jumps (for example `setwd("../01_dataPreperation/outputs")`), so path resolution is sensitive to execution context.
+- Several analysis paths intentionally use the misspelling `dataPreperation`; keep existing spelling in commands/paths.
 
 ## Data/artifact hygiene
 - `.gitignore` excludes `**/study visual traps`; edits under `Online Study Files/pretestVignettes/study visual traps/` will not show in normal `git status`.
