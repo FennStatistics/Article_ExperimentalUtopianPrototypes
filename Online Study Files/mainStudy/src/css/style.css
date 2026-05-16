@@ -866,3 +866,37 @@ input[type="text"]:disabled {
   border-color: #9fb8e7;
   box-shadow: 0 0 0 2px rgba(159, 184, 231, .2);
 }
+
+#rankingLockBtn {
+  background: #0b6d4c;
+  color: #ffffff;
+  border: 1px solid #047857;
+  border-radius: 12px;
+  padding: 0.72rem 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.12s ease;
+}
+
+#rankingLockBtn:hover,
+#rankingLockBtn:focus-visible {
+  background: #059669;
+  border-color: #065f46;
+  transform: translateY(-1px);
+  outline: none;
+}
+
+#rankingLockBtn:active {
+  background: #047857;
+  border-color: #064e3b;
+  transform: translateY(0);
+}
+
+#rankingLockBtn:disabled {
+  background: #9ca3af;
+  border-color: #9ca3af;
+  color: #e5e7eb;
+  cursor: default;
+  transform: none;
+}

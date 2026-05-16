@@ -42,11 +42,11 @@ const study = new lab.flow.Sequence({
         // loop_Scenarios,
 
         SetupStudy_htmlForm,
+        RankingWithAudio_htmlForm,
 
     TestAudio_htmlForm,
     MissingUtopiaAudio_htmlForm,
 
-        RankingWithAudio_htmlForm,
 
 
     SocioDemo_htmlForm,
