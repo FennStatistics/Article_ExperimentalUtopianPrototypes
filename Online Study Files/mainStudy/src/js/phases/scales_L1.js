@@ -70,7 +70,7 @@ function buildLikertBlock(blockName, blockLabel, items, anchors) {
   const shuffled = shuffleArray(items);
  let html = `
     <div class="page-item page-item-likert locked-block" style="margin: 24px auto; width: 70%; padding: 16px; border: 1px solid #ccc; border-radius: 6px; background: #f0f0f0; transition: background-color 0.8s ease;">
-      <div class="page-item-question" style="margin-bottom: 12px; font-weight: 600;">
+      <div class="page-item-question" style="margin-bottom: 12px; font-weight: 600; text-align: left;">
         ${blockLabel}
       </div>
       <table class="likert-table" style="width:100%; border-collapse: collapse;">
@@ -127,7 +127,7 @@ function buildCombinedScenarioHTML() {
 
   return `
     <header>
-      <h2>Please read the following text carefully. All questions below refer to this future society.</h2>
+      <h2>Please read the following text carefully and answer the questions below.</h2>
     </header>
 
     <main class="content-horizontal-center content-vertical-center">

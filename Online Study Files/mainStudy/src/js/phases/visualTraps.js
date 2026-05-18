@@ -63,7 +63,7 @@ const transitionToVisualTrapsText = `
 
 <footer class="content-vertical-center content-horizontal-right">
   <button id="continue" type="submit" form="page-form">
-    Begin &rarr;
+    Continue &rarr;
   </button>
 </footer>
 `;
@@ -116,7 +116,7 @@ const transitionToScenarioText = `
 
 <footer class="content-vertical-center content-horizontal-right">
   <button id="continue" type="submit" form="page-form">
-    Begin &rarr;
+    Continue &rarr;
   </button>
 </footer>
 `;

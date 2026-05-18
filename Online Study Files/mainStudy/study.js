@@ -39,7 +39,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-    PRDS_Scale_htmlForm,
+    RankingWithAudio_htmlForm,
 
 
 
@@ -60,8 +60,8 @@ const study = new lab.flow.Sequence({
     ExclusionCriteria_htmlForm,
     SetupStudy_htmlForm,
     TestAudio_htmlForm,
-    TransitionToVisualTraps_htmlForm,
     // visual traps
+    TransitionToVisualTraps_htmlForm,
     loop_VisualTraps,
     // within part L1
     TransitionToScenario_htmlForm,

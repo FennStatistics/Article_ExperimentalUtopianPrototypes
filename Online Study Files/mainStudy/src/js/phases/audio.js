@@ -1,5 +1,5 @@
 /*
-################### Audio Phases ###################
+################### Audio Phases - COMPLETE IMPROVED CODE ###################
 */
 
 const testAudioText = `
@@ -82,71 +82,140 @@ const rankingWithAudioText = `
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
     <section>
-      This step has two parts. First, rank all of the future societies. Then, record a short explanation of your reasoning.
+      This step has two parts: (1) first rank all future societies, then (2) record a short explanation of your reasoning. <i>Hint: You need to scroll down to lock the ranking and access the recording interface.</i>
     </section>
+    <br>
     <section style="margin-top: 0.5rem;">
-      Drag societies from the left list into the right list. Arrange them from 1 (least preferred) to 7 (most preferred).
+      (1) Drag societies from the left list into the right list and arrange them from 1 (least preferred) to 7 (most preferred). <i>Hold and drag each item with your mouse to move it.</i>
     </section>
 
     <section style="margin-top: 1rem;">
       <style>
-        .ranking-columns { display: flex; gap: 20px; align-items: flex-start; }
-        .ranking-column { flex: 1; }
-        .ranking-column h3 { margin: 0 0 8px 0; font-size: 20px; }
+        .ranking-columns { 
+          display: flex; 
+          gap: 20px; 
+          align-items: stretch; 
+        }
+        
+        .ranking-column { 
+          flex: 1; 
+          display: flex; 
+          flex-direction: column; 
+        }
+        
+        .ranking-column h3 { 
+          margin: 0 0 8px 0; 
+          font-size: 16px; 
+          font-weight: 600; 
+        }
+        
         .ranking-list {
           list-style: none;
           margin: 0;
           padding: 8px;
+          flex: 1;
           min-height: 620px;
-          height: 620px;
-          overflow-y: visible;
+          overflow-y: auto;
           border: 1px solid #bdbdbd;
           border-radius: 8px;
           background: #fafafa;
         }
-        #rankingPoolCombined, #rankingTargetCombined { height: 620px; }
+        
+        #rankingPoolCombined, #rankingTargetCombined { 
+          min-height: 620px; 
+        }
+        
         .ranking-item {
-          margin: 6px 0;
-          padding: 10px 12px;
+          margin: 4px 0;
+          padding: 12px 14px;
           border: 1px solid #d5d5d5;
-          border-radius: 6px;
+          border-radius: 4px;
           background: #fff;
           cursor: move;
+          font-size: 1.3rem;
+          text-align: center;
+          transition: background-color 0.15s ease, border-color 0.15s ease;
+          will-change: transform, background-color;
+          transform: translateZ(0);
+          user-select: none;
         }
+        
+        .ranking-item:hover {
+          background: #e3f2fd;
+          border-color: #90caf9;
+          transform: translateZ(0);
+        }
+        
+        .ranking-item:active {
+          background: #bbdefb;
+          border-color: #64b5f6;
+          transform: translateZ(0);
+        }
+        
+        .ranking-item.ui-sortable-helper {
+          opacity: 0.9;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+          background: #fff;
+          z-index: 1000;
+        }
+        
         .ranking-rank {
           display: inline-block;
-          min-width: 28px;
+          min-width: 22px;
           font-weight: 700;
+          font-size: 0.9rem;
+          margin-right: 4px;
         }
+        
         .ranking-placeholder {
           border: 2px dashed #8e8e8e;
-          border-radius: 6px;
-          height: 44px;
-          margin: 6px 0;
+          border-radius: 4px;
+          height: 36px;
+          margin: 4px 0;
           background: #f0f0f0;
+          opacity: 0.5;
+        }
+        
+        .ranking-column-hint {
+          font-size: 0.85rem;
+          color: #999;
+          font-weight: 500;
+        }
+        
+        .ranking-column-hint-top {
+          margin-bottom: 0.5rem;
+        }
+        
+        .ranking-column-hint-bottom {
+          margin-top: 0.5rem;
         }
       </style>
+      
       <div class="ranking-columns">
         <div class="ranking-column">
-          <h3>Available societies (A-Z)</h3>
+          <h3 style="margin-bottom: 0.8rem;">Available societies (A-Z)</h3>
           <ul id="rankingPoolCombined" class="ranking-list"></ul>
         </div>
         <div class="ranking-column">
-          <h3>Your ranking (top = 1, bottom = 7)</h3>
+          <h3>Ranking from 1 (least) to 7 (most preferred)</h3>
+          <div class="ranking-column-hint ranking-column-hint-top">⬇ least preferred</div>
           <ul id="rankingTargetCombined" class="ranking-list"></ul>
+          <div class="ranking-column-hint ranking-column-hint-bottom">⬆ most preferred</div>
         </div>
       </div>
+      
       <div id="rankingCombinedError" style="margin-top: 10px; color: #b00020; font-weight: 600; visibility: hidden;">
-         Please move all 7 societies to the right-hand list.
+        Please move all 7 societies to the right-hand list.
       </div>
+      
       <div id="rankingLockWrap" style="margin-top: 12px; display: none;">
-         <p style="margin: 0 0 8px 0;">When you are satisfied with the order, lock your ranking. You can still reorder items before locking.</p>
+        <p style="margin: 0 0 8px 0;">When you are satisfied with the order, lock your ranking. You can still reorder items before locking.</p>
         <button id="rankingLockBtn" type="button">Lock ranking and continue to audio</button>
       </div>
     </section>
 
     <section id="combinedAudioSection" style="margin-top: 1rem; display: none;">
-      <p>Your ranking is now locked. Please record a short explanation of why you ranked the societies this way. As before, click the record button to start and click it again to stop. You may re-record if needed.</p>
+      <p>(2) Your ranking is now locked. Please record a short explanation of why you ranked the societies this way. As before, click the record button to start and click it again to stop. You may re-record if needed.</p>
       <div id="audioCombinedControls">
         <button id="audioCombinedRecBtn" disabled>&#x2B24;</button>
         <button id="audioCombinedRetryMicBtn" type="button" style="display:none; margin-left: 0.5rem;">Request microphone access again</button>
@@ -263,8 +332,6 @@ const renderClipCard = function (blobUrl, audioMeta, labelText) {
   return clip;
 };
 
-// SAFARI/MAC FIX: Detect the best supported audio MIME type for the current browser.
-// Safari only supports audio/mp4; Chrome/Firefox prefer audio/webm.
 const getSupportedAudioMime = function () {
   if (typeof MediaRecorder === "undefined") return "";
   if (MediaRecorder.isTypeSupported("audio/webm")) return "audio/webm";
@@ -272,17 +339,12 @@ const getSupportedAudioMime = function () {
   return "";
 };
 
-// SAFARI/MAC FIX: Create a MediaRecorder with an explicit, supported MIME type.
-// Returns both the recorder and the negotiated MIME so callers can use it as a
-// blob-type fallback in onstop (prevents Safari "Error 3" on createObjectURL).
 const createSafeRecorder = function (stream) {
   const mimeType = getSupportedAudioMime();
   const options = mimeType ? { mimeType } : {};
   return { recorder: new MediaRecorder(stream, options), mimeType };
 };
 
-// Resolve the final blob MIME type, preferring what the recorder actually used,
-// then the negotiated supported MIME, then a Safari-safe default.
 const resolveBlobMime = function (recorder, supportedMime) {
   return (recorder && recorder.mimeType) || supportedMime || "audio/mp4";
 };
@@ -292,14 +354,12 @@ const detectSpeech = async function (blob) {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     const ctx = new AudioContext();
 
-    // SAFARI FIX: Force the context to wake up
     if (ctx.state === 'suspended') {
       await ctx.resume();
     }
 
     const arrayBuffer = await blob.arrayBuffer();
 
-    // SAFARI FIX: Callback syntax wrapped in a Promise
     const buf = await new Promise((resolve, reject) => {
       ctx.decodeAudioData(
         arrayBuffer,
@@ -311,7 +371,7 @@ const detectSpeech = async function (blob) {
     ctx.close();
 
     const samples = buf.getChannelData(0);
-    const frameLen = Math.floor(buf.sampleRate * 0.05); // 50ms frames
+    const frameLen = Math.floor(buf.sampleRate * 0.05);
     const rmsValues = [];
 
     for (let i = 0; i < samples.length; i += frameLen) {
@@ -323,28 +383,17 @@ const detectSpeech = async function (blob) {
 
     if (rmsValues.length === 0) return false;
 
-    // 1. Sort to find the background noise floor (10th percentile of volume)
     const sortedRms = [...rmsValues].sort((a, b) => a - b);
     const maxRMS = sortedRms[sortedRms.length - 1];
     const noiseFloor = sortedRms[Math.floor(sortedRms.length * 0.1)] || 0.0001;
 
-    // 2. Absolute silence check (microphone is likely muted or disconnected)
     if (maxRMS < 0.001) {
         console.log("Speech detection failed: Audio is completely silent.");
         return false;
     }
 
-    // 3. Dynamic thresholding
-    // We look for frames at least 2.5x louder than the background noise.
-    // We cap this threshold at 0.01 so loud continuous speech doesn't become its own noise floor.
     const threshold = Math.min(noiseFloor * 2.5, 0.01);
-
-    // 4. Count how many 50ms frames contain speech
-    // Require the frame to be above the dynamic threshold AND above a strict absolute minimum (0.002)
     const activeFrames = rmsValues.filter(v => v > threshold && v > 0.002).length;
-
-    // 5. Require at least 0.5 seconds of total speech (10 frames)
-    // This allows a 1-second utterance in a 15-second recording to pass successfully.
     const speechDurationSeconds = activeFrames * 0.05;
 
     console.log(`Speech detection - Max RMS: ${maxRMS.toFixed(4)}, Noise Floor: ${noiseFloor.toFixed(4)}, Threshold: ${threshold.toFixed(4)}, Active speech: ${speechDurationSeconds.toFixed(2)}s`);
@@ -403,7 +452,6 @@ const setupMicRecorder = async function () {
     testAudioStream = stopStream(testAudioStream);
     testAudioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
 
-    // SAFARI/MAC FIX: Use shared helper for MIME detection + recorder creation
     const { recorder, mimeType: supportedMime } = createSafeRecorder(testAudioStream);
     testAudioRecorder = recorder;
     testAudioChunks = [];
@@ -413,7 +461,6 @@ const setupMicRecorder = async function () {
     };
 
     testAudioRecorder.onstop = async function () {
-      // SAFARI/MAC FIX: Empty-chunks guard prevents Error 3 on empty blobs
       if (testAudioChunks.length === 0) {
         setErrorText("errorMessage", "Recording failed (no audio data). Please try again.");
         return;
@@ -492,16 +539,6 @@ const TestAudio_htmlForm = new lab.html.Form({
       setupMicRecorder();
     },
     commit: function () {
-      /*
-      if (!hasTestRecording) {
-        setErrorText("errorMessage", "Please complete at least one successful test recording before continuing.");
-        throw new Error("Microphone test not completed");
-      }
-      if (!testDetectedSpeech) {
-        setErrorText("errorMessage", "No speech was detected in your recording. Please speak clearly into the microphone and try again.");
-        throw new Error("No speech detected");
-      }
-        */
       if (testAudioRecorder && testAudioRecorder.state === "recording") testAudioRecorder.stop();
       testAudioStream = stopStream(testAudioStream);
       study.options.datastore.set("mic_test_passed", 1);
@@ -539,7 +576,6 @@ const createSingleAudioForm = function (opts) {
       stream = stopStream(stream);
       stream = await navigator.mediaDevices.getUserMedia({ audio: true });
 
-      // SAFARI/MAC FIX: Use shared helper for MIME detection + recorder creation
       const created = createSafeRecorder(stream);
       recorder = created.recorder;
       supportedMime = created.mimeType;
@@ -550,14 +586,12 @@ const createSingleAudioForm = function (opts) {
       };
 
       recorder.onstop = async function () {
-        // SAFARI/MAC FIX: Empty-chunks guard prevents Error 3 on empty blobs
         if (chunks.length === 0) {
           setErrorText(opts.errorId, "Recording failed (no audio data). Please try again.");
           if (recBtn) recBtn.classList.remove("recording");
           return;
         }
 
-        // SAFARI/MAC FIX: Use negotiated MIME instead of hardcoded "audio/webm"
         const finalMimeType = resolveBlobMime(recorder, supportedMime);
         const blob = new Blob(chunks, { type: finalMimeType });
         chunks = [];
@@ -633,7 +667,6 @@ const createSingleAudioForm = function (opts) {
         if (recorder && recorder.state === "recording") recorder.stop();
         stream = stopStream(stream);
 
-        // SAFARI/MAC FIX: Use resolved blob MIME instead of hardcoded "audio/webm"
         const blobMime = audioBlob ? (audioBlob.type || supportedMime || "audio/mp4") : (supportedMime || "audio/mp4");
 
         study.options.datastore.set(`${opts.keyPrefix}_prompt`, opts.prompt);
@@ -700,13 +733,13 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
     run: function () {
       const self = this;
       const societies = [
-        { code: "rank_ai_centered", label: "AI-Centered Utopia" },
-        { code: "rank_futurist", label: "Futurist Utopia" },
-        { code: "rank_institutional", label: "Institutional (Law-Based) Utopia" },
-        { code: "rank_modern_green", label: "Modern Green Utopia" },
-        { code: "rank_moral_anarchic", label: "Moral Commonwealth (Anarchic) Utopia" },
-        { code: "rank_primitivist", label: "Primitivist (Arcadian) Utopia" },
-        { code: "rank_religious", label: "Religious Utopia" },
+        { code: "rank_ai_centered", label: "AI-Centered Utopia<br>(data-driven governance)" },
+        { code: "rank_futurist", label: "Futurist Utopia<br>(science & innovation)" },
+        { code: "rank_institutional", label: "Institutional Utopia<br>(rule of law)" },
+        { code: "rank_modern_green", label: "Modern Green Utopia<br>(sustainable & secure)" },
+        { code: "rank_moral_anarchic", label: "Moral Commonwealth<br>(inner morality)" },
+        { code: "rank_primitivist", label: "Primitivist Utopia<br>(low-tech & small-scale)" },
+        { code: "rank_religious", label: "Religious Utopia<br>(faith-based order)" },
       ];
 
       const $pool = $("#rankingPoolCombined");
@@ -716,14 +749,26 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
       const $continue = $("#continue");
       $continue.hide();
 
+      // Populate societies
       $pool.empty();
-      $target.empty();
       societies
         .slice()
         .sort((a, b) => a.label.localeCompare(b.label))
         .forEach((item) => {
           $pool.append(`<li class="ranking-item" data-code="${item.code}"><span class="ranking-rank"></span>${item.label}</li>`);
         });
+
+      let updateTimeout = null;
+      let isDragging = false;
+
+      const debouncedUpdateRanksAndValidity = function () {
+        clearTimeout(updateTimeout);
+        updateTimeout = setTimeout(function () {
+          if (!isDragging) {
+            updateRanksAndValidity();
+          }
+        }, 30);
+      };
 
       const updateRanksAndValidity = function () {
         $("#rankingTargetCombined .ranking-item").each(function (idx) {
@@ -749,17 +794,29 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
         });
       };
 
+      // Initialize sortable with optimized options
       $("#rankingPoolCombined, #rankingTargetCombined").sortable({
         connectWith: ".ranking-list",
         placeholder: "ranking-placeholder",
         tolerance: "pointer",
+        delay: 80,
+        distance: 3,
+        animation: 120,
+    animation: 0,        // ✓ No animation (instant placement)
+
         start: function (_event, ui) {
+          isDragging = true;
           ui.item.data("fromList", this.id);
+          ui.helper.css("opacity", "0.8");
+        },
+        stop: function (_event, ui) {
+          isDragging = false;
+          debouncedUpdateRanksAndValidity();
         },
         receive: function (_event, ui) {
           self._rankingDndMoveCount++;
           logEvent("receive", ui, ui.item.data("fromList"), this.id);
-          updateRanksAndValidity();
+          debouncedUpdateRanksAndValidity();
         },
         update: function (_event, ui) {
           if (this.id === "rankingTargetCombined" && ui.sender == null) {
@@ -767,9 +824,11 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
             self._rankingDndMoveCount++;
             logEvent("reorder", ui, this.id, this.id);
           }
-          updateRanksAndValidity();
+          debouncedUpdateRanksAndValidity();
         },
       });
+
+      updateRanksAndValidity();
 
       const setupCombinedRecorder = async function () {
         setErrorText("audioCombinedErrorMessage", "");
@@ -788,7 +847,6 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
           self._stream = stopStream(self._stream);
           self._stream = await navigator.mediaDevices.getUserMedia({ audio: true });
 
-          // SAFARI/MAC FIX: Use shared helper for MIME detection + recorder creation
           const created = createSafeRecorder(self._stream);
           self._recorder = created.recorder;
           self._supportedMime = created.mimeType;
@@ -799,14 +857,12 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
           };
 
           self._recorder.onstop = async function () {
-            // SAFARI/MAC FIX: Empty-chunks guard prevents Error 3 on empty blobs
             if (self._chunks.length === 0) {
               setErrorText("audioCombinedErrorMessage", "Recording failed (no audio data). Please try again.");
               if (recBtn) recBtn.classList.remove("recording");
               return;
             }
 
-            // SAFARI/MAC FIX: Use negotiated MIME instead of hardcoded "audio/webm"
             const finalMimeType = resolveBlobMime(self._recorder, self._supportedMime);
             const blob = new Blob(self._chunks, { type: finalMimeType });
             self._chunks = [];
@@ -862,7 +918,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
           self._rankingLocked = true;
           $("#rankingPoolCombined, #rankingTargetCombined").sortable("disable");
           lockButton.disabled = true;
-          lockButton.textContent = "Ranking locked";
+          lockButton.textContent = "✓ Ranking locked";
           study.options.datastore.set("ranking_locked", 1);
           study.options.datastore.set("ranking_lock_ts", Date.now());
           study.options.datastore.set("ranking_lock_order", orderCodes);
@@ -875,10 +931,13 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
             };
           }
           setupCombinedRecorder();
+          
+          // Scroll to audio section
+          setTimeout(() => {
+            document.getElementById("combinedAudioSection").scrollIntoView({ behavior: "smooth" });
+          }, 100);
         };
       }
-
-      updateRanksAndValidity();
     },
     commit: async function () {
       const orderCodes = $("#rankingTargetCombined .ranking-item")
@@ -909,7 +968,6 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
       if (this._recorder && this._recorder.state === "recording") this._recorder.stop();
       this._stream = stopStream(this._stream);
 
-      // SAFARI/MAC FIX: Use resolved blob MIME instead of hardcoded "audio/webm"
       const blobMime = this._audioBlob
         ? (this._audioBlob.type || this._supportedMime || "audio/mp4")
         : (this._supportedMime || "audio/mp4");
