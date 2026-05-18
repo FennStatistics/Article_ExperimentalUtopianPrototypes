@@ -1,5 +1,5 @@
 /* global variables */
-const numElements = 61;
+const numElements = 62;
 var numElementsCounter = 0;
 var URLparams_global;
 var paracountclicks = 0;
@@ -39,8 +39,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-    TransitionToVisualTraps_htmlForm,
-    TransitionToScenario_htmlForm,
+    TransitionToL2Scales_htmlForm,
 
         
     Greetings_htmlForm,
@@ -59,6 +58,7 @@ const study = new lab.flow.Sequence({
     RankingWithAudio_htmlForm,
     MissingUtopiaAudio_htmlForm,
     // dispositional scales L2
+    TransitionToL2Scales_htmlForm,
     Sequence_Scales,
     // socio demographic-questions
     SocioDemo_htmlForm,

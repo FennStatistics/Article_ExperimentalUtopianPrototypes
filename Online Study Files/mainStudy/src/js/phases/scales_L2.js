@@ -207,6 +207,48 @@ const BRS_Scale_htmlForm = makeLikertPage(
   ],
 );
 
+const transitionToL2Text = `
+<header>
+  <h2>Final part of the study</h2>
+</header>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+    <section>
+      In this last part, you will <strong>answer questions about yourself</strong>.
+    </section>
+    <br>
+    <section>
+      Previously, you answered questions about different future societies. The following statements are different — they ask about <strong>your own experiences, beliefs, and attitudes</strong>.
+    </section>
+    <br>
+    <section>
+      There are no right or wrong answers. Please respond thoughtfully and honestly.
+    </section>
+  </div>
+</main>
+
+<form id="page-form"></form>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <button id="continue" type="submit" form="page-form">
+    Continue &rarr;
+  </button>
+</footer>
+`;
+
+const TransitionToL2Scales_htmlForm = new lab.html.Form({
+  title: "TransitionToL2Scales",
+  content: transitionToL2Text,
+  messageHandlers: {
+    commit: () => {
+      numElementsCounter++;
+      document.querySelector(".progress-bar").style.width =
+        (numElementsCounter / numElements) * 100 + "%";
+    },
+  },
+});
+
 const Sequence_Scales = new lab.flow.Sequence({
   title: "Sequence Scales",
   shuffle: true,
