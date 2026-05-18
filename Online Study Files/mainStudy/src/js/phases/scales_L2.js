@@ -29,12 +29,23 @@ const makeLikertPage = function (title, name, label, items, anchors) {
     messageHandlers: {
       run: function () {
       $('button[type="submit"][form="page-form"]').attr("id", "continue");
+      
 
       // adjust size of scale
       document.querySelectorAll("div")[0].classList = ["text-left"];
       document.querySelectorAll("main")[1].classList = ["w-xl"];
-      document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
-      <col style="width: 29.17%">
+document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
+<col style="width: 40%">  <!-- Question text (larger) -->
+<col style="width: 6.67%"> <!-- Scale point 1 -->
+<col style="width: 6.67%"> <!-- Scale point 2 -->
+<col style="width: 6.67%"> <!-- Scale point 3 -->
+<col style="width: 6.67%"> <!-- Scale point 4 -->
+<col style="width: 6.67%"> <!-- Scale point 5 -->
+<col style="width: 6.67%"> <!-- Scale point 6 -->
+<col style="width: 6.67%"> <!-- Scale point 7 -->
+<col style="width: 6.67%"> <!-- Scale point 8 -->
+<col style="width: 6.67%"> <!-- Scale point 9 -->
+<col style="width: 6.67%"> <!-- Scale point 10 -->
       `;
       // sticky labels to front
       $("thead").first().css("z-index", "20");
@@ -164,12 +175,12 @@ const PRDS_Scale_htmlForm = makeLikertPage(
   "Please indicate how much you agree with the following statements.",
   items_prds,
   [
-    "1 - Strongly disagree",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6 - Strongly agree",
+    "Strongly disagree",
+    "Disagree",
+    "Somewhat disagree",
+    "Somewhat agree",
+    "Agree",
+    "Strongly agree",
   ],
 );
 

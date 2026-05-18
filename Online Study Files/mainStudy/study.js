@@ -39,7 +39,19 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-    FeedbackScreen_htmlScreen,
+    PRDS_Scale_htmlForm,
+
+
+
+     NFC_Scale_htmlForm,
+    ARIS_Scale_htmlForm,
+    SWLS_Scale_htmlForm,
+    SJS_Scale_htmlForm,
+    UTOP_Scale_htmlForm,
+    ANTIUTOP_Scale_htmlForm,
+    PRDS_Scale_htmlForm,
+    CMQ_Scale_htmlForm,
+    BRS_Scale_htmlForm,
 
         
     Greetings_htmlForm,
