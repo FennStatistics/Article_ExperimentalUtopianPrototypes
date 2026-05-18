@@ -38,20 +38,9 @@ const study = new lab.flow.Sequence({
     new lab.plugins.Debug(), // comment out finally !!!
     // new lab.plugins.Download()
   ],
-  content: [
-    RankingWithAudio_htmlForm,
+  content: [    
 
-
-
-     NFC_Scale_htmlForm,
-    ARIS_Scale_htmlForm,
-    SWLS_Scale_htmlForm,
-    SJS_Scale_htmlForm,
-    UTOP_Scale_htmlForm,
-    ANTIUTOP_Scale_htmlForm,
-    PRDS_Scale_htmlForm,
-    CMQ_Scale_htmlForm,
-    BRS_Scale_htmlForm,
+        MissingUtopiaAudio_htmlForm,
 
         
     Greetings_htmlForm,

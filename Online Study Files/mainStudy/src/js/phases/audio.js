@@ -47,10 +47,12 @@ const feedbackAudio2Text = `
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
     <section>
-      Please describe a type of future society that you feel was missing from the previous presented future societies, and explain what would matters most in your future society.
+      <p><strong>Describe your missing future society:</strong> Looking back at the seven societies you just ranked, were there any important values or approaches that were absent from all of them? Please describe briefly a type of future society that you feel was missing and explain what would matter most in your vision of that society.</p>
+      <p style="margin-top: 0.8rem; font-size: 0.95rem; color: #666;"><i>Note: If you feel that all important values were already represented, you can simply indicate that in your recording.</i></p>
     </section>
-    <section style="margin-top: 0.5rem;">
-      As in the microphone test you completed earlier, click the record button to start and click it again to stop. You may re-record your answer if you wish.
+    
+    <section style="margin-top: 1.5rem;">
+As before, click the record button to start and click it again to stop. You may re-record if needed.
     </section>
 
     <section id="audio2-interface" style="margin-top: 1rem;">
