@@ -39,7 +39,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-    SetupStudy_htmlForm,
+    FeedbackScreen_htmlScreen,
 
         
     Greetings_htmlForm,
