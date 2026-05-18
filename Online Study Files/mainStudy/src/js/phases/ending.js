@@ -18,7 +18,7 @@ function submitIfJatosEnding() {
 const socioDemoLeftRightQuestion = `
 <div class="page-item page-item-likert">
   <p class="font-weight-bold" style="margin: 1rem 0 0.25rem; font-size: 24px;">
-    Many people use the terms "left" and "right" to describe different political attitudes. We have a scale here that runs from left to right. Thinking about your own political views, where would you place them on this scale?
+    People sometimes use the terms "left" and "right" to describe political views. Thinking about your own political views, where would you place yourself on the following scale?
   </p>
   <span style="margin-left: 2%; display: inline-block; width: 80px; font-size: 16px;">Left (1)</span>
   <span style="float: right; display: inline-block; width: 90px; font-size: 16px;">Right (11)</span>
@@ -53,7 +53,7 @@ const socioDemoLeftRightQuestion = `
 const socioDemoReligiosityQuestion = `
 <div class="page-item page-item-likert">
   <p class="font-weight-bold" style="margin: 1rem 0 0.25rem; font-size: 24px;">
-    People describe themselves as differing in how religious they are. Below is a scale from "not at all religious" to "very religious." Thinking about yourself, where would you place yourself on this scale?
+    People differ in how religious they consider themselves to be. Thinking about yourself, where would you place yourself on the following scale?
   </p>
   <span style="margin-left: 2%; display: inline-block; width: 190px; font-size: 16px;">Not at all religious (1)</span>
   <span style="float: right; display: inline-block; width: 140px; font-size: 16px;">Very religious (11)</span>
@@ -89,15 +89,15 @@ const socioDemoReligiosityQuestion = `
 const SocioDemo_htmlForm = new lab.html.Form({
   title: "SocioDemo",
   content: `
-  <header><h2>Demographics</h2></header>
+  <header><h2>About you</h2></header>
   <main class="content-horizontal-center content-vertical-center">
     <div class="w-xl text-justify">
       <form id="demography">
         <table>
-          <tr><td>How old are you (in years)?</td><td><input name="age" type="number" min="18" max="120" required class="w-100"></td></tr>
+          <tr><td>How old are you, in years?</td><td><input name="age" type="number" min="18" max="120" required class="w-100"></td></tr>
           <tr><td>What is your current employment status?</td><td><select id="employmentStatus" name="employment_status" required class="w-100"><option value="">- Please select -</option><option value="full_time">Employed full-time</option><option value="part_time">Employed part-time</option><option value="self_employed">Self-employed</option><option value="student">Student</option><option value="unemployed">Unemployed</option><option value="retired">Retired</option><option value="other">Other</option></select></td></tr>
           <tr><td>What is your gender?</td><td><select name="gender" required class="w-100"><option value="">- Please select -</option><option value="woman">Woman</option><option value="man">Man</option><option value="non_binary">Non-binary</option><option value="prefer_not">Prefer not to say</option></select></td></tr>
-          <tr><td>What is your highest level of education?</td><td><select name="education" required class="w-100"><option value="">- Please select -</option><option value="less_hs">Less than high school</option><option value="hs">High school</option><option value="some_college">Some college</option><option value="bachelor">Bachelor's</option><option value="master">Master's</option><option value="doctoral">Doctoral</option><option value="professional">Professional degree</option></select></td></tr>
+          <tr><td>What is the highest level of education you have completed?</td><td><select name="education" required class="w-100"><option value="">- Please select -</option><option value="less_hs">Less than high school</option><option value="hs">High school</option><option value="some_college">Some college</option><option value="bachelor">Bachelor's</option><option value="master">Master's</option><option value="doctoral">Doctoral</option><option value="professional">Professional degree</option></select></td></tr>
         </table>
         <br>
         ${socioDemoLeftRightQuestion}
@@ -125,6 +125,7 @@ const FeedbackScreen_htmlScreen = new lab.html.Form({
   <main class="content-horizontal-center content-vertical-center">
     <div class="w-xl">
       <form id="feedbackFinalForm">
+        <p>Please use this space for any comments about the study, including anything that felt unclear or difficult.</p>
         <textarea name="feedback_critic" class="w-100" rows="8"></textarea>
       </form>
     </div>
@@ -145,10 +146,10 @@ const EndingScreen_htmlScreen = new lab.html.Screen({
   title: "EndingScreen",
   tardy: true,
   content: `
-  <header><h2>Thank you very much for your participation!</h2></header>
+  <header><h2>Thank you very much for your participation.</h2></header>
   <main class="content-horizontal-center content-vertical-center">
     <div class="w-xl text-justify">
-      <p>The experiment will end in a few seconds. You will then be redirected back to Prolific.</p>
+      <p>The study will end in a few seconds, and you will then be redirected back to Prolific.</p>
     </div>
   </main>
   `,

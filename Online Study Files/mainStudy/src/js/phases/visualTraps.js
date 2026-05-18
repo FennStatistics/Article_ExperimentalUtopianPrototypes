@@ -17,7 +17,7 @@ const visualTrapText = `
   <div class="w-xxl text-justify visual-traps">
 
     <p class="trap-instruction">
-      These are short visual perception and reasoning questions. Please look at the image and choose the best answer. If you are unsure, make your best guess.
+      These are short visual perception and reasoning questions. Please look at each image carefully and choose the best answer. If you are unsure, please make your best guess.
     </p>
 
     <div class="trap-image-frame" aria-hidden="false">
@@ -51,15 +51,15 @@ const transitionToScenarioText = `
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
     <section>
-      Next, you will read a short text describing a possible future society.
+      Next, you will read short descriptions of multiple possible future societies.
     </section>
     <br>
     <section>
-      Please imagine you are living in that society.
+      As you read, please imagine living in each society.
     </section>
     <br>
     <section>
-      Afterward, you will answer a few questions about your impressions and responses.
+      Below each description, you will answer a few questions about your impressions and reactions.
     </section>
   </div>
 </main>

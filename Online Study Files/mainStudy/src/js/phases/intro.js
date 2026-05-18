@@ -27,16 +27,16 @@ const greetingsText = `
                <kbd>-</kbd> key on your keyboard
        </ul>
        <br>     
-       <section>
-            With our research, we aim to get a better understanding of human behavior and mental processes. In this study,
-            we will measure your behavior (e.g., choices, reaction times, and whether you leave full screen).
-       </section>
-       <br>
-       <section>
-           The study takes no more than <strong>10 minutes</strong>. Please use a <strong>computer or
-               laptop with a keyboard</strong> for the study. Please ensure that you can
-            participate in the study without being disturbed. First, please review and agree to the informed consent on the next page.
-       </section>
+        <section>
+             This study examines how people respond to different descriptions of possible future societies. During the study,
+             we will record your responses and interaction data (for example, your choices, response times, and whether you leave full screen).
+        </section>
+        <br>
+        <section>
+            The study takes no more than <strong>XXX minutes</strong>. Please use a <strong>computer or
+                laptop with a keyboard</strong> and make sure you are in a quiet place where you can speak into your microphone later in the study.
+             Please complete the study without interruptions. On the next page, you will review the informed consent.
+        </section>
    </div>
  </main>
  
@@ -59,21 +59,21 @@ const informConText = `
 
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
- <p>Dear participant,</p>
-    <p>Thank you for taking part in a study conducted by the Department of General Psychology at the University of Freiburg! Please read the information below carefully.</p>
+    <p>Dear participant,</p>
+    <p>Thank you for taking part in a study conducted by the Department of General Psychology at the University of Freiburg. Please read the information below carefully.</p>
 
-    <p><b>Voluntariness.</b> Your participation in this study is <strong>voluntary</strong>. You may end this online study at any time without providing a reason and without experiencing any disadvantages. To do so, simply close the browser window. However, if you terminate the online study early, you will not be able to complete it and will therefore not be entitled to compensation.</p>
-    <p>Participation in this online study <strong>does not involve any unusual burdens or risks</strong> for you. For participating in this study, you will receive the payment amount listed on Prolific.</p>
-
-
-    <p><b>Anonymization and storage of the data.</b> The data collected as part of this online study will be <strong>fully anonymized</strong> during collection and storage. The collected data will be stored for at least 10 years. Since the data is collected anonymously, it is not possible to draw any conclusions about your identity. For this reason, however, we are also unable to identify your data set after collection, and therefore cannot delete your data. Even if you terminate the online study early, deletion of the data is not possible for the same reason.</p>
+    <p><b>Voluntariness.</b> Your participation in this study is <strong>voluntary</strong>. You may stop the study at any time without giving a reason and without any disadvantage. To do so, simply close the browser window. However, if you stop the study early, you will not be able to complete it and therefore will not be entitled to compensation.</p>
+    <p>Participation in this online study <strong>does not involve any unusual burdens or risks</strong>. For taking part, you will receive the payment amount listed on Prolific.</p>
 
 
-    <p><b>Publication of the collected data.</b> Your data will be used <strong>exclusively for scientific purposes</strong>. Any future publication of the data will be in fully anonymized form and also solely for scientific research purposes. The fully anonymized data will be made publicly available, for example, via the Open Science Framework (OSF) and/or GitHub.</p>
+    <p><b>Anonymization and storage of the data.</b> The data collected in this online study will be <strong>fully anonymized</strong> during collection and storage. The data will be stored for at least 10 years. Because the data is collected anonymously, it cannot be linked back to your identity. For the same reason, we cannot identify or delete your individual data set after collection, including if you stop the study early.</p>
 
-    <p><b>Responsibilities.</b> This study follows the <strong>recommendations of the German Research Foundation (DFG) and the German Psychological Society (DGPs)</strong> for ensuring quality and transparency in research.</p>
+
+<p><b>Publication of collected data.</b> Your data will be used <strong>exclusively for scientific purposes</strong>. Any publications will feature only fully anonymized data—no audio files will be publicly shared. Anonymized datasets may be made publicly available through platforms like the Open Science Framework (OSF) or GitHub for scientific research purposes.</p>
+
+    <p><b>Responsibilities.</b> This study follows the <strong>recommendations of the German Research Foundation (DFG) and the German Psychological Society (DGPs)</strong> for research quality and transparency.</p>
+    
     <p>If you have any questions now or after the study, please contact the principal investigator Julius Fenn:</p>
-
 
     <p>
         <strong>Julius Fenn</strong><br>
@@ -88,10 +88,10 @@ const informConText = `
     <form id="page-form" style="display: block;" autocomplete="off">
       <div class="page-item page-item-radio" id="page-item-ques_dummycam">
         <p class="text-left font-weight-bold" style="margin: 1rem 0 0.25rem">
-          Please select one of the following options:
+          Please choose one of the following options:
         </p>
         <p class="small text-muted hide-if-empty" style="margin: 0.25rem 0">
-          Refusal to give consent will end the study.
+          If you do not consent, the study will end.
         </p>
         <table class="table-plain page-item-table">
           <colgroup>
@@ -105,7 +105,7 @@ const informConText = `
               </td>
               <td>
                 <label for="dummy_informedconsent" class="text-left">
-                  I confirm that I have understood the above information and <strong>agree</strong> to participate in the study.
+                  I confirm that I have understood the information above and <strong>agree</strong> to participate in the study.
                 </label>
               </td>
             </tr>
@@ -115,7 +115,7 @@ const informConText = `
               </td>
               <td>
                 <label for="dummy_informedconsent2" class="text-left">
-                  I confirm that I have understood the above information and <strong>do not agree</strong> to participate in the study.
+                  I confirm that I have understood the information above and <strong>do not agree</strong> to participate in the study.
                 </label>
               </td>
             </tr>
@@ -138,8 +138,7 @@ const informConNoText = `
    <main class="content-horizontal-center content-vertical-center">
    <div class="w-xl text-justify">
    <section>
-       You have not agreed to the informed consent. Unfortunately, this means that the study is over for you. You can
-       now close the screen. Press the <kbd>Esc</kbd> key to exit fullscreen mode. 
+        You did not agree to the informed consent, so the study cannot continue. You may now close this screen. Press the <kbd>Esc</kbd> key to exit fullscreen mode.
    </section>
  </div>
  </main>
@@ -147,23 +146,23 @@ const informConNoText = `
 
 const exclusionCriteriaText = `
    <header>
-      <h2>Thank you for agreeing to the conditions of participation. </h2>
+       <h2>Before you begin</h2>
   </header>
   
   <main class="content-horizontal-center content-vertical-center">
       <div class="w-xl text-justify">
           <section>
-              Before we begin, we would like to draw your attention to the following rules during the online study:
+               Please keep the following in mind while completing the study:
           </section>
           <br>
           <ul>
-              <li>Please complete the study in a focused manner.</li>
-              <li>Do not leave the browser screen of the study unless you are explicitly asked to do so. </li>
-              <li>Please read all instructions carefully and comply with them.</li>
-              <li>Do not use bots or AI tools (e.g., Large Language Models such as ChatGPT) to answer any part of this study.</li>
-          </ul>
+               <li>Please complete the study carefully and with your full attention.</li>
+               <li>Please stay on the study page unless you are explicitly asked to do something else.</li>
+               <li>Please read all instructions carefully before responding.</li>
+               <li>Please do not use bots or AI tools (for example, ChatGPT) to answer any part of this study.</li>
+           </ul>
  <br>
- We care about the quality of our experimental and survey data. To get the most accurate measures of your opinions, it is important that you provide thoughtful answers to each question in this survey. 
+ We care about data quality. To measure your views as accurately as possible, please answer each question thoughtfully and honestly.
  <br>
 <form id="page-form">
   <div aria-hidden="true" style="position:absolute; left:-9999px; width:1px; height:1px; opacity:0; overflow:hidden;">
@@ -174,7 +173,7 @@ const exclusionCriteriaText = `
 <!-- multiple choice + text field --> 
 <div class="page-item page-item-radio" id="page-item-ques_dummycam">
  <p class="text-left font-weight-bold" style="margin: 1rem 0 0.25rem">
-  Do you agree to provide thoughtful answers in this survey?
+   Do you agree to provide thoughtful answers in this survey?
  </p>
  <p class="text-left small text-muted hide-if-empty" style="margin: 0.25rem 0">
  </p>
@@ -192,7 +191,7 @@ const exclusionCriteriaText = `
  </td>
  <td>
    <label for="commCheck" class="text-left" style="font-size:26px">
-   I can't promise either way
+    I can't promise that
    </label>
  </td>
 </tr>
@@ -203,7 +202,7 @@ const exclusionCriteriaText = `
  </td>
  <td>
    <label for="commCheck2" class="text-left" style="font-size:26px">
-   Yes, I will
+    Yes, I will
       </label>
  </td>
 </tr>
@@ -213,7 +212,7 @@ const exclusionCriteriaText = `
  </td>
  <td>
    <label for="commCheck3" class="text-left" style="font-size:26px">
-   No, I will not
+    No, I will not
       </label>
  </td>
 </tr>
@@ -317,26 +316,29 @@ const attentionCheckText = `
 
 const setupStudyText = `
    <header>
-      <h2>Overview of the study:</h2>
+       <h2>Study overview</h2>
     </header>
     
     <main class="content-horizontal-center content-vertical-center">
     <div class="w-xl text-justify">
   <section>
- This study includes two sections:
+ This study has several short parts:
         </section>
   <br>
  <table>
     <tr>
-      <td>First, you will answer a few brief visual perception questions (images with short questions).</td>
+      <td>You will answer a few brief visual perception questions.</td>
     </tr>
     <tr>
-      <td>Then, you will read a short text about a future society and complete a few related tasks (e.g., word associations and follow-up questions).</td>
+      <td>You will then read short descriptions of possible future societies and answer questions about them.</td>
+    </tr>
+    <tr>
+      <td>Later, you will complete a ranking task, two short audio responses, and some additional questionnaires about your views and background.</td>
     </tr>
   </table>
   <br>
   <section>
-  Within each part, you will receive detailed instructions about what to do. Please read them carefully.
+   Each part includes its own instructions. Please read them carefully. There are no right or wrong answers; we are interested in your personal views.
      </div>
    </main>
    <form id="page-form"> 

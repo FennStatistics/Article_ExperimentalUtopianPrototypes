@@ -2,36 +2,6 @@
 ################### Scenario Text ###################
 */
 
-const scenarioText = `
-<header>
- <h2>Please read the following text carefully. All upcoming questions and a word association task will refer to this future society.</h2>
- </header>
-
-<main class="content-horizontal-center content-vertical-center">
-<div class="w-xxl text-justify">
-<div class="page-item page-item-likert" style="margin-left:5%; margin-right: 5%">
-  <div class="concept">
-    <h2 id="vignette_title">XX</h2>
-    <p id="vignette_first">XX1</p>
-    <p id="vignette_second">XX2</p>
-    <p id="vignette_third">XX3</p>
-  </div>
-  </div>
-</main>
-
-  <form id="page-form"> 
-  </form>
-
-  <footer class="content-vertical-center content-horizontal-right">
-  <div class="w-xl text-justify" style="font-size:26px;">
-  Do not press "Continue" until you have read the text carefully. The "Continue" button is invisible for 15 seconds.
-  </div>
-  &nbsp; <button id="continue" type="submit" form="page-form">
-  Continue &rarr;
-</button>
-</footer>
-`;
-
 // number of vignettes
 const totalVignettes = 7;
 const genericHeader = "Imagine Living in This Society";
@@ -105,69 +75,3 @@ const different_futureSocieties = {
   },
 };
 const arrayFutureSocieties = Object.values(different_futureSocieties);
-
-var counter = 0;
-const ScenarioText_htmlForm = new lab.html.Form({
-  title: "Scenario Text",
-  content: scenarioText,
-  messageHandlers: {
-    run: () => {
-      // overwrite text:
-      if (
-        URLparams_global !== undefined &&
-        URLparams_global.futureSocietyCondition !== undefined
-      ) {
-        futureSocietyCondition = URLparams_global.futureSocietyCondition;
-      } else {
-        futureSocietyCondition =
-          arrayFutureSocieties[index_futureSocieties[counter]].Vignette; // randomize which future society is shown first
-      }
-
-      const currentSociety = different_futureSocieties[futureSocietyCondition];
-      codingFutureSociety = currentSociety.Vignette;
-
-      $("#vignette_title").html(currentSociety.Vignette_header);
-      $("#vignette_first").html(currentSociety.Vignette_text1);
-      $("#vignette_second").html(currentSociety.Vignette_text2);
-      $("#vignette_third").html(currentSociety.Vignette_text3);
-
-      var trialNumber = counter + 1;
-      $("#vignette_title").html(`${genericHeader} (${trialNumber} of ${totalVignettes})`);
-      counter++;
-
-      // hide submit button
-      document.querySelector("button").style.visibility = "hidden";
-      setTimeout(
-        () => (document.querySelector("button").style.visibility = "visible"),
-        15000, // 15000 (15 seconds)
-      );
-    },
-    commit: () => {
-      // progress bar
-      numElementsCounter++;
-      document.querySelector(".progress-bar").style.width =
-        (numElementsCounter / numElements) * 100 + "%";
-
-      // store condition of future society
-      study.options.datastore.set(
-        "condition_FutureSociety",
-        codingFutureSociety,
-      );
-      study.options.datastore.set("vignette_order_position", trialNumber);
-
-      if (
-        !localTesting &&
-        typeof jatos !== "undefined" &&
-        typeof jatos.jQuery === "function"
-      ) {
-        // If JATOS is available, send data there
-        var resultJson = study.options.datastore.exportJson();
-        console.log("result data sent to JATOS");
-        jatos
-          .submitResultData(resultJson)
-          .then(() => console.log("success"))
-          .catch(() => console.log("error"));
-      }
-    },
-  },
-});

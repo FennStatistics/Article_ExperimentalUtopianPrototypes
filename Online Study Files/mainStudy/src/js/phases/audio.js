@@ -10,10 +10,10 @@ const testAudioText = `
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
     <section>
-      If no error message appears, use the record button (red dot) below to test your microphone.
-      Click the record button again to stop recording, then listen to your recording.
-      You can repeat this test as often as needed.
-      Click <kbd>Continue</kbd> when your microphone test works.
+      To test your microphone, click the record button (red dot) below and say a few words out loud.
+      Click the button again to stop recording, then listen to the playback.
+      You can repeat the test as often as you need.
+      Click <kbd>Continue</kbd> once you can hear your recording clearly.
     </section>
 
     <section id="interface">
@@ -41,16 +41,16 @@ const testAudioText = `
 
 const feedbackAudio2Text = `
 <header>
-  <h2>Audio feedback 2: Missing utopia</h2>
+  <h2>Audio feedback: your missing utopia</h2>
 </header>
 
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
     <section>
-      Please describe a type of utopia you feel is missing from the presented set and explain what matters most about it.
+      Please describe a type of future society that you feel was missing from the previous presented future societies, and explain what would matters most in your future society.
     </section>
     <section style="margin-top: 0.5rem;">
-      Click the record button to start. Click it again to stop. You can re-record.
+      As in the microphone test you completed earlier, click the record button to start and click it again to stop. You may re-record your answer if you wish.
     </section>
 
     <section id="audio2-interface" style="margin-top: 1rem;">
@@ -76,16 +76,16 @@ const feedbackAudio2Text = `
 
 const rankingWithAudioText = `
 <header>
-  <h2>Rank and explain your ranking</h2>
+  <h2>Rank the societies and explain your ranking</h2>
 </header>
 
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
     <section>
-      This step has two parts: first rank all future societies, then record a short explanation of your reasoning.
+      This step has two parts. First, rank all of the future societies. Then, record a short explanation of your reasoning.
     </section>
     <section style="margin-top: 0.5rem;">
-      Drag societies from the left list into the right list and arrange them from 1 (least preferred) to 7 (most preferred).
+      Drag societies from the left list into the right list. Arrange them from 1 (least preferred) to 7 (most preferred).
     </section>
 
     <section style="margin-top: 1rem;">
@@ -137,16 +137,16 @@ const rankingWithAudioText = `
         </div>
       </div>
       <div id="rankingCombinedError" style="margin-top: 10px; color: #b00020; font-weight: 600; visibility: hidden;">
-        Please move all 7 societies to the right list.
+         Please move all 7 societies to the right-hand list.
       </div>
       <div id="rankingLockWrap" style="margin-top: 12px; display: none;">
-        <p style="margin: 0 0 8px 0;">Looks good? You can still reorder before locking.</p>
+         <p style="margin: 0 0 8px 0;">When you are satisfied with the order, lock your ranking. You can still reorder items before locking.</p>
         <button id="rankingLockBtn" type="button">Lock ranking and continue to audio</button>
       </div>
     </section>
 
     <section id="combinedAudioSection" style="margin-top: 1rem; display: none;">
-      <p>Great. Your ranking is locked. Please record a short explanation of why you ranked the societies this way.</p>
+      <p>Your ranking is now locked. Please record a short explanation of why you ranked the societies this way. As before, click the record button to start and click it again to stop. You may re-record if needed.</p>
       <div id="audioCombinedControls">
         <button id="audioCombinedRecBtn" disabled>&#x2B24;</button>
         <button id="audioCombinedRetryMicBtn" type="button" style="display:none; margin-left: 0.5rem;">Request microphone access again</button>

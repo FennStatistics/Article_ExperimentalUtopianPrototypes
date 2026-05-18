@@ -79,7 +79,7 @@ const NFC_Scale_htmlForm = makeLikertPage(
 const ARIS_Scale_htmlForm = makeLikertPage(
   "Need for Chaos - Violence (ARIS-adapted)",
   "aris_scale",
-  "Thinking about the future society you would most like to live in, indicate your agreement.",
+   "Thinking about the future society you would most like to live in…, please indicate how much you agree with each statement.",
   items_aris,
   [
     "Strongly disagree",
@@ -95,7 +95,7 @@ const ARIS_Scale_htmlForm = makeLikertPage(
 const SWLS_Scale_htmlForm = makeLikertPage(
   "Satisfaction With Life Scale",
   "swls_scale",
-  "Please indicate your agreement.",
+  "Please indicate how much you agree with each statement.",
   items_swls,
   [
     "Strongly disagree",
@@ -111,7 +111,7 @@ const SWLS_Scale_htmlForm = makeLikertPage(
 const SJS_Scale_htmlForm = makeLikertPage(
   "System Justification Scale",
   "sjs_scale",
-  "Please indicate your agreement with the following statements.",
+  "Please indicate how much you agree with the following statements.",
   items_sjs,
   [
     "1 - Strongly disagree",
@@ -129,7 +129,7 @@ const SJS_Scale_htmlForm = makeLikertPage(
 const UTOP_Scale_htmlForm = makeLikertPage(
   "Utopianism",
   "utopianism_scale",
-  "Please indicate your agreement.",
+  "Please indicate how much you agree with each statement.",
   items_utopianism,
   [
     "Strongly disagree",
@@ -145,7 +145,7 @@ const UTOP_Scale_htmlForm = makeLikertPage(
 const ANTIUTOP_Scale_htmlForm = makeLikertPage(
   "Anti-utopianism",
   "anti_utopianism_scale",
-  "Please indicate your agreement.",
+  "Please indicate how much you agree with each statement.",
   items_antiutopianism,
   [
     "Strongly disagree",
@@ -176,7 +176,7 @@ const PRDS_Scale_htmlForm = makeLikertPage(
 const CMQ_Scale_htmlForm = makeLikertPage(
   "Conspiracy Mentality Questionnaire",
   "cmq_scale",
-  "For each statement, indicate how likely you think it is true.",
+  "For each statement, indicate how likely you think it is to be true.",
   items_cmq,
   [
     "0 - Certainly not",
@@ -196,7 +196,7 @@ const CMQ_Scale_htmlForm = makeLikertPage(
 const BRS_Scale_htmlForm = makeLikertPage(
   "Brief Resilience Scale",
   "brs_scale",
-  "Please indicate the extent to which you agree with each statement.",
+  "Please indicate how much you agree with each statement.",
   items_brs,
   [
     "1 - Strongly disagree",

@@ -111,13 +111,13 @@ function buildLikertBlock(blockName, blockLabel, items, anchors) {
 function buildCombinedScenarioHTML() {
   const peBlock = buildLikertBlock(
     "participative_efficacy",
-    "Indicate how much each statement applies to the society described above.",
+    "Please indicate how much you agree with each statement about the society described above.",
     participativeEfficacyItems,
     likertAnchors,
   );
   const attrBlock = buildLikertBlock(
     "attribute_ratings",
-    "Indicate how much you agree about ordinary people's role in shaping this society.",
+    "Please rate the society described above on the following statements.",
     attributeItems,
     likertAnchors,
   );
@@ -145,7 +145,7 @@ function buildCombinedScenarioHTML() {
 
     <div id="read-notice" style="text-align:right; font-size:18px;
          margin: 8px 5% 16px 5%; color:#666;">
-      Please read the text carefully. The questions below become active after 15 seconds.
+      Please read the text carefully. The questions below will become available after 15 seconds.
     </div>
 
     <form id="page-form">
@@ -155,7 +155,7 @@ function buildCombinedScenarioHTML() {
 
     <footer class="content-vertical-center content-horizontal-right">
       <div class="w-xl text-justify" style="font-size:26px;">
-        Do not press "Continue" until you have read the text and answered all questions.
+        Please continue after you have read the text and answered all questions.
       </div>
       &nbsp;
       <button id="continue" type="submit" form="page-form">
