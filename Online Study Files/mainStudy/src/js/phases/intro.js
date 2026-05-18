@@ -334,7 +334,7 @@ const setupStudyText = `
   </ol>
   <br>
   <section>
-   There are no right or wrong answers. Please answer thoughtfully and honestly.
+   There are no right or wrong answers. Please answer thoughtfully and honestly. On the next page, you will complete a short microphone test to make sure your audio works for the later parts of the study.
   </section>
      </div>
    </main>

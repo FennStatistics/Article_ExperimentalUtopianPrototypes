@@ -33,9 +33,9 @@ const makeLikertPage = function (title, name, label, items, anchors) {
 
       // adjust size of scale
       document.querySelectorAll("div")[0].classList = ["text-left"];
-      document.querySelectorAll("main")[1].classList = ["w-xl"];
+      document.querySelectorAll("main")[1].classList = ["w-xxl"];
 document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
-<col style="width: 40%">  <!-- Question text (larger) -->
+<col style="width: 25%">  <!-- Question text (larger) -->
 <col style="width: 6.67%"> <!-- Scale point 1 -->
 <col style="width: 6.67%"> <!-- Scale point 2 -->
 <col style="width: 6.67%"> <!-- Scale point 3 -->
@@ -47,6 +47,12 @@ document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
 <col style="width: 6.67%"> <!-- Scale point 9 -->
 <col style="width: 6.67%"> <!-- Scale point 10 -->
       `;
+
+// Remove "small" class from question text cells
+document.querySelectorAll(".page-item-table tbody td.small").forEach((cell) => {
+  cell.classList.remove("small");
+  cell.style.fontSize = "22px"; // or your preferred size
+});
       // sticky labels to front
       $("thead").first().css("z-index", "20");
       // collect paradata

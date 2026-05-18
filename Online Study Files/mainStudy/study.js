@@ -38,11 +38,16 @@ const study = new lab.flow.Sequence({
     new lab.plugins.Debug(), // comment out finally !!!
     // new lab.plugins.Download()
   ],
-  content: [    
-
-        MissingUtopiaAudio_htmlForm,
-
-        
+  content: [  
+        TransitionToL2Scales_htmlForm,
+    Sequence_Scales,
+    // socio demographic-questions
+    SocioDemo_htmlForm,
+    // ending screen
+    FeedbackScreen_htmlScreen,
+    EndingScreen_htmlScreen,
+    
+    
     Greetings_htmlForm,
     InformCon_htmlForm,
     InformConsentNO_htmlForm,
