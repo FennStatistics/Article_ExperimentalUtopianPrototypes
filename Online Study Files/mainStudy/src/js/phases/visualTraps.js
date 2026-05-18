@@ -43,23 +43,18 @@ const visualTrapText = `
 
 const visualTrapHeader = "VISUAL PERCEPTION TASK";
 
-const transitionToScenarioText = `
+const transitionToVisualTrapsText = `
 <header>
-  <h2>Next part of the study</h2>
+  <h2>Visual Reasoning Task</h2>
 </header>
 
 <main class="content-horizontal-center content-vertical-center">
   <div class="w-xl text-justify">
     <section>
-      Next, you will read short descriptions of multiple possible future societies.
+      <p>In this task, you will view a series of <strong>visual tasks</strong> designed to examine how people reason about and interpret visual information.</p>
     </section>
-    <br>
     <section>
-      As you read, please imagine living in each society.
-    </section>
-    <br>
-    <section>
-      Below each description, you will answer a few questions about your impressions and reactions.
+      <p>There are no trick questions or "gotchas"—simply <strong>answer as accurately as you can</strong> based on what you observe. If you are genuinely uncertain, make your best reasoned guess.</p>
     </section>
   </div>
 </main>
@@ -68,10 +63,69 @@ const transitionToScenarioText = `
 
 <footer class="content-vertical-center content-horizontal-right">
   <button id="continue" type="submit" form="page-form">
-    Continue &rarr;
+    Begin &rarr;
   </button>
 </footer>
 `;
+
+
+
+
+
+
+
+
+
+
+const TransitionToVisualTraps_htmlForm = new lab.html.Form({
+  title: "TransitionToVisualTraps",
+  content: transitionToVisualTrapsText,
+  messageHandlers: {
+    commit: () => {
+      numElementsCounter++;
+      document.querySelector(".progress-bar").style.width =
+        (numElementsCounter / numElements) * 100 + "%";
+    },
+  },
+});
+
+
+const transitionToScenarioText = `
+<header>
+  <h2>Next part of the study: Exploring Future Societies</h2>
+</header>
+
+<main class="content-horizontal-center content-vertical-center">
+  <div class="w-xl text-justify">
+    <section>
+      <p>In this next section, you will read descriptions of <strong>several different future societies</strong>—each representing a distinct vision of how our world could develop.</p>
+    </section>
+    <section>
+      <p>For each description, we ask that you <strong>take time to imagine living in that society</strong>. Consider what daily life might be like, what values would be prioritized, and how people might interact with each other and their environment.</p>
+    </section>
+    <section>
+      <p>After reading each description, you will few questions about your impressions. There are <strong>no right or wrong answers</strong>—we are interested in your genuine thoughts and feelings about each vision.</p>
+    </section>
+    <section>
+      <p style="font-size: 0.95em; color: #555; font-style: italic;">Please take your time with each description. You will have at least 15 seconds to read before you can answer the questions.</p>
+    </section>
+  </div>
+</main>
+
+<form id="page-form"></form>
+
+<footer class="content-vertical-center content-horizontal-right">
+  <button id="continue" type="submit" form="page-form">
+    Begin &rarr;
+  </button>
+</footer>
+`;
+
+
+
+
+
+
 
 const TransitionToScenario_htmlForm = new lab.html.Form({
   title: "TransitionToScenario",

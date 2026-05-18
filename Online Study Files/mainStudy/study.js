@@ -1,5 +1,5 @@
 /* global variables */
-const numElements = 60;
+const numElements = 61;
 var numElementsCounter = 0;
 var URLparams_global;
 var paracountclicks = 0;
@@ -39,9 +39,8 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-    loop_Scenarios,
-
-        BRS_Scale_htmlForm,
+    TransitionToVisualTraps_htmlForm,
+    TransitionToScenario_htmlForm,
 
         
     Greetings_htmlForm,
@@ -50,6 +49,7 @@ const study = new lab.flow.Sequence({
     ExclusionCriteria_htmlForm,
     SetupStudy_htmlForm,
     TestAudio_htmlForm,
+    TransitionToVisualTraps_htmlForm,
     // visual traps
     loop_VisualTraps,
     // within part L1
