@@ -126,7 +126,7 @@ const FeedbackScreen_htmlScreen = new lab.html.Form({
     <div class="w-xl">
       <form id="feedbackFinalForm">
         <p style="text-align: left;">Please use this space for any comments about the study, including anything that felt unclear or difficult.</p>
-        <textarea name="feedback_critic" class="w-100" rows="8"></textarea>
+        <textarea name="feedback_critic" class="w-100" rows="8" style="font-size: 22px;"></textarea>
       </form>
     </div>
   </main>
