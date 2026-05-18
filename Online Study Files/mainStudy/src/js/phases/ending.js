@@ -113,6 +113,21 @@ const SocioDemo_htmlForm = new lab.html.Form({
       const v = document.getElementById("employmentStatus").value;
       const employed = v === "full_time" || v === "part_time" || v === "self_employed";
       study.options.datastore.set("employment_is_employed", employed ? 1 : 0);
+
+      if (
+        !localTesting &&
+        typeof jatos !== "undefined" &&
+        typeof jatos.jQuery === "function"
+      ) {
+        // If JATOS is available, send data there
+        var resultJson = study.options.datastore.exportJson();
+        console.log("data sent to JATOS");
+        jatos
+          .submitResultData(resultJson)
+          .then(() => console.log("success"))
+          .catch(() => console.log("error"));
+      }
+
       updateProgressEnding();
     },
   },
@@ -163,7 +178,7 @@ const EndingScreen_htmlScreen = new lab.html.Screen({
         const resultJson = study.options.datastore.exportJson();
         jatos.submitResultData(resultJson).catch(() => console.log("error"));
         jatos.endStudyAndRedirect(
-          "https://app.prolific.com/submissions/complete?cc=CT77F9FI",
+          "https://app.prolific.com/submissions/complete?cc=XXXXX", // !!!
           true,
           "everything worked fine",
         );

@@ -28,13 +28,12 @@ const makeLikertPage = function (title, name, label, items, anchors) {
     width: "l",
     messageHandlers: {
       run: function () {
-      $('button[type="submit"][form="page-form"]').attr("id", "continue");
-      
+        $('button[type="submit"][form="page-form"]').attr("id", "continue");
 
-      // adjust size of scale
-      document.querySelectorAll("div")[0].classList = ["text-left"];
-      document.querySelectorAll("main")[1].classList = ["w-xxl"];
-document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
+        // adjust size of scale
+        document.querySelectorAll("div")[0].classList = ["text-left"];
+        document.querySelectorAll("main")[1].classList = ["w-xxl"];
+        document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
 <col style="width: 25%">  <!-- Question text (larger) -->
 <col style="width: 6.67%"> <!-- Scale point 1 -->
 <col style="width: 6.67%"> <!-- Scale point 2 -->
@@ -48,28 +47,30 @@ document.querySelectorAll(".page-item-table colgroup")[0].innerHTML = `
 <col style="width: 6.67%"> <!-- Scale point 10 -->
       `;
 
-// Remove "small" class from question text cells
-document.querySelectorAll(".page-item-table tbody td.small").forEach((cell) => {
-  cell.classList.remove("small");
-  cell.style.fontSize = "22px"; // or your preferred size
-});
-      // sticky labels to front
-      $("thead").first().css("z-index", "20");
-      // collect paradata
-      paracountclicks = 0;
-      document.querySelectorAll("input").forEach((item) => {
-        item.addEventListener("click", (event) => {
-          paracountclicks++;
-          console.log("input clicked", paracountclicks);
+        // Remove "small" class from question text cells
+        document
+          .querySelectorAll(".page-item-table tbody td.small")
+          .forEach((cell) => {
+            cell.classList.remove("small");
+            cell.style.fontSize = "22px"; // or your preferred size
+          });
+        // sticky labels to front
+        $("thead").first().css("z-index", "20");
+        // collect paradata
+        paracountclicks = 0;
+        document.querySelectorAll("input").forEach((item) => {
+          item.addEventListener("click", (event) => {
+            paracountclicks++;
+            console.log("input clicked", paracountclicks);
+          });
         });
-      });
       },
       end: function anonymous() {
-      // collect paradata: number of clicks
-      let numberitems = document.querySelectorAll("tbody tr").length;
-      paracountclicks -= numberitems;
-      study.options.datastore.set("para_countclicks", paracountclicks);
-    },
+        // collect paradata: number of clicks
+        let numberitems = document.querySelectorAll("tbody tr").length;
+        paracountclicks -= numberitems;
+        study.options.datastore.set("para_countclicks", paracountclicks);
+      },
       commit: function () {
         updateProgressL2();
       },
@@ -96,7 +97,7 @@ const NFC_Scale_htmlForm = makeLikertPage(
 const ARIS_Scale_htmlForm = makeLikertPage(
   "Need for Chaos - Violence (ARIS-adapted)",
   "aris_scale",
-   "Thinking about the future society you would most like to live in…, please indicate how much you agree with each statement.",
+  "Thinking about the future society you would most like to live in…, please indicate how much you agree with each statement.",
   items_aris,
   [
     "Strongly disagree",
@@ -259,6 +260,20 @@ const TransitionToL2Scales_htmlForm = new lab.html.Form({
   content: transitionToL2Text,
   messageHandlers: {
     commit: () => {
+      if (
+        !localTesting &&
+        typeof jatos !== "undefined" &&
+        typeof jatos.jQuery === "function"
+      ) {
+        // If JATOS is available, send data there
+        var resultJson = study.options.datastore.exportJson();
+        console.log("data sent to JATOS");
+        jatos
+          .submitResultData(resultJson)
+          .then(() => console.log("success"))
+          .catch(() => console.log("error"));
+      }
+
       numElementsCounter++;
       document.querySelector(".progress-bar").style.width =
         (numElementsCounter / numElements) * 100 + "%";
