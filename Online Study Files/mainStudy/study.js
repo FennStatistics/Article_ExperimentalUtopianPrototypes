@@ -39,7 +39,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-    TransitionToL2Scales_htmlForm,
+    SetupStudy_htmlForm,
 
         
     Greetings_htmlForm,

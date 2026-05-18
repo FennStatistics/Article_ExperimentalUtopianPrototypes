@@ -316,29 +316,26 @@ const attentionCheckText = `
 
 const setupStudyText = `
    <header>
-       <h2>Study overview</h2>
+       <h2>What to expect</h2>
     </header>
     
     <main class="content-horizontal-center content-vertical-center">
     <div class="w-xl text-justify">
   <section>
- This study has several short parts:
-        </section>
+   This study has three main parts, each with its own brief introduction:
+  </section>
   <br>
- <table>
-    <tr>
-      <td>You will answer a few brief visual perception questions.</td>
-    </tr>
-    <tr>
-      <td>You will then read short descriptions of possible future societies and answer questions about them.</td>
-    </tr>
-    <tr>
-      <td>Later, you will complete a ranking task, two short audio responses, and some additional questionnaires about your views and background.</td>
-    </tr>
-  </table>
+  <ol style="text-align: left; margin-left: 2rem;">
+    <li><strong>Visual reasoning:</strong> A short task to examine how you interpret visual information.</li>
+    <br>
+    <li><strong>Future societies:</strong> You will read descriptions of different possible futures and share your reactions. You will also rank them and briefly explain your choices.</li>
+    <br>
+    <li><strong>About you:</strong> Finally, you will answer questions about your own beliefs, experiences, and attitudes.</li>
+  </ol>
   <br>
   <section>
-   Each part includes its own instructions. Please read them carefully. There are no right or wrong answers; we are interested in your personal views.
+   There are no right or wrong answers. Please answer thoughtfully and honestly.
+  </section>
      </div>
    </main>
    <form id="page-form"> 
@@ -348,7 +345,7 @@ const setupStudyText = `
      <button id="continue" type="submit" form="page-form">
      Continue &rarr;
      </button>
-   </footer>
+   </footer>  
    `;
 
 const Greetings_htmlForm = new lab.html.Form({
