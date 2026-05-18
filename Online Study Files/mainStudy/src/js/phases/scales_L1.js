@@ -108,16 +108,19 @@ function buildLikertBlock(blockName, blockLabel, items, anchors) {
 
 // --- Combined component HTML template ---
 // Scenario at top, then the two Likert blocks injected inside #page-form.
+
+
 function buildCombinedScenarioHTML() {
   const peBlock = buildLikertBlock(
     "participative_efficacy",
-    "Please indicate how much you agree with each statement about the society described above.",
+    "To what extent do you agree with the statement that ordinary citizens can actively contribute to making this society a reality?",
     participativeEfficacyItems,
     likertAnchors,
   );
+
   const attrBlock = buildLikertBlock(
     "attribute_ratings",
-    "Please rate the society described above on the following statements.",
+    "To what extent would you personally find each of the following characteristics true about this society?",
     attributeItems,
     likertAnchors,
   );

@@ -39,7 +39,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Download()
   ],
   content: [
-    RankingWithAudio_htmlForm,
+    loop_Scenarios,
 
         BRS_Scale_htmlForm,
 
