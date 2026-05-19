@@ -69,7 +69,7 @@ const informConText = `
     <p><b>Anonymization and storage of the data.</b> The data collected in this online study will be <strong>fully anonymized</strong> during collection and storage. The data will be stored for at least 10 years. Because the data is collected anonymously, it cannot be linked back to your identity. For the same reason, we cannot identify or delete your individual data set after collection, including if you stop the study early.</p>
 
 
-    <p><b>Publication of collected data.</b> Your data will be used <strong>exclusively for scientific purposes</strong>. Any publications will feature only fully anonymized data. Audio files will <strong>not be publicly uploaded to the internet</strong>—only the transcribed text from audio recordings may be made publicly available through platforms like the Open Science Framework (OSF) or GitHub for scientific research purposes.</p>
+    <p><b>Publication of collected data.</b> Your data will be used <strong>exclusively for scientific purposes</strong>. Any publications will feature only fully anonymized data. Audio files will not be publicly uploaded to the internet—only the transcribed text from audio recordings may be made publicly available through platforms like the Open Science Framework (OSF) or GitHub for scientific research purposes.</p>
 
 
     <p><b>Responsibilities.</b> This study follows the <strong>recommendations of the German Research Foundation (DFG) and the German Psychological Society (DGPs)</strong> for research quality and transparency.</p>
