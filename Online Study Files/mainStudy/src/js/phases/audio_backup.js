@@ -604,7 +604,7 @@ const createSingleAudioForm = function (opts) {
         stream = stopStream(stream);
 
         study.options.datastore.set(`${opts.keyPrefix}_prompt`, opts.prompt);
-        study.options.datastore.set(`${opts.keyPrefix}_audio`, audioData);
+        // study.options.datastore.set(`${opts.keyPrefix}_audio`, audioData);
         study.options.datastore.set(`${opts.keyPrefix}_audio_length`, audioData.length);
         if (audioBlob) {
           study.options.datastore.set(`${opts.keyPrefix}_audio_mime`, audioBlob.type || "audio/webm");
@@ -864,7 +864,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
 
       const prompt = "Please explain why you ranked some future societies higher and others lower.";
       study.options.datastore.set("audio_ranking_explanation_prompt", prompt);
-      study.options.datastore.set("audio_ranking_explanation_audio", this._audioData);
+      // study.options.datastore.set("audio_ranking_explanation_audio", this._audioData);
       study.options.datastore.set("audio_ranking_explanation_audio_length", this._audioData.length);
       if (this._audioBlob) {
         study.options.datastore.set("audio_ranking_explanation_audio_mime", this._audioBlob.type || "audio/webm");
