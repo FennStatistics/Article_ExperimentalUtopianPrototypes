@@ -672,7 +672,7 @@ const createSingleAudioForm = function (opts) {
         const blobMime = audioBlob ? (audioBlob.type || supportedMime || "audio/mp4") : (supportedMime || "audio/mp4");
 
         study.options.datastore.set(`${opts.keyPrefix}_prompt`, opts.prompt);
-        study.options.datastore.set(`${opts.keyPrefix}_audio`, audioData);
+        // study.options.datastore.set(`${opts.keyPrefix}_audio`, audioData);
         study.options.datastore.set(`${opts.keyPrefix}_audio_length`, audioData.length);
         if (audioBlob) {
           study.options.datastore.set(`${opts.keyPrefix}_audio_mime`, blobMime);
@@ -759,6 +759,15 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
         .forEach((item) => {
           $pool.append(`<li class="ranking-item" data-code="${item.code}"><span class="ranking-rank"></span>${item.label}</li>`);
         });
+
+          // After populating societies, store initial order
+        const initialOrder = societies
+          .slice()
+          .sort((a, b) => a.label.localeCompare(b.label))
+          .map(item => item.code);
+        
+        study.options.datastore.set("ranking_initial_order", initialOrder);
+
 
       let updateTimeout = null;
       let isDragging = false;
@@ -976,7 +985,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
 
       const prompt = "Please explain why you ranked some future societies higher and others lower.";
       study.options.datastore.set("audio_ranking_explanation_prompt", prompt);
-      study.options.datastore.set("audio_ranking_explanation_audio", this._audioData);
+      // study.options.datastore.set("audio_ranking_explanation_audio", this._audioData);
       study.options.datastore.set("audio_ranking_explanation_audio_length", this._audioData.length);
       if (this._audioBlob) {
         study.options.datastore.set("audio_ranking_explanation_audio_mime", blobMime);
