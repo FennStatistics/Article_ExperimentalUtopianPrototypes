@@ -3,6 +3,11 @@ Paradata collection (general).
 Focus/blur is handled by src/js/paradata/paradata_focus.js only.
 */
 
+// Global configuration - set to false to disable behavioral data collection
+window.PARADATA_COLLECT_BEHAVIOR = false;
+// Global configuration - set to false to disable static data collection
+window.PARADATA_COLLECT_STATIC = false;
+
 (function () {
   const PARADATA_KEY = "paradata_general";
   const MOUSE_SAMPLE_MS = 250;
@@ -113,13 +118,20 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
         : null,
 
       mediaQueries: {
-        prefersDarkScheme: safe(() => matchMedia("(prefers-color-scheme: dark)").matches),
-        prefersReducedMotion: safe(() => matchMedia("(prefers-reduced-motion: reduce)").matches),
+        prefersDarkScheme: safe(
+          () => matchMedia("(prefers-color-scheme: dark)").matches,
+        ),
+        prefersReducedMotion: safe(
+          () => matchMedia("(prefers-reduced-motion: reduce)").matches,
+        ),
         prefersReducedTransparency: safe(
           () => matchMedia("(prefers-reduced-transparency: reduce)").matches,
-          null
+          null,
         ),
-        prefersContrastMore: safe(() => matchMedia("(prefers-contrast: more)").matches, null),
+        prefersContrastMore: safe(
+          () => matchMedia("(prefers-contrast: more)").matches,
+          null,
+        ),
         pointerCoarse: safe(() => matchMedia("(pointer: coarse)").matches),
         pointerFine: safe(() => matchMedia("(pointer: fine)").matches),
         hover: safe(() => matchMedia("(hover: hover)").matches),
@@ -170,7 +182,7 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
       component: getComponentTitle(),
       target: getTargetMeta(target),
     });
-    scheduleSync();
+    if (window.PARADATA_COLLECT_BEHAVIOR) scheduleSync();
   };
 
   const handleMouseMove = (event) => {
@@ -187,7 +199,7 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
       timestamp: nowIso(),
       component: getComponentTitle(),
     });
-    scheduleSync();
+    if (window.PARADATA_COLLECT_BEHAVIOR) scheduleSync();
   };
 
   const handleScroll = () => {
@@ -204,7 +216,7 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
       timestamp: nowIso(),
       component: getComponentTitle(),
     });
-    scheduleSync();
+    if (window.PARADATA_COLLECT_BEHAVIOR) scheduleSync();
   };
 
   const handleKeyDown = (event) => {
@@ -217,7 +229,7 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
       state.keyIntervals.push(interval);
     }
     state.lastKeyTimestamp = now;
-    scheduleSync();
+    if (window.PARADATA_COLLECT_BEHAVIOR) scheduleSync();
   };
 
   const getKeyStats = () => {
@@ -243,7 +255,7 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
 
   const getSnapshot = () => {
     return {
-      static: collectStaticMetadata(),
+      static: window.PARADATA_COLLECT_STATIC ? collectStaticMetadata() : null,
       ip: state.ipInfo,
       ipError: state.ipError,
       behavior: {
@@ -286,6 +298,10 @@ Focus/blur is handled by src/js/paradata/paradata_focus.js only.
   };
 
   const initNetwork = async () => {
+    if (!window.PARADATA_COLLECT_STATIC) {
+      return; // Skip IP collection if static data is disabled
+    }
+
     if (typeof localTesting !== "undefined" && localTesting) {
       state.ipInfo = { skipped: true, reason: "localTesting" };
       scheduleSync();
