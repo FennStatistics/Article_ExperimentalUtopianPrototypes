@@ -1,0 +1,143 @@
+{
+  "audio_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642.webm",
+  "transcript": " uh yeah so I was trying to think about that in my head as well um while I am excited for the new innovations that science and technology have brought us as I am a pretty big fan of science not only does it interest me but I think it does have a place in making society better um I don't know that I would go to the point of wanting it AI centered um and data driven by the government governance but um so that's number three i think number number one would be the futurist utopia because i do have a lot of support and respect for science and innovation um i think the moral commonwealth i mean i think it seems a little unrealistic because you're always gonna have people who want to do their own thing um and no one's moral levels i i mean it would be interesting to see how that would work but if it could i think that would be great um three would be the data centers because um I think that we can get to a point with AI as long I mean that's take as long as it doesn't kill us is really the thing because that's what it's about um if that's taken out as a factor then yeah I think AI you know centered utopia would be would be great aside from that um modern green utopia followed by primitivist utopia I could live happily in both of those lives. I mean, we would be foregoing some amenities that I think everyone enjoys, but it would bring us back to our roots in nature. Below that is institutional utopia, which is basically like where we're living right now, which isn't awesome, but still better than religious based utopia. I mean, and that would really depend on what religion we're talking about. Are we talking about religion that has been adulterated over the last century or so or you know actual you know religion that can mean a lot of different things so that's my reasoning and why",
+  "language": "unknown",
+  "processing_time_seconds": 27.23355,
+  "timestamp": "2026-05-30T17:29:58.888079",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.68
+      ],
+      "text": " uh yeah so I was trying to think about that in my head as well um while I am excited for"
+    },
+    {
+      "timestamp": [
+        7.68,
+        14.06
+      ],
+      "text": " the new innovations that science and technology have brought us as I am a pretty big fan of"
+    },
+    {
+      "timestamp": [
+        14.06,
+        19.92
+      ],
+      "text": " science not only does it interest me but I think it does have a place in making society better um"
+    },
+    {
+      "timestamp": [
+        19.92,
+        26.8
+      ],
+      "text": " I don't know that I would go to the point of wanting it AI centered um and data driven by"
+    },
+    {
+      "timestamp": [
+        26.8,
+        33.04
+      ],
+      "text": " the government governance but um so that's number three i think number number one would be the"
+    },
+    {
+      "timestamp": [
+        33.04,
+        39.12
+      ],
+      "text": " futurist utopia because i do have a lot of support and respect for science and innovation um i think"
+    },
+    {
+      "timestamp": [
+        39.12,
+        43.34
+      ],
+      "text": " the moral commonwealth i mean i think it seems a little unrealistic because you're always gonna"
+    },
+    {
+      "timestamp": [
+        43.34,
+        48.08
+      ],
+      "text": " have people who want to do their own thing um and no one's moral levels i i mean it would be"
+    },
+    {
+      "timestamp": [
+        48.08,
+        53.1
+      ],
+      "text": " interesting to see how that would work but if it could i think that would be great um three would"
+    },
+    {
+      "timestamp": [
+        53.1,
+        59.94
+      ],
+      "text": " be the data centers because um I think that we can get to a point with AI as long I mean that's"
+    },
+    {
+      "timestamp": [
+        59.94,
+        66.7
+      ],
+      "text": " take as long as it doesn't kill us is really the thing because that's what it's about um if that's"
+    },
+    {
+      "timestamp": [
+        66.7,
+        72.62
+      ],
+      "text": " taken out as a factor then yeah I think AI you know centered utopia would be would be great"
+    },
+    {
+      "timestamp": [
+        72.62,
+        79.42
+      ],
+      "text": " aside from that um modern green utopia followed by primitivist utopia I could live happily in both"
+    },
+    {
+      "timestamp": [
+        79.42,
+        84.14
+      ],
+      "text": " of those lives. I mean, we would be foregoing some amenities that I think everyone enjoys, but"
+    },
+    {
+      "timestamp": [
+        84.14,
+        90.38
+      ],
+      "text": " it would bring us back to our roots in nature. Below that is institutional utopia, which is"
+    },
+    {
+      "timestamp": [
+        90.38,
+        96.76
+      ],
+      "text": " basically like where we're living right now, which isn't awesome, but still better than religious"
+    },
+    {
+      "timestamp": [
+        96.76,
+        101.52
+      ],
+      "text": " based utopia. I mean, and that would really depend on what religion we're talking about. Are we"
+    },
+    {
+      "timestamp": [
+        101.52,
+        109.7
+      ],
+      "text": " talking about religion that has been adulterated over the last century or so or you know actual"
+    },
+    {
+      "timestamp": [
+        109.7,
+        116.12
+      ],
+      "text": " you know religion that can mean a lot of different things so that's my reasoning and why"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "audio_file": "69e91fd1a613772e648e565a_audio_missing_utopia_1780153851261.webm",
+  "transcript": " I believe the societies provided covered all that would be expected, but what I share was missing is a society where some futures could be incorporated. Maybe a society that uses the sustainability and technology, or maybe the one that uses the institutional and AI center together. I think the society would provide more values.",
+  "language": "unknown",
+  "processing_time_seconds": 8.550375,
+  "timestamp": "2026-05-30T17:30:07.484263",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.0
+      ],
+      "text": " I believe the societies provided covered all that would be expected, but what I share was missing is a society where some futures could be incorporated."
+    },
+    {
+      "timestamp": [
+        17.0,
+        29.0
+      ],
+      "text": " Maybe a society that uses the sustainability and technology, or maybe the one that uses the institutional and AI center together."
+    },
+    {
+      "timestamp": [
+        29.0,
+        36.0
+      ],
+      "text": " I think the society would provide more values."
+    }
+  ]
+}

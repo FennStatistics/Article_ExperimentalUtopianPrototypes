@@ -1,0 +1,94 @@
+{
+  "audio_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923.webm",
+  "transcript": " I believe that a society that is sustainable and safe will be the best for the society, irrespective of where the resources will be abundant, good sleep will be good, people will be healthy so diseases will be less, that is a role in which people can live up to. I chose the second one as for the moral commonwealth, because I believe people in themselves can find the heart to live with each other harmoniously and govern themselves. Unlike for the institutional where we have to buy trust to institutional and a question of trust a licensure to who governs those institutions the ai the ai one is centuries have a question of privacy the possibility as who controls it so that we can be learned for the science and innovation it will be difficult to have a trust on AI systems and a whole. And for the primitives, primitivist and religious, that's quite difficult because I believe there would be a lot of bias and a lot of indifferences with the other rights.",
+  "language": "unknown",
+  "processing_time_seconds": 18.198383,
+  "timestamp": "2026-05-30T17:30:25.796778",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.76
+      ],
+      "text": " I believe that a society that is sustainable and safe will be the best for the"
+    },
+    {
+      "timestamp": [
+        13.76,
+        19.32
+      ],
+      "text": " society, irrespective of where the resources will be abundant, good sleep will be good,"
+    },
+    {
+      "timestamp": [
+        19.32,
+        28.92
+      ],
+      "text": " people will be healthy so diseases will be less, that is a role in which people can live up to."
+    },
+    {
+      "timestamp": [
+        28.92,
+        37.48
+      ],
+      "text": " I chose the second one as for the moral commonwealth, because I believe people in"
+    },
+    {
+      "timestamp": [
+        37.48,
+        44.36
+      ],
+      "text": " themselves can find the heart to live with each other harmoniously and govern themselves."
+    },
+    {
+      "timestamp": [
+        44.92,
+        51.96
+      ],
+      "text": " Unlike for the institutional where we have to buy trust to institutional and a question of trust"
+    },
+    {
+      "timestamp": [
+        51.96,
+        58.68
+      ],
+      "text": " a licensure to who governs those institutions the ai the ai one is centuries"
+    },
+    {
+      "timestamp": [
+        63.24,
+        66.44
+      ],
+      "text": " have a question of privacy"
+    },
+    {
+      "timestamp": [
+        68.68,
+        77.56
+      ],
+      "text": " the possibility as who controls it so that we can be learned for the science and innovation it will"
+    },
+    {
+      "timestamp": [
+        77.56,
+        90.36
+      ],
+      "text": " be difficult to have a trust on AI systems and a whole. And for the primitives, primitivist"
+    },
+    {
+      "timestamp": [
+        90.36,
+        95.08
+      ],
+      "text": " and religious, that's quite difficult because I believe there would be a lot of bias and"
+    },
+    {
+      "timestamp": [
+        95.72,
+        98.12
+      ],
+      "text": " a lot of indifferences with the other rights."
+    }
+  ]
+}

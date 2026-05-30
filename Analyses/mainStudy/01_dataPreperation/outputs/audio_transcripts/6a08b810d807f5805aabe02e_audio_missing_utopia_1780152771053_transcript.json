@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053.webm",
+  "transcript": " And to be very honest, I don't think that there was anything missing. I think that there was a good selection of options of different kind of societies and utopias. Yeah, I think they were all really, I think they were all kind of well explained. And I don't think that there could have been any other option. You know, we had the futuristic, we had the sustainable one, the more green focused one. we had the AI driven one, law, moral. I think that those were really kind of describing all of them besides maybe like a, just a all out free for all where there's no rules and there's no governance and everyone does what they want and everyone protects themselves and everyone fends for themselves. I feel like that could be a certain society that's missing. And to be honest, I would hate for that. I would hate that kind of society where there's just no, There's no societal rules. There's no legal rules. There's no consequence. And everybody takes things into their own hands. I think that would be very chaotic. Interesting in theory, but I think that just knowing how humans react when there's no rules and there's no governance and there's no consequences to actions, don't think that would be ideal.",
+  "language": "unknown",
+  "processing_time_seconds": 18.041274,
+  "timestamp": "2026-05-30T17:31:26.659453",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.62
+      ],
+      "text": " And to be very honest, I don't think that there was anything missing."
+    },
+    {
+      "timestamp": [
+        3.78,
+        10.38
+      ],
+      "text": " I think that there was a good selection of options of different kind of societies and utopias."
+    },
+    {
+      "timestamp": [
+        12.88,
+        16.96
+      ],
+      "text": " Yeah, I think they were all really, I think they were all kind of well explained."
+    },
+    {
+      "timestamp": [
+        17.28,
+        20.62
+      ],
+      "text": " And I don't think that there could have been any other option."
+    },
+    {
+      "timestamp": [
+        21.56,
+        27.88
+      ],
+      "text": " You know, we had the futuristic, we had the sustainable one, the more green focused one."
+    },
+    {
+      "timestamp": [
+        27.88,
+        34.16
+      ],
+      "text": " we had the AI driven one, law, moral. I think that those were really kind of describing"
+    },
+    {
+      "timestamp": [
+        34.16,
+        39.34
+      ],
+      "text": " all of them besides maybe like a, just a all out free for all where there's no rules"
+    },
+    {
+      "timestamp": [
+        39.34,
+        44.1
+      ],
+      "text": " and there's no governance and everyone does what they want and everyone protects themselves and"
+    },
+    {
+      "timestamp": [
+        44.1,
+        48.38
+      ],
+      "text": " everyone fends for themselves. I feel like that could be a certain society that's missing."
+    },
+    {
+      "timestamp": [
+        49.68,
+        54.12
+      ],
+      "text": " And to be honest, I would hate for that. I would hate that kind of society where there's just no,"
+    },
+    {
+      "timestamp": [
+        54.26,
+        54.12
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        77.46,
+        null
+      ],
+      "text": " There's no societal rules. There's no legal rules. There's no consequence. And everybody takes things into their own hands. I think that would be very chaotic. Interesting in theory, but I think that just knowing how humans react when there's no rules and there's no governance and there's no consequences to actions, don't think that would be ideal."
+    }
+  ]
+}

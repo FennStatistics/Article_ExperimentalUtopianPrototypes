@@ -1,0 +1,45 @@
+{
+  "audio_file": "67103e4ed56cde03a0f2476b_audio_missing_utopia_1780152799804.webm",
+  "transcript": " The only missing future society I could think of would be one where everybody is working towards the goal of making the planet a better place, working on lowering down pollution, working on making the air quality better, and us all practicing sustainability, and also innovating science and bringing about cures to things that are devastating like cancer.",
+  "language": "unknown",
+  "processing_time_seconds": 6.700291,
+  "timestamp": "2026-05-30T17:28:14.076093",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.66
+      ],
+      "text": " The only missing future society I could think of would be one where everybody is working"
+    },
+    {
+      "timestamp": [
+        8.66,
+        14.38
+      ],
+      "text": " towards the goal of making the planet a better place, working on lowering down pollution,"
+    },
+    {
+      "timestamp": [
+        14.38,
+        20.84
+      ],
+      "text": " working on making the air quality better, and us all practicing sustainability, and"
+    },
+    {
+      "timestamp": [
+        20.84,
+        27.82
+      ],
+      "text": " also innovating science and bringing about cures to things that are devastating like"
+    },
+    {
+      "timestamp": [
+        27.82,
+        29.1
+      ],
+      "text": " cancer."
+    }
+  ]
+}

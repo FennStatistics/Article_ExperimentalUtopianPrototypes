@@ -1,0 +1,52 @@
+{
+  "audio_file": "59a07638bfd73c00010ea394_audio_missing_utopia_1780152365703.webm",
+  "transcript": " I don't really have any complaints with the choices that were present. I'd say some of them could have been a bit more detailed in what they were trying to provide. Anything I can think of, I think, has already been touched upon, but not in the entirety that I think of. For example, the green utopia. In concept, it's pretty good, but there has to be a bunch of nuance. Okay.",
+  "language": "unknown",
+  "processing_time_seconds": 8.182258,
+  "timestamp": "2026-05-30T17:27:14.753032",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.76
+      ],
+      "text": " I don't really have any complaints with the choices that were present."
+    },
+    {
+      "timestamp": [
+        4.6,
+        10.22
+      ],
+      "text": " I'd say some of them could have been a bit more detailed in what they were trying to provide."
+    },
+    {
+      "timestamp": [
+        10.46,
+        17.94
+      ],
+      "text": " Anything I can think of, I think, has already been touched upon, but not in the entirety that I think of."
+    },
+    {
+      "timestamp": [
+        18.0,
+        20.58
+      ],
+      "text": " For example, the green utopia."
+    },
+    {
+      "timestamp": [
+        22.98,
+        27.18
+      ],
+      "text": " In concept, it's pretty good, but there has to be a bunch of nuance."
+    },
+    {
+      "timestamp": [
+        27.18,
+        28.02
+      ],
+      "text": " Okay."
+    }
+  ]
+}

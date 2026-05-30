@@ -1,0 +1,80 @@
+{
+  "audio_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199.webm",
+  "transcript": " um while i'm thinking about this i don't think that there's anything in particular that's missing what i think would be most ideal for my personal perspective um and again i mean it's just based on a whim here and what i've what i've read over the last 15 minutes um i think that it would be most ideal to take certain factors probably from like my top three or four choices and i would kind to mix and match and collaborate a few of those together to get an adaptation of the best of all those things I think we should be look for sustainability but I think technology has a place you know I think religion has a place I think that it's good to get down to our roots and be a little bit primitive if we were broken down into you know there's a lot of different factors but yeah I think mix and matching a couple of the best aspects of the top couple groups would We most thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 15.31209,
+  "timestamp": "2026-05-30T17:29:31.526234",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.24
+      ],
+      "text": " um while i'm thinking about this i don't think that there's anything in particular that's missing"
+    },
+    {
+      "timestamp": [
+        7.24,
+        14.6
+      ],
+      "text": " what i think would be most ideal for my personal perspective um and again i mean it's just based"
+    },
+    {
+      "timestamp": [
+        14.6,
+        19.42
+      ],
+      "text": " on a whim here and what i've what i've read over the last 15 minutes um i think that it would be"
+    },
+    {
+      "timestamp": [
+        19.42,
+        25.36
+      ],
+      "text": " most ideal to take certain factors probably from like my top three or four choices and i would kind"
+    },
+    {
+      "timestamp": [
+        25.36,
+        32.68
+      ],
+      "text": " to mix and match and collaborate a few of those together to get an adaptation of the best of all"
+    },
+    {
+      "timestamp": [
+        32.68,
+        38.44
+      ],
+      "text": " those things I think we should be look for sustainability but I think technology has a"
+    },
+    {
+      "timestamp": [
+        38.44,
+        43.66
+      ],
+      "text": " place you know I think religion has a place I think that it's good to get down to our roots"
+    },
+    {
+      "timestamp": [
+        43.66,
+        47.84
+      ],
+      "text": " and be a little bit primitive if we were broken down into you know there's a lot of different"
+    },
+    {
+      "timestamp": [
+        47.84,
+        53.36
+      ],
+      "text": " factors but yeah I think mix and matching a couple of the best aspects of the top couple groups would"
+    },
+    {
+      "timestamp": [
+        53.36,
+        53.98
+      ],
+      "text": " We most thank you."
+    }
+  ]
+}

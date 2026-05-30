@@ -1,0 +1,136 @@
+{
+  "audio_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058.webm",
+  "transcript": " So, I ranked religious utopia last because I have seen the terrible things that religion can do, and on a large scale, that would never be a utopia. For the same reason that I put intermorality and rule of law near the bottom, these involve too much of people that are easily corrupt. particularly in religion, there's always going to be a leader that thinks they know more than anyone else, which is the same thing that happens with the moral commonwealth and the institutional utopia. Someone is always going to screw that up for the people under them, particularly in religion where there is a larger chance of mania occurring. I put AI-centered utopia right in the middle because that seems a little too corruptible and also we don't know enough about AI, but I still thought that was better than the three bottom tiers. Primitivist Utopia was number three, low-tech, small-scale. I think that could go either way, but it seemed less dangerous than the the tiers near the bottom my second and first were futurist utopia and modern green utopia modern green one for that word sustainable sustainable and secure if we are looking at a society that has limited resources that needs to continue on as long as possible sustainability is going to be the key so that is why modern green utopia went in first place with futurist utopia slowly behind it because of its reliance on science and innovation, meaning that if things started to perhaps become less than ideal, the people in the society could innovate and possibly get out of any problems that they have. So yeah, that's why my ranking went the way it did. I'm always going to rank things that aren't as corruptible near the top and the things that I view as extremely corruptible, such as religion or intermorality near the bottom.",
+  "language": "unknown",
+  "processing_time_seconds": 29.526479,
+  "timestamp": "2026-05-30T17:31:08.526494",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.26
+      ],
+      "text": " So, I ranked religious utopia last because I have seen the terrible things that religion can do, and on a large scale, that would never be a utopia."
+    },
+    {
+      "timestamp": [
+        11.84,
+        22.22
+      ],
+      "text": " For the same reason that I put intermorality and rule of law near the bottom, these involve too much of people that are easily corrupt."
+    },
+    {
+      "timestamp": [
+        22.6,
+        25.56
+      ],
+      "text": " particularly in religion, there's always going to be a leader that thinks they know more than"
+    },
+    {
+      "timestamp": [
+        25.56,
+        30.62
+      ],
+      "text": " anyone else, which is the same thing that happens with the moral commonwealth and the institutional"
+    },
+    {
+      "timestamp": [
+        30.62,
+        38.28
+      ],
+      "text": " utopia. Someone is always going to screw that up for the people under them, particularly in religion"
+    },
+    {
+      "timestamp": [
+        38.28,
+        45.94
+      ],
+      "text": " where there is a larger chance of mania occurring. I put AI-centered utopia right in the middle"
+    },
+    {
+      "timestamp": [
+        45.94,
+        52.28
+      ],
+      "text": " because that seems a little too corruptible and also we don't know enough about AI, but I still"
+    },
+    {
+      "timestamp": [
+        52.28,
+        59.86
+      ],
+      "text": " thought that was better than the three bottom tiers. Primitivist Utopia was number three,"
+    },
+    {
+      "timestamp": [
+        60.3,
+        66.98
+      ],
+      "text": " low-tech, small-scale. I think that could go either way, but it seemed less dangerous than"
+    },
+    {
+      "timestamp": [
+        66.98,
+        76.1
+      ],
+      "text": " the the tiers near the bottom my second and first were futurist utopia and modern green utopia"
+    },
+    {
+      "timestamp": [
+        76.9,
+        84.26
+      ],
+      "text": " modern green one for that word sustainable sustainable and secure if we are looking at"
+    },
+    {
+      "timestamp": [
+        84.26,
+        90.18
+      ],
+      "text": " a society that has limited resources that needs to continue on as long as possible sustainability is"
+    },
+    {
+      "timestamp": [
+        90.18,
+        95.7
+      ],
+      "text": " going to be the key so that is why modern green utopia went in first place with futurist utopia"
+    },
+    {
+      "timestamp": [
+        96.26,
+        95.7
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        100.7,
+        107.46
+      ],
+      "text": " slowly behind it because of its reliance on science and innovation, meaning that if things started to perhaps become less than ideal, the people in the society could innovate and possibly"
+    },
+    {
+      "timestamp": [
+        107.46,
+        113.4
+      ],
+      "text": " get out of any problems that they have. So yeah, that's why my ranking went the way it did."
+    },
+    {
+      "timestamp": [
+        114.08,
+        122.6
+      ],
+      "text": " I'm always going to rank things that aren't as corruptible near the top and the things that I"
+    },
+    {
+      "timestamp": [
+        122.6,
+        126.64
+      ],
+      "text": " view as extremely corruptible, such as religion or intermorality near the bottom."
+    }
+  ]
+}

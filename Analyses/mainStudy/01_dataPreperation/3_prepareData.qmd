@@ -124,6 +124,21 @@ questionnairetype <- function(dataset,
   return(datasetques)
 }
 
+
+last_non_empty <- function(x) {
+  if (length(x) == 0) return(NA)
+  for (i in seq_along(x)[length(x):1]) {
+    val <- x[[i]]
+    if (is.null(val)) next
+    if (!is.list(val) && length(val) == 1 && is.na(val)) next
+    if (is.character(val) && length(val) == 1 && isTRUE(val == "")) next
+    return(val)
+  }
+  return(NA)
+}
+
+
+
 print("✓ Helper functions defined")
 ```
 
@@ -633,6 +648,32 @@ print(paste("  - text_rankingUtopias:", n_with_ranking, "/", nrow(ques_study)))
 print("✓ Transcripts merged successfully")
 ```
 
+
+## add rankings
+
+```{r}
+ranking_data <- dat %>%
+  group_by(ID) %>%
+  reframe(
+    ranking_final_order = last_non_empty(ranking_final_order)
+  ) 
+
+ranking_data$rankingOrder <- rep(1:7, times = length(unique(ranking_data$ID)))
+
+ranking_wide <- ranking_data %>%
+  pivot_wider(
+    names_from = ranking_final_order,
+    values_from = rankingOrder,
+    names_prefix = ""
+  )
+
+
+ques_study <- ques_study %>%
+  left_join(ranking_wide, by = "ID")
+```
+
+
+
 ---
 
 # Add Sentiment Analysis
@@ -831,19 +872,6 @@ cat("Final columns:", ncol(ques_study), "\n")
 ## vignette part
 
 ```{r}
-# Helper function
-last_non_empty <- function(x) {
-  if (length(x) == 0) return(NA)
-  for (i in seq_along(x)[length(x):1]) {
-    val <- x[[i]]
-    if (is.null(val)) next
-    if (!is.list(val) && length(val) == 1 && is.na(val)) next
-    if (is.character(val) && length(val) == 1 && isTRUE(val == "")) next
-    return(val)
-  }
-  return(NA)
-}
-
 # --- Get PROLIFIC_PID mapping ---
 pid_lookup <- dat %>%
   group_by(ID) %>%
@@ -962,8 +990,6 @@ cat("Total vignette trials:", nrow(visual_trap_within), "\n")
 cat("Trials per participant:\n")
 print(table(visual_trap_within$ID))
 ```
-
-
 
 # Summary stats and Quality checks
 
@@ -1339,4 +1365,454 @@ print("\n📋 FILTERING STATISTICS SUMMARY:")
 print(filtering_stats)
 ```
 
+# tests
+
+
+```{r}
+library(tidyverse)
+library(corrplot)
+
+# Create correlation matrix
+ranking_cols <- c("rank_religious", "rank_ai_centered", "rank_primitivist", 
+                  "rank_institutional", "rank_moral_anarchic", "rank_futurist", 
+                  "rank_modern_green")
+demo_cols <- c("lrscale", "rlgdgr")
+
+# Calculate correlations
+rank_demo_corr <- ques_study %>%
+  select(all_of(c(ranking_cols, demo_cols))) %>%
+  cor(use = "complete.obs")
+
+# Extract just the rankings vs demographics
+rank_vs_demo <- rank_demo_corr[ranking_cols, demo_cols]
+
+# Visualize
+corrplot(rank_vs_demo, method = "circle", type = "full", 
+         diag = FALSE, tl.col = "black", tl.srt = 45,
+         col = colorRampPalette(c("blue", "white", "red"))(200),
+         main = "Utopia Rankings vs Political & Religious Orientation")
+
+# Print correlation values
+round(rank_vs_demo, 3)
+
+# ============================================================================
+# 2. MEAN RANKINGS by Demographics Groups
+# ============================================================================
+
+# Group by political orientation quartiles
+ques_study_ranked <- ques_study %>%
+  mutate(
+    lrscale_group = case_when(
+      lrscale <= 3 ~ "Left",
+      lrscale <= 5 ~ "Center-Left",
+      lrscale <= 7 ~ "Center-Right",
+      TRUE ~ "Right"
+    ),
+    rlgdgr_group = case_when(
+      rlgdgr <= 2 ~ "Non-religious",
+      rlgdgr <= 4 ~ "Somewhat religious",
+      TRUE ~ "Very religious"
+    )
+  )
+
+# Mean rankings by political orientation
+rank_by_lrscale <- ques_study_ranked %>%
+  group_by(lrscale_group) %>%
+  summarise(
+    across(all_of(ranking_cols), 
+           list(mean = ~ mean(., na.rm = TRUE)), 
+           .names = "{.col}_mean"),
+    n = n()
+  )
+
+print(rank_by_lrscale)
+
+# Mean rankings by religiosity
+rank_by_rlgdgr <- ques_study_ranked %>%
+  group_by(rlgdgr_group) %>%
+  summarise(
+    across(all_of(ranking_cols), 
+           list(mean = ~ mean(., na.rm = TRUE)), 
+           .names = "{.col}_mean"),
+    n = n()
+  )
+
+print(rank_by_rlgdgr)
+
+```
+
+```{r}
+ggplot(ques_study, aes(x = lrscale, y = rank_moral_anarchic)) +
+  geom_jitter(width = 0.15, height = 0.3, alpha = 0.5, size = 2.5, color = "#0C447C") +
+  geom_smooth(method = "lm", se = TRUE, color = "#185FA5", fill = "#B5D4F4", linewidth = 1) +
+  scale_x_continuous(breaks = 1:7, labels = c("Far Left", "2", "3", "Center", "5", "6", "Far Right")) +
+  scale_y_continuous(breaks = 1:7, labels = c("1\n(least)", "2", "3", "4", "5", "6", "7\n(most)")) +
+  labs(
+    title = "Political Orientation vs Moral Commonwealth Preference",
+    subtitle = "Left-leaning participants strongly prefer self-regulating moral societies",
+    x = "Political Orientation (Left ← → Right)",
+    y = "Ranking: Moral Commonwealth Utopia"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    plot.subtitle = element_text(size = 11, color = "#666"),
+    panel.grid.minor = element_blank(),
+    panel.grid.major = element_line(color = "#eee")
+  )
+
+
+ques_study %>%
+  mutate(
+    political_group = case_when(
+      lrscale <= 2 ~ "Far Left",
+      lrscale <= 3 ~ "Left",
+      lrscale <= 4 ~ "Center-Left",
+      lrscale == 5 ~ "Center",
+      lrscale <= 6 ~ "Center-Right",
+      lrscale <= 7 ~ "Right",
+      TRUE ~ "Far Right"
+    ),
+    political_group = factor(political_group, 
+                            levels = c("Far Left", "Left", "Center-Left", "Center", 
+                                     "Center-Right", "Right", "Far Right"))
+  ) %>%
+  ggplot(aes(x = political_group, y = rank_moral_anarchic, fill = political_group)) +
+  geom_boxplot(alpha = 0.7, outlier.alpha = 0.5) +
+  geom_jitter(width = 0.15, alpha = 0.3, size = 1.5) +
+  scale_fill_manual(values = c(
+    "Far Left" = "#042C53",
+    "Left" = "#185FA5",
+    "Center-Left" = "#85B7EB",
+    "Center" = "#D3D1C7",
+    "Center-Right" = "#F0997B",
+    "Right" = "#993C1D",
+    "Far Right" = "#4A1B0C"
+  )) +
+  scale_y_continuous(breaks = 1:7) +
+  labs(
+    title = "Moral Commonwealth Ranking by Political Group",
+    x = "Political Orientation",
+    y = "Ranking (1=least preferred, 7=most preferred)",
+    fill = "Group"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14)
+  )
+
+```
+
+
+
+```{r}
+# ============================================================================
+# 1. SCATTER PLOT with jitter, trend, and marginal distributions
+# ============================================================================
+
+ggplot(ques_study, aes(x = rlgdgr, y = rank_religious)) +
+  geom_jitter(width = 0.15, height = 0.3, alpha = 0.5, size = 2.5, color = "#A32D2D") +
+  geom_smooth(method = "lm", se = TRUE, color = "#993C1D", fill = "#F0997B", linewidth = 1) +
+  scale_x_continuous(breaks = 1:7, labels = c("Not Religious", "2", "3", "Moderate", "5", "6", "Very Religious")) +
+  scale_y_continuous(breaks = 1:7, labels = c("1\n(least)", "2", "3", "4", "5", "6", "7\n(most)")) +
+  labs(
+    title = "Religious Commitment vs Religious Utopia Preference",
+    subtitle = "Very religious participants strongly prefer faith-based future societies",
+    x = "Religious Commitment (Not Religious ← → Very Religious)",
+    y = "Ranking: Religious Utopia"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    plot.subtitle = element_text(size = 11, color = "#666"),
+    panel.grid.minor = element_blank(),
+    panel.grid.major = element_line(color = "#eee")
+  )
+
+# ============================================================================
+# 2. BOX PLOT (by religiosity groups)
+# ============================================================================
+
+ques_study %>%
+  mutate(
+    religion_group = case_when(
+      rlgdgr <= 2 ~ "Not Religious",
+      rlgdgr <= 3 ~ "Slightly Religious",
+      rlgdgr <= 4 ~ "Somewhat Religious",
+      rlgdgr == 5 ~ "Moderate",
+      rlgdgr <= 6 ~ "Quite Religious",
+      rlgdgr <= 7 ~ "Very Religious",
+      TRUE ~ "Unknown"
+    ),
+    religion_group = factor(religion_group, 
+                           levels = c("Not Religious", "Slightly Religious", "Somewhat Religious", 
+                                    "Moderate", "Quite Religious", "Very Religious"))
+  ) %>%
+  ggplot(aes(x = religion_group, y = rank_religious, fill = religion_group)) +
+  geom_boxplot(alpha = 0.7, outlier.alpha = 0.5) +
+  geom_jitter(width = 0.15, alpha = 0.3, size = 1.5) +
+  scale_fill_manual(values = c(
+    "Not Religious" = "#042C53",
+    "Slightly Religious" = "#185FA5",
+    "Somewhat Religious" = "#85B7EB",
+    "Moderate" = "#D3D1C7",
+    "Quite Religious" = "#F0997B",
+    "Very Religious" = "#993C1D"
+  )) +
+  scale_y_continuous(breaks = 1:7) +
+  labs(
+    title = "Religious Utopia Ranking by Religious Commitment",
+    x = "Religious Commitment",
+    y = "Ranking (1=least preferred, 7=most preferred)",
+    fill = "Group"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14)
+  )
+
+```
+
+
+
+
+```{r}
+# Create faceted plot for all rankings
+plot_data <- ques_study %>%
+  select(lrscale, all_of(ranking_cols)) %>%
+  pivot_longer(cols = -lrscale, names_to = "utopia", values_to = "ranking") %>%
+  mutate(
+    utopia = case_when(
+      utopia == "rank_religious" ~ "Religious",
+      utopia == "rank_ai_centered" ~ "AI-Centered",
+      utopia == "rank_primitivist" ~ "Primitivist",
+      utopia == "rank_institutional" ~ "Institutional",
+      utopia == "rank_moral_anarchic" ~ "Moral Commonwealth",
+      utopia == "rank_futurist" ~ "Futurist",
+      utopia == "rank_modern_green" ~ "Modern Green",
+      TRUE ~ utopia
+    )
+  )
+
+ggplot(plot_data, aes(x = lrscale, y = ranking)) +
+  geom_jitter(width = 0.15, height = 0.2, alpha = 0.4, size = 2, color = "#185FA5") +
+  geom_smooth(method = "lm", se = TRUE, color = "#042C53", fill = "#B5D4F4", linewidth = 0.8) +
+  facet_wrap(~ utopia, ncol = 3) +
+  scale_x_continuous(breaks = c(1, 4, 7), labels = c("Left", "Center", "Right")) +
+  scale_y_continuous(breaks = c(1, 4, 7)) +
+  labs(
+    title = "Political Orientation vs Each Utopia Ranking",
+    x = "Political Orientation",
+    y = "Ranking (1=least, 7=most preferred)"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    strip.text = element_text(face = "bold", size = 10),
+    panel.grid.minor = element_blank()
+  )
+```
+
+
+```{r}
+# Create faceted plot for all rankings
+plot_data <- ques_study %>%
+  select(rlgdgr, all_of(ranking_cols)) %>%
+  pivot_longer(cols = -rlgdgr, names_to = "utopia", values_to = "ranking") %>%
+  mutate(
+    utopia = case_when(
+      utopia == "rank_religious" ~ "Religious",
+      utopia == "rank_ai_centered" ~ "AI-Centered",
+      utopia == "rank_primitivist" ~ "Primitivist",
+      utopia == "rank_institutional" ~ "Institutional",
+      utopia == "rank_moral_anarchic" ~ "Moral Commonwealth",
+      utopia == "rank_futurist" ~ "Futurist",
+      utopia == "rank_modern_green" ~ "Modern Green",
+      TRUE ~ utopia
+    )
+  )
+
+ggplot(plot_data, aes(x = rlgdgr, y = ranking)) +
+  geom_jitter(width = 0.15, height = 0.2, alpha = 0.4, size = 2, color = "#185FA5") +
+  geom_smooth(method = "lm", se = TRUE, color = "#042C53", fill = "#B5D4F4", linewidth = 0.8) +
+  facet_wrap(~ utopia, ncol = 3) +
+  labs(
+    title = "Religiousness vs Each Utopia Ranking",
+    x = "Religiousness Orientation",
+    y = "Ranking (1=least, 7=most preferred)"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    strip.text = element_text(face = "bold", size = 10),
+    panel.grid.minor = element_blank()
+  )
+```
+
+
+## prompts
+
+
+
+
+```{r}
+library(glue)
+
+# ============================================================================
+# 3. CREATE LLM VALIDATION PROMPT DATASET
+# ============================================================================
+
+# Build validation dataset with context for each participant
+llm_validation_data <- ques_study %>%
+  select(
+    ID, PROLIFIC_PID, age, gender, education, lrscale, rlgdgr,
+    all_of(ranking_cols),
+    text_missingUtopia, text_rankingUtopias,
+    sentiment_label, sentiment_score
+  ) %>%
+  filter(!is.na(text_rankingUtopias) | !is.na(text_missingUtopia)) %>%
+  mutate(
+    # Create ranking summary
+    ranking_summary = paste(
+      "1st (least preferred):", 
+      case_when(rank_religious == 1 ~ "Religious",
+                rank_ai_centered == 1 ~ "AI-Centered",
+                rank_primitivist == 1 ~ "Primitivist",
+                rank_institutional == 1 ~ "Institutional",
+                rank_moral_anarchic == 1 ~ "Moral Commonwealth",
+                rank_futurist == 1 ~ "Futurist",
+                rank_modern_green == 1 ~ "Modern Green",
+                TRUE ~ "Unknown"),
+      "\n7th (most preferred):",
+      case_when(rank_religious == 7 ~ "Religious",
+                rank_ai_centered == 7 ~ "AI-Centered",
+                rank_primitivist == 7 ~ "Primitivist",
+                rank_institutional == 7 ~ "Institutional",
+                rank_moral_anarchic == 7 ~ "Moral Commonwealth",
+                rank_futurist == 7 ~ "Futurist",
+                rank_modern_green == 7 ~ "Modern Green",
+                TRUE ~ "Unknown"),
+      sep = " "
+    ),
+    # Political orientation label
+    political_orientation = case_when(
+      lrscale <= 3 ~ "Left-leaning",
+      lrscale <= 5 ~ "Center",
+      lrscale >= 7 ~ "Right-leaning",
+      TRUE ~ "Moderate"
+    ),
+    # Religiosity label
+    religiosity = case_when(
+      rlgdgr <= 2 ~ "Non-religious",
+      rlgdgr <= 4 ~ "Somewhat religious",
+      rlgdgr >= 6 ~ "Very religious",
+      TRUE ~ "Moderate religiosity"
+    )
+  )
+
+head(llm_validation_data)
+
+# ============================================================================
+# FIXED: CREATE LLM VALIDATION PROMPT FUNCTION
+# ============================================================================
+
+create_llm_validation_prompt <- function(id, data) {
+  row <- data %>% filter(ID == id) %>% slice(1)
+  
+  if (nrow(row) == 0) return("")
+  
+  prompt <- glue(
+    "
+# Consistency Check: Participant {row$ID[[1]]}
+
+## Demographics
+- Age: {row$age[[1]]}
+- Gender: {row$gender[[1]]}
+- Political Orientation: {row$political_orientation[[1]]} (lrscale={row$lrscale[[1]]})
+- Religiosity: {row$religiosity[[1]]} (rlgdgr={row$rlgdgr[[1]]})
+
+## Rankings (1=least preferred, 7=most preferred)
+- Religious Utopia: {row$rank_religious[[1]]}
+- AI-Centered Utopia: {row$rank_ai_centered[[1]]}
+- Primitivist Utopia: {row$rank_primitivist[[1]]}
+- Institutional Utopia: {row$rank_institutional[[1]]}
+- Moral Commonwealth: {row$rank_moral_anarchic[[1]]}
+- Futurist Utopia: {row$rank_futurist[[1]]}
+- Modern Green Utopia: {row$rank_modern_green[[1]]}
+
+## Sentiment Analysis
+- Overall sentiment: {row$sentiment_label[[1]]} (score={round(row$sentiment_score[[1]], 2)})
+
+## Text Responses
+
+### Ranking Explanation
+\"{row$text_rankingUtopias[[1]]}\"
+
+### Missing Utopia Description
+\"{row$text_missingUtopia[[1]]}\"
+
+## Task
+
+Evaluate whether the participant's **text responses** are consistent with their **demographic profile** and **utopia rankings**. 
+
+For each dimension, rate consistency (1-5, where 1=completely inconsistent, 5=highly consistent):
+
+1. **Political-Ideological Consistency**: Do the text responses reflect their political orientation (left/center/right)?
+2. **Religious-Philosophical Consistency**: Do the text responses align with their religiosity level?
+3. **Ranking-Text Alignment**: Do the rankings they chose match what they describe in text?
+4. **Overall Coherence**: Does the person's overall vision (across all responses) hang together logically?
+
+Provide:
+- Rating (1-5) for each dimension
+- Brief explanation (1-2 sentences per dimension)
+- Flag any red flags (contradictions, suspicious patterns, potential comprehension issues)
+
+---
+"
+  )
+  return(prompt)
+}
+
+# ============================================================================
+# GENERATE PROMPTS FOR ALL PARTICIPANTS
+# ============================================================================
+
+all_prompts <- map_chr(
+  llm_validation_data$ID,
+  ~ create_llm_validation_prompt(., llm_validation_data)
+)
+
+
+
+# ============================================================================
+# ALTERNATIVE: CREATE A DATAFRAME FOR BATCH LLM PROCESSING
+# ============================================================================
+
+# More efficient: keep data structured, send to LLM as CSV/JSON
+llm_batch_data <- llm_validation_data %>%
+  select(
+    ID, PROLIFIC_PID, age, gender, 
+    political_orientation, religiosity, lrscale, rlgdgr,
+    rank_religious, rank_ai_centered, rank_primitivist, 
+    rank_institutional, rank_moral_anarchic, rank_futurist, rank_modern_green,
+    sentiment_label, sentiment_score,
+    text_rankingUtopias, text_missingUtopia
+  ) %>%
+  rename(
+    ranking_explanation = text_rankingUtopias,
+    missing_utopia = text_missingUtopia
+  )
+
+
+
+# Print first 2 samples
+cat(all_prompts[[1]])
+cat("\n\n===================\n\n")
+cat(all_prompts[[3]])
+
+```
 

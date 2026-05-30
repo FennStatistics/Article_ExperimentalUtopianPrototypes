@@ -1,0 +1,45 @@
+{
+  "audio_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552.webm",
+  "transcript": " It would be maybe a utopia that solves the scarcity that has been shown in every single of these descriptions, ways that we can ration meals until we have innovated and created a stability where food doesn't become an issue. No one goes hungry. Everyone is maybe assigned a place to live, so they have a roof over their head, and we have time for passions and work, which, while maybe mandatory, is essentially your passion, whatever you would like to do. that is my uh ideal utopian society i suppose a civilization where culture is exemplified and differences and distinctions are while emphasized are celebrated and praised that's essentially my perfect utopia",
+  "language": "unknown",
+  "processing_time_seconds": 13.543692,
+  "timestamp": "2026-05-30T17:28:37.813886",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.48
+      ],
+      "text": " It would be maybe a utopia that solves the scarcity that has been shown in every single of these descriptions, ways that we can ration meals until we have innovated and created a stability where food doesn't become an issue."
+    },
+    {
+      "timestamp": [
+        23.48,
+        48.48
+      ],
+      "text": " No one goes hungry. Everyone is maybe assigned a place to live, so they have a roof over their head, and we have time for passions and work, which, while maybe mandatory, is essentially your passion, whatever you would like to do."
+    },
+    {
+      "timestamp": [
+        48.48,
+        57.68
+      ],
+      "text": " that is my uh ideal utopian society i suppose a civilization where culture is exemplified and"
+    },
+    {
+      "timestamp": [
+        59.04,
+        64.96
+      ],
+      "text": " differences and distinctions are while emphasized are celebrated and praised"
+    },
+    {
+      "timestamp": [
+        65.52,
+        76.48
+      ],
+      "text": " that's essentially my perfect utopia"
+    }
+  ]
+}

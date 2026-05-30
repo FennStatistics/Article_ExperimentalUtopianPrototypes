@@ -1,0 +1,108 @@
+{
+  "audio_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144.webm",
+  "transcript": " The reason why I ranked my choices in the order that I did is based on what I've currently experienced, institutional utopia, rule of law. Even though our world is not a utopia, that's kind of the world that we live in now in which we kind of are obligated by legal regulations. So I'd rather focus on something that I'm used to than thinking about hypotheticals. And then, of course, the low tech and small scale, I believe, having small scale communities, we kind of already have those. We have suburbs with like HOA communities for people kind of stake in their own communities, watch out for each other, report things. So it kind of made the next sense. Sustainable and secure. Sustainability is always a great idea. But the fact that it will be secure is what made me focus on that. But number four, inner morality. I think I placed it here just because I don't trust people's morals. We all want to believe we're moral. But from what I'm seeing in our current world, I think deep down we all have different definitions, even though there might be like a universal basic principle to it. Science and innovation, while cool, you can always trust the science that's being spit out, you always have to question it, and I feel like if you make science the norm, then you kind of take everything at face value, and things that contradict it might be hidden or dismissed like we currently see in our current world. data and data-driven governance ai is the new buzzword so um i'm just kind of skeptical we don't know how it the world is going to turn out in the future with how much they're trying to integrate it in every single aspect of our society um and then of course faith-based order we've seen how a face-based world could be and i'd rather not go back to that",
+  "language": "unknown",
+  "processing_time_seconds": 26.481058,
+  "timestamp": "2026-05-30T17:28:07.336203",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.82
+      ],
+      "text": " The reason why I ranked my choices in the order that I did is based on what I've currently experienced, institutional utopia, rule of law."
+    },
+    {
+      "timestamp": [
+        12.82,
+        21.52
+      ],
+      "text": " Even though our world is not a utopia, that's kind of the world that we live in now in which we kind of are obligated by legal regulations."
+    },
+    {
+      "timestamp": [
+        21.98,
+        27.82
+      ],
+      "text": " So I'd rather focus on something that I'm used to than thinking about hypotheticals."
+    },
+    {
+      "timestamp": [
+        28.58,
+        28.6
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        36.04,
+        36.12
+      ],
+      "text": " And then, of course, the low tech and small scale, I believe, having small scale communities, we kind of already have those."
+    },
+    {
+      "timestamp": [
+        43.3,
+        50.78
+      ],
+      "text": " We have suburbs with like HOA communities for people kind of stake in their own communities, watch out for each other, report things. So it kind of made the next sense. Sustainable and secure. Sustainability is always a great idea."
+    },
+    {
+      "timestamp": [
+        50.98,
+        54.76
+      ],
+      "text": " But the fact that it will be secure is what made me focus on that."
+    },
+    {
+      "timestamp": [
+        55.52,
+        54.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        77.96,
+        78.68
+      ],
+      "text": " But number four, inner morality. I think I placed it here just because I don't trust people's morals. We all want to believe we're moral. But from what I'm seeing in our current world, I think deep down we all have different definitions, even though there might be like a universal basic principle to it."
+    },
+    {
+      "timestamp": [
+        77.96,
+        97.5
+      ],
+      "text": " Science and innovation, while cool, you can always trust the science that's being spit out, you always have to question it, and I feel like if you make science the norm, then you kind of take everything at face value, and things that contradict it might be hidden or dismissed like we currently see in our current world."
+    },
+    {
+      "timestamp": [
+        98.96,
+        97.5
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        105.34,
+        110.5
+      ],
+      "text": " data and data-driven governance ai is the new buzzword so um i'm just kind of skeptical we don't know how it the world is going to turn out in the future with how much they're trying to"
+    },
+    {
+      "timestamp": [
+        110.5,
+        116.78
+      ],
+      "text": " integrate it in every single aspect of our society um and then of course faith-based order we've seen"
+    },
+    {
+      "timestamp": [
+        116.78,
+        122.54
+      ],
+      "text": " how a face-based world could be and i'd rather not go back to that"
+    }
+  ]
+}

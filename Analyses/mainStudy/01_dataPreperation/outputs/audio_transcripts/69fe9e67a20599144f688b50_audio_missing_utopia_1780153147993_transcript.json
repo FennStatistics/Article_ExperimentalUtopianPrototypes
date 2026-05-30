@@ -1,0 +1,45 @@
+{
+  "audio_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993.webm",
+  "transcript": " I really don't think that there was a missing utopia. I think the seven that were presented kind of hit them all. I guess the only additional utopia maybe that should have been included would be one in which technology was rejected, but religion was not accepted in its place. um so primitive but no guiding principle to live by like not really a law or religion or morality that might have been covering the primitive utopia um i'm not entirely sure but basically a rejection of technology but no um corruptible human institution in its place um not really sure what that would look like.",
+  "language": "unknown",
+  "processing_time_seconds": 13.000087,
+  "timestamp": "2026-05-30T17:30:38.861450",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.2
+      ],
+      "text": " I really don't think that there was a missing utopia. I think the seven that were presented kind of hit them all. I guess the only additional utopia maybe that should have been included would be one in which technology was rejected, but religion was not accepted in its place."
+    },
+    {
+      "timestamp": [
+        24.48,
+        23.2
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        35.36,
+        42.32
+      ],
+      "text": " um so primitive but no guiding principle to live by like not really a law or religion or morality that might have been covering the primitive utopia um i'm not entirely sure but basically"
+    },
+    {
+      "timestamp": [
+        42.32,
+        52.0
+      ],
+      "text": " a rejection of technology but no um corruptible human institution in its place um not really"
+    },
+    {
+      "timestamp": [
+        52.0,
+        54.76
+      ],
+      "text": " sure what that would look like."
+    }
+  ]
+}

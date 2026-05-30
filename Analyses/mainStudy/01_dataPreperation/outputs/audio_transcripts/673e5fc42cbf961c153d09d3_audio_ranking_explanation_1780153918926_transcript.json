@@ -1,0 +1,157 @@
+{
+  "audio_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926.webm",
+  "transcript": " When I look at the religious-based utopia, it seemed solely reliant on a higher power or a, it was, as it said, a faith-based utopia. I am just not interested in something like that, the restrictions and the ways that it will harm you mentally. And I feel as though it would be a rigid kind of place to live. The society of low tech and small scale also wasn't something that I really, really appealed to me. Um, simply because I find that technology has advanced life in such a way where it is harmful should it ever disappear or should we be breathed without it, or breathed of it. Um, and I just, I feel like without technology, we would be primitive again. The rule of law is also just a very rigid and extremely kind. It's something where it doesn't really have too much community. It feels as though it's essentially a dystopia, one that is very similar to something you might see in science fiction. And it feels very fascist to me. When I look at the Commonwealth of Intermorality, I think this is where we start to get societies that sound good on paper, but may be a little bit difficult to execute. um morally a lot of people might not have the best interest for you so the idea of a community a communal um way to keep everyone accountable on paper it sounds good but who's to say this would actually enact the way that people would think um a green utopia for sustainability sounds great to me as recycling and continuing to relieve the pressure on climate is something that's important to me. In data-driven governance, I think that AI is essentially the future. I think that it will, while it may be used in very peculiar ways and It may need governance, and we might need to put legality around it. The idea of AI being a push for the future is always something that resonates deeply with me. And for the futurist utopia, I think that is essentially just the best one from here, simply because it's how we continuously progress anyway. through science and innovation. It's something that is essentially our society now. So it's almost like going back to the basics in a way.",
+  "language": "unknown",
+  "processing_time_seconds": 38.108181,
+  "timestamp": "2026-05-30T17:29:16.151126",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.06
+      ],
+      "text": " When I look at the religious-based utopia, it seemed solely reliant on a higher power or a, it was, as it said, a faith-based utopia."
+    },
+    {
+      "timestamp": [
+        17.06,
+        29.96
+      ],
+      "text": " I am just not interested in something like that, the restrictions and the ways that it will harm you mentally."
+    },
+    {
+      "timestamp": [
+        30.42,
+        35.06
+      ],
+      "text": " And I feel as though it would be a rigid kind of place to live."
+    },
+    {
+      "timestamp": [
+        36.52,
+        43.94
+      ],
+      "text": " The society of low tech and small scale also wasn't something that I really, really appealed to me."
+    },
+    {
+      "timestamp": [
+        45.22,
+        43.94
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        58.8,
+        59.28
+      ],
+      "text": " Um, simply because I find that technology has advanced life in such a way where it is harmful should it ever disappear or should we be breathed without it, or breathed of it."
+    },
+    {
+      "timestamp": [
+        66.18,
+        67.16
+      ],
+      "text": " Um, and I just, I feel like without technology, we would be primitive again."
+    },
+    {
+      "timestamp": [
+        95.18,
+        96.18
+      ],
+      "text": " The rule of law is also just a very rigid and extremely kind. It's something where it doesn't really have too much community. It feels as though it's essentially a dystopia, one that is very similar to something you might see in science fiction."
+    },
+    {
+      "timestamp": [
+        113.48,
+        115.42
+      ],
+      "text": " And it feels very fascist to me. When I look at the Commonwealth of Intermorality, I think this is where we start to get societies that sound good on paper, but may be a little bit difficult to execute."
+    },
+    {
+      "timestamp": [
+        113.48,
+        120.74
+      ],
+      "text": " um morally a lot of people might not have the best interest for you so the idea of a community"
+    },
+    {
+      "timestamp": [
+        120.74,
+        129.42
+      ],
+      "text": " a communal um way to keep everyone accountable on paper it sounds good but who's to say this"
+    },
+    {
+      "timestamp": [
+        129.42,
+        136.66
+      ],
+      "text": " would actually enact the way that people would think um a green utopia for sustainability sounds"
+    },
+    {
+      "timestamp": [
+        136.66,
+        144.98
+      ],
+      "text": " great to me as recycling and continuing to relieve the pressure on climate"
+    },
+    {
+      "timestamp": [
+        144.98,
+        154.76
+      ],
+      "text": " is something that's important to me. In data-driven governance, I think that AI"
+    },
+    {
+      "timestamp": [
+        154.76,
+        164.48
+      ],
+      "text": " is essentially the future. I think that it will, while it may be used in very peculiar ways and"
+    },
+    {
+      "timestamp": [
+        164.48,
+        171.88
+      ],
+      "text": " It may need governance, and we might need to put legality around it."
+    },
+    {
+      "timestamp": [
+        172.66,
+        180.66
+      ],
+      "text": " The idea of AI being a push for the future is always something that resonates deeply with me."
+    },
+    {
+      "timestamp": [
+        181.84,
+        188.86
+      ],
+      "text": " And for the futurist utopia, I think that is essentially just the best one from here,"
+    },
+    {
+      "timestamp": [
+        189.98,
+        194.26
+      ],
+      "text": " simply because it's how we continuously progress anyway."
+    },
+    {
+      "timestamp": [
+        194.48,
+        201.04
+      ],
+      "text": " through science and innovation. It's something that is essentially our society now. So it's"
+    },
+    {
+      "timestamp": [
+        201.04,
+        204.16
+      ],
+      "text": " almost like going back to the basics in a way."
+    }
+  ]
+}

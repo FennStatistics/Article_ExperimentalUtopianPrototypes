@@ -1,13 +1,49 @@
 "ID","PROLIFIC_PID","counterVisualTraps","trap_type","response","response_label","correct","rt_ms"
-1,"bbbb",0,"Planets","2","Orange",TRUE,1911
-1,"bbbb",1,"Robot","1","Mostly on the bottom left of the square",FALSE,1611
-1,"bbbb",2,"Circles","1","Blue Circle",FALSE,848
-1,"bbbb",3,"Lines","2","Red Line",FALSE,883
-1,"bbbb",4,"CafeWall","3","Slanted / Diagonal",TRUE,810
-1,"bbbb",5,"Collision","3","Blue Triangle and Orange Circle",FALSE,830
-2,"cc33",0,"Collision","1","Green Triangle Only",TRUE,1643
-2,"cc33",1,"Robot","4","Off-screen (outside the square)",FALSE,901
-2,"cc33",2,"Planets","3","Blue",FALSE,967
-2,"cc33",3,"CafeWall","2","Slightly curved",FALSE,1300
-2,"cc33",4,"Lines","4","Cannot be determined from the image",FALSE,891
-2,"cc33",5,"Circles","4","Cannot be determined from the image",FALSE,987
+3,"6a08b810d807f5805aabe02e",0,"Circles","2","Red Circle",TRUE,24676
+3,"6a08b810d807f5805aabe02e",1,"CafeWall","3","Slanted / Diagonal",TRUE,30056
+3,"6a08b810d807f5805aabe02e",2,"Planets","1","Purple",FALSE,91371
+3,"6a08b810d807f5805aabe02e",3,"Collision","1","Green Triangle Only",TRUE,53082
+3,"6a08b810d807f5805aabe02e",4,"Lines","1","Blue Line",TRUE,13197
+3,"6a08b810d807f5805aabe02e",5,"Robot","3","Mostly around the center of the square",TRUE,52883
+4,"67103e4ed56cde03a0f2476b",0,"Planets","2","Orange",TRUE,66972
+4,"67103e4ed56cde03a0f2476b",1,"Robot","3","Mostly around the center of the square",TRUE,8187
+4,"67103e4ed56cde03a0f2476b",2,"Circles","2","Red Circle",TRUE,7672
+4,"67103e4ed56cde03a0f2476b",3,"Lines","1","Blue Line",TRUE,5224
+4,"67103e4ed56cde03a0f2476b",4,"CafeWall","3","Slanted / Diagonal",TRUE,46848
+4,"67103e4ed56cde03a0f2476b",5,"Collision","1","Green Triangle Only",TRUE,13703
+5,"59a07638bfd73c00010ea394",0,"CafeWall","3","Slanted / Diagonal",TRUE,27768
+5,"59a07638bfd73c00010ea394",1,"Robot","3","Mostly around the center of the square",TRUE,26551
+5,"59a07638bfd73c00010ea394",2,"Circles","2","Red Circle",TRUE,10623
+5,"59a07638bfd73c00010ea394",3,"Collision","1","Green Triangle Only",TRUE,19504
+5,"59a07638bfd73c00010ea394",4,"Planets","2","Orange",TRUE,21567
+5,"59a07638bfd73c00010ea394",5,"Lines","1","Blue Line",TRUE,6215
+6,"63d7b1a77e23b5460ab88069",0,"Circles","2","Red Circle",TRUE,7196
+6,"63d7b1a77e23b5460ab88069",1,"Planets","2","Orange",TRUE,21229
+6,"63d7b1a77e23b5460ab88069",2,"CafeWall","3","Slanted / Diagonal",TRUE,5495
+6,"63d7b1a77e23b5460ab88069",3,"Robot","3","Mostly around the center of the square",TRUE,11494
+6,"63d7b1a77e23b5460ab88069",4,"Collision","1","Green Triangle Only",TRUE,104795
+6,"63d7b1a77e23b5460ab88069",5,"Lines","1","Blue Line",TRUE,3502
+7,"69c4160ec318cfcd7d4f37a4",0,"Lines","1","Blue Line",TRUE,31763
+7,"69c4160ec318cfcd7d4f37a4",1,"Robot","3","Mostly around the center of the square",TRUE,36272
+7,"69c4160ec318cfcd7d4f37a4",2,"Collision","1","Green Triangle Only",TRUE,25083
+7,"69c4160ec318cfcd7d4f37a4",3,"Planets","2","Orange",TRUE,34455
+7,"69c4160ec318cfcd7d4f37a4",4,"CafeWall","3","Slanted / Diagonal",TRUE,43946
+7,"69c4160ec318cfcd7d4f37a4",5,"Circles","2","Red Circle",TRUE,21105
+8,"69fe9e67a20599144f688b50",0,"Planets","2","Orange",TRUE,23585
+8,"69fe9e67a20599144f688b50",1,"Collision","1","Green Triangle Only",TRUE,24823
+8,"69fe9e67a20599144f688b50",2,"CafeWall","3","Slanted / Diagonal",TRUE,13989
+8,"69fe9e67a20599144f688b50",3,"Robot","3","Mostly around the center of the square",TRUE,22490
+8,"69fe9e67a20599144f688b50",4,"Circles","2","Red Circle",TRUE,5701
+8,"69fe9e67a20599144f688b50",5,"Lines","1","Blue Line",TRUE,5962
+9,"69e91fd1a613772e648e565a",0,"Robot","3","Mostly around the center of the square",TRUE,30011
+9,"69e91fd1a613772e648e565a",1,"Circles","2","Red Circle",TRUE,11597
+9,"69e91fd1a613772e648e565a",2,"Collision","1","Green Triangle Only",TRUE,38732
+9,"69e91fd1a613772e648e565a",3,"CafeWall","3","Slanted / Diagonal",TRUE,9227
+9,"69e91fd1a613772e648e565a",4,"Planets","2","Orange",TRUE,33222
+9,"69e91fd1a613772e648e565a",5,"Lines","1","Blue Line",TRUE,7322
+11,"673e5fc42cbf961c153d09d3",0,"CafeWall","3","Slanted / Diagonal",TRUE,10239
+11,"673e5fc42cbf961c153d09d3",1,"Robot","2","Mostly on the upper right of the square",FALSE,13576
+11,"673e5fc42cbf961c153d09d3",2,"Circles","2","Red Circle",TRUE,10390
+11,"673e5fc42cbf961c153d09d3",3,"Collision","1","Green Triangle Only",TRUE,10777
+11,"673e5fc42cbf961c153d09d3",4,"Planets","2","Orange",TRUE,26044
+11,"673e5fc42cbf961c153d09d3",5,"Lines","1","Blue Line",TRUE,4017

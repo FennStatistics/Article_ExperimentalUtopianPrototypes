@@ -1,0 +1,255 @@
+{
+  "audio_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536.webm",
+  "transcript": " I put modern or green utopia as being my most preferred because I really do just see that being the most ideal and most utopian way to live for me as far as everything is sustainable and it's secure. And I think that's the most important part about it all as far as ranking, because as long as the way of life is secure, I mean, nothing can ever be 100 percent. But to even have the main structure to be just secure would be the best for me. After that, I chose futuristic just because to have more science and innovation is kind of crucial, I would say, in the advancement of human life. It's crucial and it's important, but maybe not the most crucial important. So I put it at the sixth place. number five, I put the moral commonwealth or just having inner morality. I feel like it would be nice to live in a life like that where everybody kind of just knows what to do. And everyone just tries their best to be good people, good business partners, you know, and just be good people to each other, whether that's just in, you know, person to person or business to consumer, you know, I do, I would think that that's a kind of a nice way to live, but unpractical or not. I wouldn't say unpractical. I would say kind of not realistic. I put the rule, the institutional utopia as the, my fourth most prefer the rule of law, because I think that's kind of how we live today where there's just a lot of laws. There's just a lot of rules and there's set, you know, consequences to those rules which can be ideal because you know i think that for every action there needs to be a consequence or reaction especially because everyone doesn't have the same mental processes and there's certain actions that are just not okay and there needs to be consequences in place to deter people from doing that um which i think can happen in the moral Commonwealth, futuristic utopia, and the modern green utopia. So I don't think that that's kind of the most ideal way for me to live or for us to live. And then for my last bottom three places, I chose the primitive utopia, the AI-centered utopia, and then the religious utopia. And I said that because low tech, small scale, I'm a maximalist. I love the idea of having you know not many not a lot of tech and being very kind of small scale in theory it's very nice and calm and peaceful but in in practice it's after being kind of used to the way things are i feel like that would be not ideal um ai centered utopia i think that that's a terrible way to live i think that ai can be useful i think it can be implemented well um in certain systems to help advance life. But I don't think that having an AI-centered utopia or just data-driven governance is good because technology can make mistakes. And I think that human oversight is important. And just to be in a society where it's kind of like just ruled by AI, I don't think that would be good. And then I had my religious utopia or faith-based order last because there's so many religions and everybody interprets religion differently that to just have a society based on religion can get really hectic really fast. And then, you know, next thing you know, we're having like the witch hunt trials again. And I just think that it's important to just keep faith out of like governance, I would say, of people just because everybody believes in such different things.",
+  "language": "unknown",
+  "processing_time_seconds": 50.411956,
+  "timestamp": "2026-05-30T17:32:17.344288",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.64,
+        17.72
+      ],
+      "text": " I put modern or green utopia as being my most preferred because I really do just see that being the most ideal and most utopian way to live for me as far as everything is sustainable and it's secure."
+    },
+    {
+      "timestamp": [
+        17.84,
+        25.94
+      ],
+      "text": " And I think that's the most important part about it all as far as ranking, because as long as the way of life is secure, I mean, nothing can ever be 100 percent."
+    },
+    {
+      "timestamp": [
+        25.94,
+        33.48
+      ],
+      "text": " But to even have the main structure to be just secure would be the best for me."
+    },
+    {
+      "timestamp": [
+        33.82,
+        47.82
+      ],
+      "text": " After that, I chose futuristic just because to have more science and innovation is kind of crucial, I would say, in the advancement of human life."
+    },
+    {
+      "timestamp": [
+        48.0,
+        52.24
+      ],
+      "text": " It's crucial and it's important, but maybe not the most crucial important."
+    },
+    {
+      "timestamp": [
+        52.44,
+        54.44
+      ],
+      "text": " So I put it at the sixth place."
+    },
+    {
+      "timestamp": [
+        55.14,
+        54.44
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        61.24,
+        67.28
+      ],
+      "text": " number five, I put the moral commonwealth or just having inner morality. I feel like it would be nice to live in a life like that where everybody kind of just knows what to do. And everyone just"
+    },
+    {
+      "timestamp": [
+        67.28,
+        73.48
+      ],
+      "text": " tries their best to be good people, good business partners, you know, and just be good people to"
+    },
+    {
+      "timestamp": [
+        73.48,
+        80.16
+      ],
+      "text": " each other, whether that's just in, you know, person to person or business to consumer, you"
+    },
+    {
+      "timestamp": [
+        80.16,
+        88.62
+      ],
+      "text": " know, I do, I would think that that's a kind of a nice way to live, but unpractical or not."
+    },
+    {
+      "timestamp": [
+        88.76,
+        94.94
+      ],
+      "text": " I wouldn't say unpractical. I would say kind of not realistic. I put the rule, the institutional"
+    },
+    {
+      "timestamp": [
+        94.94,
+        102.68
+      ],
+      "text": " utopia as the, my fourth most prefer the rule of law, because I think that's kind of how we live"
+    },
+    {
+      "timestamp": [
+        102.68,
+        107.68
+      ],
+      "text": " today where there's just a lot of laws. There's just a lot of rules and there's set, you know,"
+    },
+    {
+      "timestamp": [
+        107.68,
+        114.12
+      ],
+      "text": " consequences to those rules which can be ideal because you know i think that for every action"
+    },
+    {
+      "timestamp": [
+        114.12,
+        119.6
+      ],
+      "text": " there needs to be a consequence or reaction especially because everyone doesn't have the"
+    },
+    {
+      "timestamp": [
+        119.6,
+        125.88
+      ],
+      "text": " same mental processes and there's certain actions that are just not okay and there needs to be"
+    },
+    {
+      "timestamp": [
+        125.88,
+        134.44
+      ],
+      "text": " consequences in place to deter people from doing that um which i think can happen in the moral"
+    },
+    {
+      "timestamp": [
+        134.44,
+        140.58
+      ],
+      "text": " Commonwealth, futuristic utopia, and the modern green utopia. So I don't think that that's kind"
+    },
+    {
+      "timestamp": [
+        140.58,
+        146.76
+      ],
+      "text": " of the most ideal way for me to live or for us to live. And then for my last bottom three places,"
+    },
+    {
+      "timestamp": [
+        146.76,
+        151.16
+      ],
+      "text": " I chose the primitive utopia, the AI-centered utopia, and then the religious utopia."
+    },
+    {
+      "timestamp": [
+        152.12,
+        157.94
+      ],
+      "text": " And I said that because low tech, small scale, I'm a maximalist. I love the idea of having"
+    },
+    {
+      "timestamp": [
+        157.94,
+        164.94
+      ],
+      "text": " you know not many not a lot of tech and being very kind of small scale in theory it's very"
+    },
+    {
+      "timestamp": [
+        164.94,
+        171.64
+      ],
+      "text": " nice and calm and peaceful but in in practice it's after being kind of used to the way things"
+    },
+    {
+      "timestamp": [
+        171.64,
+        178.74
+      ],
+      "text": " are i feel like that would be not ideal um ai centered utopia i think that that's a terrible"
+    },
+    {
+      "timestamp": [
+        178.74,
+        185.06
+      ],
+      "text": " way to live i think that ai can be useful i think it can be implemented well um in certain systems"
+    },
+    {
+      "timestamp": [
+        185.06,
+        193.88
+      ],
+      "text": " to help advance life. But I don't think that having an AI-centered utopia or just data-driven"
+    },
+    {
+      "timestamp": [
+        193.88,
+        200.38
+      ],
+      "text": " governance is good because technology can make mistakes. And I think that human oversight is"
+    },
+    {
+      "timestamp": [
+        200.38,
+        207.68
+      ],
+      "text": " important. And just to be in a society where it's kind of like just ruled by AI, I don't think that"
+    },
+    {
+      "timestamp": [
+        207.68,
+        212.04
+      ],
+      "text": " would be good. And then I had my religious utopia or faith-based order last because"
+    },
+    {
+      "timestamp": [
+        212.04,
+        217.96
+      ],
+      "text": " there's so many religions and everybody interprets religion differently that to just"
+    },
+    {
+      "timestamp": [
+        217.96,
+        223.78
+      ],
+      "text": " have a society based on religion can get really hectic really fast. And then, you know, next thing"
+    },
+    {
+      "timestamp": [
+        223.78,
+        229.4
+      ],
+      "text": " you know, we're having like the witch hunt trials again. And I just think that it's important to just"
+    },
+    {
+      "timestamp": [
+        229.4,
+        239.1
+      ],
+      "text": " keep faith out of like governance, I would say, of people just because everybody believes in such"
+    },
+    {
+      "timestamp": [
+        239.1,
+        240.1
+      ],
+      "text": " different things."
+    }
+  ]
+}

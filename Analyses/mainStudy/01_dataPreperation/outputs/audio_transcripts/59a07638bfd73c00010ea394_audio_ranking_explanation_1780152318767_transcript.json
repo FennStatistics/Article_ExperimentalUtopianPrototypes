@@ -1,0 +1,87 @@
+{
+  "audio_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767.webm",
+  "transcript": " Well, I think science and innovation top all, and that's why I have it as my number one choice. Under that, having sustainability in the form of green energy in conjunction with nature, with bits of modernality, makes that modern green utopia a good secondary choice. um the third one is basically the world we already live in so i went ahead and i selected that one mainly because i compared it to the others and it just ruled above those um the moral commonwealth i didn't really like all too much just because governed by morality uh that that's not going to work really too well because someone can take control of the world basically in that scenario The Primitial Bliss, it was just the better option than the two below that one. AI is really too black and white and is prone to error. So that would just lead to more chaos than order. And I really just don't like religion.",
+  "language": "unknown",
+  "processing_time_seconds": 15.152841,
+  "timestamp": "2026-05-30T17:27:29.987727",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        8.96
+      ],
+      "text": " Well, I think science and innovation top all, and that's why I have it as my number one choice."
+    },
+    {
+      "timestamp": [
+        9.72,
+        21.98
+      ],
+      "text": " Under that, having sustainability in the form of green energy in conjunction with nature, with bits of modernality,"
+    },
+    {
+      "timestamp": [
+        22.4,
+        26.88
+      ],
+      "text": " makes that modern green utopia a good secondary choice."
+    },
+    {
+      "timestamp": [
+        27.92,
+        26.88
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.06,
+        39.3
+      ],
+      "text": " um the third one is basically the world we already live in so i went ahead and i selected that one mainly because i compared it to the others and it just ruled above those um the moral commonwealth"
+    },
+    {
+      "timestamp": [
+        39.3,
+        46.28
+      ],
+      "text": " i didn't really like all too much just because governed by morality uh that that's not going to"
+    },
+    {
+      "timestamp": [
+        46.28,
+        52.08
+      ],
+      "text": " work really too well because someone can take control of the world basically in that scenario"
+    },
+    {
+      "timestamp": [
+        52.08,
+        60.52
+      ],
+      "text": " The Primitial Bliss, it was just the better option than the two below that one."
+    },
+    {
+      "timestamp": [
+        61.2,
+        66.54
+      ],
+      "text": " AI is really too black and white and is prone to error."
+    },
+    {
+      "timestamp": [
+        66.96,
+        70.0
+      ],
+      "text": " So that would just lead to more chaos than order."
+    },
+    {
+      "timestamp": [
+        70.84,
+        73.3
+      ],
+      "text": " And I really just don't like religion."
+    }
+  ]
+}

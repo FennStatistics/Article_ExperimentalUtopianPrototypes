@@ -88,7 +88,7 @@ const rankingWithAudioText = `
     </section>
     <br>
     <section style="margin-top: 0.5rem;">
-      (1) Drag societies from the left list into the right list and arrange them from 1 (least preferred) to 7 (most preferred). <i>Hold and drag each item with your mouse to move it.</i>
+      (1) Drag societies from the left list into the right list and <strong>arrange them from most preferred at top to least preferred at bottom.</strong> <i>Hold and drag each item with your mouse to move it.</i>
     </section>
 
     <section style="margin-top: 1rem;">
@@ -199,16 +199,31 @@ const rankingWithAudioText = `
           <ul id="rankingPoolCombined" class="ranking-list"></ul>
         </div>
         <div class="ranking-column">
-          <h3>Ranking from 1 (least) to 7 (most preferred)</h3>
-          <div class="ranking-column-hint ranking-column-hint-top">⬇ least preferred</div>
+          <h3>Ranking from most preferred to least preferred</h3>
+          <div class="ranking-column-hint ranking-column-hint-top">⬇ <strong>MOST preferred</strong></div>
           <ul id="rankingTargetCombined" class="ranking-list"></ul>
-          <div class="ranking-column-hint ranking-column-hint-bottom">⬆ most preferred</div>
+          <div class="ranking-column-hint ranking-column-hint-bottom">⬆ <strong>LEAST preferred</strong></div>
         </div>
       </div>
       
       <div id="rankingCombinedError" style="margin-top: 10px; color: #b00020; font-weight: 600; visibility: hidden;">
         Please move all 7 societies to the right-hand list.
       </div>
+
+            <!-- ADD THIS AFTER THE RANKING LISTS (after </ul> for rankingTargetCombined) -->
+<div id="rankingSummary" style="margin-top: 1.5rem; padding: 1rem; background: #e8f5e9; border-radius: 8px; border-left: 4px solid #4caf50;">
+  <div style="margin-bottom: 0.75rem;">
+    <strong style="color: #2e7d32;">✓ Your most preferred society:</strong>
+    <div id="mostPreferred" style="margin-top: 0.3rem; font-size: 1.1rem; color: #1b5e20;"></div>
+  </div>
+  <div style="margin-bottom: 1rem;">
+    <strong style="color: #c62828;">✗ Your least preferred society:</strong>
+    <div id="leastPreferred" style="margin-top: 0.3rem; font-size: 1.1rem; color: #b71c1c;"></div>
+  </div>
+  <div style="padding-top: 0.75rem; border-top: 1px solid #81c784; color: #2e7d32; font-size: 0.95rem;">
+    If that's the order you want, scroll down and click <strong>"Lock ranking and continue to audio"</strong> to proceed. ⬇️
+  </div>
+</div>
       
       <div id="rankingLockWrap" style="margin-top: 12px; display: none;">
         <p style="margin: 0 0 8px 0;">When you are satisfied with the order, lock your ranking. You can still reorder items before locking.</p>
@@ -246,7 +261,11 @@ let testRecordingStartTime = null;
 let testDetectedSpeech = false;
 
 const hasJatosRuntime = function () {
-  return !localTesting && typeof jatos !== "undefined" && typeof jatos.jQuery === "function";
+  return (
+    !localTesting &&
+    typeof jatos !== "undefined" &&
+    typeof jatos.jQuery === "function"
+  );
 };
 
 const stopStream = function (stream) {
@@ -356,7 +375,7 @@ const detectSpeech = async function (blob) {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     const ctx = new AudioContext();
 
-    if (ctx.state === 'suspended') {
+    if (ctx.state === "suspended") {
       await ctx.resume();
     }
 
@@ -366,7 +385,7 @@ const detectSpeech = async function (blob) {
       ctx.decodeAudioData(
         arrayBuffer,
         (decodedData) => resolve(decodedData),
-        (error) => reject(error)
+        (error) => reject(error),
       );
     });
 
@@ -390,15 +409,19 @@ const detectSpeech = async function (blob) {
     const noiseFloor = sortedRms[Math.floor(sortedRms.length * 0.1)] || 0.0001;
 
     if (maxRMS < 0.001) {
-        console.log("Speech detection failed: Audio is completely silent.");
-        return false;
+      console.log("Speech detection failed: Audio is completely silent.");
+      return false;
     }
 
     const threshold = Math.min(noiseFloor * 2.5, 0.01);
-    const activeFrames = rmsValues.filter(v => v > threshold && v > 0.002).length;
+    const activeFrames = rmsValues.filter(
+      (v) => v > threshold && v > 0.002,
+    ).length;
     const speechDurationSeconds = activeFrames * 0.05;
 
-    console.log(`Speech detection - Max RMS: ${maxRMS.toFixed(4)}, Noise Floor: ${noiseFloor.toFixed(4)}, Threshold: ${threshold.toFixed(4)}, Active speech: ${speechDurationSeconds.toFixed(2)}s`);
+    console.log(
+      `Speech detection - Max RMS: ${maxRMS.toFixed(4)}, Noise Floor: ${noiseFloor.toFixed(4)}, Threshold: ${threshold.toFixed(4)}, Active speech: ${speechDurationSeconds.toFixed(2)}s`,
+    );
 
     return speechDurationSeconds >= 0.5;
   } catch (_e) {
@@ -431,7 +454,8 @@ const submitResultDataToJatos = async function () {
 
 const advanceProgress = function () {
   numElementsCounter++;
-  document.querySelector(".progress-bar").style.width = (numElementsCounter / numElements) * 100 + "%";
+  document.querySelector(".progress-bar").style.width =
+    (numElementsCounter / numElements) * 100 + "%";
 };
 
 const setupMicRecorder = async function () {
@@ -446,15 +470,21 @@ const setupMicRecorder = async function () {
   }
 
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-    setErrorText("errorMessage", "Audio recording is not supported by this browser.");
+    setErrorText(
+      "errorMessage",
+      "Audio recording is not supported by this browser.",
+    );
     return;
   }
 
   try {
     testAudioStream = stopStream(testAudioStream);
-    testAudioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    testAudioStream = await navigator.mediaDevices.getUserMedia({
+      audio: true,
+    });
 
-    const { recorder, mimeType: supportedMime } = createSafeRecorder(testAudioStream);
+    const { recorder, mimeType: supportedMime } =
+      createSafeRecorder(testAudioStream);
     testAudioRecorder = recorder;
     testAudioChunks = [];
 
@@ -464,7 +494,10 @@ const setupMicRecorder = async function () {
 
     testAudioRecorder.onstop = async function () {
       if (testAudioChunks.length === 0) {
-        setErrorText("errorMessage", "Recording failed (no audio data). Please try again.");
+        setErrorText(
+          "errorMessage",
+          "Recording failed (no audio data). Please try again.",
+        );
         return;
       }
 
@@ -475,12 +508,16 @@ const setupMicRecorder = async function () {
       testAudioClipUrl = revokeObjectUrl(testAudioClipUrl);
       testAudioClipUrl = window.URL.createObjectURL(blob);
 
-      const fallbackSeconds = testRecordingStartTime ? (Date.now() - testRecordingStartTime) / 1000 : 0;
+      const fallbackSeconds = testRecordingStartTime
+        ? (Date.now() - testRecordingStartTime) / 1000
+        : 0;
       const audioMeta = getAudioMeta(blob, fallbackSeconds);
       const clips = document.getElementById("clips");
       if (clips) {
         clips.innerHTML = "";
-        clips.appendChild(renderClipCard(testAudioClipUrl, audioMeta, "Latest recording"));
+        clips.appendChild(
+          renderClipCard(testAudioClipUrl, audioMeta, "Latest recording"),
+        );
       }
 
       hasTestRecording = true;
@@ -491,7 +528,10 @@ const setupMicRecorder = async function () {
         $("#continue").show();
         setErrorText("errorMessage", "");
       } else {
-        setErrorText("errorMessage", "No speech detected. Please speak clearly into the microphone.");
+        setErrorText(
+          "errorMessage",
+          "No speech detected. Please speak clearly into the microphone.",
+        );
       }
     };
 
@@ -541,7 +581,8 @@ const TestAudio_htmlForm = new lab.html.Form({
       setupMicRecorder();
     },
     commit: function () {
-      if (testAudioRecorder && testAudioRecorder.state === "recording") testAudioRecorder.stop();
+      if (testAudioRecorder && testAudioRecorder.state === "recording")
+        testAudioRecorder.stop();
       testAudioStream = stopStream(testAudioStream);
       study.options.datastore.set("mic_test_passed", 1);
       advanceProgress();
@@ -571,7 +612,10 @@ const createSingleAudioForm = function (opts) {
       recBtn.onclick = null;
     }
     if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-      setErrorText(opts.errorId, "Audio recording is not supported by this browser.");
+      setErrorText(
+        opts.errorId,
+        "Audio recording is not supported by this browser.",
+      );
       return;
     }
     try {
@@ -589,7 +633,10 @@ const createSingleAudioForm = function (opts) {
 
       recorder.onstop = async function () {
         if (chunks.length === 0) {
-          setErrorText(opts.errorId, "Recording failed (no audio data). Please try again.");
+          setErrorText(
+            opts.errorId,
+            "Recording failed (no audio data). Please try again.",
+          );
           if (recBtn) recBtn.classList.remove("recording");
           return;
         }
@@ -599,7 +646,9 @@ const createSingleAudioForm = function (opts) {
         chunks = [];
         clipUrl = revokeObjectUrl(clipUrl);
         clipUrl = window.URL.createObjectURL(blob);
-        const fallbackSeconds = recordingStartTime ? (Date.now() - recordingStartTime) / 1000 : 0;
+        const fallbackSeconds = recordingStartTime
+          ? (Date.now() - recordingStartTime) / 1000
+          : 0;
         const audioMeta = getAudioMeta(blob, fallbackSeconds);
         audioData = await blobToDataUrl(blob);
         audioBlob = blob;
@@ -608,7 +657,9 @@ const createSingleAudioForm = function (opts) {
         const clips = document.getElementById(opts.clipsId);
         if (clips) {
           clips.innerHTML = "";
-          clips.appendChild(renderClipCard(clipUrl, audioMeta, "Latest recording"));
+          clips.appendChild(
+            renderClipCard(clipUrl, audioMeta, "Latest recording"),
+          );
         }
         hasRecording = true;
         recordingStartTime = null;
@@ -663,23 +714,37 @@ const createSingleAudioForm = function (opts) {
       },
       commit: async function () {
         if (!hasRecording || !audioData) {
-          setErrorText(opts.errorId, "Please record your answer before continuing.");
+          setErrorText(
+            opts.errorId,
+            "Please record your answer before continuing.",
+          );
           throw new Error("Audio response missing");
         }
         if (recorder && recorder.state === "recording") recorder.stop();
         stream = stopStream(stream);
 
-        const blobMime = audioBlob ? (audioBlob.type || supportedMime || "audio/mp4") : (supportedMime || "audio/mp4");
+        const blobMime = audioBlob
+          ? audioBlob.type || supportedMime || "audio/mp4"
+          : supportedMime || "audio/mp4";
 
         study.options.datastore.set(`${opts.keyPrefix}_prompt`, opts.prompt);
         // study.options.datastore.set(`${opts.keyPrefix}_audio`, audioData);
-        study.options.datastore.set(`${opts.keyPrefix}_audio_length`, audioData.length);
+        study.options.datastore.set(
+          `${opts.keyPrefix}_audio_length`,
+          audioData.length,
+        );
         if (audioBlob) {
           study.options.datastore.set(`${opts.keyPrefix}_audio_mime`, blobMime);
-          study.options.datastore.set(`${opts.keyPrefix}_audio_size_bytes`, audioBlob.size);
+          study.options.datastore.set(
+            `${opts.keyPrefix}_audio_size_bytes`,
+            audioBlob.size,
+          );
         }
         if (durationSeconds !== null) {
-          study.options.datastore.set(`${opts.keyPrefix}_audio_duration_seconds`, durationSeconds);
+          study.options.datastore.set(
+            `${opts.keyPrefix}_audio_duration_seconds`,
+            durationSeconds,
+          );
         }
 
         if (hasJatosRuntime()) {
@@ -699,7 +764,10 @@ const createSingleAudioForm = function (opts) {
             audio_duration_seconds: durationSeconds,
           };
           await jatos
-            .uploadResultFile(payload, `${opts.keyPrefix}_${participantId}_${Date.now()}.json`)
+            .uploadResultFile(
+              payload,
+              `${opts.keyPrefix}_${participantId}_${Date.now()}.json`,
+            )
             .catch(() => console.log("audio upload failed"));
         }
 
@@ -735,13 +803,34 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
     run: function () {
       const self = this;
       const societies = [
-        { code: "rank_ai_centered", label: "AI-Centered Utopia<br>(data-driven governance)" },
-        { code: "rank_futurist", label: "Futurist Utopia<br>(science & innovation)" },
-        { code: "rank_institutional", label: "Institutional Utopia<br>(rule of law)" },
-        { code: "rank_modern_green", label: "Modern Green Utopia<br>(sustainable & secure)" },
-        { code: "rank_moral_anarchic", label: "Moral Commonwealth<br>(inner morality)" },
-        { code: "rank_primitivist", label: "Primitivist Utopia<br>(low-tech & small-scale)" },
-        { code: "rank_religious", label: "Religious Utopia<br>(faith-based order)" },
+        {
+          code: "rank_ai_centered",
+          label: "AI-Centered Utopia<br>(data-driven governance)",
+        },
+        {
+          code: "rank_futurist",
+          label: "Futurist Utopia<br>(science & innovation)",
+        },
+        {
+          code: "rank_institutional",
+          label: "Institutional Utopia<br>(rule of law)",
+        },
+        {
+          code: "rank_modern_green",
+          label: "Modern Green Utopia<br>(sustainable & secure)",
+        },
+        {
+          code: "rank_moral_anarchic",
+          label: "Moral Commonwealth<br>(inner morality)",
+        },
+        {
+          code: "rank_primitivist",
+          label: "Primitivist Utopia<br>(low-tech & small-scale)",
+        },
+        {
+          code: "rank_religious",
+          label: "Religious Utopia<br>(faith-based order)",
+        },
       ];
 
       const $pool = $("#rankingPoolCombined");
@@ -757,17 +846,18 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
         .slice()
         .sort((a, b) => a.label.localeCompare(b.label))
         .forEach((item) => {
-          $pool.append(`<li class="ranking-item" data-code="${item.code}"><span class="ranking-rank"></span>${item.label}</li>`);
+          $pool.append(
+            `<li class="ranking-item" data-code="${item.code}"><span class="ranking-rank"></span>${item.label}</li>`,
+          );
         });
 
-          // After populating societies, store initial order
-        const initialOrder = societies
-          .slice()
-          .sort((a, b) => a.label.localeCompare(b.label))
-          .map(item => item.code);
-        
-        study.options.datastore.set("ranking_initial_order", initialOrder);
+      // After populating societies, store initial order
+      const initialOrder = societies
+        .slice()
+        .sort((a, b) => a.label.localeCompare(b.label))
+        .map((item) => item.code);
 
+      study.options.datastore.set("ranking_initial_order", initialOrder);
 
       let updateTimeout = null;
       let isDragging = false;
@@ -777,13 +867,16 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
         updateTimeout = setTimeout(function () {
           if (!isDragging) {
             updateRanksAndValidity();
+            updateSummaryDisplay(); // ← ADD THIS LINE
           }
         }, 30);
       };
 
       const updateRanksAndValidity = function () {
         $("#rankingTargetCombined .ranking-item").each(function (idx) {
-          $(this).find(".ranking-rank").text(`${idx + 1}. `);
+          $(this)
+            .find(".ranking-rank")
+            .text(`${idx + 1}. `);
         });
         $("#rankingPoolCombined .ranking-item").find(".ranking-rank").text("");
         const valid = $("#rankingTargetCombined .ranking-item").length === 7;
@@ -791,9 +884,38 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
         if (!self._rankingLocked) $lockWrap.toggle(valid);
       };
 
+      const updateSummaryDisplay = function () {
+        const $target = $("#rankingTargetCombined");
+        const items = $target.find(".ranking-item");
+
+        if (items.length === 7) {
+          const mostPreferredCode = $(items[0]).attr("data-code");
+          const leastPreferredCode = $(items[6]).attr("data-code");
+
+          const societies = {
+            rank_ai_centered: "AI-Centered Utopia (data-driven governance)",
+            rank_futurist: "Futurist Utopia (science & innovation)",
+            rank_institutional: "Institutional Utopia (rule of law)",
+            rank_modern_green: "Modern Green Utopia (sustainable & secure)",
+            rank_moral_anarchic: "Moral Commonwealth (inner morality)",
+            rank_primitivist: "Primitivist Utopia (low-tech & small-scale)",
+            rank_religious: "Religious Utopia (faith-based order)",
+          };
+
+          document.getElementById("mostPreferred").textContent =
+            societies[mostPreferredCode] || mostPreferredCode;
+          document.getElementById("leastPreferred").textContent =
+            societies[leastPreferredCode] || leastPreferredCode;
+          document.getElementById("rankingSummary").style.display = "block";
+        } else {
+          document.getElementById("rankingSummary").style.display = "none";
+        }
+      };
+
       const logEvent = function (evtType, ui, fromList, toList) {
         const ts = Date.now();
-        if (!self._rankingDndFirstInteractionTs) self._rankingDndFirstInteractionTs = ts;
+        if (!self._rankingDndFirstInteractionTs)
+          self._rankingDndFirstInteractionTs = ts;
         self._rankingDndEvents.push({
           type: evtType,
           item_code: ui.item.attr("data-code"),
@@ -813,7 +935,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
         delay: 80,
         distance: 3,
         animation: 120,
-    animation: 0,        // ✓ No animation (instant placement)
+        animation: 0, // ✓ No animation (instant placement)
 
         start: function (_event, ui) {
           isDragging = true;
@@ -840,6 +962,7 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
       });
 
       updateRanksAndValidity();
+      updateSummaryDisplay();
 
       const setupCombinedRecorder = async function () {
         setErrorText("audioCombinedErrorMessage", "");
@@ -851,12 +974,17 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
           recBtn.onclick = null;
         }
         if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-          setErrorText("audioCombinedErrorMessage", "Audio recording is not supported by this browser.");
+          setErrorText(
+            "audioCombinedErrorMessage",
+            "Audio recording is not supported by this browser.",
+          );
           return;
         }
         try {
           self._stream = stopStream(self._stream);
-          self._stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+          self._stream = await navigator.mediaDevices.getUserMedia({
+            audio: true,
+          });
 
           const created = createSafeRecorder(self._stream);
           self._recorder = created.recorder;
@@ -869,17 +997,25 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
 
           self._recorder.onstop = async function () {
             if (self._chunks.length === 0) {
-              setErrorText("audioCombinedErrorMessage", "Recording failed (no audio data). Please try again.");
+              setErrorText(
+                "audioCombinedErrorMessage",
+                "Recording failed (no audio data). Please try again.",
+              );
               if (recBtn) recBtn.classList.remove("recording");
               return;
             }
 
-            const finalMimeType = resolveBlobMime(self._recorder, self._supportedMime);
+            const finalMimeType = resolveBlobMime(
+              self._recorder,
+              self._supportedMime,
+            );
             const blob = new Blob(self._chunks, { type: finalMimeType });
             self._chunks = [];
             self._clipUrl = revokeObjectUrl(self._clipUrl);
             self._clipUrl = window.URL.createObjectURL(blob);
-            const fallbackSeconds = self._recordingStartTime ? (Date.now() - self._recordingStartTime) / 1000 : 0;
+            const fallbackSeconds = self._recordingStartTime
+              ? (Date.now() - self._recordingStartTime) / 1000
+              : 0;
             const audioMeta = getAudioMeta(blob, fallbackSeconds);
             self._audioData = await blobToDataUrl(blob);
             self._audioBlob = blob;
@@ -887,7 +1023,9 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
             const clips = document.getElementById("audioCombinedClips");
             if (clips) {
               clips.innerHTML = "";
-              clips.appendChild(renderClipCard(self._clipUrl, audioMeta, "Latest recording"));
+              clips.appendChild(
+                renderClipCard(self._clipUrl, audioMeta, "Latest recording"),
+              );
             }
             self._hasRecording = true;
             self._recordingStartTime = null;
@@ -920,10 +1058,13 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
       if (lockButton) {
         lockButton.onclick = function () {
           const orderCodes = $("#rankingTargetCombined .ranking-item")
-            .map(function () { return $(this).attr("data-code"); })
+            .map(function () {
+              return $(this).attr("data-code");
+            })
             .get();
           if (orderCodes.length !== 7) {
-            document.getElementById("rankingCombinedError").style.visibility = "visible";
+            document.getElementById("rankingCombinedError").style.visibility =
+              "visible";
             return;
           }
           self._rankingLocked = true;
@@ -933,7 +1074,8 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
           study.options.datastore.set("ranking_locked", 1);
           study.options.datastore.set("ranking_lock_ts", Date.now());
           study.options.datastore.set("ranking_lock_order", orderCodes);
-          document.getElementById("combinedAudioSection").style.display = "block";
+          document.getElementById("combinedAudioSection").style.display =
+            "block";
           const retryBtn = document.getElementById("audioCombinedRetryMicBtn");
           if (retryBtn) {
             retryBtn.onclick = function (event) {
@@ -942,25 +1084,33 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
             };
           }
           setupCombinedRecorder();
-          
+
           // Scroll to audio section
           setTimeout(() => {
-            document.getElementById("combinedAudioSection").scrollIntoView({ behavior: "smooth" });
+            document
+              .getElementById("combinedAudioSection")
+              .scrollIntoView({ behavior: "smooth" });
           }, 100);
         };
       }
     },
     commit: async function () {
       const orderCodes = $("#rankingTargetCombined .ranking-item")
-        .map(function () { return $(this).attr("data-code"); })
+        .map(function () {
+          return $(this).attr("data-code");
+        })
         .get();
 
       if (!this._rankingLocked || orderCodes.length !== 7) {
-        document.getElementById("rankingCombinedError").style.visibility = "visible";
+        document.getElementById("rankingCombinedError").style.visibility =
+          "visible";
         throw new Error("Ranking not locked or incomplete");
       }
       if (!this._hasRecording || !this._audioData) {
-        setErrorText("audioCombinedErrorMessage", "Please record your explanation before continuing.");
+        setErrorText(
+          "audioCombinedErrorMessage",
+          "Please record your explanation before continuing.",
+        );
         throw new Error("Audio response missing");
       }
 
@@ -969,30 +1119,52 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
       });
       study.options.datastore.set("ranking_final_order", orderCodes);
       study.options.datastore.set("ranking_dnd_events", this._rankingDndEvents);
-      study.options.datastore.set("ranking_dnd_move_count", this._rankingDndMoveCount);
-      study.options.datastore.set("ranking_dnd_reorder_count", this._rankingDndReorderCount);
+      study.options.datastore.set(
+        "ranking_dnd_move_count",
+        this._rankingDndMoveCount,
+      );
+      study.options.datastore.set(
+        "ranking_dnd_reorder_count",
+        this._rankingDndReorderCount,
+      );
       study.options.datastore.set(
         "ranking_dnd_duration_ms",
-        this._rankingDndFirstInteractionTs ? Date.now() - this._rankingDndFirstInteractionTs : 0,
+        this._rankingDndFirstInteractionTs
+          ? Date.now() - this._rankingDndFirstInteractionTs
+          : 0,
       );
 
-      if (this._recorder && this._recorder.state === "recording") this._recorder.stop();
+      if (this._recorder && this._recorder.state === "recording")
+        this._recorder.stop();
       this._stream = stopStream(this._stream);
 
       const blobMime = this._audioBlob
-        ? (this._audioBlob.type || this._supportedMime || "audio/mp4")
-        : (this._supportedMime || "audio/mp4");
+        ? this._audioBlob.type || this._supportedMime || "audio/mp4"
+        : this._supportedMime || "audio/mp4";
 
-      const prompt = "Please explain why you ranked some future societies higher and others lower.";
+      const prompt =
+        "Please explain why you ranked some future societies higher and others lower.";
       study.options.datastore.set("audio_ranking_explanation_prompt", prompt);
       // study.options.datastore.set("audio_ranking_explanation_audio", this._audioData);
-      study.options.datastore.set("audio_ranking_explanation_audio_length", this._audioData.length);
+      study.options.datastore.set(
+        "audio_ranking_explanation_audio_length",
+        this._audioData.length,
+      );
       if (this._audioBlob) {
-        study.options.datastore.set("audio_ranking_explanation_audio_mime", blobMime);
-        study.options.datastore.set("audio_ranking_explanation_audio_size_bytes", this._audioBlob.size);
+        study.options.datastore.set(
+          "audio_ranking_explanation_audio_mime",
+          blobMime,
+        );
+        study.options.datastore.set(
+          "audio_ranking_explanation_audio_size_bytes",
+          this._audioBlob.size,
+        );
       }
       if (this._durationSeconds !== null) {
-        study.options.datastore.set("audio_ranking_explanation_audio_duration_seconds", this._durationSeconds);
+        study.options.datastore.set(
+          "audio_ranking_explanation_audio_duration_seconds",
+          this._durationSeconds,
+        );
       }
 
       if (hasJatosRuntime()) {
@@ -1012,7 +1184,10 @@ const RankingWithAudio_htmlForm = new lab.html.Form({
           audio_duration_seconds: this._durationSeconds,
         };
         await jatos
-          .uploadResultFile(payload, `audio_ranking_explanation_${participantId}_${Date.now()}.json`)
+          .uploadResultFile(
+            payload,
+            `audio_ranking_explanation_${participantId}_${Date.now()}.json`,
+          )
           .catch(() => console.log("audio upload failed"));
       }
 
@@ -1030,5 +1205,6 @@ const MissingUtopiaAudio_htmlForm = createSingleAudioForm({
   errorId: "audio2ErrorMessage",
   continueSelector: "#continue",
   keyPrefix: "audio_missing_utopia",
-  prompt: "Please describe a type of utopia you feel is missing from the presented set and explain what matters most about it.",
+  prompt:
+    "Please describe a type of utopia you feel is missing from the presented set and explain what matters most about it.",
 });

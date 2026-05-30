@@ -1,0 +1,45 @@
+{
+  "audio_file": "63d7b1a77e23b5460ab88069_audio_missing_utopia_1780152859465.webm",
+  "transcript": " I'm not all that imaginative. So the options given were plentiful. I can't really see anything that's missing. I think for any of it to work, people need to kind of buy in. And I think that's where the legal system comes into play in which people kind of buy in. We kind of see that as of now, only a few individuals commit the crimes, but a large majority abide by it. So there's nothing in particular that I see that I would particularly change on my own.",
+  "language": "unknown",
+  "processing_time_seconds": 10.688746,
+  "timestamp": "2026-05-30T17:27:40.718593",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.48
+      ],
+      "text": " I'm not all that imaginative. So the options given were plentiful. I can't really see anything"
+    },
+    {
+      "timestamp": [
+        9.48,
+        15.38
+      ],
+      "text": " that's missing. I think for any of it to work, people need to kind of buy in. And I think that's"
+    },
+    {
+      "timestamp": [
+        15.38,
+        22.82
+      ],
+      "text": " where the legal system comes into play in which people kind of buy in. We kind of see that as of"
+    },
+    {
+      "timestamp": [
+        22.82,
+        29.5
+      ],
+      "text": " now, only a few individuals commit the crimes, but a large majority abide by it. So there's nothing"
+    },
+    {
+      "timestamp": [
+        29.5,
+        32.7
+      ],
+      "text": " in particular that I see that I would particularly change on my own."
+    }
+  ]
+}

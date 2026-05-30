@@ -1,0 +1,6 @@
+json_file,num_windows,first_window_sentiment,last_window_sentiment,sentiment_change,mean_sentiment,sentiment_volatility,label_changes,trend
+6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript,63,0.5285,0.8014,0.2729,0.7017,0.14,34,Positive ↑
+673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript,38,0.6463,0.5968,-0.0495,0.7216,0.1411,24,Stable →
+69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript,35,0.8512,0.7795,-0.0717,0.7635,0.1293,20,Stable →
+63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript,32,0.7616,0.7564,-0.0051,0.7367,0.1076,11,Stable →
+69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript,31,0.7584,0.8264,0.068,0.7126,0.1184,16,Stable →

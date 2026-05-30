@@ -1,0 +1,2277 @@
+{
+  "metadata": {
+    "total_windows": 324,
+    "window_size": 10,
+    "created_at": "2026-05-30T17:33:41.104318"
+  },
+  "windows": [
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_missing_utopia_1780152365703_transcript",
+      "window_index": 0,
+      "window_text": "I don't really have any complaints with the choices that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6967774033546448
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_missing_utopia_1780152365703_transcript",
+      "window_index": 1,
+      "window_text": "were present. I'd say some of them could have been",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7864034175872803
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_missing_utopia_1780152365703_transcript",
+      "window_index": 2,
+      "window_text": "a bit more detailed in what they were trying to",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7562608122825623
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_missing_utopia_1780152365703_transcript",
+      "window_index": 3,
+      "window_text": "provide. Anything I can think of, I think, has already",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8057901859283447
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_missing_utopia_1780152365703_transcript",
+      "window_index": 4,
+      "window_text": "been touched upon, but not in the entirety that I",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.783241331577301
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_missing_utopia_1780152365703_transcript",
+      "window_index": 5,
+      "window_text": "think of. For example, the green utopia. In concept, it's",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6638718843460083
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_missing_utopia_1780152365703_transcript",
+      "window_index": 6,
+      "window_text": "pretty good, but there has to be a bunch of",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8542995452880859
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 0,
+      "window_text": "Well, I think science and innovation top all, and that's",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7768856883049011
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 1,
+      "window_text": "why I have it as my number one choice. Under",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5960823893547058
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 2,
+      "window_text": "that, having sustainability in the form of green energy in",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5611832737922668
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 3,
+      "window_text": "conjunction with nature, with bits of modernality, makes that modern",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8480260372161865
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 4,
+      "window_text": "green utopia a good secondary choice. um the third one",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8238304853439331
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 5,
+      "window_text": "is basically the world we already live in so i",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6630666255950928
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 6,
+      "window_text": "went ahead and i selected that one mainly because i",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6406221389770508
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 7,
+      "window_text": "compared it to the others and it just ruled above",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8172312378883362
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 8,
+      "window_text": "those um the moral commonwealth i didn't really like all",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8504055738449097
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 9,
+      "window_text": "too much just because governed by morality uh that that's",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6459629535675049
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 10,
+      "window_text": "not going to work really too well because someone can",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7705821394920349
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 11,
+      "window_text": "take control of the world basically in that scenario The",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.754359781742096
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 12,
+      "window_text": "Primitial Bliss, it was just the better option than the",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5820831060409546
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 13,
+      "window_text": "two below that one. AI is really too black and",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7981964349746704
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 14,
+      "window_text": "white and is prone to error. So that would just",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6440423727035522
+    },
+    {
+      "json_file": "59a07638bfd73c00010ea394_audio_ranking_explanation_1780152318767_transcript",
+      "window_index": 15,
+      "window_text": "lead to more chaos than order. And I really just",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8515797257423401
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_missing_utopia_1780152859465_transcript",
+      "window_index": 0,
+      "window_text": "I'm not all that imaginative. So the options given were",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5413604974746704
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_missing_utopia_1780152859465_transcript",
+      "window_index": 1,
+      "window_text": "plentiful. I can't really see anything that's missing. I think",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5323420763015747
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_missing_utopia_1780152859465_transcript",
+      "window_index": 2,
+      "window_text": "for any of it to work, people need to kind",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6771731972694397
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_missing_utopia_1780152859465_transcript",
+      "window_index": 3,
+      "window_text": "of buy in. And I think that's where the legal",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8815324306488037
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_missing_utopia_1780152859465_transcript",
+      "window_index": 4,
+      "window_text": "system comes into play in which people kind of buy",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8761692047119141
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_missing_utopia_1780152859465_transcript",
+      "window_index": 5,
+      "window_text": "in. We kind of see that as of now, only",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8965720534324646
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_missing_utopia_1780152859465_transcript",
+      "window_index": 6,
+      "window_text": "a few individuals commit the crimes, but a large majority",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5986657738685608
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_missing_utopia_1780152859465_transcript",
+      "window_index": 7,
+      "window_text": "abide by it. So there's nothing in particular that I",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8241565823554993
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 0,
+      "window_text": "The reason why I ranked my choices in the order",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7615827918052673
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 1,
+      "window_text": "that I did is based on what I've currently experienced,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.9441976547241211
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 2,
+      "window_text": "institutional utopia, rule of law. Even though our world is",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6670099496841431
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 3,
+      "window_text": "not a utopia, that's kind of the world that we",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5759707689285278
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 4,
+      "window_text": "live in now in which we kind of are obligated",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7499213218688965
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 5,
+      "window_text": "by legal regulations. So I'd rather focus on something that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6788922548294067
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 6,
+      "window_text": "I'm used to than thinking about hypotheticals. And then, of",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6885303258895874
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 7,
+      "window_text": "course, the low tech and small scale, I believe, having",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7791754603385925
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 8,
+      "window_text": "small scale communities, we kind of already have those. We",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7177032828330994
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 9,
+      "window_text": "have suburbs with like HOA communities for people kind of",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8067123293876648
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 10,
+      "window_text": "stake in their own communities, watch out for each other,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.792418360710144
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 11,
+      "window_text": "report things. So it kind of made the next sense.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7703348994255066
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 12,
+      "window_text": "Sustainable and secure. Sustainability is always a great idea. But",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8445971608161926
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 13,
+      "window_text": "the fact that it will be secure is what made",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5233386754989624
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 14,
+      "window_text": "me focus on that. But number four, inner morality. I",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8443635106086731
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 15,
+      "window_text": "think I placed it here just because I don't trust",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6978256702423096
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 16,
+      "window_text": "people's morals. We all want to believe we're moral. But",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7117646336555481
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 17,
+      "window_text": "from what I'm seeing in our current world, I think",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.862933874130249
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 18,
+      "window_text": "deep down we all have different definitions, even though there",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6724963188171387
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 19,
+      "window_text": "might be like a universal basic principle to it. Science",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7428022027015686
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 20,
+      "window_text": "and innovation, while cool, you can always trust the science",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7771870493888855
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 21,
+      "window_text": "that's being spit out, you always have to question it,",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6249751448631287
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 22,
+      "window_text": "and I feel like if you make science the norm,",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6163339614868164
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 23,
+      "window_text": "then you kind of take everything at face value, and",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6638750433921814
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 24,
+      "window_text": "things that contradict it might be hidden or dismissed like",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5217171311378479
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 25,
+      "window_text": "we currently see in our current world. data and data-driven",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.9061173796653748
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 26,
+      "window_text": "governance ai is the new buzzword so um i'm just",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7598893046379089
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 27,
+      "window_text": "kind of skeptical we don't know how it the world",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5957129597663879
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 28,
+      "window_text": "is going to turn out in the future with how",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8760149478912354
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 29,
+      "window_text": "much they're trying to integrate it in every single aspect",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7417418956756592
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 30,
+      "window_text": "of our society um and then of course faith-based order",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.9016523957252502
+    },
+    {
+      "json_file": "63d7b1a77e23b5460ab88069_audio_ranking_explanation_1780152809144_transcript",
+      "window_index": 31,
+      "window_text": "we've seen how a face-based world could be and i'd",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.756434977054596
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_missing_utopia_1780152799804_transcript",
+      "window_index": 0,
+      "window_text": "The only missing future society I could think of would",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6961967945098877
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_missing_utopia_1780152799804_transcript",
+      "window_index": 1,
+      "window_text": "be one where everybody is working towards the goal of",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5101393461227417
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_missing_utopia_1780152799804_transcript",
+      "window_index": 2,
+      "window_text": "making the planet a better place, working on lowering down",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7898417711257935
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_missing_utopia_1780152799804_transcript",
+      "window_index": 3,
+      "window_text": "pollution, working on making the air quality better, and us",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6094510555267334
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_missing_utopia_1780152799804_transcript",
+      "window_index": 4,
+      "window_text": "all practicing sustainability, and also innovating science and bringing about",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.6199297308921814
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_ranking_explanation_1780152764284_transcript",
+      "window_index": 0,
+      "window_text": "I chose them how I did because religion and AI-centered",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.759619414806366
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_ranking_explanation_1780152764284_transcript",
+      "window_index": 1,
+      "window_text": "utopias and also rule of law just didn't really seem",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7453956007957458
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_ranking_explanation_1780152764284_transcript",
+      "window_index": 2,
+      "window_text": "fair. I don't feel like religion benefits everybody. The AI-centered",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5158066153526306
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_ranking_explanation_1780152764284_transcript",
+      "window_index": 3,
+      "window_text": "utopia also did not really benefit any humans. And the",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.9192152619361877
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_ranking_explanation_1780152764284_transcript",
+      "window_index": 4,
+      "window_text": "rule of law really only benefited security guards or people",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.48804306983947754
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_ranking_explanation_1780152764284_transcript",
+      "window_index": 5,
+      "window_text": "in power. The only ones that seemed okay for human",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5925799012184143
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_ranking_explanation_1780152764284_transcript",
+      "window_index": 6,
+      "window_text": "beings would be like a modern green utopia or a",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6173829436302185
+    },
+    {
+      "json_file": "67103e4ed56cde03a0f2476b_audio_ranking_explanation_1780152764284_transcript",
+      "window_index": 7,
+      "window_text": "futurist one where the humans still matter and we have",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7442148923873901
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 0,
+      "window_text": "It would be maybe a utopia that solves the scarcity",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5355697274208069
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 1,
+      "window_text": "that has been shown in every single of these descriptions,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8301095366477966
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 2,
+      "window_text": "ways that we can ration meals until we have innovated",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7746431827545166
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 3,
+      "window_text": "and created a stability where food doesn't become an issue.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7232020497322083
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 4,
+      "window_text": "No one goes hungry. Everyone is maybe assigned a place",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7423431873321533
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 5,
+      "window_text": "to live, so they have a roof over their head,",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5038576126098633
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 6,
+      "window_text": "and we have time for passions and work, which, while",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7292584776878357
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 7,
+      "window_text": "maybe mandatory, is essentially your passion, whatever you would like",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6194288730621338
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 8,
+      "window_text": "to do. that is my uh ideal utopian society i",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6629390716552734
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 9,
+      "window_text": "suppose a civilization where culture is exemplified and differences and",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8498120903968811
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_missing_utopia_1780154055552_transcript",
+      "window_index": 10,
+      "window_text": "distinctions are while emphasized are celebrated and praised that's essentially",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6439462304115295
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 0,
+      "window_text": "When I look at the religious-based utopia, it seemed solely",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6462855339050293
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 1,
+      "window_text": "reliant on a higher power or a, it was, as",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8641198873519897
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 2,
+      "window_text": "it said, a faith-based utopia. I am just not interested",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8666472434997559
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 3,
+      "window_text": "in something like that, the restrictions and the ways that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7010771036148071
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 4,
+      "window_text": "it will harm you mentally. And I feel as though",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8795506358146667
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 5,
+      "window_text": "it would be a rigid kind of place to live.",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7434080839157104
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 6,
+      "window_text": "The society of low tech and small scale also wasn't",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.49928414821624756
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 7,
+      "window_text": "something that I really, really appealed to me. Um, simply",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.851122260093689
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 8,
+      "window_text": "because I find that technology has advanced life in such",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7660074830055237
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 9,
+      "window_text": "a way where it is harmful should it ever disappear",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8698752522468567
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 10,
+      "window_text": "or should we be breathed without it, or breathed of",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8699855804443359
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 11,
+      "window_text": "it. Um, and I just, I feel like without technology,",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5537198185920715
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 12,
+      "window_text": "we would be primitive again. The rule of law is",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.74705970287323
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 13,
+      "window_text": "also just a very rigid and extremely kind. It's something",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.505314290523529
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 14,
+      "window_text": "where it doesn't really have too much community. It feels",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5635941624641418
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 15,
+      "window_text": "as though it's essentially a dystopia, one that is very",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7466504573822021
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 16,
+      "window_text": "similar to something you might see in science fiction. And",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.9166280031204224
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 17,
+      "window_text": "it feels very fascist to me. When I look at",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.9118751883506775
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 18,
+      "window_text": "the Commonwealth of Intermorality, I think this is where we",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.705414891242981
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 19,
+      "window_text": "start to get societies that sound good on paper, but",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5760783553123474
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 20,
+      "window_text": "may be a little bit difficult to execute. um morally",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6312422156333923
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 21,
+      "window_text": "a lot of people might not have the best interest",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5117526054382324
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 22,
+      "window_text": "for you so the idea of a community a communal",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.870841920375824
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 23,
+      "window_text": "um way to keep everyone accountable on paper it sounds",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6706047058105469
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 24,
+      "window_text": "good but who's to say this would actually enact the",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5568025708198547
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 25,
+      "window_text": "way that people would think um a green utopia for",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7639929056167603
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 26,
+      "window_text": "sustainability sounds great to me as recycling and continuing to",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.928981602191925
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 27,
+      "window_text": "relieve the pressure on climate is something that's important to",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6109169125556946
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 28,
+      "window_text": "me. In data-driven governance, I think that AI is essentially",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7835702300071716
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 29,
+      "window_text": "the future. I think that it will, while it may",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.6074672341346741
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 30,
+      "window_text": "be used in very peculiar ways and It may need",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5866502523422241
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 31,
+      "window_text": "governance, and we might need to put legality around it.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7421630024909973
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 32,
+      "window_text": "The idea of AI being a push for the future",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5188753008842468
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 33,
+      "window_text": "is always something that resonates deeply with me. And for",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9389931559562683
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 34,
+      "window_text": "the futurist utopia, I think that is essentially just the",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7088143825531006
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 35,
+      "window_text": "best one from here, simply because it's how we continuously",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9459079504013062
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 36,
+      "window_text": "progress anyway. through science and innovation. It's something that is",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.6645791530609131
+    },
+    {
+      "json_file": "673e5fc42cbf961c153d09d3_audio_ranking_explanation_1780153918926_transcript",
+      "window_index": 37,
+      "window_text": "essentially our society now. So it's almost like going back",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5967824459075928
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 0,
+      "window_text": "um while i'm thinking about this i don't think that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.572636067867279
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 1,
+      "window_text": "there's anything in particular that's missing what i think would",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6635153293609619
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 2,
+      "window_text": "be most ideal for my personal perspective um and again",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5293577909469604
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 3,
+      "window_text": "i mean it's just based on a whim here and",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8105509877204895
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 4,
+      "window_text": "what i've what i've read over the last 15 minutes",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.9351294040679932
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 5,
+      "window_text": "um i think that it would be most ideal to",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.6739808320999146
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 6,
+      "window_text": "take certain factors probably from like my top three or",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.9058260917663574
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 7,
+      "window_text": "four choices and i would kind to mix and match",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8300530910491943
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 8,
+      "window_text": "and collaborate a few of those together to get an",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8764197826385498
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 9,
+      "window_text": "adaptation of the best of all those things I think",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.680233359336853
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 10,
+      "window_text": "we should be look for sustainability but I think technology",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6823900938034058
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 11,
+      "window_text": "has a place you know I think religion has a",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8766880631446838
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 12,
+      "window_text": "place I think that it's good to get down to",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7621223330497742
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 13,
+      "window_text": "our roots and be a little bit primitive if we",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.616864800453186
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 14,
+      "window_text": "were broken down into you know there's a lot of",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6720510721206665
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 15,
+      "window_text": "different factors but yeah I think mix and matching a",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8718361854553223
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_missing_utopia_1780153517199_transcript",
+      "window_index": 16,
+      "window_text": "couple of the best aspects of the top couple groups",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9541640877723694
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 0,
+      "window_text": "uh yeah so I was trying to think about that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8511700630187988
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 1,
+      "window_text": "in my head as well um while I am excited",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8827877640724182
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 2,
+      "window_text": "for the new innovations that science and technology have brought",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8588209748268127
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 3,
+      "window_text": "us as I am a pretty big fan of science",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9272093176841736
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 4,
+      "window_text": "not only does it interest me but I think it",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8245689868927002
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 5,
+      "window_text": "does have a place in making society better um I",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7824910879135132
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 6,
+      "window_text": "don't know that I would go to the point of",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5225092768669128
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 7,
+      "window_text": "wanting it AI centered um and data driven by the",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8509489297866821
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 8,
+      "window_text": "government governance but um so that's number three i think",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8726999163627625
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 9,
+      "window_text": "number number one would be the futurist utopia because i",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6752843260765076
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 10,
+      "window_text": "do have a lot of support and respect for science",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7113579511642456
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 11,
+      "window_text": "and innovation um i think the moral commonwealth i mean",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7560924887657166
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 12,
+      "window_text": "i think it seems a little unrealistic because you're always",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5048224329948425
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 13,
+      "window_text": "gonna have people who want to do their own thing",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6693062782287598
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 14,
+      "window_text": "um and no one's moral levels i i mean it",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8671122789382935
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 15,
+      "window_text": "would be interesting to see how that would work but",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7967671751976013
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 16,
+      "window_text": "if it could i think that would be great um",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9206481575965881
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 17,
+      "window_text": "three would be the data centers because um I think",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.894889771938324
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 18,
+      "window_text": "that we can get to a point with AI as",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8269773721694946
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 19,
+      "window_text": "long I mean that's take as long as it doesn't",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5885459184646606
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 20,
+      "window_text": "kill us is really the thing because that's what it's",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.851721465587616
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 21,
+      "window_text": "about um if that's taken out as a factor then",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8339221477508545
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 22,
+      "window_text": "yeah I think AI you know centered utopia would be",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7800012826919556
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 23,
+      "window_text": "would be great aside from that um modern green utopia",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7770282626152039
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 24,
+      "window_text": "followed by primitivist utopia I could live happily in both",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8230414390563965
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 25,
+      "window_text": "of those lives. I mean, we would be foregoing some",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6547960638999939
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 26,
+      "window_text": "amenities that I think everyone enjoys, but it would bring",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.6512274742126465
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 27,
+      "window_text": "us back to our roots in nature. Below that is",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8516956567764282
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 28,
+      "window_text": "institutional utopia, which is basically like where we're living right",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7593721747398376
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 29,
+      "window_text": "now, which isn't awesome, but still better than religious based",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.3953905999660492
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 30,
+      "window_text": "utopia. I mean, and that would really depend on what",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7362492680549622
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 31,
+      "window_text": "religion we're talking about. Are we talking about religion that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8625394701957703
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 32,
+      "window_text": "has been adulterated over the last century or so or",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5352946519851685
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 33,
+      "window_text": "you know actual you know religion that can mean a",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8469898700714111
+    },
+    {
+      "json_file": "69c4160ec318cfcd7d4f37a4_audio_ranking_explanation_1780153331642_transcript",
+      "window_index": 34,
+      "window_text": "lot of different things so that's my reasoning and why",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7794607281684875
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_missing_utopia_1780153851261_transcript",
+      "window_index": 0,
+      "window_text": "I believe the societies provided covered all that would be",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8417544960975647
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_missing_utopia_1780153851261_transcript",
+      "window_index": 1,
+      "window_text": "expected, but what I share was missing is a society",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6083544492721558
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_missing_utopia_1780153851261_transcript",
+      "window_index": 2,
+      "window_text": "where some futures could be incorporated. Maybe a society that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.864342212677002
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_missing_utopia_1780153851261_transcript",
+      "window_index": 3,
+      "window_text": "uses the sustainability and technology, or maybe the one that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8230357766151428
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_missing_utopia_1780153851261_transcript",
+      "window_index": 4,
+      "window_text": "uses the institutional and AI center together. I think the",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.9075732827186584
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 0,
+      "window_text": "I believe that a society that is sustainable and safe",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7074206471443176
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 1,
+      "window_text": "will be the best for the society, irrespective of where",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7311261892318726
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 2,
+      "window_text": "the resources will be abundant, good sleep will be good,",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9695776104927063
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 3,
+      "window_text": "people will be healthy so diseases will be less, that",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.601902961730957
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 4,
+      "window_text": "is a role in which people can live up to.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.65776526927948
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 5,
+      "window_text": "I chose the second one as for the moral commonwealth,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8604166507720947
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 6,
+      "window_text": "because I believe people in themselves can find the heart",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5100973844528198
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 7,
+      "window_text": "to live with each other harmoniously and govern themselves. Unlike",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7808970212936401
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 8,
+      "window_text": "for the institutional where we have to buy trust to",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8573769927024841
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 9,
+      "window_text": "institutional and a question of trust a licensure to who",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8951829075813293
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 10,
+      "window_text": "governs those institutions the ai the ai one is centuries",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8497605919837952
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 11,
+      "window_text": "have a question of privacy the possibility as who controls",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8617478013038635
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 12,
+      "window_text": "it so that we can be learned for the science",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8379603028297424
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 13,
+      "window_text": "and innovation it will be difficult to have a trust",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5465829968452454
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 14,
+      "window_text": "on AI systems and a whole. And for the primitives,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8704714775085449
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 15,
+      "window_text": "primitivist and religious, that's quite difficult because I believe there",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5735745429992676
+    },
+    {
+      "json_file": "69e91fd1a613772e648e565a_audio_ranking_explanation_1780153689923_transcript",
+      "window_index": 16,
+      "window_text": "would be a lot of bias and a lot of",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7220296263694763
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 0,
+      "window_text": "I really don't think that there was a missing utopia.",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5968970656394958
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 1,
+      "window_text": "I think the seven that were presented kind of hit",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.6404345035552979
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 2,
+      "window_text": "them all. I guess the only additional utopia maybe that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7885046005249023
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 3,
+      "window_text": "should have been included would be one in which technology",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8138777017593384
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 4,
+      "window_text": "was rejected, but religion was not accepted in its place.",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5507732629776001
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 5,
+      "window_text": "um so primitive but no guiding principle to live by",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8768279552459717
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 6,
+      "window_text": "like not really a law or religion or morality that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5957117080688477
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 7,
+      "window_text": "might have been covering the primitive utopia um i'm not",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7250441908836365
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 8,
+      "window_text": "entirely sure but basically a rejection of technology but no",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5163908004760742
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_missing_utopia_1780153147993_transcript",
+      "window_index": 9,
+      "window_text": "um corruptible human institution in its place um not really",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7384146451950073
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 0,
+      "window_text": "So, I ranked religious utopia last because I have seen",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7583978176116943
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 1,
+      "window_text": "the terrible things that religion can do, and on a",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.9131030440330505
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 2,
+      "window_text": "large scale, that would never be a utopia. For the",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8183975219726562
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 3,
+      "window_text": "same reason that I put intermorality and rule of law",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7692602276802063
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 4,
+      "window_text": "near the bottom, these involve too much of people that",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6075420379638672
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 5,
+      "window_text": "are easily corrupt. particularly in religion, there's always going to",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7811391353607178
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 6,
+      "window_text": "be a leader that thinks they know more than anyone",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5113571882247925
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 7,
+      "window_text": "else, which is the same thing that happens with the",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8357359170913696
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 8,
+      "window_text": "moral commonwealth and the institutional utopia. Someone is always going",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.806175172328949
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 9,
+      "window_text": "to screw that up for the people under them, particularly",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.905834972858429
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 10,
+      "window_text": "in religion where there is a larger chance of mania",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6111879348754883
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 11,
+      "window_text": "occurring. I put AI-centered utopia right in the middle because",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7690777778625488
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 12,
+      "window_text": "that seems a little too corruptible and also we don't",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7483050227165222
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 13,
+      "window_text": "know enough about AI, but I still thought that was",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.746503472328186
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 14,
+      "window_text": "better than the three bottom tiers. Primitivist Utopia was number",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6320644021034241
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 15,
+      "window_text": "three, low-tech, small-scale. I think that could go either way,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7467408776283264
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 16,
+      "window_text": "but it seemed less dangerous than the the tiers near",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.502842903137207
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 17,
+      "window_text": "the bottom my second and first were futurist utopia and",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8389418125152588
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 18,
+      "window_text": "modern green utopia modern green one for that word sustainable",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5542065501213074
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 19,
+      "window_text": "sustainable and secure if we are looking at a society",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7023851871490479
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 20,
+      "window_text": "that has limited resources that needs to continue on as",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.6705573201179504
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 21,
+      "window_text": "long as possible sustainability is going to be the key",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.6077322959899902
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 22,
+      "window_text": "so that is why modern green utopia went in first",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7915259599685669
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 23,
+      "window_text": "place with futurist utopia slowly behind it because of its",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6597201824188232
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 24,
+      "window_text": "reliance on science and innovation, meaning that if things started",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6959789991378784
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 25,
+      "window_text": "to perhaps become less than ideal, the people in the",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7259766459465027
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 26,
+      "window_text": "society could innovate and possibly get out of any problems",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.4790007472038269
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 27,
+      "window_text": "that they have. So yeah, that's why my ranking went",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8029477000236511
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 28,
+      "window_text": "the way it did. I'm always going to rank things",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7531558871269226
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 29,
+      "window_text": "that aren't as corruptible near the top and the things",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5170513987541199
+    },
+    {
+      "json_file": "69fe9e67a20599144f688b50_audio_ranking_explanation_1780153014058_transcript",
+      "window_index": 30,
+      "window_text": "that I view as extremely corruptible, such as religion or",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.826372504234314
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 0,
+      "window_text": "And to be very honest, I don't think that there",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.47115379571914673
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 1,
+      "window_text": "was anything missing. I think that there was a good",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5727368593215942
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 2,
+      "window_text": "selection of options of different kind of societies and utopias.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.83814537525177
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 3,
+      "window_text": "Yeah, I think they were all really, I think they",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5777930617332458
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 4,
+      "window_text": "were all kind of well explained. And I don't think",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.64536052942276
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 5,
+      "window_text": "that there could have been any other option. You know,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7304345965385437
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 6,
+      "window_text": "we had the futuristic, we had the sustainable one, the",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.6815336346626282
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 7,
+      "window_text": "more green focused one. we had the AI driven one,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7427269220352173
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 8,
+      "window_text": "law, moral. I think that those were really kind of",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5571197867393494
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 9,
+      "window_text": "describing all of them besides maybe like a, just a",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8797509074211121
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 10,
+      "window_text": "all out free for all where there's no rules and",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7003429532051086
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 11,
+      "window_text": "there's no governance and everyone does what they want and",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7161366939544678
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 12,
+      "window_text": "everyone protects themselves and everyone fends for themselves. I feel",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6709908843040466
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 13,
+      "window_text": "like that could be a certain society that's missing. And",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.49454396963119507
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 14,
+      "window_text": "to be honest, I would hate for that. I would",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.9240269064903259
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 15,
+      "window_text": "hate that kind of society where there's just no, There's",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.9337218999862671
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 16,
+      "window_text": "no societal rules. There's no legal rules. There's no consequence.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.599581241607666
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 17,
+      "window_text": "And everybody takes things into their own hands. I think",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7264994978904724
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 18,
+      "window_text": "that would be very chaotic. Interesting in theory, but I",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.49813058972358704
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 19,
+      "window_text": "think that just knowing how humans react when there's no",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7056668996810913
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_missing_utopia_1780152771053_transcript",
+      "window_index": 20,
+      "window_text": "rules and there's no governance and there's no consequences to",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7622809410095215
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 0,
+      "window_text": "I put modern or green utopia as being my most",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5285221338272095
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 1,
+      "window_text": "preferred because I really do just see that being the",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7854999899864197
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 2,
+      "window_text": "most ideal and most utopian way to live for me",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7787859439849854
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 3,
+      "window_text": "as far as everything is sustainable and it's secure. And",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5399407744407654
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 4,
+      "window_text": "I think that's the most important part about it all",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8461308479309082
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 5,
+      "window_text": "as far as ranking, because as long as the way",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8251826763153076
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 6,
+      "window_text": "of life is secure, I mean, nothing can ever be",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5697978138923645
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 7,
+      "window_text": "100 percent. But to even have the main structure to",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7194811105728149
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 8,
+      "window_text": "be just secure would be the best for me. After",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8172191977500916
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 9,
+      "window_text": "that, I chose futuristic just because to have more science",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6065840125083923
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 10,
+      "window_text": "and innovation is kind of crucial, I would say, in",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5205116271972656
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 11,
+      "window_text": "the advancement of human life. It's crucial and it's important,",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9104830622673035
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 12,
+      "window_text": "but maybe not the most crucial important. So I put",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6001289486885071
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 13,
+      "window_text": "it at the sixth place. number five, I put the",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.9084022641181946
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 14,
+      "window_text": "moral commonwealth or just having inner morality. I feel like",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.783203661441803
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 15,
+      "window_text": "it would be nice to live in a life like",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.6563564538955688
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 16,
+      "window_text": "that where everybody kind of just knows what to do.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7542011141777039
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 17,
+      "window_text": "And everyone just tries their best to be good people,",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.821747362613678
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 18,
+      "window_text": "good business partners, you know, and just be good people",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7418673038482666
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 19,
+      "window_text": "to each other, whether that's just in, you know, person",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8554328680038452
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 20,
+      "window_text": "to person or business to consumer, you know, I do,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8274602890014648
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 21,
+      "window_text": "I would think that that's a kind of a nice",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5058973431587219
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 22,
+      "window_text": "way to live, but unpractical or not. I wouldn't say",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7516767382621765
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 23,
+      "window_text": "unpractical. I would say kind of not realistic. I put",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8200623989105225
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 24,
+      "window_text": "the rule, the institutional utopia as the, my fourth most",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6401528716087341
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 25,
+      "window_text": "prefer the rule of law, because I think that's kind",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5718867778778076
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 26,
+      "window_text": "of how we live today where there's just a lot",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6964219212532043
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 27,
+      "window_text": "of laws. There's just a lot of rules and there's",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6677260398864746
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 28,
+      "window_text": "set, you know, consequences to those rules which can be",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.830489456653595
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 29,
+      "window_text": "ideal because you know i think that for every action",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6655153632164001
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 30,
+      "window_text": "there needs to be a consequence or reaction especially because",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5658355951309204
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 31,
+      "window_text": "everyone doesn't have the same mental processes and there's certain",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.566072940826416
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 32,
+      "window_text": "actions that are just not okay and there needs to",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.897315263748169
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 33,
+      "window_text": "be consequences in place to deter people from doing that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.497892826795578
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 34,
+      "window_text": "um which i think can happen in the moral Commonwealth,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8993089199066162
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 35,
+      "window_text": "futuristic utopia, and the modern green utopia. So I don't",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7214255928993225
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 36,
+      "window_text": "think that that's kind of the most ideal way for",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5212120413780212
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 37,
+      "window_text": "me to live or for us to live. And then",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8750624656677246
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 38,
+      "window_text": "for my last bottom three places, I chose the primitive",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7664684057235718
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 39,
+      "window_text": "utopia, the AI-centered utopia, and then the religious utopia. And",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.859876811504364
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 40,
+      "window_text": "I said that because low tech, small scale, I'm a",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6055968999862671
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 41,
+      "window_text": "maximalist. I love the idea of having you know not",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8792677521705627
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 42,
+      "window_text": "many not a lot of tech and being very kind",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.48354822397232056
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 43,
+      "window_text": "of small scale in theory it's very nice and calm",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.933730959892273
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 44,
+      "window_text": "and peaceful but in in practice it's after being kind",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5240044593811035
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 45,
+      "window_text": "of used to the way things are i feel like",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5537112951278687
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 46,
+      "window_text": "that would be not ideal um ai centered utopia i",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.8806658983230591
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 47,
+      "window_text": "think that that's a terrible way to live i think",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.938817024230957
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 48,
+      "window_text": "that ai can be useful i think it can be",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8360804915428162
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 49,
+      "window_text": "implemented well um in certain systems to help advance life.",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5981024503707886
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 50,
+      "window_text": "But I don't think that having an AI-centered utopia or",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5079070925712585
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 51,
+      "window_text": "just data-driven governance is good because technology can make mistakes.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5120329856872559
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 52,
+      "window_text": "And I think that human oversight is important. And just",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.49877193570137024
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 53,
+      "window_text": "to be in a society where it's kind of like",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7743391394615173
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 54,
+      "window_text": "just ruled by AI, I don't think that would be",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5606783032417297
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 55,
+      "window_text": "good. And then I had my religious utopia or faith-based",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.5811668038368225
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 56,
+      "window_text": "order last because there's so many religions and everybody interprets",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6593692302703857
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 57,
+      "window_text": "religion differently that to just have a society based on",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7437044382095337
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 58,
+      "window_text": "religion can get really hectic really fast. And then, you",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.4981650412082672
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 59,
+      "window_text": "know, next thing you know, we're having like the witch",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6339829564094543
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 60,
+      "window_text": "hunt trials again. And I just think that it's important",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.7250199317932129
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 61,
+      "window_text": "to just keep faith out of like governance, I would",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7573627829551697
+    },
+    {
+      "json_file": "6a08b810d807f5805aabe02e_audio_ranking_explanation_1780152676536_transcript",
+      "window_index": 62,
+      "window_text": "say, of people just because everybody believes in such different",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.801418125629425
+    }
+  ]
+}
