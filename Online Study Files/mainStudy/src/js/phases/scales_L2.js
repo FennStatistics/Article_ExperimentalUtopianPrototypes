@@ -97,7 +97,7 @@ const NFC_Scale_htmlForm = makeLikertPage(
 const ARIS_Scale_htmlForm = makeLikertPage(
   "Need for Chaos - Violence (ARIS-adapted)",
   "aris_scale",
-  "Thinking about the future society you would most like to live in…, please indicate how much you agree with each statement.",
+  "Thinking about the future society you would most like to live in, please indicate how much you agree with each statement.",
   items_aris,
   [
     "Strongly disagree",

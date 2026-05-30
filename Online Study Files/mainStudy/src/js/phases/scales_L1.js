@@ -47,16 +47,16 @@ const attributeItems = [
   { label: "This society is ideal.", coding: "att_ideal" },
   { label: "This society is beneficial for the greater good.", coding: "att_beneficial" },
   { label: "This society is innovative.", coding: "att_innovative" },
-  { label: "I would want to live in a society like the one just described.", coding: "att_live_in" },
+  { label: "I would like to live in a society like the one just described.", coding: "att_live_in" },
 ];
 
 const participativeEfficacyItems = [
   {
-    label: "Ordinary people like me can play a part in bringing about this kind of society.",
+    label: "Ordinary people <strong>like me</strong> can play a part in bringing about this kind of society.",
     coding: "pe1",
   },
   {
-    label: "This kind of society can be realized through the actions of ordinary individuals like me.",
+    label: "This kind of society can be realized through the actions of ordinary individuals <strong>like me</strong>.",
     coding: "pe2",
   },
   { label: "Ordinary people can help realize this version of society.", coding: "pe3" },

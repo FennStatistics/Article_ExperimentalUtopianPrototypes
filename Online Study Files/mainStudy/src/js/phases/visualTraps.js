@@ -104,7 +104,7 @@ const transitionToScenarioText = `
       <p>For each description, we ask that you <strong>take time to imagine living in that society</strong>. Consider what daily life might be like, what values would be prioritized, and how people might interact with each other and their environment.</p>
     </section>
     <section>
-      <p>After reading each description, you will few questions about your impressions. There are <strong>no right or wrong answers</strong>—we are interested in your genuine thoughts and feelings about each vision.</p>
+      <p>After reading each description, you will be asked a few questions about your impressions. There are <strong>no right or wrong answers</strong>—we are interested in your genuine thoughts and feelings about each vision.</p>
     </section>
     <section>
       <p style="font-size: 0.95em; color: #555; font-style: italic;">Please take your time with each description. You will have at least 15 seconds to read before you can answer the questions.</p>

@@ -33,7 +33,7 @@ const greetingsText = `
         </section>
         <br>
         <section>
-            The study takes no more than <strong>XXX minutes</strong>. Please use a <strong>computer or
+            The study takes no more than <strong>40 minutes</strong>. Please use a <strong>computer or
                 laptop with a keyboard</strong> and make sure you are in a quiet place where you can speak into your microphone later in the study.
              Please complete the study without interruptions. On the next page, you will review the informed consent.
         </section>
@@ -160,7 +160,7 @@ const exclusionCriteriaText = `
                <li>Please complete the study carefully and with your full attention.</li>
                <li>Please stay on the study page unless you are explicitly asked to do something else.</li>
                <li>Please read all instructions carefully before responding.</li>
-               <li>Please do not use bots or AI tools (for example, ChatGPT) to answer any part of this study.</li>
+               <li>Please do not use bots or Artificial Intelligence (AI) tools (for example, ChatGPT) to answer any part of this study.</li>
            </ul>
  <br>
  We care about data quality. To measure your views as accurately as possible, please answer each question thoughtfully and honestly.
