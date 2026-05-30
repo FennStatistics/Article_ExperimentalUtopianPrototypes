@@ -178,7 +178,7 @@ const EndingScreen_htmlScreen = new lab.html.Screen({
         const resultJson = study.options.datastore.exportJson();
         jatos.submitResultData(resultJson).catch(() => console.log("error"));
         jatos.endStudyAndRedirect(
-          "https://app.prolific.com/submissions/complete?cc=XXXXX", // !!!
+          "https://app.prolific.com/submissions/complete?cc=C1HCGSZT", // !!!
           true,
           "everything worked fine",
         );
