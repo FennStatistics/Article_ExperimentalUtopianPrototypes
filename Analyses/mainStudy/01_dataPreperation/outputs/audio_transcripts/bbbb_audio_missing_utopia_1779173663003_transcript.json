@@ -1,0 +1,17 @@
+{
+  "audio_file": "bbbb_audio_missing_utopia_1779173663003.webm",
+  "transcript": " Where Donald Trump is our leader and he rules the world, I love him, I pray him, praise to Donald.",
+  "language": "unknown",
+  "processing_time_seconds": 4.985619,
+  "timestamp": "2026-05-30T12:54:53.293259",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.64
+      ],
+      "text": " Where Donald Trump is our leader and he rules the world, I love him, I pray him, praise to Donald."
+    }
+  ]
+}

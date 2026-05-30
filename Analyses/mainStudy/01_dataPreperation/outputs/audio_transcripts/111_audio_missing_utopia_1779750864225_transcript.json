@@ -1,0 +1,45 @@
+{
+  "audio_file": "111_audio_missing_utopia_1779750864225.webm",
+  "transcript": " All the parts I would be thinking about are already covered, but they are covered in different vignettes that I would probably, for my ideal society, put together. I would probably put different focus. I would focus beyond what's happening in each small community onto a whole worldwide view because it might work on some community on cost of another. i would love to have that aspect in my ideal future society which for now i feel it's only about what's good for us and nature but not so much on how does our society affect another society that aspect i would add in my perfect society",
+  "language": "unknown",
+  "processing_time_seconds": 13.124108,
+  "timestamp": "2026-05-30T12:54:15.835651",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.0
+      ],
+      "text": " All the parts I would be thinking about are already covered, but they are covered in different vignettes that I would probably, for my ideal society, put together."
+    },
+    {
+      "timestamp": [
+        14.0,
+        33.2
+      ],
+      "text": " I would probably put different focus. I would focus beyond what's happening in each small community onto a whole worldwide view because it might work on some community on cost of another."
+    },
+    {
+      "timestamp": [
+        33.2,
+        42.0
+      ],
+      "text": " i would love to have that aspect in my ideal future society which for now i feel it's only about"
+    },
+    {
+      "timestamp": [
+        42.88,
+        49.12
+      ],
+      "text": " what's good for us and nature but not so much on how does our society affect"
+    },
+    {
+      "timestamp": [
+        49.12,
+        55.76
+      ],
+      "text": " another society that aspect i would add in my perfect society"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "bbbb_audio_ranking_explanation_1779173647432.webm",
+  "transcript": " Rule of Law, and I love AI's best world. Wow.",
+  "language": "unknown",
+  "processing_time_seconds": 4.711552,
+  "timestamp": "2026-05-30T12:54:58.036578",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.62
+      ],
+      "text": " Rule of Law, and I love AI's best world. Wow."
+    }
+  ]
+}

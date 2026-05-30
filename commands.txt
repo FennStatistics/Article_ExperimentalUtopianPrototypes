@@ -1,0 +1,14 @@
+# get information which models you have downloaded:
+
+see: https://huggingface.co/docs/huggingface_hub/guides/manage-cache
+
+in terminal:
+
+```
+
+huggingface-cli scan-cache
+
+```
+
+
+source /Volumes/storage/python_data/envs/py/bin/activate

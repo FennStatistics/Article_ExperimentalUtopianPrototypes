@@ -1,0 +1,17 @@
+{
+  "audio_file": "111_audio_ranking_explanation_1779276669249.webm",
+  "transcript": " Test",
+  "language": "unknown",
+  "processing_time_seconds": 4.311257,
+  "timestamp": "2026-05-30T12:54:30.338524",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        1.76
+      ],
+      "text": " Test"
+    }
+  ]
+}
