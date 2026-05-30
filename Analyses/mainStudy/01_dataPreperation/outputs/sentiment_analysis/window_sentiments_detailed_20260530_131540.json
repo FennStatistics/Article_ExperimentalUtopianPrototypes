@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "total_windows": 33,
+    "window_size": 10,
+    "created_at": "2026-05-30T13:15:40.242650"
+  },
+  "windows": [
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 0,
+      "window_text": "All the parts I would be thinking about are already",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8144243955612183
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 1,
+      "window_text": "covered, but they are covered in different vignettes that I",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.9056165814399719
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 2,
+      "window_text": "would probably, for my ideal society, put together. I would",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.53395015001297
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 3,
+      "window_text": "probably put different focus. I would focus beyond what's happening",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7941602468490601
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 4,
+      "window_text": "in each small community onto a whole worldwide view because",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8598719239234924
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 5,
+      "window_text": "it might work on some community on cost of another.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8528067469596863
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 6,
+      "window_text": "i would love to have that aspect in my ideal",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9271607398986816
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 7,
+      "window_text": "future society which for now i feel it's only about",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5898609757423401
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 8,
+      "window_text": "what's good for us and nature but not so much",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5947459936141968
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779750864225_transcript",
+      "window_index": 9,
+      "window_text": "on how does our society affect another society that aspect",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7909862995147705
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779758141170_transcript",
+      "window_index": 0,
+      "window_text": "All the aspects that I would be looking for are",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7292401194572449
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779758141170_transcript",
+      "window_index": 1,
+      "window_text": "already somehow included, although not all in one given vignette,",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.888857364654541
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779758141170_transcript",
+      "window_index": 2,
+      "window_text": "but divided over those. And I would be looking for",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5180646777153015
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779758141170_transcript",
+      "window_index": 3,
+      "window_text": "one aspect that I have not seen is how the",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6386914253234863
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779758141170_transcript",
+      "window_index": 4,
+      "window_text": "lifestyle of one society affects the other societies existing in",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7894572019577026
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779758141170_transcript",
+      "window_index": 5,
+      "window_text": "this whole world. That would be a systemic part that",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5836116075515747
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779758141170_transcript",
+      "window_index": 6,
+      "window_text": "I would love to see in my vision. Also, I'd",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.8955902457237244
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779758141170_transcript",
+      "window_index": 7,
+      "window_text": "love to have both the nature aspect, the peaceful aspect,",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9611697196960449
+    },
+    {
+      "json_file": "111_audio_missing_utopia_1779758141170_transcript",
+      "window_index": 8,
+      "window_text": "and maybe small elements of abundance as much as given",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7324368953704834
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779750598029_transcript",
+      "window_index": 0,
+      "window_text": "I love nature so I put nature related items first",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9774835109710693
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779750598029_transcript",
+      "window_index": 1,
+      "window_text": "then I also love peace so moral and institutional are",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9356890916824341
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779750598029_transcript",
+      "window_index": 2,
+      "window_text": "both somewhat related to a peaceful community then I put",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.526789665222168
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779750598029_transcript",
+      "window_index": 3,
+      "window_text": "futurist which kind of gives more stuff to life that",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7082720994949341
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779750598029_transcript",
+      "window_index": 4,
+      "window_text": "I don't see as so much needed for my life,",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.5910104513168335
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779750598029_transcript",
+      "window_index": 5,
+      "window_text": "and then AI-centered and religious, they're both really far from",
+      "sentiment_label": "negative",
+      "sentiment_score": 0.7095791101455688
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779750598029_transcript",
+      "window_index": 6,
+      "window_text": "my personal doing, so I rank them at the end.",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.8474582433700562
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779758002525_transcript",
+      "window_index": 0,
+      "window_text": "I prefer the nature maintenance, then I would prefer either",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.6174138784408569
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779758002525_transcript",
+      "window_index": 1,
+      "window_text": "internal moral or given by law behavior that secures peaceful",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7719694375991821
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779758002525_transcript",
+      "window_index": 2,
+      "window_text": "community and only then comes the abundance factor. Whereas I",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7963616251945496
+    },
+    {
+      "json_file": "111_audio_ranking_explanation_1779758002525_transcript",
+      "window_index": 3,
+      "window_text": "would still prefer the futurist over those that are given",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.7711745500564575
+    },
+    {
+      "json_file": "bbbb_audio_missing_utopia_1779173663003_transcript",
+      "window_index": 0,
+      "window_text": "Where Donald Trump is our leader and he rules the",
+      "sentiment_label": "neutral",
+      "sentiment_score": 0.5369739532470703
+    },
+    {
+      "json_file": "bbbb_audio_missing_utopia_1779173663003_transcript",
+      "window_index": 1,
+      "window_text": "world, I love him, I pray him, praise to Donald.",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9669069051742554
+    },
+    {
+      "json_file": "bbbb_audio_ranking_explanation_1779173647432_transcript",
+      "window_index": 0,
+      "window_text": "Rule of Law, and I love AI's best world. Wow.",
+      "sentiment_label": "positive",
+      "sentiment_score": 0.9787077903747559
+    }
+  ]
+}
