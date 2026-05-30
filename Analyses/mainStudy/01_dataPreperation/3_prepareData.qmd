@@ -649,17 +649,38 @@ print("✓ Transcripts merged successfully")
 ```
 
 
+
+
 ## add rankings
 
+
+
 ```{r}
+## PROLIFIC_PIDs first run BEFORE improved ranking task:
+potentialInconsistentRankings <- c("6a08b810d807f5805aabe02e", "67103e4ed56cde03a0f2476b", "59a07638bfd73c00010ea394", "63d7b1a77e23b5460ab88069", "69c4160ec318cfcd7d4f37a4", "69fe9e67a20599144f688b50", "69e91fd1a613772e648e565a", "673e5fc42cbf961c153d09d3", "6a04a5a7e230bb73b88bd6e6", "5f68fdce1c675a0baf13e0ff")
+
 ranking_data <- dat %>%
   group_by(ID) %>%
   reframe(
+    PROLIFIC_PID = last_non_empty(PROLIFIC_PID),
     ranking_final_order = last_non_empty(ranking_final_order)
   ) 
 
-ranking_data$rankingOrder <- rep(1:7, times = length(unique(ranking_data$ID)))
 
+ranking_data$flagPotentialIncon <- FALSE
+ranking_data$flagPotentialIncon[ranking_data$PROLIFIC_PID %in% potentialInconsistentRankings] <- TRUE
+
+ranking_data$rankingOrder <- NA
+ranking_data$rankingOrder[ranking_data$flagPotentialIncon] <- rep(1:7, times = length(potentialInconsistentRankings))
+
+
+## for non-inconsistent potential rankings the new order:
+num_non_InconsistentRankings <- sum(!unique(ranking_data$PROLIFIC_PID) %in% potentialInconsistentRankings)
+ranking_data$rankingOrder[!ranking_data$flagPotentialIncon] <- rep(7:1, times = length(num_non_InconsistentRankings))
+
+
+# to wide
+ranking_data$ID <- NULL
 ranking_wide <- ranking_data %>%
   pivot_wider(
     names_from = ranking_final_order,
@@ -669,10 +690,12 @@ ranking_wide <- ranking_data %>%
 
 
 ques_study <- ques_study %>%
-  left_join(ranking_wide, by = "ID")
+  left_join(ranking_wide, by = "PROLIFIC_PID")
+
+
+# !!! check with prompt below
+table(ques_study$flagPotentialIncon)
 ```
-
-
 
 ---
 
