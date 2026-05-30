@@ -1,0 +1,13 @@
+"ID","PROLIFIC_PID","counterVisualTraps","trap_type","response","response_label","correct","rt_ms"
+1,"bbbb",0,"Planets","2","Orange",TRUE,1911
+1,"bbbb",1,"Robot","1","Mostly on the bottom left of the square",FALSE,1611
+1,"bbbb",2,"Circles","1","Blue Circle",FALSE,848
+1,"bbbb",3,"Lines","2","Red Line",FALSE,883
+1,"bbbb",4,"CafeWall","3","Slanted / Diagonal",TRUE,810
+1,"bbbb",5,"Collision","3","Blue Triangle and Orange Circle",FALSE,830
+2,"cc33",0,"Collision","1","Green Triangle Only",TRUE,1643
+2,"cc33",1,"Robot","4","Off-screen (outside the square)",FALSE,901
+2,"cc33",2,"Planets","3","Blue",FALSE,967
+2,"cc33",3,"CafeWall","2","Slightly curved",FALSE,1300
+2,"cc33",4,"Lines","4","Cannot be determined from the image",FALSE,891
+2,"cc33",5,"Circles","4","Cannot be determined from the image",FALSE,987

@@ -324,12 +324,6 @@ cat("\n✓ Final unique participants:", n_participants_final)
 
 ## Extract questionnaire
 
-
-
-
-
-
-
 ```{r}
 colnames(dat)[sapply(dat, is.list)]
 ```
@@ -832,50 +826,6 @@ cat("Final columns:", ncol(ques_study), "\n")
 
 # Get within part of study
 
-## visual trap part
-
-```{r}
-# --- Get one PROLIFIC_PID per ID ---
-pid_lookup <- dat %>%
-  group_by(ID) %>%
-  summarise(PROLIFIC_PID = last_non_empty(PROLIFIC_PID), .groups = 'drop')
-
-
-trap_types <- c("Planets", "Robot", "Circles", "Lines", "CafeWall", "Collision")
-
-visual_trap_within <- map_df(trap_types, function(trap) {
-  dat %>%
-    select(
-      ID,
-      counterVisualTraps,
-      all_of(paste0("visualTrap_", trap, "_response")),
-      all_of(paste0("visualTrap_", trap, "_responseLabel")),
-      all_of(paste0("visualTrap_", trap, "_correct")),
-      all_of(paste0("visualTrap_", trap, "_rtMs"))
-    ) %>%
-    # Remove rows where this trap is all NA
-    filter(!if_all(starts_with("visualTrap_"), is.na)) %>%
-    distinct(ID, counterVisualTraps, .keep_all = TRUE) %>%
-    mutate(
-      trap_type = trap,
-      response = .data[[paste0("visualTrap_", trap, "_response")]],
-      response_label = .data[[paste0("visualTrap_", trap, "_responseLabel")]],
-      correct = .data[[paste0("visualTrap_", trap, "_correct")]],
-      rt_ms = .data[[paste0("visualTrap_", trap, "_rtMs")]]
-    ) %>%
-    select(ID, counterVisualTraps, trap_type, response, response_label, correct, rt_ms)
-}) %>%
-  # Add PROLIFIC_PID from lookup
-  left_join(pid_lookup, by = "ID") %>%
-  select(ID, PROLIFIC_PID, counterVisualTraps, trap_type, everything()) %>%
-  arrange(ID, counterVisualTraps, trap_type)
-
-# --- Inspect results ---
-head(visual_trap_within)
-cat("Total vignette trials:", nrow(visual_trap_within), "\n")
-cat("Trials per participant:\n")
-print(table(visual_trap_within$ID))
-```
 
 
 ## vignette part
@@ -974,6 +924,45 @@ cat("Trials per participant:\n")
 print(table(ques_study_within_vignettes$ID))
 ```
 
+## visual trap part
+
+```{r}
+trap_types <- c("Planets", "Robot", "Circles", "Lines", "CafeWall", "Collision")
+
+visual_trap_within <- map_df(trap_types, function(trap) {
+  dat %>%
+    select(
+      ID,
+      counterVisualTraps,
+      all_of(paste0("visualTrap_", trap, "_response")),
+      all_of(paste0("visualTrap_", trap, "_responseLabel")),
+      all_of(paste0("visualTrap_", trap, "_correct")),
+      all_of(paste0("visualTrap_", trap, "_rtMs"))
+    ) %>%
+    # Remove rows where this trap is all NA
+    filter(!if_all(starts_with("visualTrap_"), is.na)) %>%
+    distinct(ID, counterVisualTraps, .keep_all = TRUE) %>%
+    mutate(
+      trap_type = trap,
+      response = .data[[paste0("visualTrap_", trap, "_response")]],
+      response_label = .data[[paste0("visualTrap_", trap, "_responseLabel")]],
+      correct = .data[[paste0("visualTrap_", trap, "_correct")]],
+      rt_ms = .data[[paste0("visualTrap_", trap, "_rtMs")]]
+    ) %>%
+    select(ID, counterVisualTraps, trap_type, response, response_label, correct, rt_ms)
+}) %>%
+  # Add PROLIFIC_PID from lookup
+  left_join(pid_lookup, by = "ID") %>%
+  select(ID, PROLIFIC_PID, counterVisualTraps, trap_type, everything()) %>%
+  arrange(ID, counterVisualTraps, trap_type)
+
+# --- Inspect results ---
+head(visual_trap_within)
+cat("Total vignette trials:", nrow(visual_trap_within), "\n")
+cat("Trials per participant:\n")
+print(table(visual_trap_within$ID))
+```
+
 
 
 # Summary stats and Quality checks
@@ -993,4 +982,361 @@ print(paste("  - Between-subjects (ques_study):", n_ids_wide, "unique IDs"))
 print(paste("  - Within-vignettes dataset:", n_ids_vignettes, "unique IDs"))
 print(paste("  - Within-traps dataset:", n_ids_traps, "unique IDs"))
 ```
+
+## VALIDATION CHECK 1: Matching ID counts
+
+```{r}
+print("VALIDATION 1: ID Count Matching")
+print(strrep("-", 80))
+ 
+id_count_mismatch <- FALSE
+ 
+if (n_ids_wide != n_ids_vignettes) {
+  print("❌ ERROR: ID count mismatch between ques_study and vignettes dataset!")
+  print(paste("   ques_study IDs:", n_ids_wide))
+  print(paste("   vignettes IDs:", n_ids_vignettes))
+  id_count_mismatch <- TRUE
+}
+ 
+if (n_ids_wide != n_ids_traps) {
+  print("❌ ERROR: ID count mismatch between ques_study and traps dataset!")
+  print(paste("   ques_study IDs:", n_ids_wide))
+  print(paste("   traps IDs:", n_ids_traps))
+  id_count_mismatch <- TRUE
+}
+ 
+if (n_ids_vignettes != n_ids_traps) {
+  print("❌ ERROR: ID count mismatch between vignettes and traps datasets!")
+  print(paste("   vignettes IDs:", n_ids_vignettes))
+  print(paste("   traps IDs:", n_ids_traps))
+  id_count_mismatch <- TRUE
+}
+ 
+if (!id_count_mismatch) {
+  print("✓ All datasets have matching ID counts")
+}
+```
+
+## VALIDATION CHECK 2: ID set matching
+
+```{r}
+print("VALIDATION 2: ID Set Matching")
+print(strrep("-", 80))
+ 
+ids_wide <- sort(unique(ques_study$ID))
+ids_vignettes <- sort(unique(ques_study_within_vignettes$ID))
+ids_traps <- sort(unique(visual_trap_within$ID))
+ 
+# Check vignettes vs wide
+missing_in_vignettes <- setdiff(ids_wide, ids_vignettes)
+extra_in_vignettes <- setdiff(ids_vignettes, ids_wide)
+ 
+if (length(missing_in_vignettes) > 0) {
+  print("❌ ERROR: IDs in ques_study but missing from vignettes dataset:")
+  print(paste("   Missing:", paste(missing_in_vignettes, collapse = ", ")))
+  id_count_mismatch <- TRUE
+} else {
+  print("✓ All ques_study IDs present in vignettes dataset")
+}
+ 
+if (length(extra_in_vignettes) > 0) {
+  print("❌ ERROR: IDs in vignettes but not in ques_study:")
+  print(paste("   Extra:", paste(extra_in_vignettes, collapse = ", ")))
+  id_count_mismatch <- TRUE
+}
+ 
+# Check traps vs wide
+missing_in_traps <- setdiff(ids_wide, ids_traps)
+extra_in_traps <- setdiff(ids_traps, ids_wide)
+ 
+if (length(missing_in_traps) > 0) {
+  print("❌ ERROR: IDs in ques_study but missing from traps dataset:")
+  print(paste("   Missing:", paste(missing_in_traps, collapse = ", ")))
+  id_count_mismatch <- TRUE
+} else {
+  print("✓ All ques_study IDs present in traps dataset")
+}
+ 
+if (length(extra_in_traps) > 0) {
+  print("❌ ERROR: IDs in traps but not in ques_study:")
+  print(paste("   Extra:", paste(extra_in_traps, collapse = ", ")))
+  id_count_mismatch <- TRUE
+}
+ 
+# STOP IF VALIDATION FAILED
+if (id_count_mismatch) {
+  stop("\n🛑 DATA INTEGRITY VALIDATION FAILED!\n   Please review ID mismatches above before proceeding.")
+}
+ 
+print("✓ ALL VALIDATION CHECKS PASSED!")
+print(strrep("✓", 80))
+```
+
+
+## MISSING DATA REPORT
+
+```{r}
+print("MISSING DATA REPORT")
+print(strrep("=", 80))
+ 
+# For between-subjects (top columns with most missing)
+missing_wide <- data.frame(
+  Column = colnames(ques_study),
+  Missing_Count = colSums(is.na(ques_study)),
+  Missing_Percent = round(colSums(is.na(ques_study)) / nrow(ques_study) * 100, 2),
+  stringsAsFactors = FALSE
+) %>%
+  filter(Missing_Count > 0) %>%
+  arrange(desc(Missing_Count)) %>%
+  head(15)
+ 
+if (nrow(missing_wide) > 0) {
+  print("\nBetween-subjects (ques_study) - Top 15 columns with missing data:")
+  print(missing_wide)
+} else {
+  print("\n✓ No missing values in ques_study")
+}
+```
+
+# Save Datasets
+
+
+```{r}
+# --- Vignette trials per participant ---
+trial_dist <- ques_study_within_vignettes %>%
+  group_by(ID) %>%
+  summarise(n_trials = n(), .groups = 'drop') %>%
+  pull(n_trials)
+
+# --- Trap trials per participant ---
+trap_dist <- visual_trap_within %>%
+  group_by(ID) %>%
+  summarise(n_trials = n(), .groups = 'drop') %>%
+  pull(n_trials)
+```
+
+
+```{r}
+# ============================================================================
+# SAVE ALL DATASETS
+# ============================================================================
+
+print("SAVING FINAL DATASETS")
+print(strrep("=", 80))
+
+# --- Output directories ---
+output_dir <- file.path(OUTPUT_QUESTIONNAIRE_DIR)
+within_dir <- file.path(OUTPUT_QUESTIONNAIRE_DIR, "within_subjects")
+
+# Create directories if they don't exist
+dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
+dir.create(within_dir, showWarnings = FALSE, recursive = TRUE)
+
+# ============================================================================
+# DATASET 1: BETWEEN-SUBJECTS (Wide Format)
+# ============================================================================
+print("\n📋 Saving BETWEEN-SUBJECTS dataset (ques_study)...")
+
+# RDS format (preserves data types)
+ques_study_file_rds <- file.path(output_dir, "ques_study_wide.rds")
+saveRDS(ques_study, file = ques_study_file_rds)
+print(paste("  ✓ Saved: ques_study_wide.rds"))
+
+# CSV format
+ques_study_file_csv <- file.path(output_dir, "ques_study_wide.csv")
+write.csv(ques_study, file = ques_study_file_csv, row.names = FALSE)
+print(paste("  ✓ Saved: ques_study_wide.csv"))
+
+# XLSX format
+ques_study_file_xlsx <- file.path(output_dir, "ques_study_wide.xlsx")
+writexl::write_xlsx(ques_study, path = ques_study_file_xlsx)
+print(paste("  ✓ Saved: ques_study_wide.xlsx"))
+
+# ============================================================================
+# DATASET 2: WITHIN-SUBJECTS - VIGNETTES (Long Format)
+# ============================================================================
+print("\n📊 Saving WITHIN-SUBJECTS VIGNETTES dataset (ques_study_within_vignettes)...")
+
+# RDS format
+vignettes_file_rds <- file.path(within_dir, "ques_study_within_vignettes.rds")
+saveRDS(ques_study_within_vignettes, file = vignettes_file_rds)
+print(paste("  ✓ Saved: within_subjects/ques_study_within_vignettes.rds"))
+
+# CSV format
+vignettes_file_csv <- file.path(within_dir, "ques_study_within_vignettes.csv")
+write.csv(ques_study_within_vignettes, file = vignettes_file_csv, row.names = FALSE)
+print(paste("  ✓ Saved: within_subjects/ques_study_within_vignettes.csv"))
+
+# XLSX format
+vignettes_file_xlsx <- file.path(within_dir, "ques_study_within_vignettes.xlsx")
+writexl::write_xlsx(ques_study_within_vignettes, path = vignettes_file_xlsx)
+print(paste("  ✓ Saved: within_subjects/ques_study_within_vignettes.xlsx"))
+
+# ============================================================================
+# DATASET 3: WITHIN-SUBJECTS - VISUAL TRAPS (Long Format)
+# ============================================================================
+print("\n🎯 Saving WITHIN-SUBJECTS VISUAL TRAPS dataset (visual_trap_within)...")
+
+# RDS format
+traps_file_rds <- file.path(within_dir, "visual_trap_within.rds")
+saveRDS(visual_trap_within, file = traps_file_rds)
+print(paste("  ✓ Saved: within_subjects/visual_trap_within.rds"))
+
+# CSV format
+traps_file_csv <- file.path(within_dir, "visual_trap_within.csv")
+write.csv(visual_trap_within, file = traps_file_csv, row.names = FALSE)
+print(paste("  ✓ Saved: within_subjects/visual_trap_within.csv"))
+
+# XLSX format
+traps_file_xlsx <- file.path(within_dir, "visual_trap_within.xlsx")
+writexl::write_xlsx(visual_trap_within, path = traps_file_xlsx)
+print(paste("  ✓ Saved: within_subjects/visual_trap_within.xlsx"))
+
+# ============================================================================
+# METADATA & DOCUMENTATION
+# ============================================================================
+print("\n📄 Creating dataset metadata...")
+
+dataset_metadata <- data.frame(
+  Dataset = c(
+    "ques_study (Between-subjects)",
+    "ques_study_within_vignettes (Within-vignettes)",
+    "visual_trap_within (Within-traps)"
+  ),
+  Format = c("Wide", "Long", "Long"),
+  Rows = c(
+    nrow(ques_study),
+    nrow(ques_study_within_vignettes),
+    nrow(visual_trap_within)
+  ),
+  Columns = c(
+    ncol(ques_study),
+    ncol(ques_study_within_vignettes),
+    ncol(visual_trap_within)
+  ),
+  Unique_IDs = c(
+    n_ids_wide,
+    n_ids_vignettes,
+    n_ids_traps
+  ),
+  Primary_Keys = c(
+    "ID, PROLIFIC_PID",
+    "ID, PROLIFIC_PID, counterScenarios",
+    "ID, PROLIFIC_PID, counterVisualTraps, trap_type"
+  ),
+  Key_Variables = c(
+    "Demographics, Scales (52 items), Transcripts, Sentiment",
+    "PE (4 items), Attributes (6 items), Trial metadata, Paradata",
+    "Response, Correctness, RT (reaction time), Trap type"
+  ),
+  Trials_Per_Participant = c(
+    "1 row per participant",
+    paste(min(trial_dist), "-", max(trial_dist), "trials (median:", median(trial_dist), ")"),
+    paste(min(trap_dist), "-", max(trap_dist), "trials (median:", median(trap_dist), ")")
+  )
+)
+
+metadata_file <- file.path(output_dir, "dataset_metadata.csv")
+write.csv(dataset_metadata, file = metadata_file, row.names = FALSE)
+print(paste("  ✓ Saved: dataset_metadata.csv"))
+
+# ============================================================================
+# CODEBOOK SUMMARY
+# ============================================================================
+print("\n📚 Creating codebook summary...")
+
+codebook_summary <- data.frame(
+  Section = c(
+    "Identifiers",
+    "Demographics",
+    "Psychological Scales",
+    "Transcripts",
+    "Sentiment Analysis",
+    "Vignette Variables (within)",
+    "Trap Variables (within)"
+  ),
+  Variables = c(
+    "ID, PROLIFIC_PID",
+    paste(socio_demo, collapse = ", "),
+    "52 items across 10 scales (BRS, SWLS, ARIS, NFC, SJS, etc.)",
+    "text_missingUtopia, text_rankingUtopias",
+    "sentiment_label, sentiment_score, num_windows, window_*_sentimentLabel",
+    "vignette_order_position, vignette_id, condition_FutureSociety, pe1-pe4, att_ideal, att_beneficial, etc.",
+    "trap_type, response, response_label, correct, rt_ms"
+  ),
+  Dataset_Location = c(
+    "All datasets",
+    "ques_study (wide only)",
+    "ques_study (wide only)",
+    "ques_study (wide only)",
+    "ques_study (wide only)",
+    "ques_study_within_vignettes",
+    "visual_trap_within"
+  ),
+  Notes = c(
+    "Integer ID and Prolific participant ID",
+    "7 socio-demographic variables",
+    "See scale documentation for item wording and scoring",
+    "Text transcripts from audio recordings",
+    "Sentiment labels (positive/negative/neutral) and scores",
+    "One row per vignette trial, aggregated from long raw data",
+    "One row per visual trap trial, responses and performance"
+  )
+)
+
+codebook_file <- file.path(output_dir, "codebook_summary.csv")
+write.csv(codebook_summary, file = codebook_file, row.names = FALSE)
+print(paste("  ✓ Saved: codebook_summary.csv"))
+
+# ============================================================================
+# FINAL SUMMARY
+# ============================================================================
+print("✅ DATA EXPORT COMPLETE")
+print(strrep("=", 80))
+
+
+print("\n📋 BETWEEN-SUBJECTS (1 row per participant):")
+print(paste("  • ques_study_wide.rds    ", round(file.size(ques_study_file_rds)/1024/1024, 2), "MB"))
+print(paste("  • ques_study_wide.csv    ", round(file.size(ques_study_file_csv)/1024/1024, 2), "MB"))
+print(paste("  • ques_study_wide.xlsx   ", round(file.size(ques_study_file_xlsx)/1024/1024, 2), "MB"))
+
+print("\n📊 WITHIN-SUBJECTS VIGNETTES (one row per vignette trial):")
+print(paste("  • ques_study_within_vignettes.rds   ", round(file.size(vignettes_file_rds)/1024/1024, 2), "MB"))
+print(paste("  • ques_study_within_vignettes.csv   ", round(file.size(vignettes_file_csv)/1024/1024, 2), "MB"))
+print(paste("  • ques_study_within_vignettes.xlsx  ", round(file.size(vignettes_file_xlsx)/1024/1024, 2), "MB"))
+
+print("\n🎯 WITHIN-SUBJECTS VISUAL TRAPS (one row per trap trial):")
+print(paste("  • visual_trap_within.rds   ", round(file.size(traps_file_rds)/1024/1024, 2), "MB"))
+print(paste("  • visual_trap_within.csv   ", round(file.size(traps_file_csv)/1024/1024, 2), "MB"))
+print(paste("  • visual_trap_within.xlsx  ", round(file.size(traps_file_xlsx)/1024/1024, 2), "MB"))
+
+print("\n📄 DOCUMENTATION:")
+print("  • dataset_metadata.csv")
+print("  • codebook_summary.csv")
+
+
+# Clean up
+rm(dataset_metadata, codebook_summary, missing_wide)
+gc()
+
+print("\n✓ All done!")
+```
+
+
+```{r}
+# ============================================================================
+# SAVE FILTERING STATISTICS
+# ============================================================================
+print("\n📊 Saving filtering statistics...")
+
+# Save filtering_stats as CSV
+filtering_stats_file <- file.path(OUTPUT_QUESTIONNAIRE_DIR, "filtering_statistics.csv")
+write.csv(filtering_stats, file = filtering_stats_file, row.names = FALSE)
+print(paste("  ✓ filtering_statistics.csv"))
+
+# Print summary
+print("\n📋 FILTERING STATISTICS SUMMARY:")
+print(filtering_stats)
+```
+
 

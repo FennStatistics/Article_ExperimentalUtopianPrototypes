@@ -1,0 +1,4 @@
+"Dataset","Format","Rows","Columns","Unique_IDs","Primary_Keys","Key_Variables","Trials_Per_Participant"
+"ques_study (Between-subjects)","Wide",2,72,2,"ID, PROLIFIC_PID","Demographics, Scales (52 items), Transcripts, Sentiment","1 row per participant"
+"ques_study_within_vignettes (Within-vignettes)","Long",14,20,2,"ID, PROLIFIC_PID, counterScenarios","PE (4 items), Attributes (6 items), Trial metadata, Paradata","7 - 7 trials (median: 7 )"
+"visual_trap_within (Within-traps)","Long",12,8,2,"ID, PROLIFIC_PID, counterVisualTraps, trap_type","Response, Correctness, RT (reaction time), Trap type","6 - 6 trials (median: 6 )"

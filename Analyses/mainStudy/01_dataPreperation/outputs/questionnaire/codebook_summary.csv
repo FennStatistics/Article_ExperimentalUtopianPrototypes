@@ -1,0 +1,8 @@
+"Section","Variables","Dataset_Location","Notes"
+"Identifiers","ID, PROLIFIC_PID","All datasets","Integer ID and Prolific participant ID"
+"Demographics","age, gender, education, employment_status, employment_is_employed, lrscale, rlgdgr","ques_study (wide only)","7 socio-demographic variables"
+"Psychological Scales","52 items across 10 scales (BRS, SWLS, ARIS, NFC, SJS, etc.)","ques_study (wide only)","See scale documentation for item wording and scoring"
+"Transcripts","text_missingUtopia, text_rankingUtopias","ques_study (wide only)","Text transcripts from audio recordings"
+"Sentiment Analysis","sentiment_label, sentiment_score, num_windows, window_*_sentimentLabel","ques_study (wide only)","Sentiment labels (positive/negative/neutral) and scores"
+"Vignette Variables (within)","vignette_order_position, vignette_id, condition_FutureSociety, pe1-pe4, att_ideal, att_beneficial, etc.","ques_study_within_vignettes","One row per vignette trial, aggregated from long raw data"
+"Trap Variables (within)","trap_type, response, response_label, correct, rt_ms","visual_trap_within","One row per visual trap trial, responses and performance"
