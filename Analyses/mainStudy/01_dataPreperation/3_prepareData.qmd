@@ -1,80 +1,996 @@
 ---
-title: "Data preperation"
+title: "Data Preparation: Survey + Transcripts + Sentiment Analysis"
 author: "Julius Fenn"
+date: "`r Sys.Date()`"
 format:
   html:
     toc: true
     toc-depth: 3
     html-math-method: katex
     number-sections: true
+    embed-resources: true
 ---
 
+# Overview
 
-# Notes
+This document prepares the complete dataset by combining:
+1. **Survey Data** from `data/results_survey/` (questionnaire responses)
+2. **Audio Transcripts** from `outputs/audio_transcripts/` (text_missingUtopia, text_rankingUtopias)
+3. **Sentiment Analysis** from `outputs/sentiment_analysis/` (overall + window-level)
 
+Final output: One row per participant with all metadata integrated.
 
-# global variables
+---
 
-Define your global variables (e.g., to reduce run time):
-
-```{r}
-#| label: global variables
-
-# aaa
-```
-
-# functions
+# Setup & Configuration
 
 ```{r}
-########################################
-# aaa
-########################################
-### args:
-# aaa = bbb
-
-```
-
-
-# load packages
-
-```{r}
-#| label: load packages
+#| label: setup
+#| message: false
 #| warning: false
 
-### load packages (also packages loaded, which are not needed for data preperation)
+# Clear environment
+rm(list = ls())
+
+# Set control variables
+createRawFiles <- TRUE  # Set to FALSE to skip raw file creation
+VERBOSE <- TRUE
+
+# Load packages
 require(pacman)
-p_load('tidyverse',
-       'stargazer',  'DT', 'psych',
-       'writexl', 'readxl', 'haven')
+p_load('tidyverse', 'jsonlite', 'writexl', 'lubridate', 'DT', 'psych')
+
+# Set base directory
+BASE_DIR <- getwd()
+print(paste("Working directory:", BASE_DIR))
+
+# Define paths
+DATA_SURVEY_DIR <- file.path(BASE_DIR, "data", "results_survey")
+AUDIO_TRANSCRIPT_DIR <- file.path(BASE_DIR, "outputs", "audio_transcripts")
+SENTIMENT_DIR <- file.path(BASE_DIR, "outputs", "sentiment_analysis")
+
+OUTPUT_RAW_DIR <- file.path(BASE_DIR, "outputs", "raw")
+OUTPUT_QUESTIONNAIRE_DIR <- file.path(BASE_DIR, "outputs", "questionnaire")
+
+# Create output directories if they don't exist
+dir.create(OUTPUT_RAW_DIR, showWarnings = FALSE, recursive = TRUE)
+dir.create(OUTPUT_QUESTIONNAIRE_DIR, showWarnings = FALSE, recursive = TRUE)
+
+print("✓ Setup complete")
 ```
 
-# load and prepare raw data files
+---
 
-corrupt csv file: 
+# Helper Functions
+
+## Questionnaire Type Function
 
 ```{r}
-setwd("data")
+#| label: questionnaire-function
+
+questionnairetype <- function(dataset,
+                              listvars = ques_mixed,
+                              notNumeric = vec_notNumeric,
+                              verbose = FALSE) {
+
+  # Convert JATOS data to classical 2D data frame
+  # 
+  # Args:
+  #   dataset: Raw data frame from JATOS
+  #   listvars: Vector of column names to extract
+  #   notNumeric: Vector of column names to keep as character
+  #   verbose: Print progress
+  # 
+  # Returns:
+  #   Data frame with 1 row per unique ID
+
+  
+  datasetques <- data.frame(ID = unique(dataset$ID))
+  
+  for (c in 1:length(listvars)) {
+    if (verbose) {
+      print(c)
+    }
+    
+    if (any(colnames(dataset) == listvars[c])) {
+      if (verbose) {
+        print(listvars[c])
+      }
+      
+      ## tmp IDs
+      tmpid <- dataset$ID[!is.na(dataset[, listvars[c]])]
+      ## tmp value variable
+      tmpvalue <- dataset[, listvars[c]][!is.na(dataset[, listvars[c]])]
+      datasetques[listvars[c]] <- NA
+      
+      if (listvars[c] %in% notNumeric) {
+        datasetques[datasetques$ID %in% tmpid, listvars[c]] <- tmpvalue
+      } else if (is.list(tmpvalue)) {
+        tmpvalue_tmp <- unique(tmpvalue)
+        tmpvalue <- c()
+        counter <- 1
+        for (i in 1:length(tmpvalue_tmp)) {
+          if (!is.null(tmpvalue_tmp[[i]])) {
+            tmpvalue[counter] <- paste0(tmpvalue_tmp[[i]], collapse = " - ")
+            counter <- counter + 1
+          }
+        }
+        datasetques[datasetques$ID %in% tmpid, listvars[c]] <- tmpvalue
+      } else {
+        datasetques[datasetques$ID %in% tmpid, listvars[c]] <- as.numeric(tmpvalue)
+      }
+    }
+  }
+  return(datasetques)
+}
+
+print("✓ Helper functions defined")
+```
+
+---
+
+# Load & Process Raw Survey Data
+
+## Load all data.txt files
+
+```{r}
+#| label: load-raw-survey-data
+#| message: false
+
+if (createRawFiles) {
+  print("Loading raw survey data from data.txt files...")
+  
+  # Find all data.txt files
+  data_files <- list.files(
+    path = DATA_SURVEY_DIR,
+    pattern = "^data\\.txt$",
+    full.names = TRUE,
+    recursive = TRUE
+  )
+  
+  print(paste("Found", length(data_files), "survey data files"))
+  
+  if (VERBOSE) {
+    print("Files found:")
+    print(data_files)
+  }
+  
+  # Load all files
+  results <- list()
+  
+  for (file in data_files) {
+    tryCatch({
+      tmp <- fromJSON(file)
+      tmp[, colnames(tmp) == ""] <- NULL # remove empty variable
+      results[[length(results) + 1]] <- tmp
+      
+      if (VERBOSE) {
+        print(paste("✓ Loaded:", basename(dirname(dirname(file)))))
+      }
+    }, error = function(e) {
+      print(paste("✗ Error loading", file, ":", e$message))
+    })
+  }
+  
+  print(paste("Successfully loaded", length(results), "files"))
+  
+  # Save as RDS
+  saveRDS(results, file = file.path(OUTPUT_RAW_DIR, "study.rds"))
+  
+  # Optionally save as JSONL
+  json_lines <- map_chr(results, ~ toJSON(.x, auto_unbox = TRUE))
+  writeLines(json_lines, con = file.path(OUTPUT_RAW_DIR, "study.jsonl"))
+  
+  print("✓ Raw files saved (study.rds and study.jsonl)")
+  
+} else {
+  print("Loading pre-saved raw data...")
+  results <- readRDS(file = file.path(OUTPUT_RAW_DIR, "study.rds"))
+  print(paste("Loaded", length(results), "records from study.rds"))
+}
+```
+
+---
+
+# Create Questionnaire DataFrame with Filtering
 
 
+## Combine and prepare raw data
+
+```{r}
+#| label: combine-raw-data
+
+for(i in 1:length(results)) {
+  tmp <- results[[i]]$meta
+  results[[i]]$meta <- NULL
+  
+    if(any(colnames(results[[i]]) %in% "paradata_general")) {
+      results[[i]]$paradata_general <- NULL
+    }
+  
+  results[[i]] <- cbind(results[[i]], tmp)
+}
+
+
+# Combine all records into single dataframe
+suppressMessages({
+  dat <- bind_rows(results)
+})
+
+
+# Combine all records into single dataframe
+suppressMessages({
+  dat <- bind_rows(results)
+})
+
+print(paste("Combined data shape:", nrow(dat), "rows x", ncol(dat), "columns"))
+rm(results)
+
+# Add ID counter
+dat$ID <- cumsum(dat$sender == "Greetings" & !is.na(dat$sender))
+
+print("\n=== Initial ID Distribution ===")
+print(table(dat$ID))
+
+# Check record counts per ID
+tmp <- dat %>%
+  group_by(ID) %>%
+  summarise(N = n(), .groups = 'drop')
+
+print("\n=== Record Count Distribution ===")
+print(table(tmp$N))
+
+max_N <- max(tmp$N)
+print(paste("Maximum records per ID:", max_N))
 ```
 
 
-# aaa
+## Identify incomplete records and test data
 
-aaa
+```{r}
+#| label: filter-incomplete-records
+
+# Initialize filtering tracking
+filtering_stats <- data.frame(
+  metric = character(),
+  value = numeric(),
+  stringsAsFactors = FALSE
+)
+
+starting_N <- nrow(dat)
+filtering_stats <- rbind(filtering_stats, 
+                         data.frame(metric = "starting_total_records", value = starting_N))
+
+# Find IDs with incomplete records
+tmp_full <- dat %>%
+  group_by(ID) %>%
+  summarise(N = n(), .groups = 'drop')
+
+incomplete_IDs <- tmp_full$ID[tmp_full$N != max_N]
+n_incomplete_before <- length(incomplete_IDs)
+
+print(paste("\n=== Filtering Step 1: Identify Incomplete Records ==="))
+print(paste("IDs with fewer than", max_N, "records:", n_incomplete_before))
+if (VERBOSE & n_incomplete_before > 0) {
+  print("Incomplete IDs:")
+  print(incomplete_IDs)
+  
+  filtering_stats <- rbind(filtering_stats, 
+                         data.frame(metric = "incomplete_ids", value = paste0(incomplete_IDs, collapse = " // ")))
+}
+
+dat <- dat[!dat$ID %in% incomplete_IDs, ]
+
+if (VERBOSE & n_incomplete_before > 0) {
+  filtering_stats <- rbind(filtering_stats, 
+                         data.frame(metric = "after_filtering_incomplete_records", value = nrow(dat)))
+}
+
+
+
+# Handle test ID "111" - Special logic
+print("\n=== Filtering Step 2: Handle Test ID '111' ===")
+
+test_ids <- dat$ID[dat$PROLIFIC_PID == "111"] # !!!
+test_ids <- test_ids[!is.na(test_ids)]
+n_test_runs <- length(unique(test_ids))
+
+print(paste("Found", n_test_runs, "test run(s) with ID '111'"))
+
+if (VERBOSE & n_test_runs > 0) {
+  print("Test IDs:")
+  print(test_ids)
+  
+  filtering_stats <- rbind(filtering_stats, 
+                         data.frame(metric = "test_ids", value = paste0(test_ids, collapse = " // ")))
+}
+
+dat <- dat[!dat$ID %in% test_ids, ]
+
+
+if (VERBOSE & n_test_runs > 0) {
+  filtering_stats <- rbind(filtering_stats, 
+                         data.frame(metric = "after_removing_testIDs_records", value = nrow(dat)))
+}
+
+
+# Update participant count
+n_participants_final <- length(unique(dat$ID))
+filtering_stats <- rbind(filtering_stats,
+                         data.frame(metric = "final_unique_participants", value = n_participants_final))
+
+cat("\n✓ Final unique participants:", n_participants_final)
+```
+
+## Extract questionnaire
 
 
 
 
-# save data sets
+
 
 
 ```{r}
-setwd("outputs")
+colnames(dat)[sapply(dat, is.list)]
+```
 
-saveRDS(ds, file = paste0("ds", ".rds"))
-writexl::write_xlsx(x = ds, path = paste0("ds", ".xlsx"))
-write.csv2(x = ds, file =  paste0("ds", ".csv"))
-haven::write_sav(data = ds, path = paste0("ds", ".sav"))
+
+```{r}
+colnames(dat)
+```
+
+```{r}
+tmp <- dat %>%
+  select(-where(is.list)) %>%
+  mutate(across(-ID, as.character)) %>%
+  pivot_longer(-ID) %>%
+  group_by(ID, name) %>%
+  summarise(n_unique = n_distinct(value, na.rm = TRUE), .groups = 'drop') %>%
+  filter(n_unique > 1)
+
+tmp$name
+```
+
+
+
+```{r}
+print("\n=== Creating Questionnaire DataFrame ===")
+
+
+# ============================================================================
+# PSYCHOLOGICAL SCALES - Organized by Type
+# ============================================================================
+
+# --- ACTIVISM & RADICALISM INTENTIONS (ARIS-adapted) ---
+aris_activism <- c(
+  "aris_scale-ais1",   # Join organization
+  "aris_scale-ais2",   # Donate money
+  "aris_scale-ais3",   # Volunteer time
+  "aris_scale-ais4"    # Travel to rally
+)
+
+aris_radicalism <- c(
+  "aris_scale-ris1",   # Support despite breaking law
+  "aris_scale-ris2",   # Support despite violence
+  "aris_scale-ris3",   # Protest despite violence
+  "aris_scale-ris4"    # Attack security forces
+)
+
+# --- UTOPIAN THINKING (Fernando et al. 2018) ---
+utopianism <- c(
+  "utopianism_scale-utop1",   # Think about ideal society
+  "utopianism_scale-utop2",   # Spend time thinking
+  "utopianism_scale-utop3",   # What world I'd like
+  "utopianism_scale-utop4"    # Important to think
+)
+
+anti_utopianism <- c(
+  "anti_utopianism_scale-antiutop1",   # Could be dangerous
+  "anti_utopianism_scale-antiutop2",   # Negative consequences
+  "anti_utopianism_scale-antiutop3",   # Shouldn't envision
+  "anti_utopianism_scale-antiutop4"    # Useless to dream
+)
+
+# --- NEED FOR CHAOS (NFC) - Arceneaux et al. 2021 ---
+need_for_chaos <- c(
+  "nfc_scale-nfc1",   # Kick from disasters
+  "nfc_scale-nfc2",   # Fantasize wipeout
+  "nfc_scale-nfc3",   # Burn society
+  "nfc_scale-nfc4",   # Let them burn
+  "nfc_scale-nfc5",   # Tear down & restart
+  "nfc_scale-nfc6",   # Need chaos
+  "nfc_scale-nfc7"    # Destroy beautiful things
+)
+
+# --- POLITICAL/INSTITUTIONAL ATTITUDES ---
+system_justification <- c(
+  "sjs_scale-sjs1",    # Society is fair
+  "sjs_scale-sjs2",    # Political system works
+  "sjs_scale-sjs3r",   # [REVERSE] Needs restructuring
+  "sjs_scale-sjs4",    # Best country
+  "sjs_scale-sjs5",    # Policies serve greater good
+  "sjs_scale-sjs6",    # Fair shot at wealth
+  "sjs_scale-sjs7r",   # [REVERSE] Getting worse
+  "sjs_scale-sjs8"     # Get what they deserve
+)
+
+# --- WELL-BEING & RESILIENCE ---
+satisfaction_with_life <- c(
+  "swls_scale-swls1",  # Close to ideal
+  "swls_scale-swls2",  # Excellent conditions
+  "swls_scale-swls3",  # Satisfied with life
+  "swls_scale-swls4",  # Got important things
+  "swls_scale-swls5"   # Change almost nothing
+)
+
+brief_resilience <- c(
+  "brs_scale-brs1",    # Bounce back quickly
+  "brs_scale-brs2r",   # [REVERSE] Hard time through stress
+  "brs_scale-brs3",    # Don't take long to recover
+  "brs_scale-brs4r",   # [REVERSE] Hard to snap back
+  "brs_scale-brs5",    # Come through with trouble
+  "brs_scale-brs6r"    # [REVERSE] Long time to get over
+)
+
+# --- DEPRIVATION & CONSPIRACY ---
+personal_relative_deprivation <- c(
+  "prds_scale-prds1",  # Feel deprived
+  "prds_scale-prds2r", # [REVERSE] Feel privileged
+  "prds_scale-prds3",  # Feel resentful
+  "prds_scale-prds4r", # [REVERSE] Quite well off
+  "prds_scale-prds5"   # Dissatisfied
+)
+
+conspiracy_mentality <- c(
+  "cmq_scale-cmq1",    # Important things hidden
+  "cmq_scale-cmq2",    # Politicians don't tell truth
+  "cmq_scale-cmq3",    # Government monitors
+  "cmq_scale-cmq4",    # Secret activities
+  "cmq_scale-cmq5"     # Secret organizations influence
+)
+
+
+
+# ============================================================================
+# SOCIO-DEMOGRAPHIC VARIABLES, FEEDBACK
+# ============================================================================
+socio_demo <- c(
+  "age",
+  "gender",
+  "education",
+  "employment_status",
+  "employment_is_employed",
+  "lrscale",           # Left-right political scale
+  "rlgdgr"             # Religious degree
+)
+
+# --- COMBINED SCALE VECTOR ---
+vec_ques <- c(
+  "PROLIFIC_PID",
+  "dummy_informedconsent",
+  "commCheck",
+  "mic_test_passed",
+  "feedback_critic",
+  socio_demo,
+  # scales:
+  aris_activism,
+  aris_radicalism,
+  utopianism,
+  anti_utopianism,
+  need_for_chaos,
+  system_justification,
+  satisfaction_with_life,
+  brief_resilience,
+  personal_relative_deprivation,
+  conspiracy_mentality
+)
+
+
+vec_notNumeric <- c(
+  "PROLIFIC_PID",
+  # Socio-demographic non-numeric
+  "gender",
+  "education",
+  "employment_status",
+  # Other non-numeric
+  "mic_test_passed",
+  "feedback_critic"
+)
+
+
+# ============================================================================
+# Create questionnaire
+# ============================================================================
+ques_study <- questionnairetype(
+  dataset = dat,
+  listvars = vec_ques,
+  notNumeric = vec_notNumeric,
+  verbose = FALSE
+)
+
+
+ques_study$gender <- factor(x = ques_study$gender)
+ques_study$education <- factor(x = ques_study$education)
+ques_study$employment_status <- factor(x = ques_study$employment_status)
+
+
+# Save summary
+filtering_stats <- rbind(filtering_stats,
+                         data.frame(metric = "final_questionnaire_rows", value = nrow(ques_study)))
+```
+
+
+
+# Add Transcripts
+
+## Load transcript files
+
+```{r}
+#| label: load-transcripts
+
+print("\n=== Loading Transcripts ===")
+
+# Find all transcript files
+transcript_files <- list.files(
+  path = AUDIO_TRANSCRIPT_DIR,
+  pattern = "_transcript\\.json$",
+  full.names = TRUE
+)
+
+print(paste("Found", length(transcript_files), "transcript files"))
+
+# Parse all transcripts
+transcripts <- list()
+
+for (file in transcript_files) {
+  tryCatch({
+    transcript <- fromJSON(file)
+    filename <- basename(file)
+    
+    # Extract participant ID from filename
+    # Format: {id_person}_{type}_{timestamp}_transcript.json
+    participant_id <- str_extract(filename, "^[^_]+")
+    audio_type <- str_extract(filename, "(?<=_)(audio_[^_]+)(?=_)")
+    
+    transcripts[[length(transcripts) + 1]] <- list(
+      filename = filename,
+      participant_id = participant_id,
+      audio_type = audio_type,
+      transcript_text = transcript$transcript,
+      timestamp = transcript$timestamp
+    )
+    
+  }, error = function(e) {
+    print(paste("✗ Error loading", file, ":", e$message))
+  })
+}
+
+print(paste("Successfully parsed", length(transcripts), "transcripts"))
+
+# Convert to dataframe for easier processing
+transcripts_df <- bind_rows(lapply(transcripts, as.data.frame, stringsAsFactors = FALSE))
+
+if (VERBOSE) {
+  print("Sample transcripts:")
+  print(head(transcripts_df))
+  print("\nTranscript types found:")
+  print(table(transcripts_df$audio_type))
+}
+```
+
+## Match transcripts to questionnaire and add
+
+```{r}
+#| label: add-transcripts-to-questionnaire
+
+print("\n=== Adding Transcripts to Questionnaire ===")
+
+# Initialize columns
+ques_study$text_missingUtopia <- NA_character_
+ques_study$text_rankingUtopias <- NA_character_
+
+# For each participant in questionnaire
+for (i in 1:nrow(ques_study)) {
+  participant_id <- ques_study$PROLIFIC_PID[i]
+  
+  # Find matching transcripts
+  matching_transcripts <- transcripts_df %>%
+    filter(participant_id == !! participant_id)
+  
+  if (nrow(matching_transcripts) > 0) {
+    # Process missing utopia transcripts
+    missing_utopia <- matching_transcripts %>%
+      filter(audio_type == "audio_missing") %>%
+      arrange(desc(timestamp))
+    
+    if (nrow(missing_utopia) > 0) {
+      # Keep only most recent
+      ques_study$text_missingUtopia[i] <- missing_utopia$transcript_text[1]
+      
+      if (VERBOSE & nrow(missing_utopia) > 1) {
+        print(paste("  Participant", participant_id, "- Kept 1 of", nrow(missing_utopia), "missingUtopia transcripts"))
+      }
+    }
+    
+    # Process ranking explanation transcripts
+    ranking <- matching_transcripts %>%
+      filter(audio_type == "audio_ranking") %>%
+      arrange(desc(timestamp))
+    
+    if (nrow(ranking) > 0) {
+      # Keep only most recent
+      ques_study$text_rankingUtopias[i] <- ranking$transcript_text[1]
+      
+      if (VERBOSE & nrow(ranking) > 1) {
+        print(paste("  Participant", participant_id, "- Kept 1 of", nrow(ranking), "rankingUtopias transcripts"))
+      }
+    }
+  }
+}
+
+# Check coverage
+n_with_missing_utopia <- sum(!is.na(ques_study$text_missingUtopia))
+n_with_ranking <- sum(!is.na(ques_study$text_rankingUtopias))
+
+print(paste("Transcripts added:"))
+print(paste("  - text_missingUtopia:", n_with_missing_utopia, "/", nrow(ques_study)))
+print(paste("  - text_rankingUtopias:", n_with_ranking, "/", nrow(ques_study)))
+
+print("✓ Transcripts merged successfully")
+```
+
+---
+
+# Add Sentiment Analysis
+
+## Load overall sentiment data
+
+```{r}
+#| label: load-overall-sentiment
+
+print("\n=== Loading Overall Sentiment Analysis ===")
+
+# Find sentiment file
+sentiment_files <- list.files(
+  path = SENTIMENT_DIR,
+  pattern = "overall_sentiment_and_embedding.*\\.csv$",
+  full.names = TRUE
+)
+
+if (length(sentiment_files) > 0) {
+  # Use most recent if multiple files exist
+  sentiment_file <- sentiment_files[which.max(file.info(sentiment_files)$mtime)]
+  
+  print(paste("Using:", basename(sentiment_file)))
+  
+  sentiment_overall <- read.csv(sentiment_file, stringsAsFactors = FALSE)
+  
+  print(paste("Loaded", nrow(sentiment_overall), "sentiment records"))
+  print("\nSample data:")
+  print(head(sentiment_overall))
+  
+} else {
+  print("✗ No overall sentiment file found!")
+  sentiment_overall <- NULL
+}
+```
+
+## Add overall sentiment to questionnaire
+
+```{r}
+#| label: add-overall-sentiment
+
+if (!is.null(sentiment_overall)) {
+  print("\n=== Adding Overall Sentiment to Questionnaire ===")
+  
+  # Initialize columns
+  ques_study$sentiment_label <- NA_character_
+  ques_study$sentiment_score <- NA_real_
+  ques_study$num_windows <- NA_integer_
+  
+  # For each participant
+  for (i in 1:nrow(ques_study)) {
+    participant_id <- ques_study$PROLIFIC_PID[i]
+    
+    # Find matching sentiment records
+    # Match using json_file which contains participant_id
+    matching_sentiment <- sentiment_overall %>%
+      filter(grepl(participant_id, json_file, fixed = TRUE))
+    
+    if (nrow(matching_sentiment) > 0) {
+      # If multiple matches, use most recent (first one after sort)
+      # For now, combine or average if multiple
+      
+      if (nrow(matching_sentiment) > 1) {
+        # Average sentiment scores, keep first label
+        ques_study$sentiment_label[i] <- matching_sentiment$sentiment_label[1]
+        ques_study$sentiment_score[i] <- mean(matching_sentiment$sentiment_score, na.rm = TRUE)
+        ques_study$num_windows[i] <- sum(matching_sentiment$num_windows, na.rm = TRUE)
+        
+        if (VERBOSE) {
+          print(paste("  Participant", participant_id, "- Averaged", nrow(matching_sentiment), "sentiment records"))
+        }
+      } else {
+        ques_study$sentiment_label[i] <- matching_sentiment$sentiment_label[1]
+        ques_study$sentiment_score[i] <- matching_sentiment$sentiment_score[1]
+        ques_study$num_windows[i] <- matching_sentiment$num_windows[1]
+      }
+    }
+  }
+  
+  n_with_sentiment <- sum(!is.na(ques_study$sentiment_label))
+  print(paste("Overall sentiment added to", n_with_sentiment, "participants"))
+  
+} else {
+  print("Skipping overall sentiment (file not found)")
+}
+```
+
+## Load window-level sentiment data
+
+```{r}
+#| label: load-window-sentiment
+
+print("\n=== Loading Window-Level Sentiment ===")
+
+# Find window sentiment file
+window_files <- list.files(
+  path = SENTIMENT_DIR,
+  pattern = "window_sentiments.*\\.csv$",
+  full.names = TRUE
+)
+
+if (length(window_files) > 0) {
+  # Use most recent if multiple files exist
+  window_file <- window_files[which.max(file.info(window_files)$mtime)]
+  
+  print(paste("Using:", basename(window_file)))
+  
+  sentiment_windows <- read.csv(window_file, stringsAsFactors = FALSE)
+  
+  # Calculate max window index
+  max_window_idx <- max(sentiment_windows$window_index, na.rm = TRUE)
+  
+  print(paste("Loaded", nrow(sentiment_windows), "window sentiment records"))
+  print(paste("Maximum window index:", max_window_idx))
+  
+  # Show sample
+  print("\nSample data:")
+  print(head(sentiment_windows))
+  
+} else {
+  print("✗ No window sentiment file found!")
+  sentiment_windows <- NULL
+  max_window_idx <- 0
+}
+```
+
+## Add window sentiment columns
+
+```{r}
+#| label: add-window-sentiment
+
+if (!is.null(sentiment_windows)) {
+  print("\n=== Adding Window-Level Sentiment Columns ===")
+  
+  # Create column names dynamically
+  window_cols <- paste0("window_", 0:max_window_idx, "_sentimentLabel")
+  
+  print(paste("Creating", length(window_cols), "window sentiment columns"))
+  
+  # Initialize columns with NA
+  for (col in window_cols) {
+    ques_study[[col]] <- NA_character_
+  }
+  
+  # Fill window sentiment for each participant
+  for (i in 1:nrow(ques_study)) {
+    participant_id <- ques_study$PROLIFIC_PID[i]
+    
+    # Find windows for this participant
+    participant_windows <- sentiment_windows %>%
+      filter(grepl(participant_id, json_file, fixed = TRUE))
+    
+    if (nrow(participant_windows) > 0) {
+      # Fill window columns
+      for (j in 1:nrow(participant_windows)) {
+        window_idx <- participant_windows$window_index[j]
+        col_name <- paste0("window_", window_idx, "_sentimentLabel")
+        
+        # Only fill if column exists
+        if (col_name %in% colnames(ques_study)) {
+          ques_study[i, col_name] <- participant_windows$sentiment_label[j]
+        }
+      }
+      
+      if (VERBOSE & i %in% c(1, 5, 10)) {
+        print(paste("  Participant", participant_id, "- Added", nrow(participant_windows), "window sentiments"))
+      }
+    }
+  }
+  
+  print(paste("✓ Window sentiment columns added"))
+  
+} else {
+  print("Skipping window sentiment (file not found)")
+}
+```
+```{r}
+# Before
+cat("Original columns:", ncol(ques_study), "\n")
+cat("Columns that are all NA:", sum(sapply(ques_study, function(x) all(is.na(x)))), "\n")
+
+# Apply removal (Option 1)
+ques_study <- ques_study[, colSums(is.na(ques_study)) < nrow(ques_study)]
+
+# After
+cat("Final columns:", ncol(ques_study), "\n")
+```
+
+
+---
+
+# Get within part of study
+
+## visual trap part
+
+```{r}
+# --- Get one PROLIFIC_PID per ID ---
+pid_lookup <- dat %>%
+  group_by(ID) %>%
+  summarise(PROLIFIC_PID = last_non_empty(PROLIFIC_PID), .groups = 'drop')
+
+
+trap_types <- c("Planets", "Robot", "Circles", "Lines", "CafeWall", "Collision")
+
+visual_trap_within <- map_df(trap_types, function(trap) {
+  dat %>%
+    select(
+      ID,
+      counterVisualTraps,
+      all_of(paste0("visualTrap_", trap, "_response")),
+      all_of(paste0("visualTrap_", trap, "_responseLabel")),
+      all_of(paste0("visualTrap_", trap, "_correct")),
+      all_of(paste0("visualTrap_", trap, "_rtMs"))
+    ) %>%
+    # Remove rows where this trap is all NA
+    filter(!if_all(starts_with("visualTrap_"), is.na)) %>%
+    distinct(ID, counterVisualTraps, .keep_all = TRUE) %>%
+    mutate(
+      trap_type = trap,
+      response = .data[[paste0("visualTrap_", trap, "_response")]],
+      response_label = .data[[paste0("visualTrap_", trap, "_responseLabel")]],
+      correct = .data[[paste0("visualTrap_", trap, "_correct")]],
+      rt_ms = .data[[paste0("visualTrap_", trap, "_rtMs")]]
+    ) %>%
+    select(ID, counterVisualTraps, trap_type, response, response_label, correct, rt_ms)
+}) %>%
+  # Add PROLIFIC_PID from lookup
+  left_join(pid_lookup, by = "ID") %>%
+  select(ID, PROLIFIC_PID, counterVisualTraps, trap_type, everything()) %>%
+  arrange(ID, counterVisualTraps, trap_type)
+
+# --- Inspect results ---
+head(visual_trap_within)
+cat("Total vignette trials:", nrow(visual_trap_within), "\n")
+cat("Trials per participant:\n")
+print(table(visual_trap_within$ID))
+```
+
+
+## vignette part
+
+```{r}
+# Helper function
+last_non_empty <- function(x) {
+  if (length(x) == 0) return(NA)
+  for (i in seq_along(x)[length(x):1]) {
+    val <- x[[i]]
+    if (is.null(val)) next
+    if (!is.list(val) && length(val) == 1 && is.na(val)) next
+    if (is.character(val) && length(val) == 1 && isTRUE(val == "")) next
+    return(val)
+  }
+  return(NA)
+}
+
+# --- Get PROLIFIC_PID mapping ---
+pid_lookup <- dat %>%
+  group_by(ID) %>%
+  summarise(PROLIFIC_PID = last_non_empty(PROLIFIC_PID), .groups = 'drop')
+
+# --- Initialize results list ---
+vignette_list <- list()
+
+# --- Get unique IDs ---
+unique_ids <- unique(dat$ID)
+
+# --- LOOP 1: For each participant ---
+for (id in unique_ids) {
+  
+  # Filter data for this participant
+  dat_id <- dat %>% filter(ID == id)
+  
+  # Get their PROLIFIC_PID
+  prolific_pid <- pid_lookup %>% 
+    filter(ID == id) %>% 
+    pull(PROLIFIC_PID)
+  
+  # --- LOOP 2: For each vignette trial (counterScenarios) ---
+  unique_trials <- unique(na.omit(dat_id$counterScenarios))
+  
+  for (trial in unique_trials) {
+    
+    # Filter data for this trial
+    trial_data <- dat_id %>% filter(counterScenarios == trial)
+    
+    # Extract values (take last non-empty per variable)
+    row <- tibble(
+      ID = id,
+      PROLIFIC_PID = prolific_pid,
+      counterScenarios = trial,
+      vignette_order_position = last_non_empty(trial_data$vignette_order_position),
+      vignette_id = last_non_empty(trial_data$vignette_id),
+      condition_FutureSociety = last_non_empty(trial_data$condition_FutureSociety),
+      # Participative efficacy
+      pe1 = last_non_empty(trial_data$pe1),
+      pe2 = last_non_empty(trial_data$pe2),
+      pe3 = last_non_empty(trial_data$pe3),
+      pe4 = last_non_empty(trial_data$pe4),
+      # Attributes
+      att_ideal = last_non_empty(trial_data$att_ideal),
+      att_beneficial = last_non_empty(trial_data$att_beneficial),
+      att_utopian = last_non_empty(trial_data$att_utopian),
+      att_desirable = last_non_empty(trial_data$att_desirable),
+      att_innovative = last_non_empty(trial_data$att_innovative),
+      att_live_in = last_non_empty(trial_data$att_live_in),
+      # Paradata
+      para_countclicks = last_non_empty(trial_data$para_countclicks),
+      time_run = last_non_empty(trial_data$time_run),
+      time_render = last_non_empty(trial_data$time_render),
+      time_show = last_non_empty(trial_data$time_show)
+    )
+    
+    # Add to results list
+    vignette_list[[length(vignette_list) + 1]] <- row
+  }
+  
+  # Progress indicator
+  # cat("Processed ID:", id, "\n")
+}
+
+# --- Combine all results into one dataframe ---
+ques_study_within_vignettes <- bind_rows(vignette_list)
+
+# --- Remove trials with all NA in PE/ATT ---
+ques_study_within_vignettes <- ques_study_within_vignettes %>%
+  filter(!if_all(pe1:att_live_in, is.na)) %>%
+  arrange(ID, counterScenarios)
+
+# --- Inspect results ---
+head(ques_study_within_vignettes)
+cat("Total vignette trials:", nrow(ques_study_within_vignettes), "\n")
+cat("Trials per participant:\n")
+print(table(ques_study_within_vignettes$ID))
+```
+
+
+
+# Summary stats and Quality checks
+
+
+```{r}
+print("FINAL DATA SUMMARY & VALIDATION")
+print(strrep("=", 80))
+ 
+# --- Count unique IDs across datasets ---
+n_ids_wide <- n_distinct(ques_study$ID)
+n_ids_vignettes <- n_distinct(ques_study_within_vignettes$ID)
+n_ids_traps <- n_distinct(visual_trap_within$ID)
+ 
+print("\n📊 PARTICIPANT COUNTS:")
+print(paste("  - Between-subjects (ques_study):", n_ids_wide, "unique IDs"))
+print(paste("  - Within-vignettes dataset:", n_ids_vignettes, "unique IDs"))
+print(paste("  - Within-traps dataset:", n_ids_traps, "unique IDs"))
 ```
 

@@ -26,3 +26,5 @@
 **/audio_files/
 
 **/audio_files_wav/
+study.jsonl # becomes too large to upload
+**/study.jsonl
