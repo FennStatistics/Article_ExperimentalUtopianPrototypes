@@ -1,0 +1,24 @@
+{
+  "audio_file": "66e9b926c782e4f47a05ec7c_audio_ranking_explanation_1780188601687.webm",
+  "transcript": " So I ranked the modern, green, utopia, sustainable, and secure most preferred society because I feel like it would be more adaptable and resilient, offering a framework where human flourishing is supported and compared to religious faith-based order. I think it would be more enhancing for individuals and their well-being.",
+  "language": "unknown",
+  "processing_time_seconds": 8.506434,
+  "timestamp": "2026-05-31T09:49:13.459124",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        27.38
+      ],
+      "text": " So I ranked the modern, green, utopia, sustainable, and secure most preferred society because I feel like it would be more adaptable and resilient, offering a framework where human flourishing is supported and compared to religious faith-based order."
+    },
+    {
+      "timestamp": [
+        27.38,
+        35.98
+      ],
+      "text": " I think it would be more enhancing for individuals and their well-being."
+    }
+  ]
+}

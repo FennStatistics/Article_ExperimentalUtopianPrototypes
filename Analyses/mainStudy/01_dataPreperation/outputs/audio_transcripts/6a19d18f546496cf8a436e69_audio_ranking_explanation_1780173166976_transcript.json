@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a19d18f546496cf8a436e69_audio_ranking_explanation_1780173166976.webm",
+  "transcript": " um i recorded or i ranked these in this order um because i think it's super important to continue to be more environmentally sustainable um and i ranked ai last because i it doesn't really it's actually kind of really destructive for the environment so it is just the complete opposite of what I would want.",
+  "language": "unknown",
+  "processing_time_seconds": 8.584082,
+  "timestamp": "2026-05-31T10:19:03.818109",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.64
+      ],
+      "text": " um i recorded or i ranked these in this order um because i think it's super important to"
+    },
+    {
+      "timestamp": [
+        9.64,
+        20.94
+      ],
+      "text": " continue to be more environmentally sustainable um and i ranked ai last because i it doesn't"
+    },
+    {
+      "timestamp": [
+        20.94,
+        27.56
+      ],
+      "text": " really it's actually kind of really destructive for the environment so it is just the complete"
+    },
+    {
+      "timestamp": [
+        27.56,
+        31.8
+      ],
+      "text": " opposite of what I would want."
+    }
+  ]
+}

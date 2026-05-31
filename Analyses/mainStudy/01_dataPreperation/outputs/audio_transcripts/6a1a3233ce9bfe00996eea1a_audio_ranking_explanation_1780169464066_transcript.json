@@ -1,0 +1,122 @@
+{
+  "audio_file": "6a1a3233ce9bfe00996eea1a_audio_ranking_explanation_1780169464066.webm",
+  "transcript": " I think the reason that I chose the way that I did was because modern green utopia being the most preferred, it's sustainable, it's secure, it's the most logical in my opinion to keep people in harmony while not having an abundance of things for certain people, but also not having to go without. I don't think it's realistic. I don't think most of these are realistic, but the first three utopias seemed a lot more innovative in a sense of, you know, people can still be people and they're not, you know, being governed by AI or robots or, you know, just straight religion um so i think the the three top utopias that i chose uh were all for for that reason um the primitivist utopia seemed to me more like uh like the moral commonwealth to an extent um except for you know you use more uh more technology um i think the futurist utopia would be, uh, would be fun. I also think that you're looking at, uh, a lot of different things that could be out of our control in that. And, uh, I don't know too much technology. I think sometimes can be a bad thing. Uh, moral commonwealth. I think most smaller communities live that way anyway, to an extent. Um, and I think good people do good things. I would not want AI centered utopia uh i mean i understand data driven but at the same time um data can be skewed data can be uh lack context a lot of different things um religious utopia uh i just i mean i think people should be able to practice whatever religion they want whatever ideologies that they feel and then institutional utopia i know but that's just never worked out every every book written about that everything goes up in flames eventually",
+  "language": "unknown",
+  "processing_time_seconds": 29.305712,
+  "timestamp": "2026-05-31T10:19:42.625698",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.48
+      ],
+      "text": " I think the reason that I chose the way that I did was because modern green utopia being the most preferred, it's sustainable, it's secure, it's the most logical in my opinion to keep people in harmony while not having an abundance of things for certain people, but also not having to go without."
+    },
+    {
+      "timestamp": [
+        28.48,
+        34.8
+      ],
+      "text": " I don't think it's realistic. I don't think most of these are realistic, but the first"
+    },
+    {
+      "timestamp": [
+        34.8,
+        42.14
+      ],
+      "text": " three utopias seemed a lot more innovative in a sense of, you know, people can still"
+    },
+    {
+      "timestamp": [
+        42.14,
+        50.94
+      ],
+      "text": " be people and they're not, you know, being governed by AI or robots or, you know, just"
+    },
+    {
+      "timestamp": [
+        50.94,
+        59.28
+      ],
+      "text": " straight religion um so i think the the three top utopias that i chose uh were all for for that"
+    },
+    {
+      "timestamp": [
+        59.28,
+        67.12
+      ],
+      "text": " reason um the primitivist utopia seemed to me more like uh like the moral commonwealth to an extent"
+    },
+    {
+      "timestamp": [
+        67.12,
+        74.68
+      ],
+      "text": " um except for you know you use more uh more technology um i think the futurist utopia would"
+    },
+    {
+      "timestamp": [
+        74.68,
+        82.42
+      ],
+      "text": " be, uh, would be fun. I also think that you're looking at, uh, a lot of different things that"
+    },
+    {
+      "timestamp": [
+        82.42,
+        88.9
+      ],
+      "text": " could be out of our control in that. And, uh, I don't know too much technology. I think sometimes"
+    },
+    {
+      "timestamp": [
+        88.9,
+        95.08
+      ],
+      "text": " can be a bad thing. Uh, moral commonwealth. I think most smaller communities live that way"
+    },
+    {
+      "timestamp": [
+        95.08,
+        103.58
+      ],
+      "text": " anyway, to an extent. Um, and I think good people do good things. I would not want AI centered"
+    },
+    {
+      "timestamp": [
+        103.58,
+        112.32
+      ],
+      "text": " utopia uh i mean i understand data driven but at the same time um data can be skewed data can be"
+    },
+    {
+      "timestamp": [
+        112.32,
+        121.2
+      ],
+      "text": " uh lack context a lot of different things um religious utopia uh i just i mean i think people"
+    },
+    {
+      "timestamp": [
+        121.2,
+        126.74
+      ],
+      "text": " should be able to practice whatever religion they want whatever ideologies that they feel"
+    },
+    {
+      "timestamp": [
+        126.74,
+        132.3
+      ],
+      "text": " and then institutional utopia i know but that's just never worked out"
+    },
+    {
+      "timestamp": [
+        132.3,
+        135.94
+      ],
+      "text": " every every book written about that everything goes up in flames eventually"
+    }
+  ]
+}

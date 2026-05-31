@@ -1,0 +1,24 @@
+{
+  "audio_file": "5f68fdce1c675a0baf13e0ff_audio_missing_utopia_1780156361306.webm",
+  "transcript": " I feel like all the descriptions were kind of just, like, revolved around, like, the earth and, like, resources and things that humans need, but nothing really discussed, like, um, human, um, oh my god, I forgot the word, rights. Oh yeah, like human rights. I feel like currently we live in a society where a lot of people feel like their rights are being taken away or they don't have rights. So I feel like a society where human rights are prioritized as well so that nobody feels like lesser than is also a necessity.",
+  "language": "unknown",
+  "processing_time_seconds": 11.166619,
+  "timestamp": "2026-05-31T09:45:15.606846",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.62
+      ],
+      "text": " I feel like all the descriptions were kind of just, like, revolved around, like, the earth and, like, resources and things that humans need, but nothing really discussed, like, um, human, um, oh my god, I forgot the word, rights."
+    },
+    {
+      "timestamp": [
+        23.62,
+        50.36
+      ],
+      "text": " Oh yeah, like human rights. I feel like currently we live in a society where a lot of people feel like their rights are being taken away or they don't have rights. So I feel like a society where human rights are prioritized as well so that nobody feels like lesser than is also a necessity."
+    }
+  ]
+}

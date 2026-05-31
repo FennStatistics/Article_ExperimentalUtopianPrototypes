@@ -1,0 +1,45 @@
+{
+  "audio_file": "69efd6b0a093516b899d9ff2_audio_missing_utopia_1780198259961.webm",
+  "transcript": " I feel like the religious one makes the most sense if everyone was faith-based and if everything revolved around love because you're being more selfless and loving towards others, everyone took care of each other, then there wouldn't be evil in that way, and I don't think anything was really missing from that, so maybe a combination of some of those and take out all the negatives of the rest.",
+  "language": "unknown",
+  "processing_time_seconds": 7.194894,
+  "timestamp": "2026-05-31T09:59:59.361724",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.58
+      ],
+      "text": " I feel like the religious one makes the most sense if everyone was faith-based and if everything"
+    },
+    {
+      "timestamp": [
+        10.58,
+        14.94
+      ],
+      "text": " revolved around love because you're being more selfless and loving towards others, everyone"
+    },
+    {
+      "timestamp": [
+        14.94,
+        22.38
+      ],
+      "text": " took care of each other, then there wouldn't be evil in that way, and I don't think anything"
+    },
+    {
+      "timestamp": [
+        22.38,
+        26.88
+      ],
+      "text": " was really missing from that, so maybe a combination of some of those and take out all the negatives"
+    },
+    {
+      "timestamp": [
+        26.88,
+        28.02
+      ],
+      "text": " of the rest."
+    }
+  ]
+}

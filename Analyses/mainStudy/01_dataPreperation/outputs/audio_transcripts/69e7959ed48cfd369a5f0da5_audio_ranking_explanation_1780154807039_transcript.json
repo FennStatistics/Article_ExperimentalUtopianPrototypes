@@ -1,0 +1,66 @@
+{
+  "audio_file": "69e7959ed48cfd369a5f0da5_audio_ranking_explanation_1780154807039.webm",
+  "transcript": " i think that ultimate morality comes from faith so i think that would be the most important and everybody would have inner convictions to do the right thing in that order and next would be inner morality which i think we automatically get from our creator and then rule of law would just makes sense people follow laws because of repercussions and then sustainable and secure science small scale those are kind of interchangeable but data-driven i don't believe in that seems unsustainable and the amount of resources needed to have ai-centered data-driven governance would be unsustainable to even, I mean, if the resources are already limited, how are we going to sustain that for AI data centers?",
+  "language": "unknown",
+  "processing_time_seconds": 13.413291,
+  "timestamp": "2026-05-31T09:59:10.970502",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.76
+      ],
+      "text": " i think that ultimate morality comes from faith so i think that would be the most important"
+    },
+    {
+      "timestamp": [
+        8.76,
+        20.18
+      ],
+      "text": " and everybody would have inner convictions to do the right thing in that order and next would be"
+    },
+    {
+      "timestamp": [
+        20.18,
+        27.68
+      ],
+      "text": " inner morality which i think we automatically get from our creator and then rule of law would just"
+    },
+    {
+      "timestamp": [
+        27.68,
+        35.68
+      ],
+      "text": " makes sense people follow laws because of repercussions and then sustainable and secure"
+    },
+    {
+      "timestamp": [
+        35.68,
+        41.92
+      ],
+      "text": " science small scale those are kind of interchangeable but data-driven i don't believe in"
+    },
+    {
+      "timestamp": [
+        41.92,
+        51.32
+      ],
+      "text": " that seems unsustainable and the amount of resources needed to have ai-centered data-driven"
+    },
+    {
+      "timestamp": [
+        51.32,
+        58.82
+      ],
+      "text": " governance would be unsustainable to even, I mean, if the resources are already limited,"
+    },
+    {
+      "timestamp": [
+        59.1,
+        61.94
+      ],
+      "text": " how are we going to sustain that for AI data centers?"
+    }
+  ]
+}

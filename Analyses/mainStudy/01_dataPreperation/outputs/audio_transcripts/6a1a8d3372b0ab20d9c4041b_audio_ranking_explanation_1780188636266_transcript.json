@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a1a8d3372b0ab20d9c4041b_audio_ranking_explanation_1780188636266.webm",
+  "transcript": " um so therefore i prefer to rank them in that order because the religious utopia is mainly faith-based and it is used to it it basically gets its laws from the religious scripts for example the christians the muslims and other institutions then we have the institutional utopia which is the rule of law that brings forth many many many opportunities for the people to enact democratic laws and for them to bring about peace law in order and then i chose futuristic utopia because the world is expanding daily and we need um daily movement daily expansion and the utopia we also need um the green utopia because as you know green is life and green is the color of plants and vegetation then we have the commonwealth like everybody controls their selves everybody has um inner drive inner morals everybody gets to move their own And then we have the AI centered. AI is currently the most, should I say innovative? Yes, innovative and actively transforming in today's society. And then we have primitive utopia as the last option as we have moved on and there is no need to move back.",
+  "language": "unknown",
+  "processing_time_seconds": 21.299275,
+  "timestamp": "2026-05-31T10:20:57.277018",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.72
+      ],
+      "text": " um so therefore i prefer to rank them in that order because the religious utopia is mainly"
+    },
+    {
+      "timestamp": [
+        10.72,
+        20.32
+      ],
+      "text": " faith-based and it is used to it it basically gets its laws from the religious scripts for"
+    },
+    {
+      "timestamp": [
+        20.32,
+        26.24
+      ],
+      "text": " example the christians the muslims and other institutions then we have the institutional"
+    },
+    {
+      "timestamp": [
+        26.24,
+        33.92
+      ],
+      "text": " utopia which is the rule of law that brings forth many many many opportunities for the people to"
+    },
+    {
+      "timestamp": [
+        33.92,
+        43.84
+      ],
+      "text": " enact democratic laws and for them to bring about peace law in order and then i chose futuristic"
+    },
+    {
+      "timestamp": [
+        43.84,
+        52.08
+      ],
+      "text": " utopia because the world is expanding daily and we need um daily movement daily expansion"
+    },
+    {
+      "timestamp": [
+        52.88,
+        52.96
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        61.92,
+        68.72
+      ],
+      "text": " and the utopia we also need um the green utopia because as you know green is life and green is the color of plants and vegetation then we have the commonwealth like everybody controls"
+    },
+    {
+      "timestamp": [
+        69.28,
+        76.8
+      ],
+      "text": " their selves everybody has um inner drive inner morals everybody gets to move their own"
+    },
+    {
+      "timestamp": [
+        77.68,
+        76.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        86.52,
+        93.48
+      ],
+      "text": " And then we have the AI centered. AI is currently the most, should I say innovative? Yes, innovative and actively transforming in today's society. And then we have primitive utopia as the last"
+    },
+    {
+      "timestamp": [
+        93.48,
+        101.16
+      ],
+      "text": " option as we have moved on and there is no need to move back."
+    }
+  ]
+}

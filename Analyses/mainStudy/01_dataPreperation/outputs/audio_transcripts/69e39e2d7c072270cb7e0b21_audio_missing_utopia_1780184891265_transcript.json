@@ -1,0 +1,31 @@
+{
+  "audio_file": "69e39e2d7c072270cb7e0b21_audio_missing_utopia_1780184891265.webm",
+  "transcript": " Um, I guess if there was a way to combine components or concepts from each future society, like, it'd be ideal to combine the science and innovation with the green, sustainable future society, just because I feel like those two combined together would make for a really ideal missing utopia. That's really the only thing I had in mind. I feel like those two would work cohesively together.",
+  "language": "unknown",
+  "processing_time_seconds": 9.798254,
+  "timestamp": "2026-05-31T09:55:45.224743",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.28
+      ],
+      "text": " Um, I guess if there was a way to combine components or concepts from each future society, like, it'd be ideal to combine the science and innovation with the green, sustainable future society, just because I feel like those two combined together would make for a really ideal missing utopia."
+    },
+    {
+      "timestamp": [
+        30.0,
+        33.7
+      ],
+      "text": " That's really the only thing I had in mind."
+    },
+    {
+      "timestamp": [
+        34.66,
+        36.9
+      ],
+      "text": " I feel like those two would work cohesively together."
+    }
+  ]
+}

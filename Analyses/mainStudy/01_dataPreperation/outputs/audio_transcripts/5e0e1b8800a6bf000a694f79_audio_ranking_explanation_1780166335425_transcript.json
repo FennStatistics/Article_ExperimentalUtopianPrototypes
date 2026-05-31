@@ -1,0 +1,52 @@
+{
+  "audio_file": "5e0e1b8800a6bf000a694f79_audio_ranking_explanation_1780166335425.webm",
+  "transcript": " I thought it made the most sense to have a society that values the land and the planet and everything that it gives us. And even though I have the moral commonwealth as number two, I think that would be just as important as the green utopia. if everyone is able to self-actualize enough to where they they build strong inner morality it feels like it would be more stable Um, and for, uh, three, science still feels important, especially moving forward, um, and then towards the bottom, I really didn't think AI would be a good idea as a central figure in a society. And from what I've seen of religion in societies now, I definitely wanted that closer to the bottom.",
+  "language": "unknown",
+  "processing_time_seconds": 15.890883,
+  "timestamp": "2026-05-31T09:43:43.141731",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.06
+      ],
+      "text": " I thought it made the most sense to have a society that values the land and the planet and everything that it gives us."
+    },
+    {
+      "timestamp": [
+        15.42,
+        23.32
+      ],
+      "text": " And even though I have the moral commonwealth as number two, I think that would be just as important as the green utopia."
+    },
+    {
+      "timestamp": [
+        27.5,
+        23.32
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.76,
+        40.08
+      ],
+      "text": " if everyone is able to self-actualize enough to where they they build strong inner morality it feels like it would be more stable"
+    },
+    {
+      "timestamp": [
+        42.82,
+        40.08
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        63.08,
+        75.34
+      ],
+      "text": " Um, and for, uh, three, science still feels important, especially moving forward, um, and then towards the bottom, I really didn't think AI would be a good idea as a central figure in a society. And from what I've seen of religion in societies now, I definitely wanted that closer to the bottom."
+    }
+  ]
+}

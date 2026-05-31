@@ -1,0 +1,192 @@
+{
+  "audio_file": "6a0a21f0fcfb4aa7eb203b1e_audio_ranking_explanation_1780190748026.webm",
+  "transcript": " the reason modern green utopia is at the very top is because this planet is dying it's sad it's true um it needs to be sustained so we can all stay alive basically you know and ai is not gonna freaking help us with that and having it governed and take over the world and pollute our cities our skies it's ruining everything and it's like i understand people think oh it's dumb it's hippie shit i get it but the problem is is the fact that if we can sustain the earth we live longer factually because this planet can get ruined by us it can get to a point where we are unable to live on this planet and we'll have to find a new one if that's even possible because this planet is literally made so perfectly it's like if we have to find a new one it's going to make one in a billion one in a billion so we have to take care of this one so well that a modern green utopia will be best now I am a religious person and partially i kind of wish religious utopia would be good the problem is though i know there are many people who use the words of christ or muhammad or moses whatever you believe in who use the religious text in the most horrid and awful ways and it would just not be preferable wouldn't help anything at all also i like the low tech stuff small scale it keeps things to a minimum helps things out uh make sure you don't get the ai you know which is the worst scenario in my opinion i mean so a small scale keeps its minimum while managing all the environmental and economic stuff nicely uh futuristic utopia uh i do like that could be bad but i feel like it could also be good too as long as we manage the environmental and economic standpoints especially environmental but i also feel like futurist utopia help out that is the that is meant for innovation overall could be amazing uh yeah that's all i have to say really",
+  "language": "unknown",
+  "processing_time_seconds": 29.484761,
+  "timestamp": "2026-05-31T10:08:58.465714",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.0
+      ],
+      "text": " the reason modern green utopia is at the very top is because this planet is dying it's sad"
+    },
+    {
+      "timestamp": [
+        9.0,
+        20.02
+      ],
+      "text": " it's true um it needs to be sustained so we can all stay alive basically you know and ai is not"
+    },
+    {
+      "timestamp": [
+        20.02,
+        25.56
+      ],
+      "text": " gonna freaking help us with that and having it governed and take over the world and pollute our"
+    },
+    {
+      "timestamp": [
+        25.56,
+        33.5
+      ],
+      "text": " cities our skies it's ruining everything and it's like i understand people think oh"
+    },
+    {
+      "timestamp": [
+        33.5,
+        41.24
+      ],
+      "text": " it's dumb it's hippie shit i get it but the problem is is the fact that if we can sustain"
+    },
+    {
+      "timestamp": [
+        41.24,
+        51.32
+      ],
+      "text": " the earth we live longer factually because this planet can get ruined by us it can get to a point"
+    },
+    {
+      "timestamp": [
+        51.32,
+        53.98
+      ],
+      "text": " where we are unable to live on this planet"
+    },
+    {
+      "timestamp": [
+        53.98,
+        56.2
+      ],
+      "text": " and we'll have to find a new one"
+    },
+    {
+      "timestamp": [
+        56.2,
+        58.28
+      ],
+      "text": " if that's even possible"
+    },
+    {
+      "timestamp": [
+        58.28,
+        62.24
+      ],
+      "text": " because this planet is literally made so perfectly"
+    },
+    {
+      "timestamp": [
+        62.24,
+        65.58
+      ],
+      "text": " it's like if we have to find a new one"
+    },
+    {
+      "timestamp": [
+        65.58,
+        67.38
+      ],
+      "text": " it's going to make one in a billion"
+    },
+    {
+      "timestamp": [
+        67.38,
+        69.28
+      ],
+      "text": " one in a billion"
+    },
+    {
+      "timestamp": [
+        69.28,
+        71.02
+      ],
+      "text": " so we have to take care of this one"
+    },
+    {
+      "timestamp": [
+        71.02,
+        75.56
+      ],
+      "text": " so well that a modern green utopia will be best"
+    },
+    {
+      "timestamp": [
+        75.56,
+        79.18
+      ],
+      "text": " now I am a religious person"
+    },
+    {
+      "timestamp": [
+        79.18,
+        87.28
+      ],
+      "text": " and partially i kind of wish religious utopia would be good the problem is though i know there"
+    },
+    {
+      "timestamp": [
+        87.28,
+        93.78
+      ],
+      "text": " are many people who use the words of christ or muhammad or moses whatever you believe in"
+    },
+    {
+      "timestamp": [
+        93.78,
+        101.04
+      ],
+      "text": " who use the religious text in the most horrid and awful ways and it would just not be preferable"
+    },
+    {
+      "timestamp": [
+        101.04,
+        108.72
+      ],
+      "text": " wouldn't help anything at all also i like the low tech stuff small scale it keeps things to a minimum"
+    },
+    {
+      "timestamp": [
+        108.72,
+        115.22
+      ],
+      "text": " helps things out uh make sure you don't get the ai you know which is the worst scenario in my"
+    },
+    {
+      "timestamp": [
+        115.22,
+        122.74
+      ],
+      "text": " opinion i mean so a small scale keeps its minimum while managing all the environmental and economic"
+    },
+    {
+      "timestamp": [
+        122.74,
+        129.36
+      ],
+      "text": " stuff nicely uh futuristic utopia uh i do like that could be bad but i feel like it could also"
+    },
+    {
+      "timestamp": [
+        129.36,
+        135.5
+      ],
+      "text": " be good too as long as we manage the environmental and economic standpoints especially environmental"
+    },
+    {
+      "timestamp": [
+        135.5,
+        143.2
+      ],
+      "text": " but i also feel like futurist utopia help out that is the that is meant for innovation overall"
+    },
+    {
+      "timestamp": [
+        143.2,
+        149.6
+      ],
+      "text": " could be amazing uh yeah that's all i have to say really"
+    }
+  ]
+}

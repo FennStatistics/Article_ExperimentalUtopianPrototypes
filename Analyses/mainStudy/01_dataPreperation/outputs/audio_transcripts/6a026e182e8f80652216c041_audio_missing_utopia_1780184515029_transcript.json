@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a026e182e8f80652216c041_audio_missing_utopia_1780184515029.webm",
+  "transcript": " i mean i feel like it would be combining the rule of law and the morality one i think those are the most important things like i do like a big government i think just like having a government that's based on morals and like the morals of the people as long as the morals of the people are good and then they can trust the government have trust in the government and have trust in an institution that could lead to a utopian society and like a good vision of society.",
+  "language": "unknown",
+  "processing_time_seconds": 9.834021,
+  "timestamp": "2026-05-31T10:04:59.538386",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.82
+      ],
+      "text": " i mean i feel like it would be combining the rule of law and the morality one i think those are the"
+    },
+    {
+      "timestamp": [
+        8.82,
+        13.4
+      ],
+      "text": " most important things like i do like a big government i think just like having a government"
+    },
+    {
+      "timestamp": [
+        13.4,
+        20.52
+      ],
+      "text": " that's based on morals and like the morals of the people as long as the morals of the people"
+    },
+    {
+      "timestamp": [
+        20.52,
+        24.96
+      ],
+      "text": " are good and then they can trust the government have trust in the government and have trust in"
+    },
+    {
+      "timestamp": [
+        24.96,
+        30.56
+      ],
+      "text": " an institution that could lead to a utopian society and like a good vision of society."
+    }
+  ]
+}

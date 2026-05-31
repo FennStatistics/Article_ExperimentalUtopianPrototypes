@@ -1,0 +1,24 @@
+{
+  "audio_file": "69c1697f0df8e94cfb806f7a_audio_missing_utopia_1780166191739.webm",
+  "transcript": " I think that a society that would balance environmental sustainability and adherence to law and some sort of science and innovation would be the most ideal. I think heavily relying on only one of these wouldn't be an ideal future society.",
+  "language": "unknown",
+  "processing_time_seconds": 5.862264,
+  "timestamp": "2026-05-31T09:54:36.631377",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.68
+      ],
+      "text": " I think that a society that would balance environmental sustainability and adherence to law and some sort of science and innovation would be the most ideal."
+    },
+    {
+      "timestamp": [
+        15.68,
+        25.8
+      ],
+      "text": " I think heavily relying on only one of these wouldn't be an ideal future society."
+    }
+  ]
+}

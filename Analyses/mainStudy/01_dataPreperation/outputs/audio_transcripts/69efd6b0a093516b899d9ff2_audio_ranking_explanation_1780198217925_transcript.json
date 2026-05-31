@@ -1,0 +1,66 @@
+{
+  "audio_file": "69efd6b0a093516b899d9ff2_audio_ranking_explanation_1780198217925.webm",
+  "transcript": " i picked the religious utopia because it's face-based order everyone would be treating each other with love versus the ai-centered one um we would rely on ai and updating those servers updating maintaining servers and no one people cannot maintain it because it's too complex the versus the science innovation would be a little bit better inner morality, everyone be, you know, be more selfless in that way. Everyone's maintaining themselves. The rule of law is not ideal because government be running everything. So the baby one's secure would be pretty good for the world. But the low tech and small scale will be kind of like going back to the ancient times.",
+  "language": "unknown",
+  "processing_time_seconds": 11.142406,
+  "timestamp": "2026-05-31T10:00:10.564681",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.7
+      ],
+      "text": " i picked the religious utopia because it's face-based order everyone would be treating"
+    },
+    {
+      "timestamp": [
+        6.7,
+        14.58
+      ],
+      "text": " each other with love versus the ai-centered one um we would rely on ai and updating those servers"
+    },
+    {
+      "timestamp": [
+        14.58,
+        20.92
+      ],
+      "text": " updating maintaining servers and no one people cannot maintain it because it's too complex"
+    },
+    {
+      "timestamp": [
+        20.92,
+        27.3
+      ],
+      "text": " the versus the science innovation would be a little bit better"
+    },
+    {
+      "timestamp": [
+        27.3,
+        35.42
+      ],
+      "text": " inner morality, everyone be, you know, be more selfless in that way. Everyone's maintaining"
+    },
+    {
+      "timestamp": [
+        35.42,
+        41.56
+      ],
+      "text": " themselves. The rule of law is not ideal because government be running everything. So the baby"
+    },
+    {
+      "timestamp": [
+        41.56,
+        47.84
+      ],
+      "text": " one's secure would be pretty good for the world. But the low tech and small scale will be kind of"
+    },
+    {
+      "timestamp": [
+        47.84,
+        49.24
+      ],
+      "text": " like going back to the ancient times."
+    }
+  ]
+}

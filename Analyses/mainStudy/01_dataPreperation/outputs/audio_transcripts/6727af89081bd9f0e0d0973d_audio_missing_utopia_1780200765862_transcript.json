@@ -1,0 +1,45 @@
+{
+  "audio_file": "6727af89081bd9f0e0d0973d_audio_missing_utopia_1780200765862.webm",
+  "transcript": " I think they were pretty well representative of everything I can think of I might like a blend of some of them like the AI and green and moral ones but that may be a pipe dream",
+  "language": "unknown",
+  "processing_time_seconds": 5.705555,
+  "timestamp": "2026-05-31T09:50:27.307574",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.02
+      ],
+      "text": " I think they were pretty well"
+    },
+    {
+      "timestamp": [
+        4.02,
+        8.16
+      ],
+      "text": " representative of everything I can think of"
+    },
+    {
+      "timestamp": [
+        8.16,
+        11.68
+      ],
+      "text": " I might like a blend of some of them"
+    },
+    {
+      "timestamp": [
+        11.68,
+        16.22
+      ],
+      "text": " like the AI and green and moral ones"
+    },
+    {
+      "timestamp": [
+        16.22,
+        18.42
+      ],
+      "text": " but that may be a pipe dream"
+    }
+  ]
+}

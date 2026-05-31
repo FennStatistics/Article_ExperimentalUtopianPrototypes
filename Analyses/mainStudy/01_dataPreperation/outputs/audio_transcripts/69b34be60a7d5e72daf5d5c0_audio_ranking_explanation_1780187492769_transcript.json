@@ -1,0 +1,185 @@
+{
+  "audio_file": "69b34be60a7d5e72daf5d5c0_audio_ranking_explanation_1780187492769.webm",
+  "transcript": " I ranked the modern green utopia as being my most preferred kind of society because I myself care a lot about the environment, and particularly if we're talking about a world where we're recovering from some type of crisis. I think that that is probably the best example that will keep us from going back into crisis. Then I have the futurist utopia, which was the science and innovation one, kind of similar to the modern green one. It also talked about, like, having respect for the environment, which I appreciated. And it talked about trusting science and different kinds of technology, which I also think is really important if you're trying to not go back into some form of dark ages. Then I have the primitivist utopia. I didn't love that it was considered to be, like, low tech, but I did like the small scale kind of community situation without, like, hard levels of outside governance. I think that communities like that tend to do well, especially if people have similar values. Then I have the institutional utopia. This was kind of middle of the road for me. I feel like this is kind of where our society is today, where we believe in rule of law and things aren't as subjective as they are in the moral commonwealth. I didn't love that just because I feel like people have different examples and different feelings of what morality is. And if we're living in a society that's based on inner morality, I don't feel like we would all have the same ideas of what that means and in the rule of law society in the institutional utopia at least you know like what the laws are it's straightforward whereas the other one i feel like that could almost be one person does a crime and gets punished one way and then another person does a crime and is punished another and i personally believe that that's not fair um ai-centered utopia i don't like at all um i felt like that's you know not human-centered it talked about wanting everything to just be like data driven and then I think the word that it used was like precise or accurate or something and I just don't think that that's how humans function um and then religious utopia is my last one I myself am not religious um I feel like religion sometimes does more harm than good and uh I just I don't believe in in that kind of society it talked about not believing in science and technology not really caring about the environment seeing people as like supernatural beings I just I don't really agree with that and they think that that could cause harm especially to people who don't believe in the religion of the society.",
+  "language": "unknown",
+  "processing_time_seconds": 34.435697,
+  "timestamp": "2026-05-31T09:54:10.092818",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.76,
+        12.98
+      ],
+      "text": " I ranked the modern green utopia as being my most preferred kind of society because I myself care a lot about the environment, and particularly if we're talking about a world where we're recovering from some type of crisis."
+    },
+    {
+      "timestamp": [
+        13.18,
+        17.64
+      ],
+      "text": " I think that that is probably the best example that will keep us from going back into crisis."
+    },
+    {
+      "timestamp": [
+        18.2,
+        23.08
+      ],
+      "text": " Then I have the futurist utopia, which was the science and innovation one, kind of similar to the modern green one."
+    },
+    {
+      "timestamp": [
+        23.08,
+        26.78
+      ],
+      "text": " It also talked about, like, having respect for the environment, which I appreciated."
+    },
+    {
+      "timestamp": [
+        27.16,
+        36.52
+      ],
+      "text": " And it talked about trusting science and different kinds of technology, which I also think is really important if you're trying to not go back into some form of dark ages."
+    },
+    {
+      "timestamp": [
+        36.86,
+        39.5
+      ],
+      "text": " Then I have the primitivist utopia."
+    },
+    {
+      "timestamp": [
+        40.38,
+        52.1
+      ],
+      "text": " I didn't love that it was considered to be, like, low tech, but I did like the small scale kind of community situation without, like, hard levels of outside governance."
+    },
+    {
+      "timestamp": [
+        52.1,
+        56.24
+      ],
+      "text": " I think that communities like that tend to do well, especially if people have similar values."
+    },
+    {
+      "timestamp": [
+        56.46,
+        61.56
+      ],
+      "text": " Then I have the institutional utopia. This was kind of middle of the road for me. I feel like"
+    },
+    {
+      "timestamp": [
+        61.56,
+        67.12
+      ],
+      "text": " this is kind of where our society is today, where we believe in rule of law and things aren't as"
+    },
+    {
+      "timestamp": [
+        67.12,
+        71.56
+      ],
+      "text": " subjective as they are in the moral commonwealth. I didn't love that just because I feel like people"
+    },
+    {
+      "timestamp": [
+        71.56,
+        76.08
+      ],
+      "text": " have different examples and different feelings of what morality is. And if we're living in a"
+    },
+    {
+      "timestamp": [
+        76.08,
+        80.94
+      ],
+      "text": " society that's based on inner morality, I don't feel like we would all have the same ideas of"
+    },
+    {
+      "timestamp": [
+        80.94,
+        86.36
+      ],
+      "text": " what that means and in the rule of law society in the institutional utopia at least you know like"
+    },
+    {
+      "timestamp": [
+        86.36,
+        90.36
+      ],
+      "text": " what the laws are it's straightforward whereas the other one i feel like that could almost"
+    },
+    {
+      "timestamp": [
+        90.36,
+        94.34
+      ],
+      "text": " be one person does a crime and gets punished one way and then another person does a crime"
+    },
+    {
+      "timestamp": [
+        94.34,
+        100.36
+      ],
+      "text": " and is punished another and i personally believe that that's not fair um ai-centered utopia i don't"
+    },
+    {
+      "timestamp": [
+        100.36,
+        105.92
+      ],
+      "text": " like at all um i felt like that's you know not human-centered it talked about wanting everything"
+    },
+    {
+      "timestamp": [
+        105.92,
+        111.8
+      ],
+      "text": " to just be like data driven and then I think the word that it used was like precise or accurate or"
+    },
+    {
+      "timestamp": [
+        111.8,
+        115.82
+      ],
+      "text": " something and I just don't think that that's how humans function um and then religious utopia is"
+    },
+    {
+      "timestamp": [
+        115.82,
+        121.54
+      ],
+      "text": " my last one I myself am not religious um I feel like religion sometimes does more harm than good"
+    },
+    {
+      "timestamp": [
+        121.54,
+        127.26
+      ],
+      "text": " and uh I just I don't believe in in that kind of society it talked about not believing in science"
+    },
+    {
+      "timestamp": [
+        127.26,
+        131.36
+      ],
+      "text": " and technology not really caring about the environment seeing people as like supernatural"
+    },
+    {
+      "timestamp": [
+        131.36,
+        135.06
+      ],
+      "text": " beings I just I don't really agree with that and they think that that could cause harm especially"
+    },
+    {
+      "timestamp": [
+        135.06,
+        137.86
+      ],
+      "text": " to people who don't believe in the religion of the society."
+    }
+  ]
+}

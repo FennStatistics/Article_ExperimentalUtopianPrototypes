@@ -1,0 +1,325 @@
+{
+  "audio_file": "69f663add8c27375de2ae11c_audio_ranking_explanation_1780193399724.webm",
+  "transcript": " The first I chose was Futurist Utopia, as it sounds evidence-based, science and innovation, technology advancement. It sounds like a society where people, it's an art of civilization, the science and innovation. just keep putting it forward to optimize things for the new things for the advancement for a to to optimize the society and I think I'm memory set to keep everyone in a good shape in a structure for everyone's well-being so I i think that is a very um ideal and pretty objective standard to pursue um the second one was religious um that only applies to christianity i would say as as a christian myself because that all already has a set of rules written very clear not a subject to change at all So it's not like one human being can try to dictate this and that, rewrite the scripture. It's already been there for thousands of years. So a very strict, objective set of rules that can govern people. And if everyone follows all the moral values and the laws within the Christian scripture, I don't think any problem will arise. and that is what as a creation um people expect you know after that or the future world basically um the third one was institutional utopia that's basically the world right now i'll say except that laws might be a stronger priority. Not all people are good so having a written out a set of law to govern people i think that that is a very good practice for the consistency for the quality integrity um to minimize the chaos basically um the next is moral commonwealth i mean if i can assume everyone is effing out of their moral values and if everyone has a a pretty good ethics that would be a number one i mean nobody needs a regulations laws penalties everyone will just act in good faith everyone will care for another that sounds like a utopia but the problem is it sounds too much like utopia um not like i said again not everyone is good inherently and um moral commonwealth without laws that could lead to um a a disaster like a i'm pretty sure it will be a cacophony The next is modern green utopia, sustainability. Everyone talked about it. It's important. Yes, we have to preserve the nature. It's essential for human civilization and our life and our successors. yes but it just sounds not so much attractive compared to other utopias discussed above um the sixth was ai center utopia or the ai driven result i mean the entire system could work in a in a mechanically optimized way but there is simply no human in it and like people don't always follow the data I mean there people have hearts people have emotions sometimes that it's why you know made people and that's what made changes less that's why has driven sometimes innovations and or improve the quality of the society like the human it is it looks like it's very inefficient ineffective crazy decision against the social norm and all those you know like the the better good but sometimes those kind of decision and no from nowadays standard a great choice where machines wait you know rational thinking cannot achieve and uh well simply ai center to utopia just sounds like one i would see in the movie matrix it's undesirable highly um the last is primitive utopia i don't really know what to say about this it's it's just saying that hey let's all go to mountains right now and forget about the society and civilization and work like those ancient people i mean i i don't see the point of doing that i mean if it sounds like the the society after a nuclear war and when the entire civilization is into ashes just how it sounds like to me.",
+  "language": "unknown",
+  "processing_time_seconds": 71.486148,
+  "timestamp": "2026-05-31T10:02:26.211817",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.5
+      ],
+      "text": " The first I chose was Futurist Utopia, as it sounds evidence-based, science and innovation,"
+    },
+    {
+      "timestamp": [
+        12.5,
+        14.5
+      ],
+      "text": " technology advancement."
+    },
+    {
+      "timestamp": [
+        14.5,
+        27.5
+      ],
+      "text": " It sounds like a society where people, it's an art of civilization, the science and innovation."
+    },
+    {
+      "timestamp": [
+        27.5,
+        34.26
+      ],
+      "text": " just keep putting it forward to optimize things for the new things for the"
+    },
+    {
+      "timestamp": [
+        34.26,
+        46.82
+      ],
+      "text": " advancement for a to to optimize the society and I think I'm memory set to"
+    },
+    {
+      "timestamp": [
+        46.82,
+        54.74
+      ],
+      "text": " keep everyone in a good shape in a structure for everyone's well-being so I"
+    },
+    {
+      "timestamp": [
+        54.74,
+        63.46
+      ],
+      "text": " i think that is a very um ideal and pretty objective standard to pursue um the second"
+    },
+    {
+      "timestamp": [
+        63.46,
+        71.14
+      ],
+      "text": " one was religious um that only applies to christianity i would say as as a christian myself"
+    },
+    {
+      "timestamp": [
+        73.94,
+        84.02
+      ],
+      "text": " because that all already has a set of rules written very clear not a subject to change at all"
+    },
+    {
+      "timestamp": [
+        84.74,
+        91.68
+      ],
+      "text": " So it's not like one human being can try to dictate this and that, rewrite the scripture."
+    },
+    {
+      "timestamp": [
+        92.82,
+        95.68
+      ],
+      "text": " It's already been there for thousands of years."
+    },
+    {
+      "timestamp": [
+        96.88,
+        105.1
+      ],
+      "text": " So a very strict, objective set of rules that can govern people."
+    },
+    {
+      "timestamp": [
+        105.1,
+        124.8
+      ],
+      "text": " And if everyone follows all the moral values and the laws within the Christian scripture, I don't think any problem will arise."
+    },
+    {
+      "timestamp": [
+        124.8,
+        138.4
+      ],
+      "text": " and that is what as a creation um people expect you know after that or the future world basically"
+    },
+    {
+      "timestamp": [
+        139.04,
+        141.44
+      ],
+      "text": " um the third one was institutional utopia"
+    },
+    {
+      "timestamp": [
+        143.84,
+        154.32
+      ],
+      "text": " that's basically the world right now i'll say except that laws might be a stronger"
+    },
+    {
+      "timestamp": [
+        154.32,
+        176.28
+      ],
+      "text": " priority. Not all people are good so having a written out a set of law to"
+    },
+    {
+      "timestamp": [
+        176.28,
+        187.8
+      ],
+      "text": " govern people i think that that is a very good practice for the consistency for the quality"
+    },
+    {
+      "timestamp": [
+        187.8,
+        196.76
+      ],
+      "text": " integrity um to minimize the chaos basically"
+    },
+    {
+      "timestamp": [
+        199.56,
+        196.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        208.0,
+        214.56
+      ],
+      "text": " um the next is moral commonwealth i mean if i can assume everyone is effing out of their moral values and if everyone has a a pretty good"
+    },
+    {
+      "timestamp": [
+        218.56,
+        223.2
+      ],
+      "text": " ethics that would be a number one i mean nobody needs a"
+    },
+    {
+      "timestamp": [
+        223.2,
+        233.04
+      ],
+      "text": " regulations laws penalties everyone will just act in good faith everyone will care for another"
+    },
+    {
+      "timestamp": [
+        233.04,
+        242.08
+      ],
+      "text": " that sounds like a utopia but the problem is it sounds too much like utopia um not like i said"
+    },
+    {
+      "timestamp": [
+        242.08,
+        242.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        255.28,
+        256.4
+      ],
+      "text": " again not everyone is good inherently and um moral commonwealth without laws that could lead to"
+    },
+    {
+      "timestamp": [
+        266.08,
+        268.4
+      ],
+      "text": " um a a disaster like a i'm pretty sure it will be a cacophony"
+    },
+    {
+      "timestamp": [
+        266.08,
+        277.08
+      ],
+      "text": " The next is modern green utopia, sustainability. Everyone talked about it. It's important."
+    },
+    {
+      "timestamp": [
+        277.08,
+        290.08
+      ],
+      "text": " Yes, we have to preserve the nature. It's essential for human civilization and our life and our successors."
+    },
+    {
+      "timestamp": [
+        290.08,
+        302.08
+      ],
+      "text": " yes but it just sounds not so much attractive compared to other utopias discussed above"
+    },
+    {
+      "timestamp": [
+        304.08,
+        314.48
+      ],
+      "text": " um the sixth was ai center utopia or the ai driven result i mean the entire system could"
+    },
+    {
+      "timestamp": [
+        316.32,
+        314.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        324.8,
+        335.24
+      ],
+      "text": " work in a in a mechanically optimized way but there is simply no human in it and like people don't always follow the data I mean there people have hearts people have emotions"
+    },
+    {
+      "timestamp": [
+        335.24,
+        346.6
+      ],
+      "text": " sometimes that it's why you know made people and that's what made changes less that's why has driven"
+    },
+    {
+      "timestamp": [
+        348.68,
+        358.04
+      ],
+      "text": " sometimes innovations and or improve the quality of the society like the human it is it looks like"
+    },
+    {
+      "timestamp": [
+        358.04,
+        365.3
+      ],
+      "text": " it's very inefficient ineffective crazy decision against the social norm and all"
+    },
+    {
+      "timestamp": [
+        365.3,
+        374.78
+      ],
+      "text": " those you know like the the better good but sometimes those kind of decision and"
+    },
+    {
+      "timestamp": [
+        374.78,
+        386.24
+      ],
+      "text": " no from nowadays standard a great choice where machines wait you know"
+    },
+    {
+      "timestamp": [
+        386.24,
+        394.72
+      ],
+      "text": " rational thinking cannot achieve and uh well simply ai center to utopia just sounds like"
+    },
+    {
+      "timestamp": [
+        395.28,
+        405.92
+      ],
+      "text": " one i would see in the movie matrix it's undesirable highly um the last is primitive utopia"
+    },
+    {
+      "timestamp": [
+        408.72,
+        414.24
+      ],
+      "text": " i don't really know what to say about this it's it's just saying that hey let's all go"
+    },
+    {
+      "timestamp": [
+        414.24,
+        418.56
+      ],
+      "text": " to mountains right now and forget about the society and civilization and work like"
+    },
+    {
+      "timestamp": [
+        420.16,
+        427.68
+      ],
+      "text": " those ancient people i mean i i don't see the point of doing that i mean if it sounds like the"
+    },
+    {
+      "timestamp": [
+        427.68,
+        436.64
+      ],
+      "text": " the society after a nuclear war and when the entire civilization is into ashes just how it sounds"
+    },
+    {
+      "timestamp": [
+        436.64,
+        438.64
+      ],
+      "text": " like to me."
+    }
+  ]
+}

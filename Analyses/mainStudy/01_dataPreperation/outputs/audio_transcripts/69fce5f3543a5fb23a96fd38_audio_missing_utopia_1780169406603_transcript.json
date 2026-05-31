@@ -1,0 +1,87 @@
+{
+  "audio_file": "69fce5f3543a5fb23a96fd38_audio_missing_utopia_1780169406603.webm",
+  "transcript": " So looking at the societies that I listed, I feel that a collaborative human-centric society is missing. While the others prioritize either technology, nature, or rigid institutional roles, this missing vision would focus on more of a co-evolution of human creativity and, pardon me, augmented support. what really would matter most in a society like this is balance where technology acts as an invisible non-intrusive foundation automating menial tasks and optimizing resource distribution to allow humans to dedicate themselves entirely to artistic or interpersonal or philosophical pursuits it's not just about data-driven governance or institutional order it's about Not a society where the primary metric of success is the expansion of human potential and the depth of community connection, facilitated by a technology rather than governed by it. It moves away from the rule of law or faith-based order toward a culture of collective empathy and self-actualized contributions.",
+  "language": "unknown",
+  "processing_time_seconds": 17.836335,
+  "timestamp": "2026-05-31T10:03:19.225830",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        7.56
+      ],
+      "text": " So looking at the societies that I listed, I feel that a collaborative human-centric society is missing."
+    },
+    {
+      "timestamp": [
+        8.72,
+        14.2
+      ],
+      "text": " While the others prioritize either technology, nature, or rigid institutional roles,"
+    },
+    {
+      "timestamp": [
+        14.98,
+        26.36
+      ],
+      "text": " this missing vision would focus on more of a co-evolution of human creativity and, pardon me, augmented support."
+    },
+    {
+      "timestamp": [
+        28.64,
+        26.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.8,
+        41.48
+      ],
+      "text": " what really would matter most in a society like this is balance where technology acts as an invisible non-intrusive foundation automating menial tasks and optimizing resource distribution"
+    },
+    {
+      "timestamp": [
+        41.48,
+        48.4
+      ],
+      "text": " to allow humans to dedicate themselves entirely to artistic or interpersonal or philosophical"
+    },
+    {
+      "timestamp": [
+        48.4,
+        55.78
+      ],
+      "text": " pursuits it's not just about data-driven governance or institutional order it's about"
+    },
+    {
+      "timestamp": [
+        55.78,
+        61.38
+      ],
+      "text": " Not a society where the primary metric of success is the expansion of human potential"
+    },
+    {
+      "timestamp": [
+        61.38,
+        71.38
+      ],
+      "text": " and the depth of community connection, facilitated by a technology rather than governed by it."
+    },
+    {
+      "timestamp": [
+        71.38,
+        77.86
+      ],
+      "text": " It moves away from the rule of law or faith-based order toward a culture of collective empathy"
+    },
+    {
+      "timestamp": [
+        77.86,
+        81.06
+      ],
+      "text": " and self-actualized contributions."
+    }
+  ]
+}

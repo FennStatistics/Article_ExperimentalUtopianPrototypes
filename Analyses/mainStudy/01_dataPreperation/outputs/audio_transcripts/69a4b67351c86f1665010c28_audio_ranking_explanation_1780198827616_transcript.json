@@ -1,0 +1,31 @@
+{
+  "audio_file": "69a4b67351c86f1665010c28_audio_ranking_explanation_1780198827616.webm",
+  "transcript": " My personal worldview and values are based on science. A society mostly focused on science and innovation is very appealing to me. A religious-based society would conflict with my personal values and how I want to live my life.",
+  "language": "unknown",
+  "processing_time_seconds": 5.824451,
+  "timestamp": "2026-05-31T09:52:51.246301",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.6
+      ],
+      "text": " My personal worldview and values are based on science."
+    },
+    {
+      "timestamp": [
+        6.6,
+        14.04
+      ],
+      "text": " A society mostly focused on science and innovation is very appealing to me."
+    },
+    {
+      "timestamp": [
+        15.38,
+        27.72
+      ],
+      "text": " A religious-based society would conflict with my personal values and how I want to live my life."
+    }
+  ]
+}

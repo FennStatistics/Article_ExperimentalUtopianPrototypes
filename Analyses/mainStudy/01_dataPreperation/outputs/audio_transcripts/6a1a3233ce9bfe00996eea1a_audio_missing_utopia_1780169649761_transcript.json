@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1a3233ce9bfe00996eea1a_audio_missing_utopia_1780169649761.webm",
+  "transcript": " um i don't really know if any any future societies were uh not listed in there i think for the most part everything touched on uh i mean touched on on what that utopia would look like or what that community would look like uh i think that i mean and for the most part i think that the society would need to have shared values, shared morals in order for it to work out.",
+  "language": "unknown",
+  "processing_time_seconds": 9.299496,
+  "timestamp": "2026-05-31T10:19:13.170129",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.04
+      ],
+      "text": " um i don't really know if any any future societies were uh not listed in there i think"
+    },
+    {
+      "timestamp": [
+        11.04,
+        19.32
+      ],
+      "text": " for the most part everything touched on uh i mean touched on on what that utopia would look like or"
+    },
+    {
+      "timestamp": [
+        19.32,
+        28.22
+      ],
+      "text": " what that community would look like uh i think that i mean and for the most part i think that"
+    },
+    {
+      "timestamp": [
+        28.22,
+        32.76
+      ],
+      "text": " the society would need to have shared values, shared morals"
+    },
+    {
+      "timestamp": [
+        32.76,
+        37.66
+      ],
+      "text": " in order for it to work out."
+    }
+  ]
+}

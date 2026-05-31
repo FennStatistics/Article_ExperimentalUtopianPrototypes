@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a0158ba79527c0dc00b8153_audio_missing_utopia_1780200139424.webm",
+  "transcript": " i think the the first one was still my favorite and i think in terms of like describing my missing future would be me building up on that one i think that one's such a good foundation um of just or maybe like combining the environment one with like the inner morality and everyone just wanting to create a better society together and thinking about the environment and the future and kind of just working together for the better the better good of society and to create better societies together because that's what they want in their in their heart and in their minds and again taking the environment into consideration are there any important values reporters that were absent I don't think so I think like I said just maybe combining that yeah and what matters most again the environment and just the society members feeling good about their decisions in society",
+  "language": "unknown",
+  "processing_time_seconds": 14.811369,
+  "timestamp": "2026-05-31T10:03:44.345518",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.24
+      ],
+      "text": " i think the the first one was still my favorite and i think in terms of like describing my missing"
+    },
+    {
+      "timestamp": [
+        11.24,
+        15.2
+      ],
+      "text": " future would be me building up on that one i think that one's such a good foundation"
+    },
+    {
+      "timestamp": [
+        15.2,
+        23.92
+      ],
+      "text": " um of just or maybe like combining the environment one with like the inner morality and everyone just"
+    },
+    {
+      "timestamp": [
+        23.92,
+        31.28
+      ],
+      "text": " wanting to create a better society together and thinking about the environment and the future"
+    },
+    {
+      "timestamp": [
+        31.28,
+        40.44
+      ],
+      "text": " and kind of just working together for the better the better good of society and to create better"
+    },
+    {
+      "timestamp": [
+        40.44,
+        45.42
+      ],
+      "text": " societies together because that's what they want in their in their heart and in their minds and"
+    },
+    {
+      "timestamp": [
+        45.42,
+        53.3
+      ],
+      "text": " again taking the environment into consideration are there any important"
+    },
+    {
+      "timestamp": [
+        53.3,
+        58.02
+      ],
+      "text": " values reporters that were absent I don't think so I think like I said just"
+    },
+    {
+      "timestamp": [
+        58.02,
+        67.56
+      ],
+      "text": " maybe combining that yeah and what matters most again the environment and"
+    },
+    {
+      "timestamp": [
+        67.56,
+        75.38
+      ],
+      "text": " just the society members feeling good about their decisions in society"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "audio_file": "672012673e8f6646800bf45c_audio_ranking_explanation_1780172300521.webm",
+  "transcript": " I ranked them this way because I think the moral commonwealth, somebody's inner morality, needs to come first. Being able to always do the right thing no matter what. Secondly, I chose the institutional utopia because, of course, we always have to have rules, laws, and regulations. Because even though we have inner morality, not everybody does the right thing. And there has to be consequences to doing the wrong thing. And then with the primitivist utopia, I mean, that's nice, you know, because using technology to live life, I mean, technology is everywhere and we have to have it nowadays no matter what. but it's on a much smaller scale and then I choose Futurist Utopia for number 4 letting science and innovation kind of lead the way Modern Green Utopia, sustainable and secure that's nice because people need to be more sustainable but at the same time, that's not always a possibility uh number six i chose for ai-centered utopia um because to me that's not an ideal world to live in um i don't think that the government needs to be data-driven um ai is helpful for some things but then other things it's it's not and it's almost scary and the last one is religious utopia which is a faith based order I chose that for last because I feel that religion doesn't really need to be hammered down somebody's throat and just because you maybe believe something different than somebody else does it doesn't make you a bad person or you shouldn't be treated any differently",
+  "language": "unknown",
+  "processing_time_seconds": 25.334855,
+  "timestamp": "2026-05-31T09:50:21.574467",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        9.42
+      ],
+      "text": " I ranked them this way because I think the moral commonwealth, somebody's inner morality, needs to come first."
+    },
+    {
+      "timestamp": [
+        10.1,
+        12.7
+      ],
+      "text": " Being able to always do the right thing no matter what."
+    },
+    {
+      "timestamp": [
+        13.58,
+        20.52
+      ],
+      "text": " Secondly, I chose the institutional utopia because, of course, we always have to have rules, laws, and regulations."
+    },
+    {
+      "timestamp": [
+        21.38,
+        25.7
+      ],
+      "text": " Because even though we have inner morality, not everybody does the right thing."
+    },
+    {
+      "timestamp": [
+        25.7,
+        31.2
+      ],
+      "text": " And there has to be consequences to doing the wrong thing."
+    },
+    {
+      "timestamp": [
+        31.86,
+        48.62
+      ],
+      "text": " And then with the primitivist utopia, I mean, that's nice, you know, because using technology to live life, I mean, technology is everywhere and we have to have it nowadays no matter what."
+    },
+    {
+      "timestamp": [
+        51.62,
+        48.62
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        54.4,
+        56.62
+      ],
+      "text": " but it's on a much smaller scale and then I choose"
+    },
+    {
+      "timestamp": [
+        56.62,
+        59.7
+      ],
+      "text": " Futurist Utopia for number 4"
+    },
+    {
+      "timestamp": [
+        59.7,
+        63.04
+      ],
+      "text": " letting science and innovation kind of lead the way"
+    },
+    {
+      "timestamp": [
+        63.04,
+        66.5
+      ],
+      "text": " Modern Green Utopia, sustainable and secure"
+    },
+    {
+      "timestamp": [
+        66.5,
+        68.28
+      ],
+      "text": " that's nice because"
+    },
+    {
+      "timestamp": [
+        68.28,
+        72.22
+      ],
+      "text": " people need to be more sustainable"
+    },
+    {
+      "timestamp": [
+        72.22,
+        75.46
+      ],
+      "text": " but at the same time, that's not always"
+    },
+    {
+      "timestamp": [
+        75.46,
+        76.92
+      ],
+      "text": " a possibility"
+    },
+    {
+      "timestamp": [
+        76.92,
+        86.24
+      ],
+      "text": " uh number six i chose for ai-centered utopia um because to me that's not an ideal world to live"
+    },
+    {
+      "timestamp": [
+        86.24,
+        96.84
+      ],
+      "text": " in um i don't think that the government needs to be data-driven um ai is helpful for some things"
+    },
+    {
+      "timestamp": [
+        96.84,
+        102.96
+      ],
+      "text": " but then other things it's it's not and it's almost scary and the last one is religious utopia"
+    },
+    {
+      "timestamp": [
+        102.96,
+        104.62
+      ],
+      "text": " which is a faith based order"
+    },
+    {
+      "timestamp": [
+        104.62,
+        106.98
+      ],
+      "text": " I chose that for last"
+    },
+    {
+      "timestamp": [
+        106.98,
+        109.34
+      ],
+      "text": " because I feel that"
+    },
+    {
+      "timestamp": [
+        109.34,
+        113.04
+      ],
+      "text": " religion doesn't really need to be"
+    },
+    {
+      "timestamp": [
+        113.04,
+        115.0
+      ],
+      "text": " hammered down somebody's throat"
+    },
+    {
+      "timestamp": [
+        115.0,
+        117.0
+      ],
+      "text": " and just because you maybe believe something"
+    },
+    {
+      "timestamp": [
+        117.0,
+        118.36
+      ],
+      "text": " different than somebody else does"
+    },
+    {
+      "timestamp": [
+        118.36,
+        121.32
+      ],
+      "text": " it doesn't make you a bad person"
+    },
+    {
+      "timestamp": [
+        121.32,
+        121.88
+      ],
+      "text": " or"
+    },
+    {
+      "timestamp": [
+        121.88,
+        125.26
+      ],
+      "text": " you shouldn't be treated"
+    },
+    {
+      "timestamp": [
+        125.26,
+        126.02
+      ],
+      "text": " any differently"
+    }
+  ]
+}

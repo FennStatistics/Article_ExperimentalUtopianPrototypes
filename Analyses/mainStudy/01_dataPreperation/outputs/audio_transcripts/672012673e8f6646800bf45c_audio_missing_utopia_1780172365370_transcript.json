@@ -1,0 +1,73 @@
+{
+  "audio_file": "672012673e8f6646800bf45c_audio_missing_utopia_1780172365370.webm",
+  "transcript": " I don't think there was anything missing from the seven societies that I just ranked. I think it kind of touched on all of them. I know a type of future society that I can envision would be, of course, morals. And still having laws that you have to follow. Still having a government. But the government isn't made up of rich people. and it's to help people and make sure that everybody can kind of live in harmony and And to be able to ensure that everybody has what they need.",
+  "language": "unknown",
+  "processing_time_seconds": 12.695583,
+  "timestamp": "2026-05-31T09:49:56.096110",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.16
+      ],
+      "text": " I don't think there was anything missing from the seven societies that I just ranked."
+    },
+    {
+      "timestamp": [
+        7.78,
+        9.98
+      ],
+      "text": " I think it kind of touched on all of them."
+    },
+    {
+      "timestamp": [
+        10.8,
+        20.18
+      ],
+      "text": " I know a type of future society that I can envision would be, of course, morals."
+    },
+    {
+      "timestamp": [
+        20.18,
+        23.12
+      ],
+      "text": " And still having laws that you have to follow."
+    },
+    {
+      "timestamp": [
+        23.32,
+        26.26
+      ],
+      "text": " Still having a government."
+    },
+    {
+      "timestamp": [
+        26.4,
+        29.52
+      ],
+      "text": " But the government isn't made up of rich people."
+    },
+    {
+      "timestamp": [
+        30.0,
+        40.88
+      ],
+      "text": " and it's to help people and make sure that everybody can kind of live in harmony and"
+    },
+    {
+      "timestamp": [
+        42.08,
+        40.88
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        45.84,
+        null
+      ],
+      "text": " And to be able to ensure that everybody has what they need."
+    }
+  ]
+}

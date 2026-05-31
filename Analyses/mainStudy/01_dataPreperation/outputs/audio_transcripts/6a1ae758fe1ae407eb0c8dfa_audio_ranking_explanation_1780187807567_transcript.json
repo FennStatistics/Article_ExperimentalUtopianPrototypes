@@ -1,0 +1,290 @@
+{
+  "audio_file": "6a1ae758fe1ae407eb0c8dfa_audio_ranking_explanation_1780187807567.webm",
+  "transcript": " I've gone with the religious utopia as the best utopia for me because I think having a supreme being as your central point of reference and where you get your strength from is far much better because it reverses you back to your maker. and you will do anything and everything possible to not go against the laws that are set by your maker, which are for your own benefit. In this instance, I'm talking about Christianity. The second one, the second utopia, is the AI-centered utopia. For me, I think that it can gradually grow in thought process that are able to alienate problems that are caused by the human shortcomings, that is corruption, hiring people from the same clan, and so on and so forth. Then the science and innovation, I think, comes in a third, since for science is based on factual finding. But my concern was, Because what about if at a certain point the data that we have points to a specific, points to a certain direction, which is wrong after we have done most of the research and found out that this is wrong. Case and point, we have been using wrong or rather pesticides that contain harmful substances that result into cancerous cells being formed in our bodies so if we go with that scenario we find that yes in the long run it might be better but we have to go with the facts that sometimes facts can be wrong and gradually as the information comes we might have to revert so that's why i I went with it at the third. Then the rule of law. For me, I think the rule of law is quite rigid. And sometimes the community or the communities that community guidelines or rules are somehow flexible depending on the circumstances. So for me, that's why I place it at fourth. then the modern green utopia I think for me it is it falls on this category number five then the commonwealth the inamorality I think some people lack this and I think in scenarios whereby we have psychopaths and sociopaths they might want to use this and exploit the weaknesses. Then the last one, the low-tech and small-scale, it can go only so far considering the fact that people have insatiable needs and people are greedy in nature. So I think that's why I put it at last.",
+  "language": "unknown",
+  "processing_time_seconds": 38.365365,
+  "timestamp": "2026-05-31T10:21:52.191073",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        24.08
+      ],
+      "text": " I've gone with the religious utopia as the best utopia for me because I think having a supreme being as your central point of reference and where you get your strength from is far much better because it reverses you back to your maker."
+    },
+    {
+      "timestamp": [
+        24.08,
+        28.7
+      ],
+      "text": " and you will do anything and everything possible"
+    },
+    {
+      "timestamp": [
+        28.7,
+        33.68
+      ],
+      "text": " to not go against the laws that are set by your maker,"
+    },
+    {
+      "timestamp": [
+        34.42,
+        36.7
+      ],
+      "text": " which are for your own benefit."
+    },
+    {
+      "timestamp": [
+        36.7,
+        39.52
+      ],
+      "text": " In this instance, I'm talking about Christianity."
+    },
+    {
+      "timestamp": [
+        40.56,
+        44.84
+      ],
+      "text": " The second one, the second utopia, is the AI-centered utopia."
+    },
+    {
+      "timestamp": [
+        45.0,
+        50.7
+      ],
+      "text": " For me, I think that it can gradually grow in thought process"
+    },
+    {
+      "timestamp": [
+        50.7,
+        59.5
+      ],
+      "text": " that are able to alienate problems that are caused by the human shortcomings, that is corruption,"
+    },
+    {
+      "timestamp": [
+        63.66,
+        70.7
+      ],
+      "text": " hiring people from the same clan, and so on and so forth. Then the science and innovation,"
+    },
+    {
+      "timestamp": [
+        70.7,
+        77.98
+      ],
+      "text": " I think, comes in a third, since for science is based on factual finding. But my concern was,"
+    },
+    {
+      "timestamp": [
+        78.7,
+        77.98
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        85.52,
+        91.98
+      ],
+      "text": " Because what about if at a certain point the data that we have points to a specific, points to a certain direction, which is wrong after we have done most of the research and found"
+    },
+    {
+      "timestamp": [
+        91.98,
+        93.96
+      ],
+      "text": " out that this is wrong."
+    },
+    {
+      "timestamp": [
+        93.96,
+        105.6
+      ],
+      "text": " Case and point, we have been using wrong or rather pesticides that contain harmful substances"
+    },
+    {
+      "timestamp": [
+        105.6,
+        114.48
+      ],
+      "text": " that result into cancerous cells being formed in our bodies so if we go with that scenario we find"
+    },
+    {
+      "timestamp": [
+        114.48,
+        122.96
+      ],
+      "text": " that yes in the long run it might be better but we have to go with the facts that sometimes facts"
+    },
+    {
+      "timestamp": [
+        122.96,
+        128.88
+      ],
+      "text": " can be wrong and gradually as the information comes we might have to revert so that's why i"
+    },
+    {
+      "timestamp": [
+        128.88,
+        130.34
+      ],
+      "text": " I went with it at the third."
+    },
+    {
+      "timestamp": [
+        130.78,
+        131.84
+      ],
+      "text": " Then the rule of law."
+    },
+    {
+      "timestamp": [
+        132.46,
+        135.62
+      ],
+      "text": " For me, I think the rule of law is quite rigid."
+    },
+    {
+      "timestamp": [
+        135.62,
+        151.4
+      ],
+      "text": " And sometimes the community or the communities that community guidelines or rules are somehow flexible depending on the circumstances."
+    },
+    {
+      "timestamp": [
+        152.18,
+        154.42
+      ],
+      "text": " So for me, that's why I place it at fourth."
+    },
+    {
+      "timestamp": [
+        155.0,
+        154.42
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        157.08,
+        159.38
+      ],
+      "text": " then the modern green utopia"
+    },
+    {
+      "timestamp": [
+        159.38,
+        161.0
+      ],
+      "text": " I think for me"
+    },
+    {
+      "timestamp": [
+        161.0,
+        162.34
+      ],
+      "text": " it is"
+    },
+    {
+      "timestamp": [
+        162.34,
+        165.32
+      ],
+      "text": " it falls on this category"
+    },
+    {
+      "timestamp": [
+        165.32,
+        167.28
+      ],
+      "text": " number five then the commonwealth"
+    },
+    {
+      "timestamp": [
+        167.28,
+        168.78
+      ],
+      "text": " the inamorality"
+    },
+    {
+      "timestamp": [
+        168.78,
+        170.82
+      ],
+      "text": " I think some people"
+    },
+    {
+      "timestamp": [
+        170.82,
+        172.72
+      ],
+      "text": " lack this and I think"
+    },
+    {
+      "timestamp": [
+        172.72,
+        174.92
+      ],
+      "text": " in scenarios whereby we have"
+    },
+    {
+      "timestamp": [
+        174.92,
+        176.56
+      ],
+      "text": " psychopaths and"
+    },
+    {
+      "timestamp": [
+        176.56,
+        179.14
+      ],
+      "text": " sociopaths they might"
+    },
+    {
+      "timestamp": [
+        179.14,
+        180.32
+      ],
+      "text": " want to use this"
+    },
+    {
+      "timestamp": [
+        180.32,
+        182.44
+      ],
+      "text": " and"
+    },
+    {
+      "timestamp": [
+        182.44,
+        184.02
+      ],
+      "text": " exploit"
+    },
+    {
+      "timestamp": [
+        184.02,
+        193.82
+      ],
+      "text": " the weaknesses. Then the last one, the low-tech and small-scale, it can go only so far considering"
+    },
+    {
+      "timestamp": [
+        193.82,
+        202.56
+      ],
+      "text": " the fact that people have insatiable needs and people are greedy in nature. So I think"
+    },
+    {
+      "timestamp": [
+        202.56,
+        204.62
+      ],
+      "text": " that's why I put it at last."
+    }
+  ]
+}

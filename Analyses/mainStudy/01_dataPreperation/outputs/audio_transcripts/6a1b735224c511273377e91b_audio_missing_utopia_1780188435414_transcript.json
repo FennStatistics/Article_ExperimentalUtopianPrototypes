@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a1b735224c511273377e91b_audio_missing_utopia_1780188435414.webm",
+  "transcript": " One thing I noticed from all these societies is none of them mentioned education. They mention innovation and they mention science and stuff like that, but what does life look like for the students, for the children? Are the majority of the kids ambitious? Are they not? That's what I'm wondering from all of them. I also would, my future society, I guess my utopia would be one where there's a lot of freedom of thought and freedom to make mistakes with appropriate consequences and appropriate rehabilitation and education for those mistakes because that's a part of learning. I think that learning is not just academics, it's also personal and social, and that would be within my ideal utopia.",
+  "language": "unknown",
+  "processing_time_seconds": 13.802546,
+  "timestamp": "2026-05-31T10:23:37.984477",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.48
+      ],
+      "text": " One thing I noticed from all these societies is none of them mentioned education."
+    },
+    {
+      "timestamp": [
+        5.16,
+        13.52
+      ],
+      "text": " They mention innovation and they mention science and stuff like that, but what does life look like for the students, for the children?"
+    },
+    {
+      "timestamp": [
+        14.36,
+        18.46
+      ],
+      "text": " Are the majority of the kids ambitious? Are they not?"
+    },
+    {
+      "timestamp": [
+        19.22,
+        21.96
+      ],
+      "text": " That's what I'm wondering from all of them."
+    },
+    {
+      "timestamp": [
+        21.96,
+        45.9
+      ],
+      "text": " I also would, my future society, I guess my utopia would be one where there's a lot of freedom of thought and freedom to make mistakes with appropriate consequences and appropriate rehabilitation and education for those mistakes because that's a part of learning."
+    },
+    {
+      "timestamp": [
+        45.9,
+        57.48
+      ],
+      "text": " I think that learning is not just academics, it's also personal and social, and that would be within my ideal utopia."
+    }
+  ]
+}

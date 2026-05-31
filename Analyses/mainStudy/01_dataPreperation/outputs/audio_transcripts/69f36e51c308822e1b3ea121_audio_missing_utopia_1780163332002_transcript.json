@@ -1,0 +1,17 @@
+{
+  "audio_file": "69f36e51c308822e1b3ea121_audio_missing_utopia_1780163332002.webm",
+  "transcript": " um",
+  "language": "unknown",
+  "processing_time_seconds": 4.275321,
+  "timestamp": "2026-05-31T10:00:14.864512",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.36
+      ],
+      "text": " um"
+    }
+  ]
+}

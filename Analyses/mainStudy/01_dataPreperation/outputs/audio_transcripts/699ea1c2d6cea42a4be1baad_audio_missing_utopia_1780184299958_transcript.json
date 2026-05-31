@@ -1,0 +1,17 @@
+{
+  "audio_file": "699ea1c2d6cea42a4be1baad_audio_missing_utopia_1780184299958.webm",
+  "transcript": " I feel like a society, not that, um, the diplomatic society for me is, I wouldn't say perfect, but it's the most functional and with the most opportunities, at least from personal experience.",
+  "language": "unknown",
+  "processing_time_seconds": 5.746938,
+  "timestamp": "2026-05-31T09:52:08.866005",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.46
+      ],
+      "text": " I feel like a society, not that, um, the diplomatic society for me is, I wouldn't say perfect, but it's the most functional and with the most opportunities, at least from personal experience."
+    }
+  ]
+}

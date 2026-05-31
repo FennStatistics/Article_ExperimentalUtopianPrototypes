@@ -1,0 +1,73 @@
+{
+  "audio_file": "5b20c0474c72120001f25d90_audio_ranking_explanation_1780192104024.webm",
+  "transcript": " I ranked them in order of which ones people are proven to thrive in and which ones are right, both for individuals and the community and the Earth as a whole. so i value um green energy and working with the planet versus against it um i think the religious the religious ai and institutional ones have too much ability to become skewed by like individuals who are power hungry or um are biased in some way i think they're particularly the religious one or the institutional one they're not governed by what is truly right they're governed by what a small collection of people thinks is right or says is right, where the morality one, the small-scale one, and the green one, they're governed by the need for each other, community, and what is right for both themselves and for them as a whole.",
+  "language": "unknown",
+  "processing_time_seconds": 16.518107,
+  "timestamp": "2026-05-31T09:43:22.078843",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.86
+      ],
+      "text": " I ranked them in order of which ones people are proven to thrive in and which ones are right, both for individuals and the community and the Earth as a whole."
+    },
+    {
+      "timestamp": [
+        19.86,
+        18.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.7,
+        41.46
+      ],
+      "text": " so i value um green energy and working with the planet versus against it um i think the religious the religious ai and institutional ones have"
+    },
+    {
+      "timestamp": [
+        41.46,
+        54.62
+      ],
+      "text": " too much ability to become skewed by like individuals who are power hungry or um are biased"
+    },
+    {
+      "timestamp": [
+        54.62,
+        62.82
+      ],
+      "text": " in some way i think they're particularly the religious one or the institutional one"
+    },
+    {
+      "timestamp": [
+        62.82,
+        70.44
+      ],
+      "text": " they're not governed by what is truly right they're governed by what a small collection"
+    },
+    {
+      "timestamp": [
+        70.44,
+        78.58
+      ],
+      "text": " of people thinks is right or says is right, where the morality one, the small-scale one,"
+    },
+    {
+      "timestamp": [
+        78.58,
+        89.62
+      ],
+      "text": " and the green one, they're governed by the need for each other, community, and what is"
+    },
+    {
+      "timestamp": [
+        89.62,
+        94.24
+      ],
+      "text": " right for both themselves and for them as a whole."
+    }
+  ]
+}

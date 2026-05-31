@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a1731c7cd92b077b3532875_audio_missing_utopia_1780167873394.webm",
+  "transcript": " So, I didn't feel particularly like there was anything missing, but I will say that it felt like a utopia I've kind of been included for. you know like like a value-based utopia or i guess like a creativity-based utopia um and yeah i mean maybe just a utopia that that you know exists based on ordinariness itself that exists based on the axis of changing what defines ordinary in and of itself.",
+  "language": "unknown",
+  "processing_time_seconds": 11.814862,
+  "timestamp": "2026-05-31T10:15:03.694756",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.8
+      ],
+      "text": " So, I didn't feel particularly like there was anything missing, but I will say that it felt like a utopia I've kind of been included for."
+    },
+    {
+      "timestamp": [
+        28.68,
+        23.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.86,
+        36.9
+      ],
+      "text": " you know like like a value-based utopia or i guess like a creativity-based utopia"
+    },
+    {
+      "timestamp": [
+        36.9,
+        52.36
+      ],
+      "text": " um and yeah i mean maybe just a utopia that that you know exists based on ordinariness itself"
+    },
+    {
+      "timestamp": [
+        53.8,
+        57.8
+      ],
+      "text": " that exists based on the axis of"
+    },
+    {
+      "timestamp": [
+        57.8,
+        61.8
+      ],
+      "text": " changing what defines"
+    },
+    {
+      "timestamp": [
+        61.8,
+        65.8
+      ],
+      "text": " ordinary in and of itself."
+    }
+  ]
+}

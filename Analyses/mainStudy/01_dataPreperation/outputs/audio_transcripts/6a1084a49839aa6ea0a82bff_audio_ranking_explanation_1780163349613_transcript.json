@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a1084a49839aa6ea0a82bff_audio_ranking_explanation_1780163349613.webm",
+  "transcript": " I ranked the societies that had a balance between innovation, you know, data-based and like personal freedoms, if you were, above those that had, you know, personal morality, religious base, things like that, or even AI base that is contingent on one point of view and who determines that point of view? Who determines the religious text? You know, AI is not human. How can you deal with the realities of the gray areas of human life? So those were lower for me.",
+  "language": "unknown",
+  "processing_time_seconds": 10.026614,
+  "timestamp": "2026-05-31T10:11:19.759284",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.12
+      ],
+      "text": " I ranked the societies that had a balance between innovation, you know, data-based and like personal freedoms, if you were, above those that had, you know, personal morality, religious base, things like that, or even AI base that is contingent on one point of view and who determines that point of view?"
+    },
+    {
+      "timestamp": [
+        26.12,
+        26.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.82,
+        28.6
+      ],
+      "text": " Who determines the religious text?"
+    },
+    {
+      "timestamp": [
+        30.02,
+        30.28
+      ],
+      "text": " You know, AI is not human."
+    },
+    {
+      "timestamp": [
+        34.28,
+        34.66
+      ],
+      "text": " How can you deal with the realities of the gray areas of human life?"
+    },
+    {
+      "timestamp": [
+        36.9,
+        null
+      ],
+      "text": " So those were lower for me."
+    }
+  ]
+}

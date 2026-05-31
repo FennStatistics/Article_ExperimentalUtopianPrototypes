@@ -1,0 +1,52 @@
+{
+  "audio_file": "69e4255d8aed7c574034e515_audio_ranking_explanation_1780190611696.webm",
+  "transcript": " I ranked the top one as modern green because it seems the most reliable in our current social, current social, whatchamacallit, space. if we keep this world alive, sustainable, and we secure those green energy-making stuff, we can continue to thrive as a species on this planet without hurting the planet. Whereas with a primitive utopia, it's low-tech, small-scale, it's very much like locked to certain areas of the world, especially with the low-tech. like i was thinking going back to cord phones um rotary phones that's what was kind of going through my brain with the primitive utopia kind of thing but um yeah",
+  "language": "unknown",
+  "processing_time_seconds": 15.429547,
+  "timestamp": "2026-05-31T09:58:51.284238",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.0
+      ],
+      "text": " I ranked the top one as modern green because it seems the most reliable in our current social, current social, whatchamacallit, space."
+    },
+    {
+      "timestamp": [
+        28.0,
+        26.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        41.32,
+        48.66
+      ],
+      "text": " if we keep this world alive, sustainable, and we secure those green energy-making stuff, we can continue to thrive as a species on this planet without hurting the planet."
+    },
+    {
+      "timestamp": [
+        49.2,
+        48.66
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        64.78,
+        73.7
+      ],
+      "text": " Whereas with a primitive utopia, it's low-tech, small-scale, it's very much like locked to certain areas of the world, especially with the low-tech. like i was thinking going back to cord phones um rotary phones that's what was kind of going"
+    },
+    {
+      "timestamp": [
+        73.7,
+        81.86
+      ],
+      "text": " through my brain with the primitive utopia kind of thing but um yeah"
+    }
+  ]
+}

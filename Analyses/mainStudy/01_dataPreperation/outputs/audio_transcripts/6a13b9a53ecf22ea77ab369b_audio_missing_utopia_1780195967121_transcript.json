@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a13b9a53ecf22ea77ab369b_audio_missing_utopia_1780195967121.webm",
+  "transcript": " I think that the only thing missing would be family and community based, more caring about those around you and really lifting up everyone in your community and taking care of one another. Some of them touched on that a little bit, but that would be something that I think an ideal society would include.",
+  "language": "unknown",
+  "processing_time_seconds": 6.434776,
+  "timestamp": "2026-05-31T10:12:43.003336",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.56
+      ],
+      "text": " I think that the only thing missing would be family and community based, more caring"
+    },
+    {
+      "timestamp": [
+        9.56,
+        17.46
+      ],
+      "text": " about those around you and really lifting up everyone in your community and taking care"
+    },
+    {
+      "timestamp": [
+        17.46,
+        18.46
+      ],
+      "text": " of one another."
+    },
+    {
+      "timestamp": [
+        18.46,
+        21.82
+      ],
+      "text": " Some of them touched on that a little bit, but that would be something that I think an"
+    },
+    {
+      "timestamp": [
+        21.82,
+        23.58
+      ],
+      "text": " ideal society would include."
+    }
+  ]
+}

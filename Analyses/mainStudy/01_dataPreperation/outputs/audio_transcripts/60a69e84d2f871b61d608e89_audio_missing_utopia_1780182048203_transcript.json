@@ -1,0 +1,73 @@
+{
+  "audio_file": "60a69e84d2f871b61d608e89_audio_missing_utopia_1780182048203.webm",
+  "transcript": " And so, yeah, there were a couple of them that I think would have been made more ideal in my most ideal society by referencing or noting that there would be a strong, strong influence of tolerance and accepting of differences. and for it to be factors that were seen as norms and, you know, nothing brutal, but a very high distaste and consequential reasoning and action against hate. you know nothing too brutal but lock them up put them on or throw them on an island by themselves if they're too intolerant i think that it should be definitely be a very strong influential factor in any kind of society in the future that is idealistic is for tolerance acceptance of differences and an appreciation and a beauty found in differences and and the beneficial factors that are found in us being different um so tolerance of all humanity and kindness should be driving factors and influences for the uh any society idealistic to me",
+  "language": "unknown",
+  "processing_time_seconds": 17.07148,
+  "timestamp": "2026-05-31T09:45:47.213274",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.64
+      ],
+      "text": " And so, yeah, there were a couple of them that I think would have been made more ideal in my most ideal society by referencing or noting that there would be a strong, strong influence of tolerance and accepting of differences."
+    },
+    {
+      "timestamp": [
+        27.26,
+        26.64
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        38.24,
+        49.92
+      ],
+      "text": " and for it to be factors that were seen as norms and, you know, nothing brutal, but a very high distaste and consequential reasoning and action against hate."
+    },
+    {
+      "timestamp": [
+        51.2,
+        49.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        57.26,
+        64.18
+      ],
+      "text": " you know nothing too brutal but lock them up put them on or throw them on an island by themselves if they're too intolerant i think that it should be definitely be a very strong influential factor"
+    },
+    {
+      "timestamp": [
+        64.18,
+        71.7
+      ],
+      "text": " in any kind of society in the future that is idealistic is for tolerance acceptance of"
+    },
+    {
+      "timestamp": [
+        71.7,
+        79.52
+      ],
+      "text": " differences and an appreciation and a beauty found in differences and and the beneficial"
+    },
+    {
+      "timestamp": [
+        79.52,
+        87.52
+      ],
+      "text": " factors that are found in us being different um so tolerance of all humanity and kindness"
+    },
+    {
+      "timestamp": [
+        87.52,
+        93.76
+      ],
+      "text": " should be driving factors and influences for the uh any society idealistic to me"
+    }
+  ]
+}

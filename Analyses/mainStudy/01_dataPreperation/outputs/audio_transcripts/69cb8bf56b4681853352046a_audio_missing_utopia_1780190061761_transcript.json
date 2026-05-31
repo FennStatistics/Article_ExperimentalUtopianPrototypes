@@ -1,0 +1,66 @@
+{
+  "audio_file": "69cb8bf56b4681853352046a_audio_missing_utopia_1780190061761.webm",
+  "transcript": " Looking back at the society that I just learned, there were some important approaches that were absent from all of them. I feel like, to me, a future society that is to be successful, of course, it should be order. And I also believe that the best form of government is capitalist as anyone can work and earn more money. They're for a society where not exactly everyone's equal, but everyone follows the law and everyone is going at their own pace. What I didn't see in any of these societies is an individual's personal freedom, because I feel like nowadays society is a lot more diverse and open, but I still feel like it lacks in some areas. And therefore, if everyone were to come together and agree to a certain behavior or like a change, normality, where you're free to express yourself in whichever way you want is acceptable.",
+  "language": "unknown",
+  "processing_time_seconds": 18.631008,
+  "timestamp": "2026-05-31T09:55:20.511054",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.0
+      ],
+      "text": " Looking back at the society that I just learned, there were some important approaches that were absent from all of them."
+    },
+    {
+      "timestamp": [
+        13.0,
+        25.0
+      ],
+      "text": " I feel like, to me, a future society that is to be successful, of course, it should be order."
+    },
+    {
+      "timestamp": [
+        25.0,
+        38.0
+      ],
+      "text": " And I also believe that the best form of government is capitalist as anyone can work and earn more money."
+    },
+    {
+      "timestamp": [
+        38.0,
+        49.0
+      ],
+      "text": " They're for a society where not exactly everyone's equal, but everyone follows the law and everyone is going at their own pace."
+    },
+    {
+      "timestamp": [
+        49.0,
+        61.84
+      ],
+      "text": " What I didn't see in any of these societies is an individual's personal freedom, because"
+    },
+    {
+      "timestamp": [
+        61.84,
+        70.66
+      ],
+      "text": " I feel like nowadays society is a lot more diverse and open, but I still feel like it"
+    },
+    {
+      "timestamp": [
+        70.66,
+        73.96
+      ],
+      "text": " lacks in some areas."
+    },
+    {
+      "timestamp": [
+        73.96,
+        91.06
+      ],
+      "text": " And therefore, if everyone were to come together and agree to a certain behavior or like a change, normality, where you're free to express yourself in whichever way you want is acceptable."
+    }
+  ]
+}

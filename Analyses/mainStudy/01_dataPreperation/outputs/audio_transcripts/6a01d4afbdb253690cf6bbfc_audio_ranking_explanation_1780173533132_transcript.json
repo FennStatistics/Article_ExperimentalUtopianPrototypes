@@ -1,0 +1,108 @@
+{
+  "audio_file": "6a01d4afbdb253690cf6bbfc_audio_ranking_explanation_1780173533132.webm",
+  "transcript": " okay so for my society ranking here uh i think that the religious utopia tends to struggle because i think that a lot of uh faith-based systems have historically led to a lot of discrimination um and consolidation of power within various people which is generally not going to be good for the greatest of the overall society moral commonwealth i just think you can't rely on people to make their own decisions um i think that people are flawed you know uh primitive this utopia i think that's pretty solid uh but also you know it might not be perfect for ai-centered utopia i mean i'm conflicted on current use of ai but i do believe that there is a way in which it could be used to handle significantly more complex problems than humans are able uh institutional utopia i would say that that tends to work a little bit well uh because if you have a strong governing body and you know a very clear picture of right and wrong you get the exact opposite problem of the moral commonwealth where people are both going to be able to rely on their own morality but also have a kind of set code that they can refer to uh modern green utopia i think is going to be just a long-term survival and i think and futurist utopia is going to be a way of combining all of these things and managing long-term success.",
+  "language": "unknown",
+  "processing_time_seconds": 21.409448,
+  "timestamp": "2026-05-31T10:04:34.619644",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        8.8
+      ],
+      "text": " okay so for my society ranking here uh i think that the religious utopia tends to struggle"
+    },
+    {
+      "timestamp": [
+        8.8,
+        13.92
+      ],
+      "text": " because i think that a lot of uh faith-based systems have historically led to a lot of"
+    },
+    {
+      "timestamp": [
+        13.92,
+        19.92
+      ],
+      "text": " discrimination um and consolidation of power within various people which is generally not"
+    },
+    {
+      "timestamp": [
+        19.92,
+        24.64
+      ],
+      "text": " going to be good for the greatest of the overall society moral commonwealth i just think you can't"
+    },
+    {
+      "timestamp": [
+        24.64,
+        29.68
+      ],
+      "text": " rely on people to make their own decisions um i think that people are flawed you know"
+    },
+    {
+      "timestamp": [
+        30.32,
+        37.92
+      ],
+      "text": " uh primitive this utopia i think that's pretty solid uh but also you know it might not be perfect"
+    },
+    {
+      "timestamp": [
+        37.92,
+        45.6
+      ],
+      "text": " for ai-centered utopia i mean i'm conflicted on current use of ai but i do believe that there is"
+    },
+    {
+      "timestamp": [
+        45.6,
+        49.84
+      ],
+      "text": " a way in which it could be used to handle significantly more complex problems than"
+    },
+    {
+      "timestamp": [
+        49.84,
+        56.0
+      ],
+      "text": " humans are able uh institutional utopia i would say that that tends to work a little bit well"
+    },
+    {
+      "timestamp": [
+        56.0,
+        61.6
+      ],
+      "text": " uh because if you have a strong governing body and you know a very clear picture of right and"
+    },
+    {
+      "timestamp": [
+        61.6,
+        66.96
+      ],
+      "text": " wrong you get the exact opposite problem of the moral commonwealth where people are both going"
+    },
+    {
+      "timestamp": [
+        66.96,
+        73.84
+      ],
+      "text": " to be able to rely on their own morality but also have a kind of set code that they can refer to"
+    },
+    {
+      "timestamp": [
+        74.4,
+        78.56
+      ],
+      "text": " uh modern green utopia i think is going to be just a long-term survival and i think"
+    },
+    {
+      "timestamp": [
+        78.56,
+        85.56
+      ],
+      "text": " and futurist utopia is going to be a way of combining all of these things and managing long-term success."
+    }
+  ]
+}

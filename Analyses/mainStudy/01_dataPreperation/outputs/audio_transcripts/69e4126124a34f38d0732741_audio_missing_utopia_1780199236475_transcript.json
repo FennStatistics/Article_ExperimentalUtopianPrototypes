@@ -1,0 +1,304 @@
+{
+  "audio_file": "69e4126124a34f38d0732741_audio_missing_utopia_1780199236475.webm",
+  "transcript": " so i think the society that i put at the top was the one that was um ecological and technologically advanced so i do think those are probably important points of things that i i would want in a society um i do think that technological advancements can be very beneficial to society i i even feel like they they could be used right for agriculture and medicine medical advances which would be very important sectors right for sustaining ourselves uh food wise and and and combating right like illnesses and and things like that so those are two things that i do think are important uh it also mentioned i think in that society specifically that laws were kind of uh i guess co-created with the majority of society kind of inputting so it was kind of for the common good of everyone interacting there um i think i've that's the society that i would mostly align with i do however think that there might be a few things missing there when we talked about the other society that was like you know kind of guiding themselves to do what was morally or uh i guess they decided what was morally correct or not um and not having any laws enforced i guess maybe as like a detail explain a little bit further i would probably like you know um maybe some sort of um like rehabilitation i think rehabilitation spaces for maybe people who who fit outside of the norms right for i guess what is like maybe people that have difficulty um kind of deciding what is morally correct or not right um this might be like such a broad example but i was even thinking about like um like people that um you know have say like um are psychopaths or sociopaths right uh schizophrenic people um maybe a mention of uh mental health services right um rehabilitation because i wouldn't really like gels or that kind of enforcement as like punishment for not following um like the laws or the rules i guess in this sense um and what else what else would i mention here yes that i i would like there to be maybe more mention about like food sustainability uh like i said um uh i do like that everyone has like their basic needs met um maybe like free housing right um i did wonder about what kind of jobs were sort of how does that work in or how would that work i think i would like mention of that so i do think all societies would end up working maybe it wouldn't be like a system like a monetary system right like like the one we have but it would be more more so everybody kind of participating in some sort of labor um so things like that um other than that i think that's pretty much it so i mean like food sustainability rehabilitation um you know medical advancements as well and and mental health services free housing uh free medical care um what else walkable cities so no highways probably more if they're if we have advancements in technology probably having good uh public transportation so that people can move around cities um what else just kind of finding ways to to renew resources so renewable energy probably having using more solar energy uh to power a lot of these things uh yeah i would want the technology to be um as eco-friendly as possible uh what else what else uh i'd probably want a society where not everything is for profit it. Especially for big corporations, so nothing like that. Yeah, I think that would kind of describe it.",
+  "language": "unknown",
+  "processing_time_seconds": 63.495317,
+  "timestamp": "2026-05-31T09:57:06.923300",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.6
+      ],
+      "text": " so i think the society that i put at the top was the one that was um ecological and technologically"
+    },
+    {
+      "timestamp": [
+        10.24,
+        20.08
+      ],
+      "text": " advanced so i do think those are probably important points of things that i i would want in a society"
+    },
+    {
+      "timestamp": [
+        21.12,
+        29.6
+      ],
+      "text": " um i do think that technological advancements can be very beneficial to society"
+    },
+    {
+      "timestamp": [
+        30.0,
+        37.52
+      ],
+      "text": " i i even feel like they they could be used right for agriculture and medicine medical advances"
+    },
+    {
+      "timestamp": [
+        37.52,
+        47.2
+      ],
+      "text": " which would be very important sectors right for sustaining ourselves uh food wise and and and"
+    },
+    {
+      "timestamp": [
+        47.2,
+        55.12
+      ],
+      "text": " combating right like illnesses and and things like that so those are two things that i do think are"
+    },
+    {
+      "timestamp": [
+        55.12,
+        63.76
+      ],
+      "text": " important uh it also mentioned i think in that society specifically that laws were kind of uh"
+    },
+    {
+      "timestamp": [
+        64.96,
+        71.84
+      ],
+      "text": " i guess co-created with the majority of society kind of inputting so it was kind of"
+    },
+    {
+      "timestamp": [
+        72.48,
+        71.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        79.26,
+        90.28
+      ],
+      "text": " for the common good of everyone interacting there um i think i've that's the society that i would mostly align with i do"
+    },
+    {
+      "timestamp": [
+        90.28,
+        94.74
+      ],
+      "text": " however think that"
+    },
+    {
+      "timestamp": [
+        94.74,
+        102.22
+      ],
+      "text": " there might be a few things missing there when we talked about the other society"
+    },
+    {
+      "timestamp": [
+        102.22,
+        107.66
+      ],
+      "text": " that was like you know kind of guiding themselves to do what was morally or"
+    },
+    {
+      "timestamp": [
+        107.66,
+        119.28
+      ],
+      "text": " uh i guess they decided what was morally correct or not um and not having any laws enforced i guess"
+    },
+    {
+      "timestamp": [
+        119.28,
+        129.12
+      ],
+      "text": " maybe as like a detail explain a little bit further i would probably like you know um maybe"
+    },
+    {
+      "timestamp": [
+        129.12,
+        140.82
+      ],
+      "text": " some sort of um like rehabilitation i think rehabilitation spaces for maybe people who"
+    },
+    {
+      "timestamp": [
+        140.82,
+        148.36
+      ],
+      "text": " who fit outside of the norms right for i guess what is like maybe people that have difficulty"
+    },
+    {
+      "timestamp": [
+        148.36,
+        156.62
+      ],
+      "text": " um kind of deciding what is morally correct or not right um"
+    },
+    {
+      "timestamp": [
+        156.62,
+        166.12
+      ],
+      "text": " this might be like such a broad example but i was even thinking about like um like people that um"
+    },
+    {
+      "timestamp": [
+        166.12,
+        177.68
+      ],
+      "text": " you know have say like um are psychopaths or sociopaths right uh schizophrenic people um"
+    },
+    {
+      "timestamp": [
+        177.68,
+        186.56
+      ],
+      "text": " maybe a mention of uh mental health services right um rehabilitation because i wouldn't"
+    },
+    {
+      "timestamp": [
+        186.56,
+        194.28
+      ],
+      "text": " really like gels or that kind of enforcement as like punishment for not following um like"
+    },
+    {
+      "timestamp": [
+        194.28,
+        206.44
+      ],
+      "text": " the laws or the rules i guess in this sense um and what else what else would i mention here"
+    },
+    {
+      "timestamp": [
+        206.44,
+        218.0
+      ],
+      "text": " yes that i i would like there to be maybe more mention about like food sustainability uh like i"
+    },
+    {
+      "timestamp": [
+        218.0,
+        233.52
+      ],
+      "text": " said um uh i do like that everyone has like their basic needs met um maybe like free housing"
+    },
+    {
+      "timestamp": [
+        233.52,
+        248.04
+      ],
+      "text": " right um i did wonder about what kind of jobs were sort of how does that work in or how would"
+    },
+    {
+      "timestamp": [
+        248.04,
+        252.36
+      ],
+      "text": " that work i think i would like mention of that so i do think all societies would end up working"
+    },
+    {
+      "timestamp": [
+        252.36,
+        258.76
+      ],
+      "text": " maybe it wouldn't be like a system like a monetary system right like like the one we have but it"
+    },
+    {
+      "timestamp": [
+        258.76,
+        268.44
+      ],
+      "text": " would be more more so everybody kind of participating in some sort of labor um so"
+    },
+    {
+      "timestamp": [
+        268.44,
+        276.92
+      ],
+      "text": " things like that um other than that i think that's pretty much it so i mean like food"
+    },
+    {
+      "timestamp": [
+        276.92,
+        287.08
+      ],
+      "text": " sustainability rehabilitation um you know medical advancements as well and"
+    },
+    {
+      "timestamp": [
+        288.52,
+        291.48
+      ],
+      "text": " and mental health services free housing"
+    },
+    {
+      "timestamp": [
+        294.12,
+        300.44
+      ],
+      "text": " uh free medical care um what else"
+    },
+    {
+      "timestamp": [
+        304.84,
+        300.44
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        315.14,
+        323.96
+      ],
+      "text": " walkable cities so no highways probably more if they're if we have advancements in technology probably having good uh public transportation so that people can move around cities"
+    },
+    {
+      "timestamp": [
+        323.96,
+        331.78
+      ],
+      "text": " um what else"
+    },
+    {
+      "timestamp": [
+        331.78,
+        347.6
+      ],
+      "text": " just kind of finding ways to to renew resources so renewable energy probably having using more"
+    },
+    {
+      "timestamp": [
+        347.6,
+        359.44
+      ],
+      "text": " solar energy uh to power a lot of these things uh yeah i would want the technology to be um"
+    },
+    {
+      "timestamp": [
+        361.92,
+        366.88
+      ],
+      "text": " as eco-friendly as possible uh what else what else"
+    },
+    {
+      "timestamp": [
+        368.88,
+        375.12
+      ],
+      "text": " uh i'd probably want a society where not everything is for profit"
+    },
+    {
+      "timestamp": [
+        377.36,
+        375.12
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        388.0,
+        388.62
+      ],
+      "text": " it. Especially for big corporations, so nothing like that. Yeah, I think that would kind of describe it."
+    }
+  ]
+}

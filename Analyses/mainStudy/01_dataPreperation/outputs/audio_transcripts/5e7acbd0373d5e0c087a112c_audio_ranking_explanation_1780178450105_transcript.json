@@ -1,0 +1,52 @@
+{
+  "audio_file": "5e7acbd0373d5e0c087a112c_audio_ranking_explanation_1780178450105.webm",
+  "transcript": " I think it makes sense to really focus on a green future and sustainability and secure security, especially for people and the world around them. And then obviously science and innovation, intermorality, rule of law falls shortly after that. Religious utopia, I just think it wouldn't last long. Religion causes a lot of has caused a lot of wars, causes a lot of conflict between people and even internal internally of people. and sooner or later someone would say they're a prophet and it would just get even weirder.",
+  "language": "unknown",
+  "processing_time_seconds": 10.078245,
+  "timestamp": "2026-05-31T09:44:28.171958",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.58
+      ],
+      "text": " I think it makes sense to really focus on a green future and sustainability and secure security, especially for people and the world around them."
+    },
+    {
+      "timestamp": [
+        10.66,
+        15.26
+      ],
+      "text": " And then obviously science and innovation, intermorality, rule of law falls shortly after that."
+    },
+    {
+      "timestamp": [
+        15.74,
+        19.04
+      ],
+      "text": " Religious utopia, I just think it wouldn't last long."
+    },
+    {
+      "timestamp": [
+        19.7,
+        28.38
+      ],
+      "text": " Religion causes a lot of has caused a lot of wars, causes a lot of conflict between people and even internal internally of people."
+    },
+    {
+      "timestamp": [
+        28.54,
+        28.38
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.3,
+        null
+      ],
+      "text": " and sooner or later someone would say they're a prophet and it would just get even weirder."
+    }
+  ]
+}

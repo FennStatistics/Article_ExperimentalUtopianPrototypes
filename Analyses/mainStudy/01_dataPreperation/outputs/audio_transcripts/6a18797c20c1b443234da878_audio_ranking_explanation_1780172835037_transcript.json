@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a18797c20c1b443234da878_audio_ranking_explanation_1780172835037.webm",
+  "transcript": " So I'm technically making three of them, and our first one is going to be... What do you call a thing in science when you...",
+  "language": "unknown",
+  "processing_time_seconds": 5.378737,
+  "timestamp": "2026-05-31T10:17:17.011807",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.34
+      ],
+      "text": " So I'm technically making three of them, and our first one is going to be..."
+    },
+    {
+      "timestamp": [
+        5.34,
+        8.22
+      ],
+      "text": " What do you call a thing in science when you..."
+    }
+  ]
+}

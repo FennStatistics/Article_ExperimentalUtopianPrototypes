@@ -1,0 +1,164 @@
+{
+  "audio_file": "6a06421377e1ca15fefe2378_audio_ranking_explanation_1780185968362.webm",
+  "transcript": " I rank the societies in this way because I don't know, even in today's world currently, AI is super centralized and it is so centered and I live in the Silicon Valley. So I am next to tech industries, individuals who are working in tech and who are talking about AI and AI startups and stuff like that. And I feel like it is losing or we as a society are losing our human ways and heavily relying on these tech industries for us to maybe move society in an innovative or a positive way. but i think we're doing more harm than good or i i can say yes i can be helpful however i don't think that it is computers are still subject to error um i ranked religious utopia as sixth because it reminds me of the renaissance and or the period before the renaissance and I am someone who's not a super religious person and I also feel that there's no innovation that is just heavily on what people think based on their fate and there's no real science to back up any sort of reasoning per se. Institutional utopia rule of law I do think that it's important to have laws and rules and regulations so all hell does it break loose but who is making these laws like if we think about it in society today there is um it's super systemic for moral commonwealth yes it is good to have this intrinsic intrinsic versus extrinsic motivation i do think it's important to have both but some people aren't like their slate is based off of you know what happens in the home um it could be due to so many different other factors like um genetics it could be due to um social stuff it could be due to someone's bio cycle social everything and not everyone has a good moral compass futuristic utopia i do think that um that's the direction we are headed in however i rank that as number three because it's not so heavily based on ai um to modern green utopia i that would be ideal because it's not like we're cutting down thousands of land to build ai data centers and instead we are just we're we're being secure and we're being sustainable and this is for um the future of humanity in order for it to grow and one um i rank this as number one because there is still technology that we are using because technology is and can be helpful. And we're still preserving humanity.",
+  "language": "unknown",
+  "processing_time_seconds": 41.873045,
+  "timestamp": "2026-05-31T10:07:10.793832",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.0
+      ],
+      "text": " I rank the societies in this way because I don't know, even in today's world currently, AI is super centralized and it is so centered and I live in the Silicon Valley."
+    },
+    {
+      "timestamp": [
+        18.0,
+        30.44
+      ],
+      "text": " So I am next to tech industries, individuals who are working in tech and who are talking about AI and AI startups and stuff like that."
+    },
+    {
+      "timestamp": [
+        30.44,
+        54.84
+      ],
+      "text": " And I feel like it is losing or we as a society are losing our human ways and heavily relying on these tech industries for us to maybe move society in an innovative or a positive way."
+    },
+    {
+      "timestamp": [
+        54.84,
+        65.02
+      ],
+      "text": " but i think we're doing more harm than good or i i can say yes i can be helpful however i don't"
+    },
+    {
+      "timestamp": [
+        65.02,
+        74.92
+      ],
+      "text": " think that it is computers are still subject to error um i ranked religious utopia as sixth"
+    },
+    {
+      "timestamp": [
+        74.92,
+        82.58
+      ],
+      "text": " because it reminds me of the renaissance and or the period before the renaissance and"
+    },
+    {
+      "timestamp": [
+        82.58,
+        92.4
+      ],
+      "text": " I am someone who's not a super religious person and I also feel that there's no innovation that"
+    },
+    {
+      "timestamp": [
+        92.4,
+        100.8
+      ],
+      "text": " is just heavily on what people think based on their fate and there's no real science to back"
+    },
+    {
+      "timestamp": [
+        100.8,
+        109.2
+      ],
+      "text": " up any sort of reasoning per se. Institutional utopia rule of law I do think that it's important"
+    },
+    {
+      "timestamp": [
+        109.2,
+        117.26
+      ],
+      "text": " to have laws and rules and regulations so all hell does it break loose but who is making these laws"
+    },
+    {
+      "timestamp": [
+        117.26,
+        126.34
+      ],
+      "text": " like if we think about it in society today there is um it's super systemic for moral commonwealth"
+    },
+    {
+      "timestamp": [
+        126.34,
+        133.82
+      ],
+      "text": " yes it is good to have this intrinsic intrinsic versus extrinsic motivation i do think it's"
+    },
+    {
+      "timestamp": [
+        133.82,
+        141.82
+      ],
+      "text": " important to have both but some people aren't like their slate is based off of you know what"
+    },
+    {
+      "timestamp": [
+        141.82,
+        151.36
+      ],
+      "text": " happens in the home um it could be due to so many different other factors like um genetics it could"
+    },
+    {
+      "timestamp": [
+        151.36,
+        158.54
+      ],
+      "text": " be due to um social stuff it could be due to someone's bio cycle social everything and not"
+    },
+    {
+      "timestamp": [
+        158.54,
+        166.78
+      ],
+      "text": " everyone has a good moral compass futuristic utopia i do think that um that's the direction"
+    },
+    {
+      "timestamp": [
+        166.78,
+        174.42
+      ],
+      "text": " we are headed in however i rank that as number three because it's not so heavily based on ai"
+    },
+    {
+      "timestamp": [
+        174.42,
+        182.16
+      ],
+      "text": " um to modern green utopia i that would be ideal because it's not like we're cutting down thousands"
+    },
+    {
+      "timestamp": [
+        182.16,
+        191.0
+      ],
+      "text": " of land to build ai data centers and instead we are just we're we're being secure and we're being"
+    },
+    {
+      "timestamp": [
+        191.0,
+        197.52
+      ],
+      "text": " sustainable and this is for um the future of humanity in order for it to grow and one"
+    },
+    {
+      "timestamp": [
+        197.52,
+        205.58
+      ],
+      "text": " um i rank this as number one because there is still technology that we are using because"
+    },
+    {
+      "timestamp": [
+        205.58,
+        213.18
+      ],
+      "text": " technology is and can be helpful. And we're still preserving humanity."
+    }
+  ]
+}

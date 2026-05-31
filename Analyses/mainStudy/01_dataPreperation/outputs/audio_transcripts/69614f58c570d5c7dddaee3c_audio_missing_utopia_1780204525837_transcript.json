@@ -1,0 +1,17 @@
+{
+  "audio_file": "69614f58c570d5c7dddaee3c_audio_missing_utopia_1780204525837.webm",
+  "transcript": " So, I do feel all important values were already represented, but if there was anything additional, I would say there should be a kindness utopia, just where people are focused on being kind to one another, and that's the primary mission and initiative.",
+  "language": "unknown",
+  "processing_time_seconds": 6.033135,
+  "timestamp": "2026-05-31T09:51:17.360476",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.18
+      ],
+      "text": " So, I do feel all important values were already represented, but if there was anything additional, I would say there should be a kindness utopia, just where people are focused on being kind to one another, and that's the primary mission and initiative."
+    }
+  ]
+}

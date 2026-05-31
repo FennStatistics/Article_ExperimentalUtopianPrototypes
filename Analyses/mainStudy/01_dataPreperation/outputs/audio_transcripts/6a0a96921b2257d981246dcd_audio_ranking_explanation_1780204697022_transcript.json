@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a0a96921b2257d981246dcd_audio_ranking_explanation_1780204697022.webm",
+  "transcript": " Hello. I break the societies this way because I believe living in a way that makes us more connected with the environment and protective of the environment is the best way to live. And I feel like it's the most natural, seeing as we are animals, and it seems like the most healthy for us physically and mentally. Hand in hand in that goes with that goes science and also the primitive utopia. So basically, basically limiting technology and focusing on smaller scale human connection. and um the institutional utopia i think on paper like could be good but i think it gets too um separated from emotions and too abstract um and can lead to feel basically being cold and inhumane um and then the last two i ranked as least desirable the religious and ai centered i don't think that artificial intelligence should be as prevalent as it is and also as it should not be what is governing us and also with religion it's too biased and too harsh so i think that um those are my least desirable",
+  "language": "unknown",
+  "processing_time_seconds": 20.061015,
+  "timestamp": "2026-05-31T10:09:24.055300",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.88
+      ],
+      "text": " Hello. I break the societies this way because I believe living in a way that makes us more connected with the environment and protective of the environment is the best way to live."
+    },
+    {
+      "timestamp": [
+        17.88,
+        28.84
+      ],
+      "text": " And I feel like it's the most natural, seeing as we are animals, and it seems like the most healthy for us physically and mentally."
+    },
+    {
+      "timestamp": [
+        30.0,
+        41.18
+      ],
+      "text": " Hand in hand in that goes with that goes science and also the primitive utopia."
+    },
+    {
+      "timestamp": [
+        41.18,
+        50.88
+      ],
+      "text": " So basically, basically limiting technology and focusing on smaller scale human connection."
+    },
+    {
+      "timestamp": [
+        51.92,
+        51.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        61.84,
+        63.36
+      ],
+      "text": " and um the institutional utopia i think on paper like could be good but i think it gets too"
+    },
+    {
+      "timestamp": [
+        72.88,
+        74.64
+      ],
+      "text": " um separated from emotions and too abstract um and can lead to feel basically"
+    },
+    {
+      "timestamp": [
+        72.88,
+        81.58
+      ],
+      "text": " being cold and inhumane um and then the last two i ranked as least desirable the religious"
+    },
+    {
+      "timestamp": [
+        81.58,
+        89.92
+      ],
+      "text": " and ai centered i don't think that artificial intelligence should be as prevalent as it is"
+    },
+    {
+      "timestamp": [
+        89.92,
+        100.54
+      ],
+      "text": " and also as it should not be what is governing us and also with religion it's too biased and"
+    },
+    {
+      "timestamp": [
+        100.54,
+        106.92
+      ],
+      "text": " too harsh so i think that um those are my least desirable"
+    }
+  ]
+}

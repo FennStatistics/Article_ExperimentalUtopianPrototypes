@@ -1,0 +1,87 @@
+{
+  "audio_file": "69f67debc343491ee99f43ef_audio_missing_utopia_1780182723211.webm",
+  "transcript": " I think that the green utopia meets the vast majority of requirements, in my opinion, to legitimately be a utopia. I do think that there needs to be a balance between preserving nature and preserving technological progress in the world. Especially since there's pros and cons to everything. And sometimes a con is unfortunately necessary for the society to be okay. There also wasn't any mention of continued education. A lot of people think that in utopias that means that there isn't any need to work or to be educated, that it's just kumbaya, but a functioning society is when people have purpose, when they have education, and that could be a job, a trade, a hobby, really anything. I'd be interested in what style of family planning this utopia considers to be okay, because you've got people that want to have a numerous amount of children and others that don't, would that be okay in the grand scheme of things when looking at a green utopian laws?",
+  "language": "unknown",
+  "processing_time_seconds": 17.971845,
+  "timestamp": "2026-05-31T10:02:44.294719",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.22
+      ],
+      "text": " I think that the green utopia meets the vast majority of requirements, in my opinion, to legitimately be a utopia."
+    },
+    {
+      "timestamp": [
+        11.06,
+        20.98
+      ],
+      "text": " I do think that there needs to be a balance between preserving nature and preserving technological progress in the world."
+    },
+    {
+      "timestamp": [
+        26.44,
+        29.3
+      ],
+      "text": " Especially since there's pros and cons to everything."
+    },
+    {
+      "timestamp": [
+        30.0,
+        39.2
+      ],
+      "text": " And sometimes a con is unfortunately necessary for the society to be okay."
+    },
+    {
+      "timestamp": [
+        42.24,
+        51.04
+      ],
+      "text": " There also wasn't any mention of continued education. A lot of people think that in"
+    },
+    {
+      "timestamp": [
+        51.04,
+        57.92
+      ],
+      "text": " utopias that means that there isn't any need to work or to be educated, that it's just kumbaya,"
+    },
+    {
+      "timestamp": [
+        58.48,
+        57.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        63.18,
+        73.72
+      ],
+      "text": " but a functioning society is when people have purpose, when they have education, and that could be a job, a trade, a hobby, really anything. I'd be interested in what"
+    },
+    {
+      "timestamp": [
+        73.72,
+        81.92
+      ],
+      "text": " style of family planning this utopia considers to be okay, because you've got people that"
+    },
+    {
+      "timestamp": [
+        81.92,
+        88.56
+      ],
+      "text": " want to have a numerous amount of children and others that don't, would that be okay"
+    },
+    {
+      "timestamp": [
+        88.56,
+        93.82
+      ],
+      "text": " in the grand scheme of things when looking at a green utopian laws?"
+    }
+  ]
+}

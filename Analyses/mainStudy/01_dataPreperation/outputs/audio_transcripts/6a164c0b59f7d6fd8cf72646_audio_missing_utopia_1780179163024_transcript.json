@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a164c0b59f7d6fd8cf72646_audio_missing_utopia_1780179163024.webm",
+  "transcript": " I can think of other sort of dystopian versions of those idealized utopias present on the other page, but I think that those seven represent a good range of particular directions that one could imagine the future to go in a reality in which significant change is made to our societal construction. And ultimately, I think that those seven represent the range of those things well.",
+  "language": "unknown",
+  "processing_time_seconds": 8.983231,
+  "timestamp": "2026-05-31T10:14:17.250914",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.98
+      ],
+      "text": " I can think of other sort of dystopian versions of those idealized utopias present on the other page, but I think that those seven represent a good range of particular directions that one could imagine the future to go in a reality in which significant change is made to our societal construction."
+    },
+    {
+      "timestamp": [
+        30.0,
+        38.68
+      ],
+      "text": " And ultimately, I think that those seven represent the range of those things well."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a1a8d3372b0ab20d9c4041b_audio_missing_utopia_1780189024708.webm",
+  "transcript": " So we need a society that incorporates both law and faith, a society that one backs up the other and one brings forth morals from each other that help to govern its people. So the faith can be used to give reference, to give, not suggestions, but incorporations or backup. And then the law should be there to give what is right and what is wrong, to give what should be done and what should not be done. That was the one that I thought that was personally missing.",
+  "language": "unknown",
+  "processing_time_seconds": 10.683321,
+  "timestamp": "2026-05-31T10:20:35.866801",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.76
+      ],
+      "text": " So we need a society that incorporates both law and faith, a society that one backs up the other and one brings forth morals from each other that help to govern its people."
+    },
+    {
+      "timestamp": [
+        14.76,
+        28.74
+      ],
+      "text": " So the faith can be used to give reference, to give, not suggestions, but incorporations or backup."
+    },
+    {
+      "timestamp": [
+        28.74,
+        35.86
+      ],
+      "text": " And then the law should be there to give what is right and what is wrong, to give what should be done and what should not be done."
+    },
+    {
+      "timestamp": [
+        36.16,
+        38.74
+      ],
+      "text": " That was the one that I thought that was personally missing."
+    }
+  ]
+}

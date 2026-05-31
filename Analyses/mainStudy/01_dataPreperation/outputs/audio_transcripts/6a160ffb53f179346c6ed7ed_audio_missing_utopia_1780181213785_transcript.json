@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a160ffb53f179346c6ed7ed_audio_missing_utopia_1780181213785.webm",
+  "transcript": " I would say that the missing ideal future society would be one that is a mixture between that of the scientific innovation, as well as the one that focuses on a more true democracy approach and a green approach. One where we can work within our environment and ensure it is ideal for humans and other life on Earth, as well as also focusing on using scientific innovation to better provide for everyone, while also being a true democracy. Something that is a mixture of all of those I find would be the most ideal, but it isn't necessarily something that was missing from the other responses, more so just pieces from it.",
+  "language": "unknown",
+  "processing_time_seconds": 12.781389,
+  "timestamp": "2026-05-31T10:13:40.273908",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.86
+      ],
+      "text": " I would say that the missing ideal future society would be one that is a mixture between that of the scientific innovation, as well as the one that focuses on a more true democracy approach and a green approach."
+    },
+    {
+      "timestamp": [
+        20.86,
+        47.94
+      ],
+      "text": " One where we can work within our environment and ensure it is ideal for humans and other life on Earth, as well as also focusing on using scientific innovation to better provide for everyone, while also being a true democracy."
+    },
+    {
+      "timestamp": [
+        47.94,
+        63.0
+      ],
+      "text": " Something that is a mixture of all of those I find would be the most ideal, but it isn't necessarily something that was missing from the other responses, more so just pieces from it."
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "audio_file": "6100949844ff99c54b0e755e_audio_ranking_explanation_1780195122358.webm",
+  "transcript": " um i think my my top choice is the modern green utopia because it is sustainable and takes into account nature and trying to like use just enough of what we need and not you know completely destroy nature and um there's still some human involvement there's still like morality and making decisions as collective security is really important to that one too which I like and kind of like lower tech but green tech it would be probably less harmful for the environment and then my second choice would be the like primitive one with low technology where we're not really considering it day to day and yeah no no AI no like big technology I think I could forego a lot of the technology that we currently have so that's how I'm envisioning that um and the rule of law being based on a little bit more of like what what people mutually agree on but the low technology was appealing then the moral Commonwealth I think this would be really hard to realistically achieve just because the likelihood of people like legitimately agreeing on morals and enforcing it amongst each other seems very difficult. If it if I could execute it perfectly like that would be a wonderful world but I also think having that many people agree on what's moral or not would be really hard. Otherwise I would like that one that's why it's it's still in the top three. It seems seems like a good choice for like we govern ourselves type of society. Futurist utopia was okay. I didn't like that the innovation might come at the expense of the environment. Did like that things were based on scientific reason. I would love for people to be more science focused and I liked the innovation but when it comes to like limited natural resources that's uh kind of like it's in the middle it's not the worst of them but it's also not better than the other three in front of it um the institutional utopia rule of law it could it could be okay um If we have, you know, moral leaders and moral people amongst us who all implement the same laws, it could also go, like, super badly. If we have a super rigid, strict, law-based thing, that could be kind of dictator-like, which I don't really love. But it could also be okay, depending on what laws are enacted. um the last two was hard to determine which one was least preferable um i i put the religious utopia above the other one i think religious utopia could be okay depending on what religion we are utopian about um so so if it's if it's some kind of like nature driven or buddhist maybe i would be down i'd be ready to enact that um like i could do that um if it is some like Christianity Islam Judaism I think that would be a gamble of like how how strict how moral how unforgiving that all just depends on what religion so like if it is a faith-based that i at least morally agree on for the most part then it'd be okay um but there's no instance in the last one that would be okay which is why it's last um although optimization is appealing in some ways i think we don't need to optimize everything and especially at the expense of the environment that feels awful. I just can't endorse that. So sorry, AI data centers, you are last place. I think that's a very, like, cold society, unfriendly. I would not want to live there.",
+  "language": "unknown",
+  "processing_time_seconds": 58.248978,
+  "timestamp": "2026-05-31T09:47:38.753111",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.48
+      ],
+      "text": " um i think my my top choice is the modern green utopia because it is sustainable and takes into"
+    },
+    {
+      "timestamp": [
+        12.48,
+        19.98
+      ],
+      "text": " account nature and trying to like use just enough of what we need and not you know completely destroy"
+    },
+    {
+      "timestamp": [
+        19.98,
+        28.9
+      ],
+      "text": " nature and um there's still some human involvement there's still like morality and making decisions as"
+    },
+    {
+      "timestamp": [
+        28.9,
+        38.32
+      ],
+      "text": " collective security is really important to that one too which I like and kind of"
+    },
+    {
+      "timestamp": [
+        38.32,
+        45.4
+      ],
+      "text": " like lower tech but green tech it would be probably less harmful for the"
+    },
+    {
+      "timestamp": [
+        45.4,
+        55.06
+      ],
+      "text": " environment and then my second choice would be the like primitive one with"
+    },
+    {
+      "timestamp": [
+        55.06,
+        64.24
+      ],
+      "text": " low technology where we're not really considering it day to day and yeah no no"
+    },
+    {
+      "timestamp": [
+        64.24,
+        70.66
+      ],
+      "text": " AI no like big technology I think I could forego a lot of the technology"
+    },
+    {
+      "timestamp": [
+        70.66,
+        80.14
+      ],
+      "text": " that we currently have so that's how I'm envisioning that um and the rule of law"
+    },
+    {
+      "timestamp": [
+        80.14,
+        88.24
+      ],
+      "text": " being based on a little bit more of like what what people mutually agree on but"
+    },
+    {
+      "timestamp": [
+        88.24,
+        95.2
+      ],
+      "text": " the low technology was appealing then the moral Commonwealth I think this"
+    },
+    {
+      "timestamp": [
+        95.2,
+        100.84
+      ],
+      "text": " would be really hard to realistically achieve just because the likelihood of"
+    },
+    {
+      "timestamp": [
+        100.84,
+        107.2
+      ],
+      "text": " people like legitimately agreeing on morals and enforcing it amongst each"
+    },
+    {
+      "timestamp": [
+        107.2,
+        116.02
+      ],
+      "text": " other seems very difficult. If it if I could execute it perfectly like that"
+    },
+    {
+      "timestamp": [
+        116.02,
+        122.14
+      ],
+      "text": " would be a wonderful world but I also think having that many people agree on"
+    },
+    {
+      "timestamp": [
+        122.14,
+        129.92
+      ],
+      "text": " what's moral or not would be really hard. Otherwise I would like that one"
+    },
+    {
+      "timestamp": [
+        129.92,
+        135.96
+      ],
+      "text": " that's why it's it's still in the top three. It seems seems like a good choice"
+    },
+    {
+      "timestamp": [
+        135.96,
+        148.62
+      ],
+      "text": " for like we govern ourselves type of society. Futurist utopia was okay. I didn't like that"
+    },
+    {
+      "timestamp": [
+        148.62,
+        157.96
+      ],
+      "text": " the innovation might come at the expense of the environment. Did like that things were based on"
+    },
+    {
+      "timestamp": [
+        157.96,
+        164.54
+      ],
+      "text": " scientific reason. I would love for people to be more science focused and I liked the innovation"
+    },
+    {
+      "timestamp": [
+        164.54,
+        172.34
+      ],
+      "text": " but when it comes to like limited natural resources that's uh kind of like it's in the"
+    },
+    {
+      "timestamp": [
+        172.34,
+        178.12
+      ],
+      "text": " middle it's not the worst of them but it's also not better than the other three in front of it"
+    },
+    {
+      "timestamp": [
+        178.12,
+        189.62
+      ],
+      "text": " um the institutional utopia rule of law it could it could be okay um"
+    },
+    {
+      "timestamp": [
+        189.62,
+        208.3
+      ],
+      "text": " If we have, you know, moral leaders and moral people amongst us who all implement the same laws, it could also go, like, super badly."
+    },
+    {
+      "timestamp": [
+        208.3,
+        226.16
+      ],
+      "text": " If we have a super rigid, strict, law-based thing, that could be kind of dictator-like, which I don't really love."
+    },
+    {
+      "timestamp": [
+        227.64,
+        232.74
+      ],
+      "text": " But it could also be okay, depending on what laws are enacted."
+    },
+    {
+      "timestamp": [
+        234.82,
+        233.62
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        242.9,
+        255.46
+      ],
+      "text": " um the last two was hard to determine which one was least preferable um i i put the religious utopia above the other one i think religious utopia could be okay depending on what religion"
+    },
+    {
+      "timestamp": [
+        255.46,
+        266.98
+      ],
+      "text": " we are utopian about um so so if it's if it's some kind of like nature driven or"
+    },
+    {
+      "timestamp": [
+        267.86,
+        277.54
+      ],
+      "text": " buddhist maybe i would be down i'd be ready to enact that um like i could do that um if it is"
+    },
+    {
+      "timestamp": [
+        278.98,
+        277.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        295.76,
+        306.68
+      ],
+      "text": " some like Christianity Islam Judaism I think that would be a gamble of like how how strict how moral how unforgiving that all just depends on what religion so like if it is a faith-based"
+    },
+    {
+      "timestamp": [
+        306.68,
+        316.94
+      ],
+      "text": " that i at least morally agree on for the most part then it'd be okay um but there's no instance"
+    },
+    {
+      "timestamp": [
+        316.94,
+        325.0
+      ],
+      "text": " in the last one that would be okay which is why it's last um although optimization is appealing"
+    },
+    {
+      "timestamp": [
+        325.0,
+        333.56
+      ],
+      "text": " in some ways i think we don't need to optimize everything and especially at the expense of the"
+    },
+    {
+      "timestamp": [
+        333.56,
+        343.88
+      ],
+      "text": " environment that feels awful. I just can't endorse that. So"
+    },
+    {
+      "timestamp": [
+        344.9,
+        349.76
+      ],
+      "text": " sorry, AI data centers, you are last place. I think that's a"
+    },
+    {
+      "timestamp": [
+        349.76,
+        358.18
+      ],
+      "text": " very, like, cold society, unfriendly. I would not want to"
+    },
+    {
+      "timestamp": [
+        358.18,
+        358.64
+      ],
+      "text": " live there."
+    }
+  ]
+}

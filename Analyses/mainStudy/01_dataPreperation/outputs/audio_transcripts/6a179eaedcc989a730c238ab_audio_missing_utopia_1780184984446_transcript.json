@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a179eaedcc989a730c238ab_audio_missing_utopia_1780184984446.webm",
+  "transcript": " i mean i can't think of like a perfect one we'd go but um us i feel like how we're currently operating uh could have been put in there just thrown in there as an interesting little thing to see how people feel about how we currently are operating but just in a future aspect um because how we are operating right now doesn't seem the smartest or the best um for the earth um for the individual people on it we are kind of uh well some are happy some aren't that that's natural um we do have the religious aspects we do have the ai aspect so it's kind of a culmination but everybody's well not everybody's in accordance to it but i i think that would be something that could have been done in there.",
+  "language": "unknown",
+  "processing_time_seconds": 13.992202,
+  "timestamp": "2026-05-31T10:15:57.195640",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        11.52
+      ],
+      "text": " i mean i can't think of like a perfect one we'd go but um us i feel like how we're currently"
+    },
+    {
+      "timestamp": [
+        11.52,
+        17.28
+      ],
+      "text": " operating uh could have been put in there just thrown in there as an interesting little thing"
+    },
+    {
+      "timestamp": [
+        17.28,
+        24.72
+      ],
+      "text": " to see how people feel about how we currently are operating but just in a future aspect"
+    },
+    {
+      "timestamp": [
+        24.72,
+        32.88
+      ],
+      "text": " um because how we are operating right now doesn't seem the smartest or the best um for the earth"
+    },
+    {
+      "timestamp": [
+        32.88,
+        40.08
+      ],
+      "text": " um for the individual people on it we are kind of uh well some are happy some aren't that that's"
+    },
+    {
+      "timestamp": [
+        40.08,
+        45.84
+      ],
+      "text": " natural um we do have the religious aspects we do have the ai aspect so it's kind of a"
+    },
+    {
+      "timestamp": [
+        45.84,
+        52.24
+      ],
+      "text": " culmination but everybody's well not everybody's in accordance to it but i i think that would be"
+    },
+    {
+      "timestamp": [
+        53.52,
+        52.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        55.1,
+        null
+      ],
+      "text": " something that could have been done in there."
+    }
+  ]
+}

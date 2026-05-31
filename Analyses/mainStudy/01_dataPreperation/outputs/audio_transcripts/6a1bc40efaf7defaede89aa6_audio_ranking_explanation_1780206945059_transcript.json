@@ -1,0 +1,115 @@
+{
+  "audio_file": "6a1bc40efaf7defaede89aa6_audio_ranking_explanation_1780206945059.webm",
+  "transcript": " um i chose modern green utopia as my number one because i care about environmental science and justice so i feel like having that be the number one priority is something that's important to me so i would like to see a society that's concerned about that um number two low tech and small scale goes along the same vein as the sustainability it sounds like and the community sounds nice um moral commonwealth the description sounds like everyone would kind of be good to each other i think it implied a lack of um social economic issues um less crime and poverty is what i guessed from the explanation um rule of law kind of sounds like what we operate by now so i put it in the middle because it sounded a little boring futurist utopia i didn't like that the explanation it said science and innovation would come before environmental limits and that expansion and advancements were more important than um a limit to raw materials ai-centered utopia i didn't like the idea of it being run by ai um religious utopia i put as the worst one because i think it would be the most lawless in my opinion because i think it would rely on no law and just religion um i don't think it specified which religion that would be but i wouldn't like that",
+  "language": "unknown",
+  "processing_time_seconds": 22.126247,
+  "timestamp": "2026-05-31T10:25:10.936734",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.66
+      ],
+      "text": " um i chose modern green utopia as my number one because i care about environmental science and"
+    },
+    {
+      "timestamp": [
+        9.66,
+        14.86
+      ],
+      "text": " justice so i feel like having that be the number one priority is something that's important to me"
+    },
+    {
+      "timestamp": [
+        14.86,
+        25.64
+      ],
+      "text": " so i would like to see a society that's concerned about that um number two low tech and small scale"
+    },
+    {
+      "timestamp": [
+        25.64,
+        32.5
+      ],
+      "text": " goes along the same vein as the sustainability it sounds like and the community sounds nice"
+    },
+    {
+      "timestamp": [
+        32.5,
+        41.28
+      ],
+      "text": " um moral commonwealth the description sounds like everyone would"
+    },
+    {
+      "timestamp": [
+        41.28,
+        51.42
+      ],
+      "text": " kind of be good to each other i think it implied a lack of um social economic issues um"
+    },
+    {
+      "timestamp": [
+        52.42,
+        51.42
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        62.9,
+        69.58
+      ],
+      "text": " less crime and poverty is what i guessed from the explanation um rule of law kind of sounds like what we operate by now so i put it in the middle because it sounded a little"
+    },
+    {
+      "timestamp": [
+        69.58,
+        78.1
+      ],
+      "text": " boring futurist utopia i didn't like that the explanation it said science and innovation"
+    },
+    {
+      "timestamp": [
+        78.1,
+        87.58
+      ],
+      "text": " would come before environmental limits and that expansion and advancements were more important"
+    },
+    {
+      "timestamp": [
+        87.58,
+        96.02
+      ],
+      "text": " than um a limit to raw materials ai-centered utopia i didn't like the idea of"
+    },
+    {
+      "timestamp": [
+        96.02,
+        106.44
+      ],
+      "text": " it being run by ai um religious utopia i put as the worst one because"
+    },
+    {
+      "timestamp": [
+        106.44,
+        116.38
+      ],
+      "text": " i think it would be the most lawless in my opinion because i think it would rely on"
+    },
+    {
+      "timestamp": [
+        116.38,
+        125.88
+      ],
+      "text": " no law and just religion um i don't think it specified which religion that would be but i"
+    },
+    {
+      "timestamp": [
+        125.88,
+        126.72
+      ],
+      "text": " wouldn't like that"
+    }
+  ]
+}

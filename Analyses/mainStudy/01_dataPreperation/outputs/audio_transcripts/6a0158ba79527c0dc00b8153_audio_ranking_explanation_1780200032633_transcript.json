@@ -1,0 +1,115 @@
+{
+  "audio_file": "6a0158ba79527c0dc00b8153_audio_ranking_explanation_1780200032633.webm",
+  "transcript": " so this is why i chose the ones i chose for the modern green utopia i like that it is focused on the environment because i do think we need a society that focuses on the environment and we want a sustainable future so i picked on as number one i thought the moral commonwealth was nice because if everybody feels good about the decisions and i would kind of like that type of society and it doesn't feel like people are doing things out of because they're being forced the futuristic utopia I think I chose it because I just like the other ones more the low-tech and small space or permit permit to the primitivist utopia i didn't really love either so i put that one as number four i didn't like that it's low tech and small scale kind of reminds me of like amish communities in america i'm like i'm really interested in that um the rule of law i really didn't like i don't like the government just telling everybody what to do and we're just doing it for the sake of society i wasn't a fan of that um the face bath order i didn't really like either i remember i think that's something along the lines of like rejecting like science and the environment which i strongly disagree with and the ai one was my least favorite and i that's like the matrix and i am not i do not like ai and i don't i hope that that society does not come true",
+  "language": "unknown",
+  "processing_time_seconds": 23.391284,
+  "timestamp": "2026-05-31T10:04:07.856794",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.96
+      ],
+      "text": " so this is why i chose the ones i chose for the modern green utopia i like that it is focused on"
+    },
+    {
+      "timestamp": [
+        9.96,
+        14.46
+      ],
+      "text": " the environment because i do think we need a society that focuses on the environment and"
+    },
+    {
+      "timestamp": [
+        14.46,
+        21.56
+      ],
+      "text": " we want a sustainable future so i picked on as number one i thought the moral commonwealth was"
+    },
+    {
+      "timestamp": [
+        21.56,
+        27.8
+      ],
+      "text": " nice because if everybody feels good about the decisions and i would kind of like that type of"
+    },
+    {
+      "timestamp": [
+        27.8,
+        35.92
+      ],
+      "text": " society and it doesn't feel like people are doing things out of because they're"
+    },
+    {
+      "timestamp": [
+        35.92,
+        45.42
+      ],
+      "text": " being forced the futuristic utopia I think I chose it because I just like the"
+    },
+    {
+      "timestamp": [
+        45.42,
+        53.4
+      ],
+      "text": " other ones more the low-tech and small space or permit permit to the"
+    },
+    {
+      "timestamp": [
+        53.4,
+        58.82
+      ],
+      "text": " primitivist utopia i didn't really love either so i put that one as number four"
+    },
+    {
+      "timestamp": [
+        58.82,
+        64.56
+      ],
+      "text": " i didn't like that it's low tech and small scale kind of reminds me of like amish communities in"
+    },
+    {
+      "timestamp": [
+        64.56,
+        71.66
+      ],
+      "text": " america i'm like i'm really interested in that um the rule of law i really didn't like i don't"
+    },
+    {
+      "timestamp": [
+        71.66,
+        76.0
+      ],
+      "text": " like the government just telling everybody what to do and we're just doing it for the sake of"
+    },
+    {
+      "timestamp": [
+        76.0,
+        85.58
+      ],
+      "text": " society i wasn't a fan of that um the face bath order i didn't really like either i remember i"
+    },
+    {
+      "timestamp": [
+        85.58,
+        90.86
+      ],
+      "text": " think that's something along the lines of like rejecting like science and the environment which"
+    },
+    {
+      "timestamp": [
+        90.86,
+        99.0
+      ],
+      "text": " i strongly disagree with and the ai one was my least favorite and i that's like the matrix and"
+    },
+    {
+      "timestamp": [
+        99.0,
+        106.92
+      ],
+      "text": " i am not i do not like ai and i don't i hope that that society does not come true"
+    }
+  ]
+}

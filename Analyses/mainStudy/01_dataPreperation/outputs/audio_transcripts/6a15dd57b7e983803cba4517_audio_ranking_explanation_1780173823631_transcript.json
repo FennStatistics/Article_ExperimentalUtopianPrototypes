@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a15dd57b7e983803cba4517_audio_ranking_explanation_1780173823631.webm",
+  "transcript": " Hopefully, I didn't mix any of the titles up and get confused, but okay, so I chose the AI-centered as number one because I really trust AI in knowing what they're talking about, and I think it would probably be the smartest way to do things. Um, and, um, I just, I just feel like that should definitely be at the top. And then I wasn't too sure of the rest and I just kind of ordered them in the way they make sense to me.",
+  "language": "unknown",
+  "processing_time_seconds": 9.936946,
+  "timestamp": "2026-05-31T10:13:27.386337",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.46
+      ],
+      "text": " Hopefully, I didn't mix any of the titles up and get confused, but okay, so I chose the AI-centered as number one because I really trust AI in knowing what they're talking about, and I think it would probably be the smartest way to do things."
+    },
+    {
+      "timestamp": [
+        28.6,
+        23.46
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.3,
+        44.12
+      ],
+      "text": " Um, and, um, I just, I just feel like that should definitely be at the top. And then I wasn't too sure of the rest and I just kind of ordered them in the way they"
+    },
+    {
+      "timestamp": [
+        44.12,
+        45.68
+      ],
+      "text": " make sense to me."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a06421377e1ca15fefe2378_audio_missing_utopia_1780186094215.webm",
+  "transcript": " From what it sounds like, it actually talked a lot about Eastern ways or non-independent societies, meaning it wasn't necessarily individualistic, like a lot of these societies or all of the societies talked about how do we collectively as like a race or whatever like entity how do we all collectively progress as a society and as a society in order for us to survive um but I think the way that I would want a future society is you know equality for all or women to have better wages than men or you know a society where men aren't criticizing women all the time or quote-unquote the bad guys because there's so much I can go on and on but there's just a bunch of reasons why women feel unsafe today so I do think a really great utopia would be women feeling safe and being respected for sure. Along with an innovative world where there is technology, but we do not heavily rely on AI while also preserving our own humanity, having morals and values, and also preserving the planet, of course.",
+  "language": "unknown",
+  "processing_time_seconds": 18.423946,
+  "timestamp": "2026-05-31T10:06:28.679088",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.72
+      ],
+      "text": " From what it sounds like, it actually talked a lot about Eastern ways or non-independent"
+    },
+    {
+      "timestamp": [
+        12.72,
+        18.6
+      ],
+      "text": " societies, meaning it wasn't necessarily individualistic, like a lot of these societies"
+    },
+    {
+      "timestamp": [
+        18.6,
+        26.36
+      ],
+      "text": " or all of the societies talked about how do we collectively as like a race or whatever"
+    },
+    {
+      "timestamp": [
+        26.36,
+        32.86
+      ],
+      "text": " like entity how do we all collectively progress as a society and as a society in order for us to"
+    },
+    {
+      "timestamp": [
+        32.86,
+        45.64
+      ],
+      "text": " survive um but I think the way that I would want a future society is you know equality for all or"
+    },
+    {
+      "timestamp": [
+        45.64,
+        57.88
+      ],
+      "text": " women to have better wages than men or you know a society where men aren't criticizing women all"
+    },
+    {
+      "timestamp": [
+        57.88,
+        65.2
+      ],
+      "text": " the time or quote-unquote the bad guys because there's so much I can go on and on but there's"
+    },
+    {
+      "timestamp": [
+        65.2,
+        74.56
+      ],
+      "text": " just a bunch of reasons why women feel unsafe today so I do think a really great utopia would"
+    },
+    {
+      "timestamp": [
+        74.56,
+        85.14
+      ],
+      "text": " be women feeling safe and being respected for sure. Along with an innovative world where there"
+    },
+    {
+      "timestamp": [
+        85.14,
+        92.08
+      ],
+      "text": " is technology, but we do not heavily rely on AI while also preserving our own humanity,"
+    },
+    {
+      "timestamp": [
+        92.36,
+        99.6
+      ],
+      "text": " having morals and values, and also preserving the planet, of course."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "audio_file": "69f67debc343491ee99f43ef_audio_ranking_explanation_1780182525792.webm",
+  "transcript": " I ranked the modern green utopia as my most preferred and the religious utopia as my least preferred. The reason for this is because in a religious utopia, man can manipulate the doctrine and the beliefs and the moral codes that they decide to follow. So the risk with that is it ends up ultimately becoming morally flawed where the leader is creating the rules to benefit themselves rather than to benefit the collective in a green utopia there's technology science all of that is included in the analysis of how to make the world better for the people that live in it. Um, it'll be a lot more, um, pluralistic rather than individualist. And then green utopias will be more adaptable than a religious one. Adaptable to continuing environmental changes. especially since there had already been, in this scenario, a worldwide event.",
+  "language": "unknown",
+  "processing_time_seconds": 16.898216,
+  "timestamp": "2026-05-31T10:03:01.297528",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.86
+      ],
+      "text": " I ranked the modern green utopia as my most preferred and the religious utopia as my least"
+    },
+    {
+      "timestamp": [
+        8.86,
+        19.34
+      ],
+      "text": " preferred. The reason for this is because in a religious utopia, man can manipulate the doctrine"
+    },
+    {
+      "timestamp": [
+        19.34,
+        26.78
+      ],
+      "text": " and the beliefs and the moral codes that they decide to follow. So the risk with that is it"
+    },
+    {
+      "timestamp": [
+        26.78,
+        36.54
+      ],
+      "text": " ends up ultimately becoming morally flawed where the leader is creating the rules to benefit"
+    },
+    {
+      "timestamp": [
+        36.54,
+        47.34
+      ],
+      "text": " themselves rather than to benefit the collective in a green utopia there's technology science"
+    },
+    {
+      "timestamp": [
+        47.34,
+        54.88
+      ],
+      "text": " all of that is included in the analysis of how to make the world better for the people that live in"
+    },
+    {
+      "timestamp": [
+        54.88,
+        64.54
+      ],
+      "text": " it. Um, it'll be a lot more, um, pluralistic rather than individualist."
+    },
+    {
+      "timestamp": [
+        67.94,
+        75.34
+      ],
+      "text": " And then green utopias will be more adaptable than a religious one."
+    },
+    {
+      "timestamp": [
+        76.94,
+        81.54
+      ],
+      "text": " Adaptable to continuing environmental changes."
+    },
+    {
+      "timestamp": [
+        84.88,
+        91.66
+      ],
+      "text": " especially since there had already been, in this scenario, a worldwide event."
+    }
+  ]
+}

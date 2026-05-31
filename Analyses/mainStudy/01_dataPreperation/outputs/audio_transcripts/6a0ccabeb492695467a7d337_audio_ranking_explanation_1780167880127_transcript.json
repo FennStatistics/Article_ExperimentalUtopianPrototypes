@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0ccabeb492695467a7d337_audio_ranking_explanation_1780167880127.webm",
+  "transcript": " The rule of law gives people a constitutional way of living other than the primitivist utopia.",
+  "language": "unknown",
+  "processing_time_seconds": 4.92973,
+  "timestamp": "2026-05-31T10:10:07.917888",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.08
+      ],
+      "text": " The rule of law gives people a constitutional way of living other than the primitivist utopia."
+    }
+  ]
+}

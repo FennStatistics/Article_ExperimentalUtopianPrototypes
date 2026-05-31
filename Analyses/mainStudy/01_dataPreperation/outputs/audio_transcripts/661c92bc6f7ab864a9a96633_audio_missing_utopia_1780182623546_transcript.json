@@ -1,0 +1,66 @@
+{
+  "audio_file": "661c92bc6f7ab864a9a96633_audio_missing_utopia_1780182623546.webm",
+  "transcript": " I think the best society would be the one that has no exchange policies as far as money doesn't exist. The love of money is the root of all evil, and that's faith-based. But I feel like the majority of things that happen, the center of it is money. And if you removed it, people could live their best lives. they wouldn't have to work they wouldn't have to struggle they wouldn't have to save because when you pass away all that goes away anyway you cannot take it with you once that casket closed once that oven burns you or whatever um you can't have it and then your life's work that you woke up for every single day is gone",
+  "language": "unknown",
+  "processing_time_seconds": 11.651726,
+  "timestamp": "2026-05-31T09:47:50.549091",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.7
+      ],
+      "text": " I think the best society would be the one that has no exchange policies as far as money doesn't exist."
+    },
+    {
+      "timestamp": [
+        11.94,
+        16.18
+      ],
+      "text": " The love of money is the root of all evil, and that's faith-based."
+    },
+    {
+      "timestamp": [
+        16.64,
+        23.58
+      ],
+      "text": " But I feel like the majority of things that happen, the center of it is money."
+    },
+    {
+      "timestamp": [
+        23.68,
+        27.4
+      ],
+      "text": " And if you removed it, people could live their best lives."
+    },
+    {
+      "timestamp": [
+        27.4,
+        32.6
+      ],
+      "text": " they wouldn't have to work they wouldn't have to struggle they wouldn't have to save because when"
+    },
+    {
+      "timestamp": [
+        32.6,
+        38.2
+      ],
+      "text": " you pass away all that goes away anyway you cannot take it with you once that casket closed"
+    },
+    {
+      "timestamp": [
+        38.2,
+        44.06
+      ],
+      "text": " once that oven burns you or whatever um you can't have it and then your life's work"
+    },
+    {
+      "timestamp": [
+        44.06,
+        47.92
+      ],
+      "text": " that you woke up for every single day is gone"
+    }
+  ]
+}

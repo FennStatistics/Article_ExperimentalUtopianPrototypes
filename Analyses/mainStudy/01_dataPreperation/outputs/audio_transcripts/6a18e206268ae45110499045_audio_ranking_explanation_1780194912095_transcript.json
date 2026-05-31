@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a18e206268ae45110499045_audio_ranking_explanation_1780194912095.webm",
+  "transcript": " As a socialist and environmentalist, my values reside in community-oriented governance. And I believe those two options that I put near the top really focus on those values, especially focusing on the importance of the environment and only using what you need, as well as community-oriented governance and ruling through the needs of the people in the collective over the needs of the few the ones I put near the bottom I did not like because the rule of law were focused on machine overlords or AI beings or faith-based governments or governance based on human morals instead of science or reality and those are the values I uphold and that's why I ranked in that way",
+  "language": "unknown",
+  "processing_time_seconds": 13.347378,
+  "timestamp": "2026-05-31T10:17:39.635585",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        8.64
+      ],
+      "text": " As a socialist and environmentalist, my values reside in community-oriented governance."
+    },
+    {
+      "timestamp": [
+        9.88,
+        16.26
+      ],
+      "text": " And I believe those two options that I put near the top really focus on those values,"
+    },
+    {
+      "timestamp": [
+        16.62,
+        22.68
+      ],
+      "text": " especially focusing on the importance of the environment and only using what you need,"
+    },
+    {
+      "timestamp": [
+        22.68,
+        30.7
+      ],
+      "text": " as well as community-oriented governance and ruling through the needs of the people in the"
+    },
+    {
+      "timestamp": [
+        30.7,
+        40.82
+      ],
+      "text": " collective over the needs of the few the ones I put near the bottom I did not like because the"
+    },
+    {
+      "timestamp": [
+        40.82,
+        52.54
+      ],
+      "text": " rule of law were focused on machine overlords or AI beings or faith-based governments or"
+    },
+    {
+      "timestamp": [
+        52.54,
+        62.46
+      ],
+      "text": " governance based on human morals instead of science or reality and those are the"
+    },
+    {
+      "timestamp": [
+        62.46,
+        67.14
+      ],
+      "text": " values I uphold and that's why I ranked in that way"
+    }
+  ]
+}

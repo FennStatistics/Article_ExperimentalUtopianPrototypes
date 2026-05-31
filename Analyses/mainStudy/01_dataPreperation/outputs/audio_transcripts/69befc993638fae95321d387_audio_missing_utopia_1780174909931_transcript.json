@@ -1,0 +1,38 @@
+{
+  "audio_file": "69befc993638fae95321d387_audio_missing_utopia_1780174909931.webm",
+  "transcript": " um ideally i believe a society would have components of um a moral utopia where individuals are looking out for their neighbors and their neighbor's best interests um however i do believe there should be a component of law enforcement um that happens since humans are naturally selfish and do not necessarily look out for the best interest of others.",
+  "language": "unknown",
+  "processing_time_seconds": 8.796112,
+  "timestamp": "2026-05-31T09:54:18.947722",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.28
+      ],
+      "text": " um ideally i believe a society would have components of um a moral utopia"
+    },
+    {
+      "timestamp": [
+        9.28,
+        17.58
+      ],
+      "text": " where individuals are looking out for their neighbors and their neighbor's best interests"
+    },
+    {
+      "timestamp": [
+        17.58,
+        26.26
+      ],
+      "text": " um however i do believe there should be a component of law enforcement um that happens"
+    },
+    {
+      "timestamp": [
+        26.26,
+        33.1
+      ],
+      "text": " since humans are naturally selfish and do not necessarily look out for the best interest of others."
+    }
+  ]
+}

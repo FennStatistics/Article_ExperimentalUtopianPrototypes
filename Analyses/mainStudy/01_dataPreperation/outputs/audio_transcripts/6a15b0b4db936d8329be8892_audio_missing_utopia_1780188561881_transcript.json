@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a15b0b4db936d8329be8892_audio_missing_utopia_1780188561881.webm",
+  "transcript": " A future society that was missing was maybe a society where it was just ruled by the people and not by government or by technology.",
+  "language": "unknown",
+  "processing_time_seconds": 5.165405,
+  "timestamp": "2026-05-31T10:13:05.220012",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.1
+      ],
+      "text": " A future society that was missing was maybe a society where it was just ruled by the people and not by government or by technology."
+    }
+  ]
+}

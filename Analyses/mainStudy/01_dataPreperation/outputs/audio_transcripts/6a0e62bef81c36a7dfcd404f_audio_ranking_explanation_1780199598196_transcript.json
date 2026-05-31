@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0e62bef81c36a7dfcd404f_audio_ranking_explanation_1780199598196.webm",
+  "transcript": " okay so i ranked the moral commonwealth one because i thought that people being like nice and having good morals is very useful and like i guess ideal and i ranked the religious utopia last because i am not um religious so that would be like the worst for me and i think that like the institutional and AI centered utopia would be very like um calm and like like easy life and then I'd rather not like I don't know I think because I'm not good at science I didn't love the futurist futurist utopia and then for low tech and small scale I feel like that would also like that's why I ranked primitivist sorry primitivist um lower as well as modern green because I like having more stuff rather than less.",
+  "language": "unknown",
+  "processing_time_seconds": 14.056816,
+  "timestamp": "2026-05-31T10:11:03.395661",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.58
+      ],
+      "text": " okay so i ranked the moral commonwealth one because i thought that people being like nice"
+    },
+    {
+      "timestamp": [
+        7.58,
+        16.54
+      ],
+      "text": " and having good morals is very useful and like i guess ideal and i ranked the religious utopia"
+    },
+    {
+      "timestamp": [
+        16.54,
+        25.86
+      ],
+      "text": " last because i am not um religious so that would be like the worst for me and i think that like"
+    },
+    {
+      "timestamp": [
+        25.86,
+        33.52
+      ],
+      "text": " the institutional and AI centered utopia would be very like um calm and like like easy life"
+    },
+    {
+      "timestamp": [
+        33.52,
+        39.46
+      ],
+      "text": " and then I'd rather not like I don't know I think because I'm not good at science I didn't love the"
+    },
+    {
+      "timestamp": [
+        39.46,
+        46.62
+      ],
+      "text": " futurist futurist utopia and then for low tech and small scale I feel like that would also like"
+    },
+    {
+      "timestamp": [
+        46.62,
+        54.04
+      ],
+      "text": " that's why I ranked primitivist sorry primitivist um lower as well as modern green because I like"
+    },
+    {
+      "timestamp": [
+        54.04,
+        56.64
+      ],
+      "text": " having more stuff rather than less."
+    }
+  ]
+}

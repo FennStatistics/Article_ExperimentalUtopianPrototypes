@@ -1,0 +1,234 @@
+{
+  "audio_file": "6641076785a23b3f7db3c5c1_audio_ranking_explanation_1780186224420.webm",
+  "transcript": " I ranked my, um, ideal societies. I put modern green utopia at the top because, um, in my ideal world, we would not be having an environmental crisis like we are right now. Um, people would be a lot more innovative about using renewable green resources than they currently are right now and it would be a lot more secure and promising for future generations to live that way so that's why i put it at the top followed by a futuristic utopia with science and innovation at the forefront because i believe that things will follow that that are beneficial to society such as more innovative healthcare, better use of renewable resources, lower destruction of the environment. Next, I have the moral commonwealth. I don't have that at the top because I believe that it's too idealistic, that it can't be trusted. It just seems too volatile. How can you actually trust a society to behave so that people are conscientious and just look out for each other by the goodness of their heart? I don't think that it would actually have any kind of framework or organization which a civilization needs to work. Next, I have institutional utopia rule of law this is pretty much what we have now currently i have that in the middle as a sort of neutral preference because it's what we have now it's what we're used to now it's not going forward but it's also not going backwards next i have the primitivist utopia low tech and small scale this description reminded me of the sort of medieval style small villages, pre-industrial type of living. It's a simpler way of life, it sounds like, more close-knit communities looking out for one another. However, when problems arrive, such as health problems or environmental disasters, we do need the technology to combat that. so i would not prefer that at the top but i don't think it would be horrible to live in that kind of society at number six i have ai centered utopia i don't see this as a utopia it's a dystopia um if we let ai make all the decisions to drive forth our society then what control do we have as individuals, as a population, as a civilization? What happens if things get out of control? How will we know? How will we keep track? How will we make decisions? It's placing a lot of faith in technology that a lot of us don't fully understand, and I have very little trust in that. Number seven is the religious utopia. This would be going very backwards, and it would not be fair or equal for people who don't believe in a particular doctrine or dogma, and obviously it's not based in reality, so it would be very contradictory to try to build a society based on a religious or faith-based order.",
+  "language": "unknown",
+  "processing_time_seconds": 44.856137,
+  "timestamp": "2026-05-31T09:48:59.674169",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.68
+      ],
+      "text": " I ranked my, um, ideal societies. I put modern green utopia at the top because, um, in my"
+    },
+    {
+      "timestamp": [
+        12.68,
+        19.96
+      ],
+      "text": " ideal world, we would not be having an environmental crisis like we are right now."
+    },
+    {
+      "timestamp": [
+        19.96,
+        28.96
+      ],
+      "text": " Um, people would be a lot more innovative about using renewable green resources than they currently"
+    },
+    {
+      "timestamp": [
+        28.96,
+        37.76
+      ],
+      "text": " are right now and it would be a lot more secure and promising for future generations to live that"
+    },
+    {
+      "timestamp": [
+        37.76,
+        45.76
+      ],
+      "text": " way so that's why i put it at the top followed by a futuristic utopia with science and innovation"
+    },
+    {
+      "timestamp": [
+        45.76,
+        52.72
+      ],
+      "text": " at the forefront because i believe that things will follow that that are beneficial to society"
+    },
+    {
+      "timestamp": [
+        52.72,
+        65.18
+      ],
+      "text": " such as more innovative healthcare, better use of renewable resources, lower destruction"
+    },
+    {
+      "timestamp": [
+        65.18,
+        66.04
+      ],
+      "text": " of the environment."
+    },
+    {
+      "timestamp": [
+        67.26,
+        69.14
+      ],
+      "text": " Next, I have the moral commonwealth."
+    },
+    {
+      "timestamp": [
+        70.0,
+        77.82
+      ],
+      "text": " I don't have that at the top because I believe that it's too idealistic, that it can't be"
+    },
+    {
+      "timestamp": [
+        77.82,
+        78.32
+      ],
+      "text": " trusted."
+    },
+    {
+      "timestamp": [
+        79.6,
+        81.64
+      ],
+      "text": " It just seems too volatile."
+    },
+    {
+      "timestamp": [
+        82.72,
+        95.24
+      ],
+      "text": " How can you actually trust a society to behave so that people are conscientious and just"
+    },
+    {
+      "timestamp": [
+        95.24,
+        101.88
+      ],
+      "text": " look out for each other by the goodness of their heart? I don't think that it would actually have"
+    },
+    {
+      "timestamp": [
+        101.88,
+        110.64
+      ],
+      "text": " any kind of framework or organization which a civilization needs to work. Next, I have"
+    },
+    {
+      "timestamp": [
+        110.64,
+        116.64
+      ],
+      "text": " institutional utopia rule of law this is pretty much what we have now currently i have that in"
+    },
+    {
+      "timestamp": [
+        116.64,
+        123.76
+      ],
+      "text": " the middle as a sort of neutral preference because it's what we have now it's what we're used to now"
+    },
+    {
+      "timestamp": [
+        125.2,
+        132.32
+      ],
+      "text": " it's not going forward but it's also not going backwards next i have the primitivist utopia"
+    },
+    {
+      "timestamp": [
+        132.32,
+        138.96
+      ],
+      "text": " low tech and small scale this description reminded me of the sort of medieval style"
+    },
+    {
+      "timestamp": [
+        139.76,
+        148.96
+      ],
+      "text": " small villages, pre-industrial type of living. It's a simpler way of life, it sounds like, more"
+    },
+    {
+      "timestamp": [
+        149.6,
+        155.36
+      ],
+      "text": " close-knit communities looking out for one another. However, when problems arrive, such as"
+    },
+    {
+      "timestamp": [
+        157.2,
+        164.4
+      ],
+      "text": " health problems or environmental disasters, we do need the technology to combat that."
+    },
+    {
+      "timestamp": [
+        165.68,
+        164.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        174.06,
+        182.96
+      ],
+      "text": " so i would not prefer that at the top but i don't think it would be horrible to live in that kind of society at number six i have ai centered utopia i don't see this as a utopia it's a"
+    },
+    {
+      "timestamp": [
+        182.96,
+        193.32
+      ],
+      "text": " dystopia um if we let ai make all the decisions to drive forth our society then what control do"
+    },
+    {
+      "timestamp": [
+        193.32,
+        201.78
+      ],
+      "text": " we have as individuals, as a population, as a civilization? What happens if things get out of"
+    },
+    {
+      "timestamp": [
+        201.78,
+        211.52
+      ],
+      "text": " control? How will we know? How will we keep track? How will we make decisions? It's placing a lot"
+    },
+    {
+      "timestamp": [
+        211.52,
+        218.68
+      ],
+      "text": " of faith in technology that a lot of us don't fully understand, and I have very little trust"
+    },
+    {
+      "timestamp": [
+        218.68,
+        229.1
+      ],
+      "text": " in that. Number seven is the religious utopia. This would be going very backwards, and it would"
+    },
+    {
+      "timestamp": [
+        229.1,
+        239.4
+      ],
+      "text": " not be fair or equal for people who don't believe in a particular doctrine or dogma, and obviously"
+    },
+    {
+      "timestamp": [
+        239.4,
+        250.74
+      ],
+      "text": " it's not based in reality, so it would be very contradictory to try to build a society"
+    },
+    {
+      "timestamp": [
+        250.74,
+        254.68
+      ],
+      "text": " based on a religious or faith-based order."
+    }
+  ]
+}

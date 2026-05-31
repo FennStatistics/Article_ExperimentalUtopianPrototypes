@@ -1,0 +1,38 @@
+{
+  "audio_file": "6715b46f9f59f9e05837029a_audio_ranking_explanation_1780191386549.webm",
+  "transcript": " I think a society that promotes sustainability and morality is the most like utopia that we could attain. And I don't know that an AI-centered economy would be very beneficial considering the impact that it's having on us already, just in terms of the loss of jobs and the economic factors that have come with that thus far.",
+  "language": "unknown",
+  "processing_time_seconds": 11.196386,
+  "timestamp": "2026-05-31T09:49:32.897126",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.72
+      ],
+      "text": " I think a society that promotes sustainability and morality is the most like utopia that"
+    },
+    {
+      "timestamp": [
+        15.72,
+        33.46
+      ],
+      "text": " we could attain. And I don't know that an AI-centered economy would be very beneficial"
+    },
+    {
+      "timestamp": [
+        33.46,
+        43.16
+      ],
+      "text": " considering the impact that it's having on us already, just in terms of the loss of jobs"
+    },
+    {
+      "timestamp": [
+        43.16,
+        50.04
+      ],
+      "text": " and the economic factors that have come with that thus far."
+    }
+  ]
+}

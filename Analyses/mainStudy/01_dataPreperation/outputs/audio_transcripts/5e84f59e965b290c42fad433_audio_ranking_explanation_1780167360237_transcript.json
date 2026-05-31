@@ -1,0 +1,136 @@
+{
+  "audio_file": "5e84f59e965b290c42fad433_audio_ranking_explanation_1780167360237.webm",
+  "transcript": " I rank the societies because I think we have scarce resources and finding a way to optimize them and continually innovate is the best. I think rule of law is important as well because humans aren't perfect. And so I think the moral commonwealth, while it's nice to think about, I don't think it would be stable because people have different moralities. AI-centered, I don't know. I just don't think it makes sense to give subjective decisions to AI, even if they do have strong institutions in a market. It's not necessarily perfect for optimization. Modern green, I just don't think that makes sense. I'd rather live in abundance and uh having like modern green i don't know i just don't think it would be uh logistically effective and would give people the things they need um you need to have innovation to make sure people you know get the things they need uh religious utopia is bad i think hierarchical societies like that with religion stymie innovation and uh even if they are orderly orderly uh people should be allowed to disagree with religious dogma and whatnot and primitive primitivism is all it's just bad um that just people um i think as we live now people are better off than you know a primitivist society where almost everyone is subsistence farming that is does not foster innovation and just does not give people the things they need and we're way far better off than we were 200 years ago because people aren't subsistence farmers and primitivist utopia uh would just make us go back and it's not necessarily better um people would be more malnourishment, less literacy. It's just not how we should be.",
+  "language": "unknown",
+  "processing_time_seconds": 28.581056,
+  "timestamp": "2026-05-31T09:45:04.264381",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.56
+      ],
+      "text": " I rank the societies because I think we have scarce resources and finding a way to optimize them and continually innovate is the best."
+    },
+    {
+      "timestamp": [
+        15.22,
+        19.08
+      ],
+      "text": " I think rule of law is important as well because humans aren't perfect."
+    },
+    {
+      "timestamp": [
+        21.02,
+        27.76
+      ],
+      "text": " And so I think the moral commonwealth, while it's nice to think about, I don't think it would be stable because people have different moralities."
+    },
+    {
+      "timestamp": [
+        28.38,
+        27.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.98,
+        38.52
+      ],
+      "text": " AI-centered, I don't know. I just don't think it makes sense to give subjective decisions to AI, even if they do have"
+    },
+    {
+      "timestamp": [
+        39.28,
+        46.42
+      ],
+      "text": " strong institutions in a market. It's not necessarily perfect for optimization."
+    },
+    {
+      "timestamp": [
+        47.32,
+        53.12
+      ],
+      "text": " Modern green, I just don't think that makes sense. I'd rather live in abundance and"
+    },
+    {
+      "timestamp": [
+        53.12,
+        62.32
+      ],
+      "text": " uh having like modern green i don't know i just don't think it would be uh logistically effective"
+    },
+    {
+      "timestamp": [
+        62.32,
+        68.06
+      ],
+      "text": " and would give people the things they need um you need to have innovation to make sure people"
+    },
+    {
+      "timestamp": [
+        68.06,
+        74.86
+      ],
+      "text": " you know get the things they need uh religious utopia is bad i think hierarchical societies like"
+    },
+    {
+      "timestamp": [
+        74.86,
+        83.02
+      ],
+      "text": " that with religion stymie innovation and uh even if they are orderly orderly uh people should be"
+    },
+    {
+      "timestamp": [
+        83.02,
+        87.38
+      ],
+      "text": " allowed to disagree with religious dogma and whatnot and primitive primitivism is all it's"
+    },
+    {
+      "timestamp": [
+        87.38,
+        98.9
+      ],
+      "text": " just bad um that just people um i think as we live now people are better off than you know a"
+    },
+    {
+      "timestamp": [
+        98.9,
+        105.02
+      ],
+      "text": " primitivist society where almost everyone is subsistence farming that is does not foster"
+    },
+    {
+      "timestamp": [
+        105.02,
+        111.28
+      ],
+      "text": " innovation and just does not give people the things they need and we're way far better off"
+    },
+    {
+      "timestamp": [
+        111.28,
+        117.36
+      ],
+      "text": " than we were 200 years ago because people aren't subsistence farmers and primitivist utopia uh"
+    },
+    {
+      "timestamp": [
+        117.36,
+        123.04
+      ],
+      "text": " would just make us go back and it's not necessarily better um people would be more"
+    },
+    {
+      "timestamp": [
+        123.04,
+        130.36
+      ],
+      "text": " malnourishment, less literacy. It's just not how we should be."
+    }
+  ]
+}

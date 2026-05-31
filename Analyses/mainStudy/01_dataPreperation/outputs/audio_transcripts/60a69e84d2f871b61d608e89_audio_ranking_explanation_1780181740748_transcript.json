@@ -1,0 +1,227 @@
+{
+  "audio_file": "60a69e84d2f871b61d608e89_audio_ranking_explanation_1780181740748.webm",
+  "transcript": " Okay, so I know that I generally ranked the scenarios and the utopias above how I feel, truly feel. It's just I couldn't fully remember all the details for a couple of them, so I think that there might be a couple in the top three that I might have meant to be rearranged. And but that's besides that, the bottom rest are completely, you know, how I feel and I'm sure of it. I believe that I ranked the rule of law as number one, which would be essentially I described America today are pre Trump 2.0. I mean, people in this country have complained and complained about the craziest things and thought that there was so much going on conspiracy theory wise and like no one has ever realized. I always have. I always, ever since learning in elementary school about our founding fathers and the institutions they built and formed for us and the ideals that they set them upon, I've always appreciated America and loved what we were about. So, that is what I believe is utopia, is us coming together, being able to talk about our differences, us being able to be different, come from different places, and still be one. And I believe that's what the first one described fully. And the religious utopia Number seven That's absolutely Number seven Because it's like I am a spiritual person I'm a religious person But no religion should rule A society We should be free to worship as we want As it harm no other And number seven Is where we're headed right now Very quickly with Donald Trump in office And it's very scary Now, the moral commonwealth, intermorality, utopia, that would be ideal to me. That would be amazing. I would absolutely love for things to be like that. But that is a dream, and it would be able to happen because you have to have some sort of consequences. that you cannot rely on society to have, all the people in society to have an inner moral compass, because that's just, it's not gonna work. But I would, I wish it would.",
+  "language": "unknown",
+  "processing_time_seconds": 35.777332,
+  "timestamp": "2026-05-31T09:46:23.183959",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.68
+      ],
+      "text": " Okay, so I know that I generally ranked the scenarios and the utopias above how I feel, truly feel."
+    },
+    {
+      "timestamp": [
+        11.68,
+        26.56
+      ],
+      "text": " It's just I couldn't fully remember all the details for a couple of them, so I think that there might be a couple in the top three that I might have meant to be rearranged."
+    },
+    {
+      "timestamp": [
+        27.7,
+        26.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.98,
+        35.92
+      ],
+      "text": " And but that's besides that, the bottom rest are completely, you know, how I feel and I'm sure of it."
+    },
+    {
+      "timestamp": [
+        52.46,
+        69.38
+      ],
+      "text": " I believe that I ranked the rule of law as number one, which would be essentially I described America today are pre Trump 2.0. I mean, people in this country have complained and complained about the craziest things and thought that there was so much going on conspiracy theory wise and like no one has ever realized."
+    },
+    {
+      "timestamp": [
+        69.38,
+        90.24
+      ],
+      "text": " I always have. I always, ever since learning in elementary school about our founding fathers and the institutions they built and formed for us and the ideals that they set them upon, I've always appreciated America and loved what we were about."
+    },
+    {
+      "timestamp": [
+        90.24,
+        107.68
+      ],
+      "text": " So, that is what I believe is utopia, is us coming together, being able to talk about our differences, us being able to be different, come from different places, and still be one."
+    },
+    {
+      "timestamp": [
+        108.26,
+        113.2
+      ],
+      "text": " And I believe that's what the first one described fully."
+    },
+    {
+      "timestamp": [
+        114.08,
+        113.2
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        116.14,
+        116.82
+      ],
+      "text": " And the religious utopia Number seven"
+    },
+    {
+      "timestamp": [
+        116.82,
+        118.02
+      ],
+      "text": " That's absolutely"
+    },
+    {
+      "timestamp": [
+        118.02,
+        120.4
+      ],
+      "text": " Number seven"
+    },
+    {
+      "timestamp": [
+        120.4,
+        121.76
+      ],
+      "text": " Because it's like"
+    },
+    {
+      "timestamp": [
+        121.76,
+        126.1
+      ],
+      "text": " I am a spiritual person"
+    },
+    {
+      "timestamp": [
+        126.1,
+        127.02
+      ],
+      "text": " I'm a religious person"
+    },
+    {
+      "timestamp": [
+        127.02,
+        129.06
+      ],
+      "text": " But no religion should rule"
+    },
+    {
+      "timestamp": [
+        129.06,
+        131.46
+      ],
+      "text": " A society"
+    },
+    {
+      "timestamp": [
+        131.46,
+        133.92
+      ],
+      "text": " We should be free to worship as we want"
+    },
+    {
+      "timestamp": [
+        133.92,
+        134.82
+      ],
+      "text": " As it harm no other"
+    },
+    {
+      "timestamp": [
+        134.82,
+        137.18
+      ],
+      "text": " And number seven"
+    },
+    {
+      "timestamp": [
+        137.18,
+        138.74
+      ],
+      "text": " Is where we're headed right now"
+    },
+    {
+      "timestamp": [
+        138.74,
+        140.76
+      ],
+      "text": " Very quickly with Donald Trump in office"
+    },
+    {
+      "timestamp": [
+        140.76,
+        141.7
+      ],
+      "text": " And it's very scary"
+    },
+    {
+      "timestamp": [
+        141.7,
+        142.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        152.86,
+        152.92
+      ],
+      "text": " Now, the moral commonwealth, intermorality, utopia, that would be ideal to me."
+    },
+    {
+      "timestamp": [
+        153.78,
+        154.4
+      ],
+      "text": " That would be amazing."
+    },
+    {
+      "timestamp": [
+        156.9,
+        157.38
+      ],
+      "text": " I would absolutely love for things to be like that."
+    },
+    {
+      "timestamp": [
+        163.58,
+        166.82
+      ],
+      "text": " But that is a dream, and it would be able to happen because you have to have some sort of consequences. that you cannot rely on society to have,"
+    },
+    {
+      "timestamp": [
+        166.82,
+        170.56
+      ],
+      "text": " all the people in society to have an inner moral compass,"
+    },
+    {
+      "timestamp": [
+        170.56,
+        172.82
+      ],
+      "text": " because that's just, it's not gonna work."
+    },
+    {
+      "timestamp": [
+        172.82,
+        174.4
+      ],
+      "text": " But I would, I wish it would."
+    }
+  ]
+}

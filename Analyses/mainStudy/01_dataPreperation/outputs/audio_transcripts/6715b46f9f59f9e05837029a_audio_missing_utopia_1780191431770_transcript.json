@@ -1,0 +1,38 @@
+{
+  "audio_file": "6715b46f9f59f9e05837029a_audio_missing_utopia_1780191431770.webm",
+  "transcript": " no i i think that a society based on um morality and a combination of i think morality and law um and then a focus on like the climate and um just like overall like energy is is the most ideal and would be the most beneficial to us",
+  "language": "unknown",
+  "processing_time_seconds": 8.135257,
+  "timestamp": "2026-05-31T09:49:21.639062",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.4
+      ],
+      "text": " no i i think that a society based on um morality and a combination of i think morality and law um"
+    },
+    {
+      "timestamp": [
+        18.0,
+        22.8
+      ],
+      "text": " and then a focus on like the climate and um"
+    },
+    {
+      "timestamp": [
+        28.0,
+        22.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.92,
+        null
+      ],
+      "text": " just like overall like energy is is the most ideal and would be the most beneficial to us"
+    }
+  ]
+}

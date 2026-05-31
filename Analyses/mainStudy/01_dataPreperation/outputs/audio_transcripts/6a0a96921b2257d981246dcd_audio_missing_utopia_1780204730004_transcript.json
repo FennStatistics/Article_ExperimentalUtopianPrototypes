@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0a96921b2257d981246dcd_audio_missing_utopia_1780204730004.webm",
+  "transcript": " Off the top of my head, I can't really think of anything that was missed. I think that those seven societies really encapsulated the different types that could exist.",
+  "language": "unknown",
+  "processing_time_seconds": 5.360457,
+  "timestamp": "2026-05-31T10:09:03.852937",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.76
+      ],
+      "text": " Off the top of my head, I can't really think of anything that was missed. I think that those seven societies really encapsulated the different types that could exist."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "audio_file": "69fce5f3543a5fb23a96fd38_audio_ranking_explanation_1780169282539.webm",
+  "transcript": " I ranked these based on a preference for systems that prioritize human well-being, sustainable progress, and individual autonomy. I placed the moral commonwealth and modern green utopia at the top because they emphasize internal ethics and long-term sustainability, which I believe are the most critical foundations for a thriving society. um conversely i ranked religious utopia lower because i favor governance models that rely on secular data-driven or pluralistic frameworks rather than faith-based mandates which i feel can limit individual expression and diverse perspectives",
+  "language": "unknown",
+  "processing_time_seconds": 10.170601,
+  "timestamp": "2026-05-31T10:03:29.450064",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.32
+      ],
+      "text": " I ranked these based on a preference for systems that prioritize human well-being,"
+    },
+    {
+      "timestamp": [
+        6.68,
+        13.72
+      ],
+      "text": " sustainable progress, and individual autonomy. I placed the moral commonwealth and modern green"
+    },
+    {
+      "timestamp": [
+        13.72,
+        18.94
+      ],
+      "text": " utopia at the top because they emphasize internal ethics and long-term sustainability,"
+    },
+    {
+      "timestamp": [
+        19.68,
+        23.56
+      ],
+      "text": " which I believe are the most critical foundations for a thriving society."
+    },
+    {
+      "timestamp": [
+        26.2,
+        23.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.38,
+        39.12
+      ],
+      "text": " um conversely i ranked religious utopia lower because i favor governance models that rely on secular data-driven or pluralistic frameworks rather than faith-based mandates which i feel can"
+    },
+    {
+      "timestamp": [
+        39.12,
+        42.7
+      ],
+      "text": " limit individual expression and diverse perspectives"
+    }
+  ]
+}

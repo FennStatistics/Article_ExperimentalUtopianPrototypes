@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a1bb4b5eb9883bf7626d6df_audio_ranking_explanation_1780205169401.webm",
+  "transcript": " Society shouldn't be ruled by AI and it should be more based on morality.",
+  "language": "unknown",
+  "processing_time_seconds": 4.880205,
+  "timestamp": "2026-05-31T10:24:39.803223",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.1
+      ],
+      "text": " Society shouldn't be ruled by AI and it should be more based on morality."
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "audio_file": "6a1b735224c511273377e91b_audio_ranking_explanation_1780188360452.webm",
+  "transcript": " Okay, so I chose as my most preferred, the moral commonwealth, as my most preferred, because, well, I think it's a beautiful idea. Note that I say idea. I was asked to rate my preferences not on how realistic it is I think it's awesome for us to have an inner morality towards the greatest of the good we know right from wrong because we're just good people and that's what I want for the world is realistic I don't know the next one I put was the modern green utopia because it kind of I feel like it can go hand in hand with the moral commonwealth where as a community we decide to really um like push towards a sustainable life and with that will come like some inner morality next one is the primatist utopia i picked that one it reminded me of a community within a book and it was kind of about being peace at peace with nature I like the idea of it I don't know if much innovation will ever come from it because we're trying to just stay with that just enough it's almost like by trying to be so quote-unquote free from thought it's almost keeping us constricted in what we've always known the next one I put was the futurist utopia because I mean I think it's a it sounds great in theory that we're all about science and innovation but what comes from that is people being pushed away for not having like intellectual components to create that innovation and it creates this class system and people start taking advantage of others and so i just don't think that I would want to live there. Next is an AI-centered utopia or a data-driven government. I like a data-driven ideal, but data-driven, it depends on what kind of data we're using. I feel like they're using strictly quantitative data and while that's all great and all and that's usually the most robust, I do feel like some qualitative data must be used to confirm the quantitative data, if that makes sense. They should work hand in hand, and AI-centered is strictly using those quantitative developments, which is why some of the AI stuff happening is wrong. It's because it's not using the qualitative data that humans, you know, humans can use. It takes the humanity out of life, and I don't like that. Next is religious utopia, the faith-based order. I just, I don't like it it's constricting it locks people into places into where there if there's no freedom of thought and I think that is you have to have some freedom of thought um and I think that a lot of people who might rank this first I mean I don't know might consider it to be their own religion as being the center when in reality there are thousands of religions in the world which religion would be the religion that the entire society would be based upon you don't know and thousands or billions of people wouldn't agree with it and that's horrible the last one just rule of law I mean yes I do love a good rule I love following rules consequences make sense but it takes there there's some judgments that need to be considered with the humanity side of it I think that having so many rules is more constricting than it is free-flowing and it It causes uproar, it causes loopholes, it causes people to read between the lines and try and make their own ways and it just gets really scammy and really questionable. That's why I ranked them as they were.",
+  "language": "unknown",
+  "processing_time_seconds": 51.996612,
+  "timestamp": "2026-05-31T10:24:30.277792",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.54
+      ],
+      "text": " Okay, so I chose as my most preferred, the moral commonwealth, as my most preferred, because, well, I think it's a beautiful idea. Note that I say idea."
+    },
+    {
+      "timestamp": [
+        14.46,
+        13.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        22.54,
+        27.58
+      ],
+      "text": " I was asked to rate my preferences not on how realistic it is I think it's awesome for us to have an inner morality towards the greatest of the good we know right from wrong because"
+    },
+    {
+      "timestamp": [
+        27.58,
+        34.06
+      ],
+      "text": " we're just good people and that's what I want for the world is realistic I don't know the next one"
+    },
+    {
+      "timestamp": [
+        34.06,
+        40.46
+      ],
+      "text": " I put was the modern green utopia because it kind of I feel like it can go hand in hand with the"
+    },
+    {
+      "timestamp": [
+        40.46,
+        52.1
+      ],
+      "text": " moral commonwealth where as a community we decide to really um like push towards a sustainable life"
+    },
+    {
+      "timestamp": [
+        52.1,
+        60.02
+      ],
+      "text": " and with that will come like some inner morality next one is the primatist utopia i picked that"
+    },
+    {
+      "timestamp": [
+        60.02,
+        68.62
+      ],
+      "text": " one it reminded me of a community within a book and it was kind of about being peace at peace"
+    },
+    {
+      "timestamp": [
+        68.62,
+        75.28
+      ],
+      "text": " with nature I like the idea of it I don't know if much innovation will ever come from it"
+    },
+    {
+      "timestamp": [
+        75.28,
+        79.9
+      ],
+      "text": " because we're trying to just stay with that just enough it's almost like"
+    },
+    {
+      "timestamp": [
+        79.9,
+        85.98
+      ],
+      "text": " by trying to be so quote-unquote free from thought it's almost keeping us constricted"
+    },
+    {
+      "timestamp": [
+        85.98,
+        95.04
+      ],
+      "text": " in what we've always known the next one I put was the futurist utopia because I mean I think it's a"
+    },
+    {
+      "timestamp": [
+        95.04,
+        101.6
+      ],
+      "text": " it sounds great in theory that we're all about science and innovation but what comes from that"
+    },
+    {
+      "timestamp": [
+        101.6,
+        110.4
+      ],
+      "text": " is people being pushed away for not having like intellectual components to create that innovation"
+    },
+    {
+      "timestamp": [
+        111.36,
+        119.92
+      ],
+      "text": " and it creates this class system and people start taking advantage of others and so i just don't"
+    },
+    {
+      "timestamp": [
+        119.92,
+        127.52
+      ],
+      "text": " think that I would want to live there. Next is an AI-centered utopia or a data-driven government."
+    },
+    {
+      "timestamp": [
+        127.52,
+        135.68
+      ],
+      "text": " I like a data-driven ideal, but data-driven, it depends on what kind of data we're using. I feel"
+    },
+    {
+      "timestamp": [
+        135.68,
+        140.24
+      ],
+      "text": " like they're using strictly quantitative data and while that's all great and all and that's usually"
+    },
+    {
+      "timestamp": [
+        140.24,
+        146.72
+      ],
+      "text": " the most robust, I do feel like some qualitative data must be used to confirm the quantitative"
+    },
+    {
+      "timestamp": [
+        146.72,
+        152.94
+      ],
+      "text": " data, if that makes sense. They should work hand in hand, and AI-centered is strictly using those"
+    },
+    {
+      "timestamp": [
+        152.94,
+        158.48
+      ],
+      "text": " quantitative developments, which is why some of the AI stuff happening is wrong. It's because it's"
+    },
+    {
+      "timestamp": [
+        158.48,
+        165.44
+      ],
+      "text": " not using the qualitative data that humans, you know, humans can use. It takes the humanity out"
+    },
+    {
+      "timestamp": [
+        165.44,
+        174.38
+      ],
+      "text": " of life, and I don't like that. Next is religious utopia, the faith-based order. I just, I don't like"
+    },
+    {
+      "timestamp": [
+        174.38,
+        182.78
+      ],
+      "text": " it it's constricting it locks people into places into where there if there's no freedom of thought"
+    },
+    {
+      "timestamp": [
+        182.78,
+        191.28
+      ],
+      "text": " and I think that is you have to have some freedom of thought um and I think that a lot of people"
+    },
+    {
+      "timestamp": [
+        191.28,
+        197.8
+      ],
+      "text": " who might rank this first I mean I don't know might consider it to be their own religion"
+    },
+    {
+      "timestamp": [
+        197.8,
+        205.48
+      ],
+      "text": " as being the center when in reality there are thousands of religions in the world"
+    },
+    {
+      "timestamp": [
+        205.48,
+        214.62
+      ],
+      "text": " which religion would be the religion that the entire society would be based upon you don't know"
+    },
+    {
+      "timestamp": [
+        214.62,
+        221.4
+      ],
+      "text": " and thousands or billions of people wouldn't agree with it and that's horrible the last one"
+    },
+    {
+      "timestamp": [
+        221.4,
+        229.92
+      ],
+      "text": " just rule of law I mean yes I do love a good rule I love following rules consequences make sense"
+    },
+    {
+      "timestamp": [
+        229.92,
+        239.28
+      ],
+      "text": " but it takes there there's some judgments that need to be considered with the humanity side of"
+    },
+    {
+      "timestamp": [
+        239.28,
+        248.86
+      ],
+      "text": " it I think that having so many rules is more constricting than it is free-flowing and it"
+    },
+    {
+      "timestamp": [
+        248.86,
+        259.46
+      ],
+      "text": " It causes uproar, it causes loopholes, it causes people to read between the lines and"
+    },
+    {
+      "timestamp": [
+        259.46,
+        267.38
+      ],
+      "text": " try and make their own ways and it just gets really scammy and really questionable."
+    },
+    {
+      "timestamp": [
+        267.38,
+        269.02
+      ],
+      "text": " That's why I ranked them as they were."
+    }
+  ]
+}

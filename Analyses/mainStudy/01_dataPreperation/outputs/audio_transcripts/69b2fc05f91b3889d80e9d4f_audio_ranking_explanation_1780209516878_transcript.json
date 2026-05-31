@@ -1,0 +1,122 @@
+{
+  "audio_file": "69b2fc05f91b3889d80e9d4f_audio_ranking_explanation_1780209516878.webm",
+  "transcript": " My above ranks is because I prefer innovation, I prefer progress, and I prefer technology. I rank these societies the way they appear, because I'd like to live in a society which values science, innovation, and progress. That's why futuristic utopia comes first. I believe new technology and discoveries can always improve health care, education, jobs, and the overall quality of life. AI-centered utopia comes second because I believe that this will help leaders to make better decisions. But the modern green utopia is the third. Since I believe that sustainability and security are important for long-term well-being. For moral and institutional, utopia were placed at the middle because this brings a balance, and the respectful laws help create a fair and sustainable society. religious utopia comes at the lower end because i believe there are different beliefs from people and therefore i prefer society that allows more personal freedom and in this area it has prioritized more on innovation and less on religious on the last of the my priority or on my ranking list i mentioned pre primitivist modern a primitivist utopia is the last because it will not want to give up modern technology and medical advances and it just gives the bare minimum and this convinces me that my ranking is good and i'm comfortable with the ranking",
+  "language": "unknown",
+  "processing_time_seconds": 22.587736,
+  "timestamp": "2026-05-31T09:53:18.815558",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.76
+      ],
+      "text": " My above ranks is because I prefer innovation, I prefer progress, and I prefer technology."
+    },
+    {
+      "timestamp": [
+        13.04,
+        20.12
+      ],
+      "text": " I rank these societies the way they appear, because I'd like to live in a society which values science, innovation, and progress."
+    },
+    {
+      "timestamp": [
+        20.92,
+        23.22
+      ],
+      "text": " That's why futuristic utopia comes first."
+    },
+    {
+      "timestamp": [
+        23.22,
+        33.02
+      ],
+      "text": " I believe new technology and discoveries can always improve health care, education, jobs, and the overall quality of life."
+    },
+    {
+      "timestamp": [
+        33.98,
+        41.54
+      ],
+      "text": " AI-centered utopia comes second because I believe that this will help leaders to make better decisions."
+    },
+    {
+      "timestamp": [
+        42.18,
+        44.54
+      ],
+      "text": " But the modern green utopia is the third."
+    },
+    {
+      "timestamp": [
+        45.28,
+        50.16
+      ],
+      "text": " Since I believe that sustainability and security are important for long-term well-being."
+    },
+    {
+      "timestamp": [
+        50.5,
+        50.16
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        61.5,
+        62.18
+      ],
+      "text": " For moral and institutional, utopia were placed at the middle because this brings a balance, and the respectful laws help create a fair and sustainable society."
+    },
+    {
+      "timestamp": [
+        62.38,
+        68.38
+      ],
+      "text": " religious utopia comes at the lower end because i believe there are different beliefs from people"
+    },
+    {
+      "timestamp": [
+        69.1,
+        74.86
+      ],
+      "text": " and therefore i prefer society that allows more personal freedom and in this area"
+    },
+    {
+      "timestamp": [
+        76.38,
+        83.82
+      ],
+      "text": " it has prioritized more on innovation and less on religious on the last of the my priority or"
+    },
+    {
+      "timestamp": [
+        83.82,
+        91.98
+      ],
+      "text": " on my ranking list i mentioned pre primitivist modern a primitivist utopia is the last because"
+    },
+    {
+      "timestamp": [
+        93.5,
+        97.34
+      ],
+      "text": " it will not want to give up modern technology and medical advances"
+    },
+    {
+      "timestamp": [
+        98.14,
+        102.7
+      ],
+      "text": " and it just gives the bare minimum and this convinces me"
+    },
+    {
+      "timestamp": [
+        103.34,
+        106.62
+      ],
+      "text": " that my ranking is good and i'm comfortable with the ranking"
+    }
+  ]
+}

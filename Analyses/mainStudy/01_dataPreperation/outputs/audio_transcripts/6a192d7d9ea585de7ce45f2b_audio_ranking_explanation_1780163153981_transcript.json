@@ -1,0 +1,185 @@
+{
+  "audio_file": "6a192d7d9ea585de7ce45f2b_audio_ranking_explanation_1780163153981.webm",
+  "transcript": " I definitely prefer the futurist utopia I think that as we as a society as we get more advanced we can make things more efficient and we'd be able to sustain the life that we live way better I think the inner morality and rule of law and sustainability and the green one I think those are all kind of I kind of lumped them in i think they could have been placed a little bit differently um but for the most part i kind of agree with how i rank them i think each of these have their own pros i think you know we have to live in a society that is you know based off of our own inner morality our own human morality i also think you know we should have rules in like a like the way that we have it now in the as a judicial system that we can kind of lean on, that we could use as a set of rules, and these rules have been agreed upon by not only us, but by lawmakers. And I also think being sustainable is a good practice. I just don't think being sustainable is like, I feel like the futurist utopia is in and of itself sustainable just because you know if we invest in science innovation we're going to live a more sustainable life and a more efficient life um religious and primitive i feel like are kind of on the same scale i as someone who is religious i think religion is important but i feel like there are much more aspects to think about i feel like religion can be a subset of what we of how we can govern a society of item no efficiency the main point is anything like the low tech and small scale i just don't really see a point in that just because like i feel like in society we're always naturally wanting to progress and being kind of conservative and just being okay with how things are i don't necessarily like the ai center one i think it's kind of stupid like i don't know why we would want again like i i'm not to say that i don't think ai can be used as a tool but using it as like the main governance system seems so weird because yeah well i don't know i guess like we created ai but like maybe it's like a sci-fi thing where i feel like i'm afraid that it's gonna overtake and things that we as humans don't necessarily believe in is what the AI believes in and even though we made the AI it's like it kind of goes haywire.",
+  "language": "unknown",
+  "processing_time_seconds": 34.92119,
+  "timestamp": "2026-05-31T10:18:19.314078",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.82
+      ],
+      "text": " I definitely prefer the futurist utopia I think that as we as a society as we get"
+    },
+    {
+      "timestamp": [
+        8.82,
+        13.92
+      ],
+      "text": " more advanced we can make things more efficient and we'd be able to sustain the"
+    },
+    {
+      "timestamp": [
+        13.92,
+        20.72
+      ],
+      "text": " life that we live way better I think the inner morality and rule of law and"
+    },
+    {
+      "timestamp": [
+        20.72,
+        25.6
+      ],
+      "text": " sustainability and the green one I think those are all kind of I kind of lumped"
+    },
+    {
+      "timestamp": [
+        25.6,
+        31.54
+      ],
+      "text": " them in i think they could have been placed a little bit differently um but for the most part"
+    },
+    {
+      "timestamp": [
+        31.54,
+        37.5
+      ],
+      "text": " i kind of agree with how i rank them i think each of these have their own pros i think you know we"
+    },
+    {
+      "timestamp": [
+        37.5,
+        45.7
+      ],
+      "text": " have to live in a society that is you know based off of our own inner morality our own human morality"
+    },
+    {
+      "timestamp": [
+        45.7,
+        53.82
+      ],
+      "text": " i also think you know we should have rules in like a like the way that we have it now in the"
+    },
+    {
+      "timestamp": [
+        53.82,
+        63.06
+      ],
+      "text": " as a judicial system that we can kind of lean on, that we could use as a set of rules, and"
+    },
+    {
+      "timestamp": [
+        63.06,
+        73.08
+      ],
+      "text": " these rules have been agreed upon by not only us, but by lawmakers. And I also think being"
+    },
+    {
+      "timestamp": [
+        73.08,
+        79.2
+      ],
+      "text": " sustainable is a good practice. I just don't think being sustainable is like, I feel like"
+    },
+    {
+      "timestamp": [
+        79.2,
+        86.56
+      ],
+      "text": " the futurist utopia is in and of itself sustainable just because you know if we invest in science"
+    },
+    {
+      "timestamp": [
+        86.56,
+        92.96
+      ],
+      "text": " innovation we're going to live a more sustainable life and a more efficient life um religious and"
+    },
+    {
+      "timestamp": [
+        92.96,
+        101.04
+      ],
+      "text": " primitive i feel like are kind of on the same scale i as someone who is religious i think"
+    },
+    {
+      "timestamp": [
+        101.04,
+        104.64
+      ],
+      "text": " religion is important but i feel like there are much more aspects to think about"
+    },
+    {
+      "timestamp": [
+        104.64,
+        111.84
+      ],
+      "text": " i feel like religion can be a subset of what we of how we can govern a society of item no"
+    },
+    {
+      "timestamp": [
+        111.84,
+        116.88
+      ],
+      "text": " efficiency the main point is anything like the low tech and small scale i just don't really see"
+    },
+    {
+      "timestamp": [
+        116.88,
+        123.76
+      ],
+      "text": " a point in that just because like i feel like in society we're always naturally wanting to progress"
+    },
+    {
+      "timestamp": [
+        123.76,
+        129.36
+      ],
+      "text": " and being kind of conservative and just being okay with how things are i don't necessarily like"
+    },
+    {
+      "timestamp": [
+        129.36,
+        136.0
+      ],
+      "text": " the ai center one i think it's kind of stupid like i don't know why we would want again like"
+    },
+    {
+      "timestamp": [
+        136.0,
+        140.4
+      ],
+      "text": " i i'm not to say that i don't think ai can be used as a tool but using it as like the"
+    },
+    {
+      "timestamp": [
+        140.4,
+        142.88
+      ],
+      "text": " main governance system seems so weird because"
+    },
+    {
+      "timestamp": [
+        146.0,
+        152.08
+      ],
+      "text": " yeah well i don't know i guess like we created ai but like maybe it's like a sci-fi thing where i"
+    },
+    {
+      "timestamp": [
+        152.08,
+        158.4
+      ],
+      "text": " feel like i'm afraid that it's gonna overtake and things that we as humans don't necessarily believe"
+    },
+    {
+      "timestamp": [
+        158.4,
+        164.56
+      ],
+      "text": " in is what the AI believes in and even though we made the AI it's like it kind of goes haywire."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "audio_file": "69614f58c570d5c7dddaee3c_audio_ranking_explanation_1780204489463.webm",
+  "transcript": " so my order of society started with religious utopia i chose that because my faith is very important to me and i think that's a good way of living for society then i chose moral commonwealth because i think morals have a lot to do with society and being uh highly successful individuals i think we all need to have morals and a foundation of morals then it comes to rule of law or institutional utopia i say that as third because i think rules should be set in place then i chose the primitivist utopia because i think some things like living off the grid and being low-tech just kind of make things feel a little more natural and then i chose modern green utopia next because i think while i said low tech part of that i think sustainability is important for being eco-friendly and then sixth i chose futuristic futurist utopia i chose that because uh while i am all for low tech being natural more holistic i do think that there is some science behind a lot of things that could help form discoveries and better societies and then last i chose the ai-centered utopia that's my least preferred just because i don't want technology controlling everything",
+  "language": "unknown",
+  "processing_time_seconds": 19.699742,
+  "timestamp": "2026-05-31T09:51:37.168465",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.5
+      ],
+      "text": " so my order of society started with religious utopia i chose that because my faith is very"
+    },
+    {
+      "timestamp": [
+        8.5,
+        15.26
+      ],
+      "text": " important to me and i think that's a good way of living for society then i chose moral commonwealth"
+    },
+    {
+      "timestamp": [
+        15.26,
+        24.18
+      ],
+      "text": " because i think morals have a lot to do with society and being uh highly successful individuals"
+    },
+    {
+      "timestamp": [
+        24.18,
+        30.18
+      ],
+      "text": " i think we all need to have morals and a foundation of morals then it comes to rule of law or"
+    },
+    {
+      "timestamp": [
+        30.18,
+        35.7
+      ],
+      "text": " institutional utopia i say that as third because i think rules should be set in place"
+    },
+    {
+      "timestamp": [
+        37.3,
+        44.1
+      ],
+      "text": " then i chose the primitivist utopia because i think some things like living off the grid"
+    },
+    {
+      "timestamp": [
+        44.1,
+        50.9
+      ],
+      "text": " and being low-tech just kind of make things feel a little more natural and then i chose"
+    },
+    {
+      "timestamp": [
+        50.9,
+        60.42
+      ],
+      "text": " modern green utopia next because i think while i said low tech part of that i think sustainability"
+    },
+    {
+      "timestamp": [
+        60.42,
+        67.22
+      ],
+      "text": " is important for being eco-friendly and then sixth i chose futuristic futurist utopia i chose that"
+    },
+    {
+      "timestamp": [
+        67.22,
+        74.1
+      ],
+      "text": " because uh while i am all for low tech being natural more holistic i do think that there is"
+    },
+    {
+      "timestamp": [
+        74.1,
+        80.26
+      ],
+      "text": " some science behind a lot of things that could help form discoveries and better societies"
+    },
+    {
+      "timestamp": [
+        80.9,
+        86.82
+      ],
+      "text": " and then last i chose the ai-centered utopia that's my least preferred just because"
+    },
+    {
+      "timestamp": [
+        86.82,
+        98.82
+      ],
+      "text": " i don't want technology controlling everything"
+    }
+  ]
+}

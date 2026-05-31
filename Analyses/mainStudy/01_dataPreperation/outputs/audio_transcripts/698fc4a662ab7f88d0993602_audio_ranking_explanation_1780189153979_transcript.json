@@ -1,0 +1,59 @@
+{
+  "audio_file": "698fc4a662ab7f88d0993602_audio_ranking_explanation_1780189153979.webm",
+  "transcript": " Um, the reason why I chose these societies is because I think, um, the futuristic utopia is a more society that aligns with, um, people's values and also for the greater good of people and also for the greater good of our earth. Um, it has alignments with, um, it has alignments with human values, but also nature values. My least preferred society was religious utopia because it was something that would probably be more forceful than the average society, which would cause widespread killings and religious crime and religious overzealousness. I also rated the AI Center Utopia at 6 because I don't feel like our society being ran by automatic robots would make society any better and make it more flawed. For example, some companies have used AI systems to run certain system policies and insurances, like insurance companies and such, and have made widespread mistakes that have caused people's lives. So, no, I don't trust AI.",
+  "language": "unknown",
+  "processing_time_seconds": 20.521731,
+  "timestamp": "2026-05-31T09:52:03.075263",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.16
+      ],
+      "text": " Um, the reason why I chose these societies is because I think, um, the futuristic utopia is a more society that aligns with, um, people's values and also for the greater good of people and also for the greater good of our earth."
+    },
+    {
+      "timestamp": [
+        17.16,
+        32.28
+      ],
+      "text": " Um, it has alignments with, um, it has alignments with human values, but also nature values."
+    },
+    {
+      "timestamp": [
+        33.28,
+        32.28
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        49.28,
+        61.28
+      ],
+      "text": " My least preferred society was religious utopia because it was something that would probably be more forceful than the average society, which would cause widespread killings and religious crime and religious overzealousness."
+    },
+    {
+      "timestamp": [
+        61.28,
+        82.14
+      ],
+      "text": " I also rated the AI Center Utopia at 6 because I don't feel like our society being ran by automatic robots would make society any better and make it more flawed."
+    },
+    {
+      "timestamp": [
+        82.14,
+        99.64
+      ],
+      "text": " For example, some companies have used AI systems to run certain system policies and insurances, like insurance companies and such, and have made widespread mistakes that have caused people's lives."
+    },
+    {
+      "timestamp": [
+        99.86,
+        101.34
+      ],
+      "text": " So, no, I don't trust AI."
+    }
+  ]
+}

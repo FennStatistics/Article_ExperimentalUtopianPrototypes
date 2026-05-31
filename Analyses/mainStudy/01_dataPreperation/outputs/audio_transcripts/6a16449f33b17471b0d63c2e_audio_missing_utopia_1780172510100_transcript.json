@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a16449f33b17471b0d63c2e_audio_missing_utopia_1780172510100.webm",
+  "transcript": " For me personally, I feel like the most important is environmental, and I think that was touched on. And then obviously the moral, I think everything was touched on that I can think of at the moment.",
+  "language": "unknown",
+  "processing_time_seconds": 5.690259,
+  "timestamp": "2026-05-31T10:14:03.045921",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.14
+      ],
+      "text": " For me personally, I feel like the most important is environmental, and I think that was touched on. And then obviously the moral, I think everything was touched on that I can think of at the moment."
+    }
+  ]
+}

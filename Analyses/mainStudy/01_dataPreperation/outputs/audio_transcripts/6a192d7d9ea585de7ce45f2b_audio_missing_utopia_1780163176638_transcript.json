@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a192d7d9ea585de7ce45f2b_audio_missing_utopia_1780163176638.webm",
+  "transcript": " No, I felt like it was pretty good.",
+  "language": "unknown",
+  "processing_time_seconds": 4.574064,
+  "timestamp": "2026-05-31T10:17:44.219010",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        2.28
+      ],
+      "text": " No, I felt like it was pretty good."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audio_file": "671ce7ade7a5cd2edc847b94_audio_missing_utopia_1780191577026.webm",
+  "transcript": " I just feel like you need a little more technology to be based on different things because it didn't have a lot, so I definitely feel like you just need a little more.",
+  "language": "unknown",
+  "processing_time_seconds": 5.515641,
+  "timestamp": "2026-05-31T09:49:38.431855",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.44
+      ],
+      "text": " I just feel like you need a little more technology to be based on different things because it"
+    },
+    {
+      "timestamp": [
+        6.44,
+        11.04
+      ],
+      "text": " didn't have a lot, so I definitely feel like you just need a little more."
+    }
+  ]
+}

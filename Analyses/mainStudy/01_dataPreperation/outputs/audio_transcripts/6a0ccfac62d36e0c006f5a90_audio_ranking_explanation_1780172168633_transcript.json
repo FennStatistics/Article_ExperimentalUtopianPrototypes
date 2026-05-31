@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0ccfac62d36e0c006f5a90_audio_ranking_explanation_1780172168633.webm",
+  "transcript": " I believe that primitivist utopia is my most preferred society because when I was reading the paragraph description, I thought it was the most ideal and suited everybody as a whole. Meanwhile, the religious utopia, faith-based order seemed to be very controlling, and not many people may want to partake in a type of religion or that kind of control. As for my second one, Modern Green Utopia, I'm very in favor of sustainability and climate control. I believe that when I was reading the paragraph descriptions that it was very appealing to me, but it seems very hard to achieve, although it would be a good goal. And the other ones, Moral Commonwealth, Futuristic Utopia, Institutional Utopia, I thought they were somewhat okay. That's why they are in the middle of my ranking. I just thought that they sort of have the best interest of the general public in mind, and I could sort of see myself fitting in, but it single-handedly seemed too idealistic as well as very unattainable because people are different and may not want to adhere to certain things. And AI I am not too in favor of just because I don't believe that AI should really dictate a majority of our lives and data can be false sometimes.",
+  "language": "unknown",
+  "processing_time_seconds": 24.012235,
+  "timestamp": "2026-05-31T10:10:38.657576",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.18
+      ],
+      "text": " I believe that primitivist utopia is my most preferred society because when I was reading the paragraph description, I thought it was the most ideal and suited everybody as a whole."
+    },
+    {
+      "timestamp": [
+        22.08,
+        21.18
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        39.0,
+        50.0
+      ],
+      "text": " Meanwhile, the religious utopia, faith-based order seemed to be very controlling, and not many people may want to partake in a type of religion or that kind of control. As for my second one, Modern Green Utopia, I'm very in favor of sustainability and climate control."
+    },
+    {
+      "timestamp": [
+        50.0,
+        64.0
+      ],
+      "text": " I believe that when I was reading the paragraph descriptions that it was very appealing to me, but it seems very hard to achieve, although it would be a good goal."
+    },
+    {
+      "timestamp": [
+        64.0,
+        80.24
+      ],
+      "text": " And the other ones, Moral Commonwealth, Futuristic Utopia, Institutional Utopia, I thought they were somewhat okay. That's why they are in the middle of my ranking."
+    },
+    {
+      "timestamp": [
+        81.76,
+        80.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        108.96,
+        110.24
+      ],
+      "text": " I just thought that they sort of have the best interest of the general public in mind, and I could sort of see myself fitting in, but it single-handedly seemed too idealistic as well as very unattainable because people are different and may not want to adhere to certain things."
+    },
+    {
+      "timestamp": [
+        123.16,
+        130.56
+      ],
+      "text": " And AI I am not too in favor of just because I don't believe that AI should really dictate a majority of our lives and data can be false sometimes."
+    }
+  ]
+}

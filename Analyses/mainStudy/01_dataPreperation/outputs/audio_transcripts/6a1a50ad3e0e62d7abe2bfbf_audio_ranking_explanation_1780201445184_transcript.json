@@ -1,0 +1,129 @@
+{
+  "audio_file": "6a1a50ad3e0e62d7abe2bfbf_audio_ranking_explanation_1780201445184.webm",
+  "transcript": " i feel like my first uh choice the inner morality is the one i preferred the most because it's kind of um i don't know like we all have the same ideas it would be hard to there would be no disagreement if we all have this inner compass and we all are morally just then there would be there would be no issues that would be literally perfect I don't know if that I mean I there's that's never going to happen but that would be awesome and then sustainable and secure I feel like that's also kind of going with the same theme that like everybody knows their place there is no strict government and everyone just respects that and so there again is no violence no issues um i went with rule of law because i don't know there's always going to be bad people and so at least the law will help deter but that's not really very true uh science and innovation next i just feel like that is scary like what if i don't know the scientists are lying to us I don't know it's just scary um and then low tech small scale I feel like it would be hard to spread information that way AI centered what if the robots take over also AI I guess this is 100 years from now I'm sure AI will be phenomenal by then but right now there is a lot of issues there so i don't think i would want robots running my life and religious utopia i just would rather shoot myself in the face than have to listen to some christian bitch pardon my language um like preach to me about how like we're gonna get raptured like i i would rather die i would rather die",
+  "language": "unknown",
+  "processing_time_seconds": 24.466869,
+  "timestamp": "2026-05-31T10:20:25.134003",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.66
+      ],
+      "text": " i feel like my first uh choice the inner morality is the one i preferred the most because it's kind"
+    },
+    {
+      "timestamp": [
+        11.66,
+        19.94
+      ],
+      "text": " of um i don't know like we all have the same ideas it would be hard to there would be no"
+    },
+    {
+      "timestamp": [
+        19.94,
+        27.16
+      ],
+      "text": " disagreement if we all have this inner compass and we all are morally just then there would be"
+    },
+    {
+      "timestamp": [
+        27.16,
+        33.94
+      ],
+      "text": " there would be no issues that would be literally perfect I don't know if that I mean I there's"
+    },
+    {
+      "timestamp": [
+        33.94,
+        38.52
+      ],
+      "text": " that's never going to happen but that would be awesome and then sustainable and secure I feel"
+    },
+    {
+      "timestamp": [
+        38.52,
+        42.4
+      ],
+      "text": " like that's also kind of going with the same theme that like everybody knows their place"
+    },
+    {
+      "timestamp": [
+        42.4,
+        49.58
+      ],
+      "text": " there is no strict government and everyone just respects that and so there again is no violence"
+    },
+    {
+      "timestamp": [
+        49.58,
+        57.7
+      ],
+      "text": " no issues um i went with rule of law because i don't know there's always going to be bad people"
+    },
+    {
+      "timestamp": [
+        57.7,
+        64.5
+      ],
+      "text": " and so at least the law will help deter but that's not really very true uh science and innovation"
+    },
+    {
+      "timestamp": [
+        64.5,
+        76.44
+      ],
+      "text": " next i just feel like that is scary like what if i don't know the scientists are lying to us"
+    },
+    {
+      "timestamp": [
+        76.44,
+        84.28
+      ],
+      "text": " I don't know it's just scary um and then low tech small scale I feel like it would be hard"
+    },
+    {
+      "timestamp": [
+        84.28,
+        92.72
+      ],
+      "text": " to spread information that way AI centered what if the robots take over also AI I guess this is"
+    },
+    {
+      "timestamp": [
+        92.72,
+        98.9
+      ],
+      "text": " 100 years from now I'm sure AI will be phenomenal by then but right now there is a lot of issues"
+    },
+    {
+      "timestamp": [
+        98.9,
+        107.66
+      ],
+      "text": " there so i don't think i would want robots running my life and religious utopia i just"
+    },
+    {
+      "timestamp": [
+        107.66,
+        111.88
+      ],
+      "text": " would rather shoot myself in the face than have to listen to some christian bitch"
+    },
+    {
+      "timestamp": [
+        111.88,
+        119.14
+      ],
+      "text": " pardon my language um like preach to me about how like we're gonna get raptured"
+    },
+    {
+      "timestamp": [
+        119.14,
+        122.78
+      ],
+      "text": " like i i would rather die i would rather die"
+    }
+  ]
+}

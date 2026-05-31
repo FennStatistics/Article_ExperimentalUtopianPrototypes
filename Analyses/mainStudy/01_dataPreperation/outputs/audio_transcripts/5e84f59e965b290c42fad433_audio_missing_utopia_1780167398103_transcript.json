@@ -1,0 +1,38 @@
+{
+  "audio_file": "5e84f59e965b290c42fad433_audio_missing_utopia_1780167398103.webm",
+  "transcript": " Yeah, I think, you know, the one I selected first, I think that in my mind, that's like, you know, a liberal democratic order. That's just always what I've always valued with like markets and freedom of thinking and political identity. And, you know, people just will want to always innovate and have a better living. And I think the thing I chose was the best way to foster innovation and better living standards.",
+  "language": "unknown",
+  "processing_time_seconds": 7.333645,
+  "timestamp": "2026-05-31T09:44:35.543414",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.76
+      ],
+      "text": " Yeah, I think, you know, the one I selected first, I think that in my mind, that's like, you know, a liberal democratic order."
+    },
+    {
+      "timestamp": [
+        10.02,
+        16.66
+      ],
+      "text": " That's just always what I've always valued with like markets and freedom of thinking and political identity."
+    },
+    {
+      "timestamp": [
+        18.34,
+        22.42
+      ],
+      "text": " And, you know, people just will want to always innovate and have a better living."
+    },
+    {
+      "timestamp": [
+        22.42,
+        29.76
+      ],
+      "text": " And I think the thing I chose was the best way to foster innovation and better living standards."
+    }
+  ]
+}

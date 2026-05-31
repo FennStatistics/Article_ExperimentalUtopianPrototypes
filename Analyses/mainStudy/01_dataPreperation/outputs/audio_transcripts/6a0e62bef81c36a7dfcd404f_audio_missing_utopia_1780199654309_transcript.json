@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0e62bef81c36a7dfcd404f_audio_missing_utopia_1780199654309.webm",
+  "transcript": " um i'm not really sure i feel like maybe i feel like all the societies are very like um dramatic and maybe like a one that's like more in the middle like like how i just said that some of them were like more on the lower end of like oh you get like a limited supply of stuff if there was like oh you get a medium supply of stuff but it can be like altered you know and i also like the idea of everyone having, like, enough to survive without having to, like, fight or struggle. Um, yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 10.417151,
+  "timestamp": "2026-05-31T10:10:49.180299",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.8
+      ],
+      "text": " um i'm not really sure i feel like maybe i feel like all the societies are very like um dramatic"
+    },
+    {
+      "timestamp": [
+        7.8,
+        16.0
+      ],
+      "text": " and maybe like a one that's like more in the middle like like how i just said that some of"
+    },
+    {
+      "timestamp": [
+        16.0,
+        20.76
+      ],
+      "text": " them were like more on the lower end of like oh you get like a limited supply of stuff if there"
+    },
+    {
+      "timestamp": [
+        20.76,
+        25.84
+      ],
+      "text": " was like oh you get a medium supply of stuff but it can be like altered you know and i also like"
+    },
+    {
+      "timestamp": [
+        25.84,
+        32.82
+      ],
+      "text": " the idea of everyone having, like, enough to survive without having to, like, fight or struggle."
+    },
+    {
+      "timestamp": [
+        34.26,
+        35.7
+      ],
+      "text": " Um, yeah."
+    }
+  ]
+}

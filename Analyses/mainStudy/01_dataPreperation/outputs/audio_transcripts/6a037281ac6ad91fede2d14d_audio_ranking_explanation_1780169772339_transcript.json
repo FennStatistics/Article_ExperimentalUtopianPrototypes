@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a037281ac6ad91fede2d14d_audio_ranking_explanation_1780169772339.webm",
+  "transcript": " i would love to live in a moral environment where people could just be able to restrain themselves and know how to behave when it comes to acting right from wrong or around their neighbors and helping each other and the environment and things like that i don't see that happening in 100 years from now but it would be ideal i now my least preferred would be the religious i don't think religion should be you know what's covering people and the society there's so many different type of religions as well so many that you know they're too controlling uh i just feel like now in real life it's religious kind of helps govern the people and it's not been doing a good job Let's go.",
+  "language": "unknown",
+  "processing_time_seconds": 13.753805,
+  "timestamp": "2026-05-31T10:05:46.902647",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        4.96
+      ],
+      "text": " i would love to live in a moral environment where people could just be able to restrain"
+    },
+    {
+      "timestamp": [
+        4.96,
+        12.32
+      ],
+      "text": " themselves and know how to behave when it comes to acting right from wrong or around their neighbors"
+    },
+    {
+      "timestamp": [
+        12.32,
+        17.92
+      ],
+      "text": " and helping each other and the environment and things like that i don't see that happening in"
+    },
+    {
+      "timestamp": [
+        17.92,
+        26.4
+      ],
+      "text": " 100 years from now but it would be ideal i now my least preferred would be the religious i don't"
+    },
+    {
+      "timestamp": [
+        26.4,
+        35.68
+      ],
+      "text": " think religion should be you know what's covering people and the society there's so many different"
+    },
+    {
+      "timestamp": [
+        35.68,
+        45.84
+      ],
+      "text": " type of religions as well so many that you know they're too controlling uh i just feel like now"
+    },
+    {
+      "timestamp": [
+        45.84,
+        54.88
+      ],
+      "text": " in real life it's religious kind of helps govern the people and it's not been doing a good job"
+    },
+    {
+      "timestamp": [
+        56.4,
+        86.38
+      ],
+      "text": " Let's go."
+    }
+  ]
+}

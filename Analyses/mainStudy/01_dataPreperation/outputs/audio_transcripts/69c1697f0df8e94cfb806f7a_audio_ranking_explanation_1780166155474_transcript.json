@@ -1,0 +1,24 @@
+{
+  "audio_file": "69c1697f0df8e94cfb806f7a_audio_ranking_explanation_1780166155474.webm",
+  "transcript": " I ranked the societies this way because I think that a modern green utopia will help with environmental challenges and it will also provide some security. I think that the AI-centered utopia is the least desirable because it removes humans from the government and it can result in a loss of jobs in the long run and a lack of security.",
+  "language": "unknown",
+  "processing_time_seconds": 8.750041,
+  "timestamp": "2026-05-31T09:54:45.421895",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.0
+      ],
+      "text": " I ranked the societies this way because I think that a modern green utopia will help with environmental challenges and it will also provide some security."
+    },
+    {
+      "timestamp": [
+        13.0,
+        31.78
+      ],
+      "text": " I think that the AI-centered utopia is the least desirable because it removes humans from the government and it can result in a loss of jobs in the long run and a lack of security."
+    }
+  ]
+}

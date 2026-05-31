@@ -1,0 +1,164 @@
+{
+  "audio_file": "6a089cf8a4518f41f3a55ccd_audio_missing_utopia_1780204348476.webm",
+  "transcript": " Yes. Although I assume the Institutional Society was largely democratic, I think that none of them specified whether or not they had any democratic characteristics. uh you know tyrannies can be institutional in nature like the chinese communist party and i feel that a general respect for human liberty to the extent you can manage it is really important to uh people being happy in a society and you know with that you'd want the other hallmarks of democracy like freedom of speech and thought and conscience and uh religion as well so that those are sort of key elements to any society and they could be appended to any of the top few top few choices at least in the way I arranged it the future society can of course have democratic elements that prioritize what progress you want to make towards and the green technology of course will help strike the balance between production and the ecological world",
+  "language": "unknown",
+  "processing_time_seconds": 19.833847,
+  "timestamp": "2026-05-31T10:07:30.745763",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.84
+      ],
+      "text": " Yes. Although I assume the Institutional Society was largely democratic, I think that none of them specified whether or not they had any democratic characteristics."
+    },
+    {
+      "timestamp": [
+        25.2,
+        21.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.2,
+        38.22
+      ],
+      "text": " uh you know tyrannies can be institutional in nature like the chinese communist party and i feel that a general respect for human liberty to the extent you can manage it is"
+    },
+    {
+      "timestamp": [
+        38.22,
+        44.18
+      ],
+      "text": " really important to uh people being happy in a society"
+    },
+    {
+      "timestamp": [
+        44.18,
+        53.5
+      ],
+      "text": " and you know with that you'd want the other hallmarks of democracy"
+    },
+    {
+      "timestamp": [
+        53.5,
+        62.5
+      ],
+      "text": " like freedom of speech and thought and conscience and uh religion as well"
+    },
+    {
+      "timestamp": [
+        62.5,
+        71.76
+      ],
+      "text": " so that those are sort of key elements to any society and they could be appended to"
+    },
+    {
+      "timestamp": [
+        71.76,
+        73.56
+      ],
+      "text": " any of the top few"
+    },
+    {
+      "timestamp": [
+        73.56,
+        77.3
+      ],
+      "text": " top few"
+    },
+    {
+      "timestamp": [
+        77.3,
+        79.22
+      ],
+      "text": " choices"
+    },
+    {
+      "timestamp": [
+        79.22,
+        81.42
+      ],
+      "text": " at least in the way I arranged it"
+    },
+    {
+      "timestamp": [
+        81.42,
+        83.68
+      ],
+      "text": " the future society"
+    },
+    {
+      "timestamp": [
+        83.68,
+        85.42
+      ],
+      "text": " can of course have democratic elements"
+    },
+    {
+      "timestamp": [
+        85.42,
+        86.86
+      ],
+      "text": " that prioritize"
+    },
+    {
+      "timestamp": [
+        86.86,
+        88.72
+      ],
+      "text": " what progress"
+    },
+    {
+      "timestamp": [
+        88.72,
+        91.12
+      ],
+      "text": " you want to make towards"
+    },
+    {
+      "timestamp": [
+        91.12,
+        93.8
+      ],
+      "text": " and the green technology"
+    },
+    {
+      "timestamp": [
+        93.8,
+        95.12
+      ],
+      "text": " of course will help"
+    },
+    {
+      "timestamp": [
+        95.12,
+        97.3
+      ],
+      "text": " strike the balance between"
+    },
+    {
+      "timestamp": [
+        97.3,
+        99.06
+      ],
+      "text": " production"
+    },
+    {
+      "timestamp": [
+        99.06,
+        101.1
+      ],
+      "text": " and the ecological"
+    },
+    {
+      "timestamp": [
+        101.1,
+        102.5
+      ],
+      "text": " world"
+    }
+  ]
+}

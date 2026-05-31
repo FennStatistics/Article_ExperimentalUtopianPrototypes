@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a18e206268ae45110499045_audio_missing_utopia_1780194980197.webm",
+  "transcript": " The missing society would be one without a class structure where the citizens and workers owned the means of productions, where governance is always decided through the will of the people and not of small governing bodies. That's more or less all that was really missing. I think everything else we kind of hit on. But a more focus on community and the strength of the worker and minimizing oligarchy.",
+  "language": "unknown",
+  "processing_time_seconds": 9.140124,
+  "timestamp": "2026-05-31T10:17:26.211470",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        25.8
+      ],
+      "text": " The missing society would be one without a class structure where the citizens and workers owned the means of productions, where governance is always decided through the will of the people and not of small governing bodies."
+    },
+    {
+      "timestamp": [
+        30.0,
+        32.66
+      ],
+      "text": " That's more or less all that was really missing."
+    },
+    {
+      "timestamp": [
+        33.66,
+        36.24
+      ],
+      "text": " I think everything else we kind of hit on."
+    },
+    {
+      "timestamp": [
+        37.06,
+        47.78
+      ],
+      "text": " But a more focus on community and the strength of the worker and minimizing oligarchy."
+    }
+  ]
+}

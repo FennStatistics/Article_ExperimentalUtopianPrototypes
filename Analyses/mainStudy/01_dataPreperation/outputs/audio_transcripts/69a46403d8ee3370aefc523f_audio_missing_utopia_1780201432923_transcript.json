@@ -1,0 +1,17 @@
+{
+  "audio_file": "69a46403d8ee3370aefc523f_audio_missing_utopia_1780201432923.webm",
+  "transcript": " I feel like a society, you know, where high advanced technology helps us reuse, reduce and recycle more efficiently. I feel like a recycle society is what was missing.",
+  "language": "unknown",
+  "processing_time_seconds": 5.991524,
+  "timestamp": "2026-05-31T09:52:30.185158",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.9
+      ],
+      "text": " I feel like a society, you know, where high advanced technology helps us reuse, reduce and recycle more efficiently. I feel like a recycle society is what was missing."
+    }
+  ]
+}

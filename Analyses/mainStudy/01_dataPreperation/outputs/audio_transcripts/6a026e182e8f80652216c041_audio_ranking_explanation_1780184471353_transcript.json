@@ -1,0 +1,143 @@
+{
+  "audio_file": "6a026e182e8f80652216c041_audio_ranking_explanation_1780184471353.webm",
+  "transcript": " wait am i speaking into my um i would say like morality i feel like would be my most preferred society but that would depend if everyone has the same morals as me i think like human nature like we need to be most in true like you know we need to focus on human nature and i think having like inner morals is what's more important but again like not everyone has like those same morals so that's why it'd be like so utopian in a sense because it's so unrealistic and then i went with sustainability because i think like that's very important and could create a good society without like those morals but i feel like the top ones i listed like you have to have morals to believe in sustainability these days and then i did like the science and innovation one because i think like trusting in science is very important and that could lead to like good decisions and then i did like the low tech small scale because you know what like that could be good too and like i i just don't like having like rule of law even though i do like big government and do like institutions i think that like if there's no morality in it then there's no point and then like the ai one like data-driven governments yeah that's okay i guess but like sometimes data is like not very humane and it could lead to decisions that could harm do more harm than good i don't know saying the words ai like driven government scares me and then i have the rule of law one just because like although i do like big government i just don't think it feels like a dictatorship and like you feel like you're only doing something because you're being punished not because you have those morals like the top one and then the religious one no no not following a book i do not like the religious one like that's like your morals don't need to be come from a religion",
+  "language": "unknown",
+  "processing_time_seconds": 28.477497,
+  "timestamp": "2026-05-31T10:05:28.156135",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.8
+      ],
+      "text": " wait am i speaking into my um i would say like morality i feel like would be my most preferred"
+    },
+    {
+      "timestamp": [
+        8.8,
+        14.96
+      ],
+      "text": " society but that would depend if everyone has the same morals as me i think like human nature"
+    },
+    {
+      "timestamp": [
+        14.96,
+        24.36
+      ],
+      "text": " like we need to be most in true like you know we need to focus on human nature and i think having"
+    },
+    {
+      "timestamp": [
+        24.36,
+        29.14
+      ],
+      "text": " like inner morals is what's more important but again like not everyone has like those same morals"
+    },
+    {
+      "timestamp": [
+        29.14,
+        35.14
+      ],
+      "text": " so that's why it'd be like so utopian in a sense because it's so unrealistic and then i went with"
+    },
+    {
+      "timestamp": [
+        35.14,
+        42.74
+      ],
+      "text": " sustainability because i think like that's very important and could create a good society without"
+    },
+    {
+      "timestamp": [
+        42.74,
+        49.7
+      ],
+      "text": " like those morals but i feel like the top ones i listed like you have to have morals to believe"
+    },
+    {
+      "timestamp": [
+        49.7,
+        55.46
+      ],
+      "text": " in sustainability these days and then i did like the science and innovation one because i think like"
+    },
+    {
+      "timestamp": [
+        56.66,
+        55.46
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        62.16,
+        68.36
+      ],
+      "text": " trusting in science is very important and that could lead to like good decisions and then i did like the low tech small scale because you know what like that could be good too and like i i just"
+    },
+    {
+      "timestamp": [
+        68.36,
+        73.36
+      ],
+      "text": " don't like having like rule of law even though i do like big government and do like institutions"
+    },
+    {
+      "timestamp": [
+        73.36,
+        81.9
+      ],
+      "text": " i think that like if there's no morality in it then there's no point and then like the ai one"
+    },
+    {
+      "timestamp": [
+        81.9,
+        86.54
+      ],
+      "text": " like data-driven governments yeah that's okay i guess but like sometimes data is like"
+    },
+    {
+      "timestamp": [
+        86.54,
+        94.16
+      ],
+      "text": " not very humane and it could lead to decisions that could harm do more harm than good i don't"
+    },
+    {
+      "timestamp": [
+        94.16,
+        100.64
+      ],
+      "text": " know saying the words ai like driven government scares me and then i have the rule of law one"
+    },
+    {
+      "timestamp": [
+        100.64,
+        107.08
+      ],
+      "text": " just because like although i do like big government i just don't think it feels like a dictatorship"
+    },
+    {
+      "timestamp": [
+        107.08,
+        111.76
+      ],
+      "text": " and like you feel like you're only doing something because you're being punished not because you"
+    },
+    {
+      "timestamp": [
+        111.76,
+        119.22
+      ],
+      "text": " have those morals like the top one and then the religious one no no not following a book i do not"
+    },
+    {
+      "timestamp": [
+        119.22,
+        124.16
+      ],
+      "text": " like the religious one like that's like your morals don't need to be come from a religion"
+    }
+  ]
+}

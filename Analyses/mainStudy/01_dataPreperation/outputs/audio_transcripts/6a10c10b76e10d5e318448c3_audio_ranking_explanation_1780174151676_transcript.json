@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a10c10b76e10d5e318448c3_audio_ranking_explanation_1780174151676.webm",
+  "transcript": " I ranked moral first just because I think a society would function best based off of morality and AI last, of course, just because I think that's honestly most people's worst nightmare, at least me.",
+  "language": "unknown",
+  "processing_time_seconds": 5.590827,
+  "timestamp": "2026-05-31T10:11:30.108273",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.7
+      ],
+      "text": " I ranked moral first just because I think a society would function best based off of morality and AI last, of course, just because I think that's honestly most people's worst nightmare, at least me."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a1084a49839aa6ea0a82bff_audio_missing_utopia_1780163382040.webm",
+  "transcript": " I would say the biggest thing to get in checks and balances and evaluation of both, you know, the community greater good versus the individuality in free will. So I rank those higher, but those were not necessarily clearly as defined. And that's meant to be related more.",
+  "language": "unknown",
+  "processing_time_seconds": 6.261189,
+  "timestamp": "2026-05-31T10:11:09.685308",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.36
+      ],
+      "text": " I would say the biggest thing to get in checks and balances and evaluation of both, you know,"
+    },
+    {
+      "timestamp": [
+        8.36,
+        13.26
+      ],
+      "text": " the community greater good versus the individuality in free will."
+    },
+    {
+      "timestamp": [
+        13.98,
+        17.3
+      ],
+      "text": " So I rank those higher, but those were not necessarily clearly as defined."
+    },
+    {
+      "timestamp": [
+        17.3,
+        19.2
+      ],
+      "text": " And that's meant to be related more."
+    }
+  ]
+}

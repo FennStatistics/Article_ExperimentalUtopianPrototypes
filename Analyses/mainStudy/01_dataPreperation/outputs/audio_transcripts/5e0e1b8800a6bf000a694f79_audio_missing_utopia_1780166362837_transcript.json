@@ -1,0 +1,17 @@
+{
+  "audio_file": "5e0e1b8800a6bf000a694f79_audio_missing_utopia_1780166362837.webm",
+  "transcript": " I wouldn't say that anything is necessarily missing. I would just kind of blend the top few societies on my list.",
+  "language": "unknown",
+  "processing_time_seconds": 5.051684,
+  "timestamp": "2026-05-31T09:43:27.153497",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.72
+      ],
+      "text": " I wouldn't say that anything is necessarily missing. I would just kind of blend the top few societies on my list."
+    }
+  ]
+}

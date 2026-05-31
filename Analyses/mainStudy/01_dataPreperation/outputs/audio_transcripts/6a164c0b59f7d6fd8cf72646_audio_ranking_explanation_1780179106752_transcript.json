@@ -1,0 +1,185 @@
+{
+  "audio_file": "6a164c0b59f7d6fd8cf72646_audio_ranking_explanation_1780179106752.webm",
+  "transcript": " All right, so I'll start at the bottom and work my way up in this ranking. The AI-centric utopia is my least favorite of the seven options. I think a large part of it, going back to the previous questionnaire, is just how inhuman it is. It was the only one in which I selected strongly disagree for all of the questions about the actions that an ordinary person can take. And when we see the extent to which modern-day institutions are accepting this sort of AI-centric decision-making, AI-centric infrastructures, it does elicit some concern about the role of the human. And I think that's what places it near the bottom. Again, we sort of see that echoed in the Futurist Utopia as well. And then there's the Religious Utopia and the Institutional Utopias, which go more towards very strict authoritarian institutions, which are not necessarily overly appealing for me. I think that there needs to be a balance of insight from the people as well as educated individuals who are able to provide insight. um moral commonwealth is quite utopian in my opinion or rather um idealistic uh i think that it could very quickly become in essence just sort of a secular religious a secular version of a religious utopia where there are agreed upon there's an agreed upon and very strict social law that is followed like religious dogma um however the decentralized nature of it makes it a little more appealing to me um um primitives primitivist utopia is very similar uh in this respect um with it being centralized communally um it's sort of what i envision when i think of a utopia is around this idea of low-tech small-scale communal living um and then modern green utopia feels like more so the the type of utopian vision that we might hold today and in the more seemingly attainable of these seven um visions of the future um yeah so modern green utopia at the top uh ai-centric utopia at the bottom",
+  "language": "unknown",
+  "processing_time_seconds": 34.326902,
+  "timestamp": "2026-05-31T10:14:51.802736",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.38
+      ],
+      "text": " All right, so I'll start at the bottom and work my way up in this ranking."
+    },
+    {
+      "timestamp": [
+        7.38,
+        13.34
+      ],
+      "text": " The AI-centric utopia is my least favorite of the seven options."
+    },
+    {
+      "timestamp": [
+        13.34,
+        22.14
+      ],
+      "text": " I think a large part of it, going back to the previous questionnaire, is just how inhuman"
+    },
+    {
+      "timestamp": [
+        22.14,
+        23.14
+      ],
+      "text": " it is."
+    },
+    {
+      "timestamp": [
+        23.14,
+        29.6
+      ],
+      "text": " It was the only one in which I selected strongly disagree for all of the questions about the"
+    },
+    {
+      "timestamp": [
+        29.6,
+        36.56
+      ],
+      "text": " actions that an ordinary person can take. And when we see the extent to which"
+    },
+    {
+      "timestamp": [
+        38.56,
+        48.16
+      ],
+      "text": " modern-day institutions are accepting this sort of AI-centric decision-making, AI-centric"
+    },
+    {
+      "timestamp": [
+        48.72,
+        57.2
+      ],
+      "text": " infrastructures, it does elicit some concern about the role of the human."
+    },
+    {
+      "timestamp": [
+        59.28,
+        57.2
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        62.06,
+        63.6
+      ],
+      "text": " And I think that's what places it near the bottom."
+    },
+    {
+      "timestamp": [
+        70.5,
+        82.44
+      ],
+      "text": " Again, we sort of see that echoed in the Futurist Utopia as well. And then there's the Religious Utopia and the Institutional Utopias, which go more towards very strict authoritarian institutions,"
+    },
+    {
+      "timestamp": [
+        83.28,
+        82.44
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        89.2,
+        96.82
+      ],
+      "text": " which are not necessarily overly appealing for me. I think that there needs to be a balance of insight from the people"
+    },
+    {
+      "timestamp": [
+        96.82,
+        104.92
+      ],
+      "text": " as well as educated individuals who are able to provide insight."
+    },
+    {
+      "timestamp": [
+        106.62,
+        104.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        118.34,
+        125.3
+      ],
+      "text": " um moral commonwealth is quite utopian in my opinion or rather um idealistic uh i think that it could very quickly become in essence just sort of a secular religious a secular version"
+    },
+    {
+      "timestamp": [
+        125.3,
+        135.78
+      ],
+      "text": " of a religious utopia where there are agreed upon there's an agreed upon and very strict"
+    },
+    {
+      "timestamp": [
+        135.78,
+        143.22
+      ],
+      "text": " social law that is followed like religious dogma um however the"
+    },
+    {
+      "timestamp": [
+        144.18,
+        148.42
+      ],
+      "text": " decentralized nature of it makes it a little more appealing to me um"
+    },
+    {
+      "timestamp": [
+        150.34,
+        148.42
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        157.9,
+        168.04
+      ],
+      "text": " um primitives primitivist utopia is very similar uh in this respect um with it being centralized communally um it's sort of what i envision when i think of a utopia is around"
+    },
+    {
+      "timestamp": [
+        168.04,
+        178.36
+      ],
+      "text": " this idea of low-tech small-scale communal living um and then modern green utopia feels like more"
+    },
+    {
+      "timestamp": [
+        178.36,
+        189.16
+      ],
+      "text": " so the the type of utopian vision that we might hold today and in the more seemingly attainable"
+    },
+    {
+      "timestamp": [
+        189.72,
+        196.68
+      ],
+      "text": " of these seven um visions of the future um"
+    },
+    {
+      "timestamp": [
+        199.24,
+        204.68
+      ],
+      "text": " yeah so modern green utopia at the top uh ai-centric utopia at the bottom"
+    }
+  ]
+}

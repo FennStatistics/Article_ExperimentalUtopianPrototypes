@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a0b012ac9f16bd108225765_audio_ranking_explanation_1780179824799.webm",
+  "transcript": " I think there would be flaws in all of these systems, and it's a very simplified answer to a big question, but the idea of authoritarian rule in either religion, law, or AI feels worse than something that would be based in sustainability and security. and morality. That just seems like a more ideal situation for the masses and like the problems there would be a lot more manageable than the other options.",
+  "language": "unknown",
+  "processing_time_seconds": 9.161698,
+  "timestamp": "2026-05-31T10:09:39.384589",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.46
+      ],
+      "text": " I think there would be flaws in all of these systems, and it's a very simplified answer to a big question, but the idea of authoritarian rule in either religion, law, or AI feels worse than something that would be based in sustainability and security."
+    },
+    {
+      "timestamp": [
+        28.46,
+        41.5
+      ],
+      "text": " and morality. That just seems like a more ideal situation for the masses and like the problems"
+    },
+    {
+      "timestamp": [
+        41.5,
+        48.04
+      ],
+      "text": " there would be a lot more manageable than the other options."
+    }
+  ]
+}

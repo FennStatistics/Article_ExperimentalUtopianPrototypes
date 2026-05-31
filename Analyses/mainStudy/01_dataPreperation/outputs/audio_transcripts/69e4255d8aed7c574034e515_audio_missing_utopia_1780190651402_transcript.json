@@ -1,0 +1,17 @@
+{
+  "audio_file": "69e4255d8aed7c574034e515_audio_missing_utopia_1780190651402.webm",
+  "transcript": " I think the biggest value that was, well, it was represented with the modern green utopia that kind of put all of my basic important values into one future.",
+  "language": "unknown",
+  "processing_time_seconds": 5.354432,
+  "timestamp": "2026-05-31T09:58:35.763753",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.54
+      ],
+      "text": " I think the biggest value that was, well, it was represented with the modern green utopia that kind of put all of my basic important values into one future."
+    }
+  ]
+}

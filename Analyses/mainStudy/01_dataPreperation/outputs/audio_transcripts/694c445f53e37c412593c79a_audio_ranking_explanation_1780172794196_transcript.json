@@ -1,0 +1,73 @@
+{
+  "audio_file": "694c445f53e37c412593c79a_audio_ranking_explanation_1780172794196.webm",
+  "transcript": " I think having a high-ranking society that's based on morals is really smart because everyone can be accountable for themselves and have a high degree of respect and common care for one another. I think the worst out of them all would be an AI-driven or centric society, which would mean that the technology that people have created It would start to make up laws and rules and governance on how to disperse and split up the little bit of resources that everyone is trying so hard to ration properly. So I tried to rank the societies in order of what could be most beneficial for humanity, even if it seemed kind of authoritative. But I also tried to rank the least preferred in a way that would be maybe like the worst stuff for humanity in terms of knowledge or control or power.",
+  "language": "unknown",
+  "processing_time_seconds": 14.282987,
+  "timestamp": "2026-05-31T09:51:11.291286",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.88
+      ],
+      "text": " I think having a high-ranking society that's based on morals is really smart"
+    },
+    {
+      "timestamp": [
+        7.88,
+        11.94
+      ],
+      "text": " because everyone can be accountable for themselves"
+    },
+    {
+      "timestamp": [
+        11.94,
+        17.74
+      ],
+      "text": " and have a high degree of respect and common care for one another."
+    },
+    {
+      "timestamp": [
+        18.88,
+        24.98
+      ],
+      "text": " I think the worst out of them all would be an AI-driven or centric society,"
+    },
+    {
+      "timestamp": [
+        24.98,
+        29.08
+      ],
+      "text": " which would mean that the technology that people have created"
+    },
+    {
+      "timestamp": [
+        29.08,
+        44.94
+      ],
+      "text": " It would start to make up laws and rules and governance on how to disperse and split up the little bit of resources that everyone is trying so hard to ration properly."
+    },
+    {
+      "timestamp": [
+        45.02,
+        55.36
+      ],
+      "text": " So I tried to rank the societies in order of what could be most beneficial for humanity, even if it seemed kind of authoritative."
+    },
+    {
+      "timestamp": [
+        56.36,
+        56.34
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        62.34,
+        67.16
+      ],
+      "text": " But I also tried to rank the least preferred in a way that would be maybe like the worst stuff for humanity in terms of knowledge or control or power."
+    }
+  ]
+}

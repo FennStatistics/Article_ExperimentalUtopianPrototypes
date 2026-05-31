@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0baf5f27b302205f407d3c_audio_missing_utopia_1780198456727.webm",
+  "transcript": " I don't think there's anything absent, maybe like, um, nothing, I think you said all the good ones, I mean, I feel like there could be societies that are, I don't know, where everyone's interdependent and everyone is kind of like the same culture and religion, everything's kind of like the same, and that would be a bad society, but obviously that could be a society, I guess.",
+  "language": "unknown",
+  "processing_time_seconds": 7.165733,
+  "timestamp": "2026-05-31T10:09:46.634270",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.8
+      ],
+      "text": " I don't think there's anything absent, maybe like, um, nothing, I think you said all the good ones, I mean, I feel like there could be societies that are, I don't know, where everyone's interdependent and everyone is kind of like the same culture and religion, everything's kind of like the same, and that would be a bad society, but obviously that could be a society, I guess."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a026b14fa26d03597f2dced_audio_missing_utopia_1780181953941.webm",
+  "transcript": " A participatory utopia is missing. This society will prioritize a radical, decentralized democracy where power rests in the hands of citizens through ongoing inclusive dialogue rather than top-down control. The core value is collective agency, ensuring society evolves through direct human consensus.",
+  "language": "unknown",
+  "processing_time_seconds": 6.205848,
+  "timestamp": "2026-05-31T10:04:40.855229",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.52
+      ],
+      "text": " A participatory utopia is missing."
+    },
+    {
+      "timestamp": [
+        5.52,
+        11.92
+      ],
+      "text": " This society will prioritize a radical, decentralized democracy where power rests in the hands of"
+    },
+    {
+      "timestamp": [
+        11.92,
+        17.04
+      ],
+      "text": " citizens through ongoing inclusive dialogue rather than top-down control."
+    },
+    {
+      "timestamp": [
+        17.04,
+        24.18
+      ],
+      "text": " The core value is collective agency, ensuring society evolves through direct human consensus."
+    }
+  ]
+}

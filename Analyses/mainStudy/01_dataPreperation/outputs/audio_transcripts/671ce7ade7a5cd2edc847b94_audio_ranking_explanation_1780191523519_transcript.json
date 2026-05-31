@@ -1,0 +1,17 @@
+{
+  "audio_file": "671ce7ade7a5cd2edc847b94_audio_ranking_explanation_1780191523519.webm",
+  "transcript": " I write it like that because I feel like it was necessary in those type of order.",
+  "language": "unknown",
+  "processing_time_seconds": 4.894389,
+  "timestamp": "2026-05-31T09:49:43.342787",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.88
+      ],
+      "text": " I write it like that because I feel like it was necessary in those type of order."
+    }
+  ]
+}

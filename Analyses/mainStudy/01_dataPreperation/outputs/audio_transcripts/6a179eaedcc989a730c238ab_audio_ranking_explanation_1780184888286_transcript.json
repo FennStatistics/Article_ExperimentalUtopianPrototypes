@@ -1,0 +1,122 @@
+{
+  "audio_file": "6a179eaedcc989a730c238ab_audio_ranking_explanation_1780184888286.webm",
+  "transcript": " well in the end of the day it really comes down to personal preference um i'm more religious it didn't specify what religion but if i am gonna assume it's christianity then everybody actually seeking to follow the rules that are taught in it i think would be extremely extremely beneficial um but it does depend on the um religion because other religions teach things that i would not say is very morally sound and should not be practiced whatsoever um the modern green utopia i mean it kind of preaches doing good things for the earth um which i think is extremely important even beyond um the people on it so that's why we put that there but i was pretty torn between that and just intermorality to just being moral which uh is what religion is going to be a big thing about too it's just good you have good people you're gonna have a good earth everything kind of under that is kind of like give or take um none of it looked overly attractive it didn't like it was had a good balance of in the best interest of the people and the best interest of earth um especially of like science innovation on the rule of law i could see a lot of bad things going on there um through people that don't want to follow the law or unintentionally do not follow the law um which happens very naturally um with everybody every day everybody breaks a law every day um low tech and small scale it just didn't seem very optimal or smart and then um the ai thing just sounds like a recipe for disaster so",
+  "language": "unknown",
+  "processing_time_seconds": 22.237205,
+  "timestamp": "2026-05-31T10:16:19.549518",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.98
+      ],
+      "text": " well in the end of the day it really comes down to personal preference um i'm more religious it"
+    },
+    {
+      "timestamp": [
+        8.98,
+        16.06
+      ],
+      "text": " didn't specify what religion but if i am gonna assume it's christianity then everybody actually"
+    },
+    {
+      "timestamp": [
+        16.06,
+        21.48
+      ],
+      "text": " seeking to follow the rules that are taught in it i think would be extremely extremely beneficial"
+    },
+    {
+      "timestamp": [
+        21.48,
+        28.56
+      ],
+      "text": " um but it does depend on the um religion because other religions teach things that i would not say"
+    },
+    {
+      "timestamp": [
+        28.56,
+        35.52
+      ],
+      "text": " is very morally sound and should not be practiced whatsoever um the modern green utopia i mean"
+    },
+    {
+      "timestamp": [
+        36.32,
+        42.64
+      ],
+      "text": " it kind of preaches doing good things for the earth um which i think is extremely important"
+    },
+    {
+      "timestamp": [
+        42.64,
+        47.52
+      ],
+      "text": " even beyond um the people on it so that's why we put that there but i was pretty torn between"
+    },
+    {
+      "timestamp": [
+        47.52,
+        53.6
+      ],
+      "text": " that and just intermorality to just being moral which uh is what religion is going to be a big"
+    },
+    {
+      "timestamp": [
+        53.6,
+        58.64
+      ],
+      "text": " thing about too it's just good you have good people you're gonna have a good earth everything"
+    },
+    {
+      "timestamp": [
+        58.64,
+        64.56
+      ],
+      "text": " kind of under that is kind of like give or take um none of it looked overly attractive it didn't"
+    },
+    {
+      "timestamp": [
+        64.56,
+        70.88
+      ],
+      "text": " like it was had a good balance of in the best interest of the people and the best interest of"
+    },
+    {
+      "timestamp": [
+        70.88,
+        77.04
+      ],
+      "text": " earth um especially of like science innovation on the rule of law i could see a lot of bad things"
+    },
+    {
+      "timestamp": [
+        77.04,
+        82.08
+      ],
+      "text": " going on there um through people that don't want to follow the law or unintentionally do not follow"
+    },
+    {
+      "timestamp": [
+        82.08,
+        88.08
+      ],
+      "text": " the law um which happens very naturally um with everybody every day everybody breaks a law every"
+    },
+    {
+      "timestamp": [
+        88.08,
+        96.32
+      ],
+      "text": " day um low tech and small scale it just didn't seem very optimal or smart and then um the ai"
+    },
+    {
+      "timestamp": [
+        96.32,
+        110.08
+      ],
+      "text": " thing just sounds like a recipe for disaster so"
+    }
+  ]
+}

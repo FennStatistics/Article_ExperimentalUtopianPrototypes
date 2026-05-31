@@ -1,0 +1,38 @@
+{
+  "audio_file": "5b20c0474c72120001f25d90_audio_missing_utopia_1780192544079.webm",
+  "transcript": " This was really hard to think of one, but I think the one that's missing is a society that's led by liberties, and that means that personal freedom, self-determination, and your individual rights are placed of a high importance. um it basically means you're free to do what you want as long as it doesn't violate you know the rights and the freedoms of others and it places less importance on a government that decides what you can and can't do",
+  "language": "unknown",
+  "processing_time_seconds": 9.691673,
+  "timestamp": "2026-05-31T09:43:05.452984",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.04
+      ],
+      "text": " This was really hard to think of one, but I think the one that's missing is a society that's led by liberties, and that means that personal freedom, self-determination, and your individual rights are placed of a high importance."
+    },
+    {
+      "timestamp": [
+        23.26,
+        22.04
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.0,
+        30.1
+      ],
+      "text": " um it basically means you're free to do what you want as long as it doesn't violate you know the rights and the freedoms of others"
+    },
+    {
+      "timestamp": [
+        30.1,
+        39.74
+      ],
+      "text": " and it places less importance on a government that decides what you can and can't do"
+    }
+  ]
+}

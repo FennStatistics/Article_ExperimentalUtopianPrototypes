@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a15dd57b7e983803cba4517_audio_missing_utopia_1780173865752.webm",
+  "transcript": " um i really don't think anything was left out i thought the ai um future society that yeah that's that's what i would go for and um other than that i don't think that there's anything missing",
+  "language": "unknown",
+  "processing_time_seconds": 5.811799,
+  "timestamp": "2026-05-31T10:13:17.391519",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.28
+      ],
+      "text": " um i really don't think anything was left out i thought the ai um future society that"
+    },
+    {
+      "timestamp": [
+        8.28,
+        15.52
+      ],
+      "text": " yeah that's that's what i would go for and um other than that i don't think that there's"
+    },
+    {
+      "timestamp": [
+        15.52,
+        16.48
+      ],
+      "text": " anything missing"
+    }
+  ]
+}

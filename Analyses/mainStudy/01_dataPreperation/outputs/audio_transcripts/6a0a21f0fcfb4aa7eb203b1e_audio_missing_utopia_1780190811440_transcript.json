@@ -1,0 +1,150 @@
+{
+  "audio_file": "6a0a21f0fcfb4aa7eb203b1e_audio_missing_utopia_1780190811440.webm",
+  "transcript": " I don't really think there was really anything missing from those but my kind of personal vision would be somewhat similar to the stuff I read that it showed sure morality would be up there but mainly just preserving the planet we live on and making sure everyone has breathed a little air costs are low for everyone we can help each other in a way that'd be kind of nice but you know sometimes we gotta be independent so I don't want to go full on but yeah",
+  "language": "unknown",
+  "processing_time_seconds": 10.784024,
+  "timestamp": "2026-05-31T10:08:28.813093",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        2.2
+      ],
+      "text": " I don't really think"
+    },
+    {
+      "timestamp": [
+        2.2,
+        5.32
+      ],
+      "text": " there was really anything missing"
+    },
+    {
+      "timestamp": [
+        5.32,
+        9.64
+      ],
+      "text": " from those"
+    },
+    {
+      "timestamp": [
+        9.64,
+        12.32
+      ],
+      "text": " but"
+    },
+    {
+      "timestamp": [
+        12.32,
+        15.36
+      ],
+      "text": " my kind of personal vision"
+    },
+    {
+      "timestamp": [
+        15.36,
+        18.04
+      ],
+      "text": " would be"
+    },
+    {
+      "timestamp": [
+        18.04,
+        20.22
+      ],
+      "text": " somewhat similar to the stuff I read"
+    },
+    {
+      "timestamp": [
+        20.22,
+        21.06
+      ],
+      "text": " that it showed"
+    },
+    {
+      "timestamp": [
+        21.06,
+        23.6
+      ],
+      "text": " sure morality would be up there"
+    },
+    {
+      "timestamp": [
+        23.6,
+        25.84
+      ],
+      "text": " but mainly just preserving the planet"
+    },
+    {
+      "timestamp": [
+        25.84,
+        26.72
+      ],
+      "text": " we live on"
+    },
+    {
+      "timestamp": [
+        26.72,
+        28.3
+      ],
+      "text": " and making sure everyone"
+    },
+    {
+      "timestamp": [
+        28.3,
+        29.84
+      ],
+      "text": " has breathed a little air"
+    },
+    {
+      "timestamp": [
+        29.84,
+        32.78
+      ],
+      "text": " costs are low"
+    },
+    {
+      "timestamp": [
+        32.78,
+        34.94
+      ],
+      "text": " for everyone we can help each other"
+    },
+    {
+      "timestamp": [
+        34.94,
+        36.52
+      ],
+      "text": " in a way that'd be kind of nice"
+    },
+    {
+      "timestamp": [
+        36.52,
+        38.78
+      ],
+      "text": " but you know sometimes we gotta be independent"
+    },
+    {
+      "timestamp": [
+        38.78,
+        40.56
+      ],
+      "text": " so I don't want to go full on"
+    },
+    {
+      "timestamp": [
+        40.56,
+        42.42
+      ],
+      "text": " but"
+    },
+    {
+      "timestamp": [
+        42.42,
+        43.1
+      ],
+      "text": " yeah"
+    }
+  ]
+}

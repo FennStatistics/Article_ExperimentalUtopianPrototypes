@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a1ae758fe1ae407eb0c8dfa_audio_missing_utopia_1780187929361.webm",
+  "transcript": " For me, I think I might, I might ultimate the first three. So having a moral compass, that is a supreme moral compass, that is the religious aspect of it, then having a factual science-based approach to things that require science-based knowledge, Then having an incorporated AI system that comes in place and bridges the gaps between the three. So you have yourself understanding that you have a moral compass to your creator, that is God. Then having the facts to bring or to stop or to move forward the development of humankind using science based on the facts that we have. Then using AI to bridge the gap and tighten everything up to bring a conscious one better utopia. Yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 16.21813,
+  "timestamp": "2026-05-31T10:21:13.582400",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.66
+      ],
+      "text": " For me, I think I might, I might ultimate the first three. So having a moral compass, that is a supreme moral compass, that is the religious aspect of it, then having a factual science-based approach to things that require science-based knowledge,"
+    },
+    {
+      "timestamp": [
+        24.66,
+        33.4
+      ],
+      "text": " Then having an incorporated AI system that comes in place and bridges the gaps between the three."
+    },
+    {
+      "timestamp": [
+        34.44,
+        44.18
+      ],
+      "text": " So you have yourself understanding that you have a moral compass to your creator, that is God."
+    },
+    {
+      "timestamp": [
+        44.18,
+        62.38
+      ],
+      "text": " Then having the facts to bring or to stop or to move forward the development of humankind using science based on the facts that we have."
+    },
+    {
+      "timestamp": [
+        62.38,
+        74.16
+      ],
+      "text": " Then using AI to bridge the gap and tighten everything up to bring a conscious one better utopia."
+    },
+    {
+      "timestamp": [
+        75.14,
+        75.34
+      ],
+      "text": " Yeah."
+    }
+  ]
+}

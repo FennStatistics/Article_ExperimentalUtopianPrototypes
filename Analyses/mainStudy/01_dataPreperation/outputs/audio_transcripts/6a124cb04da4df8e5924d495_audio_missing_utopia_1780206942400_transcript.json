@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a124cb04da4df8e5924d495_audio_missing_utopia_1780206942400.webm",
+  "transcript": " So they all had good points, but I feel like having rule of law and also religion would be perfect because I am a religious person. I feel like those two together is what's missing. They were both there, just not combined. Also having, you know, maybe small scale, but like tech, basically having everything combined. For example, religion or the law and also, you know, trying to prevent pollution and, you know, save the earth.",
+  "language": "unknown",
+  "processing_time_seconds": 9.70498,
+  "timestamp": "2026-05-31T10:11:39.862357",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.08
+      ],
+      "text": " So they all had good points, but I feel like having rule of law and also religion would be perfect because I am a religious person."
+    },
+    {
+      "timestamp": [
+        10.12,
+        16.58
+      ],
+      "text": " I feel like those two together is what's missing."
+    },
+    {
+      "timestamp": [
+        16.76,
+        18.42
+      ],
+      "text": " They were both there, just not combined."
+    },
+    {
+      "timestamp": [
+        19.28,
+        26.52
+      ],
+      "text": " Also having, you know, maybe small scale, but like tech, basically having everything combined."
+    },
+    {
+      "timestamp": [
+        26.52,
+        35.84
+      ],
+      "text": " For example, religion or the law and also, you know, trying to prevent pollution and, you know, save the earth."
+    }
+  ]
+}

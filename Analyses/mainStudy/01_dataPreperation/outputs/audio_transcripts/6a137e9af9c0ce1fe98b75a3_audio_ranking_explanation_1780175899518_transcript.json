@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a137e9af9c0ce1fe98b75a3_audio_ranking_explanation_1780175899518.webm",
+  "transcript": " I think that a moral society would be pretty easy to sustain. I think that most people are good and I think that a religious utopia is quite possibly the worst idea. We've seen it historically over and over again, religion tends to be a tool for manipulation and control and I don't think that it would work.",
+  "language": "unknown",
+  "processing_time_seconds": 6.651687,
+  "timestamp": "2026-05-31T10:12:36.536388",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.5
+      ],
+      "text": " I think that a moral society would be pretty easy to sustain."
+    },
+    {
+      "timestamp": [
+        7.5,
+        13.32
+      ],
+      "text": " I think that most people are good and I think that a religious utopia is quite"
+    },
+    {
+      "timestamp": [
+        13.32,
+        19.66
+      ],
+      "text": " possibly the worst idea. We've seen it historically over and over again, religion"
+    },
+    {
+      "timestamp": [
+        19.66,
+        25.98
+      ],
+      "text": " tends to be a tool for manipulation and control and I don't think that it would"
+    },
+    {
+      "timestamp": [
+        25.98,
+        27.66
+      ],
+      "text": " work."
+    }
+  ]
+}

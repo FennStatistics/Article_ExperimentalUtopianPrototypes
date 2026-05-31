@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a0ccfac62d36e0c006f5a90_audio_missing_utopia_1780172285336.webm",
+  "transcript": " I think by missing future society, I would like, would probably be a combination of my first choice and second choice, combining just an idealized collaboration between people as well as focus on their environment and sustainability. Maybe a society that has more emphasis on the arts as well and support for them. That's about it.",
+  "language": "unknown",
+  "processing_time_seconds": 6.543531,
+  "timestamp": "2026-05-31T10:10:14.500709",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.04
+      ],
+      "text": " I think by missing future society, I would like, would probably be a combination of my first choice and second choice,"
+    },
+    {
+      "timestamp": [
+        8.04,
+        19.74
+      ],
+      "text": " combining just an idealized collaboration between people as well as focus on their environment and sustainability."
+    },
+    {
+      "timestamp": [
+        21.54,
+        27.44
+      ],
+      "text": " Maybe a society that has more emphasis on the arts as well and support for them."
+    },
+    {
+      "timestamp": [
+        28.42,
+        29.64
+      ],
+      "text": " That's about it."
+    }
+  ]
+}

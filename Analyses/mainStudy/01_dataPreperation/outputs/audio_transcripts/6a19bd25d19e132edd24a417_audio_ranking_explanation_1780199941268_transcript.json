@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a19bd25d19e132edd24a417_audio_ranking_explanation_1780199941268.webm",
+  "transcript": " We currently use AI, and it's increasing in its usage, and it's not helping really anything. It's harming the environment and people's drinking water. I think we need tech, and I think some AI can be beneficial, but I think even to the extent that it is now is not good. um i think we need morals and morals to run the way people live but i don't think it should be the sole determiner determining factor in the way people exist because everyone has different morals and what they believe is right and wrong and we're not all ever going to agree on that I think strictly basing what we do on rule of law also isn't good. Anytime we've had, like, super, um, authoritarian or dictatorships, like, where law was it and religion was it, it just didn't go well. So I feel the same about religion. There are too many religions and too many beliefs that that just wouldn't work.",
+  "language": "unknown",
+  "processing_time_seconds": 15.551221,
+  "timestamp": "2026-05-31T10:18:49.072000",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        9.32
+      ],
+      "text": " We currently use AI, and it's increasing in its usage, and it's not helping really anything."
+    },
+    {
+      "timestamp": [
+        9.58,
+        15.68
+      ],
+      "text": " It's harming the environment and people's drinking water."
+    },
+    {
+      "timestamp": [
+        16.68,
+        25.96
+      ],
+      "text": " I think we need tech, and I think some AI can be beneficial, but I think even to the extent that it is now is not good."
+    },
+    {
+      "timestamp": [
+        27.16,
+        25.96
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.46,
+        44.8
+      ],
+      "text": " um i think we need morals and morals to run the way people live but i don't think it should be the sole determiner determining factor in the way people exist because everyone has different"
+    },
+    {
+      "timestamp": [
+        44.8,
+        50.92
+      ],
+      "text": " morals and what they believe is right and wrong and we're not all ever going to agree on that"
+    },
+    {
+      "timestamp": [
+        50.92,
+        73.24
+      ],
+      "text": " I think strictly basing what we do on rule of law also isn't good. Anytime we've had, like, super, um, authoritarian or dictatorships, like, where law was it and religion was it, it just didn't go well."
+    },
+    {
+      "timestamp": [
+        73.28,
+        78.36
+      ],
+      "text": " So I feel the same about religion. There are too many religions and too many beliefs that that just wouldn't work."
+    }
+  ]
+}

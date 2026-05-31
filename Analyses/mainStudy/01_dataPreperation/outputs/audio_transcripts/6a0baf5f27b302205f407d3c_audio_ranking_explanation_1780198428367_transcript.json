@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a0baf5f27b302205f407d3c_audio_ranking_explanation_1780198428367.webm",
+  "transcript": " I just felt like basing it off people's morals instead of, like, religious morals. Like, you can have morals without following religion. And I think that's very important to distinguish. I think that's important in a sustainable and secure future. I think that would help us to last the longest. I feel like the rule of law is what we live in right now, which is okay, but it's not perfect, obviously. and then the ones in the bottom, religion and AI-centered, it shouldn't be centered off something that's not necessarily real, I guess, or belief system, I guess.",
+  "language": "unknown",
+  "processing_time_seconds": 11.046448,
+  "timestamp": "2026-05-31T10:09:57.803655",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.54
+      ],
+      "text": " I just felt like basing it off people's morals instead of, like, religious morals."
+    },
+    {
+      "timestamp": [
+        7.76,
+        11.08
+      ],
+      "text": " Like, you can have morals without following religion."
+    },
+    {
+      "timestamp": [
+        12.3,
+        15.34
+      ],
+      "text": " And I think that's very important to distinguish."
+    },
+    {
+      "timestamp": [
+        16.46,
+        20.1
+      ],
+      "text": " I think that's important in a sustainable and secure future."
+    },
+    {
+      "timestamp": [
+        20.22,
+        22.54
+      ],
+      "text": " I think that would help us to last the longest."
+    },
+    {
+      "timestamp": [
+        22.54,
+        29.4
+      ],
+      "text": " I feel like the rule of law is what we live in right now, which is okay, but it's not perfect, obviously."
+    },
+    {
+      "timestamp": [
+        30.0,
+        34.32
+      ],
+      "text": " and then the ones in the bottom, religion and AI-centered,"
+    },
+    {
+      "timestamp": [
+        34.46,
+        39.58
+      ],
+      "text": " it shouldn't be centered off something that's not necessarily real, I guess,"
+    },
+    {
+      "timestamp": [
+        40.36,
+        42.98
+      ],
+      "text": " or belief system, I guess."
+    }
+  ]
+}

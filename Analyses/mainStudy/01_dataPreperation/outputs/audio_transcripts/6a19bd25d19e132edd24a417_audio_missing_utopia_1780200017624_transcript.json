@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a19bd25d19e132edd24a417_audio_missing_utopia_1780200017624.webm",
+  "transcript": " I really do like the morals one, but I feel in the current society that we live in, with the type of people that exist that are just too many differing beliefs, I think that everything mentioned, maybe aside from AI and religion, are important to aiding a society in success. We need people to be led by their morals We need law, of course To ensure that there are consequences to actions I think religion should be kept personal I don't think that AI needs to be advanced I think we should be minimizing Or maximizing the resources we have But not to the extent where we're ignoring the environment and overusing things or underutilizing things that we could be using.",
+  "language": "unknown",
+  "processing_time_seconds": 13.798676,
+  "timestamp": "2026-05-31T10:18:33.286482",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.86
+      ],
+      "text": " I really do like the morals one, but I feel in the current society that we live in, with the type of people that exist that are just too many differing beliefs,"
+    },
+    {
+      "timestamp": [
+        12.86,
+        26.8
+      ],
+      "text": " I think that everything mentioned, maybe aside from AI and religion, are important to aiding a society in success."
+    },
+    {
+      "timestamp": [
+        27.66,
+        26.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.9,
+        32.6
+      ],
+      "text": " We need people to be led by their morals We need law, of course"
+    },
+    {
+      "timestamp": [
+        32.6,
+        37.78
+      ],
+      "text": " To ensure that there are consequences to actions"
+    },
+    {
+      "timestamp": [
+        37.78,
+        41.72
+      ],
+      "text": " I think religion should be kept personal"
+    },
+    {
+      "timestamp": [
+        41.72,
+        44.46
+      ],
+      "text": " I don't think that AI needs to be advanced"
+    },
+    {
+      "timestamp": [
+        44.46,
+        48.2
+      ],
+      "text": " I think we should be minimizing"
+    },
+    {
+      "timestamp": [
+        48.2,
+        53.42
+      ],
+      "text": " Or maximizing the resources we have"
+    },
+    {
+      "timestamp": [
+        53.42,
+        55.7
+      ],
+      "text": " But not to the extent where we're ignoring"
+    },
+    {
+      "timestamp": [
+        55.7,
+        63.32
+      ],
+      "text": " the environment and overusing things or underutilizing things that we could be using."
+    }
+  ]
+}

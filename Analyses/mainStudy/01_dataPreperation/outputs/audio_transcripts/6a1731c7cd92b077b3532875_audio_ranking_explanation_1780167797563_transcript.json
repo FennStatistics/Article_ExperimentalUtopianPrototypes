@@ -1,0 +1,157 @@
+{
+  "audio_file": "6a1731c7cd92b077b3532875_audio_ranking_explanation_1780167797563.webm",
+  "transcript": " So, I ranked the Utopias this way because, I mean, honestly, I just kind of felt that way. I just kind of felt like these Utopias were, like, deserving of the scores that I gave them. like the present the primitivist utopia like a low technology small-scale utopia it sounds good on paper but only for a moment any extension the future like you instantly see that that is not going to work so then you have the institutional utopia that's just boring the ai centered utopia i would say that is you know it's interesting but it's not the best option we'll say that much modern green utopia that is interesting it's an interesting concept but it does not get us where we want to be what the future of utopia does so that's focusing more on the innovation aspect which would be actually very cool that would be a really good utopia so now we're getting into the second and first utopia is what we really like so the moral utopia if that was really an actual byproduct of reality that would be ideal i'll say that much right because that is where most people want to be right so then the religious utopia is kind of just an extension of that moral but externalized more so even more people can understand it so and yeah i mean that's the thing it's is it the religious religious societies work in real life just because it's the actual best combination when you look at it compared to the other options.",
+  "language": "unknown",
+  "processing_time_seconds": 28.666171,
+  "timestamp": "2026-05-31T10:15:32.548114",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.52
+      ],
+      "text": " So, I ranked the Utopias this way because, I mean, honestly, I just kind of felt that"
+    },
+    {
+      "timestamp": [
+        12.52,
+        12.9
+      ],
+      "text": " way."
+    },
+    {
+      "timestamp": [
+        14.4,
+        21.52
+      ],
+      "text": " I just kind of felt like these Utopias were, like, deserving of the scores that I gave"
+    },
+    {
+      "timestamp": [
+        21.52,
+        22.18
+      ],
+      "text": " them."
+    },
+    {
+      "timestamp": [
+        22.18,
+        30.96
+      ],
+      "text": " like the present the primitivist utopia like a low technology small-scale"
+    },
+    {
+      "timestamp": [
+        30.96,
+        41.86
+      ],
+      "text": " utopia it sounds good on paper but only for a moment any extension the future"
+    },
+    {
+      "timestamp": [
+        41.86,
+        49.54
+      ],
+      "text": " like you instantly see that that is not going to work so then you have the"
+    },
+    {
+      "timestamp": [
+        49.54,
+        58.42
+      ],
+      "text": " institutional utopia that's just boring the ai centered utopia i would say that is"
+    },
+    {
+      "timestamp": [
+        59.94,
+        70.34
+      ],
+      "text": " you know it's interesting but it's not the best option we'll say that much modern green utopia"
+    },
+    {
+      "timestamp": [
+        70.34,
+        80.34
+      ],
+      "text": " that is interesting it's an interesting concept but it does not get us where we want to be"
+    },
+    {
+      "timestamp": [
+        81.54,
+        86.58
+      ],
+      "text": " what the future of utopia does so that's focusing more on the innovation aspect which would be"
+    },
+    {
+      "timestamp": [
+        86.58,
+        94.58
+      ],
+      "text": " actually very cool that would be a really good utopia so now we're getting into the second and"
+    },
+    {
+      "timestamp": [
+        94.58,
+        105.22
+      ],
+      "text": " first utopia is what we really like so the moral utopia if that was really an actual"
+    },
+    {
+      "timestamp": [
+        107.38,
+        108.42
+      ],
+      "text": " byproduct"
+    },
+    {
+      "timestamp": [
+        111.14,
+        120.1
+      ],
+      "text": " of reality that would be ideal i'll say that much right because"
+    },
+    {
+      "timestamp": [
+        123.46,
+        120.1
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        131.06,
+        131.94
+      ],
+      "text": " that is where most people want to be right so then the religious utopia is kind of"
+    },
+    {
+      "timestamp": [
+        140.26,
+        141.54
+      ],
+      "text": " just an extension of that moral but externalized more so even more people can understand it"
+    },
+    {
+      "timestamp": [
+        145.7,
+        148.02
+      ],
+      "text": " so and yeah i mean that's the thing it's is it the religious"
+    },
+    {
+      "timestamp": [
+        145.7,
+        156.86
+      ],
+      "text": " religious societies work in real life just because it's the actual best combination"
+    },
+    {
+      "timestamp": [
+        156.86,
+        162.52
+      ],
+      "text": " when you look at it compared to the other options."
+    }
+  ]
+}

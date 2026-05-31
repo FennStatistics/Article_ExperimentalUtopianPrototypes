@@ -1,0 +1,45 @@
+{
+  "audio_file": "69befc993638fae95321d387_audio_ranking_explanation_1780174847991.webm",
+  "transcript": " I chose Modern Green Utopia for its sustainability as it is looking to take care of ordinary citizens in a way that is sustainable and will ensure a longer future for citizens. um ideally a um moral commonwealth would be the ideal society however it is not as realistic as a green utopia sustainability um i chose a religious utopia as my least preferred as religion should be a personal choice and society should be governed by morality rather than religion.",
+  "language": "unknown",
+  "processing_time_seconds": 11.715052,
+  "timestamp": "2026-05-31T09:54:30.734119",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.6
+      ],
+      "text": " I chose Modern Green Utopia for its sustainability as it is looking to take care of ordinary"
+    },
+    {
+      "timestamp": [
+        12.6,
+        21.58
+      ],
+      "text": " citizens in a way that is sustainable and will ensure a longer future for citizens."
+    },
+    {
+      "timestamp": [
+        21.58,
+        34.22
+      ],
+      "text": " um ideally a um moral commonwealth would be the ideal society however it is not as realistic"
+    },
+    {
+      "timestamp": [
+        34.22,
+        45.94
+      ],
+      "text": " as a green utopia sustainability um i chose a religious utopia as my least preferred"
+    },
+    {
+      "timestamp": [
+        45.94,
+        58.78
+      ],
+      "text": " as religion should be a personal choice and society should be governed by morality rather than religion."
+    }
+  ]
+}

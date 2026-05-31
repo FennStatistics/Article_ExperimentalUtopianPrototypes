@@ -1,0 +1,31 @@
+{
+  "audio_file": "6641076785a23b3f7db3c5c1_audio_missing_utopia_1780186299882.webm",
+  "transcript": " I think a future society I would want is one that combines the futurist utopia where science and technology are leaving the forefront of society. And that's what's building our society, but also within the primitivist type of setup where it's smaller communities, preserving environmental resources, only using just enough of what we need without wasting, without excess. I think it's a combination of that where it's only using just enough while also driving forth a lot of innovation and technology for better medicine, better use of resources, and things like that so that we're not going backwards, yet we are going forwards in a more sustainable way.",
+  "language": "unknown",
+  "processing_time_seconds": 13.917056,
+  "timestamp": "2026-05-31T09:48:14.528465",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.24
+      ],
+      "text": " I think a future society I would want is one that combines the futurist utopia where science and technology are leaving the forefront of society."
+    },
+    {
+      "timestamp": [
+        16.24,
+        39.04
+      ],
+      "text": " And that's what's building our society, but also within the primitivist type of setup where it's smaller communities, preserving environmental resources, only using just enough of what we need without wasting, without excess."
+    },
+    {
+      "timestamp": [
+        39.04,
+        60.82
+      ],
+      "text": " I think it's a combination of that where it's only using just enough while also driving forth a lot of innovation and technology for better medicine, better use of resources, and things like that so that we're not going backwards, yet we are going forwards in a more sustainable way."
+    }
+  ]
+}

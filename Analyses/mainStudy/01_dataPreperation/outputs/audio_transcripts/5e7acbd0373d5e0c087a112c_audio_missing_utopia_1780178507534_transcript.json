@@ -1,0 +1,31 @@
+{
+  "audio_file": "5e7acbd0373d5e0c087a112c_audio_missing_utopia_1780178507534.webm",
+  "transcript": " I would say the green utopia is pretty close to what my ideal society would be. It'd be a mixture of that and then continuous innovation with no AI related to that innovation. And then people would just be held strongly to what's right or wrong. So in our current day, there's a lot of very powerful people that are just skating by and can do whatever they want and are facing no consequences. And in my ideal society, that would never, never happen.",
+  "language": "unknown",
+  "processing_time_seconds": 11.247362,
+  "timestamp": "2026-05-31T09:44:18.053341",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.42
+      ],
+      "text": " I would say the green utopia is pretty close to what my ideal society would be. It'd be a mixture of that and then continuous innovation with no AI related to that innovation. And then people would just be held strongly to what's right or wrong."
+    },
+    {
+      "timestamp": [
+        18.42,
+        27.02
+      ],
+      "text": " So in our current day, there's a lot of very powerful people that are just skating by and can do whatever they want and are facing no consequences."
+    },
+    {
+      "timestamp": [
+        27.26,
+        30.84
+      ],
+      "text": " And in my ideal society, that would never, never happen."
+    }
+  ]
+}

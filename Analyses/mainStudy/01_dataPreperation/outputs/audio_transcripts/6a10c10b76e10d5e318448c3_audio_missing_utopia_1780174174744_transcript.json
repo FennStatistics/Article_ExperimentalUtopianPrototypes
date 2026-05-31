@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a10c10b76e10d5e318448c3_audio_missing_utopia_1780174174744.webm",
+  "transcript": " My ideal society would be based off of a moral and religious compass.",
+  "language": "unknown",
+  "processing_time_seconds": 4.716099,
+  "timestamp": "2026-05-31T10:11:24.490440",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.9
+      ],
+      "text": " My ideal society would be based off of a moral and religious compass."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "audio_file": "5e3a8aeedc1d57292aea3f22_audio_missing_utopia_1780162994597.webm",
+  "transcript": " I don't really believe that there was too many things missing other than like they always were missing something that could make it complete. Like for one instance would be like with the modern, like the sustainability, like there wasn't much law and order there. There was a little bit, but there wasn't about, there wasn't much laws in place really to protect what they're doing or many of the other ones are the same way. the only one that did that was the law and order and i feel like it was just the most complete even though it could be better i just feel like an ideal society would have all the good things from the societies mentioned and put all together into one i think",
+  "language": "unknown",
+  "processing_time_seconds": 11.290652,
+  "timestamp": "2026-05-31T09:43:54.503011",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.26
+      ],
+      "text": " I don't really believe that there was too many things missing other than like they always were missing something that could make it complete."
+    },
+    {
+      "timestamp": [
+        10.26,
+        20.1
+      ],
+      "text": " Like for one instance would be like with the modern, like the sustainability, like there wasn't much law and order there."
+    },
+    {
+      "timestamp": [
+        20.2,
+        29.28
+      ],
+      "text": " There was a little bit, but there wasn't about, there wasn't much laws in place really to protect what they're doing or many of the other ones are the same way."
+    },
+    {
+      "timestamp": [
+        29.36,
+        29.28
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        36.32,
+        41.76
+      ],
+      "text": " the only one that did that was the law and order and i feel like it was just the most complete even though it could be better i just feel like an ideal society would have"
+    },
+    {
+      "timestamp": [
+        41.76,
+        49.28
+      ],
+      "text": " all the good things from the societies mentioned and put all together into one i think"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audio_file": "66e9b926c782e4f47a05ec7c_audio_missing_utopia_1780188646013.webm",
+  "transcript": " so i know law and order was in one of the societies but i feel like that should definitely be something that is in all future societies",
+  "language": "unknown",
+  "processing_time_seconds": 5.215539,
+  "timestamp": "2026-05-31T09:49:04.908969",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        5.76
+      ],
+      "text": " so i know law and order was in one of the societies but i feel like that"
+    },
+    {
+      "timestamp": [
+        5.76,
+        11.52
+      ],
+      "text": " should definitely be something that is in all future societies"
+    }
+  ]
+}

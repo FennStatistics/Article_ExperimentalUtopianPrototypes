@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a19d18f546496cf8a436e69_audio_missing_utopia_1780173195576.webm",
+  "transcript": " Um, I don't really think any, like, values were missing. I just think that they all need to be kind of mixed together. I don't think it should be, like, either or. For the perfect society, it has to have a balance of everything.",
+  "language": "unknown",
+  "processing_time_seconds": 6.086244,
+  "timestamp": "2026-05-31T10:18:55.193633",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.2
+      ],
+      "text": " Um, I don't really think any, like, values were missing. I just think that they all need to be kind of mixed together. I don't think it should be, like, either or. For the perfect society, it has to have a balance of everything."
+    }
+  ]
+}

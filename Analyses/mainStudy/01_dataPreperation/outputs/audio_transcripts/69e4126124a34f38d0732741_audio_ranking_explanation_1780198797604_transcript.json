@@ -1,0 +1,402 @@
+{
+  "audio_file": "69e4126124a34f38d0732741_audio_ranking_explanation_1780198797604.webm",
+  "transcript": " okay so i put the modern green utopia at the top because it seems like it had a good balance to me of caring about the people that were in the society so they had just enough to sustain themselves uh i guess feed themselves kind of basic necessities and they were still advancing technologically which i think is important um especially for such a big human population that i i guess we have so i don't know i think i i thought that that it had a good balance they were still limiting you know trying to be conscious of the environment which we sit which we should and in these examples um it did state that you know resources were limited so i think that is why i put that at the top i also really liked that they they had they had rules um or laws but you know they were kind of laws that were like socially and morally adequate for the population like it was it was basically um social laws it wasn't anything that was being imposed into the population so that is why i chose that as my first answer um and then primitive primitivist utopia so i think i chose this one because it it still um was conscious about the environment and the resources available um and because there was still like a communal sort of environment between the people in this society um it might not be you know as technologically advanced um but i think it it would still serve as a I mean as a good social environment or community that's still kind of trying to take care of of the people in these communities even even if they are small and I also like they just kind of took what what they needed um more commonwealth moral commonwealth sorry i think this was the one um that that talked about um what was it oh people just kind of making decisions about what was morally right or wrong for them um Um, I mean, I think what I liked about this is that there wasn't any laws being imposed into people. Everyone was just kind of deciding what it is that, that they, that they wanted. So I feel like there is more freedom of choice still in that choice. And I think as I go further down, I start to think that there's more of it being imposed in one way or another. So it might not be as free as the modern green utopia, but I still think at least the citizens or the people that are participating in that society get to decide, right? um and then we have futurist utopia science and innovation i believe this one um they had a lot of technological advances um but there are still kind of uh limited resources so i think i kind of saw it as yes they're advancing technologically but they are going to run out of resources so it's it doesn't it didn't really seem sustainable religious utopia and you know faith-based order i just i think i have a problem with this because i feel like everybody would i don't know if it's again i don't know if it's sustainable if if everybody is going to have different thoughts about um what is morally correct or not uh it it doesn't i mean there's no mention of like technological advances it does seem maybe like it could be spiritual maybe not like in a religious sense yeah but But I think I would have to have more details, but really just off the bat, I think it made me think about a cult. I think that is as honest as I can be with that answer. An institutional utopia as my sixth place rule of law. again a lot of impositions uh with the citizens and not really being able to make conscious decisions uh or the majority of people aren't really making conscious decisions about how they want to move forward with society it would just be again being imposed laws and then and then also getting punished for them which i don't really think helps in the long run to try to enforce laws um because then you don't really have people acting for the greater good of the society or your community you have people that are kind of just doing what they're told to do um and it kind of leaves space for well if if the laws are created by an institution when they get to decide what laws are what laws are what laws get passed essentially they get a choice in what is lawful and unlawful and that gives an institution or these institutions way too much power um to control the the majority of the population and then seventh ai-centered utopia i mean i think i chose this one last because we already know that ai uses a lot of water so it uses a lot of resources um so if you say resources are limited right off the bat it's just not probably not a good idea uh and then they're making all of the choices and we also know ai can make mistakes right um it did say something about not having like any biases but like who creates these ai systems i think they're always going to be filled with bias right um depending on who created them and obviously someone someone is is handling them right um and it just feels very inhumane to have technology deciding over over how to manage uh maybe not manage but decisions that mankind humans should should be taking into into their own hands I think",
+  "language": "unknown",
+  "processing_time_seconds": 82.907328,
+  "timestamp": "2026-05-31T09:58:30.376222",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.24
+      ],
+      "text": " okay so i put the modern green utopia at the top because it seems like it had a good"
+    },
+    {
+      "timestamp": [
+        10.24,
+        17.44
+      ],
+      "text": " balance to me of caring about the people that were in the society so they had just enough to"
+    },
+    {
+      "timestamp": [
+        17.44,
+        25.38
+      ],
+      "text": " sustain themselves uh i guess feed themselves kind of basic necessities and they were still"
+    },
+    {
+      "timestamp": [
+        25.38,
+        32.94
+      ],
+      "text": " advancing technologically which i think is important um especially for such a big human"
+    },
+    {
+      "timestamp": [
+        32.94,
+        41.7
+      ],
+      "text": " population that i i guess we have so i don't know i think i i thought that that it had a good"
+    },
+    {
+      "timestamp": [
+        41.7,
+        47.62
+      ],
+      "text": " balance they were still limiting you know trying to be conscious of the environment which we sit"
+    },
+    {
+      "timestamp": [
+        47.62,
+        54.84
+      ],
+      "text": " which we should and in these examples um it did state that you know resources were limited so"
+    },
+    {
+      "timestamp": [
+        54.84,
+        65.52
+      ],
+      "text": " i think that is why i put that at the top i also really liked that they they had they had rules"
+    },
+    {
+      "timestamp": [
+        65.52,
+        74.66
+      ],
+      "text": " um or laws but you know they were kind of laws that were like socially and morally"
+    },
+    {
+      "timestamp": [
+        74.66,
+        82.66
+      ],
+      "text": " adequate for the population like it was it was basically um social laws it wasn't anything that"
+    },
+    {
+      "timestamp": [
+        82.66,
+        88.6
+      ],
+      "text": " was being imposed into the population so that is why i chose that as my first answer"
+    },
+    {
+      "timestamp": [
+        88.6,
+        101.44
+      ],
+      "text": " um and then primitive primitivist utopia so i think i chose this one because it it still"
+    },
+    {
+      "timestamp": [
+        101.44,
+        108.48
+      ],
+      "text": " um was conscious about the environment and the resources available"
+    },
+    {
+      "timestamp": [
+        108.48,
+        118.56
+      ],
+      "text": " um and because there was still like a communal sort of environment between the people in this"
+    },
+    {
+      "timestamp": [
+        118.56,
+        131.56
+      ],
+      "text": " society um it might not be you know as technologically advanced um but i think it"
+    },
+    {
+      "timestamp": [
+        131.56,
+        141.46
+      ],
+      "text": " it would still serve as a I mean as a good social environment or community that's still kind of"
+    },
+    {
+      "timestamp": [
+        141.46,
+        147.22
+      ],
+      "text": " trying to take care of of the people in these communities even even if they are small and I"
+    },
+    {
+      "timestamp": [
+        147.22,
+        155.72
+      ],
+      "text": " also like they just kind of took what what they needed um more commonwealth moral commonwealth"
+    },
+    {
+      "timestamp": [
+        155.72,
+        166.84
+      ],
+      "text": " sorry i think this was the one um that that talked about um"
+    },
+    {
+      "timestamp": [
+        170.2,
+        180.52
+      ],
+      "text": " what was it oh people just kind of making decisions about what was morally right or wrong for them um"
+    },
+    {
+      "timestamp": [
+        183.96,
+        180.52
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        190.96,
+        191.46
+      ],
+      "text": " Um, I mean, I think what I liked about this is that there wasn't any laws being imposed into people."
+    },
+    {
+      "timestamp": [
+        198.8,
+        199.36
+      ],
+      "text": " Everyone was just kind of deciding what it is that, that they, that they wanted."
+    },
+    {
+      "timestamp": [
+        203.34,
+        203.92
+      ],
+      "text": " So I feel like there is more freedom of choice still in that choice."
+    },
+    {
+      "timestamp": [
+        203.34,
+        225.68
+      ],
+      "text": " And I think as I go further down, I start to think that there's more of it being imposed in one way or another. So it might not be as free as the modern green utopia, but I still think at least the citizens or the people that are participating in that society get to decide, right?"
+    },
+    {
+      "timestamp": [
+        226.68,
+        225.68
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        234.08,
+        244.08
+      ],
+      "text": " um and then we have futurist utopia science and innovation i believe this one um they had a lot of technological advances um but there are still kind of uh"
+    },
+    {
+      "timestamp": [
+        245.76,
+        252.72
+      ],
+      "text": " limited resources so i think i kind of saw it as yes they're advancing technologically but"
+    },
+    {
+      "timestamp": [
+        253.6,
+        252.72
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        259.02,
+        267.02
+      ],
+      "text": " they are going to run out of resources so it's it doesn't it didn't really seem sustainable religious utopia and you know faith-based order i just i think i have a problem with this because"
+    },
+    {
+      "timestamp": [
+        267.02,
+        274.62
+      ],
+      "text": " i feel like everybody would i don't know if it's again i don't know if it's sustainable"
+    },
+    {
+      "timestamp": [
+        274.62,
+        282.94
+      ],
+      "text": " if if everybody is going to have different thoughts about um what is morally correct"
+    },
+    {
+      "timestamp": [
+        282.94,
+        291.42
+      ],
+      "text": " or not uh it it doesn't i mean there's no mention of like technological advances"
+    },
+    {
+      "timestamp": [
+        291.42,
+        300.18
+      ],
+      "text": " it does seem maybe like it could be spiritual maybe not like in a religious sense yeah but"
+    },
+    {
+      "timestamp": [
+        300.18,
+        310.26
+      ],
+      "text": " But I think I would have to have more details, but really just off the bat, I think it made me think about a cult."
+    },
+    {
+      "timestamp": [
+        311.16,
+        314.56
+      ],
+      "text": " I think that is as honest as I can be with that answer."
+    },
+    {
+      "timestamp": [
+        316.4,
+        323.4
+      ],
+      "text": " An institutional utopia as my sixth place rule of law."
+    },
+    {
+      "timestamp": [
+        323.82,
+        323.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        331.54,
+        337.52
+      ],
+      "text": " again a lot of impositions uh with the citizens and not really being able to make conscious decisions uh or the majority of people aren't really making conscious decisions about how they"
+    },
+    {
+      "timestamp": [
+        337.52,
+        345.44
+      ],
+      "text": " want to move forward with society it would just be again being imposed laws and then and then"
+    },
+    {
+      "timestamp": [
+        345.44,
+        351.84
+      ],
+      "text": " also getting punished for them which i don't really think helps in the long run to try to"
+    },
+    {
+      "timestamp": [
+        351.84,
+        361.04
+      ],
+      "text": " enforce laws um because then you don't really have people acting for the greater good of the"
+    },
+    {
+      "timestamp": [
+        361.04,
+        369.68
+      ],
+      "text": " society or your community you have people that are kind of just doing what they're told to do"
+    },
+    {
+      "timestamp": [
+        370.64,
+        379.44
+      ],
+      "text": " um and it kind of leaves space for well if if the laws are created by an institution"
+    },
+    {
+      "timestamp": [
+        381.12,
+        379.44
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        391.24,
+        399.26
+      ],
+      "text": " when they get to decide what laws are what laws are what laws get passed essentially they get a choice in what is lawful and unlawful and that gives an institution or"
+    },
+    {
+      "timestamp": [
+        399.26,
+        406.28
+      ],
+      "text": " these institutions way too much power um to control the the majority of the population"
+    },
+    {
+      "timestamp": [
+        406.28,
+        416.24
+      ],
+      "text": " and then seventh ai-centered utopia i mean i think i chose this one last because we already know that"
+    },
+    {
+      "timestamp": [
+        416.24,
+        426.48
+      ],
+      "text": " ai uses a lot of water so it uses a lot of resources um so if you say resources are limited"
+    },
+    {
+      "timestamp": [
+        426.48,
+        435.2
+      ],
+      "text": " right off the bat it's just not probably not a good idea uh and then they're making all of the"
+    },
+    {
+      "timestamp": [
+        435.2,
+        442.94
+      ],
+      "text": " choices and we also know ai can make mistakes right um it did say something about not having"
+    },
+    {
+      "timestamp": [
+        442.94,
+        450.66
+      ],
+      "text": " like any biases but like who creates these ai systems i think they're always going to be filled"
+    },
+    {
+      "timestamp": [
+        450.66,
+        460.94
+      ],
+      "text": " with bias right um depending on who created them and obviously someone someone is is handling them"
+    },
+    {
+      "timestamp": [
+        460.94,
+        473.42
+      ],
+      "text": " right um and it just feels very inhumane to have technology deciding over over how to manage uh"
+    },
+    {
+      "timestamp": [
+        473.42,
+        483.9
+      ],
+      "text": " maybe not manage but decisions that mankind humans should should be taking into into their own hands"
+    },
+    {
+      "timestamp": [
+        483.9,
+        485.9
+      ],
+      "text": " I think"
+    }
+  ]
+}

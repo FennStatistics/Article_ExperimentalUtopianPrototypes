@@ -1,0 +1,262 @@
+{
+  "audio_file": "6a1a50ad3e0e62d7abe2bfbf_audio_missing_utopia_1780201516931.webm",
+  "transcript": " I don't think there are any important values that were absent from all of them. I think in my ideal society, everyone just kind of gets it. There is no, I mean, that's not human, though. There wouldn't be a spectrum of emotions. and so i guess this kind of just all of these utopias kind of i mean that's what a utopia is like there is no anomaly um everyone just does as is expected but i don't think there's any big thing that um i was missing or thought should be included All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right. All right.",
+  "language": "unknown",
+  "processing_time_seconds": 17.570914,
+  "timestamp": "2026-05-31T10:20:00.328399",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.62
+      ],
+      "text": " I don't think there are any important values that were absent from all of them."
+    },
+    {
+      "timestamp": [
+        11.5,
+        16.52
+      ],
+      "text": " I think in my ideal society, everyone just kind of gets it."
+    },
+    {
+      "timestamp": [
+        17.16,
+        19.6
+      ],
+      "text": " There is no, I mean, that's not human, though."
+    },
+    {
+      "timestamp": [
+        21.16,
+        24.14
+      ],
+      "text": " There wouldn't be a spectrum of emotions."
+    },
+    {
+      "timestamp": [
+        24.82,
+        24.14
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.6,
+        40.5
+      ],
+      "text": " and so i guess this kind of just all of these utopias kind of i mean that's what a utopia is like there is no anomaly um everyone just does as is expected but i don't think there's any big"
+    },
+    {
+      "timestamp": [
+        40.5,
+        43.98
+      ],
+      "text": " thing that um i was missing or thought should be included"
+    },
+    {
+      "timestamp": [
+        43.98,
+        44.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        44.98,
+        45.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        45.98,
+        46.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        46.98,
+        47.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        47.98,
+        48.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        48.98,
+        49.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        49.98,
+        50.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        50.98,
+        51.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        51.98,
+        52.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        52.98,
+        53.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        53.98,
+        54.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        54.98,
+        55.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        55.98,
+        56.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        56.98,
+        57.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        57.98,
+        58.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        58.98,
+        59.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        59.98,
+        60.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        60.98,
+        61.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        61.98,
+        62.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        62.98,
+        63.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        63.98,
+        64.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        64.98,
+        65.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        65.98,
+        66.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        66.98,
+        67.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        67.98,
+        68.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        68.98,
+        69.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        69.98,
+        70.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        70.98,
+        71.98
+      ],
+      "text": " All right."
+    },
+    {
+      "timestamp": [
+        71.98,
+        72.98
+      ],
+      "text": " All right."
+    }
+  ]
+}

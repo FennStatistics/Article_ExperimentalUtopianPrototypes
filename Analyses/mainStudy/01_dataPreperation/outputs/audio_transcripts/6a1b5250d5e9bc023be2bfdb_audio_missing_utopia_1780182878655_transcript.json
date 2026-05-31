@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a1b5250d5e9bc023be2bfdb_audio_missing_utopia_1780182878655.webm",
+  "transcript": " no i don't think any missing future societies i think all of them were listed uh were the only ones i could really think of",
+  "language": "unknown",
+  "processing_time_seconds": 5.236168,
+  "timestamp": "2026-05-31T10:22:51.600008",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.52
+      ],
+      "text": " no i don't think any missing future societies i think all of them were listed uh were the only ones i could really think of"
+    }
+  ]
+}

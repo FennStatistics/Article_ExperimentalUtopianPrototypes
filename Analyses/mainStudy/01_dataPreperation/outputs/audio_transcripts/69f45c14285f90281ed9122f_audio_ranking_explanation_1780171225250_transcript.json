@@ -1,0 +1,157 @@
+{
+  "audio_file": "69f45c14285f90281ed9122f_audio_ranking_explanation_1780171225250.webm",
+  "transcript": " okay so i ranked this the way i did because i feel like the first one would be the best type for a society the only issue i feel like a lot of people have different definitions of morality so i feel like getting everyone to agree or have a common sense of it would be very very hard to get under control but if in this future society that could happen then that would be great because I feel like there would be a community and people who share ideals and it would be great but it wouldn't be so crazy I feel like that would be great um the primitive one I really really liked because I feel like you know if you're starting out like that like with all the characteristics it was I felt like it would be really really cool and could fix things and then as a religious person I think the religious one was cool so that was my third one um and then going down from there um the rule of law one was very interesting and I feel like a very I really do have a great feeling of need for justice so like I feel like that would be fine but then when you go down it honestly all depends like with the science and innovation it depends on how scientifically rule bound it is like i agree with science and feel like we need science but yet if it becomes science is the only way as in like you know you can't be religious or anything like that then i'd have a problem with it um the ai i like but you know i don't want ai to kind of take over the humanity of it so that's why that's lower and then the modern green is at the bottom because I feel a need to protect the environment, but not so much as to make it a part of the government or systems as a whole. So I don't feel like that's needed. So that would be at my bottom just because it's something that I don't think needs to be the main focus for living.",
+  "language": "unknown",
+  "processing_time_seconds": 27.03451,
+  "timestamp": "2026-05-31T10:00:56.869249",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        2.92
+      ],
+      "text": " okay so i"
+    },
+    {
+      "timestamp": [
+        2.92,
+        9.46
+      ],
+      "text": " ranked this the way i did because i feel like the first one would be the best"
+    },
+    {
+      "timestamp": [
+        9.46,
+        13.48
+      ],
+      "text": " type for a society the only issue i feel like"
+    },
+    {
+      "timestamp": [
+        13.48,
+        21.98
+      ],
+      "text": " a lot of people have different definitions of morality so i feel like getting everyone to"
+    },
+    {
+      "timestamp": [
+        21.98,
+        27.84
+      ],
+      "text": " agree or have a common sense of it would be very very hard to get under control but if in this"
+    },
+    {
+      "timestamp": [
+        27.84,
+        34.22
+      ],
+      "text": " future society that could happen then that would be great because I feel like"
+    },
+    {
+      "timestamp": [
+        34.22,
+        40.58
+      ],
+      "text": " there would be a community and people who share ideals and it would be great but"
+    },
+    {
+      "timestamp": [
+        40.58,
+        48.28
+      ],
+      "text": " it wouldn't be so crazy I feel like that would be great um the primitive one I really really"
+    },
+    {
+      "timestamp": [
+        48.28,
+        53.8
+      ],
+      "text": " liked because I feel like you know if you're starting out like that like with all the"
+    },
+    {
+      "timestamp": [
+        53.8,
+        58.9
+      ],
+      "text": " characteristics it was I felt like it would be really really cool and could fix things and then"
+    },
+    {
+      "timestamp": [
+        58.9,
+        64.32
+      ],
+      "text": " as a religious person I think the religious one was cool so that was my third one um and then"
+    },
+    {
+      "timestamp": [
+        64.32,
+        71.66
+      ],
+      "text": " going down from there um the rule of law one was very interesting and I feel like a very I really"
+    },
+    {
+      "timestamp": [
+        71.66,
+        77.42
+      ],
+      "text": " do have a great feeling of need for justice so like I feel like that would be fine but then when"
+    },
+    {
+      "timestamp": [
+        77.42,
+        82.72
+      ],
+      "text": " you go down it honestly all depends like with the science and innovation it depends on how"
+    },
+    {
+      "timestamp": [
+        82.72,
+        89.5
+      ],
+      "text": " scientifically rule bound it is like i agree with science and feel like we need science but yet if"
+    },
+    {
+      "timestamp": [
+        89.5,
+        94.4
+      ],
+      "text": " it becomes science is the only way as in like you know you can't be religious or anything like that"
+    },
+    {
+      "timestamp": [
+        94.4,
+        102.34
+      ],
+      "text": " then i'd have a problem with it um the ai i like but you know i don't want ai to kind of take over"
+    },
+    {
+      "timestamp": [
+        102.34,
+        108.1
+      ],
+      "text": " the humanity of it so that's why that's lower and then the modern green is at the bottom because"
+    },
+    {
+      "timestamp": [
+        108.1,
+        114.36
+      ],
+      "text": " I feel a need to protect the environment, but not so much as to make it a part of the"
+    },
+    {
+      "timestamp": [
+        114.36,
+        119.54
+      ],
+      "text": " government or systems as a whole. So I don't feel like that's needed. So that would be at"
+    },
+    {
+      "timestamp": [
+        119.54,
+        125.18
+      ],
+      "text": " my bottom just because it's something that I don't think needs to be the main focus for living."
+    }
+  ]
+}

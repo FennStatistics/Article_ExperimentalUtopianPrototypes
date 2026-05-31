@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a1319c4c12cd346dece9fba_audio_missing_utopia_1780201389306.webm",
+  "transcript": " The only thing I can think of is that if there was a utopia or society that was governed by everyone's differences instead of against it, one small example is everybody has something that they specialize in and that they're good at, and so they should be able to do that. But in some aspects or in some walks of life, in our type of utopia or society that we have now, people are not necessarily able to do the things that they're good at because a lot of it's driven by money and not as much driven by what people need and what people should and could be doing.",
+  "language": "unknown",
+  "processing_time_seconds": 10.582078,
+  "timestamp": "2026-05-31T10:12:05.215470",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.16
+      ],
+      "text": " The only thing I can think of is that if there was a utopia or society that was governed by everyone's differences instead of against it,"
+    },
+    {
+      "timestamp": [
+        15.58,
+        27.26
+      ],
+      "text": " one small example is everybody has something that they specialize in and that they're good at, and so they should be able to do that."
+    },
+    {
+      "timestamp": [
+        27.26,
+        53.56
+      ],
+      "text": " But in some aspects or in some walks of life, in our type of utopia or society that we have now, people are not necessarily able to do the things that they're good at because a lot of it's driven by money and not as much driven by what people need and what people should and could be doing."
+    }
+  ]
+}

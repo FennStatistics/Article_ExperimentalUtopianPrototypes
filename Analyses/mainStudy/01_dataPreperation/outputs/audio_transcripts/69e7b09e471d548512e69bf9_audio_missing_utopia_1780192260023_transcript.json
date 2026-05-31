@@ -1,0 +1,80 @@
+{
+  "audio_file": "69e7b09e471d548512e69bf9_audio_missing_utopia_1780192260023.webm",
+  "transcript": " if anything was missing I feel like if for me the only thing that kind of pops up is like a society built on like community and just looking out for each other and what does the community need as a whole but I also feel in some ways it just kind of encapsulates um some of the other ranked societies and I feel like that's where I would go was kind of like merging some of those societies more so than like creating a fully new one because as I mentioned previously just the principles of sustainability um and innovation are very strong for me but also this idea of like community and connection um i think is the glue and fabric of kind of our species and that it would just work to encapsulate the best values as a society um using that connection to better innovate. That's where I stand.",
+  "language": "unknown",
+  "processing_time_seconds": 14.691037,
+  "timestamp": "2026-05-31T09:59:25.743644",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.12
+      ],
+      "text": " if anything was missing I feel like if for me the only thing that kind of pops up is like"
+    },
+    {
+      "timestamp": [
+        7.12,
+        12.44
+      ],
+      "text": " a society built on like community and just looking out for each other and what does the"
+    },
+    {
+      "timestamp": [
+        12.44,
+        16.68
+      ],
+      "text": " community need as a whole but I also feel in some ways it just kind of encapsulates"
+    },
+    {
+      "timestamp": [
+        16.68,
+        23.38
+      ],
+      "text": " um some of the other ranked societies and I feel like that's where I would go was kind of like"
+    },
+    {
+      "timestamp": [
+        23.38,
+        28.88
+      ],
+      "text": " merging some of those societies more so than like creating a fully new one because as I mentioned"
+    },
+    {
+      "timestamp": [
+        28.88,
+        35.36
+      ],
+      "text": " previously just the principles of sustainability um and innovation are very strong for me but also"
+    },
+    {
+      "timestamp": [
+        35.36,
+        43.76
+      ],
+      "text": " this idea of like community and connection um i think is the glue and fabric of kind of our species"
+    },
+    {
+      "timestamp": [
+        44.4,
+        55.92
+      ],
+      "text": " and that it would just work to encapsulate the best values as a society um using that connection to"
+    },
+    {
+      "timestamp": [
+        57.2,
+        55.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        59.96,
+        null
+      ],
+      "text": " better innovate. That's where I stand."
+    }
+  ]
+}

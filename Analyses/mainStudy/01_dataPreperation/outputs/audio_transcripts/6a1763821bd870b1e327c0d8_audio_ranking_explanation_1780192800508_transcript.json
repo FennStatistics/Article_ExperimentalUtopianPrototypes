@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a1763821bd870b1e327c0d8_audio_ranking_explanation_1780192800508.webm",
+  "transcript": " Okay, next.",
+  "language": "unknown",
+  "processing_time_seconds": 4.43174,
+  "timestamp": "2026-05-31T10:15:43.134354",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        1.8
+      ],
+      "text": " Okay, next."
+    }
+  ]
+}

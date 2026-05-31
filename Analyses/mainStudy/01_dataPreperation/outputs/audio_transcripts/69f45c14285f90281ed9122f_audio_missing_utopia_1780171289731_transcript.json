@@ -1,0 +1,52 @@
+{
+  "audio_file": "69f45c14285f90281ed9122f_audio_missing_utopia_1780171289731.webm",
+  "transcript": " honestly i don't really think any values or approaches were missing um my perfect would mostly involve around the first one um i feel like a lot of the issues today it's just that everybody has a different opinion but you can't voice your opinion without getting ridiculed or in trouble for it or canceled for it. And I feel like if it's more of a commonwealth situation as presented, I feel like it would work better because everybody would be working together and it would be more of a community and not so much as division of different types of people.",
+  "language": "unknown",
+  "processing_time_seconds": 10.409712,
+  "timestamp": "2026-05-31T10:00:29.693903",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.18
+      ],
+      "text": " honestly i don't really think any values or approaches were missing um my perfect would"
+    },
+    {
+      "timestamp": [
+        9.18,
+        16.66
+      ],
+      "text": " mostly involve around the first one um i feel like a lot of the issues today it's just that"
+    },
+    {
+      "timestamp": [
+        16.66,
+        23.84
+      ],
+      "text": " everybody has a different opinion but you can't voice your opinion without getting ridiculed or"
+    },
+    {
+      "timestamp": [
+        23.84,
+        32.9
+      ],
+      "text": " in trouble for it or canceled for it. And I feel like if it's more of a commonwealth situation as"
+    },
+    {
+      "timestamp": [
+        32.9,
+        38.78
+      ],
+      "text": " presented, I feel like it would work better because everybody would be working together"
+    },
+    {
+      "timestamp": [
+        38.78,
+        43.38
+      ],
+      "text": " and it would be more of a community and not so much as division of different types of people."
+    }
+  ]
+}

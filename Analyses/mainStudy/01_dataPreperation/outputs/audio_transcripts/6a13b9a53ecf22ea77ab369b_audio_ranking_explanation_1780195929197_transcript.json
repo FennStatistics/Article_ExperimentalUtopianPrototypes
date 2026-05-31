@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a13b9a53ecf22ea77ab369b_audio_ranking_explanation_1780195929197.webm",
+  "transcript": " I ranked the moral commonwealth one as the highest because I think it's the most utopic I don't know if it would ever be possible I don't think it would be truly because I think everyone has a different compass that guides them but I think that ideally that would be the most just and then I put the two of the sustainability and the low-tech small-scale societies next I think that that would be a lovely way to live if possible, just kind of everyone looking out for each other and keeping the environment sustainable. The futurist utopia I liked in theory, but I think that depending on who would lead that, that could potentially be pretty negative. The institutional utopia, I think same deal, who is setting those laws, who decides on those laws um i'm almost thinking of like a handmaid's tale situation where if the law isn't just then uh then the whole society crumbles um religious utopia same deal which faith is actually used as governance don't love that and then ai-centered utopia who's making the ai who's controlling that and what um chaos could that cause that's it",
+  "language": "unknown",
+  "processing_time_seconds": 16.928935,
+  "timestamp": "2026-05-31T10:13:00.026428",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.18
+      ],
+      "text": " I ranked the moral commonwealth one as the highest because I think it's the most utopic"
+    },
+    {
+      "timestamp": [
+        7.18,
+        12.14
+      ],
+      "text": " I don't know if it would ever be possible I don't think it would be truly because I think"
+    },
+    {
+      "timestamp": [
+        12.14,
+        17.6
+      ],
+      "text": " everyone has a different compass that guides them but I think that ideally that would be the most"
+    },
+    {
+      "timestamp": [
+        17.6,
+        25.66
+      ],
+      "text": " just and then I put the two of the sustainability and the low-tech small-scale societies next"
+    },
+    {
+      "timestamp": [
+        25.66,
+        32.9
+      ],
+      "text": " I think that that would be a lovely way to live if possible, just kind of everyone looking out"
+    },
+    {
+      "timestamp": [
+        32.9,
+        40.28
+      ],
+      "text": " for each other and keeping the environment sustainable. The futurist utopia I liked"
+    },
+    {
+      "timestamp": [
+        40.28,
+        48.16
+      ],
+      "text": " in theory, but I think that depending on who would lead that, that could potentially be pretty"
+    },
+    {
+      "timestamp": [
+        48.16,
+        54.88
+      ],
+      "text": " negative. The institutional utopia, I think same deal, who is setting those laws, who decides on"
+    },
+    {
+      "timestamp": [
+        54.88,
+        62.22
+      ],
+      "text": " those laws um i'm almost thinking of like a handmaid's tale situation where if the law isn't"
+    },
+    {
+      "timestamp": [
+        62.22,
+        69.9
+      ],
+      "text": " just then uh then the whole society crumbles um religious utopia same deal which faith is actually"
+    },
+    {
+      "timestamp": [
+        69.9,
+        76.52
+      ],
+      "text": " used as governance don't love that and then ai-centered utopia who's making the ai"
+    },
+    {
+      "timestamp": [
+        76.52,
+        82.34
+      ],
+      "text": " who's controlling that and what um chaos could that cause that's it"
+    }
+  ]
+}

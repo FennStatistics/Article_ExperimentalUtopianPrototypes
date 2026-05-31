@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a18797c20c1b443234da878_audio_missing_utopia_1780172844583.webm",
+  "transcript": " a control group everybody in fifth grade is gonna be like yes",
+  "language": "unknown",
+  "processing_time_seconds": 4.671423,
+  "timestamp": "2026-05-31T10:17:11.617102",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.78
+      ],
+      "text": " a control group everybody in fifth grade is gonna be like yes"
+    }
+  ]
+}

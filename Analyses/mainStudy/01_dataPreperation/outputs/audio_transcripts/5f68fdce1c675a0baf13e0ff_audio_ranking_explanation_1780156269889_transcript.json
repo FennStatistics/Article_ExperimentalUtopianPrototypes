@@ -1,0 +1,73 @@
+{
+  "audio_file": "5f68fdce1c675a0baf13e0ff_audio_ranking_explanation_1780156269889.webm",
+  "transcript": " um i'm not a fan of organized religion so definitely that is the least um preferred of the bunch the more intermorality one sounds like it would be nice on paper but i don't trust a lot of people's morals um so i feel like it wouldn't work um and then in terms of the most preferred i'm a big like science person i trust science i support science i feel like science would make a good society and then similarly the sustainable and secure um modern green utopia i feel like kind of falls in that science world um but just like more green and for the planet which i feel like could be nice the other three i kind of they're all kind of like in a similar range for me so that's why i kind of put them in the middle um yeah",
+  "language": "unknown",
+  "processing_time_seconds": 14.24913,
+  "timestamp": "2026-05-31T09:45:30.038013",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.48
+      ],
+      "text": " um i'm not a fan of organized religion so definitely that is the least um preferred"
+    },
+    {
+      "timestamp": [
+        8.48,
+        16.34
+      ],
+      "text": " of the bunch the more intermorality one sounds like it would be nice on paper but"
+    },
+    {
+      "timestamp": [
+        16.34,
+        24.22
+      ],
+      "text": " i don't trust a lot of people's morals um so i feel like it wouldn't work"
+    },
+    {
+      "timestamp": [
+        24.92,
+        24.22
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.72,
+        41.6
+      ],
+      "text": " um and then in terms of the most preferred i'm a big like science person i trust science i support science i feel like science would make a good society and then similarly the sustainable and"
+    },
+    {
+      "timestamp": [
+        41.6,
+        50.22
+      ],
+      "text": " secure um modern green utopia i feel like kind of falls in that science world um but just like"
+    },
+    {
+      "timestamp": [
+        50.22,
+        56.06
+      ],
+      "text": " more green and for the planet which i feel like could be nice the other three i kind of"
+    },
+    {
+      "timestamp": [
+        57.18,
+        62.14
+      ],
+      "text": " they're all kind of like in a similar range for me so that's why i kind of put them in the middle"
+    },
+    {
+      "timestamp": [
+        62.94,
+        66.14
+      ],
+      "text": " um yeah"
+    }
+  ]
+}

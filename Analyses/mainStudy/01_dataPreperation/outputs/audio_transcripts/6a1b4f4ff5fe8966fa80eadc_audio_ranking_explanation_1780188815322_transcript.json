@@ -1,0 +1,220 @@
+{
+  "audio_file": "6a1b4f4ff5fe8966fa80eadc_audio_ranking_explanation_1780188815322.webm",
+  "transcript": " I started off with my most preferred being the modern green utopia because I feel as though we should be moving towards more of a sustainable society when it comes to how we act within our daily lives and what actions that we take to continuously reach more sustainable goals. I then chose the future utopia because while I do like science and innovation and I do think that they're pivotal in the way that we continuously grow as a society. There has to be limits towards how much innovation we can have. Third, for the moral common wealth, I really enjoyed this idea. And yet, when you think about it, inner morality is personal, and it is very objective what one person might consider their moral truth is not the same as another person's so it unless there's like a whole restructuring of society I don't believe that that's very preferred for me a low-tech and small-scale it's interesting I really do like the communal aspect of it providing communities with the resources and things that they need to govern themselves seems interesting and yet low tech is very um i don't know i just don't think that we can continuously grow as a society by not continuously innovating scientifically ai centered utopia it's not i'm not a big fan of that largely because, you know, AI is, there's, AI is not as, there's no, and AI, AI systems and structures are based on computers, computers can't, computers think binary, they don't, they think they think of zeros and ones they don't really think of the big picture i mean deep down inside all computers are different logic gates and while those logic gates do work a lot of the times to prove the human conscious it doesn't exactly have the human experience so i will never have ai governance be something that I would consider to be a good thing rule of the law is just a very scary idea we as humans are known to make mistakes something like an institutional utopia doesn't seem like something that would be beneficial to its citizens and then finally the religious utopia I believe that religion is a very good thing and yet when we consider all the different various religions and trying to come up and figure out what's one religion that everyone should abide by, it's not only not realistic, but it's also just very wrong. I believe freedom of religion is one of the best parts about most of the countries in our modern world, and yet we can't, you know, without freedom of religion, a lot of things go wrong. So a faith-based order seems very wild to me.",
+  "language": "unknown",
+  "processing_time_seconds": 40.446788,
+  "timestamp": "2026-05-31T10:22:46.343776",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.56
+      ],
+      "text": " I started off with my most preferred being the modern green utopia because I feel as"
+    },
+    {
+      "timestamp": [
+        6.56,
+        12.82
+      ],
+      "text": " though we should be moving towards more of a sustainable society when it comes to how"
+    },
+    {
+      "timestamp": [
+        12.82,
+        22.4
+      ],
+      "text": " we act within our daily lives and what actions that we take to continuously reach more sustainable"
+    },
+    {
+      "timestamp": [
+        22.4,
+        23.4
+      ],
+      "text": " goals."
+    },
+    {
+      "timestamp": [
+        23.4,
+        29.38
+      ],
+      "text": " I then chose the future utopia because while I do like science and innovation and I do"
+    },
+    {
+      "timestamp": [
+        29.38,
+        35.9
+      ],
+      "text": " think that they're pivotal in the way that we continuously grow as a society. There has to be"
+    },
+    {
+      "timestamp": [
+        35.9,
+        42.56
+      ],
+      "text": " limits towards how much innovation we can have. Third, for the moral common wealth, I really"
+    },
+    {
+      "timestamp": [
+        42.56,
+        54.38
+      ],
+      "text": " enjoyed this idea. And yet, when you think about it, inner morality is personal, and it is very"
+    },
+    {
+      "timestamp": [
+        54.38,
+        62.72
+      ],
+      "text": " objective what one person might consider their moral truth is not the same as"
+    },
+    {
+      "timestamp": [
+        62.72,
+        69.48
+      ],
+      "text": " another person's so it unless there's like a whole restructuring of society I"
+    },
+    {
+      "timestamp": [
+        69.48,
+        76.76
+      ],
+      "text": " don't believe that that's very preferred for me a low-tech and small-scale it's"
+    },
+    {
+      "timestamp": [
+        76.76,
+        81.94
+      ],
+      "text": " interesting I really do like the communal aspect of it providing"
+    },
+    {
+      "timestamp": [
+        81.94,
+        88.46
+      ],
+      "text": " communities with the resources and things that they need to govern themselves seems interesting"
+    },
+    {
+      "timestamp": [
+        88.46,
+        95.56
+      ],
+      "text": " and yet low tech is very um i don't know i just don't think that we can continuously grow as a"
+    },
+    {
+      "timestamp": [
+        95.56,
+        106.12
+      ],
+      "text": " society by not continuously innovating scientifically ai centered utopia it's not i'm not a big fan of"
+    },
+    {
+      "timestamp": [
+        106.12,
+        122.2
+      ],
+      "text": " that largely because, you know, AI is, there's, AI is not as, there's no, and AI, AI systems"
+    },
+    {
+      "timestamp": [
+        122.2,
+        129.08
+      ],
+      "text": " and structures are based on computers, computers can't, computers think binary, they don't,"
+    },
+    {
+      "timestamp": [
+        129.08,
+        132.44
+      ],
+      "text": " they think they think of zeros and ones they don't really think of"
+    },
+    {
+      "timestamp": [
+        134.28,
+        139.16
+      ],
+      "text": " the big picture i mean deep down inside all computers are different logic gates"
+    },
+    {
+      "timestamp": [
+        139.8,
+        145.88
+      ],
+      "text": " and while those logic gates do work a lot of the times to prove the human conscious"
+    },
+    {
+      "timestamp": [
+        147.0,
+        156.68
+      ],
+      "text": " it doesn't exactly have the human experience so i will never have ai governance be something"
+    },
+    {
+      "timestamp": [
+        157.48,
+        156.68
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        163.88,
+        171.26
+      ],
+      "text": " that I would consider to be a good thing rule of the law is just a very scary idea we as humans are known to make mistakes something like an institutional"
+    },
+    {
+      "timestamp": [
+        171.26,
+        176.18
+      ],
+      "text": " utopia doesn't seem like something that would be beneficial to its citizens and"
+    },
+    {
+      "timestamp": [
+        176.18,
+        181.28
+      ],
+      "text": " then finally the religious utopia I believe that religion is a very good"
+    },
+    {
+      "timestamp": [
+        181.28,
+        186.26
+      ],
+      "text": " thing and yet when we consider all the different various religions and trying"
+    },
+    {
+      "timestamp": [
+        186.26,
+        193.72
+      ],
+      "text": " to come up and figure out what's one religion that everyone should abide by, it's not only"
+    },
+    {
+      "timestamp": [
+        193.72,
+        204.18
+      ],
+      "text": " not realistic, but it's also just very wrong. I believe freedom of religion is one of the"
+    },
+    {
+      "timestamp": [
+        204.18,
+        214.94
+      ],
+      "text": " best parts about most of the countries in our modern world, and yet we can't, you know,"
+    },
+    {
+      "timestamp": [
+        214.94,
+        224.82
+      ],
+      "text": " without freedom of religion, a lot of things go wrong. So a faith-based order seems very wild to me."
+    }
+  ]
+}

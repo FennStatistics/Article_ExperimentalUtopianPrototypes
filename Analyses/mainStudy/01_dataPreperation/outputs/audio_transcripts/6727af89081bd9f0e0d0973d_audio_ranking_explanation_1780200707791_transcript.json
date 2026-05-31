@@ -1,0 +1,122 @@
+{
+  "audio_file": "6727af89081bd9f0e0d0973d_audio_ranking_explanation_1780200707791.webm",
+  "transcript": " uh i think i've written them that way there's a bunch of reasons first off the moral commonwealth i see it as humanity has somehow conquered their inner greed and i see that as the closest to utopia uh next being the modern green utopia uh i see it as mankind has become balanced with nature and i see that as better than many of the others where we're scraping by or just pushing off the consequences, which is where AI-centered utopia comes in. Assuming this future has somehow fully conquered AI and made it stable and reliable and works for us, it seems like a very fair option. which is leads into the fourth one institutional which i see as not the worst but easily corruptible then there's futurist utopia which seem to be constantly kicking the can down the road and relying on science to save us what it's kind of like right now then primitive which is where this technology has basically been wiped out and i put faith based as less because it seemed almost the same except it demanded faith as the keystone of all society",
+  "language": "unknown",
+  "processing_time_seconds": 20.694589,
+  "timestamp": "2026-05-31T09:50:48.131532",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.3
+      ],
+      "text": " uh i think i've written them that way there's a bunch of reasons first off the moral commonwealth"
+    },
+    {
+      "timestamp": [
+        9.3,
+        19.72
+      ],
+      "text": " i see it as humanity has somehow conquered their inner greed and i see that as the closest to utopia"
+    },
+    {
+      "timestamp": [
+        19.72,
+        32.52
+      ],
+      "text": " uh next being the modern green utopia uh i see it as mankind has become balanced with nature and i"
+    },
+    {
+      "timestamp": [
+        32.52,
+        45.36
+      ],
+      "text": " see that as better than many of the others where we're scraping by or just pushing off the"
+    },
+    {
+      "timestamp": [
+        45.36,
+        49.36
+      ],
+      "text": " consequences, which is where"
+    },
+    {
+      "timestamp": [
+        49.36,
+        51.98
+      ],
+      "text": " AI-centered utopia comes in."
+    },
+    {
+      "timestamp": [
+        54.04,
+        57.04
+      ],
+      "text": " Assuming this future has somehow"
+    },
+    {
+      "timestamp": [
+        57.04,
+        61.56
+      ],
+      "text": " fully conquered"
+    },
+    {
+      "timestamp": [
+        61.56,
+        65.52
+      ],
+      "text": " AI and made it stable and reliable and"
+    },
+    {
+      "timestamp": [
+        65.52,
+        69.76
+      ],
+      "text": " works for us, it seems"
+    },
+    {
+      "timestamp": [
+        69.76,
+        71.6
+      ],
+      "text": " like a very fair option."
+    },
+    {
+      "timestamp": [
+        73.42,
+        71.6
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        82.32,
+        91.64
+      ],
+      "text": " which is leads into the fourth one institutional which i see as not the worst but easily corruptible then there's futurist utopia which seem to be constantly kicking the can down"
+    },
+    {
+      "timestamp": [
+        91.64,
+        100.0
+      ],
+      "text": " the road and relying on science to save us what it's kind of like right now then primitive which"
+    },
+    {
+      "timestamp": [
+        100.0,
+        108.56
+      ],
+      "text": " is where this technology has basically been wiped out and i put faith based as less because it seemed"
+    },
+    {
+      "timestamp": [
+        108.56,
+        114.96
+      ],
+      "text": " almost the same except it demanded faith as the keystone of all society"
+    }
+  ]
+}

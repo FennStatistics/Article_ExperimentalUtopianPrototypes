@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a1bc40efaf7defaede89aa6_audio_missing_utopia_1780207181366.webm",
+  "transcript": " I think a unique future society that could be missing from the past seven is one that is maybe more particularly ecologically and environmentally sustainable than the just enough mentality introduced in the other explanations for the somewhat eco-friendly, sustainable societies. Um, one that could be maybe very technologically advanced, but the innovation in this society goes towards protecting or expanding nature.",
+  "language": "unknown",
+  "processing_time_seconds": 8.811448,
+  "timestamp": "2026-05-31T10:24:48.668304",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.56
+      ],
+      "text": " I think a unique future society that could be missing from the past seven is one that is maybe more particularly ecologically and environmentally sustainable than the just enough mentality introduced in the other explanations for the somewhat eco-friendly, sustainable societies."
+    },
+    {
+      "timestamp": [
+        28.3,
+        26.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        41.56,
+        null
+      ],
+      "text": " Um, one that could be maybe very technologically advanced, but the innovation in this society goes towards protecting or expanding nature."
+    }
+  ]
+}

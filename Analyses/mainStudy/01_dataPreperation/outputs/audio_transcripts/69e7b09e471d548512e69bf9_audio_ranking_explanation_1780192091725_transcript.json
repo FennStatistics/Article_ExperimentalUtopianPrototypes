@@ -1,0 +1,143 @@
+{
+  "audio_file": "69e7b09e471d548512e69bf9_audio_ranking_explanation_1780192091725.webm",
+  "transcript": " um i put the sustainable first mainly because i feel like sustainability should be key of a lot of global influence that we don't always see if we're not looking after the planet how are we planning for the future i think the security behind it too it just goes to protect the planet ideal uh science and innovation i also put up there just because um i believe innovation is also similar to sustainability constantly needed and needed for society to kind of progress in a way intermorality i gotta be really for real i kind of forgot um some of the description for that one um but it just kind of sounded better than some of the other ones on here especially law law i kind of was just neutral on a lot because yes it's good to enforce rules but also if that's the only thing that's guiding society it just feels minimal and just not innovative i think innovation was one of my key just traits overall with this because i'm good to the primivist utopia and just low tech and small scale it's fine to be okay but i always feel like humanity is searching for like the next big step and so keeping innovation there and sustainability like though we need a little more tech than that we need to be looking for the next way to make it happen sort of deal ai centered utopia i do not want this this is one of my fears but i couldn't put it above religion for another reason um ai centered just the idea that technology progresses us why it just reduces the ability to think and it doesn't uh give us that sort of freedom of free thinking that was my main reason there i feel like i've been talking forever uh the religious utopia i just faith-based i'm not a very religious person myself and so just the idea that that would be the main taker upsets me",
+  "language": "unknown",
+  "processing_time_seconds": 26.218606,
+  "timestamp": "2026-05-31T09:59:52.128004",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.44
+      ],
+      "text": " um i put the sustainable first mainly because i feel like sustainability should be key of"
+    },
+    {
+      "timestamp": [
+        8.44,
+        16.24
+      ],
+      "text": " a lot of global influence that we don't always see if we're not looking after the planet how are"
+    },
+    {
+      "timestamp": [
+        16.24,
+        24.14
+      ],
+      "text": " we planning for the future i think the security behind it too it just goes to protect the planet"
+    },
+    {
+      "timestamp": [
+        24.14,
+        31.28
+      ],
+      "text": " ideal uh science and innovation i also put up there just because um i believe innovation is"
+    },
+    {
+      "timestamp": [
+        31.28,
+        37.72
+      ],
+      "text": " also similar to sustainability constantly needed and needed for society to kind of progress"
+    },
+    {
+      "timestamp": [
+        37.72,
+        45.98
+      ],
+      "text": " in a way intermorality i gotta be really for real i kind of forgot um some of the description for"
+    },
+    {
+      "timestamp": [
+        45.98,
+        52.38
+      ],
+      "text": " that one um but it just kind of sounded better than some of the other ones on here especially"
+    },
+    {
+      "timestamp": [
+        52.38,
+        59.9
+      ],
+      "text": " law law i kind of was just neutral on a lot because yes it's good to enforce rules but also"
+    },
+    {
+      "timestamp": [
+        59.9,
+        66.52
+      ],
+      "text": " if that's the only thing that's guiding society it just feels minimal and just not"
+    },
+    {
+      "timestamp": [
+        66.52,
+        72.7
+      ],
+      "text": " innovative i think innovation was one of my key just traits overall with this because i'm good"
+    },
+    {
+      "timestamp": [
+        72.7,
+        79.76
+      ],
+      "text": " to the primivist utopia and just low tech and small scale it's fine to be okay but i always"
+    },
+    {
+      "timestamp": [
+        79.76,
+        84.18
+      ],
+      "text": " feel like humanity is searching for like the next big step and so keeping innovation there"
+    },
+    {
+      "timestamp": [
+        84.18,
+        90.78
+      ],
+      "text": " and sustainability like though we need a little more tech than that we need to be looking for"
+    },
+    {
+      "timestamp": [
+        90.78,
+        98.42
+      ],
+      "text": " the next way to make it happen sort of deal ai centered utopia i do not want this this is one"
+    },
+    {
+      "timestamp": [
+        98.42,
+        105.88
+      ],
+      "text": " of my fears but i couldn't put it above religion for another reason um ai centered just the idea"
+    },
+    {
+      "timestamp": [
+        105.88,
+        113.06
+      ],
+      "text": " that technology progresses us why it just reduces the ability to think and it doesn't uh give us"
+    },
+    {
+      "timestamp": [
+        113.06,
+        118.48
+      ],
+      "text": " that sort of freedom of free thinking that was my main reason there i feel like i've been talking"
+    },
+    {
+      "timestamp": [
+        118.48,
+        126.44
+      ],
+      "text": " forever uh the religious utopia i just faith-based i'm not a very religious person myself"
+    },
+    {
+      "timestamp": [
+        126.44,
+        130.66
+      ],
+      "text": " and so just the idea that that would be the main taker upsets me"
+    }
+  ]
+}

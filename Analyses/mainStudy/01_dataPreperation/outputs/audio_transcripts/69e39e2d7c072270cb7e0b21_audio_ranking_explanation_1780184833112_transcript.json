@@ -1,0 +1,73 @@
+{
+  "audio_file": "69e39e2d7c072270cb7e0b21_audio_ranking_explanation_1780184833112.webm",
+  "transcript": " yeah so i mean i guess this is based off of my personal beliefs but i feel like science and innovation um make the most sense because i just i believe in the scientific method um science can't be really refuted scientific fact is um i mean science i mean you can't really yeah refute that with mere opinions um and then seconds uh little second small scale i just feel like um i feel like it's nice to kind of keep i mean if if we're able to just try to stay away from technology and just kind of depend on you know sharing resources and you know trusting each other and then modern green utopia um being sustainable and secure uh just being smart with our resources um uh and i just think uh i'm not a religious person so you can see why i rank that last",
+  "language": "unknown",
+  "processing_time_seconds": 17.665493,
+  "timestamp": "2026-05-31T09:56:03.005990",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.46
+      ],
+      "text": " yeah so i mean i guess this is based off of my personal beliefs but i feel like science and"
+    },
+    {
+      "timestamp": [
+        8.46,
+        13.6
+      ],
+      "text": " innovation um make the most sense because i just i believe in the scientific method"
+    },
+    {
+      "timestamp": [
+        13.6,
+        24.9
+      ],
+      "text": " um science can't be really refuted scientific fact is um i mean science i mean you can't really"
+    },
+    {
+      "timestamp": [
+        24.9,
+        31.66
+      ],
+      "text": " yeah refute that with mere opinions um and then seconds uh little second small scale i just feel"
+    },
+    {
+      "timestamp": [
+        31.66,
+        46.52
+      ],
+      "text": " like um i feel like it's nice to kind of keep i mean if if we're able to just try to stay away"
+    },
+    {
+      "timestamp": [
+        46.52,
+        53.12
+      ],
+      "text": " from technology and just kind of depend on you know sharing resources and you know trusting"
+    },
+    {
+      "timestamp": [
+        53.12,
+        63.12
+      ],
+      "text": " each other and then modern green utopia um being sustainable and secure uh just being smart with"
+    },
+    {
+      "timestamp": [
+        63.12,
+        75.92
+      ],
+      "text": " our resources um uh and i just think uh i'm not a religious person so you can see why i rank that"
+    },
+    {
+      "timestamp": [
+        75.92,
+        78.16
+      ],
+      "text": " last"
+    }
+  ]
+}

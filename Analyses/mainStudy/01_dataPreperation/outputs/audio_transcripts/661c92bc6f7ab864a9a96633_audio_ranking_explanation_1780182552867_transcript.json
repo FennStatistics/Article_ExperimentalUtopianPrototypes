@@ -1,0 +1,45 @@
+{
+  "audio_file": "661c92bc6f7ab864a9a96633_audio_ranking_explanation_1780182552867.webm",
+  "transcript": " As a religious woman, I feel like a faith-based order would really change things. Not to force people to follow the faith, but that the morals of the faith and the ideas can be followed so that people have more peace. um then for number two a primitive utopia would be good um because we tend to lose ourselves within technology and then if things were more green i mean it would help us it would help the earth it would help our futures our children's futures and down the line",
+  "language": "unknown",
+  "processing_time_seconds": 9.860311,
+  "timestamp": "2026-05-31T09:48:00.536911",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.4
+      ],
+      "text": " As a religious woman, I feel like a faith-based order would really change things."
+    },
+    {
+      "timestamp": [
+        7.68,
+        19.3
+      ],
+      "text": " Not to force people to follow the faith, but that the morals of the faith and the ideas can be followed so that people have more peace."
+    },
+    {
+      "timestamp": [
+        20.3,
+        19.3
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        29.8,
+        36.12
+      ],
+      "text": " um then for number two a primitive utopia would be good um because we tend to lose ourselves within technology and then if things were more green i mean it would help us it would help the"
+    },
+    {
+      "timestamp": [
+        36.12,
+        41.02
+      ],
+      "text": " earth it would help our futures our children's futures and down the line"
+    }
+  ]
+}

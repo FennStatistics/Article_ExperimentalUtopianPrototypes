@@ -1,0 +1,31 @@
+{
+  "audio_file": "69c22b2562a236eed8f9c1e1_audio_ranking_explanation_1780181331295.webm",
+  "transcript": " Disregarding my previous recording, I ranked these societies the way I did just based off of my ideas and what I think would work best and to make it fair for everybody and everyone will be able to gain and I guess be happier and healthier.",
+  "language": "unknown",
+  "processing_time_seconds": 6.262087,
+  "timestamp": "2026-05-31T09:55:01.775718",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        8.44
+      ],
+      "text": " Disregarding my previous recording, I ranked these societies the way I did just based off"
+    },
+    {
+      "timestamp": [
+        8.44,
+        19.76
+      ],
+      "text": " of my ideas and what I think would work best and to make it fair for everybody and everyone"
+    },
+    {
+      "timestamp": [
+        19.76,
+        26.64
+      ],
+      "text": " will be able to gain and I guess be happier and healthier."
+    }
+  ]
+}

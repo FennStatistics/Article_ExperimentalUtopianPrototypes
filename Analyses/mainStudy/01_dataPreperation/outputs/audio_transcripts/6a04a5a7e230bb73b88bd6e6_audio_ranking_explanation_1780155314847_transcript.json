@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a04a5a7e230bb73b88bd6e6_audio_ranking_explanation_1780155314847.webm",
+  "transcript": " So, I have ranked the society that way, because I like the modern green in Tokyo, and then we have that it's based on sustainable and secure. So I think the second is science and innovation, the futurist, futurist in Tokyo, so the third The third one for me is the AI-centered, because the data-driven governance and technology. Then the fourth one, the rule of law, the AI-institution in Ethiopia. So then the moral commonwealth is one thing, religion is Sikh, then the primitive is the last one. Law-tech, very small thing, yeah, so those are the only answers. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 13.573861,
+  "timestamp": "2026-05-31T10:06:10.139581",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.76
+      ],
+      "text": " So, I have ranked the society that way, because I like the modern green in Tokyo, and then"
+    },
+    {
+      "timestamp": [
+        11.76,
+        17.82
+      ],
+      "text": " we have that it's based on sustainable and secure."
+    },
+    {
+      "timestamp": [
+        17.82,
+        26.9
+      ],
+      "text": " So I think the second is science and innovation, the futurist, futurist in Tokyo, so the third"
+    },
+    {
+      "timestamp": [
+        26.9,
+        34.66
+      ],
+      "text": " The third one for me is the AI-centered, because the data-driven governance and technology."
+    },
+    {
+      "timestamp": [
+        34.66,
+        42.18
+      ],
+      "text": " Then the fourth one, the rule of law, the AI-institution in Ethiopia."
+    },
+    {
+      "timestamp": [
+        42.18,
+        49.5
+      ],
+      "text": " So then the moral commonwealth is one thing, religion is Sikh, then the primitive is the"
+    },
+    {
+      "timestamp": [
+        49.5,
+        50.5
+      ],
+      "text": " last one."
+    },
+    {
+      "timestamp": [
+        50.5,
+        56.5
+      ],
+      "text": " Law-tech, very small thing, yeah, so those are the only answers."
+    },
+    {
+      "timestamp": [
+        56.5,
+        86.48
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

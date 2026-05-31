@@ -1,0 +1,206 @@
+{
+  "audio_file": "5a80f74aaa46dd00016b7df9_audio_ranking_explanation_1780194493910.webm",
+  "transcript": " the first is moral commonwealth because it is best if you rely on the inner morality of each person policing themselves and other people as opposed to like a religion or ai or just government in general or science that would be the most preferable one because based on the individual and the individual can apply it to everyone in their society the second is just religious utopia because um just like religion provides a good moral face base of what's right and wrong as opposed to the others are like ai and futuristic and green science uh they don't the scientific method doesn't say what's right or wrong and ai is based on people so that would be my second third is ai because it's more objective to people's needs if it's programmed correctly in a utopian society and it could make more attractive decisions. Fourth is futuristic utopia with science and innovation. Even though it can't tell you what's right or wrong, just basing it on the very science and innovation to have a good life and everything is good. Fifth is this primitive utopia where I like the small scale of communities where you can like really like police yourselves and have a one of the best parts of our communities is being in small scale and that's what makes it more appealing to the other two of modern green utopia where where you're in the secure green but also you're reliant on uh just a sustainable energy this time and lastly is this institutional utopia is least festival because you're relying on government to provide and give them all boundaries as opposed to yourself.",
+  "language": "unknown",
+  "processing_time_seconds": 25.941964,
+  "timestamp": "2026-05-31T09:42:55.708749",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.38
+      ],
+      "text": " the first is moral commonwealth because it is best if you rely on the inner morality of each"
+    },
+    {
+      "timestamp": [
+        7.38,
+        13.88
+      ],
+      "text": " person policing themselves and other people as opposed to like a religion or ai or just government"
+    },
+    {
+      "timestamp": [
+        13.88,
+        20.44
+      ],
+      "text": " in general or science that would be the most preferable one because based on the individual"
+    },
+    {
+      "timestamp": [
+        20.44,
+        27.3
+      ],
+      "text": " and the individual can apply it to everyone in their society the second is just religious utopia"
+    },
+    {
+      "timestamp": [
+        27.3,
+        33.64
+      ],
+      "text": " because um just like religion provides a good moral face base of what's right and wrong as"
+    },
+    {
+      "timestamp": [
+        33.64,
+        40.56
+      ],
+      "text": " opposed to the others are like ai and futuristic and green science uh they don't the scientific"
+    },
+    {
+      "timestamp": [
+        40.56,
+        47.0
+      ],
+      "text": " method doesn't say what's right or wrong and ai is based on people so that would be my second"
+    },
+    {
+      "timestamp": [
+        47.0,
+        54.38
+      ],
+      "text": " third is ai because it's more objective to people's needs if it's programmed correctly"
+    },
+    {
+      "timestamp": [
+        54.38,
+        56.66
+      ],
+      "text": " in a utopian society"
+    },
+    {
+      "timestamp": [
+        56.66,
+        59.0
+      ],
+      "text": " and it could make more"
+    },
+    {
+      "timestamp": [
+        59.0,
+        60.64
+      ],
+      "text": " attractive decisions."
+    },
+    {
+      "timestamp": [
+        61.92,
+        62.62
+      ],
+      "text": " Fourth is"
+    },
+    {
+      "timestamp": [
+        62.62,
+        64.58
+      ],
+      "text": " futuristic utopia"
+    },
+    {
+      "timestamp": [
+        64.58,
+        66.42
+      ],
+      "text": " with science and innovation."
+    },
+    {
+      "timestamp": [
+        66.92,
+        69.26
+      ],
+      "text": " Even though it can't tell you what's right or wrong,"
+    },
+    {
+      "timestamp": [
+        69.44,
+        70.08
+      ],
+      "text": " just basing it"
+    },
+    {
+      "timestamp": [
+        70.08,
+        73.42
+      ],
+      "text": " on the very science and innovation"
+    },
+    {
+      "timestamp": [
+        73.42,
+        75.22
+      ],
+      "text": " to have a good life and everything"
+    },
+    {
+      "timestamp": [
+        75.22,
+        76.0
+      ],
+      "text": " is good."
+    },
+    {
+      "timestamp": [
+        77.26,
+        79.48
+      ],
+      "text": " Fifth is this primitive utopia"
+    },
+    {
+      "timestamp": [
+        79.48,
+        81.56
+      ],
+      "text": " where I like"
+    },
+    {
+      "timestamp": [
+        81.56,
+        82.64
+      ],
+      "text": " the small scale of"
+    },
+    {
+      "timestamp": [
+        82.64,
+        88.94
+      ],
+      "text": " communities where you can like really like police yourselves and have a one of the best"
+    },
+    {
+      "timestamp": [
+        88.94,
+        94.94
+      ],
+      "text": " parts of our communities is being in small scale and that's what makes it more appealing to the"
+    },
+    {
+      "timestamp": [
+        94.94,
+        103.52
+      ],
+      "text": " other two of modern green utopia where where you're in the secure green but also you're reliant on"
+    },
+    {
+      "timestamp": [
+        104.34,
+        111.34
+      ],
+      "text": " uh just a sustainable energy this time and lastly is this institutional utopia is least"
+    },
+    {
+      "timestamp": [
+        111.34,
+        119.9
+      ],
+      "text": " festival because you're relying on government to provide and give them all boundaries as"
+    },
+    {
+      "timestamp": [
+        119.9,
+        121.34
+      ],
+      "text": " opposed to yourself."
+    }
+  ]
+}

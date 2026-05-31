@@ -1,0 +1,73 @@
+{
+  "audio_file": "69cb8bf56b4681853352046a_audio_ranking_explanation_1780189962641.webm",
+  "transcript": " I gave it this ranking because I believe that in institutional utopia, therefore, a society where the top priority is the role of law should be the most important. As of right now, it has always been important to follow the law. And I feel like in order for society to be successful and for there to be order, there must be some sort of law and for the people to follow the laws that there is as for my least preferred society which is religious utopia i don't believe that religious beliefs or even something that has been written and changed over the years such as the bible there's so many different forms, interpretations of the Bible. I don't think that laws should be made based off of a book or even a group or a certain society's idea or beliefs.",
+  "language": "unknown",
+  "processing_time_seconds": 14.737289,
+  "timestamp": "2026-05-31T09:55:35.377521",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.18
+      ],
+      "text": " I gave it this ranking because I believe that in institutional utopia, therefore, a society"
+    },
+    {
+      "timestamp": [
+        10.18,
+        17.6
+      ],
+      "text": " where the top priority is the role of law should be the most important."
+    },
+    {
+      "timestamp": [
+        18.0,
+        22.08
+      ],
+      "text": " As of right now, it has always been important to follow the law."
+    },
+    {
+      "timestamp": [
+        22.08,
+        27.48
+      ],
+      "text": " And I feel like in order for society to be successful and for there to be order, there"
+    },
+    {
+      "timestamp": [
+        27.48,
+        36.24
+      ],
+      "text": " must be some sort of law and for the people to follow the laws that there is as for my least"
+    },
+    {
+      "timestamp": [
+        36.24,
+        44.34
+      ],
+      "text": " preferred society which is religious utopia i don't believe that religious beliefs or even"
+    },
+    {
+      "timestamp": [
+        44.34,
+        51.58
+      ],
+      "text": " something that has been written and changed over the years such as the bible there's so many"
+    },
+    {
+      "timestamp": [
+        51.58,
+        60.42
+      ],
+      "text": " different forms, interpretations of the Bible. I don't think that laws should be"
+    },
+    {
+      "timestamp": [
+        60.42,
+        74.34
+      ],
+      "text": " made based off of a book or even a group or a certain society's idea or beliefs."
+    }
+  ]
+}

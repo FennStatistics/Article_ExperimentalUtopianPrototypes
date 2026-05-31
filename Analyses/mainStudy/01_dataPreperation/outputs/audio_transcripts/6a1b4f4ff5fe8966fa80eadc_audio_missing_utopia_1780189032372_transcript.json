@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a1b4f4ff5fe8966fa80eadc_audio_missing_utopia_1780189032372.webm",
+  "transcript": " So looking back at the seven societies that I just ranked, one important value that I seen, that I saw was missing was love for all mankind, whether that be, you know, humans from different races, colors, genders, races, beliefs, you know, social economic status, all that. And then a second value that I guess I value a lot is continuously aiming for better social, economic, and intellectual status within oneself, as well as within the collective society. always hoping that you know we're always moving towards trying to educate not your own self but the people around you and trying to uplift each other with understanding with opportunity and with love",
+  "language": "unknown",
+  "processing_time_seconds": 13.352512,
+  "timestamp": "2026-05-31T10:22:05.644413",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        6.64
+      ],
+      "text": " So looking back at the seven societies that I just ranked, one important value that I"
+    },
+    {
+      "timestamp": [
+        6.64,
+        15.96
+      ],
+      "text": " seen, that I saw was missing was love for all mankind, whether that be, you know, humans from"
+    },
+    {
+      "timestamp": [
+        15.96,
+        23.56
+      ],
+      "text": " different races, colors, genders, races, beliefs, you know, social economic status, all that."
+    },
+    {
+      "timestamp": [
+        25.24,
+        23.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        45.32,
+        45.82
+      ],
+      "text": " And then a second value that I guess I value a lot is continuously aiming for better social, economic, and intellectual status within oneself, as well as within the collective society."
+    },
+    {
+      "timestamp": [
+        45.32,
+        55.22
+      ],
+      "text": " always hoping that you know we're always moving towards trying to educate not your own self but"
+    },
+    {
+      "timestamp": [
+        55.22,
+        65.66
+      ],
+      "text": " the people around you and trying to uplift each other with understanding with opportunity and with"
+    },
+    {
+      "timestamp": [
+        65.66,
+        66.86
+      ],
+      "text": " love"
+    }
+  ]
+}

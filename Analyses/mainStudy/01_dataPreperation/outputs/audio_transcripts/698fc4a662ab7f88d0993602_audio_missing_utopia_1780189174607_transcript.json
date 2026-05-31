@@ -1,0 +1,38 @@
+{
+  "audio_file": "698fc4a662ab7f88d0993602_audio_missing_utopia_1780189174607.webm",
+  "transcript": " No, I don't think there was anything missing or absent from them. You pretty much covered all the societies that could be",
+  "language": "unknown",
+  "processing_time_seconds": 5.243039,
+  "timestamp": "2026-05-31T09:51:42.434589",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.66
+      ],
+      "text": " No, I don't think there was anything"
+    },
+    {
+      "timestamp": [
+        3.66,
+        5.28
+      ],
+      "text": " missing or absent from them."
+    },
+    {
+      "timestamp": [
+        5.48,
+        7.4
+      ],
+      "text": " You pretty much covered all the societies"
+    },
+    {
+      "timestamp": [
+        7.4,
+        10.08
+      ],
+      "text": " that could be"
+    }
+  ]
+}

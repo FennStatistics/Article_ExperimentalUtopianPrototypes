@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0b012ac9f16bd108225765_audio_missing_utopia_1780179866216.webm",
+  "transcript": " Again, I feel like these are very simplified answers to these things, but maybe some values that we're missing that might be important is like education or the arts or community-based culture, things of that nature, themes of those things being prioritized as well.",
+  "language": "unknown",
+  "processing_time_seconds": 6.064536,
+  "timestamp": "2026-05-31T10:09:30.163158",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        27.3
+      ],
+      "text": " Again, I feel like these are very simplified answers to these things, but maybe some values that we're missing that might be important is like education or the arts or community-based culture, things of that nature, themes of those things being prioritized as well."
+    }
+  ]
+}

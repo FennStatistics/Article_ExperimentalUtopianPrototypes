@@ -1,0 +1,66 @@
+{
+  "audio_file": "69b34be60a7d5e72daf5d5c0_audio_missing_utopia_1780187565731.webm",
+  "transcript": " I would say that a future society that was missing. Honestly, I feel like the one with the environment was kind of close to what I would want. But I feel like an important value or approach that I would really like is one of equity. It talked, there were a few different societies that talked about like, oh, kind of subsistence level living, like enough is enough, like having just enough is good enough. And I almost feel like having a society that is equity based, like if you're disabled, you know, people tend to your needs. Or if you had more resources before, the ideal is like you'll share. So I think that having a society where that's kind of the basis of kind of help your neighbor do onto each other as you would like to be done onto you from each according to their ability to each according to their need. I think those are kind of values that I agree with. So that's kind of the most important part of a society for me. and I feel like the kind of value that that would be would be equity rather than equality.",
+  "language": "unknown",
+  "processing_time_seconds": 16.616004,
+  "timestamp": "2026-05-31T09:53:35.503676",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.3
+      ],
+      "text": " I would say that a future society that was missing. Honestly, I feel like the one with the environment was kind of close to what I would want. But I feel like an important value or approach that I would really like is one of equity."
+    },
+    {
+      "timestamp": [
+        13.9,
+        28.78
+      ],
+      "text": " It talked, there were a few different societies that talked about like, oh, kind of subsistence level living, like enough is enough, like having just enough is good enough. And I almost feel like having a society that is equity based, like if you're disabled, you know, people tend to your needs."
+    },
+    {
+      "timestamp": [
+        28.78,
+        33.54
+      ],
+      "text": " Or if you had more resources before, the ideal is like you'll share."
+    },
+    {
+      "timestamp": [
+        34.52,
+        46.42
+      ],
+      "text": " So I think that having a society where that's kind of the basis of kind of help your neighbor do onto each other as you would like to be done onto you from each according to their ability to each according to their need."
+    },
+    {
+      "timestamp": [
+        46.5,
+        49.44
+      ],
+      "text": " I think those are kind of values that I agree with."
+    },
+    {
+      "timestamp": [
+        50.72,
+        54.54
+      ],
+      "text": " So that's kind of the most important part of a society for me."
+    },
+    {
+      "timestamp": [
+        54.72,
+        54.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        58.94,
+        null
+      ],
+      "text": " and I feel like the kind of value that that would be would be equity rather than equality."
+    }
+  ]
+}

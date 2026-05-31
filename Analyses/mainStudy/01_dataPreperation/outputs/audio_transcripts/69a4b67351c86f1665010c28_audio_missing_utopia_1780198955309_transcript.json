@@ -1,0 +1,24 @@
+{
+  "audio_file": "69a4b67351c86f1665010c28_audio_missing_utopia_1780198955309.webm",
+  "transcript": " I think a society based purely on autonomy and human rights was missing. This would be an ideal society and utopia for me.",
+  "language": "unknown",
+  "processing_time_seconds": 5.218667,
+  "timestamp": "2026-05-31T09:52:45.386374",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.24
+      ],
+      "text": " I think a society based purely on autonomy and human rights was missing."
+    },
+    {
+      "timestamp": [
+        9.24,
+        16.26
+      ],
+      "text": " This would be an ideal society and utopia for me."
+    }
+  ]
+}

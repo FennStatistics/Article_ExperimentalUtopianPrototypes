@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a17ac069acb48f9c7c4391f_audio_missing_utopia_1780176894139.webm",
+  "transcript": " I think within the utopias provided, an idea of individuality while also equality was kind of missing. I think individuality is important. And I think that has to do with the arts and music. and I think that the human race has the ability to adapt these within most of the utopias provided but I think that people mostly think of it secondly to surviving which is understandable But I, I think that creativity and art can be a really important way for the human race to express itself. And so I would have liked to see that more touched on in a utopia and how that might have been affected. Because I do think that in some of these utopias, it would be more difficult to find our own individuality within art. And I think specifically in the AI future, art would become less practiced in terms of what we could keep as historical factors, almost like we see in museums today old work and we hear old music. But I think AI could take that away from us a lot and take the beauty of being a human away from us.",
+  "language": "unknown",
+  "processing_time_seconds": 23.281322,
+  "timestamp": "2026-05-31T10:16:42.940342",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.86
+      ],
+      "text": " I think within the utopias provided, an idea of individuality while also equality was kind of missing. I think individuality is important. And I think that has to do with the arts and music."
+    },
+    {
+      "timestamp": [
+        15.32,
+        13.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        26.92,
+        33.08
+      ],
+      "text": " and I think that the human race has the ability to adapt these within most of the utopias provided but I think that people mostly think of it secondly to surviving which is understandable"
+    },
+    {
+      "timestamp": [
+        33.08,
+        51.4
+      ],
+      "text": " But I, I think that creativity and art can be a really important way for the human race to express itself. And so I would have liked to see that more touched on in a utopia and how that might have been affected."
+    },
+    {
+      "timestamp": [
+        51.4,
+        64.92
+      ],
+      "text": " Because I do think that in some of these utopias, it would be more difficult to find our own individuality within art."
+    },
+    {
+      "timestamp": [
+        64.92,
+        87.5
+      ],
+      "text": " And I think specifically in the AI future, art would become less practiced in terms of what we could keep as historical factors, almost like we see in museums today old work and we hear old music."
+    },
+    {
+      "timestamp": [
+        87.5,
+        94.94
+      ],
+      "text": " But I think AI could take that away from us a lot and take the beauty of being a human away from us."
+    }
+  ]
+}

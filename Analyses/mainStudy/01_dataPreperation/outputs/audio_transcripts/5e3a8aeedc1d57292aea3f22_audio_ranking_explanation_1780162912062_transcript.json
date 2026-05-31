@@ -1,0 +1,87 @@
+{
+  "audio_file": "5e3a8aeedc1d57292aea3f22_audio_ranking_explanation_1780162912062.webm",
+  "transcript": " the reason that I chose the ranking that I did is because the rule of law is going to keep people in check and you unfortunately have to have that nowadays and you have to have just law and order otherwise people will go crazy I wanted to put religious up higher because I am a Christian person but you don't know what kind of religion you're dealing with and you don't know how crazy the religion could be it may not be good for everybody um i also liked the the modern green version you know because it's taking care of the planet and being secure and doing the good things and also the science and innovation i least like the ai uh data-driven governance because i just scares me the idea of ai being in control of everything rather than humans",
+  "language": "unknown",
+  "processing_time_seconds": 12.194867,
+  "timestamp": "2026-05-31T09:44:06.764245",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.42
+      ],
+      "text": " the reason that I chose the ranking that I did"
+    },
+    {
+      "timestamp": [
+        4.42,
+        8.48
+      ],
+      "text": " is because the rule of law is going to keep people in check"
+    },
+    {
+      "timestamp": [
+        8.48,
+        12.52
+      ],
+      "text": " and you unfortunately have to have that"
+    },
+    {
+      "timestamp": [
+        12.52,
+        16.44
+      ],
+      "text": " nowadays and you have to have just law"
+    },
+    {
+      "timestamp": [
+        16.44,
+        18.88
+      ],
+      "text": " and order otherwise people will go crazy"
+    },
+    {
+      "timestamp": [
+        18.88,
+        24.68
+      ],
+      "text": " I wanted to put religious up higher because I am a Christian person"
+    },
+    {
+      "timestamp": [
+        24.68,
+        28.78
+      ],
+      "text": " but you don't know what kind of religion you're dealing with and you don't know"
+    },
+    {
+      "timestamp": [
+        28.78,
+        35.9
+      ],
+      "text": " how crazy the religion could be it may not be good for everybody um i also liked the the modern"
+    },
+    {
+      "timestamp": [
+        35.9,
+        41.42
+      ],
+      "text": " green version you know because it's taking care of the planet and being secure and doing the good"
+    },
+    {
+      "timestamp": [
+        41.42,
+        49.98
+      ],
+      "text": " things and also the science and innovation i least like the ai uh data-driven governance because i"
+    },
+    {
+      "timestamp": [
+        49.98,
+        54.38
+      ],
+      "text": " just scares me the idea of ai being in control of everything rather than humans"
+    }
+  ]
+}

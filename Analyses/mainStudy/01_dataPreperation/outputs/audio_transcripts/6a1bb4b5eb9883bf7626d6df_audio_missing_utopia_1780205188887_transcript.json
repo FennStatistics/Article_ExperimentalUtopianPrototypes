@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a1bb4b5eb9883bf7626d6df_audio_missing_utopia_1780205188887.webm",
+  "transcript": " I want a society with an abundance of resources.",
+  "language": "unknown",
+  "processing_time_seconds": 4.619811,
+  "timestamp": "2026-05-31T10:24:34.912071",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.76
+      ],
+      "text": " I want a society with an abundance of resources."
+    }
+  ]
+}

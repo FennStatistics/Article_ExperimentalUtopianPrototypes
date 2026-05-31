@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0ccabeb492695467a7d337_audio_missing_utopia_1780167955185.webm",
+  "transcript": " Knowledge in the educational future society. My vision for this society is because people need the knowledge to keep themselves going and understand better life.",
+  "language": "unknown",
+  "processing_time_seconds": 5.142341,
+  "timestamp": "2026-05-31T10:10:02.970077",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.7
+      ],
+      "text": " Knowledge in the educational future society. My vision for this society is because people need the knowledge to keep themselves going and understand better life."
+    }
+  ]
+}

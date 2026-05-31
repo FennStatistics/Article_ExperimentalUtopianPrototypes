@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a137e9af9c0ce1fe98b75a3_audio_missing_utopia_1780176217182.webm",
+  "transcript": " I think a combination of morality, technology, and sustainability is truly what would mark a utopia. This framework would depend on the basis of people being good, but with some technological help to rebuild a more innovative but sustainable society. I think that the tech would have limits so that it wouldn't go too far. And I think that it would open up doors to so many things people could do, but with a foundation of morality and sustainability to make it impossible to create greedy, dangerous billionaires like we have now who are destroying our planet. I think the freedom to advance and create with a focus on being morally good is the way to go.",
+  "language": "unknown",
+  "processing_time_seconds": 10.930593,
+  "timestamp": "2026-05-31T10:12:29.847559",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.78
+      ],
+      "text": " I think a combination of morality, technology, and sustainability is truly what would mark a utopia."
+    },
+    {
+      "timestamp": [
+        10.3,
+        20.58
+      ],
+      "text": " This framework would depend on the basis of people being good, but with some technological help to rebuild a more innovative but sustainable society."
+    },
+    {
+      "timestamp": [
+        21.08,
+        25.02
+      ],
+      "text": " I think that the tech would have limits so that it wouldn't go too far."
+    },
+    {
+      "timestamp": [
+        25.7,
+        25.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        41.04,
+        41.84
+      ],
+      "text": " And I think that it would open up doors to so many things people could do, but with a foundation of morality and sustainability to make it impossible to create greedy, dangerous billionaires like we have now who are destroying our planet."
+    },
+    {
+      "timestamp": [
+        50.1,
+        null
+      ],
+      "text": " I think the freedom to advance and create with a focus on being morally good is the way to go."
+    }
+  ]
+}

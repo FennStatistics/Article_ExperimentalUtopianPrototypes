@@ -1,0 +1,66 @@
+{
+  "audio_file": "699ea1c2d6cea42a4be1baad_audio_ranking_explanation_1780184247777.webm",
+  "transcript": " Um, I think personally that, uh, the way I ranked the societies, uh, I did it based on the, um, how I feel the societies would be entertaining to be a part of, um, and how it would benefit the majority of society. I think low-tech, small-scale would be beneficial for a large group of people invested in that society. and AI-centered utopia would be interesting if we knew how it would affect humanity. If we can be guaranteed a safe passage through the new AI-driven future that we're currently living in and everything else.",
+  "language": "unknown",
+  "processing_time_seconds": 15.206489,
+  "timestamp": "2026-05-31T09:52:24.172108",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.78
+      ],
+      "text": " Um, I think personally that, uh, the way I ranked the societies, uh, I did it based"
+    },
+    {
+      "timestamp": [
+        11.78,
+        29.36
+      ],
+      "text": " on the, um, how I feel the societies would be entertaining to be a part of, um,"
+    },
+    {
+      "timestamp": [
+        30.0,
+        35.0
+      ],
+      "text": " and how it would benefit the majority of society."
+    },
+    {
+      "timestamp": [
+        35.0,
+        47.0
+      ],
+      "text": " I think low-tech, small-scale would be beneficial for a large group of people"
+    },
+    {
+      "timestamp": [
+        47.0,
+        51.0
+      ],
+      "text": " invested in that society."
+    },
+    {
+      "timestamp": [
+        51.0,
+        66.0
+      ],
+      "text": " and AI-centered utopia would be interesting if we knew how it would affect humanity."
+    },
+    {
+      "timestamp": [
+        66.0,
+        80.0
+      ],
+      "text": " If we can be guaranteed a safe passage through the new AI-driven"
+    },
+    {
+      "timestamp": [
+        80.0,
+        85.68
+      ],
+      "text": " future that we're currently living in and everything else."
+    }
+  ]
+}

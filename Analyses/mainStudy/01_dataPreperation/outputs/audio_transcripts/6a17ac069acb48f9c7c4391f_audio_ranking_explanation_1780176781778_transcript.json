@@ -1,0 +1,115 @@
+{
+  "audio_file": "6a17ac069acb48f9c7c4391f_audio_ranking_explanation_1780176781778.webm",
+  "transcript": " I personally would like the modern green utopia the most because I think it is the most achievable in my lifetime. I'm a very environmentally centered person and I truly do love learning and being surrounded by nature, animals, all of that. A lot of my hobbies have to do with being outside and like hiking, camping, playing sports that are outside. But I also understand the want for security of a constant food source and to be in control of that. So I do understand putting those systems in place to have farms and to make sure that we have an, I don't want to say industry because the meat industry modernly nowadays is, it's very messed up, but that's why I would put modern green utopia at the top because I think that it's the most sustainable and equal to everyone while also being fair to the environment because overall the environment is what keeps us alive and the earth is our home so we have to protect it. And then AI-centered utopia is last because data centers are thieves of water and they really ruin the quality of water for not only people and like drinking water and we've seen what it can do to certain people's water source around the world country etc but also it destroys habitats these data centers destroy water sources and habitats for animals and plants and overall it would just be a really miserable utopia i think or not utopia for me but you know",
+  "language": "unknown",
+  "processing_time_seconds": 23.861879,
+  "timestamp": "2026-05-31T10:17:06.930949",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.96
+      ],
+      "text": " I personally would like the modern green utopia the most because I think it is the most achievable"
+    },
+    {
+      "timestamp": [
+        5.96,
+        12.38
+      ],
+      "text": " in my lifetime. I'm a very environmentally centered person and I truly do love learning"
+    },
+    {
+      "timestamp": [
+        12.38,
+        17.38
+      ],
+      "text": " and being surrounded by nature, animals, all of that. A lot of my hobbies have to do with"
+    },
+    {
+      "timestamp": [
+        17.38,
+        25.62
+      ],
+      "text": " being outside and like hiking, camping, playing sports that are outside. But I also understand"
+    },
+    {
+      "timestamp": [
+        25.62,
+        34.84
+      ],
+      "text": " the want for security of a constant food source and to be in control of that. So I do understand"
+    },
+    {
+      "timestamp": [
+        34.84,
+        44.62
+      ],
+      "text": " putting those systems in place to have farms and to make sure that we have an, I don't want to say"
+    },
+    {
+      "timestamp": [
+        44.62,
+        52.16
+      ],
+      "text": " industry because the meat industry modernly nowadays is, it's very messed up, but that's"
+    },
+    {
+      "timestamp": [
+        52.16,
+        58.48
+      ],
+      "text": " why I would put modern green utopia at the top because I think that it's the most sustainable"
+    },
+    {
+      "timestamp": [
+        58.48,
+        65.26
+      ],
+      "text": " and equal to everyone while also being fair to the environment because overall the environment"
+    },
+    {
+      "timestamp": [
+        65.26,
+        73.2
+      ],
+      "text": " is what keeps us alive and the earth is our home so we have to protect it. And then AI-centered"
+    },
+    {
+      "timestamp": [
+        73.2,
+        82.7
+      ],
+      "text": " utopia is last because data centers are thieves of water and they really ruin the quality of water"
+    },
+    {
+      "timestamp": [
+        82.7,
+        89.54
+      ],
+      "text": " for not only people and like drinking water and we've seen what it can do to certain people's"
+    },
+    {
+      "timestamp": [
+        89.54,
+        97.74
+      ],
+      "text": " water source around the world country etc but also it destroys habitats these data centers"
+    },
+    {
+      "timestamp": [
+        97.74,
+        107.2
+      ],
+      "text": " destroy water sources and habitats for animals and plants and overall it would just be a"
+    },
+    {
+      "timestamp": [
+        107.2,
+        115.08
+      ],
+      "text": " really miserable utopia i think or not utopia for me but you know"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a160ffb53f179346c6ed7ed_audio_ranking_explanation_1780181052146.webm",
+  "transcript": " I find that society based off of ruling people being from that of the people is most desirable. So a true democracy is what is the most desirable and the least desirable being decisions made by an ultimate authority outside of the people who can then rule upon themselves with. different judgment than what they would use for ordinary people. I also find that working with the environment rather than against it is generally ideal, considering that we only have one planet and working against it will ultimately end up disastrous. risk uh other than that i would say that while focusing on science and the future in that regard is important for humanity it is not ultimately the end all be all because if it requires sacrificing humans and humanity to do so why would we want to spread that rather than focusing on what really matters which is of course the well-being of humans rather than the lasting of them",
+  "language": "unknown",
+  "processing_time_seconds": 16.903607,
+  "timestamp": "2026-05-31T10:13:57.331477",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.48
+      ],
+      "text": " I find that society based off of ruling people being from that of the people is most desirable."
+    },
+    {
+      "timestamp": [
+        12.86,
+        28.44
+      ],
+      "text": " So a true democracy is what is the most desirable and the least desirable being decisions made by an ultimate authority outside of the people who can then rule upon themselves with."
+    },
+    {
+      "timestamp": [
+        30.0,
+        36.84
+      ],
+      "text": " different judgment than what they would use for ordinary people. I also find that"
+    },
+    {
+      "timestamp": [
+        36.84,
+        45.58
+      ],
+      "text": " working with the environment rather than against it is generally ideal, considering"
+    },
+    {
+      "timestamp": [
+        45.58,
+        54.12
+      ],
+      "text": " that we only have one planet and working against it will ultimately end up disastrous."
+    },
+    {
+      "timestamp": [
+        55.94,
+        54.12
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        65.72,
+        75.9
+      ],
+      "text": " risk uh other than that i would say that while focusing on science and the future in that regard is important for humanity it is not ultimately the end all be all because if it requires"
+    },
+    {
+      "timestamp": [
+        75.9,
+        86.48
+      ],
+      "text": " sacrificing humans and humanity to do so why would we want to spread that rather than"
+    },
+    {
+      "timestamp": [
+        86.48,
+        94.88
+      ],
+      "text": " focusing on what really matters which is of course the well-being of humans rather than"
+    },
+    {
+      "timestamp": [
+        94.88,
+        96.6
+      ],
+      "text": " the lasting of them"
+    }
+  ]
+}

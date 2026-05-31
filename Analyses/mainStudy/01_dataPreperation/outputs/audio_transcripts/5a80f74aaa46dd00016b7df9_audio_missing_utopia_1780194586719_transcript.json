@@ -1,0 +1,38 @@
+{
+  "audio_file": "5a80f74aaa46dd00016b7df9_audio_missing_utopia_1780194586719.webm",
+  "transcript": " I can't think off the top of my head what values or important approaches were absent from all of them. Just like what matters most in your vision, in my vision of society is just like where the moral policing is coming from and where the moral standards come from, whether that's from like AI, religion, government, or just like individual communities expressing that. i think that's the most important i think just like um one that was like maybe like high tech small scale would also be good and yes",
+  "language": "unknown",
+  "processing_time_seconds": 12.293627,
+  "timestamp": "2026-05-31T09:42:29.629648",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.0
+      ],
+      "text": " I can't think off the top of my head what values or important approaches were absent from all of them."
+    },
+    {
+      "timestamp": [
+        9.24,
+        27.72
+      ],
+      "text": " Just like what matters most in your vision, in my vision of society is just like where the moral policing is coming from and where the moral standards come from, whether that's from like AI, religion, government, or just like individual communities expressing that."
+    },
+    {
+      "timestamp": [
+        27.72,
+        34.82
+      ],
+      "text": " i think that's the most important i think just like um one that was like maybe like high tech"
+    },
+    {
+      "timestamp": [
+        34.82,
+        40.06
+      ],
+      "text": " small scale would also be good and yes"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "audio_file": "69e7959ed48cfd369a5f0da5_audio_missing_utopia_1780154840735.webm",
+  "transcript": " I don't think so. I think obviously my number one pick would be faith-based, and I think if everybody could accept Jesus and live by the moral code of his teachings, then there wouldn't really be any issues. So I don't see anything missing.",
+  "language": "unknown",
+  "processing_time_seconds": 6.167591,
+  "timestamp": "2026-05-31T09:58:57.483877",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.7
+      ],
+      "text": " I don't think so. I think obviously my number one pick would be faith-based, and I think"
+    },
+    {
+      "timestamp": [
+        7.7,
+        15.84
+      ],
+      "text": " if everybody could accept Jesus and live by the moral code of his teachings, then there"
+    },
+    {
+      "timestamp": [
+        15.84,
+        22.26
+      ],
+      "text": " wouldn't really be any issues. So I don't see anything missing."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "69a89c0955605fb10a4fff5e_audio_ranking_explanation_1780168460912.webm",
+  "transcript": " There was in every way a kind of symbol of an empty and wasteful.",
+  "language": "unknown",
+  "processing_time_seconds": 4.846662,
+  "timestamp": "2026-05-31T09:52:56.105465",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.86
+      ],
+      "text": " There was in every way a kind of symbol of an empty and wasteful."
+    }
+  ]
+}

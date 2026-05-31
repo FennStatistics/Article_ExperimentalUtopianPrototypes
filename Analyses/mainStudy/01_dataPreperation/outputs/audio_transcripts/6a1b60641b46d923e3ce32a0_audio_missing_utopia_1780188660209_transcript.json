@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a1b60641b46d923e3ce32a0_audio_missing_utopia_1780188660209.webm",
+  "transcript": " I think that an ideal society would be a mix between a few of them, so the green, sustainable one, the moral one, and there's another one. the green sustainable the moral one and i guess having more education with laws i think law enforcement is still necessary um I think anything just promoting more of a peaceful, loving society instead of going against people, going against races, going against, honestly, anyone for any reason, and just creating more of a loving and inclusive society is helpful. So by any means to create that society would be helpful. I don't really know what that society would be called, but I think the mindsets, especially of the society that I live in, is extremely toxic and not beneficial to anyone. so creating a society that is more beneficial for all people involved, no matter their beliefs, no matter the color of their skin, no matter their religion, and like truly separating church and state, and just having more compassion and love and empathy for people in general.",
+  "language": "unknown",
+  "processing_time_seconds": 20.270649,
+  "timestamp": "2026-05-31T10:23:24.106545",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.46
+      ],
+      "text": " I think that an ideal society would be a mix between a few of them, so the green, sustainable one, the moral one, and there's another one."
+    },
+    {
+      "timestamp": [
+        27.46,
+        23.46
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.74,
+        39.44
+      ],
+      "text": " the green sustainable the moral one and i guess having more"
+    },
+    {
+      "timestamp": [
+        39.44,
+        49.84
+      ],
+      "text": " education with laws i think law enforcement is still necessary um"
+    },
+    {
+      "timestamp": [
+        49.84,
+        76.96
+      ],
+      "text": " I think anything just promoting more of a peaceful, loving society instead of going against people, going against races, going against, honestly, anyone for any reason, and just creating more of a loving and inclusive society is helpful."
+    },
+    {
+      "timestamp": [
+        76.96,
+        83.46
+      ],
+      "text": " So by any means to create that society would be helpful."
+    },
+    {
+      "timestamp": [
+        85.54,
+        96.72
+      ],
+      "text": " I don't really know what that society would be called, but I think the mindsets, especially"
+    },
+    {
+      "timestamp": [
+        96.72,
+        105.3
+      ],
+      "text": " of the society that I live in, is extremely toxic and not beneficial to anyone."
+    },
+    {
+      "timestamp": [
+        106.96,
+        115.04
+      ],
+      "text": " so creating a society that is more beneficial for all people involved, no matter their beliefs,"
+    },
+    {
+      "timestamp": [
+        115.04,
+        121.28
+      ],
+      "text": " no matter the color of their skin, no matter their religion, and like truly separating"
+    },
+    {
+      "timestamp": [
+        123.2,
+        131.76
+      ],
+      "text": " church and state, and just having more compassion and love and empathy for people in general."
+    }
+  ]
+}

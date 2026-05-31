@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a124cb04da4df8e5924d495_audio_ranking_explanation_1780206891294.webm",
+  "transcript": " I bring these societies this way because I feel like rule of law or institutional utopia is kind of what we live with right now. And it's really the only thing that makes sense and feel like is ideal, in my opinion. AI-centered utopia is at last because it just doesn't make sense. Having artificial intelligence make decisions for us is like something right out of a movie. It's something that I would never want to live if that's what society is. It's literally the world being doomed if we have no type of opinion or in the rules. Everything is being governed by someone who doesn't have a brain, doesn't have a heart. That's really how I feel. So having clear rules or laws stated that everybody knows of rather than a computer and coding telling us what's right or wrong.",
+  "language": "unknown",
+  "processing_time_seconds": 14.625424,
+  "timestamp": "2026-05-31T10:11:54.566187",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.78
+      ],
+      "text": " I bring these societies this way because I feel like rule of law or institutional utopia is kind of what we live with right now."
+    },
+    {
+      "timestamp": [
+        10.78,
+        16.66
+      ],
+      "text": " And it's really the only thing that makes sense and feel like is ideal, in my opinion."
+    },
+    {
+      "timestamp": [
+        17.66,
+        22.88
+      ],
+      "text": " AI-centered utopia is at last because it just doesn't make sense."
+    },
+    {
+      "timestamp": [
+        23.04,
+        28.54
+      ],
+      "text": " Having artificial intelligence make decisions for us is like something right out of a movie."
+    },
+    {
+      "timestamp": [
+        29.0,
+        28.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.56,
+        35.26
+      ],
+      "text": " It's something that I would never want to live if that's what society is."
+    },
+    {
+      "timestamp": [
+        47.92,
+        48.4
+      ],
+      "text": " It's literally the world being doomed if we have no type of opinion or in the rules."
+    },
+    {
+      "timestamp": [
+        53.12,
+        53.34
+      ],
+      "text": " Everything is being governed by someone who doesn't have a brain, doesn't have a heart."
+    },
+    {
+      "timestamp": [
+        55.34,
+        66.24
+      ],
+      "text": " That's really how I feel. So having clear rules or laws stated that everybody knows of rather than a computer and coding telling us what's right or wrong."
+    }
+  ]
+}

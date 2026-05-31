@@ -1,0 +1,73 @@
+{
+  "audio_file": "69f663add8c27375de2ae11c_audio_missing_utopia_1780193742984.webm",
+  "transcript": " I can't think of another utopia that is significantly different from those seven of them. I can come up with a thousand of dystopia, but not really a utopia, but I think those seven societies are just being too extreme, you know, leaning on one side. i i think mix of them could really be a you know uh utopia where people base their you know decision on the the system based on data and evidence and focus on science and technology for the development for the optimization to reduce the the all those unnecessary part to make people's life better at the same time we have faith and we have morality risen while also keeping a minimal amount of law for a very visible tangible guidance um and also for some of the people who don't have um at the same time caring for the the environment uh i think the having all those parts taking the the good parts from each of the society that would be the real ideal",
+  "language": "unknown",
+  "processing_time_seconds": 17.276421,
+  "timestamp": "2026-05-31T10:01:14.264556",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        25.22
+      ],
+      "text": " I can't think of another utopia that is significantly different from those seven of them. I can come up with a thousand of dystopia, but not really a utopia, but I think those seven societies are just being too extreme, you know, leaning on one side."
+    },
+    {
+      "timestamp": [
+        25.22,
+        37.7
+      ],
+      "text": " i i think mix of them could really be a you know uh utopia where people"
+    },
+    {
+      "timestamp": [
+        42.5,
+        51.7
+      ],
+      "text": " base their you know decision on the the system based on data and evidence and focus on science"
+    },
+    {
+      "timestamp": [
+        51.7,
+        57.94
+      ],
+      "text": " and technology for the development for the optimization to reduce the the all those"
+    },
+    {
+      "timestamp": [
+        59.78,
+        69.06
+      ],
+      "text": " unnecessary part to make people's life better at the same time we have faith and we have morality"
+    },
+    {
+      "timestamp": [
+        69.06,
+        79.86
+      ],
+      "text": " risen while also keeping a minimal amount of law for a very visible tangible guidance"
+    },
+    {
+      "timestamp": [
+        81.06,
+        79.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        92.42,
+        93.62
+      ],
+      "text": " um and also for some of the people who don't have um at the same time caring for the the environment"
+    },
+    {
+      "timestamp": [
+        101.62,
+        104.5
+      ],
+      "text": " uh i think the having all those parts taking the the good parts from each of the society that would be the real ideal"
+    }
+  ]
+}

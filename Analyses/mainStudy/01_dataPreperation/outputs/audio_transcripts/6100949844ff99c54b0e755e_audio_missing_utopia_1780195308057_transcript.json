@@ -1,0 +1,87 @@
+{
+  "audio_file": "6100949844ff99c54b0e755e_audio_missing_utopia_1780195308057.webm",
+  "transcript": " I think societies that I could imagine happening, I think they were pretty well covered there. There's maybe room for a society that maybe is more innovative, but also lower tech. Maybe not AI-based and not innovative at the expense of the environment. I think there's ways to be innovative that don't destroy our natural resources, which might be the green society, I guess. But other than that, I think all of those societies pretty much cover ones that I can imagine. I guess I could imagine like worse societies. but um we could have a lawless land but i don't think that's uh one that i'm gonna miss um it wouldn't be one i wanted to live in so i i guess just like a more innovative but also environment friendly low technology and morality like people have some ability to govern themselves like kind of a mix of my top three would probably be there.",
+  "language": "unknown",
+  "processing_time_seconds": 16.845257,
+  "timestamp": "2026-05-31T09:46:40.124657",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.1
+      ],
+      "text": " I think societies that I could imagine happening, I think they were pretty well covered there."
+    },
+    {
+      "timestamp": [
+        9.1,
+        20.38
+      ],
+      "text": " There's maybe room for a society that maybe is more innovative, but also lower tech."
+    },
+    {
+      "timestamp": [
+        21.96,
+        28.64
+      ],
+      "text": " Maybe not AI-based and not innovative at the expense of the environment."
+    },
+    {
+      "timestamp": [
+        29.02,
+        28.64
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        37.06,
+        38.86
+      ],
+      "text": " I think there's ways to be innovative that don't destroy our natural resources, which might be the green society, I guess."
+    },
+    {
+      "timestamp": [
+        46.72,
+        47.54
+      ],
+      "text": " But other than that, I think all of those societies pretty much cover ones that I can imagine."
+    },
+    {
+      "timestamp": [
+        50.9,
+        53.28
+      ],
+      "text": " I guess I could imagine like worse societies."
+    },
+    {
+      "timestamp": [
+        50.9,
+        60.26
+      ],
+      "text": " but um we could have a lawless land but i don't think that's uh one that i'm gonna miss um"
+    },
+    {
+      "timestamp": [
+        60.26,
+        67.74
+      ],
+      "text": " it wouldn't be one i wanted to live in so i i guess just like a more innovative but also"
+    },
+    {
+      "timestamp": [
+        67.74,
+        75.78
+      ],
+      "text": " environment friendly low technology and morality like people have some ability to govern themselves"
+    },
+    {
+      "timestamp": [
+        75.78,
+        81.78
+      ],
+      "text": " like kind of a mix of my top three would probably be there."
+    }
+  ]
+}

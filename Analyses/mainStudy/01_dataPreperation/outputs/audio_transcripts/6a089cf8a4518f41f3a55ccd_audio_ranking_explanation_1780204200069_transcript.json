@@ -1,0 +1,346 @@
+{
+  "audio_file": "6a089cf8a4518f41f3a55ccd_audio_ranking_explanation_1780204200069.webm",
+  "transcript": " Sure. So I guess I'll give a rundown of the societies from top to bottom. For institutional utopia, I think that is the preferred society because, well, as a lawyer, I'm most familiar with institutions. and I greatly believe in the rule of law and I think the rule of law is necessary to constrain human nature that's why the other societies are less likely to succeed because they're contrary to human nature and the rule of law works with it and guides humans to do what's necessary The second one I most prefer would be the Futurist Utopia. I think there's an acknowledgement implicit in that one, that humans can better their station through technology, which I think is at least somewhat true, and that's why I would support that. The modern green utopia makes sense to me, recognizing the limitations of what the earth can generate while also taking a pragmatic approach towards technology seems reasonable. Permittivist utopia is here because it's the least repugnant of the other ones that remain. I don't see how this could operate over the long run. It's bound to give rise to conflict over the distribution of resources. It won't procure enough. It creates too low a standard of living. I mean, there's no room for industry in this construct. There's no room for industry, therefore there's no room for science or medicine. It would be unpleasant to live there. I'm not a fan of the moral commonwealth because I think that humans are inherently evil. So the moral commonwealth would break down very quickly because it relies only on the behavior of humans it's not a you can't build your house on a bed of sand i guess you'd say i mean you can just see examples of that today elon musk is the world's richest person and even despite that wealth he is manipulating the listing of spacex in order to uh essentially rob uh passive and retail investors of their money to bail out his investors uh so he can become the first world's first billionaire and he's the one that our society is rewarded uh this would this moral commonwealth would quickly become dominated by the amoral religious utopia i am not religious so i would not want to live there uh it's a akin to a kind of slavery and the a centered utopia is a uh an actual an actual form of slavery is run by a computer program that doesn't have any knowledge of what's going on around it it's no humans to override it it's not an attractive thought and I don't think we should be governed by machine setting the priority for what we value.",
+  "language": "unknown",
+  "processing_time_seconds": 46.937663,
+  "timestamp": "2026-05-31T10:08:17.970939",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.6,
+        7.6
+      ],
+      "text": " Sure. So I guess I'll give a rundown of the societies from top to bottom."
+    },
+    {
+      "timestamp": [
+        8.44,
+        21.46
+      ],
+      "text": " For institutional utopia, I think that is the preferred society because, well, as a lawyer, I'm most familiar with institutions."
+    },
+    {
+      "timestamp": [
+        23.56,
+        21.46
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.88,
+        31.28
+      ],
+      "text": " and I greatly believe in the rule of law and I think the rule of law is necessary"
+    },
+    {
+      "timestamp": [
+        31.28,
+        32.84
+      ],
+      "text": " to constrain human nature"
+    },
+    {
+      "timestamp": [
+        32.84,
+        37.6
+      ],
+      "text": " that's why the other societies"
+    },
+    {
+      "timestamp": [
+        37.6,
+        40.2
+      ],
+      "text": " are less likely to succeed"
+    },
+    {
+      "timestamp": [
+        40.2,
+        42.02
+      ],
+      "text": " because they're contrary to human nature"
+    },
+    {
+      "timestamp": [
+        42.02,
+        47.32
+      ],
+      "text": " and the rule of law works with it"
+    },
+    {
+      "timestamp": [
+        47.32,
+        49.76
+      ],
+      "text": " and guides humans to do what's necessary"
+    },
+    {
+      "timestamp": [
+        49.76,
+        57.2
+      ],
+      "text": " The second one I most prefer would be the Futurist Utopia."
+    },
+    {
+      "timestamp": [
+        57.2,
+        64.84
+      ],
+      "text": " I think there's an acknowledgement implicit in that one, that humans can better their"
+    },
+    {
+      "timestamp": [
+        64.84,
+        74.28
+      ],
+      "text": " station through technology, which I think is at least somewhat true, and that's why"
+    },
+    {
+      "timestamp": [
+        74.28,
+        77.94
+      ],
+      "text": " I would support that."
+    },
+    {
+      "timestamp": [
+        77.94,
+        86.6
+      ],
+      "text": " The modern green utopia makes sense to me, recognizing the limitations of what the earth"
+    },
+    {
+      "timestamp": [
+        86.6,
+        98.46
+      ],
+      "text": " can generate while also taking a pragmatic approach towards technology seems reasonable."
+    },
+    {
+      "timestamp": [
+        98.46,
+        106.18
+      ],
+      "text": " Permittivist utopia is here because it's the least repugnant of the other ones that remain."
+    },
+    {
+      "timestamp": [
+        107.7,
+        113.5
+      ],
+      "text": " I don't see how this could operate over the long run."
+    },
+    {
+      "timestamp": [
+        114.9,
+        119.28
+      ],
+      "text": " It's bound to give rise to conflict over the distribution of resources."
+    },
+    {
+      "timestamp": [
+        119.9,
+        121.64
+      ],
+      "text": " It won't procure enough."
+    },
+    {
+      "timestamp": [
+        122.6,
+        125.22
+      ],
+      "text": " It creates too low a standard of living."
+    },
+    {
+      "timestamp": [
+        125.54,
+        125.22
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        130.76,
+        132.3
+      ],
+      "text": " I mean, there's no room for industry in this construct."
+    },
+    {
+      "timestamp": [
+        135.76,
+        136.68
+      ],
+      "text": " There's no room for industry, therefore there's no room for science or medicine."
+    },
+    {
+      "timestamp": [
+        138.54,
+        141.5
+      ],
+      "text": " It would be unpleasant to live there."
+    },
+    {
+      "timestamp": [
+        148.0,
+        150.3
+      ],
+      "text": " I'm not a fan of the moral commonwealth because I think that humans are inherently evil."
+    },
+    {
+      "timestamp": [
+        154.6,
+        164.6
+      ],
+      "text": " So the moral commonwealth would break down very quickly because it relies only on the behavior of humans it's not a you can't build your house on a"
+    },
+    {
+      "timestamp": [
+        164.6,
+        169.64
+      ],
+      "text": " bed of sand i guess you'd say i mean you can just see examples of that today"
+    },
+    {
+      "timestamp": [
+        169.64,
+        179.1
+      ],
+      "text": " elon musk is the world's richest person and even despite that wealth he is manipulating the"
+    },
+    {
+      "timestamp": [
+        179.1,
+        189.0
+      ],
+      "text": " listing of spacex in order to uh essentially rob uh passive and retail investors of their money"
+    },
+    {
+      "timestamp": [
+        189.0,
+        196.16
+      ],
+      "text": " to bail out his investors uh so he can become the first world's first billionaire"
+    },
+    {
+      "timestamp": [
+        196.16,
+        205.0
+      ],
+      "text": " and he's the one that our society is rewarded uh this would this moral commonwealth would"
+    },
+    {
+      "timestamp": [
+        205.0,
+        214.1
+      ],
+      "text": " quickly become dominated by the amoral religious utopia i am not religious so i would not want to"
+    },
+    {
+      "timestamp": [
+        214.1,
+        229.5
+      ],
+      "text": " live there uh it's a akin to a kind of slavery and the a centered utopia is a uh an actual"
+    },
+    {
+      "timestamp": [
+        229.5,
+        231.5
+      ],
+      "text": " an actual form of slavery"
+    },
+    {
+      "timestamp": [
+        231.5,
+        234.06
+      ],
+      "text": " is run by a"
+    },
+    {
+      "timestamp": [
+        234.06,
+        235.2
+      ],
+      "text": " computer program"
+    },
+    {
+      "timestamp": [
+        235.2,
+        237.9
+      ],
+      "text": " that doesn't have any knowledge"
+    },
+    {
+      "timestamp": [
+        237.9,
+        239.26
+      ],
+      "text": " of what's going on around it"
+    },
+    {
+      "timestamp": [
+        239.26,
+        243.16
+      ],
+      "text": " it's"
+    },
+    {
+      "timestamp": [
+        243.16,
+        245.76
+      ],
+      "text": " no humans to"
+    },
+    {
+      "timestamp": [
+        245.76,
+        246.48
+      ],
+      "text": " override it"
+    },
+    {
+      "timestamp": [
+        246.48,
+        248.82
+      ],
+      "text": " it's not an attractive"
+    },
+    {
+      "timestamp": [
+        248.82,
+        250.06
+      ],
+      "text": " thought"
+    },
+    {
+      "timestamp": [
+        250.06,
+        252.42
+      ],
+      "text": " and I don't think"
+    },
+    {
+      "timestamp": [
+        252.42,
+        255.48
+      ],
+      "text": " we should be governed"
+    },
+    {
+      "timestamp": [
+        255.48,
+        256.12
+      ],
+      "text": " by"
+    },
+    {
+      "timestamp": [
+        256.12,
+        263.9
+      ],
+      "text": " machine setting the priority for what we value."
+    }
+  ]
+}

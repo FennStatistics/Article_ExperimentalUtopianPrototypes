@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a04a5a7e230bb73b88bd6e6_audio_missing_utopia_1780155370357.webm",
+  "transcript": " So I think for me, my future society is the one that comprises everything, it has the rule of law, it has good governance, it has more law, it has the use of AI technology, and also there is the science and technology in it, there is a lot of innovation and sustainability and the future of each citizen is very secure, they have access to most of their needs, with us that way, yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 9.544359,
+  "timestamp": "2026-05-31T10:05:56.498865",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.5
+      ],
+      "text": " So I think for me, my future society is the one that comprises everything, it has the"
+    },
+    {
+      "timestamp": [
+        11.5,
+        20.0
+      ],
+      "text": " rule of law, it has good governance, it has more law, it has the use of AI technology,"
+    },
+    {
+      "timestamp": [
+        20.0,
+        30.32
+      ],
+      "text": " and also there is the science and technology in it, there is a lot of innovation and sustainability"
+    },
+    {
+      "timestamp": [
+        30.32,
+        40.48
+      ],
+      "text": " and the future of each citizen is very secure, they have access to most of their needs, with"
+    },
+    {
+      "timestamp": [
+        40.48,
+        42.32
+      ],
+      "text": " us that way, yeah."
+    }
+  ]
+}

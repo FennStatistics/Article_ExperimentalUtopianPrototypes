@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a01d4afbdb253690cf6bbfc_audio_missing_utopia_1780173577600.webm",
+  "transcript": " I think that through the seven categories, largely all situations that I believe would exist were largely addressed, so I'm pretty happy with it.",
+  "language": "unknown",
+  "processing_time_seconds": 5.2375,
+  "timestamp": "2026-05-31T10:04:13.111087",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.14
+      ],
+      "text": " I think that through the seven categories, largely all situations that I believe would exist were largely addressed, so I'm pretty happy with it."
+    }
+  ]
+}

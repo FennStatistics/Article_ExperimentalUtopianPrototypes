@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a026b14fa26d03597f2dced_audio_ranking_explanation_1780181825018.webm",
+  "transcript": " I prioritize systems that balance environmental sustainability, fair governance, and human agency. I rank sustainable and institutional models highest because they provide the essential stability needed for human flourishing while placing data-driven and extreme low-tech models last due to the risk of either sacrificing human freedom or losing the benefits of collective human in progress.",
+  "language": "unknown",
+  "processing_time_seconds": 8.766365,
+  "timestamp": "2026-05-31T10:04:49.662311",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.7
+      ],
+      "text": " I prioritize systems that balance environmental sustainability, fair governance, and human"
+    },
+    {
+      "timestamp": [
+        8.7,
+        15.94
+      ],
+      "text": " agency. I rank sustainable and institutional models highest because they provide the essential"
+    },
+    {
+      "timestamp": [
+        15.94,
+        22.0
+      ],
+      "text": " stability needed for human flourishing while placing data-driven and extreme low-tech models"
+    },
+    {
+      "timestamp": [
+        22.0,
+        29.06
+      ],
+      "text": " last due to the risk of either sacrificing human freedom or losing the benefits of collective human"
+    },
+    {
+      "timestamp": [
+        29.06,
+        30.06
+      ],
+      "text": " in progress."
+    }
+  ]
+}

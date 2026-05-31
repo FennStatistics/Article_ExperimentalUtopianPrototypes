@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a15b0b4db936d8329be8892_audio_ranking_explanation_1780188528801.webm",
+  "transcript": " I chose the modern green utopia because it was more sustainable and secure and I feel like that is something that everyone would benefit from and then my least favorite I chose the AI center utopia because I feel like many people would not be in favor of that considering what all comes with AI",
+  "language": "unknown",
+  "processing_time_seconds": 6.292654,
+  "timestamp": "2026-05-31T10:13:11.552389",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.08
+      ],
+      "text": " I chose the modern green utopia because it was more sustainable and secure and I"
+    },
+    {
+      "timestamp": [
+        7.08,
+        13.96
+      ],
+      "text": " feel like that is something that everyone would benefit from and then my"
+    },
+    {
+      "timestamp": [
+        13.96,
+        20.78
+      ],
+      "text": " least favorite I chose the AI center utopia because I feel like many people"
+    },
+    {
+      "timestamp": [
+        20.78,
+        28.38
+      ],
+      "text": " would not be in favor of that considering what all comes with AI"
+    }
+  ]
+}

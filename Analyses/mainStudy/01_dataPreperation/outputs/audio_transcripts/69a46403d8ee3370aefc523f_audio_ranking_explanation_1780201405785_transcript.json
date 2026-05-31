@@ -1,0 +1,24 @@
+{
+  "audio_file": "69a46403d8ee3370aefc523f_audio_ranking_explanation_1780201405785.webm",
+  "transcript": " I think a modern green utopia is way better, you know, because I love a sustainable and secure society, you know, it's more reuse, reduce, recycle, and of course the AI-centered utopia sounds, you know, crazy as it is, you know, I wouldn't want to be controlled by AI telling us what to do and how to think, how to live, you know, just don't think that's the way to live and could easily end a disaster. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 9.918071,
+  "timestamp": "2026-05-31T09:52:40.141787",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        29.0
+      ],
+      "text": " I think a modern green utopia is way better, you know, because I love a sustainable and secure society, you know, it's more reuse, reduce, recycle, and of course the AI-centered utopia sounds, you know, crazy as it is, you know, I wouldn't want to be controlled by AI telling us what to do and how to think, how to live, you know, just don't think that's the way to live and could easily end a disaster."
+    },
+    {
+      "timestamp": [
+        30.0,
+        59.98
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

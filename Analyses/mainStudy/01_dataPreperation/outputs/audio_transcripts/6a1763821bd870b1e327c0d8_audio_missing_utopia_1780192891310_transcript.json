@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a1763821bd870b1e327c0d8_audio_missing_utopia_1780192891310.webm",
+  "transcript": " I think that a future society focused on happiness and balance was missing, people would have their basic needs met, more free time, strong communities, access to education and healthcare, and I think the most important value would be improving quality of life rather than just increasing productivity or technology.",
+  "language": "unknown",
+  "processing_time_seconds": 6.114685,
+  "timestamp": "2026-05-31T10:15:38.693746",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.9
+      ],
+      "text": " I think that a future society focused on happiness and balance was missing, people would have their basic needs met, more free time, strong communities, access to education and healthcare, and I think the most important value would be improving quality of life rather than just increasing productivity or technology."
+    }
+  ]
+}

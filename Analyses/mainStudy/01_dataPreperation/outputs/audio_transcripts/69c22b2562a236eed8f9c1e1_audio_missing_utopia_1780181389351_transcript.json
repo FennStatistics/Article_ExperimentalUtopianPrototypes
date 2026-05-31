@@ -1,0 +1,45 @@
+{
+  "audio_file": "69c22b2562a236eed8f9c1e1_audio_missing_utopia_1780181389351.webm",
+  "transcript": " I mean, most of all of the societies had a little bit of what I pictured into what is important of a future society. The main thing that I would look for, and I hope other people do too, is just fairness and equality for all. um of course there's going to be like some sort of hierarchy because it'll cause it'll cause clash because no one would want to do the dirty jobs but just to be happy and healthier and everyone you know has at least what they need to survive",
+  "language": "unknown",
+  "processing_time_seconds": 10.003091,
+  "timestamp": "2026-05-31T09:54:55.477748",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.54
+      ],
+      "text": " I mean, most of all of the societies had a little bit of what I pictured into what is important of a future society."
+    },
+    {
+      "timestamp": [
+        14.68,
+        22.98
+      ],
+      "text": " The main thing that I would look for, and I hope other people do too, is just fairness and equality for all."
+    },
+    {
+      "timestamp": [
+        23.4,
+        22.98
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        29.14,
+        37.0
+      ],
+      "text": " um of course there's going to be like some sort of hierarchy because it'll cause it'll cause clash because no one would want to do the dirty jobs but just to be happy and healthier and"
+    },
+    {
+      "timestamp": [
+        37.0,
+        42.78
+      ],
+      "text": " everyone you know has at least what they need to survive"
+    }
+  ]
+}

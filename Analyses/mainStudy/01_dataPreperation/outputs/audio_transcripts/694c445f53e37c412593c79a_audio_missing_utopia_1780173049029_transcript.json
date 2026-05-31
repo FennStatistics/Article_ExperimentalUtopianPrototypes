@@ -1,0 +1,24 @@
+{
+  "audio_file": "694c445f53e37c412593c79a_audio_missing_utopia_1780173049029.webm",
+  "transcript": " I think a self-generating or self-sustaining society would have been smart to include in a model society list, maybe even having factors of law and governance based around equal spiritual principles that everyone is united under the same kind of common code or creed. I think that could have been a really good thing to include as well.",
+  "language": "unknown",
+  "processing_time_seconds": 8.747255,
+  "timestamp": "2026-05-31T09:50:56.929984",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.24
+      ],
+      "text": " I think a self-generating or self-sustaining society would have been smart to include in a model society list, maybe even having factors of law and governance based around equal spiritual principles that everyone is united under the same kind of common code or creed."
+    },
+    {
+      "timestamp": [
+        26.24,
+        31.52
+      ],
+      "text": " I think that could have been a really good thing to include as well."
+    }
+  ]
+}
