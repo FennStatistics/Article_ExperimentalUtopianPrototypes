@@ -529,6 +529,54 @@ filtering_stats <- rbind(filtering_stats,
 ```
 
 
+## add rankings
+
+
+
+```{r}
+## PROLIFIC_PIDs first run BEFORE improved ranking task:
+potentialInconsistentRankings <- c("6a08b810d807f5805aabe02e", "67103e4ed56cde03a0f2476b", "59a07638bfd73c00010ea394", "63d7b1a77e23b5460ab88069", "69c4160ec318cfcd7d4f37a4", "69fe9e67a20599144f688b50", "69e91fd1a613772e648e565a", "673e5fc42cbf961c153d09d3", "6a04a5a7e230bb73b88bd6e6", "5f68fdce1c675a0baf13e0ff")
+
+ranking_data <- dat %>%
+  group_by(ID) %>%
+  reframe(
+    PROLIFIC_PID = last_non_empty(PROLIFIC_PID),
+    ranking_final_order = last_non_empty(ranking_final_order)
+  ) 
+
+
+ranking_data$flagPotentialIncon <- FALSE
+ranking_data$flagPotentialIncon[ranking_data$PROLIFIC_PID %in% potentialInconsistentRankings] <- TRUE
+
+ranking_data$rankingOrder <- NA
+ranking_data$rankingOrder[ranking_data$flagPotentialIncon] <- rep(1:7, times = length(potentialInconsistentRankings))
+
+
+## for non-inconsistent potential rankings the new order:
+num_non_InconsistentRankings <- sum(!unique(ranking_data$PROLIFIC_PID) %in% potentialInconsistentRankings)
+ranking_data$rankingOrder[!ranking_data$flagPotentialIncon] <- rep(7:1, times = length(num_non_InconsistentRankings))
+
+
+# to wide
+ranking_data$ID <- NULL
+ranking_wide <- ranking_data %>%
+  pivot_wider(
+    names_from = ranking_final_order,
+    values_from = rankingOrder,
+    names_prefix = ""
+  )
+
+
+ques_study <- ques_study %>%
+  left_join(ranking_wide, by = "PROLIFIC_PID")
+
+
+# !!! check with prompt below
+table(ques_study$flagPotentialIncon)
+```
+
+
+
 
 # Add Transcripts
 
@@ -648,54 +696,6 @@ print(paste("  - text_rankingUtopias:", n_with_ranking, "/", nrow(ques_study)))
 print("✓ Transcripts merged successfully")
 ```
 
-
-
-
-## add rankings
-
-
-
-```{r}
-## PROLIFIC_PIDs first run BEFORE improved ranking task:
-potentialInconsistentRankings <- c("6a08b810d807f5805aabe02e", "67103e4ed56cde03a0f2476b", "59a07638bfd73c00010ea394", "63d7b1a77e23b5460ab88069", "69c4160ec318cfcd7d4f37a4", "69fe9e67a20599144f688b50", "69e91fd1a613772e648e565a", "673e5fc42cbf961c153d09d3", "6a04a5a7e230bb73b88bd6e6", "5f68fdce1c675a0baf13e0ff")
-
-ranking_data <- dat %>%
-  group_by(ID) %>%
-  reframe(
-    PROLIFIC_PID = last_non_empty(PROLIFIC_PID),
-    ranking_final_order = last_non_empty(ranking_final_order)
-  ) 
-
-
-ranking_data$flagPotentialIncon <- FALSE
-ranking_data$flagPotentialIncon[ranking_data$PROLIFIC_PID %in% potentialInconsistentRankings] <- TRUE
-
-ranking_data$rankingOrder <- NA
-ranking_data$rankingOrder[ranking_data$flagPotentialIncon] <- rep(1:7, times = length(potentialInconsistentRankings))
-
-
-## for non-inconsistent potential rankings the new order:
-num_non_InconsistentRankings <- sum(!unique(ranking_data$PROLIFIC_PID) %in% potentialInconsistentRankings)
-ranking_data$rankingOrder[!ranking_data$flagPotentialIncon] <- rep(7:1, times = length(num_non_InconsistentRankings))
-
-
-# to wide
-ranking_data$ID <- NULL
-ranking_wide <- ranking_data %>%
-  pivot_wider(
-    names_from = ranking_final_order,
-    values_from = rankingOrder,
-    names_prefix = ""
-  )
-
-
-ques_study <- ques_study %>%
-  left_join(ranking_wide, by = "PROLIFIC_PID")
-
-
-# !!! check with prompt below
-table(ques_study$flagPotentialIncon)
-```
 
 ---
 
@@ -1675,6 +1675,501 @@ ggplot(plot_data, aes(x = rlgdgr, y = ranking)) +
     panel.grid.minor = element_blank()
   )
 ```
+
+
+## within part
+
+```{r}
+library(tidyverse)
+library(afex)
+library(ggplot2)
+ 
+# Assumption: ques_study_within_vignettes is already loaded
+ ques_study_within_vignettes <- ques_study_within_vignettes %>%
+  mutate(
+    # Convert PE items to numeric
+    pe1 = as.numeric(pe1),
+    pe2 = as.numeric(pe2),
+    pe3 = as.numeric(pe3),
+    pe4 = as.numeric(pe4),
+    # Convert ATT items to numeric
+    att_ideal = as.numeric(att_ideal),
+    att_beneficial = as.numeric(att_beneficial),
+    att_utopian = as.numeric(att_utopian),
+    att_desirable = as.numeric(att_desirable),
+    att_innovative = as.numeric(att_innovative),
+    att_live_in = as.numeric(att_live_in)
+  )
+```
+
+
+```{r}
+# ============================================================================
+# PART 1: PREPARE DATA FOR ANALYSIS
+# ============================================================================
+ 
+analysis_vignettes <- ques_study_within_vignettes %>%
+  # Calculate composite PE score (mean of pe1-pe4)
+  mutate(
+    pe_composite = rowMeans(select(., pe1:pe4), na.rm = TRUE)
+  ) %>%
+  # Calculate composite ATT score (mean of att_ideal through att_live_in)
+  mutate(
+    att_composite = rowMeans(select(., att_ideal, att_beneficial, att_utopian, 
+                                      att_desirable, att_innovative, att_live_in), 
+                             na.rm = TRUE)
+  ) %>%
+  # Keep only complete cases for main analysis
+  filter(!is.na(pe_composite), !is.na(att_composite), !is.na(condition_FutureSociety))
+ 
+print(paste("Analysis sample size:", nrow(analysis_vignettes), "vignette trials"))
+print(paste("Unique participants:", n_distinct(analysis_vignettes$ID)))
+print(paste("Unique vignette conditions:", paste(unique(analysis_vignettes$condition_FutureSociety), collapse = ", ")))
+print(paste("Trials per participant:", paste(table(analysis_vignettes$ID), collapse = ", ")))
+ 
+ 
+# ============================================================================
+# PART 2: DESCRIPTIVE STATISTICS BY CONDITION
+# ============================================================================
+ 
+desc_stats <- analysis_vignettes %>%
+  pivot_longer(
+    cols = c(pe_composite, att_composite),
+    names_to = "measure",
+    values_to = "value"
+  ) %>%
+  group_by(condition_FutureSociety, measure) %>%
+  summarise(
+    mean = mean(value, na.rm = TRUE),
+    sd = sd(value, na.rm = TRUE),
+    n = dplyr::n(),
+    se = sd / sqrt(n),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    measure = recode(
+      measure,
+      pe_composite = "Participative Efficacy",
+      att_composite = "Attributes (Positive)"
+    )
+  )
+ 
+print("\n=== DESCRIPTIVE STATISTICS ===")
+print(desc_stats)
+ 
+ 
+# ============================================================================
+# PART 3: WITHIN-SUBJECTS ANOVA ANALYSES
+# ============================================================================
+ 
+# ANOVA 1: Participative Efficacy by Condition (within-subjects)
+print("\n=== ANOVA 1: PARTICIPATIVE EFFICACY (Within-Subjects) ===")
+anova_pe <- afex::aov_ez(
+  id = "ID",
+  dv = "pe_composite",
+  within = "condition_FutureSociety",
+  data = analysis_vignettes
+)
+print(summary(anova_pe))
+ 
+ 
+# ANOVA 2: Attributes by Condition (within-subjects)
+print("\n=== ANOVA 2: ATTRIBUTES COMPOSITE (Within-Subjects) ===")
+anova_att <- afex::aov_ez(
+  id = "ID",
+  dv = "att_composite",
+  within = "condition_FutureSociety",
+  data = analysis_vignettes
+)
+print(summary(anova_att))
+```
+
+
+
+```{r}
+# ============================================================================
+# ATTRIBUTE ITEMS ANALYSIS (att_ideal, att_beneficial, att_utopian, etc.)
+# ============================================================================
+
+# Attribute item label mappings from survey
+attr_item_labels <- tibble(
+  item_label = c("ideal", "beneficial", "utopian", "desirable", "innovative", "live_in"),
+  full_label = c(
+    "This society is ideal.",
+    "This society is beneficial for the greater good.",
+    "This society is utopian.",
+    "This society is desirable.",
+    "This society is innovative.",
+    "I would like to live in a society like the one just described."
+  )
+)
+
+# Convert attitude variables to long format
+attr_long <- ques_study_within_vignettes %>%
+  select(ID, condition_FutureSociety, 
+         att_ideal, att_beneficial, att_utopian, att_desirable, att_innovative, att_live_in) %>%
+  pivot_longer(
+    cols = starts_with("att_"),
+    names_to = "item_label",
+    values_to = "value"
+  ) %>%
+  mutate(item_label = str_remove(item_label, "^att_"))
+
+# Calculate effect sizes (eta-squared) for each attribute item
+attr_effects <- attr_long %>%
+  group_by(item_label) %>%
+  summarise(
+    # Calculate eta-squared for one-way ANOVA
+    ss_between = sum(tapply(value, condition_FutureSociety, length) * 
+                       (tapply(value, condition_FutureSociety, mean) - mean(value, na.rm=T))^2, na.rm=T),
+    ss_total = sum((value - mean(value, na.rm=T))^2, na.rm=T),
+    eta_sq = ss_between / ss_total,
+    .groups = "drop"
+  ) %>%
+  left_join(attr_item_labels, by = "item_label") %>%
+  mutate(eta_label = paste0("η² = ", round(eta_sq, 3)))
+
+# Order items by effect size (largest first)
+item_order <- attr_effects %>%
+  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
+  arrange(desc(eta_order)) %>%
+  pull(item_label)
+
+# Create labels with full item text and eta-squared values
+label_order <- attr_effects %>%
+  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
+  arrange(desc(eta_order)) %>%
+  mutate(facet_label = paste0(full_label, "\n", eta_label)) %>%
+  pull(facet_label)
+
+# Summarize by condition and item
+attr_summary <- attr_long %>%
+  group_by(condition_FutureSociety, item_label) %>%
+  summarise(
+    mean = mean(value, na.rm = TRUE),
+    sd = sd(value, na.rm = TRUE),
+    n = dplyr::n(),
+    se = sd / sqrt(n),
+    .groups = "drop"
+  ) %>%
+  left_join(attr_effects %>% select(item_label, full_label, eta_label), by = "item_label") %>%
+  mutate(
+    item_label = factor(item_label, levels = item_order),
+    facet_label = factor(paste0(full_label, "\n", eta_label), levels = label_order)
+  )
+
+# Order conditions alphabetically
+condition_order <- attr_long %>%
+  distinct(condition_FutureSociety) %>%
+  arrange(condition_FutureSociety) %>%
+  pull(condition_FutureSociety)
+
+attr_summary <- attr_summary %>%
+  mutate(condition_FutureSociety = factor(condition_FutureSociety, levels = condition_order))
+
+# Visualization - Attributes (with full item labels)
+ggplot(attr_summary, aes(x = condition_FutureSociety, y = mean, fill = condition_FutureSociety)) +
+  geom_col(width = 0.7) +
+  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.2) +
+  geom_text(aes(label = round(mean, 2)), vjust = -0.3, size = 3) +
+  facet_wrap(~ facet_label, ncol = 3) +
+  labs(x = "Condition", y = "Mean Rating", fill = "Condition",
+       title = "Attributes: How Participants Evaluated Each Society") +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom", 
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    strip.text = element_text(size = 7.5, face = "italic"),
+    plot.title = element_text(hjust = 0.5, size = 11),
+    panel.spacing = unit(1, "lines")
+  )
+```
+
+
+
+
+```{r}
+# ============================================================================
+# PERCEIVED EFFICACY ITEMS ANALYSIS (pe1, pe2, pe3, pe4)
+# ============================================================================
+
+# Item label mappings from survey
+pe_item_labels <- tibble(
+  item_label = c("pe1", "pe2", "pe3", "pe4"),
+  full_label = c(
+    "Ordinary people like me can play a part in bringing about this kind of society.",
+    "This kind of society can be realized through the actions of ordinary individuals like me.",
+    "Ordinary people can help realize this version of society.",
+    "Ordinary people are needed to realize this version of society."
+  )
+)
+
+# Convert perceived efficacy variables to long format
+pe_long <- ques_study_within_vignettes %>%
+  select(ID, condition_FutureSociety, 
+         pe1, pe2, pe3, pe4) %>%
+  pivot_longer(
+    cols = starts_with("pe"),
+    names_to = "item_label",
+    values_to = "value"
+  )
+
+# Calculate effect sizes (eta-squared) for each perceived efficacy item
+pe_effects <- pe_long %>%
+  group_by(item_label) %>%
+  summarise(
+    # Calculate eta-squared for one-way ANOVA
+    ss_between = sum(tapply(value, condition_FutureSociety, length) * 
+                       (tapply(value, condition_FutureSociety, mean) - mean(value, na.rm=T))^2, na.rm=T),
+    ss_total = sum((value - mean(value, na.rm=T))^2, na.rm=T),
+    eta_sq = ss_between / ss_total,
+    .groups = "drop"
+  ) %>%
+  left_join(pe_item_labels, by = "item_label") %>%
+  mutate(eta_label = paste0("η² = ", round(eta_sq, 3)))
+
+# Order items by effect size (largest first)
+item_order <- pe_effects %>%
+  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
+  arrange(desc(eta_order)) %>%
+  pull(item_label)
+
+# Create labels with full item text and eta-squared values
+label_order <- pe_effects %>%
+  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
+  arrange(desc(eta_order)) %>%
+  mutate(facet_label = paste0(full_label, "\n", eta_label)) %>%
+  pull(facet_label)
+
+# Summarize by condition and item
+pe_summary <- pe_long %>%
+  group_by(condition_FutureSociety, item_label) %>%
+  summarise(
+    mean = mean(value, na.rm = TRUE),
+    sd = sd(value, na.rm = TRUE),
+    n = dplyr::n(),
+    se = sd / sqrt(n),
+    .groups = "drop"
+  ) %>%
+  left_join(pe_effects %>% select(item_label, full_label, eta_label), by = "item_label") %>%
+  mutate(
+    item_label = factor(item_label, levels = item_order),
+    facet_label = factor(paste0(full_label, "\n", eta_label), levels = label_order)
+  )
+
+# Order conditions alphabetically
+condition_order <- pe_long %>%
+  distinct(condition_FutureSociety) %>%
+  arrange(condition_FutureSociety) %>%
+  pull(condition_FutureSociety)
+
+pe_summary <- pe_summary %>%
+  mutate(condition_FutureSociety = factor(condition_FutureSociety, levels = condition_order))
+
+# Visualization - Perceived Efficacy (with full item labels)
+ggplot(pe_summary, aes(x = condition_FutureSociety, y = mean, fill = condition_FutureSociety)) +
+  geom_col(width = 0.7) +
+  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.2) +
+  geom_text(aes(label = round(mean, 2)), vjust = -0.3, size = 3) +
+  facet_wrap(~ facet_label, ncol = 2) +
+  labs(x = "Condition", y = "Mean Rating", fill = "Condition",
+       title = "Perceived Efficacy: Ordinary Citizens Can Contribute to Realizing Society") +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom", 
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    strip.text = element_text(size = 7.5, face = "italic"),
+    plot.title = element_text(hjust = 0.5, size = 11),
+    panel.spacing = unit(1, "lines")
+  )
+```
+
+
+## EFA
+
+```{r}
+library(tidyverse)
+library(corrplot)
+library(psych)
+library(factoextra)
+
+# ============================================================================
+# PREPARE DATA: Convert from long to wide format
+# ============================================================================
+
+# Create wide format with all items for each observation
+data_wide <- ques_study_within_vignettes %>%
+  select(ID, condition_FutureSociety, vignette_id,
+         att_ideal, att_beneficial, att_utopian, att_desirable, att_innovative, att_live_in,
+         pe1, pe2, pe3, pe4)
+
+# ============================================================================
+# 1. CORRELATION MATRIX & VISUALIZATION
+# ============================================================================
+
+# Extract only the items
+items_data <- data_wide %>%
+  select(att_ideal, att_beneficial, att_utopian, att_desirable, att_innovative, att_live_in,
+         pe1, pe2, pe3, pe4)
+
+# Calculate correlation matrix
+cor_matrix <- cor(items_data, use = "complete.obs")
+
+# Print correlation matrix
+print("Correlation Matrix:")
+print(cor_matrix)
+
+# Create correlation plot
+pdf("correlation_plot.pdf", width = 10, height = 10)
+corrplot(cor_matrix, 
+         method = "circle",
+         type = "lower",
+         addCoef.col = "black",
+         number.cex = 0.7,
+         tl.cex = 0.8,
+         diag = TRUE,
+         title = "Correlation Matrix: Attitude and Perceived Efficacy Items",
+         mar = c(2, 0, 2, 0))
+dev.off()
+
+# Alternative: Circle plot with significance
+corrplot(cor_matrix,
+         method = "shade",
+         type = "lower",
+         addCoef.col = "white",
+         tl.cex = 0.8,
+         title = "Correlation Matrix (Shade)",
+         mar = c(2, 0, 2, 0))
+
+# ============================================================================
+# 2. PARALLEL ANALYSIS (to determine number of factors)
+# ============================================================================
+
+print("\n========== PARALLEL ANALYSIS ==========\n")
+
+# Run parallel analysis
+pa <- fa.parallel(items_data, 
+                  fm = "minres",           # Factor extraction method
+                  fa = "fa",               # Factor analysis (not principal components)
+                  n.iter = 100,
+                  show.legend = TRUE)
+
+# Print summary
+print(pa)
+
+# ============================================================================
+# 3. FACTOR ANALYSIS - Test different numbers of factors
+# ============================================================================
+
+print("\n========== FACTOR ANALYSIS RESULTS ==========\n")
+
+# 1-Factor Solution
+fa1 <- fa(items_data, nfactors = 1, fm = "minres", rotate = "promax")
+print("\n--- 1-Factor Solution ---")
+print(fa1)
+
+# 2-Factor Solution
+fa2 <- fa(items_data, nfactors = 2, fm = "minres", rotate = "promax")
+print("\n--- 2-Factor Solution ---")
+print(fa2)
+
+# 3-Factor Solution
+fa3 <- fa(items_data, nfactors = 3, fm = "minres", rotate = "promax")
+print("\n--- 3-Factor Solution ---")
+print(fa3)
+
+# ============================================================================
+# 4. FACTOR LOADINGS COMPARISON
+# ============================================================================
+
+print("\n========== FACTOR LOADINGS COMPARISON ==========\n")
+
+# Extract loadings for comparison
+loadings_df <- data.frame(
+  Item = rownames(fa2$loadings),
+  FA1 = fa2$loadings[, 1],
+  FA2 = fa2$loadings[, 2],
+  Communality = fa2$communalities
+)
+
+print(loadings_df)
+
+# ============================================================================
+# 5. VISUALIZE FACTOR STRUCTURE (2-Factor Solution)
+# ============================================================================
+
+# Plot factor loadings
+pdf("factor_loadings.pdf", width = 10, height = 8)
+plot(fa2$loadings[, 1], fa2$loadings[, 2],
+     type = "n",
+     xlab = "Factor 1 Loadings",
+     ylab = "Factor 2 Loadings",
+     main = "Factor Loadings Plot (2-Factor Solution)",
+     xlim = c(-1, 1),
+     ylim = c(-1, 1))
+
+# Add reference lines
+abline(h = 0, v = 0, lty = 2, col = "gray")
+
+# Add labels
+text(fa2$loadings[, 1], fa2$loadings[, 2], 
+     rownames(fa2$loadings), 
+     cex = 0.8,
+     pos = 3)
+
+# Add circles for item grouping
+draw.circle <- function(x, y, r, ...) {
+  angles <- seq(0, 2*pi, length.out = 100)
+  lines(x + r*cos(angles), y + r*sin(angles), ...)
+}
+
+dev.off()
+
+# ============================================================================
+# 6. MODEL FIT COMPARISON
+# ============================================================================
+
+print("\n========== MODEL FIT INDICES ==========\n")
+
+fit_comparison <- data.frame(
+  Factors = c(1, 2, 3),
+  RMSR = c(fa1$rms, fa2$rms, fa3$rms),
+  BIC = c(fa1$BIC, fa2$BIC, fa3$BIC),
+  RMSEA = c(fa1$RMSEA[1], fa2$RMSEA[1], fa3$RMSEA[1]),
+  TLI = c(fa1$TLI, fa2$TLI, fa3$TLI)
+)
+
+print(fit_comparison)
+
+# ============================================================================
+# 7. INTERNAL CONSISTENCY (Cronbach's Alpha)
+# ============================================================================
+
+print("\n========== CRONBACH'S ALPHA - INTERNAL CONSISTENCY ==========\n")
+
+# All items
+alpha_all <- alpha(items_data)$total$raw_alpha
+cat("All items (n=10):", round(alpha_all, 3), "\n")
+
+# Attitude items only
+alpha_att <- alpha(items_data %>% select(starts_with("att_")))$total$raw_alpha
+cat("Attitude items (n=6):", round(alpha_att, 3), "\n")
+
+# Perceived efficacy items only
+alpha_pe <- alpha(items_data %>% select(starts_with("pe")))$total$raw_alpha
+cat("Perceived Efficacy items (n=4):", round(alpha_pe, 3), "\n")
+
+# ============================================================================
+# 8. SCREE PLOT
+# ============================================================================
+
+pdf("scree_plot.pdf", width = 10, height = 6)
+scree(items_data, factors = 5, main = "Scree Plot")
+dev.off()
+
+print("\nPlots saved as: correlation_plot.pdf, factor_loadings.pdf, scree_plot.pdf")
+```
+
 
 
 ## prompts
