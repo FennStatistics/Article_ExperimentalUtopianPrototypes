@@ -1,0 +1,108 @@
+{
+  "audio_file": "69b7603c614bdbf78dd9517d_audio_ranking_explanation_1780450036510.webm",
+  "transcript": " My ranking idea is that the moral commonwealth, your morality would be number one for me because it'd be the best overall for, you know, people in order of having, like, you know, morality for everybody would really make it the best, I would say. the least is ai centered utopia i think that's bad that just means you're like pretty much owned by robots that's not a good thing second for me is religious utopia it's kind of like the morality thing you have a faith-based order and it moves to everybody who fall in line third is futuristic utopia it's like science and innovation i think that'd be very good to make everything better and more futuristic faster uh modern green utopia sustainable here i think that's like that's my fourth it's very like everything grows off itself very sustainability and i think that's pretty good for number four uh primitives utopia low tech and small scale uh you know worked for thousands of years i thought it'd be pretty good for number five like i wouldn't mind living in that instant institutional utopia rule of law fix i think that's um pretty good it just doesn't work obviously current days you can tell rule law and it's just like you know they can always take over the power so i would put it six and ai is center utopia is the worst for me i just don't want it to be like a robot and everything taking over so i would say those are my",
+  "language": "unknown",
+  "processing_time_seconds": 21.167177,
+  "timestamp": "2026-06-08T09:17:31.822058",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.8
+      ],
+      "text": " My ranking idea is that the moral commonwealth, your morality would be number one for me because it'd be the best overall for, you know, people in order of having, like, you know, morality for everybody would really make it the best, I would say."
+    },
+    {
+      "timestamp": [
+        19.8,
+        24.52
+      ],
+      "text": " the least is ai centered utopia i think that's bad that just means you're like"
+    },
+    {
+      "timestamp": [
+        24.52,
+        30.44
+      ],
+      "text": " pretty much owned by robots that's not a good thing second for me is religious utopia it's"
+    },
+    {
+      "timestamp": [
+        30.44,
+        34.6
+      ],
+      "text": " kind of like the morality thing you have a faith-based order and it moves to everybody"
+    },
+    {
+      "timestamp": [
+        34.6,
+        41.14
+      ],
+      "text": " who fall in line third is futuristic utopia it's like science and innovation i think that'd be"
+    },
+    {
+      "timestamp": [
+        41.14,
+        47.48
+      ],
+      "text": " very good to make everything better and more futuristic faster uh modern green utopia"
+    },
+    {
+      "timestamp": [
+        47.48,
+        53.88
+      ],
+      "text": " sustainable here i think that's like that's my fourth it's very like everything grows off itself"
+    },
+    {
+      "timestamp": [
+        53.88,
+        59.0
+      ],
+      "text": " very sustainability and i think that's pretty good for number four uh primitives utopia low"
+    },
+    {
+      "timestamp": [
+        59.0,
+        63.08
+      ],
+      "text": " tech and small scale uh you know worked for thousands of years i thought it'd be pretty"
+    },
+    {
+      "timestamp": [
+        63.08,
+        68.68
+      ],
+      "text": " good for number five like i wouldn't mind living in that instant institutional utopia rule of law"
+    },
+    {
+      "timestamp": [
+        68.68,
+        75.0
+      ],
+      "text": " fix i think that's um pretty good it just doesn't work obviously current days you can tell rule law"
+    },
+    {
+      "timestamp": [
+        75.0,
+        79.0
+      ],
+      "text": " and it's just like you know they can always take over the power so i would put it six"
+    },
+    {
+      "timestamp": [
+        79.0,
+        84.76
+      ],
+      "text": " and ai is center utopia is the worst for me i just don't want it to be like a robot and"
+    },
+    {
+      "timestamp": [
+        84.76,
+        89.0
+      ],
+      "text": " everything taking over so i would say those are my"
+    }
+  ]
+}

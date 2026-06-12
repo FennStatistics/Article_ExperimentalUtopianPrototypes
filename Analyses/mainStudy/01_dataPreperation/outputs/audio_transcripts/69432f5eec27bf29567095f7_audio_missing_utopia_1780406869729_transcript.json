@@ -1,0 +1,199 @@
+{
+  "audio_file": "69432f5eec27bf29567095f7_audio_missing_utopia_1780406869729.webm",
+  "transcript": " um honestly i didn't really see any missing ones i mean we could say something like maybe like a combo of religion plus if the world doesn't end soon because of jesus coming back then i would say which everything in the bible's lining up more and more nowadays so i mean y'all might want to get ready for that but that's on y'all i warned you so either way uh i would say religion plus maybe space travel y'all didn't say anything about space so i mean maybe like a star trek kind of uh society except with the government kind of how it is today and but religion a more central role, but it's hard to, you can't push religion on people either, so it's like, when I say religion, I mean like we actually adhere to the values of our founding fathers in the Bible, because they adhered to that as well so, yeah, I would just say maybe a mix of the three like religion, rule of law, and space travel, so maybe high tech because I don't think there was one that was high tech other than the AI one I guess was close to that, but it wasn't necessarily describing what I am. And just a more accepting society, like liberals need to be willing to listen to republicans and vice versa it's like people are scared to have their mind changed or something that's what that tells me when you get mad really quickly unless it's just something crazily atrocious but still if you research and study these things and know people have these opinions you'll be less surprised by them and you won't be mad someone's just standing outside holding a sign with a fetus on it saying don't kill babies you all started raging or vice versa you won't rage when you see like an LGBTQ flag you'll just be like they mean Jesus instead of hating on them like sin is sin regardless everyone has to deal with some kind of sin so people need to not act morally superior either way but yeah okay I'm getting more into something you're not asking about I guess",
+  "language": "unknown",
+  "processing_time_seconds": 30.266236,
+  "timestamp": "2026-06-08T08:50:16.259162",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.3
+      ],
+      "text": " um honestly i didn't really see any missing ones i mean we could say something like"
+    },
+    {
+      "timestamp": [
+        9.3,
+        17.1
+      ],
+      "text": " maybe like a combo of religion plus if the world doesn't end soon because of jesus coming back"
+    },
+    {
+      "timestamp": [
+        17.1,
+        24.3
+      ],
+      "text": " then i would say which everything in the bible's lining up more and more nowadays so i mean y'all"
+    },
+    {
+      "timestamp": [
+        24.3,
+        31.94
+      ],
+      "text": " might want to get ready for that but that's on y'all i warned you so either way uh i would say"
+    },
+    {
+      "timestamp": [
+        31.94,
+        38.42
+      ],
+      "text": " religion plus maybe space travel y'all didn't say anything about space so i mean maybe like a star"
+    },
+    {
+      "timestamp": [
+        38.42,
+        50.98
+      ],
+      "text": " trek kind of uh society except with the government kind of how it is today and but religion a more"
+    },
+    {
+      "timestamp": [
+        50.98,
+        55.16
+      ],
+      "text": " central role, but it's hard to, you can't push"
+    },
+    {
+      "timestamp": [
+        55.16,
+        59.22
+      ],
+      "text": " religion on people either, so it's like, when I say religion, I mean like"
+    },
+    {
+      "timestamp": [
+        59.22,
+        62.92
+      ],
+      "text": " we actually"
+    },
+    {
+      "timestamp": [
+        62.92,
+        67.18
+      ],
+      "text": " adhere to the values of our founding fathers"
+    },
+    {
+      "timestamp": [
+        67.18,
+        69.0
+      ],
+      "text": " in the Bible, because they"
+    },
+    {
+      "timestamp": [
+        69.0,
+        75.06
+      ],
+      "text": " adhered to that as well"
+    },
+    {
+      "timestamp": [
+        75.06,
+        79.34
+      ],
+      "text": " so, yeah, I would just say maybe a mix of the three"
+    },
+    {
+      "timestamp": [
+        79.34,
+        83.78
+      ],
+      "text": " like religion, rule of law, and"
+    },
+    {
+      "timestamp": [
+        83.78,
+        89.44
+      ],
+      "text": " space travel, so maybe high tech"
+    },
+    {
+      "timestamp": [
+        89.44,
+        94.06
+      ],
+      "text": " because I don't think there was one that was high tech other than the AI one"
+    },
+    {
+      "timestamp": [
+        94.06,
+        97.76
+      ],
+      "text": " I guess was close to that, but it wasn't necessarily"
+    },
+    {
+      "timestamp": [
+        97.76,
+        101.9
+      ],
+      "text": " describing what I am. And just a more"
+    },
+    {
+      "timestamp": [
+        101.9,
+        105.94
+      ],
+      "text": " accepting society, like liberals need to be willing to listen to"
+    },
+    {
+      "timestamp": [
+        105.94,
+        110.98
+      ],
+      "text": " republicans and vice versa it's like people are scared to have their mind changed or something"
+    },
+    {
+      "timestamp": [
+        110.98,
+        116.18
+      ],
+      "text": " that's what that tells me when you get mad really quickly unless it's just something crazily atrocious"
+    },
+    {
+      "timestamp": [
+        116.18,
+        121.3
+      ],
+      "text": " but still if you research and study these things and know people have these opinions you'll be less"
+    },
+    {
+      "timestamp": [
+        121.3,
+        128.26
+      ],
+      "text": " surprised by them and you won't be mad someone's just standing outside holding a sign with a fetus"
+    },
+    {
+      "timestamp": [
+        128.26,
+        134.78
+      ],
+      "text": " on it saying don't kill babies you all started raging or vice versa you won't rage when you see"
+    },
+    {
+      "timestamp": [
+        134.78,
+        142.64
+      ],
+      "text": " like an LGBTQ flag you'll just be like they mean Jesus instead of hating on them like sin is sin"
+    },
+    {
+      "timestamp": [
+        142.64,
+        149.92
+      ],
+      "text": " regardless everyone has to deal with some kind of sin so people need to not act morally superior"
+    },
+    {
+      "timestamp": [
+        149.92,
+        157.32
+      ],
+      "text": " either way but yeah okay I'm getting more into something you're not asking about I guess"
+    }
+  ]
+}

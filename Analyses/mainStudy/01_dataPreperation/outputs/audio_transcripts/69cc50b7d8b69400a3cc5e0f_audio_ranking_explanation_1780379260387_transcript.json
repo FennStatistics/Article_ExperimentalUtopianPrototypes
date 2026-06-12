@@ -1,0 +1,59 @@
+{
+  "audio_file": "69cc50b7d8b69400a3cc5e0f_audio_ranking_explanation_1780379260387.webm",
+  "transcript": " So, I prefer... the rule of law, I think that one is very clearly offline. And you know when there are laws, people can follow them and there are rules, so they used to, like we used to kind of learning. So, I just prefer the... based one, because it lacks... innovation. Like, you can't just make the relation based on, and say, there are some things that you don't, like, you can't make qualities with faith. Yes.",
+  "language": "unknown",
+  "processing_time_seconds": 10.032388,
+  "timestamp": "2026-06-08T09:28:20.643819",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.5
+      ],
+      "text": " So, I prefer... the rule of law, I think that one is very clearly offline."
+    },
+    {
+      "timestamp": [
+        11.5,
+        18.2
+      ],
+      "text": " And you know when there are laws, people can follow them and there are rules,"
+    },
+    {
+      "timestamp": [
+        18.2,
+        21.5
+      ],
+      "text": " so they used to, like we used to kind of learning."
+    },
+    {
+      "timestamp": [
+        21.5,
+        29.0
+      ],
+      "text": " So, I just prefer the... based one, because it lacks... innovation."
+    },
+    {
+      "timestamp": [
+        29.0,
+        36.76
+      ],
+      "text": " Like, you can't just make the relation based on, and say,"
+    },
+    {
+      "timestamp": [
+        36.76,
+        44.78
+      ],
+      "text": " there are some things that you don't, like, you can't make qualities with faith."
+    },
+    {
+      "timestamp": [
+        44.78,
+        46.6
+      ],
+      "text": " Yes."
+    }
+  ]
+}

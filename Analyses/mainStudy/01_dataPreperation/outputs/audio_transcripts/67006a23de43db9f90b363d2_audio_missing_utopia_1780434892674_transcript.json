@@ -1,0 +1,66 @@
+{
+  "audio_file": "67006a23de43db9f90b363d2_audio_missing_utopia_1780434892674.webm",
+  "transcript": " So for me, one that I think would be missing would be a green utopia mixed, like mixed with religion to where you're having a utopia, but people are also allowed to openly follow whatever religion they believe in. And I think that would be better than an all out green utopia because people would actually have faith to hold on to and believe in a better purpose than just living for yourself and others. Um, and it would give you hope for the afterlife after, um, life itself. And another one that I could think of would be like, uh, um, a type of, uh, society where people are, um, let's see here where they're basically, oh, I don't want to say futuristic, but they're advanced in technology, but they don't let technology rule their lives, but they they use it to better humanity that's what we were going to do in the first place in real life but we decided to be greedy and let things get out of hand",
+  "language": "unknown",
+  "processing_time_seconds": 15.976019,
+  "timestamp": "2026-06-08T08:40:22.933256",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.14
+      ],
+      "text": " So for me, one that I think would be missing would be a green utopia mixed, like mixed with religion to where you're having a utopia, but people are also allowed to openly follow whatever religion they believe in."
+    },
+    {
+      "timestamp": [
+        16.06,
+        29.52
+      ],
+      "text": " And I think that would be better than an all out green utopia because people would actually have faith to hold on to and believe in a better purpose than just living for yourself and others."
+    },
+    {
+      "timestamp": [
+        30.0,
+        34.44
+      ],
+      "text": " Um, and it would give you hope for the afterlife after, um, life itself."
+    },
+    {
+      "timestamp": [
+        34.44,
+        40.72
+      ],
+      "text": " And another one that I could think of would be like, uh, um, a type of, uh, society where"
+    },
+    {
+      "timestamp": [
+        40.72,
+        49.66
+      ],
+      "text": " people are, um, let's see here where they're basically, oh, I don't want to say futuristic,"
+    },
+    {
+      "timestamp": [
+        49.66,
+        56.78
+      ],
+      "text": " but they're advanced in technology, but they don't let technology rule their lives, but"
+    },
+    {
+      "timestamp": [
+        56.78,
+        61.6
+      ],
+      "text": " they they use it to better humanity that's what we were going to do in the first place"
+    },
+    {
+      "timestamp": [
+        61.6,
+        66.18
+      ],
+      "text": " in real life but we decided to be greedy and let things get out of hand"
+    }
+  ]
+}

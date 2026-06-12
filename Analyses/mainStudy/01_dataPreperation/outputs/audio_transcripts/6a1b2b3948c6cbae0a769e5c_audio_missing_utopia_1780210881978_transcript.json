@@ -1,0 +1,164 @@
+{
+  "audio_file": "6a1b2b3948c6cbae0a769e5c_audio_missing_utopia_1780210881978.webm",
+  "transcript": " i think that uh while there wasn't anything missing from the societies described here the the distance for me was the uh not really talking about the the present state of uh where we are currently and and and what how human nature tends to impact a lot of that and And I think a lot of that is also easy to imagine is caused by just the systems that we interact with every day and the institutions that we interface with all the time, kind of making us used to a lot of things and very complacent in a lot of ways. I think a lot of these societies would require some kind of pretty fundamental rewiring of how they operate to change that. What I liked about the focus on science and innovation is that when you have science itself rewrites itself to kind of accommodate new information. and the sheer gathering of more knowledge about something is always good. And when you have compassion and care as your guiding principles there, they feed off each other quite nicely, and you can do a lot of optimization that way and really dispel very rigid and dated systems like inflexibilities of law or AI even and not reducing people so much to data points or vessels of some kind of spiritual thing that cannot be measured. So I guess the true answer for me is that there is some combination of a lot of aspects of each of these societies that are quite good. But adding more focus on compassion to science and adding more, like, wisdom to human morality, finding a middle ground between there seems to be the best for me, I guess.",
+  "language": "unknown",
+  "processing_time_seconds": 29.630633,
+  "timestamp": "2026-06-08T11:15:51.646690",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.08
+      ],
+      "text": " i think that uh while there wasn't anything missing from the societies described here the"
+    },
+    {
+      "timestamp": [
+        9.08,
+        17.02
+      ],
+      "text": " the distance for me was the uh not really talking about the the present state of"
+    },
+    {
+      "timestamp": [
+        17.02,
+        26.42
+      ],
+      "text": " uh where we are currently and and and what how human nature tends to impact a lot of that and"
+    },
+    {
+      "timestamp": [
+        26.42,
+        49.0
+      ],
+      "text": " And I think a lot of that is also easy to imagine is caused by just the systems that we interact with every day and the institutions that we interface with all the time, kind of making us used to a lot of things and very complacent in a lot of ways."
+    },
+    {
+      "timestamp": [
+        49.0,
+        59.96
+      ],
+      "text": " I think a lot of these societies would require some kind of pretty fundamental rewiring of how they operate to change that."
+    },
+    {
+      "timestamp": [
+        61.16,
+        73.32
+      ],
+      "text": " What I liked about the focus on science and innovation is that when you have science itself rewrites itself to kind of accommodate new information."
+    },
+    {
+      "timestamp": [
+        73.32,
+        80.82
+      ],
+      "text": " and the sheer gathering of more knowledge about something is always good."
+    },
+    {
+      "timestamp": [
+        80.94,
+        87.56
+      ],
+      "text": " And when you have compassion and care as your guiding principles there,"
+    },
+    {
+      "timestamp": [
+        87.96,
+        91.72
+      ],
+      "text": " they feed off each other quite nicely,"
+    },
+    {
+      "timestamp": [
+        91.72,
+        94.86
+      ],
+      "text": " and you can do a lot of optimization that way"
+    },
+    {
+      "timestamp": [
+        94.86,
+        105.06
+      ],
+      "text": " and really dispel very rigid and dated systems"
+    },
+    {
+      "timestamp": [
+        105.06,
+        111.52
+      ],
+      "text": " like inflexibilities of law or AI even"
+    },
+    {
+      "timestamp": [
+        111.52,
+        116.52
+      ],
+      "text": " and not reducing people so much to data points"
+    },
+    {
+      "timestamp": [
+        116.52,
+        123.56
+      ],
+      "text": " or vessels of some kind of spiritual thing"
+    },
+    {
+      "timestamp": [
+        123.56,
+        124.96
+      ],
+      "text": " that cannot be measured."
+    },
+    {
+      "timestamp": [
+        125.22,
+        129.14
+      ],
+      "text": " So I guess the true answer for me"
+    },
+    {
+      "timestamp": [
+        129.14,
+        131.0
+      ],
+      "text": " is that there is some combination"
+    },
+    {
+      "timestamp": [
+        131.0,
+        136.68
+      ],
+      "text": " of a lot of aspects of each of these societies"
+    },
+    {
+      "timestamp": [
+        136.68,
+        139.5
+      ],
+      "text": " that are quite good."
+    },
+    {
+      "timestamp": [
+        139.5,
+        149.34
+      ],
+      "text": " But adding more focus on compassion to science"
+    },
+    {
+      "timestamp": [
+        149.34,
+        160.68
+      ],
+      "text": " and adding more, like, wisdom to human morality,"
+    },
+    {
+      "timestamp": [
+        161.06,
+        168.92
+      ],
+      "text": " finding a middle ground between there seems to be the best for me, I guess."
+    }
+  ]
+}

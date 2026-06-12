@@ -1,0 +1,59 @@
+{
+  "audio_file": "670420d4f05d7af4f85651e4_audio_ranking_explanation_1780493162725.webm",
+  "transcript": " The reason I chose religious utopia, faith-based order, is because my fundamentals come from faith-based. The Bible, the scriptures, the Torah, the Tanakh, the Pentateuch, the Decalogue, Matthew, Mark, Luke, and John. And every single time I apply the principles to my life, my life blossoms. As opposed to the futuristic utopia of science and innovation, we've already had that with COVID-19. We already had that scientific approach, and it was an utter failure and embarrassment. So, not repeating that again.",
+  "language": "unknown",
+  "processing_time_seconds": 11.048346,
+  "timestamp": "2026-06-08T08:41:15.631063",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.58
+      ],
+      "text": " The reason I chose religious utopia, faith-based order, is because my fundamentals come from faith-based."
+    },
+    {
+      "timestamp": [
+        11.58,
+        21.5
+      ],
+      "text": " The Bible, the scriptures, the Torah, the Tanakh, the Pentateuch, the Decalogue, Matthew, Mark, Luke, and John."
+    },
+    {
+      "timestamp": [
+        22.82,
+        21.5
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.06,
+        28.06
+      ],
+      "text": " And every single time I apply the principles to my life, my life blossoms."
+    },
+    {
+      "timestamp": [
+        35.76,
+        35.98
+      ],
+      "text": " As opposed to the futuristic utopia of science and innovation, we've already had that with COVID-19."
+    },
+    {
+      "timestamp": [
+        41.46,
+        41.82
+      ],
+      "text": " We already had that scientific approach, and it was an utter failure and embarrassment."
+    },
+    {
+      "timestamp": [
+        43.52,
+        null
+      ],
+      "text": " So, not repeating that again."
+    }
+  ]
+}

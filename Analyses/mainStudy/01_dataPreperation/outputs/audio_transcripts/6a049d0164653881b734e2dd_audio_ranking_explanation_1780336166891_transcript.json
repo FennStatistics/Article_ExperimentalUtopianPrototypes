@@ -1,0 +1,143 @@
+{
+  "audio_file": "6a049d0164653881b734e2dd_audio_ranking_explanation_1780336166891.webm",
+  "transcript": " The reason why I chose my most preferred society to be the moral commonwealth society is because I believe that if everyone within themselves intrinsically desires for the good of everyone, then society will be better in that way. because there won't be as much needs for like stealing stuff like that because society will be built in a way that we think of everyone's needs um and then i went to low tech and small scale just because i don't like the way that ai is going hence why i put ai as the last one i don't think we need ai as much as corporations are telling us i also think it's ruining the fact like innovation and coming up with unique ideas on our own so yeah that's why i chose that after the primitivist utopia i went to futurist like science and innovation just because i think there is a good good to having science and innovation i think that like really i would love a combination of the top four um like the rule of law like obviously we need rules but if everything is decided by that with no morals then they're that's not a good society so and um obviously like sustainable and secure like the modern green utopia is also needed but that doesn't need to rule our whole world you know i think morals should be really important and then i think faith-based orders i didn't really understand with that one what type of order like i think it depends on what religion it is because would that mean we have all the different faith or we have one faith like i think that that utopia was a little unclear to me and i think faith is important religion is important but there's a lot of damage in a lot of religious communities and so i put that on like the lower end of my scale because i just felt like there wasn't enough context for me to put it higher We'll be right back.",
+  "language": "unknown",
+  "processing_time_seconds": 28.587331,
+  "timestamp": "2026-06-08T10:23:23.264245",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.74
+      ],
+      "text": " The reason why I chose my most preferred society to be the moral commonwealth society is because I believe that if everyone within themselves intrinsically desires for the good of everyone, then society will be better in that way."
+    },
+    {
+      "timestamp": [
+        23.74,
+        32.82
+      ],
+      "text": " because there won't be as much needs for like stealing stuff like that because society will"
+    },
+    {
+      "timestamp": [
+        32.82,
+        38.42
+      ],
+      "text": " be built in a way that we think of everyone's needs um and then i went to low tech and small"
+    },
+    {
+      "timestamp": [
+        38.42,
+        44.34
+      ],
+      "text": " scale just because i don't like the way that ai is going hence why i put ai as the last one i don't"
+    },
+    {
+      "timestamp": [
+        44.34,
+        52.8
+      ],
+      "text": " think we need ai as much as corporations are telling us i also think it's ruining the fact"
+    },
+    {
+      "timestamp": [
+        52.8,
+        62.28
+      ],
+      "text": " like innovation and coming up with unique ideas on our own so yeah that's why i chose that"
+    },
+    {
+      "timestamp": [
+        62.28,
+        69.54
+      ],
+      "text": " after the primitivist utopia i went to futurist like science and innovation just because"
+    },
+    {
+      "timestamp": [
+        69.54,
+        77.28
+      ],
+      "text": " i think there is a good good to having science and innovation i think that like really i would"
+    },
+    {
+      "timestamp": [
+        77.28,
+        82.38
+      ],
+      "text": " love a combination of the top four um like the rule of law like obviously we need rules but if"
+    },
+    {
+      "timestamp": [
+        82.38,
+        88.7
+      ],
+      "text": " everything is decided by that with no morals then they're that's not a good society so and um"
+    },
+    {
+      "timestamp": [
+        88.7,
+        93.26
+      ],
+      "text": " obviously like sustainable and secure like the modern green utopia is also needed but that"
+    },
+    {
+      "timestamp": [
+        93.26,
+        99.18
+      ],
+      "text": " doesn't need to rule our whole world you know i think morals should be really important and then"
+    },
+    {
+      "timestamp": [
+        99.18,
+        105.02
+      ],
+      "text": " i think faith-based orders i didn't really understand with that one what type of order like"
+    },
+    {
+      "timestamp": [
+        105.66,
+        112.3
+      ],
+      "text": " i think it depends on what religion it is because would that mean we have all the different"
+    },
+    {
+      "timestamp": [
+        112.3,
+        118.56
+      ],
+      "text": " faith or we have one faith like i think that that utopia was a little unclear to me and i think"
+    },
+    {
+      "timestamp": [
+        118.56,
+        124.3
+      ],
+      "text": " faith is important religion is important but there's a lot of damage in a lot of religious"
+    },
+    {
+      "timestamp": [
+        124.3,
+        131.02
+      ],
+      "text": " communities and so i put that on like the lower end of my scale because i just felt like there"
+    },
+    {
+      "timestamp": [
+        131.02,
+        132.74
+      ],
+      "text": " wasn't enough context for me to put it higher"
+    },
+    {
+      "timestamp": [
+        132.74,
+        162.72
+      ],
+      "text": " We'll be right back."
+    }
+  ]
+}

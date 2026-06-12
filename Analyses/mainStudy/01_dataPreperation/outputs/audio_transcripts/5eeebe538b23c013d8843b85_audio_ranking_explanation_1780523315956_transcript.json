@@ -1,0 +1,171 @@
+{
+  "audio_file": "5eeebe538b23c013d8843b85_audio_ranking_explanation_1780523315956.webm",
+  "transcript": " so my most preferred utopia would be the institutional utopia based on a rule of law it just reminds me the most of the way current society is formed especially in america i think this is what has worked best up to this point in time and seeking more ideal futures based on things like morality or religion aren't as fundamentally sound as very clear laws in which everyone can follow and understand those laws and they're impartial to individuals especially individuals who you know may have their own moral compass or may not buy into the idea of these other utopias like a green future religion so those types of utopias rely on some like informal agreements about what to follow and it'd be difficult to get like everyone in line whereas if there is a common rule of law everyone clearly understands what is like good or bad to follow so my second ranking is the modern green utopia just because I like the idea of how they're really future-minded and they have priorities based on maintaining the future of society like in accordance with the environment and ensuring what they produce isn't like taking away too much from the environment Other utopias, like the futurist utopia, sounds good. But I think too much reliance on science and holding that to be like your pedestal. Well, there's not enough like checks and balances in place to prevent, you know, who is doing the innovation and how much they're like taking away from, let's say, the environment. natural resources in order to innovate. I think a moral society where people are relying on intermorality is too far-fetched. Religious utopia, it'd also be too difficult to ensure everyone has the same faith, not to mention that like different faiths wouldn't be allowed in this utopia. And I think the AI-centered centered utopia is just you know ridiculous because i i just don't think ai is advanced enough to be impartial and like without fail and some like human judgment is needed to to run a society",
+  "language": "unknown",
+  "processing_time_seconds": 34.205339,
+  "timestamp": "2026-06-08T08:17:16.446606",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.48
+      ],
+      "text": " so my most preferred utopia would be the institutional utopia based on a rule of law"
+    },
+    {
+      "timestamp": [
+        13.48,
+        21.94
+      ],
+      "text": " it just reminds me the most of the way current society is formed especially in america"
+    },
+    {
+      "timestamp": [
+        21.94,
+        28.66
+      ],
+      "text": " i think this is what has worked best up to this point in time"
+    },
+    {
+      "timestamp": [
+        28.66,
+        38.16
+      ],
+      "text": " and seeking more ideal futures based on things like morality or religion"
+    },
+    {
+      "timestamp": [
+        41.16,
+        49.94
+      ],
+      "text": " aren't as fundamentally sound as very clear laws in which everyone can follow and understand those"
+    },
+    {
+      "timestamp": [
+        49.94,
+        61.44
+      ],
+      "text": " laws and they're impartial to individuals especially individuals who you know may have"
+    },
+    {
+      "timestamp": [
+        61.44,
+        72.2
+      ],
+      "text": " their own moral compass or may not buy into the idea of these other utopias like a green future"
+    },
+    {
+      "timestamp": [
+        72.2,
+        82.86
+      ],
+      "text": " religion so those types of utopias rely on some like informal agreements about what to follow"
+    },
+    {
+      "timestamp": [
+        82.86,
+        90.52
+      ],
+      "text": " and it'd be difficult to get like everyone in line whereas if there is a common rule of law"
+    },
+    {
+      "timestamp": [
+        90.52,
+        98.38
+      ],
+      "text": " everyone clearly understands what is like good or bad to follow so my second ranking is the"
+    },
+    {
+      "timestamp": [
+        98.38,
+        109.82
+      ],
+      "text": " modern green utopia just because I like the idea of how they're really future-minded and they have"
+    },
+    {
+      "timestamp": [
+        109.82,
+        119.4
+      ],
+      "text": " priorities based on maintaining the future of society like in accordance with the environment"
+    },
+    {
+      "timestamp": [
+        119.4,
+        126.32
+      ],
+      "text": " and ensuring what they produce isn't like taking away too much from the environment"
+    },
+    {
+      "timestamp": [
+        128.38,
+        132.86
+      ],
+      "text": " Other utopias, like the futurist utopia, sounds good."
+    },
+    {
+      "timestamp": [
+        133.34,
+        141.36
+      ],
+      "text": " But I think too much reliance on science and holding that to be like your pedestal."
+    },
+    {
+      "timestamp": [
+        145.2,
+        157.7
+      ],
+      "text": " Well, there's not enough like checks and balances in place to prevent, you know, who is doing the innovation and how much they're like taking away from, let's say, the environment."
+    },
+    {
+      "timestamp": [
+        158.38,
+        166.26
+      ],
+      "text": " natural resources in order to innovate. I think a moral society where people are"
+    },
+    {
+      "timestamp": [
+        166.26,
+        175.94
+      ],
+      "text": " relying on intermorality is too far-fetched. Religious utopia, it'd also be too"
+    },
+    {
+      "timestamp": [
+        175.94,
+        181.58
+      ],
+      "text": " difficult to ensure everyone has the same faith, not to mention that like"
+    },
+    {
+      "timestamp": [
+        181.58,
+        187.0
+      ],
+      "text": " different faiths wouldn't be allowed in this utopia. And I think the AI-centered"
+    },
+    {
+      "timestamp": [
+        187.0,
+        193.78
+      ],
+      "text": " centered utopia is just you know ridiculous because i i just don't think ai is advanced"
+    },
+    {
+      "timestamp": [
+        193.78,
+        202.14
+      ],
+      "text": " enough to be impartial and like without fail and some like human judgment is needed to to run a"
+    },
+    {
+      "timestamp": [
+        202.14,
+        202.52
+      ],
+      "text": " society"
+    }
+  ]
+}

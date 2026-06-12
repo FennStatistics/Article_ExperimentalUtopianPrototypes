@@ -1,0 +1,38 @@
+{
+  "audio_file": "5c04872c55614800012b7cf0_audio_missing_utopia_1780402801135.webm",
+  "transcript": " I actually thought that the modern green utopia was pretty great. And with the primitive utopia being a pretty close second, I think perhaps what it didn't necessarily mention was how human behavior would be regulated within that and who would be making these decisions, which I think should be very data driven. but i'm sort of i'm assuming i'm just supposed to take it at face value in terms of yes they're able to uphold what they're saying they uphold um so actually the that modern green utopia was perfect um that's sort of what i imagined to be um something that was perfect and orderly",
+  "language": "unknown",
+  "processing_time_seconds": 10.551937,
+  "timestamp": "2026-06-08T08:12:36.456410",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.24
+      ],
+      "text": " I actually thought that the modern green utopia was pretty great. And with the primitive utopia being a pretty close second, I think perhaps what it didn't necessarily mention was how human behavior would be regulated within that and who would be making these decisions, which I think should be very data driven."
+    },
+    {
+      "timestamp": [
+        24.88,
+        24.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        29.68,
+        35.06
+      ],
+      "text": " but i'm sort of i'm assuming i'm just supposed to take it at face value in terms of yes they're able to uphold what they're saying they uphold um so actually the that modern green utopia was"
+    },
+    {
+      "timestamp": [
+        35.06,
+        44.0
+      ],
+      "text": " perfect um that's sort of what i imagined to be um something that was perfect and orderly"
+    }
+  ]
+}

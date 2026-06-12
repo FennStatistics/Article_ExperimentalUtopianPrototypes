@@ -1,0 +1,178 @@
+{
+  "audio_file": "6a1a8611e4d4c64780e67811_audio_ranking_explanation_1780296930253.webm",
+  "transcript": " I ranked the utopia first because science and innovation can solve major problems, also it could improve health, education, energy, transport and living standards. I also ranked the modern green utopia second because sustainability and economic security are essential. People need clean resources, a stable environment and enough for everyone. I ranked the institutional utopia right because clear laws and strong institutions create create stability and fairness. Finally, I also consider the AI-centered utopia fault because AI could make society more efficient, reduce some level of bias, but they also worry about the aspect of privacy and human control. Then we go to the moral commonwealth law because personal morality is good, but it may not be enough to commit a whole class. That is the reason why I ranked it there. To my next point is the religious utopia near the bottom because it gives a meaning and commitment but it could limit freedom and diversity due to the different religious aspects people have. I ranked primitivist utopia last because low-tech, small-scale living will be simple but it will reduce health care, innovation, comfort, and opportunity. Overall, I prefer a society that combines progress, sustainability, fairness, and stable roads.",
+  "language": "unknown",
+  "processing_time_seconds": 20.2658,
+  "timestamp": "2026-06-08T11:15:21.835241",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.0
+      ],
+      "text": " I ranked the utopia first because science and innovation can solve major problems, also"
+    },
+    {
+      "timestamp": [
+        7.0,
+        11.0
+      ],
+      "text": " it could improve health, education, energy, transport and living standards."
+    },
+    {
+      "timestamp": [
+        11.0,
+        17.0
+      ],
+      "text": " I also ranked the modern green utopia second because sustainability and economic security"
+    },
+    {
+      "timestamp": [
+        17.0,
+        18.0
+      ],
+      "text": " are essential."
+    },
+    {
+      "timestamp": [
+        18.0,
+        23.0
+      ],
+      "text": " People need clean resources, a stable environment and enough for everyone."
+    },
+    {
+      "timestamp": [
+        23.0,
+        29.0
+      ],
+      "text": " I ranked the institutional utopia right because clear laws and strong institutions create"
+    },
+    {
+      "timestamp": [
+        29.0,
+        31.64
+      ],
+      "text": " create stability and fairness."
+    },
+    {
+      "timestamp": [
+        31.64,
+        35.12
+      ],
+      "text": " Finally, I also consider the AI-centered utopia"
+    },
+    {
+      "timestamp": [
+        35.12,
+        38.12
+      ],
+      "text": " fault because AI could make society more efficient,"
+    },
+    {
+      "timestamp": [
+        38.12,
+        42.5
+      ],
+      "text": " reduce some level of bias, but they also"
+    },
+    {
+      "timestamp": [
+        42.5,
+        46.78
+      ],
+      "text": " worry about the aspect of privacy and human control."
+    },
+    {
+      "timestamp": [
+        46.78,
+        50.6
+      ],
+      "text": " Then we go to the moral commonwealth law"
+    },
+    {
+      "timestamp": [
+        50.6,
+        52.52
+      ],
+      "text": " because personal morality is good,"
+    },
+    {
+      "timestamp": [
+        52.52,
+        56.88
+      ],
+      "text": " but it may not be enough to commit a whole class."
+    },
+    {
+      "timestamp": [
+        56.88,
+        58.52
+      ],
+      "text": " That is the reason why I ranked it there."
+    },
+    {
+      "timestamp": [
+        59.68,
+        63.7
+      ],
+      "text": " To my next point is the religious utopia near the bottom"
+    },
+    {
+      "timestamp": [
+        63.7,
+        66.52
+      ],
+      "text": " because it gives a meaning and commitment"
+    },
+    {
+      "timestamp": [
+        66.52,
+        68.42
+      ],
+      "text": " but it could limit freedom and diversity"
+    },
+    {
+      "timestamp": [
+        68.42,
+        72.18
+      ],
+      "text": " due to the different religious aspects people have."
+    },
+    {
+      "timestamp": [
+        73.02,
+        75.96
+      ],
+      "text": " I ranked primitivist utopia last"
+    },
+    {
+      "timestamp": [
+        75.96,
+        78.94
+      ],
+      "text": " because low-tech, small-scale living will be simple"
+    },
+    {
+      "timestamp": [
+        78.94,
+        83.92
+      ],
+      "text": " but it will reduce health care, innovation, comfort, and opportunity."
+    },
+    {
+      "timestamp": [
+        84.44,
+        83.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        90.68,
+        91.68
+      ],
+      "text": " Overall, I prefer a society that combines progress, sustainability, fairness, and stable roads."
+    }
+  ]
+}

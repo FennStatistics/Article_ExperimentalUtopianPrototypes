@@ -1,0 +1,108 @@
+{
+  "audio_file": "6a0f1248929227af059d9345_audio_ranking_explanation_1780239173040.webm",
+  "transcript": " I think that as humans, we all have innate wrong and right instilled in us. And if it came down to the world is screwed and we have to act good in order for us all to survive, I think we could all come together and do that. I think that creating rules and jail cells and things like this are for societies that are corrupt, where people don't know how to act like the ones we live in right now. But if there was a world event where we got to the point where we were only going to survive if everybody was acting right, then I think we could do it as humans. um and then i think religious everyone agreeing on a religion christianity uh specifically would just make for a perfect union with god and like that's literally what we're going for in my eyes um so besides the the um how good it is to be on earth if we were all following religious principles it would just manifest itself as good um and then the ai driven world although a lot of people are really scared of that and like losing jobs i honestly think that if ai told us all what to do in a way um and if it was reliable and trustworthy then the world would turn around and and uh we would all be doing the right thing because i mean obviously an ai knows better what to do than a human it might not have the same moral code as a human but if we implanted moral codes within the ai then it would um and then yeah so that's why institutional is at the bottom because i just i don't like the way that we have to have rules and jail cells i think that that's honestly the more primitive than a primitive utopia. You see what I'm saying?",
+  "language": "unknown",
+  "processing_time_seconds": 27.750378,
+  "timestamp": "2026-06-08T10:50:21.381039",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.18
+      ],
+      "text": " I think that as humans, we all have innate wrong and right instilled in us. And if it came down to the world is screwed and we have to act good in order for us all to survive, I think we could all come together and do that."
+    },
+    {
+      "timestamp": [
+        21.18,
+        33.5
+      ],
+      "text": " I think that creating rules and jail cells and things like this are for societies that are corrupt, where people don't know how to act like the ones we live in right now."
+    },
+    {
+      "timestamp": [
+        33.84,
+        46.02
+      ],
+      "text": " But if there was a world event where we got to the point where we were only going to survive if everybody was acting right, then I think we could do it as humans."
+    },
+    {
+      "timestamp": [
+        47.16,
+        46.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        53.68,
+        62.48
+      ],
+      "text": " um and then i think religious everyone agreeing on a religion christianity uh specifically would just make for a perfect union with god and like that's literally what we're going for"
+    },
+    {
+      "timestamp": [
+        62.48,
+        75.0
+      ],
+      "text": " in my eyes um so besides the the um how good it is to be on earth if we were all"
+    },
+    {
+      "timestamp": [
+        75.0,
+        82.28
+      ],
+      "text": " following religious principles it would just manifest itself as good um and then the ai driven"
+    },
+    {
+      "timestamp": [
+        82.28,
+        88.06
+      ],
+      "text": " world although a lot of people are really scared of that and like losing jobs i honestly think that"
+    },
+    {
+      "timestamp": [
+        88.06,
+        96.54
+      ],
+      "text": " if ai told us all what to do in a way um and if it was reliable and trustworthy then the world"
+    },
+    {
+      "timestamp": [
+        96.54,
+        102.76
+      ],
+      "text": " would turn around and and uh we would all be doing the right thing because i mean obviously an ai"
+    },
+    {
+      "timestamp": [
+        102.76,
+        111.02
+      ],
+      "text": " knows better what to do than a human it might not have the same moral code as a human but if"
+    },
+    {
+      "timestamp": [
+        111.02,
+        118.8
+      ],
+      "text": " we implanted moral codes within the ai then it would um and then yeah so that's why institutional"
+    },
+    {
+      "timestamp": [
+        118.8,
+        124.8
+      ],
+      "text": " is at the bottom because i just i don't like the way that we have to have rules and jail cells i"
+    },
+    {
+      "timestamp": [
+        124.8,
+        134.9
+      ],
+      "text": " think that that's honestly the more primitive than a primitive utopia. You see what I'm saying?"
+    }
+  ]
+}

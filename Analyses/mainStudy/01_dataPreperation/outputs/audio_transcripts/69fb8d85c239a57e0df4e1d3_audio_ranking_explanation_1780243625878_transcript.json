@@ -1,0 +1,80 @@
+{
+  "audio_file": "69fb8d85c239a57e0df4e1d3_audio_ranking_explanation_1780243625878.webm",
+  "transcript": " yes uh i i prefer the modern green utopia or sustainable and secure because uh when you compare it with uh with others such a religious utopia uh primitive utopia moral common with utopia institutional utopia futurist utopia anti-ethnic utopia modern green utopia has got a very great importance when it comes to maybe we want to protect the climate change we want to provide the environment from um pollution that uh modern clean utopia please a very uh good part i bought important part in the conserving of the environment and making sure that the diseases which come along with those events of pollution they don't appear yes with AI I think that's something someone can do on its will not that important it's not that must people can still use the original phones they have been using yes",
+  "language": "unknown",
+  "processing_time_seconds": 16.850671,
+  "timestamp": "2026-06-08T10:06:18.167805",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.92
+      ],
+      "text": " yes uh i i prefer the modern green utopia or sustainable and secure because uh when you"
+    },
+    {
+      "timestamp": [
+        11.92,
+        22.48
+      ],
+      "text": " compare it with uh with others such a religious utopia uh primitive utopia moral common with utopia"
+    },
+    {
+      "timestamp": [
+        23.12,
+        32.88
+      ],
+      "text": " institutional utopia futurist utopia anti-ethnic utopia modern green utopia has got a very great"
+    },
+    {
+      "timestamp": [
+        34.72,
+        40.0
+      ],
+      "text": " importance when it comes to maybe we want to protect the climate change we want to provide"
+    },
+    {
+      "timestamp": [
+        40.0,
+        50.8
+      ],
+      "text": " the environment from um pollution that uh modern clean utopia please a very uh good part i bought"
+    },
+    {
+      "timestamp": [
+        50.8,
+        54.88
+      ],
+      "text": " important part in the conserving of the environment and making sure that the"
+    },
+    {
+      "timestamp": [
+        54.88,
+        62.14
+      ],
+      "text": " diseases which come along with those events of pollution they don't appear"
+    },
+    {
+      "timestamp": [
+        62.14,
+        70.24
+      ],
+      "text": " yes with AI I think that's something someone can do on its"
+    },
+    {
+      "timestamp": [
+        70.24,
+        75.94
+      ],
+      "text": " will not that important it's not that must people can still use the original"
+    },
+    {
+      "timestamp": [
+        75.94,
+        79.86
+      ],
+      "text": " phones they have been using yes"
+    }
+  ]
+}

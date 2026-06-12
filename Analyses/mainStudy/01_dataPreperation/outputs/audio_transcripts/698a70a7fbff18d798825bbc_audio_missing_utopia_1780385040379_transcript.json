@@ -1,0 +1,31 @@
+{
+  "audio_file": "698a70a7fbff18d798825bbc_audio_missing_utopia_1780385040379.webm",
+  "transcript": " I do feel like all values were pretty represented, like the government, the way that we would move forward with technology and using resources, and how people would, like, structure themselves in a hierarchy. Maybe that wasn't covered too much. Like a hierarchy in government, people saying things. It seems like everything was covered mostly.",
+  "language": "unknown",
+  "processing_time_seconds": 8.591849,
+  "timestamp": "2026-06-08T09:03:03.323450",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.88
+      ],
+      "text": " I do feel like all values were pretty represented, like the government, the way that we would move forward with technology and using resources, and how people would, like, structure themselves in a hierarchy."
+    },
+    {
+      "timestamp": [
+        19.8,
+        18.88
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.88,
+        null
+      ],
+      "text": " Maybe that wasn't covered too much. Like a hierarchy in government, people saying things. It seems like everything was covered mostly."
+    }
+  ]
+}

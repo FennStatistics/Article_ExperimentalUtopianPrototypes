@@ -1,0 +1,108 @@
+{
+  "audio_file": "69fe12a3cbb83e4d288a6082_audio_missing_utopia_1780441855063.webm",
+  "transcript": " So I feel the society that would probably be the best that was missing would probably be some sort of rules-based society combined with kind of like a primitivist society, sort of like a Jeffersonian village system, if you could call it that. it would more than likely include a whole bunch of people who were essentially some people would probably live in towns and they would have you know relatively town functions you know commerce and then maybe some trade there well there'd also be people who then live in like the countryside you know inventors people trying to do all sorts of enterprise you know experimenters scholars but essentially a more kind of a more pastoral lifestyle versus you know something where we're just trying to recreate society as it exists now i kind of like the idea of you know a small town but you can also get out on the outskirts or the boundary of a small town if you'd like uh generally i think that like i generally don't like cities that much having lived in and around them for most of my life i feel that they tend to breed uh negative social externalities if you could call them that generally people being around that many people at once is not what humans are really scaled to deal with i'd rather be around less people than more people but not necessarily no people but generally i look at like something like dumb bars number or something like that 150 to 200 people as being the max of what most people can cognitively handle.",
+  "language": "unknown",
+  "processing_time_seconds": 23.402753,
+  "timestamp": "2026-06-08T10:12:14.166217",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.94
+      ],
+      "text": " So I feel the society that would probably be the best that was missing would probably be some sort of rules-based society combined with kind of like a primitivist society, sort of like a Jeffersonian village system, if you could call it that."
+    },
+    {
+      "timestamp": [
+        16.94,
+        22.72
+      ],
+      "text": " it would more than likely include a whole bunch of people who were essentially some people would"
+    },
+    {
+      "timestamp": [
+        22.72,
+        28.84
+      ],
+      "text": " probably live in towns and they would have you know relatively town functions you know commerce"
+    },
+    {
+      "timestamp": [
+        28.84,
+        34.66
+      ],
+      "text": " and then maybe some trade there well there'd also be people who then live in like the countryside"
+    },
+    {
+      "timestamp": [
+        34.66,
+        42.42
+      ],
+      "text": " you know inventors people trying to do all sorts of enterprise you know experimenters scholars"
+    },
+    {
+      "timestamp": [
+        42.42,
+        50.94
+      ],
+      "text": " but essentially a more kind of a more pastoral lifestyle versus you know something where we're"
+    },
+    {
+      "timestamp": [
+        50.94,
+        57.72
+      ],
+      "text": " just trying to recreate society as it exists now i kind of like the idea of you know a small town"
+    },
+    {
+      "timestamp": [
+        57.72,
+        62.66
+      ],
+      "text": " but you can also get out on the outskirts or the boundary of a small town if you'd like"
+    },
+    {
+      "timestamp": [
+        62.66,
+        70.2
+      ],
+      "text": " uh generally i think that like i generally don't like cities that much having lived in and around"
+    },
+    {
+      "timestamp": [
+        70.2,
+        79.08
+      ],
+      "text": " them for most of my life i feel that they tend to breed uh negative social externalities if you"
+    },
+    {
+      "timestamp": [
+        79.08,
+        85.08
+      ],
+      "text": " could call them that generally people being around that many people at once is not what humans are"
+    },
+    {
+      "timestamp": [
+        85.08,
+        92.52
+      ],
+      "text": " really scaled to deal with i'd rather be around less people than more people but not necessarily"
+    },
+    {
+      "timestamp": [
+        92.52,
+        99.0
+      ],
+      "text": " no people but generally i look at like something like dumb bars number or something like that 150"
+    },
+    {
+      "timestamp": [
+        99.0,
+        103.0
+      ],
+      "text": " to 200 people as being the max of what most people can cognitively handle."
+    }
+  ]
+}

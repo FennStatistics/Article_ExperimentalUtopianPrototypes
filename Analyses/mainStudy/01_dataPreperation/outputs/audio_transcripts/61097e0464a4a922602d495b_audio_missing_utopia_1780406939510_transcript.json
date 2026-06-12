@@ -1,0 +1,66 @@
+{
+  "audio_file": "61097e0464a4a922602d495b_audio_missing_utopia_1780406939510.webm",
+  "transcript": " I'm not sure that there were any important values or approaches that were absent from all of the utopias. I think what was really important to me was just kind of working for the greater good and protecting the environment. And I mean, obviously, there are a society needs rules to function or something like rules um but i think that was present in all of them um in different ways and i think what would matter most in my vision of society would just be um kind of caring for the human race and i think I think protecting resources and not necessarily in a socialist aspect, but just making sure that people are cared for and the society is built to foster that.",
+  "language": "unknown",
+  "processing_time_seconds": 13.392639,
+  "timestamp": "2026-06-08T08:23:12.725574",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.08
+      ],
+      "text": " I'm not sure that there were any important values or approaches that were absent from"
+    },
+    {
+      "timestamp": [
+        7.08,
+        14.44
+      ],
+      "text": " all of the utopias. I think what was really important to me was just kind of"
+    },
+    {
+      "timestamp": [
+        14.44,
+        22.66
+      ],
+      "text": " working for the greater good and protecting the environment. And I mean, obviously,"
+    },
+    {
+      "timestamp": [
+        22.66,
+        31.22
+      ],
+      "text": " there are a society needs rules to function or something like rules um but i think that"
+    },
+    {
+      "timestamp": [
+        31.22,
+        40.26
+      ],
+      "text": " was present in all of them um in different ways and i think what would matter most in"
+    },
+    {
+      "timestamp": [
+        40.26,
+        50.58
+      ],
+      "text": " my vision of society would just be um kind of caring for the human race and i think"
+    },
+    {
+      "timestamp": [
+        52.34,
+        50.58
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        60.74,
+        67.82
+      ],
+      "text": " I think protecting resources and not necessarily in a socialist aspect, but just making sure that people are cared for and the society is built to foster that."
+    }
+  ]
+}

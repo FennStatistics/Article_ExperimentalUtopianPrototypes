@@ -1,0 +1,59 @@
+{
+  "audio_file": "69ffe5da917d458e31b7f33c_audio_missing_utopia_1780406146364.webm",
+  "transcript": " I would say, looking back to the screens, I would say My Perfect Society is a mix of low tech and environmentally safe. So I do think it's important to, you know, still be technologically advanced. but I do think that it is really important to have sustainable raw materials. I think that it's important to only take what you need. So that's where, you know, the resources and environmentally friendly aspects really tie in together. So definitely the use of technology just to kind of, you know, keep raw materials usage low. And then also, you know, only taking what we need and still interacting with technology.",
+  "language": "unknown",
+  "processing_time_seconds": 13.675257,
+  "timestamp": "2026-06-08T10:14:04.000389",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.54
+      ],
+      "text": " I would say, looking back to the screens, I would say My Perfect Society is a mix of low tech and environmentally safe. So I do think it's important to, you know, still be technologically advanced."
+    },
+    {
+      "timestamp": [
+        19.56,
+        18.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.18,
+        33.84
+      ],
+      "text": " but I do think that it is really important to have sustainable raw materials. I think that it's important to only take what you need. So that's where, you know, the resources and"
+    },
+    {
+      "timestamp": [
+        33.84,
+        41.56
+      ],
+      "text": " environmentally friendly aspects really tie in together. So definitely the use of technology"
+    },
+    {
+      "timestamp": [
+        41.56,
+        47.66
+      ],
+      "text": " just to kind of, you know, keep raw materials usage low."
+    },
+    {
+      "timestamp": [
+        48.28,
+        51.94
+      ],
+      "text": " And then also, you know, only taking what we need"
+    },
+    {
+      "timestamp": [
+        51.94,
+        54.58
+      ],
+      "text": " and still interacting with technology."
+    }
+  ]
+}

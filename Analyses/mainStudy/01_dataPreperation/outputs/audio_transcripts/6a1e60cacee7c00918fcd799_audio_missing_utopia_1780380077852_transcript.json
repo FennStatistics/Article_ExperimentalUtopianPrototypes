@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a1e60cacee7c00918fcd799_audio_missing_utopia_1780380077852.webm",
+  "transcript": " I would say what was missing is focusing on those who need the most help. It was kind of a focusing on morals or focusing on taking care of the earth. Both are really great things, but in our current state, it's more of a classes issue, so I would say focusing on classes would have been at least good to mention, but I also understand that in the utopian societies, classes may not even be a thing, but that was just something I noticed.",
+  "language": "unknown",
+  "processing_time_seconds": 9.72759,
+  "timestamp": "2026-06-08T11:36:55.080217",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.06
+      ],
+      "text": " I would say what was missing is focusing on those who need the most help. It was kind of a focusing on morals or focusing on taking care of the earth."
+    },
+    {
+      "timestamp": [
+        14.06,
+        41.82
+      ],
+      "text": " Both are really great things, but in our current state, it's more of a classes issue, so I would say focusing on classes would have been at least good to mention, but I also understand that in the utopian societies, classes may not even be a thing, but that was just something I noticed."
+    }
+  ]
+}

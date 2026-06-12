@@ -1,0 +1,52 @@
+{
+  "audio_file": "69b1b9c93046383751d6fe0c_audio_ranking_explanation_1780255841675.webm",
+  "transcript": " Let's see, I rank these in order based on my personal beliefs and values that I have. As a Christian, it was easy to choose religious utopia as the first choice. And then beyond that, I'm generally a little distrusting in AI and advancing too quickly with science and technology. So I leaned towards putting AI at the bottom and other similar societies more towards the bottom. And then for my top societies, I leaned towards ones that seemed more traditional and conservative. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 12.232529,
+  "timestamp": "2026-06-08T09:14:53.641868",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.36
+      ],
+      "text": " Let's see, I rank these in order based on my personal beliefs and values that I have."
+    },
+    {
+      "timestamp": [
+        15.36,
+        22.32
+      ],
+      "text": " As a Christian, it was easy to choose religious utopia as the first choice."
+    },
+    {
+      "timestamp": [
+        22.32,
+        33.18
+      ],
+      "text": " And then beyond that, I'm generally a little distrusting in AI and advancing too quickly with science and technology."
+    },
+    {
+      "timestamp": [
+        33.18,
+        43.76
+      ],
+      "text": " So I leaned towards putting AI at the bottom and other similar societies more towards the bottom."
+    },
+    {
+      "timestamp": [
+        44.9,
+        51.56
+      ],
+      "text": " And then for my top societies, I leaned towards ones that seemed more traditional and conservative."
+    },
+    {
+      "timestamp": [
+        52.32,
+        82.3
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a177da8b59d5576eaca4df0_audio_missing_utopia_1780413896422.webm",
+  "transcript": " I feel like one that is missing is kind of one where wealth disparity is lower. I'm definitely not a communist or anything, but I just think it's crazy that like CEOs make billions and billions and then you have people that live on the street.",
+  "language": "unknown",
+  "processing_time_seconds": 6.200127,
+  "timestamp": "2026-06-08T11:10:01.920299",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.02
+      ],
+      "text": " I feel like one that is missing is kind of one where wealth disparity is lower. I'm definitely not a communist or anything, but I just think it's crazy that like CEOs make billions and billions and then you have people that live on the street."
+    }
+  ]
+}

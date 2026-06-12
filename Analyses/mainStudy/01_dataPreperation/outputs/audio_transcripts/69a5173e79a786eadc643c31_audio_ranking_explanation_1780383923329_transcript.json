@@ -1,0 +1,157 @@
+{
+  "audio_file": "69a5173e79a786eadc643c31_audio_ranking_explanation_1780383923329.webm",
+  "transcript": " I think that the futurist utopia is the most innovative because it's the most utopian, typically, because it's actually advancing for the future. The big point of science is to question your hypothesis and to question what you're doing is right. And a society that thrives on questioning what it's doing is right can be a very moral society. It typically will be. So if they focus on that and lead through innovation, they'll typically try to be as efficient as possible. And with the human touch, it makes it so they're also questioning their ethics as well, or at least they should be in the society. um the ai driven there's just too much variability um i wouldn't want something that's not autonomous or created by somebody else to be running the entire country i'd rather it be a group consistent among people we could select at least um the religious utopia is probably on the same level rather than um worse than and AI-centered as well as the institutional utopia is also pretty low because I don't want the rule of law, faith-based order, or the AI-centered utopia because they all base it on one idea that the people can't really change no matter how much they try after a certain point. moral commonwealth would be great but there's some people you can't trust so to trust morality is to trust that all people are moral and sometimes you have to live in a reality that that's not always true so there has to be a way for people to stand up to those people as well low-tech small scale is great in the sense of it's it's sustainable farming i think the best utopia would be something that could be like a scientific one that could motivate that possibly in order to sustain everybody maybe mix the top three would be the perfect one",
+  "language": "unknown",
+  "processing_time_seconds": 28.212888,
+  "timestamp": "2026-06-08T09:11:20.730998",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.46
+      ],
+      "text": " I think that the futurist utopia is the most innovative because it's the most utopian, typically, because it's actually advancing for the future."
+    },
+    {
+      "timestamp": [
+        17.7,
+        24.22
+      ],
+      "text": " The big point of science is to question your hypothesis and to question what you're doing is right."
+    },
+    {
+      "timestamp": [
+        24.4,
+        24.22
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.7,
+        31.88
+      ],
+      "text": " And a society that thrives on questioning what it's doing is right can be a very moral society."
+    },
+    {
+      "timestamp": [
+        32.98,
+        34.38
+      ],
+      "text": " It typically will be."
+    },
+    {
+      "timestamp": [
+        40.16,
+        41.2
+      ],
+      "text": " So if they focus on that and lead through innovation, they'll typically try to be as efficient as possible."
+    },
+    {
+      "timestamp": [
+        51.5,
+        53.5
+      ],
+      "text": " And with the human touch, it makes it so they're also questioning their ethics as well, or at least they should be in the society."
+    },
+    {
+      "timestamp": [
+        51.5,
+        61.58
+      ],
+      "text": " um the ai driven there's just too much variability um i wouldn't want something that's"
+    },
+    {
+      "timestamp": [
+        61.58,
+        66.86
+      ],
+      "text": " not autonomous or created by somebody else to be running the entire country i'd rather"
+    },
+    {
+      "timestamp": [
+        66.86,
+        71.7
+      ],
+      "text": " it be a group consistent among people we could select at least um"
+    },
+    {
+      "timestamp": [
+        71.7,
+        80.6
+      ],
+      "text": " the religious utopia is probably on the same level rather than um worse than"
+    },
+    {
+      "timestamp": [
+        80.6,
+        93.64
+      ],
+      "text": " and AI-centered as well as the institutional utopia is also pretty low"
+    },
+    {
+      "timestamp": [
+        93.64,
+        98.38
+      ],
+      "text": " because I don't want the rule of law, faith-based order, or the AI-centered utopia"
+    },
+    {
+      "timestamp": [
+        98.38,
+        106.74
+      ],
+      "text": " because they all base it on one idea that the people can't really change"
+    },
+    {
+      "timestamp": [
+        106.74,
+        109.0
+      ],
+      "text": " no matter how much they try after a certain point."
+    },
+    {
+      "timestamp": [
+        109.72,
+        109.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        114.78,
+        120.08
+      ],
+      "text": " moral commonwealth would be great but there's some people you can't trust so to trust morality is to trust that all people are moral and sometimes you have to live in a reality that"
+    },
+    {
+      "timestamp": [
+        120.08,
+        126.86
+      ],
+      "text": " that's not always true so there has to be a way for people to stand up to those people as well"
+    },
+    {
+      "timestamp": [
+        126.86,
+        134.7
+      ],
+      "text": " low-tech small scale is great in the sense of it's it's sustainable farming i think the best"
+    },
+    {
+      "timestamp": [
+        134.7,
+        139.86
+      ],
+      "text": " utopia would be something that could be like a scientific one that could motivate that"
+    },
+    {
+      "timestamp": [
+        139.86,
+        147.82
+      ],
+      "text": " possibly in order to sustain everybody maybe mix the top three would be the perfect one"
+    }
+  ]
+}

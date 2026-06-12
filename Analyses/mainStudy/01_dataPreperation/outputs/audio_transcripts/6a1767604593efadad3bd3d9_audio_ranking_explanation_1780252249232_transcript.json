@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1767604593efadad3bd3d9_audio_ranking_explanation_1780252249232.webm",
+  "transcript": " My ranking is this way because I really believe that science and innovation will be what our future is based upon. We do need laws as well and in a morality. Low tech is fine, but I really don't believe in a faith-based order, so that's why that's my last one.",
+  "language": "unknown",
+  "processing_time_seconds": 6.556034,
+  "timestamp": "2026-06-08T11:09:55.693743",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.76
+      ],
+      "text": " My ranking is this way because I really believe that science and innovation will be what our"
+    },
+    {
+      "timestamp": [
+        9.76,
+        11.12
+      ],
+      "text": " future is based upon."
+    },
+    {
+      "timestamp": [
+        11.92,
+        15.26
+      ],
+      "text": " We do need laws as well and in a morality."
+    },
+    {
+      "timestamp": [
+        16.38,
+        22.64
+      ],
+      "text": " Low tech is fine, but I really don't believe in a faith-based order, so that's why that's"
+    },
+    {
+      "timestamp": [
+        22.64,
+        24.3
+      ],
+      "text": " my last one."
+    }
+  ]
+}

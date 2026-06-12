@@ -1,0 +1,178 @@
+{
+  "audio_file": "6547a05ca3b182bd3f2d9af8_audio_ranking_explanation_1780406823871.webm",
+  "transcript": " So here's my reasoning for ranking these societies how I did. I thought the moral commonwealth seemed the most ideal because I think generally when people care about their community and the people in it, they're willing to help others without having, without basically being forced to. I mean, there's always going to be people who are going to not act in everyone else's best interest, but for the most part, you know, people are wanting to help others. The second one, I liked the sustainable and secure because I think that really focuses on, you know, the environment and making sure that the planet is in good shape for future generations. Next would be science and innovation, because I think that that would be a good way to make sure that each next generation of future humans has a better life than the ones that came before because, um, science and technology, um, for the most part improves our lives. Um, the fourth I put was, um, the rule of law. Um, I do think it's really important to have rules and society and for bad behavior to be punished, but I could also see how maybe that could turn negative if punishments were too harsh. Next, I did the religious utopia. I know some people would really like this, but it would kind of leave out people who are not religious or don't believe in God. So I don't know where people like that would fit into that kind of society if they would just kind of have to pretend in order to fit in. So that's why I rated that one lower down. The next one is the AI-centered utopia. While I do think that AI can be used as a good tool in some situations, I don't think that our whole society should be um reliant on ai because it just it just takes the need for humans out of the equation and humans you know we need to feel like we are you know helpful and we're doing our part for society and when you have ai take over too much of it um you just can't do that um the last one I did was the low tech and small scale um although I I don't think that this is necessarily like a bad society I just know that I wouldn't want it just because I'm already used to having technology so I think trying to go from a modern life to a low tech like would just be too much for me.",
+  "language": "unknown",
+  "processing_time_seconds": 39.590324,
+  "timestamp": "2026-06-08T08:32:21.121022",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.34
+      ],
+      "text": " So here's my reasoning for ranking these societies how I did."
+    },
+    {
+      "timestamp": [
+        11.14,
+        29.38
+      ],
+      "text": " I thought the moral commonwealth seemed the most ideal because I think generally when people care about their community and the people in it, they're willing to help others without having, without basically being forced to."
+    },
+    {
+      "timestamp": [
+        30.0,
+        37.24
+      ],
+      "text": " I mean, there's always going to be people who are going to not act in everyone else's"
+    },
+    {
+      "timestamp": [
+        37.24,
+        44.48
+      ],
+      "text": " best interest, but for the most part, you know, people are wanting to help others."
+    },
+    {
+      "timestamp": [
+        44.48,
+        51.68
+      ],
+      "text": " The second one, I liked the sustainable and secure because I think that really focuses"
+    },
+    {
+      "timestamp": [
+        51.68,
+        60.24
+      ],
+      "text": " on, you know, the environment and making sure that the planet is in good shape for future"
+    },
+    {
+      "timestamp": [
+        60.24,
+        69.38
+      ],
+      "text": " generations. Next would be science and innovation, because I think that that would be a good"
+    },
+    {
+      "timestamp": [
+        69.38,
+        80.68
+      ],
+      "text": " way to make sure that each next generation of future humans has a better life than the"
+    },
+    {
+      "timestamp": [
+        80.68,
+        89.82
+      ],
+      "text": " ones that came before because, um, science and technology, um, for the most part improves our"
+    },
+    {
+      "timestamp": [
+        89.82,
+        99.94
+      ],
+      "text": " lives. Um, the fourth I put was, um, the rule of law. Um, I do think it's really important to have"
+    },
+    {
+      "timestamp": [
+        99.94,
+        108.2
+      ],
+      "text": " rules and society and for bad behavior to be punished, but I could also see how maybe that"
+    },
+    {
+      "timestamp": [
+        108.2,
+        120.66
+      ],
+      "text": " could turn negative if punishments were too harsh. Next, I did the religious utopia. I know some"
+    },
+    {
+      "timestamp": [
+        120.66,
+        129.2
+      ],
+      "text": " people would really like this, but it would kind of leave out people who are not religious or don't"
+    },
+    {
+      "timestamp": [
+        129.2,
+        135.74
+      ],
+      "text": " believe in God. So I don't know where people like that would fit into that kind of society if they"
+    },
+    {
+      "timestamp": [
+        135.74,
+        145.04
+      ],
+      "text": " would just kind of have to pretend in order to fit in. So that's why I rated that one lower down."
+    },
+    {
+      "timestamp": [
+        145.88,
+        154.34
+      ],
+      "text": " The next one is the AI-centered utopia. While I do think that AI can be used as a good tool"
+    },
+    {
+      "timestamp": [
+        154.34,
+        159.18
+      ],
+      "text": " in some situations, I don't think that our whole society should be"
+    },
+    {
+      "timestamp": [
+        161.18,
+        159.18
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        170.94,
+        179.76
+      ],
+      "text": " um reliant on ai because it just it just takes the need for humans out of the equation and humans you know we need to feel like we are you know helpful and we're doing our part for society"
+    },
+    {
+      "timestamp": [
+        179.76,
+        187.22
+      ],
+      "text": " and when you have ai take over too much of it um you just can't do that"
+    },
+    {
+      "timestamp": [
+        187.22,
+        195.84
+      ],
+      "text": " um the last one I did was the low tech and small scale um although I I don't think that"
+    },
+    {
+      "timestamp": [
+        195.84,
+        204.86
+      ],
+      "text": " this is necessarily like a bad society I just know that I wouldn't want it just because I'm"
+    },
+    {
+      "timestamp": [
+        204.86,
+        211.26
+      ],
+      "text": " already used to having technology so I think trying to go from a modern life to a low tech"
+    },
+    {
+      "timestamp": [
+        211.26,
+        214.54
+      ],
+      "text": " like would just be too much for me."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "audio_file": "69e980c89da1ccaa91f5672a_audio_ranking_explanation_1780387943697.webm",
+  "transcript": " I chose my picks mainly because I'm not a very religious person at all, and I don't believe having a faith-based society is fair or worth it, considering there are so many faiths in the world and we're going to surround our community and just one just feels wrong. But I care very deeply about the environment and about the Earth, and that's why I chose the Modern Green Utopia as my most preferred, and I think in the long haul, that is probably the best option.",
+  "language": "unknown",
+  "processing_time_seconds": 9.780765,
+  "timestamp": "2026-06-08T09:44:52.738587",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.06
+      ],
+      "text": " I chose my picks mainly because I'm not a very religious person at all, and I don't believe having a faith-based society is fair or worth it, considering there are so many faiths in the world and we're going to surround our community and just one just feels wrong."
+    },
+    {
+      "timestamp": [
+        20.62,
+        20.06
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.7,
+        null
+      ],
+      "text": " But I care very deeply about the environment and about the Earth, and that's why I chose the Modern Green Utopia as my most preferred, and I think in the long haul, that is probably the best option."
+    }
+  ]
+}

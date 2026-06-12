@@ -1,0 +1,178 @@
+{
+  "audio_file": "6a1237564d7849671a47f339_audio_ranking_explanation_1780247525525.webm",
+  "transcript": " yeah so for these societies i definitely think ai and religion are the two biggest concerns i have um we'll start with religion the whole world right now is divided based on you know christianity and islam and the middle east and america and there's so much division between religion not only between the different religions but also within the religion itself there's so much division people can't agree on things i don't think a religious society is a good idea ai based i don't i don't have a problem with the concept of ai but with the way these big tech companies and these billionaires are using it i don't like the direction we've started with ai i feel like it could be helpful but i really don't trust the people using the ai i don't think ai is bad necessarily i just think the people that are using it i really do not trust for the futuristic one the futurist one i should say i definitely feel like our biggest concern or biggest priority is prioritizing how long we can keep the human race alive how well we can make the future of the human race how to push things forward how to plan for the next hundred years so i really think a technology and a few a futurist mindset is really good i like anything environmental friendly i like all the green stuff i like sustainability i really hope we do something about climate change and we we start changing some of these laws and these policies so i'm really all about sustainability i like the um the one about sustainable um the morality one is good the rule of law I'm kind of 50-50 on the low tech sounds like a good idea I just don't think we're going to go back to a world with low tech and that's about it",
+  "language": "unknown",
+  "processing_time_seconds": 25.814579,
+  "timestamp": "2026-06-08T10:55:18.148205",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.9
+      ],
+      "text": " yeah so for these societies i definitely think ai and religion are the two biggest concerns i have"
+    },
+    {
+      "timestamp": [
+        7.9,
+        15.44
+      ],
+      "text": " um we'll start with religion the whole world right now is divided based on you know christianity and"
+    },
+    {
+      "timestamp": [
+        15.44,
+        21.98
+      ],
+      "text": " islam and the middle east and america and there's so much division between religion not only between"
+    },
+    {
+      "timestamp": [
+        21.98,
+        28.24
+      ],
+      "text": " the different religions but also within the religion itself there's so much division people"
+    },
+    {
+      "timestamp": [
+        28.24,
+        37.3
+      ],
+      "text": " can't agree on things i don't think a religious society is a good idea ai based i don't i don't"
+    },
+    {
+      "timestamp": [
+        37.3,
+        42.96
+      ],
+      "text": " have a problem with the concept of ai but with the way these big tech companies and these billionaires"
+    },
+    {
+      "timestamp": [
+        42.96,
+        48.74
+      ],
+      "text": " are using it i don't like the direction we've started with ai i feel like it could be helpful"
+    },
+    {
+      "timestamp": [
+        48.74,
+        55.06
+      ],
+      "text": " but i really don't trust the people using the ai i don't think ai is bad necessarily i just think"
+    },
+    {
+      "timestamp": [
+        55.06,
+        62.02
+      ],
+      "text": " the people that are using it i really do not trust for the futuristic one the futurist one"
+    },
+    {
+      "timestamp": [
+        62.02,
+        69.74
+      ],
+      "text": " i should say i definitely feel like our biggest concern or biggest priority is prioritizing how"
+    },
+    {
+      "timestamp": [
+        69.74,
+        77.92
+      ],
+      "text": " long we can keep the human race alive how well we can make the future of the human race how to push"
+    },
+    {
+      "timestamp": [
+        77.92,
+        84.08
+      ],
+      "text": " things forward how to plan for the next hundred years so i really think a technology and a few"
+    },
+    {
+      "timestamp": [
+        84.08,
+        91.26
+      ],
+      "text": " a futurist mindset is really good i like anything environmental friendly i like all the green stuff"
+    },
+    {
+      "timestamp": [
+        91.26,
+        98.6
+      ],
+      "text": " i like sustainability i really hope we do something about climate change and we we start"
+    },
+    {
+      "timestamp": [
+        98.6,
+        105.0
+      ],
+      "text": " changing some of these laws and these policies so i'm really all about sustainability i like the um"
+    },
+    {
+      "timestamp": [
+        105.0,
+        107.62
+      ],
+      "text": " the one about"
+    },
+    {
+      "timestamp": [
+        107.62,
+        109.32
+      ],
+      "text": " sustainable"
+    },
+    {
+      "timestamp": [
+        109.32,
+        111.1
+      ],
+      "text": " um"
+    },
+    {
+      "timestamp": [
+        111.1,
+        114.5
+      ],
+      "text": " the morality one is good"
+    },
+    {
+      "timestamp": [
+        114.5,
+        116.74
+      ],
+      "text": " the rule of law I'm kind of 50-50 on"
+    },
+    {
+      "timestamp": [
+        116.74,
+        118.6
+      ],
+      "text": " the low tech sounds like"
+    },
+    {
+      "timestamp": [
+        118.6,
+        120.54
+      ],
+      "text": " a good idea I just don't think we're going to go"
+    },
+    {
+      "timestamp": [
+        120.54,
+        122.5
+      ],
+      "text": " back to a world with low tech"
+    },
+    {
+      "timestamp": [
+        122.5,
+        124.44
+      ],
+      "text": " and that's about it"
+    }
+  ]
+}

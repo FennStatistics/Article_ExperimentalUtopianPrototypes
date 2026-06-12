@@ -1,0 +1,31 @@
+{
+  "audio_file": "6998bda4ed63e85917285fd8_audio_ranking_explanation_1780381237263.webm",
+  "transcript": " I chose these rankings because I would much rather rely on human morality and trying to maintain a sense of sustainability and tech help rather than fully go to something extreme like full science, full faith, full law, or full AI. Like, honestly, the top three can be interchanged a little bit, but as long as it's not completely relying on something that is a bit absurd, a bit extreme.",
+  "language": "unknown",
+  "processing_time_seconds": 9.178785,
+  "timestamp": "2026-06-08T09:06:42.378442",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.48
+      ],
+      "text": " I chose these rankings because I would much rather rely on human morality and trying to maintain a sense of sustainability and tech help rather than fully go to something extreme like full science, full faith, full law, or full AI."
+    },
+    {
+      "timestamp": [
+        25.92,
+        24.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        36.02,
+        41.28
+      ],
+      "text": " Like, honestly, the top three can be interchanged a little bit, but as long as it's not completely relying on something that is a bit absurd, a bit extreme."
+    }
+  ]
+}

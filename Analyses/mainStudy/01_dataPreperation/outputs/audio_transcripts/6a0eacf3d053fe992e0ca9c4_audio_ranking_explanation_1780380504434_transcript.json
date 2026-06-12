@@ -1,0 +1,241 @@
+{
+  "audio_file": "6a0eacf3d053fe992e0ca9c4_audio_ranking_explanation_1780380504434.webm",
+  "transcript": " so i write the societies in this way because science and innovation is is is from an objective perspective the only perspective that makes the most logical sense in order for people to agree and understand it's not it shouldn't just be based on morals or laws or or allowing um people to like make those decisions subjectively, but from an objective lens, there is a level of autonomy that's needed in order to make decisions that make the most sense. And I guess this is more of a utilitarian-esque way about thinking about it, but more allowing people to see and observe the object universe is necessary in order to provide the most good for everybody. and this allows for that autonomy to to go through the rule of law my background is in law I think that's another important thing if there are if we live in a rules-based system that's the second best thing that I can think of and these rules can sometimes be maybe a hodgepodge of you know what is considered you know scientific in nature that can be part of those laws but at the same time these can be riddled with other things that might not necessarily make the most sense but they're structured and they allow for people to like really understand everything. The only problem about this is that there's less innovation and there's a lot of rigidity in it that might be destabilizing in a way if people don't necessarily agree with those words. Next is green utopia. Honestly, this was a struggle for me, but I think in this case, you know, in order to accelerate and ensure that society is one, conscious about our earth and two, allowing us to persevere for a long time. I think that's a very important thing. Primitive, utopias, low tech and small scale, you know, allowing society to thrive and not necessarily be left hungry. Sure. Moral commonwealth, morality is very subjective. And because of that, people's moralities might be imposed and that might not necessarily be correct right i mean there was a point in time where slavery was a thing and people thought of it as moral um and not slavery just in the united states but slavery everywhere right ai centered utopia that's another thing right we're we're removing people's autonomy um and allowing you know data robots to take over it i don't necessarily think that's a good, but I put religious utopia at the very bottom because if there's one thing that is anti-science, it's religion. And religion, unfortunately, is used to justify some of the most warped versions of society. And even though religion has had its basis in discovering math and science and so forth and allowing for that progression to go through, I think we've outlived the necessities of religion because there's no way to justify anything that comes through it, right? There's nothing that dictates that this is true, right? We're relying on historic epistemology and that doesn't necessitate as truth. It's just truth that's cyclical, right? There is a God because the God exists and because it exists, there is a God, right? There's a cycle bit which doesn't make sense from from that perspective",
+  "language": "unknown",
+  "processing_time_seconds": 45.148328,
+  "timestamp": "2026-06-08T10:49:38.489651",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.1
+      ],
+      "text": " so i write the societies in this way because science and innovation is is is from an objective"
+    },
+    {
+      "timestamp": [
+        9.1,
+        15.76
+      ],
+      "text": " perspective the only perspective that makes the most logical sense in order for people to agree"
+    },
+    {
+      "timestamp": [
+        15.76,
+        24.46
+      ],
+      "text": " and understand it's not it shouldn't just be based on morals or laws or or allowing um people to like"
+    },
+    {
+      "timestamp": [
+        24.46,
+        31.84
+      ],
+      "text": " make those decisions subjectively, but from an objective lens, there is a level of autonomy"
+    },
+    {
+      "timestamp": [
+        31.84,
+        36.76
+      ],
+      "text": " that's needed in order to make decisions that make the most sense. And I guess this is more"
+    },
+    {
+      "timestamp": [
+        36.76,
+        43.32
+      ],
+      "text": " of a utilitarian-esque way about thinking about it, but more allowing people to see and observe"
+    },
+    {
+      "timestamp": [
+        43.32,
+        50.26
+      ],
+      "text": " the object universe is necessary in order to provide the most good for everybody."
+    },
+    {
+      "timestamp": [
+        50.82,
+        50.26
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        57.08,
+        62.14
+      ],
+      "text": " and this allows for that autonomy to to go through the rule of law my background is in law I think that's another important thing if there are if we live in a rules-based system that's the second"
+    },
+    {
+      "timestamp": [
+        62.14,
+        68.86
+      ],
+      "text": " best thing that I can think of and these rules can sometimes be maybe a hodgepodge of you know"
+    },
+    {
+      "timestamp": [
+        68.86,
+        75.44
+      ],
+      "text": " what is considered you know scientific in nature that can be part of those laws but at the same"
+    },
+    {
+      "timestamp": [
+        75.44,
+        79.52
+      ],
+      "text": " time these can be riddled with other things that might not necessarily make the most sense but"
+    },
+    {
+      "timestamp": [
+        79.52,
+        85.36
+      ],
+      "text": " they're structured and they allow for people to like really understand everything. The only"
+    },
+    {
+      "timestamp": [
+        85.36,
+        91.04
+      ],
+      "text": " problem about this is that there's less innovation and there's a lot of rigidity in it that might be"
+    },
+    {
+      "timestamp": [
+        91.92,
+        99.76
+      ],
+      "text": " destabilizing in a way if people don't necessarily agree with those words. Next is green utopia."
+    },
+    {
+      "timestamp": [
+        99.76,
+        108.28
+      ],
+      "text": " Honestly, this was a struggle for me, but I think in this case, you know, in order to accelerate"
+    },
+    {
+      "timestamp": [
+        108.28,
+        117.1
+      ],
+      "text": " and ensure that society is one, conscious about our earth and two, allowing us to persevere for"
+    },
+    {
+      "timestamp": [
+        117.1,
+        122.26
+      ],
+      "text": " a long time. I think that's a very important thing. Primitive, utopias, low tech and small"
+    },
+    {
+      "timestamp": [
+        122.26,
+        126.94
+      ],
+      "text": " scale, you know, allowing society to thrive and not necessarily be left hungry. Sure."
+    },
+    {
+      "timestamp": [
+        127.64,
+        135.36
+      ],
+      "text": " Moral commonwealth, morality is very subjective. And because of that, people's moralities might be"
+    },
+    {
+      "timestamp": [
+        135.36,
+        141.8
+      ],
+      "text": " imposed and that might not necessarily be correct right i mean there was a point in time where"
+    },
+    {
+      "timestamp": [
+        141.8,
+        147.58
+      ],
+      "text": " slavery was a thing and people thought of it as moral um and not slavery just in the united states"
+    },
+    {
+      "timestamp": [
+        147.58,
+        154.2
+      ],
+      "text": " but slavery everywhere right ai centered utopia that's another thing right we're we're removing"
+    },
+    {
+      "timestamp": [
+        154.2,
+        161.5
+      ],
+      "text": " people's autonomy um and allowing you know data robots to take over it i don't necessarily think"
+    },
+    {
+      "timestamp": [
+        161.5,
+        170.56
+      ],
+      "text": " that's a good, but I put religious utopia at the very bottom because if there's one thing that is"
+    },
+    {
+      "timestamp": [
+        170.56,
+        178.58
+      ],
+      "text": " anti-science, it's religion. And religion, unfortunately, is used to justify some of the"
+    },
+    {
+      "timestamp": [
+        178.58,
+        184.56
+      ],
+      "text": " most warped versions of society. And even though religion has had its basis in discovering math"
+    },
+    {
+      "timestamp": [
+        184.56,
+        189.88
+      ],
+      "text": " and science and so forth and allowing for that progression to go through, I think we've outlived"
+    },
+    {
+      "timestamp": [
+        189.88,
+        195.26
+      ],
+      "text": " the necessities of religion because there's no way to justify anything that comes through it,"
+    },
+    {
+      "timestamp": [
+        195.26,
+        202.44
+      ],
+      "text": " right? There's nothing that dictates that this is true, right? We're relying on historic"
+    },
+    {
+      "timestamp": [
+        202.44,
+        210.74
+      ],
+      "text": " epistemology and that doesn't necessitate as truth. It's just truth that's cyclical, right?"
+    },
+    {
+      "timestamp": [
+        211.08,
+        218.1
+      ],
+      "text": " There is a God because the God exists and because it exists, there is a God, right? There's a cycle"
+    },
+    {
+      "timestamp": [
+        218.1,
+        222.82
+      ],
+      "text": " bit which doesn't make sense from from that perspective"
+    }
+  ]
+}

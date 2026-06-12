@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a025143ab399f83cdaa9f16_audio_missing_utopia_1780429843167.webm",
+  "transcript": " a society centered on empathy empathy and cares was missing my vision was prioritized compassion mental well-being and strong community board is the foundation of the progress",
+  "language": "unknown",
+  "processing_time_seconds": 5.3377,
+  "timestamp": "2026-06-08T10:20:15.553349",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.84
+      ],
+      "text": " a society centered on empathy empathy and cares was missing my vision was prioritized compassion"
+    },
+    {
+      "timestamp": [
+        11.84,
+        17.52
+      ],
+      "text": " mental well-being and strong community board is the foundation of the progress"
+    }
+  ]
+}

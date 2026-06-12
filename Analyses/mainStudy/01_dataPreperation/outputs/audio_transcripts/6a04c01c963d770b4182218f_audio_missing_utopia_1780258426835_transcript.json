@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a04c01c963d770b4182218f_audio_missing_utopia_1780258426835.webm",
+  "transcript": " I feel like all of the important values were already represented. There might be a few that I personally prioritize a lot more than others. For example, I would place a lot of emphasis on communal living, the importance of community, the importance of acceptance, equality, things like that. I think equality as a concept wasn't something that was addressed in these societies. I think I would prefer a world where there's no discrimination, there's no hate, things like that. Obviously, it would be my utopia. Yes, I think that's all.",
+  "language": "unknown",
+  "processing_time_seconds": 10.453195,
+  "timestamp": "2026-06-08T10:24:23.681500",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.5
+      ],
+      "text": " I feel like all of the important values were already represented."
+    },
+    {
+      "timestamp": [
+        4.0,
+        9.3
+      ],
+      "text": " There might be a few that I personally prioritize a lot more than others."
+    },
+    {
+      "timestamp": [
+        9.3,
+        20.12
+      ],
+      "text": " For example, I would place a lot of emphasis on communal living, the importance of community, the importance of acceptance, equality, things like that."
+    },
+    {
+      "timestamp": [
+        20.26,
+        27.94
+      ],
+      "text": " I think equality as a concept wasn't something that was addressed in these societies."
+    },
+    {
+      "timestamp": [
+        27.94,
+        36.44
+      ],
+      "text": " I think I would prefer a world where there's no discrimination, there's no hate, things like that."
+    },
+    {
+      "timestamp": [
+        36.74,
+        38.32
+      ],
+      "text": " Obviously, it would be my utopia."
+    },
+    {
+      "timestamp": [
+        42.22,
+        44.0
+      ],
+      "text": " Yes, I think that's all."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a04c0e236a93ae493d6aaf5_audio_ranking_explanation_1780399204982.webm",
+  "transcript": " I ranked societies this way because I personally think that a sustainable, moral society beats a futuristic utopia where everything is technological and, you know, I don't think faith is exactly the direction that we should be going in either. Wait, what?",
+  "language": "unknown",
+  "processing_time_seconds": 5.971673,
+  "timestamp": "2026-06-08T10:25:39.423588",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        1.0,
+        19.38
+      ],
+      "text": " I ranked societies this way because I personally think that a sustainable, moral society beats a futuristic utopia where everything is technological and, you know, I don't think faith is exactly the direction that we should be going in either."
+    },
+    {
+      "timestamp": [
+        19.88,
+        21.0
+      ],
+      "text": " Wait, what?"
+    }
+  ]
+}

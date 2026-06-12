@@ -1,0 +1,157 @@
+{
+  "audio_file": "69caa4d91032ecb7350b7df1_audio_ranking_explanation_1780472974987.webm",
+  "transcript": " I think my most preferred is the institutional utopia because I feel like that sort of rule of law is probably most familiar with me because it's closest to the society that many places in the world are like today. And that's probably why it's my most preferred. And then second, the inner morality. I mean, that's probably the most ideal in general, but unfortunately you can't trust most people to feel uh or to act in such a way so i feel like it's highly preferred for me but i put it as number two because i don't know how sustainable it actually is to achieve such a thing uh in the middle i kind of you know struggle a little bit i like the idea of sustainability but not to an extreme which is why i put sustainable and secure is more so the fourth whereas i put science innovation in front of it because i don't know i just felt like a futurist utopia is just more appropriate there um i i put religion and and the primitivist utopia as five and six um not really in a particular order i just felt like they you know belong down there because you know as my preference i don't think uh a low-tech small scale is as sustainable in today's world and the same thing with a religious utopia and then at least preferred i don't think an ai-centered utopia is appropriate at all i don't think um the world will ever come to that reliance on utopia in that sense or reliance on ui ai in that sense.",
+  "language": "unknown",
+  "processing_time_seconds": 24.736089,
+  "timestamp": "2026-06-08T09:28:01.924742",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.5
+      ],
+      "text": " I think my most preferred is the institutional utopia"
+    },
+    {
+      "timestamp": [
+        3.5,
+        6.18
+      ],
+      "text": " because I feel like that sort of rule of law"
+    },
+    {
+      "timestamp": [
+        6.18,
+        8.86
+      ],
+      "text": " is probably most familiar with me"
+    },
+    {
+      "timestamp": [
+        8.86,
+        10.22
+      ],
+      "text": " because it's closest to the society"
+    },
+    {
+      "timestamp": [
+        10.22,
+        13.4
+      ],
+      "text": " that many places in the world are like today."
+    },
+    {
+      "timestamp": [
+        15.56,
+        17.46
+      ],
+      "text": " And that's probably why it's my most preferred."
+    },
+    {
+      "timestamp": [
+        17.72,
+        19.92
+      ],
+      "text": " And then second, the inner morality."
+    },
+    {
+      "timestamp": [
+        20.38,
+        23.38
+      ],
+      "text": " I mean, that's probably the most ideal in general,"
+    },
+    {
+      "timestamp": [
+        23.6,
+        26.2
+      ],
+      "text": " but unfortunately you can't trust most people"
+    },
+    {
+      "timestamp": [
+        26.2,
+        35.92
+      ],
+      "text": " to feel uh or to act in such a way so i feel like it's highly preferred for me but i put it as number"
+    },
+    {
+      "timestamp": [
+        35.92,
+        38.8
+      ],
+      "text": " two because i don't know how sustainable it actually is to achieve such a thing"
+    },
+    {
+      "timestamp": [
+        38.8,
+        47.3
+      ],
+      "text": " uh in the middle i kind of you know struggle a little bit i like the idea of sustainability but"
+    },
+    {
+      "timestamp": [
+        47.3,
+        52.78
+      ],
+      "text": " not to an extreme which is why i put sustainable and secure is more so the fourth whereas i put"
+    },
+    {
+      "timestamp": [
+        52.78,
+        57.9
+      ],
+      "text": " science innovation in front of it because i don't know i just felt like a futurist utopia is"
+    },
+    {
+      "timestamp": [
+        57.9,
+        69.64
+      ],
+      "text": " just more appropriate there um i i put religion and and the primitivist utopia as five and six"
+    },
+    {
+      "timestamp": [
+        69.64,
+        74.86
+      ],
+      "text": " um not really in a particular order i just felt like they you know belong down there because"
+    },
+    {
+      "timestamp": [
+        74.86,
+        80.46
+      ],
+      "text": " you know as my preference i don't think uh a low-tech small scale is"
+    },
+    {
+      "timestamp": [
+        82.22,
+        87.02
+      ],
+      "text": " as sustainable in today's world and the same thing with a religious utopia"
+    },
+    {
+      "timestamp": [
+        88.7,
+        92.38
+      ],
+      "text": " and then at least preferred i don't think an ai-centered utopia is appropriate at all i don't"
+    },
+    {
+      "timestamp": [
+        92.38,
+        100.46
+      ],
+      "text": " think um the world will ever come to that reliance on utopia in that sense or reliance on ui ai in"
+    },
+    {
+      "timestamp": [
+        100.46,
+        101.02
+      ],
+      "text": " that sense."
+    }
+  ]
+}

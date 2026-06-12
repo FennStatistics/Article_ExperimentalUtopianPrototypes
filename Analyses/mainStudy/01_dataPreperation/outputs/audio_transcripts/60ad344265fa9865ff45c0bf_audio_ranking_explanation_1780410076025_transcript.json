@@ -1,0 +1,206 @@
+{
+  "audio_file": "60ad344265fa9865ff45c0bf_audio_ranking_explanation_1780410076025.webm",
+  "transcript": " So the reasons why I had them in the order that I listed was, for one, water and green utopia, you know, using different forms of, you know, which I'm going to call it, gases, you know, green agriculture is necessary, you know, solar energy is necessary for the world as a whole. You know, the issue of climate change is a big thing, especially here in the U.S. So using different forms of, you know, solar energy, as opposed to what we have now with, you know, all the issues we have with the weather, you know, getting warmer, especially where I am right now in the southeast. You know, it's definitely a main issue that we have to focus on. Number two, I have futuristic utopia. Science and innovation is key in anything. um i i work in medicine you know i'm a medical student so you know basing everything or most of the things we have on science is you know key to data and not just any field you know a lot of fields you know whether it's fitness medicine engineering businesses um that's why we ultimately go to school is to learn so science is a key in that um the second one the third one i have is moral commonwealth so inner morality you know how we feel about each other how we act following rules guidelines properly and morals how you're raised you know that's key you know you try treat others as you want to be treated and that's a tantamount to success in general in life four i have institutional utopia rule of law following law and order following rules again this is kind of similar to the other one but this is more law-based and obligation that's definitely a big thing and you know you have to follow that those as well so that's key now it gets to low tech and small scale this is sort of you know you kind of need higher tech um you can't just base it off of small tech because you know technology is needed obviously not to an extreme like people use it um but more like i'd say more medium tech potentially low tech kind of you know restricts where we want to go in life especially in the future um religious utopia i'm not really based off of faith and whatnot uh that seems more dogma you know belief wise you know there's no science no actual knowledge you'd utilized it's not it's something that you know a whole group of people millions a billion millions thousands even you know can follow and coordinate especially without disagreement and you can't look to your feet to answer questions or follow rules like that ai i am not a big fan of the ai centered utopia um as humans we have to catalog you know how we behave and you can't use you ai as a means to you know understand and understand human emotion and drive it to where you follow rules you follow laws obligations you do jobs based off what ai says you You know, AI is taking over so many businesses, jobs and whatnot here as a means of a so-called leadership role here, it would not work whatsoever, at least for me.",
+  "language": "unknown",
+  "processing_time_seconds": 42.141891,
+  "timestamp": "2026-06-08T08:20:57.013765",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.86
+      ],
+      "text": " So the reasons why I had them in the order that I listed was, for one, water and green utopia, you know, using different forms of, you know, which I'm going to call it, gases, you know, green agriculture is necessary, you know, solar energy is necessary for the world as a whole."
+    },
+    {
+      "timestamp": [
+        22.1,
+        26.04
+      ],
+      "text": " You know, the issue of climate change is a big thing, especially here in the U.S."
+    },
+    {
+      "timestamp": [
+        26.94,
+        26.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        40.0,
+        40.28
+      ],
+      "text": " So using different forms of, you know, solar energy, as opposed to what we have now with, you know, all the issues we have with the weather, you know, getting warmer, especially where I am right now in the southeast."
+    },
+    {
+      "timestamp": [
+        44.08,
+        44.48
+      ],
+      "text": " You know, it's definitely a main issue that we have to focus on."
+    },
+    {
+      "timestamp": [
+        48.48,
+        49.8
+      ],
+      "text": " Number two, I have futuristic utopia. Science and innovation is key in anything."
+    },
+    {
+      "timestamp": [
+        48.48,
+        55.72
+      ],
+      "text": " um i i work in medicine you know i'm a medical student so you know basing everything or most"
+    },
+    {
+      "timestamp": [
+        55.72,
+        62.3
+      ],
+      "text": " of the things we have on science is you know key to data and not just any field you know a lot of"
+    },
+    {
+      "timestamp": [
+        62.3,
+        68.32
+      ],
+      "text": " fields you know whether it's fitness medicine engineering businesses um that's why we ultimately"
+    },
+    {
+      "timestamp": [
+        68.32,
+        73.72
+      ],
+      "text": " go to school is to learn so science is a key in that um the second one the third one i have is"
+    },
+    {
+      "timestamp": [
+        73.72,
+        78.64
+      ],
+      "text": " moral commonwealth so inner morality you know how we feel about each other how we act"
+    },
+    {
+      "timestamp": [
+        78.64,
+        84.42
+      ],
+      "text": " following rules guidelines properly and morals how you're raised you know that's key you know"
+    },
+    {
+      "timestamp": [
+        84.42,
+        89.82
+      ],
+      "text": " you try treat others as you want to be treated and that's a tantamount to success in general in life"
+    },
+    {
+      "timestamp": [
+        89.82,
+        96.42
+      ],
+      "text": " four i have institutional utopia rule of law following law and order following rules again"
+    },
+    {
+      "timestamp": [
+        96.42,
+        100.94
+      ],
+      "text": " this is kind of similar to the other one but this is more law-based and obligation that's definitely"
+    },
+    {
+      "timestamp": [
+        100.94,
+        108.24
+      ],
+      "text": " a big thing and you know you have to follow that those as well so that's key now it gets to low"
+    },
+    {
+      "timestamp": [
+        108.24,
+        113.8
+      ],
+      "text": " tech and small scale this is sort of you know you kind of need higher tech um you can't just base"
+    },
+    {
+      "timestamp": [
+        113.8,
+        119.22
+      ],
+      "text": " it off of small tech because you know technology is needed obviously not to an extreme like people"
+    },
+    {
+      "timestamp": [
+        119.22,
+        126.2
+      ],
+      "text": " use it um but more like i'd say more medium tech potentially low tech kind of you know restricts"
+    },
+    {
+      "timestamp": [
+        126.2,
+        131.5
+      ],
+      "text": " where we want to go in life especially in the future um religious utopia i'm not really based"
+    },
+    {
+      "timestamp": [
+        131.5,
+        139.24
+      ],
+      "text": " off of faith and whatnot uh that seems more dogma you know belief wise you know there's no science"
+    },
+    {
+      "timestamp": [
+        139.24,
+        147.32
+      ],
+      "text": " no actual knowledge you'd utilized it's not it's something that you know a whole group of people"
+    },
+    {
+      "timestamp": [
+        147.32,
+        152.88
+      ],
+      "text": " millions a billion millions thousands even you know can follow and coordinate especially without"
+    },
+    {
+      "timestamp": [
+        152.88,
+        157.04
+      ],
+      "text": " disagreement and you can't look to your feet to answer questions or follow rules like that"
+    },
+    {
+      "timestamp": [
+        157.84,
+        166.08
+      ],
+      "text": " ai i am not a big fan of the ai centered utopia um as humans we have to catalog you know how we"
+    },
+    {
+      "timestamp": [
+        166.08,
+        174.4
+      ],
+      "text": " behave and you can't use you ai as a means to you know understand and understand human emotion and"
+    },
+    {
+      "timestamp": [
+        174.4,
+        181.92
+      ],
+      "text": " drive it to where you follow rules you follow laws obligations you do jobs based off what ai says you"
+    },
+    {
+      "timestamp": [
+        181.92,
+        193.0
+      ],
+      "text": " You know, AI is taking over so many businesses, jobs and whatnot here as a means of a so-called leadership role here, it would not work whatsoever, at least for me."
+    }
+  ]
+}

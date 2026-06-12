@@ -1,0 +1,164 @@
+{
+  "audio_file": "697cd0433f63f30292b20c1b_audio_ranking_explanation_1780404642286.webm",
+  "transcript": " The reason for my preferred with being number one being futurist, the second one being moral, the third one being modern, the fourth one being primitivist, number five being AI-centered, number six institutional, and seven religious. My religious is my least because I feel like a lot of today's people like to use religion to be controlling and nasty and unkind to people. You know, I don't believe that if God was a god or a goddess was a goddess, I don't believe that they would. I think they follow just rules that they make on their own and that they believe that it's right, but really aren't right. So religious utopia, to me, faith-based order, I would definitely not want to go with because there's a lot of different religions out here that go by different things. You got Wicca, you got Christianity, you got Hinduism, you got Buddhism. So you can't sit there and, you know, focus on one specific religious groups. You got to think about all religious groups in this matter. So it's, I would say my religious utopia would be at the bottom. I don't think that I would like to go about, you know, faith-based order that way. But I really believe that the futurist would be awesome as well as the moral and modern. I do like AI-centered, but that's a little bit too crazy. I think that humans should be in control of data-driven governance. And then institutional, like that's what we have now. And obviously, it really doesn't work half the time because people still break the law. And there's so many people that are in jail and in prison for breaking the law. So they're obviously, I mean, it works for the most part, but a lot of people don't like following law. So it just depends on the person. So that is my take on that. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 27.350584,
+  "timestamp": "2026-06-08T08:57:41.435473",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.76
+      ],
+      "text": " The reason for my preferred with being number one being futurist, the second one being moral, the third one being modern, the fourth one being primitivist, number five being AI-centered, number six institutional, and seven religious."
+    },
+    {
+      "timestamp": [
+        18.76,
+        32.14
+      ],
+      "text": " My religious is my least because I feel like a lot of today's people like to use religion to be controlling and nasty and unkind to people."
+    },
+    {
+      "timestamp": [
+        33.14,
+        41.9
+      ],
+      "text": " You know, I don't believe that if God was a god or a goddess was a goddess, I don't believe that they would."
+    },
+    {
+      "timestamp": [
+        42.42,
+        48.54
+      ],
+      "text": " I think they follow just rules that they make on their own and that they believe that it's right, but really aren't right."
+    },
+    {
+      "timestamp": [
+        48.76,
+        53.64
+      ],
+      "text": " So religious utopia, to me, faith-based order, I would definitely not want to go with because"
+    },
+    {
+      "timestamp": [
+        53.64,
+        58.54
+      ],
+      "text": " there's a lot of different religions out here that go by different things."
+    },
+    {
+      "timestamp": [
+        58.54,
+        62.74
+      ],
+      "text": " You got Wicca, you got Christianity, you got Hinduism, you got Buddhism."
+    },
+    {
+      "timestamp": [
+        63.3,
+        68.78
+      ],
+      "text": " So you can't sit there and, you know, focus on one specific religious groups."
+    },
+    {
+      "timestamp": [
+        68.96,
+        71.58
+      ],
+      "text": " You got to think about all religious groups in this matter."
+    },
+    {
+      "timestamp": [
+        72.08,
+        75.08
+      ],
+      "text": " So it's, I would say my religious utopia would be at the bottom."
+    },
+    {
+      "timestamp": [
+        75.26,
+        75.08
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        79.86,
+        79.96
+      ],
+      "text": " I don't think that I would like to go about, you know, faith-based order that way."
+    },
+    {
+      "timestamp": [
+        85.58,
+        85.9
+      ],
+      "text": " But I really believe that the futurist would be awesome as well as the moral and modern."
+    },
+    {
+      "timestamp": [
+        89.1,
+        90.02
+      ],
+      "text": " I do like AI-centered, but that's a little bit too crazy."
+    },
+    {
+      "timestamp": [
+        94.62,
+        98.36
+      ],
+      "text": " I think that humans should be in control of data-driven governance. And then institutional, like that's what we have now."
+    },
+    {
+      "timestamp": [
+        98.56,
+        101.94
+      ],
+      "text": " And obviously, it really doesn't work half the time because people still break the law."
+    },
+    {
+      "timestamp": [
+        102.0,
+        101.94
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        105.62,
+        106.06
+      ],
+      "text": " And there's so many people that are in jail and in prison for breaking the law."
+    },
+    {
+      "timestamp": [
+        111.62,
+        112.44
+      ],
+      "text": " So they're obviously, I mean, it works for the most part, but a lot of people don't like following law."
+    },
+    {
+      "timestamp": [
+        112.54,
+        114.5
+      ],
+      "text": " So it just depends on the person."
+    },
+    {
+      "timestamp": [
+        114.84,
+        116.58
+      ],
+      "text": " So that is my take on that."
+    },
+    {
+      "timestamp": [
+        117.08,
+        117.7
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audio_file": "65f1d783d4cbe20c636b813c_audio_missing_utopia_1780420673697.webm",
+  "transcript": " I honestly have absolutely no idea. I could not tell you.",
+  "language": "unknown",
+  "processing_time_seconds": 4.791231,
+  "timestamp": "2026-06-08T08:32:58.430255",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        2.68
+      ],
+      "text": " I honestly have absolutely no idea."
+    },
+    {
+      "timestamp": [
+        3.48,
+        5.52
+      ],
+      "text": " I could not tell you."
+    }
+  ]
+}

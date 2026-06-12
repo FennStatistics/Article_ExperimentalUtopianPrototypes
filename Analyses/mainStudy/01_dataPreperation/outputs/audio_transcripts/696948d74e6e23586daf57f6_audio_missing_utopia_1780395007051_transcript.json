@@ -1,0 +1,108 @@
+{
+  "audio_file": "696948d74e6e23586daf57f6_audio_missing_utopia_1780395007051.webm",
+  "transcript": " I think that all seven of the societies were too focused on one thing. I think that some combination of a few of them is the actual best answer. So I strongly believe, and I'm, I'm Democrat. I don't know. I, it's interesting about, I'm saying this and I don't know if I should, if it like goes against my beliefs a little bit, but rule and order is super important laws and people to enforce them. Um, I think that that's really important. Now in the, The society you mentioned about law and order, it said that consequences were transparent and severe or something along those lines. That's taking it too far. But I do think that you need to have some overarching institution that's governing the people and making sure that they follow laws because people are innately programmed to resist laws. And laws are there for a reason. So I think focusing on science and innovation is a great option. I think it should be the main option, but all of the other ones have little bits of importance. So even like the green sustainability one, like eventually you're going to need, even for science and innovation, you need to make sure that you have resources. And if they're limited, then you need to portion them so that you can continue to innovate for years to come and you don't just use all of the resources that you have. So my answer is the combination of most of them is the right answer.",
+  "language": "unknown",
+  "processing_time_seconds": 21.684011,
+  "timestamp": "2026-06-08T08:54:38.403474",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.6
+      ],
+      "text": " I think that all seven of the societies were too focused on one thing. I think that some"
+    },
+    {
+      "timestamp": [
+        6.6,
+        13.58
+      ],
+      "text": " combination of a few of them is the actual best answer. So I strongly believe, and I'm,"
+    },
+    {
+      "timestamp": [
+        13.58,
+        17.74
+      ],
+      "text": " I'm Democrat. I don't know. I, it's interesting about, I'm saying this and I don't know if I"
+    },
+    {
+      "timestamp": [
+        17.74,
+        23.24
+      ],
+      "text": " should, if it like goes against my beliefs a little bit, but rule and order is super important"
+    },
+    {
+      "timestamp": [
+        23.24,
+        29.04
+      ],
+      "text": " laws and people to enforce them. Um, I think that that's really important. Now in the,"
+    },
+    {
+      "timestamp": [
+        29.04,
+        36.08
+      ],
+      "text": " The society you mentioned about law and order, it said that consequences were transparent and severe or something along those lines."
+    },
+    {
+      "timestamp": [
+        36.72,
+        38.14
+      ],
+      "text": " That's taking it too far."
+    },
+    {
+      "timestamp": [
+        38.14,
+        54.64
+      ],
+      "text": " But I do think that you need to have some overarching institution that's governing the people and making sure that they follow laws because people are innately programmed to resist laws."
+    },
+    {
+      "timestamp": [
+        55.18,
+        56.38
+      ],
+      "text": " And laws are there for a reason."
+    },
+    {
+      "timestamp": [
+        56.58,
+        56.38
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        62.02,
+        62.16
+      ],
+      "text": " So I think focusing on science and innovation is a great option."
+    },
+    {
+      "timestamp": [
+        68.18,
+        68.56
+      ],
+      "text": " I think it should be the main option, but all of the other ones have little bits of importance."
+    },
+    {
+      "timestamp": [
+        78.0,
+        89.24
+      ],
+      "text": " So even like the green sustainability one, like eventually you're going to need, even for science and innovation, you need to make sure that you have resources. And if they're limited, then you need to portion them so that you can continue to innovate for years to come and you don't just use all of the resources that you have."
+    },
+    {
+      "timestamp": [
+        89.32,
+        93.84
+      ],
+      "text": " So my answer is the combination of most of them is the right answer."
+    }
+  ]
+}

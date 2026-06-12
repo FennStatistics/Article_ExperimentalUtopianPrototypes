@@ -1,0 +1,213 @@
+{
+  "audio_file": "69e83c91e2420c0266697081_audio_ranking_explanation_1780397644122.webm",
+  "transcript": " Okay. So I guess I'll start from the bottom because that's easiest. I put religious utopia last because that sounds like my nightmare. I'm an atheist. I'm not religious at all. I actually have a lot of prejudice against organized religion, so that sounds like, to me, my personal hell. um the and then six was institutional utopia rule of law um that just reading that made me question like what kind of laws the society would be following um I think that law legality does not equal morality so that thinking about that made me think that there would probably be some laws that are immoral that we wouldn't want to follow um and then fifth ai centered i just don't trust ai to run society or and to run society fairly although i trust i guess i would trust ai a little more than religion and strict governance but I still don't trust it that much that's why I put it fifth uh fourth primitivist so that sounds like maybe would actually be kind of nice maybe people would be happier but I don't know I've maybe I feel like I'm just comfortable in the with like the technological advances that I live with now like i mean i don't know maybe indoor plumbing would be still considered primitive or low tech in this utopia but if it's not i would be pretty upset about that um and a lot of the you know entertainment nowadays is pretty high tech like i don't know streaming services movie theaters that I like to go to I don't know I feel like I wouldn't I wouldn't definitely wouldn't hate it as much as the bottom three but I don't know I'd be missing some things in my life now that I enjoy uh moral commonwealths I put this at number three because I think it would be very nice if it was realistic but I just I don't think it is um And I do wish that people could just operate day-to-day life with a clear sense of right and wrong, I guess, for lack of a better term, or thinking about distributing resources unselfishly and for the good of the community as a whole. um that would be nice I just don't think it is realistic at all um I guess none of these are realistic but number two put futurist utopia because I think science and innovation or mostly science uh is the number one way to improve society so I think if we could have a really science and facts based society um we'd be doing pretty well um but modern green utopia edges out that one because i think that's what we need to do to conserve our earth and our resources i know that all the um scenarios started with there was a crisis and resources are scarce um so i think if that is something that happened and that's kind of where we're heading now, we would have to be as sustainable as possible and probably give up a lot of our comforts, like going to the coffee shop every day and getting a non-reusable rather plastic cup and stuff like that. So I think that would be the the best option out of all of these in living in harmony with our earth is the best option",
+  "language": "unknown",
+  "processing_time_seconds": 49.71657,
+  "timestamp": "2026-06-08T09:42:57.012859",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        25.32
+      ],
+      "text": " Okay. So I guess I'll start from the bottom because that's easiest. I put religious utopia last because that sounds like my nightmare. I'm an atheist. I'm not religious at all. I actually have a lot of prejudice against organized religion, so that sounds like, to me, my personal hell."
+    },
+    {
+      "timestamp": [
+        27.2,
+        25.32
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.5,
+        41.1
+      ],
+      "text": " um the and then six was institutional utopia rule of law um that just reading that made me question like what kind of laws the society would be following"
+    },
+    {
+      "timestamp": [
+        41.1,
+        52.24
+      ],
+      "text": " um I think that law legality does not equal morality so that thinking about that made me"
+    },
+    {
+      "timestamp": [
+        52.24,
+        58.92
+      ],
+      "text": " think that there would probably be some laws that are immoral that we wouldn't want to follow"
+    },
+    {
+      "timestamp": [
+        58.92,
+        71.04
+      ],
+      "text": " um and then fifth ai centered i just don't trust ai to run society or and to run society fairly"
+    },
+    {
+      "timestamp": [
+        71.04,
+        77.4
+      ],
+      "text": " although i trust i guess i would trust ai a little more than religion and strict governance"
+    },
+    {
+      "timestamp": [
+        77.4,
+        86.26
+      ],
+      "text": " but I still don't trust it that much that's why I put it fifth uh fourth primitivist so that sounds"
+    },
+    {
+      "timestamp": [
+        86.26,
+        92.86
+      ],
+      "text": " like maybe would actually be kind of nice maybe people would be happier but I don't know I've"
+    },
+    {
+      "timestamp": [
+        92.86,
+        101.92
+      ],
+      "text": " maybe I feel like I'm just comfortable in the with like the technological advances that I live"
+    },
+    {
+      "timestamp": [
+        101.92,
+        110.2
+      ],
+      "text": " with now like i mean i don't know maybe indoor plumbing would be still considered primitive"
+    },
+    {
+      "timestamp": [
+        110.2,
+        118.66
+      ],
+      "text": " or low tech in this utopia but if it's not i would be pretty upset about that um and a lot of the"
+    },
+    {
+      "timestamp": [
+        118.66,
+        124.8
+      ],
+      "text": " you know entertainment nowadays is pretty high tech like i don't know streaming services"
+    },
+    {
+      "timestamp": [
+        124.8,
+        130.68
+      ],
+      "text": " movie theaters that I like to go to I don't know I feel like I wouldn't"
+    },
+    {
+      "timestamp": [
+        134.02,
+        139.72
+      ],
+      "text": " I wouldn't definitely wouldn't hate it as much as the bottom three but I don't know I'd be"
+    },
+    {
+      "timestamp": [
+        139.72,
+        146.46
+      ],
+      "text": " missing some things in my life now that I enjoy uh moral commonwealths I put this at number three"
+    },
+    {
+      "timestamp": [
+        146.46,
+        151.74
+      ],
+      "text": " because I think it would be very nice if it was realistic but I just I don't think it is um"
+    },
+    {
+      "timestamp": [
+        151.74,
+        178.54
+      ],
+      "text": " And I do wish that people could just operate day-to-day life with a clear sense of right and wrong, I guess, for lack of a better term, or thinking about distributing resources unselfishly and for the good of the community as a whole."
+    },
+    {
+      "timestamp": [
+        179.16,
+        178.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        185.36,
+        194.04
+      ],
+      "text": " um that would be nice I just don't think it is realistic at all um I guess none of these are realistic but number two put futurist utopia because I think science and innovation or mostly"
+    },
+    {
+      "timestamp": [
+        194.04,
+        201.7
+      ],
+      "text": " science uh is the number one way to improve society so I think if we could have a really"
+    },
+    {
+      "timestamp": [
+        201.7,
+        213.02
+      ],
+      "text": " science and facts based society um we'd be doing pretty well um but modern green utopia edges out"
+    },
+    {
+      "timestamp": [
+        213.02,
+        223.14
+      ],
+      "text": " that one because i think that's what we need to do to conserve our earth and our resources i know"
+    },
+    {
+      "timestamp": [
+        223.14,
+        231.6
+      ],
+      "text": " that all the um scenarios started with there was a crisis and resources are scarce um so i think"
+    },
+    {
+      "timestamp": [
+        231.6,
+        237.9
+      ],
+      "text": " if that is something that happened and that's kind of where we're heading now, we would have"
+    },
+    {
+      "timestamp": [
+        237.9,
+        245.58
+      ],
+      "text": " to be as sustainable as possible and probably give up a lot of our comforts, like going to the coffee"
+    },
+    {
+      "timestamp": [
+        245.58,
+        254.3
+      ],
+      "text": " shop every day and getting a non-reusable rather plastic cup and stuff like that. So I think that"
+    },
+    {
+      "timestamp": [
+        254.3,
+        264.8
+      ],
+      "text": " would be the the best option out of all of these in living in harmony with our earth is the best"
+    },
+    {
+      "timestamp": [
+        264.8,
+        265.18
+      ],
+      "text": " option"
+    }
+  ]
+}

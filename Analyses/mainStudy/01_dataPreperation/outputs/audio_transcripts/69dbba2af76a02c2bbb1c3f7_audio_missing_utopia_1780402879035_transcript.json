@@ -1,0 +1,17 @@
+{
+  "audio_file": "69dbba2af76a02c2bbb1c3f7_audio_missing_utopia_1780402879035.webm",
+  "transcript": " I want the type of future society that is innovative but protects the earth at the same time so it's innovative and like green at the same time.",
+  "language": "unknown",
+  "processing_time_seconds": 5.228041,
+  "timestamp": "2026-06-08T09:35:15.373168",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.62
+      ],
+      "text": " I want the type of future society that is innovative but protects the earth at the same time so it's innovative and like green at the same time."
+    }
+  ]
+}

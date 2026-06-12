@@ -1,0 +1,276 @@
+{
+  "audio_file": "6a00eb1bf01dccf542628044_audio_ranking_explanation_1780409911887.webm",
+  "transcript": " i rank them based on what actually like feels like uh livable to me i lean down like towards like the societies that are like more balanced the ones that actually like care about having sustainability and like fairness for the people and without being just too extreme and i put the like the really strict or like the more super like controlling ones like lower like the heavy ai one um because they just feel too they're just that it's just too extreme and for the religious and the low-tech ones ended up being like for me more towards the bottom because they limit kind of they limit the freedom of of it just it just doesn't fit if where i would want to live uh basically i just chose those that feel like more just for the best for the humans and like more workable Thank you. Thank you. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye. Bye-bye.",
+  "language": "unknown",
+  "processing_time_seconds": 20.024106,
+  "timestamp": "2026-06-08T10:16:54.663584",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.68
+      ],
+      "text": " i rank them based on what actually like feels like uh livable to me i lean down like towards"
+    },
+    {
+      "timestamp": [
+        6.68,
+        12.36
+      ],
+      "text": " like the societies that are like more balanced the ones that actually like care about having"
+    },
+    {
+      "timestamp": [
+        12.36,
+        19.5
+      ],
+      "text": " sustainability and like fairness for the people and without being just too extreme and i put the"
+    },
+    {
+      "timestamp": [
+        19.5,
+        24.92
+      ],
+      "text": " like the really strict or like the more super like controlling ones like lower like the heavy ai one"
+    },
+    {
+      "timestamp": [
+        24.92,
+        32.96
+      ],
+      "text": " um because they just feel too they're just that it's just too extreme and for the religious and"
+    },
+    {
+      "timestamp": [
+        32.96,
+        37.56
+      ],
+      "text": " the low-tech ones ended up being like for me more towards the bottom because they limit kind of they"
+    },
+    {
+      "timestamp": [
+        37.56,
+        45.44
+      ],
+      "text": " limit the freedom of of it just it just doesn't fit if where i would want to live uh basically i"
+    },
+    {
+      "timestamp": [
+        45.44,
+        52.9
+      ],
+      "text": " just chose those that feel like more just for the best for the humans and like more workable"
+    },
+    {
+      "timestamp": [
+        52.9,
+        53.9
+      ],
+      "text": " Thank you."
+    },
+    {
+      "timestamp": [
+        53.9,
+        54.9
+      ],
+      "text": " Thank you."
+    },
+    {
+      "timestamp": [
+        54.9,
+        55.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        55.9,
+        56.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        56.9,
+        57.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        57.9,
+        58.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        58.9,
+        59.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        59.9,
+        60.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        60.9,
+        61.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        61.9,
+        62.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        62.9,
+        63.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        63.9,
+        64.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        64.9,
+        65.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        65.9,
+        66.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        66.9,
+        67.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        67.9,
+        68.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        68.9,
+        69.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        69.9,
+        70.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        70.9,
+        71.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        71.9,
+        72.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        72.9,
+        73.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        73.9,
+        74.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        74.9,
+        75.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        75.9,
+        76.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        76.9,
+        77.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        77.9,
+        78.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        78.9,
+        79.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        79.9,
+        80.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        80.9,
+        81.9
+      ],
+      "text": " Bye-bye."
+    },
+    {
+      "timestamp": [
+        81.9,
+        82.9
+      ],
+      "text": " Bye-bye."
+    }
+  ]
+}

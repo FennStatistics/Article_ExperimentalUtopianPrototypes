@@ -1,0 +1,45 @@
+{
+  "audio_file": "675ebd1fb3aef884a42df656_audio_ranking_explanation_1780411472016.webm",
+  "transcript": " The reason why I chose A.I. Center Utopia first is most prefers because the government is very important. Data-driven government is important. And then the other ones, I feel like they're semi-important. I just think having site interventions first, second one, because I think that's going to be important in the near future. rule of law is very important faith-based order that's also important everyone um should have that inner morality is something that's the case with me low tech a small scale is not really something i think is least preferred because i think that's not going to be something that's going to be very important in the future",
+  "language": "unknown",
+  "processing_time_seconds": 10.95293,
+  "timestamp": "2026-06-08T08:46:24.827035",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.82
+      ],
+      "text": " The reason why I chose A.I. Center Utopia first is most prefers because the government is very important. Data-driven government is important. And then the other ones, I feel like they're semi-important. I just think having site interventions first, second one, because I think that's going to be important in the near future."
+    },
+    {
+      "timestamp": [
+        20.6,
+        19.82
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.5,
+        34.46
+      ],
+      "text": " rule of law is very important faith-based order that's also important everyone um should have that inner morality is something that's the case with me low tech a small scale is not really"
+    },
+    {
+      "timestamp": [
+        34.46,
+        38.64
+      ],
+      "text": " something i think is least preferred because i think that's not going to be something that's"
+    },
+    {
+      "timestamp": [
+        38.64,
+        40.38
+      ],
+      "text": " going to be very important in the future"
+    }
+  ]
+}

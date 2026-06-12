@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a0af583f35a9221994f91cb_audio_missing_utopia_1780419561047.webm",
+  "transcript": " i think my main vision of the utopian society um the main thing i think that was missing was just peace um and just living with um i guess loving thy neighbor i guess would be in a way um and then also using science-backed data to help run the society",
+  "language": "unknown",
+  "processing_time_seconds": 6.155516,
+  "timestamp": "2026-06-08T10:36:04.516655",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        8.24
+      ],
+      "text": " i think my main vision of the utopian society um the main thing i think that was missing was just"
+    },
+    {
+      "timestamp": [
+        8.24,
+        17.2
+      ],
+      "text": " peace um and just living with um i guess loving thy neighbor i guess would be in a way"
+    },
+    {
+      "timestamp": [
+        17.2,
+        23.76
+      ],
+      "text": " um and then also using science-backed data to help run the society"
+    }
+  ]
+}

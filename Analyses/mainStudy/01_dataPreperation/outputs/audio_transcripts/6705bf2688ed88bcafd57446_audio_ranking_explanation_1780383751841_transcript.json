@@ -1,0 +1,143 @@
+{
+  "audio_file": "6705bf2688ed88bcafd57446_audio_ranking_explanation_1780383751841.webm",
+  "transcript": " I ranked the societies in my list because I felt like that the most important thing in society is development and advancement. And for me, that really depends on progressing science and innovation, which is why I chose futuristic utopia for the first choice. And because sustainability is a thing of progression and helps secure the society and creating a better environment, I feel like that is definitely a number two for advancement. As well as three, it's more of a moral background of the common law of what is right from wrong, which again is a very accessible and acceptable, more simplistic route of creating a balanced society. not necessarily thriving for improvement and development. And as well as data-driven governance, I feel like that definitely is helping out with progressing through experience. And for the role of law, of course, I chose it for number five because law itself can help keep the norm of a society and help it progress into successful experiences because there's a low probability of any issues and problems coming up because of law. And then I chose for the last two, for the lower economies I didn't really like is the low tech and small skill. I feel like that you're really limiting yourself on the amount of improvement and development that you're able to experience as well as improving your own society because you're sticking to just the general lifestyle of a society. and as lastly I chose religious utopia as the least one because I feel like religion itself is very limited to what they accept and they oppose for their society so there's going to be a lot of conflict and disagreements with what is allowed and what isn't which also is less science based which as which is kind of in hand with develop with technology which is a major theme for development which they wouldn't have because it's based on religion",
+  "language": "unknown",
+  "processing_time_seconds": 36.994466,
+  "timestamp": "2026-06-08T08:42:12.349368",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.62
+      ],
+      "text": " I ranked the societies in my list because I felt like that the most important thing in society is development and advancement."
+    },
+    {
+      "timestamp": [
+        19.62,
+        35.96
+      ],
+      "text": " And for me, that really depends on progressing science and innovation, which is why I chose futuristic utopia for the first choice."
+    },
+    {
+      "timestamp": [
+        35.96,
+        57.52
+      ],
+      "text": " And because sustainability is a thing of progression and helps secure the society and creating a better environment, I feel like that is definitely a number two for advancement."
+    },
+    {
+      "timestamp": [
+        57.52,
+        83.5
+      ],
+      "text": " As well as three, it's more of a moral background of the common law of what is right from wrong, which again is a very accessible and acceptable, more simplistic route of creating a balanced society."
+    },
+    {
+      "timestamp": [
+        83.5,
+        90.74
+      ],
+      "text": " not necessarily thriving for improvement and development."
+    },
+    {
+      "timestamp": [
+        91.56,
+        95.18
+      ],
+      "text": " And as well as data-driven governance,"
+    },
+    {
+      "timestamp": [
+        95.64,
+        103.0
+      ],
+      "text": " I feel like that definitely is helping out with progressing through experience."
+    },
+    {
+      "timestamp": [
+        104.14,
+        110.66
+      ],
+      "text": " And for the role of law, of course, I chose it for number five"
+    },
+    {
+      "timestamp": [
+        110.66,
+        117.0
+      ],
+      "text": " because law itself can help keep the norm of a society"
+    },
+    {
+      "timestamp": [
+        117.0,
+        125.8
+      ],
+      "text": " and help it progress into successful experiences"
+    },
+    {
+      "timestamp": [
+        125.8,
+        136.24
+      ],
+      "text": " because there's a low probability of any issues and problems coming up because of law."
+    },
+    {
+      "timestamp": [
+        136.24,
+        148.34
+      ],
+      "text": " And then I chose for the last two, for the lower economies I didn't really like is the low tech and small skill."
+    },
+    {
+      "timestamp": [
+        148.34,
+        178.32
+      ],
+      "text": " I feel like that you're really limiting yourself on the amount of improvement and development that you're able to experience as well as improving your own society because you're sticking to just the general lifestyle of a society."
+    },
+    {
+      "timestamp": [
+        178.34,
+        187.42
+      ],
+      "text": " and as lastly I chose religious utopia as the least one because I feel like religion itself"
+    },
+    {
+      "timestamp": [
+        187.42,
+        195.02
+      ],
+      "text": " is very limited to what they accept and they oppose for their society so there's going to"
+    },
+    {
+      "timestamp": [
+        195.02,
+        202.46
+      ],
+      "text": " be a lot of conflict and disagreements with what is allowed and what isn't which also is less"
+    },
+    {
+      "timestamp": [
+        202.46,
+        212.38
+      ],
+      "text": " science based which as which is kind of in hand with develop with technology"
+    },
+    {
+      "timestamp": [
+        212.38,
+        219.56
+      ],
+      "text": " which is a major theme for development which they wouldn't have because it's"
+    },
+    {
+      "timestamp": [
+        219.56,
+        222.64
+      ],
+      "text": " based on religion"
+    }
+  ]
+}

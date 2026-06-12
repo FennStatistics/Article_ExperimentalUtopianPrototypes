@@ -1,0 +1,52 @@
+{
+  "audio_file": "65e6edd1a876f1d8487f379b_audio_missing_utopia_1780378764659.webm",
+  "transcript": " i would say that this is probably already covered in the inner morality society but i just believe that the ideal society would have us all take care of each other and there was no need for anybody to work themselves to the point of just exhaustion and needing to work to survive you know we would all just be able to thrive together and we wouldn't absolutely need to work hard every day 40 hours a week just to get by",
+  "language": "unknown",
+  "processing_time_seconds": 9.446081,
+  "timestamp": "2026-06-08T08:32:43.885996",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.8
+      ],
+      "text": " i would say that this is probably already covered in the inner morality society but i just believe"
+    },
+    {
+      "timestamp": [
+        7.8,
+        13.8
+      ],
+      "text": " that the ideal society would have us all take care of each other and there was no need for anybody to"
+    },
+    {
+      "timestamp": [
+        13.8,
+        21.32
+      ],
+      "text": " work themselves to the point of just exhaustion and needing to work to survive you know we would"
+    },
+    {
+      "timestamp": [
+        21.32,
+        26.88
+      ],
+      "text": " all just be able to thrive together and we wouldn't absolutely need to work hard every day"
+    },
+    {
+      "timestamp": [
+        26.88,
+        28.54
+      ],
+      "text": " 40 hours a week"
+    },
+    {
+      "timestamp": [
+        28.54,
+        29.7
+      ],
+      "text": " just to get by"
+    }
+  ]
+}

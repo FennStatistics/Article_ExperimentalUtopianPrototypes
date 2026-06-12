@@ -1,0 +1,108 @@
+{
+  "audio_file": "69bcd49ce95af67521ac752f_audio_ranking_explanation_1780410661060.webm",
+  "transcript": " so i started with modern green utopia because that seemed to tackle the most important issues that i saw with the scenario with you know limited resources i think caring about sustainability and connection with nature as you grow your technologies as well i like the sound of that then primivist primitivist utopia i liked as well just saying goodbye to tech kind of reminds me of the video game final fantasy 10 um and then the moral commonwealth sounded nice kind of where everyone is ruled by their inner morality i think it's probably not realistic but i liked the idea of it and then science and innovation leading everything for number four uh i think that one will become dystopian pretty quickly but i kind of have it in the middle because there's pros and cons with it ai centered utopia at number five i think it offloads a lot of the thinking and work from the humans to the ai but there's going to be huge problems with that with people getting false flags it's just the matrix all over again and then rule of law is kind of what we already have number six so that's like fine i guess but not not that fun then really religious utopia at as the worst i feel like we've had that before and there's a lot of fighting that goes on with that",
+  "language": "unknown",
+  "processing_time_seconds": 19.876296,
+  "timestamp": "2026-06-08T09:18:58.664673",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.44
+      ],
+      "text": " so i started with modern green utopia because that seemed to tackle the most important issues"
+    },
+    {
+      "timestamp": [
+        10.44,
+        18.7
+      ],
+      "text": " that i saw with the scenario with you know limited resources i think caring about sustainability and"
+    },
+    {
+      "timestamp": [
+        18.7,
+        25.7
+      ],
+      "text": " connection with nature as you grow your technologies as well i like the sound of that"
+    },
+    {
+      "timestamp": [
+        25.7,
+        34.14
+      ],
+      "text": " then primivist primitivist utopia i liked as well just saying goodbye to tech"
+    },
+    {
+      "timestamp": [
+        34.14,
+        42.52
+      ],
+      "text": " kind of reminds me of the video game final fantasy 10 um and then the moral commonwealth"
+    },
+    {
+      "timestamp": [
+        42.52,
+        47.4
+      ],
+      "text": " sounded nice kind of where everyone is ruled by their inner morality i think it's probably"
+    },
+    {
+      "timestamp": [
+        47.4,
+        53.2
+      ],
+      "text": " not realistic but i liked the idea of it and then science and innovation leading everything for"
+    },
+    {
+      "timestamp": [
+        53.2,
+        60.66
+      ],
+      "text": " number four uh i think that one will become dystopian pretty quickly but i kind of have it"
+    },
+    {
+      "timestamp": [
+        60.66,
+        68.96
+      ],
+      "text": " in the middle because there's pros and cons with it ai centered utopia at number five i think"
+    },
+    {
+      "timestamp": [
+        68.96,
+        77.02
+      ],
+      "text": " it offloads a lot of the thinking and work from the humans to the ai but there's going to be huge"
+    },
+    {
+      "timestamp": [
+        77.02,
+        83.5
+      ],
+      "text": " problems with that with people getting false flags it's just the matrix all over again"
+    },
+    {
+      "timestamp": [
+        85.18,
+        91.42
+      ],
+      "text": " and then rule of law is kind of what we already have number six so that's like fine i guess but"
+    },
+    {
+      "timestamp": [
+        91.42,
+        99.02
+      ],
+      "text": " not not that fun then really religious utopia at as the worst i feel like we've had that before"
+    },
+    {
+      "timestamp": [
+        99.02,
+        104.14
+      ],
+      "text": " and there's a lot of fighting that goes on with that"
+    }
+  ]
+}

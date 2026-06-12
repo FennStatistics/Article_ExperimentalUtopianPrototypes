@@ -1,0 +1,45 @@
+{
+  "audio_file": "699313b98002a6139c85af1a_audio_missing_utopia_1780407691599.webm",
+  "transcript": " i don't feel that any of them were missing i feel like they were all there um i don't think there was anything missing from them neither i think um it would be great to see people going you know back to their their morals and their conscience and at the same time trying to be um you know in line with the ecosystem around them in order not to overuse resources um and i think that we shouldn't be overusing tech the way that we currently are",
+  "language": "unknown",
+  "processing_time_seconds": 10.404591,
+  "timestamp": "2026-06-08T09:04:32.412041",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.46
+      ],
+      "text": " i don't feel that any of them were missing i feel like they were all there um i don't think"
+    },
+    {
+      "timestamp": [
+        7.46,
+        13.82
+      ],
+      "text": " there was anything missing from them neither i think um it would be great to see people going"
+    },
+    {
+      "timestamp": [
+        13.82,
+        21.84
+      ],
+      "text": " you know back to their their morals and their conscience and at the same time trying to be"
+    },
+    {
+      "timestamp": [
+        21.84,
+        31.98
+      ],
+      "text": " um you know in line with the ecosystem around them in order not to overuse resources"
+    },
+    {
+      "timestamp": [
+        31.98,
+        40.26
+      ],
+      "text": " um and i think that we shouldn't be overusing tech the way that we currently are"
+    }
+  ]
+}

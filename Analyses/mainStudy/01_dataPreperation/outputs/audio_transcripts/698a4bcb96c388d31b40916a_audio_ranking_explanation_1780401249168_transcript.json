@@ -1,0 +1,31 @@
+{
+  "audio_file": "698a4bcb96c388d31b40916a_audio_ranking_explanation_1780401249168.webm",
+  "transcript": " I think that I put religious and the institutional last because I feel like these are the worst ones to try. The futuristic and AI I put in the middle because I'm not too sure how I feel about it quite yet. The low tech, the inner morality, and the sustainable are my top three because I feel like those are the best ways we can improve our world.",
+  "language": "unknown",
+  "processing_time_seconds": 6.764686,
+  "timestamp": "2026-06-08T09:02:15.574401",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.0
+      ],
+      "text": " I think that I put religious and the institutional last because I feel like these are the worst ones to try."
+    },
+    {
+      "timestamp": [
+        7.9,
+        14.0
+      ],
+      "text": " The futuristic and AI I put in the middle because I'm not too sure how I feel about it quite yet."
+    },
+    {
+      "timestamp": [
+        14.28,
+        23.82
+      ],
+      "text": " The low tech, the inner morality, and the sustainable are my top three because I feel like those are the best ways we can improve our world."
+    }
+  ]
+}

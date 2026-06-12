@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a187b2c3dbf26183135f1b0_audio_missing_utopia_1780432736116.webm",
+  "transcript": " yeah okay yeah so looking at all seven I feel like they have one big thing in common they're all top down like someone or something is in charge AI scientists law even faith it's all designed from above what I think is missing is something more bottom-up more local neighbors making decision together tech that actually helps people instead of controlling them not primitive just a human scale voluntary no single Ethiopian plan forced on everyone that's the kind of future and actually want to live in",
+  "language": "unknown",
+  "processing_time_seconds": 9.851879,
+  "timestamp": "2026-06-08T11:10:21.708860",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.44
+      ],
+      "text": " yeah okay yeah so looking at all seven I feel like they have one big thing in common they're"
+    },
+    {
+      "timestamp": [
+        13.44,
+        23.28
+      ],
+      "text": " all top down like someone or something is in charge AI scientists law even faith it's all"
+    },
+    {
+      "timestamp": [
+        23.28,
+        29.88
+      ],
+      "text": " designed from above what I think is missing is something more bottom-up more local"
+    },
+    {
+      "timestamp": [
+        29.88,
+        36.12
+      ],
+      "text": " neighbors making decision together tech that actually helps people instead of"
+    },
+    {
+      "timestamp": [
+        36.12,
+        43.62
+      ],
+      "text": " controlling them not primitive just a human scale voluntary no single"
+    },
+    {
+      "timestamp": [
+        43.62,
+        50.7
+      ],
+      "text": " Ethiopian plan forced on everyone that's the kind of future and actually want to"
+    },
+    {
+      "timestamp": [
+        50.7,
+        53.0
+      ],
+      "text": " live in"
+    }
+  ]
+}

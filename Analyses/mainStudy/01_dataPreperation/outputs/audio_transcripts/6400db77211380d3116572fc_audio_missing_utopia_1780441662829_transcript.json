@@ -1,0 +1,143 @@
+{
+  "audio_file": "6400db77211380d3116572fc_audio_missing_utopia_1780441662829.webm",
+  "transcript": " This is very difficult. I feel like these seven societies definitely encompass kind of a general societal ideals. A justice based society is the first thing that comes to mind, kind of a penal colony type society in which work and labor is very hard. Laws are very strict. Everything is prosecuted immediately. There are very strict punishments for basically any law breaking. And justice is exacted for every crime committed. It's kind of a society in which all crimes you commit, you have to actually atone for and pay for right then. And that comes from things done in your house or jaywalking and that. It's kind of a cross between the AI society and the law society, but I feel that that kind of penal colony, strict social order was somewhat missing from those societies. So I think a strict society in which there's strict laws, but strict justice requirements and everything is built around exacting justice out of people for their crimes is what I think would be missing. um i think also that there's there should be like a you basically live out on your own and you're trusted to um process your crimes appropriately and take all the appropriate punishment or you're like forced to work and subsist in a penal colony so you're very much like almost enslaved that's kind of the society that i think is missing um but i do think those seven kind of represent most of those future societal and societal types. But I think justice society is what I was thinking of. So I kind of feel like halfway that that covered it all. And then like maybe a justice society, but I'm not really sure how to describe it in enough detail to answer this question.",
+  "language": "unknown",
+  "processing_time_seconds": 25.201313,
+  "timestamp": "2026-06-08T08:30:02.526705",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.0
+      ],
+      "text": " This is very difficult. I feel like these seven societies definitely encompass kind of a general societal ideals. A justice based society is the first thing that comes to mind, kind of a penal colony type society in which work and labor is very hard."
+    },
+    {
+      "timestamp": [
+        23.74,
+        23.78
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        25.06,
+        26.82
+      ],
+      "text": " Laws are very strict."
+    },
+    {
+      "timestamp": [
+        29.54,
+        29.94
+      ],
+      "text": " Everything is prosecuted immediately."
+    },
+    {
+      "timestamp": [
+        32.64,
+        33.96
+      ],
+      "text": " There are very strict punishments for basically any law breaking."
+    },
+    {
+      "timestamp": [
+        37.8,
+        38.52
+      ],
+      "text": " And justice is exacted for every crime committed."
+    },
+    {
+      "timestamp": [
+        43.86,
+        46.62
+      ],
+      "text": " It's kind of a society in which all crimes you commit, you have to actually atone for and pay for right then."
+    },
+    {
+      "timestamp": [
+        46.7,
+        50.06
+      ],
+      "text": " And that comes from things done in your house or jaywalking and that."
+    },
+    {
+      "timestamp": [
+        50.18,
+        50.06
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        61.96,
+        63.3
+      ],
+      "text": " It's kind of a cross between the AI society and the law society, but I feel that that kind of penal colony, strict social order was somewhat missing from those societies."
+    },
+    {
+      "timestamp": [
+        77.16,
+        79.16
+      ],
+      "text": " So I think a strict society in which there's strict laws, but strict justice requirements and everything is built around exacting justice out of people for their crimes is what I think would be missing."
+    },
+    {
+      "timestamp": [
+        77.16,
+        85.48
+      ],
+      "text": " um i think also that there's there should be like a you basically live out on your own"
+    },
+    {
+      "timestamp": [
+        85.48,
+        91.32
+      ],
+      "text": " and you're trusted to um process your crimes appropriately and take all the appropriate"
+    },
+    {
+      "timestamp": [
+        91.32,
+        96.52
+      ],
+      "text": " punishment or you're like forced to work and subsist in a penal colony so you're very much"
+    },
+    {
+      "timestamp": [
+        96.52,
+        104.14
+      ],
+      "text": " like almost enslaved that's kind of the society that i think is missing um but i do think those"
+    },
+    {
+      "timestamp": [
+        104.14,
+        112.0
+      ],
+      "text": " seven kind of represent most of those future societal and societal types. But I think justice"
+    },
+    {
+      "timestamp": [
+        112.0,
+        116.82
+      ],
+      "text": " society is what I was thinking of. So I kind of feel like halfway that that covered it all. And"
+    },
+    {
+      "timestamp": [
+        116.82,
+        121.64
+      ],
+      "text": " then like maybe a justice society, but I'm not really sure how to describe it in enough detail"
+    },
+    {
+      "timestamp": [
+        121.64,
+        123.18
+      ],
+      "text": " to answer this question."
+    }
+  ]
+}

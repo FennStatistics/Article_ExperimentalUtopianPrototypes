@@ -1,0 +1,38 @@
+{
+  "audio_file": "696560f45f4ef7a14a6e58d3_audio_missing_utopia_1780311252322.webm",
+  "transcript": " I would probably say, I don't think I really have one. I would probably say, if anything, I would combine the science and the religious society. I think those societies can truly interact and coexist together in one of the most beneficial ways.",
+  "language": "unknown",
+  "processing_time_seconds": 6.005021,
+  "timestamp": "2026-06-08T08:54:06.538705",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.4
+      ],
+      "text": " I would probably say, I don't think I really have one."
+    },
+    {
+      "timestamp": [
+        9.4,
+        18.04
+      ],
+      "text": " I would probably say, if anything, I would combine the science and the religious society."
+    },
+    {
+      "timestamp": [
+        18.04,
+        23.78
+      ],
+      "text": " I think those societies can truly interact and coexist together in one of the most beneficial"
+    },
+    {
+      "timestamp": [
+        23.78,
+        24.6
+      ],
+      "text": " ways."
+    }
+  ]
+}

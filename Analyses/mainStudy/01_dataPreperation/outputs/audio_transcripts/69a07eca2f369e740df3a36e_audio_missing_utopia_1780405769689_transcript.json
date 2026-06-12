@@ -1,0 +1,38 @@
+{
+  "audio_file": "69a07eca2f369e740df3a36e_audio_missing_utopia_1780405769689.webm",
+  "transcript": " I think most of them covered some important values and approaches. I think the best one would be to just combine the green utopia with the scientific and innovation. I think that would be a pretty ideal utopia and just keeping AI and religion out of that utopia I guess that would be a type of future society that I would enjoy",
+  "language": "unknown",
+  "processing_time_seconds": 8.837592,
+  "timestamp": "2026-06-08T09:08:47.040311",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.4
+      ],
+      "text": " I think most of them covered some important values and approaches. I think the best one"
+    },
+    {
+      "timestamp": [
+        8.4,
+        17.66
+      ],
+      "text": " would be to just combine the green utopia with the scientific and innovation. I think"
+    },
+    {
+      "timestamp": [
+        17.66,
+        30.84
+      ],
+      "text": " that would be a pretty ideal utopia and just keeping AI and religion out of that"
+    },
+    {
+      "timestamp": [
+        30.84,
+        42.16
+      ],
+      "text": " utopia I guess that would be a type of future society that I would enjoy"
+    }
+  ]
+}

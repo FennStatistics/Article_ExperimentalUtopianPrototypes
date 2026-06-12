@@ -1,0 +1,38 @@
+{
+  "audio_file": "610845efa0dd9c9da496039e_audio_ranking_explanation_1780329938809.webm",
+  "transcript": " Thank you. Thank you. Thank you. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 11.818459,
+  "timestamp": "2026-06-08T08:22:59.249620",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.98
+      ],
+      "text": " Thank you."
+    },
+    {
+      "timestamp": [
+        30.0,
+        59.98
+      ],
+      "text": " Thank you."
+    },
+    {
+      "timestamp": [
+        60.0,
+        89.98
+      ],
+      "text": " Thank you."
+    },
+    {
+      "timestamp": [
+        90.0,
+        119.98
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

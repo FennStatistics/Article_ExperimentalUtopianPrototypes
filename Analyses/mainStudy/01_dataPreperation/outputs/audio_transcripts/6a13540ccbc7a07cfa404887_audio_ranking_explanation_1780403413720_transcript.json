@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a13540ccbc7a07cfa404887_audio_ranking_explanation_1780403413720.webm",
+  "transcript": " So I ranked Modern Green Utopia at the top because I believe that is the most sustainable way for humans to continue society after a large-scale crisis. It would provide an energy resource that is more sustainable, especially compared to an AI-centered utopia, that would suck a lot of energy and make human life on Earth very limited and unable to continue for generations like it would be able to in a modern green utopia. Um, promovatist utopia would be second as even though it's not as sustainable as a green utopia, I think that humans would still be able to live off of the earth. Um, futurist being third is because science and innovation just sounded better to me than a moral commonwealth, which would be very dependent on morals, obviously, and everybody's morals are different. religious utopia just sounds bad because of the lack of freedom of religion and rule of law is also bad in my opinion because it's very absolutist and gives way to it possibly being a dictatorship in my opinion and then as i mentioned before ai-centered utopia is last because Because AI is really terrible for the environment, and I think it would very quickly have problems in terms of just completely destroying the earth that these humans would be living on.",
+  "language": "unknown",
+  "processing_time_seconds": 23.868729,
+  "timestamp": "2026-06-08T10:57:03.815197",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.5
+      ],
+      "text": " So I ranked Modern Green Utopia at the top because I believe that is the most sustainable way for humans to continue society after a large-scale crisis."
+    },
+    {
+      "timestamp": [
+        10.5,
+        37.84
+      ],
+      "text": " It would provide an energy resource that is more sustainable, especially compared to an AI-centered utopia, that would suck a lot of energy and make human life on Earth very limited and unable to continue for generations like it would be able to in a modern green utopia."
+    },
+    {
+      "timestamp": [
+        39.84,
+        37.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        51.84,
+        69.0
+      ],
+      "text": " Um, promovatist utopia would be second as even though it's not as sustainable as a green utopia, I think that humans would still be able to live off of the earth. Um, futurist being third is because science and innovation just sounded better to me than a moral commonwealth, which would be very dependent on morals, obviously, and everybody's morals are different."
+    },
+    {
+      "timestamp": [
+        69.88,
+        69.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        80.12,
+        88.52
+      ],
+      "text": " religious utopia just sounds bad because of the lack of freedom of religion and rule of law is also bad in my opinion because it's very absolutist and gives way to it possibly being a dictatorship"
+    },
+    {
+      "timestamp": [
+        88.52,
+        94.12
+      ],
+      "text": " in my opinion and then as i mentioned before ai-centered utopia is last because"
+    },
+    {
+      "timestamp": [
+        94.12,
+        103.32
+      ],
+      "text": " Because AI is really terrible for the environment, and I think it would very quickly have problems"
+    },
+    {
+      "timestamp": [
+        103.32,
+        108.14
+      ],
+      "text": " in terms of just completely destroying the earth that these humans would be living on."
+    }
+  ]
+}

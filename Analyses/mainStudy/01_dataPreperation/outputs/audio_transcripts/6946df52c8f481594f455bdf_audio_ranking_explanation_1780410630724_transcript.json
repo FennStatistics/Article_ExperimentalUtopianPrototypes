@@ -1,0 +1,122 @@
+{
+  "audio_file": "6946df52c8f481594f455bdf_audio_ranking_explanation_1780410630724.webm",
+  "transcript": " I rank the societies this way because I believe a modern green utopia would be the best future for everybody. I believe this because if we sustain it and maintain having a green utopia, meaning we try to cut waste as much as possible and innovate to where we have enough resources to keep living comfortably, it would be a good idea. and I believe a religious utopia would not be a really good utopia to live in at the end of the day because many people have different beliefs and some might disagree with one another so at the end of the day it might have a lot of conflicting ideas and people might not agree with each other which can cause chaos and things can erupt out of this um but yeah I believe a Futures utopia will become second place because it's still good at the end of the day. AI-centered wouldn't be bad as well as long as you regulate AI. Institutional utopia wouldn't be bad as well. It would just cause a lot of problems with the rankings when it comes to people in the society. Moral commonwealth is all right. And primitivist utopia wouldn't be as well. But you can't really complain. It's not too much. but low tech and small scale wouldn't have much advancement in the future.",
+  "language": "unknown",
+  "processing_time_seconds": 20.164784,
+  "timestamp": "2026-06-08T08:51:49.787316",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.38
+      ],
+      "text": " I rank the societies this way because I believe a modern green utopia would be the best future for everybody."
+    },
+    {
+      "timestamp": [
+        7.06,
+        22.74
+      ],
+      "text": " I believe this because if we sustain it and maintain having a green utopia, meaning we try to cut waste as much as possible and innovate to where we have enough resources to keep living comfortably, it would be a good idea."
+    },
+    {
+      "timestamp": [
+        22.74,
+        29.98
+      ],
+      "text": " and I believe a religious utopia would not be a really good utopia to live in at the end of the"
+    },
+    {
+      "timestamp": [
+        29.98,
+        35.36
+      ],
+      "text": " day because many people have different beliefs and some might disagree with one another so"
+    },
+    {
+      "timestamp": [
+        35.36,
+        41.44
+      ],
+      "text": " at the end of the day it might have a lot of conflicting ideas and people might not agree"
+    },
+    {
+      "timestamp": [
+        41.44,
+        48.76
+      ],
+      "text": " with each other which can cause chaos and things can erupt out of this um but yeah I believe a"
+    },
+    {
+      "timestamp": [
+        48.76,
+        53.24
+      ],
+      "text": " Futures utopia will become second place because it's still good at the end of the day."
+    },
+    {
+      "timestamp": [
+        53.4,
+        57.04
+      ],
+      "text": " AI-centered wouldn't be bad as well as long as you regulate AI."
+    },
+    {
+      "timestamp": [
+        58.16,
+        60.18
+      ],
+      "text": " Institutional utopia wouldn't be bad as well."
+    },
+    {
+      "timestamp": [
+        61.18,
+        66.78
+      ],
+      "text": " It would just cause a lot of problems with the rankings when it comes to people in the society."
+    },
+    {
+      "timestamp": [
+        67.24,
+        69.22
+      ],
+      "text": " Moral commonwealth is all right."
+    },
+    {
+      "timestamp": [
+        69.88,
+        73.8
+      ],
+      "text": " And primitivist utopia wouldn't be as well."
+    },
+    {
+      "timestamp": [
+        74.26,
+        76.76
+      ],
+      "text": " But you can't really complain."
+    },
+    {
+      "timestamp": [
+        76.76,
+        77.88
+      ],
+      "text": " It's not too much."
+    },
+    {
+      "timestamp": [
+        78.18,
+        77.88
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        91.88,
+        null
+      ],
+      "text": " but low tech and small scale wouldn't have much advancement in the future."
+    }
+  ]
+}

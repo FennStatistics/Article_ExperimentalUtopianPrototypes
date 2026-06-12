@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a1cc806227a3142ceb4df72_audio_missing_utopia_1780404236832.webm",
+  "transcript": " I feel that in a lot of the societies, one thing that was missing was, I guess, ensuring the, just having the actual people in mind, the people living in this society. um a lot of things are unpredictable especially when you're dealing with every individual person so I think a lot of the societies lacked what would be needed to ensure that everybody is getting what they need I think the closest to that was the one I ranked first however I do think it just lacks that as well as I don't know if this was um national based or just like I don't know if this is international or national based but other societies like where would they fall into place if that makes sense",
+  "language": "unknown",
+  "processing_time_seconds": 14.005502,
+  "timestamp": "2026-06-08T11:20:50.537593",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.8
+      ],
+      "text": " I feel that in a lot of the societies, one thing that was missing was, I guess, ensuring the, just having the actual people in mind, the people living in this society."
+    },
+    {
+      "timestamp": [
+        21.22,
+        18.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.5,
+        36.0
+      ],
+      "text": " um a lot of things are unpredictable especially when you're dealing with every individual person so I think a lot of the societies lacked what would be needed to ensure that everybody"
+    },
+    {
+      "timestamp": [
+        36.0,
+        45.28
+      ],
+      "text": " is getting what they need I think the closest to that was the one I ranked first however I do think"
+    },
+    {
+      "timestamp": [
+        45.28,
+        55.14
+      ],
+      "text": " it just lacks that as well as I don't know if this was um national based or just"
+    },
+    {
+      "timestamp": [
+        55.14,
+        59.12
+      ],
+      "text": " like I don't know if this is international or national based but"
+    },
+    {
+      "timestamp": [
+        59.12,
+        64.34
+      ],
+      "text": " other societies like where would they fall into place if that makes sense"
+    }
+  ]
+}

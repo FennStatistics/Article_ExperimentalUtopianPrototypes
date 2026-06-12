@@ -1,0 +1,38 @@
+{
+  "audio_file": "6994c4a0a6dfd8f22f07a03e_audio_ranking_explanation_1780437507306.webm",
+  "transcript": " yeah so the first one I pick is prime primitivist utopia you know this like at least my favorites then you got the religions and then you got the AI central utopia modern green utopia moral commonwealth institution utopia and futuristic utopia yeah so the most yeah these are like the least but my number one is per primitive is utopia so yeah",
+  "language": "unknown",
+  "processing_time_seconds": 11.588658,
+  "timestamp": "2026-06-08T09:05:53.302421",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.24
+      ],
+      "text": " yeah so the first one I pick is prime primitivist utopia you know this like at least my favorites"
+    },
+    {
+      "timestamp": [
+        15.24,
+        25.5
+      ],
+      "text": " then you got the religions and then you got the AI central utopia modern green utopia moral"
+    },
+    {
+      "timestamp": [
+        25.5,
+        36.38
+      ],
+      "text": " commonwealth institution utopia and futuristic utopia yeah so the most yeah these are like the"
+    },
+    {
+      "timestamp": [
+        36.38,
+        44.22
+      ],
+      "text": " least but my number one is per primitive is utopia so yeah"
+    }
+  ]
+}

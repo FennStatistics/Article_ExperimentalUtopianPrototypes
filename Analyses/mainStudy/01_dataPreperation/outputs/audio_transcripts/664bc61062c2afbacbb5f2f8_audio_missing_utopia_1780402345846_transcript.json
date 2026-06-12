@@ -1,0 +1,38 @@
+{
+  "audio_file": "664bc61062c2afbacbb5f2f8_audio_missing_utopia_1780402345846.webm",
+  "transcript": " I don't necessarily think there was anything missing in the broad strokes. I'm sure you could get down to nuances, but I feel like a lot of those nuances you could just place or seem to feel to me to be in those current societies that we already have listed out. So I'd say for the most part, I don't really see any important values that weren't represented.",
+  "language": "unknown",
+  "processing_time_seconds": 6.980048,
+  "timestamp": "2026-06-08T08:36:15.609070",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.8
+      ],
+      "text": " I don't necessarily think there was anything missing in the broad strokes."
+    },
+    {
+      "timestamp": [
+        4.8,
+        8.8
+      ],
+      "text": " I'm sure you could get down to nuances, but I feel like a lot of those nuances you could just"
+    },
+    {
+      "timestamp": [
+        9.36,
+        17.2
+      ],
+      "text": " place or seem to feel to me to be in those current societies that we already have listed out."
+    },
+    {
+      "timestamp": [
+        18.8,
+        26.64
+      ],
+      "text": " So I'd say for the most part, I don't really see any important values that weren't represented."
+    }
+  ]
+}

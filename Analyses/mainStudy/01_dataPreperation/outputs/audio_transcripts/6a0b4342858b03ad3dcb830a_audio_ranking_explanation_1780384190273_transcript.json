@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a0b4342858b03ad3dcb830a_audio_ranking_explanation_1780384190273.webm",
+  "transcript": " um yeah i mean there's a couple of different things but um i'm religious so religious based is very appealing to me i also like the idea of inner morality i think good religion is based on a lot of that um the green one i think it's good to use our resource as well protect our earth um i'm not you know necessarily super um you know uh green focused in my daily life but i think it's a good thing to take care of the earth science and innovation i think is typically a good thing um i do i don't mind the idea of low tech and small scale i had kind of a mixed bag between those because i do like just simple life um rule of law i don't remember the exact details but it's not my you know i think having to have stringent laws and and uh not a lot of feeling is not the best and then ai centered i think is the worst i'm having no human intervention and letting ai run things i think could go bad very quickly um so that's kind of my my quick ranking but yeah because i'm very religious i think that's probably you know most religions that's kind of what you're looking for is that religious utopia but i also think that the intermorality is what most religions should really stem from, if that makes sense.",
+  "language": "unknown",
+  "processing_time_seconds": 20.085911,
+  "timestamp": "2026-06-08T10:37:59.550124",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.5
+      ],
+      "text": " um yeah i mean there's a couple of different things but um i'm religious so religious based"
+    },
+    {
+      "timestamp": [
+        8.5,
+        14.74
+      ],
+      "text": " is very appealing to me i also like the idea of inner morality i think good religion is based on"
+    },
+    {
+      "timestamp": [
+        14.74,
+        21.16
+      ],
+      "text": " a lot of that um the green one i think it's good to use our resource as well protect our earth"
+    },
+    {
+      "timestamp": [
+        21.16,
+        30.38
+      ],
+      "text": " um i'm not you know necessarily super um you know uh green focused in my daily life but i"
+    },
+    {
+      "timestamp": [
+        30.38,
+        34.8
+      ],
+      "text": " think it's a good thing to take care of the earth science and innovation i think is typically a good"
+    },
+    {
+      "timestamp": [
+        34.8,
+        40.8
+      ],
+      "text": " thing um i do i don't mind the idea of low tech and small scale i had kind of a mixed bag between"
+    },
+    {
+      "timestamp": [
+        40.8,
+        45.88
+      ],
+      "text": " those because i do like just simple life um rule of law i don't remember the exact details but it's"
+    },
+    {
+      "timestamp": [
+        45.88,
+        53.04
+      ],
+      "text": " not my you know i think having to have stringent laws and and uh not a lot of feeling is not the"
+    },
+    {
+      "timestamp": [
+        53.04,
+        58.58
+      ],
+      "text": " best and then ai centered i think is the worst i'm having no human intervention and letting ai run"
+    },
+    {
+      "timestamp": [
+        58.58,
+        64.38
+      ],
+      "text": " things i think could go bad very quickly um so that's kind of my my quick ranking but yeah because"
+    },
+    {
+      "timestamp": [
+        64.38,
+        68.6
+      ],
+      "text": " i'm very religious i think that's probably you know most religions that's kind of what you're"
+    },
+    {
+      "timestamp": [
+        68.6,
+        75.3
+      ],
+      "text": " looking for is that religious utopia but i also think that the intermorality is what most religions"
+    },
+    {
+      "timestamp": [
+        75.3,
+        77.62
+      ],
+      "text": " should really stem from, if that makes sense."
+    }
+  ]
+}

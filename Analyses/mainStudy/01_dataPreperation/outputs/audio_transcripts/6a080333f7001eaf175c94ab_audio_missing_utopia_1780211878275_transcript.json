@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a080333f7001eaf175c94ab_audio_missing_utopia_1780211878275.webm",
+  "transcript": " I think those synopses were too short to say whether or not I think anything was missing. I just believe that a Moral Common Month would be the best place to start.",
+  "language": "unknown",
+  "processing_time_seconds": 5.407225,
+  "timestamp": "2026-06-08T10:31:03.995863",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.66
+      ],
+      "text": " I think those synopses were too short to say whether or not I think anything was missing. I just believe that a Moral Common Month would be the best place to start."
+    }
+  ]
+}

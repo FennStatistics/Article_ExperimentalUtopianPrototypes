@@ -1,0 +1,402 @@
+{
+  "audio_file": "6a15dfee7dec81efc11475cb_audio_ranking_explanation_1780379330004.webm",
+  "transcript": " so i rank the societies this way mainly because let's start with the uh modern green utopia in first place i think that would not only be beneficial for us but it would also be beneficial to the earth um because our current like state of society and our current globe we do not treat it well at all we have so many global issues like climate change pollution of like air water everything like that and it's basically just a good way to ensure um our future generations being able to live sustainably without that worry of oh we're gonna run out of food or we're gonna run out of water um or those things are gonna be like super scarce or things like that. Um, the air is going to be clear, everything like that. So I think, um, as far as the future goes, I think definitely giving back to the earth is definitely should be pretty high, um, on some people's lists on many people's lists. Cause I think it benefits literally everyone who lives and breathes um the institution the rule of law utopia the institutional utopia um is in second place mainly because i do believe that we need laws for like society to like actually like have some sort of order because if not it would it would just be pure anarchy if there were no um punishments for anything ever that happened um so i do believe living in a society that is run by laws and rules um that does help like build better character for citizens like individually because they they can know like what to do and what not to do like right from wrong and things like that um number three science and innovation i don't have much of a problem with i don't think it's like my like super preferred society but i don't think it's like harmful in any way it's kind of just using science as a very important tool um just how do i explain that it's just using science and like technology um as like a better way um to assist us in our everyday lives which i don't have a problem with it's kind of it's just using it um to help us without any i don't i don't see any downsides to that society um it doesn't hurt to innovate um like i said um as the future goes on as time goes on um technology is gonna advance and that means we can get better tech along with better medicine um along with better along with better stuff like that um next as far as the primitivist primit primitivist utopia the low tech and small scale i i think it's about the same um i don't have a problem and i support using tech or um humans using tech to um better everyday lives um i feel like it's just a good way to use our resources to ensure our better living for our children families things like that um the moral commonwealth for the inner morality i have that at five not because i don't like it i just support the other utopias a little bit more um i don't rate it too high because people sort of have different morals like not everyone has good morals um so if you run a society strictly based off morals i feel like that could go bad pretty quickly um because like i said people have all different kinds of definitions of what morality is um and i don't think that's a really dependable way to keep society in check for number six the ai centered utopia i am not a fan of because i don't think we should be using ai for literally to run everything um i just don't think it's a good idea not only does it take those jobs from like actual like humans um but i feel like ai doesn't understand what our country or like what our globe like needs i feel like ai hasn't experienced what humans have been through on this earth and our history and why we need certain laws in place um i feel like just having an ai-centered utopia would just make i feel like it would just make everything like so gray and so more like authoritative because i think of it like you you don't want your governments you don't want your government to not have feelings you want your government to actually feel um empathy um you want empathy sympathy you want you want your government to understand um the people's issues you want them to feel for their problems so they can actually like build some sort of understanding with their people and i just feel like ai just doesn't build that sort of connection religious utopia i have at the bottom because not everyone believes in religion and i feel like that's just kind of like forcing it on literally everybody and you're literally taking everybody who decides not to believe in religion because religion is not a proven thing like nobody knows like it's just it's a belief you believe that it's real and people were allowed to not believe in that and i feel like they don't deserve to get cast out just because they don't believe that um jesus was real or because there's there's no there's no like physical tangible evidence that jesus was real so they're allowed to like second guess and just not go along with everybody else so i just don't think that religious utopia is gonna work because i feel like half of the utopia would just be cast out and a kind of limit kind of limit free thinking a little bit because you don't want to cast people out just because they think differently from you that doesn't make for a very good society in my opinion",
+  "language": "unknown",
+  "processing_time_seconds": 80.276153,
+  "timestamp": "2026-06-08T11:06:49.808866",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.12
+      ],
+      "text": " so i rank the societies this way mainly because let's start with the uh"
+    },
+    {
+      "timestamp": [
+        7.12,
+        15.04
+      ],
+      "text": " modern green utopia in first place i think that would not only be beneficial for us"
+    },
+    {
+      "timestamp": [
+        15.04,
+        22.6
+      ],
+      "text": " but it would also be beneficial to the earth um because our current like state of society"
+    },
+    {
+      "timestamp": [
+        22.6,
+        29.1
+      ],
+      "text": " and our current globe we do not treat it well at all we have so many global issues like"
+    },
+    {
+      "timestamp": [
+        29.1,
+        37.54
+      ],
+      "text": " climate change pollution of like air water everything like that and it's basically just"
+    },
+    {
+      "timestamp": [
+        37.54,
+        48.24
+      ],
+      "text": " a good way to ensure um our future generations being able to live sustainably without that worry"
+    },
+    {
+      "timestamp": [
+        48.24,
+        53.6
+      ],
+      "text": " of oh we're gonna run out of food or we're gonna run out of water um or those things are gonna be"
+    },
+    {
+      "timestamp": [
+        53.6,
+        60.06
+      ],
+      "text": " like super scarce or things like that. Um, the air is going to be clear, everything like that."
+    },
+    {
+      "timestamp": [
+        60.06,
+        65.92
+      ],
+      "text": " So I think, um, as far as the future goes, I think definitely giving back to the earth is"
+    },
+    {
+      "timestamp": [
+        65.92,
+        75.96
+      ],
+      "text": " definitely should be pretty high, um, on some people's lists on many people's lists. Cause I"
+    },
+    {
+      "timestamp": [
+        75.96,
+        84.0
+      ],
+      "text": " think it benefits literally everyone who lives and breathes um the institution the rule of law"
+    },
+    {
+      "timestamp": [
+        84.0,
+        91.3
+      ],
+      "text": " utopia the institutional utopia um is in second place mainly because i do believe that we need"
+    },
+    {
+      "timestamp": [
+        91.3,
+        97.54
+      ],
+      "text": " laws for like society to like actually like have some sort of order because if not it would it"
+    },
+    {
+      "timestamp": [
+        97.54,
+        106.18
+      ],
+      "text": " would just be pure anarchy if there were no um punishments for anything ever that happened um"
+    },
+    {
+      "timestamp": [
+        106.18,
+        114.2
+      ],
+      "text": " so i do believe living in a society that is run by laws and rules um that does help like build"
+    },
+    {
+      "timestamp": [
+        114.2,
+        120.96
+      ],
+      "text": " better character for citizens like individually because they they can know like what to do and"
+    },
+    {
+      "timestamp": [
+        120.96,
+        127.5
+      ],
+      "text": " what not to do like right from wrong and things like that um number three science and innovation"
+    },
+    {
+      "timestamp": [
+        127.5,
+        134.04
+      ],
+      "text": " i don't have much of a problem with i don't think it's like my like super preferred society but i"
+    },
+    {
+      "timestamp": [
+        134.04,
+        141.44
+      ],
+      "text": " don't think it's like harmful in any way it's kind of just using science as a very important tool"
+    },
+    {
+      "timestamp": [
+        141.44,
+        151.4
+      ],
+      "text": " um just how do i explain that it's just using science and like technology um as like a better"
+    },
+    {
+      "timestamp": [
+        151.4,
+        158.84
+      ],
+      "text": " way um to assist us in our everyday lives which i don't have a problem with it's kind of it's"
+    },
+    {
+      "timestamp": [
+        158.84,
+        167.16
+      ],
+      "text": " just using it um to help us without any i don't i don't see any downsides to that society"
+    },
+    {
+      "timestamp": [
+        168.44,
+        176.92
+      ],
+      "text": " um it doesn't hurt to innovate um like i said um as the future goes on as time goes on"
+    },
+    {
+      "timestamp": [
+        177.64,
+        176.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        184.48,
+        195.78
+      ],
+      "text": " um technology is gonna advance and that means we can get better tech along with better medicine um along with better along with better stuff like that um next as far as the"
+    },
+    {
+      "timestamp": [
+        195.78,
+        203.26
+      ],
+      "text": " primitivist primit primitivist utopia the low tech and small scale i i think it's about the"
+    },
+    {
+      "timestamp": [
+        203.26,
+        213.72
+      ],
+      "text": " same um i don't have a problem and i support using tech or um humans using tech to um better everyday"
+    },
+    {
+      "timestamp": [
+        213.72,
+        226.24
+      ],
+      "text": " lives um i feel like it's just a good way to use our resources to ensure our better living for our"
+    },
+    {
+      "timestamp": [
+        226.24,
+        233.2
+      ],
+      "text": " children families things like that um the moral commonwealth for the inner morality"
+    },
+    {
+      "timestamp": [
+        233.2,
+        240.16
+      ],
+      "text": " i have that at five not because i don't like it i just support the other utopias a little bit more"
+    },
+    {
+      "timestamp": [
+        240.16,
+        249.8
+      ],
+      "text": " um i don't rate it too high because people sort of have different morals like not everyone has"
+    },
+    {
+      "timestamp": [
+        249.8,
+        257.64
+      ],
+      "text": " good morals um so if you run a society strictly based off morals i feel like that could go bad"
+    },
+    {
+      "timestamp": [
+        257.64,
+        265.12
+      ],
+      "text": " pretty quickly um because like i said people have all different kinds of definitions of"
+    },
+    {
+      "timestamp": [
+        265.12,
+        274.3
+      ],
+      "text": " what morality is um and i don't think that's a really dependable way to keep society in check"
+    },
+    {
+      "timestamp": [
+        274.3,
+        284.32
+      ],
+      "text": " for number six the ai centered utopia i am not a fan of because i don't think we should be using ai"
+    },
+    {
+      "timestamp": [
+        284.32,
+        292.66
+      ],
+      "text": " for literally to run everything um i just don't think it's a good idea not only does it"
+    },
+    {
+      "timestamp": [
+        292.66,
+        303.1
+      ],
+      "text": " take those jobs from like actual like humans um but i feel like ai doesn't understand"
+    },
+    {
+      "timestamp": [
+        303.1,
+        314.38
+      ],
+      "text": " what our country or like what our globe like needs i feel like ai hasn't experienced"
+    },
+    {
+      "timestamp": [
+        314.38,
+        323.04
+      ],
+      "text": " what humans have been through on this earth and our history and why we need certain laws in place"
+    },
+    {
+      "timestamp": [
+        323.04,
+        332.28
+      ],
+      "text": " um i feel like just having an ai-centered utopia would just make i feel like it would"
+    },
+    {
+      "timestamp": [
+        332.28,
+        341.48
+      ],
+      "text": " just make everything like so gray and so more like authoritative because i think of it like"
+    },
+    {
+      "timestamp": [
+        341.48,
+        349.84
+      ],
+      "text": " you you don't want your governments you don't want your government to not have feelings you"
+    },
+    {
+      "timestamp": [
+        349.84,
+        359.86
+      ],
+      "text": " want your government to actually feel um empathy um you want empathy sympathy you want you want"
+    },
+    {
+      "timestamp": [
+        359.86,
+        366.7
+      ],
+      "text": " your government to understand um the people's issues you want them to feel for their problems"
+    },
+    {
+      "timestamp": [
+        366.7,
+        370.68
+      ],
+      "text": " so they can actually like build some sort of understanding with their people"
+    },
+    {
+      "timestamp": [
+        370.68,
+        378.54
+      ],
+      "text": " and i just feel like ai just doesn't build that sort of connection religious utopia i have at the"
+    },
+    {
+      "timestamp": [
+        378.54,
+        386.34
+      ],
+      "text": " bottom because not everyone believes in religion and i feel like that's just kind of like forcing"
+    },
+    {
+      "timestamp": [
+        386.34,
+        393.56
+      ],
+      "text": " it on literally everybody and you're literally taking everybody who decides not to believe in"
+    },
+    {
+      "timestamp": [
+        393.56,
+        398.04
+      ],
+      "text": " religion because religion is not a proven thing like nobody knows like it's just it's a belief"
+    },
+    {
+      "timestamp": [
+        398.04,
+        404.0
+      ],
+      "text": " you believe that it's real and people were allowed to not believe in that and i feel like they don't"
+    },
+    {
+      "timestamp": [
+        404.0,
+        412.32
+      ],
+      "text": " deserve to get cast out just because they don't believe that um jesus was real or because there's"
+    },
+    {
+      "timestamp": [
+        412.32,
+        417.68
+      ],
+      "text": " there's no there's no like physical tangible evidence that jesus was real so they're allowed"
+    },
+    {
+      "timestamp": [
+        417.68,
+        424.2
+      ],
+      "text": " to like second guess and just not go along with everybody else so i just don't think that religious"
+    },
+    {
+      "timestamp": [
+        424.2,
+        434.1
+      ],
+      "text": " utopia is gonna work because i feel like half of the utopia would just be cast out and a kind of"
+    },
+    {
+      "timestamp": [
+        434.1,
+        440.32
+      ],
+      "text": " limit kind of limit free thinking a little bit because you don't want to cast people out just"
+    },
+    {
+      "timestamp": [
+        440.32,
+        446.78
+      ],
+      "text": " because they think differently from you that doesn't make for a very good society in my opinion"
+    }
+  ]
+}

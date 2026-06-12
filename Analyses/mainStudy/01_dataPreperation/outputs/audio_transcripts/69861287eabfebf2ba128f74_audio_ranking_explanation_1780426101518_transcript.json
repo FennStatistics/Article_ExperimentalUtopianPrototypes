@@ -1,0 +1,45 @@
+{
+  "audio_file": "69861287eabfebf2ba128f74_audio_ranking_explanation_1780426101518.webm",
+  "transcript": " I think the moral commonwealth, um, or the inner morality, um, society is more preferred. Um, I see it with people being with high morals and valuing, um, what they do in their life and how they want to live their life. Um, where the futurist utopia with science and innovation, that is pretty cool um but the world isn't about science the world didn't evolve and didn't become what it is today because of just science um it was because of god",
+  "language": "unknown",
+  "processing_time_seconds": 9.916875,
+  "timestamp": "2026-06-08T08:59:49.690992",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.66
+      ],
+      "text": " I think the moral commonwealth, um, or the inner morality, um, society is more preferred. Um,"
+    },
+    {
+      "timestamp": [
+        9.3,
+        16.22
+      ],
+      "text": " I see it with people being with high morals and valuing, um, what they do in their life"
+    },
+    {
+      "timestamp": [
+        16.22,
+        24.46
+      ],
+      "text": " and how they want to live their life. Um, where the futurist utopia with science and innovation,"
+    },
+    {
+      "timestamp": [
+        24.46,
+        33.18
+      ],
+      "text": " that is pretty cool um but the world isn't about science the world didn't evolve and didn't become"
+    },
+    {
+      "timestamp": [
+        33.18,
+        38.08
+      ],
+      "text": " what it is today because of just science um it was because of god"
+    }
+  ]
+}

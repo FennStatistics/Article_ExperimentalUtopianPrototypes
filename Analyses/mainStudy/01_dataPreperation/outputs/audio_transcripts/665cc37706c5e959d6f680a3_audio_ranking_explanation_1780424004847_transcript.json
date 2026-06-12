@@ -1,0 +1,38 @@
+{
+  "audio_file": "665cc37706c5e959d6f680a3_audio_ranking_explanation_1780424004847.webm",
+  "transcript": " I ranked these societies based on which ones seemed the most practical and beneficial for people. I mostly preferred the societies that included innovation and sustainability and stability also. I ranked the religious society last because I personally prefer systems based more on shared institutions and personal choices instead of just religious authority.",
+  "language": "unknown",
+  "processing_time_seconds": 8.424958,
+  "timestamp": "2026-06-08T08:36:58.016257",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.84
+      ],
+      "text": " I ranked these societies based on which ones seemed the most practical and beneficial for"
+    },
+    {
+      "timestamp": [
+        9.84,
+        20.22
+      ],
+      "text": " people. I mostly preferred the societies that included innovation and sustainability and"
+    },
+    {
+      "timestamp": [
+        20.22,
+        31.0
+      ],
+      "text": " stability also. I ranked the religious society last because I personally prefer systems based"
+    },
+    {
+      "timestamp": [
+        31.0,
+        39.6
+      ],
+      "text": " more on shared institutions and personal choices instead of just religious authority."
+    }
+  ]
+}

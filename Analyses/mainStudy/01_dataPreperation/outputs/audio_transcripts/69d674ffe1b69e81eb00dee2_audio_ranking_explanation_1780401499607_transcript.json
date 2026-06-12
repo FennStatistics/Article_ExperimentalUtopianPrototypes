@@ -1,0 +1,171 @@
+{
+  "audio_file": "69d674ffe1b69e81eb00dee2_audio_ranking_explanation_1780401499607.webm",
+  "transcript": " The reasoning for my ranking would be based off of my own religious beliefs. It was good to see a faith-based option there because I think that that's what the world truly was designed by God to be, is focused solely on helping each other and believing in God and functioning a world off of Him and all that He's given us. um then moral commonwealth i think that kind of goes hand in hand in my own personal opinion i guess you don't have to be religious to have good morals um but it strongly promotes good morals in people um so even if religious religion wasn't based in that um everybody i think everybody can agree if everybody lives by good moral standards the world could be a happier place modern green utopia um you know sounds like something that we should already be trying to do we want to be sustainable and we want to be excuse me we want to be sustainable and we also want to be you know limited with our use we don't want to overuse things um the primitive utopia with low tech and small scale things that's not bad also it sounds like we're trying to be picky and choosy about what we're doing and we don't want to overuse or consume too much there the institutional utopia the rule of law um sounds similar to what we have now and it pretty much works um it's that you it's good to have people who enforce the law and people who don't follow the law have consequences so I don't think that's too bad but it's not my top favorite out of these and then the futuristic utopia obviously I think science is a really great thing and we live in a world where science has made great changes for us but I don't know that we want it fully run off of science and then the AI centered utopia just sounds like a horrible idea and I do not I fear for our own world that they are headed for we are headed for an AI centered utopia I do not feel comfortable with AI making the decisions for us as humans. God, again, made us, in my opinion, in what the Bible tells me, he made man and woman to rule over the plants and animals of the world. If he wanted it to be run by AI, he would have made AI instead. Instead, man made that, and nobody wants that to take over.",
+  "language": "unknown",
+  "processing_time_seconds": 33.804305,
+  "timestamp": "2026-06-08T09:32:56.130545",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.5,
+        7.68
+      ],
+      "text": " The reasoning for my ranking would be based off of my own religious beliefs."
+    },
+    {
+      "timestamp": [
+        9.12,
+        18.04
+      ],
+      "text": " It was good to see a faith-based option there because I think that that's what the world truly was designed by God to be,"
+    },
+    {
+      "timestamp": [
+        18.04,
+        29.44
+      ],
+      "text": " is focused solely on helping each other and believing in God and functioning a world off of Him and all that He's given us."
+    },
+    {
+      "timestamp": [
+        30.0,
+        36.52
+      ],
+      "text": " um then moral commonwealth i think that kind of goes hand in hand in my own personal opinion i"
+    },
+    {
+      "timestamp": [
+        36.52,
+        44.04
+      ],
+      "text": " guess you don't have to be religious to have good morals um but it strongly promotes good morals"
+    },
+    {
+      "timestamp": [
+        44.04,
+        53.32
+      ],
+      "text": " in people um so even if religious religion wasn't based in that um everybody i think everybody can"
+    },
+    {
+      "timestamp": [
+        53.32,
+        59.88
+      ],
+      "text": " agree if everybody lives by good moral standards the world could be a happier place modern green"
+    },
+    {
+      "timestamp": [
+        59.88,
+        68.46
+      ],
+      "text": " utopia um you know sounds like something that we should already be trying to do we want to be"
+    },
+    {
+      "timestamp": [
+        68.46,
+        78.06
+      ],
+      "text": " sustainable and we want to be excuse me we want to be sustainable and we also want to be"
+    },
+    {
+      "timestamp": [
+        78.06,
+        85.52
+      ],
+      "text": " you know limited with our use we don't want to overuse things um the primitive utopia with low"
+    },
+    {
+      "timestamp": [
+        85.52,
+        91.6
+      ],
+      "text": " tech and small scale things that's not bad also it sounds like we're trying to be picky and choosy"
+    },
+    {
+      "timestamp": [
+        91.6,
+        99.36
+      ],
+      "text": " about what we're doing and we don't want to overuse or consume too much there the institutional"
+    },
+    {
+      "timestamp": [
+        99.36,
+        108.56
+      ],
+      "text": " utopia the rule of law um sounds similar to what we have now and it pretty much works um it's that"
+    },
+    {
+      "timestamp": [
+        109.68,
+        108.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        117.66,
+        124.22
+      ],
+      "text": " you it's good to have people who enforce the law and people who don't follow the law have consequences so I don't think that's too bad but it's not my top favorite out of these and then"
+    },
+    {
+      "timestamp": [
+        124.22,
+        132.62
+      ],
+      "text": " the futuristic utopia obviously I think science is a really great thing and we live in a world"
+    },
+    {
+      "timestamp": [
+        132.62,
+        141.88
+      ],
+      "text": " where science has made great changes for us but I don't know that we want it"
+    },
+    {
+      "timestamp": [
+        141.88,
+        147.38
+      ],
+      "text": " fully run off of science and then the AI centered utopia just sounds like a"
+    },
+    {
+      "timestamp": [
+        147.38,
+        154.76
+      ],
+      "text": " horrible idea and I do not I fear for our own world that they are headed for"
+    },
+    {
+      "timestamp": [
+        154.76,
+        162.56
+      ],
+      "text": " we are headed for an AI centered utopia I do not feel comfortable with AI making"
+    },
+    {
+      "timestamp": [
+        162.56,
+        169.5
+      ],
+      "text": " the decisions for us as humans. God, again, made us, in my opinion, in what the Bible tells me,"
+    },
+    {
+      "timestamp": [
+        169.78,
+        176.92
+      ],
+      "text": " he made man and woman to rule over the plants and animals of the world. If he wanted it to be run"
+    },
+    {
+      "timestamp": [
+        176.92,
+        185.22
+      ],
+      "text": " by AI, he would have made AI instead. Instead, man made that, and nobody wants that to take over."
+    }
+  ]
+}

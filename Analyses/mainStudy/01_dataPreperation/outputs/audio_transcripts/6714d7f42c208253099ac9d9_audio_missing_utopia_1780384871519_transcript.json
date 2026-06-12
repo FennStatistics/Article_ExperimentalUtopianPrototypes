@@ -1,0 +1,31 @@
+{
+  "audio_file": "6714d7f42c208253099ac9d9_audio_missing_utopia_1780384871519.webm",
+  "transcript": " I would say that finances and how their financial system works would be the missing value when it comes to those societies. I think it's very important to state what type of trading system there will be.",
+  "language": "unknown",
+  "processing_time_seconds": 5.617758,
+  "timestamp": "2026-06-08T08:43:28.744401",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.3
+      ],
+      "text": " I would say that finances and how their financial system works would be the"
+    },
+    {
+      "timestamp": [
+        10.3,
+        19.02
+      ],
+      "text": " missing value when it comes to those societies. I think it's very important to"
+    },
+    {
+      "timestamp": [
+        19.02,
+        25.8
+      ],
+      "text": " state what type of trading system there will be."
+    }
+  ]
+}

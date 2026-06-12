@@ -1,0 +1,31 @@
+{
+  "audio_file": "676334ae578dda6ef33f5886_audio_ranking_explanation_1780381111874.webm",
+  "transcript": " I believe that eye-centered utopia, data-driven governance, should be the first and it has the greatest impact over the others. Considering primitivity, utopia, that is low technology and small scale, which I don't see the value to the others.",
+  "language": "unknown",
+  "processing_time_seconds": 6.130184,
+  "timestamp": "2026-06-08T08:46:36.232704",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.28
+      ],
+      "text": " I believe that eye-centered utopia, data-driven governance, should be the first and it has"
+    },
+    {
+      "timestamp": [
+        10.28,
+        18.18
+      ],
+      "text": " the greatest impact over the others. Considering primitivity, utopia, that is low technology"
+    },
+    {
+      "timestamp": [
+        18.18,
+        22.02
+      ],
+      "text": " and small scale, which I don't see the value to the others."
+    }
+  ]
+}

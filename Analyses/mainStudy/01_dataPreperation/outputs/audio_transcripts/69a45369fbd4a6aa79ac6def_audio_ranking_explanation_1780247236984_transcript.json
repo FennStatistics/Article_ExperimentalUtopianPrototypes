@@ -1,0 +1,38 @@
+{
+  "audio_file": "69a45369fbd4a6aa79ac6def_audio_ranking_explanation_1780247236984.webm",
+  "transcript": " I believe that a sustainable future that is able to mitigate the effects of climate change is the only way that humanity and society can continue to exist. And I think that religion and AI and certainly hierarchies are not conducive to this kind of world.",
+  "language": "unknown",
+  "processing_time_seconds": 6.05516,
+  "timestamp": "2026-06-08T09:10:37.001405",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.48
+      ],
+      "text": " I believe that a sustainable future that is able to mitigate the effects of climate change"
+    },
+    {
+      "timestamp": [
+        9.48,
+        14.54
+      ],
+      "text": " is the only way that humanity and society can continue to exist."
+    },
+    {
+      "timestamp": [
+        14.54,
+        23.68
+      ],
+      "text": " And I think that religion and AI and certainly hierarchies are not conducive to this kind"
+    },
+    {
+      "timestamp": [
+        23.68,
+        25.14
+      ],
+      "text": " of world."
+    }
+  ]
+}

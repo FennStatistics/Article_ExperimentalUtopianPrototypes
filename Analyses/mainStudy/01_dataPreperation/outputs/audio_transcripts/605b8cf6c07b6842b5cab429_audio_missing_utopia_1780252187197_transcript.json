@@ -1,0 +1,66 @@
+{
+  "audio_file": "605b8cf6c07b6842b5cab429_audio_missing_utopia_1780252187197.webm",
+  "transcript": " um i'm not sure if there were if there's anything i would say was missing from one of these i think the moral one was probably the closest to what i would think where there's just you know uh peace on earth there's no war um you know if if a country is suffering uh you know they have famine or something like that everyone gets together and fixes it and then you know it's not a problem anymore um that's obviously very optimistic and kind of stupidly hopeful um but i think that would be sort of uh my ideal society it's one where everyone is you know very friendly and very helpful um no one has to worry about being left in the dust or being left behind or left to die because there's always someone or something that can help you.",
+  "language": "unknown",
+  "processing_time_seconds": 14.260011,
+  "timestamp": "2026-06-08T08:18:58.647019",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.8
+      ],
+      "text": " um i'm not sure if there were if there's anything i would say was missing from one of these i think"
+    },
+    {
+      "timestamp": [
+        7.8,
+        16.48
+      ],
+      "text": " the moral one was probably the closest to what i would think where there's just you know uh"
+    },
+    {
+      "timestamp": [
+        16.48,
+        25.58
+      ],
+      "text": " peace on earth there's no war um you know if if a country is suffering uh you know they have famine"
+    },
+    {
+      "timestamp": [
+        25.58,
+        31.44
+      ],
+      "text": " or something like that everyone gets together and fixes it and then you know it's not a problem"
+    },
+    {
+      "timestamp": [
+        31.44,
+        39.68
+      ],
+      "text": " anymore um that's obviously very optimistic and kind of stupidly hopeful um but i think that would"
+    },
+    {
+      "timestamp": [
+        39.68,
+        46.1
+      ],
+      "text": " be sort of uh my ideal society it's one where everyone is you know very friendly and very"
+    },
+    {
+      "timestamp": [
+        46.1,
+        54.16
+      ],
+      "text": " helpful um no one has to worry about being left in the dust or being left behind or left to die"
+    },
+    {
+      "timestamp": [
+        54.16,
+        57.6
+      ],
+      "text": " because there's always someone or something that can help you."
+    }
+  ]
+}

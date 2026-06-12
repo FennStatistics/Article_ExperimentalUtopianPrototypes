@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0b4342858b03ad3dcb830a_audio_missing_utopia_1780384244350.webm",
+  "transcript": " you know what i really found was missing from any of them is there was no abundance which i think there should be abundance um it does sound like there's enough so i should probably be happy with that but i think when i think of like a utopia there's abundance there's enough for everyone and and then some um so that you can also have celebrations and and good times sometimes um so that was one thing that i thought was absent from all of them um i'd love a mix of religious and uh um you know inner morality i think the combination of those two would be the absolute best as far as guidelines um but but yeah i think the lack of any sort of abundance is what was missing to me",
+  "language": "unknown",
+  "processing_time_seconds": 11.467874,
+  "timestamp": "2026-06-08T10:37:39.376601",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.72
+      ],
+      "text": " you know what i really found was missing from any of them is there was no abundance which i think"
+    },
+    {
+      "timestamp": [
+        5.72,
+        11.22
+      ],
+      "text": " there should be abundance um it does sound like there's enough so i should probably be happy with"
+    },
+    {
+      "timestamp": [
+        11.22,
+        16.7
+      ],
+      "text": " that but i think when i think of like a utopia there's abundance there's enough for everyone"
+    },
+    {
+      "timestamp": [
+        16.7,
+        24.16
+      ],
+      "text": " and and then some um so that you can also have celebrations and and good times sometimes um so"
+    },
+    {
+      "timestamp": [
+        24.16,
+        29.12
+      ],
+      "text": " that was one thing that i thought was absent from all of them um i'd love a mix of religious and"
+    },
+    {
+      "timestamp": [
+        29.12,
+        33.92
+      ],
+      "text": " uh um you know inner morality i think the combination of those two would be the absolute"
+    },
+    {
+      "timestamp": [
+        33.92,
+        42.2
+      ],
+      "text": " best as far as guidelines um but but yeah i think the lack of any sort of abundance is what was"
+    },
+    {
+      "timestamp": [
+        42.2,
+        42.86
+      ],
+      "text": " missing to me"
+    }
+  ]
+}

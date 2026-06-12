@@ -1,0 +1,143 @@
+{
+  "audio_file": "675b6faf10ae4b79d1d6455e_audio_ranking_explanation_1780504984223.webm",
+  "transcript": " Well, this society has been ranked like this because of various reasons. I would like a society that is focusing more on AI-centered, that is data-driven governance because data is everything when it comes to technological life. A feature is to utopia comes second, that is science and innovation, because in as much as science and innovation are trying to take pace in society AI and data-driven governance is just still considered the very much top of the pyramid in the technological era and also primitivist Ethiopia that is low tech and small scale comes third because it is unlikely to provide the technological excellence that would have been provided by AI data centred utopia that is a data-driven technology and therefore the rule of law that is institutional utopia comes forth because in as much as the law the laws keep the society safe I would like a society that focuses more on data and information more and than technology because information and is power as compared to the rule of law and therefore the weight of the magnitude of the society is quite different. Fifth is the religious utopia, the faith-based order. This is a segment that takes a set of different people because not everybody in the society is religious And therefore, faith-based order has just a different set of people to believe in them and to help them. And therefore, the sixth, which is sustainable and secure, I think, if a matter of feeling that governance has taken the exams in which you will take a small scale, then you will go. And I think sustainability and security are now going to take place. And therefore, the moral, common way, if I must last, is the immorality, because it is just something that we have taught. It is a tacit knowledge that resides in the area of different society and be easily transferred to other people so that it comes and plays it so that it can be recorded in various records to be easily transferred to other users.",
+  "language": "unknown",
+  "processing_time_seconds": 28.935555,
+  "timestamp": "2026-06-08T08:45:46.353803",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.28
+      ],
+      "text": " Well, this society has been ranked like this because of various reasons."
+    },
+    {
+      "timestamp": [
+        7.28,
+        15.04
+      ],
+      "text": " I would like a society that is focusing more on AI-centered, that is data-driven governance"
+    },
+    {
+      "timestamp": [
+        15.04,
+        20.48
+      ],
+      "text": " because data is everything when it comes to technological life."
+    },
+    {
+      "timestamp": [
+        20.48,
+        26.88
+      ],
+      "text": " A feature is to utopia comes second, that is science and innovation, because in as much"
+    },
+    {
+      "timestamp": [
+        26.88,
+        32.72
+      ],
+      "text": " as science and innovation are trying to take pace in society AI and data-driven governance"
+    },
+    {
+      "timestamp": [
+        33.6,
+        41.84
+      ],
+      "text": " is just still considered the very much top of the pyramid in the technological era and also"
+    },
+    {
+      "timestamp": [
+        43.04,
+        52.48
+      ],
+      "text": " primitivist Ethiopia that is low tech and small scale comes third because it is unlikely to provide"
+    },
+    {
+      "timestamp": [
+        53.12,
+        59.6
+      ],
+      "text": " the technological excellence that would have been provided by AI data centred utopia that"
+    },
+    {
+      "timestamp": [
+        59.6,
+        65.28
+      ],
+      "text": " is a data-driven technology and therefore the rule of law that is institutional utopia comes forth"
+    },
+    {
+      "timestamp": [
+        65.28,
+        71.68
+      ],
+      "text": " because in as much as the law the laws keep the society safe I would like a society that focuses"
+    },
+    {
+      "timestamp": [
+        71.68,
+        80.24
+      ],
+      "text": " more on data and information more and than technology because information and is power"
+    },
+    {
+      "timestamp": [
+        81.68,
+        80.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        88.4,
+        96.54
+      ],
+      "text": " as compared to the rule of law and therefore the weight of the magnitude of the society is quite different. Fifth is the religious utopia, the faith-based order. This is a"
+    },
+    {
+      "timestamp": [
+        96.54,
+        104.62
+      ],
+      "text": " segment that takes a set of different people because not everybody in the society is religious"
+    },
+    {
+      "timestamp": [
+        104.62,
+        111.62
+      ],
+      "text": " And therefore, faith-based order has just a different set of people to believe in them and to help them."
+    },
+    {
+      "timestamp": [
+        111.62,
+        121.62
+      ],
+      "text": " And therefore, the sixth, which is sustainable and secure, I think, if a matter of feeling that governance has taken the exams in which you will take a small scale, then you will go."
+    },
+    {
+      "timestamp": [
+        121.62,
+        125.62
+      ],
+      "text": " And I think sustainability and security are now going to take place."
+    },
+    {
+      "timestamp": [
+        125.62,
+        133.62
+      ],
+      "text": " And therefore, the moral, common way, if I must last, is the immorality, because it is just something that we have taught."
+    },
+    {
+      "timestamp": [
+        133.62,
+        149.88
+      ],
+      "text": " It is a tacit knowledge that resides in the area of different society and be easily transferred to other people so that it comes and plays it so that it can be recorded in various records to be easily transferred to other users."
+    }
+  ]
+}

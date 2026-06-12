@@ -1,0 +1,129 @@
+{
+  "audio_file": "69a07eca2f369e740df3a36e_audio_ranking_explanation_1780405654315.webm",
+  "transcript": " Okay, so I placed modern green utopia as the most preferred, whereas the AI-centered utopia is the least preferred. I will get into the least preferred. With AI running things, the earth will be destroyed since they use fresh water and resources to cool down the AI centers. Then above that is the religious utopia i do not believe religion should have governance over people it's i'm not going to get into religion but i think it's not a way people should follow in their life if that makes sense rule of law i mean it's not really preferred but it's still better than the religion and the ai centered utopias now i placed moral commonwealth in the center because you can't guarantee everyone will follow that same inner morality because there's always going to be people who cannot follow that um i didn't really have much of a an opinion on the low tech and small scale so i just placed it at three the science and innovation i think would be pretty nice because i think we should listen more to scientific research and technology innovation just not ai innovation then the top i believe modern green utopia would be the most preferred because it focuses on sustainability and security while keeping the earth clean, if that makes sense. Since we have to live on the earth, it is best to take care of the earth rather than destroying it like we are with AI centers currently. So that is the reasoning behind my most preferred to least preferred.",
+  "language": "unknown",
+  "processing_time_seconds": 30.383455,
+  "timestamp": "2026-06-08T09:09:17.597415",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.88
+      ],
+      "text": " Okay, so I placed modern green utopia as the most preferred, whereas the AI-centered utopia is the least preferred."
+    },
+    {
+      "timestamp": [
+        12.88,
+        24.6
+      ],
+      "text": " I will get into the least preferred. With AI running things, the earth will be destroyed"
+    },
+    {
+      "timestamp": [
+        24.6,
+        36.04
+      ],
+      "text": " since they use fresh water and resources to cool down the AI centers. Then above that"
+    },
+    {
+      "timestamp": [
+        36.04,
+        46.62
+      ],
+      "text": " is the religious utopia i do not believe religion should have governance over people"
+    },
+    {
+      "timestamp": [
+        46.62,
+        59.78
+      ],
+      "text": " it's i'm not going to get into religion but i think it's not a way people should follow"
+    },
+    {
+      "timestamp": [
+        59.78,
+        70.34
+      ],
+      "text": " in their life if that makes sense rule of law i mean it's not really preferred but it's still"
+    },
+    {
+      "timestamp": [
+        70.34,
+        79.54
+      ],
+      "text": " better than the religion and the ai centered utopias now i placed moral commonwealth in"
+    },
+    {
+      "timestamp": [
+        79.54,
+        90.22
+      ],
+      "text": " the center because you can't guarantee everyone will follow that same inner morality"
+    },
+    {
+      "timestamp": [
+        90.22,
+        101.32
+      ],
+      "text": " because there's always going to be people who cannot follow that um i didn't really have much"
+    },
+    {
+      "timestamp": [
+        101.32,
+        110.12
+      ],
+      "text": " of a an opinion on the low tech and small scale so i just placed it at three the science and"
+    },
+    {
+      "timestamp": [
+        110.12,
+        119.82
+      ],
+      "text": " innovation i think would be pretty nice because i think we should listen more to scientific research"
+    },
+    {
+      "timestamp": [
+        119.82,
+        130.62
+      ],
+      "text": " and technology innovation just not ai innovation then the top i believe modern green utopia would"
+    },
+    {
+      "timestamp": [
+        130.62,
+        137.94
+      ],
+      "text": " be the most preferred because it focuses on sustainability and security while keeping"
+    },
+    {
+      "timestamp": [
+        137.94,
+        146.58
+      ],
+      "text": " the earth clean, if that makes sense."
+    },
+    {
+      "timestamp": [
+        146.58,
+        151.52
+      ],
+      "text": " Since we have to live on the earth, it is best to take care of the earth rather than"
+    },
+    {
+      "timestamp": [
+        151.52,
+        157.46
+      ],
+      "text": " destroying it like we are with AI centers currently."
+    },
+    {
+      "timestamp": [
+        157.46,
+        161.68
+      ],
+      "text": " So that is the reasoning behind my most preferred to least preferred."
+    }
+  ]
+}

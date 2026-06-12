@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a07dde8fe131191c3d2be63_audio_ranking_explanation_1780385816688.webm",
+  "transcript": " I chose these rankings because I believe that having a society that takes care of the environment is more important for the future of the citizens who live in that environment, and to not put that as paramount would be detrimental. I believe that an AI-centered utopia would be not beneficial because it's not human-powered innovation, and I think that that can have negative consequences.",
+  "language": "unknown",
+  "processing_time_seconds": 9.029632,
+  "timestamp": "2026-06-08T10:30:42.952720",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.48
+      ],
+      "text": " I chose these rankings because I believe that having a society that takes care of the environment is more important for the future of the citizens who live in that environment, and to not put that as paramount would be detrimental."
+    },
+    {
+      "timestamp": [
+        21.48,
+        37.9
+      ],
+      "text": " I believe that an AI-centered utopia would be not beneficial because it's not human-powered innovation, and I think that that can have negative consequences."
+    }
+  ]
+}

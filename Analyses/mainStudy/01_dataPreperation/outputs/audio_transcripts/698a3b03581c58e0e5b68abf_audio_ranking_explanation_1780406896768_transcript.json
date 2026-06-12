@@ -1,0 +1,52 @@
+{
+  "audio_file": "698a3b03581c58e0e5b68abf_audio_ranking_explanation_1780406896768.webm",
+  "transcript": " Okay, so the reason I set my rankings like this is based off my preference of where I feel like I'll be more comfortable living in. And I think science and innovation takes the first place, being, I think it's going to be exciting and adventurous, while for a more stable outcome, then we have the institutional utopia, where the rule of law takes place, then inner morality, and that's how it goes to religion. I think why I chose religious utopia last is because we have so many religions and they will all want to enforce their own law which can lead to chaos.",
+  "language": "unknown",
+  "processing_time_seconds": 14.306187,
+  "timestamp": "2026-06-08T09:01:54.749606",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.06
+      ],
+      "text": " Okay, so the reason I set my rankings like this is based off my preference of where I feel like I'll be more comfortable living in."
+    },
+    {
+      "timestamp": [
+        12.06,
+        19.02
+      ],
+      "text": " And I think science and innovation takes the first place, being, I think it's going to"
+    },
+    {
+      "timestamp": [
+        19.02,
+        27.1
+      ],
+      "text": " be exciting and adventurous, while for a more stable outcome, then we have the institutional"
+    },
+    {
+      "timestamp": [
+        27.1,
+        36.6
+      ],
+      "text": " utopia, where the rule of law takes place, then inner morality, and that's how it goes"
+    },
+    {
+      "timestamp": [
+        36.6,
+        37.3
+      ],
+      "text": " to religion."
+    },
+    {
+      "timestamp": [
+        37.3,
+        51.3
+      ],
+      "text": " I think why I chose religious utopia last is because we have so many religions and they will all want to enforce their own law which can lead to chaos."
+    }
+  ]
+}

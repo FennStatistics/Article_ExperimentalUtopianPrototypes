@@ -1,0 +1,136 @@
+{
+  "audio_file": "6a0b28fb42e64e7b3201649e_audio_ranking_explanation_1780415932002.webm",
+  "transcript": " So the reason I rank them this way, I believe technology can be extremely beneficial, but I believe we should not put it in a leadership or decision-making position. I believe that people are smart and should be part of the decision-making process, but I also think there shouldn't be this huge rule and law and strong government that supersedes every other decision that could be made. um so the the primitivist utopia i believe that could be the most beneficial and then the the green utopia i think would be beneficial and just environmentally thinking long term and like what would be sustainable um the moral commonwealth i put for number three because i think in a perfect world that would be great but i also think we can't rely on every single person's morality for them to uphold it um the science innovation one came next i believe again in a perfect world that would be great to have science that is that successful but i think if we put all our eggs in that basket we risk okay what if it doesn't work and then now we've spent a lot of resources on this thing um religion based i think depending on your religion if it's your religion that is that it's going off of that's great but there's many religions there's so many people that would be unhappy or I think it could lead to a lot of debate or riot or instability and the rule of law I again think we shouldn't have specific people that can just supersede everyone's decision I think everyone should have a say not necessarily that they can make every single decision but that every person can feel part of the process and then the AI put at the bottom because at the end of the day there's going to be error or there's going to be just situations that a computer can't understand that a human could and just it's a world of humans. I don't think we should have AI ruling it.",
+  "language": "unknown",
+  "processing_time_seconds": 26.337414,
+  "timestamp": "2026-06-08T10:37:27.856117",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.66
+      ],
+      "text": " So the reason I rank them this way, I believe technology can be extremely beneficial, but I believe we should not put it in a leadership or decision-making position."
+    },
+    {
+      "timestamp": [
+        11.66,
+        26.2
+      ],
+      "text": " I believe that people are smart and should be part of the decision-making process, but I also think there shouldn't be this huge rule and law and strong government that supersedes every other decision that could be made."
+    },
+    {
+      "timestamp": [
+        27.4,
+        26.2
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.42,
+        38.16
+      ],
+      "text": " um so the the primitivist utopia i believe that could be the most beneficial and then the the green utopia i think would be beneficial and just environmentally thinking long term and like what"
+    },
+    {
+      "timestamp": [
+        38.16,
+        45.06
+      ],
+      "text": " would be sustainable um the moral commonwealth i put for number three because i think in a perfect"
+    },
+    {
+      "timestamp": [
+        45.06,
+        50.04
+      ],
+      "text": " world that would be great but i also think we can't rely on every single person's morality"
+    },
+    {
+      "timestamp": [
+        50.04,
+        55.6
+      ],
+      "text": " for them to uphold it um the science innovation one came next i believe"
+    },
+    {
+      "timestamp": [
+        55.6,
+        59.64
+      ],
+      "text": " again in a perfect world that would be great to have science that is that successful"
+    },
+    {
+      "timestamp": [
+        59.64,
+        64.78
+      ],
+      "text": " but i think if we put all our eggs in that basket we risk okay what if it doesn't work"
+    },
+    {
+      "timestamp": [
+        64.78,
+        71.62
+      ],
+      "text": " and then now we've spent a lot of resources on this thing um religion based i think depending"
+    },
+    {
+      "timestamp": [
+        71.62,
+        76.78
+      ],
+      "text": " on your religion if it's your religion that is that it's going off of that's great but there's"
+    },
+    {
+      "timestamp": [
+        76.78,
+        81.64
+      ],
+      "text": " many religions there's so many people that would be unhappy or I think it could lead to a lot of"
+    },
+    {
+      "timestamp": [
+        81.64,
+        89.1
+      ],
+      "text": " debate or riot or instability and the rule of law I again think we shouldn't have specific people"
+    },
+    {
+      "timestamp": [
+        89.1,
+        93.44
+      ],
+      "text": " that can just supersede everyone's decision I think everyone should have a say not necessarily"
+    },
+    {
+      "timestamp": [
+        93.44,
+        98.0
+      ],
+      "text": " that they can make every single decision but that every person can feel part of the process"
+    },
+    {
+      "timestamp": [
+        98.0,
+        103.16
+      ],
+      "text": " and then the AI put at the bottom because at the end of the day there's going to be error or there's"
+    },
+    {
+      "timestamp": [
+        103.16,
+        108.22
+      ],
+      "text": " going to be just situations that a computer can't understand that a human could and just"
+    },
+    {
+      "timestamp": [
+        108.22,
+        111.96
+      ],
+      "text": " it's a world of humans. I don't think we should have AI ruling it."
+    }
+  ]
+}

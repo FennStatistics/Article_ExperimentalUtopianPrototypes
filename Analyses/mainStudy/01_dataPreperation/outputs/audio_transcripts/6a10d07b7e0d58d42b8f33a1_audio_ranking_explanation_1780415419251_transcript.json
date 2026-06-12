@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a10d07b7e0d58d42b8f33a1_audio_ranking_explanation_1780415419251.webm",
+  "transcript": " um this is an explanation as to why i chose what i did for my rankings um i did it based on my principles i'm a big lover of technology so that's why i chose the futurist utopia as number one um a civilization with advanced technology can accomplish almost anything followed that by moral commonwealth. I feel like that's what people describe as the perfect utopia governing each other, caring about each other, stuff like that. My least preferred is the institutional utopia rule of law. I feel like that would be almost dystopian. It would create a civilization where people would feel like they're under the thumb of the government, and every little thing they do is watch or controlled. I feel like that is the opposite of what a utopia should be.",
+  "language": "unknown",
+  "processing_time_seconds": 14.437116,
+  "timestamp": "2026-06-08T10:54:00.189887",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.32
+      ],
+      "text": " um this is an explanation as to why i chose what i did for my rankings um i did it based"
+    },
+    {
+      "timestamp": [
+        10.32,
+        18.28
+      ],
+      "text": " on my principles i'm a big lover of technology so that's why i chose the futurist utopia as number"
+    },
+    {
+      "timestamp": [
+        18.28,
+        26.14
+      ],
+      "text": " one um a civilization with advanced technology can accomplish almost anything"
+    },
+    {
+      "timestamp": [
+        26.14,
+        30.22
+      ],
+      "text": " followed that by"
+    },
+    {
+      "timestamp": [
+        30.22,
+        34.38
+      ],
+      "text": " moral commonwealth. I feel like that's what people"
+    },
+    {
+      "timestamp": [
+        34.38,
+        38.56
+      ],
+      "text": " describe as the perfect utopia"
+    },
+    {
+      "timestamp": [
+        38.56,
+        42.26
+      ],
+      "text": " governing each other, caring about"
+    },
+    {
+      "timestamp": [
+        42.26,
+        43.66
+      ],
+      "text": " each other, stuff like that."
+    },
+    {
+      "timestamp": [
+        45.6,
+        50.42
+      ],
+      "text": " My least preferred is the institutional utopia"
+    },
+    {
+      "timestamp": [
+        50.42,
+        54.8
+      ],
+      "text": " rule of law. I feel like that would be almost dystopian."
+    },
+    {
+      "timestamp": [
+        55.32,
+        54.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        71.12,
+        71.38
+      ],
+      "text": " It would create a civilization where people would feel like they're under the thumb of the government, and every little thing they do is watch or controlled."
+    },
+    {
+      "timestamp": [
+        75.8,
+        null
+      ],
+      "text": " I feel like that is the opposite of what a utopia should be."
+    }
+  ]
+}

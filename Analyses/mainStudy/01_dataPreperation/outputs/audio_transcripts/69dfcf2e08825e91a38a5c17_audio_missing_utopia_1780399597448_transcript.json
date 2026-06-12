@@ -1,0 +1,17 @@
+{
+  "audio_file": "69dfcf2e08825e91a38a5c17_audio_missing_utopia_1780399597448.webm",
+  "transcript": " No, I think that you provide all the ways that the future society could be.",
+  "language": "unknown",
+  "processing_time_seconds": 4.897463,
+  "timestamp": "2026-06-08T09:35:26.806391",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.96
+      ],
+      "text": " No, I think that you provide all the ways that the future society could be."
+    }
+  ]
+}

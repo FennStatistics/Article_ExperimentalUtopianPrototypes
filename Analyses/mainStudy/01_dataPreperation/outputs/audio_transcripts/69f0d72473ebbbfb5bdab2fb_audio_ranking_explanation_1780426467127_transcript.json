@@ -1,0 +1,52 @@
+{
+  "audio_file": "69f0d72473ebbbfb5bdab2fb_audio_ranking_explanation_1780426467127.webm",
+  "transcript": " I think that also ties into it. Next is science and innovation. I think that's important to keep everybody up to date. It also ties into safety. It also helps new things come about. um then sustainable and secure is i think pretty self-explanatory um intermortality i think it's important that people have um a grasp on their own beliefs and how they think something should work um then faith-based order i think that that's difficult because not everybody believes the same thing and then lastly low-tech and small scale um i don't think that there would be much development from them.",
+  "language": "unknown",
+  "processing_time_seconds": 12.945921,
+  "timestamp": "2026-06-08T09:52:46.670874",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.58
+      ],
+      "text": " I think that also ties into it. Next is science and innovation. I think that's important to keep everybody up to date. It also ties into safety. It also helps new things come about."
+    },
+    {
+      "timestamp": [
+        17.4,
+        16.58
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        24.1,
+        30.86
+      ],
+      "text": " um then sustainable and secure is i think pretty self-explanatory um intermortality i think it's important that people have um a grasp on their own beliefs and how they think"
+    },
+    {
+      "timestamp": [
+        30.86,
+        37.0
+      ],
+      "text": " something should work um then faith-based order i think that that's difficult because not everybody"
+    },
+    {
+      "timestamp": [
+        37.0,
+        43.34
+      ],
+      "text": " believes the same thing and then lastly low-tech and small scale um i don't think that there would"
+    },
+    {
+      "timestamp": [
+        43.34,
+        44.8
+      ],
+      "text": " be much development from them."
+    }
+  ]
+}

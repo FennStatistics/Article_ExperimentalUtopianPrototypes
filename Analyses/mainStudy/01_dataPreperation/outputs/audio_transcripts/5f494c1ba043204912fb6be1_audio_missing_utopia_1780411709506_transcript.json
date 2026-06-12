@@ -1,0 +1,38 @@
+{
+  "audio_file": "5f494c1ba043204912fb6be1_audio_missing_utopia_1780411709506.webm",
+  "transcript": " i don't feel that anything was missing i think all the important values were already presented represented um some were very convincing and ideal others not so much i do think that pretty much all societies that could exist all ideas were represented in this all seven I could be wrong.",
+  "language": "unknown",
+  "processing_time_seconds": 8.260445,
+  "timestamp": "2026-06-08T08:17:24.751264",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.92
+      ],
+      "text": " i don't feel that anything was missing i think all the important values were already presented"
+    },
+    {
+      "timestamp": [
+        8.48,
+        18.64
+      ],
+      "text": " represented um some were very convincing and ideal others not so much i do think that"
+    },
+    {
+      "timestamp": [
+        19.52,
+        29.04
+      ],
+      "text": " pretty much all societies that could exist all ideas were represented in this all seven"
+    },
+    {
+      "timestamp": [
+        30.0,
+        31.6
+      ],
+      "text": " I could be wrong."
+    }
+  ]
+}

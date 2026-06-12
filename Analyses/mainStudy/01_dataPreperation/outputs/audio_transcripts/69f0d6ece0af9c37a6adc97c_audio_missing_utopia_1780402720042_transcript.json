@@ -1,0 +1,66 @@
+{
+  "audio_file": "69f0d6ece0af9c37a6adc97c_audio_missing_utopia_1780402720042.webm",
+  "transcript": " I would say the deep connection and community. Society focuses on fixing the isolation, hyper-individualism and screen fatigue of modern life. The core concept, a society built entirely around hyper-local communities, mutual aid and face-to-face human connection. What was missing in the others? I would say many future visions focus heavily on technological advancement, economic systems, or strict governance, but they often leave out the emotional and social public of everyday life. how we actually relate to each other what matters most shared spaces and collaboration a world where communities design their own living spaces collectively prioritizing communal kitchen neighborhood garden and open forum decision making really helps Success isn't measured by GDP or individual wealth, but by the strength of social safety nets. Collective mental well-being and the amount of free time people have to spend with family, friends, and creative passwords. That's my instance concerning my missing utopia.",
+  "language": "unknown",
+  "processing_time_seconds": 17.278571,
+  "timestamp": "2026-06-08T09:52:15.973642",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.38
+      ],
+      "text": " I would say the deep connection and community."
+    },
+    {
+      "timestamp": [
+        5.38,
+        14.84
+      ],
+      "text": " Society focuses on fixing the isolation, hyper-individualism and screen fatigue of modern life."
+    },
+    {
+      "timestamp": [
+        14.84,
+        24.36
+      ],
+      "text": " The core concept, a society built entirely around hyper-local communities, mutual aid and face-to-face human connection."
+    },
+    {
+      "timestamp": [
+        24.36,
+        40.46
+      ],
+      "text": " What was missing in the others? I would say many future visions focus heavily on technological advancement, economic systems, or strict governance, but they often leave out the emotional and social public of everyday life."
+    },
+    {
+      "timestamp": [
+        40.46,
+        61.02
+      ],
+      "text": " how we actually relate to each other what matters most shared spaces and collaboration a world where communities design their own living spaces collectively prioritizing communal kitchen neighborhood garden and open forum decision making really helps"
+    },
+    {
+      "timestamp": [
+        61.02,
+        69.46
+      ],
+      "text": " Success isn't measured by GDP or individual wealth, but by the strength of social safety nets."
+    },
+    {
+      "timestamp": [
+        69.46,
+        79.2
+      ],
+      "text": " Collective mental well-being and the amount of free time people have to spend with family, friends, and creative passwords."
+    },
+    {
+      "timestamp": [
+        79.2,
+        86.1
+      ],
+      "text": " That's my instance concerning my missing utopia."
+    }
+  ]
+}

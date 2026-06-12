@@ -1,0 +1,17 @@
+{
+  "audio_file": "677b591c703b1749329c9b7c_audio_missing_utopia_1780271578979.webm",
+  "transcript": " I feel like the main societies recovered.",
+  "language": "unknown",
+  "processing_time_seconds": 4.494927,
+  "timestamp": "2026-06-08T08:46:51.696286",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.06
+      ],
+      "text": " I feel like the main societies recovered."
+    }
+  ]
+}

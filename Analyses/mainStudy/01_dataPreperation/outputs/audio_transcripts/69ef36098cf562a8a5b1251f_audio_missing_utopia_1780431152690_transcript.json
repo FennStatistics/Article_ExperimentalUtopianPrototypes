@@ -1,0 +1,38 @@
+{
+  "audio_file": "69ef36098cf562a8a5b1251f_audio_missing_utopia_1780431152690.webm",
+  "transcript": " I feel everything from the choices that we had to choose was well-organized, except for having people choose what they want. I guess freedom of choice is a big thing for a human society to me. I also believe that, you know, we could have technology and we could have our greenery as well. Okay.",
+  "language": "unknown",
+  "processing_time_seconds": 6.531588,
+  "timestamp": "2026-06-08T09:50:30.470424",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.56
+      ],
+      "text": " I feel everything from the choices that we had to choose was well-organized, except for having people choose what they want."
+    },
+    {
+      "timestamp": [
+        10.72,
+        16.26
+      ],
+      "text": " I guess freedom of choice is a big thing for a human society to me."
+    },
+    {
+      "timestamp": [
+        16.96,
+        25.0
+      ],
+      "text": " I also believe that, you know, we could have technology and we could have our greenery as well."
+    },
+    {
+      "timestamp": [
+        26.0,
+        26.76
+      ],
+      "text": " Okay."
+    }
+  ]
+}

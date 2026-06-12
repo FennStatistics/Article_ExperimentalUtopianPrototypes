@@ -1,0 +1,59 @@
+{
+  "audio_file": "69a775b189904fa2c43c4cf7_audio_missing_utopia_1780487505955.webm",
+  "transcript": " So in my future society, believe it or not, I believe most people will start to upload themselves because the world is not so fun a place to be in right now. But in doing so, they will still exist just in the cloud. And they will choose whether or not to stay or go after that because there is an infinite ability for that. to be capable right so just get people on crystals right we uh we're starting to write data on crystals and stuff so i believe that will help because the people that get uploaded will then be less a strain on the environment but still be able to help by being there you know that they're not dying per se they're just uploading themselves",
+  "language": "unknown",
+  "processing_time_seconds": 13.716552,
+  "timestamp": "2026-06-08T09:12:34.086748",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.36,
+        13.84
+      ],
+      "text": " So in my future society, believe it or not, I believe most people will start to upload themselves because the world is not so fun a place to be in right now."
+    },
+    {
+      "timestamp": [
+        14.3,
+        18.02
+      ],
+      "text": " But in doing so, they will still exist just in the cloud."
+    },
+    {
+      "timestamp": [
+        18.88,
+        29.98
+      ],
+      "text": " And they will choose whether or not to stay or go after that because there is an infinite ability for that."
+    },
+    {
+      "timestamp": [
+        30.88,
+        38.48
+      ],
+      "text": " to be capable right so just get people on crystals right we uh we're starting to write"
+    },
+    {
+      "timestamp": [
+        38.48,
+        49.92
+      ],
+      "text": " data on crystals and stuff so i believe that will help because the people that get uploaded will then"
+    },
+    {
+      "timestamp": [
+        49.92,
+        62.62
+      ],
+      "text": " be less a strain on the environment but still be able to help by being there you know that they're"
+    },
+    {
+      "timestamp": [
+        62.62,
+        66.02
+      ],
+      "text": " not dying per se they're just uploading themselves"
+    }
+  ]
+}

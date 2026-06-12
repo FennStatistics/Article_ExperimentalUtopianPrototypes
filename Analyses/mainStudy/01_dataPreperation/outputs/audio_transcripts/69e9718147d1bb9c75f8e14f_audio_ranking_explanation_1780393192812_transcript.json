@@ -1,0 +1,17 @@
+{
+  "audio_file": "69e9718147d1bb9c75f8e14f_audio_ranking_explanation_1780393192812.webm",
+  "transcript": " Ethical progress is prioritized over rigid control and raw tech degradation.",
+  "language": "unknown",
+  "processing_time_seconds": 4.67133,
+  "timestamp": "2026-06-08T09:44:36.079412",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.54
+      ],
+      "text": " Ethical progress is prioritized over rigid control and raw tech degradation."
+    }
+  ]
+}

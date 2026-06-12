@@ -1,0 +1,38 @@
+{
+  "audio_file": "698ef6b9ab29d51d9ec4928a_audio_ranking_explanation_1780274073088.webm",
+  "transcript": " I chose futuristic because you need science and innovation in order to preserve and grow the human race and to keep everything sustained. the AI centered one is not a good idea whatsoever I feel like AI is kind of getting us into the situation that we are now and it is or it can be very dangerous and takes a lot of human instinct and interactions out of it",
+  "language": "unknown",
+  "processing_time_seconds": 8.963873,
+  "timestamp": "2026-06-08T09:04:21.961287",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.44
+      ],
+      "text": " I chose futuristic because you need science and innovation in order to preserve and grow the human race and to keep everything sustained."
+    },
+    {
+      "timestamp": [
+        18.44,
+        30.26
+      ],
+      "text": " the AI centered one is not a good idea whatsoever I feel like AI is kind of"
+    },
+    {
+      "timestamp": [
+        30.26,
+        38.9
+      ],
+      "text": " getting us into the situation that we are now and it is or it can be very"
+    },
+    {
+      "timestamp": [
+        38.9,
+        48.16
+      ],
+      "text": " dangerous and takes a lot of human instinct and interactions out of it"
+    }
+  ]
+}

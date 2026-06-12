@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a080333f7001eaf175c94ab_audio_ranking_explanation_1780211847578.webm",
+  "transcript": " The reason I selected the order that I did is because I think the moral commonwealth is the best for the most amount of people, and then as I go down, it becomes less good for the most amount of people and more controlling. I put the religious utopia at the bottom because imposing religious beliefs goes against my moral code.",
+  "language": "unknown",
+  "processing_time_seconds": 6.463812,
+  "timestamp": "2026-06-08T10:31:10.499992",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        18.92
+      ],
+      "text": " The reason I selected the order that I did is because I think the moral commonwealth is the best for the most amount of people, and then as I go down, it becomes less good for the most amount of people and more controlling."
+    },
+    {
+      "timestamp": [
+        19.2,
+        26.46
+      ],
+      "text": " I put the religious utopia at the bottom because imposing religious beliefs goes against my moral code."
+    }
+  ]
+}

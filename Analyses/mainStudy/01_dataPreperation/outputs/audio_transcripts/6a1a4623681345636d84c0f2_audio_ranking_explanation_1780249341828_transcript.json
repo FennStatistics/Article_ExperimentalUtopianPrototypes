@@ -1,0 +1,220 @@
+{
+  "audio_file": "6a1a4623681345636d84c0f2_audio_ranking_explanation_1780249341828.webm",
+  "transcript": " OK, I'll go order from least liked to most liked with a little reason for each. So at the bottom, I put religious utopia. I am not a religious person. And looking through history, there have been a lot of problems caused by religion and sticking solely to it, in my opinion, and using it as a basis for society. So it's just not a society I'm interested in living in. Number six would be AI-centered utopia. i am not a big fan of ai at this current time and i don't think looking at data solely would work in creating a fair society i think there needs to be some human oversight and human touch to it um i think it could work potentially but i would want some human aspect to it um number five kind of falls into the same category for me i it's a futurist utopia i think there are benefits to science and innovation but the way the prompt was written made it sound like it would just be constant and always changing and like nothing would become the norm and uh i don't like the idea of that uh number four i took the the low-tech small-scale utopia i like the idea of this i don't know how realistic it would be and um i do think there needs to be some kind of rule of law uh and in this scenario it was just um small scale like take what you can i think it would be nice i just don't see it happening with how large our society is uh number three moral commonwealth um i would absolutely love a society where everyone based things on their morality, but I don't think it's the most realistic. Just everyone has their own sense of what is right and wrong. And I think there needs to be some kind of rules set up for that. But if that was not an issue, I definitely put it high on the list. Number two, institutional utopia of rule of law. I think it's the closest to what we try to do now. So I think that's why it's placed so high. I like the idea of rules and consequences for not following rules in a way that still gives people free will. But I don't know, I like the idea that you won't do something bad because you might get in trouble for it. And then I put modern green utopia as number one. I think I'm basing it just on our current state of the world. I think we do need to have a focus on being sustainable, especially in the prompt where like resources are a little more scarce um where as as great as it would be for everybody to do their share and consume less i everyone's i think humans will just act a little selfishly just by nature and having rules in place or systems in place to make things more sustainable would lead to a better society",
+  "language": "unknown",
+  "processing_time_seconds": 37.948257,
+  "timestamp": "2026-06-08T11:14:49.807746",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        6.82
+      ],
+      "text": " OK, I'll go order from least liked to most liked with a little reason for each."
+    },
+    {
+      "timestamp": [
+        7.56,
+        9.62
+      ],
+      "text": " So at the bottom, I put religious utopia."
+    },
+    {
+      "timestamp": [
+        10.06,
+        11.9
+      ],
+      "text": " I am not a religious person."
+    },
+    {
+      "timestamp": [
+        11.9,
+        17.82
+      ],
+      "text": " And looking through history, there have been a lot of problems caused by religion and sticking"
+    },
+    {
+      "timestamp": [
+        17.82,
+        21.5
+      ],
+      "text": " solely to it, in my opinion, and using it as a basis for society."
+    },
+    {
+      "timestamp": [
+        22.58,
+        25.46
+      ],
+      "text": " So it's just not a society I'm interested in living in."
+    },
+    {
+      "timestamp": [
+        26.3,
+        28.92
+      ],
+      "text": " Number six would be AI-centered utopia."
+    },
+    {
+      "timestamp": [
+        29.76,
+        28.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        39.48,
+        45.1
+      ],
+      "text": " i am not a big fan of ai at this current time and i don't think looking at data solely would work in creating a fair society i think there needs to be some human oversight and human"
+    },
+    {
+      "timestamp": [
+        45.1,
+        53.78
+      ],
+      "text": " touch to it um i think it could work potentially but i would want some human aspect to it um number"
+    },
+    {
+      "timestamp": [
+        53.78,
+        61.22
+      ],
+      "text": " five kind of falls into the same category for me i it's a futurist utopia i think there are"
+    },
+    {
+      "timestamp": [
+        61.22,
+        65.54
+      ],
+      "text": " benefits to science and innovation but the way the prompt was written made it sound like it would"
+    },
+    {
+      "timestamp": [
+        65.54,
+        72.9
+      ],
+      "text": " just be constant and always changing and like nothing would become the norm and uh i don't"
+    },
+    {
+      "timestamp": [
+        72.9,
+        82.34
+      ],
+      "text": " like the idea of that uh number four i took the the low-tech small-scale utopia i like the idea"
+    },
+    {
+      "timestamp": [
+        82.34,
+        90.72
+      ],
+      "text": " of this i don't know how realistic it would be and um i do think there needs to be some kind of"
+    },
+    {
+      "timestamp": [
+        90.72,
+        99.52
+      ],
+      "text": " rule of law uh and in this scenario it was just um small scale like take what you can i think"
+    },
+    {
+      "timestamp": [
+        99.52,
+        104.0
+      ],
+      "text": " it would be nice i just don't see it happening with how large our society is"
+    },
+    {
+      "timestamp": [
+        104.0,
+        111.54
+      ],
+      "text": " uh number three moral commonwealth um i would absolutely love a society where everyone based"
+    },
+    {
+      "timestamp": [
+        111.54,
+        118.58
+      ],
+      "text": " things on their morality, but I don't think it's the most realistic. Just everyone has their own"
+    },
+    {
+      "timestamp": [
+        118.58,
+        122.34
+      ],
+      "text": " sense of what is right and wrong. And I think there needs to be some kind of rules set up for"
+    },
+    {
+      "timestamp": [
+        122.34,
+        130.38
+      ],
+      "text": " that. But if that was not an issue, I definitely put it high on the list. Number two, institutional"
+    },
+    {
+      "timestamp": [
+        130.38,
+        137.32
+      ],
+      "text": " utopia of rule of law. I think it's the closest to what we try to do now. So I think that's why"
+    },
+    {
+      "timestamp": [
+        137.32,
+        142.46
+      ],
+      "text": " it's placed so high. I like the idea of rules and consequences for not following rules"
+    },
+    {
+      "timestamp": [
+        142.46,
+        151.8
+      ],
+      "text": " in a way that still gives people free will. But I don't know, I like the idea that you won't do"
+    },
+    {
+      "timestamp": [
+        151.8,
+        156.46
+      ],
+      "text": " something bad because you might get in trouble for it. And then I put modern green utopia as"
+    },
+    {
+      "timestamp": [
+        156.46,
+        162.66
+      ],
+      "text": " number one. I think I'm basing it just on our current state of the world. I think we do need"
+    },
+    {
+      "timestamp": [
+        162.66,
+        166.9
+      ],
+      "text": " to have a focus on being sustainable, especially in the prompt where like resources are a little"
+    },
+    {
+      "timestamp": [
+        166.9,
+        175.62
+      ],
+      "text": " more scarce um where as as great as it would be for everybody to do their share and consume less"
+    },
+    {
+      "timestamp": [
+        175.62,
+        182.1
+      ],
+      "text": " i everyone's i think humans will just act a little selfishly just by nature and having"
+    },
+    {
+      "timestamp": [
+        182.1,
+        187.62
+      ],
+      "text": " rules in place or systems in place to make things more sustainable would lead to a better society"
+    }
+  ]
+}

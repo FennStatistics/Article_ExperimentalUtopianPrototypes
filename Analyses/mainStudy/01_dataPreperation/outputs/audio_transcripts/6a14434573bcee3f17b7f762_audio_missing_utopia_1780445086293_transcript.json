@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a14434573bcee3f17b7f762_audio_missing_utopia_1780445086293.webm",
+  "transcript": " I think a society that was missing was the society of everyone getting better, so everyone eating healthier, everyone using their bodies more, better consumer habits, better disciplinary habits, you know, no doom scrolling, no things like that. I think that's what a little bit of innovation has led to us is complacency and like unhealthiness in a way so a society where we all just sort of try to get healthier, try to get smarter mentally healthy and not giving in to the technology that is currently plaguing us As much as it helps us, it also hurts us at times, I think, because we were humans, and we are not robots.",
+  "language": "unknown",
+  "processing_time_seconds": 13.577823,
+  "timestamp": "2026-06-08T10:58:37.965984",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.8
+      ],
+      "text": " I think a society that was missing was the society of everyone getting better, so everyone"
+    },
+    {
+      "timestamp": [
+        8.8,
+        21.8
+      ],
+      "text": " eating healthier, everyone using their bodies more, better consumer habits, better disciplinary"
+    },
+    {
+      "timestamp": [
+        21.8,
+        25.38
+      ],
+      "text": " habits, you know, no doom scrolling, no things like that."
+    },
+    {
+      "timestamp": [
+        27.16,
+        25.38
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        29.72,
+        31.42
+      ],
+      "text": " I think that's what a little bit of innovation has led to us is complacency and"
+    },
+    {
+      "timestamp": [
+        31.42,
+        35.42
+      ],
+      "text": " like unhealthiness in a way"
+    },
+    {
+      "timestamp": [
+        35.42,
+        40.72
+      ],
+      "text": " so a society where we all just sort of"
+    },
+    {
+      "timestamp": [
+        40.72,
+        43.8
+      ],
+      "text": " try to get healthier, try to get smarter"
+    },
+    {
+      "timestamp": [
+        43.8,
+        45.74
+      ],
+      "text": " mentally healthy"
+    },
+    {
+      "timestamp": [
+        45.74,
+        50.26
+      ],
+      "text": " and not giving in to the technology"
+    },
+    {
+      "timestamp": [
+        50.26,
+        53.12
+      ],
+      "text": " that is currently plaguing us"
+    },
+    {
+      "timestamp": [
+        53.12,
+        60.62
+      ],
+      "text": " As much as it helps us, it also hurts us at times, I think, because we were humans, and"
+    },
+    {
+      "timestamp": [
+        60.62,
+        61.68
+      ],
+      "text": " we are not robots."
+    }
+  ]
+}

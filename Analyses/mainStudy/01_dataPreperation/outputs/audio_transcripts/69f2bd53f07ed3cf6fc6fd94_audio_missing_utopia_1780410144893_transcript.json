@@ -1,0 +1,108 @@
+{
+  "audio_file": "69f2bd53f07ed3cf6fc6fd94_audio_missing_utopia_1780410144893.webm",
+  "transcript": " um considering all of the societies that i was chose to uh that that you had me rank i did notice that among all of the different utopias there was no hypothetical capitalist utopia save for perhaps the ai driven one um you know why do i if i feel like a society was missing from the options I would say that the capitalist utopia hypothetical was missing from the list that doesn't necessarily mean that I would want it to be on the list right in the context of I'm taking a survey right now and I was looking at the list I noticed that there was no capitalist one and I thought hmm that's interesting and so now that I've reached this question I'm looking at it and thinking it's like okay maybe that's what I'm supposed to think right personally I would not want the capitalist utopia to be on the list at all it would be above AI centered utopia but still in the bottom of just like this one's not going to work we're in we're in the capitalist utopia right now and it's not going well so aside from that I didn't notice any societies in particular that were like, where's my society? No, I didn't notice anything like that. I just noticed that there was no capitalist one and went, hmm, that's interesting. And then I went ahead and I put my science and my green at the top like I was going to anyway.",
+  "language": "unknown",
+  "processing_time_seconds": 20.961613,
+  "timestamp": "2026-06-08T09:55:22.811898",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.2
+      ],
+      "text": " um considering all of the societies that i was chose to uh that that you had me rank i did notice"
+    },
+    {
+      "timestamp": [
+        9.2,
+        16.4
+      ],
+      "text": " that among all of the different utopias there was no hypothetical capitalist utopia"
+    },
+    {
+      "timestamp": [
+        16.4,
+        26.92
+      ],
+      "text": " save for perhaps the ai driven one um you know why do i if i feel like a society was missing"
+    },
+    {
+      "timestamp": [
+        26.92,
+        32.82
+      ],
+      "text": " from the options I would say that the capitalist utopia hypothetical was missing from the list"
+    },
+    {
+      "timestamp": [
+        32.82,
+        40.86
+      ],
+      "text": " that doesn't necessarily mean that I would want it to be on the list right in the context of"
+    },
+    {
+      "timestamp": [
+        40.86,
+        47.2
+      ],
+      "text": " I'm taking a survey right now and I was looking at the list I noticed that there was no capitalist"
+    },
+    {
+      "timestamp": [
+        47.2,
+        55.78
+      ],
+      "text": " one and I thought hmm that's interesting and so now that I've reached this question I'm looking"
+    },
+    {
+      "timestamp": [
+        55.78,
+        61.42
+      ],
+      "text": " at it and thinking it's like okay maybe that's what I'm supposed to think right personally I"
+    },
+    {
+      "timestamp": [
+        61.42,
+        68.72
+      ],
+      "text": " would not want the capitalist utopia to be on the list at all it would be above AI centered utopia"
+    },
+    {
+      "timestamp": [
+        68.72,
+        75.58
+      ],
+      "text": " but still in the bottom of just like this one's not going to work we're in we're in the capitalist"
+    },
+    {
+      "timestamp": [
+        75.58,
+        84.84
+      ],
+      "text": " utopia right now and it's not going well so aside from that I didn't notice any societies in"
+    },
+    {
+      "timestamp": [
+        84.84,
+        92.8
+      ],
+      "text": " particular that were like, where's my society? No, I didn't notice anything like that. I just"
+    },
+    {
+      "timestamp": [
+        92.8,
+        98.06
+      ],
+      "text": " noticed that there was no capitalist one and went, hmm, that's interesting. And then I went"
+    },
+    {
+      "timestamp": [
+        98.06,
+        101.88
+      ],
+      "text": " ahead and I put my science and my green at the top like I was going to anyway."
+    }
+  ]
+}

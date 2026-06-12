@@ -1,0 +1,45 @@
+{
+  "audio_file": "69d51b7efe3296cf710e3362_audio_ranking_explanation_1780419444951.webm",
+  "transcript": " So I might be a little old-fashioned, but religious part of me is not there anymore. I don't know a lot of people in society that are religious. Um, I feel like sustainable should be two, maybe sometimes one, because that's really good for the environment and to be able to do for yourself. But without science, we need that as well so we know how to do all the sustainable stuff and to be able to live like we do today.",
+  "language": "unknown",
+  "processing_time_seconds": 9.773133,
+  "timestamp": "2026-06-08T09:31:36.506835",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.18
+      ],
+      "text": " So I might be a little old-fashioned, but religious part of me is not there anymore."
+    },
+    {
+      "timestamp": [
+        7.92,
+        12.26
+      ],
+      "text": " I don't know a lot of people in society that are religious."
+    },
+    {
+      "timestamp": [
+        13.64,
+        27.0
+      ],
+      "text": " Um, I feel like sustainable should be two, maybe sometimes one, because that's really good for the environment and to be able to do for yourself."
+    },
+    {
+      "timestamp": [
+        27.46,
+        27.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        38.82,
+        null
+      ],
+      "text": " But without science, we need that as well so we know how to do all the sustainable stuff and to be able to live like we do today."
+    }
+  ]
+}

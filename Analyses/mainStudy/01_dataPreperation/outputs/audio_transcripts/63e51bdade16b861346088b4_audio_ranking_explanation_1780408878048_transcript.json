@@ -1,0 +1,255 @@
+{
+  "audio_file": "63e51bdade16b861346088b4_audio_ranking_explanation_1780408878048.webm",
+  "transcript": " yeah so i chose these because i guess we'll start at the top um primitivist utopia i feel like this just is most in line with how we as humans have evolved in smaller groups um without technology much uh and i just feel like you know you get a better sense of community this way and um you know shared values with one another and those in your group and I think it's just so much as we're in a very comfortable time but there's also so much that comes you know negative from overuse of technology and you know lacking community and stuff and I think you know this way just really feels like a way that kind of handles that well and kind of can address that if done well. I'm sure there's ways of this that aren't good either, but that's kind of why I put that as one. Number two is modern green utopia. You know, this one feels like larger scale, like what we kind of have now, but there's a focus on, you know, equal balance between taking care of people, but also being sustainable for the earth and, you know, the environment and other animals out there too so i mean i think that's just a good um basis to have there uh that you know also make sure we're protecting things for ourself as well um next is moral commonwealth um you know i think i think this is great if we can all share an inner moral kind of um structure and i think that's really helpful but i think you know it's a bit of a slippery slope, you know, you're kind of relying on there not being bad people out there, people to take advantage of this system. So I think it's just a little bit susceptible to that. But I mean, in general, I think that's a great rule to have. And then number four, institutional utopia rule of law. I feel like this is very similar to kind of what we have now. You know, it generally works and people are generally safe, but there's obviously issues with it. But I think, you know, generally it keeps people in check um which is is good um and next is futurist utopia science and innovation i feel like this is also somewhat similar to what we're in now um i think you know there's some definitely some good things here that come about of this and will be helpful to people but i think this just leads to a lot of like over optimizing things and um trying to extract money value um businesses and you know leads to a very capitalist kind of thing which i don't think is like it's great or whatnot and then six is ai centered utopia i think you know ai always has some kind of level of bias so that's why i don't think it's number one for me or i don't think it's very high for me i think there's still going to be bias and influence of the ai but you know at least it might have somewhat of a more um balanced uh fair treatment of people but um i also just don't like the idea of technology ruling over people it just doesn't feel um very right to me and then last is religious utopia i think this just you know creates i don't know this i'm not a religious person i don't think there's you know one religion over the other but this just creates um tribalism and uh you know people wanting to be wanting to support one specific view of the world even though there's not like strict evidence of that being real so you know it depends on the religion um here but generally i don't think it's the best",
+  "language": "unknown",
+  "processing_time_seconds": 48.054927,
+  "timestamp": "2026-06-08T08:29:37.186571",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.28
+      ],
+      "text": " yeah so i chose these because i guess we'll start at the top um primitivist utopia i feel like this"
+    },
+    {
+      "timestamp": [
+        9.28,
+        17.86
+      ],
+      "text": " just is most in line with how we as humans have evolved in smaller groups um without technology"
+    },
+    {
+      "timestamp": [
+        17.86,
+        25.4
+      ],
+      "text": " much uh and i just feel like you know you get a better sense of community this way and um you"
+    },
+    {
+      "timestamp": [
+        25.4,
+        31.44
+      ],
+      "text": " know shared values with one another and those in your group and I think it's just so much as"
+    },
+    {
+      "timestamp": [
+        31.44,
+        38.86
+      ],
+      "text": " we're in a very comfortable time but there's also so much that comes you know negative from"
+    },
+    {
+      "timestamp": [
+        38.86,
+        47.1
+      ],
+      "text": " overuse of technology and you know lacking community and stuff and I think you know this"
+    },
+    {
+      "timestamp": [
+        47.1,
+        53.6
+      ],
+      "text": " way just really feels like a way that kind of handles that well and kind of can address that"
+    },
+    {
+      "timestamp": [
+        53.6,
+        60.26
+      ],
+      "text": " if done well. I'm sure there's ways of this that aren't good either, but that's kind of why I put"
+    },
+    {
+      "timestamp": [
+        60.26,
+        66.58
+      ],
+      "text": " that as one. Number two is modern green utopia. You know, this one feels like larger scale,"
+    },
+    {
+      "timestamp": [
+        66.58,
+        72.1
+      ],
+      "text": " like what we kind of have now, but there's a focus on, you know, equal balance between"
+    },
+    {
+      "timestamp": [
+        72.1,
+        79.28
+      ],
+      "text": " taking care of people, but also being sustainable for the earth and, you know, the environment and"
+    },
+    {
+      "timestamp": [
+        79.28,
+        85.84
+      ],
+      "text": " other animals out there too so i mean i think that's just a good um basis to have there uh"
+    },
+    {
+      "timestamp": [
+        85.84,
+        91.42
+      ],
+      "text": " that you know also make sure we're protecting things for ourself as well um next is moral"
+    },
+    {
+      "timestamp": [
+        91.42,
+        98.5
+      ],
+      "text": " commonwealth um you know i think i think this is great if we can all share an inner moral kind of"
+    },
+    {
+      "timestamp": [
+        98.5,
+        104.42
+      ],
+      "text": " um structure and i think that's really helpful but i think you know it's a bit of a slippery"
+    },
+    {
+      "timestamp": [
+        104.42,
+        110.38
+      ],
+      "text": " slope, you know, you're kind of relying on there not being bad people out there, people to take"
+    },
+    {
+      "timestamp": [
+        110.38,
+        114.84
+      ],
+      "text": " advantage of this system. So I think it's just a little bit susceptible to that. But I mean,"
+    },
+    {
+      "timestamp": [
+        114.92,
+        121.84
+      ],
+      "text": " in general, I think that's a great rule to have. And then number four, institutional utopia rule"
+    },
+    {
+      "timestamp": [
+        121.84,
+        126.9
+      ],
+      "text": " of law. I feel like this is very similar to kind of what we have now. You know, it generally works"
+    },
+    {
+      "timestamp": [
+        126.9,
+        132.48
+      ],
+      "text": " and people are generally safe, but there's obviously issues with it. But I think, you know,"
+    },
+    {
+      "timestamp": [
+        132.86,
+        132.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        140.56,
+        145.76
+      ],
+      "text": " generally it keeps people in check um which is is good um and next is futurist utopia science and innovation i feel like this is also somewhat similar to what we're in now um i think you know"
+    },
+    {
+      "timestamp": [
+        145.76,
+        150.06
+      ],
+      "text": " there's some definitely some good things here that come about of this and will be helpful to people"
+    },
+    {
+      "timestamp": [
+        150.06,
+        158.58
+      ],
+      "text": " but i think this just leads to a lot of like over optimizing things and um trying to extract money"
+    },
+    {
+      "timestamp": [
+        158.58,
+        163.44
+      ],
+      "text": " value um businesses and you know leads to a very capitalist kind of thing which i don't think is"
+    },
+    {
+      "timestamp": [
+        163.44,
+        171.32
+      ],
+      "text": " like it's great or whatnot and then six is ai centered utopia i think you know ai always has"
+    },
+    {
+      "timestamp": [
+        171.32,
+        175.94
+      ],
+      "text": " some kind of level of bias so that's why i don't think it's number one for me or i don't think it's"
+    },
+    {
+      "timestamp": [
+        175.94,
+        181.94
+      ],
+      "text": " very high for me i think there's still going to be bias and influence of the ai but you know at"
+    },
+    {
+      "timestamp": [
+        181.94,
+        190.82
+      ],
+      "text": " least it might have somewhat of a more um balanced uh fair treatment of people but um i also just"
+    },
+    {
+      "timestamp": [
+        190.82,
+        195.8
+      ],
+      "text": " don't like the idea of technology ruling over people it just doesn't feel um very right to me"
+    },
+    {
+      "timestamp": [
+        195.8,
+        201.74
+      ],
+      "text": " and then last is religious utopia i think this just you know creates i don't know this i'm not"
+    },
+    {
+      "timestamp": [
+        201.74,
+        206.12
+      ],
+      "text": " a religious person i don't think there's you know one religion over the other but this just creates"
+    },
+    {
+      "timestamp": [
+        206.12,
+        216.52
+      ],
+      "text": " um tribalism and uh you know people wanting to be wanting to support one specific view of the world"
+    },
+    {
+      "timestamp": [
+        216.52,
+        222.34
+      ],
+      "text": " even though there's not like strict evidence of that being real so you know it depends on"
+    },
+    {
+      "timestamp": [
+        222.34,
+        225.94
+      ],
+      "text": " the religion um here but generally i don't think it's the best"
+    }
+  ]
+}

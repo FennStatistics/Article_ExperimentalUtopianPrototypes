@@ -1,0 +1,227 @@
+{
+  "audio_file": "69cec7f5dd3995a6f516889e_audio_ranking_explanation_1780449535951.webm",
+  "transcript": " I picked this because I think, I think number one is definitely a lot more realistic. I think number one would definitely be a lot more preferred of having a more sustainable, secure earth. And that, that creates a whole, you know, that creates a healthier earth. In my opinion, I think it creates a lot more peaceful earth because it's a lot more secure. It's a lot more happy. I pick number two because I believe in the power of innovation. I believe in the power of science, and I think that can always be used in a good way. It can also be used in a bad way, but I would like to think a lot more optimistic about it. I picked number three because I think if everyone can have that morality, that inner morality, that inner good in themselves, then the world would be a lot better place. But I don't think it's very realistic. Number four, I think, would also be ranked at number four because it's a small scale. It reminds me of kind of like how the world used to be of, you know, low tech and kind of everyone knows everyone. And I think because of this, a lot of people were more connected. Number five, the institutional utopia, the rule of law, I believe. It's kind of how it is now. You know, I think a lot of countries are rules of laws. You know, there are certain rules you can't break. There are certain rules that are instituted, right, are instated. And so I thought there wasn't very much about it. number six picked at number six because i don't think it's realistic i don't think um i don't think it's very preferred because a lot of countries don't well there are more there's there's a various there's a lot of religions you know there's christianity um islam there's buddhism there's shinto you know there's a lot of uh different religions and then number seven the data-driven governance the ai-centered utopia i don't think is a is a good idea and i don't think it's a very good idea to eliminate the human factor and just go by data because data doesn't tell you all of the information in my opinion",
+  "language": "unknown",
+  "processing_time_seconds": 34.109164,
+  "timestamp": "2026-06-08T09:29:50.107019",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.5
+      ],
+      "text": " I picked this because I think, I think number one is definitely a lot more realistic. I think"
+    },
+    {
+      "timestamp": [
+        8.5,
+        14.02
+      ],
+      "text": " number one would definitely be a lot more preferred of having a more sustainable, secure"
+    },
+    {
+      "timestamp": [
+        14.02,
+        22.2
+      ],
+      "text": " earth. And that, that creates a whole, you know, that creates a healthier earth. In my opinion,"
+    },
+    {
+      "timestamp": [
+        22.2,
+        26.7
+      ],
+      "text": " I think it creates a lot more peaceful earth"
+    },
+    {
+      "timestamp": [
+        26.7,
+        31.32
+      ],
+      "text": " because it's a lot more secure."
+    },
+    {
+      "timestamp": [
+        31.5,
+        32.48
+      ],
+      "text": " It's a lot more happy."
+    },
+    {
+      "timestamp": [
+        33.52,
+        38.0
+      ],
+      "text": " I pick number two because I believe in the power of innovation."
+    },
+    {
+      "timestamp": [
+        38.22,
+        39.44
+      ],
+      "text": " I believe in the power of science,"
+    },
+    {
+      "timestamp": [
+        39.44,
+        46.5
+      ],
+      "text": " and I think that can always be used in a good way."
+    },
+    {
+      "timestamp": [
+        46.7,
+        48.54
+      ],
+      "text": " It can also be used in a bad way,"
+    },
+    {
+      "timestamp": [
+        48.64,
+        51.38
+      ],
+      "text": " but I would like to think a lot more optimistic about it."
+    },
+    {
+      "timestamp": [
+        51.38,
+        62.32
+      ],
+      "text": " I picked number three because I think if everyone can have that morality,"
+    },
+    {
+      "timestamp": [
+        63.38,
+        71.76
+      ],
+      "text": " that inner morality, that inner good in themselves,"
+    },
+    {
+      "timestamp": [
+        72.32,
+        75.62
+      ],
+      "text": " then the world would be a lot better place."
+    },
+    {
+      "timestamp": [
+        75.62,
+        79.48
+      ],
+      "text": " But I don't think it's very realistic."
+    },
+    {
+      "timestamp": [
+        80.48,
+        90.9
+      ],
+      "text": " Number four, I think, would also be ranked at number four because it's a small scale."
+    },
+    {
+      "timestamp": [
+        90.9,
+        98.76
+      ],
+      "text": " It reminds me of kind of like how the world used to be of, you know, low tech and kind of everyone knows everyone."
+    },
+    {
+      "timestamp": [
+        98.9,
+        103.7
+      ],
+      "text": " And I think because of this, a lot of people were more connected."
+    },
+    {
+      "timestamp": [
+        104.76,
+        104.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        110.26,
+        111.34
+      ],
+      "text": " Number five, the institutional utopia, the rule of law, I believe."
+    },
+    {
+      "timestamp": [
+        112.92,
+        113.64
+      ],
+      "text": " It's kind of how it is now."
+    },
+    {
+      "timestamp": [
+        118.26,
+        118.44
+      ],
+      "text": " You know, I think a lot of countries are rules of laws."
+    },
+    {
+      "timestamp": [
+        121.58,
+        125.92
+      ],
+      "text": " You know, there are certain rules you can't break. There are certain rules that are instituted, right, are instated."
+    },
+    {
+      "timestamp": [
+        126.88,
+        132.06
+      ],
+      "text": " And so I thought there wasn't very much about it."
+    },
+    {
+      "timestamp": [
+        132.14,
+        132.06
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        139.5,
+        150.44
+      ],
+      "text": " number six picked at number six because i don't think it's realistic i don't think um i don't think it's very preferred because a lot of countries don't well there are more there's"
+    },
+    {
+      "timestamp": [
+        150.44,
+        157.38
+      ],
+      "text": " there's a various there's a lot of religions you know there's christianity um islam there's"
+    },
+    {
+      "timestamp": [
+        157.38,
+        164.9
+      ],
+      "text": " buddhism there's shinto you know there's a lot of uh different religions and then number seven"
+    },
+    {
+      "timestamp": [
+        165.78,
+        174.26
+      ],
+      "text": " the data-driven governance the ai-centered utopia i don't think is a is a good idea and"
+    },
+    {
+      "timestamp": [
+        175.22,
+        179.54
+      ],
+      "text": " i don't think it's a very good idea to eliminate the human factor"
+    },
+    {
+      "timestamp": [
+        180.1,
+        184.9
+      ],
+      "text": " and just go by data because data doesn't tell you all of the information in my opinion"
+    }
+  ]
+}

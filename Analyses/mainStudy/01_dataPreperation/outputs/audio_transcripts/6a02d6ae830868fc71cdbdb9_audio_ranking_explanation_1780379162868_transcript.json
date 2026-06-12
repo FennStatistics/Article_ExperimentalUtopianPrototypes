@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a02d6ae830868fc71cdbdb9_audio_ranking_explanation_1780379162868.webm",
+  "transcript": " So I ranked the modern green utopia first because it tries to balance everything. So human needs, environmental protection, and fairness. And it doesn't really rely on trust in people or machines alone. It actually combines planning. And it's stable in the long run. and uh i put the religious government last because governance is tied strongly to religion and it can struggle in diverse societies where people are not religious and it can also be harder to adapt laws based on evidence and you know if the changes if the conditions are changing it can create strong unity for some groups but it can be disastrous for others and yeah just it's just the the society is closer to the first or you know similar to the first one and vice versa that's why i ran it like this",
+  "language": "unknown",
+  "processing_time_seconds": 14.16855,
+  "timestamp": "2026-06-08T10:21:19.595128",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.0
+      ],
+      "text": " So I ranked the modern green utopia first because it tries to balance everything."
+    },
+    {
+      "timestamp": [
+        8.52,
+        12.56
+      ],
+      "text": " So human needs, environmental protection, and fairness."
+    },
+    {
+      "timestamp": [
+        13.24,
+        17.0
+      ],
+      "text": " And it doesn't really rely on trust in people or machines alone."
+    },
+    {
+      "timestamp": [
+        17.54,
+        19.62
+      ],
+      "text": " It actually combines planning."
+    },
+    {
+      "timestamp": [
+        21.0,
+        23.66
+      ],
+      "text": " And it's stable in the long run."
+    },
+    {
+      "timestamp": [
+        25.66,
+        23.66
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.12,
+        42.86
+      ],
+      "text": " and uh i put the religious government last because governance is tied strongly to religion and it can struggle in diverse societies where people are not religious and it can also be"
+    },
+    {
+      "timestamp": [
+        42.86,
+        49.92
+      ],
+      "text": " harder to adapt laws based on evidence and you know if the changes if the conditions are changing"
+    },
+    {
+      "timestamp": [
+        49.92,
+        61.34
+      ],
+      "text": " it can create strong unity for some groups but it can be disastrous for others and yeah just"
+    },
+    {
+      "timestamp": [
+        61.34,
+        69.72
+      ],
+      "text": " it's just the the society is closer to the first or you know similar to the first one"
+    },
+    {
+      "timestamp": [
+        69.72,
+        73.28
+      ],
+      "text": " and vice versa that's why i ran it like this"
+    }
+  ]
+}

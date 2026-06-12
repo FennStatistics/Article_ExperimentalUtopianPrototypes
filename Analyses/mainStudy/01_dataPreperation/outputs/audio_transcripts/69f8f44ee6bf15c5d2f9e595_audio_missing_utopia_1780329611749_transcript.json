@@ -1,0 +1,31 @@
+{
+  "audio_file": "69f8f44ee6bf15c5d2f9e595_audio_missing_utopia_1780329611749.webm",
+  "transcript": " I noticed the missing society centered on pure human fulfillment and creativity. I would call this an expressive and empathetic commonwealth. What would matter most in this vision is a focus on mental well-being, artistic freedom and deep community connection. Instead of treating technology or law as the ultimate goal, this society uses them as a baseline infrastructure to free up human time, allowing individuals to focus entirely on personal growth, emotional connection, and creative exploration.",
+  "language": "unknown",
+  "processing_time_seconds": 9.367446,
+  "timestamp": "2026-06-08T10:01:02.800055",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.0
+      ],
+      "text": " I noticed the missing society centered on pure human fulfillment and creativity. I would call this an expressive and empathetic commonwealth."
+    },
+    {
+      "timestamp": [
+        15.0,
+        25.0
+      ],
+      "text": " What would matter most in this vision is a focus on mental well-being, artistic freedom and deep community connection."
+    },
+    {
+      "timestamp": [
+        25.0,
+        46.46
+      ],
+      "text": " Instead of treating technology or law as the ultimate goal, this society uses them as a baseline infrastructure to free up human time, allowing individuals to focus entirely on personal growth, emotional connection, and creative exploration."
+    }
+  ]
+}

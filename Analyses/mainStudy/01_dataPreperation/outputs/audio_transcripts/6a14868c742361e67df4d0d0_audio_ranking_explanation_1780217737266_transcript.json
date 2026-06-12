@@ -1,0 +1,171 @@
+{
+  "audio_file": "6a14868c742361e67df4d0d0_audio_ranking_explanation_1780217737266.webm",
+  "transcript": " The reason I decided to rank the societies this way is because I personally believe that it's through our interactions with other humans and our moral and ethical compasses that lead to societal and personal happiness rather than through institutional, like the institutionalization of society. I also believe that for some people, faith-based order might be something that they can find, I guess, meaning or comfort in. But I think with a future where we are headed towards, I guess, more scientific understanding of our world and the things around us that, like Friedrich Nietzsche said, that God is dead. and that over time we'll continue to see people falling away from religion and our institutions becoming less dependent on them. But I still think that even with the progressions of technology that our need for other human interaction isn't going to change. We can't evolve as fast as our society is evolving or as fast as our technology is evolving our society, I should say. And so I just don't think that, I guess, forcing a society that forces those kind of beliefs on others is one that would be or like with the rule of law, too. I don't believe that it's through force or coercion that we find happiness as a society or peace as a society. I think it's through collective work that we're able to find it. And who knows, maybe an AI-centered government is for the best. but um the reason i ranked that so low is because i believe that artificial intelligence is just an echo of our own consciousness um and because it's it is through you know it's humans made um artificial intelligence and then it was trained on human like you know every large language model or every print like every ai is trained off of something that is inherently human and it's made with inherently human values um and so it is just another part of us and i think it's looking from the outside it can be hard for us to know just how human it really is and i mean it's i think with it still being in its infancy it's hard to say what will trance well like it will will our will our violence trends transfer over will our need for control transfer over into um the the artificial intelligences we create i don't know um but that's one of the reasons i uh i put it so low",
+  "language": "unknown",
+  "processing_time_seconds": 36.660026,
+  "timestamp": "2026-06-08T11:01:02.184187",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        27.98
+      ],
+      "text": " The reason I decided to rank the societies this way is because I personally believe that it's through our interactions with other humans and our moral and ethical compasses that lead to societal and personal happiness rather than through institutional, like the institutionalization of society."
+    },
+    {
+      "timestamp": [
+        30.0,
+        44.14
+      ],
+      "text": " I also believe that for some people, faith-based order might be something that they can find, I guess, meaning or comfort in."
+    },
+    {
+      "timestamp": [
+        44.52,
+        58.74
+      ],
+      "text": " But I think with a future where we are headed towards, I guess, more scientific understanding of our world and the things around us that, like Friedrich Nietzsche said, that God is dead."
+    },
+    {
+      "timestamp": [
+        58.74,
+        63.7
+      ],
+      "text": " and that over time we'll continue to see people falling away from religion"
+    },
+    {
+      "timestamp": [
+        63.7,
+        66.36
+      ],
+      "text": " and our institutions becoming less dependent on them."
+    },
+    {
+      "timestamp": [
+        67.22,
+        72.24
+      ],
+      "text": " But I still think that even with the progressions of technology"
+    },
+    {
+      "timestamp": [
+        72.24,
+        79.2
+      ],
+      "text": " that our need for other human interaction isn't going to change."
+    },
+    {
+      "timestamp": [
+        79.2,
+        82.44
+      ],
+      "text": " We can't evolve as fast as our society is evolving"
+    },
+    {
+      "timestamp": [
+        82.44,
+        86.04
+      ],
+      "text": " or as fast as our technology is evolving our society, I should say."
+    },
+    {
+      "timestamp": [
+        87.0,
+        86.04
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        106.04,
+        116.24
+      ],
+      "text": " And so I just don't think that, I guess, forcing a society that forces those kind of beliefs on others is one that would be or like with the rule of law, too. I don't believe that it's through force or coercion that we find happiness as a society or peace as a society."
+    },
+    {
+      "timestamp": [
+        116.38,
+        124.56
+      ],
+      "text": " I think it's through collective work that we're able to find it."
+    },
+    {
+      "timestamp": [
+        124.8,
+        130.4
+      ],
+      "text": " And who knows, maybe an AI-centered government is for the best."
+    },
+    {
+      "timestamp": [
+        130.4,
+        137.52
+      ],
+      "text": " but um the reason i ranked that so low is because i believe that artificial intelligence is just an"
+    },
+    {
+      "timestamp": [
+        137.52,
+        144.16
+      ],
+      "text": " echo of our own consciousness um and because it's it is through you know it's humans made um"
+    },
+    {
+      "timestamp": [
+        144.16,
+        148.96
+      ],
+      "text": " artificial intelligence and then it was trained on human like you know every large language model"
+    },
+    {
+      "timestamp": [
+        148.96,
+        156.08
+      ],
+      "text": " or every print like every ai is trained off of something that is inherently human and it's made"
+    },
+    {
+      "timestamp": [
+        156.08,
+        163.84
+      ],
+      "text": " with inherently human values um and so it is just another part of us and i think it's"
+    },
+    {
+      "timestamp": [
+        165.04,
+        169.52
+      ],
+      "text": " looking from the outside it can be hard for us to know just how human it really is"
+    },
+    {
+      "timestamp": [
+        170.32,
+        176.56
+      ],
+      "text": " and i mean it's i think with it still being in its infancy it's hard to say what will trance"
+    },
+    {
+      "timestamp": [
+        176.56,
+        181.84
+      ],
+      "text": " well like it will will our will our violence trends transfer over will our need for control"
+    },
+    {
+      "timestamp": [
+        181.84,
+        186.88
+      ],
+      "text": " transfer over into um the the artificial intelligences we create i don't know"
+    },
+    {
+      "timestamp": [
+        188.0,
+        192.88
+      ],
+      "text": " um but that's one of the reasons i uh i put it so low"
+    }
+  ]
+}

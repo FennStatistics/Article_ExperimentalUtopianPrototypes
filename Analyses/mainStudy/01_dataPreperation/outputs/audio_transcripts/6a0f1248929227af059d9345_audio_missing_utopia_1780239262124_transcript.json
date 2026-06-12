@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a0f1248929227af059d9345_audio_missing_utopia_1780239262124.webm",
+  "transcript": " um the only thing i can think of that wasn't mentioned is um the difference between now and a perfect future society would be where there are no borders i think that people are holding on to borders so tightly and races and that will eventually become primitive i mean it's just it makes sense we got this whole world the whole world is becoming a part of the whole world everything becomes a part of everything else slowly but surely races mix and cultures mix religions mix and I mean honestly I want my religion to come out on top because I believe it to be the truth Christianity that is but as far as cultures and races and you know rules and and art and cult and you know everything that makes us who we are in our own boundaries in countries i think it's all going to come together into a big mix mix up of good hopefully",
+  "language": "unknown",
+  "processing_time_seconds": 14.596531,
+  "timestamp": "2026-06-08T10:49:53.271387",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.04
+      ],
+      "text": " um the only thing i can think of that wasn't mentioned is um the difference between now and a"
+    },
+    {
+      "timestamp": [
+        11.04,
+        17.56
+      ],
+      "text": " perfect future society would be where there are no borders i think that people are holding on to"
+    },
+    {
+      "timestamp": [
+        17.56,
+        26.9
+      ],
+      "text": " borders so tightly and races and that will eventually become primitive i mean it's just"
+    },
+    {
+      "timestamp": [
+        26.9,
+        31.78
+      ],
+      "text": " it makes sense we got this whole world the whole world is becoming a part of the whole world"
+    },
+    {
+      "timestamp": [
+        31.78,
+        39.42
+      ],
+      "text": " everything becomes a part of everything else slowly but surely races mix and cultures mix"
+    },
+    {
+      "timestamp": [
+        39.42,
+        44.52
+      ],
+      "text": " religions mix and I mean honestly I want my religion to come out on top because I believe"
+    },
+    {
+      "timestamp": [
+        44.52,
+        51.66
+      ],
+      "text": " it to be the truth Christianity that is but as far as cultures and races and you know rules and"
+    },
+    {
+      "timestamp": [
+        51.66,
+        58.56
+      ],
+      "text": " and art and cult and you know everything that makes us who we are in our own boundaries"
+    },
+    {
+      "timestamp": [
+        58.56,
+        66.52
+      ],
+      "text": " in countries i think it's all going to come together into a big mix mix up of good hopefully"
+    }
+  ]
+}

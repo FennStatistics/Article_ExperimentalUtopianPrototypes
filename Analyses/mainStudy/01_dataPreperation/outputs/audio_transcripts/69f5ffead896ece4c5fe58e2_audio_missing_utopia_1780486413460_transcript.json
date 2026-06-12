@@ -1,0 +1,136 @@
+{
+  "audio_file": "69f5ffead896ece4c5fe58e2_audio_missing_utopia_1780486413460.webm",
+  "transcript": " So the ideal future society would, I would say it would combine a little bit of each category. Scientific innovation is definitely really important. And also we have to get with the times. So AI and, you know, technology that is controlled by artificial intelligence is very important as we go forward medically and financially. financially um I feel like what's missing is having a balance between everything because the thing is not everybody is not everybody is religious and even if you are religious everybody in a society is not going to have the same religious beliefs you can be spiritual you could be you know of an actual like religion you could just you know not have anything and I feel like if society is based on these things primarily, it leads to wars. And like, that's clearly what happens up until today. So I feel like the more moral and religious stuff should be less taken into account. But of course, teach, respect everybody's choices and religion. But I don't feel like society should run off of that um i definitely would prefer to keep technology towards the top to improve the quality of life um but at the same time that's scary because um from what i'm seeing in my neighborhood we started building um lithium battery centers and And it's next to nature areas and animal sanctuaries. And I feel like as technology advances, that primal, the primitive part will die. So it's very scary to think that as we have to go forward, we're going to destroy what's truly important and truly, you know, like natural resources. um so i feel like a perfect society and what's missing is just having a little bit of each of these not too much but a little bit of everything",
+  "language": "unknown",
+  "processing_time_seconds": 29.270433,
+  "timestamp": "2026-06-08T09:58:23.839872",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.96
+      ],
+      "text": " So the ideal future society would, I would say it would combine a little bit of each category."
+    },
+    {
+      "timestamp": [
+        12.24,
+        15.92
+      ],
+      "text": " Scientific innovation is definitely really important."
+    },
+    {
+      "timestamp": [
+        15.92,
+        33.66
+      ],
+      "text": " And also we have to get with the times. So AI and, you know, technology that is controlled by artificial intelligence is very important as we go forward medically and financially."
+    },
+    {
+      "timestamp": [
+        35.28,
+        33.66
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        42.06,
+        49.88
+      ],
+      "text": " financially um I feel like what's missing is having a balance between everything because the thing is not everybody is not everybody is religious and even if you are religious everybody"
+    },
+    {
+      "timestamp": [
+        49.88,
+        55.34
+      ],
+      "text": " in a society is not going to have the same religious beliefs you can be spiritual you could"
+    },
+    {
+      "timestamp": [
+        55.34,
+        63.16
+      ],
+      "text": " be you know of an actual like religion you could just you know not have anything and I feel like"
+    },
+    {
+      "timestamp": [
+        63.16,
+        71.44
+      ],
+      "text": " if society is based on these things primarily, it leads to wars. And like, that's clearly what"
+    },
+    {
+      "timestamp": [
+        71.44,
+        82.86
+      ],
+      "text": " happens up until today. So I feel like the more moral and religious stuff should be less taken"
+    },
+    {
+      "timestamp": [
+        82.86,
+        90.44
+      ],
+      "text": " into account. But of course, teach, respect everybody's choices and religion. But I don't"
+    },
+    {
+      "timestamp": [
+        90.44,
+        98.44
+      ],
+      "text": " feel like society should run off of that um i definitely would prefer to keep technology"
+    },
+    {
+      "timestamp": [
+        98.44,
+        105.48
+      ],
+      "text": " towards the top to improve the quality of life um but at the same time that's scary because um"
+    },
+    {
+      "timestamp": [
+        106.2,
+        113.72
+      ],
+      "text": " from what i'm seeing in my neighborhood we started building um lithium battery centers and"
+    },
+    {
+      "timestamp": [
+        114.84,
+        113.72
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        120.0,
+        128.04
+      ],
+      "text": " And it's next to nature areas and animal sanctuaries. And I feel like as technology advances, that primal, the primitive part will die."
+    },
+    {
+      "timestamp": [
+        128.36,
+        141.4
+      ],
+      "text": " So it's very scary to think that as we have to go forward, we're going to destroy what's truly important and truly, you know, like natural resources."
+    },
+    {
+      "timestamp": [
+        143.4,
+        141.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        149.78,
+        153.82
+      ],
+      "text": " um so i feel like a perfect society and what's missing is just having a little bit of each of these not too much but a little bit of everything"
+    }
+  ]
+}

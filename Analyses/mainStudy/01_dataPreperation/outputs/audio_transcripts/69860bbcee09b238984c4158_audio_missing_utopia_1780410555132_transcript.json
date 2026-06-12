@@ -1,0 +1,17 @@
+{
+  "audio_file": "69860bbcee09b238984c4158_audio_missing_utopia_1780410555132.webm",
+  "transcript": " I think it just being driven by science and rule and not be in the wrong hands or be with people who don't be running the government is the ideal situation.",
+  "language": "unknown",
+  "processing_time_seconds": 5.326322,
+  "timestamp": "2026-06-08T08:59:24.959891",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.1
+      ],
+      "text": " I think it just being driven by science and rule and not be in the wrong hands or be with people who don't be running the government is the ideal situation."
+    }
+  ]
+}

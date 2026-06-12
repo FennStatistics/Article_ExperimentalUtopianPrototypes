@@ -1,0 +1,185 @@
+{
+  "audio_file": "6a1e3eff23e120042c4a1545_audio_ranking_explanation_1780392498500.webm",
+  "transcript": " um so i ranked the ai center of utopia last because um it it seems very very dystopian um i'm not really sure what like the the point of like human existence is in that world if sort of humans don't really have any role in society um i ranked the religious utopia um sixth because that kind of society seems very um regressive and um i i don't sort of like trying to control sort of how people think i don't really think that would be a good idea um i rank the futurist utopia at number five because the idea of like um innovation being prioritized at all costs above like environmental sustainability um seems like it would be uh problematic in the long run um then number four instant the institutional utopia um the sort of like strict rule of law doesn't seem like it would be the best option in terms of like the very like punitive legal system that's not something that I like agree with I don't think that's like the best way that a society should be run but it seems like sort of middle of the road generally um then number three the primitivist utopia um i think that a sort of like communal like small communal um sort of a way of living in the sort of um in resource limited world that was described uh doesn't seem like the worst option um i think that like that kind of lifestyle is better than um a world where there might be like more innovation but it's not sustainable at all then number two i rank the moral commonwealth um i think that that kind of society um is like as an ideal it's seems fine but i don't think like um the idea of like innate morality is not like really something i believe exists um outside of society and social institutions that create it but like if i were to sort of disregard that i would say the idea of like cultivating the sort of like individual morality and the the the moral status of like each individual inherently um would be a pretty good basis for uh a society if that actually existed. Um, and then that left me with number one, the modern green utopia. I think that, um, world does like a good job of balancing like the environmental concerns without being like incredibly authoritarian sounding, um, or, uh, unrealistic, like entirely. And so that was sort of like my process of elimination, my top ranked option.",
+  "language": "unknown",
+  "processing_time_seconds": 40.885045,
+  "timestamp": "2026-06-08T11:34:15.505630",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.44
+      ],
+      "text": " um so i ranked the ai center of utopia last because um it it seems very very dystopian"
+    },
+    {
+      "timestamp": [
+        11.44,
+        17.76
+      ],
+      "text": " um i'm not really sure what like the the point of like human existence is in that world if"
+    },
+    {
+      "timestamp": [
+        17.76,
+        25.8
+      ],
+      "text": " sort of humans don't really have any role in society um i ranked the religious utopia"
+    },
+    {
+      "timestamp": [
+        25.8,
+        39.68
+      ],
+      "text": " um sixth because that kind of society seems very um regressive and um i i don't"
+    },
+    {
+      "timestamp": [
+        40.9,
+        45.9
+      ],
+      "text": " sort of like trying to control sort of how people think i don't really think that would be a good"
+    },
+    {
+      "timestamp": [
+        45.9,
+        55.04
+      ],
+      "text": " idea um i rank the futurist utopia at number five because the idea of like um innovation being"
+    },
+    {
+      "timestamp": [
+        55.04,
+        64.08
+      ],
+      "text": " prioritized at all costs above like environmental sustainability um seems like it would be"
+    },
+    {
+      "timestamp": [
+        64.08,
+        74.44
+      ],
+      "text": " uh problematic in the long run um then number four instant the institutional utopia um"
+    },
+    {
+      "timestamp": [
+        74.44,
+        86.1
+      ],
+      "text": " the sort of like strict rule of law doesn't seem like it would be the best option in terms of like"
+    },
+    {
+      "timestamp": [
+        86.1,
+        92.9
+      ],
+      "text": " the very like punitive legal system that's not something that I like agree with I don't think"
+    },
+    {
+      "timestamp": [
+        92.9,
+        99.96
+      ],
+      "text": " that's like the best way that a society should be run but it seems like sort of middle of the road"
+    },
+    {
+      "timestamp": [
+        99.96,
+        107.66
+      ],
+      "text": " generally um then number three the primitivist utopia um i think that a sort of like"
+    },
+    {
+      "timestamp": [
+        107.66,
+        117.5
+      ],
+      "text": " communal like small communal um sort of a way of living in the sort of um"
+    },
+    {
+      "timestamp": [
+        117.5,
+        128.52
+      ],
+      "text": " in resource limited world that was described uh doesn't seem like the worst option um i think that"
+    },
+    {
+      "timestamp": [
+        128.52,
+        139.0
+      ],
+      "text": " like that kind of lifestyle is better than um a world where there might be like more innovation"
+    },
+    {
+      "timestamp": [
+        139.0,
+        149.92
+      ],
+      "text": " but it's not sustainable at all then number two i rank the moral commonwealth um i think that"
+    },
+    {
+      "timestamp": [
+        149.92,
+        163.94
+      ],
+      "text": " that kind of society um is like as an ideal it's seems fine but i don't think like"
+    },
+    {
+      "timestamp": [
+        163.94,
+        174.28
+      ],
+      "text": " um the idea of like innate morality is not like really something i believe exists um outside of"
+    },
+    {
+      "timestamp": [
+        174.28,
+        182.66
+      ],
+      "text": " society and social institutions that create it but like if i were to sort of disregard that i"
+    },
+    {
+      "timestamp": [
+        182.66,
+        192.14
+      ],
+      "text": " would say the idea of like cultivating the sort of like individual morality and the the the moral"
+    },
+    {
+      "timestamp": [
+        192.14,
+        203.0
+      ],
+      "text": " status of like each individual inherently um would be a pretty good basis for uh a society if"
+    },
+    {
+      "timestamp": [
+        203.0,
+        209.9
+      ],
+      "text": " that actually existed. Um, and then that left me with number one, the modern green utopia."
+    },
+    {
+      "timestamp": [
+        209.9,
+        218.66
+      ],
+      "text": " I think that, um, world does like a good job of balancing like the environmental concerns without"
+    },
+    {
+      "timestamp": [
+        218.66,
+        232.74
+      ],
+      "text": " being like incredibly authoritarian sounding, um, or, uh, unrealistic, like entirely."
+    },
+    {
+      "timestamp": [
+        233.0,
+        238.28
+      ],
+      "text": " And so that was sort of like my process of elimination, my top ranked option."
+    }
+  ]
+}

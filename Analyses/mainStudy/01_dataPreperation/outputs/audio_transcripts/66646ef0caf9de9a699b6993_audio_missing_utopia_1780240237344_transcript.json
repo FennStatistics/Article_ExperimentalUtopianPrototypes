@@ -1,0 +1,17 @@
+{
+  "audio_file": "66646ef0caf9de9a699b6993_audio_missing_utopia_1780240237344.webm",
+  "transcript": " There's nothing off the top of my head that I can think of that, let's see, that was missing from those choices.",
+  "language": "unknown",
+  "processing_time_seconds": 5.137995,
+  "timestamp": "2026-06-08T08:37:03.173361",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.34
+      ],
+      "text": " There's nothing off the top of my head that I can think of that, let's see, that was missing from those choices."
+    }
+  ]
+}

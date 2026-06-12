@@ -1,0 +1,157 @@
+{
+  "audio_file": "605b8cf6c07b6842b5cab429_audio_ranking_explanation_1780252109972.webm",
+  "transcript": " So I ranked the societies this way because generally I feel like the ones that lean more into science and innovation and technology are better for society overall. um obviously i did put uh ai centered at the very bottom because i think ai is in its current form um not trustworthy enough uh it's you know replacing jobs and um it just it needs way more uh testing way more um uh rules it has to follow that kind of thing to be uh worth trusting as sort of a government kind of thing um also toward the bottom i have uh the religious and then low tech um utopias the religious one simply because you know separation of church and state the idea of uh religion sort of dominating uh everyone's life is uh definitely not for me probably not for a lot of people and then the low tech small skill utopia it's not terrible but i think generally technology is better for us overall. You know, it can help us detect diseases and treat those diseases, and that's a lot harder to do without that sort of technology. In the middle I have the rule of law, simply because that's sort of what we have now. It's sort of the closest example to our society right now. It's not terrible, but it could definitely be better. Directly above that the modern green utopia i'm not like a super um nature uh person but you know i am aware climate change is real um and that we could be doing more to protect the planet while also living a better life ourself and then toward the top i have the uh moral commonwealth and futurist utopias uh moral commonwealth would be great in a vacuum you know everyone does what they're supposed to do there's no greed there's no evil the idea of that is very appealing but i think the most realistic and probably most beneficial overall would be the futurist utopia all the science and innovation can simply build a better society people can live longer people can you know not worry about dying from preventable diseases or other complications. And, you know, technology can, if done right, make a better quality of life for people.",
+  "language": "unknown",
+  "processing_time_seconds": 32.925904,
+  "timestamp": "2026-06-08T08:19:31.831379",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.38
+      ],
+      "text": " So I ranked the societies this way because generally I feel like the ones that lean more into science and innovation and technology are better for society overall."
+    },
+    {
+      "timestamp": [
+        17.22,
+        15.38
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        24.46,
+        31.66
+      ],
+      "text": " um obviously i did put uh ai centered at the very bottom because i think ai is in its current form um not trustworthy enough uh it's you know replacing jobs and um it just it needs way more"
+    },
+    {
+      "timestamp": [
+        31.66,
+        40.88
+      ],
+      "text": " uh testing way more um uh rules it has to follow that kind of thing to be uh worth trusting as"
+    },
+    {
+      "timestamp": [
+        40.88,
+        48.12
+      ],
+      "text": " sort of a government kind of thing um also toward the bottom i have uh the religious and then low"
+    },
+    {
+      "timestamp": [
+        48.12,
+        54.62
+      ],
+      "text": " tech um utopias the religious one simply because you know separation of church and state the idea"
+    },
+    {
+      "timestamp": [
+        54.62,
+        62.82
+      ],
+      "text": " of uh religion sort of dominating uh everyone's life is uh definitely not for me probably not for"
+    },
+    {
+      "timestamp": [
+        62.82,
+        68.92
+      ],
+      "text": " a lot of people and then the low tech small skill utopia it's not terrible but i think generally"
+    },
+    {
+      "timestamp": [
+        68.92,
+        75.72
+      ],
+      "text": " technology is better for us overall. You know, it can help us detect diseases and treat those"
+    },
+    {
+      "timestamp": [
+        75.72,
+        81.52
+      ],
+      "text": " diseases, and that's a lot harder to do without that sort of technology. In the middle I have the"
+    },
+    {
+      "timestamp": [
+        81.52,
+        88.28
+      ],
+      "text": " rule of law, simply because that's sort of what we have now. It's sort of the closest example to"
+    },
+    {
+      "timestamp": [
+        88.28,
+        94.88
+      ],
+      "text": " our society right now. It's not terrible, but it could definitely be better. Directly above that"
+    },
+    {
+      "timestamp": [
+        94.88,
+        103.44
+      ],
+      "text": " the modern green utopia i'm not like a super um nature uh person but you know i am aware climate"
+    },
+    {
+      "timestamp": [
+        103.44,
+        110.48
+      ],
+      "text": " change is real um and that we could be doing more to protect the planet while also living a better"
+    },
+    {
+      "timestamp": [
+        110.48,
+        117.2
+      ],
+      "text": " life ourself and then toward the top i have the uh moral commonwealth and futurist utopias"
+    },
+    {
+      "timestamp": [
+        118.4,
+        124.32
+      ],
+      "text": " uh moral commonwealth would be great in a vacuum you know everyone does what they're supposed to do"
+    },
+    {
+      "timestamp": [
+        124.32,
+        132.48
+      ],
+      "text": " there's no greed there's no evil the idea of that is very appealing but i think the most realistic"
+    },
+    {
+      "timestamp": [
+        132.48,
+        139.12
+      ],
+      "text": " and probably most beneficial overall would be the futurist utopia all the science and innovation"
+    },
+    {
+      "timestamp": [
+        140.16,
+        147.52
+      ],
+      "text": " can simply build a better society people can live longer people can you know not worry about dying"
+    },
+    {
+      "timestamp": [
+        147.52,
+        157.12
+      ],
+      "text": " from preventable diseases or other complications. And, you know, technology can, if done right,"
+    },
+    {
+      "timestamp": [
+        157.12,
+        159.12
+      ],
+      "text": " make a better quality of life for people."
+    }
+  ]
+}

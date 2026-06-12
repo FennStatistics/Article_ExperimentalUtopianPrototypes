@@ -1,0 +1,178 @@
+{
+  "audio_file": "6a0f59faa4c6e2f189433bd0_audio_ranking_explanation_1780428436858.webm",
+  "transcript": " so as a christian naturally i prefer the faith-based right but the my issue with the faith-based one is that it's it's purely faith with no laws no bueno um that's just not practical not good not everyone's going to build even if you know it's enforced from the top down not everyone's going to believe you still want to have laws i mean that's why there should be some degree of separation of church and state, although that is fully impossible because everyone believes something and that will naturally come out in what they do. But, you know, organized religion should not be integrated with government, right? That's just generally a bad idea. We have seen what happens even with a supposedly good church because we are sinful. We tend, even with the common grace that lets everyone do good things. We still tend to do bad things. That's why the immorality one is so stupid. It doesn't even make sense. All of society throughout thousands of years would agree that's a terrible idea. And I think, frankly, this is kind of what communism, and socialism rely on is this idea that everyone oh yeah everyone um is going to contribute equally and want to give up it's stupid no one's going to take advantage of it like there's no enforcement of laws and you just expect everyone to do the right thing absolutely not technically it could happen but the probability is so low and over time it would just become corrupted um for the others, brief overview. Rule of law, that one's pretty good, but hard legality comes with its own issues. Science and innovation, pretty good, but you know, like, okay, essentially I would combine my top three into one. That would be great. That's like ideal for me. It still would not be a utopia. There's no such thing as utopia here on this earth. The modern green utopia, eh, it's all right. I mean, in a situation where this is, the environment is literally on the edge of collapse, you know, well, we should protect it, right? The low-tech one, why are we limiting innovation? That's ridiculous. The AI one is also ridiculous. It really just depends on the quality of the AI, but also moral decisions should not be made by AI, and AI is not going to be that great at determining exceptions to the rule. So that's my overview.",
+  "language": "unknown",
+  "processing_time_seconds": 33.301027,
+  "timestamp": "2026-06-08T10:51:40.434814",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.34
+      ],
+      "text": " so as a christian naturally i prefer the faith-based right but the my issue with the"
+    },
+    {
+      "timestamp": [
+        6.34,
+        15.9
+      ],
+      "text": " faith-based one is that it's it's purely faith with no laws no bueno um that's just not practical"
+    },
+    {
+      "timestamp": [
+        15.9,
+        20.1
+      ],
+      "text": " not good not everyone's going to build even if you know it's enforced from the top down not"
+    },
+    {
+      "timestamp": [
+        20.1,
+        24.78
+      ],
+      "text": " everyone's going to believe you still want to have laws i mean that's why there should be some degree"
+    },
+    {
+      "timestamp": [
+        24.78,
+        29.96
+      ],
+      "text": " of separation of church and state, although that is fully impossible because everyone believes"
+    },
+    {
+      "timestamp": [
+        29.96,
+        34.88
+      ],
+      "text": " something and that will naturally come out in what they do. But, you know, organized religion"
+    },
+    {
+      "timestamp": [
+        34.88,
+        41.82
+      ],
+      "text": " should not be integrated with government, right? That's just generally a bad idea. We have seen"
+    },
+    {
+      "timestamp": [
+        41.82,
+        48.28
+      ],
+      "text": " what happens even with a supposedly good church because we are sinful. We tend, even with the"
+    },
+    {
+      "timestamp": [
+        48.28,
+        56.28
+      ],
+      "text": " common grace that lets everyone do good things. We still tend to do bad things. That's why the"
+    },
+    {
+      "timestamp": [
+        56.28,
+        63.48
+      ],
+      "text": " immorality one is so stupid. It doesn't even make sense. All of society throughout thousands of"
+    },
+    {
+      "timestamp": [
+        63.48,
+        70.46
+      ],
+      "text": " years would agree that's a terrible idea. And I think, frankly, this is kind of what communism,"
+    },
+    {
+      "timestamp": [
+        70.46,
+        79.12
+      ],
+      "text": " and socialism rely on is this idea that everyone oh yeah everyone um is going to contribute equally"
+    },
+    {
+      "timestamp": [
+        79.12,
+        85.0
+      ],
+      "text": " and want to give up it's stupid no one's going to take advantage of it like there's no enforcement"
+    },
+    {
+      "timestamp": [
+        85.0,
+        92.64
+      ],
+      "text": " of laws and you just expect everyone to do the right thing absolutely not technically it could"
+    },
+    {
+      "timestamp": [
+        92.64,
+        99.72
+      ],
+      "text": " happen but the probability is so low and over time it would just become corrupted um for the"
+    },
+    {
+      "timestamp": [
+        99.72,
+        105.38
+      ],
+      "text": " others, brief overview. Rule of law, that one's pretty good, but hard legality comes with its own"
+    },
+    {
+      "timestamp": [
+        105.38,
+        111.02
+      ],
+      "text": " issues. Science and innovation, pretty good, but you know, like, okay, essentially I would combine"
+    },
+    {
+      "timestamp": [
+        111.02,
+        116.22
+      ],
+      "text": " my top three into one. That would be great. That's like ideal for me. It still would not be a utopia."
+    },
+    {
+      "timestamp": [
+        116.42,
+        123.24
+      ],
+      "text": " There's no such thing as utopia here on this earth. The modern green utopia, eh, it's all right."
+    },
+    {
+      "timestamp": [
+        123.3,
+        127.76
+      ],
+      "text": " I mean, in a situation where this is, the environment is literally on the edge of collapse,"
+    },
+    {
+      "timestamp": [
+        127.76,
+        132.7
+      ],
+      "text": " you know, well, we should protect it, right? The low-tech one, why are we limiting innovation?"
+    },
+    {
+      "timestamp": [
+        133.1,
+        138.58
+      ],
+      "text": " That's ridiculous. The AI one is also ridiculous. It really just depends on the quality of the AI,"
+    },
+    {
+      "timestamp": [
+        138.78,
+        144.7
+      ],
+      "text": " but also moral decisions should not be made by AI, and AI is not going to be that great"
+    },
+    {
+      "timestamp": [
+        144.7,
+        149.32
+      ],
+      "text": " at determining exceptions to the rule. So that's my overview."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "6623d91f14f7871134e8ad01_audio_missing_utopia_1780271611323.webm",
+  "transcript": " No, I really gravitated toward the one I chose as number one, because it's more progressive toward our future and not setting us back.",
+  "language": "unknown",
+  "processing_time_seconds": 5.899085,
+  "timestamp": "2026-06-08T08:34:11.400344",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.1
+      ],
+      "text": " No, I really gravitated toward the one I chose as number one, because it's more progressive toward our future and not setting us back."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a09fcbcfd5a54ade03e9ca3_audio_missing_utopia_1780267508369.webm",
+  "transcript": " all right therefore they worry that I found missing from the previous options was because only human expression I think Asia and creativity most of the listed societies protized structure survival efficiency of governance my missing future society would be actually an humanistic utopia where automation handles basic river so that human beings can focus entirely on art that's my idea",
+  "language": "unknown",
+  "processing_time_seconds": 8.810472,
+  "timestamp": "2026-06-08T10:33:24.423676",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.08
+      ],
+      "text": " all right therefore they worry that I found missing from the previous options"
+    },
+    {
+      "timestamp": [
+        7.08,
+        15.54
+      ],
+      "text": " was because only human expression I think Asia and creativity most of the"
+    },
+    {
+      "timestamp": [
+        15.54,
+        22.62
+      ],
+      "text": " listed societies protized structure survival efficiency of governance my"
+    },
+    {
+      "timestamp": [
+        22.62,
+        29.46
+      ],
+      "text": " missing future society would be actually an humanistic utopia where automation"
+    },
+    {
+      "timestamp": [
+        29.46,
+        38.9
+      ],
+      "text": " handles basic river so that human beings can focus entirely on art that's my idea"
+    }
+  ]
+}

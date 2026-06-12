@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a00b8ac3d945373290b0f29_audio_missing_utopia_1780405399150.webm",
+  "transcript": " I think that this was captured a little bit in the moral utopia, but one that is very like built upon social concern and shared social responsibility. I think this was captured in the primitivist one a little bit too, but like only using as much as you need for like the benefit of others. I think that goes hand in hand with the moral understanding for like the common good.",
+  "language": "unknown",
+  "processing_time_seconds": 7.119324,
+  "timestamp": "2026-06-08T10:15:33.238479",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.08
+      ],
+      "text": " I think that this was captured a little bit in the moral utopia, but one that is very"
+    },
+    {
+      "timestamp": [
+        9.08,
+        14.84
+      ],
+      "text": " like built upon social concern and shared social responsibility."
+    },
+    {
+      "timestamp": [
+        14.84,
+        20.3
+      ],
+      "text": " I think this was captured in the primitivist one a little bit too, but like only using"
+    },
+    {
+      "timestamp": [
+        20.3,
+        22.76
+      ],
+      "text": " as much as you need for like the benefit of others."
+    },
+    {
+      "timestamp": [
+        22.76,
+        28.68
+      ],
+      "text": " I think that goes hand in hand with the moral understanding for like the common good."
+    }
+  ]
+}

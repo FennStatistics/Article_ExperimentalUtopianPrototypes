@@ -1,0 +1,108 @@
+{
+  "audio_file": "60ffc4070d4285f4d85199b7_audio_missing_utopia_1780411916833.webm",
+  "transcript": " um i don't think i feel like well based off of you know media and things you watch especially like the 2010s with like the growing um uh what's it called again like you know the future and like utopia style um shows like diverging hunger games uh maze runner you know i felt like those are pretty much like the hard hitters like the most like the main ones you do see i don't think there's any more um type of societies that i felt like it was missed out on that i'm thinking about it but what would matter most in my vision of that society would i mean like i said before i think like ideally there would be like technological advancement but technology wouldn't decide everything for us there would be a set rule and guidelines i feel like you do need rules you do need laws but they wouldn't just be the deciding factor i feel like you'd also need human you know conscience and emotions and things while although they can those can be biased negatively and lead to some issues they can obviously be positives because like not everything is perfect",
+  "language": "unknown",
+  "processing_time_seconds": 18.560908,
+  "timestamp": "2026-06-08T08:22:24.101499",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.18
+      ],
+      "text": " um i don't think i feel like well based off of you know media and"
+    },
+    {
+      "timestamp": [
+        7.18,
+        14.18
+      ],
+      "text": " things you watch especially like the 2010s with like the growing um"
+    },
+    {
+      "timestamp": [
+        14.18,
+        18.6
+      ],
+      "text": " uh what's it called again like you know"
+    },
+    {
+      "timestamp": [
+        18.6,
+        26.8
+      ],
+      "text": " the future and like utopia style um shows like diverging hunger games"
+    },
+    {
+      "timestamp": [
+        26.8,
+        36.22
+      ],
+      "text": " uh maze runner you know i felt like those are pretty much like the hard hitters like the most"
+    },
+    {
+      "timestamp": [
+        36.22,
+        41.76
+      ],
+      "text": " like the main ones you do see i don't think there's any more um"
+    },
+    {
+      "timestamp": [
+        41.76,
+        47.24
+      ],
+      "text": " type of societies that i felt like it was missed out on that i'm thinking about it"
+    },
+    {
+      "timestamp": [
+        47.24,
+        55.38
+      ],
+      "text": " but what would matter most in my vision of that society would i mean like i said before"
+    },
+    {
+      "timestamp": [
+        55.38,
+        62.58
+      ],
+      "text": " i think like ideally there would be like technological advancement but technology"
+    },
+    {
+      "timestamp": [
+        62.58,
+        70.12
+      ],
+      "text": " wouldn't decide everything for us there would be a set rule and guidelines i feel like you do need"
+    },
+    {
+      "timestamp": [
+        70.12,
+        76.66
+      ],
+      "text": " rules you do need laws but they wouldn't just be the deciding factor i feel like you'd also need"
+    },
+    {
+      "timestamp": [
+        76.66,
+        84.68
+      ],
+      "text": " human you know conscience and emotions and things while although they can those can be biased"
+    },
+    {
+      "timestamp": [
+        84.68,
+        90.02
+      ],
+      "text": " negatively and lead to some issues they can obviously be positives because like not everything"
+    },
+    {
+      "timestamp": [
+        90.02,
+        90.68
+      ],
+      "text": " is perfect"
+    }
+  ]
+}

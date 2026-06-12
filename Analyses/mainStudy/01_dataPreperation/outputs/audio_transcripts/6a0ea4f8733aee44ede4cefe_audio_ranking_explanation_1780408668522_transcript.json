@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a0ea4f8733aee44ede4cefe_audio_ranking_explanation_1780408668522.webm",
+  "transcript": " hi so um i clicked moral commonwealth immorality first because well if a society is performing on how good people are then that is the society i most prefer to live in pictures utopia i'm a very science-based person so yeah i think that would be very good for me innovation yeah pushing humanity forward is exactly what i dream of for a positive government you know uh modern green utopia sustainable and secure using green energy yeah i really like that it's really nice peaceful uh primitive utopia low-tech and small scale okay this is where it gets bad uh don't mind the small scale low-tech stuff just wish i had my phone you know that's about it though basically the early 2000s but with new smartphones you know that's that's how i like it not like this so uh it's a social institutional utopia rule of law it's not basically we're in right now let me play um honestly it's forgetful i can't remember that one i can't religious utopia no just no terrible people should be able to uh believe in however they may believe in not how some government forces them onto ai center utopia no i'm not having ai govern me that's wrong in a moral",
+  "language": "unknown",
+  "processing_time_seconds": 19.275829,
+  "timestamp": "2026-06-08T10:48:30.965007",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.74
+      ],
+      "text": " hi so um i clicked moral commonwealth immorality first because well if a society is performing on"
+    },
+    {
+      "timestamp": [
+        10.74,
+        17.56
+      ],
+      "text": " how good people are then that is the society i most prefer to live in pictures utopia i'm a very"
+    },
+    {
+      "timestamp": [
+        17.56,
+        22.82
+      ],
+      "text": " science-based person so yeah i think that would be very good for me innovation yeah pushing"
+    },
+    {
+      "timestamp": [
+        22.82,
+        29.72
+      ],
+      "text": " humanity forward is exactly what i dream of for a positive government you know uh modern green"
+    },
+    {
+      "timestamp": [
+        29.72,
+        36.28
+      ],
+      "text": " utopia sustainable and secure using green energy yeah i really like that it's really nice peaceful"
+    },
+    {
+      "timestamp": [
+        38.12,
+        44.2
+      ],
+      "text": " uh primitive utopia low-tech and small scale okay this is where it gets bad uh"
+    },
+    {
+      "timestamp": [
+        45.64,
+        49.8
+      ],
+      "text": " don't mind the small scale low-tech stuff just wish i had my phone you know that's about it"
+    },
+    {
+      "timestamp": [
+        49.8,
+        58.52
+      ],
+      "text": " though basically the early 2000s but with new smartphones you know that's that's how i like it"
+    },
+    {
+      "timestamp": [
+        58.52,
+        65.92
+      ],
+      "text": " not like this so uh it's a social institutional utopia rule of law it's not basically we're in"
+    },
+    {
+      "timestamp": [
+        65.92,
+        75.78
+      ],
+      "text": " right now let me play um honestly it's forgetful i can't remember that one i can't religious utopia"
+    },
+    {
+      "timestamp": [
+        75.78,
+        89.78
+      ],
+      "text": " no just no terrible people should be able to uh believe in however they may believe in"
+    },
+    {
+      "timestamp": [
+        89.78,
+        97.76
+      ],
+      "text": " not how some government forces them onto ai center utopia no i'm not having ai govern me"
+    },
+    {
+      "timestamp": [
+        97.76,
+        100.62
+      ],
+      "text": " that's wrong in a moral"
+    }
+  ]
+}

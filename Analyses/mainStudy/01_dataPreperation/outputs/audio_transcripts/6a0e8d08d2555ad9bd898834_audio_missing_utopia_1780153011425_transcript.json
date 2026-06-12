@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a0e8d08d2555ad9bd898834_audio_missing_utopia_1780153011425.webm",
+  "transcript": " I feel like a good mix would have been with the science and the law mixed together. And our society would be good if we had all those components, not just pieces.",
+  "language": "unknown",
+  "processing_time_seconds": 5.374816,
+  "timestamp": "2026-06-08T10:47:56.211396",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.9
+      ],
+      "text": " I feel like a good mix would have been with the science and the law mixed together."
+    },
+    {
+      "timestamp": [
+        7.02,
+        12.56
+      ],
+      "text": " And our society would be good if we had all those components, not just pieces."
+    }
+  ]
+}

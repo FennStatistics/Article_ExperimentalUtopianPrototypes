@@ -1,0 +1,150 @@
+{
+  "audio_file": "6a19a7b2150cd11eb43fc07b_audio_missing_utopia_1780220087115.webm",
+  "transcript": " I think the missing future society would be the one where we don't have to worry about things like money or struggle, having to maintain a struggle. I think all of the societies that were listed, there's some sort of battle of keeping a balance where we have to keep our society while struggling against, say, the human part, struggling against deviants, people just not agreeing or being a part of the society. I think an ideal society again I'm immediately thinking of Star Trek I hate to admit it but in their civilization for Earth it's like people don't have to worry about money crime isn't really a thing everybody's well off resources are available for everybody and people just are living and just improving improving, seeking out uh other aliens planets whatever explore exploring there we go people get to focus on the inherent human quality of exploration because we don't need to worry about survival so much we're happy to do what we want and still progress to me that is the ideal society I think that matters most, maximizing well-being, all the while not getting stuck in, like, pleasure or whatever.",
+  "language": "unknown",
+  "processing_time_seconds": 21.405927,
+  "timestamp": "2026-06-08T11:12:31.600101",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.6
+      ],
+      "text": " I think the missing future society would be the one where we don't have to worry about things like money or struggle, having to maintain a struggle."
+    },
+    {
+      "timestamp": [
+        16.6,
+        41.44
+      ],
+      "text": " I think all of the societies that were listed, there's some sort of battle of keeping a balance where we have to keep our society while struggling against, say, the human part, struggling against deviants, people just not agreeing or being a part of the society."
+    },
+    {
+      "timestamp": [
+        41.44,
+        43.9
+      ],
+      "text": " I think an ideal society"
+    },
+    {
+      "timestamp": [
+        43.9,
+        46.38
+      ],
+      "text": " again"
+    },
+    {
+      "timestamp": [
+        46.38,
+        48.84
+      ],
+      "text": " I'm immediately thinking of Star Trek"
+    },
+    {
+      "timestamp": [
+        48.84,
+        50.66
+      ],
+      "text": " I hate to admit it"
+    },
+    {
+      "timestamp": [
+        50.66,
+        52.3
+      ],
+      "text": " but in their"
+    },
+    {
+      "timestamp": [
+        52.3,
+        53.82
+      ],
+      "text": " civilization"
+    },
+    {
+      "timestamp": [
+        53.82,
+        55.82
+      ],
+      "text": " for Earth it's like"
+    },
+    {
+      "timestamp": [
+        55.82,
+        58.36
+      ],
+      "text": " people don't have to worry about money"
+    },
+    {
+      "timestamp": [
+        58.36,
+        60.84
+      ],
+      "text": " crime isn't really a thing"
+    },
+    {
+      "timestamp": [
+        60.84,
+        62.3
+      ],
+      "text": " everybody's well off"
+    },
+    {
+      "timestamp": [
+        62.3,
+        64.64
+      ],
+      "text": " resources are available for everybody"
+    },
+    {
+      "timestamp": [
+        64.64,
+        66.7
+      ],
+      "text": " and people just are living"
+    },
+    {
+      "timestamp": [
+        66.7,
+        68.64
+      ],
+      "text": " and just improving"
+    },
+    {
+      "timestamp": [
+        68.64,
+        71.14
+      ],
+      "text": " improving, seeking out"
+    },
+    {
+      "timestamp": [
+        71.44,
+        80.04
+      ],
+      "text": " uh other aliens planets whatever explore exploring there we go people get to focus"
+    },
+    {
+      "timestamp": [
+        80.04,
+        85.94
+      ],
+      "text": " on the inherent human quality of exploration because we don't need to worry about survival"
+    },
+    {
+      "timestamp": [
+        85.94,
+        96.42
+      ],
+      "text": " so much we're happy to do what we want and still progress to me that is the ideal society"
+    },
+    {
+      "timestamp": [
+        96.42,
+        110.0
+      ],
+      "text": " I think that matters most, maximizing well-being, all the while not getting stuck in, like, pleasure or whatever."
+    }
+  ]
+}

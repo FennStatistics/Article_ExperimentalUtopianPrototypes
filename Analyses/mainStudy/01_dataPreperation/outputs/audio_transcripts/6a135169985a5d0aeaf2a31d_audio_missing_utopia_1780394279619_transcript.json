@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a135169985a5d0aeaf2a31d_audio_missing_utopia_1780394279619.webm",
+  "transcript": " My missing future society would be a future society that has rules in law that prevents wars, discrimination and attack on other communities so that they could live in an integrated way that brings about peace in the society and rules and regulations that also ensure that people live integrated peacefully in harmony.",
+  "language": "unknown",
+  "processing_time_seconds": 8.303287,
+  "timestamp": "2026-06-08T10:56:21.180986",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        29.36
+      ],
+      "text": " My missing future society would be a future society that has rules in law that prevents wars, discrimination and attack on other communities so that they could live in an integrated way that brings about peace in the society and rules and regulations that also ensure"
+    },
+    {
+      "timestamp": [
+        30.0,
+        35.0
+      ],
+      "text": " that people live integrated peacefully in harmony."
+    }
+  ]
+}

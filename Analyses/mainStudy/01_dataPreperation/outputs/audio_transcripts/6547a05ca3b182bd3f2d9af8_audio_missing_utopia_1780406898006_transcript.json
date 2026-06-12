@@ -1,0 +1,45 @@
+{
+  "audio_file": "6547a05ca3b182bd3f2d9af8_audio_missing_utopia_1780406898006.webm",
+  "transcript": " Um, I think one thing that would be in, um, my utopia would just be a big emphasis on education for all people. Um, I mean, it seems like, you know, people just care less and less about education and, you know, learning skills and reading books. And I think that that should just be something that's passed down from each new generation, because it's really important for people to be educated.",
+  "language": "unknown",
+  "processing_time_seconds": 11.870374,
+  "timestamp": "2026-06-08T08:31:41.294695",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.76
+      ],
+      "text": " Um, I think one thing that would be in, um, my utopia would just be a big emphasis on education"
+    },
+    {
+      "timestamp": [
+        14.76,
+        22.9
+      ],
+      "text": " for all people. Um, I mean, it seems like, you know, people just care less and less about"
+    },
+    {
+      "timestamp": [
+        22.9,
+        32.26
+      ],
+      "text": " education and, you know, learning skills and reading books. And I think that that should just"
+    },
+    {
+      "timestamp": [
+        32.26,
+        38.5
+      ],
+      "text": " be something that's passed down from each new generation, because it's really important for"
+    },
+    {
+      "timestamp": [
+        38.5,
+        40.5
+      ],
+      "text": " people to be educated."
+    }
+  ]
+}

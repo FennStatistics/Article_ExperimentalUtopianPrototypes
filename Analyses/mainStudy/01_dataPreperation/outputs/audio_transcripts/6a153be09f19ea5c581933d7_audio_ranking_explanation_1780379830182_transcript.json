@@ -1,0 +1,164 @@
+{
+  "audio_file": "6a153be09f19ea5c581933d7_audio_ranking_explanation_1780379830182.webm",
+  "transcript": " in short i mean i put the ai-centered utopia at the very bottom because that's like a black mirror episode some sci-fi horror waiting to go wrong ai determining everything from the punishments to you know human beings are no longer the top of the food chain ai is our leader which that is like a sci-fi horror movie religious utopia um again if you even look at just say christianity verses in the bible i would not want to be under a religious utopia there are some crazy extreme things that happen in that too that i don't think it's correct to just go by a faith necessarily and also under one faith what happened to the to all of the people that aren't under that faith will they be persecuted under one religion in this i don't know primitivist utopia is above that just because i mean society once was more primitive and in theory it could operate reasonably but I wouldn't desire in any way to live in that. Moral commonwealth, I only put this here if in a perfect world everyone had perfect pure morals, but this would be at the very bottom if the people in this society did not have perfect morals. So hard to say where that actually would placed but if it was everyone had ideal pure morals and could be trusted to follow their own morals without law then sure i could put that there in theory institutional utopia i mean we already have a institutional society it's not perfect that's why i didn't place it at the top but I could feasibly live there and continue living there, especially if there are better advances in laws and more ethical laws and just better, more advanced laws. Futurist utopia, I could live here. If everyone's following science, I think that could be beneficial. Everything's empirical. That's the decision-making process. In theory, that could work. There could be utopia. And modern green utopia, I just prefer that the most, where laws take into account everything and everyone were stopped from harming the planet, nature, our resources in a way that could be a utopia if the laws are proper. So that's my most ideal.",
+  "language": "unknown",
+  "processing_time_seconds": 35.286742,
+  "timestamp": "2026-06-08T11:04:26.541606",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.9
+      ],
+      "text": " in short i mean i put the ai-centered utopia at the very bottom because that's like a black"
+    },
+    {
+      "timestamp": [
+        9.9,
+        19.9
+      ],
+      "text": " mirror episode some sci-fi horror waiting to go wrong ai determining everything from the punishments"
+    },
+    {
+      "timestamp": [
+        19.9,
+        29.48
+      ],
+      "text": " to you know human beings are no longer the top of the food chain ai is our leader which that is like"
+    },
+    {
+      "timestamp": [
+        29.48,
+        40.98
+      ],
+      "text": " a sci-fi horror movie religious utopia um again if you even look at just say christianity verses"
+    },
+    {
+      "timestamp": [
+        40.98,
+        47.8
+      ],
+      "text": " in the bible i would not want to be under a religious utopia there are some crazy extreme"
+    },
+    {
+      "timestamp": [
+        47.8,
+        57.3
+      ],
+      "text": " things that happen in that too that i don't think it's correct to just go by a faith necessarily"
+    },
+    {
+      "timestamp": [
+        57.3,
+        64.76
+      ],
+      "text": " and also under one faith what happened to the to all of the people that aren't under that faith"
+    },
+    {
+      "timestamp": [
+        64.76,
+        74.82
+      ],
+      "text": " will they be persecuted under one religion in this i don't know primitivist utopia is above"
+    },
+    {
+      "timestamp": [
+        74.82,
+        84.92
+      ],
+      "text": " that just because i mean society once was more primitive and in theory it could operate reasonably"
+    },
+    {
+      "timestamp": [
+        84.92,
+        94.1
+      ],
+      "text": " but I wouldn't desire in any way to live in that. Moral commonwealth, I only put this here"
+    },
+    {
+      "timestamp": [
+        94.1,
+        102.68
+      ],
+      "text": " if in a perfect world everyone had perfect pure morals, but this would be at the very bottom if"
+    },
+    {
+      "timestamp": [
+        102.68,
+        109.32
+      ],
+      "text": " the people in this society did not have perfect morals. So hard to say where that actually would"
+    },
+    {
+      "timestamp": [
+        109.32,
+        118.26
+      ],
+      "text": " placed but if it was everyone had ideal pure morals and could be trusted to follow their own"
+    },
+    {
+      "timestamp": [
+        118.26,
+        127.62
+      ],
+      "text": " morals without law then sure i could put that there in theory institutional utopia i mean we"
+    },
+    {
+      "timestamp": [
+        127.62,
+        135.44
+      ],
+      "text": " already have a institutional society it's not perfect that's why i didn't place it at the top"
+    },
+    {
+      "timestamp": [
+        135.44,
+        141.48
+      ],
+      "text": " but I could feasibly live there and continue living there, especially if there are better"
+    },
+    {
+      "timestamp": [
+        141.48,
+        150.06
+      ],
+      "text": " advances in laws and more ethical laws and just better, more advanced laws."
+    },
+    {
+      "timestamp": [
+        151.4,
+        159.88
+      ],
+      "text": " Futurist utopia, I could live here. If everyone's following science, I think that could be"
+    },
+    {
+      "timestamp": [
+        159.88,
+        167.38
+      ],
+      "text": " beneficial. Everything's empirical. That's the decision-making process. In theory, that could"
+    },
+    {
+      "timestamp": [
+        167.38,
+        177.12
+      ],
+      "text": " work. There could be utopia. And modern green utopia, I just prefer that the most, where laws"
+    },
+    {
+      "timestamp": [
+        177.12,
+        185.5
+      ],
+      "text": " take into account everything and everyone were stopped from harming the planet, nature, our"
+    },
+    {
+      "timestamp": [
+        185.5,
+        192.64
+      ],
+      "text": " resources in a way that could be a utopia if the laws are proper. So that's my most ideal."
+    }
+  ]
+}

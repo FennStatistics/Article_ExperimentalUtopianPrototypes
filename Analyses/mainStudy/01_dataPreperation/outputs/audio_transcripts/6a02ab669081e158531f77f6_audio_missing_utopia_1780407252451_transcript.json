@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a02ab669081e158531f77f6_audio_missing_utopia_1780407252451.webm",
+  "transcript": " I think that a type that was missing was matriarchy. I believe that a green society built in a matriarchal society would be the best chance for humanity's success. Historically, humans have been matriarchal. The difference between a matriarchy and a patriarchy is whether or not the leaders genuinely care about the people, and I feel that that would be an important value or approach in a future society that I would love to be a part of.",
+  "language": "unknown",
+  "processing_time_seconds": 9.812516,
+  "timestamp": "2026-06-08T10:20:42.192399",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.22
+      ],
+      "text": " I think that a type that was missing was matriarchy."
+    },
+    {
+      "timestamp": [
+        8.48,
+        17.94
+      ],
+      "text": " I believe that a green society built in a matriarchal society would be the best chance for humanity's success."
+    },
+    {
+      "timestamp": [
+        18.76,
+        24.56
+      ],
+      "text": " Historically, humans have been matriarchal."
+    },
+    {
+      "timestamp": [
+        24.56,
+        46.02
+      ],
+      "text": " The difference between a matriarchy and a patriarchy is whether or not the leaders genuinely care about the people, and I feel that that would be an important value or approach in a future society that I would love to be a part of."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "audio_file": "69fe12a3cbb83e4d288a6082_audio_ranking_explanation_1780441724095.webm",
+  "transcript": " I decided to rank the AI-centered utopia at the highest, as that would be more of a realization of what today's society looks like, by being driven by data rather than necessarily other factors. I thought AI-centered would be a little bit better in terms of being a technocratic government to live under. I looked at institutional utopia with a rule of law as being number two. Even though I don't really agree with what it looks like in practice, considering it's kind of what we have today, I figure a return to normalcy would be better after a period of great crisis. I then looked at the futurist utopia as being potentially better than other options. It tends to be able to push forward the kind of science and, you know, I guess it would be technological innovation that humans need to continue to thrive. I then looked at the religious utopia as being closer to what we've historically had as humans. Something like a kind of like a papal states or like a Buddhist monk kingdom. I think that could be potentially a good way to organize a society, even if i don't agree on some of the specifics i look at the primitivist utopia as being personally for me it probably one of the better areas to live in however the small scale of the living and the need to coordinate over large human populations would probably not make it work long term would also probably tend to get swamped eventually by whatever society that would build to rise up against it. That's similar to the intermorality group, the moral commonwealth. A society full of individual actors who tend to act well for themselves would probably be a good place to live, but it probably would be swamped or completely mobbed by whatever group would come about that would reject that society, so it's not really workable at a long term. I look at the modern green utopia as being the least likely to work long term as most people are generally not going to want to put up with a series of arbitrary rules based on whatever is environmentally, I guess the word for it is whatever is environmentally beneficial for that time. And, I mean, being able to point and say that something that we don't understand after a period of great conflict, which is the whole planet Earth, that we need to make certain actions to appease the planet Earth, seems to be anthropomorphizing the space that we live in. And I just don't necessarily agree with that.",
+  "language": "unknown",
+  "processing_time_seconds": 35.105958,
+  "timestamp": "2026-06-08T10:12:49.526633",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.68
+      ],
+      "text": " I decided to rank the AI-centered utopia at the highest, as that would be more of a realization of what today's society looks like, by being driven by data rather than necessarily other factors."
+    },
+    {
+      "timestamp": [
+        19.18,
+        24.44
+      ],
+      "text": " I thought AI-centered would be a little bit better in terms of being a technocratic government to live under."
+    },
+    {
+      "timestamp": [
+        24.44,
+        25.44
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.18,
+        30.92
+      ],
+      "text": " I looked at institutional utopia with a rule of law as being number two."
+    },
+    {
+      "timestamp": [
+        36.28,
+        36.42
+      ],
+      "text": " Even though I don't really agree with what it looks like in practice,"
+    },
+    {
+      "timestamp": [
+        38.18,
+        43.12
+      ],
+      "text": " considering it's kind of what we have today, I figure a return to normalcy would be better after a period of great crisis."
+    },
+    {
+      "timestamp": [
+        44.0,
+        50.24
+      ],
+      "text": " I then looked at the futurist utopia as being potentially better than other options."
+    },
+    {
+      "timestamp": [
+        51.14,
+        51.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        56.44,
+        57.1
+      ],
+      "text": " It tends to be able to push forward the kind of science and, you know,"
+    },
+    {
+      "timestamp": [
+        60.86,
+        62.22
+      ],
+      "text": " I guess it would be technological innovation that humans need to continue to thrive."
+    },
+    {
+      "timestamp": [
+        68.56,
+        69.12
+      ],
+      "text": " I then looked at the religious utopia as being closer to what we've historically had as humans."
+    },
+    {
+      "timestamp": [
+        74.44,
+        74.92
+      ],
+      "text": " Something like a kind of like a papal states or like a Buddhist monk kingdom."
+    },
+    {
+      "timestamp": [
+        78.22,
+        83.98
+      ],
+      "text": " I think that could be potentially a good way to organize a society, even if i don't agree on some of the specifics i look at the primitivist utopia as being"
+    },
+    {
+      "timestamp": [
+        83.98,
+        91.18
+      ],
+      "text": " personally for me it probably one of the better areas to live in however the small scale of the"
+    },
+    {
+      "timestamp": [
+        91.18,
+        97.42
+      ],
+      "text": " living and the need to coordinate over large human populations would probably not make it"
+    },
+    {
+      "timestamp": [
+        97.42,
+        105.18
+      ],
+      "text": " work long term would also probably tend to get swamped eventually by whatever society that would"
+    },
+    {
+      "timestamp": [
+        105.18,
+        111.82
+      ],
+      "text": " build to rise up against it. That's similar to the intermorality group, the moral commonwealth."
+    },
+    {
+      "timestamp": [
+        112.62,
+        119.02
+      ],
+      "text": " A society full of individual actors who tend to act well for themselves would probably be a good"
+    },
+    {
+      "timestamp": [
+        119.02,
+        127.08
+      ],
+      "text": " place to live, but it probably would be swamped or completely mobbed by whatever group would come"
+    },
+    {
+      "timestamp": [
+        127.08,
+        131.9
+      ],
+      "text": " about that would reject that society, so it's not really workable at a long term."
+    },
+    {
+      "timestamp": [
+        133.12,
+        131.9
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        151.6,
+        151.9
+      ],
+      "text": " I look at the modern green utopia as being the least likely to work long term as most people are generally not going to want to put up with a series of arbitrary rules based on whatever is environmentally, I guess the word for it is whatever is environmentally beneficial for that time."
+    },
+    {
+      "timestamp": [
+        151.6,
+        157.72
+      ],
+      "text": " And, I mean, being able to point and say that something that we don't understand after a period of great conflict,"
+    },
+    {
+      "timestamp": [
+        157.72,
+        161.96
+      ],
+      "text": " which is the whole planet Earth, that we need to make certain actions to appease the planet Earth,"
+    },
+    {
+      "timestamp": [
+        162.06,
+        165.22
+      ],
+      "text": " seems to be anthropomorphizing the space that we live in."
+    },
+    {
+      "timestamp": [
+        165.56,
+        167.82
+      ],
+      "text": " And I just don't necessarily agree with that."
+    }
+  ]
+}

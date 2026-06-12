@@ -1,0 +1,24 @@
+{
+  "audio_file": "69e96d63ea37c8245128778f_audio_missing_utopia_1780228927605.webm",
+  "transcript": " There wasn't a whole lot missing, but I would prefer a society where we use AI as an important tool, but we don't let it do our governing for us.",
+  "language": "unknown",
+  "processing_time_seconds": 5.517671,
+  "timestamp": "2026-06-08T09:43:51.515096",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.06
+      ],
+      "text": " There wasn't a whole lot missing, but I would prefer a society where we use AI as an important"
+    },
+    {
+      "timestamp": [
+        13.06,
+        19.32
+      ],
+      "text": " tool, but we don't let it do our governing for us."
+    }
+  ]
+}

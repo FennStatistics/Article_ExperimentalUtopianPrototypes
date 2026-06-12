@@ -1,0 +1,52 @@
+{
+  "audio_file": "69e408f53c6834fd1ceadad4_audio_missing_utopia_1780412954311.webm",
+  "transcript": " For this one, I would say not necessarily missing, but I'd like to combine. If I could combine the science with the high morality, I think that would be the best ultimate society. When looking at each of them, they're all kind of missing a piece of the puzzle. When looking at science, science can't necessarily tell us if something is right or wrong in terms of morality. whereas if we were able to combine those, I think that would be the most beneficial.",
+  "language": "unknown",
+  "processing_time_seconds": 9.852036,
+  "timestamp": "2026-06-08T09:39:31.600282",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.36
+      ],
+      "text": " For this one, I would say not necessarily missing, but I'd like to combine."
+    },
+    {
+      "timestamp": [
+        6.14,
+        15.16
+      ],
+      "text": " If I could combine the science with the high morality, I think that would be the best ultimate society."
+    },
+    {
+      "timestamp": [
+        15.16,
+        19.18
+      ],
+      "text": " When looking at each of them, they're all kind of missing a piece of the puzzle."
+    },
+    {
+      "timestamp": [
+        19.76,
+        27.6
+      ],
+      "text": " When looking at science, science can't necessarily tell us if something is right or wrong in terms of morality."
+    },
+    {
+      "timestamp": [
+        27.92,
+        27.6
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.76,
+        null
+      ],
+      "text": " whereas if we were able to combine those, I think that would be the most beneficial."
+    }
+  ]
+}

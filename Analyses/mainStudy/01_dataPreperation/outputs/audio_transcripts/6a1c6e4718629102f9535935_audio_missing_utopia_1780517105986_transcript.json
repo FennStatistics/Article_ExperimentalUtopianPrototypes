@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a1c6e4718629102f9535935_audio_missing_utopia_1780517105986.webm",
+  "transcript": " If I had to describe one utopia that I thought was missing, I'd say it would be a society that balanced technology and sustainability and also had strong values and individual freedom incorporated into it. A lot of the options that you guys gave focused heavily just on one idea, but I think that the best society would combine the benefits of innovation and environmental responsibility while still giving each person the freedom to make their own choices. What would matter most to me is having a society that is safe, ethical, and forward-looking and respects both community values and personal rights. personally",
+  "language": "unknown",
+  "processing_time_seconds": 12.727069,
+  "timestamp": "2026-06-08T11:17:59.603805",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.1
+      ],
+      "text": " If I had to describe one utopia that I thought was missing, I'd say it would be a society that balanced technology and sustainability and also had strong values and individual freedom incorporated into it."
+    },
+    {
+      "timestamp": [
+        15.42,
+        15.1
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        20.72,
+        20.9
+      ],
+      "text": " A lot of the options that you guys gave focused heavily just on one idea,"
+    },
+    {
+      "timestamp": [
+        25.1,
+        25.74
+      ],
+      "text": " but I think that the best society would combine the benefits of innovation"
+    },
+    {
+      "timestamp": [
+        30.44,
+        32.02
+      ],
+      "text": " and environmental responsibility while still giving each person the freedom to make their own choices."
+    },
+    {
+      "timestamp": [
+        33.58,
+        39.64
+      ],
+      "text": " What would matter most to me is having a society that is safe, ethical,"
+    },
+    {
+      "timestamp": [
+        39.84,
+        43.7
+      ],
+      "text": " and forward-looking and respects both community values and personal rights."
+    },
+    {
+      "timestamp": [
+        45.1,
+        46.78
+      ],
+      "text": " personally"
+    }
+  ]
+}

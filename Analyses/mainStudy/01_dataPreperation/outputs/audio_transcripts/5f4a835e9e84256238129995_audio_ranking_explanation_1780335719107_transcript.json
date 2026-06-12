@@ -1,0 +1,31 @@
+{
+  "audio_file": "5f4a835e9e84256238129995_audio_ranking_explanation_1780335719107.webm",
+  "transcript": " I think that we already kind of live in a moral commonwealth, so that was my top choice, was inner morality. I think that I just believe in people more than AI or anything else, so that is what I went with for that. And my least preferred, so religion, I chose that because I think that religion can be used to manipulate people and yeah, I just don't see that being good for society.",
+  "language": "unknown",
+  "processing_time_seconds": 9.410535,
+  "timestamp": "2026-06-08T08:17:51.486138",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.26
+      ],
+      "text": " I think that we already kind of live in a moral commonwealth, so that was my top choice, was inner morality."
+    },
+    {
+      "timestamp": [
+        10.88,
+        19.18
+      ],
+      "text": " I think that I just believe in people more than AI or anything else, so that is what I went with for that."
+    },
+    {
+      "timestamp": [
+        19.18,
+        40.94
+      ],
+      "text": " And my least preferred, so religion, I chose that because I think that religion can be used to manipulate people and yeah, I just don't see that being good for society."
+    }
+  ]
+}

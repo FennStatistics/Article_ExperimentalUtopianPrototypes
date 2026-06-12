@@ -1,0 +1,87 @@
+{
+  "audio_file": "691dd723559ca7c89564ea8b_audio_ranking_explanation_1780415620288.webm",
+  "transcript": " uh this is kind of a tough one i think i'd go more towards the ai centered at the top along with the science and innovation just feels like that's the most based on like actual data and evidence to like promote what is right um for me personally um then towards the middle a lot of them kind of blend um like low tech and small scale that kind of makes sense like that it might be kind of nice just like what's going on and that like allows more flexibility with people so i think that's kind of cool um rule of law kind of makes sense but like are the laws good and right it's kind of unknown um and then faith-based and inner morality kind of seems similar where it's based on like people being good which is like a good idea but also like it just doesn't seem very based on data and how to actually do things and the sustainable and secure when similar sort of deal where it's like it doesn't seem to be based on data so yeah",
+  "language": "unknown",
+  "processing_time_seconds": 15.624181,
+  "timestamp": "2026-06-08T08:48:34.292923",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.8
+      ],
+      "text": " uh this is kind of a tough one i think i'd go more towards the ai centered at the top along"
+    },
+    {
+      "timestamp": [
+        7.8,
+        13.56
+      ],
+      "text": " with the science and innovation just feels like that's the most based on like actual"
+    },
+    {
+      "timestamp": [
+        13.56,
+        23.64
+      ],
+      "text": " data and evidence to like promote what is right um for me personally um then towards the middle"
+    },
+    {
+      "timestamp": [
+        23.64,
+        28.98
+      ],
+      "text": " a lot of them kind of blend um like low tech and small scale that kind of makes sense like that"
+    },
+    {
+      "timestamp": [
+        28.98,
+        39.44
+      ],
+      "text": " it might be kind of nice just like what's going on and that like allows more flexibility with"
+    },
+    {
+      "timestamp": [
+        39.44,
+        44.22
+      ],
+      "text": " people so i think that's kind of cool um rule of law kind of makes sense but like are the laws"
+    },
+    {
+      "timestamp": [
+        44.22,
+        51.56
+      ],
+      "text": " good and right it's kind of unknown um and then faith-based and inner morality kind of"
+    },
+    {
+      "timestamp": [
+        51.56,
+        58.22
+      ],
+      "text": " seems similar where it's based on like people being good which is like a good idea but also"
+    },
+    {
+      "timestamp": [
+        58.22,
+        64.7
+      ],
+      "text": " like it just doesn't seem very based on data and how to actually do things and"
+    },
+    {
+      "timestamp": [
+        64.7,
+        70.28
+      ],
+      "text": " the sustainable and secure when similar sort of deal where it's like it doesn't"
+    },
+    {
+      "timestamp": [
+        70.28,
+        75.28
+      ],
+      "text": " seem to be based on data so yeah"
+    }
+  ]
+}

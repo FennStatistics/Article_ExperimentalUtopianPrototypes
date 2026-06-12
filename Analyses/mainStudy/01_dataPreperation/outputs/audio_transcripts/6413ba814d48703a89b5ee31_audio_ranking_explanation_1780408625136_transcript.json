@@ -1,0 +1,38 @@
+{
+  "audio_file": "6413ba814d48703a89b5ee31_audio_ranking_explanation_1780408625136.webm",
+  "transcript": " I think the best way to describe it is that as you go down the list, there's like a more material determination of a human being's worth. Like, for example, in a moral commonwealth, you know, your worth is determined by like altruism in a sense. And then as you go down the list towards like a futurist utopia, your worth is more determined through productivity and sort of input. And then as you move towards like an AI-centered utopia or religious utopia, your worth is more determined by, you know, following a set of sort of arbitrary rules that aren't necessarily based in, you know, morality, depending on sort of the social structure of the society.",
+  "language": "unknown",
+  "processing_time_seconds": 11.321242,
+  "timestamp": "2026-06-08T08:31:29.372636",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.14
+      ],
+      "text": " I think the best way to describe it is that as you go down the list, there's like a more material determination of a human being's worth."
+    },
+    {
+      "timestamp": [
+        12.0,
+        18.08
+      ],
+      "text": " Like, for example, in a moral commonwealth, you know, your worth is determined by like altruism in a sense."
+    },
+    {
+      "timestamp": [
+        19.02,
+        29.7
+      ],
+      "text": " And then as you go down the list towards like a futurist utopia, your worth is more determined through productivity and sort of input."
+    },
+    {
+      "timestamp": [
+        30.0,
+        59.1
+      ],
+      "text": " And then as you move towards like an AI-centered utopia or religious utopia, your worth is more determined by, you know, following a set of sort of arbitrary rules that aren't necessarily based in, you know, morality, depending on sort of the social structure of the society."
+    }
+  ]
+}

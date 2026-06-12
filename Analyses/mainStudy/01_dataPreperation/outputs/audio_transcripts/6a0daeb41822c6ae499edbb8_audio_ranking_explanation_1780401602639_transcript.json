@@ -1,0 +1,136 @@
+{
+  "audio_file": "6a0daeb41822c6ae499edbb8_audio_ranking_explanation_1780401602639.webm",
+  "transcript": " um i ranked in this way just thinking about which societies seem most fair to most people or like they would work the best i guess um ai centered is like super scary to me i don't think that should ever be in charge that feels like dystopian movie or something um moral commonwealth it's hard because obviously these are like not super realistic i guess um or i wasn't sure if i should take it as like that would work or this is the idea and how do you think it would work but obviously moral commonwealth if people could really be moral and um you know would abuse the way that society was set up i think that would be ideal i guess institutional utopia is a little more realistic to me or kind of closer to what we live in now of you know doing the right thing is important but we will be enforcing it with the laws so that made more sense to me the modern green utopia that's something that i think would just make the longevity of your society more likely just taking care of things um futurist is kind of the same thing of you know being having a society focused around making things better and using innovation to help everybody that seems like that'd be helpful religious utopia would be cool if everybody agreed but then that just seems like you would have a group of people who were being persecuted because not everybody believes the same thing so then i ended up kind of low and then the primitivist i don't know i didn't really i didn't really see a lot about like what would be beneficial there so that's why that's so Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 24.328118,
+  "timestamp": "2026-06-08T10:43:11.398171",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.4
+      ],
+      "text": " um i ranked in this way just thinking about which societies seem most fair to most people"
+    },
+    {
+      "timestamp": [
+        9.04,
+        15.68
+      ],
+      "text": " or like they would work the best i guess um ai centered is like super scary to me i don't"
+    },
+    {
+      "timestamp": [
+        15.68,
+        20.08
+      ],
+      "text": " think that should ever be in charge that feels like dystopian movie or something"
+    },
+    {
+      "timestamp": [
+        21.52,
+        28.16
+      ],
+      "text": " um moral commonwealth it's hard because obviously these are like not super realistic i guess"
+    },
+    {
+      "timestamp": [
+        28.88,
+        32.8
+      ],
+      "text": " um or i wasn't sure if i should take it as like that would work or"
+    },
+    {
+      "timestamp": [
+        33.36,
+        38.48
+      ],
+      "text": " this is the idea and how do you think it would work but obviously moral commonwealth if people"
+    },
+    {
+      "timestamp": [
+        39.12,
+        46.32
+      ],
+      "text": " could really be moral and um you know would abuse the way that society was set up i think that would"
+    },
+    {
+      "timestamp": [
+        46.32,
+        54.48
+      ],
+      "text": " be ideal i guess institutional utopia is a little more realistic to me or kind of closer to what we"
+    },
+    {
+      "timestamp": [
+        54.48,
+        59.84
+      ],
+      "text": " live in now of you know doing the right thing is important but we will be enforcing it with"
+    },
+    {
+      "timestamp": [
+        59.84,
+        66.08
+      ],
+      "text": " the laws so that made more sense to me the modern green utopia that's something that"
+    },
+    {
+      "timestamp": [
+        67.76,
+        72.64
+      ],
+      "text": " i think would just make the longevity of your society more likely just taking care of things"
+    },
+    {
+      "timestamp": [
+        73.44,
+        80.16
+      ],
+      "text": " um futurist is kind of the same thing of you know being having a society focused around"
+    },
+    {
+      "timestamp": [
+        80.16,
+        87.28
+      ],
+      "text": " making things better and using innovation to help everybody that seems like that'd be helpful"
+    },
+    {
+      "timestamp": [
+        87.28,
+        92.56
+      ],
+      "text": " religious utopia would be cool if everybody agreed but then that just seems like you would"
+    },
+    {
+      "timestamp": [
+        92.56,
+        97.36
+      ],
+      "text": " have a group of people who were being persecuted because not everybody believes the same thing so"
+    },
+    {
+      "timestamp": [
+        97.36,
+        102.72
+      ],
+      "text": " then i ended up kind of low and then the primitivist i don't know i didn't really"
+    },
+    {
+      "timestamp": [
+        103.84,
+        109.44
+      ],
+      "text": " i didn't really see a lot about like what would be beneficial there so that's why that's so"
+    },
+    {
+      "timestamp": [
+        110.16,
+        140.14
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

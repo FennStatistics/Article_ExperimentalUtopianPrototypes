@@ -1,0 +1,66 @@
+{
+  "audio_file": "62effa539a08b7896593d694_audio_missing_utopia_1780409743841.webm",
+  "transcript": " So, I think, you know, what's even a good way to say it? I just think when it comes to wealth, I think that needs to be distributed fairly. Because, like, especially now, what you have is you have this very, very, very, very, very small handful of people that own, like, over half the world's money. And it's like, they didn't work for it. They exploited their workers and they stole it. And it's like, that is such a serious, huge issue. And I don't know what the solution is. I think if you have a society that's basis is in science and things that are provable and, you know, sustainability, if you're in that type of society that's prioritizing those things, I think the wealth distribution is going to come naturally in that type of society. We can dream.",
+  "language": "unknown",
+  "processing_time_seconds": 14.802302,
+  "timestamp": "2026-06-08T08:25:31.525505",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.62
+      ],
+      "text": " So, I think, you know, what's even a good way to say it? I just think when it comes to wealth, I think that needs to be distributed fairly."
+    },
+    {
+      "timestamp": [
+        14.62,
+        25.32
+      ],
+      "text": " Because, like, especially now, what you have is you have this very, very, very, very, very small handful of people that own, like, over half the world's money."
+    },
+    {
+      "timestamp": [
+        25.58,
+        29.42
+      ],
+      "text": " And it's like, they didn't work for it. They exploited their workers and they stole it."
+    },
+    {
+      "timestamp": [
+        29.6,
+        29.42
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        35.26,
+        35.98
+      ],
+      "text": " And it's like, that is such a serious, huge issue."
+    },
+    {
+      "timestamp": [
+        38.44,
+        39.14
+      ],
+      "text": " And I don't know what the solution is."
+    },
+    {
+      "timestamp": [
+        57.14,
+        59.42
+      ],
+      "text": " I think if you have a society that's basis is in science and things that are provable and, you know, sustainability, if you're in that type of society that's prioritizing those things, I think the wealth distribution is going to come naturally in that type of society."
+    },
+    {
+      "timestamp": [
+        60.16,
+        null
+      ],
+      "text": " We can dream."
+    }
+  ]
+}

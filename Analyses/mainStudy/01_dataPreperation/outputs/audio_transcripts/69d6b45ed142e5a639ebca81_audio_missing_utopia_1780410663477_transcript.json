@@ -1,0 +1,87 @@
+{
+  "audio_file": "69d6b45ed142e5a639ebca81_audio_missing_utopia_1780410663477.webm",
+  "transcript": " I think that the ideal situation would be a true meritocracy situation where the people who are the best at stuff get to rule whatever their section is. So, for example, people who are good at industrial stuff get to decide the rules on industrial stuff. People who are good at maintaining order and things like that get to be the legislators. I think that things should be decided purely based on what somebody is good at. like that comes with its own challenges people may fall through the cracks and like there might not be a place for people who don't have a thing that they're good at but like skill issue everybody's good at something everybody would have a thing that they're responsible for and that would be so much better than having to sacrifice passion and culture and and love for life for money i feel like a meritocracy if we could make it work which is the if the issue with a lot of the stuff is like, if we could set it up in a way that's lucrative, it could be probably the most effective for human development.",
+  "language": "unknown",
+  "processing_time_seconds": 16.244316,
+  "timestamp": "2026-06-08T09:33:28.647258",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.58
+      ],
+      "text": " I think that the ideal situation would be a true meritocracy situation where the people who are the best at stuff get to rule whatever their section is."
+    },
+    {
+      "timestamp": [
+        13.58,
+        19.7
+      ],
+      "text": " So, for example, people who are good at industrial stuff get to decide the rules on industrial stuff."
+    },
+    {
+      "timestamp": [
+        19.98,
+        24.1
+      ],
+      "text": " People who are good at maintaining order and things like that get to be the legislators."
+    },
+    {
+      "timestamp": [
+        24.94,
+        29.1
+      ],
+      "text": " I think that things should be decided purely based on what somebody is good at."
+    },
+    {
+      "timestamp": [
+        29.58,
+        29.1
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.84,
+        38.86
+      ],
+      "text": " like that comes with its own challenges people may fall through the cracks and like there might not be a place for people who don't have a thing that they're good at but like skill issue"
+    },
+    {
+      "timestamp": [
+        38.86,
+        44.24
+      ],
+      "text": " everybody's good at something everybody would have a thing that they're responsible for and"
+    },
+    {
+      "timestamp": [
+        44.24,
+        49.92
+      ],
+      "text": " that would be so much better than having to sacrifice passion and culture and and love for"
+    },
+    {
+      "timestamp": [
+        49.92,
+        57.34
+      ],
+      "text": " life for money i feel like a meritocracy if we could make it work which is the if the issue with"
+    },
+    {
+      "timestamp": [
+        57.34,
+        61.66
+      ],
+      "text": " a lot of the stuff is like, if we could set it up in a way that's lucrative, it"
+    },
+    {
+      "timestamp": [
+        61.66,
+        73.14
+      ],
+      "text": " could be probably the most effective for human development."
+    }
+  ]
+}

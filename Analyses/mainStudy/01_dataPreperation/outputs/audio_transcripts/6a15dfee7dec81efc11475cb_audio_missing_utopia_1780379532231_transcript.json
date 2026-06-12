@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a15dfee7dec81efc11475cb_audio_missing_utopia_1780379532231.webm",
+  "transcript": " I believe that all of my values are mostly represented, represented, um, I think my ideal society is just inclusivity, um, the health of our earth, um, how people are treating each other, making sure there are any unjust laws. people aren't cheated unfairly um basically these like these values are like these societies that can help us be more progressive and make us like take step forwards instead of moving backwards like innovation um innovation um the quality of life of our society um violence in our society like we can move we can move past that i just but i feel like everything was it pretty much caught my drift um yeah everything was pretty much in there i do think we need laws i do think we need we do need technology for innovation to move forward and i do believe we do need to keep our earth um our earth's health ai priority um because we need our earth we need our earth and good health for us to live um if we want to continue having generations and our lineage we need to keep the earth healthy i feel like that is my biggest that is my biggest um idea when it comes to a society and i feel like some of these uh depicted societies and these scenarios I just kind of touch on that fairly well.",
+  "language": "unknown",
+  "processing_time_seconds": 24.597479,
+  "timestamp": "2026-06-08T11:05:28.859513",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.0
+      ],
+      "text": " I believe that all of my values are mostly represented, represented, um, I think my ideal society is just inclusivity, um, the health of our earth, um, how people are treating each other, making sure there are any unjust laws."
+    },
+    {
+      "timestamp": [
+        24.0,
+        36.28
+      ],
+      "text": " people aren't cheated unfairly um basically these like these values are like these societies"
+    },
+    {
+      "timestamp": [
+        36.28,
+        44.44
+      ],
+      "text": " that can help us be more progressive and make us like take step forwards instead of moving backwards"
+    },
+    {
+      "timestamp": [
+        44.44,
+        56.0
+      ],
+      "text": " like innovation um innovation um the quality of life of our society um"
+    },
+    {
+      "timestamp": [
+        56.0,
+        65.32
+      ],
+      "text": " violence in our society like we can move we can move past that i just"
+    },
+    {
+      "timestamp": [
+        65.32,
+        70.72
+      ],
+      "text": " but i feel like everything was it pretty much caught my drift"
+    },
+    {
+      "timestamp": [
+        70.72,
+        79.08
+      ],
+      "text": " um yeah everything was pretty much in there i do think we need laws i do think we need"
+    },
+    {
+      "timestamp": [
+        79.08,
+        87.56
+      ],
+      "text": " we do need technology for innovation to move forward and i do believe we do need to"
+    },
+    {
+      "timestamp": [
+        87.56,
+        98.2
+      ],
+      "text": " keep our earth um our earth's health ai priority um because we need our earth we need our earth"
+    },
+    {
+      "timestamp": [
+        98.2,
+        107.78
+      ],
+      "text": " and good health for us to live um if we want to continue having generations and our lineage we"
+    },
+    {
+      "timestamp": [
+        107.78,
+        117.16
+      ],
+      "text": " need to keep the earth healthy i feel like that is my biggest that is my biggest um idea when it"
+    },
+    {
+      "timestamp": [
+        117.16,
+        123.28
+      ],
+      "text": " comes to a society and i feel like some of these uh depicted societies and these scenarios"
+    },
+    {
+      "timestamp": [
+        123.28,
+        125.2
+      ],
+      "text": " I just kind of touch on that fairly well."
+    }
+  ]
+}

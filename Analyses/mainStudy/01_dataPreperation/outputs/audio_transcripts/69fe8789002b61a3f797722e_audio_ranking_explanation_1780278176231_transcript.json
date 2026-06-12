@@ -1,0 +1,66 @@
+{
+  "audio_file": "69fe8789002b61a3f797722e_audio_ranking_explanation_1780278176231.webm",
+  "transcript": " AI-centred utopia prioritizes efficiency. Modern green utopia focuses heavily on environmental sustainability. Institutional utopia values strong legal system. First-truth utopia places the highest value on certificates. Religious Utopia Centered society around shared spiritual beliefs Moral common wealth Lies in individual integrity Primit Vist Utopia Reject modern technology in a favor of simple, small-scale, nature-focused living",
+  "language": "unknown",
+  "processing_time_seconds": 9.667247,
+  "timestamp": "2026-06-08T10:13:10.200984",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.0
+      ],
+      "text": " AI-centred utopia prioritizes efficiency. Modern green utopia focuses heavily on environmental sustainability."
+    },
+    {
+      "timestamp": [
+        14.0,
+        24.0
+      ],
+      "text": " Institutional utopia values strong legal system. First-truth utopia places the highest value on certificates."
+    },
+    {
+      "timestamp": [
+        24.0,
+        26.56
+      ],
+      "text": " Religious Utopia"
+    },
+    {
+      "timestamp": [
+        26.56,
+        30.9
+      ],
+      "text": " Centered society around shared spiritual beliefs"
+    },
+    {
+      "timestamp": [
+        30.9,
+        33.78
+      ],
+      "text": " Moral common wealth"
+    },
+    {
+      "timestamp": [
+        33.78,
+        37.5
+      ],
+      "text": " Lies in individual integrity"
+    },
+    {
+      "timestamp": [
+        37.5,
+        41.06
+      ],
+      "text": " Primit Vist Utopia"
+    },
+    {
+      "timestamp": [
+        41.06,
+        47.32
+      ],
+      "text": " Reject modern technology in a favor of simple, small-scale, nature-focused living"
+    }
+  ]
+}

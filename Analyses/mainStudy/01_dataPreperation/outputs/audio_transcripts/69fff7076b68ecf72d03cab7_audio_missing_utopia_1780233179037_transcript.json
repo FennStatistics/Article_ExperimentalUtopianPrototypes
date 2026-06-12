@@ -1,0 +1,52 @@
+{
+  "audio_file": "69fff7076b68ecf72d03cab7_audio_missing_utopia_1780233179037.webm",
+  "transcript": " um not really i can't really think of anything i think those pretty much cover it all but like maybe i don't know because like maybe some form of like a you know more forms like commonwealths or democracies would be also cooler because like you know i feel like the way this thing was structured was that there was a ton of stuff about like what type of society but like there wasn't much about governance if i'm being honest i think adding governance will definitely, you know, make this study better.",
+  "language": "unknown",
+  "processing_time_seconds": 10.121519,
+  "timestamp": "2026-06-08T10:15:02.653315",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.5
+      ],
+      "text": " um not really i can't really think of anything i think those pretty much cover it all"
+    },
+    {
+      "timestamp": [
+        6.5,
+        13.58
+      ],
+      "text": " but like maybe i don't know because like maybe some form of like a you know"
+    },
+    {
+      "timestamp": [
+        13.58,
+        20.84
+      ],
+      "text": " more forms like commonwealths or democracies would be also cooler because like you know i feel like"
+    },
+    {
+      "timestamp": [
+        20.84,
+        25.24
+      ],
+      "text": " the way this thing was structured was that there was a ton of stuff about like what type of society"
+    },
+    {
+      "timestamp": [
+        25.24,
+        29.8
+      ],
+      "text": " but like there wasn't much about governance if i'm being honest i think adding governance"
+    },
+    {
+      "timestamp": [
+        29.8,
+        31.98
+      ],
+      "text": " will definitely, you know, make this study better."
+    }
+  ]
+}

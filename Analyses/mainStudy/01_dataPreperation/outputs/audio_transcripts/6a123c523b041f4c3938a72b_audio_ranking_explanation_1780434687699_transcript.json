@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a123c523b041f4c3938a72b_audio_ranking_explanation_1780434687699.webm",
+  "transcript": " um the reason why i am ranked in this order is because for me i believe i am i believe in climate and weather being conditions being uh the very like should be like top tier kind of um issue that needs to be solved because it comes through economic ways as well as like the health of everybody so uh the modern green utopia is like for me is the first or the number one uh type of government only or system that i prefer to have and i see myself also living in such environment but ai centered uh utopia for me is a little over um it's a little frustrating because it's driven by um ai and data and systems that have no morals or any kind of uh human human-like uh characteristics so that for me is a no because as long as we're humans our system needs to be ruled by humanly behavior so ai-centered utopia relying on ai data is uh the my least favorite option and um other than that uh i listed the rest according to i don't believe religious utopia is gonna work for everybody because everybody has a different religion and if we're trying to put them all together and try to rule under the same faith then that is gonna to create chaos so i do not think religious utopia is any favorable than the others uh yes",
+  "language": "unknown",
+  "processing_time_seconds": 22.446317,
+  "timestamp": "2026-06-08T10:55:56.044655",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.04
+      ],
+      "text": " um the reason why i am ranked in this order is because for me i believe i am i believe in climate"
+    },
+    {
+      "timestamp": [
+        11.04,
+        21.52
+      ],
+      "text": " and weather being conditions being uh the very like should be like top tier kind of um issue"
+    },
+    {
+      "timestamp": [
+        21.52,
+        28.5
+      ],
+      "text": " that needs to be solved because it comes through economic ways as well as like the health of"
+    },
+    {
+      "timestamp": [
+        28.5,
+        36.98
+      ],
+      "text": " everybody so uh the modern green utopia is like for me is the first or the number one uh type of"
+    },
+    {
+      "timestamp": [
+        36.98,
+        43.78
+      ],
+      "text": " government only or system that i prefer to have and i see myself also living in such environment"
+    },
+    {
+      "timestamp": [
+        43.78,
+        54.74
+      ],
+      "text": " but ai centered uh utopia for me is a little over um it's a little frustrating because it's driven by"
+    },
+    {
+      "timestamp": [
+        56.9,
+        54.74
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        66.02,
+        74.98
+      ],
+      "text": " um ai and data and systems that have no morals or any kind of uh human human-like uh characteristics so that for me is a no because as long as we're humans our system needs to be"
+    },
+    {
+      "timestamp": [
+        74.98,
+        84.5
+      ],
+      "text": " ruled by humanly behavior so ai-centered utopia relying on ai data is uh the my"
+    },
+    {
+      "timestamp": [
+        84.5,
+        93.78
+      ],
+      "text": " least favorite option and um other than that uh i listed the rest according to i don't believe"
+    },
+    {
+      "timestamp": [
+        93.78,
+        101.74
+      ],
+      "text": " religious utopia is gonna work for everybody because everybody has a different religion and"
+    },
+    {
+      "timestamp": [
+        101.74,
+        108.26
+      ],
+      "text": " if we're trying to put them all together and try to rule under the same faith then that is gonna"
+    },
+    {
+      "timestamp": [
+        108.26,
+        117.48
+      ],
+      "text": " to create chaos so i do not think religious utopia is any favorable than the others uh yes"
+    }
+  ]
+}

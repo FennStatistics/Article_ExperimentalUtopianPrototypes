@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1dc49806c1dbbcce420f7d_audio_missing_utopia_1780381598841.webm",
+  "transcript": " So a society that I felt that was missing is a utopia that is not centered around the money and is about selflessness in terms of basically, how do I describe that? basically um putting importance on recovery and working within a person's inner self not so much in a morality but because in a morality could have some selflessness like being selfish and things instead of utopia where there's no selflessness well no where there is selflessness and um yeah",
+  "language": "unknown",
+  "processing_time_seconds": 9.815566,
+  "timestamp": "2026-06-08T11:26:56.837601",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.62
+      ],
+      "text": " So a society that I felt that was missing is a utopia that is not centered around the money and is about selflessness in terms of basically, how do I describe that?"
+    },
+    {
+      "timestamp": [
+        20.62,
+        31.26
+      ],
+      "text": " basically um putting importance on recovery and working within a person's inner self"
+    },
+    {
+      "timestamp": [
+        31.26,
+        37.74
+      ],
+      "text": " not so much in a morality but because in a morality could have some selflessness like"
+    },
+    {
+      "timestamp": [
+        37.74,
+        42.06
+      ],
+      "text": " being selfish and things instead of utopia where there's no selflessness"
+    },
+    {
+      "timestamp": [
+        42.06,
+        47.5
+      ],
+      "text": " well no where there is selflessness and um yeah"
+    }
+  ]
+}

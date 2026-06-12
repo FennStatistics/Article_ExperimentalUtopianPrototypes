@@ -1,0 +1,31 @@
+{
+  "audio_file": "69c6b743152dbd93f339bdff_audio_missing_utopia_1780403956244.webm",
+  "transcript": " I think the green utopia one was closest to what I would want, and it hit on a lot of positive things that I would look for in a future society. What was absent, I feel like, from all of them was establishing a value that this society is accepting of all people, no matter race or sexuality. Because that would be essential to me in a utopian society, is knowing that everyone is able to live and access resources equally.",
+  "language": "unknown",
+  "processing_time_seconds": 9.406823,
+  "timestamp": "2026-06-08T09:24:35.336551",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.6
+      ],
+      "text": " I think the green utopia one was closest to what I would want, and it hit on a lot of positive things that I would look for in a future society."
+    },
+    {
+      "timestamp": [
+        11.76,
+        27.7
+      ],
+      "text": " What was absent, I feel like, from all of them was establishing a value that this society is accepting of all people, no matter race or sexuality."
+    },
+    {
+      "timestamp": [
+        30.0,
+        40.18
+      ],
+      "text": " Because that would be essential to me in a utopian society, is knowing that everyone is able to live and access resources equally."
+    }
+  ]
+}

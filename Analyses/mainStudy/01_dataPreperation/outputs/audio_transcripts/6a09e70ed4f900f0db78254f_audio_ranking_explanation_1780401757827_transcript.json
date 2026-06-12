@@ -1,0 +1,157 @@
+{
+  "audio_file": "6a09e70ed4f900f0db78254f_audio_ranking_explanation_1780401757827.webm",
+  "transcript": " Good morning. Thank you for allowing me to take part in this study. I've been asked to explain why I rank the societies this way. I shall begin with the reason why I selected my least preferred society. The AI-centered utopia was my chosen least preferred society because AI in control is a scary thought. AI has a mind of its own, even though it can be programmed, it develops a mind of its own. I've seen way too many movies to know that that ends badly in every situation. From there, I chose primitivist utopia, low-tech, small-scale. We've seen it before, it just doesn't seem functional for the world we live in today and the size of our population religious utopia as a religious person myself i do see the value in it however i've also seen faith-based societies crumble because of zealots and things like that next i have a futurist utopia science and innovation You know, that's kind of where, you know, we're trending anyway, so kind of put it middle of the pack. Modern green utopia, sustainable and secure. I believe that we have to protect our environment and society would do a good job of that. Institutional utopia, rule of law. This is my second preferred choice because without law you have chaos. with chaos you have murder with murder you have death and finally number one moral commonwealth this one was my most preferred because if you can have that inner morality that inner self-governance that's the best possible solution thank you",
+  "language": "unknown",
+  "processing_time_seconds": 24.584085,
+  "timestamp": "2026-06-08T10:33:15.568712",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.0
+      ],
+      "text": " Good morning. Thank you for allowing me to take part in this study."
+    },
+    {
+      "timestamp": [
+        5.0,
+        10.0
+      ],
+      "text": " I've been asked to explain why I rank the societies this way."
+    },
+    {
+      "timestamp": [
+        10.0,
+        18.0
+      ],
+      "text": " I shall begin with the reason why I selected my least preferred society."
+    },
+    {
+      "timestamp": [
+        18.0,
+        29.0
+      ],
+      "text": " The AI-centered utopia was my chosen least preferred society because AI in control is a scary thought."
+    },
+    {
+      "timestamp": [
+        29.0,
+        38.0
+      ],
+      "text": " AI has a mind of its own, even though it can be programmed, it develops a mind of its own."
+    },
+    {
+      "timestamp": [
+        38.0,
+        44.0
+      ],
+      "text": " I've seen way too many movies to know that that ends badly in every situation."
+    },
+    {
+      "timestamp": [
+        44.0,
+        51.0
+      ],
+      "text": " From there, I chose primitivist utopia, low-tech, small-scale."
+    },
+    {
+      "timestamp": [
+        51.0,
+        57.0
+      ],
+      "text": " We've seen it before, it just doesn't seem functional for the world we live in today"
+    },
+    {
+      "timestamp": [
+        57.0,
+        66.84
+      ],
+      "text": " and the size of our population religious utopia as a religious person myself i do see the value"
+    },
+    {
+      "timestamp": [
+        66.84,
+        78.44
+      ],
+      "text": " in it however i've also seen faith-based societies crumble because of zealots and things like that"
+    },
+    {
+      "timestamp": [
+        80.6,
+        83.4
+      ],
+      "text": " next i have a futurist utopia science and innovation"
+    },
+    {
+      "timestamp": [
+        85.24,
+        83.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        90.28,
+        90.78
+      ],
+      "text": " You know, that's kind of where, you know, we're trending anyway, so kind of put it middle of the pack."
+    },
+    {
+      "timestamp": [
+        91.64,
+        93.82
+      ],
+      "text": " Modern green utopia, sustainable and secure."
+    },
+    {
+      "timestamp": [
+        94.9,
+        100.8
+      ],
+      "text": " I believe that we have to protect our environment and society would do a good job of that."
+    },
+    {
+      "timestamp": [
+        103.9,
+        105.58
+      ],
+      "text": " Institutional utopia, rule of law."
+    },
+    {
+      "timestamp": [
+        106.48,
+        111.76
+      ],
+      "text": " This is my second preferred choice because without law you have chaos."
+    },
+    {
+      "timestamp": [
+        112.66,
+        111.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        118.96,
+        126.1
+      ],
+      "text": " with chaos you have murder with murder you have death and finally number one moral commonwealth this one was my most preferred because if you can have that"
+    },
+    {
+      "timestamp": [
+        126.1,
+        134.28
+      ],
+      "text": " inner morality that inner self-governance that's the best possible"
+    },
+    {
+      "timestamp": [
+        134.28,
+        138.96
+      ],
+      "text": " solution thank you"
+    }
+  ]
+}

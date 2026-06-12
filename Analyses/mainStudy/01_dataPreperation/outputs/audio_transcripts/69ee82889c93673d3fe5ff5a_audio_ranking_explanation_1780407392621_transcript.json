@@ -1,0 +1,31 @@
+{
+  "audio_file": "69ee82889c93673d3fe5ff5a_audio_ranking_explanation_1780407392621.webm",
+  "transcript": " I prefer society that emphasizes the role of law, sustainability, and innovation. This value promotes stability, prosperity, and freedom while supporting long-term processes. A rank low tech and faith-based model lower because they may place greater emphasis on conformity or limited personal freedom, technological progress, and modern living standards.",
+  "language": "unknown",
+  "processing_time_seconds": 8.544162,
+  "timestamp": "2026-06-08T09:49:56.150085",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.72
+      ],
+      "text": " I prefer society that emphasizes the role of law, sustainability, and innovation."
+    },
+    {
+      "timestamp": [
+        7.72,
+        14.64
+      ],
+      "text": " This value promotes stability, prosperity, and freedom while supporting long-term processes."
+    },
+    {
+      "timestamp": [
+        14.64,
+        35.02
+      ],
+      "text": " A rank low tech and faith-based model lower because they may place greater emphasis on conformity or limited personal freedom, technological progress, and modern living standards."
+    }
+  ]
+}

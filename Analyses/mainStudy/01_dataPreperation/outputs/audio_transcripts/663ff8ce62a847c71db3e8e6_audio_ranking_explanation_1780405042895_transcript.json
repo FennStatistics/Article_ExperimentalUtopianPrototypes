@@ -1,0 +1,227 @@
+{
+  "audio_file": "663ff8ce62a847c71db3e8e6_audio_ranking_explanation_1780405042895.webm",
+  "transcript": " I rank this way just knowing my experience with utopian slash dystopian novels I read in school. Like The Giver just started off. I think the law is probably the most similar to what we have now. And I think it's a good structure. Like the blueprint we have right now, it's not really good in practice. But it's good in like how it's constructed. there is some sort of corruption especially nowadays i think that's why i had rule of law as first as for modern green utopia this is also kind of similar and something i think our current society should work on um sustainability and security because i think industrialism um um is leading to people not really prioritizing the environment at all and this doesn't seem as extreme or radical as some of the other outlines of the utopia same with the low tech and small scale one it didn't seem super radical or extreme and i feel like less technology is not the worst thing which is why i ranked it above the futurist utopia as in like the whole technology based thing just kind of scares me and that I'm thinking about like a world where we need money and stuff and I think just too much technology would pretty much just make everyone just kind of useless and like relying on things that don't have to do that like we could do it themselves so it feels like a little too innovative to the point where it's counterproductive to like humans being useful like i feel like technology is too much of the forefront when i feel like human should be morality like i kind of lump the morality and faith ones kind of together but morality seemed more um preferable to me because i think religious um order is it kind of just leads to a lot of discrimination towards people because there's just sort of an issue with people like taking any sort of biblical structures and taking it extremely literally when it probably isn't supposed to be i think morality leaves a lot more like subjectivity to the imagination And then AI utopia was definitely on the bottom where like, I'm just seeing the consequences of AI now and I think it's just bad for everyone. It's bad for our brains. It's bad for the environment. It's bad for society. We're going to be out of jobs if everything is AI centered and humans are going to be completely useless.",
+  "language": "unknown",
+  "processing_time_seconds": 34.345406,
+  "timestamp": "2026-06-08T08:35:50.140650",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        9.54
+      ],
+      "text": " I rank this way just knowing my experience with utopian slash dystopian novels I read in school."
+    },
+    {
+      "timestamp": [
+        9.76,
+        11.44
+      ],
+      "text": " Like The Giver just started off."
+    },
+    {
+      "timestamp": [
+        11.52,
+        14.04
+      ],
+      "text": " I think the law is probably the most similar to what we have now."
+    },
+    {
+      "timestamp": [
+        14.1,
+        15.26
+      ],
+      "text": " And I think it's a good structure."
+    },
+    {
+      "timestamp": [
+        16.12,
+        19.1
+      ],
+      "text": " Like the blueprint we have right now, it's not really good in practice."
+    },
+    {
+      "timestamp": [
+        19.88,
+        25.22
+      ],
+      "text": " But it's good in like how it's constructed."
+    },
+    {
+      "timestamp": [
+        26.06,
+        25.22
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.9,
+        40.72
+      ],
+      "text": " there is some sort of corruption especially nowadays i think that's why i had rule of law as first as for modern green utopia this is also kind of similar and something i think"
+    },
+    {
+      "timestamp": [
+        40.72,
+        48.76
+      ],
+      "text": " our current society should work on um sustainability and security because i think industrialism um"
+    },
+    {
+      "timestamp": [
+        48.76,
+        55.12
+      ],
+      "text": " um is leading to people not really prioritizing the environment at all"
+    },
+    {
+      "timestamp": [
+        55.12,
+        63.1
+      ],
+      "text": " and this doesn't seem as extreme or radical as some of the other outlines of the utopia"
+    },
+    {
+      "timestamp": [
+        63.1,
+        71.1
+      ],
+      "text": " same with the low tech and small scale one it didn't seem super radical or extreme and i feel"
+    },
+    {
+      "timestamp": [
+        71.1,
+        78.5
+      ],
+      "text": " like less technology is not the worst thing which is why i ranked it above the futurist utopia"
+    },
+    {
+      "timestamp": [
+        78.5,
+        86.52
+      ],
+      "text": " as in like the whole technology based thing just kind of scares me and that I'm thinking about like"
+    },
+    {
+      "timestamp": [
+        86.52,
+        91.32
+      ],
+      "text": " a world where we need money and stuff and I think just too much technology would pretty much just"
+    },
+    {
+      "timestamp": [
+        91.32,
+        102.44
+      ],
+      "text": " make everyone just kind of useless and like relying on things that don't have to do that"
+    },
+    {
+      "timestamp": [
+        102.44,
+        106.44
+      ],
+      "text": " like we could do it themselves so it feels like a little too innovative to the point where it's"
+    },
+    {
+      "timestamp": [
+        106.44,
+        114.08
+      ],
+      "text": " counterproductive to like humans being useful like i feel like technology is too much of the"
+    },
+    {
+      "timestamp": [
+        114.08,
+        121.54
+      ],
+      "text": " forefront when i feel like human should be morality like i kind of lump the morality and faith ones"
+    },
+    {
+      "timestamp": [
+        121.54,
+        128.74
+      ],
+      "text": " kind of together but morality seemed more um preferable to me because i think religious"
+    },
+    {
+      "timestamp": [
+        128.74,
+        135.94
+      ],
+      "text": " um order is it kind of just leads to a lot of discrimination"
+    },
+    {
+      "timestamp": [
+        135.94,
+        142.0
+      ],
+      "text": " towards people because there's just sort of an issue with people like taking"
+    },
+    {
+      "timestamp": [
+        142.0,
+        150.54
+      ],
+      "text": " any sort of biblical structures and taking it extremely literally when it probably isn't"
+    },
+    {
+      "timestamp": [
+        150.54,
+        157.98
+      ],
+      "text": " supposed to be i think morality leaves a lot more like subjectivity to the imagination"
+    },
+    {
+      "timestamp": [
+        157.98,
+        163.86
+      ],
+      "text": " And then AI utopia was definitely on the bottom where like, I'm just seeing the consequences"
+    },
+    {
+      "timestamp": [
+        163.86,
+        166.74
+      ],
+      "text": " of AI now and I think it's just bad for everyone."
+    },
+    {
+      "timestamp": [
+        166.74,
+        167.74
+      ],
+      "text": " It's bad for our brains."
+    },
+    {
+      "timestamp": [
+        167.74,
+        169.14
+      ],
+      "text": " It's bad for the environment."
+    },
+    {
+      "timestamp": [
+        169.14,
+        171.14
+      ],
+      "text": " It's bad for society."
+    },
+    {
+      "timestamp": [
+        171.14,
+        176.78
+      ],
+      "text": " We're going to be out of jobs if everything is AI centered and humans are going to be"
+    },
+    {
+      "timestamp": [
+        176.78,
+        177.78
+      ],
+      "text": " completely useless."
+    }
+  ]
+}

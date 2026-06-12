@@ -1,0 +1,164 @@
+{
+  "audio_file": "6714d7f42c208253099ac9d9_audio_ranking_explanation_1780384811654.webm",
+  "transcript": " I think that focusing on a science-based world where we only innovate and just innovate only, I think that that's the best type of utopia there is because so many things can be created. Pretty much a lot of things can be created and a lot of things can be figured out through this method. So I think the future of utopia is best for the world. I just don't see an AI-centered utopia turning out well at all. The modern green utopia, I think that it's fairly balanced. There are some things that could be added But it's fairly balanced The moral commonwealth There are some issues with that As far as morals go Because a lot of people's morals are different Institutional utopia Is Just is fine, but it's not the best way to lead. Religious utopia is also very, you can have mixed feelings as far as religious beliefs. Primitivist utopia. I think that it's not very innovative.",
+  "language": "unknown",
+  "processing_time_seconds": 20.64049,
+  "timestamp": "2026-06-08T08:43:49.516375",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.12
+      ],
+      "text": " I think that focusing on a science-based world where we only innovate and just innovate only,"
+    },
+    {
+      "timestamp": [
+        12.12,
+        19.2
+      ],
+      "text": " I think that that's the best type of utopia there is because so many things can be created."
+    },
+    {
+      "timestamp": [
+        22.86,
+        26.3
+      ],
+      "text": " Pretty much a lot of things can be created and a lot of things can be figured out"
+    },
+    {
+      "timestamp": [
+        26.3,
+        28.66
+      ],
+      "text": " through this method."
+    },
+    {
+      "timestamp": [
+        29.16,
+        30.7
+      ],
+      "text": " So I think the future of utopia"
+    },
+    {
+      "timestamp": [
+        30.7,
+        34.28
+      ],
+      "text": " is best for the world."
+    },
+    {
+      "timestamp": [
+        37.72,
+        40.72
+      ],
+      "text": " I just don't see an AI-centered utopia"
+    },
+    {
+      "timestamp": [
+        40.72,
+        42.62
+      ],
+      "text": " turning out well at all."
+    },
+    {
+      "timestamp": [
+        49.62,
+        52.18
+      ],
+      "text": " The modern green utopia,"
+    },
+    {
+      "timestamp": [
+        52.7,
+        55.02
+      ],
+      "text": " I think that it's fairly balanced."
+    },
+    {
+      "timestamp": [
+        55.84,
+        55.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        57.46,
+        59.14
+      ],
+      "text": " There are some things that could be added But it's fairly balanced"
+    },
+    {
+      "timestamp": [
+        59.14,
+        62.76
+      ],
+      "text": " The moral commonwealth"
+    },
+    {
+      "timestamp": [
+        62.76,
+        66.58
+      ],
+      "text": " There are some issues with that"
+    },
+    {
+      "timestamp": [
+        66.58,
+        69.8
+      ],
+      "text": " As far as morals go"
+    },
+    {
+      "timestamp": [
+        69.8,
+        73.68
+      ],
+      "text": " Because a lot of people's morals are different"
+    },
+    {
+      "timestamp": [
+        73.68,
+        78.48
+      ],
+      "text": " Institutional utopia"
+    },
+    {
+      "timestamp": [
+        78.48,
+        79.86
+      ],
+      "text": " Is"
+    },
+    {
+      "timestamp": [
+        79.86,
+        82.5
+      ],
+      "text": " Just"
+    },
+    {
+      "timestamp": [
+        82.5,
+        96.54
+      ],
+      "text": " is fine, but it's not the best way to lead. Religious utopia is also very, you can have"
+    },
+    {
+      "timestamp": [
+        96.54,
+        112.24
+      ],
+      "text": " mixed feelings as far as religious beliefs. Primitivist utopia."
+    },
+    {
+      "timestamp": [
+        112.5,
+        120.74
+      ],
+      "text": " I think that it's not very innovative."
+    }
+  ]
+}

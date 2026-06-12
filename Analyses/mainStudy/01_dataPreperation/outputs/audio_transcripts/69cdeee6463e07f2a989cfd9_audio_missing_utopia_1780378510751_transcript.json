@@ -1,0 +1,66 @@
+{
+  "audio_file": "69cdeee6463e07f2a989cfd9_audio_missing_utopia_1780378510751.webm",
+  "transcript": " Well, I think the moral commonwealth was the most aligned of what my personal utopia would look like. I do think there needs to be some sort of accountability where, you know, if we're supposed to be living off our morals and someone decides to be super greedy and to not give any of their resources away, you know, what do we do about that? because, you know, right now in our current society, we have people like that and we have no tools to do anything about that. We say that they're entitled to luxury and everyone else is entitled to nothing. But I think a type of future society that I feel is missing is something with maybe a little bit more like medium government, where there is still some structure and some accountability, but not to an authoritative sense. You know, I think all of these stems also said that resources are very limited. So I think that a utopia that is actively trying to rebuild these resources and not just trying to survive would be ideal.",
+  "language": "unknown",
+  "processing_time_seconds": 15.64899,
+  "timestamp": "2026-06-08T09:28:36.368884",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.28
+      ],
+      "text": " Well, I think the moral commonwealth was the most aligned of what my personal utopia would look like. I do think there needs to be some sort of accountability where, you know, if we're supposed to be living off our morals and someone decides to be super greedy and to not give any of their resources away, you know, what do we do about that?"
+    },
+    {
+      "timestamp": [
+        21.88,
+        21.28
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        26.2,
+        32.0
+      ],
+      "text": " because, you know, right now in our current society, we have people like that and we have no tools to do anything about that. We say that they're entitled to luxury and everyone else is"
+    },
+    {
+      "timestamp": [
+        32.0,
+        40.06
+      ],
+      "text": " entitled to nothing. But I think a type of future society that I feel is missing is something with"
+    },
+    {
+      "timestamp": [
+        40.06,
+        49.54
+      ],
+      "text": " maybe a little bit more like medium government, where there is still some structure and some"
+    },
+    {
+      "timestamp": [
+        49.54,
+        56.46
+      ],
+      "text": " accountability, but not to an authoritative sense. You know, I think all of these stems also said"
+    },
+    {
+      "timestamp": [
+        56.46,
+        62.06
+      ],
+      "text": " that resources are very limited. So I think that a utopia that is actively trying to"
+    },
+    {
+      "timestamp": [
+        64.06,
+        70.32
+      ],
+      "text": " rebuild these resources and not just trying to survive would be ideal."
+    }
+  ]
+}

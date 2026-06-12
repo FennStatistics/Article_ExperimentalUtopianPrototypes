@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a08835adcebea92d39aa175_audio_missing_utopia_1780404152999.webm",
+  "transcript": " For me, I think ideally, I would combine the top two choices that I ranked. So the one that follows law and order and the one that also follows sustainability and innovation and making sure that we are maintaining our environment. I think in also making sure that we are economically stable, I think those two combined would be my ideal future society, as well as maybe combining some aspects of the science and innovation society. So maybe elements of those top three.",
+  "language": "unknown",
+  "processing_time_seconds": 9.447432,
+  "timestamp": "2026-06-08T10:31:19.990989",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.36
+      ],
+      "text": " For me, I think ideally, I would combine the top two choices that I ranked. So the one that follows law and order and the one that also follows sustainability and innovation and making sure that we are maintaining our environment."
+    },
+    {
+      "timestamp": [
+        17.92,
+        17.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.36,
+        34.36
+      ],
+      "text": " I think in also making sure that we are economically stable, I think those two combined would be my ideal future society, as well as maybe combining some aspects of the science and innovation society. So maybe elements of those top three."
+    }
+  ]
+}

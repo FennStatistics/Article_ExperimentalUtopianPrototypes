@@ -1,0 +1,213 @@
+{
+  "audio_file": "69f3fc26bbf5ecb0a37b73af_audio_ranking_explanation_1780408867207.webm",
+  "transcript": " so i picked institutional utopia rule of law because uh i think our judicial system is really bad and i think that well oh um that we just can be better of holding people accountable for the crimes they commit um giving them the proper sentences i think that um we do a really bad job of putting criminals away and keeping innocent people out of prison then the modern green utopia um i like that because it's sustainable and secure and i think a lot of people are going to like that um with their money and um yeah it's just secure uh the morality Again, I just think that that's keeping people good, keeping people moral, making sure that inside they are trying to be good people and they come from good places is really important. So that's why that's number three, faith-based order. um and number four just because i would love that um but also i understand that some people can get obsessive about their faith um and kind of try and force it onto other people and so that's why it's only at four otherwise it would be higher futurist utopia scientific science innovation um i would put it i would put it ahead right now but i would put it up a little more but i just think that that's a little bit of what we're doing right now as far as like trying to innovate trying to make the future better um and really focusing on the future through science and making new things um number six low tech and small scale um i think that would be fun but And it would be good for human interaction But also at the same time I think technology is a good thing To a certain extent I don't want it to get too much Which is why at number 7 I have the AI centered utopia Because I think that would be too much I don't think the AI has the best The best image for our country The best goals for our country in mind so I don't think they have the right intentions for the countries to be making decisions like that",
+  "language": "unknown",
+  "processing_time_seconds": 32.656244,
+  "timestamp": "2026-06-08T09:57:20.099778",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.1
+      ],
+      "text": " so i picked institutional utopia rule of law because uh i think our judicial system is"
+    },
+    {
+      "timestamp": [
+        10.1,
+        19.92
+      ],
+      "text": " really bad and i think that well oh um that we just can be better of holding people accountable"
+    },
+    {
+      "timestamp": [
+        19.92,
+        26.22
+      ],
+      "text": " for the crimes they commit um giving them the proper sentences i think that um we do a really"
+    },
+    {
+      "timestamp": [
+        26.22,
+        35.18
+      ],
+      "text": " bad job of putting criminals away and keeping innocent people out of prison then the modern"
+    },
+    {
+      "timestamp": [
+        35.18,
+        41.76
+      ],
+      "text": " green utopia um i like that because it's sustainable and secure and i think a lot of"
+    },
+    {
+      "timestamp": [
+        41.76,
+        50.92
+      ],
+      "text": " people are going to like that um with their money and um yeah it's just secure uh the morality"
+    },
+    {
+      "timestamp": [
+        50.92,
+        68.42
+      ],
+      "text": " Again, I just think that that's keeping people good, keeping people moral, making sure that inside they are trying to be good people and they come from good places is really important."
+    },
+    {
+      "timestamp": [
+        68.96,
+        71.78
+      ],
+      "text": " So that's why that's number three, faith-based order."
+    },
+    {
+      "timestamp": [
+        71.78,
+        78.68
+      ],
+      "text": " um and number four just because i would love that um but also i understand that some people"
+    },
+    {
+      "timestamp": [
+        78.68,
+        84.32
+      ],
+      "text": " can get obsessive about their faith um and kind of try and force it onto other people"
+    },
+    {
+      "timestamp": [
+        84.32,
+        92.0
+      ],
+      "text": " and so that's why it's only at four otherwise it would be higher futurist utopia scientific"
+    },
+    {
+      "timestamp": [
+        92.0,
+        102.94
+      ],
+      "text": " science innovation um i would put it i would put it ahead right now but i would put it up a little"
+    },
+    {
+      "timestamp": [
+        102.94,
+        107.56
+      ],
+      "text": " more but i just think that that's a little bit of what we're doing right now as far as like trying"
+    },
+    {
+      "timestamp": [
+        107.56,
+        112.42
+      ],
+      "text": " to innovate trying to make the future better um and really focusing on the future through science"
+    },
+    {
+      "timestamp": [
+        112.42,
+        121.34
+      ],
+      "text": " and making new things um number six low tech and small scale um i think that would be fun but"
+    },
+    {
+      "timestamp": [
+        121.34,
+        123.44
+      ],
+      "text": " And it would be good for human interaction"
+    },
+    {
+      "timestamp": [
+        123.44,
+        125.44
+      ],
+      "text": " But also at the same time"
+    },
+    {
+      "timestamp": [
+        125.44,
+        130.7
+      ],
+      "text": " I think technology is a good thing"
+    },
+    {
+      "timestamp": [
+        130.7,
+        131.72
+      ],
+      "text": " To a certain extent"
+    },
+    {
+      "timestamp": [
+        131.72,
+        132.98
+      ],
+      "text": " I don't want it to get too much"
+    },
+    {
+      "timestamp": [
+        132.98,
+        134.68
+      ],
+      "text": " Which is why at number 7"
+    },
+    {
+      "timestamp": [
+        134.68,
+        136.34
+      ],
+      "text": " I have the AI centered utopia"
+    },
+    {
+      "timestamp": [
+        136.34,
+        139.72
+      ],
+      "text": " Because I think that would be too much"
+    },
+    {
+      "timestamp": [
+        139.72,
+        141.44
+      ],
+      "text": " I don't think the AI has the best"
+    },
+    {
+      "timestamp": [
+        141.44,
+        146.34
+      ],
+      "text": " The best image for our country"
+    },
+    {
+      "timestamp": [
+        146.34,
+        148.5
+      ],
+      "text": " The best goals for our country in mind"
+    },
+    {
+      "timestamp": [
+        148.5,
+        152.94
+      ],
+      "text": " so I don't think they have the right"
+    },
+    {
+      "timestamp": [
+        152.94,
+        155.02
+      ],
+      "text": " intentions for the countries to be making"
+    },
+    {
+      "timestamp": [
+        155.02,
+        155.94
+      ],
+      "text": " decisions like that"
+    }
+  ]
+}

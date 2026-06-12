@@ -1,0 +1,129 @@
+{
+  "audio_file": "69a51d629d67227b3f4e89cb_audio_ranking_explanation_1780398660885.webm",
+  "transcript": " i think for society to be like anywhere close to being utopian science needs to be at the forefront we need to find a way to like um create renewable energy and have that be like the norm instead of like using fossil fuels that destroy the environment for like just first firstly that's like the most important thing and like secondly like we need people to actually believe in science like if people believed in science and scientific innovation we would have more better technology we would have more like sustainable like options like like a society like this is where people would be more educated inherently and just be more intelligent and i think that's why it's like the highest ranked to me and then whereas an ai centered government that that's dead last because ai does not need to be anywhere in governance it does not need to be making laws um it says it's like reduced human bias right but it's like who is training who is building the ai human being so there's no way to ever remove any type of bias from it um and also just it wouldn't be good environmentally and like i know i ranked religious right before that because i don't there should be a separation between church and state and then um you know i just decided like any environmentally conscious like society was ranked higher for me because that's what's most important to me as far as like thinking about society goes",
+  "language": "unknown",
+  "processing_time_seconds": 23.071729,
+  "timestamp": "2026-06-08T09:11:54.872463",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.58
+      ],
+      "text": " i think for society to be like anywhere close to being utopian science needs to be at the"
+    },
+    {
+      "timestamp": [
+        7.58,
+        17.0
+      ],
+      "text": " forefront we need to find a way to like um create renewable energy and have that be like the norm"
+    },
+    {
+      "timestamp": [
+        17.0,
+        22.86
+      ],
+      "text": " instead of like using fossil fuels that destroy the environment for like just first firstly that's"
+    },
+    {
+      "timestamp": [
+        22.86,
+        29.74
+      ],
+      "text": " like the most important thing and like secondly like we need people to actually believe in science"
+    },
+    {
+      "timestamp": [
+        29.74,
+        40.0
+      ],
+      "text": " like if people believed in science and scientific innovation we would have more"
+    },
+    {
+      "timestamp": [
+        40.0,
+        46.36
+      ],
+      "text": " better technology we would have more like sustainable like options like"
+    },
+    {
+      "timestamp": [
+        46.36,
+        53.22
+      ],
+      "text": " like a society like this is where people would be more educated inherently"
+    },
+    {
+      "timestamp": [
+        53.22,
+        61.74
+      ],
+      "text": " and just be more intelligent and i think that's why it's like the highest ranked to me and then"
+    },
+    {
+      "timestamp": [
+        61.74,
+        71.16
+      ],
+      "text": " whereas an ai centered government that that's dead last because ai does not need to be anywhere"
+    },
+    {
+      "timestamp": [
+        71.16,
+        79.38
+      ],
+      "text": " in governance it does not need to be making laws um it says it's like reduced human bias right but"
+    },
+    {
+      "timestamp": [
+        79.38,
+        85.54
+      ],
+      "text": " it's like who is training who is building the ai human being so there's no way to ever remove any"
+    },
+    {
+      "timestamp": [
+        85.54,
+        94.8
+      ],
+      "text": " type of bias from it um and also just it wouldn't be good environmentally"
+    },
+    {
+      "timestamp": [
+        94.8,
+        102.88
+      ],
+      "text": " and like i know i ranked religious right before that because i don't"
+    },
+    {
+      "timestamp": [
+        102.88,
+        107.52
+      ],
+      "text": " there should be a separation between church and state and then um"
+    },
+    {
+      "timestamp": [
+        110.96,
+        117.84
+      ],
+      "text": " you know i just decided like any environmentally conscious like society"
+    },
+    {
+      "timestamp": [
+        118.64,
+        122.72
+      ],
+      "text": " was ranked higher for me because that's what's most important to me"
+    },
+    {
+      "timestamp": [
+        124.8,
+        128.24
+      ],
+      "text": " as far as like thinking about society goes"
+    }
+  ]
+}

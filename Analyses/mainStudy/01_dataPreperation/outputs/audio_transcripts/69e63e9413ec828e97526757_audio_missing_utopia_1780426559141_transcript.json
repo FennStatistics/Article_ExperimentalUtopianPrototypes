@@ -1,0 +1,17 @@
+{
+  "audio_file": "69e63e9413ec828e97526757_audio_missing_utopia_1780426559141.webm",
+  "transcript": " All of the societies lacked an explanation of culture.",
+  "language": "unknown",
+  "processing_time_seconds": 4.513704,
+  "timestamp": "2026-06-08T09:40:24.918052",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.12
+      ],
+      "text": " All of the societies lacked an explanation of culture."
+    }
+  ]
+}

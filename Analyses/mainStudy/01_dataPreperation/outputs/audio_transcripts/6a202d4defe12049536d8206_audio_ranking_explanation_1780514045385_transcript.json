@@ -1,0 +1,199 @@
+{
+  "audio_file": "6a202d4defe12049536d8206_audio_ranking_explanation_1780514045385.webm",
+  "transcript": " i rank them this way because in a green utopia um everything would be kind of about the world and about plants and nature and i feel like that's where we all come from and i feel like the more in tune you are with nature and keeping things like that the more natural uh you are to feel like happy and content you're not even just happiness like if you're in good shape and you do things primitive in a sense you ultimately you ultimately get more get more out of life even in a even in a even in a more law-filled life like we live now and then um i think religious comes second because um i think religious provide a good moral standpoint also kind of give you a good insight on nature as well and it's kind of a healthy mix of both and with everyone having a faith that's positive to look to it keeps a peaceful society primitive i think in a sense it's kind of like a modern green one but with a little bit you know with some tech involved which i don't feel like is bad using good tools so the primitivist one i feel like is also very doable and keeping things on a small scale keeping the natural order of things the science and innovation one i do feel like is very innovative but the problem with science and innovation comes you kind of lose your sense of humanity and you lose your primitive roots and your instinctuals and then you got to kind of force yourself into an evolution that you weren't predetermined for so i feel like there's too much gray area with it five the rule of law i feel like having super strict laws and telling everyone there's a natural tendency for people to rebel so if there's an extreme tendency of or if there's an extreme government of law that just tells everyone exactly what to do I feel like there that would probably entail a lot of corruption amongst the people who are in charge of that law and there's no saying who that would be and that leaves too much of a gray area the inner morality one I just feel like you're kind of rooting for everyone to kind of do their best and you just hope all humans kind of play a good part in life and I just don't think that's realistic. And the AI centered one, I don't think that's a good idea at all. Because if we're completely controlled by robots, we have no government, we have no system, we have no means to enjoy nature, nothing, we just do what the robot tells us. And I feel in turn, that's essentially just stripping the minds of everybody. And I don't see that being a flourishing society. That's why I picked the order I did.",
+  "language": "unknown",
+  "processing_time_seconds": 35.622536,
+  "timestamp": "2026-06-08T11:40:07.463221",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.5
+      ],
+      "text": " i rank them this way because in a green utopia um everything would be kind of about the world"
+    },
+    {
+      "timestamp": [
+        10.5,
+        15.5
+      ],
+      "text": " and about plants and nature and i feel like that's where we all come from and i feel like the more in"
+    },
+    {
+      "timestamp": [
+        15.5,
+        21.4
+      ],
+      "text": " tune you are with nature and keeping things like that the more natural uh you are to feel like"
+    },
+    {
+      "timestamp": [
+        21.4,
+        27.82
+      ],
+      "text": " happy and content you're not even just happiness like if you're in good shape and you do things"
+    },
+    {
+      "timestamp": [
+        27.82,
+        35.74
+      ],
+      "text": " primitive in a sense you ultimately you ultimately get more get more out of life even in a even in a"
+    },
+    {
+      "timestamp": [
+        35.74,
+        43.26
+      ],
+      "text": " even in a more law-filled life like we live now and then um i think religious comes second because"
+    },
+    {
+      "timestamp": [
+        43.26,
+        48.74
+      ],
+      "text": " um i think religious provide a good moral standpoint also kind of give you a good insight"
+    },
+    {
+      "timestamp": [
+        48.74,
+        53.82
+      ],
+      "text": " on nature as well and it's kind of a healthy mix of both and with everyone having a faith"
+    },
+    {
+      "timestamp": [
+        53.82,
+        60.5
+      ],
+      "text": " that's positive to look to it keeps a peaceful society primitive i think in a sense it's kind of"
+    },
+    {
+      "timestamp": [
+        60.5,
+        65.78
+      ],
+      "text": " like a modern green one but with a little bit you know with some tech involved which i don't feel"
+    },
+    {
+      "timestamp": [
+        65.78,
+        72.68
+      ],
+      "text": " like is bad using good tools so the primitivist one i feel like is also very doable and keeping"
+    },
+    {
+      "timestamp": [
+        72.68,
+        78.6
+      ],
+      "text": " things on a small scale keeping the natural order of things the science and innovation one i do feel"
+    },
+    {
+      "timestamp": [
+        78.6,
+        84.82
+      ],
+      "text": " like is very innovative but the problem with science and innovation comes you kind of lose"
+    },
+    {
+      "timestamp": [
+        84.82,
+        89.98
+      ],
+      "text": " your sense of humanity and you lose your primitive roots and your instinctuals and then you got to"
+    },
+    {
+      "timestamp": [
+        89.98,
+        95.36
+      ],
+      "text": " kind of force yourself into an evolution that you weren't predetermined for so i feel like there's"
+    },
+    {
+      "timestamp": [
+        95.36,
+        101.88
+      ],
+      "text": " too much gray area with it five the rule of law i feel like having super strict laws and telling"
+    },
+    {
+      "timestamp": [
+        101.88,
+        107.86
+      ],
+      "text": " everyone there's a natural tendency for people to rebel so if there's an extreme tendency of"
+    },
+    {
+      "timestamp": [
+        107.86,
+        113.46
+      ],
+      "text": " or if there's an extreme government of law that just tells everyone exactly what to do I feel"
+    },
+    {
+      "timestamp": [
+        113.46,
+        118.86
+      ],
+      "text": " like there that would probably entail a lot of corruption amongst the people who are in charge"
+    },
+    {
+      "timestamp": [
+        118.86,
+        123.38
+      ],
+      "text": " of that law and there's no saying who that would be and that leaves too much of a gray area"
+    },
+    {
+      "timestamp": [
+        123.38,
+        128.76
+      ],
+      "text": " the inner morality one I just feel like you're kind of rooting for everyone to kind of do their"
+    },
+    {
+      "timestamp": [
+        128.76,
+        133.74
+      ],
+      "text": " best and you just hope all humans kind of play a good part in life and I just don't think that's"
+    },
+    {
+      "timestamp": [
+        133.74,
+        139.64
+      ],
+      "text": " realistic. And the AI centered one, I don't think that's a good idea at all. Because if we're"
+    },
+    {
+      "timestamp": [
+        139.64,
+        145.64
+      ],
+      "text": " completely controlled by robots, we have no government, we have no system, we have no means"
+    },
+    {
+      "timestamp": [
+        145.64,
+        150.68
+      ],
+      "text": " to enjoy nature, nothing, we just do what the robot tells us. And I feel in turn, that's"
+    },
+    {
+      "timestamp": [
+        150.68,
+        155.5
+      ],
+      "text": " essentially just stripping the minds of everybody. And I don't see that being a flourishing society."
+    },
+    {
+      "timestamp": [
+        156.72,
+        158.48
+      ],
+      "text": " That's why I picked the order I did."
+    }
+  ]
+}

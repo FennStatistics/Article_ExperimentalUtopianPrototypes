@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a1db879da54dbca719304ac_audio_missing_utopia_1780431113902.webm",
+  "transcript": " So in terms of what the missing future society would be, of all of them, I chose following morals and morality be the most important. And even though in a perfect, idyllic society, you would purely follow morals, and hopefully everything would be perfect, it doesn't address what would happen if one did not do that, and what would happen. Whereas, for example, in the society that followed laws of governance and rules, it does explicitly state that there are penalties for going against the values of the society. So the missing future society would be for the others that seem to be idyllic to also show what consequence would be because ultimately someone's eventually going to not do what they're supposed to do.",
+  "language": "unknown",
+  "processing_time_seconds": 11.247651,
+  "timestamp": "2026-06-08T11:26:27.369900",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.46
+      ],
+      "text": " So in terms of what the missing future society would be, of all of them, I chose following morals and morality be the most important. And even though in a perfect, idyllic society, you would purely follow morals, and hopefully everything would be perfect, it doesn't address what would happen if one did not do that, and what would happen."
+    },
+    {
+      "timestamp": [
+        24.46,
+        36.78
+      ],
+      "text": " Whereas, for example, in the society that followed laws of governance and rules, it does explicitly state that there are penalties for going against the values of the society."
+    },
+    {
+      "timestamp": [
+        37.4,
+        47.16
+      ],
+      "text": " So the missing future society would be for the others that seem to be idyllic to also show what consequence would be because ultimately someone's eventually going to not do what they're supposed to do."
+    }
+  ]
+}

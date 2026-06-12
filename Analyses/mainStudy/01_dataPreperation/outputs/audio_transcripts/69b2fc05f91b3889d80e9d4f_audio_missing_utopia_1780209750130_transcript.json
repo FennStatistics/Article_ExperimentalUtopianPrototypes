@@ -1,0 +1,38 @@
+{
+  "audio_file": "69b2fc05f91b3889d80e9d4f_audio_missing_utopia_1780209750130.webm",
+  "transcript": " I believe one thing that is very important is missing, which is the focus on community and human relationships. The list majorly covers technology, government, sustainability, morality, law and religion, but it does not directly address how people connect with each other and how they support each other. I believe that a society which is advanced needs not only a well-government, does not mainly focus on governance, but also on how people connect and the strong communities, how they make meaningful relationships and their shared purpose of life are just as important as innovation and as security.",
+  "language": "unknown",
+  "processing_time_seconds": 10.236585,
+  "timestamp": "2026-06-08T09:15:03.939188",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.94
+      ],
+      "text": " I believe one thing that is very important is missing, which is the focus on community and human relationships."
+    },
+    {
+      "timestamp": [
+        9.94,
+        19.68
+      ],
+      "text": " The list majorly covers technology, government, sustainability, morality, law and religion, but it does not directly address how people connect with each other and how they support each other."
+    },
+    {
+      "timestamp": [
+        20.16,
+        19.68
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        45.86,
+        null
+      ],
+      "text": " I believe that a society which is advanced needs not only a well-government, does not mainly focus on governance, but also on how people connect and the strong communities, how they make meaningful relationships and their shared purpose of life are just as important as innovation and as security."
+    }
+  ]
+}

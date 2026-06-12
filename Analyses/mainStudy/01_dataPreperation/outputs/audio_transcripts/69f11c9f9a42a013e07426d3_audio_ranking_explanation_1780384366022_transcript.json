@@ -1,0 +1,45 @@
+{
+  "audio_file": "69f11c9f9a42a013e07426d3_audio_ranking_explanation_1780384366022.webm",
+  "transcript": " especially because the situation was like about the world going through a crisis and having food shortages and things like that i think the focus should be on sustainability so that people continue to have these resources in the future rather than something like an ai-centered one where it's pretty well known that ai is terrible for the environment so why would we want that especially in a situation like the one described",
+  "language": "unknown",
+  "processing_time_seconds": 9.067508,
+  "timestamp": "2026-06-08T09:53:25.439809",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.6
+      ],
+      "text": " especially because the situation was like about the world going through a crisis and having"
+    },
+    {
+      "timestamp": [
+        11.6,
+        20.18
+      ],
+      "text": " food shortages and things like that i think the focus should be on sustainability so that people"
+    },
+    {
+      "timestamp": [
+        20.18,
+        28.96
+      ],
+      "text": " continue to have these resources in the future rather than something like an ai-centered one where"
+    },
+    {
+      "timestamp": [
+        28.96,
+        36.42
+      ],
+      "text": " it's pretty well known that ai is terrible for the environment so why would we want that"
+    },
+    {
+      "timestamp": [
+        36.42,
+        39.94
+      ],
+      "text": " especially in a situation like the one described"
+    }
+  ]
+}

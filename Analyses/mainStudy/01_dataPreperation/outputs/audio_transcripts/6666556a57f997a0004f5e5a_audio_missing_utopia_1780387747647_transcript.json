@@ -1,0 +1,87 @@
+{
+  "audio_file": "6666556a57f997a0004f5e5a_audio_missing_utopia_1780387747647.webm",
+  "transcript": " I think all of those societies had a little bit of something that was good, but none of them fully covered, like, a full, awesome place to live. They all had little aspects in them of a great place, you know, a great society, but not fully what I feel I would want to live. i would want to live somewhere where yeah there's a strong moral compass that people are you know believe in god and they treat others how they want to be treated um where the food's allocated well not allocated but the food is like you know everybody takes what they need it's not too much uh like somebody's hoarding any of the food any of the money and um there's no uh strong laws governing but because the people have their moral societal code they stick to what they know is right if someone does something wrong then the group handles it you know like street justice type of situation where people don't want to step out of line because of that and so yeah i feel like that would be an awesome place, you know, that's fair, and that, oh, I just feel like that would be, you know, what it's going to be.",
+  "language": "unknown",
+  "processing_time_seconds": 18.939563,
+  "timestamp": "2026-06-08T08:37:36.093118",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.46
+      ],
+      "text": " I think all of those societies had a little bit of something that was good, but none of them fully covered, like, a full, awesome place to live."
+    },
+    {
+      "timestamp": [
+        14.46,
+        26.9
+      ],
+      "text": " They all had little aspects in them of a great place, you know, a great society, but not fully what I feel I would want to live."
+    },
+    {
+      "timestamp": [
+        27.14,
+        26.9
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.44,
+        40.64
+      ],
+      "text": " i would want to live somewhere where yeah there's a strong moral compass that people are you know believe in god and they treat others how they want to be treated um where the food's allocated"
+    },
+    {
+      "timestamp": [
+        40.64,
+        46.98
+      ],
+      "text": " well not allocated but the food is like you know everybody takes what they need it's not too much"
+    },
+    {
+      "timestamp": [
+        46.98,
+        55.42
+      ],
+      "text": " uh like somebody's hoarding any of the food any of the money and um there's no uh strong"
+    },
+    {
+      "timestamp": [
+        55.42,
+        64.58
+      ],
+      "text": " laws governing but because the people have their moral societal code they stick to what they know"
+    },
+    {
+      "timestamp": [
+        64.58,
+        71.42
+      ],
+      "text": " is right if someone does something wrong then the group handles it you know like street justice type"
+    },
+    {
+      "timestamp": [
+        71.42,
+        78.04
+      ],
+      "text": " of situation where people don't want to step out of line because of that and so yeah i feel like"
+    },
+    {
+      "timestamp": [
+        78.04,
+        91.68
+      ],
+      "text": " that would be an awesome place, you know, that's fair, and that, oh, I just feel like"
+    },
+    {
+      "timestamp": [
+        91.68,
+        93.62
+      ],
+      "text": " that would be, you know, what it's going to be."
+    }
+  ]
+}

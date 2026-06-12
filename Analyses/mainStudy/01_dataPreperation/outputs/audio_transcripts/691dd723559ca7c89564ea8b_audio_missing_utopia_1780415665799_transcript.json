@@ -1,0 +1,38 @@
+{
+  "audio_file": "691dd723559ca7c89564ea8b_audio_missing_utopia_1780415665799.webm",
+  "transcript": " I don't know this sounds bad but like if there are limited resources would the people be the issue like too many people I don't know like that's not like a good thing to think about but yeah I don't know it's also like who so we're kind of like missing in terms of like who sets the rules and stuff and I don't know",
+  "language": "unknown",
+  "processing_time_seconds": 10.247336,
+  "timestamp": "2026-06-08T08:48:18.586123",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.24
+      ],
+      "text": " I don't know this sounds bad but like if there are limited resources would the"
+    },
+    {
+      "timestamp": [
+        7.24,
+        12.42
+      ],
+      "text": " people be the issue like too many people I don't know like that's not like a good"
+    },
+    {
+      "timestamp": [
+        12.42,
+        24.76
+      ],
+      "text": " thing to think about but yeah I don't know it's also like who so we're kind of"
+    },
+    {
+      "timestamp": [
+        24.76,
+        32.32
+      ],
+      "text": " like missing in terms of like who sets the rules and stuff and I don't know"
+    }
+  ]
+}

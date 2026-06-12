@@ -1,0 +1,17 @@
+{
+  "audio_file": "698a3b03581c58e0e5b68abf_audio_missing_utopia_1780408097699.webm",
+  "transcript": " I don't think there's a missing future of society, you know, if you're saying in the future we don't have to think of the past, like living like the caveman, which is still a form of society, but so far I've lacked the imaginative process to find out another missing society, thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 6.569559,
+  "timestamp": "2026-06-08T09:01:40.379855",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.28
+      ],
+      "text": " I don't think there's a missing future of society, you know, if you're saying in the future we don't have to think of the past, like living like the caveman, which is still a form of society, but so far I've lacked the imaginative process to find out another missing society, thank you."
+    }
+  ]
+}

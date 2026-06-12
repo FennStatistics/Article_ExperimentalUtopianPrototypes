@@ -1,0 +1,11 @@
+json_file,num_windows,first_window_sentiment,last_window_sentiment,sentiment_change,mean_sentiment,sentiment_volatility,label_changes,trend
+6a0bcc273329c00e4a7cfca9_audio_ranking_explanation_1780399027002_transcript,116,0.6601,0.8582,0.1982,0.7302,0.1142,45,Positive ↑
+6a19a7b2150cd11eb43fc07b_audio_ranking_explanation_1780219900791_transcript,108,0.624,0.7445,0.1205,0.7161,0.1243,59,Positive ↑
+6a15dfee7dec81efc11475cb_audio_ranking_explanation_1780379330004_transcript,99,0.82,0.9152,0.0952,0.6957,0.1169,45,Stable →
+69e4126124a34f38d0732741_audio_ranking_explanation_1780198797604_transcript,96,0.8345,0.6592,-0.1754,0.7461,0.1067,30,Negative ↓
+6a0e3cadbbd96b6266000443_audio_ranking_explanation_1780381542825_transcript,96,0.8853,0.5154,-0.3698,0.7345,0.1206,43,Negative ↓
+69b72d785c20e3f3bfcae82f_audio_ranking_explanation_1780383790019_transcript,93,0.6808,0.6414,-0.0393,0.7422,0.1295,37,Stable →
+6a1e601b20d193f9a706e875_audio_ranking_explanation_1780387061783_transcript,87,0.5993,0.8588,0.2594,0.7361,0.1305,44,Positive ↑
+5d453e8723a5bb0001492546_audio_ranking_explanation_1780341976945_transcript,84,0.7873,0.4873,-0.3,0.6687,0.1144,36,Negative ↓
+6400db77211380d3116572fc_audio_ranking_explanation_1780441496310_transcript,83,0.9248,0.5267,-0.3981,0.7112,0.1216,45,Negative ↓
+6a01d75da4748c5deb7237d7_audio_ranking_explanation_1780412118775_transcript,80,0.5939,0.9101,0.3162,0.7041,0.128,38,Positive ↑

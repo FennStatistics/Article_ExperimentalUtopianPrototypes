@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a049d0164653881b734e2dd_audio_missing_utopia_1780336252207.webm",
+  "transcript": " well like i said earlier i think that a combination of these societies excluding the ai one would be the best i mean that's what i think we love about the earth currently is that we do have diverse ideas and we're not all stuck in one box and like thank god we have the ability to have free will and make our own decisions so yeah i think obviously the environment is important caring for the earth is something that's important but would that be like the number one thing that's important to me in society no i think morals and treating people like being a good human being is like the most important in my opinion even if you don't agree with like my religion for example if you have a good moral set then we can get along you know um so yeah i would say it's a combination of the utopias like i don't think there's one specific one like for example the law one where it's literally all just laws from the government the government is thinking about themselves like they're thinking about how do i make money you know like how do i support my myself and my my family like and how do i make it so that i continue to do that they're not really thinking about like the good of people as human beings which is why morals are so important",
+  "language": "unknown",
+  "processing_time_seconds": 17.666912,
+  "timestamp": "2026-06-08T10:22:54.523996",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.24
+      ],
+      "text": " well like i said earlier i think that a combination of these societies excluding"
+    },
+    {
+      "timestamp": [
+        7.24,
+        14.32
+      ],
+      "text": " the ai one would be the best i mean that's what i think we love about the earth currently is that"
+    },
+    {
+      "timestamp": [
+        14.32,
+        20.38
+      ],
+      "text": " we do have diverse ideas and we're not all stuck in one box and like thank god we have the ability"
+    },
+    {
+      "timestamp": [
+        20.38,
+        26.08
+      ],
+      "text": " to have free will and make our own decisions so yeah i think obviously the environment is important"
+    },
+    {
+      "timestamp": [
+        26.08,
+        30.96
+      ],
+      "text": " caring for the earth is something that's important but would that be like the number one thing that's"
+    },
+    {
+      "timestamp": [
+        30.96,
+        36.32
+      ],
+      "text": " important to me in society no i think morals and treating people like being a good human"
+    },
+    {
+      "timestamp": [
+        36.32,
+        41.52
+      ],
+      "text": " being is like the most important in my opinion even if you don't agree with like my religion"
+    },
+    {
+      "timestamp": [
+        41.52,
+        50.0
+      ],
+      "text": " for example if you have a good moral set then we can get along you know um so yeah i would say it's"
+    },
+    {
+      "timestamp": [
+        50.0,
+        55.76
+      ],
+      "text": " a combination of the utopias like i don't think there's one specific one like for example the law"
+    },
+    {
+      "timestamp": [
+        55.76,
+        60.32
+      ],
+      "text": " one where it's literally all just laws from the government the government is thinking about"
+    },
+    {
+      "timestamp": [
+        60.32,
+        64.86
+      ],
+      "text": " themselves like they're thinking about how do i make money you know like how do i support my myself"
+    },
+    {
+      "timestamp": [
+        64.86,
+        69.84
+      ],
+      "text": " and my my family like and how do i make it so that i continue to do that they're not really"
+    },
+    {
+      "timestamp": [
+        69.84,
+        73.72
+      ],
+      "text": " thinking about like the good of people as human beings which is why morals are so important"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "audio_file": "69d663a1e229a12f6c8bf2a4_audio_ranking_explanation_1780241641498.webm",
+  "transcript": " because with a religious faith-based utopia you have objective truth and the objective truth is that morality is based on an objective truth that god creates that objective truth of morality so there is explicitly objective truth in good and evil whereas in a futurist utopia with science innovation and the collective idealism behind morality is that morality is a blur it is not as black and white there is subjective uh attributes to morality in that framework so there is no uh good or evil there is no right and wrong only what the collective decides are those things and i think that that's very dangerous and history has proven how dangerous that can be",
+  "language": "unknown",
+  "processing_time_seconds": 10.769829,
+  "timestamp": "2026-06-08T09:32:08.079070",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.24
+      ],
+      "text": " because with a religious faith-based utopia you have objective truth and the objective truth is"
+    },
+    {
+      "timestamp": [
+        7.24,
+        16.78
+      ],
+      "text": " that morality is based on an objective truth that god creates that objective truth of morality so"
+    },
+    {
+      "timestamp": [
+        16.78,
+        24.12
+      ],
+      "text": " there is explicitly objective truth in good and evil whereas in a futurist utopia with science"
+    },
+    {
+      "timestamp": [
+        24.12,
+        31.32
+      ],
+      "text": " innovation and the collective idealism behind morality is that morality is a blur it is not"
+    },
+    {
+      "timestamp": [
+        31.32,
+        37.8
+      ],
+      "text": " as black and white there is subjective uh attributes to morality in that framework"
+    },
+    {
+      "timestamp": [
+        38.36,
+        45.08
+      ],
+      "text": " so there is no uh good or evil there is no right and wrong only what the collective decides are"
+    },
+    {
+      "timestamp": [
+        45.08,
+        50.6
+      ],
+      "text": " those things and i think that that's very dangerous and history has proven how dangerous that can be"
+    }
+  ]
+}

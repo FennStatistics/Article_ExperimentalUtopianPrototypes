@@ -1,0 +1,108 @@
+{
+  "audio_file": "6985c00a3c127e5cbb246f78_audio_ranking_explanation_1780424314951.webm",
+  "transcript": " yeah so i think the science and innovation one is the most important because i think like just my moral beliefs uh science trumps religion um i'm not a big religious person that's why i have religion near the bottom of the of the um ranking and then ai i have is last because i think if we're if we're taking humans and like human mind out of society um that much like that drastically, I think that's the worst thing you could possibly do. Um, I'm, I'm not against AI, but being AI centered around everything in your society, that's not, uh, ideal to me. Um, and I liked the rule of law one. Cause I think we, uh, when you have a society, there needs to be laws. You can't just have people running around based off, uh, random morals and social norms, uh, because that's when, cause there could be a social norm that everybody eats babies uh so um if everybody believes in something that's just not a good thing um so i think we do need to have a rule of law of like logic um that's why i have that as second and then this is the the green utopia and the low tech is could it could go three or four to me i could even flip flip them um i don't really have a moral compass on that one so that's that's Like three and four is fine for me there.",
+  "language": "unknown",
+  "processing_time_seconds": 20.942789,
+  "timestamp": "2026-06-08T08:59:19.615285",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.22
+      ],
+      "text": " yeah so i think the science and innovation one is the most important because i think"
+    },
+    {
+      "timestamp": [
+        6.22,
+        13.34
+      ],
+      "text": " like just my moral beliefs uh science trumps religion um i'm not a big religious person"
+    },
+    {
+      "timestamp": [
+        13.34,
+        20.6
+      ],
+      "text": " that's why i have religion near the bottom of the of the um ranking and then ai i have is last"
+    },
+    {
+      "timestamp": [
+        20.6,
+        29.5
+      ],
+      "text": " because i think if we're if we're taking humans and like human mind out of society um that much"
+    },
+    {
+      "timestamp": [
+        29.5,
+        34.98
+      ],
+      "text": " like that drastically, I think that's the worst thing you could possibly do. Um, I'm, I'm not"
+    },
+    {
+      "timestamp": [
+        34.98,
+        42.42
+      ],
+      "text": " against AI, but being AI centered around everything in your society, that's not, uh, ideal to me."
+    },
+    {
+      "timestamp": [
+        43.04,
+        47.82
+      ],
+      "text": " Um, and I liked the rule of law one. Cause I think we, uh, when you have a society,"
+    },
+    {
+      "timestamp": [
+        47.82,
+        52.9
+      ],
+      "text": " there needs to be laws. You can't just have people running around based off, uh, random"
+    },
+    {
+      "timestamp": [
+        52.9,
+        57.66
+      ],
+      "text": " morals and social norms, uh, because that's when, cause there could be a social norm that everybody"
+    },
+    {
+      "timestamp": [
+        57.66,
+        62.64
+      ],
+      "text": " eats babies uh so um if everybody believes in something that's just not a good thing"
+    },
+    {
+      "timestamp": [
+        62.64,
+        68.58
+      ],
+      "text": " um so i think we do need to have a rule of law of like logic um that's why i have that as second"
+    },
+    {
+      "timestamp": [
+        68.58,
+        75.64
+      ],
+      "text": " and then this is the the green utopia and the low tech is could it could go three or four to me"
+    },
+    {
+      "timestamp": [
+        75.64,
+        87.34
+      ],
+      "text": " i could even flip flip them um i don't really have a moral compass on that one so that's that's"
+    },
+    {
+      "timestamp": [
+        87.34,
+        89.12
+      ],
+      "text": " Like three and four is fine for me there."
+    }
+  ]
+}

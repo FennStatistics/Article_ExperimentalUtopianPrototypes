@@ -1,0 +1,80 @@
+{
+  "audio_file": "69e12b3d97a65aaf13fe0ea3_audio_ranking_explanation_1780503252594.webm",
+  "transcript": " yeah the thing is that how I chose this thing is that you know at the top the institutional Ethiopia that's the rule of law so it's very nice and you know every every thing needs a society need a rule of law that's governed by so every point they want to like as you like and also sustainable sustainable security that's when everything we used to do is and also the science and innovation in the country there's a good innovation everything will be all right and also morality that everybody should have a good mobility and to live well in a good way and also that data driving governance that's very good to keep account of any government governing in the society and also faith-based order so everyone should believe at this one and also be good so and also low tech and small tech so i think that's the list and she's there",
+  "language": "unknown",
+  "processing_time_seconds": 14.926282,
+  "timestamp": "2026-06-08T09:36:28.697674",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.6
+      ],
+      "text": " yeah the thing is that how I chose this thing is that you know at the top the"
+    },
+    {
+      "timestamp": [
+        6.6,
+        12.22
+      ],
+      "text": " institutional Ethiopia that's the rule of law so it's very nice and you know"
+    },
+    {
+      "timestamp": [
+        12.22,
+        18.82
+      ],
+      "text": " every every thing needs a society need a rule of law that's governed by so every"
+    },
+    {
+      "timestamp": [
+        18.82,
+        24.0
+      ],
+      "text": " point they want to like as you like and also sustainable sustainable security"
+    },
+    {
+      "timestamp": [
+        24.0,
+        32.72
+      ],
+      "text": " that's when everything we used to do is and also the science and innovation in the country there's"
+    },
+    {
+      "timestamp": [
+        32.72,
+        38.72
+      ],
+      "text": " a good innovation everything will be all right and also morality that everybody should have a good"
+    },
+    {
+      "timestamp": [
+        38.72,
+        44.88
+      ],
+      "text": " mobility and to live well in a good way and also that data driving governance that's very good to"
+    },
+    {
+      "timestamp": [
+        44.88,
+        50.64
+      ],
+      "text": " keep account of any government governing in the society and also faith-based order so everyone"
+    },
+    {
+      "timestamp": [
+        50.64,
+        57.76
+      ],
+      "text": " should believe at this one and also be good so and also low tech and small tech so i think that's"
+    },
+    {
+      "timestamp": [
+        57.76,
+        61.2
+      ],
+      "text": " the list and she's there"
+    }
+  ]
+}

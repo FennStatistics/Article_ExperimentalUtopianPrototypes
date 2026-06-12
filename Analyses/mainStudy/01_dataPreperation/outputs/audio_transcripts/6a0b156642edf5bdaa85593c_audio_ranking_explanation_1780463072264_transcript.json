@@ -1,0 +1,122 @@
+{
+  "audio_file": "6a0b156642edf5bdaa85593c_audio_ranking_explanation_1780463072264.webm",
+  "transcript": " all right for my ranking I put the moral commonwealth just because I love the idea that we all live by being honest and good people that makes the most sense to me when everybody chooses the right thing we'll all move forward in the correct way um and I noticed yeah number three I did rule of law because I do agree that sometimes government does need to step in um but I don't necessarily love that government controls everything I do think the voices of the People need to be heard, but at the same time, there should be consequences if you cannot live by the law. I like the low tech and small scale because I do love the idea of small communities being together, but I don't think it's a perfect idea. I love the idea of a religious utopia, but sometimes I feel like it's a little culty. I am religious, so I'm biased, but I think it sounds great. I just, sometimes I wonder if that will be the right thing. Futurist utopia, science and innovation. I am just not a STEM girl. I do not know enough about scientific things. Same as sustainable and secure, the modern green utopia. I just don't know if I really care about those being the top priority rather than in a morality or the rule of law. I'm not a big fan of AI. I would rather that we let the government, the people that are not perfect, but help us be in charge. I'd rather humans be making the decisions rather than the machines, if that makes sense.",
+  "language": "unknown",
+  "processing_time_seconds": 21.897821,
+  "timestamp": "2026-06-08T10:36:53.416756",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.78
+      ],
+      "text": " all right for my ranking I put the moral commonwealth just because I love the idea that"
+    },
+    {
+      "timestamp": [
+        5.78,
+        11.8
+      ],
+      "text": " we all live by being honest and good people that makes the most sense to me when everybody chooses"
+    },
+    {
+      "timestamp": [
+        11.8,
+        19.44
+      ],
+      "text": " the right thing we'll all move forward in the correct way um and I noticed yeah number three"
+    },
+    {
+      "timestamp": [
+        19.44,
+        22.98
+      ],
+      "text": " I did rule of law because I do agree that sometimes government does need to step in"
+    },
+    {
+      "timestamp": [
+        22.98,
+        28.46
+      ],
+      "text": " um but I don't necessarily love that government controls everything I do think the voices of the"
+    },
+    {
+      "timestamp": [
+        28.46,
+        34.84
+      ],
+      "text": " People need to be heard, but at the same time, there should be consequences if you cannot live"
+    },
+    {
+      "timestamp": [
+        34.84,
+        40.22
+      ],
+      "text": " by the law. I like the low tech and small scale because I do love the idea of small communities"
+    },
+    {
+      "timestamp": [
+        40.22,
+        47.18
+      ],
+      "text": " being together, but I don't think it's a perfect idea. I love the idea of a religious utopia,"
+    },
+    {
+      "timestamp": [
+        48.36,
+        53.72
+      ],
+      "text": " but sometimes I feel like it's a little culty. I am religious, so I'm biased, but"
+    },
+    {
+      "timestamp": [
+        53.72,
+        58.9
+      ],
+      "text": " I think it sounds great. I just, sometimes I wonder if that will be the right thing."
+    },
+    {
+      "timestamp": [
+        60.1,
+        65.42
+      ],
+      "text": " Futurist utopia, science and innovation. I am just not a STEM girl. I do not know"
+    },
+    {
+      "timestamp": [
+        65.42,
+        70.32
+      ],
+      "text": " enough about scientific things. Same as sustainable and secure, the modern green utopia."
+    },
+    {
+      "timestamp": [
+        70.32,
+        77.76
+      ],
+      "text": " I just don't know if I really care about those being the top priority rather than"
+    },
+    {
+      "timestamp": [
+        78.44,
+        77.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        86.74,
+        93.8
+      ],
+      "text": " in a morality or the rule of law. I'm not a big fan of AI. I would rather that we let the government, the people that are not perfect, but help us be in charge. I'd rather humans be"
+    },
+    {
+      "timestamp": [
+        93.8,
+        97.72
+      ],
+      "text": " making the decisions rather than the machines, if that makes sense."
+    }
+  ]
+}

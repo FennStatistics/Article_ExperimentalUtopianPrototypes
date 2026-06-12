@@ -1,0 +1,73 @@
+{
+  "audio_file": "66f0bcad545ecf68df970a46_audio_ranking_explanation_1780417366576.webm",
+  "transcript": " um in a religious or faith-based order it really depends in all honesty it could either be really good or really bad which is why it's number one by technicality yeah um and for institutional utopia that just that is horrible idea it's it's just gonna it typically results in people being essentially slaves to the institution kind of thing like i think of things like hunger games and Divergent I think those are two things that are more institutional based Utopias",
+  "language": "unknown",
+  "processing_time_seconds": 12.068071,
+  "timestamp": "2026-06-08T08:39:54.913456",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.36
+      ],
+      "text": " um in a religious or faith-based order it really depends in all honesty it could either be really"
+    },
+    {
+      "timestamp": [
+        11.36,
+        20.56
+      ],
+      "text": " good or really bad which is why it's number one by technicality yeah um and for institutional"
+    },
+    {
+      "timestamp": [
+        20.56,
+        33.0
+      ],
+      "text": " utopia that just that is horrible idea it's it's just gonna it typically results in people being"
+    },
+    {
+      "timestamp": [
+        33.0,
+        44.26
+      ],
+      "text": " essentially slaves to the institution kind of thing like i think of things like hunger games"
+    },
+    {
+      "timestamp": [
+        44.26,
+        46.46
+      ],
+      "text": " and"
+    },
+    {
+      "timestamp": [
+        46.46,
+        47.34
+      ],
+      "text": " Divergent"
+    },
+    {
+      "timestamp": [
+        47.34,
+        50.26
+      ],
+      "text": " I think those are two things"
+    },
+    {
+      "timestamp": [
+        50.26,
+        52.16
+      ],
+      "text": " that are more institutional based"
+    },
+    {
+      "timestamp": [
+        52.16,
+        53.3
+      ],
+      "text": " Utopias"
+    }
+  ]
+}

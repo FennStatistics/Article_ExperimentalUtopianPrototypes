@@ -1,0 +1,59 @@
+{
+  "audio_file": "69f2911e70d459bc627005be_audio_missing_utopia_1780325205324.webm",
+  "transcript": " I feel like what I was missing is a type of future where everything is incorporated, okay? Like, for example, the first, like, those ideas, they're bright ideas, but we just incorporate them with, like, we have AI governing things, we also have tech and innovation, and we also try to build a society where we respect the environment, okay? We don't harm the environment, and we also have laws, yeah, we, like, a blend of all things, okay? and and also religious institutions like they also play a role in you know instilling values ideal values that will help govern and and shove society towards the right direction so yeah i think that if we combine all the positive aspects of all of all the societies we can come up with one thing that is is extremely favorable and optimized",
+  "language": "unknown",
+  "processing_time_seconds": 12.177387,
+  "timestamp": "2026-06-08T09:54:32.471935",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.48
+      ],
+      "text": " I feel like what I was missing is a type of future where everything is incorporated, okay?"
+    },
+    {
+      "timestamp": [
+        5.92,
+        22.24
+      ],
+      "text": " Like, for example, the first, like, those ideas, they're bright ideas, but we just incorporate them with, like, we have AI governing things, we also have tech and innovation, and we also try to build a society where we respect the environment, okay?"
+    },
+    {
+      "timestamp": [
+        22.24,
+        27.12
+      ],
+      "text": " We don't harm the environment, and we also have laws, yeah, we, like, a blend of all things, okay?"
+    },
+    {
+      "timestamp": [
+        27.58,
+        27.12
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.78,
+        39.22
+      ],
+      "text": " and and also religious institutions like they also play a role in you know instilling values ideal values that will help govern and and shove society towards the right direction"
+    },
+    {
+      "timestamp": [
+        39.22,
+        44.72
+      ],
+      "text": " so yeah i think that if we combine all the positive aspects of all of all the societies"
+    },
+    {
+      "timestamp": [
+        44.72,
+        49.7
+      ],
+      "text": " we can come up with one thing that is is extremely favorable and optimized"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a0e1bb9007c77ed742177fd_audio_missing_utopia_1780398948465.webm",
+  "transcript": " i'm not sure that i necessarily thought that anything was specifically missing from one of them i i really liked the pro-social um and the kind of community collectivistic approach for the i forget which one the morality utopia and then also there was a a strong community aspect and collaboration aspect to the primitive one as well that i liked But I also liked the pro-nature kind of aspects of the green utopia. And so if I were to, I don't know, describe a type of society that I would want, something that is very pro-social, something that is very, like, collectivistic, and that collectivism expands to the natural world. And so not just thinking about working together in harmony with your fellow man, but working in harmony with the world around you. I would also, I feel like I'm kind of like mashing all of my favorite ones together, but I would also highly prize like innovation and technology, like continuing to kind of develop and expand, but not in a way that allows technology to kind of rule the space. And so not in a way that heavily leans on AI for making decisions that I think people should make. And so that would be, those would be some of the elements that I think would matter most in my grand vision for a society.",
+  "language": "unknown",
+  "processing_time_seconds": 20.377334,
+  "timestamp": "2026-06-08T10:45:07.304844",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        4.08
+      ],
+      "text": " i'm not sure that i necessarily thought that anything was specifically"
+    },
+    {
+      "timestamp": [
+        4.08,
+        10.72
+      ],
+      "text": " missing from one of them i i really liked the pro-social um and the kind of community"
+    },
+    {
+      "timestamp": [
+        10.72,
+        18.64
+      ],
+      "text": " collectivistic approach for the i forget which one the morality utopia and then also there was"
+    },
+    {
+      "timestamp": [
+        18.64,
+        24.88
+      ],
+      "text": " a a strong community aspect and collaboration aspect to the primitive one as well that i liked"
+    },
+    {
+      "timestamp": [
+        25.6,
+        24.88
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        52.06,
+        60.08
+      ],
+      "text": " But I also liked the pro-nature kind of aspects of the green utopia. And so if I were to, I don't know, describe a type of society that I would want, something that is very pro-social, something that is very, like, collectivistic, and that collectivism expands to the natural world. And so not just thinking about working together in harmony with your fellow man, but working in harmony with the world around you."
+    },
+    {
+      "timestamp": [
+        60.58,
+        80.76
+      ],
+      "text": " I would also, I feel like I'm kind of like mashing all of my favorite ones together, but I would also highly prize like innovation and technology, like continuing to kind of develop and expand, but not in a way that allows technology to kind of rule the space."
+    },
+    {
+      "timestamp": [
+        80.76,
+        87.52
+      ],
+      "text": " And so not in a way that heavily leans on AI for making decisions that I think people should make."
+    },
+    {
+      "timestamp": [
+        87.7,
+        96.64
+      ],
+      "text": " And so that would be, those would be some of the elements that I think would matter most in my grand vision for a society."
+    }
+  ]
+}

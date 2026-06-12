@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a0b156642edf5bdaa85593c_audio_missing_utopia_1780463139475.webm",
+  "transcript": " I'm going to sound so basic here, but my dream future society would be the democracy where the government works to help the people and the people keep the government in line. I didn't see that specifically on there, but you can tell from my previous answer, I have nothing against the government being in charge, but I do think the people deserve to have the biggest say rather than the government ruling everything. That's when we run into kings and dictators. And I would rather the focus be on the government and the laws being there so we can stay safe and we have that ensured because you can't always trust everybody to be the most moral person, which sucks, but it's true.",
+  "language": "unknown",
+  "processing_time_seconds": 11.34571,
+  "timestamp": "2026-06-08T10:36:31.412481",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.28
+      ],
+      "text": " I'm going to sound so basic here, but my dream future society would be the democracy where the"
+    },
+    {
+      "timestamp": [
+        7.28,
+        13.4
+      ],
+      "text": " government works to help the people and the people keep the government in line. I didn't"
+    },
+    {
+      "timestamp": [
+        13.4,
+        18.58
+      ],
+      "text": " see that specifically on there, but you can tell from my previous answer, I have nothing against"
+    },
+    {
+      "timestamp": [
+        18.58,
+        23.06
+      ],
+      "text": " the government being in charge, but I do think the people deserve to have the biggest say"
+    },
+    {
+      "timestamp": [
+        23.06,
+        28.16
+      ],
+      "text": " rather than the government ruling everything. That's when we run into kings and dictators."
+    },
+    {
+      "timestamp": [
+        28.4,
+        28.16
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        41.62,
+        null
+      ],
+      "text": " And I would rather the focus be on the government and the laws being there so we can stay safe and we have that ensured because you can't always trust everybody to be the most moral person, which sucks, but it's true."
+    }
+  ]
+}

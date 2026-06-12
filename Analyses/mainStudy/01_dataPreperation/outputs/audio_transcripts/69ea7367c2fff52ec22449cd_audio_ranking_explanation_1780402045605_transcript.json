@@ -1,0 +1,94 @@
+{
+  "audio_file": "69ea7367c2fff52ec22449cd_audio_ranking_explanation_1780402045605.webm",
+  "transcript": " I believe the featurist Utopia is the closest and most preferred one from the way technology is going. It still uses science and innovation and technology without having it our complete end-all-be-all overlord. The rest kind of fall in line Just a moral based Society I don't see anything super wrong with that Institutional, just going by laws And then four being, you know, we're all cavemen That'd be kind of cool Least would be religious based That one has not worked out well for the world in the past.",
+  "language": "unknown",
+  "processing_time_seconds": 12.94836,
+  "timestamp": "2026-06-08T09:45:35.956649",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.84
+      ],
+      "text": " I believe the featurist Utopia is the closest and most preferred one from the way technology is going."
+    },
+    {
+      "timestamp": [
+        13.84,
+        23.9
+      ],
+      "text": " It still uses science and innovation and technology without having it our complete end-all-be-all overlord."
+    },
+    {
+      "timestamp": [
+        25.08,
+        23.9
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.38,
+        30.46
+      ],
+      "text": " The rest kind of fall in line Just a moral based"
+    },
+    {
+      "timestamp": [
+        30.46,
+        33.34
+      ],
+      "text": " Society"
+    },
+    {
+      "timestamp": [
+        33.34,
+        36.16
+      ],
+      "text": " I don't see anything super wrong with that"
+    },
+    {
+      "timestamp": [
+        36.16,
+        37.96
+      ],
+      "text": " Institutional, just going by laws"
+    },
+    {
+      "timestamp": [
+        37.96,
+        42.54
+      ],
+      "text": " And then four being, you know, we're all cavemen"
+    },
+    {
+      "timestamp": [
+        42.54,
+        45.68
+      ],
+      "text": " That'd be kind of cool"
+    },
+    {
+      "timestamp": [
+        45.68,
+        49.38
+      ],
+      "text": " Least would be religious based"
+    },
+    {
+      "timestamp": [
+        49.38,
+        53.56
+      ],
+      "text": " That one has not worked out well for the world"
+    },
+    {
+      "timestamp": [
+        53.56,
+        57.14
+      ],
+      "text": " in the past."
+    }
+  ]
+}

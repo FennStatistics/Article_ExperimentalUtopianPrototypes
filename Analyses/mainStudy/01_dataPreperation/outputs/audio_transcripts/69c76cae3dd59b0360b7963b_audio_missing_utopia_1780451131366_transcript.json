@@ -1,0 +1,24 @@
+{
+  "audio_file": "69c76cae3dd59b0360b7963b_audio_missing_utopia_1780451131366.webm",
+  "transcript": " I think the only thing that was missing was a balanced approach. I think a balanced approach is using technology along with like using science and tech, also using AI. I think that's a really good approach towards and also sustainability as well. I think those things would be the best advantage to governing diverse societies.",
+  "language": "unknown",
+  "processing_time_seconds": 8.490028,
+  "timestamp": "2026-06-08T09:26:01.546277",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.0
+      ],
+      "text": " I think the only thing that was missing was a balanced approach. I think a balanced approach is using technology along with like using science and tech, also using AI. I think that's a really good approach towards and also sustainability as well."
+    },
+    {
+      "timestamp": [
+        26.0,
+        33.0
+      ],
+      "text": " I think those things would be the best advantage to governing diverse societies."
+    }
+  ]
+}

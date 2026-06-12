@@ -1,0 +1,38 @@
+{
+  "audio_file": "698eb6b5e44d9777c0534149_audio_ranking_explanation_1780454036987.webm",
+  "transcript": " I rank the societies this way because I am a very religious person, and I really believe that Jesus is above all, and 100% that is how we should all be living, and the second one, because the rule of law, people are going to be people, and we've got to have somebody to stand over us and help us to guide that, that is actual people, and the low tech, I like the low tech, no tech thing. and sustainable and secure I guess that one's okay I really don't like that one and the inner morality I don't really know what that means in the science innovation and data-driven government I'm 100% against it",
+  "language": "unknown",
+  "processing_time_seconds": 11.027524,
+  "timestamp": "2026-06-08T09:04:08.366540",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.14
+      ],
+      "text": " I rank the societies this way because I am a very religious person, and I really believe that Jesus is above all, and 100% that is how we should all be living, and the second one, because the rule of law, people are going to be people, and we've got to have somebody to stand over us and help us to guide that, that is actual people, and the low tech, I like the low tech, no tech thing."
+    },
+    {
+      "timestamp": [
+        30.0,
+        35.38
+      ],
+      "text": " and sustainable and secure I guess that one's okay I really don't like that one"
+    },
+    {
+      "timestamp": [
+        35.38,
+        41.94
+      ],
+      "text": " and the inner morality I don't really know what that means in the science"
+    },
+    {
+      "timestamp": [
+        41.94,
+        47.24
+      ],
+      "text": " innovation and data-driven government I'm 100% against it"
+    }
+  ]
+}

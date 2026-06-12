@@ -1,0 +1,73 @@
+{
+  "audio_file": "61097e0464a4a922602d495b_audio_ranking_explanation_1780406851105.webm",
+  "transcript": " i ranked the modern green utopia first because i think that's something that is really important to me is being sustainable and protecting the environment and i liked that everyone was still kind of like working together and there wasn't um competition um and then my least preferred was the AI-centered utopia. I have a lot of hesitancies about AI and using it in the government and the description of this society kind of freaked me out and isn't something that I would like to live in. I would rather live in a society that's operated and founded by people just because I feel like there's a lot of things that AI can miss. And while AI maybe has more structure and more capabilities, I think that kind of having another human being leading is important.",
+  "language": "unknown",
+  "processing_time_seconds": 14.038728,
+  "timestamp": "2026-06-08T08:23:26.856466",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.58
+      ],
+      "text": " i ranked the modern green utopia first because i think that's something that is really important"
+    },
+    {
+      "timestamp": [
+        10.58,
+        17.58
+      ],
+      "text": " to me is being sustainable and protecting the environment and i liked that everyone was still"
+    },
+    {
+      "timestamp": [
+        17.58,
+        26.64
+      ],
+      "text": " kind of like working together and there wasn't um competition um and then my least preferred was"
+    },
+    {
+      "timestamp": [
+        26.64,
+        35.98
+      ],
+      "text": " the AI-centered utopia. I have a lot of hesitancies about AI and using it"
+    },
+    {
+      "timestamp": [
+        35.98,
+        46.68
+      ],
+      "text": " in the government and the description of this society kind of freaked me out and isn't something"
+    },
+    {
+      "timestamp": [
+        46.68,
+        56.42
+      ],
+      "text": " that I would like to live in. I would rather live in a society that's operated and founded by people"
+    },
+    {
+      "timestamp": [
+        56.42,
+        60.96
+      ],
+      "text": " just because I feel like there's a lot of things that AI can miss."
+    },
+    {
+      "timestamp": [
+        61.14,
+        66.84
+      ],
+      "text": " And while AI maybe has more structure and more capabilities,"
+    },
+    {
+      "timestamp": [
+        66.84,
+        75.18
+      ],
+      "text": " I think that kind of having another human being leading is important."
+    }
+  ]
+}

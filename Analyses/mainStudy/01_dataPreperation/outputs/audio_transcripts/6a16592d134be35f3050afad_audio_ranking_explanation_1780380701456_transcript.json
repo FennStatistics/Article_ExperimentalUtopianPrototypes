@@ -1,0 +1,213 @@
+{
+  "audio_file": "6a16592d134be35f3050afad_audio_ranking_explanation_1780380701456.webm",
+  "transcript": " so I ranked the moral commonwealth one first because I feel like if everybody relied more on their inner morality and things like community and helping everyone around them and things like that I think that it would be better than a strict rule of law society and I think that there would be more community and people would be able to help each other more um and it's kind of the same for number two and number three I think that we should be living in community more living in nature more and honoring nature more I feel like everything should be done on a smaller scale with tighter-knit communities and things like that and I think that we should we shouldn't be over consuming as much as we are right now um and i think that i don't think that everybody should have nothing or like the bare minimum but i think that everyone should have enough to survive and genuinely enjoy their lives and people shouldn't need to like hoard things or like people shouldn't need to hoard like billions of dollars and stuff like that and then I put the rule of law in the middle because I feel like that's kind of where we are right now in society I don't think it's necessarily the best way we could do things and I also don't think it's the worst way we could do things I would prefer the first three but the rule of law is kind of just what's been working in the world so far so that's why that's fourth and then for number five for the futurist utopia I put that right there because obviously science and innovation is good but I think that if we're not taking into consideration our resources and what the earth can comfortably support and hold then it will quickly become a problem especially if we're using all the resources on innovation and we start to neglect the needs of you know the common people I think that would be an issue and then the religious utopia um that's almost last because I think that everybody should just follow their own faith and their own spirituality I don't think that we should run the world off of one one religion i think everyone should be free to practice that however they want to without other people's religions being shoved in their face um it doesn't sound ideal at all to me and then the ai-censored utopia that one's last for me one because ai generative ai and data centers are ruining our environment first off and second it takes the humanity out of life when that's literally like the whole point of life humanity being human living loving all of that um it would take the humanity out of it it would take nuance out of a lot of situations um and I just think it doesn't make sense to take the humanity out of out of life",
+  "language": "unknown",
+  "processing_time_seconds": 39.030456,
+  "timestamp": "2026-06-08T11:07:52.504919",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.72
+      ],
+      "text": " so I ranked the moral commonwealth one first because I feel like if everybody relied more"
+    },
+    {
+      "timestamp": [
+        10.72,
+        18.82
+      ],
+      "text": " on their inner morality and things like community and helping everyone around them and things like"
+    },
+    {
+      "timestamp": [
+        18.82,
+        28.02
+      ],
+      "text": " that I think that it would be better than a strict rule of law society and I think that"
+    },
+    {
+      "timestamp": [
+        28.02,
+        35.64
+      ],
+      "text": " there would be more community and people would be able to help each other more um and it's kind"
+    },
+    {
+      "timestamp": [
+        35.64,
+        42.74
+      ],
+      "text": " of the same for number two and number three I think that we should be living in community more"
+    },
+    {
+      "timestamp": [
+        42.74,
+        48.32
+      ],
+      "text": " living in nature more and honoring nature more I feel like everything should be done on a smaller"
+    },
+    {
+      "timestamp": [
+        48.32,
+        56.3
+      ],
+      "text": " scale with tighter-knit communities and things like that and I think that we should we shouldn't"
+    },
+    {
+      "timestamp": [
+        56.3,
+        62.92
+      ],
+      "text": " be over consuming as much as we are right now um and i think that i don't think that everybody"
+    },
+    {
+      "timestamp": [
+        62.92,
+        68.98
+      ],
+      "text": " should have nothing or like the bare minimum but i think that everyone should have enough to survive"
+    },
+    {
+      "timestamp": [
+        68.98,
+        77.88
+      ],
+      "text": " and genuinely enjoy their lives and people shouldn't need to like hoard things or like"
+    },
+    {
+      "timestamp": [
+        77.88,
+        81.62
+      ],
+      "text": " people shouldn't need to hoard like billions of dollars and stuff like that"
+    },
+    {
+      "timestamp": [
+        81.62,
+        89.68
+      ],
+      "text": " and then I put the rule of law in the middle because I feel like that's kind of where we are"
+    },
+    {
+      "timestamp": [
+        89.68,
+        99.22
+      ],
+      "text": " right now in society I don't think it's necessarily the best way we could do things and I also don't"
+    },
+    {
+      "timestamp": [
+        99.22,
+        107.16
+      ],
+      "text": " think it's the worst way we could do things I would prefer the first three but the rule of law"
+    },
+    {
+      "timestamp": [
+        107.16,
+        115.64
+      ],
+      "text": " is kind of just what's been working in the world so far so that's why that's fourth and then for"
+    },
+    {
+      "timestamp": [
+        115.64,
+        122.7
+      ],
+      "text": " number five for the futurist utopia I put that right there because obviously science and innovation"
+    },
+    {
+      "timestamp": [
+        122.7,
+        134.36
+      ],
+      "text": " is good but I think that if we're not taking into consideration our resources and what the earth can"
+    },
+    {
+      "timestamp": [
+        134.36,
+        140.98
+      ],
+      "text": " comfortably support and hold then it will quickly become a problem especially if we're using all"
+    },
+    {
+      "timestamp": [
+        140.98,
+        148.98
+      ],
+      "text": " the resources on innovation and we start to neglect the needs of you know the common people"
+    },
+    {
+      "timestamp": [
+        148.98,
+        156.4
+      ],
+      "text": " I think that would be an issue and then the religious utopia um that's almost last because"
+    },
+    {
+      "timestamp": [
+        156.4,
+        163.8
+      ],
+      "text": " I think that everybody should just follow their own faith and their own spirituality I don't think"
+    },
+    {
+      "timestamp": [
+        163.8,
+        169.5
+      ],
+      "text": " that we should run the world off of one one religion i think everyone should be free to"
+    },
+    {
+      "timestamp": [
+        169.5,
+        176.48
+      ],
+      "text": " practice that however they want to without other people's religions being shoved in their face"
+    },
+    {
+      "timestamp": [
+        176.48,
+        185.7
+      ],
+      "text": " um it doesn't sound ideal at all to me and then the ai-censored utopia that one's last for me"
+    },
+    {
+      "timestamp": [
+        185.7,
+        193.06
+      ],
+      "text": " one because ai generative ai and data centers are ruining our environment first off"
+    },
+    {
+      "timestamp": [
+        193.06,
+        199.48
+      ],
+      "text": " and second it takes the humanity out of life when that's literally like the whole point of life"
+    },
+    {
+      "timestamp": [
+        199.48,
+        206.08
+      ],
+      "text": " humanity being human living loving all of that um it would take the humanity out of it it would"
+    },
+    {
+      "timestamp": [
+        206.08,
+        213.16
+      ],
+      "text": " take nuance out of a lot of situations um and I just think it doesn't make sense to"
+    },
+    {
+      "timestamp": [
+        213.16,
+        216.56
+      ],
+      "text": " take the humanity out of out of life"
+    }
+  ]
+}

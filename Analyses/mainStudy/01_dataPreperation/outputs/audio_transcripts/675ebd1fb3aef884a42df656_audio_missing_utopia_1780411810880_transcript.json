@@ -1,0 +1,143 @@
+{
+  "audio_file": "675ebd1fb3aef884a42df656_audio_missing_utopia_1780411810880.webm",
+  "transcript": " There's a lot of importance of the government and science, especially with how the future is going to be hold, having enough water resources, meat, food resources for humans is something that's very important. And I think what we're missing too is gratitude and how we treat each other. I think that's something that's very important. customer service services that require you to treat other people nice and pleasant instead of being all mean and rude. That should be in the near future also. Since everything's going to be mostly all together, I feel like a lot of the living conditions in the near future will be close impact and the far away places will be generating by our food resources that people no longer should be living near. I can see that everyone is going to be required to live in the city unless they live underneath the government of farming. And that being said, I do think that we are missing key points. Do people have the freedom to be themselves? Do people have the freedom to not be themselves? I am not 100% that the government should control everything that I do. I've seen that transition happening very smooth. Before, a lot of, in the past, we had our own life. We could do our own thing. And now seeing that now in everywhere in the world, you see more and more of governments want citizens to follow. It's a difference between someone following the difference, rules, paying my taxes, things of that nature. There's someone that is um trying to and be impactful there is a slim difference and that slim difference can be a very impactful thing",
+  "language": "unknown",
+  "processing_time_seconds": 27.319883,
+  "timestamp": "2026-06-08T08:46:13.823836",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.2
+      ],
+      "text": " There's a lot of importance of the government and science, especially with how the future"
+    },
+    {
+      "timestamp": [
+        10.2,
+        18.94
+      ],
+      "text": " is going to be hold, having enough water resources, meat, food resources for humans is something"
+    },
+    {
+      "timestamp": [
+        18.94,
+        19.76
+      ],
+      "text": " that's very important."
+    },
+    {
+      "timestamp": [
+        19.76,
+        26.08
+      ],
+      "text": " And I think what we're missing too is gratitude and how we treat each other."
+    },
+    {
+      "timestamp": [
+        26.8,
+        28.36
+      ],
+      "text": " I think that's something that's very important."
+    },
+    {
+      "timestamp": [
+        28.82,
+        28.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        38.42,
+        44.66
+      ],
+      "text": " customer service services that require you to treat other people nice and pleasant instead of being all mean and rude. That should be in the near future also. Since everything's going to be"
+    },
+    {
+      "timestamp": [
+        44.66,
+        52.86
+      ],
+      "text": " mostly all together, I feel like a lot of the living conditions in the near future will be"
+    },
+    {
+      "timestamp": [
+        52.86,
+        64.22
+      ],
+      "text": " close impact and the far away places will be generating by our food resources that people"
+    },
+    {
+      "timestamp": [
+        64.22,
+        71.32
+      ],
+      "text": " no longer should be living near. I can see that everyone is going to be required to live in the"
+    },
+    {
+      "timestamp": [
+        71.32,
+        80.76
+      ],
+      "text": " city unless they live underneath the government of farming. And that being said, I do think that"
+    },
+    {
+      "timestamp": [
+        80.76,
+        86.76
+      ],
+      "text": " we are missing key points. Do people have the freedom to be themselves? Do people have the"
+    },
+    {
+      "timestamp": [
+        86.76,
+        95.26
+      ],
+      "text": " freedom to not be themselves? I am not 100% that the government should control everything that I"
+    },
+    {
+      "timestamp": [
+        95.26,
+        103.38
+      ],
+      "text": " do. I've seen that transition happening very smooth. Before, a lot of, in the past, we had"
+    },
+    {
+      "timestamp": [
+        103.38,
+        112.16
+      ],
+      "text": " our own life. We could do our own thing. And now seeing that now in everywhere in the world,"
+    },
+    {
+      "timestamp": [
+        112.16,
+        118.28
+      ],
+      "text": " you see more and more of governments want citizens to follow. It's a difference between"
+    },
+    {
+      "timestamp": [
+        118.28,
+        126.22
+      ],
+      "text": " someone following the difference, rules, paying my taxes, things of that nature. There's someone"
+    },
+    {
+      "timestamp": [
+        126.22,
+        136.6
+      ],
+      "text": " that is um trying to and be impactful there is a slim difference and that slim difference"
+    },
+    {
+      "timestamp": [
+        136.6,
+        138.12
+      ],
+      "text": " can be a very impactful thing"
+    }
+  ]
+}

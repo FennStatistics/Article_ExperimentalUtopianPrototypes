@@ -1,0 +1,52 @@
+{
+  "audio_file": "69d6a13d0c2c7773c90c35ea_audio_ranking_explanation_1780519392748.webm",
+  "transcript": " well i ranked it this way because i believe that low tech and small scale would be better because people can get together and decide really what's the best thing to do um same similar with intermorality and the commonwealth i put institutional utopia at the bottom because i think that's kind of like uh communism where it is one group rules everything and you have no say and everyone is equal but not the top individuals which i don't think is right and i kind of ranked everything in between just based on how much i agree and disagree",
+  "language": "unknown",
+  "processing_time_seconds": 10.12711,
+  "timestamp": "2026-06-08T09:33:12.319107",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.36
+      ],
+      "text": " well i ranked it this way because i believe that low tech and small scale would be better"
+    },
+    {
+      "timestamp": [
+        7.36,
+        14.72
+      ],
+      "text": " because people can get together and decide really what's the best thing to do um same similar with"
+    },
+    {
+      "timestamp": [
+        14.72,
+        20.38
+      ],
+      "text": " intermorality and the commonwealth i put institutional utopia at the bottom because"
+    },
+    {
+      "timestamp": [
+        20.38,
+        29.0
+      ],
+      "text": " i think that's kind of like uh communism where it is one group rules everything and you have no say"
+    },
+    {
+      "timestamp": [
+        29.0,
+        33.86
+      ],
+      "text": " and everyone is equal but not the top individuals which i don't think is right"
+    },
+    {
+      "timestamp": [
+        33.86,
+        38.44
+      ],
+      "text": " and i kind of ranked everything in between just based on how much i agree and disagree"
+    }
+  ]
+}

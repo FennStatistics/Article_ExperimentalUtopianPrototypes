@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a148fec1af42aeeffddea3d_audio_ranking_explanation_1780404237698.webm",
+  "transcript": " I rank the societies that way because I think that the more science and innovation-focused options are much more sustainable long-term. I mean, the idea of an AI-driven community when it's already been, you know, torn apart and recovering from what's happening now, it would be counterproductive. I think it would cause more damage. Um, the religious utopia is insane because it would require everyone to believe the same thing, which would never happen. So most likely that would require, um, you know, creating a religious ethnostate probably, and everybody would be white Christian nationalists. So that's obviously the worst option. Um, ideally it would be a moral commonwealth where everybody just behaved correctly because it was the right thing to do and the most it was the path of least resistance and the best for the greater good but unfortunately I don't obviously see a world where that's possible at all um so I think I kind of prioritized technology and innovation in the green space and then um in the middle kind of kept like the just downscale society things like we're just in survival mode and then at the bottom i put the dystopian like scary stuff like cops data centers and religious leaders are in charge which are the you know things i trust least in the world",
+  "language": "unknown",
+  "processing_time_seconds": 19.973984,
+  "timestamp": "2026-06-08T11:01:35.475829",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.84
+      ],
+      "text": " I rank the societies that way because I think that the more science and innovation-focused options are much more sustainable long-term."
+    },
+    {
+      "timestamp": [
+        12.84,
+        28.14
+      ],
+      "text": " I mean, the idea of an AI-driven community when it's already been, you know, torn apart and recovering from what's happening now,"
+    },
+    {
+      "timestamp": [
+        28.22,
+        28.14
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.32,
+        37.48
+      ],
+      "text": " it would be counterproductive. I think it would cause more damage. Um, the religious utopia is insane because it would require everyone to believe the same thing, which would never happen."
+    },
+    {
+      "timestamp": [
+        37.48,
+        45.04
+      ],
+      "text": " So most likely that would require, um, you know, creating a religious ethnostate probably, and"
+    },
+    {
+      "timestamp": [
+        45.04,
+        51.36
+      ],
+      "text": " everybody would be white Christian nationalists. So that's obviously the worst option. Um,"
+    },
+    {
+      "timestamp": [
+        52.02,
+        58.02
+      ],
+      "text": " ideally it would be a moral commonwealth where everybody just behaved correctly because it was"
+    },
+    {
+      "timestamp": [
+        58.02,
+        62.8
+      ],
+      "text": " the right thing to do and the most it was the path of least resistance and the"
+    },
+    {
+      "timestamp": [
+        62.8,
+        68.08
+      ],
+      "text": " best for the greater good but unfortunately I don't obviously see a world where that's possible"
+    },
+    {
+      "timestamp": [
+        68.08,
+        79.56
+      ],
+      "text": " at all um so I think I kind of prioritized technology and innovation in the green space"
+    },
+    {
+      "timestamp": [
+        79.56,
+        88.6
+      ],
+      "text": " and then um in the middle kind of kept like the just downscale society things like we're just"
+    },
+    {
+      "timestamp": [
+        88.6,
+        97.0
+      ],
+      "text": " in survival mode and then at the bottom i put the dystopian like scary stuff like cops data centers"
+    },
+    {
+      "timestamp": [
+        97.0,
+        102.46
+      ],
+      "text": " and religious leaders are in charge which are the you know things i trust least in the world"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "audio_file": "61338374ecef87bfdfd1c7bb_audio_ranking_explanation_1780398047278.webm",
+  "transcript": " So, I ranked these societies according to a mixture of personal preference and just how ideal they actually feel like they are for the betterment of the people in them. I thought the modern green utopia was the one that has the most sustainable footprint combined with a high quality of life. The one that's an institutional utopia has a core sense of fairness and rule of law embedded within and that makes a lot of other things better. The futurist utopia brings a high quality of life, at least for some people, through the innovations and has good prospects for the future. And the AI-centered one, that's good and bad. Obviously, AI uses a lot of compute, but it can still be promising. Intermorality, that's a good thing, but that's not something that can drive a fair society. You're always getting up with something like Japan that, you know, remains orderly and relatively calm despite some real issues, but seems like it's economically stagnant from the 1990s. The primitivist one, a lot of people wouldn't be satisfied with that. Sure, its footprint is small, but the low-tech nature prevents any strong further development of a society or growth, and it also risks getting stuck. Number seven, the religious one, that never works too well for people who aren't in the dominant religious group. I can't imagine a fundamentalist state of any religion being good. And, yeah, it's just contributed to a lot of oppression.",
+  "language": "unknown",
+  "processing_time_seconds": 26.849947,
+  "timestamp": "2026-06-08T08:24:11.015309",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.22
+      ],
+      "text": " So, I ranked these societies according to a mixture of personal preference and just"
+    },
+    {
+      "timestamp": [
+        7.22,
+        13.68
+      ],
+      "text": " how ideal they actually feel like they are for the betterment of the people in them."
+    },
+    {
+      "timestamp": [
+        13.68,
+        19.44
+      ],
+      "text": " I thought the modern green utopia was the one that has the most sustainable footprint"
+    },
+    {
+      "timestamp": [
+        19.44,
+        22.72
+      ],
+      "text": " combined with a high quality of life."
+    },
+    {
+      "timestamp": [
+        22.72,
+        30.3
+      ],
+      "text": " The one that's an institutional utopia has a core sense of fairness and rule of law embedded"
+    },
+    {
+      "timestamp": [
+        30.3,
+        33.72
+      ],
+      "text": " within and that makes a lot of other things better."
+    },
+    {
+      "timestamp": [
+        33.72,
+        39.66
+      ],
+      "text": " The futurist utopia brings a high quality of life, at least for some people, through"
+    },
+    {
+      "timestamp": [
+        39.66,
+        46.5
+      ],
+      "text": " the innovations and has good prospects for the future."
+    },
+    {
+      "timestamp": [
+        46.5,
+        51.22
+      ],
+      "text": " And the AI-centered one, that's good and bad."
+    },
+    {
+      "timestamp": [
+        51.32,
+        59.46
+      ],
+      "text": " Obviously, AI uses a lot of compute, but it can still be promising."
+    },
+    {
+      "timestamp": [
+        62.06,
+        67.0
+      ],
+      "text": " Intermorality, that's a good thing, but that's not something that can drive a fair society."
+    },
+    {
+      "timestamp": [
+        67.0,
+        82.78
+      ],
+      "text": " You're always getting up with something like Japan that, you know, remains orderly and relatively calm despite some real issues, but seems like it's economically stagnant from the 1990s."
+    },
+    {
+      "timestamp": [
+        83.62,
+        86.9
+      ],
+      "text": " The primitivist one, a lot of people wouldn't be satisfied with that."
+    },
+    {
+      "timestamp": [
+        86.9,
+        100.48
+      ],
+      "text": " Sure, its footprint is small, but the low-tech nature prevents any strong further development of a society or growth, and it also risks getting stuck."
+    },
+    {
+      "timestamp": [
+        101.14,
+        106.9
+      ],
+      "text": " Number seven, the religious one, that never works too well for people who aren't in the dominant religious group."
+    },
+    {
+      "timestamp": [
+        107.52,
+        112.36
+      ],
+      "text": " I can't imagine a fundamentalist state of any religion being good."
+    },
+    {
+      "timestamp": [
+        116.32,
+        112.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        118.94,
+        null
+      ],
+      "text": " And, yeah, it's just contributed to a lot of oppression."
+    }
+  ]
+}

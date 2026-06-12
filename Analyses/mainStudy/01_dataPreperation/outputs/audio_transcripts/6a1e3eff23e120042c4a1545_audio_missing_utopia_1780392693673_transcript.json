@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a1e3eff23e120042c4a1545_audio_missing_utopia_1780392693673.webm",
+  "transcript": " I think my idea of a future society would have to maybe involve integrating multiple sort of ideas or multiple aspects of the societies that were described here. I feel like some of them had like individual good aspects, for example, a focus on the environment, or sort of a focus on morality. But I think like a truly realistic society would have to sort of focus on both of those things, or not just both, also other things, but sort of multiple things at once. I don't think that a future society could just be described as prioritizing one thing above all else. I think that my sort of ideal of a future society would involve like integrating sort of economic issues sort of in a way that wasn't exploitative of people, but also like involving like a role for people beyond uh you know the economy or beyond survival like cultivation of the arts um and allowing people like time to have like creative interests and sort of learning and education and knowledge as goods in themselves um instead of you know simply focusing on survival or focusing on technology above like the, you know, the individual human or society.",
+  "language": "unknown",
+  "processing_time_seconds": 25.334736,
+  "timestamp": "2026-06-08T11:33:34.363536",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.04
+      ],
+      "text": " I think my idea of a future society would have to maybe involve integrating multiple sort of ideas or multiple aspects of the societies that were described here."
+    },
+    {
+      "timestamp": [
+        18.04,
+        44.08
+      ],
+      "text": " I feel like some of them had like individual good aspects, for example, a focus on the environment, or sort of a focus on morality. But I think like a truly realistic society would have to sort of focus on both of those things, or not just both, also other things, but sort of multiple things at once."
+    },
+    {
+      "timestamp": [
+        44.08,
+        51.02
+      ],
+      "text": " I don't think that a future society could just be described as prioritizing one thing above all else."
+    },
+    {
+      "timestamp": [
+        51.02,
+        63.42
+      ],
+      "text": " I think that my sort of ideal of a future society would involve like integrating sort"
+    },
+    {
+      "timestamp": [
+        63.42,
+        78.38
+      ],
+      "text": " of economic issues sort of in a way that wasn't exploitative of people, but also like involving"
+    },
+    {
+      "timestamp": [
+        78.38,
+        85.46
+      ],
+      "text": " like a role for people beyond uh you know the economy or beyond survival like cultivation of"
+    },
+    {
+      "timestamp": [
+        85.46,
+        98.42
+      ],
+      "text": " the arts um and allowing people like time to have like creative interests and sort of learning and"
+    },
+    {
+      "timestamp": [
+        98.42,
+        107.24
+      ],
+      "text": " education and knowledge as goods in themselves um instead of you know simply focusing on survival"
+    },
+    {
+      "timestamp": [
+        107.24,
+        118.5
+      ],
+      "text": " or focusing on technology above like the, you know, the individual human or society."
+    }
+  ]
+}

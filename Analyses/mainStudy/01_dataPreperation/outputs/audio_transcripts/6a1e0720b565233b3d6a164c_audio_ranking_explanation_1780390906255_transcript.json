@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a1e0720b565233b3d6a164c_audio_ranking_explanation_1780390906255.webm",
+  "transcript": " After learning about each of these different lifestyles and future societies, I chose moral commonwealth as my most preferred because I believe in having good morality and being honest and true. And I chose the religious utopia as my least preferred because I don't believe in the faith-based order and I think it can often be very restrictive and hard to follow.",
+  "language": "unknown",
+  "processing_time_seconds": 8.936744,
+  "timestamp": "2026-06-08T11:30:29.394405",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.48,
+        21.0
+      ],
+      "text": " After learning about each of these different lifestyles and future societies, I chose moral commonwealth as my most preferred because I believe in having good morality and being honest and true."
+    },
+    {
+      "timestamp": [
+        21.0,
+        42.14
+      ],
+      "text": " And I chose the religious utopia as my least preferred because I don't believe in the faith-based order and I think it can often be very restrictive and hard to follow."
+    }
+  ]
+}

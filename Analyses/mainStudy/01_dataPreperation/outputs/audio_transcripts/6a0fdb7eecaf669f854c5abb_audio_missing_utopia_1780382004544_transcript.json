@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a0fdb7eecaf669f854c5abb_audio_missing_utopia_1780382004544.webm",
+  "transcript": " I feel like a combination between the primitive one and the commonwealth, if those two were combined, I think society would be just fine. Maybe with a little bit of the science or whatever, to continue innovation and continually improve the situation. but really I think if it was a society based on people just trying to help each other I think it would kind of naturally sort itself out if you provide no value you're going to get less value Um, yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 12.078566,
+  "timestamp": "2026-06-08T10:52:21.479981",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.58
+      ],
+      "text": " I feel like a combination between the primitive one and the commonwealth, if those two were combined, I think society would be just fine."
+    },
+    {
+      "timestamp": [
+        16.0,
+        25.4
+      ],
+      "text": " Maybe with a little bit of the science or whatever, to continue innovation and continually improve the situation."
+    },
+    {
+      "timestamp": [
+        27.28,
+        25.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        28.98,
+        31.18
+      ],
+      "text": " but really I think if it was a society based on"
+    },
+    {
+      "timestamp": [
+        31.18,
+        35.18
+      ],
+      "text": " people just trying to help each other"
+    },
+    {
+      "timestamp": [
+        35.18,
+        39.04
+      ],
+      "text": " I think it would kind of naturally"
+    },
+    {
+      "timestamp": [
+        39.04,
+        40.28
+      ],
+      "text": " sort itself out"
+    },
+    {
+      "timestamp": [
+        40.28,
+        43.74
+      ],
+      "text": " if you provide no value"
+    },
+    {
+      "timestamp": [
+        43.74,
+        47.78
+      ],
+      "text": " you're going to get less value"
+    },
+    {
+      "timestamp": [
+        47.78,
+        55.32
+      ],
+      "text": " Um, yeah."
+    }
+  ]
+}

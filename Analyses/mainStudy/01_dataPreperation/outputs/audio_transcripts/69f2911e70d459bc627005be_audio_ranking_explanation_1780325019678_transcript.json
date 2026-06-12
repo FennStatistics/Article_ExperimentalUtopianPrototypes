@@ -1,0 +1,150 @@
+{
+  "audio_file": "69f2911e70d459bc627005be_audio_ranking_explanation_1780325019678.webm",
+  "transcript": " huh okay so i ranked them in that order because the futuristic utopia where sense and innovation are at the forefront of building a society i think there is a better quality of life and if innovation is in place that will entirely ensure that resources are being managed properly for the second option ai-centered utopia air-driven governance is based on strict pattern recognition and logic, meaning the AI will make sure that everything runs optimally because it will crunch down the numbers and everything and make sure that everything is running optimally. Moral common world, I picked that as the dollar because if everyone were to work based on their inner morality, then society will basically be like heaven because all the problems that society faces is because of flawed inner morality so the reason i placed in fact should it should be it should be it should be in the first place the reason i place it on that is because um it's very difficult to achieve that uh very difficult to achieve that uh modern green utopia is sustainable and secure um it's my fourth option because um it helps the environment uh we live in institutional utopia the rule of law that's what mostly we live in um i i tend to think that the rule of law is some somehow is usually bent to the to to benefit the the the few majority of people who are on top of the of the hierarchy that's why i'm not i'm not a fan of it religious utopia um i also i'm also not a fan of it because because first of all which religion are we relying on um religion uh for example like if we were to pick christianity we all know that back in the old testament things were a bit brutal so i wouldn't want to live in such a world primitive primitive primitive primitivistic utopia low tech and small scale I just think that's just going backwards that's why I placed it there",
+  "language": "unknown",
+  "processing_time_seconds": 29.110344,
+  "timestamp": "2026-06-08T09:55:01.735894",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.6
+      ],
+      "text": " huh okay so i ranked them in that order because the futuristic utopia where sense and innovation"
+    },
+    {
+      "timestamp": [
+        6.6,
+        12.14
+      ],
+      "text": " are at the forefront of building a society i think there is a better quality of life and"
+    },
+    {
+      "timestamp": [
+        12.14,
+        20.04
+      ],
+      "text": " if innovation is in place that will entirely ensure that resources are being managed properly"
+    },
+    {
+      "timestamp": [
+        20.04,
+        26.68
+      ],
+      "text": " for the second option ai-centered utopia air-driven governance is based on strict"
+    },
+    {
+      "timestamp": [
+        26.68,
+        34.68
+      ],
+      "text": " pattern recognition and logic, meaning the AI will make sure that everything runs optimally"
+    },
+    {
+      "timestamp": [
+        34.68,
+        39.1
+      ],
+      "text": " because it will crunch down the numbers and everything and make sure that everything is"
+    },
+    {
+      "timestamp": [
+        39.1,
+        45.48
+      ],
+      "text": " running optimally. Moral common world, I picked that as the dollar because"
+    },
+    {
+      "timestamp": [
+        45.48,
+        55.26
+      ],
+      "text": " if everyone were to work based on their inner morality, then society will basically be like"
+    },
+    {
+      "timestamp": [
+        55.26,
+        63.42
+      ],
+      "text": " heaven because all the problems that society faces is because of flawed inner morality so"
+    },
+    {
+      "timestamp": [
+        64.3,
+        67.98
+      ],
+      "text": " the reason i placed in fact should it should be it should be it should be in the first place the"
+    },
+    {
+      "timestamp": [
+        67.98,
+        73.82
+      ],
+      "text": " reason i place it on that is because um it's very difficult to achieve that uh very difficult to"
+    },
+    {
+      "timestamp": [
+        73.82,
+        81.5
+      ],
+      "text": " achieve that uh modern green utopia is sustainable and secure um it's my fourth option because um it"
+    },
+    {
+      "timestamp": [
+        81.5,
+        88.06
+      ],
+      "text": " helps the environment uh we live in institutional utopia the rule of law that's what mostly we live"
+    },
+    {
+      "timestamp": [
+        88.06,
+        99.18
+      ],
+      "text": " in um i i tend to think that the rule of law is some somehow is usually bent to the to to benefit"
+    },
+    {
+      "timestamp": [
+        99.18,
+        107.66
+      ],
+      "text": " the the the few majority of people who are on top of the of the hierarchy that's why i'm not i'm not"
+    },
+    {
+      "timestamp": [
+        109.02,
+        107.66
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        117.82,
+        123.3
+      ],
+      "text": " a fan of it religious utopia um i also i'm also not a fan of it because because first of all which religion are we relying on um religion uh for example like if we were to pick christianity"
+    },
+    {
+      "timestamp": [
+        123.3,
+        129.12
+      ],
+      "text": " we all know that back in the old testament things were a bit brutal so i wouldn't want to live in"
+    },
+    {
+      "timestamp": [
+        129.12,
+        136.5
+      ],
+      "text": " such a world primitive primitive primitive primitivistic utopia low tech and small scale"
+    },
+    {
+      "timestamp": [
+        136.5,
+        140.42
+      ],
+      "text": " I just think that's just going backwards that's why I placed it there"
+    }
+  ]
+}

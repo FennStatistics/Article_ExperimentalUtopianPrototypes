@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a1767604593efadad3bd3d9_audio_missing_utopia_1780252363939.webm",
+  "transcript": " I'd probably add a society in which the environment preservation was a big factor in mainly ecological technologies. Even though there was a low-tech one, I feel like something ecological would be really cool.",
+  "language": "unknown",
+  "processing_time_seconds": 5.74886,
+  "timestamp": "2026-06-08T11:09:49.105057",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.42
+      ],
+      "text": " I'd probably add a society in which the environment preservation was a big factor in mainly ecological technologies."
+    },
+    {
+      "timestamp": [
+        16.26,
+        21.72
+      ],
+      "text": " Even though there was a low-tech one, I feel like something ecological would be really cool."
+    }
+  ]
+}

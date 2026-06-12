@@ -1,0 +1,17 @@
+{
+  "audio_file": "698a4bcb96c388d31b40916a_audio_missing_utopia_1780401263781.webm",
+  "transcript": " I think that we need to just go based off of how to improve our environment.",
+  "language": "unknown",
+  "processing_time_seconds": 4.745259,
+  "timestamp": "2026-06-08T09:02:08.778605",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.9
+      ],
+      "text": " I think that we need to just go based off of how to improve our environment."
+    }
+  ]
+}

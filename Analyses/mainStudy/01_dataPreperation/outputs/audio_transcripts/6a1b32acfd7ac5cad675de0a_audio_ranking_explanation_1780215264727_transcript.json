@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a1b32acfd7ac5cad675de0a_audio_ranking_explanation_1780215264727.webm",
+  "transcript": " My most preferred is Modern Green and Sustainability Society. This is because it's built both people and the planet. It makes sure everyone has enough. No one is too rich and no one is too poor. It feels fair and balanced. This society will give you peace, security and a clean planet which matters most to you. The least preferred is data-driven governance society. This is because technology having too much over people's lives will take away the human touch like feelings, values and personal judgment that don't count much.",
+  "language": "unknown",
+  "processing_time_seconds": 10.537686,
+  "timestamp": "2026-06-08T11:16:45.412221",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.0
+      ],
+      "text": " My most preferred is Modern Green and Sustainability Society."
+    },
+    {
+      "timestamp": [
+        8.0,
+        13.0
+      ],
+      "text": " This is because it's built both people and the planet."
+    },
+    {
+      "timestamp": [
+        13.0,
+        15.0
+      ],
+      "text": " It makes sure everyone has enough."
+    },
+    {
+      "timestamp": [
+        15.0,
+        18.0
+      ],
+      "text": " No one is too rich and no one is too poor."
+    },
+    {
+      "timestamp": [
+        18.0,
+        21.0
+      ],
+      "text": " It feels fair and balanced."
+    },
+    {
+      "timestamp": [
+        21.0,
+        28.0
+      ],
+      "text": " This society will give you peace, security and a clean planet which matters most to you."
+    },
+    {
+      "timestamp": [
+        28.0,
+        33.92
+      ],
+      "text": " The least preferred is data-driven governance society."
+    },
+    {
+      "timestamp": [
+        33.92,
+        39.04
+      ],
+      "text": " This is because technology having too much over people's lives will take away the human"
+    },
+    {
+      "timestamp": [
+        39.04,
+        44.44
+      ],
+      "text": " touch like feelings, values and personal judgment that don't count much."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a134308555ec936abb413da_audio_ranking_explanation_1780289854214.webm",
+  "transcript": " To me, sustainability is an important factor that really played into it. I think morality and faith base are usually, on an interpersonal level, something that is important. I would say science and innovation is more of a baseline, something in the middle that kind of distincts the first three from the bottom three options. Now, the bottom three, the rule of law that a driven governance and low tech or the primitives at Utopia is usually something that I don't really see a whole lot of preference in a society just because of the limitations that it has, as well as the risks that it poses.",
+  "language": "unknown",
+  "processing_time_seconds": 10.568359,
+  "timestamp": "2026-06-08T10:56:12.835667",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.46
+      ],
+      "text": " To me, sustainability is an important factor that really played into it."
+    },
+    {
+      "timestamp": [
+        7.52,
+        16.06
+      ],
+      "text": " I think morality and faith base are usually, on an interpersonal level, something that is important."
+    },
+    {
+      "timestamp": [
+        17.9,
+        28.96
+      ],
+      "text": " I would say science and innovation is more of a baseline, something in the middle that kind of distincts the first three from the bottom three options."
+    },
+    {
+      "timestamp": [
+        29.48,
+        29.72
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        49.46,
+        null
+      ],
+      "text": " Now, the bottom three, the rule of law that a driven governance and low tech or the primitives at Utopia is usually something that I don't really see a whole lot of preference in a society just because of the limitations that it has, as well as the risks that it poses."
+    }
+  ]
+}

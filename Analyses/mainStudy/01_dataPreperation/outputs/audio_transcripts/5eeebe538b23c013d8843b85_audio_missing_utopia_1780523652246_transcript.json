@@ -1,0 +1,94 @@
+{
+  "audio_file": "5eeebe538b23c013d8843b85_audio_missing_utopia_1780523652246.webm",
+  "transcript": " um one future society that could be missing from that list of other societies is a society that involves a diversity of beliefs opinions and values and in which all of those could coexist I didn't see a society that really that was listed that could incorporate like a melting pot of culture and people working together to uphold their own beliefs without fighting with each other so that might be a difficult ask and it'd certainly be like a type of utopia like an ideal utopia where people can coexist despite having like very different cultures and maybe beliefs but that seems to be one type of society that could um that could be possible like rather than a faith-based society where everyone has the same faith or religion or one in which everyone holds the same morals you might have a different type of society uh consisting of like different cultures and yet being capable of like respecting other cultures and other faiths so we could call this like a like a multi-cultural or a diverse society where many beliefs and values can coexist",
+  "language": "unknown",
+  "processing_time_seconds": 20.825084,
+  "timestamp": "2026-06-08T08:16:42.021967",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.1
+      ],
+      "text": " um one future society that could be missing from that list of other societies"
+    },
+    {
+      "timestamp": [
+        12.1,
+        22.58
+      ],
+      "text": " is a society that involves a diversity of beliefs opinions and values"
+    },
+    {
+      "timestamp": [
+        22.58,
+        32.76
+      ],
+      "text": " and in which all of those could coexist I didn't see a society that really that was listed"
+    },
+    {
+      "timestamp": [
+        34.56,
+        46.0
+      ],
+      "text": " that could incorporate like a melting pot of culture and people working together to"
+    },
+    {
+      "timestamp": [
+        46.0,
+        54.6
+      ],
+      "text": " uphold their own beliefs without fighting with each other so that might be a difficult ask"
+    },
+    {
+      "timestamp": [
+        54.6,
+        60.52
+      ],
+      "text": " and it'd certainly be like a type of utopia like an ideal utopia where people can"
+    },
+    {
+      "timestamp": [
+        60.52,
+        68.96
+      ],
+      "text": " coexist despite having like very different cultures and maybe beliefs but that seems to"
+    },
+    {
+      "timestamp": [
+        68.96,
+        79.06
+      ],
+      "text": " be one type of society that could um that could be possible like rather than a faith-based society"
+    },
+    {
+      "timestamp": [
+        79.06,
+        85.74
+      ],
+      "text": " where everyone has the same faith or religion or one in which everyone holds the same morals"
+    },
+    {
+      "timestamp": [
+        85.74,
+        91.8
+      ],
+      "text": " you might have a different type of society uh consisting of like different cultures"
+    },
+    {
+      "timestamp": [
+        91.8,
+        100.62
+      ],
+      "text": " and yet being capable of like respecting other cultures and other faiths so we could call this"
+    },
+    {
+      "timestamp": [
+        100.62,
+        115.94
+      ],
+      "text": " like a like a multi-cultural or a diverse society where many beliefs and values can coexist"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "audio_file": "6a077566f7ea052517e6557c_audio_ranking_explanation_1780335888004.webm",
+  "transcript": " I chose to rank them this way because I feel like I would most like to live in the modern green utopia. It's sustainable, but it still has rules, so people aren't just running wild, but it's also low government, so you kind of run yourself. Same thing with the primitive utopia, low tech and small scale, live off the land. I like that. Faith-based order is not terrible for me since I'm a Christian, so I have no problem with that. I put this at four because I think it's better than these three, but I don't quite like it enough to put it any higher. Science isn't my favorite thing. I know it's useful, but I wouldn't want to live in a place that's just always like, go, go, go, go, go, see more chill. I put this here over these two because rules people don't like rules but rules are needed a lot of the time and a lot of people don't realize like the laws we have that keep society just running just on track so and I could follow the rules I don't mind here this you can't not everybody is going to be as moral as everybody else. So you can tell somebody to think like this, but they're going to think how they want to think. That's why I put this here, just because there's no trust in a society like that. I wouldn't want to live there. And then I don't want AI to run anything. I feel like it is a tool. It shouldn't be driving decisions, especially with no human input. That's why I put at number seven.",
+  "language": "unknown",
+  "processing_time_seconds": 25.281539,
+  "timestamp": "2026-06-08T10:30:27.646503",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.08
+      ],
+      "text": " I chose to rank them this way because I feel like I would most like to live in the modern"
+    },
+    {
+      "timestamp": [
+        8.08,
+        14.54
+      ],
+      "text": " green utopia. It's sustainable, but it still has rules, so people aren't just running wild,"
+    },
+    {
+      "timestamp": [
+        14.96,
+        21.66
+      ],
+      "text": " but it's also low government, so you kind of run yourself. Same thing with the primitive utopia,"
+    },
+    {
+      "timestamp": [
+        22.18,
+        29.6
+      ],
+      "text": " low tech and small scale, live off the land. I like that. Faith-based order is not terrible"
+    },
+    {
+      "timestamp": [
+        29.6,
+        37.5
+      ],
+      "text": " for me since I'm a Christian, so I have no problem with that. I put this at four because"
+    },
+    {
+      "timestamp": [
+        37.5,
+        41.7
+      ],
+      "text": " I think it's better than these three, but I don't quite like it enough to put it any"
+    },
+    {
+      "timestamp": [
+        41.7,
+        47.24
+      ],
+      "text": " higher. Science isn't my favorite thing. I know it's useful, but I wouldn't want to"
+    },
+    {
+      "timestamp": [
+        47.24,
+        56.0
+      ],
+      "text": " live in a place that's just always like, go, go, go, go, go, see more chill. I put this"
+    },
+    {
+      "timestamp": [
+        56.0,
+        66.1
+      ],
+      "text": " here over these two because rules people don't like rules but rules are needed a lot of the time"
+    },
+    {
+      "timestamp": [
+        66.1,
+        74.24
+      ],
+      "text": " and a lot of people don't realize like the laws we have that keep society just running just on track"
+    },
+    {
+      "timestamp": [
+        74.24,
+        83.16
+      ],
+      "text": " so and I could follow the rules I don't mind here this you can't not everybody is going to be as"
+    },
+    {
+      "timestamp": [
+        83.16,
+        88.88
+      ],
+      "text": " moral as everybody else. So you can tell somebody to think like this, but they're going to think"
+    },
+    {
+      "timestamp": [
+        88.88,
+        92.56
+      ],
+      "text": " how they want to think. That's why I put this here, just because there's no trust in a society"
+    },
+    {
+      "timestamp": [
+        92.56,
+        99.0
+      ],
+      "text": " like that. I wouldn't want to live there. And then I don't want AI to run anything. I feel like it"
+    },
+    {
+      "timestamp": [
+        99.0,
+        106.32
+      ],
+      "text": " is a tool. It shouldn't be driving decisions, especially with no human input. That's why I put"
+    },
+    {
+      "timestamp": [
+        106.32,
+        107.1
+      ],
+      "text": " at number seven."
+    }
+  ]
+}

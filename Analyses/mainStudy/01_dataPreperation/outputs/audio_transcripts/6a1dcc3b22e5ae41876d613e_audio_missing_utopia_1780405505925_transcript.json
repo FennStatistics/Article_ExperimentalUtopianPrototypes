@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a1dcc3b22e5ae41876d613e_audio_missing_utopia_1780405505925.webm",
+  "transcript": " Um, I believe I would like to, I think in my ideal society, I would combine those top three where there is a, uh, focus on, um, there is a focus on, uh, sort of science and sustainability and also, um, uh sort of people i i think uh in cities that i've lived in in particular neighborhoods i think the sense of small communities and sustainability within those communities is very important just sort of everybody taking care of each other and investing in their own individual communities is very important. But I think the low tech aspect of that option is a bit concerning for me since I believe in the power of science and I believe that science can be good for everyone. And through science and sort of keeping things responsible for the environment, I think we could uplift those small communities of people looking out for each other. And I think that would be the ideal society in my own mind.",
+  "language": "unknown",
+  "processing_time_seconds": 17.824349,
+  "timestamp": "2026-06-08T11:28:38.116035",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.36
+      ],
+      "text": " Um, I believe I would like to, I think in my ideal society, I would combine those top three where there is a, uh, focus on, um, there is a focus on, uh, sort of science and sustainability and also, um,"
+    },
+    {
+      "timestamp": [
+        30.0,
+        38.56
+      ],
+      "text": " uh sort of people i i think uh in cities that i've lived in in particular neighborhoods i think the"
+    },
+    {
+      "timestamp": [
+        38.56,
+        44.48
+      ],
+      "text": " sense of small communities and sustainability within those communities is very important"
+    },
+    {
+      "timestamp": [
+        45.6,
+        53.68
+      ],
+      "text": " just sort of everybody taking care of each other and investing in their own individual communities"
+    },
+    {
+      "timestamp": [
+        53.68,
+        65.98
+      ],
+      "text": " is very important. But I think the low tech aspect of that option is a bit concerning for me since I"
+    },
+    {
+      "timestamp": [
+        65.98,
+        75.34
+      ],
+      "text": " believe in the power of science and I believe that science can be good for everyone. And through"
+    },
+    {
+      "timestamp": [
+        75.34,
+        82.62
+      ],
+      "text": " science and sort of keeping things responsible for the environment, I think we could uplift"
+    },
+    {
+      "timestamp": [
+        82.62,
+        89.8
+      ],
+      "text": " those small communities of people looking out for each other. And I think that would be"
+    },
+    {
+      "timestamp": [
+        89.8,
+        91.98
+      ],
+      "text": " the ideal society in my own mind."
+    }
+  ]
+}

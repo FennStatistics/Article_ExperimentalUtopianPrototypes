@@ -1,0 +1,38 @@
+{
+  "audio_file": "696a8631d83007aa07ed3744_audio_missing_utopia_1780447003525.webm",
+  "transcript": " yeah i think with all of them the good and the bad i don't really know how to describe it so i kind of do the best i can but i think they were all lacking uh passion passion as far as outdoorsness you know nature not passion nature excuse me nature it was lacking a lot of nature feel that's the only thing i don't like",
+  "language": "unknown",
+  "processing_time_seconds": 6.731536,
+  "timestamp": "2026-06-08T08:55:29.446256",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.64
+      ],
+      "text": " yeah i think with all of them the good and the bad i don't really know how to describe it so"
+    },
+    {
+      "timestamp": [
+        7.64,
+        14.14
+      ],
+      "text": " i kind of do the best i can but i think they were all lacking uh passion passion as far as"
+    },
+    {
+      "timestamp": [
+        14.14,
+        18.78
+      ],
+      "text": " outdoorsness you know nature not passion nature excuse me nature"
+    },
+    {
+      "timestamp": [
+        18.78,
+        24.12
+      ],
+      "text": " it was lacking a lot of nature feel that's the only thing i don't like"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "audio_file": "665cc37706c5e959d6f680a3_audio_missing_utopia_1780424098086.webm",
+  "transcript": " A society that I think was missing would combine the best parts of several of those options where it would use science and technology to solve problems, have strong but pretty fair institutions, and also focus on sustainability. But at the same time, it would protect personal freedom and encourage people to take responsibility for their communities. But for me, the most important thing was balancing progress, stability, and individual choices.",
+  "language": "unknown",
+  "processing_time_seconds": 9.257356,
+  "timestamp": "2026-06-08T08:36:49.542716",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.68
+      ],
+      "text": " A society that I think was missing would combine the best parts of several of those options"
+    },
+    {
+      "timestamp": [
+        9.68,
+        17.58
+      ],
+      "text": " where it would use science and technology to solve problems, have strong but pretty"
+    },
+    {
+      "timestamp": [
+        17.58,
+        25.24
+      ],
+      "text": " fair institutions, and also focus on sustainability."
+    },
+    {
+      "timestamp": [
+        25.24,
+        33.8
+      ],
+      "text": " But at the same time, it would protect personal freedom and encourage people to take responsibility"
+    },
+    {
+      "timestamp": [
+        33.8,
+        36.74
+      ],
+      "text": " for their communities."
+    },
+    {
+      "timestamp": [
+        36.74,
+        45.8
+      ],
+      "text": " But for me, the most important thing was balancing progress, stability, and individual choices."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "audio_file": "696a8631d83007aa07ed3744_audio_ranking_explanation_1780446943005.webm",
+  "transcript": " uh i picked this way because i kind of fascinated with the idea of data-driven governance and science and innovation and i also kind of like the idea of modern green utopia uh all in all they all have their own ways of living but each one of those of my top three just sounds like a gorgeous luxurious relaxful peaceful mindful way of living you know And it's not all about the riches or the money, just just relaxation, even if it was for yourself or with the loved one or your family members. I just could really envision myself living in one of those. The ones at the bottom, I just have. I don't really like them. I don't like rule law. Any mortality will be OK, I guess. And low tech, small scale, I guess that's how I was raised. So I'm kind of trying to stay away from that, if you know what I'm saying. But, yeah, faith-based is always going to be living like that regardless of whatever one I pick. But, yeah, that's why I picked that order.",
+  "language": "unknown",
+  "processing_time_seconds": 16.532151,
+  "timestamp": "2026-06-08T08:55:46.057200",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.3
+      ],
+      "text": " uh i picked this way because i kind of fascinated with the idea of data-driven"
+    },
+    {
+      "timestamp": [
+        8.3,
+        14.22
+      ],
+      "text": " governance and science and innovation and i also kind of like the idea of modern green utopia"
+    },
+    {
+      "timestamp": [
+        14.22,
+        22.38
+      ],
+      "text": " uh all in all they all have their own ways of living but each one of those of my top three"
+    },
+    {
+      "timestamp": [
+        22.38,
+        29.98
+      ],
+      "text": " just sounds like a gorgeous luxurious relaxful peaceful mindful way of living you know"
+    },
+    {
+      "timestamp": [
+        29.98,
+        38.94
+      ],
+      "text": " And it's not all about the riches or the money, just just relaxation, even if it was for yourself or with the loved one or your family members."
+    },
+    {
+      "timestamp": [
+        39.18,
+        42.16
+      ],
+      "text": " I just could really envision myself living in one of those."
+    },
+    {
+      "timestamp": [
+        42.48,
+        47.04
+      ],
+      "text": " The ones at the bottom, I just have. I don't really like them."
+    },
+    {
+      "timestamp": [
+        47.2,
+        51.7
+      ],
+      "text": " I don't like rule law. Any mortality will be OK, I guess."
+    },
+    {
+      "timestamp": [
+        51.76,
+        54.52
+      ],
+      "text": " And low tech, small scale, I guess that's how I was raised."
+    },
+    {
+      "timestamp": [
+        54.58,
+        57.44
+      ],
+      "text": " So I'm kind of trying to stay away from that, if you know what I'm saying."
+    },
+    {
+      "timestamp": [
+        57.78,
+        57.44
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        63.68,
+        65.76
+      ],
+      "text": " But, yeah, faith-based is always going to be living like that regardless of whatever one I pick."
+    },
+    {
+      "timestamp": [
+        65.94,
+        67.92
+      ],
+      "text": " But, yeah, that's why I picked that order."
+    }
+  ]
+}

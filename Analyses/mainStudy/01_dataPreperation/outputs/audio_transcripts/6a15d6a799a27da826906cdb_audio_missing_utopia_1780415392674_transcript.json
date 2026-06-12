@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a15d6a799a27da826906cdb_audio_missing_utopia_1780415392674.webm",
+  "transcript": " To be honest, I can't really think of any values or approaches that were absent from any of the seven societies I just ranked. I believe they covered all of the areas that were required, and that is that. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 5.923513,
+  "timestamp": "2026-06-08T11:04:58.688106",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.92
+      ],
+      "text": " To be honest, I can't really think of any values or approaches that were absent from any of the seven societies I just ranked."
+    },
+    {
+      "timestamp": [
+        9.64,
+        16.14
+      ],
+      "text": " I believe they covered all of the areas that were required, and that is that."
+    },
+    {
+      "timestamp": [
+        17.98,
+        18.6
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

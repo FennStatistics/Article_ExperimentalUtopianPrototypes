@@ -1,0 +1,31 @@
+{
+  "audio_file": "69befa2e133968bfac9921bb_audio_ranking_explanation_1780398344003.webm",
+  "transcript": " I feel like with this society, we should be looking at security and stability, not only for other humans, but for the planet as a whole. And with that, I think it's important to focus on harmonizing with nature as far as faith-based order and AI-driven. I don't think those make sense because they'll be subject to whoever is in charge, regardless of what some may say.",
+  "language": "unknown",
+  "processing_time_seconds": 7.032666,
+  "timestamp": "2026-06-08T09:19:49.408097",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.04
+      ],
+      "text": " I feel like with this society, we should be looking at security and stability, not only for other humans, but for the planet as a whole."
+    },
+    {
+      "timestamp": [
+        10.52,
+        19.46
+      ],
+      "text": " And with that, I think it's important to focus on harmonizing with nature as far as faith-based order and AI-driven."
+    },
+    {
+      "timestamp": [
+        19.86,
+        25.86
+      ],
+      "text": " I don't think those make sense because they'll be subject to whoever is in charge, regardless of what some may say."
+    }
+  ]
+}

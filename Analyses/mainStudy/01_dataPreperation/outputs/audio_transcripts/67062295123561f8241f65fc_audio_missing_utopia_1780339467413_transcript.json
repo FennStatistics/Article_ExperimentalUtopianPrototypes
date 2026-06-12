@@ -1,0 +1,241 @@
+{
+  "audio_file": "67062295123561f8241f65fc_audio_missing_utopia_1780339467413.webm",
+  "transcript": " I didn't realize that I was going to get to record again to talk about my ideal society, so I kind of mentioned it in the previous recording. But I believe in God, the Christian God. I'm not Catholic. I'm Protestant. But no matter what you say, there's a lot of baggage with it, so it becomes difficult to convey. But I believe that the heart of people um really falls back on greed and fear and uh then you know hatefulness and that sort of thing i don't believe that people are incapable of good there's a lot of good that people do and can do but that ultimately people's hearts are evil and that even if someone lived a near ideal life that they weren't perfect and that it's very likely that the next generation won't be perfect as well i also believe that god gave people free will so taking people's freedom of choice and um will uh away from them is wrong so i believe in a freedom of religion and a relative uh degree of freedom of the individual the only time that laws really make sense is when they affect other people so like parents with their children um can't harm people can't steal from people uh things like that uh i think that on this side of eternity which is a christian term that uh before jesus returns and sets things right i think an ideal system would be a democratic republic with the freedom of religion freedom of speech um with the correct checks and balances that protect from mob rule and also from an individual having too much power uh it's never going to be perfect there's always going to be back and forth but it's up to every generation to try to make things as right as they can and they're going to course correct from the past and then the next generation is going to course correct from them i don't believe we can arrive at a perfect situation or a perfect society forever but it's the job of every generation to try until the lord comes i i don't believe that america is perfect i think that a lot of its concepts are the closest we'll get to a sustainable society uh now i i'm referring more to its inception and then its moral corrections over time so if you kind of took the initial implementation of the constitution and declaration of independence all that kinds of stuff all its writings but then you also added like the abolishment of slavery and um that women can vote that men and women are equal that all races are equal that uh there's freedom of religion that sort of thing i think that when you implement all those things i think that's about as close as you can get to a perfect society.",
+  "language": "unknown",
+  "processing_time_seconds": 38.641616,
+  "timestamp": "2026-06-08T08:42:51.198449",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.32
+      ],
+      "text": " I didn't realize that I was going to get to record again"
+    },
+    {
+      "timestamp": [
+        4.32,
+        7.18
+      ],
+      "text": " to talk about my ideal society,"
+    },
+    {
+      "timestamp": [
+        7.4,
+        11.26
+      ],
+      "text": " so I kind of mentioned it in the previous recording."
+    },
+    {
+      "timestamp": [
+        12.62,
+        15.14
+      ],
+      "text": " But I believe in God, the Christian God."
+    },
+    {
+      "timestamp": [
+        15.14,
+        16.14
+      ],
+      "text": " I'm not Catholic."
+    },
+    {
+      "timestamp": [
+        16.4,
+        17.5
+      ],
+      "text": " I'm Protestant."
+    },
+    {
+      "timestamp": [
+        18.86,
+        22.14
+      ],
+      "text": " But no matter what you say, there's a lot of baggage with it,"
+    },
+    {
+      "timestamp": [
+        22.14,
+        25.04
+      ],
+      "text": " so it becomes difficult to convey."
+    },
+    {
+      "timestamp": [
+        26.38,
+        29.4
+      ],
+      "text": " But I believe that the heart of people"
+    },
+    {
+      "timestamp": [
+        29.4,
+        38.06
+      ],
+      "text": " um really falls back on greed and fear and uh then you know hatefulness and that sort of thing"
+    },
+    {
+      "timestamp": [
+        38.06,
+        42.16
+      ],
+      "text": " i don't believe that people are incapable of good there's a lot of good that people"
+    },
+    {
+      "timestamp": [
+        42.16,
+        50.48
+      ],
+      "text": " do and can do but that ultimately people's hearts are evil and that even if someone lived a near"
+    },
+    {
+      "timestamp": [
+        50.48,
+        55.54
+      ],
+      "text": " ideal life that they weren't perfect and that it's very likely that the next generation won't"
+    },
+    {
+      "timestamp": [
+        55.54,
+        62.02
+      ],
+      "text": " be perfect as well i also believe that god gave people free will so taking people's freedom of"
+    },
+    {
+      "timestamp": [
+        62.02,
+        69.6
+      ],
+      "text": " choice and um will uh away from them is wrong so i believe in a freedom of religion and a relative"
+    },
+    {
+      "timestamp": [
+        69.6,
+        76.82
+      ],
+      "text": " uh degree of freedom of the individual the only time that laws really make sense is when they"
+    },
+    {
+      "timestamp": [
+        76.82,
+        82.96
+      ],
+      "text": " affect other people so like parents with their children um can't harm people can't steal from"
+    },
+    {
+      "timestamp": [
+        82.96,
+        94.36
+      ],
+      "text": " people uh things like that uh i think that on this side of eternity which is a christian term that"
+    },
+    {
+      "timestamp": [
+        94.36,
+        105.98
+      ],
+      "text": " uh before jesus returns and sets things right i think an ideal system would be a democratic"
+    },
+    {
+      "timestamp": [
+        105.98,
+        111.9
+      ],
+      "text": " republic with the freedom of religion freedom of speech um with the correct checks and balances"
+    },
+    {
+      "timestamp": [
+        111.9,
+        119.1
+      ],
+      "text": " that protect from mob rule and also from an individual having too much power uh it's never"
+    },
+    {
+      "timestamp": [
+        119.1,
+        123.38
+      ],
+      "text": " going to be perfect there's always going to be back and forth but it's up to every generation"
+    },
+    {
+      "timestamp": [
+        123.38,
+        127.58
+      ],
+      "text": " to try to make things as right as they can and they're going to course correct from the past"
+    },
+    {
+      "timestamp": [
+        127.58,
+        132.46
+      ],
+      "text": " and then the next generation is going to course correct from them i don't believe we can arrive"
+    },
+    {
+      "timestamp": [
+        132.46,
+        138.64
+      ],
+      "text": " at a perfect situation or a perfect society forever but it's the job of every generation to"
+    },
+    {
+      "timestamp": [
+        138.64,
+        147.76
+      ],
+      "text": " try until the lord comes i i don't believe that america is perfect i think that a lot of its"
+    },
+    {
+      "timestamp": [
+        147.76,
+        157.02
+      ],
+      "text": " concepts are the closest we'll get to a sustainable society uh now i i'm referring more to its"
+    },
+    {
+      "timestamp": [
+        157.02,
+        164.74
+      ],
+      "text": " inception and then its moral corrections over time so if you kind of took the initial implementation"
+    },
+    {
+      "timestamp": [
+        164.74,
+        171.14
+      ],
+      "text": " of the constitution and declaration of independence all that kinds of stuff all its writings but then"
+    },
+    {
+      "timestamp": [
+        171.14,
+        178.42
+      ],
+      "text": " you also added like the abolishment of slavery and um that women can vote that men and women are"
+    },
+    {
+      "timestamp": [
+        178.42,
+        184.96
+      ],
+      "text": " equal that all races are equal that uh there's freedom of religion that sort of thing i think"
+    },
+    {
+      "timestamp": [
+        184.96,
+        189.34
+      ],
+      "text": " that when you implement all those things i think that's about as close as you can get to a perfect"
+    },
+    {
+      "timestamp": [
+        189.34,
+        189.9
+      ],
+      "text": " society."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "audio_file": "69a5d894d35286e2b0ff3f6c_audio_ranking_explanation_1780336569952.webm",
+  "transcript": " Well, the Futurist Utopia is first because it feels like it's a good option that we're currently not using but can lead us to greater advancements obviously in the future. The Modern Green is second because I feel like we rely too much on disastrous ways of energy and production nowadays and I feel like we gotta revert a lot of that. Rule of Law is third, because I feel like this is what we're running right now, which is pretty quote-unquote good, but I feel like there's always a better solution. Primitivist is fourth, and it's just kind of like a, I would say a rural type, which I've experienced kind of when I've done travel, and that is not that bad. can be tricky because I feel like they have a bunch of random rules that may hold them back and that kind of doesn't make me want it yeah yeah I feel like they don't yeah I didn't really know what humans actually need it's just looking at us as statistics so I may try to help us but may not know how to and and moral people aren't as trustworthy as i would believe them to want them to be and i feel like that would just lead to bad things happening in the end of people's bad actions",
+  "language": "unknown",
+  "processing_time_seconds": 20.034668,
+  "timestamp": "2026-06-08T09:12:20.295351",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.88
+      ],
+      "text": " Well, the Futurist Utopia is first because it feels like it's a good option that we're"
+    },
+    {
+      "timestamp": [
+        7.88,
+        14.08
+      ],
+      "text": " currently not using but can lead us to greater advancements obviously in the future."
+    },
+    {
+      "timestamp": [
+        14.08,
+        21.36
+      ],
+      "text": " The Modern Green is second because I feel like we rely too much on disastrous ways of"
+    },
+    {
+      "timestamp": [
+        21.36,
+        27.52
+      ],
+      "text": " energy and production nowadays and I feel like we gotta revert a lot of that."
+    },
+    {
+      "timestamp": [
+        27.52,
+        30.84
+      ],
+      "text": " Rule of Law is third, because I feel like this is what we're running right now, which"
+    },
+    {
+      "timestamp": [
+        30.84,
+        37.5
+      ],
+      "text": " is pretty quote-unquote good, but I feel like there's always a better solution."
+    },
+    {
+      "timestamp": [
+        37.5,
+        46.24
+      ],
+      "text": " Primitivist is fourth, and it's just kind of like a, I would say a rural type, which"
+    },
+    {
+      "timestamp": [
+        46.24,
+        52.36
+      ],
+      "text": " I've experienced kind of when I've done travel, and that is not that bad."
+    },
+    {
+      "timestamp": [
+        52.36,
+        58.66
+      ],
+      "text": " can be tricky because I feel like they have a bunch of random rules that may"
+    },
+    {
+      "timestamp": [
+        58.66,
+        68.62
+      ],
+      "text": " hold them back and that kind of doesn't make me want it yeah yeah I feel like"
+    },
+    {
+      "timestamp": [
+        68.62,
+        72.46
+      ],
+      "text": " they don't yeah I didn't really know what humans actually need it's just"
+    },
+    {
+      "timestamp": [
+        72.46,
+        79.12
+      ],
+      "text": " looking at us as statistics so I may try to help us but may not know how to and"
+    },
+    {
+      "timestamp": [
+        79.12,
+        91.44
+      ],
+      "text": " and moral people aren't as trustworthy as i would believe them to want them to be"
+    },
+    {
+      "timestamp": [
+        91.44,
+        99.12
+      ],
+      "text": " and i feel like that would just lead to bad things happening in the end of people's bad actions"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "audio_file": "6a14d8fd539a02a7fe9b4980_audio_ranking_explanation_1780403400756.webm",
+  "transcript": " I ranked societies this way because, number one, these are the most desirable to me in the sense that speaking to moral commonwealth, I feel that it's the nature versus nurture argument. And I think moral commonwealth and intermorality society speaks to both of those in the sense of creating the best nature versus nurture scenario for humans to evolve and grow in to become morally and ethically superior to our ancestors. um and that's kind of how i ranked everything um when you get down to institutional utopia and ai-centered utopia you have a very small group deciding everything for everyone and i feel like you know history has kind of taught us that that's not the way to go We need differing opinions. We need contradictory people. We need different ideas to catapult us forward. Debate and argument is not necessarily a bad thing. And in these societies, you remove that thought and creativity from everyone. AI-centered utopias is the worst society to me hands down because you've removed all human essence from a society. People are essentially just robots. People need purpose to live their life. People are not going to want to hear, Here's your ration for the day. Here's your allotment from a computer. I think that they would much rather have a sense of community, which is how I feel the first three and specifically moral commonwealth. That's the essence that it gave. Community, prioritization of people, prioritization of coming together, working together as a team, prioritization of the collective opinion um so yeah",
+  "language": "unknown",
+  "processing_time_seconds": 30.319535,
+  "timestamp": "2026-06-08T11:03:31.426810",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.48
+      ],
+      "text": " I ranked societies this way because, number one, these are the most desirable to me in the sense that speaking to moral commonwealth, I feel that it's the nature versus nurture argument."
+    },
+    {
+      "timestamp": [
+        23.48,
+        49.68
+      ],
+      "text": " And I think moral commonwealth and intermorality society speaks to both of those in the sense of creating the best nature versus nurture scenario for humans to evolve and grow in to become morally and ethically superior to our ancestors."
+    },
+    {
+      "timestamp": [
+        51.46,
+        49.68
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        60.22,
+        71.52
+      ],
+      "text": " um and that's kind of how i ranked everything um when you get down to institutional utopia and ai-centered utopia you have a very small group deciding everything for everyone"
+    },
+    {
+      "timestamp": [
+        71.52,
+        78.2
+      ],
+      "text": " and i feel like you know history has kind of taught us that that's not the way to go"
+    },
+    {
+      "timestamp": [
+        78.2,
+        88.56
+      ],
+      "text": " We need differing opinions. We need contradictory people. We need different ideas to catapult us"
+    },
+    {
+      "timestamp": [
+        88.56,
+        97.22
+      ],
+      "text": " forward. Debate and argument is not necessarily a bad thing. And in these societies, you remove"
+    },
+    {
+      "timestamp": [
+        97.22,
+        107.64
+      ],
+      "text": " that thought and creativity from everyone. AI-centered utopias is the worst society to me"
+    },
+    {
+      "timestamp": [
+        107.64,
+        116.36
+      ],
+      "text": " hands down because you've removed all human essence from a society. People are essentially"
+    },
+    {
+      "timestamp": [
+        116.36,
+        122.68
+      ],
+      "text": " just robots. People need purpose to live their life. People are not going to want to hear,"
+    },
+    {
+      "timestamp": [
+        122.68,
+        129.48
+      ],
+      "text": " Here's your ration for the day. Here's your allotment from a computer. I think that they"
+    },
+    {
+      "timestamp": [
+        129.48,
+        137.34
+      ],
+      "text": " would much rather have a sense of community, which is how I feel the first three and specifically"
+    },
+    {
+      "timestamp": [
+        137.34,
+        143.98
+      ],
+      "text": " moral commonwealth. That's the essence that it gave. Community, prioritization of people,"
+    },
+    {
+      "timestamp": [
+        144.68,
+        151.38
+      ],
+      "text": " prioritization of coming together, working together as a team, prioritization of the"
+    },
+    {
+      "timestamp": [
+        151.38,
+        155.84
+      ],
+      "text": " collective opinion um so yeah"
+    }
+  ]
+}

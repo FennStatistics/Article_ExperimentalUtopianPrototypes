@@ -1,0 +1,24 @@
+{
+  "audio_file": "697cb3a2bae053be15cdd35e_audio_missing_utopia_1780274597549.webm",
+  "transcript": " So, one value I felt was missing was I didn't see much emphasis on equality, social justices and community relationships, which I think are important parts of a successful society.",
+  "language": "unknown",
+  "processing_time_seconds": 5.477712,
+  "timestamp": "2026-06-08T08:56:32.389387",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.62
+      ],
+      "text": " So, one value I felt was missing was I didn't see much emphasis on equality, social justices"
+    },
+    {
+      "timestamp": [
+        10.62,
+        20.76
+      ],
+      "text": " and community relationships, which I think are important parts of a successful society."
+    }
+  ]
+}

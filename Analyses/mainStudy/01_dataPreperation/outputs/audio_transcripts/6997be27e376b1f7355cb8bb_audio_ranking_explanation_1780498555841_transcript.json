@@ -1,0 +1,136 @@
+{
+  "audio_file": "6997be27e376b1f7355cb8bb_audio_ranking_explanation_1780498555841.webm",
+  "transcript": " I chose to rank the religious utopia at the top because I am a very spiritual person and that's sort of how I believe and how I act and I think if most people acted like me and followed the religious customs that are in place it serves as a good set of laws to rule over this utopia. I think people that are very spiritually and religiously motivated tend to not break the law because not only is the law kind of sort of tied to religion, but religion is also tied to the law in the sense where thou shall not kill, thou shall not steal, and etc. where I think that if religion was the end-all be-all, these rules would already be in place as it is, kind of like in today's society where you can't steal from someone, you can't kill someone. So with this guiding force being religion, I think more people who are religious would tend to follow suit. And hopefully that in this religious-based utopia, most people are faithful and lead their lives as God would want them to be. Compared to my least preferred society, AI-centered utopia, I do not like to depend on computers, robots, technology. I think that if you give that too much power, it can result in very negative consequences. And I just don't necessarily trust how AI would necessarily lead a country or a group of people. I think that you need people working for people and not computers taking their spots.",
+  "language": "unknown",
+  "processing_time_seconds": 24.13908,
+  "timestamp": "2026-06-08T09:06:23.813665",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.38
+      ],
+      "text": " I chose to rank the religious utopia at the top"
+    },
+    {
+      "timestamp": [
+        5.38,
+        8.42
+      ],
+      "text": " because I am a very spiritual person"
+    },
+    {
+      "timestamp": [
+        8.42,
+        13.38
+      ],
+      "text": " and that's sort of how I believe and how I act"
+    },
+    {
+      "timestamp": [
+        13.38,
+        16.76
+      ],
+      "text": " and I think if most people acted like me"
+    },
+    {
+      "timestamp": [
+        16.76,
+        20.98
+      ],
+      "text": " and followed the religious customs that are in place"
+    },
+    {
+      "timestamp": [
+        20.98,
+        24.8
+      ],
+      "text": " it serves as a good set of laws"
+    },
+    {
+      "timestamp": [
+        24.8,
+        28.64
+      ],
+      "text": " to rule over this utopia."
+    },
+    {
+      "timestamp": [
+        30.0,
+        51.9
+      ],
+      "text": " I think people that are very spiritually and religiously motivated tend to not break the law because not only is the law kind of sort of tied to religion, but religion is also tied to the law in the sense where thou shall not kill, thou shall not steal, and etc."
+    },
+    {
+      "timestamp": [
+        51.9,
+        59.1
+      ],
+      "text": " where I think that if religion was the end-all be-all, these rules would already be in place"
+    },
+    {
+      "timestamp": [
+        59.1,
+        63.92
+      ],
+      "text": " as it is, kind of like in today's society where you can't steal from someone, you can't"
+    },
+    {
+      "timestamp": [
+        63.92,
+        64.56
+      ],
+      "text": " kill someone."
+    },
+    {
+      "timestamp": [
+        65.48,
+        72.2
+      ],
+      "text": " So with this guiding force being religion, I think more people who are religious would"
+    },
+    {
+      "timestamp": [
+        72.2,
+        74.28
+      ],
+      "text": " tend to follow suit."
+    },
+    {
+      "timestamp": [
+        74.28,
+        86.94
+      ],
+      "text": " And hopefully that in this religious-based utopia, most people are faithful and lead their lives as God would want them to be."
+    },
+    {
+      "timestamp": [
+        87.28,
+        98.06
+      ],
+      "text": " Compared to my least preferred society, AI-centered utopia, I do not like to depend on computers, robots, technology."
+    },
+    {
+      "timestamp": [
+        98.06,
+        105.58
+      ],
+      "text": " I think that if you give that too much power, it can result in very negative consequences."
+    },
+    {
+      "timestamp": [
+        106.56,
+        116.24
+      ],
+      "text": " And I just don't necessarily trust how AI would necessarily lead a country or a group of people."
+    },
+    {
+      "timestamp": [
+        116.5,
+        122.6
+      ],
+      "text": " I think that you need people working for people and not computers taking their spots."
+    }
+  ]
+}

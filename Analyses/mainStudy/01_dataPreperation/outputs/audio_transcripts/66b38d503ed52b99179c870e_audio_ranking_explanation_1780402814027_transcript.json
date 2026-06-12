@@ -1,0 +1,108 @@
+{
+  "audio_file": "66b38d503ed52b99179c870e_audio_ranking_explanation_1780402814027.webm",
+  "transcript": " so i'm not a religious person i knew i will rank the religious utopia last um she's very far-fetched very controlling which is what religion is is very controlling i feel like the most normal one of realistic where i'll be okay with where there'll be some good order without feeling i'll be controlled would be the more commonwealth so i knew that would be the first one. Number two, the science one appealed to me. The order would have seemed fair, very innovative. It's very much relying on science, and science is fact. I'm not really into the green theme, but it was the best option after that one. That's why I chose the modern theme number three rule of law number four seems kind of similar what we have now just kind of but i don't know i guess we're used to it i'm not really a fan of the low tech but i don't hate that one the most so that's why i'm a five six the ai center ai makes mistakes i don't know that could go really good or really bad is really risky i'm not willing to try the risk And then after that is the religion utopia. I will never go for religious utopia. And then that's it.",
+  "language": "unknown",
+  "processing_time_seconds": 19.944104,
+  "timestamp": "2026-06-08T08:39:15.932119",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.8
+      ],
+      "text": " so i'm not a religious person i knew i will rank the religious utopia last um she's very"
+    },
+    {
+      "timestamp": [
+        11.8,
+        18.54
+      ],
+      "text": " far-fetched very controlling which is what religion is is very controlling i feel like the"
+    },
+    {
+      "timestamp": [
+        18.54,
+        25.42
+      ],
+      "text": " most normal one of realistic where i'll be okay with where there'll be some good order without"
+    },
+    {
+      "timestamp": [
+        25.42,
+        29.44
+      ],
+      "text": " feeling i'll be controlled would be the more commonwealth so i knew that would be the first"
+    },
+    {
+      "timestamp": [
+        29.44,
+        38.9
+      ],
+      "text": " one. Number two, the science one appealed to me. The order would have seemed fair, very"
+    },
+    {
+      "timestamp": [
+        38.9,
+        48.38
+      ],
+      "text": " innovative. It's very much relying on science, and science is fact. I'm not really into the"
+    },
+    {
+      "timestamp": [
+        48.38,
+        55.8
+      ],
+      "text": " green theme, but it was the best option after that one. That's why I chose the modern theme"
+    },
+    {
+      "timestamp": [
+        55.8,
+        62.2
+      ],
+      "text": " number three rule of law number four seems kind of similar what we have now just kind of but"
+    },
+    {
+      "timestamp": [
+        62.2,
+        68.62
+      ],
+      "text": " i don't know i guess we're used to it i'm not really a fan of the low tech but i don't hate"
+    },
+    {
+      "timestamp": [
+        68.62,
+        75.68
+      ],
+      "text": " that one the most so that's why i'm a five six the ai center ai makes mistakes i don't know"
+    },
+    {
+      "timestamp": [
+        75.68,
+        81.32
+      ],
+      "text": " that could go really good or really bad is really risky i'm not willing to try the risk"
+    },
+    {
+      "timestamp": [
+        81.32,
+        85.96
+      ],
+      "text": " And then after that is the religion utopia."
+    },
+    {
+      "timestamp": [
+        85.96,
+        88.06
+      ],
+      "text": " I will never go for religious utopia."
+    },
+    {
+      "timestamp": [
+        89.82,
+        93.28
+      ],
+      "text": " And then that's it."
+    }
+  ]
+}

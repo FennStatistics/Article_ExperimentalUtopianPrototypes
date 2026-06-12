@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a14c768aa7454de38443fd8_audio_ranking_explanation_1780261715581.webm",
+  "transcript": " I've recorded this, well, I put it like this because for the lowest, of course, faith base is going to be the last result because so many people disagree on faith, like Christian, Baptist, you know, Judaism, it's a lot of religions. And the people go by religion, some people are atheists and don't believe in God, so we have a lot of that going on. So I put the one at the top because we all want sustainability and we want to be secure. So they seem like the most secure one. Everything else just falls after, you know, AI, you have the law one, you have the immatality. You're going to have so many people that's going to disagree with each other. And even if you're getting punished by the law, even now, you still have people that's out there doing whatever they want. So it's not really a set way that it should be. i could take something from probably like all of them and put it all together but the faith one is going to be last and the sustainability one so we can feel secure is going to be first",
+  "language": "unknown",
+  "processing_time_seconds": 16.72794,
+  "timestamp": "2026-06-08T11:02:47.232439",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.06
+      ],
+      "text": " I've recorded this, well, I put it like this because for the lowest, of course, faith base is going to be the last result because so many people disagree on faith, like Christian, Baptist, you know, Judaism, it's a lot of religions."
+    },
+    {
+      "timestamp": [
+        18.6,
+        23.6
+      ],
+      "text": " And the people go by religion, some people are atheists and don't believe in God, so we have a lot of that going on."
+    },
+    {
+      "timestamp": [
+        23.94,
+        23.6
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        28.64,
+        29.14
+      ],
+      "text": " So I put the one at the top because we all want sustainability and we want to be secure."
+    },
+    {
+      "timestamp": [
+        30.72,
+        31.28
+      ],
+      "text": " So they seem like the most secure one."
+    },
+    {
+      "timestamp": [
+        37.84,
+        38.32
+      ],
+      "text": " Everything else just falls after, you know, AI, you have the law one, you have the immatality."
+    },
+    {
+      "timestamp": [
+        40.96,
+        41.52
+      ],
+      "text": " You're going to have so many people that's going to disagree with each other."
+    },
+    {
+      "timestamp": [
+        46.92,
+        47.46
+      ],
+      "text": " And even if you're getting punished by the law, even now, you still have people that's out there doing whatever they want."
+    },
+    {
+      "timestamp": [
+        51.9,
+        57.66
+      ],
+      "text": " So it's not really a set way that it should be. i could take something from probably like all of them and put it all together but the faith"
+    },
+    {
+      "timestamp": [
+        57.66,
+        62.14
+      ],
+      "text": " one is going to be last and the sustainability one so we can feel secure is going to be first"
+    }
+  ]
+}

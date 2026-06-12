@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a1952e70e604793be75659b_audio_ranking_explanation_1780388756205.webm",
+  "transcript": " I rank these based on what I think a society should have, and for me, a modern green utopia is the most attractive, and the least preferred as an AI-centered utopia, if you could even call it that.",
+  "language": "unknown",
+  "processing_time_seconds": 5.970108,
+  "timestamp": "2026-06-08T11:11:20.966476",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.44
+      ],
+      "text": " I rank these based on what I think a society should have, and for me, a modern green utopia"
+    },
+    {
+      "timestamp": [
+        14.44,
+        23.7
+      ],
+      "text": " is the most attractive, and the least preferred as an AI-centered utopia, if you could even"
+    },
+    {
+      "timestamp": [
+        23.7,
+        24.48
+      ],
+      "text": " call it that."
+    }
+  ]
+}

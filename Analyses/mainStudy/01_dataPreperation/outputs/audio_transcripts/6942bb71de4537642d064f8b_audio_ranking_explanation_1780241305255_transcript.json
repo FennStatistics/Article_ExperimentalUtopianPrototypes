@@ -1,0 +1,59 @@
+{
+  "audio_file": "6942bb71de4537642d064f8b_audio_ranking_explanation_1780241305255.webm",
+  "transcript": " I'm a very religious person, so I chose religious utopia as my first one. Modern green utopia feels like the most sustainable utopia to live in, and I feel like it could also be good. I also like a low-tech utopia. I think that would be good, especially in these times. i want guys utopia is the last one because that is not what i want my world to turn into which it's headed in that direction i also put moral commonwealth as five because i think it would be great if people had some morality um but also at the same time i put institutional utopia for that because I believe there still needs to be rule of law in our utopia.",
+  "language": "unknown",
+  "processing_time_seconds": 13.694785,
+  "timestamp": "2026-06-08T08:49:45.824525",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.8
+      ],
+      "text": " I'm a very religious person, so I chose religious utopia as my first one."
+    },
+    {
+      "timestamp": [
+        7.7,
+        16.6
+      ],
+      "text": " Modern green utopia feels like the most sustainable utopia to live in, and I feel like it could also be good."
+    },
+    {
+      "timestamp": [
+        16.6,
+        23.48
+      ],
+      "text": " I also like a low-tech utopia. I think that would be good, especially in these times."
+    },
+    {
+      "timestamp": [
+        24.3,
+        23.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.1,
+        41.28
+      ],
+      "text": " i want guys utopia is the last one because that is not what i want my world to turn into which it's headed in that direction i also put moral commonwealth as five because i think it would"
+    },
+    {
+      "timestamp": [
+        41.28,
+        47.54
+      ],
+      "text": " be great if people had some morality um but also at the same time i put institutional utopia"
+    },
+    {
+      "timestamp": [
+        47.54,
+        54.08
+      ],
+      "text": " for that because I believe there still needs to be rule of law in our utopia."
+    }
+  ]
+}

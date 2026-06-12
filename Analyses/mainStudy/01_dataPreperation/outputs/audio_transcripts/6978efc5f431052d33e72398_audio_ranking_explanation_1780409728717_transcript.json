@@ -1,0 +1,73 @@
+{
+  "audio_file": "6978efc5f431052d33e72398_audio_ranking_explanation_1780409728717.webm",
+  "transcript": " The reason I ranked it where it was is because I think moral commonwealth means that you have good morals, you have a good set of standards that you want to live by, like you care for your fellow neighbor, you want to see everybody succeed, and I think when it comes to morals, that's kind of what comes to mind. And then I like rule of law because we already kind of follow laws when it comes to how we live. We have to follow a certain set of laws to survive and succeed. And then I like modern utopia because, you know, living off the land and growing your own food sounds very kind of hard to do that. and then i'm religious i'm christian so i believe that a religious utopia would be good and then futuristic ai senator kind of hand in hand i think we're already work working our way towards that kind of future right now in the present day and then obviously primitive yeah let's go back in time like cavemen Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 17.816639,
+  "timestamp": "2026-06-08T08:56:26.883231",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        27.52
+      ],
+      "text": " The reason I ranked it where it was is because I think moral commonwealth means that you have good morals, you have a good set of standards that you want to live by, like you care for your fellow neighbor, you want to see everybody succeed, and I think when it comes to morals, that's kind of what comes to mind."
+    },
+    {
+      "timestamp": [
+        28.52,
+        27.52
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        36.12,
+        41.5
+      ],
+      "text": " And then I like rule of law because we already kind of follow laws when it comes to how we live. We have to follow a certain set of laws to survive and succeed."
+    },
+    {
+      "timestamp": [
+        43.26,
+        53.6
+      ],
+      "text": " And then I like modern utopia because, you know, living off the land and growing your own food sounds very kind of hard to do that."
+    },
+    {
+      "timestamp": [
+        54.86,
+        53.6
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        61.46,
+        68.14
+      ],
+      "text": " and then i'm religious i'm christian so i believe that a religious utopia would be good and then futuristic ai senator kind of hand in hand i think we're already work working our way"
+    },
+    {
+      "timestamp": [
+        68.14,
+        75.34
+      ],
+      "text": " towards that kind of future right now in the present day and then obviously primitive"
+    },
+    {
+      "timestamp": [
+        75.34,
+        80.82
+      ],
+      "text": " yeah let's go back in time like cavemen"
+    },
+    {
+      "timestamp": [
+        80.82,
+        110.8
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

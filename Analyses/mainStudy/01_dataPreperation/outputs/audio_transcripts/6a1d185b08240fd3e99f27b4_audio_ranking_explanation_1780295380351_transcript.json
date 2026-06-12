@@ -1,0 +1,262 @@
+{
+  "audio_file": "6a1d185b08240fd3e99f27b4_audio_ranking_explanation_1780295380351.webm",
+  "transcript": " Well, first things first, the modern green utopia, I would love to live in that type of world because everything would have a balance between humans and nature. And I feel like that's how it was when, you know, the first cave men or the first humans did come. They had to be able to maintain the balance between themselves and the nature that was there in abundance. It was a, the nature was in abundance all those years ago. So I feel like if we be able to learn like that, we could appreciate the world that we live on, you know, a little more. And then the inner morality, if everybody, I'm not saying everybody's supposed to have common morals, but if everyone have set morals that we follow i feel like everyone would just go through life a certain way and it would just be more like safe in a way and then low tech small scale the tech it creates the tech creates different kind of thing, how to word it. Tech creates a different kind of, like, I don't know how to explain it, like how pollution, that's what it's called, pollution. Tech creates a different kind of pollution that if we had less tech, the pollution in the air would not be as much, and the climate change it's like a chain effect a chain effect so if we lower some things you know everything else will start being better I don't know the rule of law I personally do like this that's why it's pretty high up on the list the institutional utopia I where especially where I live personally if we had that where i lived the crime and other things would be way lower because it will be set laws and it will be clear consequences for those laws it's it's kind of out of haze and reading in between the lines when it comes to laws so i that's why that one's more higher up on the that's futurist utopia. I like where science and technology is going, but I don't want it to go too far, if that makes sense. And science is a lot of what makes up our body. Like a lot of that research goes into medical research and things like that. So it is needed. as long as it can be able to go good with humans. And religion, I just feel so strongly about religion because it's such a touchy subject. Religion is, it shouldn't, faith should just be in you, whether or not you believe in religion or you follow a religion. Faith is faith. so i don't feel like singling everybody into a certain group and forcing it onto them i don't know i don't like religion that much and an ai-centered utopia again have no problem with it it just shouldn't get out of hand so that's why that's the last preferred um world i don't know I feel like an AI-centered utopia will get out of hand and not a lot of people will agree with it either.",
+  "language": "unknown",
+  "processing_time_seconds": 45.638131,
+  "timestamp": "2026-06-08T11:24:26.195270",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.12
+      ],
+      "text": " Well, first things first, the modern green utopia, I would love to live in that type of world because everything would have a balance between humans and nature."
+    },
+    {
+      "timestamp": [
+        15.12,
+        23.32
+      ],
+      "text": " And I feel like that's how it was when, you know, the first cave men or the first humans did come."
+    },
+    {
+      "timestamp": [
+        23.72,
+        29.28
+      ],
+      "text": " They had to be able to maintain the balance between themselves and the nature that was there in abundance."
+    },
+    {
+      "timestamp": [
+        29.72,
+        29.28
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        39.68,
+        46.28
+      ],
+      "text": " It was a, the nature was in abundance all those years ago. So I feel like if we be able to learn like that, we could appreciate the world that we live on, you know, a little more. And then"
+    },
+    {
+      "timestamp": [
+        46.28,
+        53.42
+      ],
+      "text": " the inner morality, if everybody, I'm not saying everybody's supposed to have common morals, but"
+    },
+    {
+      "timestamp": [
+        53.42,
+        61.02
+      ],
+      "text": " if everyone have set morals that we follow i feel like everyone would just go through life"
+    },
+    {
+      "timestamp": [
+        61.02,
+        73.1
+      ],
+      "text": " a certain way and it would just be more like safe in a way and then low tech small scale the tech"
+    },
+    {
+      "timestamp": [
+        75.26,
+        79.1
+      ],
+      "text": " it creates the tech creates different kind of"
+    },
+    {
+      "timestamp": [
+        81.58,
+        79.1
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        92.82,
+        93.96
+      ],
+      "text": " thing, how to word it. Tech creates a different kind of, like, I don't know how to explain it,"
+    },
+    {
+      "timestamp": [
+        99.02,
+        105.48
+      ],
+      "text": " like how pollution, that's what it's called, pollution. Tech creates a different kind of pollution that if we had less tech, the pollution in the air would not be as much, and the climate"
+    },
+    {
+      "timestamp": [
+        105.48,
+        111.3
+      ],
+      "text": " change it's like a chain effect a chain effect so if we lower some things you know everything else"
+    },
+    {
+      "timestamp": [
+        111.3,
+        121.46
+      ],
+      "text": " will start being better I don't know the rule of law I personally do like this that's why it's"
+    },
+    {
+      "timestamp": [
+        121.46,
+        129.32
+      ],
+      "text": " pretty high up on the list the institutional utopia I where especially where I live personally"
+    },
+    {
+      "timestamp": [
+        129.32,
+        138.3
+      ],
+      "text": " if we had that where i lived the crime and other things would be way lower because it will be set"
+    },
+    {
+      "timestamp": [
+        138.3,
+        147.7
+      ],
+      "text": " laws and it will be clear consequences for those laws it's it's kind of out of haze and"
+    },
+    {
+      "timestamp": [
+        147.7,
+        154.78
+      ],
+      "text": " reading in between the lines when it comes to laws so i that's why that one's more higher up on the"
+    },
+    {
+      "timestamp": [
+        154.78,
+        158.68
+      ],
+      "text": " that's futurist utopia."
+    },
+    {
+      "timestamp": [
+        161.1,
+        165.08
+      ],
+      "text": " I like where science and technology is going,"
+    },
+    {
+      "timestamp": [
+        165.08,
+        168.76
+      ],
+      "text": " but I don't want it to go too far, if that makes sense."
+    },
+    {
+      "timestamp": [
+        168.76,
+        173.76
+      ],
+      "text": " And science is a lot of what makes up our body."
+    },
+    {
+      "timestamp": [
+        174.56,
+        179.56
+      ],
+      "text": " Like a lot of that research goes into medical research"
+    },
+    {
+      "timestamp": [
+        180.04,
+        181.16
+      ],
+      "text": " and things like that."
+    },
+    {
+      "timestamp": [
+        181.16,
+        182.52
+      ],
+      "text": " So it is needed."
+    },
+    {
+      "timestamp": [
+        184.78,
+        188.9
+      ],
+      "text": " as long as it can be able to go good with humans."
+    },
+    {
+      "timestamp": [
+        189.9,
+        193.32
+      ],
+      "text": " And religion, I just feel so strongly about religion"
+    },
+    {
+      "timestamp": [
+        193.32,
+        196.12
+      ],
+      "text": " because it's such a touchy subject."
+    },
+    {
+      "timestamp": [
+        197.92,
+        202.4
+      ],
+      "text": " Religion is, it shouldn't, faith should just be in you,"
+    },
+    {
+      "timestamp": [
+        202.66,
+        206.16
+      ],
+      "text": " whether or not you believe in religion"
+    },
+    {
+      "timestamp": [
+        206.16,
+        208.5
+      ],
+      "text": " or you follow a religion."
+    },
+    {
+      "timestamp": [
+        210.02,
+        211.98
+      ],
+      "text": " Faith is faith."
+    },
+    {
+      "timestamp": [
+        212.76,
+        212.62
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        223.1,
+        230.86
+      ],
+      "text": " so i don't feel like singling everybody into a certain group and forcing it onto them i don't know i don't like religion that much and an ai-centered utopia again have no problem with it"
+    },
+    {
+      "timestamp": [
+        230.86,
+        240.62
+      ],
+      "text": " it just shouldn't get out of hand so that's why that's the last preferred um world i don't know"
+    },
+    {
+      "timestamp": [
+        240.62,
+        249.82
+      ],
+      "text": " I feel like an AI-centered utopia will get out of hand and not a lot of people will agree with it either."
+    }
+  ]
+}

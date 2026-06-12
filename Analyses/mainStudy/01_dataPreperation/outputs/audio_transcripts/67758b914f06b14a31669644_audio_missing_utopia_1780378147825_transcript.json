@@ -1,0 +1,24 @@
+{
+  "audio_file": "67758b914f06b14a31669644_audio_missing_utopia_1780378147825.webm",
+  "transcript": " I think a good society would have freedom, strong families, good values, and fair laws. It should let people work hard, succeed, and take responsibility for themselves.",
+  "language": "unknown",
+  "processing_time_seconds": 5.364641,
+  "timestamp": "2026-06-08T08:46:41.615792",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        6.4
+      ],
+      "text": " I think a good society would have freedom, strong families, good values, and fair laws."
+    },
+    {
+      "timestamp": [
+        6.74,
+        10.28
+      ],
+      "text": " It should let people work hard, succeed, and take responsibility for themselves."
+    }
+  ]
+}

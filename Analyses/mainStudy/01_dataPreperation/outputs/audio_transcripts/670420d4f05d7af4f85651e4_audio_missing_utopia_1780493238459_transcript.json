@@ -1,0 +1,108 @@
+{
+  "audio_file": "670420d4f05d7af4f85651e4_audio_missing_utopia_1780493238459.webm",
+  "transcript": " But looking back at the seven societies I ranked, there were many important values or approaches that were absent from them all. Were there? They were pretty straightforward with what they had. But a brief, typical type of society, future society that I would feel missing? You probably much hit every nail on it. I can't think of one specifically. but the only one that brings anything to mind would be like a Star Wars-type theme. Flying cars, which we already have. Like, everything is robotic. Everything is AI-driven. It's almost like a Tron type of a deal. That's the only thing I can think of, futuristic-wise, because everything else does not seem to go in another direction. that's AI, futuristic, robotic, that's what we already have. So that's what I think.",
+  "language": "unknown",
+  "processing_time_seconds": 14.997974,
+  "timestamp": "2026-06-08T08:41:04.529221",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.24
+      ],
+      "text": " But looking back at the seven societies I ranked, there were many important values or approaches that were absent from them all."
+    },
+    {
+      "timestamp": [
+        10.38,
+        14.54
+      ],
+      "text": " Were there? They were pretty straightforward with what they had."
+    },
+    {
+      "timestamp": [
+        15.7,
+        22.1
+      ],
+      "text": " But a brief, typical type of society, future society that I would feel missing?"
+    },
+    {
+      "timestamp": [
+        24.32,
+        28.24
+      ],
+      "text": " You probably much hit every nail on it. I can't think of one specifically."
+    },
+    {
+      "timestamp": [
+        28.7,
+        28.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.38,
+        35.54
+      ],
+      "text": " but the only one that brings anything to mind would be like a Star Wars-type theme."
+    },
+    {
+      "timestamp": [
+        35.68,
+        38.08
+      ],
+      "text": " Flying cars, which we already have."
+    },
+    {
+      "timestamp": [
+        39.32,
+        43.84
+      ],
+      "text": " Like, everything is robotic."
+    },
+    {
+      "timestamp": [
+        44.28,
+        45.48
+      ],
+      "text": " Everything is AI-driven."
+    },
+    {
+      "timestamp": [
+        45.72,
+        47.76
+      ],
+      "text": " It's almost like a Tron type of a deal."
+    },
+    {
+      "timestamp": [
+        48.1,
+        51.36
+      ],
+      "text": " That's the only thing I can think of, futuristic-wise,"
+    },
+    {
+      "timestamp": [
+        51.62,
+        55.38
+      ],
+      "text": " because everything else does not seem to go in another direction."
+    },
+    {
+      "timestamp": [
+        55.38,
+        61.26
+      ],
+      "text": " that's AI, futuristic, robotic, that's what we already have."
+    },
+    {
+      "timestamp": [
+        61.54,
+        64.16
+      ],
+      "text": " So that's what I think."
+    }
+  ]
+}

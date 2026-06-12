@@ -1,0 +1,52 @@
+{
+  "audio_file": "5c84ed7d4b0de20019350e1e_audio_ranking_explanation_1780454834907.webm",
+  "transcript": " Um, well, I don't really think that any of these societies sound ideal. I do think the less power is in control of like a strong institution, like the law, or an AI, I think it would be better if it's more community focused. And while I don't believe that people should put all of their eggs and like the basket of a religious utopia like people should still strive to accomplish things themselves i do think it's important to have a shared moral structure and i think religion is the easiest way to accomplish that for most people",
+  "language": "unknown",
+  "processing_time_seconds": 10.307588,
+  "timestamp": "2026-06-08T08:13:37.916016",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.76
+      ],
+      "text": " Um, well, I don't really think that any of these societies sound ideal. I do think the"
+    },
+    {
+      "timestamp": [
+        8.76,
+        20.24
+      ],
+      "text": " less power is in control of like a strong institution, like the law, or an AI, I think"
+    },
+    {
+      "timestamp": [
+        20.24,
+        27.68
+      ],
+      "text": " it would be better if it's more community focused. And while I don't believe that people"
+    },
+    {
+      "timestamp": [
+        27.68,
+        35.52
+      ],
+      "text": " should put all of their eggs and like the basket of a religious utopia like people should still"
+    },
+    {
+      "timestamp": [
+        35.52,
+        42.72
+      ],
+      "text": " strive to accomplish things themselves i do think it's important to have a shared moral structure"
+    },
+    {
+      "timestamp": [
+        43.44,
+        49.04
+      ],
+      "text": " and i think religion is the easiest way to accomplish that for most people"
+    }
+  ]
+}

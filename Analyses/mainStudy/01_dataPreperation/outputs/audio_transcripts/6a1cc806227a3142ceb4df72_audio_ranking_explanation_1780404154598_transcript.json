@@ -1,0 +1,164 @@
+{
+  "audio_file": "6a1cc806227a3142ceb4df72_audio_ranking_explanation_1780404154598.webm",
+  "transcript": " I chose Modern Green Utopia because, from what I read, it was sustainable and secure. I think a society that also preserves nature and the earth we live on is very important. My least favorite was AI centered utopia. I don't believe that there's certain things that AI cannot replicate or understand. And whilst the results may be optimal, optimization is not necessarily towards the needs of the people as well. i think it wouldn't take into account or wouldn't be able to have sympathy or consideration for people and would just be based about well how can we make this better in a i guess resourceful sense um i am not a fan of religious based utopias um worshipping to a certain extent i am religious however i feel as though it could get a little bit out of hand. Primitivist utopia. I do believe technology is essential for the way a lot of us live today. I think evolution requires innovation. Moral commonwealth, I don't think it's smart to depend on everybody's individual morality. There are things like mental health issues or things along that nature that could affect somebody's morality and not everybody's going to be sight seeing eye to eye futurist utopia which is based on science and innovation i don't feel it's for the same reason i don't uh agree with the ai centered utopia whereas it might be based on optimization but it's not taking to account the resources that the natural resources provided as well as the well-being of people i think it will be based just on optimizing or getting results institutional utopia i feel is a lot like the world we live in right now um being governed by one central rule of law like rather than morality so i think that's better Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 32.957488,
+  "timestamp": "2026-06-08T11:21:23.680850",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.76
+      ],
+      "text": " I chose Modern Green Utopia because, from what I read, it was sustainable and secure."
+    },
+    {
+      "timestamp": [
+        12.76,
+        27.12
+      ],
+      "text": " I think a society that also preserves nature and the earth we live on is very important."
+    },
+    {
+      "timestamp": [
+        27.12,
+        32.04
+      ],
+      "text": " My least favorite was AI centered utopia."
+    },
+    {
+      "timestamp": [
+        32.04,
+        39.9
+      ],
+      "text": " I don't believe that there's certain things that AI cannot replicate or understand."
+    },
+    {
+      "timestamp": [
+        39.9,
+        49.46
+      ],
+      "text": " And whilst the results may be optimal, optimization is not necessarily towards the needs of the"
+    },
+    {
+      "timestamp": [
+        49.46,
+        52.64
+      ],
+      "text": " people as well."
+    },
+    {
+      "timestamp": [
+        52.64,
+        61.6
+      ],
+      "text": " i think it wouldn't take into account or wouldn't be able to have sympathy or consideration for"
+    },
+    {
+      "timestamp": [
+        61.6,
+        73.12
+      ],
+      "text": " people and would just be based about well how can we make this better in a i guess resourceful sense"
+    },
+    {
+      "timestamp": [
+        74.56,
+        73.12
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        84.48,
+        94.16
+      ],
+      "text": " um i am not a fan of religious based utopias um worshipping to a certain extent i am religious however i feel as though it could get"
+    },
+    {
+      "timestamp": [
+        94.16,
+        103.72
+      ],
+      "text": " a little bit out of hand. Primitivist utopia. I do believe technology is essential for the"
+    },
+    {
+      "timestamp": [
+        103.72,
+        115.52
+      ],
+      "text": " way a lot of us live today. I think evolution requires innovation. Moral commonwealth,"
+    },
+    {
+      "timestamp": [
+        115.52,
+        123.42
+      ],
+      "text": " I don't think it's smart to depend on everybody's individual morality. There are things like"
+    },
+    {
+      "timestamp": [
+        123.42,
+        130.34
+      ],
+      "text": " mental health issues or things along that nature that could affect somebody's morality"
+    },
+    {
+      "timestamp": [
+        130.34,
+        136.14
+      ],
+      "text": " and not everybody's going to be sight seeing eye to eye futurist utopia which is based"
+    },
+    {
+      "timestamp": [
+        136.14,
+        144.0
+      ],
+      "text": " on science and innovation i don't feel it's for the same reason i don't uh agree with"
+    },
+    {
+      "timestamp": [
+        144.0,
+        149.82
+      ],
+      "text": " the ai centered utopia whereas it might be based on optimization but it's not taking"
+    },
+    {
+      "timestamp": [
+        149.82,
+        157.58
+      ],
+      "text": " to account the resources that the natural resources provided as well as the well-being of"
+    },
+    {
+      "timestamp": [
+        158.86,
+        163.58
+      ],
+      "text": " people i think it will be based just on optimizing or getting results"
+    },
+    {
+      "timestamp": [
+        164.38,
+        170.78
+      ],
+      "text": " institutional utopia i feel is a lot like the world we live in right now um being governed by"
+    },
+    {
+      "timestamp": [
+        172.3,
+        179.74
+      ],
+      "text": " one central rule of law like rather than morality so i think that's better"
+    },
+    {
+      "timestamp": [
+        179.82,
+        209.8
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

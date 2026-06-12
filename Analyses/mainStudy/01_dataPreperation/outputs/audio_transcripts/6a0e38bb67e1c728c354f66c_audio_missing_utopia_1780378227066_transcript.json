@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a0e38bb67e1c728c354f66c_audio_missing_utopia_1780378227066.webm",
+  "transcript": " I think balance was lacking from a lot of them. They were focused too strongly on one particular thing. And I think an ideal future society would perfect the balance between different things.",
+  "language": "unknown",
+  "processing_time_seconds": 5.496811,
+  "timestamp": "2026-06-08T10:45:56.344746",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.5
+      ],
+      "text": " I think balance was lacking from a lot of them."
+    },
+    {
+      "timestamp": [
+        5.4,
+        9.96
+      ],
+      "text": " They were focused too strongly on one particular thing."
+    },
+    {
+      "timestamp": [
+        11.82,
+        23.66
+      ],
+      "text": " And I think an ideal future society would perfect the balance between different things."
+    }
+  ]
+}

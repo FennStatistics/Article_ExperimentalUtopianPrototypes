@@ -1,0 +1,241 @@
+{
+  "audio_file": "69c04ef1c9c3020ebf70e0fe_audio_ranking_explanation_1780257459062.webm",
+  "transcript": " The reason why I ranked these societies this way or the societies I would prefer is because I believe that, you know, science and technology definitely should lead the way in terms of a society becoming a utopia, right? I would like if you just look at history, the more technology we've discovered, the more science we have, the more problems we can solve, right? There are diseases that are around, that were around that, you know, we were able to manage or mitigate or minimize due to science, innovations in science and innovations in technology, right? Keep pushing the needle forward or, you know, keep learning, keep expanding our minds, our knowledge base. And we can definitely, you know, strive toward a utopia. Whereas, you know, if you have a society that's primitivist, I mean, that's basically going back in time, right? We're going backwards now. If you look at what we had when we went backwards, we had wars everywhere. We had tribes everywhere. Everybody had their little tribes. And they used to just war with everybody. You know, it was constant violence. It's like the more technology we have, the more knowledge we have, the more enlightened we are, the better choices that we make. you know? And, you know, going back to the top, like one, two, and three, I see those basically as one, right? Data-driven governance is basically, you know, what we're striving for now in society, right? Combined data-driven governance with like science and innovation. I mean, that's basically the same thing. And modern green, sustainable technology and security, like that's the future, right? If we keep using technology that, you know, harms our environment we're not going to be here very long and then after that it's just like morality after after that it's like who are you inside i think you know if people are more or morally upright you know which is number four it kind of influences number five right the rule of law if you have laws but you have people who are corrupt they really will take advantage of your laws and that that highly doubt that would be a utopia right everybody follows laws that you know everybody probably doesn't really agree on. It seems like laws should just be made by a select few of people who are in power, which I guess history will prove like, yeah, that definitely can be taken advantage of, especially, and if you look at Six, right, or Religious Utopia, I mean, we've had that, right? We know how that goes. We already went down that path. So that's why I ordered the utopias the way I did. I think in the future, I think, you know, with more information, when we get enlightened, we have morality, we just take a step back and look at the data and say, you know what, this looks like we should go in a direction where we focus on green technology that, you know, driven by data can help us make the best choices, make discoveries that will enhance uh the quality of life of every individual on the planet and possibly expand outward into into you know space you know that so that's why i ordered the way i did",
+  "language": "unknown",
+  "processing_time_seconds": 43.476199,
+  "timestamp": "2026-06-08T09:22:44.654903",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.54
+      ],
+      "text": " The reason why I ranked these societies this way or the societies I would prefer is because I believe that, you know, science and technology definitely should lead the way in terms of a society becoming a utopia, right?"
+    },
+    {
+      "timestamp": [
+        18.04,
+        25.52
+      ],
+      "text": " I would like if you just look at history, the more technology we've discovered, the more science we have, the more problems we can solve, right?"
+    },
+    {
+      "timestamp": [
+        25.52,
+        39.62
+      ],
+      "text": " There are diseases that are around, that were around that, you know, we were able to manage or mitigate or minimize due to science, innovations in science and innovations in technology, right?"
+    },
+    {
+      "timestamp": [
+        39.88,
+        46.94
+      ],
+      "text": " Keep pushing the needle forward or, you know, keep learning, keep expanding our minds, our knowledge base."
+    },
+    {
+      "timestamp": [
+        47.44,
+        50.28
+      ],
+      "text": " And we can definitely, you know, strive toward a utopia."
+    },
+    {
+      "timestamp": [
+        50.28,
+        55.78
+      ],
+      "text": " Whereas, you know, if you have a society that's primitivist, I mean, that's basically going back in time, right?"
+    },
+    {
+      "timestamp": [
+        55.8,
+        56.84
+      ],
+      "text": " We're going backwards now."
+    },
+    {
+      "timestamp": [
+        57.26,
+        62.12
+      ],
+      "text": " If you look at what we had when we went backwards, we had wars everywhere."
+    },
+    {
+      "timestamp": [
+        62.26,
+        63.42
+      ],
+      "text": " We had tribes everywhere."
+    },
+    {
+      "timestamp": [
+        63.54,
+        67.16
+      ],
+      "text": " Everybody had their little tribes."
+    },
+    {
+      "timestamp": [
+        67.7,
+        69.96
+      ],
+      "text": " And they used to just war with everybody."
+    },
+    {
+      "timestamp": [
+        70.64,
+        72.52
+      ],
+      "text": " You know, it was constant violence."
+    },
+    {
+      "timestamp": [
+        72.52,
+        79.06
+      ],
+      "text": " It's like the more technology we have, the more knowledge we have, the more enlightened we are, the better choices that we make."
+    },
+    {
+      "timestamp": [
+        80.04,
+        79.06
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        83.88,
+        90.98
+      ],
+      "text": " you know? And, you know, going back to the top, like one, two, and three, I see those basically as one, right? Data-driven governance is basically, you know, what we're striving for"
+    },
+    {
+      "timestamp": [
+        90.98,
+        95.88
+      ],
+      "text": " now in society, right? Combined data-driven governance with like science and innovation."
+    },
+    {
+      "timestamp": [
+        96.5,
+        103.82
+      ],
+      "text": " I mean, that's basically the same thing. And modern green, sustainable technology and security,"
+    },
+    {
+      "timestamp": [
+        104.06,
+        108.88
+      ],
+      "text": " like that's the future, right? If we keep using technology that, you know, harms our environment"
+    },
+    {
+      "timestamp": [
+        108.88,
+        114.84
+      ],
+      "text": " we're not going to be here very long and then after that it's just like morality after after"
+    },
+    {
+      "timestamp": [
+        114.84,
+        121.12
+      ],
+      "text": " that it's like who are you inside i think you know if people are more or morally upright you know"
+    },
+    {
+      "timestamp": [
+        121.12,
+        128.58
+      ],
+      "text": " which is number four it kind of influences number five right the rule of law if you have laws but"
+    },
+    {
+      "timestamp": [
+        128.58,
+        133.58
+      ],
+      "text": " you have people who are corrupt they really will take advantage of your laws and that that highly"
+    },
+    {
+      "timestamp": [
+        133.58,
+        138.3
+      ],
+      "text": " doubt that would be a utopia right everybody follows laws that you know everybody probably"
+    },
+    {
+      "timestamp": [
+        138.3,
+        146.04
+      ],
+      "text": " doesn't really agree on. It seems like laws should just be made by a select few of people"
+    },
+    {
+      "timestamp": [
+        146.04,
+        152.16
+      ],
+      "text": " who are in power, which I guess history will prove like, yeah, that definitely can be taken"
+    },
+    {
+      "timestamp": [
+        152.16,
+        157.34
+      ],
+      "text": " advantage of, especially, and if you look at Six, right, or Religious Utopia, I mean,"
+    },
+    {
+      "timestamp": [
+        157.52,
+        163.92
+      ],
+      "text": " we've had that, right? We know how that goes. We already went down that path. So that's why I"
+    },
+    {
+      "timestamp": [
+        163.92,
+        170.16
+      ],
+      "text": " ordered the utopias the way I did. I think in the future, I think, you know, with more information,"
+    },
+    {
+      "timestamp": [
+        170.6,
+        175.54
+      ],
+      "text": " when we get enlightened, we have morality, we just take a step back and look at the data and say,"
+    },
+    {
+      "timestamp": [
+        175.54,
+        184.46
+      ],
+      "text": " you know what, this looks like we should go in a direction where we focus on green technology"
+    },
+    {
+      "timestamp": [
+        184.46,
+        192.1
+      ],
+      "text": " that, you know, driven by data can help us make the best choices, make discoveries that will"
+    },
+    {
+      "timestamp": [
+        192.1,
+        198.58
+      ],
+      "text": " enhance uh the quality of life of every individual on the planet and possibly expand outward into"
+    },
+    {
+      "timestamp": [
+        198.58,
+        202.8
+      ],
+      "text": " into you know space you know that so that's why i ordered the way i did"
+    }
+  ]
+}

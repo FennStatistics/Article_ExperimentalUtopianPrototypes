@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0f2fff8ede7e13a4906213_audio_missing_utopia_1780416252545.webm",
+  "transcript": " I think the one thing that was really absent from all of them would have been just the overall focus on like human well-being and mental and physical health. I think if we were in a society where physical health and mental health were some things and even spiritual health were things that we're constantly focused on, I think the world would live in a lot greater harmony. But the issue with that is there's going to be people who don't believe in that type of stuff and don't want to be forced to do it. So from that perspective, it would kind of throw everything out of balance in a way because of those people. But I think in an ideal society where people took care of themselves physically, mentally, and spiritually, I think everyone would live a very harmonious life.",
+  "language": "unknown",
+  "processing_time_seconds": 11.88279,
+  "timestamp": "2026-06-08T10:50:33.388416",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.26
+      ],
+      "text": " I think the one thing that was really absent from all of them would have been just the overall focus on like human well-being and mental and physical health."
+    },
+    {
+      "timestamp": [
+        10.52,
+        19.86
+      ],
+      "text": " I think if we were in a society where physical health and mental health were some things and even spiritual health were things that we're constantly focused on, I think the world would live in a lot greater harmony."
+    },
+    {
+      "timestamp": [
+        20.52,
+        25.36
+      ],
+      "text": " But the issue with that is there's going to be people who don't believe in that type of stuff and don't want to be forced to do it."
+    },
+    {
+      "timestamp": [
+        26.08,
+        25.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.76,
+        35.02
+      ],
+      "text": " So from that perspective, it would kind of throw everything out of balance in a way because of those people."
+    },
+    {
+      "timestamp": [
+        44.28,
+        null
+      ],
+      "text": " But I think in an ideal society where people took care of themselves physically, mentally, and spiritually, I think everyone would live a very harmonious life."
+    }
+  ]
+}

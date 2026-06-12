@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a19a268a5702fee0407ab36_audio_missing_utopia_1780408713889.webm",
+  "transcript": " I think that a society with law and science as a combination would be good because law provides structure and a basis for what is right and wrong and what should and should not be done. And, like I said, keeps somewhat of an order to the society. I think science helps with healing and all the things related to science as far as medicines and things of that nature.",
+  "language": "unknown",
+  "processing_time_seconds": 9.537824,
+  "timestamp": "2026-06-08T11:11:56.469338",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.84
+      ],
+      "text": " I think that a society with law and science as a combination would be good because law provides structure and a basis for what is right and wrong and what should and should not be done."
+    },
+    {
+      "timestamp": [
+        22.84,
+        28.24
+      ],
+      "text": " And, like I said, keeps somewhat of an order to the society."
+    },
+    {
+      "timestamp": [
+        28.24,
+        43.5
+      ],
+      "text": " I think science helps with healing and all the things related to science as far as medicines and things of that nature."
+    }
+  ]
+}

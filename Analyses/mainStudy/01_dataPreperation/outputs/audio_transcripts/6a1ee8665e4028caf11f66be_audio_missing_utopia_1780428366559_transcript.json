@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1ee8665e4028caf11f66be_audio_missing_utopia_1780428366559.webm",
+  "transcript": " I feel that one future society would be, you know, innovation of both technology and personality, personableness inside of each individual. I feel like that would be a great future to really think of in 100 years that we don't go back to primitive to get back down to like, you know, brass tacks, but we can go into the future and still have this balance of nature and everything like that.",
+  "language": "unknown",
+  "processing_time_seconds": 7.266833,
+  "timestamp": "2026-06-08T11:38:04.743242",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.88
+      ],
+      "text": " I feel that one future society would be, you know, innovation of both technology and personality,"
+    },
+    {
+      "timestamp": [
+        7.2,
+        9.56
+      ],
+      "text": " personableness inside of each individual."
+    },
+    {
+      "timestamp": [
+        10.1,
+        14.88
+      ],
+      "text": " I feel like that would be a great future to really think of in 100 years that we don't"
+    },
+    {
+      "timestamp": [
+        14.88,
+        19.22
+      ],
+      "text": " go back to primitive to get back down to like, you know, brass tacks, but we can go into"
+    },
+    {
+      "timestamp": [
+        19.22,
+        23.94
+      ],
+      "text": " the future and still have this balance of nature and everything like that."
+    }
+  ]
+}

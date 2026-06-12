@@ -1,0 +1,31 @@
+{
+  "audio_file": "655f9bb3070d42d4bc67e866_audio_missing_utopia_1780389656481.webm",
+  "transcript": " The missing future society will be a combination of green utopia and technology. I want green utopia to have more resources, technology will function better without AI. Maybe a little bit more will be nice.",
+  "language": "unknown",
+  "processing_time_seconds": 7.957804,
+  "timestamp": "2026-06-08T08:32:29.124248",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.28
+      ],
+      "text": " The missing future society will be a combination of green utopia and technology."
+    },
+    {
+      "timestamp": [
+        14.28,
+        29.84
+      ],
+      "text": " I want green utopia to have more resources, technology will function better without AI."
+    },
+    {
+      "timestamp": [
+        29.84,
+        32.92
+      ],
+      "text": " Maybe a little bit more will be nice."
+    }
+  ]
+}

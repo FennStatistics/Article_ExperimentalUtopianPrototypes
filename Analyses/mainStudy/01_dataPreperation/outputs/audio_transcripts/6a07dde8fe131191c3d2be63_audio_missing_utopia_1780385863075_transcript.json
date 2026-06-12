@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a07dde8fe131191c3d2be63_audio_missing_utopia_1780385863075.webm",
+  "transcript": " uh the one thing i say that was missing was people working for each other what would people's how do you have sustainable jobs for people that makes them contribute to society and have a purpose if there's no purpose um then having order and all these other things don't really fit",
+  "language": "unknown",
+  "processing_time_seconds": 6.192953,
+  "timestamp": "2026-06-08T10:30:33.875406",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.12
+      ],
+      "text": " uh the one thing i say that was missing was people working for each other what would people's"
+    },
+    {
+      "timestamp": [
+        11.12,
+        20.46
+      ],
+      "text": " how do you have sustainable jobs for people that makes them contribute to society and have a purpose"
+    },
+    {
+      "timestamp": [
+        20.46,
+        26.28
+      ],
+      "text": " if there's no purpose um then having order and all these other things don't really"
+    },
+    {
+      "timestamp": [
+        28.28,
+        28.86
+      ],
+      "text": " fit"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a118dc3576ca8522318dfc7_audio_missing_utopia_1780392971319.webm",
+  "transcript": " Looking back at the options, I feel that human-centric, creative utopia was missing from the list. While the ranked societies heavily emphasized system infrastructure, such as AI governance, strict rules of law, or environmental sustainability, they liked a vision centered primary on human fulfillment, artistic expression, and emotional well-being. in my missing society what would matter most is a world where automation and green technology exist entirely in the background solely to free humanity from labor this would allow every individual to focus entirely on philosophy community connection art and personal growth ensuring that human happiness rather than just systematic efficiency or survival is the ultimate measure of success.",
+  "language": "unknown",
+  "processing_time_seconds": 13.16681,
+  "timestamp": "2026-06-08T10:54:24.664735",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.56,
+        7.88
+      ],
+      "text": " Looking back at the options, I feel that human-centric, creative utopia was missing from the list."
+    },
+    {
+      "timestamp": [
+        8.38,
+        20.1
+      ],
+      "text": " While the ranked societies heavily emphasized system infrastructure, such as AI governance, strict rules of law, or environmental sustainability,"
+    },
+    {
+      "timestamp": [
+        21.0,
+        28.78
+      ],
+      "text": " they liked a vision centered primary on human fulfillment, artistic expression, and emotional well-being."
+    },
+    {
+      "timestamp": [
+        29.02,
+        29.42
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        35.82,
+        36.62
+      ],
+      "text": " in my missing society what would matter most is a world where automation and green technology exist"
+    },
+    {
+      "timestamp": [
+        42.94,
+        50.06
+      ],
+      "text": " entirely in the background solely to free humanity from labor this would allow every individual to focus entirely on philosophy community connection art and personal growth"
+    },
+    {
+      "timestamp": [
+        50.06,
+        57.82
+      ],
+      "text": " ensuring that human happiness rather than just systematic efficiency or survival is the ultimate"
+    },
+    {
+      "timestamp": [
+        57.82,
+        58.92
+      ],
+      "text": " measure of success."
+    }
+  ]
+}

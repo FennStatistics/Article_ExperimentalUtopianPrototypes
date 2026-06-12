@@ -1,0 +1,17 @@
+{
+  "audio_file": "67758b914f06b14a31669644_audio_ranking_explanation_1780378104442.webm",
+  "transcript": " I ranked them based on which ones seem to support freedom, personal responsibility, strong values, and a stable society. I rank societies lower when they rely too much on AI, strict limits, and less technology.",
+  "language": "unknown",
+  "processing_time_seconds": 5.550706,
+  "timestamp": "2026-06-08T08:46:47.188194",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.36
+      ],
+      "text": " I ranked them based on which ones seem to support freedom, personal responsibility, strong values, and a stable society. I rank societies lower when they rely too much on AI, strict limits, and less technology."
+    }
+  ]
+}

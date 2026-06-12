@@ -1,0 +1,80 @@
+{
+  "audio_file": "69e2e8831029b11b8a50d076_audio_missing_utopia_1780268596356.webm",
+  "transcript": " Yes, I would say clarity on a society that was ruled by individual liberty and not global dominance, but I guess by their own constitutions and cultures and religions that built them. so so that one was like kind of missing laying out what what exactly the morality was in that space and some of the stuff that was talked about just seemed like so unrealistic like i don't think a society could truly be guided by a whole bunch of people's inner morality without also even from a spiritual perspective without also, um, the law or what those ideas are being like, um, enforced or written down somewhere. So a society that is led by, um, people and, uh, people take care of each other. It's more, um, capitalist, but it's not, um, it's not cruel to the poor and also a society where resources are not scarce. I don't know why in every one of these everything is so scarce so if everyone's so smart about the society that we've stumbled upon 100 years from now why are the why are we why is the starting place everything is scarce",
+  "language": "unknown",
+  "processing_time_seconds": 18.463357,
+  "timestamp": "2026-06-08T09:38:43.188334",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.58
+      ],
+      "text": " Yes, I would say clarity on a society that was ruled by individual liberty and not global dominance, but I guess by their own constitutions and cultures and religions that built them."
+    },
+    {
+      "timestamp": [
+        22.14,
+        20.58
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.88,
+        39.16
+      ],
+      "text": " so so that one was like kind of missing laying out what what exactly the morality was in that space and some of the stuff that was talked about just seemed like so unrealistic like i don't think a"
+    },
+    {
+      "timestamp": [
+        39.16,
+        46.2
+      ],
+      "text": " society could truly be guided by a whole bunch of people's inner morality without also even from"
+    },
+    {
+      "timestamp": [
+        46.2,
+        53.02
+      ],
+      "text": " a spiritual perspective without also, um, the law or what those ideas are being like, um,"
+    },
+    {
+      "timestamp": [
+        53.72,
+        63.42
+      ],
+      "text": " enforced or written down somewhere. So a society that is led by, um, people and, uh, people take"
+    },
+    {
+      "timestamp": [
+        63.42,
+        70.38
+      ],
+      "text": " care of each other. It's more, um, capitalist, but it's not, um, it's not cruel to the poor"
+    },
+    {
+      "timestamp": [
+        70.38,
+        76.12
+      ],
+      "text": " and also a society where resources are not scarce. I don't know why in every one of these"
+    },
+    {
+      "timestamp": [
+        76.12,
+        83.86
+      ],
+      "text": " everything is so scarce so if everyone's so smart about the society that we've stumbled upon 100"
+    },
+    {
+      "timestamp": [
+        83.86,
+        88.66
+      ],
+      "text": " years from now why are the why are we why is the starting place everything is scarce"
+    }
+  ]
+}

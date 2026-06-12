@@ -1,0 +1,45 @@
+{
+  "audio_file": "698ace13573202db139fc761_audio_missing_utopia_1780306213689.webm",
+  "transcript": " Looking at the seven societies, I felt like a true participatory democracy. Option was missing. Most of them were top-down, run by science and religion, AI, or law. I think a future society that matters most to me will prioritize direct citizen involvement in decision, where ordinary people actively share policy, not just follow it. The far society would read about head-limited institution and religious rule, so a fashion with strong democratic participation and abundant resources feels like a missing piece.",
+  "language": "unknown",
+  "processing_time_seconds": 9.777884,
+  "timestamp": "2026-06-08T09:03:28.333266",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.0
+      ],
+      "text": " Looking at the seven societies, I felt like a true participatory democracy."
+    },
+    {
+      "timestamp": [
+        7.0,
+        14.0
+      ],
+      "text": " Option was missing. Most of them were top-down, run by science and religion, AI, or law."
+    },
+    {
+      "timestamp": [
+        14.0,
+        21.0
+      ],
+      "text": " I think a future society that matters most to me will prioritize direct citizen involvement in decision,"
+    },
+    {
+      "timestamp": [
+        21.0,
+        26.0
+      ],
+      "text": " where ordinary people actively share policy, not just follow it."
+    },
+    {
+      "timestamp": [
+        26.0,
+        39.0
+      ],
+      "text": " The far society would read about head-limited institution and religious rule, so a fashion with strong democratic participation and abundant resources feels like a missing piece."
+    }
+  ]
+}

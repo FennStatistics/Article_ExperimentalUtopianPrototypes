@@ -1,0 +1,45 @@
+{
+  "audio_file": "69f97c65d0bbaa97a2a0eee9_audio_missing_utopia_1780439676092.webm",
+  "transcript": " As far as societies, I believe that something that is missing is a mix of faith and science to a certain degree. I understand that, yes, strictly faith based is important, but I also understand the meaning of, you know, God gave us thoughts and minds to where science is also beneficial. And I think that a mix of both of those intertwined would be the best. obviously science not overtaking religion but religion still being number one but science being number two when it comes to technological advancements",
+  "language": "unknown",
+  "processing_time_seconds": 9.902347,
+  "timestamp": "2026-06-08T10:02:20.666098",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        1.0,
+        9.34
+      ],
+      "text": " As far as societies, I believe that something that is missing is a mix of faith and science to a certain degree."
+    },
+    {
+      "timestamp": [
+        9.58,
+        20.64
+      ],
+      "text": " I understand that, yes, strictly faith based is important, but I also understand the meaning of, you know, God gave us thoughts and minds to where science is also beneficial."
+    },
+    {
+      "timestamp": [
+        21.14,
+        25.46
+      ],
+      "text": " And I think that a mix of both of those intertwined would be the best."
+    },
+    {
+      "timestamp": [
+        25.46,
+        29.94
+      ],
+      "text": " obviously science not overtaking religion but religion still being number one but"
+    },
+    {
+      "timestamp": [
+        29.94,
+        41.38
+      ],
+      "text": " science being number two when it comes to technological advancements"
+    }
+  ]
+}

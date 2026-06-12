@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0fbc5c1cab3242613bd8f9_audio_ranking_explanation_1780388710953.webm",
+  "transcript": " I ranked as scientists that balance sustainability, clear rules, and individual freedom highest. Modern green and institutional utopia give economic security and predictable laws without too much control. AI and science come next for efficiency or innovation. relying on inner morality low tech or faith rank lower because they risk poor coordination when resources are limited and scale is large",
+  "language": "unknown",
+  "processing_time_seconds": 9.050366,
+  "timestamp": "2026-06-08T10:52:09.333110",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.68
+      ],
+      "text": " I ranked as scientists that balance sustainability, clear rules, and individual freedom highest."
+    },
+    {
+      "timestamp": [
+        9.68,
+        16.72
+      ],
+      "text": " Modern green and institutional utopia give economic security and predictable laws without"
+    },
+    {
+      "timestamp": [
+        16.72,
+        18.4
+      ],
+      "text": " too much control."
+    },
+    {
+      "timestamp": [
+        18.4,
+        24.24
+      ],
+      "text": " AI and science come next for efficiency or innovation."
+    },
+    {
+      "timestamp": [
+        24.24,
+        31.04
+      ],
+      "text": " relying on inner morality low tech or faith rank lower because they risk"
+    },
+    {
+      "timestamp": [
+        31.04,
+        37.2
+      ],
+      "text": " poor coordination when resources are limited and scale is large"
+    }
+  ]
+}

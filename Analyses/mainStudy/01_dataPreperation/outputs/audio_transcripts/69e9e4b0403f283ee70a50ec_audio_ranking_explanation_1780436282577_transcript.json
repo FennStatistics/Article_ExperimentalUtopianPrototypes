@@ -1,0 +1,38 @@
+{
+  "audio_file": "69e9e4b0403f283ee70a50ec_audio_ranking_explanation_1780436282577.webm",
+  "transcript": " I ranked them in this order because I feel like faith-based order would be the best based off my faith if it was based off of Christianity. The low-tech and small-scale, I just think that would help people financial-wise, and that goes along with sustainable and secure. However, the rule of law, I believe would be, I do believe we need laws, but I do not think it should be strict. We also need freedom. So that's why I don't really like the rule of law, but we do need some laws along with the moral commonwealth, the futuristic utopia. And those are science-based, and I think that me being a Christian, you need more faith than science, and then as per the AI-centered utopia, AI needs to stay a robot and not have any more control over anything other than opinions that are welcome.",
+  "language": "unknown",
+  "processing_time_seconds": 14.651252,
+  "timestamp": "2026-06-08T09:45:14.002374",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.38
+      ],
+      "text": " I ranked them in this order because I feel like faith-based order would be the best based off my faith if it was based off of Christianity."
+    },
+    {
+      "timestamp": [
+        15.3,
+        25.12
+      ],
+      "text": " The low-tech and small-scale, I just think that would help people financial-wise, and that goes along with sustainable and secure."
+    },
+    {
+      "timestamp": [
+        26.26,
+        25.12
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        52.36,
+        71.48
+      ],
+      "text": " However, the rule of law, I believe would be, I do believe we need laws, but I do not think it should be strict. We also need freedom. So that's why I don't really like the rule of law, but we do need some laws along with the moral commonwealth, the futuristic utopia. And those are science-based, and I think that me being a Christian, you need more faith than science, and then as per the AI-centered utopia, AI needs to stay a robot and not have any more control over anything other than opinions that are welcome."
+    }
+  ]
+}

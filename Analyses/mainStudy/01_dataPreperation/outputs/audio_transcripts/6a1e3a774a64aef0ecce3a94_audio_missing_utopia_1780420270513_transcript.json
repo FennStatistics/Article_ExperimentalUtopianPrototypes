@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a1e3a774a64aef0ecce3a94_audio_missing_utopia_1780420270513.webm",
+  "transcript": " The society that I feel is missing is that which is given by beings like quantum physics. You see, quantum physics, it's easier to explain how most of these are working, or maybe how everything is. the other thing which is missing a society set up and that is basically end of this whereby whereby the society is is maybe around with the other people i would like to live in this kind of society because with clans it's easier to remind a new society rather than having to go and do so these are the two which i'm missing and i think they should be they should be incorporated",
+  "language": "unknown",
+  "processing_time_seconds": 12.843632,
+  "timestamp": "2026-06-08T11:32:32.189927",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        8.62
+      ],
+      "text": " The society that I feel is missing is that which is given by beings like quantum physics."
+    },
+    {
+      "timestamp": [
+        9.26,
+        18.44
+      ],
+      "text": " You see, quantum physics, it's easier to explain how most of these are working, or maybe how everything is."
+    },
+    {
+      "timestamp": [
+        18.44,
+        28.04
+      ],
+      "text": " the other thing which is missing a society set up and that is basically end of this whereby"
+    },
+    {
+      "timestamp": [
+        29.24,
+        37.8
+      ],
+      "text": " whereby the society is is maybe around with the other people i would like to live in this kind"
+    },
+    {
+      "timestamp": [
+        37.8,
+        47.16
+      ],
+      "text": " of society because with clans it's easier to remind a new society rather than having to go and do"
+    },
+    {
+      "timestamp": [
+        48.04,
+        47.16
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        71.4,
+        null
+      ],
+      "text": " so these are the two which i'm missing and i think they should be they should be incorporated"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a1d2072e93c3d8f49fb7c47_audio_ranking_explanation_1780384734636.webm",
+  "transcript": " I think that science is beneficial for, you know, societies considering that they're limited with resources. And I think, I don't think science, I mean, I'm sorry, I don't think religion is as important when trying to establish, you know, like new rules, new laws. I think we should be more focused on science. I think that's the better route.",
+  "language": "unknown",
+  "processing_time_seconds": 9.086843,
+  "timestamp": "2026-06-08T11:24:51.158576",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.16
+      ],
+      "text": " I think that science is beneficial for, you know, societies considering that they're limited with resources."
+    },
+    {
+      "timestamp": [
+        12.16,
+        25.26
+      ],
+      "text": " And I think, I don't think science, I mean, I'm sorry, I don't think religion is as important when trying to establish, you know, like new rules, new laws."
+    },
+    {
+      "timestamp": [
+        25.26,
+        28.8
+      ],
+      "text": " I think we should be more focused on science."
+    },
+    {
+      "timestamp": [
+        29.94,
+        33.72
+      ],
+      "text": " I think that's the better route."
+    }
+  ]
+}

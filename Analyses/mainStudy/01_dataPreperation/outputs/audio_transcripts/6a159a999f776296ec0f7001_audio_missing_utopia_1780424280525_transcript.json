@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a159a999f776296ec0f7001_audio_missing_utopia_1780424280525.webm",
+  "transcript": " I think something that would be important for a future society is something that's a mixture like going off the list would be a little bit of AI and government because I feel like those are more just like set factual science like stuff like that. i think keeping like religion and your own personal morals and beliefs out of it makes it better if there's just one like set of rules or like adding ai into it that keeps it upgraded and like updated to current like the current state of whatever the society is like that makes the most sense because then if it's all just based on like science and it's factual so there is no like personal opinions into it and feelings and i think that that would just make more sense",
+  "language": "unknown",
+  "processing_time_seconds": 13.519272,
+  "timestamp": "2026-06-08T11:04:40.128946",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.42
+      ],
+      "text": " I think something that would be important for a future society is something that's a mixture like going off the list would be a little bit of AI and government because I feel like those are more just like set factual science like stuff like that."
+    },
+    {
+      "timestamp": [
+        20.42,
+        27.34
+      ],
+      "text": " i think keeping like religion and your own personal morals and beliefs out of it makes it"
+    },
+    {
+      "timestamp": [
+        27.34,
+        36.32
+      ],
+      "text": " better if there's just one like set of rules or like adding ai into it that keeps it upgraded and"
+    },
+    {
+      "timestamp": [
+        36.32,
+        44.72
+      ],
+      "text": " like updated to current like the current state of whatever the society is like that makes the most"
+    },
+    {
+      "timestamp": [
+        44.72,
+        51.76
+      ],
+      "text": " sense because then if it's all just based on like science and it's factual so there is no like"
+    },
+    {
+      "timestamp": [
+        51.76,
+        66.24
+      ],
+      "text": " personal opinions into it and feelings and i think that that would just make more sense"
+    }
+  ]
+}

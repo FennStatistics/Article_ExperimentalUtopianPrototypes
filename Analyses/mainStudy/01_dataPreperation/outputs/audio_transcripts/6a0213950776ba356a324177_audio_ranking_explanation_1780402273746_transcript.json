@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0213950776ba356a324177_audio_ranking_explanation_1780402273746.webm",
+  "transcript": " I picked these rankings because, in my belief, I feel like we have too much technology at our hands and it is hurting our brains. It's making us feel more anxious, angry. We need to go back to kids playing outside until dark, growing some of our own food, and doing more things ourselves. I think that'll help the world that we live in today.",
+  "language": "unknown",
+  "processing_time_seconds": 7.058529,
+  "timestamp": "2026-06-08T10:19:46.898696",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.16
+      ],
+      "text": " I picked these rankings because, in my belief, I feel like we have too much technology at"
+    },
+    {
+      "timestamp": [
+        6.16,
+        8.04
+      ],
+      "text": " our hands and it is hurting our brains."
+    },
+    {
+      "timestamp": [
+        8.04,
+        12.42
+      ],
+      "text": " It's making us feel more anxious, angry."
+    },
+    {
+      "timestamp": [
+        12.42,
+        17.38
+      ],
+      "text": " We need to go back to kids playing outside until dark, growing some of our own food,"
+    },
+    {
+      "timestamp": [
+        17.38,
+        19.36
+      ],
+      "text": " and doing more things ourselves."
+    },
+    {
+      "timestamp": [
+        19.36,
+        23.4
+      ],
+      "text": " I think that'll help the world that we live in today."
+    }
+  ]
+}

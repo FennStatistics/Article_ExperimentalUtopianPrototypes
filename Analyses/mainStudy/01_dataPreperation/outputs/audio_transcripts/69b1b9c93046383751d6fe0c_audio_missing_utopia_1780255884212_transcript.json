@@ -1,0 +1,24 @@
+{
+  "audio_file": "69b1b9c93046383751d6fe0c_audio_missing_utopia_1780255884212.webm",
+  "transcript": " I don't think that there were any types of societies that were missing, but I think that most of these could use a mix of a few of the different types of societies. I don't know that I would want to live in any of these societies as described.",
+  "language": "unknown",
+  "processing_time_seconds": 6.27809,
+  "timestamp": "2026-06-08T09:14:41.347324",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.0
+      ],
+      "text": " I don't think that there were any types of societies that were missing, but I think that most of these could use a mix of a few of the different types of societies."
+    },
+    {
+      "timestamp": [
+        16.0,
+        24.06
+      ],
+      "text": " I don't know that I would want to live in any of these societies as described."
+    }
+  ]
+}

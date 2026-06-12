@@ -1,0 +1,129 @@
+{
+  "audio_file": "6a1e19d1285179a116fdcd95_audio_missing_utopia_1780409438324.webm",
+  "transcript": " Let's see. For my missing future of society, I mean, there wasn't really much. There would be one that would be missing. It would be a democratic, basically democracy. Currently what we have, I like having green technology, innovation, data science, data-driven tools, sustainability, that was all covered in the previous utopias, but the closest to democracy would be the rule of law, but the rule of law was just we had these laws. You must follow them. If you break them, it either would be a severe punishment. But I feel like in a democracy, everyone has a voice. Everyone has a role to play in that society. I don't want it to be like, let's vote on, here's this current issue. We just retrieved 10 packets of food. Should we distribute it equally, put it up to a vote? I don't feel like everything should be put up to a vote, but I feel like it should be a mix of it. We should have democracy as a backbone of it, as where people can voice their concerns, gather people, make opinions. Once we have more than a majority of people to decide on a goal or outcome, and we should implement it. That's what I feel is a missing future society that matters to me.",
+  "language": "unknown",
+  "processing_time_seconds": 23.082456,
+  "timestamp": "2026-06-08T11:31:23.122142",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.1
+      ],
+      "text": " Let's see. For my missing future of society, I mean, there wasn't really much. There would be one that would be missing. It would be a democratic, basically democracy."
+    },
+    {
+      "timestamp": [
+        25.1,
+        24.1
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        51.3,
+        53.26
+      ],
+      "text": " Currently what we have, I like having green technology, innovation, data science, data-driven tools, sustainability, that was all covered in the previous utopias, but the closest to democracy would be the rule of law, but the rule of law was just we had these laws. You must follow them."
+    },
+    {
+      "timestamp": [
+        53.66,
+        57.06
+      ],
+      "text": " If you break them, it either would be a severe punishment."
+    },
+    {
+      "timestamp": [
+        58.18,
+        63.2
+      ],
+      "text": " But I feel like in a democracy, everyone has a voice."
+    },
+    {
+      "timestamp": [
+        64.98,
+        69.26
+      ],
+      "text": " Everyone has a role to play in that society."
+    },
+    {
+      "timestamp": [
+        70.46,
+        76.34
+      ],
+      "text": " I don't want it to be like, let's vote on, here's this current issue."
+    },
+    {
+      "timestamp": [
+        76.34,
+        81.16
+      ],
+      "text": " We just retrieved 10 packets of food."
+    },
+    {
+      "timestamp": [
+        81.94,
+        84.48
+      ],
+      "text": " Should we distribute it equally, put it up to a vote?"
+    },
+    {
+      "timestamp": [
+        84.76,
+        86.94
+      ],
+      "text": " I don't feel like everything should be put up to a vote,"
+    },
+    {
+      "timestamp": [
+        87.04,
+        92.32
+      ],
+      "text": " but I feel like it should be a mix of it."
+    },
+    {
+      "timestamp": [
+        92.74,
+        95.8
+      ],
+      "text": " We should have democracy as a backbone of it,"
+    },
+    {
+      "timestamp": [
+        95.92,
+        102.0
+      ],
+      "text": " as where people can voice their concerns, gather people, make opinions."
+    },
+    {
+      "timestamp": [
+        102.78,
+        109.66
+      ],
+      "text": " Once we have more than a majority of people to decide on a goal or outcome,"
+    },
+    {
+      "timestamp": [
+        109.66,
+        111.16
+      ],
+      "text": " and we should implement it."
+    },
+    {
+      "timestamp": [
+        112.92,
+        118.48
+      ],
+      "text": " That's what I feel is a missing future society"
+    },
+    {
+      "timestamp": [
+        118.48,
+        121.0
+      ],
+      "text": " that matters to me."
+    }
+  ]
+}

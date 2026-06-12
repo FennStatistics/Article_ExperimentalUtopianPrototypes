@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a04d37b32fa27d1a3b284a9_audio_missing_utopia_1780410316720.webm",
+  "transcript": " I think in my vision of society, one thing that I was missing, or maybe was not at the forefront of some of these different utopias, is a group understanding of the collective humanity of people. I think very often, you know, there's lots of tribalism and otherism that causes religious conflicts and intergroup conflicts, not intergroup conflicts. And I think a society where everybody was believed to be on even footing, regardless of where they're from, what they look like, their religion, whatever, would be my ideal utopia, at least a portion of it.",
+  "language": "unknown",
+  "processing_time_seconds": 10.678938,
+  "timestamp": "2026-06-08T10:25:50.154993",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        6.04
+      ],
+      "text": " I think in my vision of society, one thing that I was missing, or maybe was not at the"
+    },
+    {
+      "timestamp": [
+        6.04,
+        12.82
+      ],
+      "text": " forefront of some of these different utopias, is a group understanding of the collective"
+    },
+    {
+      "timestamp": [
+        12.82,
+        14.02
+      ],
+      "text": " humanity of people."
+    },
+    {
+      "timestamp": [
+        14.28,
+        22.26
+      ],
+      "text": " I think very often, you know, there's lots of tribalism and otherism that causes religious"
+    },
+    {
+      "timestamp": [
+        22.26,
+        27.5
+      ],
+      "text": " conflicts and intergroup conflicts, not intergroup conflicts."
+    },
+    {
+      "timestamp": [
+        28.96,
+        27.5
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        41.8,
+        null
+      ],
+      "text": " And I think a society where everybody was believed to be on even footing, regardless of where they're from, what they look like, their religion, whatever, would be my ideal utopia, at least a portion of it."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a14d8fd539a02a7fe9b4980_audio_missing_utopia_1780403479223.webm",
+  "transcript": " So I actually don't think that there were important values absent from my top few societies. I do think maybe if I had to pick one, there is, it was very focused on the basic needs of humans, right? eating, sleeping, breathing, your physical needs on the hierarchical scale. But I think we all know as humans, we need a higher purpose in life to feel fulfilled. And that's part of the reason I chose the societies that focused on community is because community can give you a purpose in life. Um, but there's, there's not a ton of room here for creativity and, um, passion and purpose. It's just kind of fulfilling your basic physical human needs and not any of those psychological needs.",
+  "language": "unknown",
+  "processing_time_seconds": 13.631546,
+  "timestamp": "2026-06-08T11:03:00.940765",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.56
+      ],
+      "text": " So I actually don't think that there were important values absent from my top few societies. I do think maybe if I had to pick one, there is, it was very focused on the basic needs of humans, right?"
+    },
+    {
+      "timestamp": [
+        21.56,
+        28.82
+      ],
+      "text": " eating, sleeping, breathing, your physical needs on the hierarchical scale. But I think we all"
+    },
+    {
+      "timestamp": [
+        28.82,
+        38.68
+      ],
+      "text": " know as humans, we need a higher purpose in life to feel fulfilled. And that's part of the reason"
+    },
+    {
+      "timestamp": [
+        38.68,
+        45.38
+      ],
+      "text": " I chose the societies that focused on community is because community can give you a purpose in life."
+    },
+    {
+      "timestamp": [
+        46.88,
+        45.38
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        66.42,
+        null
+      ],
+      "text": " Um, but there's, there's not a ton of room here for creativity and, um, passion and purpose. It's just kind of fulfilling your basic physical human needs and not any of those psychological needs."
+    }
+  ]
+}

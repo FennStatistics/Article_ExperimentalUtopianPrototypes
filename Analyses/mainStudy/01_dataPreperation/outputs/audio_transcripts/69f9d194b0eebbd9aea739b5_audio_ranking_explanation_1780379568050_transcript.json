@@ -1,0 +1,24 @@
+{
+  "audio_file": "69f9d194b0eebbd9aea739b5_audio_ranking_explanation_1780379568050.webm",
+  "transcript": " I think society is a way of differences in stability, access to resources and overall quality of right educators such as health and education. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 7.529493,
+  "timestamp": "2026-06-08T10:03:17.515486",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.0
+      ],
+      "text": " I think society is a way of differences in stability, access to resources and overall quality of right educators such as health and education."
+    },
+    {
+      "timestamp": [
+        30.0,
+        59.98
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

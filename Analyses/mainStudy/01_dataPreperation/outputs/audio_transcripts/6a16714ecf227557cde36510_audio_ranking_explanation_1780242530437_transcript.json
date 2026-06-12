@@ -1,0 +1,150 @@
+{
+  "audio_file": "6a16714ecf227557cde36510_audio_ranking_explanation_1780242530437.webm",
+  "transcript": " I ranked these societies based on what I think would realistically work better after a major crisis where resources are limited but still available. For me, the most important thing in finding a balance between stability, sustainability, and practicality rather than relying on extremes. I put the modern green utopia at the top because it feels like the realistic and balanced option. It focuses on sustainability and security, which I think are necessary for society trying to recover and rebuild responsibly. Right after that, I ranked the institutional utopia, highly because strong and fast systems are important for keeping order and making sure society runs smoothly after a crisis. I placed the futurist utopia next because I value science and innovation and i think they are powerful tools for rebuilding however i also feel like it might depend too much on constant progress which may not always be stable in a resource limited world the ai-centered utopia comes after that since i see it as efficient and useful for decision making but i also worry about over dependence on technology and losing human control lower down i ranked primitive utopia because even though it's sustainable and simple i don't think it fits a world that still needs to solve complex modern problems i place the religious utopia next because while faith can bring strong values and unity i feel it may not always be flexible enough for a diverse and changing society at the bottom i ranked the moral commonwealth last because i don't think relying on people's internal morality is enough for a large society in my view without strong systems or structures it will be hard to maintain fairness and consistency over time overall my ranking is based on what i believe can best combine practical survival long-term stability and realistic governance in a post-crisis future",
+  "language": "unknown",
+  "processing_time_seconds": 25.952735,
+  "timestamp": "2026-06-08T11:08:40.381795",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.48
+      ],
+      "text": " I ranked these societies based on what I think would realistically work better after a major"
+    },
+    {
+      "timestamp": [
+        7.48,
+        14.24
+      ],
+      "text": " crisis where resources are limited but still available. For me, the most important thing"
+    },
+    {
+      "timestamp": [
+        14.24,
+        21.58
+      ],
+      "text": " in finding a balance between stability, sustainability, and practicality rather than"
+    },
+    {
+      "timestamp": [
+        21.58,
+        27.04
+      ],
+      "text": " relying on extremes. I put the modern green utopia at the top because it feels like the"
+    },
+    {
+      "timestamp": [
+        27.04,
+        33.72
+      ],
+      "text": " realistic and balanced option. It focuses on sustainability and security, which I think are"
+    },
+    {
+      "timestamp": [
+        33.72,
+        41.66
+      ],
+      "text": " necessary for society trying to recover and rebuild responsibly. Right after that, I ranked the"
+    },
+    {
+      "timestamp": [
+        41.66,
+        47.56
+      ],
+      "text": " institutional utopia, highly because strong and fast systems are important for keeping order and"
+    },
+    {
+      "timestamp": [
+        47.56,
+        55.46
+      ],
+      "text": " making sure society runs smoothly after a crisis. I placed the futurist utopia next because I value"
+    },
+    {
+      "timestamp": [
+        55.46,
+        62.1
+      ],
+      "text": " science and innovation and i think they are powerful tools for rebuilding however i also feel"
+    },
+    {
+      "timestamp": [
+        62.1,
+        68.58
+      ],
+      "text": " like it might depend too much on constant progress which may not always be stable in a resource"
+    },
+    {
+      "timestamp": [
+        68.58,
+        75.3
+      ],
+      "text": " limited world the ai-centered utopia comes after that since i see it as efficient and useful for"
+    },
+    {
+      "timestamp": [
+        75.3,
+        81.3
+      ],
+      "text": " decision making but i also worry about over dependence on technology and losing human"
+    },
+    {
+      "timestamp": [
+        81.3,
+        87.86
+      ],
+      "text": " control lower down i ranked primitive utopia because even though it's sustainable and simple"
+    },
+    {
+      "timestamp": [
+        88.5,
+        94.42
+      ],
+      "text": " i don't think it fits a world that still needs to solve complex modern problems i place the"
+    },
+    {
+      "timestamp": [
+        94.42,
+        100.42
+      ],
+      "text": " religious utopia next because while faith can bring strong values and unity i feel it may not"
+    },
+    {
+      "timestamp": [
+        100.42,
+        106.5
+      ],
+      "text": " always be flexible enough for a diverse and changing society at the bottom i ranked the"
+    },
+    {
+      "timestamp": [
+        106.5,
+        111.86
+      ],
+      "text": " moral commonwealth last because i don't think relying on people's internal morality is enough"
+    },
+    {
+      "timestamp": [
+        111.86,
+        119.14
+      ],
+      "text": " for a large society in my view without strong systems or structures it will be hard to maintain"
+    },
+    {
+      "timestamp": [
+        119.14,
+        125.46
+      ],
+      "text": " fairness and consistency over time overall my ranking is based on what i believe can"
+    },
+    {
+      "timestamp": [
+        125.46,
+        132.18
+      ],
+      "text": " best combine practical survival long-term stability and realistic governance in a post-crisis future"
+    }
+  ]
+}

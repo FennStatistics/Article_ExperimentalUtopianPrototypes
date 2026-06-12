@@ -1,0 +1,59 @@
+{
+  "audio_file": "65f4ab7884f8411c9e11a34e_audio_missing_utopia_1780427931890.webm",
+  "transcript": " I think that it was interesting to have a moral-based society separate from a law-based society and a religious-based society, as if there isn't a greater sense of morality in these other types of utopias or societies. I would say that in some of these other societies there should be a more hybridized system, that there is a common moral sense or a common belief among cultures within the society, that there's a shared belief system or a shared way of life. That's not really addressed in some of these other societies, so I think having a hybridized version of the religious and the moral or the law-based and the moral would give another option or kind of expand upon that because it shouldn't just be one or the other. There should be some sort of spectrum to where, like in a law-based society, if it's more authoritarian, then the morality for individuals might be lesser as opposed to something that's more open for the individual. if there's more right-based, human rights-based, law-based societies that focus more on the good, the benefit of the individual. So I think something like that may be a more hybridized option.",
+  "language": "unknown",
+  "processing_time_seconds": 22.079381,
+  "timestamp": "2026-06-08T08:33:25.320140",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.34
+      ],
+      "text": " I think that it was interesting to have a moral-based society separate from a law-based society and a religious-based society, as if there isn't a greater sense of morality in these other types of utopias or societies."
+    },
+    {
+      "timestamp": [
+        16.96,
+        17.22
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        39.28,
+        58.88
+      ],
+      "text": " I would say that in some of these other societies there should be a more hybridized system, that there is a common moral sense or a common belief among cultures within the society, that there's a shared belief system or a shared way of life. That's not really addressed in some of these other societies, so I think having a hybridized version of the religious and the moral or the law-based and the moral would give another option or kind of expand upon that because it shouldn't just be one or the other."
+    },
+    {
+      "timestamp": [
+        58.88,
+        76.22
+      ],
+      "text": " There should be some sort of spectrum to where, like in a law-based society, if it's more authoritarian, then the morality for individuals might be lesser as opposed to something that's more open for the individual."
+    },
+    {
+      "timestamp": [
+        76.22,
+        82.46
+      ],
+      "text": " if there's more right-based, human rights-based, law-based societies"
+    },
+    {
+      "timestamp": [
+        82.46,
+        87.98
+      ],
+      "text": " that focus more on the good, the benefit of the individual."
+    },
+    {
+      "timestamp": [
+        88.98,
+        92.46
+      ],
+      "text": " So I think something like that may be a more hybridized option."
+    }
+  ]
+}

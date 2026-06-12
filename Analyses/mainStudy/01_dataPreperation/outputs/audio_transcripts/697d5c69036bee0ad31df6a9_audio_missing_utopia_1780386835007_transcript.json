@@ -1,0 +1,17 @@
+{
+  "audio_file": "697d5c69036bee0ad31df6a9_audio_missing_utopia_1780386835007.webm",
+  "transcript": " I think probably they all represent it well, they all have some amount of morality, guiding principles, forwarding of the species, all those sort of things that make for a good system.",
+  "language": "unknown",
+  "processing_time_seconds": 5.600446,
+  "timestamp": "2026-06-08T08:57:47.074656",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.88
+      ],
+      "text": " I think probably they all represent it well, they all have some amount of morality, guiding principles, forwarding of the species, all those sort of things that make for a good system."
+    }
+  ]
+}

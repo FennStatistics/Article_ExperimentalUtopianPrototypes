@@ -1,0 +1,122 @@
+{
+  "audio_file": "69e91f33f049227e93ed364b_audio_ranking_explanation_1780435811591.webm",
+  "transcript": " The reason I ranked the societies the way I did is because I kind of compared them to societies today. So I felt like we are moving towards a futuristic utopia of science and innovation, and that governs a lot of what we do. Obviously, we still have a very common sense of rule of law, like the institutional utopia. but I prefer this more science and innovation based type. I also am a religious person so that's why I ranked the religious utopia second. I think the faith-based order is important but if I had my way I would combine some of these utopias to get the one that I think would suit the world best. The modern green utopia I liked that it was sustainable and secure however I felt like we needed some more innovation and other things put within it um institutional utopia just kind of felt like that's what we have now so didn't totally change moral commonwealth this intermorality while i think it's important that that governs what we do i still think you need rules and laws to enforce and govern people and then the primitivist utopia. I'm not sure if I'm pronouncing that right. I didn't really enjoy the low-tech and small-scale. I think that's moving backwards in a society where we once were, so that felt most utopian to me, along with the AI-centered utopia. I thought that's too futuristic, in my opinion, to govern how much people can have and resources they can use based on AI seemed very utopian and not something I would enjoy. It's not a desirable utopia to me at all.",
+  "language": "unknown",
+  "processing_time_seconds": 24.692923,
+  "timestamp": "2026-06-08T09:43:45.970523",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.82
+      ],
+      "text": " The reason I ranked the societies the way I did is because I kind of compared them to societies today."
+    },
+    {
+      "timestamp": [
+        7.94,
+        17.76
+      ],
+      "text": " So I felt like we are moving towards a futuristic utopia of science and innovation, and that governs a lot of what we do."
+    },
+    {
+      "timestamp": [
+        18.12,
+        25.06
+      ],
+      "text": " Obviously, we still have a very common sense of rule of law, like the institutional utopia."
+    },
+    {
+      "timestamp": [
+        27.16,
+        25.06
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.64,
+        38.78
+      ],
+      "text": " but I prefer this more science and innovation based type. I also am a religious person so that's why I ranked the religious utopia second. I think the faith-based order is important but"
+    },
+    {
+      "timestamp": [
+        38.78,
+        45.98
+      ],
+      "text": " if I had my way I would combine some of these utopias to get the one that I think would suit"
+    },
+    {
+      "timestamp": [
+        45.98,
+        52.2
+      ],
+      "text": " the world best. The modern green utopia I liked that it was sustainable and secure however I felt"
+    },
+    {
+      "timestamp": [
+        52.2,
+        61.14
+      ],
+      "text": " like we needed some more innovation and other things put within it um institutional utopia"
+    },
+    {
+      "timestamp": [
+        61.14,
+        67.58
+      ],
+      "text": " just kind of felt like that's what we have now so didn't totally change moral commonwealth"
+    },
+    {
+      "timestamp": [
+        67.58,
+        73.58
+      ],
+      "text": " this intermorality while i think it's important that that governs what we do"
+    },
+    {
+      "timestamp": [
+        73.58,
+        80.4
+      ],
+      "text": " i still think you need rules and laws to enforce and govern people and then the"
+    },
+    {
+      "timestamp": [
+        80.4,
+        87.0
+      ],
+      "text": " primitivist utopia. I'm not sure if I'm pronouncing that right. I didn't really enjoy the low-tech"
+    },
+    {
+      "timestamp": [
+        87.0,
+        91.3
+      ],
+      "text": " and small-scale. I think that's moving backwards in a society where we once were, so that felt"
+    },
+    {
+      "timestamp": [
+        91.3,
+        98.48
+      ],
+      "text": " most utopian to me, along with the AI-centered utopia. I thought that's too futuristic, in my"
+    },
+    {
+      "timestamp": [
+        98.48,
+        109.4
+      ],
+      "text": " opinion, to govern how much people can have and resources they can use based on AI seemed very"
+    },
+    {
+      "timestamp": [
+        109.4,
+        114.1
+      ],
+      "text": " utopian and not something I would enjoy. It's not a desirable utopia to me at all."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "69a45369fbd4a6aa79ac6def_audio_missing_utopia_1780247275845.webm",
+  "transcript": " I think that the selections were pretty good. They had a good variety of different styles of society that more or less covered the bases decently well for a survey like this.",
+  "language": "unknown",
+  "processing_time_seconds": 5.373973,
+  "timestamp": "2026-06-08T09:10:30.903538",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.48
+      ],
+      "text": " I think that the selections were pretty good. They had a good variety of different styles of society that more or less covered the bases decently well for a survey like this."
+    }
+  ]
+}

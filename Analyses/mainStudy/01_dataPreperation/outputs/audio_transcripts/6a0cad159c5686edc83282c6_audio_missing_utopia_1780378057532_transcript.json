@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a0cad159c5686edc83282c6_audio_missing_utopia_1780378057532.webm",
+  "transcript": " This is an interesting question. I think the thing that is missing from my future ideal society is something that educates and something that serves to embedder the people within that society. like I think all of these solutions provide ways for like on a top-down level for all the problems to be fixed but sometimes people need to fix their own problems and sometimes people need to be given the agency to do the things that they need to do I would feel stronger about any utopia if I had an education program like that",
+  "language": "unknown",
+  "processing_time_seconds": 9.977489,
+  "timestamp": "2026-06-08T10:40:58.745840",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.02
+      ],
+      "text": " This is an interesting question. I think the thing that is missing from my future ideal society is something that educates and something that serves to embedder the people within that society."
+    },
+    {
+      "timestamp": [
+        20.7,
+        20.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        26.86,
+        31.18
+      ],
+      "text": " like I think all of these solutions provide ways for like on a top-down level for all the problems to be fixed but sometimes people need to fix their own problems and sometimes people need"
+    },
+    {
+      "timestamp": [
+        31.18,
+        35.24
+      ],
+      "text": " to be given the agency to do the things that they need to do I would feel stronger about"
+    },
+    {
+      "timestamp": [
+        35.24,
+        37.48
+      ],
+      "text": " any utopia if I had an education program like that"
+    }
+  ]
+}

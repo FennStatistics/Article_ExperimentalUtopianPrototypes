@@ -1,0 +1,269 @@
+{
+  "audio_file": "69fba866c48220909d281e3f_audio_ranking_explanation_1780390558490.webm",
+  "transcript": " So, starting from the bottom and going to the top, the reason why I ranked the societies like this is, first of all, with the religious utopia being at the bottom, faith-based orders have historically existed, and they always turn into discrimination. they always break down. Faith-based conflicts have existed much longer than our current understanding of science or even like modern society. So I don't think a religious utopia would hold up and I also think that it would tend to create outcasts and outgroups. I don't think it would be a very equal society. Then we have the AI-centered utopia. I don't trust AI. It says that it's supposed to be free from human bias, but there will always be bias involved in the way that it's created because it's created by humans. And so that sort of unconscious bias works itself into the, the structure of the AI. And so there will always be bias in the AI, as long as it's being built by humans. And even if the AI is built by other machines, the machines are built by humans. So in the end, it will always somehow contain human bias. And I, yeah, I just, I don't trust that it could create an equitable society. And I think it's anti human. I think that human society should be run by humans. And then the next one is the futurist utopia. I think this is too close to our current system, which is collapsing. I mean, obviously, we're not in utopia right now but um the way that it relies on continuous scientific innovation it would destroy the environment and then it just it wouldn't be sustainable um and then the next one is the institutional utopia that's in four that's the rule of law I do not trust a completely law-based society especially that relies on punitive measures to keep people in line I don't trust it to be equitable and then next is the primitivist utopia this is like the top three of the three that I think could actually be be called utopias um so i mostly really like the primitivist utopia the only problem that i have with it is that i don't think that low tech is necessarily the solution because technology is not inherently bad um and i think there are a lot of um there are a lot of uses for technology a lot of negative things that can be avoided by using technology and i don't think that these should, I don't think that such technology should be eliminated just for the sake of maintaining a low-tech society. Like for instance, medical science, all of the breakthroughs that we've made there, I think that there would be unnecessary suffering if we were in a forced low-tech society. And then number two is the moral commonwealth. I like the moral commonwealth, I just don't think it's realistic. I don't think it's possible to enforce for humans to have a sort of universal inner morality that runs through society and to have a society that just manages to be stable through that alone. It just, it doesn't seem achievable. But if it were achievable, Like if the premise were that this would be something that would actually like work out, then yeah, that does sound like one of the most ideal options. And then the number one is the modern green utopia. I think this is the most sustainable, the most realistic, and the most equitable option. option um i think that this is a future that we can actually work towards that still um works with uh that still accounts for human nature um and i also think that it allows for technology that that eliminates unnecessary suffering while making sure that we maintain a livable environment. And so, yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 61.17208,
+  "timestamp": "2026-06-08T10:10:15.737793",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.14
+      ],
+      "text": " So, starting from the bottom and going to the top, the reason why I ranked the societies like this is, first of all, with the religious utopia being at the bottom, faith-based orders have historically existed, and they always turn into discrimination."
+    },
+    {
+      "timestamp": [
+        22.14,
+        34.92
+      ],
+      "text": " they always break down. Faith-based conflicts have existed much longer than our current"
+    },
+    {
+      "timestamp": [
+        34.92,
+        45.06
+      ],
+      "text": " understanding of science or even like modern society. So I don't think a religious utopia"
+    },
+    {
+      "timestamp": [
+        45.06,
+        55.24
+      ],
+      "text": " would hold up and I also think that it would tend to create outcasts and outgroups. I don't think"
+    },
+    {
+      "timestamp": [
+        55.24,
+        67.12
+      ],
+      "text": " it would be a very equal society. Then we have the AI-centered utopia. I don't trust AI. It says"
+    },
+    {
+      "timestamp": [
+        67.12,
+        76.52
+      ],
+      "text": " that it's supposed to be free from human bias, but there will always be bias involved in the way"
+    },
+    {
+      "timestamp": [
+        76.52,
+        86.26
+      ],
+      "text": " that it's created because it's created by humans. And so that sort of unconscious bias works itself"
+    },
+    {
+      "timestamp": [
+        86.26,
+        97.96
+      ],
+      "text": " into the, the structure of the AI. And so there will always be bias in the AI, as long as it's"
+    },
+    {
+      "timestamp": [
+        97.96,
+        103.66
+      ],
+      "text": " being built by humans. And even if the AI is built by other machines, the machines are built by"
+    },
+    {
+      "timestamp": [
+        103.66,
+        113.88
+      ],
+      "text": " humans. So in the end, it will always somehow contain human bias. And I, yeah, I just, I don't"
+    },
+    {
+      "timestamp": [
+        113.88,
+        124.26
+      ],
+      "text": " trust that it could create an equitable society. And I think it's anti human. I think that human"
+    },
+    {
+      "timestamp": [
+        124.26,
+        131.08
+      ],
+      "text": " society should be run by humans. And then the next one is the futurist utopia. I think this is"
+    },
+    {
+      "timestamp": [
+        131.08,
+        138.96
+      ],
+      "text": " too close to our current system, which is collapsing. I mean, obviously, we're not in"
+    },
+    {
+      "timestamp": [
+        138.96,
+        149.12
+      ],
+      "text": " utopia right now but um the way that it relies on continuous scientific innovation"
+    },
+    {
+      "timestamp": [
+        152.64,
+        158.16
+      ],
+      "text": " it would destroy the environment and then it just it wouldn't be sustainable"
+    },
+    {
+      "timestamp": [
+        159.92,
+        165.52
+      ],
+      "text": " um and then the next one is the institutional utopia that's in four that's the rule of law"
+    },
+    {
+      "timestamp": [
+        166.4,
+        165.52
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        178.8,
+        187.84
+      ],
+      "text": " I do not trust a completely law-based society especially that relies on punitive measures to keep people in line I don't trust it to be equitable and then next is the primitivist"
+    },
+    {
+      "timestamp": [
+        187.84,
+        194.2
+      ],
+      "text": " utopia this is like the top three of the three that I think could actually be be called utopias"
+    },
+    {
+      "timestamp": [
+        194.2,
+        194.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        199.96,
+        204.68
+      ],
+      "text": " um so i mostly really like the primitivist utopia the only problem that i have with it is that i don't think that low tech is necessarily the solution because technology"
+    },
+    {
+      "timestamp": [
+        204.68,
+        217.16
+      ],
+      "text": " is not inherently bad um and i think there are a lot of um there are a lot of uses for technology"
+    },
+    {
+      "timestamp": [
+        217.16,
+        223.56
+      ],
+      "text": " a lot of negative things that can be avoided by using technology and i don't think that"
+    },
+    {
+      "timestamp": [
+        224.2,
+        231.36
+      ],
+      "text": " these should, I don't think that such technology should be eliminated just for the sake of"
+    },
+    {
+      "timestamp": [
+        231.36,
+        236.96
+      ],
+      "text": " maintaining a low-tech society. Like for instance, medical science, all of the breakthroughs that"
+    },
+    {
+      "timestamp": [
+        236.96,
+        243.98
+      ],
+      "text": " we've made there, I think that there would be unnecessary suffering if we were in a forced"
+    },
+    {
+      "timestamp": [
+        243.98,
+        250.6
+      ],
+      "text": " low-tech society. And then number two is the moral commonwealth. I like the moral commonwealth,"
+    },
+    {
+      "timestamp": [
+        250.6,
+        262.1
+      ],
+      "text": " I just don't think it's realistic. I don't think it's possible to enforce for humans to have a"
+    },
+    {
+      "timestamp": [
+        262.1,
+        271.24
+      ],
+      "text": " sort of universal inner morality that runs through society and to have a society that just manages"
+    },
+    {
+      "timestamp": [
+        271.24,
+        279.5
+      ],
+      "text": " to be stable through that alone. It just, it doesn't seem achievable. But if it were achievable,"
+    },
+    {
+      "timestamp": [
+        279.5,
+        290.76
+      ],
+      "text": " Like if the premise were that this would be something that would actually like work out, then yeah, that does sound like one of the most ideal options."
+    },
+    {
+      "timestamp": [
+        290.94,
+        293.06
+      ],
+      "text": " And then the number one is the modern green utopia."
+    },
+    {
+      "timestamp": [
+        293.78,
+        299.5
+      ],
+      "text": " I think this is the most sustainable, the most realistic, and the most equitable option."
+    },
+    {
+      "timestamp": [
+        299.5,
+        308.32
+      ],
+      "text": " option um i think that this is a future that we can actually work towards that still um works with"
+    },
+    {
+      "timestamp": [
+        308.32,
+        320.52
+      ],
+      "text": " uh that still accounts for human nature um and i also think that it allows for technology that"
+    },
+    {
+      "timestamp": [
+        320.52,
+        334.48
+      ],
+      "text": " that eliminates unnecessary suffering while making sure that we maintain a livable environment."
+    },
+    {
+      "timestamp": [
+        334.48,
+        335.02
+      ],
+      "text": " And so, yeah."
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "audio_file": "6a1e601b20d193f9a706e875_audio_missing_utopia_1780387339011.webm",
+  "transcript": " Well, the one reason that I didn't really like any of them was because it said in every single one of them, the reason why I don't think any of them are utopia or are ideal or are ones that I'd want to live in, are because none of them have enough resources. they're all they're all really lacking resources and that's one thing that I mean I just being honest I mean no one would want to live in a society like that it's just factually I would rather not um of course if I have to choose between those I would pick the one I had at number one um but yeah what was missing from all of them was balance there needs that like you can't just pick one society, one type of thing to have in society and not have anything else because balance is literally how the world operates. That's just what makes the world great. Like the different cultures, different religions, different experiences and opinions and there shouldn't be just very limited power. There shouldn't be an absence of power, but there shouldn't be such strict power that you have no freedom. I feel like it's kind of like the issue with liberal and conservative issues in America right now that we're dealing with here where people are basically saying, oh, there's not enough freedom with this, blah blah and but then there's not enough rules on this thing but then people are thinking the answer for not having enough rules is to have zero freedom and then people think that for us not having enough freedom is to have zero rules and it's just crazy that there there should be a balance that respects both of them so I if I had the perfect the perfect um future society let's please describe briefly a type of future society that you feel is missing and explain what would matter most. So ideally, I wouldn't have it where the resources are completely limited. I would like to have an abundance of resources, but let's say that it has to be not an abundance of resources. I would ideally want a balance to a certain extent of almost all of those except for, I don't think AI is useful only for things such as the way it used to be used for things like a simple Google search. the AI for that is fine. And, but the way AI has taken a turn has ended up very dysfunctional in society and caused so many issues. And, but I would have a good balance of science being implemented. We need science. We need to have that, but also we should allow people to have their own religions. We should have freedom, but under, you know, there should be certain protections and you know as long as you're not hurting other people there needs to be rules for when that happens which is why we do need some strict laws that apply but there needs to be certain people like real people backing these things and um it needs to be there needs to be a balance of power which there's not right now in america and yeah i would like to see more of a balance, a balance of power, freedom of a religion, freedom, but also holding people accountable that deserve to be held accountable and the rules being applied fairly. I'm just very big on justice and having a fair society for everyone.",
+  "language": "unknown",
+  "processing_time_seconds": 47.793763,
+  "timestamp": "2026-06-08T11:35:36.364043",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.3
+      ],
+      "text": " Well, the one reason that I didn't really like any of them was because it said in every single one of them, the reason why I don't think any of them are utopia or are ideal or are ones that I'd want to live in, are because none of them have enough resources."
+    },
+    {
+      "timestamp": [
+        19.3,
+        27.8
+      ],
+      "text": " they're all they're all really lacking resources and that's one thing that I mean I just being"
+    },
+    {
+      "timestamp": [
+        27.8,
+        34.32
+      ],
+      "text": " honest I mean no one would want to live in a society like that it's just factually I would"
+    },
+    {
+      "timestamp": [
+        34.32,
+        41.52
+      ],
+      "text": " rather not um of course if I have to choose between those I would pick the one I had at number one"
+    },
+    {
+      "timestamp": [
+        41.52,
+        48.34
+      ],
+      "text": " um but yeah what was missing from all of them was balance there needs that like you can't just pick"
+    },
+    {
+      "timestamp": [
+        48.34,
+        57.34
+      ],
+      "text": " one society, one type of thing to have in society and not have anything else because"
+    },
+    {
+      "timestamp": [
+        57.34,
+        67.58
+      ],
+      "text": " balance is literally how the world operates. That's just what makes the world great. Like"
+    },
+    {
+      "timestamp": [
+        67.58,
+        78.2
+      ],
+      "text": " the different cultures, different religions, different experiences and opinions and there"
+    },
+    {
+      "timestamp": [
+        78.2,
+        85.04
+      ],
+      "text": " shouldn't be just very limited power. There shouldn't be an"
+    },
+    {
+      "timestamp": [
+        85.04,
+        87.86
+      ],
+      "text": " absence of power, but there shouldn't be such strict power"
+    },
+    {
+      "timestamp": [
+        87.86,
+        91.64
+      ],
+      "text": " that you have no freedom. I feel like it's kind of like the"
+    },
+    {
+      "timestamp": [
+        91.64,
+        96.3
+      ],
+      "text": " issue with liberal and conservative issues in America"
+    },
+    {
+      "timestamp": [
+        96.3,
+        101.7
+      ],
+      "text": " right now that we're dealing with here where people are"
+    },
+    {
+      "timestamp": [
+        101.7,
+        105.28
+      ],
+      "text": " basically saying, oh, there's not enough freedom with this,"
+    },
+    {
+      "timestamp": [
+        105.28,
+        111.8
+      ],
+      "text": " blah blah and but then there's not enough rules on this thing but then people are thinking the"
+    },
+    {
+      "timestamp": [
+        111.8,
+        118.24
+      ],
+      "text": " answer for not having enough rules is to have zero freedom and then people think that for us"
+    },
+    {
+      "timestamp": [
+        118.24,
+        125.2
+      ],
+      "text": " not having enough freedom is to have zero rules and it's just crazy that there there should be a"
+    },
+    {
+      "timestamp": [
+        125.2,
+        133.96
+      ],
+      "text": " balance that respects both of them so I if I had the perfect the perfect um future society let's"
+    },
+    {
+      "timestamp": [
+        133.96,
+        140.02
+      ],
+      "text": " please describe briefly a type of future society that you feel is missing and explain what would"
+    },
+    {
+      "timestamp": [
+        140.02,
+        150.94
+      ],
+      "text": " matter most. So ideally, I wouldn't have it where the resources are completely limited. I would like"
+    },
+    {
+      "timestamp": [
+        150.94,
+        158.82
+      ],
+      "text": " to have an abundance of resources, but let's say that it has to be not an abundance of resources."
+    },
+    {
+      "timestamp": [
+        159.04,
+        158.82
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        179.42,
+        179.66
+      ],
+      "text": " I would ideally want a balance to a certain extent of almost all of those except for, I don't think AI is useful only for things such as the way it used to be used for things like a simple Google search."
+    },
+    {
+      "timestamp": [
+        179.42,
+        187.9
+      ],
+      "text": " the AI for that is fine. And, but the way AI has taken a turn has ended up very dysfunctional"
+    },
+    {
+      "timestamp": [
+        187.9,
+        196.08
+      ],
+      "text": " in society and caused so many issues. And, but I would have a good balance of science being"
+    },
+    {
+      "timestamp": [
+        196.08,
+        201.08
+      ],
+      "text": " implemented. We need science. We need to have that, but also we should allow people to have"
+    },
+    {
+      "timestamp": [
+        201.08,
+        209.14
+      ],
+      "text": " their own religions. We should have freedom, but under, you know, there should be certain"
+    },
+    {
+      "timestamp": [
+        209.14,
+        214.92
+      ],
+      "text": " protections and you know as long as you're not hurting other people there needs to be rules for"
+    },
+    {
+      "timestamp": [
+        214.92,
+        220.82
+      ],
+      "text": " when that happens which is why we do need some strict laws that apply but there needs to be"
+    },
+    {
+      "timestamp": [
+        220.82,
+        230.58
+      ],
+      "text": " certain people like real people backing these things and um it needs to be there needs to be"
+    },
+    {
+      "timestamp": [
+        230.58,
+        238.0
+      ],
+      "text": " a balance of power which there's not right now in america and yeah i would like to see more of"
+    },
+    {
+      "timestamp": [
+        238.0,
+        247.04
+      ],
+      "text": " a balance, a balance of power, freedom of a religion, freedom, but also holding people"
+    },
+    {
+      "timestamp": [
+        247.04,
+        252.84
+      ],
+      "text": " accountable that deserve to be held accountable and the rules being applied fairly. I'm just"
+    },
+    {
+      "timestamp": [
+        252.84,
+        258.96
+      ],
+      "text": " very big on justice and having a fair society for everyone."
+    }
+  ]
+}

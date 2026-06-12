@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a147ae189fb8e6281395326_audio_ranking_explanation_1780411231837.webm",
+  "transcript": " You don't have to write them yet because Jeffrey. You can spell it J-E-F-F-R-E-Y, J-E-F-F-E-R-Y, J-E-O-F-F-R-I-E, G-O-F-F-R-I-E, G-O-F-F-R-I-E, G-O-F-F. That's just Jeffrey. So spelling it is so much difficult. And my friend said, why don't you just say them? You don't have to worry about spelling. And I said, no. I want, today was powerful. Today was powerful. But I wanted people to look at it and walk by that wall and say, wow, I didn't know it was this many. I want them to understand.",
+  "language": "unknown",
+  "processing_time_seconds": 12.963233,
+  "timestamp": "2026-06-08T10:59:56.917224",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        1.52
+      ],
+      "text": " You don't have to write them yet because Jeffrey."
+    },
+    {
+      "timestamp": [
+        1.94,
+        11.2
+      ],
+      "text": " You can spell it J-E-F-F-R-E-Y, J-E-F-F-E-R-Y, J-E-O-F-F-R-I-E, G-O-F-F-R-I-E, G-O-F-F-R-I-E, G-O-F-F."
+    },
+    {
+      "timestamp": [
+        11.24,
+        12.12
+      ],
+      "text": " That's just Jeffrey."
+    },
+    {
+      "timestamp": [
+        12.82,
+        14.92
+      ],
+      "text": " So spelling it is so much difficult."
+    },
+    {
+      "timestamp": [
+        15.22,
+        17.28
+      ],
+      "text": " And my friend said, why don't you just say them?"
+    },
+    {
+      "timestamp": [
+        17.5,
+        18.62
+      ],
+      "text": " You don't have to worry about spelling."
+    },
+    {
+      "timestamp": [
+        19.34,
+        20.08
+      ],
+      "text": " And I said, no."
+    },
+    {
+      "timestamp": [
+        21.12,
+        23.32
+      ],
+      "text": " I want, today was powerful."
+    },
+    {
+      "timestamp": [
+        23.54,
+        24.18
+      ],
+      "text": " Today was powerful."
+    },
+    {
+      "timestamp": [
+        24.4,
+        24.18
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.86,
+        33.58
+      ],
+      "text": " But I wanted people to look at it and walk by that wall and say, wow, I didn't know it was this many."
+    },
+    {
+      "timestamp": [
+        34.8,
+        null
+      ],
+      "text": " I want them to understand."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "audio_file": "69cec7f5dd3995a6f516889e_audio_missing_utopia_1780449616975.webm",
+  "transcript": " I think there was definitely a lack of, like, capitalism or socialism of, you know, everyone kind of being equal or everyone for economic-wise. And I think that's important. I think that is what was definitely missing from all of them was the economic factor of each world, of each society. And that is something I think is very important because how the world is, you know, the money runs the world. And I don't think that would stop in any of those future societies.",
+  "language": "unknown",
+  "processing_time_seconds": 12.596277,
+  "timestamp": "2026-06-08T09:29:15.798840",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.54
+      ],
+      "text": " I think there was definitely a lack of, like, capitalism or socialism of, you know, everyone kind of being equal or everyone for economic-wise."
+    },
+    {
+      "timestamp": [
+        18.12,
+        20.6
+      ],
+      "text": " And I think that's important."
+    },
+    {
+      "timestamp": [
+        20.6,
+        29.22
+      ],
+      "text": " I think that is what was definitely missing from all of them"
+    },
+    {
+      "timestamp": [
+        29.22,
+        38.48
+      ],
+      "text": " was the economic factor of each world, of each society."
+    },
+    {
+      "timestamp": [
+        40.0,
+        43.22
+      ],
+      "text": " And that is something I think is very important"
+    },
+    {
+      "timestamp": [
+        43.22,
+        49.02
+      ],
+      "text": " because how the world is, you know, the money runs the world."
+    },
+    {
+      "timestamp": [
+        49.22,
+        49.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        58.94,
+        null
+      ],
+      "text": " And I don't think that would stop in any of those future societies."
+    }
+  ]
+}

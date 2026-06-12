@@ -1,0 +1,192 @@
+{
+  "audio_file": "69e2e8831029b11b8a50d076_audio_ranking_explanation_1780268466523.webm",
+  "transcript": " okay so i ranked the religious utopia the highest because i'm a christian and i think i have a commitment and i believe that in a hundred years or now or anytime the lord wills that um the world will be governed by um i mean at the end of the age at least that's the trajectory that i'm like committed to desire so a religious utopia it would just matter what religion so you can't be vague in regards to what the objective moral values are. And in that regard, there would have to be, um, more information, I guess. Um, if there's peace and, um, everyone's taken care of, but, but the thing is I didn't necessarily agree that about the thing about the supernatural would overcome whatever scarcity like i don't think like on earth um without like divine miracles that that would be going on but everything else i kind of agreed with but i guess i have to be committed to it institutional um utopia rule of law is good um the things i just don't really like is um a global governance over the rule of law so um moral commonwealth again it ranks lower because it makes references to moral and good but who's saying so i i can't exactly see the laws of if they are truly moral or not primitive utopia low tech and small scale i think everyone somewhere inside their heart they want to live in something that's somewhat primitive but they don't wouldn't know once they got there if um if they are truly ready for what that really means but you said that there would be peace so if there's peace and it's primitive and there's low tech that sounds very human um futurist all the futurist people that i see kind of freak me out a little bit and i'm not into it uh and i don't think they're right on their assumptions and i think they uh um so far there's a lot of like paywalls and and weirdness people trying to extend their life it's just not natural for the human um modern green utopia it says it's sustainable and secure but i just i don't really believe it would be i haven't seen anything that is really so sustainable i mean we have electric cars and people attack them and uh the windmills don't really work and uh it's it's the expensive gas that's causing issues isn't it so because people want gas then ai centered utopia that ranks least why do you want something without a soul, um, managing persons with souls. So I know that's kind of like a mess, but thanks for listening. Hope you have a great day.",
+  "language": "unknown",
+  "processing_time_seconds": 38.305655,
+  "timestamp": "2026-06-08T09:39:21.705205",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.82
+      ],
+      "text": " okay so i ranked the religious utopia the highest because i'm a christian and i think i have a"
+    },
+    {
+      "timestamp": [
+        8.82,
+        16.34
+      ],
+      "text": " commitment and i believe that in a hundred years or now or anytime the lord wills that um the world"
+    },
+    {
+      "timestamp": [
+        16.34,
+        23.44
+      ],
+      "text": " will be governed by um i mean at the end of the age at least that's the trajectory that i'm like"
+    },
+    {
+      "timestamp": [
+        23.44,
+        29.42
+      ],
+      "text": " committed to desire so a religious utopia it would just matter what religion so you can't be"
+    },
+    {
+      "timestamp": [
+        29.42,
+        35.6
+      ],
+      "text": " vague in regards to what the objective moral values are. And in that regard, there would"
+    },
+    {
+      "timestamp": [
+        35.6,
+        51.46
+      ],
+      "text": " have to be, um, more information, I guess. Um, if there's peace and, um, everyone's taken care of,"
+    },
+    {
+      "timestamp": [
+        51.46,
+        58.86
+      ],
+      "text": " but, but the thing is I didn't necessarily agree that about the thing about the supernatural"
+    },
+    {
+      "timestamp": [
+        58.86,
+        66.22
+      ],
+      "text": " would overcome whatever scarcity like i don't think like on earth um without like divine miracles"
+    },
+    {
+      "timestamp": [
+        66.22,
+        70.96
+      ],
+      "text": " that that would be going on but everything else i kind of agreed with but i guess i have to be"
+    },
+    {
+      "timestamp": [
+        70.96,
+        81.9
+      ],
+      "text": " committed to it institutional um utopia rule of law is good um the things i just don't really like"
+    },
+    {
+      "timestamp": [
+        81.9,
+        92.56
+      ],
+      "text": " is um a global governance over the rule of law so um moral commonwealth again it ranks lower"
+    },
+    {
+      "timestamp": [
+        92.56,
+        100.02
+      ],
+      "text": " because it makes references to moral and good but who's saying so i i can't exactly see the laws of"
+    },
+    {
+      "timestamp": [
+        100.02,
+        106.92
+      ],
+      "text": " if they are truly moral or not primitive utopia low tech and small scale i think everyone"
+    },
+    {
+      "timestamp": [
+        106.92,
+        113.82
+      ],
+      "text": " somewhere inside their heart they want to live in something that's somewhat primitive but they"
+    },
+    {
+      "timestamp": [
+        113.82,
+        121.2
+      ],
+      "text": " don't wouldn't know once they got there if um if they are truly ready for what that really means"
+    },
+    {
+      "timestamp": [
+        121.2,
+        126.4
+      ],
+      "text": " but you said that there would be peace so if there's peace and it's primitive and there's low"
+    },
+    {
+      "timestamp": [
+        126.4,
+        133.98
+      ],
+      "text": " tech that sounds very human um futurist all the futurist people that i see kind of freak me out a"
+    },
+    {
+      "timestamp": [
+        133.98,
+        139.86
+      ],
+      "text": " little bit and i'm not into it uh and i don't think they're right on their assumptions and i"
+    },
+    {
+      "timestamp": [
+        139.86,
+        148.94
+      ],
+      "text": " think they uh um so far there's a lot of like paywalls and and weirdness people trying to"
+    },
+    {
+      "timestamp": [
+        148.94,
+        158.24
+      ],
+      "text": " extend their life it's just not natural for the human um modern green utopia it says it's"
+    },
+    {
+      "timestamp": [
+        158.24,
+        163.62
+      ],
+      "text": " sustainable and secure but i just i don't really believe it would be i haven't seen anything"
+    },
+    {
+      "timestamp": [
+        163.62,
+        169.52
+      ],
+      "text": " that is really so sustainable i mean we have electric cars and people attack them"
+    },
+    {
+      "timestamp": [
+        169.52,
+        178.62
+      ],
+      "text": " and uh the windmills don't really work and uh it's it's the expensive gas that's causing issues"
+    },
+    {
+      "timestamp": [
+        178.62,
+        188.42
+      ],
+      "text": " isn't it so because people want gas then ai centered utopia that ranks least why do you"
+    },
+    {
+      "timestamp": [
+        188.42,
+        195.52
+      ],
+      "text": " want something without a soul, um, managing persons with souls. So I know that's kind of"
+    },
+    {
+      "timestamp": [
+        195.52,
+        198.96
+      ],
+      "text": " like a mess, but thanks for listening. Hope you have a great day."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "5f6cd1061eba7b0de28b704d_audio_missing_utopia_1780244660184.webm",
+  "transcript": " I think a society that I'd like to see that was missing is a future of collaboration, especially with other countries, other leaders, connecting, respecting each other. kind of more of a blend and a fusion of human life in general versus labels and separation based off of like various different things. I think especially if you're just coming out of a crisis, that's probably what's needed most is for people to come together.",
+  "language": "unknown",
+  "processing_time_seconds": 10.056494,
+  "timestamp": "2026-06-08T08:18:29.646869",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.1
+      ],
+      "text": " I think a society that I'd like to see that was missing is a future of collaboration, especially with other countries, other leaders, connecting, respecting each other."
+    },
+    {
+      "timestamp": [
+        17.1,
+        25.46
+      ],
+      "text": " kind of more of a blend and a fusion of human life in general versus labels and separation"
+    },
+    {
+      "timestamp": [
+        25.46,
+        33.54
+      ],
+      "text": " based off of like various different things. I think especially if you're just coming out"
+    },
+    {
+      "timestamp": [
+        33.54,
+        37.12
+      ],
+      "text": " of a crisis, that's probably what's needed most is for people to come together."
+    }
+  ]
+}

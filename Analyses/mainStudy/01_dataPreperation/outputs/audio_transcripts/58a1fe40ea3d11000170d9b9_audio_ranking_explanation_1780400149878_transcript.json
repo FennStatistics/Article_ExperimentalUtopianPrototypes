@@ -1,0 +1,108 @@
+{
+  "audio_file": "58a1fe40ea3d11000170d9b9_audio_ranking_explanation_1780400149878.webm",
+  "transcript": " For me, I think a utopia based on science and innovation is one that's going to further society the most. And so this one stood out to me the most as the most beneficial utopia. I think the green utopia, modern green utopia, is also very beneficial, but maybe not as realistic as the futurist utopia. Next, number three, is my moral commonwealth. and I think if people lived up to morals, it would be a great world. It's just not very realistic. Number four was the institutional utopia. I do think rules and laws are important, but sometimes we need a human touch and not to be focused on right and wrong. Number five is an AI-centered utopia. I do think that this is not a good idea. because like I just said, we need that human touch, but it could be beneficial in the way that it helps us avoid biases and make everything more fair for everyone else. Primitivist utopia, low tech and small scale is next to last for me because I think technology and innovation are what drive an ideal society. And for me, number seven, a religious utopia is the worst utopia listed, because I don't think everyone should be forced to adhere to one specific religion and all be the same. That takes away everyone's unique identities.",
+  "language": "unknown",
+  "processing_time_seconds": 20.755131,
+  "timestamp": "2026-06-08T08:10:28.975277",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.82,
+        9.44
+      ],
+      "text": " For me, I think a utopia based on science and innovation is one that's going to further society the most."
+    },
+    {
+      "timestamp": [
+        9.64,
+        15.42
+      ],
+      "text": " And so this one stood out to me the most as the most beneficial utopia."
+    },
+    {
+      "timestamp": [
+        16.28,
+        24.7
+      ],
+      "text": " I think the green utopia, modern green utopia, is also very beneficial, but maybe not as realistic as the futurist utopia."
+    },
+    {
+      "timestamp": [
+        25.28,
+        28.3
+      ],
+      "text": " Next, number three, is my moral commonwealth."
+    },
+    {
+      "timestamp": [
+        29.22,
+        28.3
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        37.8,
+        39.04
+      ],
+      "text": " and I think if people lived up to morals, it would be a great world. It's just not very realistic."
+    },
+    {
+      "timestamp": [
+        44.42,
+        50.44
+      ],
+      "text": " Number four was the institutional utopia. I do think rules and laws are important, but sometimes we need a human touch and not to be focused on right and wrong."
+    },
+    {
+      "timestamp": [
+        51.78,
+        57.46
+      ],
+      "text": " Number five is an AI-centered utopia. I do think that this is not a good idea."
+    },
+    {
+      "timestamp": [
+        58.3,
+        65.52
+      ],
+      "text": " because like I just said, we need that human touch, but it could be beneficial in the way that"
+    },
+    {
+      "timestamp": [
+        65.52,
+        74.26
+      ],
+      "text": " it helps us avoid biases and make everything more fair for everyone else. Primitivist utopia,"
+    },
+    {
+      "timestamp": [
+        74.46,
+        80.58
+      ],
+      "text": " low tech and small scale is next to last for me because I think technology and innovation"
+    },
+    {
+      "timestamp": [
+        80.58,
+        87.36
+      ],
+      "text": " are what drive an ideal society. And for me, number seven, a religious utopia is the worst"
+    },
+    {
+      "timestamp": [
+        87.36,
+        95.98
+      ],
+      "text": " utopia listed, because I don't think everyone should be forced to adhere to one specific"
+    },
+    {
+      "timestamp": [
+        95.98,
+        100.9
+      ],
+      "text": " religion and all be the same. That takes away everyone's unique identities."
+    }
+  ]
+}

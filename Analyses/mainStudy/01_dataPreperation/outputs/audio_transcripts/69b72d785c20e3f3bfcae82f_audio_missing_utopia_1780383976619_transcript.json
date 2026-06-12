@@ -1,0 +1,73 @@
+{
+  "audio_file": "69b72d785c20e3f3bfcae82f_audio_missing_utopia_1780383976619.webm",
+  "transcript": " I think one society that could have, um, that could have, um, been explored was something that kind of had maybe no technology at all. Um, I think the primitive one was probably the closest, but I think the one where there's, like, maybe no technology can also be discussed. And I think that trying to navigate modern society without technology could be something very interesting to think about. But I think the main ideas were there. uh um i think we hit the main values and types of approaches um but i'm sure there's always something else that could be imagined or discussed um but so far i think it's adequate",
+  "language": "unknown",
+  "processing_time_seconds": 13.204065,
+  "timestamp": "2026-06-08T09:15:25.954230",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.48
+      ],
+      "text": " I think one society that could have, um, that could have, um, been explored was something that kind of had maybe no technology at all."
+    },
+    {
+      "timestamp": [
+        15.48,
+        27.58
+      ],
+      "text": " Um, I think the primitive one was probably the closest, but I think the one where there's, like, maybe no technology can also be discussed."
+    },
+    {
+      "timestamp": [
+        28.04,
+        27.58
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        38.58,
+        39.2
+      ],
+      "text": " And I think that trying to navigate modern society without technology"
+    },
+    {
+      "timestamp": [
+        41.46,
+        44.58
+      ],
+      "text": " could be something very interesting to think about."
+    },
+    {
+      "timestamp": [
+        49.94,
+        51.98
+      ],
+      "text": " But I think the main ideas were there."
+    },
+    {
+      "timestamp": [
+        49.94,
+        59.38
+      ],
+      "text": " uh um i think we hit the main values and types of approaches um"
+    },
+    {
+      "timestamp": [
+        59.38,
+        66.24
+      ],
+      "text": " but i'm sure there's always something else that could be imagined or discussed um but"
+    },
+    {
+      "timestamp": [
+        66.24,
+        67.84
+      ],
+      "text": " so far i think it's adequate"
+    }
+  ]
+}

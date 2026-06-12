@@ -1,0 +1,192 @@
+{
+  "audio_file": "69f938d4d5bd55e66f88f331_audio_ranking_explanation_1780417469612.webm",
+  "transcript": " So, I think primitivist utopia would be the best and preferred because, you know, let us have our landline phones and our digital clocks, but we eliminate smart technology entirely. I also like the modern green utopia, just a balance with nature I think is smart. We can't exist without nature, so nature can exist without us, so if we plan on sticking around for a while, maybe respect nature a little bit more. Religious utopia I think is iffy. To be honest, I am a Christian, I'm heavily a Christian. If the religious utopia were to work, it would have to be bible based, and in the Old Testament tells you exactly how to run a society from police judges jails all of that but in order for it to really work everything would have to be backed by the bible uh and i don't know how easy that would be to implement as it was stated in the summary i would not i i actually don't think i like that i don't like how it was the religious utopia was explained in the summary it would need some changes for that to work in my opinion the futuristic utopia i don't really like it's kind of opposite of the primitive the primitivist one it's just in my opinion better than the rest uh moral commonwealth is dangerous because while some people have morals other people don't and because my inner self says one thing is right you need to accept that too and there's just things that are objectively wrong in my again opinion institutional utopia and I feel like that approaches or encroaches on like just military I don't know that just is like military state everybody's a slave is kind of how that feels um and then the AI centered utopia absolutely not where ai is in charge same thing as religious if that were to work it it needs changes it can't just be exactly how it was summarized for an ai-centered utopia to work it needs human supervision and it needs a moral human super supervision but as it was described i'm in disagreement with and i don't like i hope that helps Let's do this.",
+  "language": "unknown",
+  "processing_time_seconds": 34.902162,
+  "timestamp": "2026-06-08T10:02:10.720903",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.92
+      ],
+      "text": " So, I think primitivist utopia would be the best and preferred because, you know, let"
+    },
+    {
+      "timestamp": [
+        9.92,
+        16.24
+      ],
+      "text": " us have our landline phones and our digital clocks, but we eliminate smart technology"
+    },
+    {
+      "timestamp": [
+        16.24,
+        17.24
+      ],
+      "text": " entirely."
+    },
+    {
+      "timestamp": [
+        17.24,
+        27.38
+      ],
+      "text": " I also like the modern green utopia, just a balance with nature I think is smart."
+    },
+    {
+      "timestamp": [
+        27.38,
+        34.96
+      ],
+      "text": " We can't exist without nature, so nature can exist without us, so if we plan on sticking"
+    },
+    {
+      "timestamp": [
+        34.96,
+        39.9
+      ],
+      "text": " around for a while, maybe respect nature a little bit more."
+    },
+    {
+      "timestamp": [
+        39.9,
+        42.96
+      ],
+      "text": " Religious utopia I think is iffy."
+    },
+    {
+      "timestamp": [
+        42.96,
+        47.76
+      ],
+      "text": " To be honest, I am a Christian, I'm heavily a Christian."
+    },
+    {
+      "timestamp": [
+        47.76,
+        53.56
+      ],
+      "text": " If the religious utopia were to work, it would have to be bible based, and in the Old Testament"
+    },
+    {
+      "timestamp": [
+        53.56,
+        62.14
+      ],
+      "text": " tells you exactly how to run a society from police judges jails all of that but in order for it to"
+    },
+    {
+      "timestamp": [
+        62.14,
+        70.46
+      ],
+      "text": " really work everything would have to be backed by the bible uh and i don't know how easy that would"
+    },
+    {
+      "timestamp": [
+        70.46,
+        77.58
+      ],
+      "text": " be to implement as it was stated in the summary i would not i i actually don't think i like that"
+    },
+    {
+      "timestamp": [
+        77.58,
+        83.54
+      ],
+      "text": " i don't like how it was the religious utopia was explained in the summary it would need some"
+    },
+    {
+      "timestamp": [
+        83.54,
+        90.0
+      ],
+      "text": " changes for that to work in my opinion the futuristic utopia i don't really like it's kind"
+    },
+    {
+      "timestamp": [
+        90.0,
+        96.8
+      ],
+      "text": " of opposite of the primitive the primitivist one it's just in my opinion better than the rest"
+    },
+    {
+      "timestamp": [
+        96.8,
+        107.08
+      ],
+      "text": " uh moral commonwealth is dangerous because while some people have morals other people"
+    },
+    {
+      "timestamp": [
+        107.08,
+        114.84
+      ],
+      "text": " don't and because my inner self says one thing is right you need to accept that too"
+    },
+    {
+      "timestamp": [
+        114.84,
+        123.88
+      ],
+      "text": " and there's just things that are objectively wrong in my again opinion institutional utopia"
+    },
+    {
+      "timestamp": [
+        123.88,
+        132.92
+      ],
+      "text": " and I feel like that approaches or encroaches on like just"
+    },
+    {
+      "timestamp": [
+        132.92,
+        139.58
+      ],
+      "text": " military I don't know that just is like military state"
+    },
+    {
+      "timestamp": [
+        139.58,
+        149.12
+      ],
+      "text": " everybody's a slave is kind of how that feels um and then the AI centered utopia absolutely not"
+    },
+    {
+      "timestamp": [
+        149.12,
+        154.82
+      ],
+      "text": " where ai is in charge same thing as religious if that were to work it it needs changes it can't"
+    },
+    {
+      "timestamp": [
+        154.82,
+        160.74
+      ],
+      "text": " just be exactly how it was summarized for an ai-centered utopia to work it needs human"
+    },
+    {
+      "timestamp": [
+        160.74,
+        168.8
+      ],
+      "text": " supervision and it needs a moral human super supervision but as it was described i'm in"
+    },
+    {
+      "timestamp": [
+        168.8,
+        173.8
+      ],
+      "text": " disagreement with and i don't like i hope that helps"
+    },
+    {
+      "timestamp": [
+        173.8,
+        203.78
+      ],
+      "text": " Let's do this."
+    }
+  ]
+}

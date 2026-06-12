@@ -1,0 +1,122 @@
+{
+  "audio_file": "69a3995c9cb670e922c6646c_audio_missing_utopia_1780456076373.webm",
+  "transcript": " My missing future Will be having flying cars Cars that can walk on the water Drive on the water Planes that can go on the water And do all that good stuff When you get out of there you gotta just innovate You gotta understand that technology is getting stronger And stronger as we do this And you really just gotta get to it And make sure you can have it And I mean that's pretty much it really guys Thank you for coming to this TED talk y'all Chat over and out Breaker breaker Tweet, tweet",
+  "language": "unknown",
+  "processing_time_seconds": 11.009878,
+  "timestamp": "2026-06-08T09:10:15.416142",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.22
+      ],
+      "text": " My missing future"
+    },
+    {
+      "timestamp": [
+        3.22,
+        4.88
+      ],
+      "text": " Will be having flying cars"
+    },
+    {
+      "timestamp": [
+        4.88,
+        7.4
+      ],
+      "text": " Cars that can walk on the water"
+    },
+    {
+      "timestamp": [
+        7.4,
+        8.52
+      ],
+      "text": " Drive on the water"
+    },
+    {
+      "timestamp": [
+        8.52,
+        11.52
+      ],
+      "text": " Planes that can go on the water"
+    },
+    {
+      "timestamp": [
+        11.52,
+        12.82
+      ],
+      "text": " And do all that good stuff"
+    },
+    {
+      "timestamp": [
+        12.82,
+        14.7
+      ],
+      "text": " When you get out of there you gotta just innovate"
+    },
+    {
+      "timestamp": [
+        14.7,
+        17.44
+      ],
+      "text": " You gotta understand that technology is getting stronger"
+    },
+    {
+      "timestamp": [
+        17.44,
+        18.76
+      ],
+      "text": " And stronger as we do this"
+    },
+    {
+      "timestamp": [
+        18.76,
+        20.84
+      ],
+      "text": " And you really just gotta get to it"
+    },
+    {
+      "timestamp": [
+        20.84,
+        22.18
+      ],
+      "text": " And make sure you can have it"
+    },
+    {
+      "timestamp": [
+        22.18,
+        24.6
+      ],
+      "text": " And I mean that's pretty much it really guys"
+    },
+    {
+      "timestamp": [
+        24.6,
+        27.2
+      ],
+      "text": " Thank you for coming to this TED talk y'all"
+    },
+    {
+      "timestamp": [
+        27.2,
+        28.3
+      ],
+      "text": " Chat over and out"
+    },
+    {
+      "timestamp": [
+        28.3,
+        29.22
+      ],
+      "text": " Breaker breaker"
+    },
+    {
+      "timestamp": [
+        29.22,
+        30.02
+      ],
+      "text": " Tweet, tweet"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audio_file": "69f9d194b0eebbd9aea739b5_audio_missing_utopia_1780379643820.webm",
+  "transcript": " Many of them have things to do with health, proper education, exact return and also affordable housing starting from the government to the local people.",
+  "language": "unknown",
+  "processing_time_seconds": 5.145858,
+  "timestamp": "2026-06-08T10:03:09.925149",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.08
+      ],
+      "text": " Many of them have things to do with health, proper education, exact return and also affordable"
+    },
+    {
+      "timestamp": [
+        15.08,
+        21.72
+      ],
+      "text": " housing starting from the government to the local people."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "audio_file": "699313b98002a6139c85af1a_audio_ranking_explanation_1780407625227.webm",
+  "transcript": " Oh, I rank my, um, I rank the societies this way, um, with the fake utopia being, um, at the bottom, being my least favorite because sometimes, um, religions, uh, are extreme and some things are just not they don't align with my moral beliefs um like for instance things in the christian bible where god is telling people to kill babies and children and women i just i don't agree with it and i think that more people have died over religion than anything else in the world Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 12.517694,
+  "timestamp": "2026-06-08T09:04:44.989003",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.1
+      ],
+      "text": " Oh, I rank my, um, I rank the societies this way, um, with the fake utopia being, um, at"
+    },
+    {
+      "timestamp": [
+        14.1,
+        26.3
+      ],
+      "text": " the bottom, being my least favorite because sometimes, um, religions, uh, are extreme"
+    },
+    {
+      "timestamp": [
+        26.3,
+        35.64
+      ],
+      "text": " and some things are just not they don't align with my moral beliefs um like for instance things in"
+    },
+    {
+      "timestamp": [
+        35.64,
+        44.16
+      ],
+      "text": " the christian bible where god is telling people to kill babies and children and women i just i"
+    },
+    {
+      "timestamp": [
+        44.16,
+        50.46
+      ],
+      "text": " don't agree with it and i think that more people have died over religion than anything else in the"
+    },
+    {
+      "timestamp": [
+        50.46,
+        50.7
+      ],
+      "text": " world"
+    },
+    {
+      "timestamp": [
+        50.7,
+        51.96
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "6978efc5f431052d33e72398_audio_missing_utopia_1780409794193.webm",
+  "transcript": " i can't really think of a future society that was missing basically everything was covered um the only thing that came to mind is maybe like something like the 60s or 70s where everybody was kind of a hippie and doing drugs and just being like a floater or whatever that'd be interesting to see again",
+  "language": "unknown",
+  "processing_time_seconds": 6.416589,
+  "timestamp": "2026-06-08T08:56:08.972354",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.52
+      ],
+      "text": " i can't really think of a future society that was missing basically everything was covered"
+    },
+    {
+      "timestamp": [
+        6.52,
+        12.46
+      ],
+      "text": " um the only thing that came to mind is maybe like something like the 60s or 70s where everybody was"
+    },
+    {
+      "timestamp": [
+        12.46,
+        17.94
+      ],
+      "text": " kind of a hippie and doing drugs and just being like a floater or whatever that'd be interesting"
+    },
+    {
+      "timestamp": [
+        17.94,
+        19.62
+      ],
+      "text": " to see again"
+    }
+  ]
+}

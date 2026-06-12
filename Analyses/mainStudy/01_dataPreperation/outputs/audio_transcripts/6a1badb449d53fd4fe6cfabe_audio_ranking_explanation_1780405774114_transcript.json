@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a1badb449d53fd4fe6cfabe_audio_ranking_explanation_1780405774114.webm",
+  "transcript": " I most prefer the modern green utopia because of climate change and concern about what's happening to our planet and so this seems like the most sustainable way to move forward in terms of maintaining our societies. My least preferred society was religious utopia because religion creates lots of tension and we've seen lots of wars because of religion and those types of societies have created lots of conflict. And I also think the AI-based one dehumanizes humans and would create a very mechanical society.",
+  "language": "unknown",
+  "processing_time_seconds": 10.039788,
+  "timestamp": "2026-06-08T11:17:46.819327",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.66
+      ],
+      "text": " I most prefer the modern green utopia because of climate change and concern about what's"
+    },
+    {
+      "timestamp": [
+        9.66,
+        14.76
+      ],
+      "text": " happening to our planet and so this seems like the most sustainable way to move forward"
+    },
+    {
+      "timestamp": [
+        14.76,
+        20.7
+      ],
+      "text": " in terms of maintaining our societies."
+    },
+    {
+      "timestamp": [
+        20.7,
+        27.48
+      ],
+      "text": " My least preferred society was religious utopia because religion creates lots of tension"
+    },
+    {
+      "timestamp": [
+        27.48,
+        31.52
+      ],
+      "text": " and we've seen lots of wars because of religion"
+    },
+    {
+      "timestamp": [
+        31.52,
+        36.52
+      ],
+      "text": " and those types of societies have created lots of conflict."
+    },
+    {
+      "timestamp": [
+        37.48,
+        42.48
+      ],
+      "text": " And I also think the AI-based one dehumanizes humans"
+    },
+    {
+      "timestamp": [
+        43.48,
+        46.4
+      ],
+      "text": " and would create a very mechanical society."
+    }
+  ]
+}

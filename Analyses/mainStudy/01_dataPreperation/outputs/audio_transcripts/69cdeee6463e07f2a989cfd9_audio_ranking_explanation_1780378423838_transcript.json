@@ -1,0 +1,122 @@
+{
+  "audio_file": "69cdeee6463e07f2a989cfd9_audio_ranking_explanation_1780378423838.webm",
+  "transcript": " So I think that a moral commonwealth would be the best thing there, because I do truly believe that if we were to normalize living with your conscience and make sort of more immoral decisions, more taboo and shameful, that would be better for the world. um the religious utopia is absolutely the worst you know it's very handmaid's tale very close to it where it could be very easy for that to lead to a lot of oppression of different groups i also think an ai centered utopia sounds disgusting i want decisions to be made by real people not some sort of algorithm um moving up from that institutional utopia also isn't great that does sound very dystopian. You know, I feel like most dystopias, it like makes me think of 1984 there, where I think that would also be very easy for governmental corruption and for people to be mistreated. The futurist utopia seems like, you know, that's in the middle where I think that science and innovation are good things, but to have those be the center of everything, I think would um just it does not seem human in a weird way i think the um primitivist utopia is closer to the top because that sort of um small scale sort of thing i think would help make sure that like community needs community needs are being met um a modern green utopia is close to the top because um you know sustainability is very important and i think ensuring that we and future generations of humans are able to have a world to live in is very important. And yeah, I think again, the moral commonwealth is at the top for what I described earlier. I do think that would be the most beneficial for humankind.",
+  "language": "unknown",
+  "processing_time_seconds": 26.634437,
+  "timestamp": "2026-06-08T09:29:03.126764",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.38
+      ],
+      "text": " So I think that a moral commonwealth would be the best thing there, because I do truly believe that if we were to normalize living with your conscience and make sort of more immoral decisions, more taboo and shameful, that would be better for the world."
+    },
+    {
+      "timestamp": [
+        19.8,
+        19.38
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        25.62,
+        29.2
+      ],
+      "text": " um the religious utopia is absolutely the worst you know it's very handmaid's tale very close to it where it could be very easy for that to lead to a lot of oppression of different groups"
+    },
+    {
+      "timestamp": [
+        29.2,
+        36.12
+      ],
+      "text": " i also think an ai centered utopia sounds disgusting i want decisions to be made by"
+    },
+    {
+      "timestamp": [
+        36.12,
+        43.82
+      ],
+      "text": " real people not some sort of algorithm um moving up from that institutional utopia also isn't great"
+    },
+    {
+      "timestamp": [
+        43.82,
+        49.8
+      ],
+      "text": " that does sound very dystopian. You know, I feel like most dystopias, it like makes me think of"
+    },
+    {
+      "timestamp": [
+        49.8,
+        56.74
+      ],
+      "text": " 1984 there, where I think that would also be very easy for governmental corruption and for people"
+    },
+    {
+      "timestamp": [
+        56.74,
+        65.14
+      ],
+      "text": " to be mistreated. The futurist utopia seems like, you know, that's in the middle where I think that"
+    },
+    {
+      "timestamp": [
+        65.14,
+        69.26
+      ],
+      "text": " science and innovation are good things, but to have those be the center of everything, I think"
+    },
+    {
+      "timestamp": [
+        69.26,
+        78.14
+      ],
+      "text": " would um just it does not seem human in a weird way i think the um primitivist utopia is closer"
+    },
+    {
+      "timestamp": [
+        78.14,
+        85.1
+      ],
+      "text": " to the top because that sort of um small scale sort of thing i think would help make sure that"
+    },
+    {
+      "timestamp": [
+        85.1,
+        92.82
+      ],
+      "text": " like community needs community needs are being met um a modern green utopia is close to the top"
+    },
+    {
+      "timestamp": [
+        92.82,
+        98.52
+      ],
+      "text": " because um you know sustainability is very important and i think ensuring that we and"
+    },
+    {
+      "timestamp": [
+        98.52,
+        105.68
+      ],
+      "text": " future generations of humans are able to have a world to live in is very important. And yeah,"
+    },
+    {
+      "timestamp": [
+        105.76,
+        109.88
+      ],
+      "text": " I think again, the moral commonwealth is at the top for what I described earlier. I do think that"
+    },
+    {
+      "timestamp": [
+        109.88,
+        112.58
+      ],
+      "text": " would be the most beneficial for humankind."
+    }
+  ]
+}

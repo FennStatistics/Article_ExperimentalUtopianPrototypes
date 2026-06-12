@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a037bdccdf50aa9efd14b0b_audio_missing_utopia_1780378149011.webm",
+  "transcript": " A future society I feel was missing, or could potentially exist, would be one where people are given more of a voice than the higher ranking powers of government. not where they supersede such a group but have more of an equal voice than we do today to speak opinion our mindset and feel that we are valued just as much as those who orchestrate law strive to feel valued by us A society where everyone is seen as an equal, yet they are allowed to be different.",
+  "language": "unknown",
+  "processing_time_seconds": 12.070341,
+  "timestamp": "2026-06-08T10:21:31.726505",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.82
+      ],
+      "text": " A future society I feel was missing, or could potentially exist, would be one where people are given more of a voice than the higher ranking powers of government."
+    },
+    {
+      "timestamp": [
+        15.9,
+        14.82
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        23.28,
+        32.12
+      ],
+      "text": " not where they supersede such a group but have more of an equal voice than we do today to speak opinion our mindset and feel that we are valued just as much as"
+    },
+    {
+      "timestamp": [
+        32.12,
+        40.76
+      ],
+      "text": " those who orchestrate law strive to feel valued by us"
+    },
+    {
+      "timestamp": [
+        40.76,
+        48.4
+      ],
+      "text": " A society where everyone is seen as an equal, yet they are allowed to be different."
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "audio_file": "6a0fdb7eecaf669f854c5abb_audio_ranking_explanation_1780381892307.webm",
+  "transcript": " so i put the kind of primitivist utopia first um i feel like society was probably pretty good or would be pretty good if you know everybody kind of just kept themselves you know like they used you know a little bit of technology when they needed to, um, and, you know, uh, kind of closer to, you know, just be good to each other, be good to your family, and, you know, almost like, uh, almost lawless, but you don't really need law if everybody's just trying to help each other out. and then definitely so like the institutional one is pretty much where we're heading right now and I don't know if you have seen the world today but it's not great I mean yeah cool we've got technology we've got this that and the other but if you need a law if there is laws that can tell you like And we're just shy of telling, you know, or being told if we can breathe or not. You know? And then the religious one, I mean, I'm just, I'm not into that. I feel like we've kind of tried that. and that just started war after war after war like in order for that to happen that we would have to kill basically everybody you know um and even then it kind of seems to me like they would come down like if one person is like no man i don't really believe that then they would probably get killed you know the AI centered one I mean that that also is kind of scary not having any kind of input I mean I guess it would make things fair you know if you're not really producing for society you don't get a higher quality of life I guess maybe the futurist one I mean that one was kind of I don't know about that one either the green one I mean that kind of made sense and then the moral commonwealth I mean I'd be okay with that too really again you know comes down to you know respect if you really wanted to you know if you're not out there trying to get everybody and don't think everybody's trying to get at you then we would spend more time trying to help each other and instead of trying to put everybody down",
+  "language": "unknown",
+  "processing_time_seconds": 37.408018,
+  "timestamp": "2026-06-08T10:52:59.104804",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.04
+      ],
+      "text": " so i put the kind of primitivist utopia first"
+    },
+    {
+      "timestamp": [
+        8.04,
+        17.58
+      ],
+      "text": " um i feel like society was probably pretty good or would be pretty good if you know everybody"
+    },
+    {
+      "timestamp": [
+        17.58,
+        24.64
+      ],
+      "text": " kind of just kept themselves you know like they used you know a little bit of technology when"
+    },
+    {
+      "timestamp": [
+        24.64,
+        35.58
+      ],
+      "text": " they needed to, um, and, you know, uh, kind of closer to, you know, just be good to each"
+    },
+    {
+      "timestamp": [
+        35.58,
+        48.9
+      ],
+      "text": " other, be good to your family, and, you know, almost like, uh, almost lawless, but you don't"
+    },
+    {
+      "timestamp": [
+        48.9,
+        52.5
+      ],
+      "text": " really need law if everybody's just trying to help each other out."
+    },
+    {
+      "timestamp": [
+        54.64,
+        58.8
+      ],
+      "text": " and then definitely"
+    },
+    {
+      "timestamp": [
+        58.8,
+        60.04
+      ],
+      "text": " so like"
+    },
+    {
+      "timestamp": [
+        60.04,
+        62.4
+      ],
+      "text": " the institutional one"
+    },
+    {
+      "timestamp": [
+        62.4,
+        64.68
+      ],
+      "text": " is pretty much where we're heading right now"
+    },
+    {
+      "timestamp": [
+        64.68,
+        66.36
+      ],
+      "text": " and"
+    },
+    {
+      "timestamp": [
+        66.36,
+        67.9
+      ],
+      "text": " I don't know if you"
+    },
+    {
+      "timestamp": [
+        67.9,
+        69.94
+      ],
+      "text": " have seen the world today but"
+    },
+    {
+      "timestamp": [
+        69.94,
+        72.36
+      ],
+      "text": " it's not great"
+    },
+    {
+      "timestamp": [
+        72.36,
+        74.58
+      ],
+      "text": " I mean yeah cool we've got"
+    },
+    {
+      "timestamp": [
+        74.58,
+        76.52
+      ],
+      "text": " technology we've got this that"
+    },
+    {
+      "timestamp": [
+        76.52,
+        77.0
+      ],
+      "text": " and the other"
+    },
+    {
+      "timestamp": [
+        77.0,
+        79.78
+      ],
+      "text": " but if you need a law"
+    },
+    {
+      "timestamp": [
+        79.78,
+        82.54
+      ],
+      "text": " if there is laws that can tell you"
+    },
+    {
+      "timestamp": [
+        82.54,
+        84.0
+      ],
+      "text": " like"
+    },
+    {
+      "timestamp": [
+        84.64,
+        102.04
+      ],
+      "text": " And we're just shy of telling, you know, or being told if we can breathe or not. You know? And then the religious one, I mean, I'm just, I'm not into that. I feel like we've kind of tried that."
+    },
+    {
+      "timestamp": [
+        102.82,
+        102.04
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        110.86,
+        120.52
+      ],
+      "text": " and that just started war after war after war like in order for that to happen that we would have to kill basically everybody you know um and even then it kind of seems to me like"
+    },
+    {
+      "timestamp": [
+        120.52,
+        126.16
+      ],
+      "text": " they would come down like if one person is like no man i don't really believe that"
+    },
+    {
+      "timestamp": [
+        126.16,
+        129.94
+      ],
+      "text": " then they would probably get killed"
+    },
+    {
+      "timestamp": [
+        129.94,
+        131.42
+      ],
+      "text": " you know"
+    },
+    {
+      "timestamp": [
+        131.42,
+        135.66
+      ],
+      "text": " the AI centered one"
+    },
+    {
+      "timestamp": [
+        135.66,
+        136.7
+      ],
+      "text": " I mean that"
+    },
+    {
+      "timestamp": [
+        136.7,
+        138.68
+      ],
+      "text": " that also is kind of scary"
+    },
+    {
+      "timestamp": [
+        138.68,
+        140.96
+      ],
+      "text": " not having any kind of input"
+    },
+    {
+      "timestamp": [
+        140.96,
+        143.98
+      ],
+      "text": " I mean I guess it would make things fair"
+    },
+    {
+      "timestamp": [
+        143.98,
+        145.14
+      ],
+      "text": " you know"
+    },
+    {
+      "timestamp": [
+        145.14,
+        146.6
+      ],
+      "text": " if you're not really"
+    },
+    {
+      "timestamp": [
+        146.6,
+        149.22
+      ],
+      "text": " producing for society"
+    },
+    {
+      "timestamp": [
+        149.22,
+        151.7
+      ],
+      "text": " you don't get"
+    },
+    {
+      "timestamp": [
+        151.7,
+        155.6
+      ],
+      "text": " a higher quality of life"
+    },
+    {
+      "timestamp": [
+        155.6,
+        156.4
+      ],
+      "text": " I guess maybe"
+    },
+    {
+      "timestamp": [
+        156.4,
+        160.06
+      ],
+      "text": " the futurist one"
+    },
+    {
+      "timestamp": [
+        160.06,
+        161.42
+      ],
+      "text": " I mean that one was kind of"
+    },
+    {
+      "timestamp": [
+        161.42,
+        165.28
+      ],
+      "text": " I don't know about that one either"
+    },
+    {
+      "timestamp": [
+        165.28,
+        169.76
+      ],
+      "text": " the green one"
+    },
+    {
+      "timestamp": [
+        169.76,
+        171.12
+      ],
+      "text": " I mean that kind of made sense"
+    },
+    {
+      "timestamp": [
+        171.12,
+        173.6
+      ],
+      "text": " and then the moral"
+    },
+    {
+      "timestamp": [
+        173.6,
+        175.7
+      ],
+      "text": " commonwealth I mean I'd be okay with that too"
+    },
+    {
+      "timestamp": [
+        175.7,
+        176.72
+      ],
+      "text": " really"
+    },
+    {
+      "timestamp": [
+        176.72,
+        181.86
+      ],
+      "text": " again you know comes down to"
+    },
+    {
+      "timestamp": [
+        181.86,
+        184.02
+      ],
+      "text": " you know respect"
+    },
+    {
+      "timestamp": [
+        184.02,
+        194.02
+      ],
+      "text": " if you really wanted to you know if you're not out there trying to get everybody and don't think"
+    },
+    {
+      "timestamp": [
+        194.02,
+        199.7
+      ],
+      "text": " everybody's trying to get at you then we would spend more time trying to help each other and"
+    },
+    {
+      "timestamp": [
+        199.7,
+        201.96
+      ],
+      "text": " instead of trying to put everybody down"
+    }
+  ]
+}

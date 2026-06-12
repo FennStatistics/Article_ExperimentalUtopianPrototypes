@@ -1,0 +1,101 @@
+{
+  "audio_file": "63d7fb6ee49281f6c41d6630_audio_ranking_explanation_1780382023312.webm",
+  "transcript": " I think the AI-centered utopia lacks a lot of human traits that I would look for in a society that I would want to live in. uh i think the basis of ai and generally its usage cases are much too machine-like for me to be really enamored with it or want to live there the rule of law utopia i think would be the best one as everyone would have a place and it's clear what would happen and what would not happen as the laws would be followed a futurist utopia i put it second because science and innovation could lead to a society in which innovation and bettering people's lives is very paramount so i think that's very good and then the rest i generally thought were just in the middle and rank them in a sort of way that's maybe not something that pops first into my mind in terms of generally what I would want to live in or where I would want to be but it's not necessarily bad either it's just sort of whatever so that's generally how I sort of rank them they all have sort of the pros and cons, but the rule of law would obviously be first for me. And I think that generally one society that focuses on AI and sort of just AI is not something where I would look forward to.",
+  "language": "unknown",
+  "processing_time_seconds": 22.12943,
+  "timestamp": "2026-06-08T08:28:37.446312",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.46
+      ],
+      "text": " I think the AI-centered utopia lacks a lot of human traits that I would look for in a society that I would want to live in."
+    },
+    {
+      "timestamp": [
+        13.92,
+        12.46
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.28,
+        35.2
+      ],
+      "text": " uh i think the basis of ai and generally its usage cases are much too machine-like for me to be really enamored with it or want to live there the rule of law utopia i think would be the best one"
+    },
+    {
+      "timestamp": [
+        36.2,
+        41.96
+      ],
+      "text": " as everyone would have a place and it's clear what would happen and what would not happen"
+    },
+    {
+      "timestamp": [
+        41.96,
+        50.1
+      ],
+      "text": " as the laws would be followed a futurist utopia i put it second because science and innovation"
+    },
+    {
+      "timestamp": [
+        50.1,
+        59.26
+      ],
+      "text": " could lead to a society in which innovation and bettering people's lives is"
+    },
+    {
+      "timestamp": [
+        59.26,
+        67.46
+      ],
+      "text": " very paramount so i think that's very good and then the rest i generally thought were just in"
+    },
+    {
+      "timestamp": [
+        67.46,
+        76.7
+      ],
+      "text": " the middle and rank them in a sort of way that's maybe not something that pops first into my mind"
+    },
+    {
+      "timestamp": [
+        76.7,
+        82.78
+      ],
+      "text": " in terms of generally what I would want to live in or where I would want to be but it's not"
+    },
+    {
+      "timestamp": [
+        82.78,
+        90.18
+      ],
+      "text": " necessarily bad either it's just sort of whatever so that's generally how I sort of rank them they"
+    },
+    {
+      "timestamp": [
+        90.18,
+        98.64
+      ],
+      "text": " all have sort of the pros and cons, but the rule of law would obviously be first for me."
+    },
+    {
+      "timestamp": [
+        99.14,
+        113.52
+      ],
+      "text": " And I think that generally one society that focuses on AI and sort of just AI is not something"
+    },
+    {
+      "timestamp": [
+        113.52,
+        115.94
+      ],
+      "text": " where I would look forward to."
+    }
+  ]
+}

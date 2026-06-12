@@ -1,0 +1,38 @@
+{
+  "audio_file": "69ea7367c2fff52ec22449cd_audio_missing_utopia_1780402096476.webm",
+  "transcript": " I think the one that I put as number one would probably be the most ideal, but honestly it would have to be the most, most, most ideal would be probably a mixture of the top three. A bit of moral, heavy reliance on science and technology, and yeah. keeping AI out of actual decisions, but doing everything fact-based and database with science.",
+  "language": "unknown",
+  "processing_time_seconds": 8.892521,
+  "timestamp": "2026-06-08T09:45:22.943345",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        13.76
+      ],
+      "text": " I think the one that I put as number one would probably be the most ideal, but honestly it would have to be the most, most, most ideal would be probably a mixture of the top three."
+    },
+    {
+      "timestamp": [
+        15.6,
+        26.48
+      ],
+      "text": " A bit of moral, heavy reliance on science and technology, and yeah."
+    },
+    {
+      "timestamp": [
+        28.48,
+        26.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        39.8,
+        null
+      ],
+      "text": " keeping AI out of actual decisions, but doing everything fact-based and database with science."
+    }
+  ]
+}

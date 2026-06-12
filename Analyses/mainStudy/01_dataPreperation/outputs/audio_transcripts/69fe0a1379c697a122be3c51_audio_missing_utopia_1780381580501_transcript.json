@@ -1,0 +1,80 @@
+{
+  "audio_file": "69fe0a1379c697a122be3c51_audio_missing_utopia_1780381580501.webm",
+  "transcript": " Alright so looking back At the seven societies that I just Ranked Were there any important values or approaches That were absent from all of them I don't think so at all I think these Seven were probably The core Needed",
+  "language": "unknown",
+  "processing_time_seconds": 6.252616,
+  "timestamp": "2026-06-08T10:11:32.406418",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        2.8
+      ],
+      "text": " Alright so looking back"
+    },
+    {
+      "timestamp": [
+        2.8,
+        4.66
+      ],
+      "text": " At the seven societies that I just"
+    },
+    {
+      "timestamp": [
+        4.66,
+        5.42
+      ],
+      "text": " Ranked"
+    },
+    {
+      "timestamp": [
+        5.42,
+        8.74
+      ],
+      "text": " Were there any important values or approaches"
+    },
+    {
+      "timestamp": [
+        8.74,
+        10.72
+      ],
+      "text": " That were absent from all of them"
+    },
+    {
+      "timestamp": [
+        10.72,
+        12.14
+      ],
+      "text": " I don't think so at all"
+    },
+    {
+      "timestamp": [
+        12.14,
+        14.06
+      ],
+      "text": " I think these"
+    },
+    {
+      "timestamp": [
+        14.06,
+        16.28
+      ],
+      "text": " Seven were probably"
+    },
+    {
+      "timestamp": [
+        16.28,
+        17.16
+      ],
+      "text": " The core"
+    },
+    {
+      "timestamp": [
+        17.16,
+        19.86
+      ],
+      "text": " Needed"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "audio_file": "69e197974406b0a6289223db_audio_missing_utopia_1780387039520.webm",
+  "transcript": " Yeah I don't know. I mean it sounds like I'm joking but I do like the idea of it was basically called space communism. I mean I did jokingly refer to Star Trek earlier but I like the idea that technology can advance to a point where our physical needs are met and people are free to work on you know humanities i don't know if that would necessarily be the futurist utopia um because i mean some of that is predicated on the idea of like having basically i don't know if you want to say boundless energy but like um you know that's not something that we need to struggle for whereas kind of you know right now we have like uh i don't know a certain abundance of information and i don't know sometimes it's used for the better and sometimes not so i think um you know truly making it so that we can struggle for more um more human things and just Making rent at the end of the month would be pretty cool.",
+  "language": "unknown",
+  "processing_time_seconds": 18.873691,
+  "timestamp": "2026-06-08T09:37:53.977437",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.62
+      ],
+      "text": " Yeah I don't know. I mean it sounds like I'm joking but I do like the idea of it was basically"
+    },
+    {
+      "timestamp": [
+        9.62,
+        14.38
+      ],
+      "text": " called space communism. I mean I did jokingly refer to Star Trek earlier but I like the idea"
+    },
+    {
+      "timestamp": [
+        14.38,
+        22.14
+      ],
+      "text": " that technology can advance to a point where our physical needs are met and people are free to work"
+    },
+    {
+      "timestamp": [
+        22.14,
+        29.12
+      ],
+      "text": " on you know humanities i don't know if that would necessarily be the futurist utopia um"
+    },
+    {
+      "timestamp": [
+        29.12,
+        34.0
+      ],
+      "text": " because i mean some of that is predicated on the idea of like having basically"
+    },
+    {
+      "timestamp": [
+        34.0,
+        40.18
+      ],
+      "text": " i don't know if you want to say boundless energy but like um you know that's not something that we"
+    },
+    {
+      "timestamp": [
+        40.18,
+        46.88
+      ],
+      "text": " need to struggle for whereas kind of you know right now we have like uh i don't know a certain"
+    },
+    {
+      "timestamp": [
+        46.88,
+        54.16
+      ],
+      "text": " abundance of information and i don't know sometimes it's used for the better and sometimes not so i"
+    },
+    {
+      "timestamp": [
+        54.16,
+        64.32
+      ],
+      "text": " think um you know truly making it so that we can struggle for more um more human things and just"
+    },
+    {
+      "timestamp": [
+        64.32,
+        66.72
+      ],
+      "text": " Making rent at the end of the month would be pretty cool."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "audio_file": "6942b9546065aeb7e30fd87a_audio_ranking_explanation_1780405435015.webm",
+  "transcript": " I ranked the societies this way, um, with inner morality being at the top because I feel like, um, to me that would be the most utopian kind of place, um, where people just let their inner goodness guide them. I think that's very important and inspirational. Um, I followed it with a primitive, primitivist utopia. Um, I like the fact that it's low tech because I feel like technology has really screwed people up in a way um then i kind of just the others were all about the same to me except for um institutional utopia and religious utopia i did put those at the bottom because i felt like those were just a little too um rigid and um kind of like old school i guess so i put those at the bottom",
+  "language": "unknown",
+  "processing_time_seconds": 12.001172,
+  "timestamp": "2026-06-08T08:49:25.539165",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.78
+      ],
+      "text": " I ranked the societies this way, um, with inner morality being at the top because I feel like,"
+    },
+    {
+      "timestamp": [
+        8.78,
+        17.48
+      ],
+      "text": " um, to me that would be the most utopian kind of place, um, where people just let their"
+    },
+    {
+      "timestamp": [
+        17.48,
+        24.22
+      ],
+      "text": " inner goodness guide them. I think that's very important and inspirational. Um, I followed it"
+    },
+    {
+      "timestamp": [
+        24.22,
+        29.96
+      ],
+      "text": " with a primitive, primitivist utopia. Um, I like the fact that it's low tech because I feel like"
+    },
+    {
+      "timestamp": [
+        29.96,
+        39.58
+      ],
+      "text": " technology has really screwed people up in a way um then i kind of just the others were all about"
+    },
+    {
+      "timestamp": [
+        39.58,
+        46.46
+      ],
+      "text": " the same to me except for um institutional utopia and religious utopia i did put those at the bottom"
+    },
+    {
+      "timestamp": [
+        46.46,
+        55.88
+      ],
+      "text": " because i felt like those were just a little too um rigid and um kind of like old school i guess"
+    },
+    {
+      "timestamp": [
+        55.88,
+        57.22
+      ],
+      "text": " so i put those at the bottom"
+    }
+  ]
+}

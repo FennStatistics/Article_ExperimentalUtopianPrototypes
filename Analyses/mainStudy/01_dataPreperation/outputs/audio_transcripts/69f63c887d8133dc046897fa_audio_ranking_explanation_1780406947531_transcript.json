@@ -1,0 +1,38 @@
+{
+  "audio_file": "69f63c887d8133dc046897fa_audio_ranking_explanation_1780406947531.webm",
+  "transcript": " I have ranked the most preferred to the least preferred because I looked what the society valued the most and what they loved doing to the least. i ranked according to what i understood from what i read yeah",
+  "language": "unknown",
+  "processing_time_seconds": 8.226708,
+  "timestamp": "2026-06-08T09:59:43.841151",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.64
+      ],
+      "text": " I have ranked the most preferred to the least preferred because I looked what the society"
+    },
+    {
+      "timestamp": [
+        14.64,
+        27.28
+      ],
+      "text": " valued the most and what they loved doing to the least."
+    },
+    {
+      "timestamp": [
+        27.28,
+        27.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.52,
+        null
+      ],
+      "text": " i ranked according to what i understood from what i read yeah"
+    }
+  ]
+}

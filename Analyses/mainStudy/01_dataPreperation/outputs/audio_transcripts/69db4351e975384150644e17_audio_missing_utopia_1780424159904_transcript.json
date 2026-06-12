@@ -1,0 +1,17 @@
+{
+  "audio_file": "69db4351e975384150644e17_audio_missing_utopia_1780424159904.webm",
+  "transcript": " I think what was missing was a society that really prioritizes personal freedom, creativity and thus individual self-actualization, like one where people have lots of room to explore, innovate and live meaningful lives without heavy rules, AI control or strict moral codes. For me, the most important thing would be maximum human flourishing and adventure.",
+  "language": "unknown",
+  "processing_time_seconds": 6.619635,
+  "timestamp": "2026-06-08T09:35:02.975884",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        27.42
+      ],
+      "text": " I think what was missing was a society that really prioritizes personal freedom, creativity and thus individual self-actualization, like one where people have lots of room to explore, innovate and live meaningful lives without heavy rules, AI control or strict moral codes. For me, the most important thing would be maximum human flourishing and adventure."
+    }
+  ]
+}

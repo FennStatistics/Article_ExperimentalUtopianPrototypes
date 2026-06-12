@@ -1,0 +1,87 @@
+{
+  "audio_file": "69fe0a1379c697a122be3c51_audio_ranking_explanation_1780381552971.webm",
+  "transcript": " all right so basically i chose ai centered utopia first um the reason i do that is because it's data driven so it's more than likely going to be the correct objective opinion on things second is moral commonwealth intermorality um i chose that because if you're going off of good people, good faith, then things should always work out, and if they don't, you'll find the most morally good solution. Third, modern green utopia, just because it's just about sustainability. Then four, which I really should have put higher, was futurist utopia, and it's just because science and innovation is just like the smartest thing overall it's what's helped mankind throughout history fifth rule of law if people aren't listening sometimes we got laid down the law six uh primivist primitivist utopia low tech small scale i just didn't really like this one and a seventh i think faith base is just the stupidest one but that's what we did here today in society",
+  "language": "unknown",
+  "processing_time_seconds": 17.969217,
+  "timestamp": "2026-06-08T10:11:50.608750",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.92
+      ],
+      "text": " all right so basically i chose ai centered utopia first um the reason i do that is because it's"
+    },
+    {
+      "timestamp": [
+        8.92,
+        16.42
+      ],
+      "text": " data driven so it's more than likely going to be the correct objective opinion on things"
+    },
+    {
+      "timestamp": [
+        16.42,
+        25.48
+      ],
+      "text": " second is moral commonwealth intermorality um i chose that because if you're going off of good"
+    },
+    {
+      "timestamp": [
+        25.48,
+        33.52
+      ],
+      "text": " people, good faith, then things should always work out, and if they don't, you'll find the"
+    },
+    {
+      "timestamp": [
+        33.52,
+        45.22
+      ],
+      "text": " most morally good solution. Third, modern green utopia, just because it's just about"
+    },
+    {
+      "timestamp": [
+        45.22,
+        51.32
+      ],
+      "text": " sustainability. Then four, which I really should have put higher, was futurist utopia,"
+    },
+    {
+      "timestamp": [
+        51.32,
+        58.22
+      ],
+      "text": " and it's just because science and innovation is just like the smartest thing overall it's what's"
+    },
+    {
+      "timestamp": [
+        58.22,
+        65.46
+      ],
+      "text": " helped mankind throughout history fifth rule of law if people aren't listening sometimes we got"
+    },
+    {
+      "timestamp": [
+        65.46,
+        76.84
+      ],
+      "text": " laid down the law six uh primivist primitivist utopia low tech small scale i just didn't really"
+    },
+    {
+      "timestamp": [
+        76.84,
+        82.9
+      ],
+      "text": " like this one and a seventh i think faith base is just the stupidest one but that's what we did here"
+    },
+    {
+      "timestamp": [
+        82.9,
+        84.1
+      ],
+      "text": " today in society"
+    }
+  ]
+}

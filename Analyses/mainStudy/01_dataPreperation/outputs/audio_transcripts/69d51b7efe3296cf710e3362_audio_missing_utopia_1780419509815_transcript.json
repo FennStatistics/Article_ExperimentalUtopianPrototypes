@@ -1,0 +1,17 @@
+{
+  "audio_file": "69d51b7efe3296cf710e3362_audio_missing_utopia_1780419509815.webm",
+  "transcript": " Not that I can really remember, I don't think so.",
+  "language": "unknown",
+  "processing_time_seconds": 4.66759,
+  "timestamp": "2026-06-08T09:31:26.678943",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        6.36
+      ],
+      "text": " Not that I can really remember, I don't think so."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "audio_file": "69b085994bfdf00ac5908a2a_audio_missing_utopia_1780382249781.webm",
+  "transcript": " I don't think a future type of society was actually missing from this list. I think that this covered pretty much all the ones you could possibly think of. Excuse me. I do wish some of them could be combined. I do think that science should be combined with a little bit of AI-led. I think a healthy combination of some of these would have been ideal. So it kind of sucks that they needed to be separated.",
+  "language": "unknown",
+  "processing_time_seconds": 9.591139,
+  "timestamp": "2026-06-08T09:14:03.511682",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.22
+      ],
+      "text": " I don't think a future type of society was actually missing from this list."
+    },
+    {
+      "timestamp": [
+        8.34,
+        12.32
+      ],
+      "text": " I think that this covered pretty much all the ones you could possibly think of."
+    },
+    {
+      "timestamp": [
+        15.66,
+        16.62
+      ],
+      "text": " Excuse me."
+    },
+    {
+      "timestamp": [
+        19.26,
+        21.94
+      ],
+      "text": " I do wish some of them could be combined."
+    },
+    {
+      "timestamp": [
+        21.94,
+        30.36
+      ],
+      "text": " I do think that science should be combined with a little bit of AI-led."
+    },
+    {
+      "timestamp": [
+        30.66,
+        35.34
+      ],
+      "text": " I think a healthy combination of some of these would have been ideal."
+    },
+    {
+      "timestamp": [
+        35.62,
+        38.14
+      ],
+      "text": " So it kind of sucks that they needed to be separated."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a0e17f56a5029d874631975_audio_ranking_explanation_1780406243314.webm",
+  "transcript": " I just think sustainable and secure is probably the best one to go with for obvious reasons to be sustainable and secure and then data driven centers would not be good, that would just be terrible. I don't think anybody wants to live under AI.",
+  "language": "unknown",
+  "processing_time_seconds": 6.021935,
+  "timestamp": "2026-06-08T10:44:46.819909",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.32
+      ],
+      "text": " I just think sustainable and secure is probably the best one to go with for obvious reasons"
+    },
+    {
+      "timestamp": [
+        9.32,
+        16.5
+      ],
+      "text": " to be sustainable and secure and then data driven centers would not be good, that would"
+    },
+    {
+      "timestamp": [
+        16.5,
+        17.5
+      ],
+      "text": " just be terrible."
+    },
+    {
+      "timestamp": [
+        17.5,
+        21.48
+      ],
+      "text": " I don't think anybody wants to live under AI."
+    }
+  ]
+}

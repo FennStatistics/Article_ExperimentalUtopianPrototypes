@@ -1,0 +1,17 @@
+{
+  "audio_file": "69b87d2899ff8b885daeea48_audio_missing_utopia_1780408027744.webm",
+  "transcript": " What I can say that is missing is a version of AI to have the society work together to",
+  "language": "unknown",
+  "processing_time_seconds": 4.87491,
+  "timestamp": "2026-06-08T09:17:36.718532",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.86
+      ],
+      "text": " What I can say that is missing is a version of AI to have the society work together to"
+    }
+  ]
+}

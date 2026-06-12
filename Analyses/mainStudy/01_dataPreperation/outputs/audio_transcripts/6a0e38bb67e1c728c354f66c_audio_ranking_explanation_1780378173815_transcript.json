@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a0e38bb67e1c728c354f66c_audio_ranking_explanation_1780378173815.webm",
+  "transcript": " I think that science and innovation can produce a society that is really utopian. After that, the rule of law has worked pretty well for a lot of the Western world. for the past couple centuries sustainability i think would be something that plays a really big part of keeping a society stable for decades or centuries I think the moral commonwealth can work pretty well the low tech and small scale I think has lesser chances of kind of failing dramatically The AI-centered utopia, I think that if humans are taken out of the equation, that really creates a lot of possibilities for things to go wrong. and the religious utopia looking at history doesn't seem like a good idea",
+  "language": "unknown",
+  "processing_time_seconds": 17.96739,
+  "timestamp": "2026-06-08T10:46:14.473632",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.3
+      ],
+      "text": " I think that science and innovation can produce a society that is really utopian."
+    },
+    {
+      "timestamp": [
+        22.3,
+        29.3
+      ],
+      "text": " After that, the rule of law has worked pretty well for a lot of the Western world."
+    },
+    {
+      "timestamp": [
+        30.0,
+        41.76
+      ],
+      "text": " for the past couple centuries sustainability i think would be"
+    },
+    {
+      "timestamp": [
+        44.4,
+        54.0
+      ],
+      "text": " something that plays a really big part of keeping a society stable for decades or centuries"
+    },
+    {
+      "timestamp": [
+        56.16,
+        54.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        68.0,
+        70.48
+      ],
+      "text": " I think the moral commonwealth can work pretty well the low tech and small scale I think has"
+    },
+    {
+      "timestamp": [
+        72.0,
+        74.8
+      ],
+      "text": " lesser chances of"
+    },
+    {
+      "timestamp": [
+        76.32,
+        79.12
+      ],
+      "text": " kind of failing dramatically"
+    },
+    {
+      "timestamp": [
+        76.32,
+        87.42
+      ],
+      "text": " The AI-centered utopia, I think that if humans are taken out of the equation, that really"
+    },
+    {
+      "timestamp": [
+        87.42,
+        96.54
+      ],
+      "text": " creates a lot of possibilities for things to go wrong."
+    },
+    {
+      "timestamp": [
+        100.0,
+        96.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        102.48,
+        108.66
+      ],
+      "text": " and the religious utopia looking at history doesn't seem like a good idea"
+    }
+  ]
+}

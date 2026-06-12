@@ -1,0 +1,101 @@
+{
+  "audio_file": "694eedb7740d679db46ab074_audio_ranking_explanation_1780432607312.webm",
+  "transcript": " I think that the first one, religious, it's because God is the creator of everything and we live in faith-based, we can have a better world. The second one, moral commonwealth, if people have moral values, the world will be better. The futuristic one, science and innovation, I think that can help us a lot. Like medicine, education, technology, it's a good thing to have. And it's the same thing to green utopia, like sustainable and secure, clean streets, clean food. Institutional one, the rule of law, because we need rules, we need laws, and yeah, I think it's important too. AI-centered utopia, yeah, can help, can be good, but AI, it's AI, and I don't think it's a good thing. And primitivist utopia, like low tech and small scale. I will say we need innovation and technology, and it's not a bad thing. We know how to use it, and we know how to preserve our values.",
+  "language": "unknown",
+  "processing_time_seconds": 16.235126,
+  "timestamp": "2026-06-08T08:52:32.565422",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        13.24
+      ],
+      "text": " I think that the first one, religious, it's because God is the creator of everything and we live in faith-based, we can have a better world."
+    },
+    {
+      "timestamp": [
+        14.08,
+        21.52
+      ],
+      "text": " The second one, moral commonwealth, if people have moral values, the world will be better."
+    },
+    {
+      "timestamp": [
+        23.22,
+        28.34
+      ],
+      "text": " The futuristic one, science and innovation, I think that can help us a lot."
+    },
+    {
+      "timestamp": [
+        29.34,
+        28.34
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.62,
+        34.62
+      ],
+      "text": " Like medicine, education, technology, it's a good thing to have."
+    },
+    {
+      "timestamp": [
+        43.12,
+        44.52
+      ],
+      "text": " And it's the same thing to green utopia, like sustainable and secure, clean streets, clean food."
+    },
+    {
+      "timestamp": [
+        51.98,
+        52.94
+      ],
+      "text": " Institutional one, the rule of law, because we need rules, we need laws, and yeah, I think it's important too."
+    },
+    {
+      "timestamp": [
+        52.92,
+        56.92
+      ],
+      "text": " AI-centered utopia, yeah, can help, can be good,"
+    },
+    {
+      "timestamp": [
+        56.92,
+        61.12
+      ],
+      "text": " but AI, it's AI, and I don't think it's a good thing."
+    },
+    {
+      "timestamp": [
+        62.8,
+        67.06
+      ],
+      "text": " And primitivist utopia, like low tech and small scale."
+    },
+    {
+      "timestamp": [
+        69.56,
+        73.16
+      ],
+      "text": " I will say we need innovation and technology,"
+    },
+    {
+      "timestamp": [
+        74.28,
+        76.12
+      ],
+      "text": " and it's not a bad thing."
+    },
+    {
+      "timestamp": [
+        76.2,
+        80.1
+      ],
+      "text": " We know how to use it, and we know how to preserve our values."
+    }
+  ]
+}

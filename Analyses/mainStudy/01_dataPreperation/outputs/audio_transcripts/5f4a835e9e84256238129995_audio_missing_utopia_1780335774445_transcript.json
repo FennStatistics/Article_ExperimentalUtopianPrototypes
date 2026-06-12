@@ -1,0 +1,24 @@
+{
+  "audio_file": "5f4a835e9e84256238129995_audio_missing_utopia_1780335774445.webm",
+  "transcript": " A society where the people ruled, kind of like what we have now, something where people can have a chance to grow and innovate, but also have choices.",
+  "language": "unknown",
+  "processing_time_seconds": 5.369357,
+  "timestamp": "2026-06-08T08:17:42.022568",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.28
+      ],
+      "text": " A society where the people ruled, kind of like what we have now, something where people"
+    },
+    {
+      "timestamp": [
+        10.28,
+        22.38
+      ],
+      "text": " can have a chance to grow and innovate, but also have choices."
+    }
+  ]
+}

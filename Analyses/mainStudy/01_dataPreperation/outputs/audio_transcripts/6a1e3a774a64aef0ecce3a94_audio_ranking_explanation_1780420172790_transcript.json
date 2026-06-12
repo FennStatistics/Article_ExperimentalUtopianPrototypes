@@ -1,0 +1,206 @@
+{
+  "audio_file": "6a1e3a774a64aef0ecce3a94_audio_ranking_explanation_1780420172790.webm",
+  "transcript": " Okay, futuristic utopia societies, as she says, if you appreciate science and innovation, but they maintain the sustainability of the society, and also making sure that society is well kept in touch with the modern society of today. and also I am intrigued by science and innovation, so I am most likely to meet a production society. The second two is AI-centred Ethiopia, that is a data-driven government, whereby I like this society more of all the others because with data-driven governments, the decisions or maybe the rules will be backed up by already known, maybe evidence or information that is not appropriate. The global society is primitive in Tokyo, whereby this is just a normal society or maybe a developing country whereby they have maybe no information on tech and very small scale the technology is very primitive i hate to live in this society since my degree of environmental technology doesn't really suit me in this society whereby i'd like to live in this society Just because in the modern world, most of the institutions have really been set up of the modern society. The institutions are not really working to meet their assigned requirements, but still it's just a normal institution. Then the other thing, the other society, global green economy, this society is better over the moral community because it's sustainable and secure, whereby the society with him at first taking the environment may be sure that the whole society, society, or maybe the whole world runs as renewable energy, or the other society is a common word, even just a society whereby people are guided by their immorality, and maybe they don't know. It's not that much appreciated. The least society would prefer to be religious in Tokyo. This is the faith-based order. Although, there are no facts other than beliefs. We need to be in this society since with most of the leaders, et cetera, they are not to ask a question about maybe the society which is religiously. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 36.47722,
+  "timestamp": "2026-06-08T11:33:08.898299",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.0
+      ],
+      "text": " Okay, futuristic utopia societies, as she says, if you appreciate science and innovation,"
+    },
+    {
+      "timestamp": [
+        11.0,
+        21.0
+      ],
+      "text": " but they maintain the sustainability of the society, and also making sure that society"
+    },
+    {
+      "timestamp": [
+        21.0,
+        28.0
+      ],
+      "text": " is well kept in touch with the modern society of today."
+    },
+    {
+      "timestamp": [
+        28.0,
+        36.72
+      ],
+      "text": " and also I am intrigued by science and innovation, so I am most likely to meet a production society."
+    },
+    {
+      "timestamp": [
+        36.72,
+        44.8
+      ],
+      "text": " The second two is AI-centred Ethiopia, that is a data-driven government, whereby I like this society"
+    },
+    {
+      "timestamp": [
+        45.92,
+        56.4
+      ],
+      "text": " more of all the others because with data-driven governments, the decisions or maybe the rules"
+    },
+    {
+      "timestamp": [
+        56.4,
+        65.4
+      ],
+      "text": " will be backed up by already known, maybe evidence or information that is not appropriate."
+    },
+    {
+      "timestamp": [
+        65.4,
+        75.4
+      ],
+      "text": " The global society is primitive in Tokyo, whereby this is just a normal society or maybe"
+    },
+    {
+      "timestamp": [
+        75.4,
+        83.4
+      ],
+      "text": " a developing country whereby they have maybe no information on tech and very small scale"
+    },
+    {
+      "timestamp": [
+        83.4,
+        91.08
+      ],
+      "text": " the technology is very primitive i hate to live in this society since my degree of"
+    },
+    {
+      "timestamp": [
+        91.08,
+        97.88
+      ],
+      "text": " environmental technology doesn't really suit me in this society"
+    },
+    {
+      "timestamp": [
+        103.0,
+        107.88
+      ],
+      "text": " whereby i'd like to live in this society"
+    },
+    {
+      "timestamp": [
+        111.0,
+        107.88
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        119.88,
+        135.88
+      ],
+      "text": " Just because in the modern world, most of the institutions have really been set up of the modern society. The institutions are not really working to meet their assigned requirements, but still it's just a normal institution."
+    },
+    {
+      "timestamp": [
+        135.88,
+        145.88
+      ],
+      "text": " Then the other thing, the other society, global green economy, this society is better"
+    },
+    {
+      "timestamp": [
+        145.88,
+        158.88
+      ],
+      "text": " over the moral community because it's sustainable and secure, whereby the society with him"
+    },
+    {
+      "timestamp": [
+        158.88,
+        164.88
+      ],
+      "text": " at first taking the environment may be sure that the whole society,"
+    },
+    {
+      "timestamp": [
+        164.88,
+        174.88
+      ],
+      "text": " society, or maybe the whole world runs as renewable energy, or the other society is a"
+    },
+    {
+      "timestamp": [
+        174.88,
+        184.88
+      ],
+      "text": " common word, even just a society whereby people are guided by their immorality, and maybe"
+    },
+    {
+      "timestamp": [
+        184.88,
+        186.88
+      ],
+      "text": " they don't know."
+    },
+    {
+      "timestamp": [
+        186.88,
+        188.88
+      ],
+      "text": " It's not that much appreciated."
+    },
+    {
+      "timestamp": [
+        188.88,
+        194.76
+      ],
+      "text": " The least society would prefer to be religious in Tokyo."
+    },
+    {
+      "timestamp": [
+        194.76,
+        196.76
+      ],
+      "text": " This is the faith-based order."
+    },
+    {
+      "timestamp": [
+        196.76,
+        200.46
+      ],
+      "text": " Although, there are no facts other than beliefs."
+    },
+    {
+      "timestamp": [
+        200.46,
+        205.96
+      ],
+      "text": " We need to be in this society since with most of the leaders,"
+    },
+    {
+      "timestamp": [
+        205.96,
+        213.64
+      ],
+      "text": " et cetera, they are not to ask a question about maybe the society"
+    },
+    {
+      "timestamp": [
+        213.64,
+        215.12
+      ],
+      "text": " which is religiously."
+    },
+    {
+      "timestamp": [
+        218.88,
+        248.86
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

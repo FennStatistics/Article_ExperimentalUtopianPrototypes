@@ -1,0 +1,122 @@
+{
+  "audio_file": "6a0a5c5f6016f11ccaa396e3_audio_ranking_explanation_1780413364932.webm",
+  "transcript": " um so i rank these societies away because i believe one i believe science and innovation would be the best way for a society to progress with numbers and um going forward second modern green keeping the earth stable and healthy would help us to prolong our lives on this earth excuse me three religious i feel like people always need faith and someone to lean on and someone's god like jesus or buddha or any other religion would help keep the faith and never losing hope fourth this is me hoping people are good people having common morals you never know people some people are just evil that's why it's more lower five rule of law i feel like people would just eventually want to break the rules and be tired of the rules that's what was lower six um low tech and small scale i just feel like people are so used to technology these days that it wouldn't really help and feel like yeah we're not using technology anymore i'm going back to the wooden days people were just hearing for phones and tablets computers and the way it is now compare how it was back then seven uh my lowest one ai centered i believe it was a horrible idea this is going to turn our our world into a master in the state which is horrible no one's gonna have privacy everything's gonna be ai ai ai you will never have a private life again everything you do will be monitored by big brother and that's just horrible that's why it's my last one",
+  "language": "unknown",
+  "processing_time_seconds": 20.918494,
+  "timestamp": "2026-06-08T10:35:14.472207",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.22
+      ],
+      "text": " um so i rank these societies away because i believe one i believe science and innovation"
+    },
+    {
+      "timestamp": [
+        6.22,
+        15.78
+      ],
+      "text": " would be the best way for a society to progress with numbers and um going forward second modern"
+    },
+    {
+      "timestamp": [
+        15.78,
+        22.48
+      ],
+      "text": " green keeping the earth stable and healthy would help us to prolong our lives on this earth"
+    },
+    {
+      "timestamp": [
+        22.48,
+        29.86
+      ],
+      "text": " excuse me three religious i feel like people always need faith and someone to lean on"
+    },
+    {
+      "timestamp": [
+        29.86,
+        39.9
+      ],
+      "text": " and someone's god like jesus or buddha or any other religion would help keep the faith and"
+    },
+    {
+      "timestamp": [
+        39.9,
+        46.2
+      ],
+      "text": " never losing hope fourth this is me hoping people are good people having"
+    },
+    {
+      "timestamp": [
+        46.2,
+        52.6
+      ],
+      "text": " common morals you never know people some people are just evil that's why it's more lower five"
+    },
+    {
+      "timestamp": [
+        52.6,
+        56.64
+      ],
+      "text": " rule of law i feel like people would just eventually want to break the rules and be"
+    },
+    {
+      "timestamp": [
+        56.64,
+        63.02
+      ],
+      "text": " tired of the rules that's what was lower six um low tech and small scale i just feel like"
+    },
+    {
+      "timestamp": [
+        63.02,
+        68.96
+      ],
+      "text": " people are so used to technology these days that it wouldn't really help and feel like yeah we're"
+    },
+    {
+      "timestamp": [
+        68.96,
+        73.24
+      ],
+      "text": " not using technology anymore i'm going back to the wooden days people were just hearing for phones"
+    },
+    {
+      "timestamp": [
+        73.24,
+        79.64
+      ],
+      "text": " and tablets computers and the way it is now compare how it was back then seven uh my lowest"
+    },
+    {
+      "timestamp": [
+        79.64,
+        84.82
+      ],
+      "text": " one ai centered i believe it was a horrible idea this is going to turn our our world into a master"
+    },
+    {
+      "timestamp": [
+        84.82,
+        89.14
+      ],
+      "text": " in the state which is horrible no one's gonna have privacy everything's gonna be"
+    },
+    {
+      "timestamp": [
+        90.26,
+        96.26
+      ],
+      "text": " ai ai ai you will never have a private life again everything you do will be monitored by"
+    },
+    {
+      "timestamp": [
+        96.26,
+        102.26
+      ],
+      "text": " big brother and that's just horrible that's why it's my last one"
+    }
+  ]
+}

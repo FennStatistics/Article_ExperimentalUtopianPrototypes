@@ -1,0 +1,17 @@
+{
+  "audio_file": "69416fb4dbb55f6ae968fb6c_audio_missing_utopia_1780336172261.webm",
+  "transcript": " And to be quite honest, I feel that everything from my point of view or what I would have mentioned was mentioned, morale, religion, and yeah, just ensuring that we were not relying so heavily on technology.",
+  "language": "unknown",
+  "processing_time_seconds": 5.586148,
+  "timestamp": "2026-06-08T08:48:39.914911",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        25.6
+      ],
+      "text": " And to be quite honest, I feel that everything from my point of view or what I would have mentioned was mentioned, morale, religion, and yeah, just ensuring that we were not relying so heavily on technology."
+    }
+  ]
+}

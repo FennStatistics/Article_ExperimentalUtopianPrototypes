@@ -1,0 +1,185 @@
+{
+  "audio_file": "69b085994bfdf00ac5908a2a_audio_ranking_explanation_1780382201025.webm",
+  "transcript": " um i ranked the green utopia as the highest because i believe that green energy is definitely the future it takes care of the planet while it also takes care of the people living within the planet itself i think it's the best way to respect the animals and it's the best way for us to conserve energy technology and things of that nature um the one i ranked the worst was religious faith because faith uh religious faith led societies have led to some of the most violent outcomes and not everyone can really agree on religion so it can get very violent because this is something people are extremely passionate about um religion is not something that people take lightly it's just not a a minor bickering between two people like they have differing opinions such as oh should we use green energy should we not you know those are more light hearted religion is something people take very seriously they base their whole life around it it's life and death for them literally so i think religion would uh be the least preferred society because i think either way it would result in some sort of violence uh moral commonwealth is probably the second best i like that people are able to rely on their inner mortality they have a sense of autonomy in this kind of society unlike the institutional or ai centered one both of those take away from people's autonomy and their ability to think and their ability to be creative and creation is essential for um for innovation for progression so it'd be really hard for progression to happen with these bottom ones that we have here um the low tech one is kind in the middle because I think that we really rely on technology now and technology is very important and I can't imagine life without it because I grew up with it. However, a society could function being low-tech if we went back to hunting and gathering. I think it would possibly be healthy, but I don't really want to think about it. So overall, I think science and autonomy sustainability innovation and technology were kind of important for a utopian society the rest of these i feel like would create some not good societies that we've already had in the past i feel like we've already tried religious and institutional utopias and we have not tried ai centered but i don't think that it's a good idea so yeah",
+  "language": "unknown",
+  "processing_time_seconds": 31.352979,
+  "timestamp": "2026-06-08T09:14:35.033922",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.98
+      ],
+      "text": " um i ranked the green utopia as the highest because i believe that green energy is definitely"
+    },
+    {
+      "timestamp": [
+        7.98,
+        14.3
+      ],
+      "text": " the future it takes care of the planet while it also takes care of the people living within"
+    },
+    {
+      "timestamp": [
+        14.3,
+        20.72
+      ],
+      "text": " the planet itself i think it's the best way to respect the animals and it's the best way for us"
+    },
+    {
+      "timestamp": [
+        20.72,
+        27.14
+      ],
+      "text": " to conserve energy technology and things of that nature um the one i ranked the worst was religious"
+    },
+    {
+      "timestamp": [
+        27.14,
+        34.74
+      ],
+      "text": " faith because faith uh religious faith led societies have led to some of the most violent"
+    },
+    {
+      "timestamp": [
+        34.74,
+        40.48
+      ],
+      "text": " outcomes and not everyone can really agree on religion so it can get very violent because this"
+    },
+    {
+      "timestamp": [
+        40.48,
+        45.44
+      ],
+      "text": " is something people are extremely passionate about um religion is not something that people"
+    },
+    {
+      "timestamp": [
+        45.44,
+        51.98
+      ],
+      "text": " take lightly it's just not a a minor bickering between two people like they have differing"
+    },
+    {
+      "timestamp": [
+        51.98,
+        57.08
+      ],
+      "text": " opinions such as oh should we use green energy should we not you know those are more light"
+    },
+    {
+      "timestamp": [
+        57.08,
+        63.5
+      ],
+      "text": " hearted religion is something people take very seriously they base their whole life around it"
+    },
+    {
+      "timestamp": [
+        63.5,
+        70.3
+      ],
+      "text": " it's life and death for them literally so i think religion would uh be the least preferred society"
+    },
+    {
+      "timestamp": [
+        70.3,
+        76.58
+      ],
+      "text": " because i think either way it would result in some sort of violence uh moral commonwealth is"
+    },
+    {
+      "timestamp": [
+        76.58,
+        82.34
+      ],
+      "text": " probably the second best i like that people are able to rely on their inner mortality they have"
+    },
+    {
+      "timestamp": [
+        82.34,
+        88.82
+      ],
+      "text": " a sense of autonomy in this kind of society unlike the institutional or ai centered one"
+    },
+    {
+      "timestamp": [
+        88.82,
+        94.28
+      ],
+      "text": " both of those take away from people's autonomy and their ability to think and their ability"
+    },
+    {
+      "timestamp": [
+        94.28,
+        103.8
+      ],
+      "text": " to be creative and creation is essential for um for innovation for progression so it'd be really"
+    },
+    {
+      "timestamp": [
+        103.8,
+        110.24
+      ],
+      "text": " hard for progression to happen with these bottom ones that we have here um the low tech one is kind"
+    },
+    {
+      "timestamp": [
+        110.24,
+        115.96
+      ],
+      "text": " in the middle because I think that we really rely on technology now and technology is very"
+    },
+    {
+      "timestamp": [
+        115.96,
+        122.38
+      ],
+      "text": " important and I can't imagine life without it because I grew up with it. However, a society"
+    },
+    {
+      "timestamp": [
+        122.38,
+        126.7
+      ],
+      "text": " could function being low-tech if we went back to hunting and gathering. I think it would"
+    },
+    {
+      "timestamp": [
+        126.7,
+        133.78
+      ],
+      "text": " possibly be healthy, but I don't really want to think about it. So overall, I think science and"
+    },
+    {
+      "timestamp": [
+        133.78,
+        140.9
+      ],
+      "text": " autonomy sustainability innovation and technology were kind of important for a utopian society"
+    },
+    {
+      "timestamp": [
+        141.46,
+        148.26
+      ],
+      "text": " the rest of these i feel like would create some not good societies that we've already"
+    },
+    {
+      "timestamp": [
+        148.26,
+        153.38
+      ],
+      "text": " had in the past i feel like we've already tried religious and institutional utopias"
+    },
+    {
+      "timestamp": [
+        153.38,
+        159.54
+      ],
+      "text": " and we have not tried ai centered but i don't think that it's a good idea so yeah"
+    }
+  ]
+}

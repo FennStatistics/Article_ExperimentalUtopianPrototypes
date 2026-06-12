@@ -1,0 +1,136 @@
+{
+  "audio_file": "664bc61062c2afbacbb5f2f8_audio_ranking_explanation_1780402298820.webm",
+  "transcript": " when i was ranking these uh forms of government or like future societies i was doing it based a little bit on well based mainly on what they were described as but also how like much i think they could actually achieve what's being described i chose modern green utopia and futurist utopia at the very top because i feel like those are things that seem like a logical extension uh slash like solution to our world's kind of uh modern problems in that we need to create societies with incentives that don't degrade the environment or don't lead you know individuals to accumulate power in ways that the green utopia seemed like a really important way getting rid of existential problems like climate change um and the you know science and innovation one is just sort of like a different variant on that though that would take a lot more i think uh to do just because science and innovation can't solve everything um i put institutional utopia uh you know rule of law in third place i kind of feel like that's what the world was a little bit ago or like currently i think that's just like the bog standard at the moment and i think borne out uh as we see it today there's still a lot of problems with it that can't be solved um and then below that i put ai-centered utopia primitivist utopia moral commonwealth and religious utopia at the bottom because i think some of those ones are either ones we've seen in the past that i don't think uh were borne out that effectively or ones i don't think are really that plausible to exist and not break down into some other form of government.",
+  "language": "unknown",
+  "processing_time_seconds": 24.495192,
+  "timestamp": "2026-06-08T08:36:40.227719",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.66
+      ],
+      "text": " when i was ranking these uh forms of government or like future societies i was doing it based a"
+    },
+    {
+      "timestamp": [
+        8.66,
+        14.84
+      ],
+      "text": " little bit on well based mainly on what they were described as but also how like much i think they"
+    },
+    {
+      "timestamp": [
+        14.84,
+        21.28
+      ],
+      "text": " could actually achieve what's being described i chose modern green utopia and futurist utopia"
+    },
+    {
+      "timestamp": [
+        21.28,
+        28.06
+      ],
+      "text": " at the very top because i feel like those are things that seem like a logical extension"
+    },
+    {
+      "timestamp": [
+        28.06,
+        35.9
+      ],
+      "text": " uh slash like solution to our world's kind of uh modern problems in that we need to create"
+    },
+    {
+      "timestamp": [
+        35.9,
+        42.9
+      ],
+      "text": " societies with incentives that don't degrade the environment or don't lead you know individuals"
+    },
+    {
+      "timestamp": [
+        42.9,
+        48.06
+      ],
+      "text": " to accumulate power in ways that the green utopia seemed like a really important way"
+    },
+    {
+      "timestamp": [
+        48.06,
+        55.18
+      ],
+      "text": " getting rid of existential problems like climate change um and the you know science and innovation"
+    },
+    {
+      "timestamp": [
+        55.18,
+        60.38
+      ],
+      "text": " one is just sort of like a different variant on that though that would take a lot more i think"
+    },
+    {
+      "timestamp": [
+        60.38,
+        69.16
+      ],
+      "text": " uh to do just because science and innovation can't solve everything um i put institutional utopia"
+    },
+    {
+      "timestamp": [
+        69.16,
+        75.36
+      ],
+      "text": " uh you know rule of law in third place i kind of feel like that's what the world was a little bit"
+    },
+    {
+      "timestamp": [
+        75.36,
+        81.66
+      ],
+      "text": " ago or like currently i think that's just like the bog standard at the moment and i think borne out"
+    },
+    {
+      "timestamp": [
+        81.66,
+        87.62
+      ],
+      "text": " uh as we see it today there's still a lot of problems with it that can't be solved um and"
+    },
+    {
+      "timestamp": [
+        87.62,
+        94.26
+      ],
+      "text": " then below that i put ai-centered utopia primitivist utopia moral commonwealth and religious utopia"
+    },
+    {
+      "timestamp": [
+        94.26,
+        99.26
+      ],
+      "text": " at the bottom because i think some of those ones are either ones we've seen in the past that i"
+    },
+    {
+      "timestamp": [
+        99.26,
+        106.28
+      ],
+      "text": " don't think uh were borne out that effectively or ones i don't think are really that plausible"
+    },
+    {
+      "timestamp": [
+        106.28,
+        108.24
+      ],
+      "text": " to exist and not"
+    },
+    {
+      "timestamp": [
+        108.24,
+        110.26
+      ],
+      "text": " break down into some other form of government."
+    }
+  ]
+}

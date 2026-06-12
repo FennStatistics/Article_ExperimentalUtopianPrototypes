@@ -1,0 +1,241 @@
+{
+  "audio_file": "66b38d503ed52b99179c870e_audio_missing_utopia_1780402921854.webm",
+  "transcript": " I feel like it didn't really go over how people will make money. I feel like the explanation was super, super brief on, like, you know, getting resources like food, health care, stuff like that. I wish that was more expanded on versus other elements in each of the societies. Because it makes a difference It kept saying the same thing How is that possible When this is this, this is that So I wish that would be more expanded on For like the missing thing How people would get work too Like In the US It's very much ran by greed But there are other countries where Family life is Has to higher value Than greed And so How will that work In each of that society It's just stuff like that Child care, education People's rights Like human rights Their health care rights Stuff like that I feel like that was kind of You know Not spoken about It would have mattered Especially when they all had different Rules, different policies please.",
+  "language": "unknown",
+  "processing_time_seconds": 18.991444,
+  "timestamp": "2026-06-08T08:38:55.882705",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.2
+      ],
+      "text": " I feel like it didn't really go over how people will make money."
+    },
+    {
+      "timestamp": [
+        8.08,
+        18.82
+      ],
+      "text": " I feel like the explanation was super, super brief on, like, you know, getting resources like food, health care, stuff like that."
+    },
+    {
+      "timestamp": [
+        19.3,
+        27.26
+      ],
+      "text": " I wish that was more expanded on versus other elements in each of the societies."
+    },
+    {
+      "timestamp": [
+        28.5,
+        27.26
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.24,
+        31.9
+      ],
+      "text": " Because it makes a difference It kept saying the same thing"
+    },
+    {
+      "timestamp": [
+        31.9,
+        33.6
+      ],
+      "text": " How is that possible"
+    },
+    {
+      "timestamp": [
+        33.6,
+        35.28
+      ],
+      "text": " When this is this, this is that"
+    },
+    {
+      "timestamp": [
+        35.28,
+        38.46
+      ],
+      "text": " So I wish that would be more expanded on"
+    },
+    {
+      "timestamp": [
+        38.46,
+        40.4
+      ],
+      "text": " For like the missing thing"
+    },
+    {
+      "timestamp": [
+        40.4,
+        43.0
+      ],
+      "text": " How people would get work too"
+    },
+    {
+      "timestamp": [
+        43.0,
+        44.4
+      ],
+      "text": " Like"
+    },
+    {
+      "timestamp": [
+        44.4,
+        45.88
+      ],
+      "text": " In the US"
+    },
+    {
+      "timestamp": [
+        45.88,
+        48.18
+      ],
+      "text": " It's very much ran by greed"
+    },
+    {
+      "timestamp": [
+        48.18,
+        50.04
+      ],
+      "text": " But there are other countries where"
+    },
+    {
+      "timestamp": [
+        50.04,
+        52.52
+      ],
+      "text": " Family life is"
+    },
+    {
+      "timestamp": [
+        52.52,
+        54.28
+      ],
+      "text": " Has to higher value"
+    },
+    {
+      "timestamp": [
+        54.28,
+        55.68
+      ],
+      "text": " Than greed"
+    },
+    {
+      "timestamp": [
+        55.68,
+        57.64
+      ],
+      "text": " And so"
+    },
+    {
+      "timestamp": [
+        57.64,
+        59.9
+      ],
+      "text": " How will that work"
+    },
+    {
+      "timestamp": [
+        59.9,
+        61.06
+      ],
+      "text": " In each of that society"
+    },
+    {
+      "timestamp": [
+        61.06,
+        62.92
+      ],
+      "text": " It's just stuff like that"
+    },
+    {
+      "timestamp": [
+        62.92,
+        64.62
+      ],
+      "text": " Child care, education"
+    },
+    {
+      "timestamp": [
+        64.62,
+        69.78
+      ],
+      "text": " People's rights"
+    },
+    {
+      "timestamp": [
+        69.78,
+        72.3
+      ],
+      "text": " Like human rights"
+    },
+    {
+      "timestamp": [
+        72.3,
+        73.34
+      ],
+      "text": " Their health care rights"
+    },
+    {
+      "timestamp": [
+        73.34,
+        73.92
+      ],
+      "text": " Stuff like that"
+    },
+    {
+      "timestamp": [
+        73.92,
+        76.04
+      ],
+      "text": " I feel like that was kind of"
+    },
+    {
+      "timestamp": [
+        76.04,
+        76.54
+      ],
+      "text": " You know"
+    },
+    {
+      "timestamp": [
+        76.54,
+        78.44
+      ],
+      "text": " Not spoken about"
+    },
+    {
+      "timestamp": [
+        78.44,
+        79.32
+      ],
+      "text": " It would have mattered"
+    },
+    {
+      "timestamp": [
+        79.32,
+        82.4
+      ],
+      "text": " Especially when they all had different"
+    },
+    {
+      "timestamp": [
+        82.4,
+        84.2
+      ],
+      "text": " Rules, different policies"
+    },
+    {
+      "timestamp": [
+        84.2,
+        86.2
+      ],
+      "text": " please."
+    }
+  ]
+}

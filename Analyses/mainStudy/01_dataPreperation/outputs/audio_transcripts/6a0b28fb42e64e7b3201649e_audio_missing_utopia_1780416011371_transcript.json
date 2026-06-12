@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0b28fb42e64e7b3201649e_audio_missing_utopia_1780416011371.webm",
+  "transcript": " My ideal future society I think would be kind of a combination between the primitivist utopia and the modern green utopia. And just that it's very minimalist and it's using the technology that we need but not too much more than that and relying on the goodness of the people around us but also having some laws in place but not something that's like overshadowing any other decisions that could be made. And I think between those two it covers anything that I would agree with pretty well.",
+  "language": "unknown",
+  "processing_time_seconds": 7.943885,
+  "timestamp": "2026-06-08T10:37:01.397430",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.62
+      ],
+      "text": " My ideal future society I think would be kind of a combination between the"
+    },
+    {
+      "timestamp": [
+        4.62,
+        10.74
+      ],
+      "text": " primitivist utopia and the modern green utopia. And just that it's very minimalist"
+    },
+    {
+      "timestamp": [
+        10.74,
+        15.18
+      ],
+      "text": " and it's using the technology that we need but not too much more than that and"
+    },
+    {
+      "timestamp": [
+        15.18,
+        19.26
+      ],
+      "text": " relying on the goodness of the people around us but also having some laws in"
+    },
+    {
+      "timestamp": [
+        19.26,
+        23.0
+      ],
+      "text": " place but not something that's like overshadowing any other decisions that"
+    },
+    {
+      "timestamp": [
+        23.0,
+        29.28
+      ],
+      "text": " could be made. And I think between those two it covers anything that I would agree with pretty well."
+    }
+  ]
+}

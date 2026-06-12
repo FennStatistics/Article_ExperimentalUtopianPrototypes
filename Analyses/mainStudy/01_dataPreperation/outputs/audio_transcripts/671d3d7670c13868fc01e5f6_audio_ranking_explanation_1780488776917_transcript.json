@@ -1,0 +1,94 @@
+{
+  "audio_file": "671d3d7670c13868fc01e5f6_audio_ranking_explanation_1780488776917.webm",
+  "transcript": " I ranked societies this way because I really, I mean, AI is number seven on my list, and I really don't like the idea of AI at all, especially controlling, you know, our resources. My top pick was the low-tech and small-scale, I picked that because I really don't like technology things, that kind of is the way we're headed and I don't like it because I feel like it could go bad, it could go good, but it could go really bad also, people could be controlling, just like we keep hearing about. And then the religious utopia I picked is number two. I'm very religious, I am Orthodox Christian, and I wish this could be a thing, but I know it would be very, very hard for people to jump on board for even wanting to do that. I also don't believe in number six very well because there's a lot of people that don't have inner morality and conscious decision-making. People are very untrustworthy and I just don't think that's a good idea either.",
+  "language": "unknown",
+  "processing_time_seconds": 18.93928,
+  "timestamp": "2026-06-08T08:44:23.072174",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.32
+      ],
+      "text": " I ranked societies this way because I really, I mean, AI is number seven on my list, and"
+    },
+    {
+      "timestamp": [
+        12.32,
+        22.5
+      ],
+      "text": " I really don't like the idea of AI at all, especially controlling, you know, our resources."
+    },
+    {
+      "timestamp": [
+        22.5,
+        31.6
+      ],
+      "text": " My top pick was the low-tech and small-scale, I picked that because I really don't like"
+    },
+    {
+      "timestamp": [
+        31.6,
+        39.46
+      ],
+      "text": " technology things, that kind of is the way we're headed and I don't like it because I"
+    },
+    {
+      "timestamp": [
+        39.46,
+        43.92
+      ],
+      "text": " feel like it could go bad, it could go good, but it could go really bad also, people could"
+    },
+    {
+      "timestamp": [
+        43.92,
+        46.78
+      ],
+      "text": " be controlling, just like we keep hearing about."
+    },
+    {
+      "timestamp": [
+        46.78,
+        51.14
+      ],
+      "text": " And then the religious utopia I picked is number two."
+    },
+    {
+      "timestamp": [
+        51.14,
+        58.34
+      ],
+      "text": " I'm very religious, I am Orthodox Christian, and I wish this could be a thing, but I know"
+    },
+    {
+      "timestamp": [
+        58.34,
+        66.74
+      ],
+      "text": " it would be very, very hard for people to jump on board for even wanting to do that."
+    },
+    {
+      "timestamp": [
+        66.74,
+        71.56
+      ],
+      "text": " I also don't believe in number six very well because there's a lot of people that don't"
+    },
+    {
+      "timestamp": [
+        71.56,
+        85.64
+      ],
+      "text": " have inner morality and conscious decision-making. People are very untrustworthy and I just don't"
+    },
+    {
+      "timestamp": [
+        85.64,
+        86.94
+      ],
+      "text": " think that's a good idea either."
+    }
+  ]
+}

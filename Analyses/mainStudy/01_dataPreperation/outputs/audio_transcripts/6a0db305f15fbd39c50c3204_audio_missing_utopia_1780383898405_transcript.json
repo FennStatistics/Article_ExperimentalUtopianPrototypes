@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0db305f15fbd39c50c3204_audio_missing_utopia_1780383898405.webm",
+  "transcript": " Um, basically a combination of them in general, I think, um, in hindsight, a religious faith based society is supposed to have a moral compass and that's supposed to be the moral background behind being able to set, you know, standards of laws, rules of laws, um, but also be allowed to pursue science and innovation and technology as long as you're able to appropriately sustain yourself as well as your environment and be economically secure at the same time and secure with everybody without putting other people down and taking advantage of them.",
+  "language": "unknown",
+  "processing_time_seconds": 12.466701,
+  "timestamp": "2026-06-08T10:43:23.938215",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.42
+      ],
+      "text": " Um, basically a combination of them in general, I think, um, in hindsight, a religious faith"
+    },
+    {
+      "timestamp": [
+        12.42,
+        17.42
+      ],
+      "text": " based society is supposed to have a moral compass and that's supposed to be the moral"
+    },
+    {
+      "timestamp": [
+        17.42,
+        27.44
+      ],
+      "text": " background behind being able to set, you know, standards of laws, rules of laws, um, but"
+    },
+    {
+      "timestamp": [
+        27.44,
+        33.56
+      ],
+      "text": " also be allowed to pursue science and innovation and"
+    },
+    {
+      "timestamp": [
+        33.56,
+        39.24
+      ],
+      "text": " technology as long as you're able to appropriately sustain"
+    },
+    {
+      "timestamp": [
+        39.24,
+        44.96
+      ],
+      "text": " yourself as well as your environment and be economically"
+    },
+    {
+      "timestamp": [
+        44.96,
+        49.12
+      ],
+      "text": " secure at the same time and secure with everybody"
+    },
+    {
+      "timestamp": [
+        49.12,
+        60.28
+      ],
+      "text": " without putting other people down and taking advantage of them."
+    }
+  ]
+}

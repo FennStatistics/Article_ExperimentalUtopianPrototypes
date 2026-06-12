@@ -1,0 +1,52 @@
+{
+  "audio_file": "69bc0ba177847fde0a18ec3d_audio_ranking_explanation_1780389437292.webm",
+  "transcript": " I rank the societies based on sustainability of life. The modern green utopia gives a sustainable and secure life, while the future is thickened. And the moral commonwealth gives more sustainability of life without involving any human interference, other than the institutional utopia and religious utopia which requires people to behave in a certain way, which requires human guidance and strictness. So based on my preference, I chose institutions that require less human intervention.",
+  "language": "unknown",
+  "processing_time_seconds": 9.540081,
+  "timestamp": "2026-06-08T09:18:28.344196",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.16
+      ],
+      "text": " I rank the societies based on sustainability of life."
+    },
+    {
+      "timestamp": [
+        8.16,
+        16.82
+      ],
+      "text": " The modern green utopia gives a sustainable and secure life, while the future is thickened."
+    },
+    {
+      "timestamp": [
+        16.82,
+        25.76
+      ],
+      "text": " And the moral commonwealth gives more sustainability of life without involving any human interference,"
+    },
+    {
+      "timestamp": [
+        25.76,
+        32.0
+      ],
+      "text": " other than the institutional utopia and religious utopia which requires people to behave in a certain way,"
+    },
+    {
+      "timestamp": [
+        32.0,
+        37.5
+      ],
+      "text": " which requires human guidance and strictness."
+    },
+    {
+      "timestamp": [
+        37.5,
+        50.5
+      ],
+      "text": " So based on my preference, I chose institutions that require less human intervention."
+    }
+  ]
+}

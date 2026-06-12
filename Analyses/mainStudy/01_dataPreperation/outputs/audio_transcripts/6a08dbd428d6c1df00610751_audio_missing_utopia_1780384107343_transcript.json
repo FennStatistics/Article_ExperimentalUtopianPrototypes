@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a08dbd428d6c1df00610751_audio_missing_utopia_1780384107343.webm",
+  "transcript": " I think one future society that was missing is a pluralistic society where people are free to choose different ways of living instead of everyone following the same ideal. most utopias focus on one a focus on one let's say focus on one main value like technology religion institution or simplicity but the society could value diversity and personal choice",
+  "language": "unknown",
+  "processing_time_seconds": 9.098357,
+  "timestamp": "2026-06-08T10:32:00.231979",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.6
+      ],
+      "text": " I think one future society that was missing is a pluralistic society where people are free to choose different ways of living instead of everyone following the same ideal."
+    },
+    {
+      "timestamp": [
+        14.6,
+        25.1
+      ],
+      "text": " most utopias focus on one a focus on one let's say focus on one main value like technology"
+    },
+    {
+      "timestamp": [
+        25.1,
+        31.84
+      ],
+      "text": " religion institution or simplicity but the society could value diversity and personal choice"
+    }
+  ]
+}

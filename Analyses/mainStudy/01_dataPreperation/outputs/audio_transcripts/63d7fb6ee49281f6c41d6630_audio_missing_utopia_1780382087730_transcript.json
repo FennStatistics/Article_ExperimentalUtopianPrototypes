@@ -1,0 +1,59 @@
+{
+  "audio_file": "63d7fb6ee49281f6c41d6630_audio_missing_utopia_1780382087730.webm",
+  "transcript": " I think a lot of them were there, so I don't think any were missing. Rule of law is obviously the one I ranked as number one. And maybe there could be some sort of future society where AI has a place, but it's not making all of these sole decisions, as that's why I didn't really prefer that one. And I think that maybe there could be a sort of way to look at things that is generally just a bit more proactive in terms of human decision making as long as as well as with the innovation. So just the innovative society that valued rule of law where I would be the most comfortable, I think.",
+  "language": "unknown",
+  "processing_time_seconds": 10.989856,
+  "timestamp": "2026-06-08T08:28:15.186782",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        4.5
+      ],
+      "text": " I think a lot of them were there, so I don't think any were missing."
+    },
+    {
+      "timestamp": [
+        5.54,
+        8.7
+      ],
+      "text": " Rule of law is obviously the one I ranked as number one."
+    },
+    {
+      "timestamp": [
+        9.78,
+        15.4
+      ],
+      "text": " And maybe there could be some sort of future society where AI has a place,"
+    },
+    {
+      "timestamp": [
+        15.4,
+        21.66
+      ],
+      "text": " but it's not making all of these sole decisions, as that's why I didn't really prefer that one."
+    },
+    {
+      "timestamp": [
+        22.46,
+        21.66
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        40.92,
+        41.28
+      ],
+      "text": " And I think that maybe there could be a sort of way to look at things that is generally just a bit more proactive in terms of human decision making as long as as well as with the innovation."
+    },
+    {
+      "timestamp": [
+        50.4,
+        null
+      ],
+      "text": " So just the innovative society that valued rule of law where I would be the most comfortable, I think."
+    }
+  ]
+}

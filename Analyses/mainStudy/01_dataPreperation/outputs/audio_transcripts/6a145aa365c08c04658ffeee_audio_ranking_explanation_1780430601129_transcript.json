@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a145aa365c08c04658ffeee_audio_ranking_explanation_1780430601129.webm",
+  "transcript": " uh i picked futurist utopia first um just because i think it's it still has governing laws but it's also based on innovation it means people are motivated to to expand and to learn more i picked a moral commonwealth last because intermorality is very subjective if everyone have the same morals and that they were you know listen i'm a christian they were based on christian morality for sure that would be at the top of the list but i just believe people are inherently bad and will inherently do bad things and will inherently not share my morals and so i would not put that at the top of the list",
+  "language": "unknown",
+  "processing_time_seconds": 10.763405,
+  "timestamp": "2026-06-08T10:59:38.873658",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.78
+      ],
+      "text": " uh i picked futurist utopia first um just because i think it's it still has governing laws but it's"
+    },
+    {
+      "timestamp": [
+        9.78,
+        15.74
+      ],
+      "text": " also based on innovation it means people are motivated to to expand and to learn more"
+    },
+    {
+      "timestamp": [
+        15.74,
+        26.5
+      ],
+      "text": " i picked a moral commonwealth last because intermorality is very subjective if everyone"
+    },
+    {
+      "timestamp": [
+        26.5,
+        33.26
+      ],
+      "text": " have the same morals and that they were you know listen i'm a christian they were based on christian"
+    },
+    {
+      "timestamp": [
+        33.26,
+        37.76
+      ],
+      "text": " morality for sure that would be at the top of the list but i just believe people are inherently bad"
+    },
+    {
+      "timestamp": [
+        37.76,
+        42.12
+      ],
+      "text": " and will inherently do bad things and will inherently not share my morals and so i would"
+    },
+    {
+      "timestamp": [
+        42.12,
+        43.68
+      ],
+      "text": " not put that at the top of the list"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "audio_file": "69f135284e35bc7ed69af8a8_audio_ranking_explanation_1780263948637.webm",
+  "transcript": " I chose the modern green utopia as my number one due to the way that I would enjoy the institutions of the world to be more focused on the green initiatives rather than putting money in their pockets. The religious utopia I ranked last due to I feel as if this was something that the world has evolved from just from the past, you know, doing the whole religious wars, the holy wars, all that good stuff. So I think that due to that reason, I think we've evolved from that for the better.",
+  "language": "unknown",
+  "processing_time_seconds": 10.000033,
+  "timestamp": "2026-06-08T09:53:42.694693",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.4
+      ],
+      "text": " I chose the modern green utopia as my number one due to the way that I would enjoy the institutions of the world to be more focused on the green initiatives rather than putting money in their pockets."
+    },
+    {
+      "timestamp": [
+        16.92,
+        29.72
+      ],
+      "text": " The religious utopia I ranked last due to I feel as if this was something that the world has evolved from just from the past, you know, doing the whole religious wars, the holy wars, all that good stuff."
+    },
+    {
+      "timestamp": [
+        30.0,
+        34.84
+      ],
+      "text": " So I think that due to that reason, I think we've evolved from that for the better."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "audio_file": "69fa44cccc681b5f8be84e23_audio_missing_utopia_1780406606127.webm",
+  "transcript": " I do feel like all the important values have been represented in this list of utopias. I'm not really able to think of anything that I might want to add. It was pretty comprehensive.",
+  "language": "unknown",
+  "processing_time_seconds": 5.624399,
+  "timestamp": "2026-06-08T10:03:46.142092",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.36
+      ],
+      "text": " I do feel like all the important values have been represented in this list of utopias."
+    },
+    {
+      "timestamp": [
+        9.02,
+        15.32
+      ],
+      "text": " I'm not really able to think of anything that I might want to add."
+    },
+    {
+      "timestamp": [
+        17.0,
+        19.22
+      ],
+      "text": " It was pretty comprehensive."
+    }
+  ]
+}

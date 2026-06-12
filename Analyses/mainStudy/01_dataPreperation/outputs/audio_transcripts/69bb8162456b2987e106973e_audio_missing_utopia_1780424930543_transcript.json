@@ -1,0 +1,17 @@
+{
+  "audio_file": "69bb8162456b2987e106973e_audio_missing_utopia_1780424930543.webm",
+  "transcript": " Obviously, you want to completely devoid the money and the chase of it.",
+  "language": "unknown",
+  "processing_time_seconds": 4.735947,
+  "timestamp": "2026-06-08T09:18:08.980788",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.76
+      ],
+      "text": " Obviously, you want to completely devoid the money and the chase of it."
+    }
+  ]
+}

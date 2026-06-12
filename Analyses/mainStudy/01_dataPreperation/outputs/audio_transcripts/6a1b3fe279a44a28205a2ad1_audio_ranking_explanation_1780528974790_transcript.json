@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a1b3fe279a44a28205a2ad1_audio_ranking_explanation_1780528974790.webm",
+  "transcript": " I ranked the Modern Green Utopia. That one was first, in my opinion, because it honestly feels like the most balanced choice. I picked it because the Modern Green, it focuses on keeping people safe and secure, and they use the resources carefully. But they also, like, leave a room and allow technology to help them without it, like, completely, you know, controlling them. I put the Futurist Utopia second because, you know, the science and the innovation could solve a lot of problems. But, you know, if they rely on it too much, it could also create new issues, you know. So I ranked Moral Commonwealth next because people working together and, you know, doing the right thing. That all sounds pretty great. And, you know, it might not always be realistic, but, you know, it does sound great, you know, as an idea. I put the stricter societies lower because I would not really want to live somewhere that depends too much on, like, rules and religion. or, you know, one main system, you know, making the decisions for all the people.",
+  "language": "unknown",
+  "processing_time_seconds": 18.899456,
+  "timestamp": "2026-06-08T11:17:11.660887",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.6
+      ],
+      "text": " I ranked the Modern Green Utopia. That one was first, in my opinion, because it honestly feels like the most balanced choice."
+    },
+    {
+      "timestamp": [
+        10.88,
+        20.78
+      ],
+      "text": " I picked it because the Modern Green, it focuses on keeping people safe and secure, and they use the resources carefully."
+    },
+    {
+      "timestamp": [
+        21.68,
+        20.78
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.44,
+        32.06
+      ],
+      "text": " But they also, like, leave a room and allow technology to help them without it, like, completely, you know, controlling them."
+    },
+    {
+      "timestamp": [
+        39.76,
+        40.86
+      ],
+      "text": " I put the Futurist Utopia second because, you know, the science and the innovation could solve a lot of problems."
+    },
+    {
+      "timestamp": [
+        45.14,
+        54.08
+      ],
+      "text": " But, you know, if they rely on it too much, it could also create new issues, you know. So I ranked Moral Commonwealth next because people working together and, you know, doing the right thing."
+    },
+    {
+      "timestamp": [
+        54.16,
+        55.22
+      ],
+      "text": " That all sounds pretty great."
+    },
+    {
+      "timestamp": [
+        55.82,
+        63.62
+      ],
+      "text": " And, you know, it might not always be realistic, but, you know, it does sound great, you know, as an idea."
+    },
+    {
+      "timestamp": [
+        65.14,
+        74.04
+      ],
+      "text": " I put the stricter societies lower because I would not really want to live somewhere that depends too much on, like, rules and religion."
+    },
+    {
+      "timestamp": [
+        74.04,
+        79.0
+      ],
+      "text": " or, you know, one main system, you know, making the decisions for all the people."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "audio_file": "69e91f33f049227e93ed364b_audio_missing_utopia_1780435875522.webm",
+  "transcript": " looking back at the seven societies that I ranked um I kind of said this a little bit in my last recording but I would combine values from each of them to make my own I think there was a missing future society and it was a combination of governing ourselves um I still want a futuristic approach that's driven by scientific fact and a lot of innovation but i do think we need to do that in a sustainable way so i think that's an important piece and i think religion should still be a part of it no matter which religion it is i like the society that we have today where there are many different religions and people can choose what they want um i think my missing utopia would be society today because it's what i'm comfortable with and enjoy and i think it's the most desirable to live in",
+  "language": "unknown",
+  "processing_time_seconds": 12.14723,
+  "timestamp": "2026-06-08T09:43:21.154734",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.08
+      ],
+      "text": " looking back at the seven societies that I ranked um I kind of said this a little bit in my last"
+    },
+    {
+      "timestamp": [
+        7.08,
+        13.36
+      ],
+      "text": " recording but I would combine values from each of them to make my own I think there was a missing"
+    },
+    {
+      "timestamp": [
+        13.36,
+        21.74
+      ],
+      "text": " future society and it was a combination of governing ourselves um I still want"
+    },
+    {
+      "timestamp": [
+        21.74,
+        28.22
+      ],
+      "text": " a futuristic approach that's driven by scientific fact and a lot of innovation"
+    },
+    {
+      "timestamp": [
+        28.22,
+        34.54
+      ],
+      "text": " but i do think we need to do that in a sustainable way so i think that's an important piece and i"
+    },
+    {
+      "timestamp": [
+        34.54,
+        39.88
+      ],
+      "text": " think religion should still be a part of it no matter which religion it is i like the society"
+    },
+    {
+      "timestamp": [
+        39.88,
+        44.26
+      ],
+      "text": " that we have today where there are many different religions and people can choose what they want"
+    },
+    {
+      "timestamp": [
+        44.26,
+        52.96
+      ],
+      "text": " um i think my missing utopia would be society today because it's what i'm comfortable with"
+    },
+    {
+      "timestamp": [
+        52.96,
+        55.32
+      ],
+      "text": " and enjoy and i think it's the most desirable to live in"
+    }
+  ]
+}

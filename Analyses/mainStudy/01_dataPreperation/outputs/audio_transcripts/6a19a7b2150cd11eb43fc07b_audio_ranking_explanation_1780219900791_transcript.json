@@ -1,0 +1,423 @@
+{
+  "audio_file": "6a19a7b2150cd11eb43fc07b_audio_ranking_explanation_1780219900791.webm",
+  "transcript": " Okay, I mistakenly thought that pausing the recording was a pause button, so I'm going to restart. I put moral commonwealth as number one, the one focused on intermorality, because I think that's the best, like, that's the most ideal situation, having people that are so focused on good morals that doing bad just isn't the norm, just isn't a thing. i think that's the best idea you don't have to worry about people even thinking about doing wrong um for number two i put institutional utopia the one focused on rule of law because i think to me that one most coincides with where we're at currently in the world law-based governments societies i i put that high because i think it's a better idea to have a written rule of law so that if there's ever a debate or argument about something some somebody doing something bad then you just refer to that obviously i think it's good to be able to change it but i do think it's a good idea to have that and it's like everybody's treated equally on the law it applies to everybody it's not uh it's not changing per person there there's no there's no chance for it to be used incorrectly like i'm thinking of corruption and stuff but um third place i put modern green utopia i put it pretty high because i'm thinking it's good to try to keep the planet alive while you're innovating but i put it third and not first because i'm thinking you're kind of missing out on some innovation or evolution where they focused so hard on the environment which i know this sounds like an awful thing to say uh the other primary thing i forgot about is it said it's just keeping people where they're just good enough and by definition that sounds good but i think having people constantly where they're just okay is not a good idea i think in ideal society everybody can go past that but then for this one in order for them to keep the green utopia everybody has to just be doing okay because we're allocating so many resources to keeping it this way uh it sounded very socialist to me and knowing history socialism doesn't work out i think the idea of socialism is a utopia but again it never works out so i don't think i don't think that one would be placed high for me i put number four futurist utopia focused on science and innovation i think this is the flip side of the modern green utopia now you're so focused on science and innovation you don't care so much about the planet and i don't think that's a great idea um i'm hoping or thinking in this scenario that if you're so focused on science and innovation you'll get to the point where you can keep the planet alive and healthy and still focus on science and innovation but at what point are we going to reach that so i put that one right in the middle and then fifth place religious utopia i find it necessary to say that i am a christian so the idea of a religious utopia sounds good because obviously i agree with christian ideas so i'm thinking if people are living in that kind of society things would inherently be good a lot like what i put number one the moral commonwealth intermorality people agree on good morals and doing good things but knowing history knowing how religion has been manipulated to keep people peasants or keep people low keep people in control of the higher-ups i put it pretty low because i think it's it can be so easily manipulated if it's if it's faith-based because because if faith is so individual to people obviously in the context of christianity you have the bible where christians for the most part agree on things in there but still the leaders can just change interpretation and then boom you your your core idea is just different now and that can just keep going down an evolutionary path or de-evolution if you will and now we're no longer where we were so i put that in fifth place sixth place primitivist utopia i would put this the lowest if ai-centered utopia wasn't an option but i'll get into that uh primitivist i put it sixth low tech in small scale i think it's just keeping people in a loop of survival uh it was saying people are close to nature which i think is inherently good but come on there's there's no uh there's no innovation there's no progress it seems or if there is it's really slow and i i think that kind of sucks so i put that pretty low um i think being living in a very survivalist type of utopia which now that i think about it i don't think it was saying that i just think it's like hey we're good enough to just be where we're at and just chill which is that i think that it's pretty much a utopia but for me personally it just seems kind of boring so i put it low um ai-centered utopia i put it last because i'm thinking it's a bad idea to make your leader not human to to defer leadership to something that's not inherently human so to me it's a bad idea because now you're missing out on the ideas of compassion human traits uh caring love uh morals ethics they said i'm pretty sure it said for this scenario it's gonna try to do those things it's gonna that's like the struggle is it is it keeping up with that but i think inherently it won't and it's it's gonna decide what's best for people based on its observations so what it thinks is best could not be what the humans think is best um i think it's important to say i've watched a lot of star trek and there's a lot of instances in that show where societies are led by ai or computers and the air computers just don't care about the people but the people are like yeah it works so we'll just keep doing it and to me it seems somewhat logical uh so that's why i put that one last i think it's a bad idea to defer leadership to non-human entities, if you will.",
+  "language": "unknown",
+  "processing_time_seconds": 85.581175,
+  "timestamp": "2026-06-08T11:13:57.718800",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.76
+      ],
+      "text": " Okay, I mistakenly thought that pausing the recording was a pause button, so I'm going to restart. I put moral commonwealth as number one, the one focused on intermorality, because I think that's the best, like, that's the most ideal situation, having people that are so focused on good morals that doing bad just isn't the norm, just isn't a thing."
+    },
+    {
+      "timestamp": [
+        22.76,
+        28.56
+      ],
+      "text": " i think that's the best idea you don't have to worry about people even thinking about doing"
+    },
+    {
+      "timestamp": [
+        28.56,
+        36.02
+      ],
+      "text": " wrong um for number two i put institutional utopia the one focused on rule of law"
+    },
+    {
+      "timestamp": [
+        36.02,
+        43.88
+      ],
+      "text": " because i think to me that one most coincides with where we're at currently in the world"
+    },
+    {
+      "timestamp": [
+        43.88,
+        52.18
+      ],
+      "text": " law-based governments societies i i put that high because i think it's a better idea to have a"
+    },
+    {
+      "timestamp": [
+        52.18,
+        58.96
+      ],
+      "text": " written rule of law so that if there's ever a debate or argument about something some somebody"
+    },
+    {
+      "timestamp": [
+        58.96,
+        65.2
+      ],
+      "text": " doing something bad then you just refer to that obviously i think it's good to be able to change"
+    },
+    {
+      "timestamp": [
+        65.2,
+        71.88
+      ],
+      "text": " it but i do think it's a good idea to have that and it's like everybody's treated equally on the"
+    },
+    {
+      "timestamp": [
+        71.88,
+        81.54
+      ],
+      "text": " law it applies to everybody it's not uh it's not changing per person there there's no there's no"
+    },
+    {
+      "timestamp": [
+        81.54,
+        89.72
+      ],
+      "text": " chance for it to be used incorrectly like i'm thinking of corruption and stuff but um third"
+    },
+    {
+      "timestamp": [
+        89.72,
+        95.86
+      ],
+      "text": " place i put modern green utopia i put it pretty high because i'm thinking it's good to try to"
+    },
+    {
+      "timestamp": [
+        95.86,
+        104.58
+      ],
+      "text": " keep the planet alive while you're innovating but i put it third and not first because i'm thinking"
+    },
+    {
+      "timestamp": [
+        104.58,
+        111.82
+      ],
+      "text": " you're kind of missing out on some innovation or evolution where they focused so hard on the"
+    },
+    {
+      "timestamp": [
+        111.82,
+        117.5
+      ],
+      "text": " environment which i know this sounds like an awful thing to say uh the other primary thing i forgot"
+    },
+    {
+      "timestamp": [
+        117.5,
+        127.36
+      ],
+      "text": " about is it said it's just keeping people where they're just good enough and by definition that"
+    },
+    {
+      "timestamp": [
+        127.36,
+        136.04
+      ],
+      "text": " sounds good but i think having people constantly where they're just okay is not a good idea i think"
+    },
+    {
+      "timestamp": [
+        136.04,
+        141.62
+      ],
+      "text": " in ideal society everybody can go past that but then for this one in order for them to keep the"
+    },
+    {
+      "timestamp": [
+        141.62,
+        146.46
+      ],
+      "text": " green utopia everybody has to just be doing okay because we're allocating so many resources to"
+    },
+    {
+      "timestamp": [
+        146.46,
+        156.86
+      ],
+      "text": " keeping it this way uh it sounded very socialist to me and knowing history socialism doesn't work"
+    },
+    {
+      "timestamp": [
+        156.86,
+        163.56
+      ],
+      "text": " out i think the idea of socialism is a utopia but again it never works out so i don't think"
+    },
+    {
+      "timestamp": [
+        163.56,
+        171.42
+      ],
+      "text": " i don't think that one would be placed high for me i put number four futurist utopia focused on"
+    },
+    {
+      "timestamp": [
+        171.42,
+        177.4
+      ],
+      "text": " science and innovation i think this is the flip side of the modern green utopia now you're so"
+    },
+    {
+      "timestamp": [
+        177.4,
+        183.12
+      ],
+      "text": " focused on science and innovation you don't care so much about the planet and i don't think that's"
+    },
+    {
+      "timestamp": [
+        183.12,
+        190.86
+      ],
+      "text": " a great idea um i'm hoping or thinking in this scenario that if you're so focused on science"
+    },
+    {
+      "timestamp": [
+        190.86,
+        196.12
+      ],
+      "text": " and innovation you'll get to the point where you can keep the planet alive and healthy and still"
+    },
+    {
+      "timestamp": [
+        196.12,
+        202.64
+      ],
+      "text": " focus on science and innovation but at what point are we going to reach that so i put that one"
+    },
+    {
+      "timestamp": [
+        202.64,
+        210.7
+      ],
+      "text": " right in the middle and then fifth place religious utopia i find it necessary to say that i am a"
+    },
+    {
+      "timestamp": [
+        210.7,
+        218.04
+      ],
+      "text": " christian so the idea of a religious utopia sounds good because obviously i agree with"
+    },
+    {
+      "timestamp": [
+        218.04,
+        226.4
+      ],
+      "text": " christian ideas so i'm thinking if people are living in that kind of society things would"
+    },
+    {
+      "timestamp": [
+        226.4,
+        232.06
+      ],
+      "text": " inherently be good a lot like what i put number one the moral commonwealth intermorality people"
+    },
+    {
+      "timestamp": [
+        232.06,
+        241.72
+      ],
+      "text": " agree on good morals and doing good things but knowing history knowing how religion has been"
+    },
+    {
+      "timestamp": [
+        241.72,
+        251.42
+      ],
+      "text": " manipulated to keep people peasants or keep people low keep people in control of the higher-ups"
+    },
+    {
+      "timestamp": [
+        251.42,
+        256.84
+      ],
+      "text": " i put it pretty low because i think it's it can be so easily manipulated if it's if it's"
+    },
+    {
+      "timestamp": [
+        256.84,
+        263.1
+      ],
+      "text": " faith-based because because if faith is so individual to people obviously in the context"
+    },
+    {
+      "timestamp": [
+        263.1,
+        270.32
+      ],
+      "text": " of christianity you have the bible where christians for the most part agree on things in there"
+    },
+    {
+      "timestamp": [
+        270.32,
+        280.14
+      ],
+      "text": " but still the leaders can just change interpretation and then boom you your your core idea is just"
+    },
+    {
+      "timestamp": [
+        280.14,
+        286.26
+      ],
+      "text": " different now and that can just keep going down an evolutionary path or de-evolution if you will"
+    },
+    {
+      "timestamp": [
+        286.26,
+        293.94
+      ],
+      "text": " and now we're no longer where we were so i put that in fifth place sixth place primitivist"
+    },
+    {
+      "timestamp": [
+        293.94,
+        300.16
+      ],
+      "text": " utopia i would put this the lowest if ai-centered utopia wasn't an option but i'll get into that"
+    },
+    {
+      "timestamp": [
+        300.16,
+        309.26
+      ],
+      "text": " uh primitivist i put it sixth low tech in small scale i think it's just keeping people in a loop"
+    },
+    {
+      "timestamp": [
+        309.26,
+        316.28
+      ],
+      "text": " of survival uh it was saying people are close to nature which i think is inherently good"
+    },
+    {
+      "timestamp": [
+        316.28,
+        322.4
+      ],
+      "text": " but come on there's there's no uh there's no innovation there's no progress it seems or if"
+    },
+    {
+      "timestamp": [
+        322.4,
+        333.34
+      ],
+      "text": " there is it's really slow and i i think that kind of sucks so i put that pretty low um i think being"
+    },
+    {
+      "timestamp": [
+        333.34,
+        340.6
+      ],
+      "text": " living in a very survivalist type of utopia which now that i think about it i don't think"
+    },
+    {
+      "timestamp": [
+        340.6,
+        345.34
+      ],
+      "text": " it was saying that i just think it's like hey we're good enough to just be where we're at and"
+    },
+    {
+      "timestamp": [
+        345.34,
+        352.4
+      ],
+      "text": " just chill which is that i think that it's pretty much a utopia but for me personally"
+    },
+    {
+      "timestamp": [
+        352.4,
+        358.82
+      ],
+      "text": " it just seems kind of boring so i put it low um ai-centered utopia i put it last"
+    },
+    {
+      "timestamp": [
+        358.82,
+        366.96
+      ],
+      "text": " because i'm thinking it's a bad idea to make your leader not human to to defer leadership"
+    },
+    {
+      "timestamp": [
+        366.96,
+        375.78
+      ],
+      "text": " to something that's not inherently human so to me it's a bad idea because now you're missing out"
+    },
+    {
+      "timestamp": [
+        375.78,
+        386.86
+      ],
+      "text": " on the ideas of compassion human traits uh caring love uh morals ethics they said"
+    },
+    {
+      "timestamp": [
+        386.86,
+        391.04
+      ],
+      "text": " i'm pretty sure it said for this scenario it's gonna try to do those things it's gonna"
+    },
+    {
+      "timestamp": [
+        391.04,
+        399.2
+      ],
+      "text": " that's like the struggle is it is it keeping up with that but i think inherently it won't and"
+    },
+    {
+      "timestamp": [
+        399.2,
+        408.9
+      ],
+      "text": " it's it's gonna decide what's best for people based on its observations so"
+    },
+    {
+      "timestamp": [
+        408.9,
+        414.04
+      ],
+      "text": " what it thinks is best could not be what the humans think is best"
+    },
+    {
+      "timestamp": [
+        414.04,
+        420.52
+      ],
+      "text": " um i think it's important to say i've watched a lot of star trek and there's a lot of instances"
+    },
+    {
+      "timestamp": [
+        420.52,
+        429.18
+      ],
+      "text": " in that show where societies are led by ai or computers and the air computers just don't care"
+    },
+    {
+      "timestamp": [
+        429.18,
+        434.34
+      ],
+      "text": " about the people but the people are like yeah it works so we'll just keep doing it and to me it"
+    },
+    {
+      "timestamp": [
+        434.34,
+        441.3
+      ],
+      "text": " seems somewhat logical uh so that's why i put that one last i think it's a bad idea to defer"
+    },
+    {
+      "timestamp": [
+        441.3,
+        446.0
+      ],
+      "text": " leadership to non-human entities, if you will."
+    }
+  ]
+}

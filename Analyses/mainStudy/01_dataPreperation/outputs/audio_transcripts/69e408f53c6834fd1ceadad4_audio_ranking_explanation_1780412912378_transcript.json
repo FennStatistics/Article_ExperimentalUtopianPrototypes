@@ -1,0 +1,115 @@
+{
+  "audio_file": "69e408f53c6834fd1ceadad4_audio_ranking_explanation_1780412912378.webm",
+  "transcript": " So, looking at these, starting from the bottom, faith-based order was last. I think that's due to the amount of different faiths. I think following one particular faith or having a society with one faith would be undesirable. So the next two, sustainable and secure and the rule of law, we kind of are in the rule of law right now where the government kind of decides what is right and wrong. And I think there's just a lot of flaws with that when it comes to humanality and the way people create things. Sustainable and secure is beneficial. I think that is a beneficial one. I just didn't rank it as high data driven is kind of in the middle because when we take the human instinct of what is right and wrong in a sense that helps us to govern better low-tech and small-scale and inner morality kind of go together basically I chose these ones up higher because if everyone kind of worked with a inner positive morality that could definitely create a better society. But ultimately, I think science and innovation is the best one. I think science and creating new scientific things, whether it be cures for disease or the way we grow plants, I think that can have a really good positive benefit on the greater good.",
+  "language": "unknown",
+  "processing_time_seconds": 19.835594,
+  "timestamp": "2026-06-08T09:39:51.543976",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.64
+      ],
+      "text": " So, looking at these, starting from the bottom, faith-based order was last. I think that's due to the amount of different faiths. I think following one particular faith or having a society with one faith would be undesirable."
+    },
+    {
+      "timestamp": [
+        19.36,
+        18.64
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        26.14,
+        30.02
+      ],
+      "text": " So the next two, sustainable and secure and the rule of law, we kind of are in the rule of law right now where the government kind of decides what is right and wrong."
+    },
+    {
+      "timestamp": [
+        32.08,
+        37.56
+      ],
+      "text": " And I think there's just a lot of flaws with that when it comes to humanality and the way"
+    },
+    {
+      "timestamp": [
+        37.56,
+        39.62
+      ],
+      "text": " people create things."
+    },
+    {
+      "timestamp": [
+        40.48,
+        42.78
+      ],
+      "text": " Sustainable and secure is beneficial."
+    },
+    {
+      "timestamp": [
+        43.7,
+        47.06
+      ],
+      "text": " I think that is a beneficial one."
+    },
+    {
+      "timestamp": [
+        47.06,
+        52.84
+      ],
+      "text": " I just didn't rank it as high data driven is kind of in the middle because"
+    },
+    {
+      "timestamp": [
+        52.84,
+        60.24
+      ],
+      "text": " when we take the human instinct of what is right and wrong in a sense that"
+    },
+    {
+      "timestamp": [
+        60.24,
+        66.3
+      ],
+      "text": " helps us to govern better low-tech and small-scale and inner morality kind of"
+    },
+    {
+      "timestamp": [
+        66.3,
+        72.64
+      ],
+      "text": " go together basically I chose these ones up higher because if everyone kind of"
+    },
+    {
+      "timestamp": [
+        72.64,
+        76.88
+      ],
+      "text": " worked with a inner positive morality that could definitely create a better"
+    },
+    {
+      "timestamp": [
+        76.88,
+        82.96
+      ],
+      "text": " society. But ultimately, I think science and innovation is the best one. I think science"
+    },
+    {
+      "timestamp": [
+        82.96,
+        90.98
+      ],
+      "text": " and creating new scientific things, whether it be cures for disease or the way we grow"
+    },
+    {
+      "timestamp": [
+        90.98,
+        97.04
+      ],
+      "text": " plants, I think that can have a really good positive benefit on the greater good."
+    }
+  ]
+}

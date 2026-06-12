@@ -1,0 +1,80 @@
+{
+  "audio_file": "698383f571211f272ff1c000_audio_ranking_explanation_1780411197846.webm",
+  "transcript": " the reason why I picked what I picked, um, especially with, um, religion as one, seven, as AI-centered, um, I picked religion because, I mean, I think the things that they teach in religion, I assume it would be Christianity, because I think that's what most people in, for example, America practice, I think what they teach in Christianity is great, it's very good, and I think if we all lived as good Christians, the world would be amazing. And the reason why I picked AI-centered utopia as my worst, I mean, AI still has a lot of issues a lot of bugs and i feel like it could be very worrisome relying on a robot to dictate the government i think that could be really really dangerous because again we still don't know just we don't understand it enough i think",
+  "language": "unknown",
+  "processing_time_seconds": 14.815071,
+  "timestamp": "2026-06-08T08:58:26.783716",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.7
+      ],
+      "text": " the reason why I picked what I picked, um, especially with, um, religion as one, seven,"
+    },
+    {
+      "timestamp": [
+        8.7,
+        17.28
+      ],
+      "text": " as AI-centered, um, I picked religion because, I mean, I think the things that they teach in"
+    },
+    {
+      "timestamp": [
+        17.28,
+        23.06
+      ],
+      "text": " religion, I assume it would be Christianity, because I think that's what most people in,"
+    },
+    {
+      "timestamp": [
+        23.24,
+        23.06
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.6,
+        38.92
+      ],
+      "text": " for example, America practice, I think what they teach in Christianity is great, it's very good, and I think if we all lived as good Christians, the world would be amazing."
+    },
+    {
+      "timestamp": [
+        40.36,
+        47.56
+      ],
+      "text": " And the reason why I picked AI-centered utopia as my worst, I mean, AI still has a lot of"
+    },
+    {
+      "timestamp": [
+        47.56,
+        53.64
+      ],
+      "text": " issues a lot of bugs and i feel like it could be very worrisome relying on"
+    },
+    {
+      "timestamp": [
+        56.36,
+        62.12
+      ],
+      "text": " a robot to dictate the government i think that could be really really dangerous"
+    },
+    {
+      "timestamp": [
+        63.64,
+        65.24
+      ],
+      "text": " because again we still don't know"
+    },
+    {
+      "timestamp": [
+        68.28,
+        70.28
+      ],
+      "text": " just we don't understand it enough i think"
+    }
+  ]
+}

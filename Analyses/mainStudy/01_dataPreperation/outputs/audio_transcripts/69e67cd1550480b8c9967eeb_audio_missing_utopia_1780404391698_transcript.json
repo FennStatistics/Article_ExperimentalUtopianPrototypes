@@ -1,0 +1,17 @@
+{
+  "audio_file": "69e67cd1550480b8c9967eeb_audio_missing_utopia_1780404391698.webm",
+  "transcript": " I can't think of any that were missing. I feel like everything was covered. If anything, the only society that's missing is the one that we're currently in, however you'd describe that. I don't feel like it falls into any of those categories.",
+  "language": "unknown",
+  "processing_time_seconds": 5.957469,
+  "timestamp": "2026-06-08T09:40:35.871863",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.18
+      ],
+      "text": " I can't think of any that were missing. I feel like everything was covered. If anything, the only society that's missing is the one that we're currently in, however you'd describe that. I don't feel like it falls into any of those categories."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "5c84ed7d4b0de20019350e1e_audio_missing_utopia_1780454884055.webm",
+  "transcript": " I think something that would incorporate the green technology and innovations, as well as some limited regulations combined with a religious moral structure, would be the best, in my opinion, because you aren't putting all of your hope into assuming God will fix it. Like, maybe God won't fix it. Maybe God's expecting you to fix it. So I think we still have a responsibility to fix it ourselves, but I do think that religious structure would be good.",
+  "language": "unknown",
+  "processing_time_seconds": 9.564613,
+  "timestamp": "2026-06-08T08:13:27.547564",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.98
+      ],
+      "text": " I think something that would incorporate the green technology and innovations, as well as some limited regulations combined with a religious moral structure, would be the best, in my opinion, because you aren't putting all of your hope into assuming God will fix it."
+    },
+    {
+      "timestamp": [
+        26.98,
+        30.82
+      ],
+      "text": " Like, maybe God won't fix it. Maybe God's expecting you to fix it."
+    },
+    {
+      "timestamp": [
+        30.92,
+        34.56
+      ],
+      "text": " So I think we still have a responsibility to fix it ourselves,"
+    },
+    {
+      "timestamp": [
+        34.56,
+        38.72
+      ],
+      "text": " but I do think that religious structure would be good."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "audio_file": "69fba866c48220909d281e3f_audio_missing_utopia_1780390726373.webm",
+  "transcript": " I feel like there was no accounting for the diversity of humanity and how equity and equality would be maintained between different types of people. um i think that i do still think that the uh the modern green uh utopia would be um would be the ideal society but i think there needs to be some sort of accounting for um the fact that people are different um Um, and, uh, society needs to, to protect, um, needs to have some sort of protective measures for diversity, um, because humans are inherently sort of, uh, tribal and sometimes different groups won't like each other. And so society kind of needs to account for that. So I guess a sort of ideal society that was missing would be, it would still be like the eco-society, but it would account for the diversity of humanity. And then also with regards to the economy of the eco society, I think that for me, a utopian society would have a gift based economy. So it would not have a market economy. It would not have a monetary economy. um it would be a a gift economy um based on community and uh local relationships um yeah",
+  "language": "unknown",
+  "processing_time_seconds": 23.393112,
+  "timestamp": "2026-06-08T10:09:14.204542",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.16
+      ],
+      "text": " I feel like there was no accounting for the diversity of humanity and how equity and equality would be maintained between different types of people."
+    },
+    {
+      "timestamp": [
+        19.6,
+        18.16
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.08,
+        38.64
+      ],
+      "text": " um i think that i do still think that the uh the modern green uh utopia would be um would be the ideal society but i think there needs to be some sort of accounting"
+    },
+    {
+      "timestamp": [
+        38.64,
+        46.28
+      ],
+      "text": " for um the fact that people are different um"
+    },
+    {
+      "timestamp": [
+        46.28,
+        57.4
+      ],
+      "text": " Um, and, uh, society needs to, to protect, um, needs to have some sort of protective"
+    },
+    {
+      "timestamp": [
+        57.4,
+        68.94
+      ],
+      "text": " measures for diversity, um, because humans are inherently sort of, uh, tribal and sometimes"
+    },
+    {
+      "timestamp": [
+        68.94,
+        70.82
+      ],
+      "text": " different groups won't like each other."
+    },
+    {
+      "timestamp": [
+        70.82,
+        92.2
+      ],
+      "text": " And so society kind of needs to account for that. So I guess a sort of ideal society that was missing would be, it would still be like the eco-society, but it would account for the diversity of humanity."
+    },
+    {
+      "timestamp": [
+        92.2,
+        111.82
+      ],
+      "text": " And then also with regards to the economy of the eco society, I think that for me, a utopian society would have a gift based economy. So it would not have a market economy. It would not have a monetary economy."
+    },
+    {
+      "timestamp": [
+        111.82,
+        125.42
+      ],
+      "text": " um it would be a a gift economy um based on community and uh local relationships um yeah"
+    }
+  ]
+}

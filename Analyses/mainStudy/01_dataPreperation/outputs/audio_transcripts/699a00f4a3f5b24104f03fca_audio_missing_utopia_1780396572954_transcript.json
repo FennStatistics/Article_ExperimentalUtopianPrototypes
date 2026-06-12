@@ -1,0 +1,38 @@
+{
+  "audio_file": "699a00f4a3f5b24104f03fca_audio_missing_utopia_1780396572954.webm",
+  "transcript": " From one to seven, all the society or societal values are important and are required in bits and in certain proportions. So for a community to be flagged as ideal, or to be called ideal, it has to encompass all of these seven societies in accurate proportion this will bring stability and equilibrium to the community and society.",
+  "language": "unknown",
+  "processing_time_seconds": 8.68479,
+  "timestamp": "2026-06-08T09:06:51.117191",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.0
+      ],
+      "text": " From one to seven, all the society or societal values are important and are required in bits"
+    },
+    {
+      "timestamp": [
+        15.0,
+        18.0
+      ],
+      "text": " and in certain proportions."
+    },
+    {
+      "timestamp": [
+        18.0,
+        28.0
+      ],
+      "text": " So for a community to be flagged as ideal, or to be called ideal, it has to encompass"
+    },
+    {
+      "timestamp": [
+        28.0,
+        45.0
+      ],
+      "text": " all of these seven societies in accurate proportion this will bring stability and equilibrium to the community and society."
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "audio_file": "60fec0bdae6ef40674a8a77a_audio_ranking_explanation_1780408808940.webm",
+  "transcript": " I ranked the sustainable and secure utopia first because I believe that especially green energy is a lot of the way of the future. There's a lot of great progress that can be made, especially into helping see to that the methods of climate change or the effects of climate change are minimized on that sense. And I believe that will lead to a more prosperous community for everyone. Next is the futurist utopia. I also see this as potentially a way forward. However, my one concern would be that climate change would still be a big factor in daily living, but at least it would still move society in the right direction. I put the institutional utopia next because it's just kind of keeping the status quo. This is just how things have been as we know it. and not much change would be needed to be done there. The primitivist utopia is next. While the idea of living in the woods, in the forest, would be desirable in some way, there would be a lot of work and a lot of change that would need to be done in society to adapt to those changes, so I think that would be less preferred. Next is the religious utopia. I don't believe enforcing religious norms on the general public is the right way to go about having a society. I think that encourages a lot of other potential bad acts, a lot of violence and conflict between people who don't want to follow those religious norms. Next, I put moral commonwealth. This is just more so about, it just sounds like a state of anarchy, pretty much, where everyone is kind of just living by their own moral code, and I just don't think that's the proper way to govern or have, ensure that people continue to live by a proper ethical rule of law, since it's going to be different for everybody. And then I put the AI-centered utopia last just because with AI, it could be so easily biased. I don't like the idea of placing all of human judgment, not even necessarily all human judgment, but I don't like placing all of some human judgment into the hands of something that could be so easily biased with the data sets that it's fed. I just think it has plenty of opportunity to go wrong, so I put that one last.",
+  "language": "unknown",
+  "processing_time_seconds": 33.831342,
+  "timestamp": "2026-06-08T08:22:05.434589",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.92
+      ],
+      "text": " I ranked the sustainable and secure utopia first because I believe that especially green energy is a lot of the way of the future."
+    },
+    {
+      "timestamp": [
+        14.14,
+        27.54
+      ],
+      "text": " There's a lot of great progress that can be made, especially into helping see to that the methods of climate change or the effects of climate change are minimized on that sense."
+    },
+    {
+      "timestamp": [
+        27.62,
+        27.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.82,
+        33.64
+      ],
+      "text": " And I believe that will lead to a more prosperous community for everyone."
+    },
+    {
+      "timestamp": [
+        35.32,
+        35.78
+      ],
+      "text": " Next is the futurist utopia."
+    },
+    {
+      "timestamp": [
+        39.4,
+        39.68
+      ],
+      "text": " I also see this as potentially a way forward."
+    },
+    {
+      "timestamp": [
+        48.58,
+        49.24
+      ],
+      "text": " However, my one concern would be that climate change would still be a big factor in daily living, but at least it would still move society in the right direction."
+    },
+    {
+      "timestamp": [
+        53.6,
+        56.46
+      ],
+      "text": " I put the institutional utopia next because it's just kind of keeping the status quo. This is just how things have been as we know it."
+    },
+    {
+      "timestamp": [
+        57.12,
+        56.46
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        60.56,
+        61.4
+      ],
+      "text": " and not much change would be needed to be done there."
+    },
+    {
+      "timestamp": [
+        63.34,
+        64.34
+      ],
+      "text": " The primitivist utopia is next."
+    },
+    {
+      "timestamp": [
+        70.68,
+        71.28
+      ],
+      "text": " While the idea of living in the woods, in the forest, would be desirable in some way,"
+    },
+    {
+      "timestamp": [
+        76.68,
+        78.48
+      ],
+      "text": " there would be a lot of work and a lot of change that would need to be done in society to adapt to those changes, so I think that would be less preferred."
+    },
+    {
+      "timestamp": [
+        79.98,
+        81.6
+      ],
+      "text": " Next is the religious utopia."
+    },
+    {
+      "timestamp": [
+        81.88,
+        81.6
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        90.98,
+        91.22
+      ],
+      "text": " I don't believe enforcing religious norms on the general public is the right way to go about having a society."
+    },
+    {
+      "timestamp": [
+        100.28,
+        101.78
+      ],
+      "text": " I think that encourages a lot of other potential bad acts, a lot of violence and conflict between people who don't want to follow those religious norms."
+    },
+    {
+      "timestamp": [
+        104.02,
+        104.34
+      ],
+      "text": " Next, I put moral commonwealth."
+    },
+    {
+      "timestamp": [
+        104.56,
+        109.58
+      ],
+      "text": " This is just more so about, it just sounds like a state of anarchy, pretty much, where"
+    },
+    {
+      "timestamp": [
+        109.58,
+        114.54
+      ],
+      "text": " everyone is kind of just living by their own moral code, and I just don't think that's"
+    },
+    {
+      "timestamp": [
+        114.54,
+        124.58
+      ],
+      "text": " the proper way to govern or have, ensure that people continue to live by a proper ethical"
+    },
+    {
+      "timestamp": [
+        124.58,
+        127.24
+      ],
+      "text": " rule of law, since it's going to be different for everybody."
+    },
+    {
+      "timestamp": [
+        128.44,
+        127.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        152.9,
+        153.46
+      ],
+      "text": " And then I put the AI-centered utopia last just because with AI, it could be so easily biased. I don't like the idea of placing all of human judgment, not even necessarily all human judgment, but I don't like placing all of some human judgment into the hands of something that could be so easily biased with the data sets that it's fed."
+    },
+    {
+      "timestamp": [
+        153.54,
+        158.78
+      ],
+      "text": " I just think it has plenty of opportunity to go wrong, so I put that one last."
+    }
+  ]
+}

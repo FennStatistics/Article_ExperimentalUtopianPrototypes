@@ -1,0 +1,38 @@
+{
+  "audio_file": "69e96d63ea37c8245128778f_audio_ranking_explanation_1780228845784.webm",
+  "transcript": " Uh, I feel that the science and innovation utopia was the most, um, I don't know, it just made the most sense to me. Um, the other ones, honestly, I just put them, um, in order of what I thought would work the best.",
+  "language": "unknown",
+  "processing_time_seconds": 8.611396,
+  "timestamp": "2026-06-08T09:44:00.165470",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.32
+      ],
+      "text": " Uh, I feel that the science and innovation utopia was the most, um, I don't know, it"
+    },
+    {
+      "timestamp": [
+        12.32,
+        13.62
+      ],
+      "text": " just made the most sense to me."
+    },
+    {
+      "timestamp": [
+        15.14,
+        27.98
+      ],
+      "text": " Um, the other ones, honestly, I just put them, um, in order of what I thought would"
+    },
+    {
+      "timestamp": [
+        27.98,
+        29.9
+      ],
+      "text": " work the best."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a025143ab399f83cdaa9f16_audio_ranking_explanation_1780429755302.webm",
+  "transcript": " I chose this order because I believe stability and fairness through laws create the strongest foundation for a just society.",
+  "language": "unknown",
+  "processing_time_seconds": 4.965362,
+  "timestamp": "2026-06-08T10:20:20.537363",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.82
+      ],
+      "text": " I chose this order because I believe stability and fairness through laws create the strongest foundation for a just society."
+    }
+  ]
+}

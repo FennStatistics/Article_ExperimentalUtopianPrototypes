@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a0225434a6fa72955c8b5cb_audio_missing_utopia_1780444710915.webm",
+  "transcript": " A value that I feel that was missing was community working together. I know there was one that mentioned that they had to share resources, but like, I wouldn't want any of these societies, but if I had to, I would hope that it would have a sense to the community and everyone helping each other out.",
+  "language": "unknown",
+  "processing_time_seconds": 8.667556,
+  "timestamp": "2026-06-08T10:19:55.607696",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.0
+      ],
+      "text": " A value that I feel that was missing was community working together."
+    },
+    {
+      "timestamp": [
+        10.0,
+        19.38
+      ],
+      "text": " I know there was one that mentioned that they had to share resources, but like, I wouldn't"
+    },
+    {
+      "timestamp": [
+        19.38,
+        26.62
+      ],
+      "text": " want any of these societies, but if I had to, I would hope that it would have a sense"
+    },
+    {
+      "timestamp": [
+        26.62,
+        30.58
+      ],
+      "text": " to the community and everyone helping each other out."
+    }
+  ]
+}

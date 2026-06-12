@@ -1,0 +1,38 @@
+{
+  "audio_file": "6727e176e5f011b020a6a2db_audio_ranking_explanation_1780453134310.webm",
+  "transcript": " Okay, so it wants me to rank everything and explain it, so I said I would want to live in a religious utopia, it sounds better, then an institutional rule of law, then intermorality, the primidious utopia, small tech scale startup, modern green utopia, a futurist utopia, and then AI-centered life, because I think AI is bad.",
+  "language": "unknown",
+  "processing_time_seconds": 6.991931,
+  "timestamp": "2026-06-08T08:45:10.912928",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        1.0,
+        5.72
+      ],
+      "text": " Okay, so it wants me to rank everything and explain it, so I said I would want to live"
+    },
+    {
+      "timestamp": [
+        5.72,
+        15.12
+      ],
+      "text": " in a religious utopia, it sounds better, then an institutional rule of law, then intermorality,"
+    },
+    {
+      "timestamp": [
+        15.12,
+        22.0
+      ],
+      "text": " the primidious utopia, small tech scale startup, modern green utopia, a futurist utopia, and"
+    },
+    {
+      "timestamp": [
+        22.0,
+        27.54
+      ],
+      "text": " then AI-centered life, because I think AI is bad."
+    }
+  ]
+}

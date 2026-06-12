@@ -1,0 +1,24 @@
+{
+  "audio_file": "69c5a87efe4b84961a9b36e2_audio_missing_utopia_1780421022829.webm",
+  "transcript": " i feel like a lot of the important values and these were already kind of indicated in the little short readings",
+  "language": "unknown",
+  "processing_time_seconds": 4.951339,
+  "timestamp": "2026-06-08T09:23:05.413266",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        4.32
+      ],
+      "text": " i feel like a lot of the important values and these were already kind of"
+    },
+    {
+      "timestamp": [
+        4.32,
+        8.64
+      ],
+      "text": " indicated in the little short readings"
+    }
+  ]
+}

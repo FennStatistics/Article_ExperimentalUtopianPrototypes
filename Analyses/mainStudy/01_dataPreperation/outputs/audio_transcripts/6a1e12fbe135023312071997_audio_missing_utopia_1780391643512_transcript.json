@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a1e12fbe135023312071997_audio_missing_utopia_1780391643512.webm",
+  "transcript": " I think my ideal societies actually were the science-based ones and sustainability, but I think the biggest issue is grouping people, large amounts of people into one common theme and idea. It never goes well or as well as planned. A type of future that I feel myself missing is one of multiple options. for people to decide if they want to choose faith-based, if they want to choose AI, if they want to choose sustainability. I think the biggest thing when it comes to an ideal future scenario is putting people where they want to be and not forcing a large group of people that will likely not all agree and all be accommodating of the situation into one area.",
+  "language": "unknown",
+  "processing_time_seconds": 11.155001,
+  "timestamp": "2026-06-08T11:30:40.609023",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.7
+      ],
+      "text": " I think my ideal societies actually were the science-based ones and sustainability, but I think the biggest issue is grouping people, large amounts of people into one common theme and idea."
+    },
+    {
+      "timestamp": [
+        18.7,
+        29.2
+      ],
+      "text": " It never goes well or as well as planned. A type of future that I feel myself missing is one of multiple options."
+    },
+    {
+      "timestamp": [
+        30.0,
+        34.8
+      ],
+      "text": " for people to decide if they want to choose faith-based, if they want to choose AI, if they"
+    },
+    {
+      "timestamp": [
+        34.8,
+        40.16
+      ],
+      "text": " want to choose sustainability. I think the biggest thing when it comes to an ideal future scenario is"
+    },
+    {
+      "timestamp": [
+        40.16,
+        45.2
+      ],
+      "text": " putting people where they want to be and not forcing a large group of people that will likely"
+    },
+    {
+      "timestamp": [
+        45.2,
+        49.6
+      ],
+      "text": " not all agree and all be accommodating of the situation into one area."
+    }
+  ]
+}

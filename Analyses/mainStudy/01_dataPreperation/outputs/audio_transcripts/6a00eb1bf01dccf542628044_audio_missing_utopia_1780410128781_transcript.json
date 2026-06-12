@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a00eb1bf01dccf542628044_audio_missing_utopia_1780410128781.webm",
+  "transcript": " um so looking back at at the seven societies i felt like they were all built like around one main idea either like tech morality or intuitions or like religion but what i didn't see was uh a society that blended things more balanced in a way like my ideal future would be uh like would would be like a mixed practice like it would be like a mix with like humanity and with some technology but not too much and some intuitions but not like not something that's too extreme and strict and just stay focused more on the people that are actually like having good lives and that they're not actually like fighting to survive so the study that i think is missing is the one that values like just well-beings all around us and just creativity and just involved with the community",
+  "language": "unknown",
+  "processing_time_seconds": 14.124173,
+  "timestamp": "2026-06-08T10:16:34.574873",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.54
+      ],
+      "text": " um so looking back at at the seven societies i felt like they were all built like around one"
+    },
+    {
+      "timestamp": [
+        8.54,
+        17.02
+      ],
+      "text": " main idea either like tech morality or intuitions or like religion but what i didn't see was uh a"
+    },
+    {
+      "timestamp": [
+        17.02,
+        25.08
+      ],
+      "text": " society that blended things more balanced in a way like my ideal future would be uh like would"
+    },
+    {
+      "timestamp": [
+        25.08,
+        31.7
+      ],
+      "text": " would be like a mixed practice like it would be like a mix with like humanity and with some"
+    },
+    {
+      "timestamp": [
+        31.7,
+        38.58
+      ],
+      "text": " technology but not too much and some intuitions but not like not something that's too extreme and"
+    },
+    {
+      "timestamp": [
+        38.58,
+        46.72
+      ],
+      "text": " strict and just stay focused more on the people that are actually like having good lives and that"
+    },
+    {
+      "timestamp": [
+        46.72,
+        54.64
+      ],
+      "text": " they're not actually like fighting to survive so the study that i think is missing is the one that"
+    },
+    {
+      "timestamp": [
+        54.64,
+        64.2
+      ],
+      "text": " values like just well-beings all around us and just creativity and just involved with the community"
+    }
+  ]
+}

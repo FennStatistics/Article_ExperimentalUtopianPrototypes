@@ -1,0 +1,31 @@
+{
+  "audio_file": "69adf185dcc8cda73749368d_audio_ranking_explanation_1780408598757.webm",
+  "transcript": " My most preferred society is the modern green utopia because we have to have a good environment for us to live peacefully and my least preferred is a low-tech and small-scale society because this has a small impact, has a lower impact on our society.",
+  "language": "unknown",
+  "processing_time_seconds": 5.998274,
+  "timestamp": "2026-06-08T09:13:25.388458",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.06
+      ],
+      "text": " My most preferred society is the modern green utopia because we have to have a good environment"
+    },
+    {
+      "timestamp": [
+        11.06,
+        22.88
+      ],
+      "text": " for us to live peacefully and my least preferred is a low-tech and small-scale society because"
+    },
+    {
+      "timestamp": [
+        22.88,
+        28.86
+      ],
+      "text": " this has a small impact, has a lower impact on our society."
+    }
+  ]
+}

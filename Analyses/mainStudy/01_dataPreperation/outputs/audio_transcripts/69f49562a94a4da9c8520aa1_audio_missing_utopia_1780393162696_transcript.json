@@ -1,0 +1,80 @@
+{
+  "audio_file": "69f49562a94a4da9c8520aa1_audio_missing_utopia_1780393162696.webm",
+  "transcript": " well i i really felt like they all didn't have balance you know uh an ideal society that i would envision would have a good religious side a moral side a futurist side that's the innovative side and uh yeah i've mentioned religious idea so that that brings about balance so having just um got each of them they they actually focused on like uh having different societies based off of one particular type of um human behavior that is um religion um innovation and technology uh moral moral moral thinking and moral discipline so if i had to create an ideal society i feel like they are all missing out on each other like there has to be a balance there has to be a moral balance a religious balance a futuristic and ai powered balance that would be the ideal utopian future society for me so i feel like what they are all missing is a piece of each other it shouldn't just be centered around just one particular type of human behavior",
+  "language": "unknown",
+  "processing_time_seconds": 15.024245,
+  "timestamp": "2026-06-08T09:57:35.213630",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        10.4
+      ],
+      "text": " well i i really felt like they all didn't have balance you know uh an ideal society that i would"
+    },
+    {
+      "timestamp": [
+        10.4,
+        18.8
+      ],
+      "text": " envision would have a good religious side a moral side a futurist side that's the innovative side"
+    },
+    {
+      "timestamp": [
+        19.44,
+        27.76
+      ],
+      "text": " and uh yeah i've mentioned religious idea so that that brings about balance so having just"
+    },
+    {
+      "timestamp": [
+        27.76,
+        35.04
+      ],
+      "text": " um got each of them they they actually focused on like uh having different societies based off of"
+    },
+    {
+      "timestamp": [
+        35.76,
+        44.4
+      ],
+      "text": " one particular type of um human behavior that is um religion um innovation and technology"
+    },
+    {
+      "timestamp": [
+        44.96,
+        54.0
+      ],
+      "text": " uh moral moral moral thinking and moral discipline so if i had to create an ideal society i feel like"
+    },
+    {
+      "timestamp": [
+        54.0,
+        58.8
+      ],
+      "text": " they are all missing out on each other like there has to be a balance there has to be a moral"
+    },
+    {
+      "timestamp": [
+        58.8,
+        66.16
+      ],
+      "text": " balance a religious balance a futuristic and ai powered balance that would be the ideal utopian"
+    },
+    {
+      "timestamp": [
+        66.16,
+        71.2
+      ],
+      "text": " future society for me so i feel like what they are all missing is a piece of each other"
+    },
+    {
+      "timestamp": [
+        71.2,
+        77.28
+      ],
+      "text": " it shouldn't just be centered around just one particular type of human behavior"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a04bb8d89ca054e84cf57b3_audio_missing_utopia_1780401415822.webm",
+  "transcript": " um I can't think of a specific factor that was missing from all of them there were some like I wish the um green modern green utopia I think that's what it was the first one I chose I wish that one had a bit more emphasis on like science I mean it was using like green technology but it wasn't really, like, focused on the advancement of science.",
+  "language": "unknown",
+  "processing_time_seconds": 9.147507,
+  "timestamp": "2026-06-08T10:23:49.301708",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.84
+      ],
+      "text": " um I can't think of a specific factor that was missing from all of them there were some like"
+    },
+    {
+      "timestamp": [
+        6.84,
+        17.52
+      ],
+      "text": " I wish the um green modern green utopia I think that's what it was the first one I chose"
+    },
+    {
+      "timestamp": [
+        17.52,
+        27.28
+      ],
+      "text": " I wish that one had a bit more emphasis on like science I mean it was using like green technology"
+    },
+    {
+      "timestamp": [
+        27.28,
+        33.82
+      ],
+      "text": " but it wasn't really, like, focused on the advancement of science."
+    }
+  ]
+}

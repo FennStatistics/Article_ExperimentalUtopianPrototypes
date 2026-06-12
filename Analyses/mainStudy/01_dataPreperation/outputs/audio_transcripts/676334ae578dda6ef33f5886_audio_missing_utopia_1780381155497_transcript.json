@@ -1,0 +1,17 @@
+{
+  "audio_file": "676334ae578dda6ef33f5886_audio_missing_utopia_1780381155497.webm",
+  "transcript": " I'm considering the society there must be law enforcement that is the police in order for them to live peacefully and to solve the conflicts.",
+  "language": "unknown",
+  "processing_time_seconds": 5.223413,
+  "timestamp": "2026-06-08T08:46:30.072353",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.5
+      ],
+      "text": " I'm considering the society there must be law enforcement that is the police in order for them to live peacefully and to solve the conflicts."
+    }
+  ]
+}

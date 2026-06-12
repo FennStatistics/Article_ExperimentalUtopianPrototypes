@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a1629cc5dcd6ea2c000c9af_audio_ranking_explanation_1780384965496.webm",
+  "transcript": " I prefer societies that feel stable and organized. Future risk utopia uses science and strong institutions to solve problems, which I trust most. Primitive risk utopia felt too risky because it has minimal structure and technology. My ranking reflects how much security each society offered.",
+  "language": "unknown",
+  "processing_time_seconds": 6.120103,
+  "timestamp": "2026-06-08T11:07:03.033042",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.0
+      ],
+      "text": " I prefer societies that feel stable and organized. Future risk utopia uses science and strong institutions to solve problems, which I trust most."
+    },
+    {
+      "timestamp": [
+        11.0,
+        21.0
+      ],
+      "text": " Primitive risk utopia felt too risky because it has minimal structure and technology. My ranking reflects how much security each society offered."
+    }
+  ]
+}

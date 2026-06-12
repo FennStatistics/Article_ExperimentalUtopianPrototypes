@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a02a3d567b030856033eb52_audio_ranking_explanation_1780382274633.webm",
+  "transcript": " I put futurist utopia first because consider scientific innovation is the best way to solve scarcity and improve well-being.",
+  "language": "unknown",
+  "processing_time_seconds": 5.022734,
+  "timestamp": "2026-06-08T10:20:32.324571",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.44
+      ],
+      "text": " I put futurist utopia first because consider scientific innovation is the best way to solve scarcity and improve well-being."
+    }
+  ]
+}

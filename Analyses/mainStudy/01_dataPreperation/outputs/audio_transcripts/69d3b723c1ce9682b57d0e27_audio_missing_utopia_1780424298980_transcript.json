@@ -1,0 +1,80 @@
+{
+  "audio_file": "69d3b723c1ce9682b57d0e27_audio_missing_utopia_1780424298980.webm",
+  "transcript": " I felt like when I was picturing all of these societies, I was picturing adults. I don't feel like there was any that really were geared towards children. And that was a big reason why I picked a lot of the rankings that I did is because I do have children. And so, okay, where would they fit in best? Where would they be protected the most, in my opinion? um so I feel like a society that included children in it um or had mainly or like another focus on children um it just might change my opinion on how I rank it if that was more detailed I understand that children are part of society I get that but when I was reading it I only pictured adults Thanks.",
+  "language": "unknown",
+  "processing_time_seconds": 13.791967,
+  "timestamp": "2026-06-08T09:30:54.966500",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.66,
+        5.6
+      ],
+      "text": " I felt like when I was picturing all of these societies, I was picturing adults."
+    },
+    {
+      "timestamp": [
+        6.08,
+        9.64
+      ],
+      "text": " I don't feel like there was any that really were geared towards children."
+    },
+    {
+      "timestamp": [
+        10.52,
+        18.26
+      ],
+      "text": " And that was a big reason why I picked a lot of the rankings that I did is because I do have children."
+    },
+    {
+      "timestamp": [
+        18.88,
+        21.02
+      ],
+      "text": " And so, okay, where would they fit in best?"
+    },
+    {
+      "timestamp": [
+        21.16,
+        24.14
+      ],
+      "text": " Where would they be protected the most, in my opinion?"
+    },
+    {
+      "timestamp": [
+        25.14,
+        24.14
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.02,
+        41.96
+      ],
+      "text": " um so I feel like a society that included children in it um or had mainly or like another focus on children um it just might change my opinion on how I rank it if that was more"
+    },
+    {
+      "timestamp": [
+        41.96,
+        46.5
+      ],
+      "text": " detailed I understand that children are part of society I get that but"
+    },
+    {
+      "timestamp": [
+        46.5,
+        50.66
+      ],
+      "text": " when I was reading it I only pictured adults"
+    },
+    {
+      "timestamp": [
+        50.66,
+        51.66
+      ],
+      "text": " Thanks."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "69fb85c62b92db7fae0e42a2_audio_missing_utopia_1780439188505.webm",
+  "transcript": " No, I think everything was there that I expected to be. There's nothing off the top of my head that pops into the picture. Yeah, everything was covered.",
+  "language": "unknown",
+  "processing_time_seconds": 5.275176,
+  "timestamp": "2026-06-08T10:05:36.654965",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.82
+      ],
+      "text": " No, I think everything was there that I expected to be. There's nothing off the top of my head that pops into the picture. Yeah, everything was covered."
+    }
+  ]
+}

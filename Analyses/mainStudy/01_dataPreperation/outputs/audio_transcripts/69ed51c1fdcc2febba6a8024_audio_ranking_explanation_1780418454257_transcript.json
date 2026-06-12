@@ -1,0 +1,31 @@
+{
+  "audio_file": "69ed51c1fdcc2febba6a8024_audio_ranking_explanation_1780418454257.webm",
+  "transcript": " I would love to live in a modern green utopia because it would be good for myself, my family, and the planet. I would not want to live in an institutional utopia because societies like that usually go really far and seem to be very harsh to live in.",
+  "language": "unknown",
+  "processing_time_seconds": 8.546428,
+  "timestamp": "2026-06-08T09:47:39.886820",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.16
+      ],
+      "text": " I would love to live in a modern green utopia because it would be good for myself, my family,"
+    },
+    {
+      "timestamp": [
+        11.16,
+        20.6
+      ],
+      "text": " and the planet. I would not want to live in an institutional utopia because"
+    },
+    {
+      "timestamp": [
+        20.6,
+        33.66
+      ],
+      "text": " societies like that usually go really far and seem to be very harsh to live in."
+    }
+  ]
+}

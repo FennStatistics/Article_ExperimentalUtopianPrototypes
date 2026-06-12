@@ -1,0 +1,80 @@
+{
+  "audio_file": "69caa04535e88acc639b3656_audio_ranking_explanation_1780404674269.webm",
+  "transcript": " The reason why I chose the rankings as I did is because of the neurodivergent, any type of structured society is going to be hard either way. So the low, just enough society seems the one that will be less controlling in a sense. So that's why I chose it the way I did. even now as a neurodivergent, it's hard living amongst neurotypicals. In the social norms and ordinary, and that's the verbiage I always use in the questions, they don't seem to apply to me because even this society now, it's hard because things weren't really designed for neurodivergence like myself. So the just enough when everything is minimal, just what you need seems to be the one that would be the most sustainable that you can live long term without being burnt out or cast out.",
+  "language": "unknown",
+  "processing_time_seconds": 14.667172,
+  "timestamp": "2026-06-08T09:27:26.449408",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.32
+      ],
+      "text": " The reason why I chose the rankings as I did is because of the neurodivergent, any type"
+    },
+    {
+      "timestamp": [
+        11.32,
+        15.12
+      ],
+      "text": " of structured society is going to be hard either way."
+    },
+    {
+      "timestamp": [
+        15.12,
+        26.62
+      ],
+      "text": " So the low, just enough society seems the one that will be less controlling in a sense."
+    },
+    {
+      "timestamp": [
+        26.62,
+        28.62
+      ],
+      "text": " So that's why I chose it the way I did."
+    },
+    {
+      "timestamp": [
+        28.62,
+        37.18
+      ],
+      "text": " even now as a neurodivergent, it's hard living amongst neurotypicals. In the social norms and"
+    },
+    {
+      "timestamp": [
+        37.18,
+        43.06
+      ],
+      "text": " ordinary, and that's the verbiage I always use in the questions, they don't seem to apply to me"
+    },
+    {
+      "timestamp": [
+        43.06,
+        50.96
+      ],
+      "text": " because even this society now, it's hard because things weren't really designed for neurodivergence"
+    },
+    {
+      "timestamp": [
+        50.96,
+        60.98
+      ],
+      "text": " like myself. So the just enough when everything is minimal, just what you need seems to be the"
+    },
+    {
+      "timestamp": [
+        60.98,
+        68.52
+      ],
+      "text": " one that would be the most sustainable that you can live long term without being burnt out or"
+    },
+    {
+      "timestamp": [
+        68.52,
+        70.1
+      ],
+      "text": " cast out."
+    }
+  ]
+}

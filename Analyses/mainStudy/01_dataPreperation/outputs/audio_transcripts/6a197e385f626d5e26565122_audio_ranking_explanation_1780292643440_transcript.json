@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a197e385f626d5e26565122_audio_ranking_explanation_1780292643440.webm",
+  "transcript": " i reported the institutional utopia is the highest because it's the most flexible while being the most um rigid and uh applies to everyone uniformly which i think is fair and then the modern green utopia because it's sustainable helps the environment well then really have a rule of law it might not be required considering everyone's got everything they need And the futurist utopia can definitely overlook certain parts of society, with the AI-driven utopia being unreasonable and unfair and without proper checks and balances can go off the rails pretty quick. The religious utopia is just, sounds like a good way for power imbalances. You see it happen nowadays in churches even. the primitives utopia seems like it kind of backwards in nature we have everything we need so we're going to just stop developing doesn't seem right and the moral commonwealth just isn't wouldn't work people don't do the right just because they want to do right people some people like to do wrong",
+  "language": "unknown",
+  "processing_time_seconds": 15.494668,
+  "timestamp": "2026-06-08T11:11:46.878527",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.4
+      ],
+      "text": " i reported the institutional utopia is the highest because it's the most flexible while"
+    },
+    {
+      "timestamp": [
+        7.4,
+        15.06
+      ],
+      "text": " being the most um rigid and uh applies to everyone uniformly which i think is fair and then the modern"
+    },
+    {
+      "timestamp": [
+        15.06,
+        20.4
+      ],
+      "text": " green utopia because it's sustainable helps the environment well then really have a rule of law"
+    },
+    {
+      "timestamp": [
+        20.4,
+        23.84
+      ],
+      "text": " it might not be required considering everyone's got everything they need"
+    },
+    {
+      "timestamp": [
+        23.84,
+        40.04
+      ],
+      "text": " And the futurist utopia can definitely overlook certain parts of society, with the AI-driven utopia being unreasonable and unfair and without proper checks and balances can go off the rails pretty quick."
+    },
+    {
+      "timestamp": [
+        40.78,
+        46.08
+      ],
+      "text": " The religious utopia is just, sounds like a good way for power imbalances."
+    },
+    {
+      "timestamp": [
+        46.5,
+        48.92
+      ],
+      "text": " You see it happen nowadays in churches even."
+    },
+    {
+      "timestamp": [
+        48.92,
+        56.4
+      ],
+      "text": " the primitives utopia seems like it kind of backwards in nature we have everything we need"
+    },
+    {
+      "timestamp": [
+        56.4,
+        61.4
+      ],
+      "text": " so we're going to just stop developing doesn't seem right and the moral commonwealth just isn't"
+    },
+    {
+      "timestamp": [
+        61.4,
+        66.86
+      ],
+      "text": " wouldn't work people don't do the right just because they want to do right people"
+    },
+    {
+      "timestamp": [
+        66.86,
+        69.4
+      ],
+      "text": " some people like to do wrong"
+    }
+  ]
+}

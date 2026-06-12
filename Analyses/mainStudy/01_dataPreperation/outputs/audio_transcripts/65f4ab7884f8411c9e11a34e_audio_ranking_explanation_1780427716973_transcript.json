@@ -1,0 +1,122 @@
+{
+  "audio_file": "65f4ab7884f8411c9e11a34e_audio_ranking_explanation_1780427716973.webm",
+  "transcript": " I think given the choices, the most preferred would probably definitely be the moral commonwealth to where everyone in society is following moral guidelines. They're less dependent upon governments or laws or policies, and everyone sort of gives freely to support each other and follows a common moral path that is some sort of inherent moral basis. Uh, underneath that, I think having a, the modern green utopia, uh, being sustainable and secure, uh, would be the next best option, uh, because it's sort of self-contained, it's safe, um, no one really wants for anything, and it's good for the environment, and it's good for the people, and for the civilization. Underneath that, if you can't have all of those things, like a good environment and a good situation for the civilization or the people, you would then have to have some sort of law-based system to where laws are followed. And we're assuming that these laws are set up for the benefit of society and for the people. So in an ideal law situation, I'd say institutional utopia, underneath that, if you can't have a society with strict laws, the next most secure society would be a religious society because those are in a way belief-based laws. So that provides a structure. And as we're getting towards the lower end of the list, I think having some sort of futurist science and innovation utopia might not be ideal as there's always change in experimentation. This might be some sort of corporate sort of situation where different scientific groups or institutions or companies or businesses might be trying to advance to a certain point. And there might be some sort of conflict and change that this might be something that's less stable. Below that, I think having a primitivist utopia is a worse option for option number six. So low-tech and small-scale, the overarching government would have a higher sense of technology and control over smaller-scale groups or peoples that are within a low-tech scenario. So I think that might almost be sort of authoritarian, and it might hinder any type of development. And then I think at the very bottom, having an AI-centered utopia, data-driven governance, as we've seen today, we won't really have a good direction with some of these algorithms, and it might work contrary to the greater good of the individual or society or freedom or freedom of speech or human rights. So just having the AI have complete control over it might be a nightmare scenario for everybody involved, and it might work towards some end that's not beneficial to anyone, even the AI model itself.",
+  "language": "unknown",
+  "processing_time_seconds": 39.914576,
+  "timestamp": "2026-06-08T08:34:05.464299",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.1
+      ],
+      "text": " I think given the choices, the most preferred would probably definitely be the moral commonwealth to where everyone in society is following moral guidelines."
+    },
+    {
+      "timestamp": [
+        14.92,
+        29.1
+      ],
+      "text": " They're less dependent upon governments or laws or policies, and everyone sort of gives freely to support each other and follows a common moral path that is some sort of inherent moral basis."
+    },
+    {
+      "timestamp": [
+        30.0,
+        58.4
+      ],
+      "text": " Uh, underneath that, I think having a, the modern green utopia, uh, being sustainable and secure, uh, would be the next best option, uh, because it's sort of self-contained, it's safe, um, no one really wants for anything, and it's good for the environment, and it's good for the people, and for the civilization."
+    },
+    {
+      "timestamp": [
+        59.28,
+        58.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        75.24,
+        76.02
+      ],
+      "text": " Underneath that, if you can't have all of those things, like a good environment and a good situation for the civilization or the people, you would then have to have some sort of law-based system to where laws are followed."
+    },
+    {
+      "timestamp": [
+        80.72,
+        81.36
+      ],
+      "text": " And we're assuming that these laws are set up for the benefit of society and for the people."
+    },
+    {
+      "timestamp": [
+        80.72,
+        98.84
+      ],
+      "text": " So in an ideal law situation, I'd say institutional utopia, underneath that, if you can't have a society with strict laws, the next most secure society would be a religious society because those are in a way belief-based laws."
+    },
+    {
+      "timestamp": [
+        98.84,
+        116.12
+      ],
+      "text": " So that provides a structure. And as we're getting towards the lower end of the list, I think having some sort of futurist science and innovation utopia might not be ideal as there's always change in experimentation."
+    },
+    {
+      "timestamp": [
+        116.88,
+        116.98
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        128.72,
+        135.24
+      ],
+      "text": " This might be some sort of corporate sort of situation where different scientific groups or institutions or companies or businesses might be trying to advance to a certain point. And there might be some sort of conflict and change that this might be something that's less stable."
+    },
+    {
+      "timestamp": [
+        136.38,
+        146.08
+      ],
+      "text": " Below that, I think having a primitivist utopia is a worse option for option number six."
+    },
+    {
+      "timestamp": [
+        146.12,
+        160.18
+      ],
+      "text": " So low-tech and small-scale, the overarching government would have a higher sense of technology and control over smaller-scale groups or peoples that are within a low-tech scenario."
+    },
+    {
+      "timestamp": [
+        161.14,
+        168.84
+      ],
+      "text": " So I think that might almost be sort of authoritarian, and it might hinder any type of development."
+    },
+    {
+      "timestamp": [
+        169.08,
+        168.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        192.48,
+        193.76
+      ],
+      "text": " And then I think at the very bottom, having an AI-centered utopia, data-driven governance, as we've seen today, we won't really have a good direction with some of these algorithms, and it might work contrary to the greater good of the individual or society or freedom or freedom of speech or human rights."
+    },
+    {
+      "timestamp": [
+        192.48,
+        208.48
+      ],
+      "text": " So just having the AI have complete control over it might be a nightmare scenario for everybody involved, and it might work towards some end that's not beneficial to anyone, even the AI model itself."
+    }
+  ]
+}

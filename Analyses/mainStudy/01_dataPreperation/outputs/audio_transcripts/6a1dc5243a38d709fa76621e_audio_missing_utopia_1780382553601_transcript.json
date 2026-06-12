@@ -1,0 +1,108 @@
+{
+  "audio_file": "6a1dc5243a38d709fa76621e_audio_missing_utopia_1780382553601.webm",
+  "transcript": " I mean, I call it crazy. I like the society that we live in now. I like a democracy. I know that some people might argue that we don't live in a democracy, but we do. We can look at other countries and see very clearly the difference between how our government is run and their government is run. So I think that, um, uh, I mean, of course I wouldn't want exactly what we have right now. It's not perfect, you know, and it's a very politically divided country at the moment, but I, I like a government. I like people. I like, you know, a group of people representing a massive group of people. I don't think a society would work that's like, you know, a complete commune. I think there's too many different opinions and ideas. So a future society where we just, you know, figure out how to efficiently run a democratic, you know, society where voting is fair and people don't absolutely hate each other and not everything is completely polarized. If we could just start over and do it right.",
+  "language": "unknown",
+  "processing_time_seconds": 19.027026,
+  "timestamp": "2026-06-08T11:27:46.689756",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.58
+      ],
+      "text": " I mean, I call it crazy. I like the society that we live in now. I like a democracy."
+    },
+    {
+      "timestamp": [
+        8.58,
+        14.46
+      ],
+      "text": " I know that some people might argue that we don't live in a democracy, but we do. We can look at"
+    },
+    {
+      "timestamp": [
+        14.46,
+        21.08
+      ],
+      "text": " other countries and see very clearly the difference between how our government is run and their"
+    },
+    {
+      "timestamp": [
+        21.08,
+        30.44
+      ],
+      "text": " government is run. So I think that, um, uh, I mean, of course I wouldn't want exactly what we"
+    },
+    {
+      "timestamp": [
+        30.44,
+        36.66
+      ],
+      "text": " have right now. It's not perfect, you know, and it's a very politically divided country at the"
+    },
+    {
+      "timestamp": [
+        36.66,
+        45.04
+      ],
+      "text": " moment, but I, I like a government. I like people. I like, you know, a group of people"
+    },
+    {
+      "timestamp": [
+        45.04,
+        52.02
+      ],
+      "text": " representing a massive group of people. I don't think a society would work that's like, you know,"
+    },
+    {
+      "timestamp": [
+        52.08,
+        60.44
+      ],
+      "text": " a complete commune. I think there's too many different opinions and ideas. So a future society"
+    },
+    {
+      "timestamp": [
+        60.44,
+        70.68
+      ],
+      "text": " where we just, you know, figure out how to efficiently run a democratic, you know, society"
+    },
+    {
+      "timestamp": [
+        70.68,
+        73.72
+      ],
+      "text": " where voting is fair"
+    },
+    {
+      "timestamp": [
+        73.72,
+        76.04
+      ],
+      "text": " and people don't absolutely hate each other"
+    },
+    {
+      "timestamp": [
+        76.04,
+        78.14
+      ],
+      "text": " and not everything is completely polarized."
+    },
+    {
+      "timestamp": [
+        79.4,
+        81.18
+      ],
+      "text": " If we could just start over"
+    },
+    {
+      "timestamp": [
+        81.18,
+        83.28
+      ],
+      "text": " and do it right."
+    }
+  ]
+}

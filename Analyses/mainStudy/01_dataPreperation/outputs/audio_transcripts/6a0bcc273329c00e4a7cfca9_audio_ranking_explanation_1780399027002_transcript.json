@@ -1,0 +1,682 @@
+{
+  "audio_file": "6a0bcc273329c00e4a7cfca9_audio_ranking_explanation_1780399027002.webm",
+  "transcript": " I think the moral commonwealth is the easiest way to bridge the gap between the rule of law and the will of the people, and between the things that we want as people and the things that we can have. I think that we can embody a set of limited moral principles, core moral principles. I think doing that would be something that is within reach for all people. And I think this is something that can bring immense satisfaction to everyone. I also think that this sort of does away with a lot of the conflict between, like I said, the rule of law and the will of the people. which I think would make things a little bit more efficient in terms of law and crime and punishment. I think if everyone's just on the same page in terms of what they should do on a foundational level, we don't really need to waste time with complicated legal frameworks and sort of complicated, you know, methods of control and domination. We don't really need to waste time with that. So I think society would just become more efficient in that way if we were all kind of on the same page, if we're all trying to, in broad terms, achieve the same kinds of goals. But I put the religious utopia, faith-based order at the very bottom, um even though it's pretty similar it's kind of a similar sort of thing um but i think that in any kind of um moral commonwealth one of these um moral imperatives would have to be um fidelity to truth to reason to a commitment to the truth and reason that I think a religious utopia is sort of by definition at odds with oh no and let's see I think the modern green utopia is kind of a pretty good second place choice because I mean really I think that a modern green utopia is sort of a stepping stone on the way to my more perfect society the moral commonwealth which by the way is extremely idealistic utopian vision very unrealistic this moral commonwealth thing I don't think um there's any sort of mechanism right now by which we could achieve this kind of society um i think this is something that could take place uh pretty far into the future probably after i die um but um i just think we're we can we can definitely work towards that moral commonwealth And I think that one of the ways that we do that is by providing people with the means to live comfortably. I think that a lot of sort of moral or ethical sort of disagreements and differences that we have with each other have to do with the differences in our methods and means of achieving subsistence on a material level. I think that for a lot of people, the fact that they have to do certain unethical things to survive or to maintain their standard of living, I think poisons their ability for what I would consider true and proper moral reasoning. and so I think if you get rid of those barriers if you sort of make it easy for people to be real moral agents in the world if you sort of give them both the ability to sort of do what they like but also be able to have these kinds of broader social imperatives like this sort of this green impetus, this ecological sort of motivation. I think if you give them these kinds of frameworks, they can slowly zero in on what would be the core moral principles required for something like the moral commonwealth to spring into existence. That's just my opinion anyway. And, you know, there's other societies on this list, Primitivist Utopia. To me, that's kind of like a less perfect version of the modern green utopia. I don't feel like there's any reason why we wouldn't want to avoid technology or to avoid, you know, these systems of control that are sort of implicit in the green utopia for any other reason than that we haven't perfected them yet. and that we haven't like that there's something i just i just feel like this with the primitivist utopia it's sort of they've given up on something that um i don't think we should be counting out yet um i i don't know it just seems a little bit like the the primitivist utopia doesn't have any room for advancing to another stage of existence um it's either gonna get you know just gonna implode collapse upon itself or be overtaken by external forces that will uh blow it away um it seems like it's just built on sticks and sticks and mud and i don't i don't think that that's really a recipe for long-term success and the futurist utopia i mean you just can't trust these tech guys, unfortunately. You just can't trust them. I mean, innovation to me is not going to be the same thing as innovation to you. And certainly not going to be the same thing as what Elon Musk is thinking when he says innovation or what any of these hyper-rich, hyper-successful people are thinking. And I think that these kinds of principles need to be held in common um by the people if we're going to pursue them in some sort of society-wide initiative like this um it can't just be you know held in the hands of you know tech what is i think they use the term technologically enabled organizations um i just don't think that uh those organizations are going to necessarily have our best interests at heart um so yeah and then there was the institutional utopia and the ai senate utopia kind of similar to each other the reasons i i don't like i didn't really rank those very highly um i think the institutional utopia kind of depends upon the moral i don't know rectitude of of our like current understanding of the rule of law and of the world. I just don't think that we have it all figured out yet. I don't think that we have anything worth solidifying, setting in stone in the way that the institutional utopia would imply. And I think the AI centered utopia just clearly doesn't have our best interests at heart. It's a world governed by essentially aliens who don't understand, cannot empathize with human needs or desires. It's just fundamentally at odds with anything that we could possibly want, to me, by definition. So that's why I rank that pretty low. I think that AI is sort of maybe a sloppy reflection of the lowest common denominator. it's not really um something worth taking seriously in terms of a serious ethical agent um it's not it's not capable of those kinds of decisions just in my opinion so um that's why i ranked those the way that i did uh yeah",
+  "language": "unknown",
+  "processing_time_seconds": 104.563385,
+  "timestamp": "2026-06-08T10:40:22.711898",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.72
+      ],
+      "text": " I think the moral commonwealth is the easiest way to bridge the gap between the rule of law and the will of the people, and between the things that we want as people and the things that we can have."
+    },
+    {
+      "timestamp": [
+        17.72,
+        27.92
+      ],
+      "text": " I think that we can embody a set of limited moral principles, core moral principles."
+    },
+    {
+      "timestamp": [
+        28.56,
+        27.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        35.18,
+        36.32
+      ],
+      "text": " I think doing that would be something that is within reach for all people."
+    },
+    {
+      "timestamp": [
+        41.08,
+        42.3
+      ],
+      "text": " And I think this is something that can bring immense satisfaction to everyone."
+    },
+    {
+      "timestamp": [
+        56.36,
+        57.92
+      ],
+      "text": " I also think that this sort of does away with a lot of the conflict between, like I said, the rule of law and the will of the people."
+    },
+    {
+      "timestamp": [
+        64.58,
+        69.56
+      ],
+      "text": " which I think would make things a little bit more efficient in terms of law and crime and punishment."
+    },
+    {
+      "timestamp": [
+        70.04,
+        72.72
+      ],
+      "text": " I think if everyone's just on the same page"
+    },
+    {
+      "timestamp": [
+        72.72,
+        76.78
+      ],
+      "text": " in terms of what they should do on a foundational level,"
+    },
+    {
+      "timestamp": [
+        76.78,
+        84.2
+      ],
+      "text": " we don't really need to waste time with complicated legal frameworks"
+    },
+    {
+      "timestamp": [
+        84.2,
+        91.26
+      ],
+      "text": " and sort of complicated, you know, methods of control and domination."
+    },
+    {
+      "timestamp": [
+        91.44,
+        92.98
+      ],
+      "text": " We don't really need to waste time with that."
+    },
+    {
+      "timestamp": [
+        93.8,
+        97.96
+      ],
+      "text": " So I think society would just become more efficient in that way"
+    },
+    {
+      "timestamp": [
+        97.96,
+        99.82
+      ],
+      "text": " if we were all kind of on the same page,"
+    },
+    {
+      "timestamp": [
+        99.82,
+        104.64
+      ],
+      "text": " if we're all trying to, in broad terms, achieve the same kinds of goals."
+    },
+    {
+      "timestamp": [
+        107.32,
+        112.48
+      ],
+      "text": " But I put the religious utopia, faith-based order at the very bottom,"
+    },
+    {
+      "timestamp": [
+        113.2,
+        112.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        121.0,
+        134.48
+      ],
+      "text": " um even though it's pretty similar it's kind of a similar sort of thing um but i think that in any kind of um moral commonwealth one of these um moral imperatives would have to be um fidelity"
+    },
+    {
+      "timestamp": [
+        134.48,
+        136.96
+      ],
+      "text": " to"
+    },
+    {
+      "timestamp": [
+        136.96,
+        138.98
+      ],
+      "text": " truth"
+    },
+    {
+      "timestamp": [
+        138.98,
+        141.34
+      ],
+      "text": " to reason"
+    },
+    {
+      "timestamp": [
+        141.34,
+        143.46
+      ],
+      "text": " to a commitment"
+    },
+    {
+      "timestamp": [
+        143.46,
+        144.94
+      ],
+      "text": " to the truth"
+    },
+    {
+      "timestamp": [
+        144.94,
+        145.8
+      ],
+      "text": " and reason"
+    },
+    {
+      "timestamp": [
+        145.8,
+        148.96
+      ],
+      "text": " that I think a religious"
+    },
+    {
+      "timestamp": [
+        148.96,
+        151.02
+      ],
+      "text": " utopia is sort of"
+    },
+    {
+      "timestamp": [
+        151.02,
+        153.18
+      ],
+      "text": " by definition at odds with"
+    },
+    {
+      "timestamp": [
+        153.18,
+        155.64
+      ],
+      "text": " oh no"
+    },
+    {
+      "timestamp": [
+        155.64,
+        159.12
+      ],
+      "text": " and let's see"
+    },
+    {
+      "timestamp": [
+        159.12,
+        160.24
+      ],
+      "text": " I think"
+    },
+    {
+      "timestamp": [
+        160.24,
+        162.66
+      ],
+      "text": " the modern green utopia"
+    },
+    {
+      "timestamp": [
+        162.66,
+        164.62
+      ],
+      "text": " is kind of a pretty good"
+    },
+    {
+      "timestamp": [
+        164.62,
+        166.28
+      ],
+      "text": " second place choice"
+    },
+    {
+      "timestamp": [
+        166.28,
+        168.44
+      ],
+      "text": " because"
+    },
+    {
+      "timestamp": [
+        168.44,
+        172.36
+      ],
+      "text": " I mean really I think that"
+    },
+    {
+      "timestamp": [
+        172.36,
+        174.4
+      ],
+      "text": " a modern green utopia is sort of"
+    },
+    {
+      "timestamp": [
+        174.4,
+        176.5
+      ],
+      "text": " a stepping stone on the way"
+    },
+    {
+      "timestamp": [
+        176.5,
+        178.92
+      ],
+      "text": " to my more perfect society"
+    },
+    {
+      "timestamp": [
+        178.92,
+        180.12
+      ],
+      "text": " the moral commonwealth"
+    },
+    {
+      "timestamp": [
+        180.12,
+        184.24
+      ],
+      "text": " which by the way is"
+    },
+    {
+      "timestamp": [
+        184.24,
+        186.22
+      ],
+      "text": " extremely idealistic"
+    },
+    {
+      "timestamp": [
+        186.22,
+        188.52
+      ],
+      "text": " utopian vision"
+    },
+    {
+      "timestamp": [
+        188.52,
+        190.14
+      ],
+      "text": " very unrealistic"
+    },
+    {
+      "timestamp": [
+        190.14,
+        192.36
+      ],
+      "text": " this moral commonwealth thing I don't think"
+    },
+    {
+      "timestamp": [
+        192.36,
+        199.88
+      ],
+      "text": " um there's any sort of mechanism right now by which we could achieve this kind of society"
+    },
+    {
+      "timestamp": [
+        199.88,
+        207.92
+      ],
+      "text": " um i think this is something that could take place uh pretty far into the future probably after i die"
+    },
+    {
+      "timestamp": [
+        207.92,
+        217.04
+      ],
+      "text": " um but um i just think we're we can we can definitely work towards that moral commonwealth"
+    },
+    {
+      "timestamp": [
+        217.04,
+        224.76
+      ],
+      "text": " And I think that one of the ways that we do that is by providing people with the means to live comfortably."
+    },
+    {
+      "timestamp": [
+        224.76,
+        247.2
+      ],
+      "text": " I think that a lot of sort of moral or ethical sort of disagreements and differences that we have with each other have to do with the differences in our methods and means of achieving subsistence on a material level."
+    },
+    {
+      "timestamp": [
+        247.2,
+        271.34
+      ],
+      "text": " I think that for a lot of people, the fact that they have to do certain unethical things to survive or to maintain their standard of living, I think poisons their ability for what I would consider true and proper moral reasoning."
+    },
+    {
+      "timestamp": [
+        272.26,
+        271.34
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        275.34,
+        284.64
+      ],
+      "text": " and so I think if you get rid of those barriers if you sort of make it easy for people to be real moral agents in the world"
+    },
+    {
+      "timestamp": [
+        284.64,
+        292.8
+      ],
+      "text": " if you sort of give them both the ability to sort of do what they like"
+    },
+    {
+      "timestamp": [
+        292.8,
+        306.8
+      ],
+      "text": " but also be able to have these kinds of broader social imperatives"
+    },
+    {
+      "timestamp": [
+        307.8,
+        317.8
+      ],
+      "text": " like this sort of this green impetus, this ecological sort of motivation."
+    },
+    {
+      "timestamp": [
+        318.96,
+        317.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        336.1,
+        337.16
+      ],
+      "text": " I think if you give them these kinds of frameworks, they can slowly zero in on what would be the core moral principles required for something like the moral commonwealth to spring into existence."
+    },
+    {
+      "timestamp": [
+        339.38,
+        346.46
+      ],
+      "text": " That's just my opinion anyway. And, you know, there's other societies on this list, Primitivist Utopia."
+    },
+    {
+      "timestamp": [
+        347.8,
+        352.46
+      ],
+      "text": " To me, that's kind of like a less perfect version of the modern green utopia."
+    },
+    {
+      "timestamp": [
+        352.46,
+        371.0
+      ],
+      "text": " I don't feel like there's any reason why we wouldn't want to avoid technology or to avoid, you know, these systems of control that are sort of implicit in the green utopia for any other reason than that we haven't perfected them yet."
+    },
+    {
+      "timestamp": [
+        371.0,
+        375.86
+      ],
+      "text": " and that we haven't like that there's something i just i just feel like this with the primitivist"
+    },
+    {
+      "timestamp": [
+        375.86,
+        383.88
+      ],
+      "text": " utopia it's sort of they've given up on something that um i don't think we should be counting out"
+    },
+    {
+      "timestamp": [
+        383.88,
+        392.4
+      ],
+      "text": " yet um i i don't know it just seems a little bit like the the primitivist utopia doesn't have any"
+    },
+    {
+      "timestamp": [
+        392.4,
+        399.92
+      ],
+      "text": " room for advancing to another stage of existence um it's either gonna get you know just gonna"
+    },
+    {
+      "timestamp": [
+        399.92,
+        409.7
+      ],
+      "text": " implode collapse upon itself or be overtaken by external forces that will uh blow it away"
+    },
+    {
+      "timestamp": [
+        409.7,
+        416.26
+      ],
+      "text": " um it seems like it's just built on sticks and sticks and mud and i don't i don't think that"
+    },
+    {
+      "timestamp": [
+        416.26,
+        423.86
+      ],
+      "text": " that's really a recipe for long-term success and the futurist utopia i mean you just can't trust"
+    },
+    {
+      "timestamp": [
+        423.86,
+        428.08
+      ],
+      "text": " these tech guys, unfortunately."
+    },
+    {
+      "timestamp": [
+        428.78,
+        430.14
+      ],
+      "text": " You just can't trust them."
+    },
+    {
+      "timestamp": [
+        432.92,
+        434.72
+      ],
+      "text": " I mean, innovation to me"
+    },
+    {
+      "timestamp": [
+        434.72,
+        437.82
+      ],
+      "text": " is not going to be the same thing"
+    },
+    {
+      "timestamp": [
+        437.82,
+        439.04
+      ],
+      "text": " as innovation to you."
+    },
+    {
+      "timestamp": [
+        439.5,
+        441.2
+      ],
+      "text": " And certainly not going to be the same thing"
+    },
+    {
+      "timestamp": [
+        441.2,
+        443.24
+      ],
+      "text": " as what Elon Musk is thinking"
+    },
+    {
+      "timestamp": [
+        443.24,
+        444.64
+      ],
+      "text": " when he says innovation"
+    },
+    {
+      "timestamp": [
+        444.64,
+        447.76
+      ],
+      "text": " or what any of these hyper-rich,"
+    },
+    {
+      "timestamp": [
+        447.88,
+        450.12
+      ],
+      "text": " hyper-successful people are thinking."
+    },
+    {
+      "timestamp": [
+        450.86,
+        453.38
+      ],
+      "text": " And I think that these kinds of"
+    },
+    {
+      "timestamp": [
+        453.38,
+        459.68
+      ],
+      "text": " principles need to be held in common um by the people if we're going to pursue them in some sort"
+    },
+    {
+      "timestamp": [
+        459.68,
+        466.94
+      ],
+      "text": " of society-wide initiative like this um it can't just be you know held in the hands of you know"
+    },
+    {
+      "timestamp": [
+        466.94,
+        473.3
+      ],
+      "text": " tech what is i think they use the term technologically enabled organizations"
+    },
+    {
+      "timestamp": [
+        473.3,
+        479.46
+      ],
+      "text": " um i just don't think that uh those organizations are going to necessarily have our best interests"
+    },
+    {
+      "timestamp": [
+        479.46,
+        487.54
+      ],
+      "text": " at heart um so yeah and then there was the institutional utopia and the ai senate utopia"
+    },
+    {
+      "timestamp": [
+        487.54,
+        494.06
+      ],
+      "text": " kind of similar to each other the reasons i i don't like i didn't really rank those very highly"
+    },
+    {
+      "timestamp": [
+        494.06,
+        502.08
+      ],
+      "text": " um i think the institutional utopia kind of depends upon the moral i don't know rectitude of"
+    },
+    {
+      "timestamp": [
+        502.08,
+        513.06
+      ],
+      "text": " of our like current understanding of the rule of law and of the world. I just don't think"
+    },
+    {
+      "timestamp": [
+        513.06,
+        519.2
+      ],
+      "text": " that we have it all figured out yet. I don't think that we have anything worth solidifying,"
+    },
+    {
+      "timestamp": [
+        520.08,
+        525.24
+      ],
+      "text": " setting in stone in the way that the institutional utopia would imply."
+    },
+    {
+      "timestamp": [
+        525.24,
+        530.8
+      ],
+      "text": " And I think the AI centered utopia just clearly doesn't have our best interests at heart."
+    },
+    {
+      "timestamp": [
+        532.08,
+        540.68
+      ],
+      "text": " It's a world governed by essentially aliens who don't understand, cannot empathize with human needs or desires."
+    },
+    {
+      "timestamp": [
+        541.78,
+        548.44
+      ],
+      "text": " It's just fundamentally at odds with anything that we could possibly want, to me, by definition."
+    },
+    {
+      "timestamp": [
+        548.66,
+        550.48
+      ],
+      "text": " So that's why I rank that pretty low."
+    },
+    {
+      "timestamp": [
+        550.48,
+        559.08
+      ],
+      "text": " I think that AI is sort of maybe a sloppy reflection of the lowest common denominator."
+    },
+    {
+      "timestamp": [
+        560.16,
+        559.08
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        568.88,
+        575.7
+      ],
+      "text": " it's not really um something worth taking seriously in terms of a serious ethical agent um it's not it's not capable of those kinds of decisions just in my opinion so"
+    },
+    {
+      "timestamp": [
+        575.7,
+        581.84
+      ],
+      "text": " um that's why i ranked those the way that i did uh yeah"
+    }
+  ]
+}

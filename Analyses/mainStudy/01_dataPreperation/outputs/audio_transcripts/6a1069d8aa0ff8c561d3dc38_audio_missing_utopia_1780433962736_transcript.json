@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1069d8aa0ff8c561d3dc38_audio_missing_utopia_1780433962736.webm",
+  "transcript": " I think all significant ones were represented. I think maybe one that's missing is in place of AI, some sort of like alien or other creature rolled in that scenario or another class or different group, but yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 5.863987,
+  "timestamp": "2026-06-08T10:53:04.994670",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        1.0,
+        4.16
+      ],
+      "text": " I think all significant ones were represented."
+    },
+    {
+      "timestamp": [
+        4.16,
+        8.36
+      ],
+      "text": " I think maybe one that's missing is in place of AI,"
+    },
+    {
+      "timestamp": [
+        8.36,
+        12.4
+      ],
+      "text": " some sort of like alien or other creature"
+    },
+    {
+      "timestamp": [
+        14.42,
+        16.5
+      ],
+      "text": " rolled in that scenario or another class"
+    },
+    {
+      "timestamp": [
+        16.5,
+        18.84
+      ],
+      "text": " or different group, but yeah."
+    }
+  ]
+}

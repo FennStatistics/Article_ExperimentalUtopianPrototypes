@@ -1,0 +1,17 @@
+{
+  "audio_file": "698ef6b9ab29d51d9ec4928a_audio_missing_utopia_1780274092954.webm",
+  "transcript": " I feel like all important values were already represented.",
+  "language": "unknown",
+  "processing_time_seconds": 4.564682,
+  "timestamp": "2026-06-08T09:04:12.942118",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.74
+      ],
+      "text": " I feel like all important values were already represented."
+    }
+  ]
+}

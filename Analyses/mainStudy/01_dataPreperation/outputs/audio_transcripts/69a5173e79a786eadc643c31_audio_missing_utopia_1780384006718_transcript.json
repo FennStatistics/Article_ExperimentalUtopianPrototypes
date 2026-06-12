@@ -1,0 +1,66 @@
+{
+  "audio_file": "69a5173e79a786eadc643c31_audio_missing_utopia_1780384006718.webm",
+  "transcript": " I think the mix of the top three, I think there could be a future, green, sustainable economy. I think if there was a path for water to be accessible to everybody within cities and parks and gardens and sustainable food that they didn't have to worry about prices for, they could just get it sustainably all the time, and this could be driven through innovation from science and a green practice. All three of those things could be connected together. I don't think it needs to be ran by a religious institution, an AI made by any company or multiple companies, or the rule of law, unless, of course, it gets down to the bottom of the barrel, in which case sometimes that can be necessary. But ultimately, if that happened, you could start again with sustainability in science and a focus on green culture. I wouldn't say purposely do that, but if we could transition to that with intent, now it would be amazing for the future.",
+  "language": "unknown",
+  "processing_time_seconds": 15.251147,
+  "timestamp": "2026-06-08T09:10:52.331050",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.86
+      ],
+      "text": " I think the mix of the top three, I think there could be a future, green, sustainable economy."
+    },
+    {
+      "timestamp": [
+        10.28,
+        21.8
+      ],
+      "text": " I think if there was a path for water to be accessible to everybody within cities and parks and gardens and sustainable food that they didn't have to worry about prices for,"
+    },
+    {
+      "timestamp": [
+        21.8,
+        28.2
+      ],
+      "text": " they could just get it sustainably all the time, and this could be driven through innovation from science and a green practice."
+    },
+    {
+      "timestamp": [
+        28.98,
+        28.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.48,
+        32.06
+      ],
+      "text": " All three of those things could be connected together."
+    },
+    {
+      "timestamp": [
+        46.94,
+        55.24
+      ],
+      "text": " I don't think it needs to be ran by a religious institution, an AI made by any company or multiple companies, or the rule of law, unless, of course, it gets down to the bottom of the barrel, in which case sometimes that can be necessary. But ultimately, if that happened, you could start again with sustainability in science and a focus on green culture."
+    },
+    {
+      "timestamp": [
+        56.14,
+        55.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        67.54,
+        null
+      ],
+      "text": " I wouldn't say purposely do that, but if we could transition to that with intent, now it would be amazing for the future."
+    }
+  ]
+}

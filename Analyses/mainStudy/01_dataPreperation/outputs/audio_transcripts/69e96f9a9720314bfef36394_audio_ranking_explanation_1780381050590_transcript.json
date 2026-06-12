@@ -1,0 +1,66 @@
+{
+  "audio_file": "69e96f9a9720314bfef36394_audio_ranking_explanation_1780381050590.webm",
+  "transcript": " um i clicked the green utopia as my favorite because it's sustainable and i care about the environment and i'm scared of like global warming and that sort of thing so that's why that's my favorite my least favorite is the religious utopia because i mean everyone has like a different religion or had different beliefs so that's kind of hard to put together in one society and i put ai centered as my six because that just freaks me out i don't like the idea of that um for the second one i put science and innovation because i kind of feel like that relates to the green one utopia um for the other for three to five i kind of just it was kind of random but my first two and my last two were significant",
+  "language": "unknown",
+  "processing_time_seconds": 13.941634,
+  "timestamp": "2026-06-08T09:44:26.893117",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.16
+      ],
+      "text": " um i clicked the green utopia as my favorite because it's sustainable and i care about the"
+    },
+    {
+      "timestamp": [
+        7.16,
+        14.04
+      ],
+      "text": " environment and i'm scared of like global warming and that sort of thing so that's why that's my"
+    },
+    {
+      "timestamp": [
+        14.04,
+        20.28
+      ],
+      "text": " favorite my least favorite is the religious utopia because i mean everyone has like a different"
+    },
+    {
+      "timestamp": [
+        20.28,
+        24.24
+      ],
+      "text": " religion or had different beliefs so that's kind of hard to put together in one society"
+    },
+    {
+      "timestamp": [
+        24.24,
+        31.7
+      ],
+      "text": " and i put ai centered as my six because that just freaks me out i don't like the idea of that"
+    },
+    {
+      "timestamp": [
+        31.7,
+        38.36
+      ],
+      "text": " um for the second one i put science and innovation because i kind of feel like that"
+    },
+    {
+      "timestamp": [
+        38.36,
+        47.56
+      ],
+      "text": " relates to the green one utopia um for the other for three to five i kind of just"
+    },
+    {
+      "timestamp": [
+        47.56,
+        55.38
+      ],
+      "text": " it was kind of random but my first two and my last two were significant"
+    }
+  ]
+}

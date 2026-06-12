@@ -1,0 +1,24 @@
+{
+  "audio_file": "69ed51c1fdcc2febba6a8024_audio_missing_utopia_1780418495116.webm",
+  "transcript": " A modern green utopia with slight religious influences would be very wonderful. I just don't want a full religious takeover because then there's no room for anything else usually.",
+  "language": "unknown",
+  "processing_time_seconds": 5.421632,
+  "timestamp": "2026-06-08T09:47:31.298665",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.44
+      ],
+      "text": " A modern green utopia with slight religious influences would be very wonderful."
+    },
+    {
+      "timestamp": [
+        9.44,
+        20.28
+      ],
+      "text": " I just don't want a full religious takeover because then there's no room for anything else usually."
+    }
+  ]
+}

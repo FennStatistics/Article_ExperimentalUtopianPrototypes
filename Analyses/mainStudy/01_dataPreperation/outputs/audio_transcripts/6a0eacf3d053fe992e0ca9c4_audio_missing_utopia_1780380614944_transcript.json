@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a0eacf3d053fe992e0ca9c4_audio_missing_utopia_1780380614944.webm",
+  "transcript": " I think one of the biggest absence of it is not necessarily expanded on on all aspects of it, but allowing society to evolve based on collective thought. So, you know, in the sense of that there is a rule of law, there is a governing body that allows for the transfer of of changes into a different society. Because there might be an instance where maybe we might live a science and objective-driven society just because it doesn't match the human nature and human DNA at that point. We might evolve into a new species wherein our morals and value judgment systems that our brain creates might not necessarily determine the same exact line of thinking that we initially had. right there's this idea in sociology that there are cultures that are considered collectivist or individualist in nature but if you look into biology and into other animal kingdoms wherein collectivism becomes a lot more apparent um for example in ants or in other species it's it's you're wondering to yourself if we were allowed to thrive and evolve and and create these new ideas does the systems we create allow for the change of of governance right is this something that's static and i think that's something that is missing in order to ensure that we might have a utopia in the future whatever that means",
+  "language": "unknown",
+  "processing_time_seconds": 22.031934,
+  "timestamp": "2026-06-08T10:48:53.105192",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.7
+      ],
+      "text": " I think one of the biggest absence of it is not necessarily expanded on on all aspects of it, but allowing society to evolve based on collective thought."
+    },
+    {
+      "timestamp": [
+        15.7,
+        25.74
+      ],
+      "text": " So, you know, in the sense of that there is a rule of law, there is a governing body that allows for the transfer of of changes into a different society."
+    },
+    {
+      "timestamp": [
+        25.74,
+        36.54
+      ],
+      "text": " Because there might be an instance where maybe we might live a science and objective-driven society just because it doesn't match the human nature and human DNA at that point."
+    },
+    {
+      "timestamp": [
+        36.66,
+        50.64
+      ],
+      "text": " We might evolve into a new species wherein our morals and value judgment systems that our brain creates might not necessarily determine the same exact line of thinking that we initially had."
+    },
+    {
+      "timestamp": [
+        51.28,
+        50.64
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        57.28,
+        66.4
+      ],
+      "text": " right there's this idea in sociology that there are cultures that are considered collectivist or individualist in nature but if you look into biology and into other animal kingdoms wherein"
+    },
+    {
+      "timestamp": [
+        66.4,
+        75.04
+      ],
+      "text": " collectivism becomes a lot more apparent um for example in ants or in other species it's it's"
+    },
+    {
+      "timestamp": [
+        75.04,
+        81.84
+      ],
+      "text": " you're wondering to yourself if we were allowed to thrive and evolve and and create these new ideas"
+    },
+    {
+      "timestamp": [
+        81.84,
+        88.4
+      ],
+      "text": " does the systems we create allow for the change of of governance right is this something that's"
+    },
+    {
+      "timestamp": [
+        88.4,
+        93.92
+      ],
+      "text": " static and i think that's something that is missing in order to ensure that we might have"
+    },
+    {
+      "timestamp": [
+        93.92,
+        98.56
+      ],
+      "text": " a utopia in the future whatever that means"
+    }
+  ]
+}

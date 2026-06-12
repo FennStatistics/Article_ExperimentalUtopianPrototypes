@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a16fa4524731436353d8f60_audio_missing_utopia_1780378815146.webm",
+  "transcript": " I don't think there were necessarily any missing features in any of those societies. I think what would matter most to me would be sort of a combination between the modern green utopia and the inner morality, where you're still sort of having that balance between innovation and the environment, but also prioritizing people's inner morality and their intrinsic motivation to do these things.",
+  "language": "unknown",
+  "processing_time_seconds": 6.934217,
+  "timestamp": "2026-06-08T11:09:01.596440",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.08
+      ],
+      "text": " I don't think there were necessarily any missing features in any of those societies."
+    },
+    {
+      "timestamp": [
+        6.08,
+        12.62
+      ],
+      "text": " I think what would matter most to me would be sort of a combination between the modern"
+    },
+    {
+      "timestamp": [
+        12.62,
+        18.78
+      ],
+      "text": " green utopia and the inner morality, where you're still sort of having that balance between"
+    },
+    {
+      "timestamp": [
+        18.78,
+        26.5
+      ],
+      "text": " innovation and the environment, but also prioritizing people's inner morality and their intrinsic"
+    },
+    {
+      "timestamp": [
+        26.5,
+        28.86
+      ],
+      "text": " motivation to do these things."
+    }
+  ]
+}

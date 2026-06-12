@@ -1,0 +1,31 @@
+{
+  "audio_file": "69fdda7b1de3674cc53ee356_audio_missing_utopia_1780395717574.webm",
+  "transcript": " I think what was missing is a society that melds personal freedom, individual material well-being, so ensuring a safety net for everyone, and technological progress. So I think a society that had all three of those attributes would be a true utopia, in my view. And none of the scenarios encompassed all three of those traits.",
+  "language": "unknown",
+  "processing_time_seconds": 8.774916,
+  "timestamp": "2026-06-08T10:11:16.474959",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.18
+      ],
+      "text": " I think what was missing is a society that melds personal freedom, individual material well-being, so ensuring a safety net for everyone, and technological progress."
+    },
+    {
+      "timestamp": [
+        22.18,
+        29.72
+      ],
+      "text": " So I think a society that had all three of those attributes would be a true utopia, in my view."
+    },
+    {
+      "timestamp": [
+        30.0,
+        35.44
+      ],
+      "text": " And none of the scenarios encompassed all three of those traits."
+    }
+  ]
+}

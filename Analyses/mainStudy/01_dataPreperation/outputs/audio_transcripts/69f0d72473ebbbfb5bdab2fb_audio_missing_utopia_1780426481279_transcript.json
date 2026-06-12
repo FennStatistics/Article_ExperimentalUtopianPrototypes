@@ -1,0 +1,17 @@
+{
+  "audio_file": "69f0d72473ebbbfb5bdab2fb_audio_missing_utopia_1780426481279.webm",
+  "transcript": " I do not think anything was missing.",
+  "language": "unknown",
+  "processing_time_seconds": 4.452799,
+  "timestamp": "2026-06-08T09:52:33.671162",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.36
+      ],
+      "text": " I do not think anything was missing."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "69bb8162456b2987e106973e_audio_ranking_explanation_1780424898446.webm",
+  "transcript": " Well, if you've been bottom four, I pretty much society is focused on money.",
+  "language": "unknown",
+  "processing_time_seconds": 4.827492,
+  "timestamp": "2026-06-08T09:18:13.829855",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.6
+      ],
+      "text": " Well, if you've been bottom four, I pretty much society is focused on money."
+    }
+  ]
+}

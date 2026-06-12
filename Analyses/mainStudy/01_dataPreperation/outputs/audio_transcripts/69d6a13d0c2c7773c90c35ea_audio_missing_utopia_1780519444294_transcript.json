@@ -1,0 +1,38 @@
+{
+  "audio_file": "69d6a13d0c2c7773c90c35ea_audio_missing_utopia_1780519444294.webm",
+  "transcript": " I believe that most of the future societies were described in there. I don't think it was really lacking any. I think it covered most of the main points of future utopia societies. And I think it got most of them pretty spot on.",
+  "language": "unknown",
+  "processing_time_seconds": 5.992792,
+  "timestamp": "2026-06-08T09:33:02.146384",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.48
+      ],
+      "text": " I believe that most of the future societies were described in there."
+    },
+    {
+      "timestamp": [
+        5.22,
+        7.8
+      ],
+      "text": " I don't think it was really lacking any."
+    },
+    {
+      "timestamp": [
+        7.88,
+        11.34
+      ],
+      "text": " I think it covered most of the main points of future utopia societies."
+    },
+    {
+      "timestamp": [
+        12.46,
+        15.78
+      ],
+      "text": " And I think it got most of them pretty spot on."
+    }
+  ]
+}

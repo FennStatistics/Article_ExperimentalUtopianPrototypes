@@ -1,0 +1,101 @@
+{
+  "audio_file": "69fba31786a9f62439a74897_audio_ranking_explanation_1780380244431.webm",
+  "transcript": " Um, well, I ranked them this way because the low tech and small scale seemed, from what I remember, like it, um, it tried to allocate resources appropriately but didn't just rely on the good of people. i i didn't love the intermorality one which is why it's at four because you need some sort of governing system between people and community in order to like make that work you can't just rely on people being good people because people need parameters i put sustainability and secure on Second, I like this sustainability piece, and I like that more than even the innovation in science, which was okay, but didn't seem as good as the first two. AI-driven one is at five because AI is not unbiased. AI is inherently biased. It's from our human biases, so that's not utopian at all. rule of law is um way too strict and I feel like that's how you get to like series like the divergent series where um there's no sort of flexibility at that at all and then I think the worst of all of them would be the faith-based one because that would be shaming people based on some religious upbringing and we're supposed to all have the same religion and a belief system and that just doesn't seem like that would work.",
+  "language": "unknown",
+  "processing_time_seconds": 22.342213,
+  "timestamp": "2026-06-08T10:08:50.662219",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.26
+      ],
+      "text": " Um, well, I ranked them this way because the low tech and small scale seemed, from what I remember, like it, um, it tried to allocate resources appropriately but didn't just rely on the good of people."
+    },
+    {
+      "timestamp": [
+        18.26,
+        26.4
+      ],
+      "text": " i i didn't love the intermorality one which is why it's at four because you need some sort of"
+    },
+    {
+      "timestamp": [
+        26.4,
+        35.34
+      ],
+      "text": " governing system between people and community in order to like make that work you can't just rely"
+    },
+    {
+      "timestamp": [
+        35.34,
+        42.36
+      ],
+      "text": " on people being good people because people need parameters i put sustainability and secure on"
+    },
+    {
+      "timestamp": [
+        42.36,
+        54.16
+      ],
+      "text": " Second, I like this sustainability piece, and I like that more than even the innovation in science, which was okay, but didn't seem as good as the first two."
+    },
+    {
+      "timestamp": [
+        54.92,
+        59.22
+      ],
+      "text": " AI-driven one is at five because AI is not unbiased."
+    },
+    {
+      "timestamp": [
+        59.34,
+        60.84
+      ],
+      "text": " AI is inherently biased."
+    },
+    {
+      "timestamp": [
+        61.02,
+        66.22
+      ],
+      "text": " It's from our human biases, so that's not utopian at all."
+    },
+    {
+      "timestamp": [
+        66.38,
+        66.22
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        73.58,
+        81.94
+      ],
+      "text": " rule of law is um way too strict and I feel like that's how you get to like series like the divergent series where um there's no sort of flexibility at that at all and then I think the"
+    },
+    {
+      "timestamp": [
+        81.94,
+        87.5
+      ],
+      "text": " worst of all of them would be the faith-based one because that would be shaming people based on"
+    },
+    {
+      "timestamp": [
+        87.5,
+        94.18
+      ],
+      "text": " some religious upbringing and we're supposed to all have the same religion and a belief system"
+    },
+    {
+      "timestamp": [
+        94.18,
+        97.36
+      ],
+      "text": " and that just doesn't seem like that would work."
+    }
+  ]
+}

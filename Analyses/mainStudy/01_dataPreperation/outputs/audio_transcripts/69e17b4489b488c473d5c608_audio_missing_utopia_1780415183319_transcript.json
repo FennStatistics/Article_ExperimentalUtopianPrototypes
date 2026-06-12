@@ -1,0 +1,136 @@
+{
+  "audio_file": "69e17b4489b488c473d5c608_audio_missing_utopia_1780415183319.webm",
+  "transcript": " missing society is a combo of a couple of them let's say it would probably be like a combination between the primitive society and the green one because like i don't know i think there should be some laws reduced there like such as building codes um for example if you wanted to build your own cob house you have to find land that doesn't have building codes and i think that's really silly um or it should be included and that there's a lot of laws that need uh adjusting in my opinion and we should be it should be more legal to build a plastic house versus a dirt house you know what i mean so a society where building laws are much different more green more working with the land and uh supporting the land that way but like the the parts of society that do have to exist are more green but like again this has to be a hundred years from now because there's a lot of things that we just uh can't do right now like we're really really dependent on gasoline and that's terrible oil is terrible for the earth but like that's if you really if you've really studied studied into environmental science like windmills are bad and there's a lot of stuff that's just like it always has a negative to it for the most part aside from like electric dance we need to bring those back but i guess yeah i don't know it's hard to describe the perfect society future society so in short it would just be a mixture of uh the green society and the primitive with uh i'm not necessarily anti-tech so that's the problem but i am more pro mechanics of stuff like i would rather have a mechanical watch versus a digital watch if you know what i mean",
+  "language": "unknown",
+  "processing_time_seconds": 24.975886,
+  "timestamp": "2026-06-08T09:36:53.808481",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        5.6
+      ],
+      "text": " missing society is a combo of a couple of them let's say it would probably be"
+    },
+    {
+      "timestamp": [
+        6.16,
+        13.84
+      ],
+      "text": " like a combination between the primitive society and the green one because"
+    },
+    {
+      "timestamp": [
+        15.2,
+        21.6
+      ],
+      "text": " like i don't know i think there should be some laws reduced there like such as building codes"
+    },
+    {
+      "timestamp": [
+        21.6,
+        28.24
+      ],
+      "text": " um for example if you wanted to build your own cob house you have to find land that doesn't"
+    },
+    {
+      "timestamp": [
+        28.24,
+        37.44
+      ],
+      "text": " have building codes and i think that's really silly um or it should be included and that there's"
+    },
+    {
+      "timestamp": [
+        37.44,
+        43.6
+      ],
+      "text": " a lot of laws that need uh adjusting in my opinion and we should be it should be more legal to build"
+    },
+    {
+      "timestamp": [
+        43.6,
+        50.96
+      ],
+      "text": " a plastic house versus a dirt house you know what i mean so a society where building laws are much"
+    },
+    {
+      "timestamp": [
+        50.96,
+        57.68
+      ],
+      "text": " different more green more working with the land and uh supporting the land that way but like the"
+    },
+    {
+      "timestamp": [
+        57.68,
+        65.74
+      ],
+      "text": " the parts of society that do have to exist are more green but like again this has to be a hundred"
+    },
+    {
+      "timestamp": [
+        65.74,
+        74.38
+      ],
+      "text": " years from now because there's a lot of things that we just uh can't do right now like we're"
+    },
+    {
+      "timestamp": [
+        74.38,
+        79.78
+      ],
+      "text": " really really dependent on gasoline and that's terrible oil is terrible for the earth but like"
+    },
+    {
+      "timestamp": [
+        79.78,
+        86.06
+      ],
+      "text": " that's if you really if you've really studied studied into environmental science like"
+    },
+    {
+      "timestamp": [
+        86.06,
+        94.3
+      ],
+      "text": " windmills are bad and there's a lot of stuff that's just like it always has a negative to it"
+    },
+    {
+      "timestamp": [
+        94.3,
+        101.54
+      ],
+      "text": " for the most part aside from like electric dance we need to bring those back but i guess yeah i"
+    },
+    {
+      "timestamp": [
+        101.54,
+        106.86
+      ],
+      "text": " don't know it's hard to describe the perfect society future society so in short it would"
+    },
+    {
+      "timestamp": [
+        106.86,
+        115.46
+      ],
+      "text": " just be a mixture of uh the green society and the primitive with uh i'm not necessarily anti-tech"
+    },
+    {
+      "timestamp": [
+        115.46,
+        122.58
+      ],
+      "text": " so that's the problem but i am more pro mechanics of stuff like i would rather"
+    },
+    {
+      "timestamp": [
+        122.58,
+        127.7
+      ],
+      "text": " have a mechanical watch versus a digital watch if you know what i mean"
+    }
+  ]
+}

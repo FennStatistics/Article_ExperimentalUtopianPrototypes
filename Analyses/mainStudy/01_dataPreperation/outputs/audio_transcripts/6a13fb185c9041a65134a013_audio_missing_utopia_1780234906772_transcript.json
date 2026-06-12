@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a13fb185c9041a65134a013_audio_missing_utopia_1780234906772.webm",
+  "transcript": " After going over all of those, it's kind of hard for me to kind of come up with one right now that isn't included, and all those values that are important, I feel like have already been represented.",
+  "language": "unknown",
+  "processing_time_seconds": 5.839972,
+  "timestamp": "2026-06-08T10:57:09.705646",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.32
+      ],
+      "text": " After going over all of those, it's kind of hard for me to kind of come up with one right"
+    },
+    {
+      "timestamp": [
+        8.32,
+        13.5
+      ],
+      "text": " now that isn't included, and all those values that are important, I feel like have already"
+    },
+    {
+      "timestamp": [
+        13.5,
+        14.56
+      ],
+      "text": " been represented."
+    }
+  ]
+}

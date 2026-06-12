@@ -1,0 +1,17 @@
+{
+  "audio_file": "655f9bb3070d42d4bc67e866_audio_ranking_explanation_1780389614496.webm",
+  "transcript": " The reason why I chose the Monogreen Utopia because it's more sustainable, the least ranking of AI is because it takes up too much resources.",
+  "language": "unknown",
+  "processing_time_seconds": 5.245309,
+  "timestamp": "2026-06-08T08:32:34.399135",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.82
+      ],
+      "text": " The reason why I chose the Monogreen Utopia because it's more sustainable, the least ranking of AI is because it takes up too much resources."
+    }
+  ]
+}

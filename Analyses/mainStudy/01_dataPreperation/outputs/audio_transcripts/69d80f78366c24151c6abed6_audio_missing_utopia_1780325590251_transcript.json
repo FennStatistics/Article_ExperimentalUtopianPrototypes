@@ -1,0 +1,52 @@
+{
+  "audio_file": "69d80f78366c24151c6abed6_audio_missing_utopia_1780325590251.webm",
+  "transcript": " um i think all characteristics of a future society were relatively hit on each one um i think a future society that would be missing is kind of an amalgamation of everything there like not one or the other um i like the sound of a very futuristic you know science and innovation kind of society, but also still heavily reliant on, you know, our own morality. And there's a line that could be crossed with going too scientific. It kind of needs a religious backbone to keep, you know, humanity grounded. So the missing one would kind of be a mix of them.",
+  "language": "unknown",
+  "processing_time_seconds": 10.462135,
+  "timestamp": "2026-06-08T09:34:25.990785",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.74
+      ],
+      "text": " um i think all characteristics of a future society were relatively hit on each one"
+    },
+    {
+      "timestamp": [
+        10.74,
+        16.9
+      ],
+      "text": " um i think a future society that would be missing is kind of an amalgamation of everything there"
+    },
+    {
+      "timestamp": [
+        16.9,
+        24.16
+      ],
+      "text": " like not one or the other um i like the sound of a very futuristic you know science and innovation"
+    },
+    {
+      "timestamp": [
+        24.16,
+        30.4
+      ],
+      "text": " kind of society, but also still heavily reliant on, you know, our own morality. And"
+    },
+    {
+      "timestamp": [
+        30.4,
+        37.36
+      ],
+      "text": " there's a line that could be crossed with going too scientific. It kind of needs a religious"
+    },
+    {
+      "timestamp": [
+        37.36,
+        46.3
+      ],
+      "text": " backbone to keep, you know, humanity grounded. So the missing one would kind of be a mix of them."
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "audio_file": "6a1e601b20d193f9a706e875_audio_ranking_explanation_1780387061783.webm",
+  "transcript": " So, I will say that it's hard to tell the difference, it's hard to remember the difference between the modern green utopia and the primitivist utopia. um from what I remember I believe that the primitivist utopia I believe I remember that that one had more of a modern I mean not the primitivist the modern green utopia um I believe from what I remember it was the closest to kind of the way that we have society now if it became just more respectful to climate change and was more conscious, environmentally conscious. I think that from what I like about those two, at least from what I remember about them, I like that it shifts to a green approach and more environmentally conscious and basically allows for people to have still kind of the sense of a modern society without shifting to any extreme. For the futurist utopia with science and innovation, I honestly, I wish I could still pull it up and see what that one is. I feel like, I like that it is still, I do like the science and innovation. I think that that's great. That would be beneficial, but there was something about that one that I didn't really like and I don't remember. I wish that I could pull this up on here. Maybe, hopefully, next time the survey can let us click and make a full-size view of them to compare again. But specifically, the order that I started changing these based off of is I feel like when we shift too much into one extreme, then it becomes problematic. And that goes for any type of definition. If we shift too much to all scientific stuff and we prioritize that without any other needs and we care just too much about how fancy things are, then we deplete our resources. And so even too much science-based things would be bad. But then if we have too much of a religious based thing, then people don't have religious freedom. If anyone wants to be a different type of faith, then they don't have that right in that world. And I think that that ultimately is the worst, the religious utopia. I just think that there should be no religion that everyone has to be forced to be under. That's just authoritarianism. I don't think that it's right. I believe that people should have freedom. I think there should be rules as well. And I like that um i just think there should be a balance with the number six i think that ai is horrible for the environment and it's just not really possible for that to be sustainable with how much it costs our resources and the thought of something that's using up all of our resources just to run being in charge of the resources makes no logical sense because it will automatically deplete our resources for itself out of selfishness and even now we've already seen in the short time of AI already being released that it will ultimately choose to be selfish and to make its own decisions even when ruled under people's um like even with people's settings and their rules that they have it and the way that they've programmed it even though human beings put specific rules. The AI chooses to break it. It can't be trusted. And the thought of anything, whether it be an imaginary god or an artificial intelligence, nothing that has to be on this earth and suffer with us should be dictating what rules that we have to live by and live under. It should be people that do it. But there should be a balance. There should be people of different religions, people of different backgrounds, different cultures. There should be people with different opinions that help to bring balance with each other, which is why I like, I like the idea of, of course, having some things implemented. We do need religious freedom. I do like having technology. I think that it's just not ideal to have like a full strict, like too much technology and i don't think that it's good to have too much of rules either because there needs to be a little bit of freedom allowed i do think that with the strict rule of law with the institutional utopia the issue with that one is that it doesn't allow for context and if there's just these strict rules and it's implying that there's no type of understanding of certain situations and some things are just not black and white some things are more complicated For example, if you make a law saying that you can't cause violence, then if someone, let's say that you have children and your children get hurt by a man on accident, or let's say that a man hurts your children and you self-defend yourself, then you shouldn't be in trouble for defending your children when they can't defend themselves. and so yeah i think that's the best way i could describe it but i don't think that there should be too much strict rules placed under just i think there needs to be certain context applied and",
+  "language": "unknown",
+  "processing_time_seconds": 68.539855,
+  "timestamp": "2026-06-08T11:36:45.302295",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.68
+      ],
+      "text": " So, I will say that it's hard to tell the difference, it's hard to remember the difference between the modern green utopia and the primitivist utopia."
+    },
+    {
+      "timestamp": [
+        14.68,
+        25.02
+      ],
+      "text": " um from what I remember I believe that the primitivist utopia I believe I remember that"
+    },
+    {
+      "timestamp": [
+        25.02,
+        35.34
+      ],
+      "text": " that one had more of a modern I mean not the primitivist the modern green utopia um I believe"
+    },
+    {
+      "timestamp": [
+        35.34,
+        41.34
+      ],
+      "text": " from what I remember it was the closest to kind of the way that we have society now if it became"
+    },
+    {
+      "timestamp": [
+        41.34,
+        49.36
+      ],
+      "text": " just more respectful to climate change and was more conscious, environmentally conscious."
+    },
+    {
+      "timestamp": [
+        51.32,
+        59.18
+      ],
+      "text": " I think that from what I like about those two, at least from what I remember about them,"
+    },
+    {
+      "timestamp": [
+        59.18,
+        67.28
+      ],
+      "text": " I like that it shifts to a green approach and more environmentally conscious and basically"
+    },
+    {
+      "timestamp": [
+        67.28,
+        73.1
+      ],
+      "text": " allows for people to have still kind of the sense of a"
+    },
+    {
+      "timestamp": [
+        73.1,
+        79.42
+      ],
+      "text": " modern society without shifting to any extreme. For the"
+    },
+    {
+      "timestamp": [
+        79.42,
+        85.44
+      ],
+      "text": " futurist utopia with science and innovation, I honestly, I"
+    },
+    {
+      "timestamp": [
+        85.44,
+        89.68
+      ],
+      "text": " wish I could still pull it up and see what that one is. I feel"
+    },
+    {
+      "timestamp": [
+        89.68,
+        95.64
+      ],
+      "text": " like, I like that it is still, I do like the science and"
+    },
+    {
+      "timestamp": [
+        95.64,
+        102.98
+      ],
+      "text": " innovation. I think that that's great. That would be beneficial, but there was something about that"
+    },
+    {
+      "timestamp": [
+        102.98,
+        107.24
+      ],
+      "text": " one that I didn't really like and I don't remember. I wish that I could pull this up on here."
+    },
+    {
+      "timestamp": [
+        108.56,
+        117.9
+      ],
+      "text": " Maybe, hopefully, next time the survey can let us click and make a full-size view of them to compare"
+    },
+    {
+      "timestamp": [
+        117.9,
+        125.62
+      ],
+      "text": " again. But specifically, the order that I started changing these based off of is I feel like when"
+    },
+    {
+      "timestamp": [
+        125.62,
+        131.74
+      ],
+      "text": " we shift too much into one extreme, then it becomes problematic. And that goes for any type"
+    },
+    {
+      "timestamp": [
+        131.74,
+        139.96
+      ],
+      "text": " of definition. If we shift too much to all scientific stuff and we prioritize that without"
+    },
+    {
+      "timestamp": [
+        139.96,
+        146.32
+      ],
+      "text": " any other needs and we care just too much about how fancy things are, then we deplete our resources."
+    },
+    {
+      "timestamp": [
+        147.18,
+        154.16
+      ],
+      "text": " And so even too much science-based things would be bad. But then if we have too much of a religious"
+    },
+    {
+      "timestamp": [
+        154.16,
+        159.26
+      ],
+      "text": " based thing, then people don't have religious freedom. If anyone wants to be a different type"
+    },
+    {
+      "timestamp": [
+        159.26,
+        164.68
+      ],
+      "text": " of faith, then they don't have that right in that world. And I think that that ultimately is the"
+    },
+    {
+      "timestamp": [
+        164.68,
+        171.78
+      ],
+      "text": " worst, the religious utopia. I just think that there should be no religion that everyone has"
+    },
+    {
+      "timestamp": [
+        171.78,
+        177.18
+      ],
+      "text": " to be forced to be under. That's just authoritarianism. I don't think that it's"
+    },
+    {
+      "timestamp": [
+        177.18,
+        183.14
+      ],
+      "text": " right. I believe that people should have freedom. I think there should be rules as well. And I like"
+    },
+    {
+      "timestamp": [
+        183.14,
+        190.18
+      ],
+      "text": " that um i just think there should be a balance with the number six i think that ai is horrible"
+    },
+    {
+      "timestamp": [
+        190.18,
+        197.3
+      ],
+      "text": " for the environment and it's just not really possible for that to be sustainable with how"
+    },
+    {
+      "timestamp": [
+        197.3,
+        203.06
+      ],
+      "text": " much it costs our resources and the thought of something that's using up all of our resources"
+    },
+    {
+      "timestamp": [
+        204.02,
+        209.94
+      ],
+      "text": " just to run being in charge of the resources makes no logical sense because it will automatically"
+    },
+    {
+      "timestamp": [
+        209.94,
+        218.46
+      ],
+      "text": " deplete our resources for itself out of selfishness and even now we've already seen in the short time"
+    },
+    {
+      "timestamp": [
+        218.46,
+        224.58
+      ],
+      "text": " of AI already being released that it will ultimately choose to be selfish and to make"
+    },
+    {
+      "timestamp": [
+        224.58,
+        233.8
+      ],
+      "text": " its own decisions even when ruled under people's um like even with people's settings and their"
+    },
+    {
+      "timestamp": [
+        233.8,
+        239.4
+      ],
+      "text": " rules that they have it and the way that they've programmed it even though human beings put"
+    },
+    {
+      "timestamp": [
+        239.4,
+        245.3
+      ],
+      "text": " specific rules. The AI chooses to break it. It can't be trusted. And the thought of anything,"
+    },
+    {
+      "timestamp": [
+        245.84,
+        254.36
+      ],
+      "text": " whether it be an imaginary god or an artificial intelligence, nothing that has to be on this"
+    },
+    {
+      "timestamp": [
+        254.36,
+        259.92
+      ],
+      "text": " earth and suffer with us should be dictating what rules that we have to live by and live under."
+    },
+    {
+      "timestamp": [
+        260.32,
+        265.58
+      ],
+      "text": " It should be people that do it. But there should be a balance. There should be people of different"
+    },
+    {
+      "timestamp": [
+        265.58,
+        269.1
+      ],
+      "text": " religions, people of different backgrounds, different cultures."
+    },
+    {
+      "timestamp": [
+        269.1,
+        273.4
+      ],
+      "text": " There should be people with different opinions that help to"
+    },
+    {
+      "timestamp": [
+        273.4,
+        278.02
+      ],
+      "text": " bring balance with each other, which is why I like, I like the"
+    },
+    {
+      "timestamp": [
+        278.02,
+        285.08
+      ],
+      "text": " idea of, of course, having some things implemented. We do need"
+    },
+    {
+      "timestamp": [
+        285.08,
+        289.54
+      ],
+      "text": " religious freedom. I do like having technology. I think that"
+    },
+    {
+      "timestamp": [
+        289.54,
+        295.56
+      ],
+      "text": " it's just not ideal to have like a full strict, like too much"
+    },
+    {
+      "timestamp": [
+        295.56,
+        301.5
+      ],
+      "text": " technology and i don't think that it's good to have too much of rules either because there needs"
+    },
+    {
+      "timestamp": [
+        301.5,
+        307.52
+      ],
+      "text": " to be a little bit of freedom allowed i do think that with the strict rule of law with the"
+    },
+    {
+      "timestamp": [
+        307.52,
+        313.98
+      ],
+      "text": " institutional utopia the issue with that one is that it doesn't allow for context and if there's"
+    },
+    {
+      "timestamp": [
+        313.98,
+        320.46
+      ],
+      "text": " just these strict rules and it's implying that there's no type of understanding of certain"
+    },
+    {
+      "timestamp": [
+        320.46,
+        325.32
+      ],
+      "text": " situations and some things are just not black and white some things are more complicated"
+    },
+    {
+      "timestamp": [
+        325.32,
+        326.32
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        353.82,
+        354.82
+      ],
+      "text": " For example, if you make a law saying that you can't cause violence, then if someone, let's say that you have children and your children get hurt by a man on accident, or let's say that a man hurts your children and you self-defend yourself, then you shouldn't be in trouble for defending your children when they can't defend themselves."
+    },
+    {
+      "timestamp": [
+        353.82,
+        361.3
+      ],
+      "text": " and so yeah i think that's the best way i could describe it but i don't think that there should"
+    },
+    {
+      "timestamp": [
+        361.3,
+        369.74
+      ],
+      "text": " be too much strict rules placed under just i think there needs to be certain context applied"
+    },
+    {
+      "timestamp": [
+        369.74,
+        372.2
+      ],
+      "text": " and"
+    }
+  ]
+}

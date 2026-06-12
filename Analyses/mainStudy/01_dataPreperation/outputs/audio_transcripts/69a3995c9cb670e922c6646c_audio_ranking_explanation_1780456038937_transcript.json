@@ -1,0 +1,52 @@
+{
+  "audio_file": "69a3995c9cb670e922c6646c_audio_ranking_explanation_1780456038937.webm",
+  "transcript": " uh my reason behind this is just for the reasoning is what i think um i like the ones that were at the top just because of how they explained what they was doing and basically the general situations of how they were going about the technology and the data-driven basis of the communities um but yeah like i said i didn't really like the faith-based one science innovation can't really be proven rural law seemed a little too strict i prefer to be sustainable secure with low-tech and small-scale, baby.",
+  "language": "unknown",
+  "processing_time_seconds": 10.047737,
+  "timestamp": "2026-06-08T09:10:25.503564",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.86
+      ],
+      "text": " uh my reason behind this is just for the reasoning is what i think um i like the ones that were at"
+    },
+    {
+      "timestamp": [
+        7.86,
+        12.48
+      ],
+      "text": " the top just because of how they explained what they was doing and basically the general"
+    },
+    {
+      "timestamp": [
+        12.48,
+        17.26
+      ],
+      "text": " situations of how they were going about the technology and the data-driven basis of the"
+    },
+    {
+      "timestamp": [
+        17.26,
+        23.42
+      ],
+      "text": " communities um but yeah like i said i didn't really like the faith-based one science innovation"
+    },
+    {
+      "timestamp": [
+        23.42,
+        29.2
+      ],
+      "text": " can't really be proven rural law seemed a little too strict i prefer to be sustainable secure with"
+    },
+    {
+      "timestamp": [
+        29.2,
+        30.78
+      ],
+      "text": " low-tech and small-scale, baby."
+    }
+  ]
+}

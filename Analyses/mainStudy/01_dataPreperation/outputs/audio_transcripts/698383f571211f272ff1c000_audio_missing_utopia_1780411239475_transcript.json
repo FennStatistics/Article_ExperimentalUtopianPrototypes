@@ -1,0 +1,38 @@
+{
+  "audio_file": "698383f571211f272ff1c000_audio_missing_utopia_1780411239475.webm",
+  "transcript": " Um, I forgot the word of this, um, it's a government where everyone gets a say, everyone gets a vote in, um, you know, what the government says, I think it's called a democracy, I'm not sure, I'm, again, I'm not too sure, but it's basically where everyone gets an equal vote.",
+  "language": "unknown",
+  "processing_time_seconds": 6.804972,
+  "timestamp": "2026-06-08T08:58:11.894333",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.62
+      ],
+      "text": " Um, I forgot the word of this, um, it's a government where everyone gets a say, everyone"
+    },
+    {
+      "timestamp": [
+        7.62,
+        18.24
+      ],
+      "text": " gets a vote in, um, you know, what the government says, I think it's called a democracy, I'm"
+    },
+    {
+      "timestamp": [
+        18.24,
+        23.08
+      ],
+      "text": " not sure, I'm, again, I'm not too sure, but it's basically where everyone gets an equal"
+    },
+    {
+      "timestamp": [
+        23.08,
+        24.08
+      ],
+      "text": " vote."
+    }
+  ]
+}

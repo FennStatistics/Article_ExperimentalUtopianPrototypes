@@ -1,0 +1,66 @@
+{
+  "audio_file": "69d663a1e229a12f6c8bf2a4_audio_missing_utopia_1780241739413.webm",
+  "transcript": " I think that the missing piece to the puzzle is the only one that's worthwhile, which is Jesus Christ. Jesus Christ is God and he makes black and white what is good and what is evil and makes morality contain an objective truth of what is good and what is evil, what is righteous and what is not righteous. And I think that, you know, just simply having a religious utopia is one thing, because what if that religion was Islam, which I completely think is diametrically opposed to Christianity in ways that are unreasonable. Similarly to Judaism and Christianity, Hinduism and Christianity, Christianity to me through Jesus is the utmost of objective truth of morality and the idea behind good and evil and how it is a law. it is a moral law it is not just what we think how we collectively observe or what uh you know what this god says is it's just it's it's wavering jesus christ is unwavering and he is all mighty all powerful all good no evil there through a perfect christian lens following jesus christ would cause harm to nobody.",
+  "language": "unknown",
+  "processing_time_seconds": 20.640587,
+  "timestamp": "2026-06-08T09:31:57.247896",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.82
+      ],
+      "text": " I think that the missing piece to the puzzle is the only one that's worthwhile, which is Jesus Christ."
+    },
+    {
+      "timestamp": [
+        10.02,
+        24.94
+      ],
+      "text": " Jesus Christ is God and he makes black and white what is good and what is evil and makes morality contain an objective truth of what is good and what is evil, what is righteous and what is not righteous."
+    },
+    {
+      "timestamp": [
+        25.86,
+        40.44
+      ],
+      "text": " And I think that, you know, just simply having a religious utopia is one thing, because what if that religion was Islam, which I completely think is diametrically opposed to Christianity in ways that are unreasonable."
+    },
+    {
+      "timestamp": [
+        40.44,
+        63.3
+      ],
+      "text": " Similarly to Judaism and Christianity, Hinduism and Christianity, Christianity to me through Jesus is the utmost of objective truth of morality and the idea behind good and evil and how it is a law."
+    },
+    {
+      "timestamp": [
+        63.3,
+        70.42
+      ],
+      "text": " it is a moral law it is not just what we think how we collectively observe or what uh you know"
+    },
+    {
+      "timestamp": [
+        70.42,
+        78.98
+      ],
+      "text": " what this god says is it's just it's it's wavering jesus christ is unwavering and he is all mighty"
+    },
+    {
+      "timestamp": [
+        78.98,
+        86.34
+      ],
+      "text": " all powerful all good no evil there through a perfect christian lens following jesus christ"
+    },
+    {
+      "timestamp": [
+        86.34,
+        87.88
+      ],
+      "text": " would cause harm to nobody."
+    }
+  ]
+}

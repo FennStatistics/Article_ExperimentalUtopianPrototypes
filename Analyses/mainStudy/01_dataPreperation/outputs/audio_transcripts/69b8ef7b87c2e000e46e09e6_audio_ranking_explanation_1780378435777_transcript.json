@@ -1,0 +1,31 @@
+{
+  "audio_file": "69b8ef7b87c2e000e46e09e6_audio_ranking_explanation_1780378435777.webm",
+  "transcript": " The reason I chose the Modern Green Utopia as my top answer is because it seriously tackles what is arguably the greatest threat to humanity currently, which is ecological decay as climate change accelerates while balancing, maintaining resources for human survival. The least preferred society I chose is the Religious Utopia because of my understanding of the history of religious institutions on humankind and that, in my opinion, being their negative influence. and because it made no mention of environmental or even humanistic focus.",
+  "language": "unknown",
+  "processing_time_seconds": 11.819599,
+  "timestamp": "2026-06-08T09:18:04.229201",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        27.84
+      ],
+      "text": " The reason I chose the Modern Green Utopia as my top answer is because it seriously tackles what is arguably the greatest threat to humanity currently, which is ecological decay as climate change accelerates while balancing, maintaining resources for human survival."
+    },
+    {
+      "timestamp": [
+        27.84,
+        48.46
+      ],
+      "text": " The least preferred society I chose is the Religious Utopia because of my understanding of the history of religious institutions on humankind and that, in my opinion, being their negative influence."
+    },
+    {
+      "timestamp": [
+        48.46,
+        57.04
+      ],
+      "text": " and because it made no mention of environmental or even humanistic focus."
+    }
+  ]
+}

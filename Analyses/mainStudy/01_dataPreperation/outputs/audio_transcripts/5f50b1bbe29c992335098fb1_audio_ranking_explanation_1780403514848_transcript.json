@@ -1,0 +1,66 @@
+{
+  "audio_file": "5f50b1bbe29c992335098fb1_audio_ranking_explanation_1780403514848.webm",
+  "transcript": " I ranked the societies this way because I think that having a society where everyone is just only has to rely on their inner morality and everybody is working together is the most preferred because there's no authoritarian or anything like that. people are just willing to work together. I also think that the AI one is a good idea. That's why I placed it closer to the top because it's not, there's no biased or any kind of unfair advantages because everything is AI centered. I put institutional law in the middle because I do think that societies do most of the time societies will need rules and will need laws and someone to enforce them i put the religious utopia towards the end because i think that we can learn from the past that religious uh societies that are so strongly based in religious um scripture And the authoritarians are people who are self-claimed religious experts, can very severely be run away with, and people interpret scripture in different ways, and it can cause fighting, and it's just, at least from the past, I think that that is a terrible way to live.",
+  "language": "unknown",
+  "processing_time_seconds": 18.623518,
+  "timestamp": "2026-06-08T08:18:19.537832",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.0
+      ],
+      "text": " I ranked the societies this way because I think that having a society where everyone is just only has to rely on their inner morality and everybody is working together is the most preferred because there's no authoritarian or anything like that."
+    },
+    {
+      "timestamp": [
+        19.0,
+        27.32
+      ],
+      "text": " people are just willing to work together. I also think that the AI one is a good idea. That's why"
+    },
+    {
+      "timestamp": [
+        27.32,
+        37.52
+      ],
+      "text": " I placed it closer to the top because it's not, there's no biased or any kind of unfair advantages"
+    },
+    {
+      "timestamp": [
+        37.52,
+        44.56
+      ],
+      "text": " because everything is AI centered. I put institutional law in the middle because I do"
+    },
+    {
+      "timestamp": [
+        44.56,
+        51.04
+      ],
+      "text": " think that societies do most of the time societies will need rules and will need laws and someone to"
+    },
+    {
+      "timestamp": [
+        51.04,
+        58.38
+      ],
+      "text": " enforce them i put the religious utopia towards the end because i think that we can learn from"
+    },
+    {
+      "timestamp": [
+        58.38,
+        67.34
+      ],
+      "text": " the past that religious uh societies that are so strongly based in religious um scripture"
+    },
+    {
+      "timestamp": [
+        67.34,
+        94.86
+      ],
+      "text": " And the authoritarians are people who are self-claimed religious experts, can very severely be run away with, and people interpret scripture in different ways, and it can cause fighting, and it's just, at least from the past, I think that that is a terrible way to live."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "audio_file": "69f62e8b80575ae2288b14b2_audio_ranking_explanation_1780380769314.webm",
+  "transcript": " I learned signs and innovation the most to be bad because the world societies what's on a boat you know if it's kids and the ferro means",
+  "language": "unknown",
+  "processing_time_seconds": 7.498063,
+  "timestamp": "2026-06-08T09:59:17.300857",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.52
+      ],
+      "text": " I learned signs and innovation the most to be bad because the world societies"
+    },
+    {
+      "timestamp": [
+        20.52,
+        26.78
+      ],
+      "text": " what's on a boat you know if it's kids and"
+    },
+    {
+      "timestamp": [
+        27.96,
+        31.28
+      ],
+      "text": " the ferro means"
+    }
+  ]
+}

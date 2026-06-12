@@ -1,0 +1,80 @@
+{
+  "audio_file": "69c8e432059037ce2956ee67_audio_ranking_explanation_1780393985198.webm",
+  "transcript": " So, I ranked the societies based on a mix of personal freedoms, sustainability, and the amount of individual happiness of those in the society. I put the modern green utopia at the top, even though the moral commonwealth actually is where I would most prefer to live, because a moral commonwealth would not be sustainable. It would be very easily toppled by anybody who wants to set up some kind of central person at top and then everybody else bows to them, kind of a society. I put AI-centered utopia at the bottom because an AI-centered utopia would not account for the humanity of the people living there. would focus so much on regulation and what would be ideal that it wouldn't ever be attainable for those living in the society and attempting to do so would be horrible for everyone all around as they were trying to accomplish something that is unrealistic",
+  "language": "unknown",
+  "processing_time_seconds": 16.933466,
+  "timestamp": "2026-06-08T09:27:02.204270",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.0
+      ],
+      "text": " So, I ranked the societies based on a mix of personal freedoms, sustainability, and the amount of individual happiness of those in the society."
+    },
+    {
+      "timestamp": [
+        21.0,
+        38.08
+      ],
+      "text": " I put the modern green utopia at the top, even though the moral commonwealth actually is where I would most prefer to live, because a moral commonwealth would not be sustainable."
+    },
+    {
+      "timestamp": [
+        38.08,
+        51.52
+      ],
+      "text": " It would be very easily toppled by anybody who wants to set up some kind of central person"
+    },
+    {
+      "timestamp": [
+        51.52,
+        56.9
+      ],
+      "text": " at top and then everybody else bows to them, kind of a society."
+    },
+    {
+      "timestamp": [
+        56.9,
+        63.62
+      ],
+      "text": " I put AI-centered utopia at the bottom because an AI-centered utopia would not account for"
+    },
+    {
+      "timestamp": [
+        63.62,
+        67.22
+      ],
+      "text": " the humanity of the people living there."
+    },
+    {
+      "timestamp": [
+        67.22,
+        74.1
+      ],
+      "text": " would focus so much on regulation and what would be ideal that it wouldn't"
+    },
+    {
+      "timestamp": [
+        74.1,
+        79.98
+      ],
+      "text": " ever be attainable for those living in the society and attempting to do so"
+    },
+    {
+      "timestamp": [
+        79.98,
+        86.7
+      ],
+      "text": " would be horrible for everyone all around as they were trying to accomplish"
+    },
+    {
+      "timestamp": [
+        86.7,
+        89.98
+      ],
+      "text": " something that is unrealistic"
+    }
+  ]
+}

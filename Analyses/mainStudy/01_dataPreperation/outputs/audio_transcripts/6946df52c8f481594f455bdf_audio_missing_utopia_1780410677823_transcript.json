@@ -1,0 +1,52 @@
+{
+  "audio_file": "6946df52c8f481594f455bdf_audio_missing_utopia_1780410677823.webm",
+  "transcript": " My missing future society would probably be one where it's high tech and very understanding and everyone treats each other equally. A type of future society that I would feel is missing and what would matter most in my vision of the society is equality. I want everyone to be equal and have equal opportunities to make it big in the society itself. and everybody has a chance to do what they want to do regardless of race color background anything that would matter most in my vision of society that everybody gets chance doesn't matter the gender as well it's all everyone has a chance",
+  "language": "unknown",
+  "processing_time_seconds": 10.319464,
+  "timestamp": "2026-06-08T08:51:29.528920",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        10.78
+      ],
+      "text": " My missing future society would probably be one where it's high tech and very understanding and everyone treats each other equally."
+    },
+    {
+      "timestamp": [
+        11.5,
+        17.48
+      ],
+      "text": " A type of future society that I would feel is missing and what would matter most in my vision of the society is equality."
+    },
+    {
+      "timestamp": [
+        17.76,
+        24.12
+      ],
+      "text": " I want everyone to be equal and have equal opportunities to make it big in the society itself."
+    },
+    {
+      "timestamp": [
+        24.12,
+        31.96
+      ],
+      "text": " and everybody has a chance to do what they want to do regardless of race color background anything"
+    },
+    {
+      "timestamp": [
+        33.88,
+        37.0
+      ],
+      "text": " that would matter most in my vision of society that everybody gets"
+    },
+    {
+      "timestamp": [
+        37.0,
+        49.96
+      ],
+      "text": " chance doesn't matter the gender as well it's all everyone has a chance"
+    }
+  ]
+}

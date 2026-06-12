@@ -1,0 +1,66 @@
+{
+  "audio_file": "5a947fb0f05361000171b5a3_audio_missing_utopia_1780410641934.webm",
+  "transcript": " I definitely feel like there was, um, most of the important values were represented fair enough in the, um, the choices or the societies rather. I, I would like to see one that maybe focuses on more aggressive climate action instead of trying to find balance. I guess the primitivist, um, utopia kind of settles that but it doesn't find like an even it still talks about trying to find like a decent balance i i would rather see a society that is more aggressive in its climate action something that's kind of restricting towards people in the sake of being beneficial to the planet overall because i think it would create an interesting dynamic to at least talk about.",
+  "language": "unknown",
+  "processing_time_seconds": 13.70026,
+  "timestamp": "2026-06-08T08:10:47.395617",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.96
+      ],
+      "text": " I definitely feel like there was, um, most of the important values were represented fair enough in"
+    },
+    {
+      "timestamp": [
+        6.96,
+        16.88
+      ],
+      "text": " the, um, the choices or the societies rather. I, I would like to see one that maybe focuses on"
+    },
+    {
+      "timestamp": [
+        16.88,
+        26.32
+      ],
+      "text": " more aggressive climate action instead of trying to find balance. I guess the primitivist, um,"
+    },
+    {
+      "timestamp": [
+        26.38,
+        26.32
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.14,
+        40.7
+      ],
+      "text": " utopia kind of settles that but it doesn't find like an even it still talks about trying to find like a decent balance i i would rather see a society that is more aggressive in its climate"
+    },
+    {
+      "timestamp": [
+        40.7,
+        49.6
+      ],
+      "text": " action something that's kind of restricting towards people in the sake of being beneficial"
+    },
+    {
+      "timestamp": [
+        49.6,
+        54.96
+      ],
+      "text": " to the planet overall because i think it would create an interesting dynamic to at least talk"
+    },
+    {
+      "timestamp": [
+        54.96,
+        55.26
+      ],
+      "text": " about."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "694eedb7740d679db46ab074_audio_missing_utopia_1780432650032.webm",
+  "transcript": " I think a future society that can be missing, maybe a society visiting capitalism and technology.",
+  "language": "unknown",
+  "processing_time_seconds": 4.763361,
+  "timestamp": "2026-06-08T08:52:16.106633",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.36
+      ],
+      "text": " I think a future society that can be missing, maybe a society visiting capitalism and technology."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a08dbd428d6c1df00610751_audio_ranking_explanation_1780383909926.webm",
+  "transcript": " okay I run the in around my ranking in this way because and in the first place I run the modern green utopia the first place because a we are now in a modern generation where everything is modern nice then the I I followed up with AI everything is now run up with AI then religious utopia religious utopia must follow Christianity then institutional you must have knowledge yeah so I placed in this",
+  "language": "unknown",
+  "processing_time_seconds": 9.868808,
+  "timestamp": "2026-06-08T10:32:10.145093",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.2
+      ],
+      "text": " okay I run the in around my ranking in this way because and in the first place I run the modern"
+    },
+    {
+      "timestamp": [
+        10.2,
+        18.18
+      ],
+      "text": " green utopia the first place because a we are now in a modern generation where everything is modern"
+    },
+    {
+      "timestamp": [
+        18.18,
+        27.42
+      ],
+      "text": " nice then the I I followed up with AI everything is now run up with AI then religious utopia"
+    },
+    {
+      "timestamp": [
+        27.42,
+        35.34
+      ],
+      "text": " religious utopia must follow Christianity then institutional you must have knowledge yeah so I"
+    },
+    {
+      "timestamp": [
+        35.34,
+        36.54
+      ],
+      "text": " placed in this"
+    }
+  ]
+}

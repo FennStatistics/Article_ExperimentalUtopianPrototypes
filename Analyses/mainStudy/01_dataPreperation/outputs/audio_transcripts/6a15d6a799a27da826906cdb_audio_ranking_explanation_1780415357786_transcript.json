@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a15d6a799a27da826906cdb_audio_ranking_explanation_1780415357786.webm",
+  "transcript": " I rank these societies in a sequential manner based on what I preferred most, which is rule of law, and what I prefer least, which is faith-based order.",
+  "language": "unknown",
+  "processing_time_seconds": 5.35704,
+  "timestamp": "2026-06-08T11:05:04.067010",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.88
+      ],
+      "text": " I rank these societies in a sequential manner based on what I preferred most, which is rule of law, and what I prefer least, which is faith-based order."
+    }
+  ]
+}

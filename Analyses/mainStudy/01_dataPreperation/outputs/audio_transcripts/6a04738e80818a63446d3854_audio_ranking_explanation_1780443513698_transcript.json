@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a04738e80818a63446d3854_audio_ranking_explanation_1780443513698.webm",
+  "transcript": " I would say my most preferred society is institutional utopia, because if you have a rule of law, then you have order, then ordinary people can live their lives without fear of being the victim of a crime or having their livelihood interrupted by other crimes like theft or assaults. So I think that a preferred society would be one that has a good justice system and people can live without fear of crime. My least preferred society is definitely the AI centered utopia, because I think that just sounds like a terrible, terrible idea from start to finish, because you don't want something that is smarter than us in a way or that thinks it's smarter than us. That's difficult to control or uncontrollable to be in charge of everything and everyone.",
+  "language": "unknown",
+  "processing_time_seconds": 13.744981,
+  "timestamp": "2026-06-08T10:22:36.765210",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.76
+      ],
+      "text": " I would say my most preferred society is institutional utopia, because if you have a rule of law, then you have order, then ordinary people can live their lives without fear of being the victim of a crime or having their livelihood interrupted by other crimes like theft or assaults."
+    },
+    {
+      "timestamp": [
+        23.22,
+        22.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.72,
+        32.98
+      ],
+      "text": " So I think that a preferred society would be one that has a good justice system and people can live without fear of crime."
+    },
+    {
+      "timestamp": [
+        52.58,
+        52.76
+      ],
+      "text": " My least preferred society is definitely the AI centered utopia, because I think that just sounds like a terrible, terrible idea from start to finish, because you don't want something that is smarter than us in a way or that thinks it's smarter than us."
+    },
+    {
+      "timestamp": [
+        58.4,
+        null
+      ],
+      "text": " That's difficult to control or uncontrollable to be in charge of everything and everyone."
+    }
+  ]
+}

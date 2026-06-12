@@ -1,0 +1,101 @@
+{
+  "audio_file": "5bdfb648484288000130dad0_audio_ranking_explanation_1780407712893.webm",
+  "transcript": " I ranked it this way because it fits my personal beliefs. I believe that with the religious utopia, you're looking at something that has a firm foundation. Second best, I would do the primitive because that's kind of how God made us to begin with. The rest of them, I'm not very high on, but I would keep them in the order of futurist utopia. I feel like innovation is important. It embraces the ideas of capitalism. Institutional, I think the rule of law is always a good thing. I think it can become overbearing. Moral commonwealth, I think we read about that in the book of Judges. It's not a good thing. AI-centered utopia, I think that's what we're heading toward anyway. And then the modern green utopia also is something that we're kind of heading in the direction of that I think is not important or not good.",
+  "language": "unknown",
+  "processing_time_seconds": 13.405609,
+  "timestamp": "2026-06-08T08:12:25.849060",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        4.84
+      ],
+      "text": " I ranked it this way because it fits my personal beliefs."
+    },
+    {
+      "timestamp": [
+        4.96,
+        11.8
+      ],
+      "text": " I believe that with the religious utopia, you're looking at something that has a firm foundation."
+    },
+    {
+      "timestamp": [
+        12.34,
+        17.5
+      ],
+      "text": " Second best, I would do the primitive because that's kind of how God made us to begin with."
+    },
+    {
+      "timestamp": [
+        19.08,
+        26.96
+      ],
+      "text": " The rest of them, I'm not very high on, but I would keep them in the order of futurist utopia."
+    },
+    {
+      "timestamp": [
+        26.96,
+        28.82
+      ],
+      "text": " I feel like innovation is important."
+    },
+    {
+      "timestamp": [
+        29.02,
+        31.2
+      ],
+      "text": " It embraces the ideas of capitalism."
+    },
+    {
+      "timestamp": [
+        32.66,
+        35.08
+      ],
+      "text": " Institutional, I think the rule of law is always a good thing."
+    },
+    {
+      "timestamp": [
+        35.6,
+        37.72
+      ],
+      "text": " I think it can become overbearing."
+    },
+    {
+      "timestamp": [
+        38.14,
+        41.54
+      ],
+      "text": " Moral commonwealth, I think we read about that in the book of Judges."
+    },
+    {
+      "timestamp": [
+        42.28,
+        43.44
+      ],
+      "text": " It's not a good thing."
+    },
+    {
+      "timestamp": [
+        43.68,
+        47.16
+      ],
+      "text": " AI-centered utopia, I think that's what we're heading toward anyway."
+    },
+    {
+      "timestamp": [
+        47.96,
+        53.86
+      ],
+      "text": " And then the modern green utopia also is something that we're kind of heading in the direction of"
+    },
+    {
+      "timestamp": [
+        53.86,
+        56.2
+      ],
+      "text": " that I think is not important or not good."
+    }
+  ]
+}

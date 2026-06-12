@@ -1,0 +1,66 @@
+{
+  "audio_file": "671d3d7670c13868fc01e5f6_audio_missing_utopia_1780488866924.webm",
+  "transcript": " Um, the society I would pick, honestly, would be something, probably a mixture of the two that I picked, low tech, um, as well as religious, as well as, um, I'd probably add in, like, the green, the green, um, aspect also, trying to not have as much, uh, bad things to kill the world and kill our resources the more the more bad stuff we have the worse our world is getting and it's kind of scary but that's um i mean let me see what was absent from all of them um i mean i guess law law would be something because we do need law because people especially if we changed from what we already are, people would have a very hard time changing their ways and then what would happen? We would have a whole nother chaos mess.",
+  "language": "unknown",
+  "processing_time_seconds": 14.437197,
+  "timestamp": "2026-06-08T08:44:04.034823",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.7
+      ],
+      "text": " Um, the society I would pick, honestly, would be something, probably a mixture of the two"
+    },
+    {
+      "timestamp": [
+        8.7,
+        17.38
+      ],
+      "text": " that I picked, low tech, um, as well as religious, as well as, um, I'd probably add in, like,"
+    },
+    {
+      "timestamp": [
+        17.38,
+        28.46
+      ],
+      "text": " the green, the green, um, aspect also, trying to not have as much, uh, bad things to kill"
+    },
+    {
+      "timestamp": [
+        28.46,
+        38.9
+      ],
+      "text": " the world and kill our resources the more the more bad stuff we have the worse our world is"
+    },
+    {
+      "timestamp": [
+        38.9,
+        47.38
+      ],
+      "text": " getting and it's kind of scary but that's um i mean let me see what was absent from all of them"
+    },
+    {
+      "timestamp": [
+        47.38,
+        57.98
+      ],
+      "text": " um i mean i guess law law would be something because we do need law because people especially"
+    },
+    {
+      "timestamp": [
+        57.98,
+        63.98
+      ],
+      "text": " if we changed from what we already are, people would have a very hard time"
+    },
+    {
+      "timestamp": [
+        63.98,
+        71.98
+      ],
+      "text": " changing their ways and then what would happen? We would have a whole nother chaos mess."
+    }
+  ]
+}

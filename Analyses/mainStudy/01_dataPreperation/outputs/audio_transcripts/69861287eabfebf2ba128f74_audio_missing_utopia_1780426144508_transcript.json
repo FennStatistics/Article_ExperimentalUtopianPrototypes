@@ -1,0 +1,38 @@
+{
+  "audio_file": "69861287eabfebf2ba128f74_audio_missing_utopia_1780426144508.webm",
+  "transcript": " i can't recall if there was any missing um any um future society um i mean we do want the world to evolve and become you know more embarrassed in tech and all of that but we also want it to grow um in kindness and in love rather than um all of the negative things that have been going on in life.",
+  "language": "unknown",
+  "processing_time_seconds": 8.801713,
+  "timestamp": "2026-06-08T08:59:39.726750",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.8
+      ],
+      "text": " i can't recall if there was any missing um any um future society um i mean"
+    },
+    {
+      "timestamp": [
+        9.8,
+        18.12
+      ],
+      "text": " we do want the world to evolve and become you know more embarrassed in tech and all of that"
+    },
+    {
+      "timestamp": [
+        18.12,
+        29.08
+      ],
+      "text": " but we also want it to grow um in kindness and in love rather than um all of the negative things"
+    },
+    {
+      "timestamp": [
+        29.08,
+        30.46
+      ],
+      "text": " that have been going on in life."
+    }
+  ]
+}

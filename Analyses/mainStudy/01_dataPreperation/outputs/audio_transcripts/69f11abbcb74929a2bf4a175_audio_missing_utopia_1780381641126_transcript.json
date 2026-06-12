@@ -1,0 +1,38 @@
+{
+  "audio_file": "69f11abbcb74929a2bf4a175_audio_missing_utopia_1780381641126.webm",
+  "transcript": " Looking at the seven societies, I feel all important values were already represented. We had sustainability, rule of law, morality, innovation, technology, faith, and community. Each society emphasized a different balance, but together they covered what matters most to be, stability, fairness, and human well-being after crisis.",
+  "language": "unknown",
+  "processing_time_seconds": 6.575368,
+  "timestamp": "2026-06-08T09:53:06.360184",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.24
+      ],
+      "text": " Looking at the seven societies, I feel all important values were already represented."
+    },
+    {
+      "timestamp": [
+        8.24,
+        16.66
+      ],
+      "text": " We had sustainability, rule of law, morality, innovation, technology, faith, and community."
+    },
+    {
+      "timestamp": [
+        16.66,
+        23.0
+      ],
+      "text": " Each society emphasized a different balance, but together they covered what matters most"
+    },
+    {
+      "timestamp": [
+        23.0,
+        29.1
+      ],
+      "text": " to be, stability, fairness, and human well-being after crisis."
+    }
+  ]
+}

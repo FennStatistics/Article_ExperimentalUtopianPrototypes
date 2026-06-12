@@ -1,0 +1,199 @@
+{
+  "audio_file": "69fab71a215f5a17bbecc692_audio_ranking_explanation_1780380017445.webm",
+  "transcript": " Okay, so I believe in science and technology being the future and innovation of humanity and humankind. So that's why futurist utopia, science and innovation is important. Through science and innovation, we have seen progress through humankind. and what only what 30 40 years ago we had nasa had a bunch of basically nasa's ship um spaceships and crafts took huge technology books on books on books that were at least like six feet tall right you got that picture of that woman and it really and then now we have the same technologically power within the last like 30 to 50 years in our iphones and look at our lives now we have progressed further and advance further because of technology so that's why science and technology after that because i want people to control themselves if not people second ai data-driven governance at least it's still technology that's going to be helpful and use us to propel us through the future now when technology is out the window we're now going to go ahead into uh the rule of law which is what we have currently today, which is bet-based, a common set of laws that everyone can agree to. After that, sustainable and secure. This is more practical reasons of making sure that everyone has enough to eat, that humanity as a whole, as a community, can survive. Intermorality. Basically, I think this is already kind of ends one, two, three, and four, but inner morality of just you know doing what's right everyone knows this is a appropriate thing to do we should do it but that's on the lower thing set of things um low tech and small scale for primitives utopia honestly that's not very sustainable or good for future growth because if the only way for humankind to like progress as a community and group is to have larger and larger populations and we keep all ourselves small or low tech, we're just regressing and ultimately maybe just going ahead and wiping ourselves out because we're not willing to increase population growth. And finally, faith-based order. We've seen a lot of things that got based on faith. And for me, none of that is technologically sound. There's no proof in faith, sir. I understand people need it and it's a coping system, but there's no factual stuff. And we've seen in history, what has faith gotten to us, aka the Crusades, look at Istanbul, look at all these other countries I'm not going to list. But yes, that's why faith is at the very bottom.",
+  "language": "unknown",
+  "processing_time_seconds": 36.016173,
+  "timestamp": "2026-06-08T10:05:18.355006",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.88
+      ],
+      "text": " Okay, so I believe in science and technology being the future and innovation of humanity and humankind."
+    },
+    {
+      "timestamp": [
+        10.94,
+        15.56
+      ],
+      "text": " So that's why futurist utopia, science and innovation is important."
+    },
+    {
+      "timestamp": [
+        16.0,
+        18.84
+      ],
+      "text": " Through science and innovation, we have seen progress through humankind."
+    },
+    {
+      "timestamp": [
+        18.84,
+        30.28
+      ],
+      "text": " and what only what 30 40 years ago we had nasa had a bunch of basically nasa's ship um spaceships"
+    },
+    {
+      "timestamp": [
+        30.28,
+        37.02
+      ],
+      "text": " and crafts took huge technology books on books on books that were at least like six feet tall right"
+    },
+    {
+      "timestamp": [
+        37.02,
+        41.72
+      ],
+      "text": " you got that picture of that woman and it really and then now we have the same technologically"
+    },
+    {
+      "timestamp": [
+        41.72,
+        48.64
+      ],
+      "text": " power within the last like 30 to 50 years in our iphones and look at our lives now we have progressed"
+    },
+    {
+      "timestamp": [
+        48.64,
+        56.38
+      ],
+      "text": " further and advance further because of technology so that's why science and technology after that"
+    },
+    {
+      "timestamp": [
+        56.38,
+        64.0
+      ],
+      "text": " because i want people to control themselves if not people second ai data-driven governance at"
+    },
+    {
+      "timestamp": [
+        64.0,
+        68.86
+      ],
+      "text": " least it's still technology that's going to be helpful and use us to propel us through the future"
+    },
+    {
+      "timestamp": [
+        68.86,
+        75.22
+      ],
+      "text": " now when technology is out the window we're now going to go ahead into uh the rule of law which"
+    },
+    {
+      "timestamp": [
+        75.22,
+        80.58
+      ],
+      "text": " is what we have currently today, which is bet-based, a common set of laws that everyone"
+    },
+    {
+      "timestamp": [
+        80.58,
+        88.42
+      ],
+      "text": " can agree to. After that, sustainable and secure. This is more practical reasons of making sure that"
+    },
+    {
+      "timestamp": [
+        88.42,
+        92.92
+      ],
+      "text": " everyone has enough to eat, that humanity as a whole, as a community, can survive."
+    },
+    {
+      "timestamp": [
+        94.02,
+        100.82
+      ],
+      "text": " Intermorality. Basically, I think this is already kind of ends one, two, three, and four, but"
+    },
+    {
+      "timestamp": [
+        100.82,
+        106.12
+      ],
+      "text": " inner morality of just you know doing what's right everyone knows this is a appropriate thing"
+    },
+    {
+      "timestamp": [
+        106.12,
+        113.08
+      ],
+      "text": " to do we should do it but that's on the lower thing set of things um low tech and small scale"
+    },
+    {
+      "timestamp": [
+        113.08,
+        119.48
+      ],
+      "text": " for primitives utopia honestly that's not very sustainable or good for future growth because if"
+    },
+    {
+      "timestamp": [
+        119.48,
+        126.18
+      ],
+      "text": " the only way for humankind to like progress as a community and group is to have larger and larger"
+    },
+    {
+      "timestamp": [
+        126.18,
+        131.4
+      ],
+      "text": " populations and we keep all ourselves small or low tech, we're just regressing and ultimately"
+    },
+    {
+      "timestamp": [
+        131.4,
+        136.06
+      ],
+      "text": " maybe just going ahead and wiping ourselves out because we're not willing to increase"
+    },
+    {
+      "timestamp": [
+        136.06,
+        141.26
+      ],
+      "text": " population growth. And finally, faith-based order. We've seen a lot of things that got"
+    },
+    {
+      "timestamp": [
+        141.26,
+        148.28
+      ],
+      "text": " based on faith. And for me, none of that is technologically sound. There's no proof in faith,"
+    },
+    {
+      "timestamp": [
+        148.36,
+        153.48
+      ],
+      "text": " sir. I understand people need it and it's a coping system, but there's no factual stuff."
+    },
+    {
+      "timestamp": [
+        153.56,
+        153.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        160.82,
+        162.92
+      ],
+      "text": " And we've seen in history, what has faith gotten to us, aka the Crusades, look at Istanbul, look at all these other countries I'm not going to list."
+    },
+    {
+      "timestamp": [
+        165.88,
+        null
+      ],
+      "text": " But yes, that's why faith is at the very bottom."
+    }
+  ]
+}

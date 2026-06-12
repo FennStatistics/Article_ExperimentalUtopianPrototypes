@@ -1,0 +1,45 @@
+{
+  "audio_file": "69e7ded4f1a24a777d92e59a_audio_missing_utopia_1780401226995.webm",
+  "transcript": " I could be wrong, but I don't remember seeing any idea of a society that's governed by the people. I guess kind of similar to what the United States kind of works on today, but almost electing officials to represent their constituents and create laws and uphold those laws and stuff like that. So I think, um, you know, having the idea that people represent their people is something that's really important.",
+  "language": "unknown",
+  "processing_time_seconds": 9.339661,
+  "timestamp": "2026-06-08T09:40:54.156283",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.72
+      ],
+      "text": " I could be wrong, but I don't remember seeing any idea of a society that's governed by the"
+    },
+    {
+      "timestamp": [
+        6.72,
+        13.1
+      ],
+      "text": " people. I guess kind of similar to what the United States kind of works on today, but almost"
+    },
+    {
+      "timestamp": [
+        13.1,
+        22.56
+      ],
+      "text": " electing officials to represent their constituents and create laws and uphold those laws and stuff"
+    },
+    {
+      "timestamp": [
+        22.56,
+        30.98
+      ],
+      "text": " like that. So I think, um, you know, having the idea that people represent their people"
+    },
+    {
+      "timestamp": [
+        30.98,
+        33.0
+      ],
+      "text": " is something that's really important."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "audio_file": "6a1df769b69ebcd2ecca9375_audio_ranking_explanation_1780407690026.webm",
+  "transcript": " um i rank them this way because so i'll just start from the top um the futurist utopia definitely seems like number one to me um that seems like the way to you know move forward using you know science and that's that's how it got to where we are now so that's what we need to do uh the moral commonwealth that would be very preferred uh it just seems almost like impossible like to imagine it working like that um but it'd be really cool if it did and that's why i think that that's like number two uh primitivist primitivist utopia that's more like just my pick um i think something like that would be awesome you know just like a small small scale living you know you take care of your community you have small communities and everything you know is just done within the community you trade with other communities whatever uh but small communities i think is great um the green utopia is also pretty good that's the last of the ones that i would actually like um i think the idea behind it's really good and i think i mean you know it it could be up there above primitivist, excuse me, for me, but I don't know. I thought the primitivist sound better. The bottom three, religious, institutional, and AI-centered, I don't like at all. I don't like the religious utopia at all. I don't think that, you know, forcing religion is a good thing to do for anybody uh i don't like the institutional utopia at all um you know it doesn't sound like utopia it sounds like a dystopia um you know even if you're doing right thing all the time it still just doesn't sound good uh and then the ai-centered utopia maybe it's just recency bias or something uh but that sounds also like a dystopia it sounds like you know a horror movie like i don't think i don't think we as as humanity want something like that",
+  "language": "unknown",
+  "processing_time_seconds": 29.560685,
+  "timestamp": "2026-06-08T11:30:14.730575",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.92
+      ],
+      "text": " um i rank them this way because so i'll just start from the top um the futurist utopia"
+    },
+    {
+      "timestamp": [
+        8.92,
+        15.78
+      ],
+      "text": " definitely seems like number one to me um that seems like the way to you know move forward using"
+    },
+    {
+      "timestamp": [
+        15.78,
+        20.46
+      ],
+      "text": " you know science and that's that's how it got to where we are now so that's what we need to do"
+    },
+    {
+      "timestamp": [
+        20.46,
+        26.96
+      ],
+      "text": " uh the moral commonwealth that would be very preferred uh it just seems almost like impossible"
+    },
+    {
+      "timestamp": [
+        26.96,
+        34.8
+      ],
+      "text": " like to imagine it working like that um but it'd be really cool if it did and that's why i think"
+    },
+    {
+      "timestamp": [
+        34.8,
+        42.32
+      ],
+      "text": " that that's like number two uh primitivist primitivist utopia that's more like just my"
+    },
+    {
+      "timestamp": [
+        42.32,
+        48.04
+      ],
+      "text": " pick um i think something like that would be awesome you know just like a small small scale"
+    },
+    {
+      "timestamp": [
+        48.04,
+        53.66
+      ],
+      "text": " living you know you take care of your community you have small communities and everything you know"
+    },
+    {
+      "timestamp": [
+        53.66,
+        60.38
+      ],
+      "text": " is just done within the community you trade with other communities whatever uh but small communities"
+    },
+    {
+      "timestamp": [
+        60.38,
+        66.62
+      ],
+      "text": " i think is great um the green utopia is also pretty good that's the last of the ones that i"
+    },
+    {
+      "timestamp": [
+        66.62,
+        75.26
+      ],
+      "text": " would actually like um i think the idea behind it's really good and i think i mean you know it"
+    },
+    {
+      "timestamp": [
+        75.26,
+        85.26
+      ],
+      "text": " it could be up there above primitivist, excuse me, for me, but I don't know. I thought the"
+    },
+    {
+      "timestamp": [
+        85.26,
+        91.02
+      ],
+      "text": " primitivist sound better. The bottom three, religious, institutional, and AI-centered,"
+    },
+    {
+      "timestamp": [
+        91.18,
+        100.4
+      ],
+      "text": " I don't like at all. I don't like the religious utopia at all. I don't think that, you know,"
+    },
+    {
+      "timestamp": [
+        100.4,
+        108.06
+      ],
+      "text": " forcing religion is a good thing to do for anybody uh i don't like the institutional utopia at all"
+    },
+    {
+      "timestamp": [
+        108.06,
+        115.96
+      ],
+      "text": " um you know it doesn't sound like utopia it sounds like a dystopia um you know even if you're doing"
+    },
+    {
+      "timestamp": [
+        115.96,
+        121.3
+      ],
+      "text": " right thing all the time it still just doesn't sound good uh and then the ai-centered utopia"
+    },
+    {
+      "timestamp": [
+        121.3,
+        128.08
+      ],
+      "text": " maybe it's just recency bias or something uh but that sounds also like a dystopia it sounds like"
+    },
+    {
+      "timestamp": [
+        128.08,
+        136.0
+      ],
+      "text": " you know a horror movie like i don't think i don't think we as as humanity want something like that"
+    }
+  ]
+}

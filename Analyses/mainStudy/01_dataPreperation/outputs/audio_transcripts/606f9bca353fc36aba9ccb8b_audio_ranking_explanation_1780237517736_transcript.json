@@ -1,0 +1,17 @@
+{
+  "audio_file": "606f9bca353fc36aba9ccb8b_audio_ranking_explanation_1780237517736.webm",
+  "transcript": " I would rather live in a modern green utopian, even higher, that would be, that's not, distant.",
+  "language": "unknown",
+  "processing_time_seconds": 4.987563,
+  "timestamp": "2026-06-08T08:19:44.617577",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.72
+      ],
+      "text": " I would rather live in a modern green utopian, even higher, that would be, that's not, distant."
+    }
+  ]
+}

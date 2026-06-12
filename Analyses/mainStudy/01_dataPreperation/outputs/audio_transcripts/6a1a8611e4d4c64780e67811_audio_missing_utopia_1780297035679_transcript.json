@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a1a8611e4d4c64780e67811_audio_missing_utopia_1780297035679.webm",
+  "transcript": " Yes, this one. Maybe a balanced human-centered society. It would combine science, sustainability, rule of law, and personal freedom of truth. Not rely too much on only one system like AI, religion, technology, etc. The most important value of the human dignity is people should have good health, education, housing, safety, freedom to save their own lives. Technology should support people, not just control them. Environmental possessions should be important people to still have comfort and opportunity community should be strong but still open tolerant of different cell unbelief the society should protect vulnerable people while still encouraging musicians and women overall the missing vision is a society that is not extreme but balanced fair free sustainable and compassionate",
+  "language": "unknown",
+  "processing_time_seconds": 11.591384,
+  "timestamp": "2026-06-08T11:15:01.464777",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.0
+      ],
+      "text": " Yes, this one. Maybe a balanced human-centered society. It would combine science, sustainability,"
+    },
+    {
+      "timestamp": [
+        7.0,
+        12.0
+      ],
+      "text": " rule of law, and personal freedom of truth. Not rely too much on only one system like"
+    },
+    {
+      "timestamp": [
+        12.0,
+        19.0
+      ],
+      "text": " AI, religion, technology, etc. The most important value of the human dignity is people should"
+    },
+    {
+      "timestamp": [
+        19.0,
+        24.0
+      ],
+      "text": " have good health, education, housing, safety, freedom to save their own lives. Technology"
+    },
+    {
+      "timestamp": [
+        24.0,
+        29.0
+      ],
+      "text": " should support people, not just control them. Environmental possessions should be important"
+    },
+    {
+      "timestamp": [
+        29.0,
+        34.36
+      ],
+      "text": " people to still have comfort and opportunity community should be strong but still open"
+    },
+    {
+      "timestamp": [
+        34.92,
+        39.64
+      ],
+      "text": " tolerant of different cell unbelief the society should protect vulnerable people while still"
+    },
+    {
+      "timestamp": [
+        39.64,
+        45.64
+      ],
+      "text": " encouraging musicians and women overall the missing vision is a society that is not extreme"
+    },
+    {
+      "timestamp": [
+        46.2,
+        55.56
+      ],
+      "text": " but balanced fair free sustainable and compassionate"
+    }
+  ]
+}

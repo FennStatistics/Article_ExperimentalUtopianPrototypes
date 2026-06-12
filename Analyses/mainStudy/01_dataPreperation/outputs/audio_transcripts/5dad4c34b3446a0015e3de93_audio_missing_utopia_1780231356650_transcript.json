@@ -1,0 +1,17 @@
+{
+  "audio_file": "5dad4c34b3446a0015e3de93_audio_missing_utopia_1780231356650.webm",
+  "transcript": " I don't personally have anything else that I think was missing from any of them I think throughout all of them combined some of them had some good points and can't think of anything else that wasn't mentioned within at least one of them",
+  "language": "unknown",
+  "processing_time_seconds": 5.965583,
+  "timestamp": "2026-06-08T08:15:30.164296",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.04
+      ],
+      "text": " I don't personally have anything else that I think was missing from any of them I think throughout all of them combined some of them had some good points and can't think of anything else that wasn't mentioned within at least one of them"
+    }
+  ]
+}

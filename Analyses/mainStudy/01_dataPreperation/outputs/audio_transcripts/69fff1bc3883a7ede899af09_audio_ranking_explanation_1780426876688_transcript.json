@@ -1,0 +1,136 @@
+{
+  "audio_file": "69fff1bc3883a7ede899af09_audio_ranking_explanation_1780426876688.webm",
+  "transcript": " When it comes down to society as well as governing it, we need to have a hybridization of something that allows the common individual to actually have accessibility for upward mobility. From there, we need to be able to make sure that the society is governed within the moral bounds and laws of something that is conducive to actually growing and fostering the human spirit and the individual as a whole. We need to make sure that the system works for the individual itself so that they can go and make the decisions that they want in life while not being overly governed from the top down. With that being said, rules are a necessary role within society. Unfortunately, with the theft and size and weight of the average institution is prevalent in today's society, it just is too cumbersome and too unsustainable. There's too many different parties tugging at. in too many different directions to actually accomplish anything therefore we need a system reset that actually provides the power resources back to the individual and the government needs to step out of the way so that we can go and express exactly what direction but we want to trend towards and from there we can go and bolster and create institutions as well as systems around the kind of new frontier, new direction that humans naturally take, not something that's indicted by oligarchs or people at the top or even politicians for that fact.",
+  "language": "unknown",
+  "processing_time_seconds": 20.769612,
+  "timestamp": "2026-06-08T10:14:52.489920",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.42
+      ],
+      "text": " When it comes down to society as well as governing it, we need to have a hybridization of something"
+    },
+    {
+      "timestamp": [
+        7.42,
+        14.52
+      ],
+      "text": " that allows the common individual to actually have accessibility for upward mobility."
+    },
+    {
+      "timestamp": [
+        14.52,
+        19.34
+      ],
+      "text": " From there, we need to be able to make sure that the society is governed within the moral"
+    },
+    {
+      "timestamp": [
+        19.34,
+        26.18
+      ],
+      "text": " bounds and laws of something that is conducive to actually growing and fostering the human"
+    },
+    {
+      "timestamp": [
+        26.18,
+        28.32
+      ],
+      "text": " spirit and the individual as a whole."
+    },
+    {
+      "timestamp": [
+        28.32,
+        32.36
+      ],
+      "text": " We need to make sure that the system works for the individual itself so that they can"
+    },
+    {
+      "timestamp": [
+        32.36,
+        36.76
+      ],
+      "text": " go and make the decisions that they want in life while not being overly governed from"
+    },
+    {
+      "timestamp": [
+        36.76,
+        37.54
+      ],
+      "text": " the top down."
+    },
+    {
+      "timestamp": [
+        38.2,
+        42.4
+      ],
+      "text": " With that being said, rules are a necessary role within society."
+    },
+    {
+      "timestamp": [
+        44.8,
+        52.3
+      ],
+      "text": " Unfortunately, with the theft and size and weight of the average institution is prevalent"
+    },
+    {
+      "timestamp": [
+        52.3,
+        56.08
+      ],
+      "text": " in today's society, it just is too cumbersome and too unsustainable."
+    },
+    {
+      "timestamp": [
+        56.08,
+        58.04
+      ],
+      "text": " There's too many different parties tugging at."
+    },
+    {
+      "timestamp": [
+        58.32,
+        63.6
+      ],
+      "text": " in too many different directions to actually accomplish anything therefore we need a system"
+    },
+    {
+      "timestamp": [
+        63.6,
+        71.28
+      ],
+      "text": " reset that actually provides the power resources back to the individual and the government needs"
+    },
+    {
+      "timestamp": [
+        71.28,
+        77.04
+      ],
+      "text": " to step out of the way so that we can go and express exactly what direction but we want to"
+    },
+    {
+      "timestamp": [
+        77.04,
+        84.0
+      ],
+      "text": " trend towards and from there we can go and bolster and create institutions as well as systems around"
+    },
+    {
+      "timestamp": [
+        84.0,
+        90.68
+      ],
+      "text": " the kind of new frontier, new direction that humans naturally take, not something that's"
+    },
+    {
+      "timestamp": [
+        90.68,
+        97.44
+      ],
+      "text": " indicted by oligarchs or people at the top or even politicians for that fact."
+    }
+  ]
+}

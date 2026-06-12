@@ -1,0 +1,87 @@
+{
+  "audio_file": "69fba31786a9f62439a74897_audio_missing_utopia_1780380357157.webm",
+  "transcript": " I think looking back at all seven, an approach that felt absent from them was an approach that was aiming to increase the limited amount of resources the society had. I think if you're not aiming to increase the resources you have, you always want to keep people at just having enough. um that is not gonna build a society that wants to work together i think a community-based one with that is really important in the community coming together with choosing a small leadership board uh where the leadership can be removed if they aren't in line with the people um basing things on like general values that the community comes up with um but not making it fully like uh the society that was um i can't remember what it's called but it felt like morality based like you still need like laws and governance um and then i i think using some sort of technology is really important relying fully on it like that ai one um just like isn't beneficial for people and then really just trying honestly just trying to increase the resources that they had so they didn't remain limited forever feels like the biggest thing to me",
+  "language": "unknown",
+  "processing_time_seconds": 18.472597,
+  "timestamp": "2026-06-08T10:08:28.210896",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.34
+      ],
+      "text": " I think looking back at all seven, an approach that felt absent from them was an approach that was aiming to increase the limited amount of resources the society had."
+    },
+    {
+      "timestamp": [
+        17.34,
+        23.3
+      ],
+      "text": " I think if you're not aiming to increase the resources you have, you always want to keep people at just having enough."
+    },
+    {
+      "timestamp": [
+        25.54,
+        23.3
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.8,
+        39.32
+      ],
+      "text": " um that is not gonna build a society that wants to work together i think a community-based one with that is really important in the community coming together with choosing a small leadership"
+    },
+    {
+      "timestamp": [
+        39.32,
+        45.64
+      ],
+      "text": " board uh where the leadership can be removed if they aren't in line with the people um"
+    },
+    {
+      "timestamp": [
+        47.06,
+        45.64
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        54.62,
+        64.76
+      ],
+      "text": " basing things on like general values that the community comes up with um but not making it fully like uh the society that was um i can't remember what it's called but it felt like morality based"
+    },
+    {
+      "timestamp": [
+        64.76,
+        73.38
+      ],
+      "text": " like you still need like laws and governance um and then i i think using some sort of technology"
+    },
+    {
+      "timestamp": [
+        73.38,
+        81.62
+      ],
+      "text": " is really important relying fully on it like that ai one um just like isn't beneficial for people"
+    },
+    {
+      "timestamp": [
+        83.46,
+        87.78
+      ],
+      "text": " and then really just trying honestly just trying to increase the resources"
+    },
+    {
+      "timestamp": [
+        87.78,
+        92.66
+      ],
+      "text": " that they had so they didn't remain limited forever feels like the biggest thing to me"
+    }
+  ]
+}

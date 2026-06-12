@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0e8d08d2555ad9bd898834_audio_ranking_explanation_1780152969260.webm",
+  "transcript": " I rank them this way because I personally would prefer something that's more based in science and innovation than something that a computer made or faith-based because it's just not something that I believe in.",
+  "language": "unknown",
+  "processing_time_seconds": 5.474633,
+  "timestamp": "2026-06-08T10:48:01.711605",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.68
+      ],
+      "text": " I rank them this way because I personally would prefer something that's more based in science and innovation than something that a computer made or faith-based because it's just not something that I believe in."
+    }
+  ]
+}

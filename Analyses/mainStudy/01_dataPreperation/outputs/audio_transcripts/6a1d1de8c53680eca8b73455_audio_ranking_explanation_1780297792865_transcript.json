@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a1d1de8c53680eca8b73455_audio_ranking_explanation_1780297792865.webm",
+  "transcript": " I ranked my societies this way because I believe it's one of the most important social structures.",
+  "language": "unknown",
+  "processing_time_seconds": 4.798819,
+  "timestamp": "2026-06-08T11:24:36.416298",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.66
+      ],
+      "text": " I ranked my societies this way because I believe it's one of the most important social structures."
+    }
+  ]
+}

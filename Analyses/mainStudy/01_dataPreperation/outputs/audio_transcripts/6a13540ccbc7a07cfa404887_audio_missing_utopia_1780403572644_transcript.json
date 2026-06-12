@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a13540ccbc7a07cfa404887_audio_missing_utopia_1780403572644.webm",
+  "transcript": " Personally, my ideal future society would be like a combination of the green society and the permovitous society, where there is technology and energy resources, but they're a more green version, and humans try to live with the earth rather than taking resources from it. What would matter most in my vision of that society is trying to restore the earth back to a more natural state as much as possible, which I think would just naturally be the goal if we combine both of those approaches.",
+  "language": "unknown",
+  "processing_time_seconds": 9.591339,
+  "timestamp": "2026-06-08T10:56:39.827813",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        25.3
+      ],
+      "text": " Personally, my ideal future society would be like a combination of the green society and the permovitous society, where there is technology and energy resources, but they're a more green version, and humans try to live with the earth rather than taking resources from it."
+    },
+    {
+      "timestamp": [
+        27.46,
+        25.3
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        50.3,
+        null
+      ],
+      "text": " What would matter most in my vision of that society is trying to restore the earth back to a more natural state as much as possible, which I think would just naturally be the goal if we combine both of those approaches."
+    }
+  ]
+}

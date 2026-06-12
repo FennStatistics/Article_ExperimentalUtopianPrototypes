@@ -1,0 +1,171 @@
+{
+  "audio_file": "69d3b723c1ce9682b57d0e27_audio_ranking_explanation_1780424225669.webm",
+  "transcript": " I chose the religious utopia because as it was explained, it's a lot of people who believe in the same things. So everybody has the same expectations, the same guidelines that they follow. I feel like it would just be the most utopian society. The next one is rule of law. I feel like that's kind of what we have now. There's a law in place. You have to follow it. um I felt like that one was more similar to what we have right now um you have consequences for those laws that are broken um I just felt like that one was the next best one the sustainable and secure I mean it's just like keeping the environment um uh clean and then um making sure that everybody had what they needed from use of the environment um I don't know about that one just because it would be limited and it would be um just taking what you need which it should that's how it should be but that one's a little bit harder to want to be a part of the low tech and small scale um I I don't know that one I don't fully understand that one um but I like that one better than the last three so the science and innovation That one was just, oh, it was too much. Like that one was a lot of technology is involved in that and making sure that everybody had what they needed, but it was all science-based and it wasn't environmentally friendly. The next one, number six, was moral commonwealth. I don't like that one because everybody has different morals. Most of them are the same, but a lot of them are not. And that's kind of scary. And then the last one's data-driven governance. So for AI, I like AI, but I don't think that they should be running a society or government. That's a little bit terrifying. So that's why I ranked that one at the end.",
+  "language": "unknown",
+  "processing_time_seconds": 26.894864,
+  "timestamp": "2026-06-08T09:31:22.000963",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.68
+      ],
+      "text": " I chose the religious utopia because as it was explained, it's a lot of people who believe in"
+    },
+    {
+      "timestamp": [
+        7.68,
+        15.34
+      ],
+      "text": " the same things. So everybody has the same expectations, the same guidelines that they"
+    },
+    {
+      "timestamp": [
+        15.34,
+        22.94
+      ],
+      "text": " follow. I feel like it would just be the most utopian society. The next one is rule of law."
+    },
+    {
+      "timestamp": [
+        22.94,
+        26.8
+      ],
+      "text": " I feel like that's kind of what we have now. There's a law in place. You have to follow it."
+    },
+    {
+      "timestamp": [
+        28.5,
+        26.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.44,
+        39.02
+      ],
+      "text": " um I felt like that one was more similar to what we have right now um you have consequences for those laws that are broken um I just felt like that one was the next best one the sustainable"
+    },
+    {
+      "timestamp": [
+        39.02,
+        50.04
+      ],
+      "text": " and secure I mean it's just like keeping the environment um uh clean and then um"
+    },
+    {
+      "timestamp": [
+        50.04,
+        55.06
+      ],
+      "text": " making sure that everybody had what they needed from use of the environment"
+    },
+    {
+      "timestamp": [
+        55.06,
+        62.82
+      ],
+      "text": " um I don't know about that one just because it would be limited and it would be um just taking"
+    },
+    {
+      "timestamp": [
+        62.82,
+        67.34
+      ],
+      "text": " what you need which it should that's how it should be but that one's a little bit harder"
+    },
+    {
+      "timestamp": [
+        67.34,
+        77.54
+      ],
+      "text": " to want to be a part of the low tech and small scale um I I don't know that one I don't fully"
+    },
+    {
+      "timestamp": [
+        77.54,
+        83.54
+      ],
+      "text": " understand that one um but I like that one better than the last three so the science and innovation"
+    },
+    {
+      "timestamp": [
+        83.54,
+        85.88
+      ],
+      "text": " That one was just, oh, it was too much."
+    },
+    {
+      "timestamp": [
+        86.04,
+        93.3
+      ],
+      "text": " Like that one was a lot of technology is involved in that and making sure that everybody had"
+    },
+    {
+      "timestamp": [
+        93.3,
+        97.22
+      ],
+      "text": " what they needed, but it was all science-based and it wasn't environmentally friendly."
+    },
+    {
+      "timestamp": [
+        97.82,
+        100.42
+      ],
+      "text": " The next one, number six, was moral commonwealth."
+    },
+    {
+      "timestamp": [
+        100.52,
+        103.88
+      ],
+      "text": " I don't like that one because everybody has different morals."
+    },
+    {
+      "timestamp": [
+        104.18,
+        108.46
+      ],
+      "text": " Most of them are the same, but a lot of them are not."
+    },
+    {
+      "timestamp": [
+        108.5,
+        109.68
+      ],
+      "text": " And that's kind of scary."
+    },
+    {
+      "timestamp": [
+        109.92,
+        112.04
+      ],
+      "text": " And then the last one's data-driven governance."
+    },
+    {
+      "timestamp": [
+        112.3,
+        112.04
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        119.82,
+        121.54
+      ],
+      "text": " So for AI, I like AI, but I don't think that they should be running a society or government. That's a little bit terrifying."
+    },
+    {
+      "timestamp": [
+        122.24,
+        124.58
+      ],
+      "text": " So that's why I ranked that one at the end."
+    }
+  ]
+}

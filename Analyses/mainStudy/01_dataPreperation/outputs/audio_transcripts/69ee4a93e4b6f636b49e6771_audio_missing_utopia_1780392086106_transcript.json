@@ -1,0 +1,108 @@
+{
+  "audio_file": "69ee4a93e4b6f636b49e6771_audio_missing_utopia_1780392086106.webm",
+  "transcript": " Looking at the seven societies, I feel that a major value is missing from all of them. The value of constructive friction. The idea that disagreement, play, and unplanned human interaction are actually essential for the health and innovation. Every utopia list tries to solve a problem by eliminating something. They eliminate waste, eliminate green, eliminate ambiguity, eliminate selfishness, eliminate disorder, or eliminate modernity. But truly, a great society doesn't just eliminate problems, it embraces productive tension. So the missing future society I would propose is the dynamic Tango utopia in the society. In this society, systems are intentionally designed with safety valves for chaos. There are public squares where spontaneous art, protest, and debate are not just related but encouraged. Digital and analog words coexist in tension, not fully all control, not full primitive, but a constant back and forth where humans manually override algorithms whenever they choose. Failure is seen as a feature It's a society that does not optimize everything for maximum efficiency Because efficiency kills resilience A perfect efficient system breaks all at once A system with a slack play and redundancy bends but it doesn't break",
+  "language": "unknown",
+  "processing_time_seconds": 19.043404,
+  "timestamp": "2026-06-08T09:48:59.932536",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        6.22
+      ],
+      "text": " Looking at the seven societies, I feel that a major value is missing from all of them."
+    },
+    {
+      "timestamp": [
+        6.62,
+        8.72
+      ],
+      "text": " The value of constructive friction."
+    },
+    {
+      "timestamp": [
+        9.32,
+        16.42
+      ],
+      "text": " The idea that disagreement, play, and unplanned human interaction are actually essential for the health and innovation."
+    },
+    {
+      "timestamp": [
+        17.04,
+        20.7
+      ],
+      "text": " Every utopia list tries to solve a problem by eliminating something."
+    },
+    {
+      "timestamp": [
+        20.7,
+        30.54
+      ],
+      "text": " They eliminate waste, eliminate green, eliminate ambiguity, eliminate selfishness, eliminate disorder, or eliminate modernity."
+    },
+    {
+      "timestamp": [
+        30.88,
+        36.3
+      ],
+      "text": " But truly, a great society doesn't just eliminate problems, it embraces productive tension."
+    },
+    {
+      "timestamp": [
+        36.84,
+        42.78
+      ],
+      "text": " So the missing future society I would propose is the dynamic Tango utopia in the society."
+    },
+    {
+      "timestamp": [
+        43.24,
+        48.7
+      ],
+      "text": " In this society, systems are intentionally designed with safety valves for chaos."
+    },
+    {
+      "timestamp": [
+        48.7,
+        68.64
+      ],
+      "text": " There are public squares where spontaneous art, protest, and debate are not just related but encouraged. Digital and analog words coexist in tension, not fully all control, not full primitive, but a constant back and forth where humans manually override algorithms whenever they choose."
+    },
+    {
+      "timestamp": [
+        68.94,
+        68.64
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        70.72,
+        75.24
+      ],
+      "text": " Failure is seen as a feature It's a society that does not optimize everything for maximum efficiency"
+    },
+    {
+      "timestamp": [
+        75.24,
+        77.48
+      ],
+      "text": " Because efficiency kills resilience"
+    },
+    {
+      "timestamp": [
+        77.48,
+        80.76
+      ],
+      "text": " A perfect efficient system breaks all at once"
+    },
+    {
+      "timestamp": [
+        80.76,
+        87.04
+      ],
+      "text": " A system with a slack play and redundancy bends but it doesn't break"
+    }
+  ]
+}

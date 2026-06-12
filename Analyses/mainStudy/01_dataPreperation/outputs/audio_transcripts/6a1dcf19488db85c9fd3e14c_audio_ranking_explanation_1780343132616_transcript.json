@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1dcf19488db85c9fd3e14c_audio_ranking_explanation_1780343132616.webm",
+  "transcript": " I believe that an institutional utopia would be the best scenario here, as the rule of law helps bring order to society. In a religious utopia, faith-based order is wide-encompassing and helps bring a sense of purpose to people. A green utopia would rank third due to its sustainability, followed by a moral commonwealth because intermorality is necessary for the survival of a society. A primitivist utopia would be unideal, but preferable to a futurist or AI-centered utopia, which I view as directly unsustainable in the long run.",
+  "language": "unknown",
+  "processing_time_seconds": 10.667799,
+  "timestamp": "2026-06-08T11:29:33.694776",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.1
+      ],
+      "text": " I believe that an institutional utopia would be the best scenario here, as the rule of law helps bring order to society."
+    },
+    {
+      "timestamp": [
+        11.1,
+        20.02
+      ],
+      "text": " In a religious utopia, faith-based order is wide-encompassing and helps bring a sense of purpose to people."
+    },
+    {
+      "timestamp": [
+        20.8,
+        20.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.1,
+        31.92
+      ],
+      "text": " A green utopia would rank third due to its sustainability, followed by a moral commonwealth because intermorality is necessary for the survival of a society."
+    },
+    {
+      "timestamp": [
+        44.26,
+        null
+      ],
+      "text": " A primitivist utopia would be unideal, but preferable to a futurist or AI-centered utopia, which I view as directly unsustainable in the long run."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "audio_file": "69c5d1997571942e781bc34d_audio_missing_utopia_1780440462864.webm",
+  "transcript": " um maybe like an ideal i would maybe want in a in my personal utopia would be kind of maybe like a more moderate but conservative leaning utopia i don't know what that would look like but um so sustainable but also we're able to keep our freedoms um advancing and capitalism and all that but also checks and balances so we don't go too far in a society that pushes, you know, things and habits and ideal, you know, just things that are good for us. Marriage, children, family, faith, those kinds of things. So yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 10.490335,
+  "timestamp": "2026-06-08T09:23:26.795206",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.16
+      ],
+      "text": " um maybe like an ideal i would maybe want in a in my personal utopia would be kind of"
+    },
+    {
+      "timestamp": [
+        10.16,
+        16.82
+      ],
+      "text": " maybe like a more moderate but conservative leaning utopia i don't know what that would"
+    },
+    {
+      "timestamp": [
+        16.82,
+        25.6
+      ],
+      "text": " look like but um so sustainable but also we're able to keep our freedoms um advancing and"
+    },
+    {
+      "timestamp": [
+        25.6,
+        29.5
+      ],
+      "text": " capitalism and all that but also checks and balances so we don't go too far"
+    },
+    {
+      "timestamp": [
+        29.5,
+        39.46
+      ],
+      "text": " in a society that pushes, you know, things and habits and"
+    },
+    {
+      "timestamp": [
+        39.46,
+        50.42
+      ],
+      "text": " ideal, you know, just things that are good for us. Marriage, children, family, faith,"
+    },
+    {
+      "timestamp": [
+        51.42,
+        53.3
+      ],
+      "text": " those kinds of things. So yeah."
+    }
+  ]
+}

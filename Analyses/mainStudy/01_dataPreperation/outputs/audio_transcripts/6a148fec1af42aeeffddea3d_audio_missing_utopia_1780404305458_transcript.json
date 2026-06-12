@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a148fec1af42aeeffddea3d_audio_missing_utopia_1780404305458.webm",
+  "transcript": " I think that even the, like, moral society and the green technology society, the ones that I was really drawn to, I do think that there would need to be more of a, you know, law enforcement component. Definitely not traditional law enforcement, but people should be punished for making the society a worse, less functioning place. So if someone cannot cooperate and steps out of line, there should be some sort of disciplinary process and potentially, you know, that person no longer has access to the resources of the community. if they are not contributing to the best of their ability.",
+  "language": "unknown",
+  "processing_time_seconds": 12.890314,
+  "timestamp": "2026-06-08T11:01:15.223857",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.84
+      ],
+      "text": " I think that even the, like, moral society and the green technology society, the ones that I was really drawn to, I do think that there would need to be more of a, you know, law enforcement component."
+    },
+    {
+      "timestamp": [
+        21.84,
+        37.04
+      ],
+      "text": " Definitely not traditional law enforcement, but people should be punished for making the society a worse, less functioning place."
+    },
+    {
+      "timestamp": [
+        37.04,
+        51.74
+      ],
+      "text": " So if someone cannot cooperate and steps out of line, there should be some sort of disciplinary process and potentially, you know, that person no longer has access to the resources of the community."
+    },
+    {
+      "timestamp": [
+        51.84,
+        54.54
+      ],
+      "text": " if they are not contributing to the best of their ability."
+    }
+  ]
+}

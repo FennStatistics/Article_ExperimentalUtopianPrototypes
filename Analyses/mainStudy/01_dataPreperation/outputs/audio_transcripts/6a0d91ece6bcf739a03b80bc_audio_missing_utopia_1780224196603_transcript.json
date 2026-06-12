@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0d91ece6bcf739a03b80bc_audio_missing_utopia_1780224196603.webm",
+  "transcript": " No, I think it was actually really well done.",
+  "language": "unknown",
+  "processing_time_seconds": 4.555722,
+  "timestamp": "2026-06-08T10:42:25.837398",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.7
+      ],
+      "text": " No, I think it was actually really well done."
+    }
+  ]
+}

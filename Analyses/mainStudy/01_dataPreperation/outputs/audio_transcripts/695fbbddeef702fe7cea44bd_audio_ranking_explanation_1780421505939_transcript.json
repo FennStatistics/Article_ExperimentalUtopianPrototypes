@@ -1,0 +1,80 @@
+{
+  "audio_file": "695fbbddeef702fe7cea44bd_audio_ranking_explanation_1780421505939.webm",
+  "transcript": " uh for me personally i did the modern green utopia first the sustainable and secure one because that's how i think it would be best honestly just like enough just enough to get by live off the land only take what you need no mass uh farming or anything like that just like a small kind of rural community uh low tech was second did the science innovation third um intermorality i put like midway just because i feel like that's a big thing for me the morals not so much policing like every i mean you should know the difference between good and bad honestly if uh you're an adult or even kids even though sometimes they get it confused but that's why you lead them by example uh anyway did religious fifth uh rule of law six and ai dead last like it sounds like a good idea but i feel like that could be corrupted easily so a little skeptical on that one",
+  "language": "unknown",
+  "processing_time_seconds": 14.817813,
+  "timestamp": "2026-06-08T08:53:08.900697",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.78
+      ],
+      "text": " uh for me personally i did the modern green utopia first the sustainable and secure one"
+    },
+    {
+      "timestamp": [
+        8.78,
+        16.08
+      ],
+      "text": " because that's how i think it would be best honestly just like enough just enough to get"
+    },
+    {
+      "timestamp": [
+        16.08,
+        23.48
+      ],
+      "text": " by live off the land only take what you need no mass uh farming or anything like that just"
+    },
+    {
+      "timestamp": [
+        23.48,
+        33.5
+      ],
+      "text": " like a small kind of rural community uh low tech was second did the science innovation third"
+    },
+    {
+      "timestamp": [
+        33.5,
+        43.42
+      ],
+      "text": " um intermorality i put like midway just because i feel like that's a big thing for me the morals"
+    },
+    {
+      "timestamp": [
+        43.42,
+        49.88
+      ],
+      "text": " not so much policing like every i mean you should know the difference between good and bad honestly"
+    },
+    {
+      "timestamp": [
+        49.88,
+        56.92
+      ],
+      "text": " if uh you're an adult or even kids even though sometimes they get it confused but that's why"
+    },
+    {
+      "timestamp": [
+        56.92,
+        66.66
+      ],
+      "text": " you lead them by example uh anyway did religious fifth uh rule of law six and ai dead last like"
+    },
+    {
+      "timestamp": [
+        66.66,
+        72.54
+      ],
+      "text": " it sounds like a good idea but i feel like that could be corrupted easily so a little skeptical"
+    },
+    {
+      "timestamp": [
+        72.54,
+        73.22
+      ],
+      "text": " on that one"
+    }
+  ]
+}

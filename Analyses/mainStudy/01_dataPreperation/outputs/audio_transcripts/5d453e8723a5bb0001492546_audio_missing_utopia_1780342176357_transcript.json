@@ -1,0 +1,157 @@
+{
+  "audio_file": "5d453e8723a5bb0001492546_audio_missing_utopia_1780342176357.webm",
+  "transcript": " I mean, it's sort of like a blended environment. I mean, I don't see why everything has to be, you know, one or the other. Why can't, you know, some aspects be, you know, maybe green and sustainable, but then in other aspects, like a moral commonality or, or I mean, I don't know, maybe just, you know, using AI in certain instances or, I mean, I don't know. It's just, it seems too stringent. So I mean, there's some sort of hybrid or a mixture of, you know, of all the societal options. Or even a, I don't know, like a, I don't know how to phrase this, but like a hallucinated environment. you know something like a matrix kind of situation where you know people uh the shared society is maybe uh a creation and then i guess maybe that's going too far-fetched uh i don't know it just uh it seemed unrealistic i guess you know to have maybe only a single vision or a single categorical option because i mean i figured you know no option is going to be the best but the best option is going to be you know a little bit of this and a little bit of that because you know no one solution fits all situations uh i guess i mean as far as like what would matter most um the outcomes i mean as long as it works so i think that kind of goes back to you know one situation doesn't have or one solution doesn't fit all situations i mean so you just need to find the right tool for the right situation for the right job um so i mean there's got to be flexibility but there's also got to be you know some moral foundations some rule-based foundations I mean there's got any laws but then there's also have the opportunities feel where the laws need to be broken so I mean however you know that would kind of come together",
+  "language": "unknown",
+  "processing_time_seconds": 29.916305,
+  "timestamp": "2026-06-08T08:14:08.063907",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.98
+      ],
+      "text": " I mean, it's sort of like a blended environment."
+    },
+    {
+      "timestamp": [
+        6.36,
+        10.2
+      ],
+      "text": " I mean, I don't see why everything has to be, you know, one or the other."
+    },
+    {
+      "timestamp": [
+        10.2,
+        28.38
+      ],
+      "text": " Why can't, you know, some aspects be, you know, maybe green and sustainable, but then in other aspects, like a moral commonality or, or I mean, I don't know, maybe just, you know, using AI in certain instances or, I mean, I don't know."
+    },
+    {
+      "timestamp": [
+        28.38,
+        31.08
+      ],
+      "text": " It's just, it seems too stringent."
+    },
+    {
+      "timestamp": [
+        31.16,
+        38.06
+      ],
+      "text": " So I mean, there's some sort of hybrid or a mixture of, you know, of all the societal options."
+    },
+    {
+      "timestamp": [
+        42.3,
+        51.34
+      ],
+      "text": " Or even a, I don't know, like a, I don't know how to phrase this, but like a hallucinated environment."
+    },
+    {
+      "timestamp": [
+        51.34,
+        58.14
+      ],
+      "text": " you know something like a matrix kind of situation where you know people uh"
+    },
+    {
+      "timestamp": [
+        58.86,
+        68.54
+      ],
+      "text": " the shared society is maybe uh a creation and then i guess maybe that's going too far-fetched"
+    },
+    {
+      "timestamp": [
+        70.7,
+        74.94
+      ],
+      "text": " uh i don't know it just uh it seemed"
+    },
+    {
+      "timestamp": [
+        78.38,
+        74.94
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        85.56,
+        89.64
+      ],
+      "text": " unrealistic i guess you know to have maybe only a single vision or a single categorical option because i mean i figured you know no option is going to be the best but"
+    },
+    {
+      "timestamp": [
+        89.64,
+        93.42
+      ],
+      "text": " the best option is going to be you know a little bit of this and a little bit of that"
+    },
+    {
+      "timestamp": [
+        93.42,
+        99.6
+      ],
+      "text": " because you know no one solution fits all situations uh"
+    },
+    {
+      "timestamp": [
+        104.94,
+        111.02
+      ],
+      "text": " i guess i mean as far as like what would matter most um"
+    },
+    {
+      "timestamp": [
+        111.02,
+        120.14
+      ],
+      "text": " the outcomes i mean as long as it works so i think that kind of goes back to you know one"
+    },
+    {
+      "timestamp": [
+        120.14,
+        124.92
+      ],
+      "text": " situation doesn't have or one solution doesn't fit all situations i mean so you just need to"
+    },
+    {
+      "timestamp": [
+        124.92,
+        132.12
+      ],
+      "text": " find the right tool for the right situation for the right job um so i mean there's got to be"
+    },
+    {
+      "timestamp": [
+        132.12,
+        137.88
+      ],
+      "text": " flexibility but there's also got to be you know some moral foundations some"
+    },
+    {
+      "timestamp": [
+        137.88,
+        142.6
+      ],
+      "text": " rule-based foundations I mean there's got any laws but then there's also have"
+    },
+    {
+      "timestamp": [
+        142.6,
+        146.92
+      ],
+      "text": " the opportunities feel where the laws need to be broken"
+    },
+    {
+      "timestamp": [
+        148.04,
+        153.32
+      ],
+      "text": " so I mean however you know that would kind of come together"
+    }
+  ]
+}

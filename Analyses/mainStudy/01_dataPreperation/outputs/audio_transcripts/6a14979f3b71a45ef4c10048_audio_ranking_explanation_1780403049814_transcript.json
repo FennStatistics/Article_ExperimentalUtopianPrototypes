@@ -1,0 +1,129 @@
+{
+  "audio_file": "6a14979f3b71a45ef4c10048_audio_ranking_explanation_1780403049814.webm",
+  "transcript": " um okay so what were my modern green utopia um the primitive institution to religious utopia i so for all of them 100 years in the future we just were recovering from some large disaster um and in that case i feel like ideally i don't know if the disaster is war if I have to assume it's probably something to that effect and I just feel like sustainability would be the best direction to go I'm picturing a fallout like universe um but even not it just It would be closer to a utopia in my mind with less disease, a blusher planet, cleaner water. I just feel like all around you would get closer to a utopia if you focus on sustainability. the primitivist utopia is more of a personal preference because sometimes the world feels too tech forward too big too heavy too much all the time and it's very idealized in my head to scale everything back by like at least 50 percent everything from there is sort of like institutional, futurist, moral, those are all kind of interchangeable. For me, institutionalist is above moral because I would more trust objective, it's like no law is objective, but like laws that aim for objectivity over laws based on the subjectivity of one's own morals. Morals shift and can be twisted depending on who is stating the morals so i just that's not futurist utopia that's the like opposite of a modern green utopia but i consider the ai-centered utopia even further away from a modern green utopia and then religious utopia is just that's taking us back to like congregationalism and i we've moved away from that we don't need to go back to that",
+  "language": "unknown",
+  "processing_time_seconds": 27.254549,
+  "timestamp": "2026-06-08T11:02:20.400997",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.58
+      ],
+      "text": " um okay so what were my modern green utopia um the primitive institution to religious utopia"
+    },
+    {
+      "timestamp": [
+        10.58,
+        21.0
+      ],
+      "text": " i so for all of them 100 years in the future we just were recovering from some large disaster"
+    },
+    {
+      "timestamp": [
+        23.0,
+        28.84
+      ],
+      "text": " um and in that case i feel like ideally i don't know if the disaster is war"
+    },
+    {
+      "timestamp": [
+        28.84,
+        36.06
+      ],
+      "text": " if I have to assume it's probably something to that effect and I just feel like sustainability"
+    },
+    {
+      "timestamp": [
+        36.06,
+        48.8
+      ],
+      "text": " would be the best direction to go I'm picturing a fallout like universe um but even not it just"
+    },
+    {
+      "timestamp": [
+        48.8,
+        60.92
+      ],
+      "text": " It would be closer to a utopia in my mind with less disease, a blusher planet, cleaner water."
+    },
+    {
+      "timestamp": [
+        62.02,
+        68.76
+      ],
+      "text": " I just feel like all around you would get closer to a utopia if you focus on sustainability."
+    },
+    {
+      "timestamp": [
+        70.76,
+        68.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        77.42,
+        86.94
+      ],
+      "text": " the primitivist utopia is more of a personal preference because sometimes the world feels too tech forward too big too heavy too much all the time and it's very idealized in my head"
+    },
+    {
+      "timestamp": [
+        86.94,
+        96.0
+      ],
+      "text": " to scale everything back by like at least 50 percent everything from there is sort of like"
+    },
+    {
+      "timestamp": [
+        96.0,
+        103.2
+      ],
+      "text": " institutional, futurist, moral, those are all kind of interchangeable. For me, institutionalist"
+    },
+    {
+      "timestamp": [
+        103.2,
+        113.58
+      ],
+      "text": " is above moral because I would more trust objective, it's like no law is objective, but like"
+    },
+    {
+      "timestamp": [
+        113.58,
+        123.66
+      ],
+      "text": " laws that aim for objectivity over laws based on the subjectivity of one's own morals. Morals shift"
+    },
+    {
+      "timestamp": [
+        123.66,
+        130.7
+      ],
+      "text": " and can be twisted depending on who is stating the morals so i just that's not futurist utopia"
+    },
+    {
+      "timestamp": [
+        130.7,
+        137.5
+      ],
+      "text": " that's the like opposite of a modern green utopia but i consider the ai-centered utopia even further"
+    },
+    {
+      "timestamp": [
+        137.5,
+        144.06
+      ],
+      "text": " away from a modern green utopia and then religious utopia is just that's taking us back to"
+    },
+    {
+      "timestamp": [
+        145.26,
+        150.54
+      ],
+      "text": " like congregationalism and i we've moved away from that we don't need to go back to that"
+    }
+  ]
+}

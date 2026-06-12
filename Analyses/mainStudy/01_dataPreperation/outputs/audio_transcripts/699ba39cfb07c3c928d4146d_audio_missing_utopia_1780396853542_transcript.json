@@ -1,0 +1,164 @@
+{
+  "audio_file": "699ba39cfb07c3c928d4146d_audio_missing_utopia_1780396853542.webm",
+  "transcript": " um looking back at the seven societies that I just rank um the important values for me um pretty much were present in some of them um I feel like there will never be a perfect society um however I do believe that people can live in harmony and peace if it's something that is worked on with everyone if everyone's willing um i don't think anything was missing from any of the societies i just feel like there was a little bit of each certain society that could be used in order to create a semi-perfect society like i would take some values from the more green oriented society to make sure that everything is sustainable for the future. Then I would take some parts from the morality type future and instill some of those values. Then I would take some from the scientific one because science and technology are very important in society in order to progress. So I would use some of those values as well to create a society. I feel like all societies need some kind of law and governance. So therefore, again, on that type of society, I would take some of those traits and add it into my perfect society. And even though I'm not a huge fan of AI, I do feel like AI can be useful sometimes. So again, I would use some of those traits of that society, but to a certain limit and extent, not have it fully ruled over and even though I'm a person that doesn't believe in religion half of the world does believe in religion more than half the world believes in religion and I feel like it is part of society and that people need something to believe in and so that I would also want some parts of religion, but not to rule a whole society, but that people have the option to have religion as well as for people that don't believe in religion have the option to not believe in religion and believe in science. I think that taking traits from each single type of society that was listed, I think would be better to form a more well-rounded society.",
+  "language": "unknown",
+  "processing_time_seconds": 33.724279,
+  "timestamp": "2026-06-08T09:07:25.034614",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.78
+      ],
+      "text": " um looking back at the seven societies that I just rank um the important values for me"
+    },
+    {
+      "timestamp": [
+        8.78,
+        17.48
+      ],
+      "text": " um pretty much were present in some of them um I feel like"
+    },
+    {
+      "timestamp": [
+        17.48,
+        26.68
+      ],
+      "text": " there will never be a perfect society um however I do believe that people can live in harmony and"
+    },
+    {
+      "timestamp": [
+        26.68,
+        36.0
+      ],
+      "text": " peace if it's something that is worked on with everyone if everyone's willing um i don't think"
+    },
+    {
+      "timestamp": [
+        36.0,
+        42.54
+      ],
+      "text": " anything was missing from any of the societies i just feel like there was a little bit of each"
+    },
+    {
+      "timestamp": [
+        42.54,
+        53.0
+      ],
+      "text": " certain society that could be used in order to create a semi-perfect society like i would take"
+    },
+    {
+      "timestamp": [
+        53.0,
+        64.76
+      ],
+      "text": " some values from the more green oriented society to make sure that everything is sustainable for"
+    },
+    {
+      "timestamp": [
+        64.76,
+        75.0
+      ],
+      "text": " the future. Then I would take some parts from the morality type future and instill some of those"
+    },
+    {
+      "timestamp": [
+        75.0,
+        84.26
+      ],
+      "text": " values. Then I would take some from the scientific one because science and technology are very"
+    },
+    {
+      "timestamp": [
+        84.26,
+        90.7
+      ],
+      "text": " important in society in order to progress. So I would use some of those values as well to create"
+    },
+    {
+      "timestamp": [
+        90.7,
+        99.24
+      ],
+      "text": " a society. I feel like all societies need some kind of law and governance. So therefore, again,"
+    },
+    {
+      "timestamp": [
+        99.38,
+        99.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        106.5,
+        108.76
+      ],
+      "text": " on that type of society, I would take some of those traits and add it into my perfect society."
+    },
+    {
+      "timestamp": [
+        118.4,
+        119.06
+      ],
+      "text": " And even though I'm not a huge fan of AI, I do feel like AI can be useful sometimes. So again,"
+    },
+    {
+      "timestamp": [
+        126.02,
+        126.36
+      ],
+      "text": " I would use some of those traits of that society, but to a certain limit and extent,"
+    },
+    {
+      "timestamp": [
+        126.02,
+        133.9
+      ],
+      "text": " not have it fully ruled over and even though I'm a person that doesn't believe in religion"
+    },
+    {
+      "timestamp": [
+        133.9,
+        143.0
+      ],
+      "text": " half of the world does believe in religion more than half the world believes in religion and I"
+    },
+    {
+      "timestamp": [
+        143.0,
+        151.46
+      ],
+      "text": " feel like it is part of society and that people need something to believe in and so that I would"
+    },
+    {
+      "timestamp": [
+        151.46,
+        160.78
+      ],
+      "text": " also want some parts of religion, but not to rule a whole society, but that people have the option"
+    },
+    {
+      "timestamp": [
+        160.78,
+        168.42
+      ],
+      "text": " to have religion as well as for people that don't believe in religion have the option to not believe"
+    },
+    {
+      "timestamp": [
+        168.42,
+        176.52
+      ],
+      "text": " in religion and believe in science. I think that taking traits from each single type of society"
+    },
+    {
+      "timestamp": [
+        176.52,
+        184.92
+      ],
+      "text": " that was listed, I think would be better to form a more well-rounded society."
+    }
+  ]
+}

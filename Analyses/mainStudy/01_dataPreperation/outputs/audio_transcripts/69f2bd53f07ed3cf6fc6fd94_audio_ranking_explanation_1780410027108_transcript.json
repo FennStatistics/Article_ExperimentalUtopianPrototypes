@@ -1,0 +1,290 @@
+{
+  "audio_file": "69f2bd53f07ed3cf6fc6fd94_audio_ranking_explanation_1780410027108.webm",
+  "transcript": " okay so i put futurist utopia on top because i think that uh human innovation and human progress is our most important trait i think that it's the most interesting thing about us it is the defining thing about us you know so many of us live in the framework of the society that we do today because of the innovations that were made before we were alive. And I would want to see that progress continue into the future. When it comes to questions of resource scarcity, I imagine that we would probably be able to find a solution to that in the future if we kept innovating purely for the sake of innovation rather than like profit. I ranked modern green utopia number two because i would want scientific progress first and then i want a sustainable pleasant green environment to live in as like the second biggest priority but like these two are practically interchangeable for me um i live in georgia uh there is a lot of green here still even in the suburban and human urban big city areas we keep our trees here and there are pictures of places across the country that I've seen where there is no green at all in the big cities no green at all in the suburbs it's just flat grass and trees and hot or it's flat grass no trees houses hot and miserable I live in a suburban neighborhood that has lots of very old very tall trees everywhere And I love it. And I would love to see that kind of philosophy of like, keep the trees. People need trees for shade and for green and for nice air like that. That needs to be everywhere. Right. So number one and number two of those. uh number three i put institutional utopia because i do believe in the rule of law but i don't exactly believe in like rule of law to the letter harsh and clear consequences as was described in like the hypothetical prompt you know i there's nuance to all of this and all of the hypothetical scenarios presented this like singular you know very focused like if it was just law right so i believe that you do need to have a formal rule of law with clear and present consequences i think that there should be wiggle room for personal morality because the law isn't always moral sometimes bad laws get you know put into writing and then those bad laws get taken out of writing law is malleable in an absolutist rule of law society i don't think that there would be much wiggle room which is why it's number three instead of number one or two right like you need the rule of law but you need you know other priorities the moral commonwealth society almost entirely governed by personal morals in number four that sounds like a nice idea but there's just you know i live in the real world the same as everybody else i know that there are some people that uh just don't seem to be bound by an inner morality and that's why you know you have to have formalized consequences for certain things uh number number five the primitivist utopia um again this is just like a nice thing it sounds it sounds like a nice thing uh but you know you don't want the absolutist nature of it um religious utopia i'm not a religious person and i don't think that the idea of a state religion is a good idea ai-centered utopia is at the bottom i think that the phrase ai-centered utopia is an oxymoron due to the highly inefficient and highly ineffective nature of most ai technologies currently ai in itself is a misnomer it's a large language model it just runs statistical probabilities on what words show up in what order or what pixels show up in what order in a video it's not intelligent so and plus there's so much like noise in data that like you couldn't govern in a society based on data because you ever data is so flooded with irrelevant information based in nothing that it would just start feeding into itself like it wouldn't work at all so ai based utopia is not a utopia",
+  "language": "unknown",
+  "processing_time_seconds": 56.496137,
+  "timestamp": "2026-06-08T09:56:19.635161",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.34
+      ],
+      "text": " okay so i put futurist utopia on top because i think that uh human innovation and human progress"
+    },
+    {
+      "timestamp": [
+        12.34,
+        21.32
+      ],
+      "text": " is our most important trait i think that it's the most interesting thing about us it is the"
+    },
+    {
+      "timestamp": [
+        21.32,
+        26.64
+      ],
+      "text": " defining thing about us you know so many of us live in the framework of the society that we do"
+    },
+    {
+      "timestamp": [
+        26.64,
+        31.5
+      ],
+      "text": " today because of the innovations that were made before we were alive. And I would want to see that"
+    },
+    {
+      "timestamp": [
+        31.5,
+        38.72
+      ],
+      "text": " progress continue into the future. When it comes to questions of resource scarcity, I imagine that"
+    },
+    {
+      "timestamp": [
+        38.72,
+        44.94
+      ],
+      "text": " we would probably be able to find a solution to that in the future if we kept innovating purely"
+    },
+    {
+      "timestamp": [
+        44.94,
+        52.56
+      ],
+      "text": " for the sake of innovation rather than like profit. I ranked modern green utopia number two"
+    },
+    {
+      "timestamp": [
+        52.56,
+        63.86
+      ],
+      "text": " because i would want scientific progress first and then i want a sustainable pleasant green"
+    },
+    {
+      "timestamp": [
+        63.86,
+        69.88
+      ],
+      "text": " environment to live in as like the second biggest priority but like these two are practically"
+    },
+    {
+      "timestamp": [
+        69.88,
+        77.98
+      ],
+      "text": " interchangeable for me um i live in georgia uh there is a lot of green here still even in the"
+    },
+    {
+      "timestamp": [
+        77.98,
+        86.68
+      ],
+      "text": " suburban and human urban big city areas we keep our trees here and there are pictures of places"
+    },
+    {
+      "timestamp": [
+        86.68,
+        92.28
+      ],
+      "text": " across the country that I've seen where there is no green at all in the big cities no green at all"
+    },
+    {
+      "timestamp": [
+        92.28,
+        99.74
+      ],
+      "text": " in the suburbs it's just flat grass and trees and hot or it's flat grass no trees houses hot and"
+    },
+    {
+      "timestamp": [
+        99.74,
+        107.58
+      ],
+      "text": " miserable I live in a suburban neighborhood that has lots of very old very tall trees everywhere"
+    },
+    {
+      "timestamp": [
+        107.58,
+        127.86
+      ],
+      "text": " And I love it. And I would love to see that kind of philosophy of like, keep the trees. People need trees for shade and for green and for nice air like that. That needs to be everywhere. Right. So number one and number two of those."
+    },
+    {
+      "timestamp": [
+        128.9,
+        127.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        135.72,
+        143.86
+      ],
+      "text": " uh number three i put institutional utopia because i do believe in the rule of law but i don't exactly believe in like rule of law to the letter harsh and clear consequences as was described in"
+    },
+    {
+      "timestamp": [
+        143.86,
+        149.76
+      ],
+      "text": " like the hypothetical prompt you know i there's nuance to all of this and all of the hypothetical"
+    },
+    {
+      "timestamp": [
+        149.76,
+        159.56
+      ],
+      "text": " scenarios presented this like singular you know very focused like if it was just law right so i"
+    },
+    {
+      "timestamp": [
+        159.56,
+        166.72
+      ],
+      "text": " believe that you do need to have a formal rule of law with clear and present consequences i think"
+    },
+    {
+      "timestamp": [
+        166.72,
+        171.18
+      ],
+      "text": " that there should be wiggle room for personal morality because the law isn't always moral"
+    },
+    {
+      "timestamp": [
+        171.18,
+        177.16
+      ],
+      "text": " sometimes bad laws get you know put into writing and then those bad laws get taken out of writing"
+    },
+    {
+      "timestamp": [
+        177.16,
+        182.82
+      ],
+      "text": " law is malleable in an absolutist rule of law society i don't think that there would be much"
+    },
+    {
+      "timestamp": [
+        182.82,
+        188.2
+      ],
+      "text": " wiggle room which is why it's number three instead of number one or two right like you need the rule"
+    },
+    {
+      "timestamp": [
+        188.2,
+        197.1
+      ],
+      "text": " of law but you need you know other priorities the moral commonwealth society almost entirely"
+    },
+    {
+      "timestamp": [
+        197.1,
+        203.24
+      ],
+      "text": " governed by personal morals in number four that sounds like a nice idea but there's just"
+    },
+    {
+      "timestamp": [
+        203.24,
+        208.5
+      ],
+      "text": " you know i live in the real world the same as everybody else i know that there are some people"
+    },
+    {
+      "timestamp": [
+        208.5,
+        216.32
+      ],
+      "text": " that uh just don't seem to be bound by an inner morality and that's why you know you have to have"
+    },
+    {
+      "timestamp": [
+        216.32,
+        224.4
+      ],
+      "text": " formalized consequences for certain things uh number number five the primitivist utopia"
+    },
+    {
+      "timestamp": [
+        224.4,
+        232.12
+      ],
+      "text": " um again this is just like a nice thing it sounds it sounds like a nice thing"
+    },
+    {
+      "timestamp": [
+        232.12,
+        242.3
+      ],
+      "text": " uh but you know you don't want the absolutist nature of it um religious utopia i'm not a"
+    },
+    {
+      "timestamp": [
+        242.3,
+        246.04
+      ],
+      "text": " religious person and i don't think that the idea of a state religion is a good idea"
+    },
+    {
+      "timestamp": [
+        246.04,
+        254.7
+      ],
+      "text": " ai-centered utopia is at the bottom i think that the phrase ai-centered utopia is an oxymoron"
+    },
+    {
+      "timestamp": [
+        254.7,
+        261.54
+      ],
+      "text": " due to the highly inefficient and highly ineffective nature of most ai technologies"
+    },
+    {
+      "timestamp": [
+        261.54,
+        268.5
+      ],
+      "text": " currently ai in itself is a misnomer it's a large language model it just runs statistical"
+    },
+    {
+      "timestamp": [
+        268.5,
+        275.54
+      ],
+      "text": " probabilities on what words show up in what order or what pixels show up in what order in a video"
+    },
+    {
+      "timestamp": [
+        275.54,
+        285.38
+      ],
+      "text": " it's not intelligent so and plus there's so much like noise in data that like you couldn't govern"
+    },
+    {
+      "timestamp": [
+        285.38,
+        294.44
+      ],
+      "text": " in a society based on data because you ever data is so flooded with irrelevant information based"
+    },
+    {
+      "timestamp": [
+        294.44,
+        301.02
+      ],
+      "text": " in nothing that it would just start feeding into itself like it wouldn't work at all so"
+    },
+    {
+      "timestamp": [
+        301.02,
+        303.48
+      ],
+      "text": " ai based utopia is not a utopia"
+    }
+  ]
+}

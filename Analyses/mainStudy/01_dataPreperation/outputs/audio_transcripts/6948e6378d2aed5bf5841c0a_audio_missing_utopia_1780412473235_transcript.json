@@ -1,0 +1,31 @@
+{
+  "audio_file": "6948e6378d2aed5bf5841c0a_audio_missing_utopia_1780412473235.webm",
+  "transcript": " I feel like all the important values were already represented, so I don't think there's anything missing that I know of currently, I don't think there's anything missing, so I think everything is, you know, all values were correctly and independently represented.",
+  "language": "unknown",
+  "processing_time_seconds": 5.997036,
+  "timestamp": "2026-06-08T08:51:55.814627",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.92
+      ],
+      "text": " I feel like all the important values were already represented, so I don't think there's"
+    },
+    {
+      "timestamp": [
+        10.92,
+        16.92
+      ],
+      "text": " anything missing that I know of currently, I don't think there's anything missing, so"
+    },
+    {
+      "timestamp": [
+        16.92,
+        23.4
+      ],
+      "text": " I think everything is, you know, all values were correctly and independently represented."
+    }
+  ]
+}

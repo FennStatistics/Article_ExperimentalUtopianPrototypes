@@ -1,0 +1,17 @@
+{
+  "audio_file": "69befa2e133968bfac9921bb_audio_missing_utopia_1780398381921.webm",
+  "transcript": " I would say my perfect vision of a society would be one that is economically, environmentally sustainable, where everyone is able to have what they need, there's room to grow, but not any small percentage has the majority of the wealth or resources, everyone has enough as far as their basic needs, and is able to be comfortable should, you know, for example, a medical emergency occur, they don't have to panic.",
+  "language": "unknown",
+  "processing_time_seconds": 6.987167,
+  "timestamp": "2026-06-08T09:19:42.339974",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.82
+      ],
+      "text": " I would say my perfect vision of a society would be one that is economically, environmentally sustainable, where everyone is able to have what they need, there's room to grow, but not any small percentage has the majority of the wealth or resources, everyone has enough as far as their basic needs, and is able to be comfortable should, you know, for example, a medical emergency occur, they don't have to panic."
+    }
+  ]
+}

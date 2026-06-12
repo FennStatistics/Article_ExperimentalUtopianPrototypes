@@ -1,0 +1,115 @@
+{
+  "audio_file": "63b6be1516a2c70bb43fbccd_audio_missing_utopia_1780398924597.webm",
+  "transcript": " I think that the morally driven one, the inner morality one, fits most closely with what the future society I would find ideal. I think that you know in that scenario everyone has the ability to use their inner morality to make good choices and there's not so much like societal pressure for you to like act a certain way but I think that's like the ideal society that I could imagine like I feel like you live in a society where like everyone can make their own decisions everyone can um you know live the life that they want to live and lead without like societal pressures um and other people forcing them to confine to certain standards so that's why I didn't like the rule of law I didn't like the religious one um because I feel like a lot of that has like structure that um makes you feel like you have to like be in a certain order and act a certain way. And I definitely feel like I love the diversity of people and how we all have different values and morals. And so that's why I liked the moral one. And I would take from that a little bit when I am talking about the future society that I had imagined. You know, everybody can act with their own inner morality, but then also take a little bit from like you know protecting earth and using a little bit of science um in order to like live on a planet that's sustainable and then also um you know have science to fall back on so i guess i would just take a little bit from all three of my top favorites",
+  "language": "unknown",
+  "processing_time_seconds": 24.842153,
+  "timestamp": "2026-06-08T08:27:09.525332",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.02
+      ],
+      "text": " I think that the morally driven one, the inner morality one, fits most closely with what the future society I would find ideal."
+    },
+    {
+      "timestamp": [
+        15.7,
+        15.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        23.66,
+        30.38
+      ],
+      "text": " I think that you know in that scenario everyone has the ability to use their inner morality to make good choices and there's not so much like societal pressure for you to like act a certain"
+    },
+    {
+      "timestamp": [
+        30.38,
+        40.56
+      ],
+      "text": " way but I think that's like the ideal society that I could imagine like I feel like you live"
+    },
+    {
+      "timestamp": [
+        40.56,
+        47.06
+      ],
+      "text": " in a society where like everyone can make their own decisions everyone can um you know live the"
+    },
+    {
+      "timestamp": [
+        47.06,
+        55.2
+      ],
+      "text": " life that they want to live and lead without like societal pressures um and other people forcing them"
+    },
+    {
+      "timestamp": [
+        55.2,
+        63.0
+      ],
+      "text": " to confine to certain standards so that's why I didn't like the rule of law I didn't like the"
+    },
+    {
+      "timestamp": [
+        63.0,
+        68.84
+      ],
+      "text": " religious one um because I feel like a lot of that has like structure that um makes you feel"
+    },
+    {
+      "timestamp": [
+        68.84,
+        74.88
+      ],
+      "text": " like you have to like be in a certain order and act a certain way. And I definitely feel like I"
+    },
+    {
+      "timestamp": [
+        74.88,
+        84.7
+      ],
+      "text": " love the diversity of people and how we all have different values and morals. And so that's why I"
+    },
+    {
+      "timestamp": [
+        84.7,
+        88.92
+      ],
+      "text": " liked the moral one. And I would take from that a little bit when I am talking about the future"
+    },
+    {
+      "timestamp": [
+        88.92,
+        96.42
+      ],
+      "text": " society that I had imagined. You know, everybody can act with their own inner morality, but then"
+    },
+    {
+      "timestamp": [
+        96.42,
+        101.3
+      ],
+      "text": " also take a little bit from like you know protecting earth and using a little bit of"
+    },
+    {
+      "timestamp": [
+        101.3,
+        112.18
+      ],
+      "text": " science um in order to like live on a planet that's sustainable and then also um you know have"
+    },
+    {
+      "timestamp": [
+        112.18,
+        119.6
+      ],
+      "text": " science to fall back on so i guess i would just take a little bit from all three of my top favorites"
+    }
+  ]
+}

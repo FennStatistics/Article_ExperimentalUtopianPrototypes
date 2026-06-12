@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a04b76d9bbaf4af16d57088_audio_missing_utopia_1780382912567.webm",
+  "transcript": " Emissing future society could be a balanced digital human society where technology improves life without replacing human connection. People will value mental well-being, equality, creativity and environmental care. Daily life will combine advanced technology with strong community relationships, allowing people to work smarter while still maintaining culture, emotion and social interactions.",
+  "language": "unknown",
+  "processing_time_seconds": 6.530441,
+  "timestamp": "2026-06-08T10:23:29.834053",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.84
+      ],
+      "text": " Emissing future society could be a balanced digital human society where technology improves"
+    },
+    {
+      "timestamp": [
+        7.84,
+        10.62
+      ],
+      "text": " life without replacing human connection."
+    },
+    {
+      "timestamp": [
+        10.62,
+        15.76
+      ],
+      "text": " People will value mental well-being, equality, creativity and environmental care."
+    },
+    {
+      "timestamp": [
+        15.76,
+        20.14
+      ],
+      "text": " Daily life will combine advanced technology with strong community relationships, allowing"
+    },
+    {
+      "timestamp": [
+        20.14,
+        25.86
+      ],
+      "text": " people to work smarter while still maintaining culture, emotion and social interactions."
+    }
+  ]
+}

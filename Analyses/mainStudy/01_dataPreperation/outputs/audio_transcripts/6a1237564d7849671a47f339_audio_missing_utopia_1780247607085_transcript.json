@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a1237564d7849671a47f339_audio_missing_utopia_1780247607085.webm",
+  "transcript": " So I think the biggest thing that I have a problem with, not based on the societies presented, but the biggest problem I have for any of these societies or any of these utopias, it seems like the people in charge, we always get to a point where they start taking advantage of people. so it's either there's too many people in power the person in power sucks up all the power and turns people against each other so i really don't like a society with a centralized voice a centralized message a centralized leader now can we even have a society without that without a central theme message leader idea i don't know i just The biggest problem I have is sometimes we get these leaders or, you know, lack thereof, these leaders who are just horrible.",
+  "language": "unknown",
+  "processing_time_seconds": 13.942773,
+  "timestamp": "2026-06-08T10:54:52.198840",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.16
+      ],
+      "text": " So I think the biggest thing that I have a problem with, not based on the societies presented, but the biggest problem I have for any of these societies or any of these utopias, it seems like the people in charge, we always get to a point where they start taking advantage of people."
+    },
+    {
+      "timestamp": [
+        21.68,
+        21.16
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        25.64,
+        33.38
+      ],
+      "text": " so it's either there's too many people in power the person in power sucks up all the power and turns people against each other so i really don't like a society with"
+    },
+    {
+      "timestamp": [
+        33.38,
+        42.68
+      ],
+      "text": " a centralized voice a centralized message a centralized leader now can we even have a society"
+    },
+    {
+      "timestamp": [
+        42.68,
+        50.44
+      ],
+      "text": " without that without a central theme message leader idea i don't know i just"
+    },
+    {
+      "timestamp": [
+        50.44,
+        61.72
+      ],
+      "text": " The biggest problem I have is sometimes we get these leaders or, you know, lack thereof, these leaders who are just horrible."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "audio_file": "69a37fa6ece253752a94a18b_audio_ranking_explanation_1780411432307.webm",
+  "transcript": " All right, for the modern green utopia, I think the fact that most things are sustainable and secure, it aligns more with nature and makes people have more to feed on, bank on they'll do less pollution and things around that aspect. For the future is utopia. I believe science, advancement in science actually is for the greater good. And that also backs up the reason why I put AI-centred utopia as number three. Most times, humans' government makes final decisions on laws and several things very much biased, more or less in the favor of those leading. But if AIs are used to moderate these things, it will be more or less biased, it will be more or less... We don't have a path to play in it, if you understand what I mean. Moving on to number four, the moral commonwealth. At the end of the day, if in a society, everyone decides to follow up morality to an extent, I feel it would probably be a very livable, livable community. And it's not like it would be a morality that is leading the society. As long as society is moral, society is bound to move forward. um absolute and small scale from the name i think if the community banks too much on having to manage their resources or not wanting to like you know scale out or like find um greener pastures they are bound to you know stay at one point or even fail to an extent and then the rule of law i feel like if you are too strict to an extent it just leads to the um suffering of others people who would only certain amount of people would bring faith from it and to an extent there are people who as bad as it sounds there are people who cannot do without you know at certain times breaking the law even if it is you know unintentionally or because of certain circumstances you understand what i mean and as for the last one i just feel like when it comes to religion it is very much um far-fetched or like um how would i put it there is not so much there's not so many backings to follow um these things so we can't just like rely on the deep of it to lead us unless it is duvid",
+  "language": "unknown",
+  "processing_time_seconds": 36.348336,
+  "timestamp": "2026-06-08T09:10:04.368304",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.38
+      ],
+      "text": " All right, for the modern green utopia, I think the fact that most things are sustainable"
+    },
+    {
+      "timestamp": [
+        11.38,
+        23.8
+      ],
+      "text": " and secure, it aligns more with nature and makes people have more to feed on, bank on"
+    },
+    {
+      "timestamp": [
+        23.8,
+        28.8
+      ],
+      "text": " they'll do less pollution and things around that aspect."
+    },
+    {
+      "timestamp": [
+        30.08,
+        31.88
+      ],
+      "text": " For the future is utopia."
+    },
+    {
+      "timestamp": [
+        31.88,
+        36.56
+      ],
+      "text": " I believe science, advancement in science"
+    },
+    {
+      "timestamp": [
+        36.56,
+        39.96
+      ],
+      "text": " actually is for the greater good."
+    },
+    {
+      "timestamp": [
+        39.96,
+        43.12
+      ],
+      "text": " And that also backs up the reason why"
+    },
+    {
+      "timestamp": [
+        43.12,
+        47.04
+      ],
+      "text": " I put AI-centred utopia as number three."
+    },
+    {
+      "timestamp": [
+        48.76,
+        47.04
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        65.04,
+        83.04
+      ],
+      "text": " Most times, humans' government makes final decisions on laws and several things very much biased, more or less in the favor of those leading. But if AIs are used to moderate these things, it will be more or less biased, it will be more or less..."
+    },
+    {
+      "timestamp": [
+        83.04,
+        88.04
+      ],
+      "text": " We don't have a path to play in it, if you understand what I mean."
+    },
+    {
+      "timestamp": [
+        88.04,
+        92.04
+      ],
+      "text": " Moving on to number four, the moral commonwealth."
+    },
+    {
+      "timestamp": [
+        92.04,
+        101.08
+      ],
+      "text": " At the end of the day, if in a society, everyone decides to follow up morality to an extent,"
+    },
+    {
+      "timestamp": [
+        101.08,
+        106.12
+      ],
+      "text": " I feel it would probably be a very livable, livable community."
+    },
+    {
+      "timestamp": [
+        106.92,
+        113.32
+      ],
+      "text": " And it's not like it would be a morality that is leading the society."
+    },
+    {
+      "timestamp": [
+        114.28,
+        118.6
+      ],
+      "text": " As long as society is moral, society is bound to move forward."
+    },
+    {
+      "timestamp": [
+        120.2,
+        119.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        125.8,
+        126.44
+      ],
+      "text": " um absolute and small scale from the name i think if the community banks too much on"
+    },
+    {
+      "timestamp": [
+        134.6,
+        141.72
+      ],
+      "text": " having to manage their resources or not wanting to like you know scale out or like find um greener pastures they are bound to you know stay at one point or even fail to an extent and then the rule"
+    },
+    {
+      "timestamp": [
+        141.72,
+        148.12
+      ],
+      "text": " of law i feel like if you are too strict to an extent it just leads to the um suffering of others"
+    },
+    {
+      "timestamp": [
+        148.6,
+        154.44
+      ],
+      "text": " people who would only certain amount of people would bring faith from it and to an extent there"
+    },
+    {
+      "timestamp": [
+        154.44,
+        163.4
+      ],
+      "text": " are people who as bad as it sounds there are people who cannot do without you know at certain"
+    },
+    {
+      "timestamp": [
+        163.4,
+        171.0
+      ],
+      "text": " times breaking the law even if it is you know unintentionally or because of certain circumstances"
+    },
+    {
+      "timestamp": [
+        171.0,
+        176.6
+      ],
+      "text": " you understand what i mean and as for the last one i just feel like when it comes to religion"
+    },
+    {
+      "timestamp": [
+        176.6,
+        184.6
+      ],
+      "text": " it is very much um far-fetched or like um how would i put it there is not so much"
+    },
+    {
+      "timestamp": [
+        184.6,
+        191.4
+      ],
+      "text": " there's not so many backings to follow um these things so we can't just like rely on"
+    },
+    {
+      "timestamp": [
+        191.4,
+        204.6
+      ],
+      "text": " the deep of it to lead us unless it is duvid"
+    }
+  ]
+}

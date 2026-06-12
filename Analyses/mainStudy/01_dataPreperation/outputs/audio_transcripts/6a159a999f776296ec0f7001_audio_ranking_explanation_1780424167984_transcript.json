@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a159a999f776296ec0f7001_audio_ranking_explanation_1780424167984.webm",
+  "transcript": " First, being with, I think that stuff with AI can be kind of tricky. I think that it can be used for good if it's used the right way. I think that having the government involved with things can be good. sometimes it gets taken too far or they don't follow the rules and stuff that they expect from everyone else so that can get tricky um I think that religion is more towards the bottom because everyone has such different views and morals so I think that that would be hard to like go just off of religion.",
+  "language": "unknown",
+  "processing_time_seconds": 12.541129,
+  "timestamp": "2026-06-08T11:04:52.738728",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.86
+      ],
+      "text": " First, being with, I think that stuff with AI can be kind of tricky."
+    },
+    {
+      "timestamp": [
+        11.22,
+        16.86
+      ],
+      "text": " I think that it can be used for good if it's used the right way."
+    },
+    {
+      "timestamp": [
+        19.38,
+        27.66
+      ],
+      "text": " I think that having the government involved with things can be good."
+    },
+    {
+      "timestamp": [
+        27.84,
+        27.66
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        37.34,
+        46.08
+      ],
+      "text": " sometimes it gets taken too far or they don't follow the rules and stuff that they expect from everyone else so that can get tricky um I think that religion is more towards the bottom"
+    },
+    {
+      "timestamp": [
+        46.08,
+        54.82
+      ],
+      "text": " because everyone has such different views and morals so I think that that would be hard to like"
+    },
+    {
+      "timestamp": [
+        54.82,
+        57.32
+      ],
+      "text": " go just off of religion."
+    }
+  ]
+}

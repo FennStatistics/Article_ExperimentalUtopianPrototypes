@@ -1,0 +1,143 @@
+{
+  "audio_file": "6a14868c742361e67df4d0d0_audio_missing_utopia_1780217918810.webm",
+  "transcript": " so to me the um the society that was missing um wasn't necessarily one society but an amalgamation of several of those aspects um you know society that incorporates the best of all of those things is really what i think we um we should push for as as you know collectively as people um i think just because of the uh the and maybe ai could help us get there you know because right now we have uh this collective because it's hard to have like a society that's built around a collective desire for peace or collective desire uh for like um the the the ability to preserve our environment um they're like the collaborative effort to do that is hindered by our our our biases towards one another are like whether it's a racial bias or a cultural bias or um i don't know any any of our other just uh human biases that we hold against one another uh um as a society that keep us from really forming those strong bonds and so I think me having a having a society where instead of AI being centric it's a tool to help us progress where we are focused I guess that to summarize it a a society that is focused on uh the advancement of collaborative like collaborative efforts with one another um rather than uh man how do i even how do i put it rather than uh i and i guess any one any one society that's so like attached to one certain sector um yeah just an amalgamation of all of them where where people are able to feel and express themselves but where we're doing the best thing for ourselves the best thing for but also the best thing for our world and i don't know maybe uh maybe an ai governed world is one of the best things for ourselves i think we'll just have to see where the technology goes",
+  "language": "unknown",
+  "processing_time_seconds": 28.228763,
+  "timestamp": "2026-06-08T11:00:25.316204",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.18
+      ],
+      "text": " so to me the um the society that was missing um wasn't necessarily one society but an amalgamation"
+    },
+    {
+      "timestamp": [
+        8.18,
+        16.06
+      ],
+      "text": " of several of those aspects um you know society that incorporates the best of all of those things"
+    },
+    {
+      "timestamp": [
+        16.06,
+        25.84
+      ],
+      "text": " is really what i think we um we should push for as as you know collectively as people um"
+    },
+    {
+      "timestamp": [
+        27.22,
+        25.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.44,
+        39.04
+      ],
+      "text": " i think just because of the uh the and maybe ai could help us get there you know because right now we have uh this collective because it's hard to have like a society that's built around a"
+    },
+    {
+      "timestamp": [
+        39.04,
+        48.46
+      ],
+      "text": " collective desire for peace or collective desire uh for like um the the the ability to preserve"
+    },
+    {
+      "timestamp": [
+        48.46,
+        56.78
+      ],
+      "text": " our environment um they're like the collaborative effort to do that is hindered by our"
+    },
+    {
+      "timestamp": [
+        58.62,
+        65.98
+      ],
+      "text": " our our biases towards one another are like whether it's a racial bias or a cultural bias or um"
+    },
+    {
+      "timestamp": [
+        68.86,
+        75.26
+      ],
+      "text": " i don't know any any of our other just uh human biases that we hold against one another uh um"
+    },
+    {
+      "timestamp": [
+        75.98,
+        75.26
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        83.74,
+        90.86
+      ],
+      "text": " as a society that keep us from really forming those strong bonds and so I think me having a having a society where instead of AI being centric it's a tool to help us"
+    },
+    {
+      "timestamp": [
+        90.86,
+        101.06
+      ],
+      "text": " progress where we are focused I guess that to summarize it a a society that is focused on"
+    },
+    {
+      "timestamp": [
+        101.06,
+        108.66
+      ],
+      "text": " uh the advancement of collaborative like collaborative efforts with one another um rather"
+    },
+    {
+      "timestamp": [
+        108.66,
+        120.96
+      ],
+      "text": " than uh man how do i even how do i put it rather than uh i and i guess any one any one society"
+    },
+    {
+      "timestamp": [
+        120.96,
+        129.68
+      ],
+      "text": " that's so like attached to one certain sector um yeah just an amalgamation of all of them where"
+    },
+    {
+      "timestamp": [
+        129.68,
+        137.18
+      ],
+      "text": " where people are able to feel and express themselves but where we're doing the best"
+    },
+    {
+      "timestamp": [
+        137.18,
+        144.04
+      ],
+      "text": " thing for ourselves the best thing for but also the best thing for our world and i don't know"
+    },
+    {
+      "timestamp": [
+        144.04,
+        149.76
+      ],
+      "text": " maybe uh maybe an ai governed world is one of the best things for ourselves i think we'll just have"
+    },
+    {
+      "timestamp": [
+        149.76,
+        152.5
+      ],
+      "text": " to see where the technology goes"
+    }
+  ]
+}

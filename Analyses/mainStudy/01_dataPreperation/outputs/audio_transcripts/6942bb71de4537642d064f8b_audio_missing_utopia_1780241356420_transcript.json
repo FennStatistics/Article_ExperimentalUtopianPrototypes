@@ -1,0 +1,38 @@
+{
+  "audio_file": "6942bb71de4537642d064f8b_audio_missing_utopia_1780241356420.webm",
+  "transcript": " I think one that was missing was a combination of all of them, which I think is kind of where we're at in a society. I believe in the future I would want a balance of all of them, but I do like the religious aspect, you know, above all things, and I think that's important.",
+  "language": "unknown",
+  "processing_time_seconds": 6.494489,
+  "timestamp": "2026-06-08T08:49:32.065799",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.58
+      ],
+      "text": " I think one that was missing was a combination of all of them, which I think is kind of where"
+    },
+    {
+      "timestamp": [
+        8.58,
+        12.26
+      ],
+      "text": " we're at in a society."
+    },
+    {
+      "timestamp": [
+        12.26,
+        17.88
+      ],
+      "text": " I believe in the future I would want a balance of all of them, but I do like the religious"
+    },
+    {
+      "timestamp": [
+        17.88,
+        24.18
+      ],
+      "text": " aspect, you know, above all things, and I think that's important."
+    }
+  ]
+}

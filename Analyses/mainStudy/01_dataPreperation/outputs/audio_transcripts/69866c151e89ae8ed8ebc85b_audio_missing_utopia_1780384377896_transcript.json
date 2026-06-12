@@ -1,0 +1,80 @@
+{
+  "audio_file": "69866c151e89ae8ed8ebc85b_audio_missing_utopia_1780384377896.webm",
+  "transcript": " I think we can also act a society that was led by creativity and curiosity, a society that where, for example, I don't know how to explain that in a more technical or scientific way. But I guess that a society that was led by people who now believe that creativity and curiosity that could play a huge part and also art, I guess, that there's a balance between what we gain from art and science. and i guess a society that also value um not materialistic like for example materialisms but would rather be a society that also values the uh spiritual and um you know like this this the wealth being of every one of us that live in a society a society that truly values the um spiritual connections and people have the freedom to to develop themselves and to grow themselves into the person that they've they wanted to be um rather than being about it by the um the things that are raised and tough tough with um that people realize that they were not really an extension of the family but they do have the courage to be whoever person they want us to be",
+  "language": "unknown",
+  "processing_time_seconds": 20.401316,
+  "timestamp": "2026-06-08T09:00:10.218326",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.14
+      ],
+      "text": " I think we can also act a society that was led by creativity and curiosity, a society that where, for example, I don't know how to explain that in a more technical or scientific way."
+    },
+    {
+      "timestamp": [
+        28.14,
+        50.76
+      ],
+      "text": " But I guess that a society that was led by people who now believe that creativity and curiosity that could play a huge part and also art, I guess, that there's a balance between what we gain from art and science."
+    },
+    {
+      "timestamp": [
+        51.36,
+        50.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        60.86,
+        70.58
+      ],
+      "text": " and i guess a society that also value um not materialistic like for example materialisms but would rather be a society that also values the uh spiritual and um you know like this this"
+    },
+    {
+      "timestamp": [
+        70.58,
+        78.82
+      ],
+      "text": " the wealth being of every one of us that live in a society a society that truly values the"
+    },
+    {
+      "timestamp": [
+        78.82,
+        88.04
+      ],
+      "text": " um spiritual connections and people have the freedom to to develop themselves and to grow"
+    },
+    {
+      "timestamp": [
+        88.04,
+        95.58
+      ],
+      "text": " themselves into the person that they've they wanted to be um rather than being about it"
+    },
+    {
+      "timestamp": [
+        95.58,
+        107.52
+      ],
+      "text": " by the um the things that are raised and tough tough with um that people realize that they were"
+    },
+    {
+      "timestamp": [
+        107.52,
+        117.04
+      ],
+      "text": " not really an extension of the family but they do have the courage to be whoever person they want us"
+    },
+    {
+      "timestamp": [
+        117.04,
+        117.44
+      ],
+      "text": " to be"
+    }
+  ]
+}

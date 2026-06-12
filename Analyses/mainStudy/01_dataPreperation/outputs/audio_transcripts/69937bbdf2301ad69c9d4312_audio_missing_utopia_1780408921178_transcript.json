@@ -1,0 +1,52 @@
+{
+  "audio_file": "69937bbdf2301ad69c9d4312_audio_missing_utopia_1780408921178.webm",
+  "transcript": " I think among the more science fiction-y options, a sort of human-machine synthesis is one route that I think might be possible that wasn't listed. Or even just human augmentation that allows us to have more bandwidth to understand politics on top of the things we're already working on. because everything's just so complicated that our current hardware just isn't enough to keep up with all of it. Yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 9.394982,
+  "timestamp": "2026-06-08T09:04:54.428322",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.76
+      ],
+      "text": " I think among the more science fiction-y options, a sort of human-machine synthesis is one route that I think might be possible that wasn't listed."
+    },
+    {
+      "timestamp": [
+        14.14,
+        25.8
+      ],
+      "text": " Or even just human augmentation that allows us to have more bandwidth to understand politics on top of the things we're already working on."
+    },
+    {
+      "timestamp": [
+        25.8,
+        28.4
+      ],
+      "text": " because everything's just so complicated"
+    },
+    {
+      "timestamp": [
+        28.4,
+        31.18
+      ],
+      "text": " that our current hardware just isn't enough"
+    },
+    {
+      "timestamp": [
+        31.18,
+        32.42
+      ],
+      "text": " to keep up with all of it."
+    },
+    {
+      "timestamp": [
+        33.68,
+        34.12
+      ],
+      "text": " Yeah."
+    }
+  ]
+}

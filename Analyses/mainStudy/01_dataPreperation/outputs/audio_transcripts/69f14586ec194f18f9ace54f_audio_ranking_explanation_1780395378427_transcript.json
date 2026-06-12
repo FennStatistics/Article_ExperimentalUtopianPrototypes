@@ -1,0 +1,150 @@
+{
+  "audio_file": "69f14586ec194f18f9ace54f_audio_ranking_explanation_1780395378427.webm",
+  "transcript": " So, my most preferred would be a modern green utopia, sustainable, secure, reliable resources, preserved, reserved, you know, it can be sustainable and very secure. Then you got your futurist utopia which is science and innovation you've got your you know your innovations we can come up with new ways to do things new ways to grow things new solutions things then you got your primitive low-tech and small scale you know everybody kind of does their own thing but however you know it's kind of sort of how do you say it's it's old-school you know everybody kind of grows their own stuff and it kind of all works out um then you got your ai centered utopia data driven which it can i mean it kind of the way i eat right now honestly um i kind of use ai to calculate how much calories and what have you i need in a day and um i um i do use ai to figure that out and uh what have you and how much protein and what have you i need for what i've done in a day and that i've been losing weight and staying perfectly healthy doing that uh and then you got your institutional utopia which i don't think would work at all uh rule of law i mean let's face it the laws never worked and then religious space which heck religious based stuff never works and that's my personal experience with it That religious base gets certain people, certain things, and lines the pockets of the wealthy, and that's all it does. And that's my personal, oh, and then you've got moral, and there's just problems with morality. I don't like the idea of it just being based off of people's morals. Anyway.",
+  "language": "unknown",
+  "processing_time_seconds": 27.66849,
+  "timestamp": "2026-06-08T09:54:20.232620",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.94
+      ],
+      "text": " So, my most preferred would be a modern green utopia, sustainable, secure, reliable resources,"
+    },
+    {
+      "timestamp": [
+        14.94,
+        25.56
+      ],
+      "text": " preserved, reserved, you know, it can be sustainable and very secure. Then you got"
+    },
+    {
+      "timestamp": [
+        25.56,
+        31.1
+      ],
+      "text": " your futurist utopia which is science and innovation you've got your you know"
+    },
+    {
+      "timestamp": [
+        31.1,
+        36.12
+      ],
+      "text": " your innovations we can come up with new ways to do things new ways to grow"
+    },
+    {
+      "timestamp": [
+        36.12,
+        42.6
+      ],
+      "text": " things new solutions things then you got your primitive low-tech and small scale"
+    },
+    {
+      "timestamp": [
+        42.6,
+        50.88
+      ],
+      "text": " you know everybody kind of does their own thing but however you know it's kind"
+    },
+    {
+      "timestamp": [
+        50.88,
+        57.68
+      ],
+      "text": " of sort of how do you say it's it's old-school you know everybody kind of grows their own stuff and"
+    },
+    {
+      "timestamp": [
+        58.48,
+        68.56
+      ],
+      "text": " it kind of all works out um then you got your ai centered utopia data driven which it can i mean it"
+    },
+    {
+      "timestamp": [
+        69.44,
+        76.4
+      ],
+      "text": " kind of the way i eat right now honestly um i kind of use ai to calculate how much calories"
+    },
+    {
+      "timestamp": [
+        76.4,
+        88.0
+      ],
+      "text": " and what have you i need in a day and um i um i do use ai to figure that out and uh"
+    },
+    {
+      "timestamp": [
+        88.96,
+        93.04
+      ],
+      "text": " what have you and how much protein and what have you i need for what i've done in a day"
+    },
+    {
+      "timestamp": [
+        93.84,
+        100.8
+      ],
+      "text": " and that i've been losing weight and staying perfectly healthy doing that uh and then you"
+    },
+    {
+      "timestamp": [
+        100.8,
+        107.28
+      ],
+      "text": " got your institutional utopia which i don't think would work at all uh rule of law i mean"
+    },
+    {
+      "timestamp": [
+        108.56,
+        115.76
+      ],
+      "text": " let's face it the laws never worked and then religious space which heck"
+    },
+    {
+      "timestamp": [
+        117.84,
+        125.2
+      ],
+      "text": " religious based stuff never works and that's my personal experience with it"
+    },
+    {
+      "timestamp": [
+        126.56,
+        125.2
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        134.86,
+        135.86
+      ],
+      "text": " That religious base gets certain people, certain things, and lines the pockets of the wealthy, and that's all it does."
+    },
+    {
+      "timestamp": [
+        142.74,
+        143.82
+      ],
+      "text": " And that's my personal, oh, and then you've got moral, and there's just problems with morality."
+    },
+    {
+      "timestamp": [
+        147.8,
+        149.08
+      ],
+      "text": " I don't like the idea of it just being based off of people's morals."
+    },
+    {
+      "timestamp": [
+        149.64,
+        null
+      ],
+      "text": " Anyway."
+    }
+  ]
+}

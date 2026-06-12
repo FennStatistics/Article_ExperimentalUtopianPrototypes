@@ -1192,9 +1192,9 @@ saveRDS(ques_study, file = ques_study_file_rds)
 print(paste("  ✓ Saved: ques_study_wide.rds"))
 
 # CSV format
-ques_study_file_csv <- file.path(output_dir, "ques_study_wide.csv")
-write.csv(ques_study, file = ques_study_file_csv, row.names = FALSE)
-print(paste("  ✓ Saved: ques_study_wide.csv"))
+# ques_study_file_csv <- file.path(output_dir, "ques_study_wide.csv")
+# write.csv(ques_study, file = ques_study_file_csv, row.names = FALSE)
+# print(paste("  ✓ Saved: ques_study_wide.csv"))
 
 # XLSX format
 ques_study_file_xlsx <- file.path(output_dir, "ques_study_wide.xlsx")

@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a147ae189fb8e6281395326_audio_missing_utopia_1780411271743.webm",
+  "transcript": " One that was missing was one focused on personal and familial growth and one that focuses on loving thy neighbor.",
+  "language": "unknown",
+  "processing_time_seconds": 5.0069,
+  "timestamp": "2026-06-08T10:59:43.907006",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.14
+      ],
+      "text": " One that was missing was one focused on personal and familial growth and one that focuses on loving thy neighbor."
+    }
+  ]
+}

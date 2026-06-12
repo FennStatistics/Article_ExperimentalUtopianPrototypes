@@ -1,0 +1,31 @@
+{
+  "audio_file": "69e597ce1104d00919f3f2c3_audio_missing_utopia_1780271354976.webm",
+  "transcript": " I feel like the society that was missing was something that where we don't rely on AI, but we do use AI to certain limits to help us with stuff and also characteristics of some people do better than other people such. So I'm referring to capitalism that if you're putting in more hard work, I think you should have access to more resources rather than if you're sitting around doing nothing. So I think it should be up to people themselves of whether how much work they want to do.",
+  "language": "unknown",
+  "processing_time_seconds": 7.687226,
+  "timestamp": "2026-06-08T09:39:59.266560",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.74
+      ],
+      "text": " I feel like the society that was missing was something that where we don't rely on AI, but we do use AI to certain limits to help us with stuff and also characteristics of some people do better than other people such."
+    },
+    {
+      "timestamp": [
+        15.74,
+        23.46
+      ],
+      "text": " So I'm referring to capitalism that if you're putting in more hard work, I think you should have access to more resources rather than if you're sitting around doing nothing."
+    },
+    {
+      "timestamp": [
+        23.76,
+        29.34
+      ],
+      "text": " So I think it should be up to people themselves of whether how much work they want to do."
+    }
+  ]
+}

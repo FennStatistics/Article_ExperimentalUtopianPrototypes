@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1ef3bfa9b1fa8954118970_audio_missing_utopia_1780424374613.webm",
+  "transcript": " I guess something that was kind of missing would be, like, a combination of, like, a, um, kind of, like, a faith-based, I guess, but, like, everything is based off of, like, biblical values, but not necessarily everybody is, like, a Christian, if that makes sense. but i like believe in biblical values and i think that that would be really good as well as like low tech and more like homesteading like um and everybody like leaning on each other and all that but then there's still like a law yeah",
+  "language": "unknown",
+  "processing_time_seconds": 10.469439,
+  "timestamp": "2026-06-08T11:38:31.275358",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.64
+      ],
+      "text": " I guess something that was kind of missing would be, like, a combination of, like, a, um, kind of, like, a faith-based, I guess, but, like, everything is based off of, like, biblical values, but not necessarily everybody is, like, a Christian, if that makes sense."
+    },
+    {
+      "timestamp": [
+        28.64,
+        32.96
+      ],
+      "text": " but i like believe in biblical values and i think that that would be really good"
+    },
+    {
+      "timestamp": [
+        32.96,
+        40.24
+      ],
+      "text": " as well as like low tech and more like homesteading like"
+    },
+    {
+      "timestamp": [
+        42.24,
+        49.12
+      ],
+      "text": " um and everybody like leaning on each other and all that but then there's still like a law"
+    },
+    {
+      "timestamp": [
+        51.6,
+        51.92
+      ],
+      "text": " yeah"
+    }
+  ]
+}

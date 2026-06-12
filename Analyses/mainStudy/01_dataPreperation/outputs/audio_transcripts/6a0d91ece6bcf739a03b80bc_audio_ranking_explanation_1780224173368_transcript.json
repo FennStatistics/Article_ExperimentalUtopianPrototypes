@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a0d91ece6bcf739a03b80bc_audio_ranking_explanation_1780224173368.webm",
+  "transcript": " uh i first of all chose the green utopia just because i'm a very environmentalistic you know person and i do not believe like you know i feel like this could end up being taken too far same with this this we've already done in the past i was like you know well the uh primitive utopia we've already done in the past i feel like it it could be possible in like a fifth position And AI-centered, I don't really like that, so I'll put that low, that institutional rule of law, I don't like that because I could have problems. Low, uh, futures, utopia, science, and innovation, that one doesn't sound too bad, religious one doesn't sound too bad, and inner morality doesn't sound too bad, and the positions that I place them are based off what they are.",
+  "language": "unknown",
+  "processing_time_seconds": 12.308019,
+  "timestamp": "2026-06-08T10:42:38.205022",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.14
+      ],
+      "text": " uh i first of all chose the green utopia just because i'm a very environmentalistic you know"
+    },
+    {
+      "timestamp": [
+        7.14,
+        14.68
+      ],
+      "text": " person and i do not believe like you know i feel like this could end up being taken too far"
+    },
+    {
+      "timestamp": [
+        14.68,
+        22.04
+      ],
+      "text": " same with this this we've already done in the past i was like you know well the uh primitive"
+    },
+    {
+      "timestamp": [
+        22.04,
+        28.98
+      ],
+      "text": " utopia we've already done in the past i feel like it it could be possible in like a fifth position"
+    },
+    {
+      "timestamp": [
+        28.98,
+        37.7
+      ],
+      "text": " And AI-centered, I don't really like that, so I'll put that low, that institutional rule of law, I don't like that because I could have problems."
+    },
+    {
+      "timestamp": [
+        38.92,
+        45.9
+      ],
+      "text": " Low, uh, futures, utopia, science, and innovation, that one doesn't sound too bad, religious one doesn't sound too bad,"
+    },
+    {
+      "timestamp": [
+        46.4,
+        50.8
+      ],
+      "text": " and inner morality doesn't sound too bad, and the positions that I place them are based off what they are."
+    }
+  ]
+}

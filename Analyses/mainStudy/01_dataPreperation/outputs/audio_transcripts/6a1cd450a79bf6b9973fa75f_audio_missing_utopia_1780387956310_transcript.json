@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a1cd450a79bf6b9973fa75f_audio_missing_utopia_1780387956310.webm",
+  "transcript": " yeah i think there were some um values or approaches that were absent from all the societies in the list i think the main aspect was just some sort of compromise on all the societies that were provided in the list just had one very specific just uh like a one very specific aspect that was just prioritized over everything else i think maybe for idealized societies that's one way of looking at things but in practice that is rarely how things work and there's just a lot of different people with different opinions and in practice um just finding a balance between people is the most important so if i had to describe this sort of society maybe i would um i think maybe i would uh describe a more uh creative society which focuses on the health and mental well-being of people i think that would i think that would result in the most happiness as a society of all the people living in it",
+  "language": "unknown",
+  "processing_time_seconds": 17.194401,
+  "timestamp": "2026-06-08T11:21:40.979314",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.02
+      ],
+      "text": " yeah i think there were some um values or approaches that were absent from all the"
+    },
+    {
+      "timestamp": [
+        10.02,
+        18.66
+      ],
+      "text": " societies in the list i think the main aspect was just some sort of compromise on all the"
+    },
+    {
+      "timestamp": [
+        18.66,
+        26.76
+      ],
+      "text": " societies that were provided in the list just had one very specific just uh like a one very"
+    },
+    {
+      "timestamp": [
+        26.76,
+        35.44
+      ],
+      "text": " specific aspect that was just prioritized over everything else i think maybe for idealized"
+    },
+    {
+      "timestamp": [
+        35.44,
+        43.02
+      ],
+      "text": " societies that's one way of looking at things but in practice that is rarely how things work and"
+    },
+    {
+      "timestamp": [
+        43.02,
+        47.86
+      ],
+      "text": " there's just a lot of different people with different opinions and in practice"
+    },
+    {
+      "timestamp": [
+        47.86,
+        57.7
+      ],
+      "text": " um just finding a balance between people is the most important so if i had to describe this sort"
+    },
+    {
+      "timestamp": [
+        57.7,
+        73.28
+      ],
+      "text": " of society maybe i would um i think maybe i would uh describe a more uh creative society which"
+    },
+    {
+      "timestamp": [
+        73.28,
+        79.58
+      ],
+      "text": " focuses on the health and mental well-being of people i think that would"
+    },
+    {
+      "timestamp": [
+        79.58,
+        84.28
+      ],
+      "text": " i think that would result in the most"
+    },
+    {
+      "timestamp": [
+        84.28,
+        91.28
+      ],
+      "text": " happiness as a society of all the people living in it"
+    }
+  ]
+}

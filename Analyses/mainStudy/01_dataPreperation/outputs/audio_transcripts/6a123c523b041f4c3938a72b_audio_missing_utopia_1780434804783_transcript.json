@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a123c523b041f4c3938a72b_audio_missing_utopia_1780434804783.webm",
+  "transcript": " um i wouldn't say that uh it is there's a missing um system or type of society that i prefer but uh the first one that when i ranked first uh the econ the environmental one i believe that if uh there was more uh more uh characteristics added to the or like more features added to that kind of uh society uh because it seems a little bit that it's more concerned about the environment but i believe that it should have been combined with the semi-second option which is uh science and technology so not focusing too much on the green side but also adding um data and also morals and rule of law which i put on the third rank i believe if the first option had a combination of option two and i mean rank two and three then i would believe that would be um like the most ideal type of society for me",
+  "language": "unknown",
+  "processing_time_seconds": 15.238172,
+  "timestamp": "2026-06-08T10:55:33.469524",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.34
+      ],
+      "text": " um i wouldn't say that uh it is there's a missing um system or type of society that i prefer but"
+    },
+    {
+      "timestamp": [
+        10.34,
+        18.66
+      ],
+      "text": " uh the first one that when i ranked first uh the econ the environmental one i believe that if"
+    },
+    {
+      "timestamp": [
+        18.66,
+        28.5
+      ],
+      "text": " uh there was more uh more uh characteristics added to the or like more features added to"
+    },
+    {
+      "timestamp": [
+        28.5,
+        35.14
+      ],
+      "text": " that kind of uh society uh because it seems a little bit that it's more concerned about the"
+    },
+    {
+      "timestamp": [
+        35.14,
+        42.28
+      ],
+      "text": " environment but i believe that it should have been combined with the semi-second option which"
+    },
+    {
+      "timestamp": [
+        42.28,
+        52.02
+      ],
+      "text": " is uh science and technology so not focusing too much on the green side but also adding um data"
+    },
+    {
+      "timestamp": [
+        52.02,
+        58.58
+      ],
+      "text": " and also morals and rule of law which i put on the third rank i believe if"
+    },
+    {
+      "timestamp": [
+        58.58,
+        65.86
+      ],
+      "text": " the first option had a combination of option two and i mean rank two and three then i would believe"
+    },
+    {
+      "timestamp": [
+        65.86,
+        72.1
+      ],
+      "text": " that would be um like the most ideal type of society for me"
+    }
+  ]
+}

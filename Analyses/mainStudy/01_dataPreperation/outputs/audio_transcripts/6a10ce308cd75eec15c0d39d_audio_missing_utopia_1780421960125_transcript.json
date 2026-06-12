@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a10ce308cd75eec15c0d39d_audio_missing_utopia_1780421960125.webm",
+  "transcript": " I think not a lot was missed, but I think you could definitely use a combination of some of those. You can combine them together, the futuristic AI-centered ones, and then you can have the low-tech golden rule, I guess, grouping two.",
+  "language": "unknown",
+  "processing_time_seconds": 6.151787,
+  "timestamp": "2026-06-08T10:53:24.774072",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.78
+      ],
+      "text": " I think not a lot was missed, but I think you could definitely use a combination of some"
+    },
+    {
+      "timestamp": [
+        8.78,
+        9.78
+      ],
+      "text": " of those."
+    },
+    {
+      "timestamp": [
+        9.78,
+        20.64
+      ],
+      "text": " You can combine them together, the futuristic AI-centered ones, and then you can have the"
+    },
+    {
+      "timestamp": [
+        20.64,
+        29.88
+      ],
+      "text": " low-tech golden rule, I guess, grouping two."
+    }
+  ]
+}

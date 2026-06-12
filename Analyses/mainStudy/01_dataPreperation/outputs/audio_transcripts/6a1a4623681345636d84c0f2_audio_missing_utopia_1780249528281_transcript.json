@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a1a4623681345636d84c0f2_audio_missing_utopia_1780249528281.webm",
+  "transcript": " uh this is a hard question but one that i thought of like i don't think there was anything missing from all of them i think maybe a low tech but more law-based society might have been missing like the the lowest tech option the kind of um like take only what you can it was just smaller scaled and didn't have a lot of organization to it like rules and laws or governance and i think there's another version of that that is lower tech um and not even like the green energy one but just like using less that still has the large scale like government and i guess it wouldn't be a rejection of technology but um thinking I guess it would just be, yeah, less technology, but more rule of law.",
+  "language": "unknown",
+  "processing_time_seconds": 13.841945,
+  "timestamp": "2026-06-08T11:14:11.638970",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.26
+      ],
+      "text": " uh this is a hard question but one that i thought of like i don't think there was anything missing"
+    },
+    {
+      "timestamp": [
+        5.26,
+        10.88
+      ],
+      "text": " from all of them i think maybe a low tech but"
+    },
+    {
+      "timestamp": [
+        10.88,
+        19.7
+      ],
+      "text": " more law-based society might have been missing like the the lowest tech option the kind of um"
+    },
+    {
+      "timestamp": [
+        19.7,
+        25.7
+      ],
+      "text": " like take only what you can it was just smaller scaled and didn't have a lot of organization to"
+    },
+    {
+      "timestamp": [
+        25.7,
+        32.22
+      ],
+      "text": " it like rules and laws or governance and i think there's another version of that that is lower tech"
+    },
+    {
+      "timestamp": [
+        32.22,
+        39.56
+      ],
+      "text": " um and not even like the green energy one but just like using less that still has the large"
+    },
+    {
+      "timestamp": [
+        39.56,
+        48.76
+      ],
+      "text": " scale like government and i guess it wouldn't be a rejection of technology but um"
+    },
+    {
+      "timestamp": [
+        48.76,
+        52.62
+      ],
+      "text": " thinking"
+    },
+    {
+      "timestamp": [
+        52.62,
+        60.86
+      ],
+      "text": " I guess it would just be, yeah, less technology, but more rule of law."
+    }
+  ]
+}

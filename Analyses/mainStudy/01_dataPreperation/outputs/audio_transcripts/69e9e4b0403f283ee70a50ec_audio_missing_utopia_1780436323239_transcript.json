@@ -1,0 +1,38 @@
+{
+  "audio_file": "69e9e4b0403f283ee70a50ec_audio_missing_utopia_1780436323239.webm",
+  "transcript": " I do not think there was any missing important values because, like I said, my faith-based was number one, and from the other ones, they were missing faith. I think that the biggest thing is you need to mix the faith, religion, and laws, but not have it be controlling.",
+  "language": "unknown",
+  "processing_time_seconds": 6.500601,
+  "timestamp": "2026-06-08T09:44:59.270830",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.88
+      ],
+      "text": " I do not think there was any missing important values because, like I said, my faith-based"
+    },
+    {
+      "timestamp": [
+        8.88,
+        13.34
+      ],
+      "text": " was number one, and from the other ones, they were missing faith."
+    },
+    {
+      "timestamp": [
+        13.34,
+        21.6
+      ],
+      "text": " I think that the biggest thing is you need to mix the faith, religion, and laws, but"
+    },
+    {
+      "timestamp": [
+        21.6,
+        24.9
+      ],
+      "text": " not have it be controlling."
+    }
+  ]
+}

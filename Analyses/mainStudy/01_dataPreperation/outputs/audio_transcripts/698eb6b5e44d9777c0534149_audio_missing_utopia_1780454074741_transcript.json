@@ -1,0 +1,38 @@
+{
+  "audio_file": "698eb6b5e44d9777c0534149_audio_missing_utopia_1780454074741.webm",
+  "transcript": " my version of society would be for everyone to follow the rule of Jesus there is a whole ten commandments of how we're supposed to live our lives and I really would love for everybody to just do that and if we did that we would be happy everybody would no wars no none of that stuff we'd all be happy",
+  "language": "unknown",
+  "processing_time_seconds": 6.435758,
+  "timestamp": "2026-06-08T09:03:57.284632",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.7
+      ],
+      "text": " my version of society would be for everyone to follow the rule of Jesus"
+    },
+    {
+      "timestamp": [
+        8.7,
+        12.48
+      ],
+      "text": " there is a whole ten commandments of how we're supposed to live our lives and I"
+    },
+    {
+      "timestamp": [
+        12.48,
+        17.16
+      ],
+      "text": " really would love for everybody to just do that and if we did that we would be"
+    },
+    {
+      "timestamp": [
+        17.16,
+        21.78
+      ],
+      "text": " happy everybody would no wars no none of that stuff we'd all be happy"
+    }
+  ]
+}

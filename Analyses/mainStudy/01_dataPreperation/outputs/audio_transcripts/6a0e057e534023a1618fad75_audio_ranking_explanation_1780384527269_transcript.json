@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a0e057e534023a1618fad75_audio_ranking_explanation_1780384527269.webm",
+  "transcript": " So I chose institutional utopia first because the rule of law is the foundation of every fair and stable society and futuristic utopia comes second because innovation solves real problems and modern green utopia is thought because long-term survival requires sustainability and security but if the green goals are pushed too hard without the law they can restrict personal freedom and progress um ai-centered utopia is fought because ai can is credibly efficient but data-driven governance risks surveillance um i prefer ai as a tool under law not as a ruler moral commonwealth relies on inner morality and sounds nice um but is unreliable on large scales religious utopia faith-based others tend to resist science you know and limit free thoughts Primitive Utopia is lost because rejecting technology means accepting shorter and harder lives and higher child mortality and no modern medicine.",
+  "language": "unknown",
+  "processing_time_seconds": 14.359868,
+  "timestamp": "2026-06-08T10:44:34.861982",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.4
+      ],
+      "text": " So I chose institutional utopia first because the rule of law is the foundation of every"
+    },
+    {
+      "timestamp": [
+        10.4,
+        16.48
+      ],
+      "text": " fair and stable society and futuristic utopia comes second because innovation solves real"
+    },
+    {
+      "timestamp": [
+        16.48,
+        22.08
+      ],
+      "text": " problems and modern green utopia is thought because long-term survival requires sustainability"
+    },
+    {
+      "timestamp": [
+        22.08,
+        26.48
+      ],
+      "text": " and security but if the green goals are pushed too hard without the law they can restrict personal"
+    },
+    {
+      "timestamp": [
+        26.48,
+        33.52
+      ],
+      "text": " freedom and progress um ai-centered utopia is fought because ai can is credibly efficient but"
+    },
+    {
+      "timestamp": [
+        33.52,
+        40.08
+      ],
+      "text": " data-driven governance risks surveillance um i prefer ai as a tool under law not as a ruler"
+    },
+    {
+      "timestamp": [
+        40.08,
+        48.16
+      ],
+      "text": " moral commonwealth relies on inner morality and sounds nice um but is unreliable on large scales"
+    },
+    {
+      "timestamp": [
+        48.16,
+        54.32
+      ],
+      "text": " religious utopia faith-based others tend to resist science you know and limit free thoughts"
+    },
+    {
+      "timestamp": [
+        54.32,
+        58.8
+      ],
+      "text": " Primitive Utopia is lost because rejecting technology means accepting shorter and harder"
+    },
+    {
+      "timestamp": [
+        58.8,
+        64.48
+      ],
+      "text": " lives and higher child mortality and no modern medicine."
+    }
+  ]
+}

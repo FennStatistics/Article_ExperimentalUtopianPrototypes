@@ -1,0 +1,122 @@
+{
+  "audio_file": "698a6f9a70f427ea2c5019e6_audio_ranking_explanation_1780378820673.webm",
+  "transcript": " Okay, so here's my explanation. I think the Modern Green Utopia for me is ranked as number one because it seems the most balanced. I really wanted to put Moral Common Wealth as my number one, but I can't really trust people to act morally all the time. Like it's just not reasonable. It's not something that can be expected from everyone. And I wish it could have been and that everyone could share like a common goal of just being good and helping each other. That would be utopian for me, but it's not realistic. So I went with Modern Green Utopia for that. Well, keeping the environment in check and still having resources sounds good. Number three, Primitivist Utopia. It's kind of like modern Greenytopia scaled down and you don't have as many things as much abundance, but it's still not bad. for me the worst one would be religious utopia because anyone that falls outside of the faith based order is is screwed basically and anyone that is unconventional and doesn't follow the rules for that uh it's just not good for them and i think it's exclusionary uh ai-centered utopia data-driven governance governance um it says it's it's not biased but i don't believe that and i don't think it would be a good balance like it would be hard to keep it balanced because it's made by humans and humans are biased so Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 28.408993,
+  "timestamp": "2026-06-08T09:02:54.694528",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.86
+      ],
+      "text": " Okay, so here's my explanation. I think the Modern Green Utopia for me is ranked as number"
+    },
+    {
+      "timestamp": [
+        9.86,
+        19.76
+      ],
+      "text": " one because it seems the most balanced. I really wanted to put Moral Common Wealth as"
+    },
+    {
+      "timestamp": [
+        19.76,
+        29.96
+      ],
+      "text": " my number one, but I can't really trust people to act morally all the time. Like it's just"
+    },
+    {
+      "timestamp": [
+        29.96,
+        39.48
+      ],
+      "text": " not reasonable. It's not something that can be expected from everyone. And I wish it could"
+    },
+    {
+      "timestamp": [
+        39.48,
+        50.28
+      ],
+      "text": " have been and that everyone could share like a common goal of just being good and helping"
+    },
+    {
+      "timestamp": [
+        50.28,
+        60.26
+      ],
+      "text": " each other. That would be utopian for me, but it's not realistic. So I went with Modern"
+    },
+    {
+      "timestamp": [
+        60.26,
+        70.2
+      ],
+      "text": " Green Utopia for that. Well, keeping the environment in check and still having resources sounds"
+    },
+    {
+      "timestamp": [
+        70.2,
+        80.48
+      ],
+      "text": " good. Number three, Primitivist Utopia. It's kind of like modern Greenytopia scaled down"
+    },
+    {
+      "timestamp": [
+        80.48,
+        93.24
+      ],
+      "text": " and you don't have as many things as much abundance, but it's still not bad."
+    },
+    {
+      "timestamp": [
+        96.6,
+        93.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        105.26,
+        113.8
+      ],
+      "text": " for me the worst one would be religious utopia because anyone that falls outside of the faith based order is is screwed basically and anyone that is unconventional and doesn't follow the"
+    },
+    {
+      "timestamp": [
+        113.8,
+        119.9
+      ],
+      "text": " rules for that uh it's just not good for them and i think it's exclusionary"
+    },
+    {
+      "timestamp": [
+        119.9,
+        133.88
+      ],
+      "text": " uh ai-centered utopia data-driven governance governance um it says it's it's not biased"
+    },
+    {
+      "timestamp": [
+        133.88,
+        139.96
+      ],
+      "text": " but i don't believe that and i don't think it would be a good balance"
+    },
+    {
+      "timestamp": [
+        139.96,
+        146.38
+      ],
+      "text": " like it would be hard to keep it balanced because it's made by humans and humans are biased so"
+    },
+    {
+      "timestamp": [
+        149.9,
+        179.88
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

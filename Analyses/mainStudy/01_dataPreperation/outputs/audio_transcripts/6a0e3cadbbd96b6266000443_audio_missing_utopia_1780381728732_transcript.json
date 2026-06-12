@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0e3cadbbd96b6266000443_audio_missing_utopia_1780381728732.webm",
+  "transcript": " honestly i don't know what i can't really think of a missing aspect to them but i think if i were to decide my own future society i would combine my first two choices which is the futurist in the modern green one together you know like which i think they like properly align with each other you know like science and then the environment it's just like not only will scientific reasoning i guess be applied to how humans should operate it also the modern green like utopia would also improve society through environmental ways like not only humans but also the environment and the things around them it's just like would help the world as a whole.",
+  "language": "unknown",
+  "processing_time_seconds": 13.127473,
+  "timestamp": "2026-06-08T10:46:27.667723",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.54
+      ],
+      "text": " honestly i don't know what i can't really think of a missing aspect to them but i think if i"
+    },
+    {
+      "timestamp": [
+        8.54,
+        16.84
+      ],
+      "text": " were to decide my own future society i would combine my first two choices which is the futurist"
+    },
+    {
+      "timestamp": [
+        16.84,
+        24.9
+      ],
+      "text": " in the modern green one together you know like which i think they like properly align with each"
+    },
+    {
+      "timestamp": [
+        24.9,
+        28.74
+      ],
+      "text": " other you know like science and then the environment it's just like not only will"
+    },
+    {
+      "timestamp": [
+        28.74,
+        39.66
+      ],
+      "text": " scientific reasoning i guess be applied to how humans should operate it also the modern green"
+    },
+    {
+      "timestamp": [
+        39.66,
+        49.18
+      ],
+      "text": " like utopia would also improve society through environmental ways like not only humans but"
+    },
+    {
+      "timestamp": [
+        49.18,
+        53.3
+      ],
+      "text": " also the environment and the things around them it's just like"
+    },
+    {
+      "timestamp": [
+        53.3,
+        56.68
+      ],
+      "text": " would help the world as a whole."
+    }
+  ]
+}

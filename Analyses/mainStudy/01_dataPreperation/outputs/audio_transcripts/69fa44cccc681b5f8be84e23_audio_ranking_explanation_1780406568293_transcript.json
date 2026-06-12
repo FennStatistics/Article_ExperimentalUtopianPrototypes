@@ -1,0 +1,150 @@
+{
+  "audio_file": "69fa44cccc681b5f8be84e23_audio_ranking_explanation_1780406568293.webm",
+  "transcript": " My most preferred society is the modern green utopia, just because I believe that in a ideal society, we're able to coexist with all forms of life, not just humans. we work together with animals and insects and we just kind of work on being sustainable and helping each other as much as possible. And my second is the low tech and small scale. I feel like a simple life is preferred just because, you know, we're able to use our brain in so many different ways. And with low tech and a low reliability on tech, I think we would benefit most. Just being able to farm and just live simply. I feel like that'd be a good thing for us as human beings. The third, the inner morality. This one is very, it is ideal, but this is the one that I, I do prefer, um, you know, I, I, I would prefer that it could be a possibility, but I don't have a lot of hope that, um, people would just simply choose to do right without being told to do so. But I, I, uh, I do feel like that's, that's high on the list. Like it would be great if we could live that way. Four, science and innovation has helped so much in the past like 100 years or more. Just advances in science have brought us pretty far. So I feel like that's not a bad thing. um five the rule of law I do feel like we kind of live in something like that now um and it is abused in a lot of ways um people take you know their power when it comes to law a little bit too far six I'm not a fan of the faith-based order just because everybody has different faiths and shouldn't be forced to live by one. And then seven, the AI-centered utopia is something that I'm not really a fan of just because I feel like it doesn't really involve human beings at all.",
+  "language": "unknown",
+  "processing_time_seconds": 34.326533,
+  "timestamp": "2026-06-08T10:04:20.649375",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.22
+      ],
+      "text": " My most preferred society is the modern green utopia, just because I believe that in a ideal society, we're able to coexist with all forms of life, not just humans."
+    },
+    {
+      "timestamp": [
+        17.76,
+        17.22
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        28.56,
+        38.7
+      ],
+      "text": " we work together with animals and insects and we just kind of work on being sustainable and helping each other as much as possible. And my second is the low tech and small scale. I feel"
+    },
+    {
+      "timestamp": [
+        38.7,
+        50.6
+      ],
+      "text": " like a simple life is preferred just because, you know, we're able to use our brain in so many"
+    },
+    {
+      "timestamp": [
+        50.6,
+        58.38
+      ],
+      "text": " different ways. And with low tech and a low reliability on tech, I think we would benefit"
+    },
+    {
+      "timestamp": [
+        58.38,
+        71.08
+      ],
+      "text": " most. Just being able to farm and just live simply. I feel like that'd be a good thing for"
+    },
+    {
+      "timestamp": [
+        71.08,
+        81.82
+      ],
+      "text": " us as human beings. The third, the inner morality. This one is very, it is ideal, but this is the one"
+    },
+    {
+      "timestamp": [
+        81.82,
+        90.56
+      ],
+      "text": " that I, I do prefer, um, you know, I, I, I would prefer that it could be a possibility, but I don't"
+    },
+    {
+      "timestamp": [
+        90.56,
+        97.8
+      ],
+      "text": " have a lot of hope that, um, people would just simply choose to do right without being told to"
+    },
+    {
+      "timestamp": [
+        97.8,
+        103.18
+      ],
+      "text": " do so. But I, I, uh, I do feel like that's, that's high on the list. Like it would be great if we"
+    },
+    {
+      "timestamp": [
+        103.18,
+        117.28
+      ],
+      "text": " could live that way. Four, science and innovation has helped so much in the past like 100 years or"
+    },
+    {
+      "timestamp": [
+        117.28,
+        127.84
+      ],
+      "text": " more. Just advances in science have brought us pretty far. So I feel like that's not a bad thing."
+    },
+    {
+      "timestamp": [
+        129.12,
+        127.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        135.34,
+        144.42
+      ],
+      "text": " um five the rule of law I do feel like we kind of live in something like that now um and it is abused in a lot of ways um people take you know their power when it comes to law a little bit too"
+    },
+    {
+      "timestamp": [
+        144.42,
+        150.18
+      ],
+      "text": " far six I'm not a fan of the faith-based order just because everybody has different faiths"
+    },
+    {
+      "timestamp": [
+        150.18,
+        153.06
+      ],
+      "text": " and shouldn't be forced to live by one."
+    },
+    {
+      "timestamp": [
+        153.98,
+        156.94
+      ],
+      "text": " And then seven, the AI-centered utopia"
+    },
+    {
+      "timestamp": [
+        156.94,
+        160.58
+      ],
+      "text": " is something that I'm not really a fan of"
+    },
+    {
+      "timestamp": [
+        160.58,
+        162.7
+      ],
+      "text": " just because I feel like"
+    },
+    {
+      "timestamp": [
+        162.7,
+        166.4
+      ],
+      "text": " it doesn't really involve human beings at all."
+    }
+  ]
+}

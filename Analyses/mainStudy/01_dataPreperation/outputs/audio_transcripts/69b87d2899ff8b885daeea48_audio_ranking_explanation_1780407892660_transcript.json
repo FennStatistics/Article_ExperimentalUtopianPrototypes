@@ -1,0 +1,31 @@
+{
+  "audio_file": "69b87d2899ff8b885daeea48_audio_ranking_explanation_1780407892660.webm",
+  "transcript": " My ranking is in this way because in a new environmental society, science and innovation are very much important in sustainability. This helps to keep what we want, the low tech which are useful for everyday governance, the rule of law to maintain what we are doing and the Hina morality to keep everyone in check, then religion has to be at least God-fearing in everything we do.",
+  "language": "unknown",
+  "processing_time_seconds": 9.038548,
+  "timestamp": "2026-06-08T09:17:45.807831",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.0
+      ],
+      "text": " My ranking is in this way because in a new environmental society, science and innovation are very much important in sustainability."
+    },
+    {
+      "timestamp": [
+        14.0,
+        28.0
+      ],
+      "text": " This helps to keep what we want, the low tech which are useful for everyday governance, the rule of law to maintain"
+    },
+    {
+      "timestamp": [
+        28.0,
+        43.0
+      ],
+      "text": " what we are doing and the Hina morality to keep everyone in check, then religion has to be at least God-fearing in everything we do."
+    }
+  ]
+}

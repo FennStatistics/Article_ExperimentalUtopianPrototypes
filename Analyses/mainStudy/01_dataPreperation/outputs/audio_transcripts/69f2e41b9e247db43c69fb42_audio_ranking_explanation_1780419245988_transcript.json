@@ -1,0 +1,31 @@
+{
+  "audio_file": "69f2e41b9e247db43c69fb42_audio_ranking_explanation_1780419245988.webm",
+  "transcript": " So I picked the primitivist utopia as the most, like, ideal society because I feel like it would make you feel the most human. Um, while it's not, like, super ideal in terms of, like, technology and the advancements of, um, I guess industrialization, I think it would be good to live in a simpler way. uh that's that's really it's not like perfect but i feel like it would feel good to live in that way",
+  "language": "unknown",
+  "processing_time_seconds": 12.877423,
+  "timestamp": "2026-06-08T09:56:41.604308",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.74
+      ],
+      "text": " So I picked the primitivist utopia as the most, like, ideal society because I feel like it would make you feel the most human."
+    },
+    {
+      "timestamp": [
+        16.66,
+        15.74
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        37.0,
+        48.54
+      ],
+      "text": " Um, while it's not, like, super ideal in terms of, like, technology and the advancements of, um, I guess industrialization, I think it would be good to live in a simpler way. uh that's that's really it's not like perfect but i feel like it would feel good to live in that way"
+    }
+  ]
+}

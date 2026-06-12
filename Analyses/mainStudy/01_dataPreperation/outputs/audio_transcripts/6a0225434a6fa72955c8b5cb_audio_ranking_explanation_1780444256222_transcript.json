@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0225434a6fa72955c8b5cb_audio_ranking_explanation_1780444256222.webm",
+  "transcript": " The reason I chose the order of societies is because, number one, the modern green utopia is, I feel like, the most realistic one out of the other options, and the science one as well. um and then i struggled with choosing the last two which one would go in order because number seven is giving very much a cult and number six is also like ai is like going to if it were to roll or be run everything it would be a mess and people would be out of jobs and stuff like that. So I don't think that's a good option. So it was hard to choose between six and seven because seven, I feel like a lot of crazy things would happen if that was how the world was being ran. But yeah, so I think the way I have them in order is pretty realistic in my opinion.",
+  "language": "unknown",
+  "processing_time_seconds": 14.492701,
+  "timestamp": "2026-06-08T10:20:10.189939",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.72
+      ],
+      "text": " The reason I chose the order of societies is because, number one, the modern green utopia is, I feel like, the most realistic one out of the other options, and the science one as well."
+    },
+    {
+      "timestamp": [
+        23.6,
+        22.72
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        29.16,
+        43.68
+      ],
+      "text": " um and then i struggled with choosing the last two which one would go in order because number seven is giving very much a cult and number six is also like ai is like going to"
+    },
+    {
+      "timestamp": [
+        43.68,
+        52.7
+      ],
+      "text": " if it were to roll or be run everything it would be a mess and people would be out of"
+    },
+    {
+      "timestamp": [
+        52.7,
+        57.7
+      ],
+      "text": " jobs and stuff like that. So I don't think that's a good option. So it was hard to choose"
+    },
+    {
+      "timestamp": [
+        57.7,
+        64.84
+      ],
+      "text": " between six and seven because seven, I feel like a lot of crazy things would happen if"
+    },
+    {
+      "timestamp": [
+        64.84,
+        76.14
+      ],
+      "text": " that was how the world was being ran. But yeah, so I think the way I have them in order"
+    },
+    {
+      "timestamp": [
+        76.14,
+        79.4
+      ],
+      "text": " is pretty realistic in my opinion."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a177da8b59d5576eaca4df0_audio_ranking_explanation_1780413870548.webm",
+  "transcript": " I picked the religious faith one first because I feel like that's really missing in society today. The low-tech small-scale one was also interesting to me because I just feel like it's so exhausting dealing with tech all the time. The ones that I ranked the lowest, I'm not really interested in sustainability and AI is slowly ruining my life. And I just feel like that's a disaster. That's a book or a horror movie we've all seen.",
+  "language": "unknown",
+  "processing_time_seconds": 9.815418,
+  "timestamp": "2026-06-08T11:10:11.777111",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.82
+      ],
+      "text": " I picked the religious faith one first because I feel like that's really missing in society today."
+    },
+    {
+      "timestamp": [
+        10.02,
+        17.14
+      ],
+      "text": " The low-tech small-scale one was also interesting to me because I just feel like it's so exhausting dealing with tech all the time."
+    },
+    {
+      "timestamp": [
+        18.84,
+        27.16
+      ],
+      "text": " The ones that I ranked the lowest, I'm not really interested in sustainability and AI is slowly ruining my life."
+    },
+    {
+      "timestamp": [
+        27.16,
+        29.52
+      ],
+      "text": " And I just feel like that's a disaster."
+    },
+    {
+      "timestamp": [
+        29.7,
+        32.02
+      ],
+      "text": " That's a book or a horror movie we've all seen."
+    }
+  ]
+}

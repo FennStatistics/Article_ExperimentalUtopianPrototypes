@@ -1,0 +1,31 @@
+{
+  "audio_file": "69c55b66d8ade7f9bd6109d6_audio_ranking_explanation_1780381368022.webm",
+  "transcript": " I picked modern green utopia first because it feels balanced, that's green technology without going overboard, enough resources for everyone and just enough mindset that seems reliable and after crisis it is just somehow valuable. Religious utopia comes the last, we just can't get behind society run by holy scriptures and somehow it defines the authority. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 8.820874,
+  "timestamp": "2026-06-08T09:23:00.446655",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.0
+      ],
+      "text": " I picked modern green utopia first because it feels balanced, that's green technology without going overboard, enough resources for everyone and just enough mindset that seems reliable and after crisis it is just somehow valuable."
+    },
+    {
+      "timestamp": [
+        20.0,
+        29.5
+      ],
+      "text": " Religious utopia comes the last, we just can't get behind society run by holy scriptures and somehow it defines the authority."
+    },
+    {
+      "timestamp": [
+        30.0,
+        59.98
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

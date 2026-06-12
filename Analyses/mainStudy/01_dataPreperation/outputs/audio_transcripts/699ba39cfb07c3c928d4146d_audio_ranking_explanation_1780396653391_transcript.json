@@ -1,0 +1,101 @@
+{
+  "audio_file": "699ba39cfb07c3c928d4146d_audio_ranking_explanation_1780396653391.webm",
+  "transcript": " The reason why I ranked the societies this way is because I firmly believe that in order to achieve a society that can be sustainable, it would be the modern green utopia would probably be the best option out of all of them. Even though I feel like all options were not that great, and for me they were not utopia or an ideal society, Um, the best version of each society for my personal opinion is the modern green utopia, which looks for sustainable resources to be able to continue. Um, my second option would have been the moral commonwealth, which guides people through morality, making decisions based off of your values and keeping morality at the front. Now my last two options that I would like the least is AI-centered utopia because I am not a fan of AI. I don't find that it's accurate. I don't think it could be unbiased in the future and that people would take advantage of it in some way or distort it. And then lastly, religious utopia to me is the worst. Religion to me is probably the worst thing. It brings out the worst in humans. It's distorted. It's used as a weapon and it's misconstrued in order to control people um therefore i would never want to be in a society based off religion",
+  "language": "unknown",
+  "processing_time_seconds": 23.228783,
+  "timestamp": "2026-06-08T09:07:48.389601",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.72
+      ],
+      "text": " The reason why I ranked the societies this way is because I firmly believe that in order to achieve a society that can be sustainable,"
+    },
+    {
+      "timestamp": [
+        15.76,
+        21.36
+      ],
+      "text": " it would be the modern green utopia would probably be the best option out of all of them."
+    },
+    {
+      "timestamp": [
+        21.68,
+        29.46
+      ],
+      "text": " Even though I feel like all options were not that great, and for me they were not utopia or an ideal society,"
+    },
+    {
+      "timestamp": [
+        30.0,
+        41.3
+      ],
+      "text": " Um, the best version of each society for my personal opinion is the modern green utopia,"
+    },
+    {
+      "timestamp": [
+        41.3,
+        51.32
+      ],
+      "text": " which looks for sustainable resources to be able to continue. Um, my second option would have been"
+    },
+    {
+      "timestamp": [
+        51.32,
+        58.34
+      ],
+      "text": " the moral commonwealth, which guides people through morality, making decisions based off"
+    },
+    {
+      "timestamp": [
+        58.34,
+        73.7
+      ],
+      "text": " of your values and keeping morality at the front. Now my last two options that I would like the least"
+    },
+    {
+      "timestamp": [
+        73.7,
+        81.76
+      ],
+      "text": " is AI-centered utopia because I am not a fan of AI. I don't find that it's accurate. I don't think"
+    },
+    {
+      "timestamp": [
+        81.76,
+        88.92
+      ],
+      "text": " it could be unbiased in the future and that people would take advantage of it in some way"
+    },
+    {
+      "timestamp": [
+        88.92,
+        98.82
+      ],
+      "text": " or distort it. And then lastly, religious utopia to me is the worst. Religion to me is probably"
+    },
+    {
+      "timestamp": [
+        98.82,
+        104.64
+      ],
+      "text": " the worst thing. It brings out the worst in humans. It's distorted. It's used as a weapon"
+    },
+    {
+      "timestamp": [
+        104.64,
+        112.36
+      ],
+      "text": " and it's misconstrued in order to control people um therefore i would never"
+    },
+    {
+      "timestamp": [
+        112.36,
+        115.16
+      ],
+      "text": " want to be in a society based off religion"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "audio_file": "5e6439d24659d01c218bcbc9_audio_ranking_explanation_1780404675067.webm",
+  "transcript": " Okay, so I did it this way because I think really what we need to do is have a place with good technology, but not too much advanced technology, where the earth is sustainable and we can live in peace and harmony and everyone feels like they're contributing. So I think sustainability and security would be first over science innovation. And then I think innovation and science would be really important. Honestly, I think a commonwealth built on morality is just not reasonable. And then a preeminist utopia would be interesting at low tech and small scale it would work. But in the grand scheme of things, I don't think it would be very realistic. Institutional utopia, I feel like that's kind of what we're in right now. it's not even really a utopia, but the rule of law, and then religious utopia and IA-centered utopias are, like, the worst of the worst. I think those two would be ridiculous and would be horrible to do, to be honest.",
+  "language": "unknown",
+  "processing_time_seconds": 15.835416,
+  "timestamp": "2026-06-08T08:16:21.072390",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.46
+      ],
+      "text": " Okay, so I did it this way because I think really what we need to do is have a place with good technology, but not too much advanced technology, where the earth is sustainable and we can live in peace and harmony and everyone feels like they're contributing."
+    },
+    {
+      "timestamp": [
+        22.16,
+        22.2
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.48,
+        27.66
+      ],
+      "text": " So I think sustainability and security would be first over science innovation."
+    },
+    {
+      "timestamp": [
+        30.14,
+        31.18
+      ],
+      "text": " And then I think innovation and science would be really important."
+    },
+    {
+      "timestamp": [
+        35.14,
+        37.12
+      ],
+      "text": " Honestly, I think a commonwealth built on morality is just not reasonable."
+    },
+    {
+      "timestamp": [
+        42.58,
+        43.48
+      ],
+      "text": " And then a preeminist utopia would be interesting at low tech and small scale it would work."
+    },
+    {
+      "timestamp": [
+        46.52,
+        48.3
+      ],
+      "text": " But in the grand scheme of things, I don't think it would be very realistic."
+    },
+    {
+      "timestamp": [
+        51.26,
+        56.84
+      ],
+      "text": " Institutional utopia, I feel like that's kind of what we're in right now. it's not even really a utopia, but the rule of law, and then religious utopia and IA-centered"
+    },
+    {
+      "timestamp": [
+        56.84,
+        64.42
+      ],
+      "text": " utopias are, like, the worst of the worst. I think those two would be ridiculous and would"
+    },
+    {
+      "timestamp": [
+        64.42,
+        66.5
+      ],
+      "text": " be horrible to do, to be honest."
+    }
+  ]
+}

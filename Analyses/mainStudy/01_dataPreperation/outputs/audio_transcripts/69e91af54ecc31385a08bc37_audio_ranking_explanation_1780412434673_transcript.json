@@ -1,0 +1,45 @@
+{
+  "audio_file": "69e91af54ecc31385a08bc37_audio_ranking_explanation_1780412434673.webm",
+  "transcript": " Out of the given situations and societies for this environment, I think that going by inner morality is definitely the most preferred out of all of these, or a combination honestly of inner morality and sustainable and secure are my top two preferred. I definitely think that going AI or just too much technology and relying on it completely is not a good idea.",
+  "language": "unknown",
+  "processing_time_seconds": 6.731714,
+  "timestamp": "2026-06-08T09:43:08.942761",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.92
+      ],
+      "text": " Out of the given situations and societies for this environment, I think that going"
+    },
+    {
+      "timestamp": [
+        5.92,
+        13.02
+      ],
+      "text": " by inner morality is definitely the most preferred out of all of these, or a combination honestly"
+    },
+    {
+      "timestamp": [
+        13.02,
+        19.08
+      ],
+      "text": " of inner morality and sustainable and secure are my top two preferred."
+    },
+    {
+      "timestamp": [
+        19.08,
+        26.28
+      ],
+      "text": " I definitely think that going AI or just too much technology and relying on it completely"
+    },
+    {
+      "timestamp": [
+        26.28,
+        28.62
+      ],
+      "text": " is not a good idea."
+    }
+  ]
+}

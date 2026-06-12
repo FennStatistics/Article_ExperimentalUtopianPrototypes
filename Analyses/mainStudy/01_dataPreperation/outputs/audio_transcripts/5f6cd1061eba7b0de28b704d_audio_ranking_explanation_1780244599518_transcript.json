@@ -1,0 +1,52 @@
+{
+  "audio_file": "5f6cd1061eba7b0de28b704d_audio_ranking_explanation_1780244599518.webm",
+  "transcript": " I picked the low-tech, small-scale as my most preferred because I think, especially coming from a crisis, consumerism and the over-consumption and taking more than is needed, greed, those kinds of things in society would be detrimental. And I think a society where you're using what you need and there is less damage to the planet and pollution and all that, I think would be very ideal. My least preferred was the AI-centered utopia. With the concerns already growing with AI, I would hate to imagine that it would be the center of our society. I think it would remove the very human aspects of life. I think if a crisis, you've just came out of a crisis, it's humans that need to fix that and adjust and work around the damage that they've caused and they've done, not AI-powered technology.",
+  "language": "unknown",
+  "processing_time_seconds": 14.554463,
+  "timestamp": "2026-06-08T08:18:44.291488",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.58
+      ],
+      "text": " I picked the low-tech, small-scale as my most preferred because I think, especially coming from a crisis, consumerism and the over-consumption and taking more than is needed, greed, those kinds of things in society would be detrimental."
+    },
+    {
+      "timestamp": [
+        21.58,
+        32.58
+      ],
+      "text": " And I think a society where you're using what you need and there is less damage to the planet and pollution and all that, I think would be very ideal."
+    },
+    {
+      "timestamp": [
+        33.58,
+        38.94
+      ],
+      "text": " My least preferred was the AI-centered utopia."
+    },
+    {
+      "timestamp": [
+        40.32,
+        50.04
+      ],
+      "text": " With the concerns already growing with AI, I would hate to imagine that it would be the center of our society."
+    },
+    {
+      "timestamp": [
+        50.04,
+        54.78
+      ],
+      "text": " I think it would remove the very human aspects of life."
+    },
+    {
+      "timestamp": [
+        55.34,
+        68.2
+      ],
+      "text": " I think if a crisis, you've just came out of a crisis, it's humans that need to fix that and adjust and work around the damage that they've caused and they've done, not AI-powered technology."
+    }
+  ]
+}

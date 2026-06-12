@@ -1,0 +1,486 @@
+{
+  "audio_file": "5d453e8723a5bb0001492546_audio_ranking_explanation_1780341976945.webm",
+  "transcript": " My reasoning for, I mean, let's start at the bottom of the least preferred, so the AI-centered utopia, that seems the least preferable simply because, I mean, my reading of it, we kind of give up the human autonomy to some sort of like a human creation. It would be like, you know, parents letting their children dictate the rules. It seems, I mean, contrary to, you know, the hierarchy of, I mean, how I would view a sufficiently operating system or, you know, a reasonably well-designed system. It seems error-prone. I'm not going to say air pro but it seems to have high potential for airs that I guess I'm more willing to accept a human air than a machine air so that's kind of why I have that as the bottom working way up religious utopia I wasn't understanding my understanding it didn't I don't see how you can only have a society with a single religion and because it's not specifying a religion then you're assuming that these conflicting religions or these conflicting beliefs would all somehow get together and i mean i see that it's kind of a recipe for disaster i mean just looking back you know the crusades i mean even modern times i mean just people really seem to get into their religion and they were willing to kill for it. So the idea of just having a generic religion, one size fits all, it just doesn't really seem neither ideal nor possible. The institutional, it's too strict. I mean, I believe there should be rules, but that's kind of similar to the AI images. It takes away from the human's individual ability to, I don't know, kind of use judgment to dictate to a certain degree. I mean, everything is simply rule-based, but, I mean, that's too strict. I mean, it doesn't account for, you know, the uncertainties that, you know, you might need to adapt to in, you know, extenuating circumstances or edge cases. Let's see, the primitive utopia, I mean, it seems nice, it seems quaint, But it seems to be without advancement. It seems to be without a desire to be better. I mean, I can't really see advanced medicine kind of existing in that sort of society. I don't see innovation. I mean, I guess if you're just happy about farming and living in a small town, that seems fine. But then, I mean, there are dangers out there, and that kind of society doesn't really seem like it's well-prepared to handle potential threats and outside dangers. The sustainable and secure modern green utopia. I don't know. I guess, you know, no complaints. the imbalances resources with uh you know what you can generate my i recall that one i mean it had uh certain limitations with you know only using just enough and if the guiding principle is you know only just enough then there's no really room for uh i don't want to say splurging I was just relaxing. You've got to have some sort of excessive usage just to have fun. It's like drinking just enough so you don't die of dehydration. There's got to be some indulgence or some opportunity to just kick back. I don't want to say waste stuff, but just air conditioning. I mean, air conditioning isn't a necessity for life, but, you know, it's a very convenient utility. The futurist, yeah, I just, it seemed, I mean, I like the innovation, like the desire, like the kind of increasing. I mean, there were some problems with, you know, it's like you look too far ahead and you don't really pay attention to the current problems. But, I mean, I guess as long as you're always improving, then you're always working towards something, and you can always kind of retroactively fix old problems with new technology. And then, I mean, that kind of society, you know, kind of maybe puts you in more well-positioned In case interplanetary kind of battles ever start up in the future if some sort of an extraterrestrial life form ever comes and touches down on the planet. I think that one just kind of puts us more in a better defensive position. The Moral Commonwealth. That one, it had problems, but it seems to give the most autonomy to kind of human. you know, just lets the people dictate their own future. I mean, I could see some problems because in order to have that kind of commonality of like a shared moral understanding, I mean, obviously there are going to be deviations and when those deviations come up, I guess, I don't know how they maybe ensure that, you know, kind of stringent enforcement of the common belief system, but if there's a problem, you solve it. Whether that means throwing problem people off a cliff or somehow convincing them that their thought process is wrong. I don't know. I like the idea of just a shared understanding and then to me just eliminating problems. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 75.506006,
+  "timestamp": "2026-06-08T08:15:24.168888",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.0
+      ],
+      "text": " My reasoning for, I mean, let's start at the bottom of the least preferred, so the AI-centered utopia, that seems the least preferable simply because, I mean, my reading of it, we kind of give up the human autonomy to some sort of like a human creation."
+    },
+    {
+      "timestamp": [
+        30.0,
+        34.2
+      ],
+      "text": " It would be like, you know, parents letting their children dictate the rules."
+    },
+    {
+      "timestamp": [
+        35.7,
+        50.74
+      ],
+      "text": " It seems, I mean, contrary to, you know, the hierarchy of, I mean, how I would view a sufficiently operating system or, you know, a reasonably well-designed system."
+    },
+    {
+      "timestamp": [
+        51.9,
+        53.36
+      ],
+      "text": " It seems error-prone."
+    },
+    {
+      "timestamp": [
+        55.0,
+        53.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        55.98,
+        58.14
+      ],
+      "text": " I'm not going to say air pro but it seems to have high potential"
+    },
+    {
+      "timestamp": [
+        58.14,
+        59.0
+      ],
+      "text": " for airs that"
+    },
+    {
+      "timestamp": [
+        59.0,
+        62.42
+      ],
+      "text": " I guess I'm more willing to accept a human air"
+    },
+    {
+      "timestamp": [
+        62.42,
+        63.8
+      ],
+      "text": " than a machine air"
+    },
+    {
+      "timestamp": [
+        63.8,
+        67.92
+      ],
+      "text": " so that's kind of"
+    },
+    {
+      "timestamp": [
+        67.92,
+        69.86
+      ],
+      "text": " why I have that as the"
+    },
+    {
+      "timestamp": [
+        69.86,
+        70.7
+      ],
+      "text": " bottom"
+    },
+    {
+      "timestamp": [
+        70.7,
+        74.36
+      ],
+      "text": " working way up religious utopia"
+    },
+    {
+      "timestamp": [
+        74.36,
+        78.52
+      ],
+      "text": " I wasn't understanding"
+    },
+    {
+      "timestamp": [
+        78.52,
+        79.62
+      ],
+      "text": " my understanding"
+    },
+    {
+      "timestamp": [
+        79.62,
+        80.22
+      ],
+      "text": " it didn't"
+    },
+    {
+      "timestamp": [
+        80.22,
+        83.16
+      ],
+      "text": " I don't see how you can only"
+    },
+    {
+      "timestamp": [
+        83.16,
+        88.3
+      ],
+      "text": " have a society with a single religion and because it's not specifying a religion then you're"
+    },
+    {
+      "timestamp": [
+        88.3,
+        93.28
+      ],
+      "text": " assuming that these conflicting religions or these conflicting beliefs would all somehow"
+    },
+    {
+      "timestamp": [
+        93.28,
+        101.38
+      ],
+      "text": " get together and i mean i see that it's kind of a recipe for disaster i mean just looking back you"
+    },
+    {
+      "timestamp": [
+        101.38,
+        109.94
+      ],
+      "text": " know the crusades i mean even modern times i mean just people really seem to get into their religion"
+    },
+    {
+      "timestamp": [
+        109.94,
+        111.66
+      ],
+      "text": " and they were willing to kill for it."
+    },
+    {
+      "timestamp": [
+        111.66,
+        116.08
+      ],
+      "text": " So the idea of just having a generic religion, one size fits all,"
+    },
+    {
+      "timestamp": [
+        117.22,
+        120.82
+      ],
+      "text": " it just doesn't really seem neither ideal nor possible."
+    },
+    {
+      "timestamp": [
+        122.52,
+        129.8
+      ],
+      "text": " The institutional, it's too strict."
+    },
+    {
+      "timestamp": [
+        129.94,
+        131.3
+      ],
+      "text": " I mean, I believe there should be rules,"
+    },
+    {
+      "timestamp": [
+        131.6,
+        135.04
+      ],
+      "text": " but that's kind of similar to the AI images."
+    },
+    {
+      "timestamp": [
+        135.22,
+        137.84
+      ],
+      "text": " It takes away from the human's individual ability"
+    },
+    {
+      "timestamp": [
+        137.84,
+        144.78
+      ],
+      "text": " to, I don't know, kind of use judgment to dictate to a certain degree."
+    },
+    {
+      "timestamp": [
+        144.94,
+        150.14
+      ],
+      "text": " I mean, everything is simply rule-based, but, I mean, that's too strict."
+    },
+    {
+      "timestamp": [
+        150.14,
+        154.44
+      ],
+      "text": " I mean, it doesn't account for, you know, the uncertainties that, you know,"
+    },
+    {
+      "timestamp": [
+        154.46,
+        159.54
+      ],
+      "text": " you might need to adapt to in, you know, extenuating circumstances or edge cases."
+    },
+    {
+      "timestamp": [
+        161.04,
+        165.82
+      ],
+      "text": " Let's see, the primitive utopia, I mean, it seems nice, it seems quaint,"
+    },
+    {
+      "timestamp": [
+        166.2,
+        165.82
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        180.28,
+        186.68
+      ],
+      "text": " But it seems to be without advancement. It seems to be without a desire to be better. I mean, I can't really see advanced medicine kind of existing in that sort of society. I don't see innovation. I mean, I guess if you're just happy about farming and living in a small town, that seems fine."
+    },
+    {
+      "timestamp": [
+        186.84,
+        199.66
+      ],
+      "text": " But then, I mean, there are dangers out there, and that kind of society doesn't really seem like it's well-prepared to handle potential threats and outside dangers."
+    },
+    {
+      "timestamp": [
+        201.7,
+        204.62
+      ],
+      "text": " The sustainable and secure modern green utopia."
+    },
+    {
+      "timestamp": [
+        206.62,
+        209.02
+      ],
+      "text": " I don't know. I guess, you know, no complaints."
+    },
+    {
+      "timestamp": [
+        209.3,
+        209.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        218.44,
+        225.82
+      ],
+      "text": " the imbalances resources with uh you know what you can generate my i recall that one i mean it had uh certain limitations with you know only using just enough and if the guiding principle"
+    },
+    {
+      "timestamp": [
+        225.82,
+        233.78
+      ],
+      "text": " is you know only just enough then there's no really room for uh i don't want to say splurging"
+    },
+    {
+      "timestamp": [
+        233.78,
+        258.3
+      ],
+      "text": " I was just relaxing. You've got to have some sort of excessive usage just to have fun. It's like drinking just enough so you don't die of dehydration. There's got to be some indulgence or some opportunity to just kick back. I don't want to say waste stuff, but just air conditioning."
+    },
+    {
+      "timestamp": [
+        258.3,
+        266.02
+      ],
+      "text": " I mean, air conditioning isn't a necessity for life, but, you know, it's a very convenient utility."
+    },
+    {
+      "timestamp": [
+        267.8,
+        279.78
+      ],
+      "text": " The futurist, yeah, I just, it seemed, I mean, I like the innovation, like the desire, like the kind of increasing."
+    },
+    {
+      "timestamp": [
+        279.78,
+        287.66
+      ],
+      "text": " I mean, there were some problems with, you know, it's like you look too far ahead and you don't really pay attention to the current problems."
+    },
+    {
+      "timestamp": [
+        288.3,
+        296.88
+      ],
+      "text": " But, I mean, I guess as long as you're always improving, then you're always working towards"
+    },
+    {
+      "timestamp": [
+        296.88,
+        303.18
+      ],
+      "text": " something, and you can always kind of retroactively fix old problems with new technology."
+    },
+    {
+      "timestamp": [
+        305.86,
+        311.64
+      ],
+      "text": " And then, I mean, that kind of society, you know, kind of maybe puts you in more well-positioned"
+    },
+    {
+      "timestamp": [
+        311.64,
+        326.22
+      ],
+      "text": " In case interplanetary kind of battles ever start up in the future if some sort of an extraterrestrial life form ever comes and touches down on the planet."
+    },
+    {
+      "timestamp": [
+        326.22,
+        329.56
+      ],
+      "text": " I think that one just kind of puts us more in a better defensive position."
+    },
+    {
+      "timestamp": [
+        331.16,
+        332.22
+      ],
+      "text": " The Moral Commonwealth."
+    },
+    {
+      "timestamp": [
+        332.94,
+        340.4
+      ],
+      "text": " That one, it had problems, but it seems to give the most autonomy to kind of human."
+    },
+    {
+      "timestamp": [
+        341.24,
+        340.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        343.94,
+        345.14
+      ],
+      "text": " you know, just lets the people dictate their own future."
+    },
+    {
+      "timestamp": [
+        346.62,
+        350.4
+      ],
+      "text": " I mean, I could see some problems because in order to have that kind of commonality"
+    },
+    {
+      "timestamp": [
+        350.4,
+        353.58
+      ],
+      "text": " of like a shared moral understanding,"
+    },
+    {
+      "timestamp": [
+        353.78,
+        356.02
+      ],
+      "text": " I mean, obviously there are going to be deviations"
+    },
+    {
+      "timestamp": [
+        356.02,
+        357.8
+      ],
+      "text": " and when those deviations come up,"
+    },
+    {
+      "timestamp": [
+        360.16,
+        363.46
+      ],
+      "text": " I guess, I don't know how they"
+    },
+    {
+      "timestamp": [
+        363.46,
+        366.78
+      ],
+      "text": " maybe ensure that, you know, kind of stringent"
+    },
+    {
+      "timestamp": [
+        366.78,
+        370.88
+      ],
+      "text": " enforcement of the common belief system,"
+    },
+    {
+      "timestamp": [
+        371.02,
+        374.4
+      ],
+      "text": " but if there's a problem, you solve it."
+    },
+    {
+      "timestamp": [
+        374.94,
+        379.9
+      ],
+      "text": " Whether that means throwing problem people off a cliff"
+    },
+    {
+      "timestamp": [
+        379.9,
+        385.34
+      ],
+      "text": " or somehow convincing them that their thought process is wrong."
+    },
+    {
+      "timestamp": [
+        389.16,
+        389.88
+      ],
+      "text": " I don't know."
+    },
+    {
+      "timestamp": [
+        389.94,
+        391.72
+      ],
+      "text": " I like the idea of just a shared understanding"
+    },
+    {
+      "timestamp": [
+        391.72,
+        394.86
+      ],
+      "text": " and then to me just eliminating problems."
+    },
+    {
+      "timestamp": [
+        396.78,
+        426.76
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

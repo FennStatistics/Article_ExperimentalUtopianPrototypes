@@ -1,0 +1,17 @@
+{
+  "audio_file": "69adf185dcc8cda73749368d_audio_missing_utopia_1780408680098.webm",
+  "transcript": " I think what is missing in my future society is the togetherness and unity a society should have in solving problems or getting together for happiness togetherness and equity and unity togetherness and unity brings equity and accommodates everyone.",
+  "language": "unknown",
+  "processing_time_seconds": 5.71266,
+  "timestamp": "2026-06-08T09:13:19.353216",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.82
+      ],
+      "text": " I think what is missing in my future society is the togetherness and unity a society should have in solving problems or getting together for happiness togetherness and equity and unity togetherness and unity brings equity and accommodates everyone."
+    }
+  ]
+}

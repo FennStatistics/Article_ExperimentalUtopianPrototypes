@@ -1,0 +1,66 @@
+{
+  "audio_file": "69d674ffe1b69e81eb00dee2_audio_missing_utopia_1780401587402.webm",
+  "transcript": " I think that the society's covered a little bit of each of what I would expect or hope for in a new society. I think that my perfect utopia would be something solely run off of religion and moral value. um i am somebody who lives by traditional beliefs so i think that it should go back to let the men run the world and us women not that we don't have to have a voice women can be very strong but we don't need to prove ourselves in the world we have a god-given talent and need with our children in our home, and we can take stands in other places. I think that a little bit of technology or sustainability would be great, but I think everything was covered just a little bit in each different utopia.",
+  "language": "unknown",
+  "processing_time_seconds": 13.9748,
+  "timestamp": "2026-06-08T09:32:22.130275",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.8
+      ],
+      "text": " I think that the society's covered a little bit of each of what I would expect or hope for in a new society."
+    },
+    {
+      "timestamp": [
+        12.8,
+        21.08
+      ],
+      "text": " I think that my perfect utopia would be something solely run off of religion and moral value."
+    },
+    {
+      "timestamp": [
+        22.22,
+        21.08
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.1,
+        36.02
+      ],
+      "text": " um i am somebody who lives by traditional beliefs so i think that it should go back to let the men run the world and us women not that we don't have to have a voice women can be very"
+    },
+    {
+      "timestamp": [
+        36.02,
+        45.2
+      ],
+      "text": " strong but we don't need to prove ourselves in the world we have a god-given talent and need"
+    },
+    {
+      "timestamp": [
+        45.2,
+        51.5
+      ],
+      "text": " with our children in our home, and we can take stands in other places."
+    },
+    {
+      "timestamp": [
+        55.76,
+        60.78
+      ],
+      "text": " I think that a little bit of technology or sustainability would be great,"
+    },
+    {
+      "timestamp": [
+        61.18,
+        67.18
+      ],
+      "text": " but I think everything was covered just a little bit in each different utopia."
+    }
+  ]
+}

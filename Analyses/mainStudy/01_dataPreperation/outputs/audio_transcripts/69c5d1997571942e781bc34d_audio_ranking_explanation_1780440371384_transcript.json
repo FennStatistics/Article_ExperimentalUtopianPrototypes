@@ -1,0 +1,143 @@
+{
+  "audio_file": "69c5d1997571942e781bc34d_audio_ranking_explanation_1780440371384.webm",
+  "transcript": " So I put religious utopia at the top just because I am a Christian myself, so that would be my ideal. I agree with Christian ethics and morals, so that would be ideal for me, and I do believe Christianity would be best for society. So that's why I put that at number one. Um, I don't know if you want me to go through all of them, but I did number two, institutional utopia, because I do believe in the rule of law. Um, I lean a little bit more conservative, so I believe in law and order. And so that's also like a big priority if I were to create, um, you know, my own world or whatever. Then I put modern green, um because i mean it didn't have anything super drastic in it uh so i appreciate that um i also love the earth so i'd like to keep it beautiful um low tech small scale um i'm a little bit more anti-technology anti-ai i guess so that's why i put that one there and And then intermorality is lower because I don't really think your morals come from within you. Well, they do, but not just like your brain. I think they come from within you from God. So I don't, yeah, I think that could get a little tricky. um then see like inner morality I think would be what's um like almost a system that would allow for things like slavery or I don't know you know people have different morals and yeah um then I did AI centered utopia because I'm not a fan of AI um and then futurist because I'm very much traditional. So I don't like, you know, super heavy science and technological advanced. Well, science is fine, I guess, but I still want everything to be technology-based. So yeah, that's why I put it like that.",
+  "language": "unknown",
+  "processing_time_seconds": 29.163733,
+  "timestamp": "2026-06-08T09:23:56.108072",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.58
+      ],
+      "text": " So I put religious utopia at the top just because I am a Christian myself, so that would be my ideal. I agree with Christian ethics and morals, so that would be ideal for me, and I do believe Christianity would be best for society."
+    },
+    {
+      "timestamp": [
+        22.58,
+        27.18
+      ],
+      "text": " So that's why I put that at number one. Um, I don't know if you want me to go through all of"
+    },
+    {
+      "timestamp": [
+        27.18,
+        34.16
+      ],
+      "text": " them, but I did number two, institutional utopia, because I do believe in the rule of law. Um, I"
+    },
+    {
+      "timestamp": [
+        34.16,
+        39.84
+      ],
+      "text": " lean a little bit more conservative, so I believe in law and order. And so that's also like a big"
+    },
+    {
+      "timestamp": [
+        39.84,
+        48.48
+      ],
+      "text": " priority if I were to create, um, you know, my own world or whatever. Then I put modern green,"
+    },
+    {
+      "timestamp": [
+        49.02,
+        48.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        57.36,
+        66.52
+      ],
+      "text": " um because i mean it didn't have anything super drastic in it uh so i appreciate that um i also love the earth so i'd like to keep it beautiful um low tech small scale um"
+    },
+    {
+      "timestamp": [
+        66.52,
+        75.0
+      ],
+      "text": " i'm a little bit more anti-technology anti-ai i guess so that's why i put that one there and"
+    },
+    {
+      "timestamp": [
+        75.0,
+        81.86
+      ],
+      "text": " And then intermorality is lower because I don't really think your morals come from within you."
+    },
+    {
+      "timestamp": [
+        82.44,
+        85.54
+      ],
+      "text": " Well, they do, but not just like your brain."
+    },
+    {
+      "timestamp": [
+        85.62,
+        87.24
+      ],
+      "text": " I think they come from within you from God."
+    },
+    {
+      "timestamp": [
+        87.62,
+        91.1
+      ],
+      "text": " So I don't, yeah, I think that could get a little tricky."
+    },
+    {
+      "timestamp": [
+        93.84,
+        91.1
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        101.86,
+        107.7
+      ],
+      "text": " um then see like inner morality I think would be what's um like almost a system that would allow for things like"
+    },
+    {
+      "timestamp": [
+        107.7,
+        113.26
+      ],
+      "text": " slavery or I don't know you know people have different morals and"
+    },
+    {
+      "timestamp": [
+        113.26,
+        121.02
+      ],
+      "text": " yeah um then I did AI centered utopia because I'm not a fan of AI um and then futurist"
+    },
+    {
+      "timestamp": [
+        121.02,
+        132.14
+      ],
+      "text": " because I'm very much traditional. So I don't like, you know, super heavy science and technological"
+    },
+    {
+      "timestamp": [
+        132.14,
+        137.4
+      ],
+      "text": " advanced. Well, science is fine, I guess, but I still want everything to be technology-based."
+    },
+    {
+      "timestamp": [
+        137.78,
+        138.9
+      ],
+      "text": " So yeah, that's why I put it like that."
+    }
+  ]
+}

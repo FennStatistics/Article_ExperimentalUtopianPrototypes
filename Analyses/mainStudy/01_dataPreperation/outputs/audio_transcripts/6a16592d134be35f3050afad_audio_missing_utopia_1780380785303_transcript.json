@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a16592d134be35f3050afad_audio_missing_utopia_1780380785303.webm",
+  "transcript": " I think that my most important values were already represented specifically through the inner moral values one and the sustainability ones because my ideal life and my ideal society would be through community, through caring for each other and not needing laws to tell us how to be good people. And my ideal society would involve sustainability and honoring the earth and the resources that it can comfortably give us and doing everything on a smaller scale with tighter knit community and things like that.",
+  "language": "unknown",
+  "processing_time_seconds": 9.729035,
+  "timestamp": "2026-06-08T11:07:12.885556",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.86
+      ],
+      "text": " I think that my most important values were already represented specifically through the"
+    },
+    {
+      "timestamp": [
+        6.86,
+        17.4
+      ],
+      "text": " inner moral values one and the sustainability ones because my ideal life and my ideal society"
+    },
+    {
+      "timestamp": [
+        17.4,
+        24.48
+      ],
+      "text": " would be through community, through caring for each other and not needing laws to tell us how"
+    },
+    {
+      "timestamp": [
+        24.48,
+        32.62
+      ],
+      "text": " to be good people. And my ideal society would involve sustainability and honoring the earth"
+    },
+    {
+      "timestamp": [
+        32.62,
+        38.64
+      ],
+      "text": " and the resources that it can comfortably give us and doing everything on a smaller scale"
+    },
+    {
+      "timestamp": [
+        38.64,
+        41.8
+      ],
+      "text": " with tighter knit community and things like that."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "audio_file": "69ee4a93e4b6f636b49e6771_audio_ranking_explanation_1780391816358.webm",
+  "transcript": " My ranking is based on three core principles, sustainability, human autonomy, and resilience against corruption. I sorted this utopia by how well they balance freedom with long-term survival. First, my top choice is modern green utopia. Without a stable climate, clean water, and food security, no other system matters. Sustainability is the foundation upon which every good, being justice, innovation, or faith must rest. It is secure, pragmatic, and ideological. My second choice is institutional utopia. I deeply value the rule of law. Human beings are flawed, so we need impartial systems, court, and procedure to protect the weak from the strong. The third was moral commonwealth. Ideally, we would act with virtue from the inside. I rank this third because it requires high level of education and social trust at work. But when it does work, it requires at least policy and bureau accuracy for this futurist utopia. I am hopeful about science, but I place it in the middle because innovation without guardrails can create problems like environmental harm or social disruption. Now, my bottom three are, now my bottom three are that because my bottom, now my fourth is, in the fourth I have the, my bottom is where I have serious concern. Fifth is the religious utopia. While faith can provide meaning and community, faith-based orders often resist evidence, change, and diversity. They can become dogmatic and unstable when faced with outsider or scientific truth. Sixth is the primivist utopia. I admire the simplicity and the low-carbon footprint, but it is not resilient in a small scale. Low-tech world, a single disease outbreak, drought, or raid can wipe out the entire community. Finally, my least preferred is the AI-centered utopia. While data-driven governance can be efficient, it fundamentally treats humans as predictable variables. It strips away human judgment, mercy, and beautiful irrationality that makes us who we are. A society run by algorithms is a society that cannot forgive, cannot empathize, and cannot adapt to the unexpected. For me, that's not utopia. It's a cage.",
+  "language": "unknown",
+  "processing_time_seconds": 41.425108,
+  "timestamp": "2026-06-08T09:49:41.543647",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.56,
+        8.84
+      ],
+      "text": " My ranking is based on three core principles, sustainability, human autonomy, and resilience against corruption."
+    },
+    {
+      "timestamp": [
+        9.46,
+        14.44
+      ],
+      "text": " I sorted this utopia by how well they balance freedom with long-term survival."
+    },
+    {
+      "timestamp": [
+        14.96,
+        17.76
+      ],
+      "text": " First, my top choice is modern green utopia."
+    },
+    {
+      "timestamp": [
+        18.54,
+        24.86
+      ],
+      "text": " Without a stable climate, clean water, and food security, no other system matters."
+    },
+    {
+      "timestamp": [
+        25.1,
+        24.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.22,
+        33.58
+      ],
+      "text": " Sustainability is the foundation upon which every good, being justice, innovation, or faith must rest."
+    },
+    {
+      "timestamp": [
+        35.92,
+        36.8
+      ],
+      "text": " It is secure, pragmatic, and ideological."
+    },
+    {
+      "timestamp": [
+        39.08,
+        39.46
+      ],
+      "text": " My second choice is institutional utopia."
+    },
+    {
+      "timestamp": [
+        41.92,
+        42.26
+      ],
+      "text": " I deeply value the rule of law."
+    },
+    {
+      "timestamp": [
+        48.48,
+        48.9
+      ],
+      "text": " Human beings are flawed, so we need impartial systems, court, and procedure to protect the weak from the strong."
+    },
+    {
+      "timestamp": [
+        50.46,
+        54.98
+      ],
+      "text": " The third was moral commonwealth. Ideally, we would act with virtue from the inside."
+    },
+    {
+      "timestamp": [
+        55.42,
+        61.1
+      ],
+      "text": " I rank this third because it requires high level of education and social trust at work."
+    },
+    {
+      "timestamp": [
+        61.4,
+        71.86
+      ],
+      "text": " But when it does work, it requires at least policy and bureau accuracy for this futurist utopia."
+    },
+    {
+      "timestamp": [
+        71.86,
+        81.86
+      ],
+      "text": " I am hopeful about science, but I place it in the middle because innovation without guardrails can create problems like environmental harm or social disruption."
+    },
+    {
+      "timestamp": [
+        81.86,
+        99.44
+      ],
+      "text": " Now, my bottom three are, now my bottom three are that because my bottom, now my fourth is, in the fourth I have the, my bottom is where I have serious concern."
+    },
+    {
+      "timestamp": [
+        99.44,
+        115.58
+      ],
+      "text": " Fifth is the religious utopia. While faith can provide meaning and community, faith-based orders often resist evidence, change, and diversity. They can become dogmatic and unstable when faced with outsider or scientific truth."
+    },
+    {
+      "timestamp": [
+        115.82,
+        115.58
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        131.42,
+        131.68
+      ],
+      "text": " Sixth is the primivist utopia. I admire the simplicity and the low-carbon footprint, but it is not resilient in a small scale. Low-tech world, a single disease outbreak, drought, or raid can wipe out the entire community."
+    },
+    {
+      "timestamp": [
+        131.42,
+        151.82
+      ],
+      "text": " Finally, my least preferred is the AI-centered utopia. While data-driven governance can be efficient, it fundamentally treats humans as predictable variables. It strips away human judgment, mercy, and beautiful irrationality that makes us who we are."
+    },
+    {
+      "timestamp": [
+        151.82,
+        159.92
+      ],
+      "text": " A society run by algorithms is a society that cannot forgive, cannot empathize, and cannot adapt to the unexpected."
+    },
+    {
+      "timestamp": [
+        160.46,
+        162.7
+      ],
+      "text": " For me, that's not utopia. It's a cage."
+    }
+  ]
+}

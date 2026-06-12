@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a0553f1cb81aadcd605a362_audio_ranking_explanation_1780380856434.webm",
+  "transcript": " Um, I ranked it based on the fact that Futurist Society would probably be the best, followed by Monarch, Cree, then AI, then Moral, then Street, and Romanist, and Religious. Religion being at the bottom is because no society run by religion can ever be good, while probably the cleanest would be science.",
+  "language": "unknown",
+  "processing_time_seconds": 6.751434,
+  "timestamp": "2026-06-08T10:27:48.886707",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.82
+      ],
+      "text": " Um, I ranked it based on the fact that Futurist Society would probably be the best, followed"
+    },
+    {
+      "timestamp": [
+        5.82,
+        11.9
+      ],
+      "text": " by Monarch, Cree, then AI, then Moral, then Street, and Romanist, and Religious."
+    },
+    {
+      "timestamp": [
+        11.9,
+        17.42
+      ],
+      "text": " Religion being at the bottom is because no society run by religion can ever be good,"
+    },
+    {
+      "timestamp": [
+        17.42,
+        22.5
+      ],
+      "text": " while probably the cleanest would be science."
+    }
+  ]
+}

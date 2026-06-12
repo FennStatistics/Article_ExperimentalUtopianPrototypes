@@ -1,0 +1,115 @@
+{
+  "audio_file": "69ed0c6734ee18b16b158c67_audio_ranking_explanation_1780432660625.webm",
+  "transcript": " so this is a really complicated question and most of these rankings are at least partly arbitrary um however the gist of it is that only the so-called institutional utopia seems like something that's actually likely to be possible and according to how human beings actually operate the religious utopia sounds really nice but you have to believe in the anabaptists are right think it would actually happen in reality you need normal political structures even if you have a mostly mostly healthy religious population um as important as the religious backbone is and indeed more important than anything else to the world and life and humanity um things just don't work that way uh and then so behind those two you get the modern green utopia and the primitive primitivist utopia aesthetically i prefer the primitivist but in terms of actual practical sustainability i feel like the modern green utopia is probably more likely to get something that could actually work and still achieve reasonable goals uh the moral commonwealth sounds to me ridiculously impossible like something that Kant would dream up uh if he in his wildest fantasies and just not something actually happened the philosophers have been trying you don't it just doesn't work futurist utopia sounds like the plot of that hideous strength ai centered utopia sounds like the plot of that hideous strength on steroids and both of them sound like doomsday scenarios",
+  "language": "unknown",
+  "processing_time_seconds": 23.356696,
+  "timestamp": "2026-06-08T09:47:04.309846",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.28
+      ],
+      "text": " so this is a really complicated question and most of these rankings are at least partly arbitrary"
+    },
+    {
+      "timestamp": [
+        8.28,
+        16.7
+      ],
+      "text": " um however the gist of it is that only the so-called institutional utopia seems like"
+    },
+    {
+      "timestamp": [
+        16.7,
+        21.86
+      ],
+      "text": " something that's actually likely to be possible and according to how human beings actually operate"
+    },
+    {
+      "timestamp": [
+        21.86,
+        29.0
+      ],
+      "text": " the religious utopia sounds really nice but you have to believe in the anabaptists are right think"
+    },
+    {
+      "timestamp": [
+        29.0,
+        35.08
+      ],
+      "text": " it would actually happen in reality you need normal political structures even if you have a"
+    },
+    {
+      "timestamp": [
+        35.08,
+        47.0
+      ],
+      "text": " mostly mostly healthy religious population um as important as the religious backbone is and indeed"
+    },
+    {
+      "timestamp": [
+        47.0,
+        53.72
+      ],
+      "text": " more important than anything else to the world and life and humanity um things just don't work"
+    },
+    {
+      "timestamp": [
+        53.72,
+        62.36
+      ],
+      "text": " that way uh and then so behind those two you get the modern green utopia and the primitive primitivist"
+    },
+    {
+      "timestamp": [
+        62.36,
+        70.44
+      ],
+      "text": " utopia aesthetically i prefer the primitivist but in terms of actual practical sustainability"
+    },
+    {
+      "timestamp": [
+        70.44,
+        73.72
+      ],
+      "text": " i feel like the modern green utopia is probably more likely to get something that could actually"
+    },
+    {
+      "timestamp": [
+        73.72,
+        79.48
+      ],
+      "text": " work and still achieve reasonable goals uh the moral commonwealth sounds to me ridiculously"
+    },
+    {
+      "timestamp": [
+        79.48,
+        86.12
+      ],
+      "text": " impossible like something that Kant would dream up uh if he in his wildest fantasies and just not"
+    },
+    {
+      "timestamp": [
+        86.12,
+        90.36
+      ],
+      "text": " something actually happened the philosophers have been trying you don't it just doesn't work"
+    },
+    {
+      "timestamp": [
+        90.36,
+        95.8
+      ],
+      "text": " futurist utopia sounds like the plot of that hideous strength ai centered utopia sounds like"
+    },
+    {
+      "timestamp": [
+        95.8,
+        109.8
+      ],
+      "text": " the plot of that hideous strength on steroids and both of them sound like doomsday scenarios"
+    }
+  ]
+}

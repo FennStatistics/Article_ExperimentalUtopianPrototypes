@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a1df769b69ebcd2ecca9375_audio_missing_utopia_1780407755939.webm",
+  "transcript": " the only thing i can really think of is some sort of combination of you know the science and morality um like the science-driven future yes i understand but i understand what's the best scientifically you know for everyone might also not always be the most moral so i can i can see that there's conflicts that would be there um but that's what i would say is if there's a way to figure out the scientific forward-thinking aspect uh while also holding you know people morally accountable to stuff stuff bad stuff from happening uh i think that that would be that would be nice that would be my missing utopia it's like the science science morality science forward-thinking morality utopia",
+  "language": "unknown",
+  "processing_time_seconds": 11.268045,
+  "timestamp": "2026-06-08T11:29:45.023323",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.22
+      ],
+      "text": " the only thing i can really think of is some sort of combination of you know the science"
+    },
+    {
+      "timestamp": [
+        8.22,
+        15.44
+      ],
+      "text": " and morality um like the science-driven future yes i understand but i understand what's"
+    },
+    {
+      "timestamp": [
+        15.44,
+        21.08
+      ],
+      "text": " the best scientifically you know for everyone might also not always be the most moral"
+    },
+    {
+      "timestamp": [
+        21.08,
+        29.14
+      ],
+      "text": " so i can i can see that there's conflicts that would be there um but that's what i would say"
+    },
+    {
+      "timestamp": [
+        29.14,
+        36.42
+      ],
+      "text": " is if there's a way to figure out the scientific forward-thinking aspect uh while also holding you"
+    },
+    {
+      "timestamp": [
+        36.42,
+        43.94
+      ],
+      "text": " know people morally accountable to stuff stuff bad stuff from happening uh i think that that would be"
+    },
+    {
+      "timestamp": [
+        43.94,
+        49.14
+      ],
+      "text": " that would be nice that would be my missing utopia it's like the science science morality"
+    },
+    {
+      "timestamp": [
+        49.14,
+        57.14
+      ],
+      "text": " science forward-thinking morality utopia"
+    }
+  ]
+}

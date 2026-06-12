@@ -1,0 +1,52 @@
+{
+  "audio_file": "69caa04535e88acc639b3656_audio_missing_utopia_1780404762410.webm",
+  "transcript": " maybe a type of society where it's based on creativity and um so there was science-based inventions but what about other types of inventions it's just based off creativity um designing things that help people survive you know people invented the windmill um all those things that were invented by ordinary people that helped others, that was just creativity and thinking outside the box. So that could be a type of society where it encourages individuality.",
+  "language": "unknown",
+  "processing_time_seconds": 9.448245,
+  "timestamp": "2026-06-08T09:27:11.703271",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.88
+      ],
+      "text": " maybe a type of society where it's based on creativity and um so there was science-based"
+    },
+    {
+      "timestamp": [
+        9.88,
+        17.46
+      ],
+      "text": " inventions but what about other types of inventions it's just based off creativity"
+    },
+    {
+      "timestamp": [
+        17.46,
+        25.66
+      ],
+      "text": " um designing things that help people survive you know people invented the windmill um all those"
+    },
+    {
+      "timestamp": [
+        25.66,
+        33.22
+      ],
+      "text": " things that were invented by ordinary people that helped others, that was just creativity"
+    },
+    {
+      "timestamp": [
+        33.22,
+        34.94
+      ],
+      "text": " and thinking outside the box."
+    },
+    {
+      "timestamp": [
+        34.94,
+        42.5
+      ],
+      "text": " So that could be a type of society where it encourages individuality."
+    }
+  ]
+}

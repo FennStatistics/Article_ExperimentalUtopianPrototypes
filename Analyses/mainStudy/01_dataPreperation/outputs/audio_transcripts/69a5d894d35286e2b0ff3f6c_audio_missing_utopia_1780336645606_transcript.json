@@ -1,0 +1,24 @@
+{
+  "audio_file": "69a5d894d35286e2b0ff3f6c_audio_missing_utopia_1780336645606.webm",
+  "transcript": " I don't really have any ideas of what other type of society can be used, nothing really comes to mind when I'm thinking right now of societies.",
+  "language": "unknown",
+  "processing_time_seconds": 5.259079,
+  "timestamp": "2026-06-08T09:12:00.151549",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.98
+      ],
+      "text": " I don't really have any ideas of what other type of society can be used, nothing really"
+    },
+    {
+      "timestamp": [
+        8.98,
+        13.26
+      ],
+      "text": " comes to mind when I'm thinking right now of societies."
+    }
+  ]
+}

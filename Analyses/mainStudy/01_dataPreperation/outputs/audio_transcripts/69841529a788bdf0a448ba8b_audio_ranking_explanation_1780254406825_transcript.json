@@ -1,0 +1,94 @@
+{
+  "audio_file": "69841529a788bdf0a448ba8b_audio_ranking_explanation_1780254406825.webm",
+  "transcript": " when i think of a utopia what i'm thinking of is a place where the individual has the most choice to live the life the way they want it they're able to do the biggest number of things so the futurist one where science and innovation gives people options that one sounds great and the moral commonwealth one seems like one where what people want to do lines up with what's available to them that also seems great ai-centered is next because it restricts you but it restricts you to the right things institutional utopia just sounds like what we have now modern green is below because that seems like it's emphasizing the wrong things even more for the religious one even more for the primitivist the primitivist one sounds awful that one doesn't seem like a utopia at all it seems like there's not enough resources for people to fight about them and who would want to live there so if you're looking at individual choice and if you're looking at what the society gives the people that's why futurist is the top one and primitivist is the worst one",
+  "language": "unknown",
+  "processing_time_seconds": 16.355724,
+  "timestamp": "2026-06-08T08:58:53.442825",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.0
+      ],
+      "text": " when i think of a utopia what i'm thinking of is a place where the individual has the most choice"
+    },
+    {
+      "timestamp": [
+        8.0,
+        13.44
+      ],
+      "text": " to live the life the way they want it they're able to do the biggest number of things so the"
+    },
+    {
+      "timestamp": [
+        13.44,
+        17.92
+      ],
+      "text": " futurist one where science and innovation gives people options that one sounds great"
+    },
+    {
+      "timestamp": [
+        18.72,
+        23.52
+      ],
+      "text": " and the moral commonwealth one seems like one where what people want to do lines up"
+    },
+    {
+      "timestamp": [
+        23.52,
+        26.0
+      ],
+      "text": " with what's available to them that also seems great"
+    },
+    {
+      "timestamp": [
+        26.72,
+        30.88
+      ],
+      "text": " ai-centered is next because it restricts you but it restricts you to the right things"
+    },
+    {
+      "timestamp": [
+        31.44,
+        37.84
+      ],
+      "text": " institutional utopia just sounds like what we have now modern green is below because that seems like"
+    },
+    {
+      "timestamp": [
+        38.64,
+        44.88
+      ],
+      "text": " it's emphasizing the wrong things even more for the religious one even more for the primitivist"
+    },
+    {
+      "timestamp": [
+        44.88,
+        49.68
+      ],
+      "text": " the primitivist one sounds awful that one doesn't seem like a utopia at all it seems like there's"
+    },
+    {
+      "timestamp": [
+        49.68,
+        53.2
+      ],
+      "text": " not enough resources for people to fight about them and who would want to live there"
+    },
+    {
+      "timestamp": [
+        54.32,
+        53.2
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        59.22,
+        63.26
+      ],
+      "text": " so if you're looking at individual choice and if you're looking at what the society gives the people that's why futurist is the top one and primitivist is the worst one"
+    }
+  ]
+}

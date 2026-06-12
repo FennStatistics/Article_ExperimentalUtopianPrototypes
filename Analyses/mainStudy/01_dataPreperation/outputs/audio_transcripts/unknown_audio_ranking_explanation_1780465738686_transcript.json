@@ -1,0 +1,73 @@
+{
+  "audio_file": "unknown_audio_ranking_explanation_1780465738686.webm",
+  "transcript": " My most preferred society is the modern green utopia, which is sustainable and secure. I think this is my most preferred society because it provides for, like it says, a sustainable and secure future, which I think focuses most on the needs of everyone and making sure that we can continue as a society with our needs. because I think currently many people aren't getting the needs that they want. My least preferred society is the religious utopia, which is faith-based order. I personally am a very religious person, but I think governing a society in that way, as we've seen in history, has been a very wrong way of doing things because many people have different personal religious beliefs, and so there's no way to truly govern through religion without separating people due to their different religious affiliations.",
+  "language": "unknown",
+  "processing_time_seconds": 14.444745,
+  "timestamp": "2026-06-08T11:40:26.928594",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.56,
+        7.54
+      ],
+      "text": " My most preferred society is the modern green utopia, which is sustainable and secure."
+    },
+    {
+      "timestamp": [
+        8.56,
+        17.86
+      ],
+      "text": " I think this is my most preferred society because it provides for, like it says, a sustainable and secure future,"
+    },
+    {
+      "timestamp": [
+        18.08,
+        28.32
+      ],
+      "text": " which I think focuses most on the needs of everyone and making sure that we can continue as a society with our needs."
+    },
+    {
+      "timestamp": [
+        28.32,
+        32.78
+      ],
+      "text": " because I think currently many people aren't getting the needs that they want."
+    },
+    {
+      "timestamp": [
+        33.62,
+        39.42
+      ],
+      "text": " My least preferred society is the religious utopia, which is faith-based order."
+    },
+    {
+      "timestamp": [
+        40.06,
+        46.98
+      ],
+      "text": " I personally am a very religious person, but I think governing a society in that way,"
+    },
+    {
+      "timestamp": [
+        47.38,
+        55.12
+      ],
+      "text": " as we've seen in history, has been a very wrong way of doing things"
+    },
+    {
+      "timestamp": [
+        55.12,
+        60.02
+      ],
+      "text": " because many people have different personal religious beliefs,"
+    },
+    {
+      "timestamp": [
+        60.02,
+        72.52
+      ],
+      "text": " and so there's no way to truly govern through religion without separating people due to their different religious affiliations."
+    }
+  ]
+}

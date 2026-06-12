@@ -1,0 +1,31 @@
+{
+  "audio_file": "663cceb7909a43d4d01e0c24_audio_ranking_explanation_1780422702177.webm",
+  "transcript": " I selected an AI-centered utopia because I believe that the way things are going, AI will help us and it will fast forward our centers and our way of living in a really positive way. so that's why I've chosen one over the other which is AI centered over primitous utopia",
+  "language": "unknown",
+  "processing_time_seconds": 8.482058,
+  "timestamp": "2026-06-08T08:34:36.134494",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.2
+      ],
+      "text": " I selected an AI-centered utopia because I believe that the way things are going, AI will help us and it will fast forward our centers and our way of living in a really positive way."
+    },
+    {
+      "timestamp": [
+        25.2,
+        24.2
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.42,
+        34.96
+      ],
+      "text": " so that's why I've chosen one over the other which is AI centered over primitous utopia"
+    }
+  ]
+}

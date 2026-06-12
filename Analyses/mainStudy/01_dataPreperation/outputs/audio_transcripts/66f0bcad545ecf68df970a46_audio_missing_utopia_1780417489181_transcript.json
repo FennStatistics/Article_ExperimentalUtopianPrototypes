@@ -1,0 +1,52 @@
+{
+  "audio_file": "66f0bcad545ecf68df970a46_audio_missing_utopia_1780417489181.webm",
+  "transcript": " I'm not 100% sure there's one fully missing, just most human-driven societies are going to be faulty one way or another, so pretty much the best thing you can get is something with clear laws and that has institutions to maintain those laws, but where the institutions aren't king, where the people are essentially rulers of themselves, and they can make the decisions that they feel are right, while also being guided by an institution of some sort to maintain law and order.",
+  "language": "unknown",
+  "processing_time_seconds": 9.814895,
+  "timestamp": "2026-06-08T08:39:42.780726",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.78
+      ],
+      "text": " I'm not 100% sure there's one fully missing, just most human-driven societies are going"
+    },
+    {
+      "timestamp": [
+        15.78,
+        25.52
+      ],
+      "text": " to be faulty one way or another, so pretty much the best thing you can get is something"
+    },
+    {
+      "timestamp": [
+        25.52,
+        34.28
+      ],
+      "text": " with clear laws and that has institutions to maintain those laws, but where the institutions"
+    },
+    {
+      "timestamp": [
+        34.28,
+        42.26
+      ],
+      "text": " aren't king, where the people are essentially rulers of themselves, and they can make the"
+    },
+    {
+      "timestamp": [
+        42.26,
+        50.76
+      ],
+      "text": " decisions that they feel are right, while also being guided by an institution of some"
+    },
+    {
+      "timestamp": [
+        50.76,
+        53.24
+      ],
+      "text": " sort to maintain law and order."
+    }
+  ]
+}

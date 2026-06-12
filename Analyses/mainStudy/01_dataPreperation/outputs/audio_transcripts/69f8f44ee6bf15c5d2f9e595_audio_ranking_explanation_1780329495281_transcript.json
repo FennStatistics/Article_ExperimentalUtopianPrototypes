@@ -1,0 +1,59 @@
+{
+  "audio_file": "69f8f44ee6bf15c5d2f9e595_audio_ranking_explanation_1780329495281.webm",
+  "transcript": " the ranking prioritizes sustainability progress and human agency over rigid control and societal regression top choices focus on environmental survival and technological innovation to solve global challenges the middle choices value stable human-led legal institution of a pure algorithmic AI-driven governance to ensure empathy and fairness. The bottom choices reject societal beauty on false ideological conformity, that the moral and religious of a severe technological regression, which compromise individual freedom, global safety and modern medicine.",
+  "language": "unknown",
+  "processing_time_seconds": 11.799176,
+  "timestamp": "2026-06-08T10:01:14.668421",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.24
+      ],
+      "text": " the ranking prioritizes sustainability progress and human agency over rigid control and societal"
+    },
+    {
+      "timestamp": [
+        11.44,
+        17.36
+      ],
+      "text": " regression top choices focus on environmental survival and technological innovation"
+    },
+    {
+      "timestamp": [
+        17.36,
+        25.68
+      ],
+      "text": " to solve global challenges the middle choices value stable human-led legal institution of a pure"
+    },
+    {
+      "timestamp": [
+        28.96,
+        25.68
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.74,
+        46.8
+      ],
+      "text": " algorithmic AI-driven governance to ensure empathy and fairness. The bottom choices reject societal beauty on false ideological conformity,"
+    },
+    {
+      "timestamp": [
+        46.8,
+        53.7
+      ],
+      "text": " that the moral and religious of a severe technological regression,"
+    },
+    {
+      "timestamp": [
+        53.7,
+        60.0
+      ],
+      "text": " which compromise individual freedom, global safety and modern medicine."
+    }
+  ]
+}

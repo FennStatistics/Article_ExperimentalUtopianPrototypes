@@ -1,0 +1,38 @@
+{
+  "audio_file": "6978c19595331238482129c4_audio_missing_utopia_1780507182945.webm",
+  "transcript": " I don't really think there's anything that we missed out on. I just think they're all very different, and if there's one that you missed out on, it's one where a little bit of everything has contributed.",
+  "language": "unknown",
+  "processing_time_seconds": 5.870038,
+  "timestamp": "2026-06-08T08:55:51.962398",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.42,
+        2.74
+      ],
+      "text": " I don't really think there's anything that we missed out on."
+    },
+    {
+      "timestamp": [
+        3.56,
+        5.86
+      ],
+      "text": " I just think they're all very different,"
+    },
+    {
+      "timestamp": [
+        6.04,
+        7.54
+      ],
+      "text": " and if there's one that you missed out on,"
+    },
+    {
+      "timestamp": [
+        7.6,
+        9.56
+      ],
+      "text": " it's one where a little bit of everything has contributed."
+    }
+  ]
+}

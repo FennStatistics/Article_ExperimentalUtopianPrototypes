@@ -1,0 +1,122 @@
+{
+  "audio_file": "5dad4c34b3446a0015e3de93_audio_ranking_explanation_1780231322251.webm",
+  "transcript": " I put moral commonwealth first because I think intermorality is a really important thing in any society. People doing things based on their own morals is something that can really benefit everybody. Futurist utopia I put second because science and innovation can really help to improve the life of the society i put primitivist utopia third because it's doesn't really rely on technology and it's small scale and tries to make sure everything's handled fairly without having to rely too much on technology I put institutional utopia fourth because the rule of law will help make sure that everybody is behaving properly and doing what they need to do. Fifth, I put modern green utopia because it makes sure that everybody stays sustainable and they're doing their fair share. sixth i put ai centered utopia because i think that the data from the ui can help them definitely figure out how to do things more smoothly then last i put religious utopia because i don't think it's really ideal to base things on religious beliefs or spiritual beliefs I think it's just better to do something that's more logic-based.",
+  "language": "unknown",
+  "processing_time_seconds": 21.317537,
+  "timestamp": "2026-06-08T08:15:51.606982",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.82
+      ],
+      "text": " I put moral commonwealth first because I think"
+    },
+    {
+      "timestamp": [
+        5.82,
+        9.14
+      ],
+      "text": " intermorality is a really important thing in any society."
+    },
+    {
+      "timestamp": [
+        12.64,
+        13.28
+      ],
+      "text": " People"
+    },
+    {
+      "timestamp": [
+        13.28,
+        17.84
+      ],
+      "text": " doing things based on their own morals"
+    },
+    {
+      "timestamp": [
+        17.84,
+        23.08
+      ],
+      "text": " is something that can really benefit everybody."
+    },
+    {
+      "timestamp": [
+        24.3,
+        27.56
+      ],
+      "text": " Futurist utopia I put second because science and innovation"
+    },
+    {
+      "timestamp": [
+        27.56,
+        34.44
+      ],
+      "text": " can really help to improve the life of the society i put"
+    },
+    {
+      "timestamp": [
+        37.88,
+        44.6
+      ],
+      "text": " primitivist utopia third because it's doesn't really rely on technology and it's small scale"
+    },
+    {
+      "timestamp": [
+        44.6,
+        53.4
+      ],
+      "text": " and tries to make sure everything's handled fairly without having to rely too much on technology"
+    },
+    {
+      "timestamp": [
+        54.36,
+        53.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        66.4,
+        67.46
+      ],
+      "text": " I put institutional utopia fourth because the rule of law will help make sure that everybody is behaving properly and doing what they need to do."
+    },
+    {
+      "timestamp": [
+        77.8,
+        79.84
+      ],
+      "text": " Fifth, I put modern green utopia because it makes sure that everybody stays sustainable and they're doing their fair share."
+    },
+    {
+      "timestamp": [
+        77.8,
+        89.32
+      ],
+      "text": " sixth i put ai centered utopia because i think that the data from the ui can help them definitely"
+    },
+    {
+      "timestamp": [
+        89.32,
+        96.36
+      ],
+      "text": " figure out how to do things more smoothly then last i put religious utopia because i"
+    },
+    {
+      "timestamp": [
+        96.36,
+        105.6
+      ],
+      "text": " don't think it's really ideal to base things on religious beliefs or spiritual beliefs"
+    },
+    {
+      "timestamp": [
+        105.6,
+        111.38
+      ],
+      "text": " I think it's just better to do something that's more logic-based."
+    }
+  ]
+}

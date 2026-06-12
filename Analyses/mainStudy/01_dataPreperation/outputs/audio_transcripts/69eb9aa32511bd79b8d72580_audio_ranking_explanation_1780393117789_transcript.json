@@ -1,0 +1,45 @@
+{
+  "audio_file": "69eb9aa32511bd79b8d72580_audio_ranking_explanation_1780393117789.webm",
+  "transcript": " uh i rank the society is this way uh based on my own personal beliefs i feel like a moral commonwealth uh has a better outcome for individuals uh and allowing people to keep their individual freedom while an ai-centered utopia or a data-driven governance uh can be evil wrong and uh not able to be stopped once it started uh allowing not allowing people to live how they want or um being safe in such a uh manner",
+  "language": "unknown",
+  "processing_time_seconds": 9.979987,
+  "timestamp": "2026-06-08T09:46:16.538783",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.44
+      ],
+      "text": " uh i rank the society is this way uh based on my own personal beliefs i feel like a moral"
+    },
+    {
+      "timestamp": [
+        6.44,
+        14.0
+      ],
+      "text": " commonwealth uh has a better outcome for individuals uh and allowing people to keep"
+    },
+    {
+      "timestamp": [
+        14.0,
+        21.16
+      ],
+      "text": " their individual freedom while an ai-centered utopia or a data-driven governance uh can be"
+    },
+    {
+      "timestamp": [
+        21.16,
+        30.7
+      ],
+      "text": " evil wrong and uh not able to be stopped once it started uh allowing not allowing people to live"
+    },
+    {
+      "timestamp": [
+        30.7,
+        38.02
+      ],
+      "text": " how they want or um being safe in such a uh manner"
+    }
+  ]
+}

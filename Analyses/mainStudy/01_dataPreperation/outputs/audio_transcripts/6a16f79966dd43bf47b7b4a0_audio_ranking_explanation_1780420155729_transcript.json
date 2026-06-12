@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a16f79966dd43bf47b7b4a0_audio_ranking_explanation_1780420155729.webm",
+  "transcript": " I think religious utopia is my preferred society because God is king and he should be at the top. He should be at the top no matter what. And then my least one is Primitivist Utopia because there's no tech and probably it's not going to impact us that much.",
+  "language": "unknown",
+  "processing_time_seconds": 8.5663,
+  "timestamp": "2026-06-08T11:08:54.624052",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.84
+      ],
+      "text": " I think religious utopia is my preferred society because God is king and he should be at the top."
+    },
+    {
+      "timestamp": [
+        16.34,
+        18.02
+      ],
+      "text": " He should be at the top no matter what."
+    },
+    {
+      "timestamp": [
+        18.84,
+        18.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.62,
+        null
+      ],
+      "text": " And then my least one is Primitivist Utopia because there's no tech and probably it's not going to impact us that much."
+    }
+  ]
+}

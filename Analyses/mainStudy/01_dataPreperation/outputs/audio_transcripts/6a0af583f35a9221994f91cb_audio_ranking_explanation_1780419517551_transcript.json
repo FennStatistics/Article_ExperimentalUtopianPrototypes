@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a0af583f35a9221994f91cb_audio_ranking_explanation_1780419517551.webm",
+  "transcript": " Hi, so I decided to rank number one as futurist at Utopia, just because I feel like with science and innovation, you're basing, I guess, your way of living on fact and like researched data. I feel like that would be ideal. Modern green Utopia, just because I feel like making sure the environment is maintained as well as acquiring resources and making sure there's plenty for everyone. And I chose AI-centered utopia at the bottom, my least preferred society, just because I feel like with AI-centered utopia, I don't know, I'm not quite there yet where we can have computers or artificial intelligence just running the government primarily. I just feel like that to me is just not trustworthy I guess in a way. Institutional utopia rule of law was my number six on my least preferred society just because of the I guess the extreme rules that would be implemented.",
+  "language": "unknown",
+  "processing_time_seconds": 15.419265,
+  "timestamp": "2026-06-08T10:36:20.015942",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        9.68
+      ],
+      "text": " Hi, so I decided to rank number one as futurist at Utopia, just because I feel like with science"
+    },
+    {
+      "timestamp": [
+        9.68,
+        15.72
+      ],
+      "text": " and innovation, you're basing, I guess, your way of living on fact and like researched"
+    },
+    {
+      "timestamp": [
+        15.72,
+        16.52
+      ],
+      "text": " data."
+    },
+    {
+      "timestamp": [
+        17.12,
+        18.78
+      ],
+      "text": " I feel like that would be ideal."
+    },
+    {
+      "timestamp": [
+        19.12,
+        25.4
+      ],
+      "text": " Modern green Utopia, just because I feel like making sure the environment is maintained"
+    },
+    {
+      "timestamp": [
+        25.4,
+        30.04
+      ],
+      "text": " as well as acquiring resources and making sure there's plenty for everyone."
+    },
+    {
+      "timestamp": [
+        32.52,
+        40.88
+      ],
+      "text": " And I chose AI-centered utopia at the bottom, my least preferred society, just because I feel like"
+    },
+    {
+      "timestamp": [
+        40.88,
+        46.18
+      ],
+      "text": " with AI-centered utopia, I don't know, I'm not quite there yet where we can have computers"
+    },
+    {
+      "timestamp": [
+        46.18,
+        53.62
+      ],
+      "text": " or artificial intelligence just running the government primarily. I just feel like that"
+    },
+    {
+      "timestamp": [
+        53.62,
+        61.18
+      ],
+      "text": " to me is just not trustworthy I guess in a way. Institutional utopia rule of law was my number"
+    },
+    {
+      "timestamp": [
+        61.18,
+        70.3
+      ],
+      "text": " six on my least preferred society just because of the I guess the extreme rules that would be"
+    },
+    {
+      "timestamp": [
+        70.3,
+        70.98
+      ],
+      "text": " implemented."
+    }
+  ]
+}

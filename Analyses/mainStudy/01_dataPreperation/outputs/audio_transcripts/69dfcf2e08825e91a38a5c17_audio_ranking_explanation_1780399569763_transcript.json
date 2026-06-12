@@ -1,0 +1,45 @@
+{
+  "audio_file": "69dfcf2e08825e91a38a5c17_audio_ranking_explanation_1780399569763.webm",
+  "transcript": " Well, I think that the first is the best one because science and innovation, I think it's the future. Mother Queen, I think it's really good because of the sustainability and the security. And the third one, the data-driven governance, it's good too, the institutional utopia could be good, but that could mean that the people could be really, really mad with the law, and that could cause panic. The inner morality, I don't think it's a good idea because the morality of each person is different. The low-tech on the small scale, I don't think it's going to work because there's no innovation or science on it. And the religious utopia for me is the worst one because the people is going to be really mad.",
+  "language": "unknown",
+  "processing_time_seconds": 16.379188,
+  "timestamp": "2026-06-08T09:35:43.279995",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.0
+      ],
+      "text": " Well, I think that the first is the best one because science and innovation, I think it's the future."
+    },
+    {
+      "timestamp": [
+        10.0,
+        22.0
+      ],
+      "text": " Mother Queen, I think it's really good because of the sustainability and the security."
+    },
+    {
+      "timestamp": [
+        22.0,
+        49.86
+      ],
+      "text": " And the third one, the data-driven governance, it's good too, the institutional utopia could be good, but that could mean that the people could be really, really mad with the law, and that could cause panic."
+    },
+    {
+      "timestamp": [
+        49.86,
+        72.86
+      ],
+      "text": " The inner morality, I don't think it's a good idea because the morality of each person is different. The low-tech on the small scale, I don't think it's going to work because there's no innovation or science on it."
+    },
+    {
+      "timestamp": [
+        72.86,
+        81.86
+      ],
+      "text": " And the religious utopia for me is the worst one because the people is going to be really mad."
+    }
+  ]
+}

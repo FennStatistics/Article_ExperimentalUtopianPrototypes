@@ -1,0 +1,31 @@
+{
+  "audio_file": "696560f45f4ef7a14a6e58d3_audio_ranking_explanation_1780311155169.webm",
+  "transcript": " Okay, so reasoning for my choices. The biggest reasoning for my first one, I believe in living and having a science-based society, specifically science and innovation, that would really help not just people, people finances, people health, people just community-wise. Now, the reason I said institutional utopia as my beast preferred is because I feel like in an institutionalized society, more people are going to be prone to do crime because they do not like being overly surveillance, overly watched, overly judged, overly critical. So, yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 10.020643,
+  "timestamp": "2026-06-08T08:54:16.614339",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.46
+      ],
+      "text": " Okay, so reasoning for my choices. The biggest reasoning for my first one, I believe in living and having a science-based society, specifically science and innovation, that would really help not just people, people finances, people health, people just community-wise."
+    },
+    {
+      "timestamp": [
+        21.88,
+        21.46
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        44.5,
+        45.72
+      ],
+      "text": " Now, the reason I said institutional utopia as my beast preferred is because I feel like in an institutionalized society, more people are going to be prone to do crime because they do not like being overly surveillance, overly watched, overly judged, overly critical. So, yeah."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "audio_file": "69f0d6ece0af9c37a6adc97c_audio_ranking_explanation_1780402508143.webm",
+  "transcript": " this approach prioritizes human centric morality fairness and structural stability over technological optimization by ranking prioritizes human centric systems of justice and ethics like institution and utopia do follow the rule of law and they have in the morality so here we focus mainly i focus many on ethics since in order to for a society to move on there there is need to have rule of law the rule of law and inner morality ensure that human rights and dignity are protected before we apply technological or environmental solutions i ranked ai governance and low-tech primitivism lower because they either strip away human decision making or sacrifice the technological progress needed to solve modern global challenges",
+  "language": "unknown",
+  "processing_time_seconds": 13.160622,
+  "timestamp": "2026-06-08T09:52:29.207540",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.32
+      ],
+      "text": " this approach prioritizes human centric morality fairness and structural stability over technological"
+    },
+    {
+      "timestamp": [
+        10.32,
+        18.48
+      ],
+      "text": " optimization by ranking prioritizes human centric systems of justice and ethics like institution"
+    },
+    {
+      "timestamp": [
+        18.48,
+        25.2
+      ],
+      "text": " and utopia do follow the rule of law and they have in the morality so here we focus mainly"
+    },
+    {
+      "timestamp": [
+        25.2,
+        34.72
+      ],
+      "text": " i focus many on ethics since in order to for a society to move on there there is need to have"
+    },
+    {
+      "timestamp": [
+        34.72,
+        41.76
+      ],
+      "text": " rule of law the rule of law and inner morality ensure that human rights and dignity are protected"
+    },
+    {
+      "timestamp": [
+        41.76,
+        50.8
+      ],
+      "text": " before we apply technological or environmental solutions i ranked ai governance and low-tech"
+    },
+    {
+      "timestamp": [
+        50.8,
+        57.52
+      ],
+      "text": " primitivism lower because they either strip away human decision making or sacrifice the"
+    },
+    {
+      "timestamp": [
+        57.52,
+        64.48
+      ],
+      "text": " technological progress needed to solve modern global challenges"
+    }
+  ]
+}

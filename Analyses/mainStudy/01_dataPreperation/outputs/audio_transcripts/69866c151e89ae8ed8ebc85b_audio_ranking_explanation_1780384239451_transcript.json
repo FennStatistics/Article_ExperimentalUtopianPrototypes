@@ -1,0 +1,150 @@
+{
+  "audio_file": "69866c151e89ae8ed8ebc85b_audio_ranking_explanation_1780384239451.webm",
+  "transcript": " okay so basically um i think i ring ai center utopia the last is because even though i try to support the development of ai i think when the society is mainly governed by i think when we have like your ai govern society um there there's a lot of things that are that you can gain from the society lay efficiency and um the ability to carry out the work and then everything can be uh done and perform quickly but um it's just that i feel like the war is not ready for that to be leading by um ai center because i don't know if that eventually could replace human with um there's a lot of factors for example creativity uh the ability to think outside of the box or be outside of your comfort zones or the ability to um um discover curiosity those those are the human traits and and i don't know if these ai models if they're not programmed and they're basically recycling the that the knowledge that were passed from generations and generations and without the ability to in innovate that um so i'm i'm skeptical of that uh it's it's still a good good good way to look into the future that way um and uh i think future is utopia um science is great innovation is great uh sustainable uh you know if you're living in harmony with the mother of nature then that i really have nothing to go against that um and also the society where um people who um there was a set of rules and regulations that um allow people to follow but um here we're talking about that the inner compass is something that it's internal and not something that it's external then then i do think uh it's pretty great uh you're not being forced uh to follow rules uh just because it's if it doesn't make sense to you that way you're you're following the rules is because you do feel like it",
+  "language": "unknown",
+  "processing_time_seconds": 30.214015,
+  "timestamp": "2026-06-08T09:00:40.601110",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.92
+      ],
+      "text": " okay so basically um i think i ring ai center utopia the last is because even though i try to"
+    },
+    {
+      "timestamp": [
+        10.92,
+        19.74
+      ],
+      "text": " support the development of ai i think when the society is mainly governed by"
+    },
+    {
+      "timestamp": [
+        19.74,
+        29.62
+      ],
+      "text": " i think when we have like your ai govern society um"
+    },
+    {
+      "timestamp": [
+        29.62,
+        36.04
+      ],
+      "text": " there there's a lot of things that are that you can gain from the society"
+    },
+    {
+      "timestamp": [
+        36.04,
+        44.02
+      ],
+      "text": " lay efficiency and um the ability to carry out the work and then everything can be uh done and"
+    },
+    {
+      "timestamp": [
+        44.02,
+        52.58
+      ],
+      "text": " perform quickly but um it's just that i feel like the war is not ready for that to be leading by um"
+    },
+    {
+      "timestamp": [
+        53.94,
+        61.94
+      ],
+      "text": " ai center because i don't know if that eventually could replace human with um there's a lot of"
+    },
+    {
+      "timestamp": [
+        61.94,
+        68.9
+      ],
+      "text": " factors for example creativity uh the ability to think outside of the box or be outside of"
+    },
+    {
+      "timestamp": [
+        68.9,
+        78.98
+      ],
+      "text": " your comfort zones or the ability to um um discover curiosity those those are the human"
+    },
+    {
+      "timestamp": [
+        78.98,
+        86.18
+      ],
+      "text": " traits and and i don't know if these ai models if they're not programmed and they're basically"
+    },
+    {
+      "timestamp": [
+        86.18,
+        92.42
+      ],
+      "text": " recycling the that the knowledge that were passed from generations and generations and without the"
+    },
+    {
+      "timestamp": [
+        92.42,
+        100.98
+      ],
+      "text": " ability to in innovate that um so i'm i'm skeptical of that uh it's it's still a good good good way to"
+    },
+    {
+      "timestamp": [
+        100.98,
+        112.02
+      ],
+      "text": " look into the future that way um and uh i think future is utopia um science is great innovation"
+    },
+    {
+      "timestamp": [
+        112.02,
+        119.86
+      ],
+      "text": " is great uh sustainable uh you know if you're living in harmony with the mother of nature then"
+    },
+    {
+      "timestamp": [
+        119.86,
+        127.38
+      ],
+      "text": " that i really have nothing to go against that um and also the society where um people"
+    },
+    {
+      "timestamp": [
+        127.38,
+        135.94
+      ],
+      "text": " who um there was a set of rules and regulations that um allow people to follow but um here we're"
+    },
+    {
+      "timestamp": [
+        135.94,
+        141.3
+      ],
+      "text": " talking about that the inner compass is something that it's internal and not something that it's"
+    },
+    {
+      "timestamp": [
+        141.3,
+        152.5
+      ],
+      "text": " external then then i do think uh it's pretty great uh you're not being forced uh to follow rules"
+    },
+    {
+      "timestamp": [
+        152.5,
+        155.94
+      ],
+      "text": " uh just because it's if it doesn't make sense to you that way"
+    },
+    {
+      "timestamp": [
+        156.5,
+        160.5
+      ],
+      "text": " you're you're following the rules is because you do feel like it"
+    }
+  ]
+}

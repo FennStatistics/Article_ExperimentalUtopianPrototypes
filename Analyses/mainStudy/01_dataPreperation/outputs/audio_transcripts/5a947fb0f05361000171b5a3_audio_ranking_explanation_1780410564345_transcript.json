@@ -1,0 +1,234 @@
+{
+  "audio_file": "5a947fb0f05361000171b5a3_audio_ranking_explanation_1780410564345.webm",
+  "transcript": " So in order from least preferred to most preferred, I picked the AI centered utopia as the least preferred due to environmental concerns. I feel like that's what we're leaning towards right now, currently, due to the AI bubble or boom, depending on how people see it. something that's purely data-driven could be detrimental to some people you know there's cases where ai obviously doesn't really perform as well as it is designed to it's liable to make mistakes um it over consumes water and it's damaging to the environment i don't see it being a utopia to live in but rather kind of like a hellscape almost uh religious utopia i'm not really interested in like faith-based anything um i don't bash religion but i don't see it being a beneficial thing i mean we've seen how the crusades played out um people do sometimes very bad things in the name of a religion so i wouldn't really imagine that necessarily being a thriving utopia per se moral commonwealth um is a decent idea in practice but in execution i could see it being flawed everyone has different levels of morality that they rely on some people may find things moral other peoples may find it immoral and that could cause uh obvious morality clashes institutional utopia i kind of see indicators of that in real life um with following the rule of law people are typically swayed away from breaking laws because they're afraid of the consequences i could see that going well but also leaning into more of a almost dictatorship if it goes off to a certain extreme uh it depends on if there's like proper checks and balances put in place that would encourage i guess better practices so that could be moved up depending on the actual laws that are put in place futurist utopia i'm concerned about mainly because innovation for progress for simply progress sake is kind of frowned upon at least in my circles so you'd have to find like an equal balance of decent progress decent innovation healthy innovation that's not affecting people negatively as far as primitive utopias i i like the idea of low tech and small scale something benefiting the environment overall trying to live intentionally rather than you know a extreme consumerist lifestyle i feel like it could be beneficial in the grand scheme of things unfortunately i don't see it working out long term just because if we're talking now or 100 years in the future i imagine people would still be drawn to more capitalist views so that's why ranked modern green utopia because as the highest because it tries to it seems like it tries to balance certain aspects of capitalism by guaranteeing security but also ensuring that there is nods towards the environment by um keeping things sustainable and healthy for the environment so i feel like that would be the most realistic thing currently i feel like we're spiraling into the ai-centered utopia almost but in an ideal world i could see the modern green utopia being like the beneficial um a plus model to follow in the near future and then in the distant future as well before something else is conceived of.",
+  "language": "unknown",
+  "processing_time_seconds": 48.6649,
+  "timestamp": "2026-06-08T08:11:36.380752",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.12
+      ],
+      "text": " So in order from least preferred to most preferred, I picked the AI centered utopia as the least preferred due to environmental concerns. I feel like that's what we're leaning towards right now, currently, due to the AI bubble or boom, depending on how people see it."
+    },
+    {
+      "timestamp": [
+        22.12,
+        20.12
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.08,
+        37.46
+      ],
+      "text": " something that's purely data-driven could be detrimental to some people you know there's cases where ai obviously doesn't really perform as well as it is designed to"
+    },
+    {
+      "timestamp": [
+        37.46,
+        47.98
+      ],
+      "text": " it's liable to make mistakes um it over consumes water and it's damaging to the environment i don't"
+    },
+    {
+      "timestamp": [
+        47.98,
+        55.7
+      ],
+      "text": " see it being a utopia to live in but rather kind of like a hellscape almost uh religious utopia"
+    },
+    {
+      "timestamp": [
+        55.7,
+        65.38
+      ],
+      "text": " i'm not really interested in like faith-based anything um i don't bash religion but i don't"
+    },
+    {
+      "timestamp": [
+        65.38,
+        70.52
+      ],
+      "text": " see it being a beneficial thing i mean we've seen how the crusades played out"
+    },
+    {
+      "timestamp": [
+        70.52,
+        80.62
+      ],
+      "text": " um people do sometimes very bad things in the name of a religion so i wouldn't really imagine"
+    },
+    {
+      "timestamp": [
+        80.62,
+        88.6
+      ],
+      "text": " that necessarily being a thriving utopia per se moral commonwealth um is a decent idea in practice"
+    },
+    {
+      "timestamp": [
+        88.6,
+        93.92
+      ],
+      "text": " but in execution i could see it being flawed everyone has different levels of morality"
+    },
+    {
+      "timestamp": [
+        93.92,
+        100.02
+      ],
+      "text": " that they rely on some people may find things moral other peoples may find it immoral and"
+    },
+    {
+      "timestamp": [
+        100.02,
+        108.0
+      ],
+      "text": " that could cause uh obvious morality clashes institutional utopia i kind of see indicators"
+    },
+    {
+      "timestamp": [
+        108.0,
+        113.58
+      ],
+      "text": " of that in real life um with following the rule of law people are typically swayed away from"
+    },
+    {
+      "timestamp": [
+        113.58,
+        118.04
+      ],
+      "text": " breaking laws because they're afraid of the consequences i could see that going well but"
+    },
+    {
+      "timestamp": [
+        118.04,
+        128.34
+      ],
+      "text": " also leaning into more of a almost dictatorship if it goes off to a certain extreme uh it depends"
+    },
+    {
+      "timestamp": [
+        128.34,
+        135.3
+      ],
+      "text": " on if there's like proper checks and balances put in place that would encourage i guess better"
+    },
+    {
+      "timestamp": [
+        135.3,
+        145.12
+      ],
+      "text": " practices so that could be moved up depending on the actual laws that are put in place futurist"
+    },
+    {
+      "timestamp": [
+        145.12,
+        150.14
+      ],
+      "text": " utopia i'm concerned about mainly because innovation for progress for simply progress"
+    },
+    {
+      "timestamp": [
+        150.14,
+        158.72
+      ],
+      "text": " sake is kind of frowned upon at least in my circles so you'd have to find like an equal"
+    },
+    {
+      "timestamp": [
+        158.72,
+        164.3
+      ],
+      "text": " balance of decent progress decent innovation healthy innovation that's not affecting people"
+    },
+    {
+      "timestamp": [
+        164.3,
+        173.6
+      ],
+      "text": " negatively as far as primitive utopias i i like the idea of low tech and small scale something"
+    },
+    {
+      "timestamp": [
+        173.6,
+        182.32
+      ],
+      "text": " benefiting the environment overall trying to live intentionally rather than you know a extreme"
+    },
+    {
+      "timestamp": [
+        182.32,
+        186.64
+      ],
+      "text": " consumerist lifestyle i feel like it could be beneficial in the grand scheme of things"
+    },
+    {
+      "timestamp": [
+        186.64,
+        194.26
+      ],
+      "text": " unfortunately i don't see it working out long term just because if we're talking now or 100"
+    },
+    {
+      "timestamp": [
+        194.26,
+        202.28
+      ],
+      "text": " years in the future i imagine people would still be drawn to more capitalist views so that's why"
+    },
+    {
+      "timestamp": [
+        202.28,
+        208.48
+      ],
+      "text": " ranked modern green utopia because as the highest because it tries to it seems like it"
+    },
+    {
+      "timestamp": [
+        208.48,
+        213.9
+      ],
+      "text": " tries to balance certain aspects of capitalism by guaranteeing security but also ensuring that there"
+    },
+    {
+      "timestamp": [
+        213.9,
+        221.26
+      ],
+      "text": " is nods towards the environment by um keeping things sustainable and healthy for the environment"
+    },
+    {
+      "timestamp": [
+        221.26,
+        230.78
+      ],
+      "text": " so i feel like that would be the most realistic thing currently i feel like we're spiraling into"
+    },
+    {
+      "timestamp": [
+        230.78,
+        238.3
+      ],
+      "text": " the ai-centered utopia almost but in an ideal world i could see the modern green utopia being"
+    },
+    {
+      "timestamp": [
+        238.3,
+        246.3
+      ],
+      "text": " like the beneficial um a plus model to follow in the near future and then in the distant future"
+    },
+    {
+      "timestamp": [
+        246.3,
+        249.5
+      ],
+      "text": " as well before something else is conceived of."
+    }
+  ]
+}

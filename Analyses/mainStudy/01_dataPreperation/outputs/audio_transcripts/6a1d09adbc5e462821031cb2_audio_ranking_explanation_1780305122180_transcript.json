@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a1d09adbc5e462821031cb2_audio_ranking_explanation_1780305122180.webm",
+  "transcript": " well the rule of law obviously is like very controlling and um yeah it's like abusive um the one of inner morality it just seems like the most natural like human-like way to go about it um seems more pure and fair and like happy for everyone so that's the one that makes the most sense to me yeah it's all about a sustainable and secure just because it's also like a really natural life to of the society. Yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 12.019623,
+  "timestamp": "2026-06-08T11:23:25.377550",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.36
+      ],
+      "text": " well the rule of law obviously is like very controlling and um yeah it's like abusive"
+    },
+    {
+      "timestamp": [
+        12.8,
+        20.8
+      ],
+      "text": " um the one of inner morality it just seems like the most natural like human-like way"
+    },
+    {
+      "timestamp": [
+        22.16,
+        29.68
+      ],
+      "text": " to go about it um seems more pure and fair and like happy for everyone"
+    },
+    {
+      "timestamp": [
+        30.0,
+        37.68
+      ],
+      "text": " so that's the one that makes the most sense to me yeah it's all about a"
+    },
+    {
+      "timestamp": [
+        37.68,
+        47.6
+      ],
+      "text": " sustainable and secure just because it's also like a really natural life to"
+    },
+    {
+      "timestamp": [
+        47.6,
+        49.6
+      ],
+      "text": " of the society."
+    },
+    {
+      "timestamp": [
+        49.6,
+        51.6
+      ],
+      "text": " Yeah."
+    }
+  ]
+}

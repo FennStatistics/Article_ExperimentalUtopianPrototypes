@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0f59faa4c6e2f189433bd0_audio_missing_utopia_1780428514373.webm",
+  "transcript": " I mean, I already kind of talked about this. I'd want the faith base to combine with the science one and the rule of law one, because those three together, I think, are ideal, because science and faith go hand in hand, contrary to some popular thought, right? Because you have faith, and it's particularly a Christian sense because that's what we're all going to default to thinking about. And in a particularly Christian sense, the world is created by God for us to study and understand and control, right, and fill. So science is a fulfillment of that task, right? And rule of law, with religion being dominant in society, without it being dominant in government, I think is, as I already talked about earlier, is the best kind of trifecta of those three. With the church enforcing that kind of communal obligation, quote unquote, inner morality, and the other two enforcing societal structure and progress.",
+  "language": "unknown",
+  "processing_time_seconds": 16.017157,
+  "timestamp": "2026-06-08T10:51:06.974023",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.22
+      ],
+      "text": " I mean, I already kind of talked about this. I'd want the faith base to combine with the science one and the rule of law one, because those three together, I think, are ideal, because science and faith go hand in hand, contrary to some popular thought, right?"
+    },
+    {
+      "timestamp": [
+        15.22,
+        22.8
+      ],
+      "text": " Because you have faith, and it's particularly a Christian sense because that's what we're all going to default to thinking about."
+    },
+    {
+      "timestamp": [
+        23.14,
+        32.72
+      ],
+      "text": " And in a particularly Christian sense, the world is created by God for us to study and understand and control, right, and fill."
+    },
+    {
+      "timestamp": [
+        33.32,
+        38.16
+      ],
+      "text": " So science is a fulfillment of that task, right?"
+    },
+    {
+      "timestamp": [
+        38.16,
+        52.26
+      ],
+      "text": " And rule of law, with religion being dominant in society, without it being dominant in government, I think is, as I already talked about earlier, is the best kind of trifecta of those three."
+    },
+    {
+      "timestamp": [
+        53.36,
+        65.06
+      ],
+      "text": " With the church enforcing that kind of communal obligation, quote unquote, inner morality, and the other two enforcing societal structure and progress."
+    }
+  ]
+}

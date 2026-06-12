@@ -1,0 +1,486 @@
+{
+  "audio_file": "69b72d785c20e3f3bfcae82f_audio_ranking_explanation_1780383790019.webm",
+  "transcript": " Starting from the top, number one, with the moral commonwealth. This one was my favorite because to me, this really, to me, this is what a ideal society should look like. I think that in daily life, you would live without fear. You would live in harmony with everybody, every creature, with the environment, with everything. Um, and because the values kind of are experienced from an inward to outward expression, um, I believe this would be the best one, in my opinion. number two i chose the low tech and small scale um this one um i like this one second best because This one allows a similar society except you might not have the same experience, but it allows everyone to kind of be their own person in a way. And each person can decide whether or not to be a part of a bigger community, in a way. So I think that the shared values will kind of coincide with if they choose to interact or not. And if they do, then they would probably share the same values. Number three, the Modern Green Utopia. I chose this one next because I felt like it's kind of similar in the second one. just because you're trying to use just enough technology to kind of like be in harmony with everything and everyone. You're not sacrificing the environment or the human experience. You're kind of using just enough technology so that it benefits everyone and everything. Number four, the institutional. I like this one because it's a very predictable daily life. You know what will happen if you follow or don't follow. Um, it, it is kind of, it is kind of similar to how every, to how we experience life today in a way, um, because there is kind of a clear framework and you kind of know what to kind of expect um but that's why we need lawyers or else um if it were completely transparent um i don't know how that would function but um just in terms of similar day experience um that would be preferential um and the value is to kind of be based off of the rule of law that everybody would understand and i think that people would kind of just um avoid anything that breaks the law and try their best to get along um number five i chose the futurist utopia I thought that this one could be interesting because you would use a lot of innovation and science to make the best of the situation so you're always innovating you're always experimenting and trying to stretch out the resources as best you can and in that way you're kind of um trying to keep um the everyday experience as best as possible so that would kind of be like the shared values everybody would have um and people would interact and um with with the environment and each other in a way that is like sustainable Um, number six is the, um, the religious one. I think that, I think that this has already been tried many times. I think that, um, it doesn't quite work the way it's set up um because there's always there's always someone who claims to be the one who has divine authority and um it can become it can go downhill very quickly So I think that in this world, daily life could be very unpredictable. The shared values would be kind of like what the state religion says. And then the way people interact with each other in the environment would be, I think it would be, everybody would be very scared. I think everybody would be very cautious as to not break any rules, probably even more so than the institutional. because, um, it's kind of ambiguous what breaking a rule would look like. Um, and number seven, I chose the AI one centered, um, because, um, although it talked about kind of promoting um like fairness and uh things like that i think that the reality is that there are biases and it's hard to know what those could look like in a century because it would um even today we kind of live in the beginnings of what it could look like and i can't imagine in a century how big of a you could say a black box in terms of not knowing the many layers of complexity that would build upon each other through the many years that this would take place. And I think that the everyday experience would be kind of similar to the institutional, except you would kind of feel more rebellious in the sense that it's like an AI deciding things and you don't feel as connected to those decisions so the values would kind of be in the same way as the religious utopia they would kind of be like state mandated or what the central AI says they are, and you would kind of have to agree or else you might get in trouble or something. And the way that people would interact with each other and the environment would probably be very guarded Because I would assume there would be many, many cameras, many, many different ways that AI would have to observe and manage people. So people would probably feel very conscious about what they do and how they behave and what they say. And I think it would be really tough, really, really tough to live in that society. And we may be approaching that. So that is my explanation.",
+  "language": "unknown",
+  "processing_time_seconds": 97.128865,
+  "timestamp": "2026-06-08T09:17:03.765850",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.34
+      ],
+      "text": " Starting from the top, number one, with the moral commonwealth."
+    },
+    {
+      "timestamp": [
+        12.8,
+        29.34
+      ],
+      "text": " This one was my favorite because to me, this really, to me, this is what a ideal society should look like."
+    },
+    {
+      "timestamp": [
+        30.0,
+        40.12
+      ],
+      "text": " I think that in daily life, you would live without fear."
+    },
+    {
+      "timestamp": [
+        40.12,
+        47.36
+      ],
+      "text": " You would live in harmony with everybody, every creature, with the environment, with everything."
+    },
+    {
+      "timestamp": [
+        50.14,
+        47.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        65.14,
+        69.78
+      ],
+      "text": " Um, and because the values kind of are experienced from an inward to outward expression, um, I believe this would be the best one, in my opinion."
+    },
+    {
+      "timestamp": [
+        70.78,
+        69.78
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        82.74,
+        89.34
+      ],
+      "text": " number two i chose the low tech and small scale um this one um i like this one second best because"
+    },
+    {
+      "timestamp": [
+        89.34,
+        109.74
+      ],
+      "text": " This one allows a similar society except you might not have the same experience, but it"
+    },
+    {
+      "timestamp": [
+        109.74,
+        116.98
+      ],
+      "text": " allows everyone to kind of be their own person in a way."
+    },
+    {
+      "timestamp": [
+        116.98,
+        127.88
+      ],
+      "text": " And each person can decide whether or not to be a part of a bigger community, in a way."
+    },
+    {
+      "timestamp": [
+        128.72,
+        143.18
+      ],
+      "text": " So I think that the shared values will kind of coincide with if they choose to interact or not."
+    },
+    {
+      "timestamp": [
+        143.46,
+        143.18
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        148.04,
+        149.42
+      ],
+      "text": " And if they do, then they would probably share the same values."
+    },
+    {
+      "timestamp": [
+        153.68,
+        156.5
+      ],
+      "text": " Number three, the Modern Green Utopia."
+    },
+    {
+      "timestamp": [
+        170.0,
+        178.22
+      ],
+      "text": " I chose this one next because I felt like it's kind of similar in the second one. just because you're trying to use just enough technology"
+    },
+    {
+      "timestamp": [
+        178.22,
+        183.22
+      ],
+      "text": " to kind of like be in harmony with everything and everyone."
+    },
+    {
+      "timestamp": [
+        185.1,
+        195.1
+      ],
+      "text": " You're not sacrificing the environment or the human experience."
+    },
+    {
+      "timestamp": [
+        195.1,
+        200.8
+      ],
+      "text": " You're kind of using just enough technology so that it benefits everyone and everything."
+    },
+    {
+      "timestamp": [
+        202.22,
+        206.14
+      ],
+      "text": " Number four, the institutional."
+    },
+    {
+      "timestamp": [
+        208.8,
+        220.7
+      ],
+      "text": " I like this one because it's a very predictable daily life."
+    },
+    {
+      "timestamp": [
+        220.7,
+        224.92
+      ],
+      "text": " You know what will happen if you follow or don't follow."
+    },
+    {
+      "timestamp": [
+        225.1,
+        236.62
+      ],
+      "text": " Um, it, it is kind of, it is kind of similar to how every, to how we experience life today"
+    },
+    {
+      "timestamp": [
+        236.62,
+        250.52
+      ],
+      "text": " in a way, um, because there is kind of a clear framework and you kind of know what to kind"
+    },
+    {
+      "timestamp": [
+        250.52,
+        261.98
+      ],
+      "text": " of expect um but that's why we need lawyers or else um if it were completely transparent"
+    },
+    {
+      "timestamp": [
+        261.98,
+        274.46
+      ],
+      "text": " um i don't know how that would function but um just in terms of similar day experience um"
+    },
+    {
+      "timestamp": [
+        274.46,
+        281.48
+      ],
+      "text": " that would be preferential um and the value is to kind of be based off of the rule of law"
+    },
+    {
+      "timestamp": [
+        281.48,
+        291.88
+      ],
+      "text": " that everybody would understand and i think that people would kind of just um avoid anything that"
+    },
+    {
+      "timestamp": [
+        291.88,
+        303.82
+      ],
+      "text": " breaks the law and try their best to get along um number five i chose the futurist utopia"
+    },
+    {
+      "timestamp": [
+        303.82,
+        310.48
+      ],
+      "text": " I thought that this one could be interesting"
+    },
+    {
+      "timestamp": [
+        310.48,
+        319.28
+      ],
+      "text": " because you would use a lot of innovation and science"
+    },
+    {
+      "timestamp": [
+        319.28,
+        322.62
+      ],
+      "text": " to make the best of the situation"
+    },
+    {
+      "timestamp": [
+        322.62,
+        326.14
+      ],
+      "text": " so you're always innovating"
+    },
+    {
+      "timestamp": [
+        326.14,
+        327.78
+      ],
+      "text": " you're always experimenting"
+    },
+    {
+      "timestamp": [
+        327.78,
+        331.16
+      ],
+      "text": " and trying to stretch out the resources as best you can"
+    },
+    {
+      "timestamp": [
+        331.16,
+        342.62
+      ],
+      "text": " and in that way you're kind of um trying to keep um the everyday experience as best as possible"
+    },
+    {
+      "timestamp": [
+        342.62,
+        350.06
+      ],
+      "text": " so that would kind of be like the shared values everybody would have um and people would interact"
+    },
+    {
+      "timestamp": [
+        350.06,
+        357.4
+      ],
+      "text": " and um with with the environment and each other in a way that is like sustainable"
+    },
+    {
+      "timestamp": [
+        357.4,
+        371.72
+      ],
+      "text": " Um, number six is the, um, the religious one. I think that, I think that this has already"
+    },
+    {
+      "timestamp": [
+        371.72,
+        384.16
+      ],
+      "text": " been tried many times. I think that, um, it doesn't quite work"
+    },
+    {
+      "timestamp": [
+        384.16,
+        393.12
+      ],
+      "text": " the way it's set up um because there's always there's always someone who"
+    },
+    {
+      "timestamp": [
+        393.12,
+        405.16
+      ],
+      "text": " claims to be the one who has divine authority and um it can become it can go downhill very quickly"
+    },
+    {
+      "timestamp": [
+        405.16,
+        416.18
+      ],
+      "text": " So I think that in this world, daily life could be very unpredictable."
+    },
+    {
+      "timestamp": [
+        417.52,
+        424.28
+      ],
+      "text": " The shared values would be kind of like what the state religion says."
+    },
+    {
+      "timestamp": [
+        425.52,
+        424.28
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        437.08,
+        449.96
+      ],
+      "text": " And then the way people interact with each other in the environment would be, I think it would be, everybody would be very scared. I think everybody would be very cautious as to not break any rules, probably even more so than the institutional."
+    },
+    {
+      "timestamp": [
+        449.96,
+        457.84
+      ],
+      "text": " because, um, it's kind of ambiguous what breaking a rule would look like."
+    },
+    {
+      "timestamp": [
+        459.16,
+        469.68
+      ],
+      "text": " Um, and number seven, I chose the AI one centered, um, because, um,"
+    },
+    {
+      "timestamp": [
+        470.24,
+        469.68
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        483.82,
+        495.68
+      ],
+      "text": " although it talked about kind of promoting um like fairness and uh things like that i think that the reality is that there are biases and it's hard to know what those could look like"
+    },
+    {
+      "timestamp": [
+        495.68,
+        509.52
+      ],
+      "text": " in a century because it would um even today we kind of live in the beginnings of what it could"
+    },
+    {
+      "timestamp": [
+        509.52,
+        520.54
+      ],
+      "text": " look like and i can't imagine in a century how big of a you could say a black box in terms of"
+    },
+    {
+      "timestamp": [
+        520.54,
+        529.86
+      ],
+      "text": " not knowing the many layers of complexity that would build upon each other"
+    },
+    {
+      "timestamp": [
+        529.86,
+        535.12
+      ],
+      "text": " through the many years that this would take place."
+    },
+    {
+      "timestamp": [
+        535.12,
+        547.9
+      ],
+      "text": " And I think that the everyday experience would be kind of similar to the institutional,"
+    },
+    {
+      "timestamp": [
+        548.16,
+        547.9
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        561.08,
+        567.4
+      ],
+      "text": " except you would kind of feel more rebellious in the sense that it's like an AI deciding things and you don't feel as connected to those decisions so the values would"
+    },
+    {
+      "timestamp": [
+        567.4,
+        576.2
+      ],
+      "text": " kind of be in the same way as the religious utopia they would kind of be like state mandated"
+    },
+    {
+      "timestamp": [
+        576.2,
+        582.7
+      ],
+      "text": " or what the central AI says they are,"
+    },
+    {
+      "timestamp": [
+        583.08,
+        585.4
+      ],
+      "text": " and you would kind of have to agree"
+    },
+    {
+      "timestamp": [
+        585.4,
+        591.2
+      ],
+      "text": " or else you might get in trouble or something."
+    },
+    {
+      "timestamp": [
+        593.2,
+        598.92
+      ],
+      "text": " And the way that people would interact with each other"
+    },
+    {
+      "timestamp": [
+        598.92,
+        601.42
+      ],
+      "text": " and the environment would probably be very guarded"
+    },
+    {
+      "timestamp": [
+        601.42,
+        615.36
+      ],
+      "text": " Because I would assume there would be many, many cameras, many, many different ways that AI would have to observe and manage people."
+    },
+    {
+      "timestamp": [
+        616.64,
+        626.82
+      ],
+      "text": " So people would probably feel very conscious about what they do and how they behave and what they say."
+    },
+    {
+      "timestamp": [
+        626.82,
+        637.36
+      ],
+      "text": " And I think it would be really tough, really, really tough to live in that society."
+    },
+    {
+      "timestamp": [
+        638.9,
+        641.0
+      ],
+      "text": " And we may be approaching that."
+    },
+    {
+      "timestamp": [
+        641.62,
+        644.78
+      ],
+      "text": " So that is my explanation."
+    }
+  ]
+}

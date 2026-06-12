@@ -1,0 +1,409 @@
+{
+  "audio_file": "6a0e3cadbbd96b6266000443_audio_ranking_explanation_1780381542825.webm",
+  "transcript": " okay i decided to make this ranking just based on my own like thoughts and values and i'll i'll go down from my right yeah for number one futurist utopia which is science innovation i felt like it was the most reasonable one in my opinion just but i think it might be partially because like i think in a more like logical based way when it comes to like something like this like there i would want there to be reasoning to be i want i would want there to be a reasoning given when it comes to the ways that society should operate and with reasoning you know it would make the actions of you know the society be understandable reasonable and acceptable you know it's nothing wrong things are done for a reason things are done for a good reason and like it's harder to make it I guess like disagreed upon just because it's I'm assuming like a logical reasoning would be provided as to why like something would be done you know based on scientific reasoning yeah modern green utopia sustainable secure i think a big part of that is just based on like how it is currently in society like sure it is like you know we're living and stuff but um I think that society, in an environmental aspect, would be further improved if we were to do more actions that would work towards lessening the effects of climate change and global warming. Institutional utopia, rule of law. honestly i can't properly remember what this society was about like i know i read about it but i don't remember fully but i'm assuming that one was about like what is it um oh like the strict rule district rules without like uh like a dictator something like that um i would say that it makes sense like rules should be made in order to keep people in order kind of like how like with human nature um something related to obligation i can't properly remember this is probably not helping my point exactly but without any rules obviously society would probably be like going loose with rules in place it would help keep people in order but to be having a full-on dictator that's too much power for a person like i know we got a president but you know the power is distributed through branches and other people like you know The president isn't the only person that has power. Moral commonwealth, intermorality. Based on the description, I can't probably remember it, I think to have good morals, to keep good morals, one is likely to be kept in order. to, I guess, allow society to maintain in the way that it should, have a balance, and to emphasize on morality, would help people become influenced to, I guess, perform well. primitivist utopia low tech and small scale when i was reading this one i honestly couldn't properly like fully understand what they're talking about like low something work base and high whatever so that's probably my that's like mostly my reasoning as to why it's in place like I didn't fully understand it but I knew that there was worse ones than that one based on what I know but in a way I can kind of understand the enrichment for a utopia I guess a society like that yeah but low-tech like at this point in society we have innovated a lot technologically and I don't think I really want to go back to the low-tech kind of society you know I think it well this might or could be seen as a problem but we have become really dependent on technology and it has assisted in so many different ways or things in society so many different aspects that I think that if we were to like like just flip the switch and go into a utopia like that like it just wouldn't work and small scale this is a big world you know like it's not gonna work yeah it's a utopia I chose this at sixth place data-driven governance just because if the world if the world has started world has started out as an AI centered utopia as in like we never had any of these dictatorships and so I'm sure like with the information that has been fed like an answer can be given but I don't know I think it really depends on how good AI would be like at this point in time with how a how far AI has gone I just don't think that it would be able to properly really know how society would work you know I think if anything everything in the world is unpredictable and you never can really like know what's gonna happen and for AI to just you know that's not a human that's not a person of experiences you know that's just based on data but i just don't think that's gonna work and like it's environmentally harmful and i don't think that's good for this the world religious utopia i had that at the bottom just based on what i was reading i just don't think it would work i would feel like the whole world is in a cult like the whole world is entirely oblivious if we were to be in that type of utopia I think that's also because like I would rather think in a more logical way which is probably why I chose which is why I chose a futurist utopia it's just like there's a reason why there's a separation between church and state and with that reasoning issues state like that there should be a separation",
+  "language": "unknown",
+  "processing_time_seconds": 82.663305,
+  "timestamp": "2026-06-08T10:47:50.813993",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.52
+      ],
+      "text": " okay i decided to make this ranking just based on my own like thoughts and values and i'll i'll go"
+    },
+    {
+      "timestamp": [
+        7.52,
+        17.74
+      ],
+      "text": " down from my right yeah for number one futurist utopia which is science innovation i felt like"
+    },
+    {
+      "timestamp": [
+        17.74,
+        24.68
+      ],
+      "text": " it was the most reasonable one in my opinion just but i think it might be partially because like i"
+    },
+    {
+      "timestamp": [
+        24.68,
+        29.82
+      ],
+      "text": " think in a more like logical based way when it comes to like something like this like there i"
+    },
+    {
+      "timestamp": [
+        29.82,
+        37.76
+      ],
+      "text": " would want there to be reasoning to be i want i would want there to be a reasoning given when it"
+    },
+    {
+      "timestamp": [
+        37.76,
+        48.62
+      ],
+      "text": " comes to the ways that society should operate and with reasoning you know it would make the actions"
+    },
+    {
+      "timestamp": [
+        48.62,
+        57.0
+      ],
+      "text": " of you know the society be understandable reasonable and acceptable you know it's"
+    },
+    {
+      "timestamp": [
+        57.0,
+        63.86
+      ],
+      "text": " nothing wrong things are done for a reason things are done for a good reason and like it's harder"
+    },
+    {
+      "timestamp": [
+        63.86,
+        75.14
+      ],
+      "text": " to make it I guess like disagreed upon just because it's I'm assuming like a logical reasoning"
+    },
+    {
+      "timestamp": [
+        75.14,
+        80.98
+      ],
+      "text": " would be provided as to why like something would be done you know based on scientific reasoning"
+    },
+    {
+      "timestamp": [
+        81.86,
+        89.54
+      ],
+      "text": " yeah modern green utopia sustainable secure i think a big part of that is just based on like"
+    },
+    {
+      "timestamp": [
+        89.54,
+        97.86
+      ],
+      "text": " how it is currently in society like sure it is like you know we're living and stuff but um"
+    },
+    {
+      "timestamp": [
+        99.54,
+        97.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        118.68,
+        120.14
+      ],
+      "text": " I think that society, in an environmental aspect, would be further improved if we were to do more actions that would work towards lessening the effects of climate change and global warming."
+    },
+    {
+      "timestamp": [
+        122.28,
+        124.62
+      ],
+      "text": " Institutional utopia, rule of law."
+    },
+    {
+      "timestamp": [
+        122.28,
+        131.44
+      ],
+      "text": " honestly i can't properly remember what this society was about like i know i read about it"
+    },
+    {
+      "timestamp": [
+        131.44,
+        138.7
+      ],
+      "text": " but i don't remember fully but i'm assuming that one was about like what is it um"
+    },
+    {
+      "timestamp": [
+        138.7,
+        147.28
+      ],
+      "text": " oh like the strict rule district rules without like uh like a dictator something like that"
+    },
+    {
+      "timestamp": [
+        147.28,
+        159.24
+      ],
+      "text": " um i would say that it makes sense like rules should be made in order to keep people in order"
+    },
+    {
+      "timestamp": [
+        159.24,
+        170.02
+      ],
+      "text": " kind of like how like with human nature um something related to obligation i can't properly"
+    },
+    {
+      "timestamp": [
+        170.02,
+        176.56
+      ],
+      "text": " remember this is probably not helping my point exactly but without any rules obviously society"
+    },
+    {
+      "timestamp": [
+        176.56,
+        183.64
+      ],
+      "text": " would probably be like going loose with rules in place it would help keep people in order"
+    },
+    {
+      "timestamp": [
+        183.64,
+        190.74
+      ],
+      "text": " but to be having a full-on dictator that's too much power for a person like i know we got a"
+    },
+    {
+      "timestamp": [
+        190.74,
+        199.26
+      ],
+      "text": " president but you know the power is distributed through branches and other people like you know"
+    },
+    {
+      "timestamp": [
+        199.26,
+        224.26
+      ],
+      "text": " The president isn't the only person that has power. Moral commonwealth, intermorality. Based on the description, I can't probably remember it, I think to have good morals, to keep good morals, one is likely to be kept in order."
+    },
+    {
+      "timestamp": [
+        224.26,
+        247.56
+      ],
+      "text": " to, I guess, allow society to maintain in the way that it should, have a balance, and to emphasize on morality, would help people become influenced to, I guess, perform well."
+    },
+    {
+      "timestamp": [
+        252.26,
+        247.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        258.04,
+        265.02
+      ],
+      "text": " primitivist utopia low tech and small scale when i was reading this one i honestly couldn't properly like fully understand what they're talking about like low something work base"
+    },
+    {
+      "timestamp": [
+        265.02,
+        274.22
+      ],
+      "text": " and high whatever so that's probably my that's like mostly my reasoning as to why it's in"
+    },
+    {
+      "timestamp": [
+        274.22,
+        278.36
+      ],
+      "text": " place like I didn't fully understand it but I knew that there was worse ones"
+    },
+    {
+      "timestamp": [
+        278.36,
+        287.46
+      ],
+      "text": " than that one based on what I know but in a way I can kind of understand the"
+    },
+    {
+      "timestamp": [
+        287.46,
+        297.74
+      ],
+      "text": " enrichment for a utopia I guess a society like that yeah but low-tech like at this"
+    },
+    {
+      "timestamp": [
+        297.74,
+        303.44
+      ],
+      "text": " point in society we have innovated a lot technologically and I don't think I"
+    },
+    {
+      "timestamp": [
+        303.44,
+        313.28
+      ],
+      "text": " really want to go back to the low-tech kind of society you know I think it"
+    },
+    {
+      "timestamp": [
+        313.28,
+        319.22
+      ],
+      "text": " well this might or could be seen as a problem but we have become really"
+    },
+    {
+      "timestamp": [
+        319.22,
+        328.48
+      ],
+      "text": " dependent on technology and it has assisted in so many different ways or"
+    },
+    {
+      "timestamp": [
+        328.48,
+        333.2
+      ],
+      "text": " things in society so many different aspects that I think that if we were to"
+    },
+    {
+      "timestamp": [
+        333.2,
+        339.98
+      ],
+      "text": " like like just flip the switch and go into a utopia like that like it just"
+    },
+    {
+      "timestamp": [
+        339.98,
+        349.7
+      ],
+      "text": " wouldn't work and small scale this is a big world you know like it's not gonna"
+    },
+    {
+      "timestamp": [
+        349.7,
+        357.92
+      ],
+      "text": " work yeah it's a utopia I chose this at sixth place data-driven governance just"
+    },
+    {
+      "timestamp": [
+        357.92,
+        365.42
+      ],
+      "text": " because if the world if the world has started world has started out as an AI"
+    },
+    {
+      "timestamp": [
+        365.42,
+        372.56
+      ],
+      "text": " centered utopia as in like we never had any of these dictatorships and so I'm"
+    },
+    {
+      "timestamp": [
+        372.56,
+        379.3
+      ],
+      "text": " sure like with the information that has been fed like an answer can be given but"
+    },
+    {
+      "timestamp": [
+        379.3,
+        386.66
+      ],
+      "text": " I don't know I think it really depends on how good AI would be like at this"
+    },
+    {
+      "timestamp": [
+        386.66,
+        394.9
+      ],
+      "text": " point in time with how a how far AI has gone I just don't think that it would be"
+    },
+    {
+      "timestamp": [
+        394.9,
+        403.48
+      ],
+      "text": " able to properly really know how society would work you know I think if anything"
+    },
+    {
+      "timestamp": [
+        403.48,
+        408.86
+      ],
+      "text": " everything in the world is unpredictable and you never can really like know what's"
+    },
+    {
+      "timestamp": [
+        408.86,
+        413.72
+      ],
+      "text": " gonna happen and for AI to just you know that's not a human that's not a person"
+    },
+    {
+      "timestamp": [
+        413.72,
+        419.06
+      ],
+      "text": " of experiences you know that's just based on data but i just don't think that's gonna work"
+    },
+    {
+      "timestamp": [
+        419.06,
+        425.64
+      ],
+      "text": " and like it's environmentally harmful and i don't think that's good for this the world"
+    },
+    {
+      "timestamp": [
+        425.64,
+        432.44
+      ],
+      "text": " religious utopia i had that at the bottom just based on what i was reading i just don't think"
+    },
+    {
+      "timestamp": [
+        432.44,
+        440.54
+      ],
+      "text": " it would work i would feel like the whole world is in a cult like the whole world is entirely"
+    },
+    {
+      "timestamp": [
+        440.54,
+        446.68
+      ],
+      "text": " oblivious if we were to be in that type of utopia I think that's also because"
+    },
+    {
+      "timestamp": [
+        446.68,
+        450.92
+      ],
+      "text": " like I would rather think in a more logical way which is probably why I"
+    },
+    {
+      "timestamp": [
+        450.92,
+        457.76
+      ],
+      "text": " chose which is why I chose a futurist utopia it's just like there's a reason"
+    },
+    {
+      "timestamp": [
+        457.76,
+        463.46
+      ],
+      "text": " why there's a separation between church and state and with that reasoning issues"
+    },
+    {
+      "timestamp": [
+        463.46,
+        467.62
+      ],
+      "text": " state like that there should be a separation"
+    }
+  ]
+}

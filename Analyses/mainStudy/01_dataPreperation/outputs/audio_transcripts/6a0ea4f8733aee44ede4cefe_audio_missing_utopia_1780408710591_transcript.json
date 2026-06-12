@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0ea4f8733aee44ede4cefe_audio_missing_utopia_1780408710591.webm",
+  "transcript": " i'm not gonna lie i'm pretty sure the moral one and the scientific one were like the perfect one if you combine those two those were like the most perfect out of all of them uh please describe briefly a type of society that you feel was missing in spain um really i don't think anything was missing i think you should just combine the top two i had which is more utopian scientific a big, futuristic, innovative utopia. Just combine them, it'll be perfect.",
+  "language": "unknown",
+  "processing_time_seconds": 9.826098,
+  "timestamp": "2026-06-08T10:48:11.576727",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.3
+      ],
+      "text": " i'm not gonna lie i'm pretty sure the moral one and the scientific one were like the perfect one"
+    },
+    {
+      "timestamp": [
+        5.3,
+        11.7
+      ],
+      "text": " if you combine those two those were like the most perfect out of all of them uh please describe"
+    },
+    {
+      "timestamp": [
+        11.7,
+        18.86
+      ],
+      "text": " briefly a type of society that you feel was missing in spain um really i don't think anything"
+    },
+    {
+      "timestamp": [
+        18.86,
+        24.42
+      ],
+      "text": " was missing i think you should just combine the top two i had which is more utopian scientific"
+    },
+    {
+      "timestamp": [
+        24.42,
+        28.66
+      ],
+      "text": " a big, futuristic, innovative utopia."
+    },
+    {
+      "timestamp": [
+        28.66,
+        30.48
+      ],
+      "text": " Just combine them, it'll be perfect."
+    }
+  ]
+}

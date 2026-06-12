@@ -1,0 +1,262 @@
+{
+  "audio_file": "69d6b45ed142e5a639ebca81_audio_ranking_explanation_1780410478557.webm",
+  "transcript": " So I think that futurist is obviously the best choice. I think that innovation is really important. I would love to see genuine meritocracy. I think that it is the most legitimately plausible, given the current situation of humanity right now. And I think that innovation is really important for any society. rule of law is great because it is clear i think clarity is the second most important thing but all of the other ones it's not really specified why people should uphold the law and how and what laws but like to have a list of things you should and should not do and the consequences for that is the basis of a society you need that you need the consequences and the rules green utopia is obviously good. Sustainability is important. But the problem, I guess, is that it focuses a little bit too much on nature and not enough on what humans need to thrive. Because I think what a lot of these are not taking into account is that humans are kind of greedy. We are inherently selfish just by instinct. That's not really our fault, but it does need to be taken into consideration. Royal Commonwealth, same way. I think that a lot of people do have inner morality that they follow, but I don't think that that inner morality, that trust, is enough to propel society into being a thriving civilization. I think that there does need to be enough structure to help the people that fall to the cracks, who may not have the upbringing or the intuition or whatever to uphold a moral commonwealth primitive utopia not great uh low tech and small scale means that it becomes an echo chamber you would have sects of people that are very particular in their beliefs and they would not have opportunities to like learn about other people and other cultures and things like that i think that understanding the full scale and the scope of human existence is the most important thing about all life so to live in a an isolated environment with no real way to access the rest of the world is just bad for everybody. AI-centered, AI has no inherent mercy. It has no inherent anything. It's inputs and outputs. It can be manipulated, it can be exploited, it can be written poorly and designed poorly, and it just doesn't cover the facets that a human government needs to function. There need to be exceptions to things, and the people that are running and enforcing laws and things like that need to be able to understand nuance and exceptions and things like that. The difference is that a machine can learn and process information. It cannot understand that information. It does not have the capability to actually process and like have critical thinking about something that it's receiving. It's just inputs and outputs. You cannot trust AI to maintain a human society and then religion here's I have so many issues with this but number one echo chamber like if you were expected to maintain one religious idea like there are there are so I mean look at all of human history and tell me you think that's good idea still there are so many reasons that I can't even begin to talk about why that sucks just free will and believe what you want. And so much of culture comes from differences in religion and philosophy. So if we didn't have those things, we didn't have access to those things, and we were shunned for believing about, you know, main human issues differently than everybody around us, that would just be bad for humans. Humans need to be able to think whatever they want to think.",
+  "language": "unknown",
+  "processing_time_seconds": 46.570378,
+  "timestamp": "2026-06-08T09:34:15.468193",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.42
+      ],
+      "text": " So I think that futurist is obviously the best choice. I think that innovation is really important. I would love to see genuine meritocracy. I think that it is the most legitimately plausible, given the current situation of humanity right now. And I think that innovation is really important for any society."
+    },
+    {
+      "timestamp": [
+        20.16,
+        19.42
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        25.8,
+        33.78
+      ],
+      "text": " rule of law is great because it is clear i think clarity is the second most important thing but all of the other ones it's not really specified why people should uphold the law and how and"
+    },
+    {
+      "timestamp": [
+        33.78,
+        39.6
+      ],
+      "text": " what laws but like to have a list of things you should and should not do and the consequences for"
+    },
+    {
+      "timestamp": [
+        39.6,
+        45.44
+      ],
+      "text": " that is the basis of a society you need that you need the consequences and the rules green utopia"
+    },
+    {
+      "timestamp": [
+        45.44,
+        52.74
+      ],
+      "text": " is obviously good. Sustainability is important. But the problem, I guess, is that it focuses a"
+    },
+    {
+      "timestamp": [
+        52.74,
+        59.08
+      ],
+      "text": " little bit too much on nature and not enough on what humans need to thrive. Because I think what"
+    },
+    {
+      "timestamp": [
+        59.08,
+        64.1
+      ],
+      "text": " a lot of these are not taking into account is that humans are kind of greedy. We are inherently"
+    },
+    {
+      "timestamp": [
+        64.1,
+        69.86
+      ],
+      "text": " selfish just by instinct. That's not really our fault, but it does need to be taken into"
+    },
+    {
+      "timestamp": [
+        69.86,
+        75.5
+      ],
+      "text": " consideration. Royal Commonwealth, same way. I think that a lot of people do have inner morality"
+    },
+    {
+      "timestamp": [
+        75.5,
+        80.52
+      ],
+      "text": " that they follow, but I don't think that that inner morality, that trust, is enough to propel"
+    },
+    {
+      "timestamp": [
+        80.52,
+        86.06
+      ],
+      "text": " society into being a thriving civilization. I think that there does need to be enough structure"
+    },
+    {
+      "timestamp": [
+        86.06,
+        93.02
+      ],
+      "text": " to help the people that fall to the cracks, who may not have the upbringing or the intuition or"
+    },
+    {
+      "timestamp": [
+        93.02,
+        101.5
+      ],
+      "text": " whatever to uphold a moral commonwealth primitive utopia not great uh low tech and small scale"
+    },
+    {
+      "timestamp": [
+        101.5,
+        107.58
+      ],
+      "text": " means that it becomes an echo chamber you would have sects of people that are very particular"
+    },
+    {
+      "timestamp": [
+        107.58,
+        110.54
+      ],
+      "text": " in their beliefs and they would not have opportunities to like learn about other"
+    },
+    {
+      "timestamp": [
+        110.54,
+        115.5
+      ],
+      "text": " people and other cultures and things like that i think that understanding the full scale and"
+    },
+    {
+      "timestamp": [
+        115.5,
+        122.7
+      ],
+      "text": " the scope of human existence is the most important thing about all life so to live in a an isolated"
+    },
+    {
+      "timestamp": [
+        122.7,
+        128.24
+      ],
+      "text": " environment with no real way to access the rest of the world is just bad for everybody."
+    },
+    {
+      "timestamp": [
+        129.16,
+        135.12
+      ],
+      "text": " AI-centered, AI has no inherent mercy. It has no inherent anything. It's inputs and outputs."
+    },
+    {
+      "timestamp": [
+        135.12,
+        140.1
+      ],
+      "text": " It can be manipulated, it can be exploited, it can be written poorly and designed poorly,"
+    },
+    {
+      "timestamp": [
+        140.6,
+        147.28
+      ],
+      "text": " and it just doesn't cover the facets that a human government needs to function. There need to be"
+    },
+    {
+      "timestamp": [
+        147.28,
+        151.54
+      ],
+      "text": " exceptions to things, and the people that are running and enforcing laws and things like that"
+    },
+    {
+      "timestamp": [
+        151.54,
+        157.78
+      ],
+      "text": " need to be able to understand nuance and exceptions and things like that. The difference"
+    },
+    {
+      "timestamp": [
+        158.82,
+        165.22
+      ],
+      "text": " is that a machine can learn and process information. It cannot understand that"
+    },
+    {
+      "timestamp": [
+        165.22,
+        175.54
+      ],
+      "text": " information. It does not have the capability to actually process and like have critical thinking"
+    },
+    {
+      "timestamp": [
+        175.54,
+        180.58
+      ],
+      "text": " about something that it's receiving. It's just inputs and outputs. You cannot trust AI to"
+    },
+    {
+      "timestamp": [
+        181.54,
+        187.58
+      ],
+      "text": " maintain a human society and then religion here's I have so many issues"
+    },
+    {
+      "timestamp": [
+        187.58,
+        192.3
+      ],
+      "text": " with this but number one echo chamber like if you were expected to maintain"
+    },
+    {
+      "timestamp": [
+        192.3,
+        199.14
+      ],
+      "text": " one religious idea like there are there are so I mean look at all of human"
+    },
+    {
+      "timestamp": [
+        199.14,
+        202.74
+      ],
+      "text": " history and tell me you think that's good idea still there are so many reasons"
+    },
+    {
+      "timestamp": [
+        202.74,
+        208.82
+      ],
+      "text": " that I can't even begin to talk about why that sucks just free will and believe"
+    },
+    {
+      "timestamp": [
+        208.82,
+        213.38
+      ],
+      "text": " what you want. And so much of culture comes from differences in religion and philosophy. So if we"
+    },
+    {
+      "timestamp": [
+        213.38,
+        216.8
+      ],
+      "text": " didn't have those things, we didn't have access to those things, and we were shunned for believing"
+    },
+    {
+      "timestamp": [
+        216.8,
+        223.0
+      ],
+      "text": " about, you know, main human issues differently than everybody around us, that would just be"
+    },
+    {
+      "timestamp": [
+        223.0,
+        226.58
+      ],
+      "text": " bad for humans. Humans need to be able to think whatever they want to think."
+    }
+  ]
+}

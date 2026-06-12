@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a1c990b43838fd3a302fedf_audio_ranking_explanation_1780404734079.webm",
+  "transcript": " um i did modern modern green utopia first that one seemed the most appealing to me um the most like good and productivity and the connection to people into the environment would come from that one um and then i my second choice is futuristic utopia um kind of for similar reasons. And then my third one was Primivist Utopia. I liked the low tech part of that and the small scale part of that. And then number four was Moral Commonwealth. I feel like morality ranges with people. And so I feel like that can be good or bad in certain situations. That's why just put it in the middle at number four and then number five i did ai centered utopia um i don't like ai at all but i guess i can see the efficiency through that one number six i did religious um i'm not a very religious person so that didn't seem appealing to me that's why it's near the bottom and then seven i did institutional utopia because that one sounded scary and intimidating",
+  "language": "unknown",
+  "processing_time_seconds": 15.731697,
+  "timestamp": "2026-06-08T11:20:06.438362",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.08
+      ],
+      "text": " um i did modern modern green utopia first that one seemed the most appealing to me"
+    },
+    {
+      "timestamp": [
+        9.08,
+        18.04
+      ],
+      "text": " um the most like good and productivity and the connection to people into the environment would"
+    },
+    {
+      "timestamp": [
+        18.04,
+        26.8
+      ],
+      "text": " come from that one um and then i my second choice is futuristic utopia um kind of for similar"
+    },
+    {
+      "timestamp": [
+        26.8,
+        36.46
+      ],
+      "text": " reasons. And then my third one was Primivist Utopia. I liked the low tech part of that and"
+    },
+    {
+      "timestamp": [
+        36.46,
+        46.8
+      ],
+      "text": " the small scale part of that. And then number four was Moral Commonwealth. I feel like morality"
+    },
+    {
+      "timestamp": [
+        46.8,
+        54.58
+      ],
+      "text": " ranges with people. And so I feel like that can be good or bad in certain situations. That's why"
+    },
+    {
+      "timestamp": [
+        54.58,
+        62.1
+      ],
+      "text": " just put it in the middle at number four and then number five i did ai centered utopia um i don't"
+    },
+    {
+      "timestamp": [
+        62.1,
+        71.38
+      ],
+      "text": " like ai at all but i guess i can see the efficiency through that one number six i did religious um i'm"
+    },
+    {
+      "timestamp": [
+        71.38,
+        76.18
+      ],
+      "text": " not a very religious person so that didn't seem appealing to me that's why it's near the bottom"
+    },
+    {
+      "timestamp": [
+        76.18,
+        81.14
+      ],
+      "text": " and then seven i did institutional utopia because that one sounded scary and intimidating"
+    }
+  ]
+}

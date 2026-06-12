@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0e33404f04beba45d473e5_audio_ranking_explanation_1780437946843.webm",
+  "transcript": " I don't like AI centers and the future tech probably can save lives.",
+  "language": "unknown",
+  "processing_time_seconds": 4.68743,
+  "timestamp": "2026-06-08T10:45:50.810783",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.04
+      ],
+      "text": " I don't like AI centers and the future tech probably can save lives."
+    }
+  ]
+}

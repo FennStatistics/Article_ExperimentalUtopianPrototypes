@@ -1,0 +1,129 @@
+{
+  "audio_file": "697cd0433f63f30292b20c1b_audio_missing_utopia_1780404869979.webm",
+  "transcript": " I think the most important value or approach that were maybe absent from all of them was the fact that there was, I really didn't see much of just being your own person, doing your own thing, thinking, you know, doing what you think is best. And it's always about what the group or what people, the whole group wants to do. I understand that, you know, we need to do that more often. But what about people making their own mind up and their own decisions and letting them do what they think is best for their own self? I think that that's very important as well. And then it says, please describe briefly a type of future society that you feel is missing and explain what would matter most in your vision of that society. Well, to me, I am like a hippie, kind of like a hippie Wicca nature person. So what I would like to see is people that all get along, that are all kind and loving to each other, that have a little bit of this, a little bit of that. Everybody has their own style and their own uniqueness and that can all bring something to the table as a perspective. And we all bring our own selves to what we can do. And maybe, you know, we can build upon that. I really would like to see a vision of that type of society where we're all kind to each other. We don't kill each other. We don't hurt each other. We don't say unkind things to each other. We're accepting of each other for who we are and who we love and what we appreciate. And I really think that if there was more of people that were more genuine and more kind like that, I think that the society would be such a much better place.",
+  "language": "unknown",
+  "processing_time_seconds": 24.544817,
+  "timestamp": "2026-06-08T08:57:13.948181",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.46
+      ],
+      "text": " I think the most important value or approach that were maybe absent from all of them was the fact that there was, I really didn't see much of just being your own person, doing your own thing, thinking, you know, doing what you think is best."
+    },
+    {
+      "timestamp": [
+        20.46,
+        26.76
+      ],
+      "text": " And it's always about what the group or what people, the whole group wants to do."
+    },
+    {
+      "timestamp": [
+        27.02,
+        29.38
+      ],
+      "text": " I understand that, you know, we need to do that more often."
+    },
+    {
+      "timestamp": [
+        29.6,
+        35.88
+      ],
+      "text": " But what about people making their own mind up and their own decisions and letting them do what they think is best for their own self?"
+    },
+    {
+      "timestamp": [
+        36.46,
+        39.38
+      ],
+      "text": " I think that that's very important as well."
+    },
+    {
+      "timestamp": [
+        40.96,
+        50.42
+      ],
+      "text": " And then it says, please describe briefly a type of future society that you feel is missing and explain what would matter most in your vision of that society."
+    },
+    {
+      "timestamp": [
+        51.04,
+        57.6
+      ],
+      "text": " Well, to me, I am like a hippie, kind of like a hippie Wicca nature person."
+    },
+    {
+      "timestamp": [
+        57.8,
+        67.06
+      ],
+      "text": " So what I would like to see is people that all get along, that are all kind and loving to each other, that have a little bit of this, a little bit of that."
+    },
+    {
+      "timestamp": [
+        67.16,
+        73.88
+      ],
+      "text": " Everybody has their own style and their own uniqueness and that can all bring something to the table as a perspective."
+    },
+    {
+      "timestamp": [
+        74.74,
+        80.44
+      ],
+      "text": " And we all bring our own selves to what we can do."
+    },
+    {
+      "timestamp": [
+        80.9,
+        83.02
+      ],
+      "text": " And maybe, you know, we can build upon that."
+    },
+    {
+      "timestamp": [
+        83.14,
+        87.7
+      ],
+      "text": " I really would like to see a vision of that type of society where we're all kind to each other."
+    },
+    {
+      "timestamp": [
+        87.88,
+        89.06
+      ],
+      "text": " We don't kill each other."
+    },
+    {
+      "timestamp": [
+        89.18,
+        90.1
+      ],
+      "text": " We don't hurt each other."
+    },
+    {
+      "timestamp": [
+        90.24,
+        91.86
+      ],
+      "text": " We don't say unkind things to each other."
+    },
+    {
+      "timestamp": [
+        92.0,
+        97.48
+      ],
+      "text": " We're accepting of each other for who we are and who we love and what we appreciate."
+    },
+    {
+      "timestamp": [
+        97.48,
+        106.5
+      ],
+      "text": " And I really think that if there was more of people that were more genuine and more kind like that, I think that the society would be such a much better place."
+    }
+  ]
+}

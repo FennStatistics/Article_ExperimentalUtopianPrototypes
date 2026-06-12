@@ -1,0 +1,38 @@
+{
+  "audio_file": "69dbba2af76a02c2bbb1c3f7_audio_ranking_explanation_1780402851322.webm",
+  "transcript": " I ranked the modern green utopia as number one because it's sustainable and a sustainable utopia like that would promote like the better earth and the earth would be able to last longer compared to the AI centered utopia which takes resources from the earth and potentially can lead to a lot of harm compared to the green utopia.",
+  "language": "unknown",
+  "processing_time_seconds": 6.485752,
+  "timestamp": "2026-06-08T09:35:21.892181",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.76
+      ],
+      "text": " I ranked the modern green utopia as number one because it's sustainable and a sustainable"
+    },
+    {
+      "timestamp": [
+        9.76,
+        14.42
+      ],
+      "text": " utopia like that would promote like the better earth and the earth would be able to last"
+    },
+    {
+      "timestamp": [
+        14.42,
+        20.5
+      ],
+      "text": " longer compared to the AI centered utopia which takes resources from the earth and"
+    },
+    {
+      "timestamp": [
+        20.5,
+        25.86
+      ],
+      "text": " potentially can lead to a lot of harm compared to the green utopia."
+    }
+  ]
+}

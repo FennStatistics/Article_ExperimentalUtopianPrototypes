@@ -1,0 +1,17 @@
+{
+  "audio_file": "6727e176e5f011b020a6a2db_audio_missing_utopia_1780453156025.webm",
+  "transcript": " I think the religious utopia would be the best one because if everyone has the same principles and morals and religious foundations, you go further in life and you have more common ground.",
+  "language": "unknown",
+  "processing_time_seconds": 5.423036,
+  "timestamp": "2026-06-08T08:45:03.885250",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.72
+      ],
+      "text": " I think the religious utopia would be the best one because if everyone has the same principles and morals and religious foundations, you go further in life and you have more common ground."
+    }
+  ]
+}

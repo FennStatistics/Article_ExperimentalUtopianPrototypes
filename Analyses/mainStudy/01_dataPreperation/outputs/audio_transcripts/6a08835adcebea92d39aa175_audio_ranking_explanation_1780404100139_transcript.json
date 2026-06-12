@@ -1,0 +1,171 @@
+{
+  "audio_file": "6a08835adcebea92d39aa175_audio_ranking_explanation_1780404100139.webm",
+  "transcript": " So there are a few reasons why I chose this specific ranking. First, I feel like the modern green utopia is really an idealistic society. I feel like it's the perfect way to balance conserving our resources while also keeping people safe and secure and still following a rule of law. My second one would be rule of law. I feel like this kind of mimics mostly what we live in the United States. It keeps people in check. It doesn't rely on people's morality or their own decision making to run society. And I feel like in this situation, laws are really important and necessary to make sure that society is functioning properly. Then I did futurist utopia. I really like the idea of science and innovation and constantly using science and new technology to advance our civilization, while also making sure that we are conserving our resources and doing things efficiently. My next would be low tech in small scale. Just because I see this, I don't really see a huge problem with this with being low technology, only using what you need and keeping things small. I think my only issue with this was the lack of official rule slash law, I think can be a problem. But I think if we're keeping it small scale, it could work out. As for AI centered, this is one that I did not love just because I don't think that we should be determining our government, our rules, our resources based on AI specifically. I think human judgment, compassion, and discussions are really important. And if we are AI centered, we really lose that. My next would be religious utopia. I feel like historically religious governments do not function as well as they should. I think a lot of people take advantage of faith-based order and use it to oppress people and to harm groups of people. And then my last one would be moral commonwealth, intermorality. I don't believe that people are able to function solely on intermorality. I think that there are evils and things that come out of people when they have the total freedom to do whatever they want. So I just don't see that working out.",
+  "language": "unknown",
+  "processing_time_seconds": 30.95126,
+  "timestamp": "2026-06-08T10:31:51.095843",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.42
+      ],
+      "text": " So there are a few reasons why I chose this specific ranking. First, I feel like the modern"
+    },
+    {
+      "timestamp": [
+        6.42,
+        14.1
+      ],
+      "text": " green utopia is really an idealistic society. I feel like it's the perfect way to balance"
+    },
+    {
+      "timestamp": [
+        14.1,
+        19.88
+      ],
+      "text": " conserving our resources while also keeping people safe and secure and still following"
+    },
+    {
+      "timestamp": [
+        19.88,
+        25.72
+      ],
+      "text": " a rule of law. My second one would be rule of law. I feel like this kind of mimics mostly"
+    },
+    {
+      "timestamp": [
+        25.72,
+        32.72
+      ],
+      "text": " what we live in the United States. It keeps people in check. It doesn't rely on people's morality or"
+    },
+    {
+      "timestamp": [
+        32.72,
+        37.78
+      ],
+      "text": " their own decision making to run society. And I feel like in this situation, laws are really"
+    },
+    {
+      "timestamp": [
+        37.78,
+        44.14
+      ],
+      "text": " important and necessary to make sure that society is functioning properly. Then I did futurist"
+    },
+    {
+      "timestamp": [
+        44.14,
+        50.98
+      ],
+      "text": " utopia. I really like the idea of science and innovation and constantly using science and"
+    },
+    {
+      "timestamp": [
+        50.98,
+        57.08
+      ],
+      "text": " new technology to advance our civilization, while also making sure that we are conserving our"
+    },
+    {
+      "timestamp": [
+        57.08,
+        64.34
+      ],
+      "text": " resources and doing things efficiently. My next would be low tech in small scale. Just because"
+    },
+    {
+      "timestamp": [
+        64.34,
+        69.08
+      ],
+      "text": " I see this, I don't really see a huge problem with this with being low technology, only using"
+    },
+    {
+      "timestamp": [
+        69.08,
+        75.36
+      ],
+      "text": " what you need and keeping things small. I think my only issue with this was the lack of official"
+    },
+    {
+      "timestamp": [
+        75.36,
+        81.04
+      ],
+      "text": " rule slash law, I think can be a problem. But I think if we're keeping it small scale, it could"
+    },
+    {
+      "timestamp": [
+        81.04,
+        86.56
+      ],
+      "text": " work out. As for AI centered, this is one that I did not love just because I don't think that we"
+    },
+    {
+      "timestamp": [
+        86.56,
+        92.72
+      ],
+      "text": " should be determining our government, our rules, our resources based on AI specifically. I think"
+    },
+    {
+      "timestamp": [
+        92.72,
+        99.9
+      ],
+      "text": " human judgment, compassion, and discussions are really important. And if we are AI centered,"
+    },
+    {
+      "timestamp": [
+        99.9,
+        106.78
+      ],
+      "text": " we really lose that. My next would be religious utopia. I feel like historically religious"
+    },
+    {
+      "timestamp": [
+        106.78,
+        115.2
+      ],
+      "text": " governments do not function as well as they should. I think a lot of people take advantage"
+    },
+    {
+      "timestamp": [
+        115.2,
+        120.1
+      ],
+      "text": " of faith-based order and use it to oppress people and to harm groups of people."
+    },
+    {
+      "timestamp": [
+        121.12,
+        126.22
+      ],
+      "text": " And then my last one would be moral commonwealth, intermorality. I don't believe that people are"
+    },
+    {
+      "timestamp": [
+        126.22,
+        133.98
+      ],
+      "text": " able to function solely on intermorality. I think that there are evils and things that come out of"
+    },
+    {
+      "timestamp": [
+        133.98,
+        139.22
+      ],
+      "text": " people when they have the total freedom to do whatever they want. So I just don't see that"
+    },
+    {
+      "timestamp": [
+        139.22,
+        139.74
+      ],
+      "text": " working out."
+    }
+  ]
+}

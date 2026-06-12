@@ -1,0 +1,17 @@
+{
+  "audio_file": "66b3dc1490445aa410abd41e_audio_missing_utopia_1780243084797.webm",
+  "transcript": " I think if anything, my top choices such as sustainability, science, and morality could all have been mixed together into one because I don't believe that you can really have sustainability and focus on environmental issues without focusing on the morality of the issue and also the science-backed data.",
+  "language": "unknown",
+  "processing_time_seconds": 6.203811,
+  "timestamp": "2026-06-08T08:39:22.166989",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.9
+      ],
+      "text": " I think if anything, my top choices such as sustainability, science, and morality could all have been mixed together into one because I don't believe that you can really have sustainability and focus on environmental issues without focusing on the morality of the issue and also the science-backed data."
+    }
+  ]
+}

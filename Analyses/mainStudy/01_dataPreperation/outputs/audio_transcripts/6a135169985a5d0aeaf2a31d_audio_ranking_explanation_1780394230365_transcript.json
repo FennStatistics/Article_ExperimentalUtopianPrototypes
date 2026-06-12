@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a135169985a5d0aeaf2a31d_audio_ranking_explanation_1780394230365.webm",
+  "transcript": " I rank them in that order because it is easier to control humans in general with rule of law so it's easier to have a set of rules and science that are maintaining the law so then that gives way to the innovation and trying to come together with a sustainability way of living which is now through science, law, morality and religious and low-scale living.",
+  "language": "unknown",
+  "processing_time_seconds": 8.957207,
+  "timestamp": "2026-06-08T10:56:30.178361",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.76
+      ],
+      "text": " I rank them in that order because it is easier to control humans in general with rule of law so"
+    },
+    {
+      "timestamp": [
+        11.76,
+        21.76
+      ],
+      "text": " it's easier to have a set of rules and science that are maintaining the law so then that gives"
+    },
+    {
+      "timestamp": [
+        21.76,
+        29.98
+      ],
+      "text": " way to the innovation and trying to come together with a sustainability way of living which is now"
+    },
+    {
+      "timestamp": [
+        29.98,
+        37.74
+      ],
+      "text": " through science, law, morality and religious and low-scale living."
+    }
+  ]
+}

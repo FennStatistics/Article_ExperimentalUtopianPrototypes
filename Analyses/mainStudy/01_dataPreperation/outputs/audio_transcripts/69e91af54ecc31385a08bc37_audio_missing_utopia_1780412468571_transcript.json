@@ -1,0 +1,24 @@
+{
+  "audio_file": "69e91af54ecc31385a08bc37_audio_missing_utopia_1780412468571.webm",
+  "transcript": " I think we were still missing some combinations of certain societies. I would have especially liked the green technology one with the inner morality combined.",
+  "language": "unknown",
+  "processing_time_seconds": 5.140053,
+  "timestamp": "2026-06-08T09:43:02.174834",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.24
+      ],
+      "text": " I think we were still missing some combinations of certain societies."
+    },
+    {
+      "timestamp": [
+        7.24,
+        13.68
+      ],
+      "text": " I would have especially liked the green technology one with the inner morality combined."
+    }
+  ]
+}

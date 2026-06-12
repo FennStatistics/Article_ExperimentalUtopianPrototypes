@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a1629cc5dcd6ea2c000c9af_audio_missing_utopia_1780385075953.webm",
+  "transcript": " The seven societies covered a lot of different approaches, like technology, rules, society, community and data. What felt missing to me was a society that balances all of those, instead of focusing on just one. In my own version, actually, innovation and clear rules will work together, but people will still have some choice. Balance matters most because no single system is perfect on its own.",
+  "language": "unknown",
+  "processing_time_seconds": 7.035244,
+  "timestamp": "2026-06-08T11:06:56.883654",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.0
+      ],
+      "text": " The seven societies covered a lot of different approaches, like technology, rules, society, community and data."
+    },
+    {
+      "timestamp": [
+        10.0,
+        16.0
+      ],
+      "text": " What felt missing to me was a society that balances all of those, instead of focusing on just one."
+    },
+    {
+      "timestamp": [
+        16.0,
+        23.0
+      ],
+      "text": " In my own version, actually, innovation and clear rules will work together, but people will still have some choice."
+    },
+    {
+      "timestamp": [
+        23.0,
+        27.9
+      ],
+      "text": " Balance matters most because no single system is perfect on its own."
+    }
+  ]
+}

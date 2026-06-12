@@ -1,0 +1,269 @@
+{
+  "audio_file": "6a04c01c963d770b4182218f_audio_ranking_explanation_1780258285493.webm",
+  "transcript": " I placed number one as Modern Green Utopia. This one specifically stood out to me since it focused a lot on making sure that everybody had enough things, while also keeping in mind the importance of the future, like future generations, pursuing green technology as a way to make sure that our Earth isn't, well, going to be in disaster, trying to keep it safe for future generations, and it seemed like overall something that would be ideal. The second one that I ranked was the institutional utopia, the rule of law. Obviously this one, I didn't put it first since I think law can still be flawed. This sort of places all the power on the people at the top, I feel, those who get to set the laws. While this is, in theory, good if the people at the top are moral, it could also be the case that the people at the top setting these laws could be just as immoral, making it so that this is something that has the potential of being flawed in practice, while in theory it has the potential of being pretty good as well. In third, I put the futurist utopia. While science and innovation are concepts and things that I do think are good, I feel as if there could be things that scientists and researchers could potentially overstep on in terms of science. I wouldn't want things to 100% be focused solely on science just because I worry about overstepping moral boundaries and things that we currently don't overstep on in the name of science, which this particular utopia seems to disregard, which I didn't really feel comfortable with. The fourth, the moral commonwealth one. Ideally, this one sounds pretty good in theory, but I couldn't shake off the feeling that this relies upon everybody subscribing to the societal belief and behavior. Obviously, in an ideal situation, everybody follows this, but I don't think that would actually be the case. There might be deviants, people that just don't respect the societal norms, people that are focused solely on individual desires, things like that. So I personally would feel very suspicious and anxious all the time if I were living in this type of situation. Fifth is the primitivist utopia, low-tech, and small-scale. I don't think I would particularly want to be in this situation given that I personally place a lot of emphasis and importance on technology. This particular utopia seems very boring and seems to just focus on surviving, which I didn't really feel a desire for, mostly of a concern of boredom. For number six, the AI-centered utopia, this seems pretty awful in my opinion, putting every decision and life in general in the hands of AI. Given that AI is something that is based upon the collection of training data and training data sets, I don't think it's perfect in that if the training data is flawed, I'm not sure where the data would be obtained, And it could potentially make the decisions that it makes flawed as well. Even in today's society, situations where a lot of marginalized communities, for example, are over-policed mainly because of being POCs, I've read an article about the technologies for that community being developed in a way that describes it. discriminates against them. So I think that the possibility of discrimination among certain groups of people could be perpetuated if we solely rely on AI, which I don't like. Number seven is the worst one, in my opinion, the religious utopia. This might be because I'm not a very religious person either, but solely subscribing everything to a church, to a religious organization seems like absolutely the not ideal. I don't have a great connection with religion at the moment, especially with the current social landscape, political landscape. I fear for religious fanatics whose actions, words, and thoughts are not rooted in logic and are rooted solely in faith and religious fervor, which I feel is scary, to be quite honest, mainly because everything that is centered around religion, to me at least, seems very much like it could change at a moment's notice. Everything is sort of up to interpretation based on whoever is at the top of this religious society declares, which I feel could lead to a lot of abuse in power. And yeah, I'm just not a fan of that as a whole.",
+  "language": "unknown",
+  "processing_time_seconds": 63.600147,
+  "timestamp": "2026-06-08T10:25:27.675281",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.76
+      ],
+      "text": " I placed number one as Modern Green Utopia."
+    },
+    {
+      "timestamp": [
+        4.32,
+        10.32
+      ],
+      "text": " This one specifically stood out to me since it focused a lot on making sure that everybody had enough things,"
+    },
+    {
+      "timestamp": [
+        10.98,
+        15.56
+      ],
+      "text": " while also keeping in mind the importance of the future, like future generations,"
+    },
+    {
+      "timestamp": [
+        16.4,
+        27.56
+      ],
+      "text": " pursuing green technology as a way to make sure that our Earth isn't, well, going to be in disaster,"
+    },
+    {
+      "timestamp": [
+        28.12,
+        27.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.52,
+        43.2
+      ],
+      "text": " trying to keep it safe for future generations, and it seemed like overall something that would be ideal. The second one that I ranked was the institutional utopia, the rule of law."
+    },
+    {
+      "timestamp": [
+        44.12,
+        49.92
+      ],
+      "text": " Obviously this one, I didn't put it first since I think law can still be flawed. This sort of"
+    },
+    {
+      "timestamp": [
+        49.92,
+        55.9
+      ],
+      "text": " places all the power on the people at the top, I feel, those who get to set the laws."
+    },
+    {
+      "timestamp": [
+        56.44,
+        55.9
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        83.76,
+        85.9
+      ],
+      "text": " While this is, in theory, good if the people at the top are moral, it could also be the case that the people at the top setting these laws could be just as immoral, making it so that this is something that has the potential of being flawed in practice, while in theory it has the potential of being pretty good as well."
+    },
+    {
+      "timestamp": [
+        109.14,
+        137.92
+      ],
+      "text": " In third, I put the futurist utopia. While science and innovation are concepts and things that I do think are good, I feel as if there could be things that scientists and researchers could potentially overstep on in terms of science. I wouldn't want things to 100% be focused solely on science just because I worry about overstepping moral boundaries and things that we currently don't overstep on in the name of science, which this particular utopia seems to disregard, which I didn't really feel comfortable with."
+    },
+    {
+      "timestamp": [
+        139.14,
+        158.2
+      ],
+      "text": " The fourth, the moral commonwealth one. Ideally, this one sounds pretty good in theory, but I couldn't shake off the feeling that this relies upon everybody subscribing to the societal belief and behavior."
+    },
+    {
+      "timestamp": [
+        159.02,
+        159.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        167.68,
+        179.14
+      ],
+      "text": " Obviously, in an ideal situation, everybody follows this, but I don't think that would actually be the case. There might be deviants, people that just don't respect the societal norms, people that are focused solely on individual desires, things like that."
+    },
+    {
+      "timestamp": [
+        179.78,
+        186.84
+      ],
+      "text": " So I personally would feel very suspicious and anxious all the time if I were living in this type of situation."
+    },
+    {
+      "timestamp": [
+        188.2,
+        195.92
+      ],
+      "text": " Fifth is the primitivist utopia, low-tech, and small-scale. I don't think I would"
+    },
+    {
+      "timestamp": [
+        195.92,
+        202.72
+      ],
+      "text": " particularly want to be in this situation given that I personally place a lot of emphasis and"
+    },
+    {
+      "timestamp": [
+        202.72,
+        208.48
+      ],
+      "text": " importance on technology. This particular utopia seems very boring and seems to just"
+    },
+    {
+      "timestamp": [
+        208.48,
+        218.02
+      ],
+      "text": " focus on surviving, which I didn't really feel a desire for, mostly of a concern of boredom."
+    },
+    {
+      "timestamp": [
+        218.2,
+        228.16
+      ],
+      "text": " For number six, the AI-centered utopia, this seems pretty awful in my opinion, putting every decision and life in general in the hands of AI."
+    },
+    {
+      "timestamp": [
+        228.54,
+        237.16
+      ],
+      "text": " Given that AI is something that is based upon the collection of training data and training data sets,"
+    },
+    {
+      "timestamp": [
+        237.74,
+        245.54
+      ],
+      "text": " I don't think it's perfect in that if the training data is flawed, I'm not sure where the data would be obtained,"
+    },
+    {
+      "timestamp": [
+        246.12,
+        245.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        249.8,
+        275.52
+      ],
+      "text": " And it could potentially make the decisions that it makes flawed as well. Even in today's society, situations where a lot of marginalized communities, for example, are over-policed mainly because of being POCs, I've read an article about the technologies for that community being developed in a way that describes it."
+    },
+    {
+      "timestamp": [
+        275.54,
+        281.74
+      ],
+      "text": " discriminates against them. So I think that the possibility of discrimination among certain"
+    },
+    {
+      "timestamp": [
+        281.74,
+        287.64
+      ],
+      "text": " groups of people could be perpetuated if we solely rely on AI, which I don't like."
+    },
+    {
+      "timestamp": [
+        288.98,
+        294.3
+      ],
+      "text": " Number seven is the worst one, in my opinion, the religious utopia. This might be because I'm not a"
+    },
+    {
+      "timestamp": [
+        294.3,
+        302.4
+      ],
+      "text": " very religious person either, but solely subscribing everything to a church, to a religious"
+    },
+    {
+      "timestamp": [
+        302.4,
+        312.62
+      ],
+      "text": " organization seems like absolutely the not ideal. I don't have a great connection with religion at"
+    },
+    {
+      "timestamp": [
+        312.62,
+        320.04
+      ],
+      "text": " the moment, especially with the current social landscape, political landscape. I fear for"
+    },
+    {
+      "timestamp": [
+        320.04,
+        329.08
+      ],
+      "text": " religious fanatics whose actions, words, and thoughts are not rooted in logic and are rooted"
+    },
+    {
+      "timestamp": [
+        329.08,
+        340.06
+      ],
+      "text": " solely in faith and religious fervor, which I feel is scary, to be quite honest, mainly"
+    },
+    {
+      "timestamp": [
+        340.06,
+        351.24
+      ],
+      "text": " because everything that is centered around religion, to me at least, seems very much"
+    },
+    {
+      "timestamp": [
+        351.24,
+        352.98
+      ],
+      "text": " like it could change at a moment's notice."
+    },
+    {
+      "timestamp": [
+        355.08,
+        358.94
+      ],
+      "text": " Everything is sort of up to interpretation based on whoever is at the top of this"
+    },
+    {
+      "timestamp": [
+        358.94,
+        365.52
+      ],
+      "text": " religious society declares, which I feel could lead to a lot of abuse in power."
+    },
+    {
+      "timestamp": [
+        365.52,
+        369.28
+      ],
+      "text": " And yeah, I'm just not a fan of that as a whole."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "audio_file": "6a037bdccdf50aa9efd14b0b_audio_ranking_explanation_1780378081584.webm",
+  "transcript": " The reason I rank the societies the way I did is primarily because I believe the best society is one that can sustain itself, whether we are present or not. I ranked Modern Green Utopia above all because it is the one that is longer lasting and more secure, and we as a people have more control over it. Going down the list, I ranked Moral Commonwealth in second because I believe people should be able to go by their own decisions, and that law cannot determine every single aspect of one's life. This follows suit with primitivist utopia, low-tech and small-scale, because we can spend more time focusing on achieving the minimum that we need to survive without taking away too much. Futurist utopia, while focusing on science innovation, is good, does stress that it would actively be working upon and pushing the limitations of the natural world, to which if we push too far, we risk destroying what we already have. In an institutional utopia, law cannot define every single aspect of a person's life, and I feel it rips away one's humanity and the right to who they are. AI-centered utopias also fall low on the list because human mind has gotten us this far and to replace that with a technological device that does not understand the same way we do may only cause more harm than good and finally religious utopia is last because of the dangers that come from colliding faiths from different regions and individuals.",
+  "language": "unknown",
+  "processing_time_seconds": 28.052532,
+  "timestamp": "2026-06-08T10:21:59.918446",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        12.86
+      ],
+      "text": " The reason I rank the societies the way I did is primarily because I believe the best society is one that can sustain itself, whether we are present or not."
+    },
+    {
+      "timestamp": [
+        13.66,
+        24.5
+      ],
+      "text": " I ranked Modern Green Utopia above all because it is the one that is longer lasting and more secure, and we as a people have more control over it."
+    },
+    {
+      "timestamp": [
+        25.64,
+        24.5
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        42.42,
+        42.98
+      ],
+      "text": " Going down the list, I ranked Moral Commonwealth in second because I believe people should be able to go by their own decisions, and that law cannot determine every single aspect of one's life."
+    },
+    {
+      "timestamp": [
+        42.42,
+        59.08
+      ],
+      "text": " This follows suit with primitivist utopia, low-tech and small-scale, because we can spend more time focusing on achieving the minimum that we need to survive without taking away too much."
+    },
+    {
+      "timestamp": [
+        60.66,
+        59.08
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        78.44,
+        80.66
+      ],
+      "text": " Futurist utopia, while focusing on science innovation, is good, does stress that it would actively be working upon and pushing the limitations of the natural world, to which if we push too far, we risk destroying what we already have."
+    },
+    {
+      "timestamp": [
+        78.44,
+        92.72
+      ],
+      "text": " In an institutional utopia, law cannot define every single aspect of a person's life, and I feel it rips away one's humanity and the right to who they are."
+    },
+    {
+      "timestamp": [
+        93.94,
+        92.72
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        98.64,
+        102.98
+      ],
+      "text": " AI-centered utopias also fall low on the list because human mind has gotten us this far"
+    },
+    {
+      "timestamp": [
+        102.98,
+        108.08
+      ],
+      "text": " and to replace that with a technological device"
+    },
+    {
+      "timestamp": [
+        108.08,
+        111.28
+      ],
+      "text": " that does not understand the same way we do"
+    },
+    {
+      "timestamp": [
+        111.28,
+        113.78
+      ],
+      "text": " may only cause more harm than good"
+    },
+    {
+      "timestamp": [
+        113.78,
+        116.62
+      ],
+      "text": " and finally religious utopia is last"
+    },
+    {
+      "timestamp": [
+        116.62,
+        126.02
+      ],
+      "text": " because of the dangers that come from colliding faiths from different regions and individuals."
+    }
+  ]
+}

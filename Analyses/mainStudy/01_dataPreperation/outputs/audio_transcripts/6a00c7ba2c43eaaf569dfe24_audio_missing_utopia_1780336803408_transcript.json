@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a00c7ba2c43eaaf569dfe24_audio_missing_utopia_1780336803408.webm",
+  "transcript": " There's not really a whole lot I can add to this, but I just want a society of just love. Everyone gets along really well. Everyone helps each other. No hate. No violence. Just everyone helping and getting along. That's all I could really ask for. Everyone's always willing to give a hand when things get hard. It's a really happy society is what I want, nothing special.",
+  "language": "unknown",
+  "processing_time_seconds": 9.735894,
+  "timestamp": "2026-06-08T10:15:55.863356",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.06
+      ],
+      "text": " There's not really a whole lot I can add to this, but I just want a society of just love."
+    },
+    {
+      "timestamp": [
+        10.06,
+        12.0
+      ],
+      "text": " Everyone gets along really well."
+    },
+    {
+      "timestamp": [
+        12.0,
+        13.64
+      ],
+      "text": " Everyone helps each other."
+    },
+    {
+      "timestamp": [
+        13.64,
+        14.64
+      ],
+      "text": " No hate."
+    },
+    {
+      "timestamp": [
+        14.64,
+        15.64
+      ],
+      "text": " No violence."
+    },
+    {
+      "timestamp": [
+        15.64,
+        19.82
+      ],
+      "text": " Just everyone helping and getting along."
+    },
+    {
+      "timestamp": [
+        19.82,
+        22.84
+      ],
+      "text": " That's all I could really ask for."
+    },
+    {
+      "timestamp": [
+        22.84,
+        27.72
+      ],
+      "text": " Everyone's always willing to give a hand when things get hard."
+    },
+    {
+      "timestamp": [
+        27.72,
+        34.28
+      ],
+      "text": " It's a really happy society is what I want, nothing special."
+    }
+  ]
+}

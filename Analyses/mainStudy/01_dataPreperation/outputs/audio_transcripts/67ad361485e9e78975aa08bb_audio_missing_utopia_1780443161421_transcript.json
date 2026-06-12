@@ -1,0 +1,38 @@
+{
+  "audio_file": "67ad361485e9e78975aa08bb_audio_missing_utopia_1780443161421.webm",
+  "transcript": " For like my future society, it would have to be something that benefits everybody and not just a certain amount of people. I want everybody to feel comfortable, I want the majority of the things and I want to work for me and for the rest of the people and I also want it to be eco-friendly, something",
+  "language": "unknown",
+  "processing_time_seconds": 6.467327,
+  "timestamp": "2026-06-08T08:47:26.681564",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.56
+      ],
+      "text": " For like my future society, it would have to be something that benefits everybody and"
+    },
+    {
+      "timestamp": [
+        8.56,
+        11.76
+      ],
+      "text": " not just a certain amount of people."
+    },
+    {
+      "timestamp": [
+        11.76,
+        19.88
+      ],
+      "text": " I want everybody to feel comfortable, I want the majority of the things and I want to work"
+    },
+    {
+      "timestamp": [
+        19.88,
+        28.44
+      ],
+      "text": " for me and for the rest of the people and I also want it to be eco-friendly, something"
+    }
+  ]
+}

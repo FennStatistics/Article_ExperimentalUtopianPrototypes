@@ -1,0 +1,45 @@
+{
+  "audio_file": "69e063c7e86c982e239214ef_audio_missing_utopia_1780389382070.webm",
+  "transcript": " Um, my, my, I don't think there was a missing future society that I haven't thought about. You know what? Nevermind. There is a future society that I have thought about and it's when humans destroy humanity themselves and the earth just slowly heals itself once the humans are gone. So in this case of humanity not surviving this new future society, they instead perish.",
+  "language": "unknown",
+  "processing_time_seconds": 9.116622,
+  "timestamp": "2026-06-08T09:35:52.445423",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        12.68
+      ],
+      "text": " Um, my, my, I don't think there was a missing future society that I haven't thought about."
+    },
+    {
+      "timestamp": [
+        14.36,
+        20.18
+      ],
+      "text": " You know what? Nevermind. There is a future society that I have thought about and it's"
+    },
+    {
+      "timestamp": [
+        20.18,
+        28.52
+      ],
+      "text": " when humans destroy humanity themselves and the earth just slowly heals itself once the"
+    },
+    {
+      "timestamp": [
+        28.52,
+        38.56
+      ],
+      "text": " humans are gone. So in this case of humanity not surviving this new future society, they instead"
+    },
+    {
+      "timestamp": [
+        38.56,
+        39.12
+      ],
+      "text": " perish."
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "audio_file": "69c02eb0784caa385a6ea4a5_audio_missing_utopia_1780414039565.webm",
+  "transcript": " uh one of the um missing future societies that i noticed was maybe a lack of exploration which maybe sort of the future and technology aspect might have touched on um but according to the scenario each scenario after a disaster i would like to see maybe humanity focus on the stars and space travel following a disaster just maybe even like a collective global utopia in a sense of countries working together a couple of the values that seem to be absent obviously we had one or two about moralistic I like that but that seemed to be lacking in a few with the other societies a society that like I said that I feel was missing would maybe be something focused on space exploration or colonizing the sea trying to work with you know expanding land maybe I think that would be kind of a good mix of cooperation with other countries and other peoples and a good mix of implementing and using new technologies while also sort of being moralistic about it ensuring the continued existence of humanity.",
+  "language": "unknown",
+  "processing_time_seconds": 18.930825,
+  "timestamp": "2026-06-08T09:21:04.743712",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.92
+      ],
+      "text": " uh one of the um missing future societies that i noticed was maybe a lack of exploration"
+    },
+    {
+      "timestamp": [
+        8.92,
+        16.82
+      ],
+      "text": " which maybe sort of the future and technology aspect might have touched on um but according"
+    },
+    {
+      "timestamp": [
+        16.82,
+        23.52
+      ],
+      "text": " to the scenario each scenario after a disaster i would like to see maybe humanity focus on"
+    },
+    {
+      "timestamp": [
+        23.52,
+        24.54
+      ],
+      "text": " the stars"
+    },
+    {
+      "timestamp": [
+        24.54,
+        26.96
+      ],
+      "text": " and space travel"
+    },
+    {
+      "timestamp": [
+        26.96,
+        27.76
+      ],
+      "text": " following"
+    },
+    {
+      "timestamp": [
+        27.76,
+        30.2
+      ],
+      "text": " a disaster"
+    },
+    {
+      "timestamp": [
+        30.2,
+        32.2
+      ],
+      "text": " just maybe"
+    },
+    {
+      "timestamp": [
+        32.2,
+        34.98
+      ],
+      "text": " even like a collective global"
+    },
+    {
+      "timestamp": [
+        34.98,
+        37.14
+      ],
+      "text": " utopia in a sense of"
+    },
+    {
+      "timestamp": [
+        37.14,
+        38.72
+      ],
+      "text": " countries working together"
+    },
+    {
+      "timestamp": [
+        38.72,
+        43.52
+      ],
+      "text": " a couple of the values"
+    },
+    {
+      "timestamp": [
+        43.52,
+        44.04
+      ],
+      "text": " that"
+    },
+    {
+      "timestamp": [
+        44.04,
+        46.54
+      ],
+      "text": " seem to be absent"
+    },
+    {
+      "timestamp": [
+        46.54,
+        49.32
+      ],
+      "text": " obviously we had one or two about moralistic"
+    },
+    {
+      "timestamp": [
+        49.32,
+        51.22
+      ],
+      "text": " I like that but that seemed to be"
+    },
+    {
+      "timestamp": [
+        51.22,
+        53.1
+      ],
+      "text": " lacking in a few"
+    },
+    {
+      "timestamp": [
+        53.1,
+        55.14
+      ],
+      "text": " with the other societies"
+    },
+    {
+      "timestamp": [
+        55.14,
+        59.12
+      ],
+      "text": " a society"
+    },
+    {
+      "timestamp": [
+        59.12,
+        61.0
+      ],
+      "text": " that like I said that I feel was"
+    },
+    {
+      "timestamp": [
+        61.0,
+        62.96
+      ],
+      "text": " missing would maybe be something focused"
+    },
+    {
+      "timestamp": [
+        62.96,
+        64.88
+      ],
+      "text": " on space exploration"
+    },
+    {
+      "timestamp": [
+        64.88,
+        65.42
+      ],
+      "text": " or"
+    },
+    {
+      "timestamp": [
+        65.42,
+        67.66
+      ],
+      "text": " colonizing"
+    },
+    {
+      "timestamp": [
+        67.66,
+        70.6
+      ],
+      "text": " the sea trying to work"
+    },
+    {
+      "timestamp": [
+        70.6,
+        72.86
+      ],
+      "text": " with you know"
+    },
+    {
+      "timestamp": [
+        72.86,
+        74.16
+      ],
+      "text": " expanding land maybe"
+    },
+    {
+      "timestamp": [
+        74.16,
+        76.86
+      ],
+      "text": " I think that would be kind of a good"
+    },
+    {
+      "timestamp": [
+        76.86,
+        77.96
+      ],
+      "text": " mix of"
+    },
+    {
+      "timestamp": [
+        77.96,
+        80.86
+      ],
+      "text": " cooperation with"
+    },
+    {
+      "timestamp": [
+        80.86,
+        82.86
+      ],
+      "text": " other countries and other peoples"
+    },
+    {
+      "timestamp": [
+        82.86,
+        87.7
+      ],
+      "text": " and a good mix of implementing and using new technologies"
+    },
+    {
+      "timestamp": [
+        87.7,
+        92.02
+      ],
+      "text": " while also sort of being moralistic about it"
+    },
+    {
+      "timestamp": [
+        92.02,
+        96.26
+      ],
+      "text": " ensuring the continued existence of humanity."
+    }
+  ]
+}

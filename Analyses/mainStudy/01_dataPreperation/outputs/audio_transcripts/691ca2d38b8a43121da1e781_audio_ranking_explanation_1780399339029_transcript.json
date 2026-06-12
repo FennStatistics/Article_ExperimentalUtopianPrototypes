@@ -1,0 +1,150 @@
+{
+  "audio_file": "691ca2d38b8a43121da1e781_audio_ranking_explanation_1780399339029.webm",
+  "transcript": " um well of course the uh situation of having limited resources is not ideal for any of these but um the modern green utopia felt like a good balance of science and governance um where it didn't feel like strict control pulled out of nowhere it's backed by science and then there are you know rules to go with it um the science and innovation one also seems rational utilizing science and innovation to handle the lack of resources makes sense to me institutional utopia rule of law feels you know more or less like what we have today the low tech small scale um i struggle to see how that would work on a large scale like it might work within the small communities but i don't see how that helps society as a whole the ai centered utopia scares me if it works perfectly and nothing goes wrong it would be i guess fine but that's a lot of trust to give to ai the inner morality just seems very pie in the sky i don't think that would work and also everyone has different morals different ideas of what seems fair so i don't think that works similarly the religious utopia I think everyone has their own beliefs and I would certainly not want to be to have my actions dictated on the beliefs of other people so",
+  "language": "unknown",
+  "processing_time_seconds": 22.033948,
+  "timestamp": "2026-06-08T08:48:08.299205",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.18
+      ],
+      "text": " um well of course the uh situation of having limited resources is not ideal for"
+    },
+    {
+      "timestamp": [
+        7.18,
+        15.54
+      ],
+      "text": " any of these but um the modern green utopia felt like a good balance of science and governance"
+    },
+    {
+      "timestamp": [
+        15.54,
+        24.26
+      ],
+      "text": " um where it didn't feel like strict control pulled out of nowhere it's backed by science"
+    },
+    {
+      "timestamp": [
+        24.26,
+        32.16
+      ],
+      "text": " and then there are you know rules to go with it um the science and innovation one"
+    },
+    {
+      "timestamp": [
+        32.16,
+        41.34
+      ],
+      "text": " also seems rational utilizing science and innovation to handle the lack of resources"
+    },
+    {
+      "timestamp": [
+        41.34,
+        48.14
+      ],
+      "text": " makes sense to me institutional utopia rule of law feels you know more or less like what we have"
+    },
+    {
+      "timestamp": [
+        48.14,
+        59.02
+      ],
+      "text": " today the low tech small scale um i struggle to see how that would work on a large scale"
+    },
+    {
+      "timestamp": [
+        59.02,
+        64.96
+      ],
+      "text": " like it might work within the small communities but i don't see how that helps"
+    },
+    {
+      "timestamp": [
+        64.96,
+        75.54
+      ],
+      "text": " society as a whole the ai centered utopia scares me if it works perfectly and nothing goes wrong"
+    },
+    {
+      "timestamp": [
+        75.54,
+        85.4
+      ],
+      "text": " it would be i guess fine but that's a lot of trust to give to ai the inner morality just seems"
+    },
+    {
+      "timestamp": [
+        85.4,
+        95.06
+      ],
+      "text": " very pie in the sky i don't think that would work and also everyone has different morals"
+    },
+    {
+      "timestamp": [
+        95.06,
+        103.86
+      ],
+      "text": " different ideas of what seems fair so i don't think that works similarly the religious utopia"
+    },
+    {
+      "timestamp": [
+        103.86,
+        105.72
+      ],
+      "text": " I think"
+    },
+    {
+      "timestamp": [
+        105.72,
+        108.14
+      ],
+      "text": " everyone has their own beliefs"
+    },
+    {
+      "timestamp": [
+        108.14,
+        108.72
+      ],
+      "text": " and"
+    },
+    {
+      "timestamp": [
+        108.72,
+        112.06
+      ],
+      "text": " I would certainly"
+    },
+    {
+      "timestamp": [
+        112.06,
+        113.84
+      ],
+      "text": " not want to be"
+    },
+    {
+      "timestamp": [
+        113.84,
+        115.98
+      ],
+      "text": " to have my actions dictated"
+    },
+    {
+      "timestamp": [
+        115.98,
+        117.52
+      ],
+      "text": " on the beliefs of other people"
+    },
+    {
+      "timestamp": [
+        117.52,
+        118.92
+      ],
+      "text": " so"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audio_file": "69b7603c614bdbf78dd9517d_audio_missing_utopia_1780450084981.webm",
+  "transcript": " I would say the one that's missing would definitely be one that has a sense of morality, but also mixed with, like, futuristic infant hearing and, like, you know, infant, that people actually get along and progress very quickly and get better. That's why I would say I'm missing, like, a couple mixed together and added that, in my opinion.",
+  "language": "unknown",
+  "processing_time_seconds": 6.746083,
+  "timestamp": "2026-06-08T09:17:10.551548",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.4
+      ],
+      "text": " I would say the one that's missing would definitely be one that has a sense of morality, but also mixed with, like, futuristic infant hearing and, like, you know, infant, that people actually get along and progress very quickly and get better."
+    },
+    {
+      "timestamp": [
+        23.44,
+        28.9
+      ],
+      "text": " That's why I would say I'm missing, like, a couple mixed together and added that, in my opinion."
+    }
+  ]
+}

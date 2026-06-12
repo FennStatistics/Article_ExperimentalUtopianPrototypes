@@ -1,0 +1,31 @@
+{
+  "audio_file": "69f11abbcb74929a2bf4a175_audio_ranking_explanation_1780381485999.webm",
+  "transcript": " I ranked Portland Green Utopia first because it balances the sustainability with economy security. It uses technology carefully instead of too much or too little.",
+  "language": "unknown",
+  "processing_time_seconds": 5.252511,
+  "timestamp": "2026-06-08T09:53:11.633669",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.76
+      ],
+      "text": " I ranked Portland Green Utopia first because it balances the sustainability with economy"
+    },
+    {
+      "timestamp": [
+        7.76,
+        8.76
+      ],
+      "text": " security."
+    },
+    {
+      "timestamp": [
+        8.76,
+        14.28
+      ],
+      "text": " It uses technology carefully instead of too much or too little."
+    }
+  ]
+}

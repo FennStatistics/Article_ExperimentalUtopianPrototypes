@@ -1,0 +1,45 @@
+{
+  "audio_file": "69f62e8b80575ae2288b14b2_audio_missing_utopia_1780380875141.webm",
+  "transcript": " a miss future society would be one deeply rooted in ferramenta sustainability ecological bananas and decentralized community a series what matters most in this vision is a shift away from a by industrialization focusing instead of local environments to the active preservation of natural ecosystem alongside human development",
+  "language": "unknown",
+  "processing_time_seconds": 10.530382,
+  "timestamp": "2026-06-08T09:59:09.763377",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.4
+      ],
+      "text": " a miss future society would be one deeply rooted in ferramenta sustainability"
+    },
+    {
+      "timestamp": [
+        10.4,
+        22.68
+      ],
+      "text": " ecological bananas and decentralized community a series what matters most in"
+    },
+    {
+      "timestamp": [
+        22.68,
+        31.8
+      ],
+      "text": " this vision is a shift away from a by industrialization focusing instead of"
+    },
+    {
+      "timestamp": [
+        31.8,
+        42.66
+      ],
+      "text": " local environments to the active preservation of natural ecosystem alongside"
+    },
+    {
+      "timestamp": [
+        42.66,
+        53.9
+      ],
+      "text": " human development"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "audio_file": "6296bef3248bf76cc113926b_audio_missing_utopia_1780385579567.webm",
+  "transcript": " I would say the only type of society that was missing was a society maybe that is based on entirely having a degree of just people not using any money, basically. So I'd say a moneyless society and the type of society where people basically exist for The purpose of basically giving back to others and if not a materialistic society, it's basically one where people basically just work in unison to sustain the overall society. So a capitalist society with a sense of just purpose and people contributing and making society better in some way rather than it being based on money.",
+  "language": "unknown",
+  "processing_time_seconds": 10.435839,
+  "timestamp": "2026-06-08T08:25:05.173907",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.48
+      ],
+      "text": " I would say the only type of society that was missing was a society maybe that is based"
+    },
+    {
+      "timestamp": [
+        8.48,
+        18.0
+      ],
+      "text": " on entirely having a degree of just people not using any money, basically."
+    },
+    {
+      "timestamp": [
+        18.0,
+        27.5
+      ],
+      "text": " So I'd say a moneyless society and the type of society where people basically exist for"
+    },
+    {
+      "timestamp": [
+        27.5,
+        34.42
+      ],
+      "text": " The purpose of basically giving back to others and if not a materialistic society, it's basically"
+    },
+    {
+      "timestamp": [
+        34.42,
+        42.34
+      ],
+      "text": " one where people basically just work in unison to sustain the overall society."
+    },
+    {
+      "timestamp": [
+        42.34,
+        51.62
+      ],
+      "text": " So a capitalist society with a sense of just purpose and people contributing and making"
+    },
+    {
+      "timestamp": [
+        51.62,
+        55.1
+      ],
+      "text": " society better in some way rather than it being based on money."
+    }
+  ]
+}

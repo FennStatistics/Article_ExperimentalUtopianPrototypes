@@ -1,0 +1,101 @@
+{
+  "audio_file": "671d553e0d035028da7d29a1_audio_ranking_explanation_1780438638779.webm",
+  "transcript": " I rank the modern green utopia as the highest because I think in today's economy, you kind of really come to appreciate security and avoiding poverty. In the absence of that, a primitive utopia where low-tech and small-scale seems the most desirable because it would have close-knit communities and just enough technology to live a happy and healthy lifestyle. and then followed by the rule of law personally i think the rule of law is a beautiful concept but i'm not sure i trust the people enough to apply the rule of law because we live in a rule of law but we don't apply the laws and that kind of makes for a terrible society when you're not actually punishing the rule breakers. After that, I chose the high-tech societies, AI-centered and futurist. So in the absence of all the other ones, I think high technology would be the way to go. you know innovative and i guess moving forward all the time i don't think that's an ideal way to live but it wouldn't be a horrible way to live um i think in a high-tech society we kind of dismiss older generations and they get left behind so that's not ideal to me And then the very last, religious and moral commonwealth, again, those are highly dependent on people not to be evil, and I don't want to rely on that because, as we can see in today's world, some people are just evil.",
+  "language": "unknown",
+  "processing_time_seconds": 25.230564,
+  "timestamp": "2026-06-08T08:44:58.442034",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.76
+      ],
+      "text": " I rank the modern green utopia as the highest because I think in today's economy, you kind of really come to appreciate security and avoiding poverty."
+    },
+    {
+      "timestamp": [
+        20.82,
+        17.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.04,
+        43.8
+      ],
+      "text": " In the absence of that, a primitive utopia where low-tech and small-scale seems the most desirable because it would have close-knit communities and just enough technology to live a happy and healthy lifestyle."
+    },
+    {
+      "timestamp": [
+        46.54,
+        43.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        54.92,
+        63.1
+      ],
+      "text": " and then followed by the rule of law personally i think the rule of law is a beautiful concept but i'm not sure i trust the people enough to apply the rule of law because"
+    },
+    {
+      "timestamp": [
+        63.1,
+        73.46
+      ],
+      "text": " we live in a rule of law but we don't apply the laws and that kind of makes for a terrible society"
+    },
+    {
+      "timestamp": [
+        73.46,
+        77.56
+      ],
+      "text": " when you're not actually punishing the rule breakers."
+    },
+    {
+      "timestamp": [
+        78.86,
+        87.84
+      ],
+      "text": " After that, I chose the high-tech societies, AI-centered and futurist."
+    },
+    {
+      "timestamp": [
+        91.08,
+        97.26
+      ],
+      "text": " So in the absence of all the other ones, I think high technology would be the way to go."
+    },
+    {
+      "timestamp": [
+        97.26,
+        106.28
+      ],
+      "text": " you know innovative and i guess moving forward all the time i don't think that's an ideal way"
+    },
+    {
+      "timestamp": [
+        106.28,
+        116.02
+      ],
+      "text": " to live but it wouldn't be a horrible way to live um i think in a high-tech society"
+    },
+    {
+      "timestamp": [
+        116.02,
+        126.48
+      ],
+      "text": " we kind of dismiss older generations and they get left behind so that's not ideal to me"
+    },
+    {
+      "timestamp": [
+        126.48,
+        146.62
+      ],
+      "text": " And then the very last, religious and moral commonwealth, again, those are highly dependent on people not to be evil, and I don't want to rely on that because, as we can see in today's world, some people are just evil."
+    }
+  ]
+}

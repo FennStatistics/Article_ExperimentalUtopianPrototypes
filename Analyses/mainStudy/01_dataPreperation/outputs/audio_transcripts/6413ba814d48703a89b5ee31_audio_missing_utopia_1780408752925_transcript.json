@@ -1,0 +1,31 @@
+{
+  "audio_file": "6413ba814d48703a89b5ee31_audio_missing_utopia_1780408752925.webm",
+  "transcript": " I feel like most important values were kind of represented, but it's obviously, you know, not really sustainable for a society to build itself upon a single value. It's important to, you know, have a mixture where, you know, both societal input and morality and sort of adherence to law are all kind of dually represented. to create something that's sustainable and simultaneously enriching.",
+  "language": "unknown",
+  "processing_time_seconds": 9.071951,
+  "timestamp": "2026-06-08T08:31:17.982030",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.58
+      ],
+      "text": " I feel like most important values were kind of represented, but it's obviously, you know, not really sustainable for a society to build itself upon a single value."
+    },
+    {
+      "timestamp": [
+        12.58,
+        28.12
+      ],
+      "text": " It's important to, you know, have a mixture where, you know, both societal input and morality and sort of adherence to law are all kind of dually represented."
+    },
+    {
+      "timestamp": [
+        30.0,
+        36.76
+      ],
+      "text": " to create something that's sustainable and simultaneously enriching."
+    }
+  ]
+}

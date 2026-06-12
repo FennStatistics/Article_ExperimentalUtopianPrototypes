@@ -1,0 +1,38 @@
+{
+  "audio_file": "60ce89c7357eeffe77fca946_audio_ranking_explanation_1780395655822.webm",
+  "transcript": " I think that a modern green utopia is going to be the best option. It's going to be sustainable and anything that is sustainable is going to last a lot longer. I feel like an AI-centered utopia just sounds like it could go wrong very easily. If AI is ruling pretty much everything, We're not relying on resources. We're not relying on survival skills and being sustainable and keeping the planet safe.",
+  "language": "unknown",
+  "processing_time_seconds": 9.374413,
+  "timestamp": "2026-06-08T08:21:16.533807",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.08
+      ],
+      "text": " I think that a modern green utopia is going to be the best option. It's going to be sustainable"
+    },
+    {
+      "timestamp": [
+        8.08,
+        16.58
+      ],
+      "text": " and anything that is sustainable is going to last a lot longer. I feel like an AI-centered utopia"
+    },
+    {
+      "timestamp": [
+        16.58,
+        26.96
+      ],
+      "text": " just sounds like it could go wrong very easily. If AI is ruling pretty much everything,"
+    },
+    {
+      "timestamp": [
+        26.96,
+        36.56
+      ],
+      "text": " We're not relying on resources. We're not relying on survival skills and being sustainable and keeping the planet safe."
+    }
+  ]
+}

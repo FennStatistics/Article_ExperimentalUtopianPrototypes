@@ -1,0 +1,164 @@
+{
+  "audio_file": "69ed0c6734ee18b16b158c67_audio_missing_utopia_1780432802361.webm",
+  "transcript": " So, when I'm feeling a little more speculative, I picture something like a decentralized, moderately technological, not exactly primitivized, but turned into, basically, if you mentally picture a garden city of sorts, and then you realize that there's a hidden technological backbone that helps make a lot of it function I feel like the ideal for what's actually achievable on Earth would be something where technology supplies a lot of invisible plumbing and backbone, especially for communications authority is mostly decentralized and part of that relies on technology to work and then the economy is not quite as over the top and as it is now the industrialization can't go away it's not that's just not feasible um and then you have to have there i mean there has to be very strong with backing it's not going to happen without a pious people um without a christian people you're just you there's only so much stability you can get without it and then you're you're still going to have to have lawless institutions they again they're not dispensable there's no there's no way to get rid of them altogether um so if you were to take tolkien's description of an anna anarcho-monarchism and apply to it some kind of weird technologized not quite de-industrialized that may be more chastened sort of globalist but also radically subsidiarity focused decentralized stuff that sounds vague and it should because i don't have a good enough imagination to flesh it out but something like that",
+  "language": "unknown",
+  "processing_time_seconds": 24.16197,
+  "timestamp": "2026-06-08T09:46:40.839424",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.62
+      ],
+      "text": " So, when I'm feeling a little more speculative, I picture something like a decentralized, moderately technological, not exactly primitivized, but turned into, basically, if you mentally picture a garden city of sorts,"
+    },
+    {
+      "timestamp": [
+        29.34,
+        28.62
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.54,
+        33.74
+      ],
+      "text": " and then you realize that there's a hidden technological backbone"
+    },
+    {
+      "timestamp": [
+        33.74,
+        35.86
+      ],
+      "text": " that helps make a lot of it function"
+    },
+    {
+      "timestamp": [
+        35.86,
+        39.3
+      ],
+      "text": " I feel like the ideal"
+    },
+    {
+      "timestamp": [
+        39.3,
+        43.02
+      ],
+      "text": " for what's actually achievable on Earth"
+    },
+    {
+      "timestamp": [
+        43.02,
+        45.26
+      ],
+      "text": " would be something where"
+    },
+    {
+      "timestamp": [
+        45.26,
+        48.18
+      ],
+      "text": " technology supplies a lot of invisible plumbing"
+    },
+    {
+      "timestamp": [
+        48.18,
+        50.58
+      ],
+      "text": " and backbone, especially for communications"
+    },
+    {
+      "timestamp": [
+        50.58,
+        53.82
+      ],
+      "text": " authority is mostly decentralized"
+    },
+    {
+      "timestamp": [
+        53.82,
+        57.86
+      ],
+      "text": " and part of that relies on technology to work"
+    },
+    {
+      "timestamp": [
+        57.86,
+        66.6
+      ],
+      "text": " and then the economy is not quite as over the top and as it is now the industrialization can't go"
+    },
+    {
+      "timestamp": [
+        66.6,
+        75.4
+      ],
+      "text": " away it's not that's just not feasible um and then you have to have there i mean there has to be"
+    },
+    {
+      "timestamp": [
+        75.4,
+        80.92
+      ],
+      "text": " very strong with backing it's not going to happen without a pious people um without a christian"
+    },
+    {
+      "timestamp": [
+        80.92,
+        86.32
+      ],
+      "text": " people you're just you there's only so much stability you can get without it and then you're"
+    },
+    {
+      "timestamp": [
+        86.32,
+        90.72
+      ],
+      "text": " you're still going to have to have lawless institutions they again they're not dispensable"
+    },
+    {
+      "timestamp": [
+        90.72,
+        97.84
+      ],
+      "text": " there's no there's no way to get rid of them altogether um so if you were to take tolkien's"
+    },
+    {
+      "timestamp": [
+        97.84,
+        104.48
+      ],
+      "text": " description of an anna anarcho-monarchism and apply to it some kind of weird"
+    },
+    {
+      "timestamp": [
+        105.36,
+        110.24
+      ],
+      "text": " technologized not quite de-industrialized that may be more chastened"
+    },
+    {
+      "timestamp": [
+        112.48,
+        110.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        119.7,
+        127.54
+      ],
+      "text": " sort of globalist but also radically subsidiarity focused decentralized stuff that sounds vague and it should because i don't have a good enough imagination to flesh it out"
+    },
+    {
+      "timestamp": [
+        127.54,
+        128.7
+      ],
+      "text": " but something like that"
+    }
+  ]
+}

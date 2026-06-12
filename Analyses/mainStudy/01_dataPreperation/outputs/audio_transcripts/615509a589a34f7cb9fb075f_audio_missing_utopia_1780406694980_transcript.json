@@ -1,0 +1,17 @@
+{
+  "audio_file": "615509a589a34f7cb9fb075f_audio_missing_utopia_1780406694980.webm",
+  "transcript": " No, I think that there was a good representation of all possible. The only one I could think of that wasn't listed would be like a total chaos society where just anything goes Mad Max style where people are free to govern themselves how they see fit.",
+  "language": "unknown",
+  "processing_time_seconds": 5.920133,
+  "timestamp": "2026-06-08T08:24:16.966729",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.46
+      ],
+      "text": " No, I think that there was a good representation of all possible. The only one I could think of that wasn't listed would be like a total chaos society where just anything goes Mad Max style where people are free to govern themselves how they see fit."
+    }
+  ]
+}

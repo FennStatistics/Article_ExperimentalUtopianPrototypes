@@ -1,0 +1,108 @@
+{
+  "audio_file": "6a1daefdc17a49bbb3e1c91e_audio_ranking_explanation_1780378097174.webm",
+  "transcript": " all right so primitivist utopia i went with that because honestly that's the point of government and society like take care of each other don't and all this new technology is sort of just sort of like a addiction at this point next i went with modern greed and utopia Pretty much the same basic reasoning, except we're focusing on the world instead of the people. Although I feel like in both cases, you would focus on both. Futurist Utopia, I wasn't feeling this one so much, but I'll take science over what we're doing now. Moral Commonwealth, this one I was sort of iffy on because who gets to decide what is moral? um i mean ideally we'd all be working with real facts and we'd all care for each other but that's not how the real world works institutional utopia i don't know why the word utopia is there it seems kind of depressing and current um i could see it being used for good but it's it's all right AI centered utopia utopia again funny there as much as I hate AI and think that it's a tool of control and will only be used to screw over the poor religion has proved that it does that perfectly for thousands of years so that one is going to be at the bottom Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 22.404535,
+  "timestamp": "2026-06-08T11:26:16.064621",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.42
+      ],
+      "text": " all right so primitivist utopia i went with that because honestly that's the point of government"
+    },
+    {
+      "timestamp": [
+        10.42,
+        20.58
+      ],
+      "text": " and society like take care of each other don't and all this new technology is sort of just sort of"
+    },
+    {
+      "timestamp": [
+        20.58,
+        27.82
+      ],
+      "text": " like a addiction at this point next i went with modern greed and utopia"
+    },
+    {
+      "timestamp": [
+        27.82,
+        34.22
+      ],
+      "text": " Pretty much the same basic reasoning, except we're focusing on the world instead of the people."
+    },
+    {
+      "timestamp": [
+        35.22,
+        39.06
+      ],
+      "text": " Although I feel like in both cases, you would focus on both."
+    },
+    {
+      "timestamp": [
+        39.82,
+        48.58
+      ],
+      "text": " Futurist Utopia, I wasn't feeling this one so much, but I'll take science over what we're doing now."
+    },
+    {
+      "timestamp": [
+        49.66,
+        57.74
+      ],
+      "text": " Moral Commonwealth, this one I was sort of iffy on because who gets to decide what is moral?"
+    },
+    {
+      "timestamp": [
+        57.82,
+        67.6
+      ],
+      "text": " um i mean ideally we'd all be working with real facts and we'd all care for each other but that's"
+    },
+    {
+      "timestamp": [
+        67.6,
+        75.34
+      ],
+      "text": " not how the real world works institutional utopia i don't know why the word utopia is there it seems"
+    },
+    {
+      "timestamp": [
+        75.34,
+        85.08
+      ],
+      "text": " kind of depressing and current um i could see it being used for good but it's it's all right"
+    },
+    {
+      "timestamp": [
+        85.08,
+        95.12
+      ],
+      "text": " AI centered utopia utopia again funny there as much as I hate AI and think that it's a tool of"
+    },
+    {
+      "timestamp": [
+        95.12,
+        102.66
+      ],
+      "text": " control and will only be used to screw over the poor religion has proved that it does that"
+    },
+    {
+      "timestamp": [
+        102.66,
+        109.44
+      ],
+      "text": " perfectly for thousands of years so that one is going to be at the bottom"
+    },
+    {
+      "timestamp": [
+        109.44,
+        139.42
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

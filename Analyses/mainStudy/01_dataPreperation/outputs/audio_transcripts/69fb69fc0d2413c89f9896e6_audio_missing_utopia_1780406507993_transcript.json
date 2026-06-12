@@ -1,0 +1,45 @@
+{
+  "audio_file": "69fb69fc0d2413c89f9896e6_audio_missing_utopia_1780406507993.webm",
+  "transcript": " um i guess mixing two of them like the green society and also the one where everyone was backed on their own morals would be good because i think that there needs to be a push for people to do good in the world and like be backed by certain morals so that would be good if we mix those two societies um",
+  "language": "unknown",
+  "processing_time_seconds": 6.518347,
+  "timestamp": "2026-06-08T10:05:24.907909",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.5
+      ],
+      "text": " um i guess mixing two of them like the green society and also the one where everyone was"
+    },
+    {
+      "timestamp": [
+        8.5,
+        16.62
+      ],
+      "text": " backed on their own morals would be good because i think that there needs to be a push for people"
+    },
+    {
+      "timestamp": [
+        16.62,
+        23.14
+      ],
+      "text": " to do good in the world and like be backed by certain morals so that would be good if we"
+    },
+    {
+      "timestamp": [
+        23.14,
+        25.32
+      ],
+      "text": " mix those two societies"
+    },
+    {
+      "timestamp": [
+        25.32,
+        25.56
+      ],
+      "text": " um"
+    }
+  ]
+}

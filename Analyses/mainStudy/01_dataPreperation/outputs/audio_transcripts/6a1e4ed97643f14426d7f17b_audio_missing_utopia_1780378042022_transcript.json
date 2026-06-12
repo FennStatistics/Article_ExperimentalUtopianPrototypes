@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a1e4ed97643f14426d7f17b_audio_missing_utopia_1780378042022.webm",
+  "transcript": " I'm not sure anything is missing. Maybe, I mean, of course, sort of a combination of a few of them. Having a morality-based society feels really like a great option. But then of course, you know, that can lead to anarchy thinking about, I don't know, philosophy I've read. So I do really like the idea of living in a environmentally conscious society where resources are shared equally. um but there also does need to be some sort of rule of law just depends to what extent that exists where it becomes you know goes from helpful to dangerous i guess",
+  "language": "unknown",
+  "processing_time_seconds": 13.614676,
+  "timestamp": "2026-06-08T11:34:29.189059",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.08
+      ],
+      "text": " I'm not sure anything is missing. Maybe, I mean, of course, sort of a combination of a few of them. Having a morality-based society feels really like a great option."
+    },
+    {
+      "timestamp": [
+        21.08,
+        45.02
+      ],
+      "text": " But then of course, you know, that can lead to anarchy thinking about, I don't know, philosophy I've read. So I do really like the idea of living in a environmentally conscious society where resources are shared equally."
+    },
+    {
+      "timestamp": [
+        46.26,
+        45.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        52.98,
+        59.0
+      ],
+      "text": " um but there also does need to be some sort of rule of law just depends to what extent that exists where it becomes you know goes from helpful to dangerous i guess"
+    }
+  ]
+}

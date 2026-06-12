@@ -1,0 +1,31 @@
+{
+  "audio_file": "69bcd49ce95af67521ac752f_audio_missing_utopia_1780410715810.webm",
+  "transcript": " I think returning to tribalism or hunter-gatherer societies, maybe that's kind of the low-tech one, but it wasn't as explicit. it so i think it'd be really cool if we like on top of the low-tech society turn back to the tribes of you know 50 to 200 people in your tribe that could be cool",
+  "language": "unknown",
+  "processing_time_seconds": 10.288917,
+  "timestamp": "2026-06-08T09:18:38.672168",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.98
+      ],
+      "text": " I think returning to tribalism or hunter-gatherer societies, maybe that's kind of the low-tech one, but it wasn't as explicit."
+    },
+    {
+      "timestamp": [
+        13.98,
+        22.78
+      ],
+      "text": " it so i think it'd be really cool if we like on top of the low-tech society turn back to"
+    },
+    {
+      "timestamp": [
+        22.78,
+        30.22
+      ],
+      "text": " the tribes of you know 50 to 200 people in your tribe that could be cool"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audio_file": "69f8efeeb3152a5e550bf057_audio_missing_utopia_1780402315988.webm",
+  "transcript": " I don't think that there were any important values or approaches in the scene. Yeah, I think they were all represented.",
+  "language": "unknown",
+  "processing_time_seconds": 5.055217,
+  "timestamp": "2026-06-08T10:00:26.716332",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.0
+      ],
+      "text": " I don't think that there were any important values or approaches in the scene."
+    },
+    {
+      "timestamp": [
+        5.0,
+        8.82
+      ],
+      "text": " Yeah, I think they were all represented."
+    }
+  ]
+}

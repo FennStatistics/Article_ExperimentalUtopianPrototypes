@@ -1,0 +1,24 @@
+{
+  "audio_file": "69fe8789002b61a3f797722e_audio_missing_utopia_1780278690017.webm",
+  "transcript": " while being utopia the missing element is the previous society's focus on structures i think what matters most is the psychological safety",
+  "language": "unknown",
+  "processing_time_seconds": 5.193905,
+  "timestamp": "2026-06-08T10:13:00.475656",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        6.64
+      ],
+      "text": " while being utopia the missing element is the previous society's focus on structures"
+    },
+    {
+      "timestamp": [
+        7.28,
+        13.92
+      ],
+      "text": " i think what matters most is the psychological safety"
+    }
+  ]
+}

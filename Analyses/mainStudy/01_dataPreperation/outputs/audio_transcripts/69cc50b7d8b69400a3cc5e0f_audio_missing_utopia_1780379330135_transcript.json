@@ -1,0 +1,38 @@
+{
+  "audio_file": "69cc50b7d8b69400a3cc5e0f_audio_missing_utopia_1780379330135.webm",
+  "transcript": " Yeah, probably for me, it is a society that has included democracy in its place. Citizens can be heard, can make, can save their decisions and ideas, and they are free to talk, how they want the country to move forward. I think I prefer just a society that has included democracy in it.",
+  "language": "unknown",
+  "processing_time_seconds": 8.590735,
+  "timestamp": "2026-06-08T09:28:10.558520",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.76
+      ],
+      "text": " Yeah, probably for me, it is a society that has included democracy in its place."
+    },
+    {
+      "timestamp": [
+        9.76,
+        18.24
+      ],
+      "text": " Citizens can be heard, can make, can save their decisions and ideas,"
+    },
+    {
+      "timestamp": [
+        18.24,
+        26.16
+      ],
+      "text": " and they are free to talk, how they want the country to move forward."
+    },
+    {
+      "timestamp": [
+        26.16,
+        34.4
+      ],
+      "text": " I think I prefer just a society that has included democracy in it."
+    }
+  ]
+}

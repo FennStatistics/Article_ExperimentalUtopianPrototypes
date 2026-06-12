@@ -1,0 +1,17 @@
+{
+  "audio_file": "unknown_audio_missing_utopia_1780465814519.webm",
+  "transcript": " Looking back, I cannot think of any society with important values or approaches that was absent.",
+  "language": "unknown",
+  "processing_time_seconds": 4.918466,
+  "timestamp": "2026-06-08T11:40:12.401075",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.48
+      ],
+      "text": " Looking back, I cannot think of any society with important values or approaches that was absent."
+    }
+  ]
+}

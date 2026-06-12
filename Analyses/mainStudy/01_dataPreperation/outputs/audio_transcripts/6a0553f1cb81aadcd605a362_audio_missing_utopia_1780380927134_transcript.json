@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a0553f1cb81aadcd605a362_audio_missing_utopia_1780380927134.webm",
+  "transcript": " Basically one that was missing is a society that is kind of based on the U.S. with a government with three separate branches, but not representative democracy, where it is equal for all states, all areas, does not matter in population, each area gets to elect its own representatives. And finding a way with laws being backed entirely by science, as well as economic data, moral to a certain degree, but an ideal society would be balancing all those things. Religion would have no place in government because it doesn't have a place with a focus on sustainability and green energy.",
+  "language": "unknown",
+  "processing_time_seconds": 10.961788,
+  "timestamp": "2026-06-08T10:27:42.108867",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.42
+      ],
+      "text": " Basically one that was missing is a society that is kind of based on the U.S. with a government with three separate branches, but not representative democracy, where it is equal for all states, all areas, does not matter in population, each area gets to elect its own representatives."
+    },
+    {
+      "timestamp": [
+        23.52,
+        21.42
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.12,
+        39.74
+      ],
+      "text": " And finding a way with laws being backed entirely by science, as well as economic data, moral to a certain degree, but an ideal society would be balancing all those things."
+    },
+    {
+      "timestamp": [
+        39.74,
+        46.48
+      ],
+      "text": " Religion would have no place in government because it doesn't have a place with a focus"
+    },
+    {
+      "timestamp": [
+        46.48,
+        48.6
+      ],
+      "text": " on sustainability and green energy."
+    }
+  ]
+}

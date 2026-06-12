@@ -1,0 +1,150 @@
+{
+  "audio_file": "696948d74e6e23586daf57f6_audio_ranking_explanation_1780394900330.webm",
+  "transcript": " my most preferred society is the futurist utopia focusing on science and innovation i think that's honestly where we're headed right now i think that science and innovation can unlock so many efficiencies for the human race and i think that that is the way to go all of the other options were less than ideal so it was mostly saying like this option is the closest to what I think is the best, but it's not perfect, obviously. I think, to be honest, any society that's happening where, you know, key resources are severely limited, none of it is desirable. So I had a little bit of trouble with that in the ranking. But again, a futurist utopia is, we don't know what technology can do right now. In this day, I cannot predict how far technology can go. But, you know, I think about how we can make food in labs and how we can, you know, make even meat in labs. And there's just so much you can do with science. And I think that it could solve a lot of the resources issues. And, you know, maybe looking at other planets to live on and things like that. I just think that science innovation provides you the most options. My least referred society is the religious utopia. And I don't know if it's because of the current topics in the news right now, but religion makes everybody crazy, I think. And I will admit that I am not religious. I'm an atheist. But, you know, you look at these wars that are going on in the Middle East, for example, and religion just makes everybody want to kill each other, even though it's like the opposite of the moral code that, you know, most religions preach about. I just don't think that that's the way to rule a society. And I think that it could cause a lot of distress among the citizens. So I think religious is the least favorable answer.",
+  "language": "unknown",
+  "processing_time_seconds": 27.637163,
+  "timestamp": "2026-06-08T08:55:06.175996",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.2
+      ],
+      "text": " my most preferred society is the futurist utopia focusing on science and innovation"
+    },
+    {
+      "timestamp": [
+        6.2,
+        12.68
+      ],
+      "text": " i think that's honestly where we're headed right now i think that science and innovation can unlock"
+    },
+    {
+      "timestamp": [
+        12.68,
+        20.66
+      ],
+      "text": " so many efficiencies for the human race and i think that that is the way to go all of the other"
+    },
+    {
+      "timestamp": [
+        20.66,
+        29.22
+      ],
+      "text": " options were less than ideal so it was mostly saying like this option is the closest to what"
+    },
+    {
+      "timestamp": [
+        29.22,
+        34.8
+      ],
+      "text": " I think is the best, but it's not perfect, obviously. I think, to be honest, any society"
+    },
+    {
+      "timestamp": [
+        34.8,
+        40.96
+      ],
+      "text": " that's happening where, you know, key resources are severely limited, none of it is desirable."
+    },
+    {
+      "timestamp": [
+        40.96,
+        47.9
+      ],
+      "text": " So I had a little bit of trouble with that in the ranking. But again, a futurist utopia is,"
+    },
+    {
+      "timestamp": [
+        48.42,
+        54.8
+      ],
+      "text": " we don't know what technology can do right now. In this day, I cannot predict how far technology"
+    },
+    {
+      "timestamp": [
+        54.8,
+        61.46
+      ],
+      "text": " can go. But, you know, I think about how we can make food in labs and how we can, you know, make"
+    },
+    {
+      "timestamp": [
+        61.46,
+        66.22
+      ],
+      "text": " even meat in labs. And there's just so much you can do with science. And I think that it could"
+    },
+    {
+      "timestamp": [
+        66.22,
+        73.02
+      ],
+      "text": " solve a lot of the resources issues. And, you know, maybe looking at other planets to live on"
+    },
+    {
+      "timestamp": [
+        73.02,
+        77.84
+      ],
+      "text": " and things like that. I just think that science innovation provides you the most options. My"
+    },
+    {
+      "timestamp": [
+        77.84,
+        85.3
+      ],
+      "text": " least referred society is the religious utopia. And I don't know if it's because of the current"
+    },
+    {
+      "timestamp": [
+        85.3,
+        91.3
+      ],
+      "text": " topics in the news right now, but religion makes everybody crazy, I think. And I will admit that I"
+    },
+    {
+      "timestamp": [
+        91.3,
+        97.54
+      ],
+      "text": " am not religious. I'm an atheist. But, you know, you look at these wars that are going on in the"
+    },
+    {
+      "timestamp": [
+        97.54,
+        102.76
+      ],
+      "text": " Middle East, for example, and religion just makes everybody want to kill each other, even though"
+    },
+    {
+      "timestamp": [
+        102.76,
+        108.46
+      ],
+      "text": " it's like the opposite of the moral code that, you know, most religions preach about."
+    },
+    {
+      "timestamp": [
+        109.36,
+        112.92
+      ],
+      "text": " I just don't think that that's the way to rule a society."
+    },
+    {
+      "timestamp": [
+        113.12,
+        118.94
+      ],
+      "text": " And I think that it could cause a lot of distress among the citizens."
+    },
+    {
+      "timestamp": [
+        118.94,
+        123.34
+      ],
+      "text": " So I think religious is the least favorable answer."
+    }
+  ]
+}

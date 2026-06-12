@@ -1,0 +1,80 @@
+{
+  "audio_file": "69efcfba84d2e0f9dccd0692_audio_missing_utopia_1780378938971.webm",
+  "transcript": " I would say that the only thing that I felt was missing really in society was talking about healthcare. I feel like one of the biggest problems in the world today is healthcare and people's rights when it comes to healthcare, especially women's. So my future society, what I would see in my vision of the society would be that there would be free health care for all or people would learn more about health care and people would respect other people's choices and other people's rights as, you know, for them to take care or make decisions for their body. and not having the government or men trying to tell women or people how they should live, how they should feel, how they should take care of their body or trying to make them make decisions in a certain way that they feel appeals to them when it's about our right and people's rights to choose. So what's missing from these societies is free healthcare, rights, you know, people having the knowledge to know what they need to know, free education for everyone so they can have access to this type of information so they can know, so people can know how to read and write and learn and know of the laws and know how to be good people in society. I think that's the main thing that is missing and that should be added.",
+  "language": "unknown",
+  "processing_time_seconds": 22.233794,
+  "timestamp": "2026-06-08T09:51:18.050442",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.2
+      ],
+      "text": " I would say that the only thing that I felt was missing really in society was talking about healthcare. I feel like one of the biggest problems in the world today is healthcare and people's rights when it comes to healthcare, especially women's."
+    },
+    {
+      "timestamp": [
+        18.2,
+        47.66
+      ],
+      "text": " So my future society, what I would see in my vision of the society would be that there would be free health care for all or people would learn more about health care and people would respect other people's choices and other people's rights as, you know, for them to take care or make decisions for their body."
+    },
+    {
+      "timestamp": [
+        48.2,
+        59.2
+      ],
+      "text": " and not having the government or men trying to tell women or people how they should live,"
+    },
+    {
+      "timestamp": [
+        59.2,
+        68.28
+      ],
+      "text": " how they should feel, how they should take care of their body or trying to make them make decisions"
+    },
+    {
+      "timestamp": [
+        68.28,
+        75.06
+      ],
+      "text": " in a certain way that they feel appeals to them when it's about our right and people's rights to"
+    },
+    {
+      "timestamp": [
+        75.06,
+        85.32
+      ],
+      "text": " choose. So what's missing from these societies is free healthcare, rights, you know, people having"
+    },
+    {
+      "timestamp": [
+        85.32,
+        93.18
+      ],
+      "text": " the knowledge to know what they need to know, free education for everyone so they can have access to"
+    },
+    {
+      "timestamp": [
+        93.18,
+        98.68
+      ],
+      "text": " this type of information so they can know, so people can know how to read and write and learn"
+    },
+    {
+      "timestamp": [
+        98.68,
+        103.32
+      ],
+      "text": " and know of the laws and know how to be good people in society."
+    },
+    {
+      "timestamp": [
+        104.76,
+        108.86
+      ],
+      "text": " I think that's the main thing that is missing and that should be added."
+    }
+  ]
+}

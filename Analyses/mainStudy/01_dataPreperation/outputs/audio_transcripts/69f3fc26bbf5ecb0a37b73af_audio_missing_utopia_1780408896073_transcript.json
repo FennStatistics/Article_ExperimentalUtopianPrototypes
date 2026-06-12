@@ -1,0 +1,31 @@
+{
+  "audio_file": "69f3fc26bbf5ecb0a37b73af_audio_missing_utopia_1780408896073.webm",
+  "transcript": " I didn't think that there were any missing utopias. For the most part, I thought it was all pretty good. Yeah, I think that was pretty good, and we really enjoyed it.",
+  "language": "unknown",
+  "processing_time_seconds": 5.64889,
+  "timestamp": "2026-06-08T09:56:47.274471",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.68,
+        3.06
+      ],
+      "text": " I didn't think that there were any missing utopias."
+    },
+    {
+      "timestamp": [
+        3.36,
+        5.3
+      ],
+      "text": " For the most part, I thought it was all pretty good."
+    },
+    {
+      "timestamp": [
+        8.68,
+        13.86
+      ],
+      "text": " Yeah, I think that was pretty good, and we really enjoyed it."
+    }
+  ]
+}

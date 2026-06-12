@@ -1,0 +1,87 @@
+{
+  "audio_file": "697d5c69036bee0ad31df6a9_audio_ranking_explanation_1780386790592.webm",
+  "transcript": " I think the governance by intermorality is probably the best one. It lets you have more freedom than the rule of law, but could have the same effects. Science and innovation, I think, are generally good things, especially if balanced well with environmental concerns like we're described in the thing sustainability and security in the modern green utopia sounds really nice it sounds like it will be a good thing for everyone data-driven governance data can be misleading sometimes depending on what data you're looking at but it could uh result in some nice impartiality and good things built around that. The rule of law feels a bit strict. It feels like if certain laws were to be passed, it would be very restrictive. I don't particularly want to be low-tech and isolated. I think it's probably good for the sustainability of the species, but not good for me personally, so that's why I put it there and the religious utopia sounds like hokum so that one is at the bottom",
+  "language": "unknown",
+  "processing_time_seconds": 17.877725,
+  "timestamp": "2026-06-08T08:58:05.053102",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.14
+      ],
+      "text": " I think the governance by intermorality is probably the best one."
+    },
+    {
+      "timestamp": [
+        10.44,
+        19.76
+      ],
+      "text": " It lets you have more freedom than the rule of law, but could have the same effects."
+    },
+    {
+      "timestamp": [
+        23.44,
+        26.52
+      ],
+      "text": " Science and innovation, I think, are generally good things,"
+    },
+    {
+      "timestamp": [
+        26.58,
+        26.52
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.76,
+        31.64
+      ],
+      "text": " especially if balanced well with environmental concerns like we're described in the thing"
+    },
+    {
+      "timestamp": [
+        38.36,
+        44.52
+      ],
+      "text": " sustainability and security in the modern green utopia sounds really nice it sounds like it will be a good thing for everyone data-driven governance data can be misleading sometimes depending on what"
+    },
+    {
+      "timestamp": [
+        44.52,
+        55.4
+      ],
+      "text": " data you're looking at but it could uh result in some nice impartiality and good things built"
+    },
+    {
+      "timestamp": [
+        55.4,
+        65.68
+      ],
+      "text": " around that. The rule of law feels a bit strict. It feels like if certain laws were to be passed,"
+    },
+    {
+      "timestamp": [
+        66.16,
+        74.12
+      ],
+      "text": " it would be very restrictive. I don't particularly want to be low-tech and isolated. I think it's"
+    },
+    {
+      "timestamp": [
+        74.12,
+        79.72
+      ],
+      "text": " probably good for the sustainability of the species, but not good for me personally, so that's"
+    },
+    {
+      "timestamp": [
+        79.72,
+        86.64
+      ],
+      "text": " why I put it there and the religious utopia sounds like hokum so that one is at the bottom"
+    }
+  ]
+}

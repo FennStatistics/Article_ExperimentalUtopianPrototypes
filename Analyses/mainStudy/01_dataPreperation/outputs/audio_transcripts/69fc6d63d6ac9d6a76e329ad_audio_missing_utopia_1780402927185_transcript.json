@@ -1,0 +1,80 @@
+{
+  "audio_file": "69fc6d63d6ac9d6a76e329ad_audio_missing_utopia_1780402927185.webm",
+  "transcript": " I think that the important values were represented, but I would like to see a utopia kind of like the current state of, like, the United States, but obviously a lot better because the United States sucks right now. um i like moral commonwealth um the idea of everyone you know having their morals um holding each other accountable obviously everyone's morals are different so that's what becomes a little tricky so i think that you do need some laws in place but obviously current laws some of them are a little extreme and unnecessary um and some laws don't exist that With these laws should come advancements for sustainability and rules to ensure sustainability and innovation for society that's not detrimental to climate change, the environment, stuff like that. I also think AI should be limited. it's definitely impacting learning jobs mindsets really um a society i feel like it's missing a society that includes a lot like a combination of these um different values",
+  "language": "unknown",
+  "processing_time_seconds": 17.281761,
+  "timestamp": "2026-06-08T10:10:33.151799",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.76
+      ],
+      "text": " I think that the important values were represented, but I would like to see a utopia kind of like the current state of, like, the United States, but obviously a lot better because the United States sucks right now."
+    },
+    {
+      "timestamp": [
+        18.56,
+        17.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        25.56,
+        30.32
+      ],
+      "text": " um i like moral commonwealth um the idea of everyone you know having their morals um holding each other accountable obviously everyone's morals are different so that's"
+    },
+    {
+      "timestamp": [
+        30.32,
+        37.14
+      ],
+      "text": " what becomes a little tricky so i think that you do need some laws in place but obviously"
+    },
+    {
+      "timestamp": [
+        37.14,
+        46.36
+      ],
+      "text": " current laws some of them are a little extreme and unnecessary um and some laws don't exist that"
+    },
+    {
+      "timestamp": [
+        46.36,
+        69.7
+      ],
+      "text": " With these laws should come advancements for sustainability and rules to ensure sustainability and innovation for society that's not detrimental to climate change, the environment, stuff like that."
+    },
+    {
+      "timestamp": [
+        71.84,
+        73.86
+      ],
+      "text": " I also think AI should be limited."
+    },
+    {
+      "timestamp": [
+        74.68,
+        73.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        84.4,
+        89.56
+      ],
+      "text": " it's definitely impacting learning jobs mindsets really um a society i feel like it's missing a society that includes"
+    },
+    {
+      "timestamp": [
+        89.56,
+        97.68
+      ],
+      "text": " a lot like a combination of these um different values"
+    }
+  ]
+}

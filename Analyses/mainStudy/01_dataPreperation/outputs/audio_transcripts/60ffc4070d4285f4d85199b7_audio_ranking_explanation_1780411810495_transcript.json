@@ -1,0 +1,122 @@
+{
+  "audio_file": "60ffc4070d4285f4d85199b7_audio_ranking_explanation_1780411810495.webm",
+  "transcript": " um so i ranked the way i did because uh there was a lot of give and take with a lot of these but i felt like the modern green utopia being number one was just like more give than like taking away and you know earth is like the one of our greatest resources to be honest so like if we're keeping that sustainable and we're able to live fruitfully then why not um i just didn't care for um also i was going back and forth between that and futurist to be honest because innovation is important especially i guess in this futuristic utopia of a world my bottoms like five through seven just were not they can go in any order honestly but i put religious at the bottom just like i just felt like that was a little too too much um the rule of law leaving no room for morality was just very no to me ai center letting technology completely decide everything leaving no room for you know human emotion absolutely not and then you know i guess that religion i wasn't feeling that one at all either but then also for number four moral commonwealth everything being on morality and nothing being set in stone and there being no guidelines or rules for the i guess the world or this utopia or this era of life also no just wasn't there needs to be a little back and forth everything just balance yin and yang nothing no two extremes because it's going to be a negative no matter which side you go on",
+  "language": "unknown",
+  "processing_time_seconds": 23.148562,
+  "timestamp": "2026-06-08T08:22:47.375220",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.98
+      ],
+      "text": " um so i ranked the way i did because uh there was a lot of give and take with a lot of these"
+    },
+    {
+      "timestamp": [
+        4.98,
+        9.14
+      ],
+      "text": " but i felt like the modern green utopia being number one was just like more give"
+    },
+    {
+      "timestamp": [
+        9.14,
+        17.6
+      ],
+      "text": " than like taking away and you know earth is like the one of our greatest resources"
+    },
+    {
+      "timestamp": [
+        17.6,
+        22.34
+      ],
+      "text": " to be honest so like if we're keeping that sustainable and we're able to live"
+    },
+    {
+      "timestamp": [
+        23.24,
+        22.34
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.42,
+        39.26
+      ],
+      "text": " fruitfully then why not um i just didn't care for um also i was going back and forth between that and futurist to be honest because innovation is important especially i guess in this"
+    },
+    {
+      "timestamp": [
+        39.26,
+        48.76
+      ],
+      "text": " futuristic utopia of a world my bottoms like five through seven just were not"
+    },
+    {
+      "timestamp": [
+        48.76,
+        53.58
+      ],
+      "text": " they can go in any order honestly but i put religious at the bottom just like i just felt"
+    },
+    {
+      "timestamp": [
+        53.58,
+        64.54
+      ],
+      "text": " like that was a little too too much um the rule of law leaving no room for morality was just very"
+    },
+    {
+      "timestamp": [
+        64.54,
+        72.6
+      ],
+      "text": " no to me ai center letting technology completely decide everything leaving no room for"
+    },
+    {
+      "timestamp": [
+        72.6,
+        78.82
+      ],
+      "text": " you know human emotion absolutely not and then you know i guess that religion i wasn't feeling"
+    },
+    {
+      "timestamp": [
+        78.82,
+        85.44
+      ],
+      "text": " that one at all either but then also for number four moral commonwealth everything being on"
+    },
+    {
+      "timestamp": [
+        85.44,
+        93.7
+      ],
+      "text": " morality and nothing being set in stone and there being no guidelines or rules for the"
+    },
+    {
+      "timestamp": [
+        93.7,
+        102.58
+      ],
+      "text": " i guess the world or this utopia or this era of life also no just wasn't there needs to be"
+    },
+    {
+      "timestamp": [
+        102.58,
+        108.36
+      ],
+      "text": " a little back and forth everything just balance yin and yang nothing no two extremes because"
+    },
+    {
+      "timestamp": [
+        108.36,
+        110.74
+      ],
+      "text": " it's going to be a negative no matter which side you go on"
+    }
+  ]
+}

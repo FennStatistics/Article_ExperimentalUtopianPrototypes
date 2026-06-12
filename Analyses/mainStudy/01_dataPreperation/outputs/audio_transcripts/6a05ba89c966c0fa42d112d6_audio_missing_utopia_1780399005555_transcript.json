@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a05ba89c966c0fa42d112d6_audio_missing_utopia_1780399005555.webm",
+  "transcript": " The only thing I can think of missing in the utopias is something to do with just acceptance of diversity and equality. I feel like that's something that is really important to implement in a society because, you know, there's so many different people in the world. it's very easy to get lost and like not put any importance in that but um you know humans it's very easy for one group of humans to be power seeking and try to control um you know a majority of resources and all that stuff so I think just implementing something where you know there's no discrimination um and just like really focusing on equality that would be great to add into a society",
+  "language": "unknown",
+  "processing_time_seconds": 14.04218,
+  "timestamp": "2026-06-08T10:28:15.945286",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.92
+      ],
+      "text": " The only thing I can think of missing in the utopias is something to do with just acceptance of diversity and equality."
+    },
+    {
+      "timestamp": [
+        15.92,
+        23.52
+      ],
+      "text": " I feel like that's something that is really important to implement in a society because, you know, there's so many different people in the world."
+    },
+    {
+      "timestamp": [
+        24.56,
+        23.52
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.14,
+        41.74
+      ],
+      "text": " it's very easy to get lost and like not put any importance in that but um you know humans it's very easy for one group of humans to be power seeking and try to control"
+    },
+    {
+      "timestamp": [
+        41.74,
+        51.8
+      ],
+      "text": " um you know a majority of resources and all that stuff so I think just implementing something where"
+    },
+    {
+      "timestamp": [
+        51.8,
+        60.58
+      ],
+      "text": " you know there's no discrimination um and just like really focusing on"
+    },
+    {
+      "timestamp": [
+        60.58,
+        65.58
+      ],
+      "text": " equality that would be great to add into a society"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "audio_file": "65e6edd1a876f1d8487f379b_audio_ranking_explanation_1780378701073.webm",
+  "transcript": " I ringed the societies this way because I believe that inner morality is the best way for us to live our lives. I think that having empathy like that for each other is just the best way to have an ideal society. And my least preferred society was the religious utopia because I do not believe in religion. I think that religion is all a farce. I don't think that we should base society off of religion at all.",
+  "language": "unknown",
+  "processing_time_seconds": 9.699445,
+  "timestamp": "2026-06-08T08:32:53.625839",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.64
+      ],
+      "text": " I ringed the societies this way because I believe that inner morality is the best way"
+    },
+    {
+      "timestamp": [
+        7.64,
+        10.76
+      ],
+      "text": " for us to live our lives."
+    },
+    {
+      "timestamp": [
+        10.76,
+        15.48
+      ],
+      "text": " I think that having empathy like that for each other is just the best way to have an"
+    },
+    {
+      "timestamp": [
+        15.48,
+        17.68
+      ],
+      "text": " ideal society."
+    },
+    {
+      "timestamp": [
+        17.68,
+        23.52
+      ],
+      "text": " And my least preferred society was the religious utopia because I do not believe in religion."
+    },
+    {
+      "timestamp": [
+        23.52,
+        27.62
+      ],
+      "text": " I think that religion is all a farce."
+    },
+    {
+      "timestamp": [
+        27.62,
+        30.46
+      ],
+      "text": " I don't think that we should base society off of religion at all."
+    }
+  ]
+}

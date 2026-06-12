@@ -1,0 +1,17 @@
+{
+  "audio_file": "69f63c887d8133dc046897fa_audio_missing_utopia_1780407017004.webm",
+  "transcript": " In my future society, I think I will regard most health and hospital for future use, for clinical check-ups, yeah, I think hospital will be the best in the society, in my future society, that I will like to put.",
+  "language": "unknown",
+  "processing_time_seconds": 5.873801,
+  "timestamp": "2026-06-08T09:59:35.573095",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.14
+      ],
+      "text": " In my future society, I think I will regard most health and hospital for future use, for clinical check-ups, yeah, I think hospital will be the best in the society, in my future society, that I will like to put."
+    }
+  ]
+}

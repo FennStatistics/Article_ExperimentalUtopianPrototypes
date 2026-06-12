@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0aa663dacd2ed0bd2e9417_audio_missing_utopia_1780444821327.webm",
+  "transcript": " I think what was missing in a lot of these explanations was a description of more daily, like, more intimate things about people's lives, like families, communities, and how all of that functions. I think a lot of the focus was on economic structures, government structures, and while those are really important components of a society, I think that my ideal society would also include something that at least promoted a community-like structure where people care a lot about the people close to them. they care about their neighbors. We have families being like an incentive to have families and like just a family unit with like children and parents because I think that's a big part of having a stable society and also if you're looking to preserve the longevity of a society you need to make sure that we're able to reproduce at a certain rate.",
+  "language": "unknown",
+  "processing_time_seconds": 14.657035,
+  "timestamp": "2026-06-08T10:35:29.203934",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.08
+      ],
+      "text": " I think what was missing in a lot of these explanations was a description of more daily, like, more intimate things about people's lives, like families, communities, and how all of that functions."
+    },
+    {
+      "timestamp": [
+        15.08,
+        41.74
+      ],
+      "text": " I think a lot of the focus was on economic structures, government structures, and while those are really important components of a society, I think that my ideal society would also include something that at least promoted a community-like structure where people care a lot about the people close to them."
+    },
+    {
+      "timestamp": [
+        41.74,
+        48.74
+      ],
+      "text": " they care about their neighbors. We have families being like an incentive to have families and like"
+    },
+    {
+      "timestamp": [
+        48.74,
+        54.54
+      ],
+      "text": " just a family unit with like children and parents because I think that's a big part of having a"
+    },
+    {
+      "timestamp": [
+        54.54,
+        59.04
+      ],
+      "text": " stable society and also if you're looking to preserve the longevity of a society you need"
+    },
+    {
+      "timestamp": [
+        59.04,
+        64.28
+      ],
+      "text": " to make sure that we're able to reproduce at a certain rate."
+    }
+  ]
+}

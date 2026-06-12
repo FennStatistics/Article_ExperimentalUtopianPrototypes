@@ -1,0 +1,115 @@
+{
+  "audio_file": "6a01da6beb0da70a25f5dbf5_audio_ranking_explanation_1780410734209.webm",
+  "transcript": " Yeah, so I put the inner morality, the moral commonwealth one in first place because I find myself to be a moral person. And I feel like all the other moral people would be able to kind of get together and make the world a good place while also making sure that the people with low morality are put into the place that they deserve. um my least preferred was the religious utopia because I mean I'm an atheist and so I don't really believe in religion I just think it's a way to manipulate people and in a lot of cases I believe it's closer to a cult than anything else so that is not not a world I want to be living in um I like the green utopia one because even though it might not be like the most comfortable um way to live i think just the way that things are going with the environment it might be it required to be able to keep the earth in a good place uh the rule of law um i like that one because um it just seems like it kind of more closely mirrors like what we're leaving in today and it today isn't isn't too bad i mean could be better but it's not too bad uh science and innovation could be cool i just wish i had a little bit more info about what that would look like um i don't the ai centered utopia i've seen i've seen too many movies about how this could go wrong um i also just don't really think ai is anywhere near good enough to be able to run a utopia um and then the the primit primitivist utopia is i just i just feel indifferent about that one to be honest so those are those are my um those are my thoughts",
+  "language": "unknown",
+  "processing_time_seconds": 24.99912,
+  "timestamp": "2026-06-08T10:19:35.221034",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.54
+      ],
+      "text": " Yeah, so I put the inner morality, the moral commonwealth one in first place because I find myself to be a moral person."
+    },
+    {
+      "timestamp": [
+        9.54,
+        25.4
+      ],
+      "text": " And I feel like all the other moral people would be able to kind of get together and make the world a good place while also making sure that the people with low morality are put into the place that they deserve."
+    },
+    {
+      "timestamp": [
+        27.34,
+        25.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.82,
+        38.56
+      ],
+      "text": " um my least preferred was the religious utopia because I mean I'm an atheist and so I don't really believe in religion I just think it's a way to manipulate people and in a lot of"
+    },
+    {
+      "timestamp": [
+        38.56,
+        46.28
+      ],
+      "text": " cases I believe it's closer to a cult than anything else so that is not not a world I"
+    },
+    {
+      "timestamp": [
+        46.28,
+        54.2
+      ],
+      "text": " want to be living in um I like the green utopia one because even though it might not be like the"
+    },
+    {
+      "timestamp": [
+        54.2,
+        60.1
+      ],
+      "text": " most comfortable um way to live i think just the way that things are going with the environment it"
+    },
+    {
+      "timestamp": [
+        60.1,
+        66.6
+      ],
+      "text": " might be it required to be able to keep the earth in a good place uh the rule of law um i like that"
+    },
+    {
+      "timestamp": [
+        66.6,
+        74.32
+      ],
+      "text": " one because um it just seems like it kind of more closely mirrors like what we're leaving in today"
+    },
+    {
+      "timestamp": [
+        74.32,
+        81.52
+      ],
+      "text": " and it today isn't isn't too bad i mean could be better but it's not too bad uh science and"
+    },
+    {
+      "timestamp": [
+        81.52,
+        85.26
+      ],
+      "text": " innovation could be cool i just wish i had a little bit more info about what that would look"
+    },
+    {
+      "timestamp": [
+        85.26,
+        91.6
+      ],
+      "text": " like um i don't the ai centered utopia i've seen i've seen too many movies about how this could"
+    },
+    {
+      "timestamp": [
+        91.6,
+        99.48
+      ],
+      "text": " go wrong um i also just don't really think ai is anywhere near good enough to be able to run"
+    },
+    {
+      "timestamp": [
+        99.48,
+        110.04
+      ],
+      "text": " a utopia um and then the the primit primitivist utopia is i just i just feel indifferent about"
+    },
+    {
+      "timestamp": [
+        110.04,
+        114.36
+      ],
+      "text": " that one to be honest so those are those are my um those are my thoughts"
+    }
+  ]
+}

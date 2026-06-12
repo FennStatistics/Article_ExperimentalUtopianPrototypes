@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a14979f3b71a45ef4c10048_audio_missing_utopia_1780403149358.webm",
+  "transcript": " um i guess anything missing from one is probably in the other a real utopia would probably be some mixture of them like um how the more the less technology focused one and on a smaller scale uh if you could mix that with the um more sustainable one um and it's like I'm someone who's used to technology at this point so I would want to I would still want there to be some technology but that would really clash against the sustainability um I feel like in this idealized utopia i would have to change my perspective to really know what would actually be my utopia i just know there would be much less technology so much less technology um the government systems would be different community systems would be different um money would be different though So it's like I don't know exactly what I want, but I just know it's something that is as far removed from our current idea of society as possible.",
+  "language": "unknown",
+  "processing_time_seconds": 17.285295,
+  "timestamp": "2026-06-08T11:01:52.901707",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.88
+      ],
+      "text": " um i guess anything missing from one is probably in the other a real utopia would probably be"
+    },
+    {
+      "timestamp": [
+        9.88,
+        21.26
+      ],
+      "text": " some mixture of them like um how the more the less technology focused one and on a smaller scale"
+    },
+    {
+      "timestamp": [
+        21.26,
+        31.44
+      ],
+      "text": " uh if you could mix that with the um more sustainable one um and it's like I'm someone"
+    },
+    {
+      "timestamp": [
+        31.44,
+        37.3
+      ],
+      "text": " who's used to technology at this point so I would want to I would still want there to be some"
+    },
+    {
+      "timestamp": [
+        37.3,
+        43.7
+      ],
+      "text": " technology but that would really clash against the sustainability um I feel like in this idealized"
+    },
+    {
+      "timestamp": [
+        43.7,
+        52.92
+      ],
+      "text": " utopia i would have to change my perspective to really know what would actually be my utopia i"
+    },
+    {
+      "timestamp": [
+        52.92,
+        59.84
+      ],
+      "text": " just know there would be much less technology so much less technology um the government systems"
+    },
+    {
+      "timestamp": [
+        59.84,
+        67.68
+      ],
+      "text": " would be different community systems would be different um money would be different though"
+    },
+    {
+      "timestamp": [
+        67.68,
+        83.6
+      ],
+      "text": " So it's like I don't know exactly what I want, but I just know it's something that is as far removed from our current idea of society as possible."
+    }
+  ]
+}

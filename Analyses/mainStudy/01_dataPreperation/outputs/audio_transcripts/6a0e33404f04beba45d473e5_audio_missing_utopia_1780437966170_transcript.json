@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0e33404f04beba45d473e5_audio_missing_utopia_1780437966170.webm",
+  "transcript": " I think all of them were probably mentioned.",
+  "language": "unknown",
+  "processing_time_seconds": 4.48236,
+  "timestamp": "2026-06-08T10:45:46.098010",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.02
+      ],
+      "text": " I think all of them were probably mentioned."
+    }
+  ]
+}

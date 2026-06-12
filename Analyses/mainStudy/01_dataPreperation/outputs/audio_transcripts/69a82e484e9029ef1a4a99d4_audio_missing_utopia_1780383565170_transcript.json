@@ -1,0 +1,24 @@
+{
+  "audio_file": "69a82e484e9029ef1a4a99d4_audio_missing_utopia_1780383565170.webm",
+  "transcript": " I feel that all the important values and structures were already adequately represented across the seven societies provided, so nothing essential was missing.",
+  "language": "unknown",
+  "processing_time_seconds": 5.060383,
+  "timestamp": "2026-06-08T09:13:03.546710",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.0
+      ],
+      "text": " I feel that all the important values and structures were already adequately represented"
+    },
+    {
+      "timestamp": [
+        7.0,
+        12.12
+      ],
+      "text": " across the seven societies provided, so nothing essential was missing."
+    }
+  ]
+}

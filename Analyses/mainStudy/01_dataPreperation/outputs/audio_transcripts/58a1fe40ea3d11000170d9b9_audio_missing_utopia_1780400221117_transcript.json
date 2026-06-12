@@ -1,0 +1,38 @@
+{
+  "audio_file": "58a1fe40ea3d11000170d9b9_audio_missing_utopia_1780400221117.webm",
+  "transcript": " So for me, I think the ideal utopian society would be a mix between science and morality. I think morals should be the driving force behind how people live their lives every day. And that should just be how society operates. it should be common knowledge and i think to go hand in hand with that people should also be willing and eager to advance science so that we are advancing health care government restriction maybe and also environmental protections",
+  "language": "unknown",
+  "processing_time_seconds": 10.014713,
+  "timestamp": "2026-06-08T08:10:08.105563",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.36
+      ],
+      "text": " So for me, I think the ideal utopian society would be a mix between science and morality. I think morals should be the driving force behind how people live their lives every day. And that should just be how society operates."
+    },
+    {
+      "timestamp": [
+        20.36,
+        29.32
+      ],
+      "text": " it should be common knowledge and i think to go hand in hand with that people should also be"
+    },
+    {
+      "timestamp": [
+        30.6,
+        39.72
+      ],
+      "text": " willing and eager to advance science so that we are advancing health care"
+    },
+    {
+      "timestamp": [
+        41.0,
+        47.56
+      ],
+      "text": " government restriction maybe and also environmental protections"
+    }
+  ]
+}

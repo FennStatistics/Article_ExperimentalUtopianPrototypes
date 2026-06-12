@@ -1,0 +1,24 @@
+{
+  "audio_file": "69c8e432059037ce2956ee67_audio_missing_utopia_1780394033107.webm",
+  "transcript": " For me, a more ideal society would be one where basic needs such as food and water are created by non-intelligent technology. While humanity may not have as many resources, the Rhesusuruses they do have are not put to waste and can be shared equally.",
+  "language": "unknown",
+  "processing_time_seconds": 8.6899,
+  "timestamp": "2026-06-08T09:26:45.170119",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.0
+      ],
+      "text": " For me, a more ideal society would be one where basic needs such as food and water are created by non-intelligent technology."
+    },
+    {
+      "timestamp": [
+        16.0,
+        32.0
+      ],
+      "text": " While humanity may not have as many resources, the Rhesusuruses they do have are not put to waste and can be shared equally."
+    }
+  ]
+}

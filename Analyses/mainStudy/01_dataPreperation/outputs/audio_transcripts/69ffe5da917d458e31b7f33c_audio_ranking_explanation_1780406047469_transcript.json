@@ -1,0 +1,73 @@
+{
+  "audio_file": "69ffe5da917d458e31b7f33c_audio_ranking_explanation_1780406047469.webm",
+  "transcript": " I would say for me, the modern green utopia seemed like the best option for me just because it looked like they were looking out for not only people, also resources for the Earth. So it was environmentally friendly and it offered some type of, you know, small idea of technology. So it was kind of hard to decide between the low tech and small scale and sustainable and secure. But I definitely want to prioritize just being good for the environment, I felt like. And then for my least preferred society, it was definitely hard, again, to choose between religious and institutional utopia because I felt like they were both pretty much the same. They relied on that strict reliance on either religion or laws. and I feel like for that in terms of community it's very limiting. It doesn't leave room for creativity or even growth so both of those options to me felt like a horrible place for me to ever want to try and live in.",
+  "language": "unknown",
+  "processing_time_seconds": 15.384796,
+  "timestamp": "2026-06-08T10:14:19.463548",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.12
+      ],
+      "text": " I would say for me, the modern green utopia seemed like the best option for me just because it looked like they were looking out for not only people, also resources for the Earth."
+    },
+    {
+      "timestamp": [
+        14.24,
+        23.12
+      ],
+      "text": " So it was environmentally friendly and it offered some type of, you know, small idea of technology."
+    },
+    {
+      "timestamp": [
+        23.12,
+        30.4
+      ],
+      "text": " So it was kind of hard to decide between the low tech and small scale and sustainable and secure."
+    },
+    {
+      "timestamp": [
+        30.88,
+        36.14
+      ],
+      "text": " But I definitely want to prioritize just being good for the environment, I felt like."
+    },
+    {
+      "timestamp": [
+        36.72,
+        46.6
+      ],
+      "text": " And then for my least preferred society, it was definitely hard, again, to choose between religious and institutional utopia because I felt like they were both pretty much the same."
+    },
+    {
+      "timestamp": [
+        46.72,
+        51.96
+      ],
+      "text": " They relied on that strict reliance on either religion or laws."
+    },
+    {
+      "timestamp": [
+        52.38,
+        51.96
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        58.36,
+        65.58
+      ],
+      "text": " and I feel like for that in terms of community it's very limiting. It doesn't leave room for creativity or even growth so both of those options to me felt like a horrible place for me"
+    },
+    {
+      "timestamp": [
+        65.58,
+        67.66
+      ],
+      "text": " to ever want to try and live in."
+    }
+  ]
+}

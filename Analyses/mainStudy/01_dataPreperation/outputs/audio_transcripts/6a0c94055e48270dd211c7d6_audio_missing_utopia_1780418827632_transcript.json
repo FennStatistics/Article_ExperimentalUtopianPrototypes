@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0c94055e48270dd211c7d6_audio_missing_utopia_1780418827632.webm",
+  "transcript": " I feel like my ideal future society would be one very similar to ours now, but maybe a little more technologically innovative. I feel like I don't want one centered around AI because that just takes a lot of people's sense of choice out of the picture or relying on technology to run our society um but i think one where we combine um one where we combine our our current society with um using technology as a tool rather than the only being the only thing that guides us is the one that will help us the most both looking at it from an ecological standpoint a lawful standpoint um and just a happiness standpoint.",
+  "language": "unknown",
+  "processing_time_seconds": 15.223051,
+  "timestamp": "2026-06-08T10:40:38.012319",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.94
+      ],
+      "text": " I feel like my ideal future society would be one very similar to ours now, but maybe"
+    },
+    {
+      "timestamp": [
+        7.94,
+        13.22
+      ],
+      "text": " a little more technologically innovative."
+    },
+    {
+      "timestamp": [
+        13.22,
+        22.32
+      ],
+      "text": " I feel like I don't want one centered around AI because that just takes a lot of people's"
+    },
+    {
+      "timestamp": [
+        22.32,
+        32.88
+      ],
+      "text": " sense of choice out of the picture or relying on technology to run our society um but i think one"
+    },
+    {
+      "timestamp": [
+        32.88,
+        46.48
+      ],
+      "text": " where we combine um one where we combine our our current society with um using technology as a tool"
+    },
+    {
+      "timestamp": [
+        46.48,
+        55.52
+      ],
+      "text": " rather than the only being the only thing that guides us is the one that will help us the most"
+    },
+    {
+      "timestamp": [
+        56.16,
+        65.76
+      ],
+      "text": " both looking at it from an ecological standpoint a lawful standpoint um and just a happiness"
+    },
+    {
+      "timestamp": [
+        65.76,
+        67.76
+      ],
+      "text": " standpoint."
+    }
+  ]
+}

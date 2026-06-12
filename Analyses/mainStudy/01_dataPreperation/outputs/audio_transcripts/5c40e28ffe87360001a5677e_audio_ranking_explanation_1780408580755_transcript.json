@@ -1,0 +1,38 @@
+{
+  "audio_file": "5c40e28ffe87360001a5677e_audio_ranking_explanation_1780408580755.webm",
+  "transcript": " the reason i wanted my society to be sustainable and secure is because i feel like that's what's best um i do not want to live in a world where we're more focused on technology and technology based and that's data driven um i feel like we're already living in a world now or going towards that world and i feel like being more sustainable and secure life is more important",
+  "language": "unknown",
+  "processing_time_seconds": 6.893759,
+  "timestamp": "2026-06-08T08:13:17.934194",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.24
+      ],
+      "text": " the reason i wanted my society to be sustainable and secure is because i feel like that's what's"
+    },
+    {
+      "timestamp": [
+        8.24,
+        14.72
+      ],
+      "text": " best um i do not want to live in a world where we're more focused on technology and technology"
+    },
+    {
+      "timestamp": [
+        14.72,
+        20.56
+      ],
+      "text": " based and that's data driven um i feel like we're already living in a world now or going"
+    },
+    {
+      "timestamp": [
+        20.56,
+        27.12
+      ],
+      "text": " towards that world and i feel like being more sustainable and secure life is more important"
+    }
+  ]
+}

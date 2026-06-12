@@ -1,0 +1,178 @@
+{
+  "audio_file": "6a16714ecf227557cde36510_audio_missing_utopia_1780242761156.webm",
+  "transcript": " Looking back at the seven societies, what feels missing to me is a strong emphasis on human-centered balance between technology, nature, and emotional well-being at the same time. Most of the models lean heavily in one direction, either systems and institutions, technology and AI, nature and simplicity, or values and morality. But none of them fully combine all of this in a balanced, flexible way. A type of society I think is missing could be called a human harmony society or adaptive balance society. In this kind of nature, technology, including AI, would exist, but it will be strictly designed to serve human needs rather than lead decisions. At the same time, institutions will remain strong, but they will be transparent, flexible and responsive to people's lived experiences, not just roles. Nature and sustainability would still be central, like in the Green Utopia, but not at the cost of development or innovation. People's mental health, community relationships, and personal dignity would also be treated as core priorities, not secondary concerns. What would matter most in this society is balance and adaptability. The ability to adjust systems as conditions change while still protecting human wellbeing. Instead of focusing on efficiency, faith, technology, or tradition, the main goal would be making sure people are not just surviving or functioning, but actually living well in a stable and meaningful way.",
+  "language": "unknown",
+  "processing_time_seconds": 21.66333,
+  "timestamp": "2026-06-08T11:08:14.284115",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.74
+      ],
+      "text": " Looking back at the seven societies, what feels missing to me is a strong emphasis on human-centered balance between technology, nature, and emotional well-being at the same time."
+    },
+    {
+      "timestamp": [
+        12.3,
+        21.46
+      ],
+      "text": " Most of the models lean heavily in one direction, either systems and institutions, technology and AI, nature and simplicity, or values and morality."
+    },
+    {
+      "timestamp": [
+        22.12,
+        26.34
+      ],
+      "text": " But none of them fully combine all of this in a balanced, flexible way."
+    },
+    {
+      "timestamp": [
+        26.34,
+        33.94
+      ],
+      "text": " A type of society I think is missing could be called a human harmony society or adaptive"
+    },
+    {
+      "timestamp": [
+        33.94,
+        36.34
+      ],
+      "text": " balance society."
+    },
+    {
+      "timestamp": [
+        36.34,
+        42.96
+      ],
+      "text": " In this kind of nature, technology, including AI, would exist, but it will be strictly designed"
+    },
+    {
+      "timestamp": [
+        42.96,
+        46.86
+      ],
+      "text": " to serve human needs rather than lead decisions."
+    },
+    {
+      "timestamp": [
+        46.86,
+        52.18
+      ],
+      "text": " At the same time, institutions will remain strong, but they will be transparent, flexible"
+    },
+    {
+      "timestamp": [
+        52.18,
+        55.28
+      ],
+      "text": " and responsive to people's lived experiences,"
+    },
+    {
+      "timestamp": [
+        55.28,
+        56.54
+      ],
+      "text": " not just roles."
+    },
+    {
+      "timestamp": [
+        57.96,
+        61.3
+      ],
+      "text": " Nature and sustainability would still be central,"
+    },
+    {
+      "timestamp": [
+        61.3,
+        63.18
+      ],
+      "text": " like in the Green Utopia,"
+    },
+    {
+      "timestamp": [
+        63.18,
+        66.96
+      ],
+      "text": " but not at the cost of development or innovation."
+    },
+    {
+      "timestamp": [
+        66.96,
+        70.08
+      ],
+      "text": " People's mental health, community relationships,"
+    },
+    {
+      "timestamp": [
+        70.08,
+        74.92
+      ],
+      "text": " and personal dignity would also be treated as core priorities,"
+    },
+    {
+      "timestamp": [
+        74.92,
+        76.8
+      ],
+      "text": " not secondary concerns."
+    },
+    {
+      "timestamp": [
+        77.96,
+        80.12
+      ],
+      "text": " What would matter most in this society"
+    },
+    {
+      "timestamp": [
+        80.12,
+        82.44
+      ],
+      "text": " is balance and adaptability."
+    },
+    {
+      "timestamp": [
+        82.44,
+        86.36
+      ],
+      "text": " The ability to adjust systems as conditions change"
+    },
+    {
+      "timestamp": [
+        86.36,
+        89.84
+      ],
+      "text": " while still protecting human wellbeing."
+    },
+    {
+      "timestamp": [
+        89.84,
+        93.08
+      ],
+      "text": " Instead of focusing on efficiency, faith, technology,"
+    },
+    {
+      "timestamp": [
+        93.08,
+        97.44
+      ],
+      "text": " or tradition, the main goal would be making sure people"
+    },
+    {
+      "timestamp": [
+        97.44,
+        99.8
+      ],
+      "text": " are not just surviving or functioning,"
+    },
+    {
+      "timestamp": [
+        99.8,
+        103.16
+      ],
+      "text": " but actually living well in a stable and meaningful way."
+    }
+  ]
+}

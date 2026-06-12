@@ -1,0 +1,171 @@
+{
+  "audio_file": "60ad344265fa9865ff45c0bf_audio_missing_utopia_1780410238271.webm",
+  "transcript": " just a type of society that has like a sort of mix between the different rankings. Like I listed, um, the, the agriculture, the, um, the greenhouse, uh, agriculture, the greenhouse, um, um, ranking first. And my second was science-based. So you sort of combine those two, you know, into a happy medium where you know there's a mix of both you're using less energy you're utilizing different forms of you know scientific arguments and you know scholars that agreed to different hypotheses and forms of living and understanding different things and you combine that with you know understanding climate change you know you have a mix of both worlds that you need so not to go on the extreme of one end or the other but you know having a mix of different societies is you know it's definitely that's how I would you know suffice or I would you know discuss this but I didn't really specifically think any were missing just a mix of some of them together like you know you have the science one the green one the you know green utopian and then you have a mixture of inner morality so having a mix of these together and not going to the extreme of say ai and ai can be helpful i have my you know issues with ai but it can be helpful but not having an ai driven society not even having a religious faith society but having some of it in um along with inner morale morals you know laws and applications science utilized like one of them was low tech science um so again you have a mix of these you know you have a drastic change and you see other people you know ultimately trying to figure out and take both sides and be able to alleviate and see okay i understand it from that perspective where i only understood it from this perspective so having an open mind and ultimately seeing this you know you're able to understand why a mix of societies would be, you know, tantamount to success and ultimately greener pasture overall.",
+  "language": "unknown",
+  "processing_time_seconds": 29.888046,
+  "timestamp": "2026-06-08T08:20:14.660984",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.3
+      ],
+      "text": " just a type of society that has like a sort of mix between the different"
+    },
+    {
+      "timestamp": [
+        6.3,
+        12.22
+      ],
+      "text": " rankings. Like I listed, um, the, the agriculture, the, um,"
+    },
+    {
+      "timestamp": [
+        12.62,
+        18.5
+      ],
+      "text": " the greenhouse, uh, agriculture, the greenhouse, um, um,"
+    },
+    {
+      "timestamp": [
+        18.5,
+        22.04
+      ],
+      "text": " ranking first. And my second was science-based."
+    },
+    {
+      "timestamp": [
+        22.28,
+        26.32
+      ],
+      "text": " So you sort of combine those two, you know,"
+    },
+    {
+      "timestamp": [
+        26.36,
+        26.32
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.7,
+        38.88
+      ],
+      "text": " into a happy medium where you know there's a mix of both you're using less energy you're utilizing different forms of you know scientific arguments and you know scholars that"
+    },
+    {
+      "timestamp": [
+        38.88,
+        45.44
+      ],
+      "text": " agreed to different hypotheses and forms of living and understanding different things"
+    },
+    {
+      "timestamp": [
+        45.44,
+        51.32
+      ],
+      "text": " and you combine that with you know understanding climate change you know you have a mix of both"
+    },
+    {
+      "timestamp": [
+        51.32,
+        57.96
+      ],
+      "text": " worlds that you need so not to go on the extreme of one end or the other but you know having a mix"
+    },
+    {
+      "timestamp": [
+        57.96,
+        65.36
+      ],
+      "text": " of different societies is you know it's definitely that's how I would you know suffice or I would"
+    },
+    {
+      "timestamp": [
+        65.36,
+        71.08
+      ],
+      "text": " you know discuss this but I didn't really specifically think any were missing just a"
+    },
+    {
+      "timestamp": [
+        71.08,
+        75.62
+      ],
+      "text": " mix of some of them together like you know you have the science one the green one the you know"
+    },
+    {
+      "timestamp": [
+        75.62,
+        82.28
+      ],
+      "text": " green utopian and then you have a mixture of inner morality so having a mix of these together and"
+    },
+    {
+      "timestamp": [
+        82.28,
+        89.2
+      ],
+      "text": " not going to the extreme of say ai and ai can be helpful i have my you know issues with ai but it"
+    },
+    {
+      "timestamp": [
+        89.2,
+        94.66
+      ],
+      "text": " can be helpful but not having an ai driven society not even having a religious faith society but"
+    },
+    {
+      "timestamp": [
+        94.66,
+        102.08
+      ],
+      "text": " having some of it in um along with inner morale morals you know laws and applications science"
+    },
+    {
+      "timestamp": [
+        102.08,
+        108.86
+      ],
+      "text": " utilized like one of them was low tech science um so again you have a mix of these you know you"
+    },
+    {
+      "timestamp": [
+        108.86,
+        116.3
+      ],
+      "text": " have a drastic change and you see other people you know ultimately trying to figure out and take"
+    },
+    {
+      "timestamp": [
+        116.3,
+        123.02
+      ],
+      "text": " both sides and be able to alleviate and see okay i understand it from that perspective where i only"
+    },
+    {
+      "timestamp": [
+        123.02,
+        129.12
+      ],
+      "text": " understood it from this perspective so having an open mind and ultimately seeing this you know"
+    },
+    {
+      "timestamp": [
+        129.12,
+        133.96
+      ],
+      "text": " you're able to understand why a mix of societies would be, you know,"
+    },
+    {
+      "timestamp": [
+        134.36,
+        138.38
+      ],
+      "text": " tantamount to success and ultimately greener pasture overall."
+    }
+  ]
+}

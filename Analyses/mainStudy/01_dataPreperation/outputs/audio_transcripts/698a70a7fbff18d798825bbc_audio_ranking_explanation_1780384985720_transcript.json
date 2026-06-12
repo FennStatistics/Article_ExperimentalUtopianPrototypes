@@ -1,0 +1,94 @@
+{
+  "audio_file": "698a70a7fbff18d798825bbc_audio_ranking_explanation_1780384985720.webm",
+  "transcript": " I picked Modern Green Utopia as one because it seems like a good mix. It seems like people have a say. Not too many resources will be used. The second one, it seems fun. I feel like there would be flowers everywhere and hills. And everyone would just be trading stuff. sounds like a fun time the third one and the fourth one were difficult i don't like either of them too much um science seems better than trusting people's morals i think people's morals would get out of hand quickly and there would become some sort of monarchy no matter what um the rule of law is kind of crazy i don't think that is good for anyone i feel like that's kind of what's happening right now in america it's not going that great uh religious utopia and ai kind of are just the same for me i would really not want either both seem very scary",
+  "language": "unknown",
+  "processing_time_seconds": 15.10452,
+  "timestamp": "2026-06-08T09:03:18.505951",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.74
+      ],
+      "text": " I picked Modern Green Utopia as one because it seems like a good mix."
+    },
+    {
+      "timestamp": [
+        10.74,
+        13.32
+      ],
+      "text": " It seems like people have a say."
+    },
+    {
+      "timestamp": [
+        13.32,
+        18.36
+      ],
+      "text": " Not too many resources will be used."
+    },
+    {
+      "timestamp": [
+        18.36,
+        23.3
+      ],
+      "text": " The second one, it seems fun."
+    },
+    {
+      "timestamp": [
+        23.3,
+        27.2
+      ],
+      "text": " I feel like there would be flowers everywhere and hills."
+    },
+    {
+      "timestamp": [
+        27.2,
+        29.56
+      ],
+      "text": " And everyone would just be trading stuff."
+    },
+    {
+      "timestamp": [
+        29.56,
+        36.68
+      ],
+      "text": " sounds like a fun time the third one and the fourth one were difficult i don't like either of"
+    },
+    {
+      "timestamp": [
+        36.68,
+        45.0
+      ],
+      "text": " them too much um science seems better than trusting people's morals i think people's"
+    },
+    {
+      "timestamp": [
+        45.0,
+        51.48
+      ],
+      "text": " morals would get out of hand quickly and there would become some sort of monarchy no matter what"
+    },
+    {
+      "timestamp": [
+        51.48,
+        60.6
+      ],
+      "text": " um the rule of law is kind of crazy i don't think that is good for anyone i feel like"
+    },
+    {
+      "timestamp": [
+        60.6,
+        66.68
+      ],
+      "text": " that's kind of what's happening right now in america it's not going that great uh religious"
+    },
+    {
+      "timestamp": [
+        66.68,
+        77.32
+      ],
+      "text": " utopia and ai kind of are just the same for me i would really not want either both seem very scary"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "audio_file": "63e51bdade16b861346088b4_audio_missing_utopia_1780408946268.webm",
+  "transcript": " um i don't know that anything was truly missing i guess i would just say maybe more of like like i feel it was kind of hinted at but like a mix of both you know small communities with a larger you know framework to help people so you know like if one smaller community is struggling um you know there's a larger pool um that can you know maybe come in to support them and give them additional resources if they need provide medical care and that kind of thing. So I think that's the missing future society is one that is made up of smaller communities that are generally self-sufficient to support each other but still have that wider base to support them if needed.",
+  "language": "unknown",
+  "processing_time_seconds": 11.368908,
+  "timestamp": "2026-06-08T08:28:48.873804",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.98
+      ],
+      "text": " um i don't know that anything was truly missing i guess i would just say maybe more of like"
+    },
+    {
+      "timestamp": [
+        6.98,
+        13.86
+      ],
+      "text": " like i feel it was kind of hinted at but like a mix of both you know small communities with a"
+    },
+    {
+      "timestamp": [
+        13.86,
+        20.96
+      ],
+      "text": " larger you know framework to help people so you know like if one smaller community is struggling"
+    },
+    {
+      "timestamp": [
+        20.96,
+        28.1
+      ],
+      "text": " um you know there's a larger pool um that can you know maybe come in to support them"
+    },
+    {
+      "timestamp": [
+        28.1,
+        33.06
+      ],
+      "text": " and give them additional resources if they need provide medical care"
+    },
+    {
+      "timestamp": [
+        33.06,
+        33.84
+      ],
+      "text": " and that kind of thing."
+    },
+    {
+      "timestamp": [
+        34.0,
+        38.26
+      ],
+      "text": " So I think that's the missing future society is one that is made up"
+    },
+    {
+      "timestamp": [
+        38.26,
+        40.96
+      ],
+      "text": " of smaller communities that are generally self-sufficient"
+    },
+    {
+      "timestamp": [
+        40.96,
+        45.36
+      ],
+      "text": " to support each other but still have that wider base"
+    },
+    {
+      "timestamp": [
+        45.36,
+        47.06
+      ],
+      "text": " to support them if needed."
+    }
+  ]
+}

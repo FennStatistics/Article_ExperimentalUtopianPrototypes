@@ -1,0 +1,66 @@
+{
+  "audio_file": "69a82e484e9029ef1a4a99d4_audio_ranking_explanation_1780383512648.webm",
+  "transcript": " I rank the society in the way because I value sustainability, community and living in harmony with nature. I feel that the small-scale low-tech society helps people to live more intentionally within the natural limits, without relying on over-complex systems. On the other hand, I place the eye-centred data given governance at the bottom because I ask. I'm sceptical of the living societal choices entirely to automate algorithms. The human-centric and community-led choices.",
+  "language": "unknown",
+  "processing_time_seconds": 10.013894,
+  "timestamp": "2026-06-08T09:13:13.605338",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.56
+      ],
+      "text": " I rank the society in the way because I value sustainability, community and living in harmony"
+    },
+    {
+      "timestamp": [
+        6.56,
+        7.56
+      ],
+      "text": " with nature."
+    },
+    {
+      "timestamp": [
+        7.56,
+        14.18
+      ],
+      "text": " I feel that the small-scale low-tech society helps people to live more intentionally within"
+    },
+    {
+      "timestamp": [
+        14.18,
+        18.02
+      ],
+      "text": " the natural limits, without relying on over-complex systems."
+    },
+    {
+      "timestamp": [
+        18.02,
+        23.9
+      ],
+      "text": " On the other hand, I place the eye-centred data given governance at the bottom because"
+    },
+    {
+      "timestamp": [
+        23.9,
+        24.9
+      ],
+      "text": " I ask."
+    },
+    {
+      "timestamp": [
+        24.9,
+        30.9
+      ],
+      "text": " I'm sceptical of the living societal choices entirely to automate algorithms."
+    },
+    {
+      "timestamp": [
+        30.9,
+        34.9
+      ],
+      "text": " The human-centric and community-led choices."
+    }
+  ]
+}

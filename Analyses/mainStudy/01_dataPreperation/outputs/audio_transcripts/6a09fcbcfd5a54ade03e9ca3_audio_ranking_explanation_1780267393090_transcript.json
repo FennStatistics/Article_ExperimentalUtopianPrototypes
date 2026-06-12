@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a09fcbcfd5a54ade03e9ca3_audio_ranking_explanation_1780267393090.webm",
+  "transcript": " Alright, I ranked modern green utopia, first because establishing a sustainable, ecologically secure foundation is essential for humanity's long-term survival, building upon that. AI generated utopia offers great efficiency, but ranks in the middle due to the inherent risk of automated governance.",
+  "language": "unknown",
+  "processing_time_seconds": 8.318948,
+  "timestamp": "2026-06-08T10:33:32.781979",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.24
+      ],
+      "text": " Alright, I ranked modern green utopia, first because establishing a sustainable, ecologically"
+    },
+    {
+      "timestamp": [
+        10.24,
+        17.0
+      ],
+      "text": " secure foundation is essential for humanity's long-term survival, building upon that."
+    },
+    {
+      "timestamp": [
+        17.0,
+        26.72
+      ],
+      "text": " AI generated utopia offers great efficiency, but ranks in the middle due to the inherent"
+    },
+    {
+      "timestamp": [
+        26.72,
+        29.64
+      ],
+      "text": " risk of automated governance."
+    }
+  ]
+}

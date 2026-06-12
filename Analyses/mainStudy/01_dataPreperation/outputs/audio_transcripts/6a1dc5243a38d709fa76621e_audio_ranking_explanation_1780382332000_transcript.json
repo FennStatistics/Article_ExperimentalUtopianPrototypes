@@ -1,0 +1,164 @@
+{
+  "audio_file": "6a1dc5243a38d709fa76621e_audio_ranking_explanation_1780382332000.webm",
+  "transcript": " i ranked the societies this way because um i put number one as the institutional utopia rule of law i think that this would be the most safe one to live in um the inner morality i put at six because i don't think that people are inherently moral i think there are, I mean, I know that there are a ton of people who would not just be good and be kind. So a society going off of everyone's morality is horrifying. I think that would just be pure anarchy. And then number seven is religious utopia, because I think faith is, it can be too much. And if it's a faith-based order, then it's going to be the people who are extremely religious running the country. And I don't believe in religion and I think it's, so that's, yeah, that's why it's number seven. And then I have number two as the science and innovation. I like the idea of living in a society that's run on science because science is real and innovation is good. The modern green utopia, the sustainable and secure. I think it's great to, you know, look out for the environment. We certainly aren't doing a great job of that right now and we're seeing the effects of pollution and climate change and so moving to a more green type of utopia definitely sounds desirable but um i still i'm gonna put rule of law and science above that just because i think those are more likely to be livable um number four low tech and small scale. It's okay. I just don't, I'm not really personable. So I don't like small communities. So that's not why it's not like super preferenced of mine, but it's not a horrible idea. AI centered utopia. That's going to be five for me because I've just seen too many movies about that going completely wrong. I don't think that AI and computers and robots could ever govern a country. I think that there always has to be personal judgment within laws and rules and regulations. I don't think a computer would be able to do that efficiently. So that is why I ranked everything that I ranked.",
+  "language": "unknown",
+  "processing_time_seconds": 33.302066,
+  "timestamp": "2026-06-08T11:28:20.171926",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.04
+      ],
+      "text": " i ranked the societies this way because um i put number one as the institutional utopia rule of law"
+    },
+    {
+      "timestamp": [
+        9.04,
+        17.06
+      ],
+      "text": " i think that this would be the most safe one to live in um"
+    },
+    {
+      "timestamp": [
+        17.06,
+        25.5
+      ],
+      "text": " the inner morality i put at six because i don't think that people are inherently moral i think"
+    },
+    {
+      "timestamp": [
+        25.5,
+        32.22
+      ],
+      "text": " there are, I mean, I know that there are a ton of people who would not just be good and be kind."
+    },
+    {
+      "timestamp": [
+        32.92,
+        41.52
+      ],
+      "text": " So a society going off of everyone's morality is horrifying. I think that would just be pure"
+    },
+    {
+      "timestamp": [
+        41.52,
+        48.3
+      ],
+      "text": " anarchy. And then number seven is religious utopia, because I think faith is,"
+    },
+    {
+      "timestamp": [
+        49.8,
+        48.3
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        56.24,
+        57.38
+      ],
+      "text": " it can be too much. And if it's a faith-based order, then it's going to be the people who are"
+    },
+    {
+      "timestamp": [
+        65.08,
+        65.78
+      ],
+      "text": " extremely religious running the country. And I don't believe in religion and I think it's,"
+    },
+    {
+      "timestamp": [
+        71.4,
+        80.66
+      ],
+      "text": " so that's, yeah, that's why it's number seven. And then I have number two as the science and innovation. I like the idea of living in a society that's run on science because science is real and"
+    },
+    {
+      "timestamp": [
+        80.66,
+        91.22
+      ],
+      "text": " innovation is good. The modern green utopia, the sustainable and secure. I think it's great to,"
+    },
+    {
+      "timestamp": [
+        91.32,
+        95.52
+      ],
+      "text": " you know, look out for the environment. We certainly aren't doing a great job of that right"
+    },
+    {
+      "timestamp": [
+        95.52,
+        102.8
+      ],
+      "text": " now and we're seeing the effects of pollution and climate change and so moving to a more green"
+    },
+    {
+      "timestamp": [
+        102.8,
+        111.26
+      ],
+      "text": " type of utopia definitely sounds desirable but um i still i'm gonna put rule of law and science"
+    },
+    {
+      "timestamp": [
+        111.26,
+        119.68
+      ],
+      "text": " above that just because i think those are more likely to be livable um number four low tech and"
+    },
+    {
+      "timestamp": [
+        119.68,
+        127.88
+      ],
+      "text": " small scale. It's okay. I just don't, I'm not really personable. So I don't like small communities."
+    },
+    {
+      "timestamp": [
+        128.12,
+        134.76
+      ],
+      "text": " So that's not why it's not like super preferenced of mine, but it's not a horrible idea. AI centered"
+    },
+    {
+      "timestamp": [
+        134.76,
+        140.24
+      ],
+      "text": " utopia. That's going to be five for me because I've just seen too many movies about that going"
+    },
+    {
+      "timestamp": [
+        140.24,
+        148.46
+      ],
+      "text": " completely wrong. I don't think that AI and computers and robots could ever govern a country."
+    },
+    {
+      "timestamp": [
+        148.46,
+        157.36
+      ],
+      "text": " I think that there always has to be personal judgment within laws and rules and regulations."
+    },
+    {
+      "timestamp": [
+        157.96,
+        161.76
+      ],
+      "text": " I don't think a computer would be able to do that efficiently."
+    },
+    {
+      "timestamp": [
+        162.86,
+        166.06
+      ],
+      "text": " So that is why I ranked everything that I ranked."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "69ea85a781acc0db1d9ebd8f_audio_missing_utopia_1780399463996.webm",
+  "transcript": " no the future with the science is perfect I'm gonna go to school for neuroscience I wish that that was something we already look towards as neuroscientists for the ways that we could look at communicating with people even especially in politics I thought that was perfect that was spot-on",
+  "language": "unknown",
+  "processing_time_seconds": 6.164843,
+  "timestamp": "2026-06-08T09:45:42.148402",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.26
+      ],
+      "text": " no the future with the science is perfect I'm gonna go to school for"
+    },
+    {
+      "timestamp": [
+        4.26,
+        7.76
+      ],
+      "text": " neuroscience I wish that that was something we already look towards as"
+    },
+    {
+      "timestamp": [
+        7.76,
+        11.96
+      ],
+      "text": " neuroscientists for the ways that we could look at communicating with people"
+    },
+    {
+      "timestamp": [
+        11.96,
+        19.86
+      ],
+      "text": " even especially in politics I thought that was perfect that was spot-on"
+    }
+  ]
+}

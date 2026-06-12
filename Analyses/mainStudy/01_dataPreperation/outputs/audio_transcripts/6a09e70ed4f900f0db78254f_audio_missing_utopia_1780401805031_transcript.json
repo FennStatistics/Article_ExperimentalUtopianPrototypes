@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a09e70ed4f900f0db78254f_audio_missing_utopia_1780401805031.webm",
+  "transcript": " You know, when I thought about this as I was looking, reading through each story, and I really, I can't think of anything, perhaps, possibly something related to families, you know, relational connections, I suppose that could be found deeper within each of the societies, but something like that would have been very important to me. Thank you. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 8.967345,
+  "timestamp": "2026-06-08T10:32:50.839449",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.58
+      ],
+      "text": " You know, when I thought about this as I was looking, reading through each story, and I really, I can't think of anything, perhaps, possibly something related to families, you know, relational connections, I suppose that could be found deeper within each of the societies, but something like that would have been very important to me."
+    },
+    {
+      "timestamp": [
+        28.58,
+        29.48
+      ],
+      "text": " Thank you."
+    },
+    {
+      "timestamp": [
+        30.0,
+        59.98
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

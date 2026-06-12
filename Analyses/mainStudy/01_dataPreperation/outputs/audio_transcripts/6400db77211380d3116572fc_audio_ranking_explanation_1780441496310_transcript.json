@@ -1,0 +1,360 @@
+{
+  "audio_file": "6400db77211380d3116572fc_audio_ranking_explanation_1780441496310.webm",
+  "transcript": " so I kind of went through this based on what is important to me. Religion and faith are the foundation of my life. It guides kind of all portions of my life. It guides all of my decisions in life. I think I'm most comfortable with basing a society off of faith-based order because I believe that faith-based order is kind of the most stable. So religion is very kind of my highest concern and ranking when I think about this. And I think very much this goes through with what I value. The next would be a rule of law. Law of the land very much is important. Having strict laws that are very well spelled out are very important to me. It's very important to me to obey the law kind of to the exact lettering. It's important for me to know the laws. It's important for me to follow the laws and teach the laws. So faith and then law definitely is the most preferred to me. And then I think my next value is I would want a society to be sustainable and secure. I want a society to renew the planet. I want to see like a positive ecosystem cycle when we have utopias, I felt like being a sustainable and secure society mattered to me next. And it'd be kind of the most preferable. So to me, like my one through seven are my most important to least important kind of things in society today, religion, law, just being sustainable and secure, having intermorality, but that is data kind of driven. Then we have science and innovation and then we have the low tech and small scale. I think that's the order in which I value them in general society. So I think that's kind of where my ranking came from. Moral commonwealth would be the fourth. I think morals are somewhat subjective, but having those morals spelled out and having people obey to a moral standard is very important. I feel like it's something that's definitely gone over out the wayside in reality. But I feel like I would want society to be moral over a AI centered utopia. When I think about my rankings, I start comparing them kind of like I would want religion and faith based order versus law. But I would want law over being sustainable and secure. I would want to be sustainable and secure over intermorality. And then we have the AI centered utopia. I think it's a society that could work, but I could also see a lot of misuse or abuse or slothfulness and laziness in that kind of society. I don't think there are really enough details for me to feel like that should be higher ranked. I think there's some benefits to it, but there also would not be. But when it comes to a morality-based society versus data-driven, I kind of prefer morality because I think when you have that data-driven governance without any morality or law and order, it just really does not work and it's not sustainable and it's not a very nice society to live in. And then I want to think about that as much as I love science and innovation. I don't think that I would want to live in a futurist utopia that is basically only science and innovation when some of my most important values are religion and law. I think I would feel very lost in a society where we only worry about science and innovation. We don't worry about sustainability, law, order, morality. That to me is kind of scary in a way. So while I think I would enjoy futurist utopia for like a few days, I think it would get great in not having a faith-based order and not having laws. I think my last one is the primitivist utopia. It's not that that kind of utopia can't exist when you're like a hunter-gatherer society or in an undeveloped nation, but I think it's just not a good fit for my personality type. I'm completely willing if society degraded to that point to coexist and to do that, but it's least preferred because there's least amount of structure um there's the least amount of kind of security and sustainability but you could make an argument that that's kind of society would keep people down to a point where it's um that hunter-gatherer um survivalism keeps people occupied so they don't break the law but i think when it comes to this this is definitely my um my ranking i think i just really would prefer religious utopia and then a law um over kind of the rest of it um but in my ranking like i said is my kind of my if i had to rank these from most important to least important in a society, kind of characteristics in a society, these would be my most to least important as well.",
+  "language": "unknown",
+  "processing_time_seconds": 65.980023,
+  "timestamp": "2026-06-08T08:31:08.862073",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.04
+      ],
+      "text": " so I kind of went through this based on what is important to me. Religion and faith are the"
+    },
+    {
+      "timestamp": [
+        10.04,
+        16.06
+      ],
+      "text": " foundation of my life. It guides kind of all portions of my life. It guides all of my decisions"
+    },
+    {
+      "timestamp": [
+        16.06,
+        22.28
+      ],
+      "text": " in life. I think I'm most comfortable with basing a society off of faith-based order because I"
+    },
+    {
+      "timestamp": [
+        22.28,
+        30.6
+      ],
+      "text": " believe that faith-based order is kind of the most stable. So religion is very kind of my highest"
+    },
+    {
+      "timestamp": [
+        30.6,
+        36.56
+      ],
+      "text": " concern and ranking when I think about this. And I think very much this goes through with what I"
+    },
+    {
+      "timestamp": [
+        36.56,
+        43.22
+      ],
+      "text": " value. The next would be a rule of law. Law of the land very much is important. Having strict laws"
+    },
+    {
+      "timestamp": [
+        43.22,
+        50.76
+      ],
+      "text": " that are very well spelled out are very important to me. It's very important to me to obey the law"
+    },
+    {
+      "timestamp": [
+        50.76,
+        56.72
+      ],
+      "text": " kind of to the exact lettering. It's important for me to know the laws. It's important for me"
+    },
+    {
+      "timestamp": [
+        56.72,
+        65.48
+      ],
+      "text": " to follow the laws and teach the laws. So faith and then law definitely is the most preferred to"
+    },
+    {
+      "timestamp": [
+        65.48,
+        70.98
+      ],
+      "text": " me. And then I think my next value is I would want a society to be sustainable and secure."
+    },
+    {
+      "timestamp": [
+        71.6,
+        78.16
+      ],
+      "text": " I want a society to renew the planet. I want to see like a positive ecosystem cycle when we"
+    },
+    {
+      "timestamp": [
+        78.16,
+        83.62
+      ],
+      "text": " have utopias, I felt like being a sustainable and secure society"
+    },
+    {
+      "timestamp": [
+        83.62,
+        89.8
+      ],
+      "text": " mattered to me next. And it'd be kind of the most preferable. So"
+    },
+    {
+      "timestamp": [
+        89.8,
+        94.1
+      ],
+      "text": " to me, like my one through seven are my most important to least"
+    },
+    {
+      "timestamp": [
+        94.1,
+        101.74
+      ],
+      "text": " important kind of things in society today, religion, law,"
+    },
+    {
+      "timestamp": [
+        101.78,
+        106.16
+      ],
+      "text": " just being sustainable and secure, having intermorality, but"
+    },
+    {
+      "timestamp": [
+        106.16,
+        111.3
+      ],
+      "text": " that is data kind of driven. Then we have science and innovation and then we have the low tech and"
+    },
+    {
+      "timestamp": [
+        111.3,
+        119.94
+      ],
+      "text": " small scale. I think that's the order in which I value them in general society. So I think that's"
+    },
+    {
+      "timestamp": [
+        119.94,
+        125.52
+      ],
+      "text": " kind of where my ranking came from. Moral commonwealth would be the fourth. I think"
+    },
+    {
+      "timestamp": [
+        125.52,
+        131.48
+      ],
+      "text": " morals are somewhat subjective, but having those morals spelled out and having people"
+    },
+    {
+      "timestamp": [
+        131.48,
+        136.04
+      ],
+      "text": " obey to a moral standard is very important. I feel like it's something that's definitely"
+    },
+    {
+      "timestamp": [
+        136.04,
+        144.46
+      ],
+      "text": " gone over out the wayside in reality. But I feel like I would want society to be moral over a AI"
+    },
+    {
+      "timestamp": [
+        144.46,
+        149.86
+      ],
+      "text": " centered utopia. When I think about my rankings, I start comparing them kind of like I would want"
+    },
+    {
+      "timestamp": [
+        149.86,
+        156.6
+      ],
+      "text": " religion and faith based order versus law. But I would want law over being sustainable and secure."
+    },
+    {
+      "timestamp": [
+        156.92,
+        163.74
+      ],
+      "text": " I would want to be sustainable and secure over intermorality. And then we have the AI centered"
+    },
+    {
+      "timestamp": [
+        163.74,
+        171.1
+      ],
+      "text": " utopia. I think it's a society that could work, but I could also see a lot of misuse or abuse or"
+    },
+    {
+      "timestamp": [
+        171.1,
+        178.0
+      ],
+      "text": " slothfulness and laziness in that kind of society. I don't think there are really enough"
+    },
+    {
+      "timestamp": [
+        178.0,
+        182.78
+      ],
+      "text": " details for me to feel like that should be higher ranked. I think there's some benefits to it,"
+    },
+    {
+      "timestamp": [
+        182.82,
+        189.26
+      ],
+      "text": " but there also would not be. But when it comes to a morality-based society versus data-driven,"
+    },
+    {
+      "timestamp": [
+        189.7,
+        189.26
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        194.36,
+        201.02
+      ],
+      "text": " I kind of prefer morality because I think when you have that data-driven governance without any morality or law and order, it just really does not work and it's not sustainable"
+    },
+    {
+      "timestamp": [
+        201.02,
+        203.5
+      ],
+      "text": " and it's not a very nice society to live in."
+    },
+    {
+      "timestamp": [
+        205.4,
+        210.26
+      ],
+      "text": " And then I want to think about that as much as I love science and innovation."
+    },
+    {
+      "timestamp": [
+        210.82,
+        216.18
+      ],
+      "text": " I don't think that I would want to live in a futurist utopia that is basically only science"
+    },
+    {
+      "timestamp": [
+        216.18,
+        221.46
+      ],
+      "text": " and innovation when some of my most important values are religion and law. I think I would"
+    },
+    {
+      "timestamp": [
+        221.46,
+        227.56
+      ],
+      "text": " feel very lost in a society where we only worry about science and innovation. We don't worry"
+    },
+    {
+      "timestamp": [
+        227.56,
+        234.98
+      ],
+      "text": " about sustainability, law, order, morality. That to me is kind of scary in a way. So while I think"
+    },
+    {
+      "timestamp": [
+        234.98,
+        240.34
+      ],
+      "text": " I would enjoy futurist utopia for like a few days, I think it would get great in not having"
+    },
+    {
+      "timestamp": [
+        240.34,
+        250.36
+      ],
+      "text": " a faith-based order and not having laws. I think my last one is the primitivist utopia. It's not"
+    },
+    {
+      "timestamp": [
+        250.36,
+        256.04
+      ],
+      "text": " that that kind of utopia can't exist when you're like a hunter-gatherer society or in an undeveloped"
+    },
+    {
+      "timestamp": [
+        256.04,
+        264.2
+      ],
+      "text": " nation, but I think it's just not a good fit for my personality type. I'm completely willing if"
+    },
+    {
+      "timestamp": [
+        264.2,
+        269.68
+      ],
+      "text": " society degraded to that point to coexist and to do that, but it's least preferred because there's"
+    },
+    {
+      "timestamp": [
+        269.68,
+        277.44
+      ],
+      "text": " least amount of structure um there's the least amount of kind of security and sustainability"
+    },
+    {
+      "timestamp": [
+        277.44,
+        282.24
+      ],
+      "text": " but you could make an argument that that's kind of society would keep people down to a point where"
+    },
+    {
+      "timestamp": [
+        282.24,
+        290.16
+      ],
+      "text": " it's um that hunter-gatherer um survivalism keeps people occupied so they don't break the law"
+    },
+    {
+      "timestamp": [
+        292.0,
+        290.16
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        300.32,
+        308.54
+      ],
+      "text": " but i think when it comes to this this is definitely my um my ranking i think i just really would prefer religious utopia and then a law um over kind of the rest of it um but in"
+    },
+    {
+      "timestamp": [
+        308.54,
+        315.0
+      ],
+      "text": " my ranking like i said is my kind of my if i had to rank these from most important to least"
+    },
+    {
+      "timestamp": [
+        315.0,
+        321.22
+      ],
+      "text": " important in a society, kind of characteristics in a society, these would be my most to least"
+    },
+    {
+      "timestamp": [
+        321.22,
+        322.12
+      ],
+      "text": " important as well."
+    }
+  ]
+}

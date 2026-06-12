@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a02d6ae830868fc71cdbdb9_audio_missing_utopia_1780379275719.webm",
+  "transcript": " I would add a, it already exists, but it's very likely that there will be a capitalist society because, you know, all the other models were how society is governed or what values it follows. but none of them clearly explains how the economy works or how the resources are distributed. So, yeah, that's the one I would add that can be a future society.",
+  "language": "unknown",
+  "processing_time_seconds": 9.568806,
+  "timestamp": "2026-06-08T10:21:05.341683",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.58
+      ],
+      "text": " I would add a, it already exists, but it's very likely that there will be a capitalist society because, you know, all the other models were how society is governed or what values it follows."
+    },
+    {
+      "timestamp": [
+        18.58,
+        24.42
+      ],
+      "text": " but none of them clearly explains how the economy works or how the resources are distributed."
+    },
+    {
+      "timestamp": [
+        25.72,
+        31.16
+      ],
+      "text": " So, yeah, that's the one I would add that can be a future society."
+    }
+  ]
+}

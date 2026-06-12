@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a0a1a914212a3ebeffd6b0f_audio_missing_utopia_1780393748128.webm",
+  "transcript": " I can't honestly think of a future society that, or a missing utopia that I would think of. Maybe like the solar driven one where everybody like lives in harmony with nature and everything's kind of feeding into itself a little bit. think that would be a cool society to live in so yeah but that kind of sounded a little bit like the modern green utopia so",
+  "language": "unknown",
+  "processing_time_seconds": 8.917381,
+  "timestamp": "2026-06-08T10:33:41.740972",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.88
+      ],
+      "text": " I can't honestly think of a future society that, or a missing utopia that I would think of. Maybe like the solar driven one where everybody like lives in harmony with nature and everything's kind of feeding into itself a little bit."
+    },
+    {
+      "timestamp": [
+        22.88,
+        29.3
+      ],
+      "text": " think that would be a cool society to live in so yeah but that kind of sounded"
+    },
+    {
+      "timestamp": [
+        29.3,
+        34.12
+      ],
+      "text": " a little bit like the modern green utopia so"
+    }
+  ]
+}

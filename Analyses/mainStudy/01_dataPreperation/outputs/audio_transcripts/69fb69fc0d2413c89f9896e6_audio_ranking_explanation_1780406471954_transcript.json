@@ -1,0 +1,17 @@
+{
+  "audio_file": "69fb69fc0d2413c89f9896e6_audio_ranking_explanation_1780406471954.webm",
+  "transcript": " I rank them this way because I would like the AI society the least. I think that one seems the, I would be the most scared if that was my reality. And I mark the green reality as the best because I'm very passionate about the environment and sustaining the world. And that one seemed like the most ideal to me.",
+  "language": "unknown",
+  "processing_time_seconds": 6.415326,
+  "timestamp": "2026-06-08T10:05:31.354835",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.22
+      ],
+      "text": " I rank them this way because I would like the AI society the least. I think that one seems the, I would be the most scared if that was my reality. And I mark the green reality as the best because I'm very passionate about the environment and sustaining the world. And that one seemed like the most ideal to me."
+    }
+  ]
+}

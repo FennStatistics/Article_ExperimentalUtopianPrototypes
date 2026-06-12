@@ -1,0 +1,185 @@
+{
+  "audio_file": "6a1d806a103f5fa249221a3c_audio_ranking_explanation_1780320898649.webm",
+  "transcript": " I think that sometimes simpler is better well a lot of times actually which is why I ranked primitivist utopia first because I think it's just a simpler way of life which even today like all of the people that are homesteading or just living off the land like I think the less we have like convoluting our thought processes or our brain I think the better so I liked that one the best and then I kind of just worked my way down from there like the modern green utopia I ranked a second again just because I think less is better and if we're a little bit more focused on sustainability and just taking care of the earth again I think it's just better and then to be honest I kind of just I didn't love the idea of any of the other ones I just for example the religious utopia like I am very religious and my faith means a lot to me but I think when you allow a world to be governed off of purely religion and not necessarily like a relationship with God which is my faith and my beliefs I think that things can really get out of hand for example like Handmaid's Tale um I guess mine that's like kind of why it's in the middle because in an ideal situation it would be like living in the times of the bible like the older times of the bible which again still weren't great because we live in a world that's fallen and that has sinned but where it was more just like you know relationship with god as opposed to like taking it to the extreme but again i don't think humans are capable of doing that in the world that we live in today so and then obviously um i think i i ranked inner morality as one of my last ones because again i feel like as humans living in a sinful world like we're not great at making at choosing I guess morality and living and making decisions off of that um and then AI to be honest really just freaks me out I think it's come on way too fast and people are using it way too much and I can already kind of see our world being driven to something like this and it really scares me um I think that using AI and data is beneficial in ways but if we're literally just data driven I think we're gonna end up like Wall-E where we all just kind of like hang out around on like these little scooters and everything's done in front of us on a screen in front of our face and I just don't think that that is um productive or helpful so that's my explanation of my rankings",
+  "language": "unknown",
+  "processing_time_seconds": 33.394335,
+  "timestamp": "2026-06-08T11:25:41.082526",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.16
+      ],
+      "text": " I think that sometimes simpler is better well a lot of times actually which is why I ranked"
+    },
+    {
+      "timestamp": [
+        7.16,
+        16.84
+      ],
+      "text": " primitivist utopia first because I think it's just a simpler way of life which even today like"
+    },
+    {
+      "timestamp": [
+        16.84,
+        21.88
+      ],
+      "text": " all of the people that are homesteading or just living off the land like I think the less we have"
+    },
+    {
+      "timestamp": [
+        21.88,
+        29.4
+      ],
+      "text": " like convoluting our thought processes or our brain I think the better so I liked that one"
+    },
+    {
+      "timestamp": [
+        29.4,
+        35.14
+      ],
+      "text": " the best and then I kind of just worked my way down from there like the modern green utopia I"
+    },
+    {
+      "timestamp": [
+        35.14,
+        41.42
+      ],
+      "text": " ranked a second again just because I think less is better and if we're a little bit more focused"
+    },
+    {
+      "timestamp": [
+        41.42,
+        47.68
+      ],
+      "text": " on sustainability and just taking care of the earth again I think it's just better and then"
+    },
+    {
+      "timestamp": [
+        47.68,
+        55.58
+      ],
+      "text": " to be honest I kind of just I didn't love the idea of any of the other ones I just for example"
+    },
+    {
+      "timestamp": [
+        55.58,
+        62.98
+      ],
+      "text": " the religious utopia like I am very religious and my faith means a lot to me but I think when you"
+    },
+    {
+      "timestamp": [
+        62.98,
+        69.5
+      ],
+      "text": " allow a world to be governed off of purely religion and not necessarily like a relationship"
+    },
+    {
+      "timestamp": [
+        69.5,
+        74.58
+      ],
+      "text": " with God which is my faith and my beliefs I think that things can really get out of hand for example"
+    },
+    {
+      "timestamp": [
+        74.58,
+        82.46
+      ],
+      "text": " like Handmaid's Tale um I guess mine that's like kind of why it's in the middle because in an ideal"
+    },
+    {
+      "timestamp": [
+        82.46,
+        87.98
+      ],
+      "text": " situation it would be like living in the times of the bible like the older times of the bible which"
+    },
+    {
+      "timestamp": [
+        87.98,
+        91.82
+      ],
+      "text": " again still weren't great because we live in a world that's fallen and that has sinned but"
+    },
+    {
+      "timestamp": [
+        91.82,
+        98.08
+      ],
+      "text": " where it was more just like you know relationship with god as opposed to like taking it to the"
+    },
+    {
+      "timestamp": [
+        98.08,
+        102.16
+      ],
+      "text": " extreme but again i don't think humans are capable of doing that in the world that we live in today"
+    },
+    {
+      "timestamp": [
+        102.16,
+        110.1
+      ],
+      "text": " so and then obviously um i think i i ranked inner morality as one of my last ones because again i"
+    },
+    {
+      "timestamp": [
+        110.1,
+        117.52
+      ],
+      "text": " feel like as humans living in a sinful world like we're not great at making at choosing I guess"
+    },
+    {
+      "timestamp": [
+        117.52,
+        123.44
+      ],
+      "text": " morality and living and making decisions off of that um and then AI to be honest really just"
+    },
+    {
+      "timestamp": [
+        123.44,
+        127.72
+      ],
+      "text": " freaks me out I think it's come on way too fast and people are using it way too much and I can"
+    },
+    {
+      "timestamp": [
+        127.72,
+        134.0
+      ],
+      "text": " already kind of see our world being driven to something like this and it really scares me um"
+    },
+    {
+      "timestamp": [
+        134.0,
+        139.9
+      ],
+      "text": " I think that using AI and data is beneficial in ways but if we're literally just data driven I"
+    },
+    {
+      "timestamp": [
+        139.9,
+        145.76
+      ],
+      "text": " think we're gonna end up like Wall-E where we all just kind of like hang out around on like these"
+    },
+    {
+      "timestamp": [
+        145.76,
+        149.74
+      ],
+      "text": " little scooters and everything's done in front of us on a screen in front of our face and I just"
+    },
+    {
+      "timestamp": [
+        149.74,
+        158.14
+      ],
+      "text": " don't think that that is um productive or helpful so that's my explanation of my rankings"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a01da6beb0da70a25f5dbf5_audio_missing_utopia_1780410779371.webm",
+  "transcript": " I can't really think of any important values. I mean, I feel like the moral one is like the one that I would like most prefer if, you know, people just being good people because that's who they are, not because of religion or incentives, really, or anything like that. I just wish people would just be good people and call it good. So I think everything else was represented pretty well.",
+  "language": "unknown",
+  "processing_time_seconds": 7.173155,
+  "timestamp": "2026-06-08T10:19:10.093142",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.86
+      ],
+      "text": " I can't really think of any important values."
+    },
+    {
+      "timestamp": [
+        6.0,
+        20.0
+      ],
+      "text": " I mean, I feel like the moral one is like the one that I would like most prefer if, you know, people just being good people because that's who they are, not because of religion or incentives, really, or anything like that."
+    },
+    {
+      "timestamp": [
+        20.12,
+        24.2
+      ],
+      "text": " I just wish people would just be good people and call it good."
+    },
+    {
+      "timestamp": [
+        24.2,
+        27.54
+      ],
+      "text": " So I think everything else was represented pretty well."
+    }
+  ]
+}

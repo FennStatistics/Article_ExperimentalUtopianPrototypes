@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a0fbc5c1cab3242613bd8f9_audio_missing_utopia_1780388806802.webm",
+  "transcript": " A value I feel is missing is local adaptability. The upper utopias focus on the big systems, either one rule, one touch or one belief. But I don't want a society where communities can adapt a solution to their own environment and culture. So the core system sets basic right and resources. My local groups decide how to live, innovate and govern day to day. What would matter most is balanced, strong protection and individual freedom, plus strong respect for the environment, but with flexibility for people to choose their own path. That way we avoid one size fits all and still keep society fair and sustainable.",
+  "language": "unknown",
+  "processing_time_seconds": 10.787185,
+  "timestamp": "2026-06-08T10:52:00.238351",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.0
+      ],
+      "text": " A value I feel is missing is local adaptability. The upper utopias focus on the big systems,"
+    },
+    {
+      "timestamp": [
+        10.0,
+        16.14
+      ],
+      "text": " either one rule, one touch or one belief. But I don't want a society where communities"
+    },
+    {
+      "timestamp": [
+        16.14,
+        24.12
+      ],
+      "text": " can adapt a solution to their own environment and culture. So the core system sets basic"
+    },
+    {
+      "timestamp": [
+        24.12,
+        30.84
+      ],
+      "text": " right and resources. My local groups decide how to live, innovate and govern day to day."
+    },
+    {
+      "timestamp": [
+        30.84,
+        35.56
+      ],
+      "text": " What would matter most is balanced, strong protection and individual freedom,"
+    },
+    {
+      "timestamp": [
+        35.56,
+        42.92
+      ],
+      "text": " plus strong respect for the environment, but with flexibility for people to choose their own path."
+    },
+    {
+      "timestamp": [
+        43.56,
+        50.92
+      ],
+      "text": " That way we avoid one size fits all and still keep society fair and sustainable."
+    }
+  ]
+}

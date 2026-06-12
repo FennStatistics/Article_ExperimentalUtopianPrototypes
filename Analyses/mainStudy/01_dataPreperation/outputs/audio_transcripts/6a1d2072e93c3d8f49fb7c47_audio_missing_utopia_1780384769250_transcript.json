@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a1d2072e93c3d8f49fb7c47_audio_missing_utopia_1780384769250.webm",
+  "transcript": " I don't necessarily think that there's any missing societies or future societies. I think that it touched on many different options. And again, I'll stay with the one with science.",
+  "language": "unknown",
+  "processing_time_seconds": 5.590465,
+  "timestamp": "2026-06-08T11:24:42.030341",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        2.44
+      ],
+      "text": " I don't necessarily think that there's"
+    },
+    {
+      "timestamp": [
+        2.44,
+        5.02
+      ],
+      "text": " any missing societies or future societies."
+    },
+    {
+      "timestamp": [
+        5.02,
+        11.24
+      ],
+      "text": " I think that it touched on many different options."
+    },
+    {
+      "timestamp": [
+        11.24,
+        16.32
+      ],
+      "text": " And again, I'll stay with the one with science."
+    }
+  ]
+}

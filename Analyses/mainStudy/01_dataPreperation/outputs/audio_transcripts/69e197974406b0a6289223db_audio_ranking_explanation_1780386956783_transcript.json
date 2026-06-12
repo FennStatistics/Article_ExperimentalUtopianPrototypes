@@ -1,0 +1,164 @@
+{
+  "audio_file": "69e197974406b0a6289223db_audio_ranking_explanation_1780386956783.webm",
+  "transcript": " um well unlike the futurist utopia i guess i'm hoping that um uh i don't know science or technology will find a solution for scarcity and uh i don't know i watched a lot of star trek growing up um yeah if i'm being honest that's probably it's more about what would you call it sci-fi influences more than um actual i don't know actual optimism well commonwealth sounds good i mean that seems to be um predicated on the idea that like humans will change enough to be able to have a um i don't know universal moral guiding principle which we don't really have uh and i'm not really sure that uh that's possible i almost had the ai centered utopia at the top just because i think we gave humans enough chance let's let the computers try and see if they could figure something out better um you know of course there's like all the potential for uh no ai driven apocalypse or whatever um but i mean i don't know i don't really think we can put much put much faith in humans being moral actors anymore so yeah i um let's let's see how that goes i guess um modern green utopia i didn't i don't know just sounds kind of boring i mean another thing is even more so than that like i don't really have faith in um people to have the amount of self-control that's required to uh limit their own convenience and desires to preserve like resources um similar for primitive primitivist utopia i like technology that sounds that sounds kind of bad i um i don't like the idea of uh what you call it turning the clock back religious utopia um i don't know about utopia i feel like we tried that i feel like that's human history up to about the industrial revolution or so so i think we have an example of how that'll go. Not to say good or bad, it just means if we're trying to find something that works, I'd like to see something different. Institutional utopia, that sounded most similar to what we have right now, and needless to say, I'm not exactly satisfied.",
+  "language": "unknown",
+  "processing_time_seconds": 30.490859,
+  "timestamp": "2026-06-08T09:38:24.625418",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.44
+      ],
+      "text": " um well unlike the futurist utopia i guess i'm hoping that um"
+    },
+    {
+      "timestamp": [
+        9.44,
+        17.88
+      ],
+      "text": " uh i don't know science or technology will find a solution for scarcity and uh i don't know i"
+    },
+    {
+      "timestamp": [
+        17.88,
+        23.12
+      ],
+      "text": " watched a lot of star trek growing up um yeah if i'm being honest that's probably it's more about"
+    },
+    {
+      "timestamp": [
+        23.12,
+        30.38
+      ],
+      "text": " what would you call it sci-fi influences more than um actual i don't know actual optimism"
+    },
+    {
+      "timestamp": [
+        30.38,
+        35.7
+      ],
+      "text": " well commonwealth sounds good i mean that seems to be um predicated on the idea that like humans"
+    },
+    {
+      "timestamp": [
+        35.7,
+        44.38
+      ],
+      "text": " will change enough to be able to have a um i don't know universal moral guiding principle which"
+    },
+    {
+      "timestamp": [
+        44.38,
+        49.24
+      ],
+      "text": " we don't really have uh and i'm not really sure that uh that's possible"
+    },
+    {
+      "timestamp": [
+        49.24,
+        55.68
+      ],
+      "text": " i almost had the ai centered utopia at the top just because i think we gave humans enough chance"
+    },
+    {
+      "timestamp": [
+        55.68,
+        60.86
+      ],
+      "text": " let's let the computers try and see if they could figure something out better um you know"
+    },
+    {
+      "timestamp": [
+        60.86,
+        70.18
+      ],
+      "text": " of course there's like all the potential for uh no ai driven apocalypse or whatever um"
+    },
+    {
+      "timestamp": [
+        70.18,
+        77.24
+      ],
+      "text": " but i mean i don't know i don't really think we can put much put much faith in humans being"
+    },
+    {
+      "timestamp": [
+        77.24,
+        85.16
+      ],
+      "text": " moral actors anymore so yeah i um let's let's see how that goes i guess um modern green utopia i"
+    },
+    {
+      "timestamp": [
+        85.16,
+        90.86
+      ],
+      "text": " didn't i don't know just sounds kind of boring i mean another thing is even more so than that like"
+    },
+    {
+      "timestamp": [
+        90.86,
+        96.48
+      ],
+      "text": " i don't really have faith in um people to have the amount of self-control that's required to"
+    },
+    {
+      "timestamp": [
+        96.48,
+        103.0
+      ],
+      "text": " uh limit their own convenience and desires to preserve like resources"
+    },
+    {
+      "timestamp": [
+        103.0,
+        109.96
+      ],
+      "text": " um similar for primitive primitivist utopia i like technology that sounds that sounds kind"
+    },
+    {
+      "timestamp": [
+        109.96,
+        117.36
+      ],
+      "text": " of bad i um i don't like the idea of uh what you call it turning the clock back"
+    },
+    {
+      "timestamp": [
+        117.36,
+        124.04
+      ],
+      "text": " religious utopia um i don't know about utopia i feel like we tried that i feel like that's"
+    },
+    {
+      "timestamp": [
+        124.04,
+        129.4
+      ],
+      "text": " human history up to about the industrial revolution or so so i think we have an example"
+    },
+    {
+      "timestamp": [
+        129.4,
+        136.5
+      ],
+      "text": " of how that'll go. Not to say good or bad, it just means if we're trying to find something"
+    },
+    {
+      "timestamp": [
+        136.5,
+        143.42
+      ],
+      "text": " that works, I'd like to see something different. Institutional utopia, that sounded most similar"
+    },
+    {
+      "timestamp": [
+        143.42,
+        146.56
+      ],
+      "text": " to what we have right now, and needless to say, I'm not exactly satisfied."
+    }
+  ]
+}

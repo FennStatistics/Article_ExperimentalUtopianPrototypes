@@ -1,0 +1,73 @@
+{
+  "audio_file": "698ace13573202db139fc761_audio_ranking_explanation_1780306026533.webm",
+  "transcript": " okay this is what i would say i ranked futurist utopia and modern green utopia highest because i value society with scientific progress innovation and resource security the previous society described as air limited resources are rejected science in favor of bridges authority which i rated is not ideal desirable so utopias based on science sustainability and strong institution appear more to me than face-based or low-tech ones i place religious utopia and primitivist utopia lowest because they most closely resemble the society i just read about limited formal institutions cast resources and holder based on faith instead of science or rule of law since i disagree that society that society was ideal desirable it makes sense that i would I also rank similar utopias as least preferred.",
+  "language": "unknown",
+  "processing_time_seconds": 13.744396,
+  "timestamp": "2026-06-08T09:03:42.151091",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.32
+      ],
+      "text": " okay this is what i would say i ranked futurist utopia and modern green utopia highest because"
+    },
+    {
+      "timestamp": [
+        8.88,
+        13.6
+      ],
+      "text": " i value society with scientific progress innovation and resource security the previous"
+    },
+    {
+      "timestamp": [
+        13.6,
+        20.32
+      ],
+      "text": " society described as air limited resources are rejected science in favor of bridges authority"
+    },
+    {
+      "timestamp": [
+        21.36,
+        27.68
+      ],
+      "text": " which i rated is not ideal desirable so utopias based on science sustainability and strong"
+    },
+    {
+      "timestamp": [
+        27.68,
+        36.56
+      ],
+      "text": " institution appear more to me than face-based or low-tech ones i place religious utopia and"
+    },
+    {
+      "timestamp": [
+        36.56,
+        42.0
+      ],
+      "text": " primitivist utopia lowest because they most closely resemble the society i just read about"
+    },
+    {
+      "timestamp": [
+        42.72,
+        48.4
+      ],
+      "text": " limited formal institutions cast resources and holder based on faith instead of science or rule"
+    },
+    {
+      "timestamp": [
+        48.4,
+        56.24
+      ],
+      "text": " of law since i disagree that society that society was ideal desirable it makes sense that i would"
+    },
+    {
+      "timestamp": [
+        56.24,
+        61.24
+      ],
+      "text": " I also rank similar utopias as least preferred."
+    }
+  ]
+}

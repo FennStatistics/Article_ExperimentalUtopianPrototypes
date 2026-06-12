@@ -1,0 +1,115 @@
+{
+  "audio_file": "6a1b2b3948c6cbae0a769e5c_audio_ranking_explanation_1780210204071.webm",
+  "transcript": " I chose the futurist utopia for its focus on science and innovation because the true process of science being something that will rewrite itself given new information suggests it being a little less rigid than something like an AI-centered utopia. I think there's more capacity for human empathy in this system um that the ai centered utopia may neglect or uh reduce um i followed this with the modern green utopia just because it seemed like some kind of uh combination was also more attainable and also So in thinking long-term, it seems to be the most beneficial. When it came to the primitivist utopia and the institutional utopia, I found them to be not as realistic to the proclivities of human nature. So I thought that both extremes of that were not ultimately better for the whole and better for all of society. Similarly with the moral commonwealth, while I think that is perhaps utopian in its ideal, I find it to be too unrealistic given the large swath of differing opinions on things and where people often get their moralities also faith-based, which is why I ranked the religious utopia last. I just don't believe that dogmatic or theocratic institutions are good for society in any way. I think they're fundamentally based on anti-logic and anti-pragmatism, and I don't like to ascribe to that way of thinking. So out of all of these selections, I think the Futurist Utopia and the Modern Green Utopia seem to be the most appealing to me personally.",
+  "language": "unknown",
+  "processing_time_seconds": 29.002621,
+  "timestamp": "2026-06-08T11:16:20.821126",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.78
+      ],
+      "text": " I chose the futurist utopia for its focus on science and innovation because the true process"
+    },
+    {
+      "timestamp": [
+        9.78,
+        17.38
+      ],
+      "text": " of science being something that will rewrite itself given new information suggests it being"
+    },
+    {
+      "timestamp": [
+        17.38,
+        23.92
+      ],
+      "text": " a little less rigid than something like an AI-centered utopia. I think there's more capacity"
+    },
+    {
+      "timestamp": [
+        23.92,
+        35.28
+      ],
+      "text": " for human empathy in this system um that the ai centered utopia may neglect or uh reduce um"
+    },
+    {
+      "timestamp": [
+        37.92,
+        41.84
+      ],
+      "text": " i followed this with the modern green utopia just because it seemed like some kind of"
+    },
+    {
+      "timestamp": [
+        42.96,
+        46.8
+      ],
+      "text": " uh combination was also more attainable and also"
+    },
+    {
+      "timestamp": [
+        48.8,
+        46.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        52.62,
+        55.96
+      ],
+      "text": " So in thinking long-term, it seems to be the most beneficial."
+    },
+    {
+      "timestamp": [
+        62.4,
+        71.98
+      ],
+      "text": " When it came to the primitivist utopia and the institutional utopia, I found them to be not as realistic to the proclivities of human nature."
+    },
+    {
+      "timestamp": [
+        72.2,
+        71.98
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        85.6,
+        88.72
+      ],
+      "text": " So I thought that both extremes of that were not ultimately better for the whole and better for all of society."
+    },
+    {
+      "timestamp": [
+        98.82,
+        119.9
+      ],
+      "text": " Similarly with the moral commonwealth, while I think that is perhaps utopian in its ideal, I find it to be too unrealistic given the large swath of differing opinions on things and where people often get their moralities also faith-based, which is why I ranked the religious utopia last."
+    },
+    {
+      "timestamp": [
+        119.9,
+        131.5
+      ],
+      "text": " I just don't believe that dogmatic or theocratic institutions are good for society in any way."
+    },
+    {
+      "timestamp": [
+        132.1,
+        144.62
+      ],
+      "text": " I think they're fundamentally based on anti-logic and anti-pragmatism, and I don't like to ascribe to that way of thinking."
+    },
+    {
+      "timestamp": [
+        144.62,
+        158.36
+      ],
+      "text": " So out of all of these selections, I think the Futurist Utopia and the Modern Green Utopia seem to be the most appealing to me personally."
+    }
+  ]
+}

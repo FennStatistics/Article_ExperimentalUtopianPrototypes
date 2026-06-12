@@ -1,0 +1,45 @@
+{
+  "audio_file": "69daf52bfa2575ae0bdf3d2c_audio_ranking_explanation_1780328286521.webm",
+  "transcript": " I rank the societies this way because I believe in keeping nature pure and not causing global warming to society. um i chose the primitivist utopia is the least because it's the least progressive to society and the least innovative to people and i feel like it's dangerous and high risk to society to live primitive with low tech Like, I had AI driven society pretty low because I don't trust AI to govern humans as a society yet.",
+  "language": "unknown",
+  "processing_time_seconds": 11.643259,
+  "timestamp": "2026-06-08T09:34:56.320917",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.46
+      ],
+      "text": " I rank the societies this way because I believe in keeping nature pure and not causing global warming to society."
+    },
+    {
+      "timestamp": [
+        19.04,
+        16.46
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.26,
+        33.42
+      ],
+      "text": " um i chose the primitivist utopia is the least because it's the least progressive to society and the least innovative to people and i feel like it's dangerous"
+    },
+    {
+      "timestamp": [
+        33.42,
+        38.18
+      ],
+      "text": " and high risk to society to live primitive with low tech"
+    },
+    {
+      "timestamp": [
+        38.18,
+        54.06
+      ],
+      "text": " Like, I had AI driven society pretty low because I don't trust AI to govern humans as a society yet."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "69bc0ba177847fde0a18ec3d_audio_missing_utopia_1780389477241.webm",
+  "transcript": " I didn't see any important values missing, I think all my ideas were existed in the preferences provided.",
+  "language": "unknown",
+  "processing_time_seconds": 4.896215,
+  "timestamp": "2026-06-08T09:18:18.745356",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.64
+      ],
+      "text": " I didn't see any important values missing, I think all my ideas were existed in the preferences provided."
+    }
+  ]
+}

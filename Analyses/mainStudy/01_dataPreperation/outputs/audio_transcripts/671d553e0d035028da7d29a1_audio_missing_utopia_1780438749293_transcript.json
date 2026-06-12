@@ -1,0 +1,52 @@
+{
+  "audio_file": "671d553e0d035028da7d29a1_audio_missing_utopia_1780438749293.webm",
+  "transcript": " i think what's missing is kind of an amalgamation of all of them um you know i want a sustainable society that focuses on economic security and avoiding poverty and taking care of the planet and they do that through high technology and innovation being innovative to be green, but also a moral compass and a rule of law that is the guiding framework for the humans in the society. So, yeah, just an amalgamation of kind of all of them that take the best part of each of them.",
+  "language": "unknown",
+  "processing_time_seconds": 9.920278,
+  "timestamp": "2026-06-08T08:44:33.053149",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.68
+      ],
+      "text": " i think what's missing is kind of an amalgamation of all of them um you know i want a sustainable"
+    },
+    {
+      "timestamp": [
+        9.68,
+        19.04
+      ],
+      "text": " society that focuses on economic security and avoiding poverty and taking care of the planet"
+    },
+    {
+      "timestamp": [
+        19.04,
+        28.16
+      ],
+      "text": " and they do that through high technology and innovation being innovative to"
+    },
+    {
+      "timestamp": [
+        28.16,
+        39.98
+      ],
+      "text": " be green, but also a moral compass and a rule of law that is the guiding framework for the"
+    },
+    {
+      "timestamp": [
+        39.98,
+        48.62
+      ],
+      "text": " humans in the society. So, yeah, just an amalgamation of kind of all of them that"
+    },
+    {
+      "timestamp": [
+        48.62,
+        51.28
+      ],
+      "text": " take the best part of each of them."
+    }
+  ]
+}

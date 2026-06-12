@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a04c0e236a93ae493d6aaf5_audio_missing_utopia_1780399260182.webm",
+  "transcript": " There wasn't any values that I saw absent, but I felt like there should be a good medium, like a way to have everything sleek and futuristic, but still green energy and, you know, saving the planet.",
+  "language": "unknown",
+  "processing_time_seconds": 5.706658,
+  "timestamp": "2026-06-08T10:25:33.423439",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.4
+      ],
+      "text": " There wasn't any values that I saw absent, but I felt like there should be a good medium, like a way to have everything sleek and futuristic, but still green energy and, you know, saving the planet."
+    }
+  ]
+}

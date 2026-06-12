@@ -1,0 +1,108 @@
+{
+  "audio_file": "6a1d037d028b02741282aeef_audio_missing_utopia_1780379295177.webm",
+  "transcript": " okay um i don't i can't figure out how to go back to reread um i don't know if i can but um i don't think there's really one missing i think i would just combine aspects of a few different ones um like i really enjoy the sustainable um environmental focus of the green um utopia and i think that's really smart given the limited resources you're thinking about your future, not just the future of society, not just yourself. I also think that it would be wonderful if we could have a society that is policed by moral compasses. However, expecting everyone to have the same morals is unrealistic, in my opinion. Now, in a utopian society, sure, that might be true but also you a difference of opinion is important for growth and mental stimulation and challenge and all of those things so that might not be good either um i think the primitivist like small scale lower tech i enjoy because it has good relationship with nature and it's lower stakes and it just seems really to be in touch with humans as we were evolutionary evolutionarily and not relying so much on technology so i think it's less of one missing and more like cherry picking the best traits out of the top options.",
+  "language": "unknown",
+  "processing_time_seconds": 22.553015,
+  "timestamp": "2026-06-08T11:22:39.843823",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.6
+      ],
+      "text": " okay um i don't i can't figure out how to go back to reread um i don't know if i can but"
+    },
+    {
+      "timestamp": [
+        6.6,
+        12.06
+      ],
+      "text": " um i don't think there's really one missing i think i would just combine aspects of a few"
+    },
+    {
+      "timestamp": [
+        12.06,
+        20.64
+      ],
+      "text": " different ones um like i really enjoy the sustainable um environmental focus of the"
+    },
+    {
+      "timestamp": [
+        20.64,
+        28.08
+      ],
+      "text": " green um utopia and i think that's really smart given the limited resources you're thinking about"
+    },
+    {
+      "timestamp": [
+        28.08,
+        35.56
+      ],
+      "text": " your future, not just the future of society, not just yourself. I also think that it would be"
+    },
+    {
+      "timestamp": [
+        35.56,
+        46.2
+      ],
+      "text": " wonderful if we could have a society that is policed by moral compasses. However, expecting"
+    },
+    {
+      "timestamp": [
+        46.2,
+        52.26
+      ],
+      "text": " everyone to have the same morals is unrealistic, in my opinion. Now, in a utopian society, sure,"
+    },
+    {
+      "timestamp": [
+        52.26,
+        59.72
+      ],
+      "text": " that might be true but also you a difference of opinion is important for growth and mental"
+    },
+    {
+      "timestamp": [
+        59.72,
+        64.36
+      ],
+      "text": " stimulation and challenge and all of those things so that might not be good either um"
+    },
+    {
+      "timestamp": [
+        64.36,
+        75.08
+      ],
+      "text": " i think the primitivist like small scale lower tech i enjoy because it has good relationship"
+    },
+    {
+      "timestamp": [
+        75.08,
+        83.08
+      ],
+      "text": " with nature and it's lower stakes and it just seems really to be in touch with humans as we were"
+    },
+    {
+      "timestamp": [
+        84.52,
+        88.92
+      ],
+      "text": " evolutionary evolutionarily and not relying so much on technology"
+    },
+    {
+      "timestamp": [
+        88.92,
+        95.0
+      ],
+      "text": " so i think it's less of one missing and more like cherry picking the best traits out of the top"
+    },
+    {
+      "timestamp": [
+        95.0,
+        96.0
+      ],
+      "text": " options."
+    }
+  ]
+}

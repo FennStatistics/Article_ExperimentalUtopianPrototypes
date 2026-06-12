@@ -1,0 +1,17 @@
+{
+  "audio_file": "69beddef130e4b750f5a4823_audio_missing_utopia_1780411355836.webm",
+  "transcript": " Yes, the most important thing that was missing was the value of getting along with other societies. I think that's really important. No society can exist on its own, so my society needs to be able to get along with other countries.",
+  "language": "unknown",
+  "processing_time_seconds": 5.749737,
+  "timestamp": "2026-06-08T09:19:04.439680",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.68
+      ],
+      "text": " Yes, the most important thing that was missing was the value of getting along with other societies. I think that's really important. No society can exist on its own, so my society needs to be able to get along with other countries."
+    }
+  ]
+}

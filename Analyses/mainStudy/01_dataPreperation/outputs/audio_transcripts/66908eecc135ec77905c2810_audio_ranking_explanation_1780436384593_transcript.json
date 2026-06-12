@@ -1,0 +1,73 @@
+{
+  "audio_file": "66908eecc135ec77905c2810_audio_ranking_explanation_1780436384593.webm",
+  "transcript": " I think that science and innovation is important the most important so a futuristic utopia is put in first for my second pick I did sustainable and secure because you know you need it to be sustainable and secure so modern green utopia second then of course the rule of law is also very important so institutional utopia it's third then i went with faith-based order as the religious utopia and fourth then next after that i did low tech and small scale primitive utopia because you always need the tech and you can small scale it for like small towns it's pretty cool then in sixth place I did the moral commonwealth, the inner mortality, and then finally for the AI-centered utopia data-driven governance, I'd rather have human input over AI.",
+  "language": "unknown",
+  "processing_time_seconds": 14.680313,
+  "timestamp": "2026-06-08T08:38:36.796080",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.82
+      ],
+      "text": " I think that science and innovation is important the most important so a"
+    },
+    {
+      "timestamp": [
+        8.82,
+        15.24
+      ],
+      "text": " futuristic utopia is put in first for my second pick I did sustainable and secure"
+    },
+    {
+      "timestamp": [
+        15.24,
+        18.66
+      ],
+      "text": " because you know you need it to be sustainable and secure so modern green"
+    },
+    {
+      "timestamp": [
+        18.66,
+        24.12
+      ],
+      "text": " utopia second then of course the rule of law is also very important so"
+    },
+    {
+      "timestamp": [
+        24.12,
+        31.46
+      ],
+      "text": " institutional utopia it's third then i went with faith-based order as the religious utopia and"
+    },
+    {
+      "timestamp": [
+        31.46,
+        40.34
+      ],
+      "text": " fourth then next after that i did low tech and small scale primitive utopia because you always"
+    },
+    {
+      "timestamp": [
+        40.34,
+        47.18
+      ],
+      "text": " need the tech and you can small scale it for like small towns it's pretty cool then in sixth place"
+    },
+    {
+      "timestamp": [
+        47.18,
+        54.96
+      ],
+      "text": " I did the moral commonwealth, the inner mortality, and then finally for the AI-centered utopia"
+    },
+    {
+      "timestamp": [
+        54.96,
+        59.06
+      ],
+      "text": " data-driven governance, I'd rather have human input over AI."
+    }
+  ]
+}

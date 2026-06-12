@@ -1,0 +1,143 @@
+{
+  "audio_file": "69f8efeeb3152a5e550bf057_audio_ranking_explanation_1780402294873.webm",
+  "transcript": " So I ranked the way I did because I think a futurist utopia that is science and innovation based, I think technology is one of our best tools. So there being scientific advancement that solves major problems and keeps society moving, I think is the most ideal. I think scientific advancement can solve a lot of major problems. I would say like poverty and scarcity and um disease and then i went to sustainability um to the sustainable and secure utopia um because i think that being environmentally conscious is um important and that it would maybe in this utopia be like renewable energy and smart cities something like that um and then i think the morality based third is everything based off just good character and conscience. And then skepticism towards the primavist utopia, so low tech and small scale. It's natural, and it's very community oriented. But I don't think that it's capable of being a utopia just because it can't support like larger populations or any really complex situations. And then, yeah, I don't find the fifth I did rule of law. I just don't really think that it's more inspiring as a utopia than things like the innovation or sustainability or um like virtue and then ai was very near the bottom for me um because i don't really like the idea of artificial intelligence just making um social decisions for entire populations um and then very very strongly i don't agree with religious authority and a society i don't think it's a utopia. I think it brings things like fear and persecution for our beliefs. So that is my ranking.",
+  "language": "unknown",
+  "processing_time_seconds": 26.500344,
+  "timestamp": "2026-06-08T10:00:53.375924",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.16
+      ],
+      "text": " So I ranked the way I did because I think a futurist utopia that is science and innovation"
+    },
+    {
+      "timestamp": [
+        8.16,
+        15.32
+      ],
+      "text": " based, I think technology is one of our best tools. So there being scientific advancement"
+    },
+    {
+      "timestamp": [
+        15.32,
+        22.86
+      ],
+      "text": " that solves major problems and keeps society moving, I think is the most ideal. I think"
+    },
+    {
+      "timestamp": [
+        22.86,
+        29.2
+      ],
+      "text": " scientific advancement can solve a lot of major problems. I would say like poverty and scarcity"
+    },
+    {
+      "timestamp": [
+        29.2,
+        44.34
+      ],
+      "text": " and um disease and then i went to sustainability um to the sustainable and secure utopia um"
+    },
+    {
+      "timestamp": [
+        44.34,
+        50.32
+      ],
+      "text": " because i think that being environmentally conscious is um important and that it would"
+    },
+    {
+      "timestamp": [
+        50.32,
+        57.98
+      ],
+      "text": " maybe in this utopia be like renewable energy and smart cities something like that um and then i"
+    },
+    {
+      "timestamp": [
+        57.98,
+        63.56
+      ],
+      "text": " think the morality based third is everything based off just good"
+    },
+    {
+      "timestamp": [
+        63.56,
+        73.88
+      ],
+      "text": " character and conscience. And then skepticism towards the"
+    },
+    {
+      "timestamp": [
+        74.0,
+        81.86
+      ],
+      "text": " primavist utopia, so low tech and small scale. It's natural, and"
+    },
+    {
+      "timestamp": [
+        81.92,
+        86.06
+      ],
+      "text": " it's very community oriented. But I don't think that it's capable"
+    },
+    {
+      "timestamp": [
+        86.06,
+        93.48
+      ],
+      "text": " of being a utopia just because it can't support like larger populations or any really complex"
+    },
+    {
+      "timestamp": [
+        93.48,
+        104.34
+      ],
+      "text": " situations. And then, yeah, I don't find the fifth I did rule of law. I just don't really"
+    },
+    {
+      "timestamp": [
+        104.34,
+        111.72
+      ],
+      "text": " think that it's more inspiring as a utopia than things like the innovation or sustainability"
+    },
+    {
+      "timestamp": [
+        111.72,
+        122.22
+      ],
+      "text": " or um like virtue and then ai was very near the bottom for me um because i don't really like the"
+    },
+    {
+      "timestamp": [
+        122.22,
+        128.68
+      ],
+      "text": " idea of artificial intelligence just making um social decisions for entire populations"
+    },
+    {
+      "timestamp": [
+        128.68,
+        137.2
+      ],
+      "text": " um and then very very strongly i don't agree with religious authority and a society i don't think"
+    },
+    {
+      "timestamp": [
+        137.2,
+        143.9
+      ],
+      "text": " it's a utopia. I think it brings things like fear and persecution for our beliefs. So that is my"
+    },
+    {
+      "timestamp": [
+        143.9,
+        144.22
+      ],
+      "text": " ranking."
+    }
+  ]
+}

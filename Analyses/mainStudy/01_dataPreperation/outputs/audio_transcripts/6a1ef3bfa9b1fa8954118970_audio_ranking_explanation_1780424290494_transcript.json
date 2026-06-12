@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a1ef3bfa9b1fa8954118970_audio_ranking_explanation_1780424290494.webm",
+  "transcript": " I chose this order because, well, I'm a faith-based person, but I think that if it was only faith-based people like basically I think part of being like a Christian is like sharing your faith to people and that's like a huge part of it so if there was nobody that wasn't faith-based then I wouldn't be able to share you know so that's the only reason why I didn't put it as my first but I also love the idea of like a very low tech like kind of going back to the old times and more of just like a small community and then for the rule of law like I feel like that's very helpful because I think like people aren't always good and so other than like the inner morality like that's harder to like draw a line and be like no that's bad that's good if everybody's like this is good for me and whatever you know then so I think the rule of law is above that and I think me personally I'm not interested really in like science and that kind of stuff So I think for me personally, I wouldn't really want to be in that. And then for the AI, that just sounds pretty bad to me, like a horror movie almost. But yeah, I guess that's why.",
+  "language": "unknown",
+  "processing_time_seconds": 22.296218,
+  "timestamp": "2026-06-08T11:38:53.709351",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.96
+      ],
+      "text": " I chose this order because, well, I'm a faith-based person, but I think that if it was only faith-based"
+    },
+    {
+      "timestamp": [
+        19.96,
+        31.66
+      ],
+      "text": " people like basically I think part of being like a Christian is like sharing your faith to people"
+    },
+    {
+      "timestamp": [
+        31.66,
+        39.74
+      ],
+      "text": " and that's like a huge part of it so if there was nobody that wasn't faith-based then"
+    },
+    {
+      "timestamp": [
+        39.74,
+        49.78
+      ],
+      "text": " I wouldn't be able to share you know so that's the only reason why I didn't put it as my first"
+    },
+    {
+      "timestamp": [
+        49.78,
+        57.98
+      ],
+      "text": " but I also love the idea of like a very low tech like kind of going back to the old times and more"
+    },
+    {
+      "timestamp": [
+        57.98,
+        67.24
+      ],
+      "text": " of just like a small community and then for the rule of law like I feel like that's very helpful"
+    },
+    {
+      "timestamp": [
+        67.24,
+        76.1
+      ],
+      "text": " because I think like people aren't always good and so other than like the inner morality like"
+    },
+    {
+      "timestamp": [
+        76.1,
+        84.76
+      ],
+      "text": " that's harder to like draw a line and be like no that's bad that's good if everybody's like"
+    },
+    {
+      "timestamp": [
+        84.76,
+        94.18
+      ],
+      "text": " this is good for me and whatever you know then so I think the rule of law is above that"
+    },
+    {
+      "timestamp": [
+        94.18,
+        105.0
+      ],
+      "text": " and I think me personally I'm not interested really in like science and that kind of stuff"
+    },
+    {
+      "timestamp": [
+        105.0,
+        112.88
+      ],
+      "text": " So I think for me personally, I wouldn't really want to be in that."
+    },
+    {
+      "timestamp": [
+        113.04,
+        121.72
+      ],
+      "text": " And then for the AI, that just sounds pretty bad to me, like a horror movie almost."
+    },
+    {
+      "timestamp": [
+        123.1,
+        125.4
+      ],
+      "text": " But yeah, I guess that's why."
+    }
+  ]
+}

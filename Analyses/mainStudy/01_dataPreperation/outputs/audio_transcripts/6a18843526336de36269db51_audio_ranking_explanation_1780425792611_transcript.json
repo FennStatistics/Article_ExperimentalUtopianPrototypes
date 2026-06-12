@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a18843526336de36269db51_audio_ranking_explanation_1780425792611.webm",
+  "transcript": " i ranked futuristic utopia as my most important or preferred society because i think science and innovation help keep this world running and you know i mean a lot of people don't focus on facts but some people do and i think that's more important than believing or just guessing of what's going to happen when we have the tools sources of everything we can use that to our advantage and um learn basically and uh improve on stuff um my least preferred is the primitive of utopia i don't think low tech and i guess smaller scale i don't know um i think we could use all the tech we could need and everything i mean it's probably not good for pollution but yeah i just we're improving in technology and whatnot and you know we got AI, everything, and people are lazy and don't want to do anything, so they're going to use AI and everything to get what they want.",
+  "language": "unknown",
+  "processing_time_seconds": 17.768523,
+  "timestamp": "2026-06-08T11:10:57.649763",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.16
+      ],
+      "text": " i ranked futuristic utopia as my most important or preferred society because i think science and"
+    },
+    {
+      "timestamp": [
+        10.16,
+        19.22
+      ],
+      "text": " innovation help keep this world running and you know i mean a lot of people don't focus on facts"
+    },
+    {
+      "timestamp": [
+        19.22,
+        26.74
+      ],
+      "text": " but some people do and i think that's more important than believing or just guessing"
+    },
+    {
+      "timestamp": [
+        26.74,
+        33.98
+      ],
+      "text": " of what's going to happen when we have the tools sources of everything we can use that to our"
+    },
+    {
+      "timestamp": [
+        33.98,
+        47.7
+      ],
+      "text": " advantage and um learn basically and uh improve on stuff um my least preferred is the primitive"
+    },
+    {
+      "timestamp": [
+        47.7,
+        56.22
+      ],
+      "text": " of utopia i don't think low tech and i guess smaller scale i don't know"
+    },
+    {
+      "timestamp": [
+        56.22,
+        69.3
+      ],
+      "text": " um i think we could use all the tech we could need and everything i mean it's probably not"
+    },
+    {
+      "timestamp": [
+        69.3,
+        77.54
+      ],
+      "text": " good for pollution but yeah i just we're improving in technology and whatnot and you know we got"
+    },
+    {
+      "timestamp": [
+        77.54,
+        84.1
+      ],
+      "text": " AI, everything, and people are lazy and don't want to do anything, so they're going to use AI"
+    },
+    {
+      "timestamp": [
+        84.1,
+        87.2
+      ],
+      "text": " and everything to get what they want."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "audio_file": "69f0ef2a58d846e3bbe5a68f_audio_missing_utopia_1780390467442.webm",
+  "transcript": " all right i feel that all seven societies focus heavily on one many principal technology ai sustainability law morality religion or simplicity but none fully balance all aspect of human life my missing future society will combine technological progress with human well-being freedom creativity and community what will matter most in this society is ensuring that innovation serves people rather than controlling them citizens will have access to qualify education healthcare economic opportunities and a healthy environment while maintaining personal freedoms and meaningful social connections decisions will be guided by both evidence and compassion ensuring that progress benefits everyone and and not just a few groups yeah",
+  "language": "unknown",
+  "processing_time_seconds": 13.005453,
+  "timestamp": "2026-06-08T09:52:59.746873",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        8.24
+      ],
+      "text": " all right i feel that all seven societies focus heavily on one many principal technology"
+    },
+    {
+      "timestamp": [
+        8.24,
+        16.48
+      ],
+      "text": " ai sustainability law morality religion or simplicity but none fully balance all aspect"
+    },
+    {
+      "timestamp": [
+        16.48,
+        22.8
+      ],
+      "text": " of human life my missing future society will combine technological progress with human"
+    },
+    {
+      "timestamp": [
+        22.8,
+        31.68
+      ],
+      "text": " well-being freedom creativity and community what will matter most in this society is ensuring that"
+    },
+    {
+      "timestamp": [
+        31.68,
+        38.96
+      ],
+      "text": " innovation serves people rather than controlling them citizens will have access to qualify"
+    },
+    {
+      "timestamp": [
+        38.96,
+        45.04
+      ],
+      "text": " education healthcare economic opportunities and a healthy environment while maintaining"
+    },
+    {
+      "timestamp": [
+        45.04,
+        52.48
+      ],
+      "text": " personal freedoms and meaningful social connections decisions will be guided by both evidence and"
+    },
+    {
+      "timestamp": [
+        52.48,
+        60.4
+      ],
+      "text": " compassion ensuring that progress benefits everyone and and not just a few groups yeah"
+    }
+  ]
+}

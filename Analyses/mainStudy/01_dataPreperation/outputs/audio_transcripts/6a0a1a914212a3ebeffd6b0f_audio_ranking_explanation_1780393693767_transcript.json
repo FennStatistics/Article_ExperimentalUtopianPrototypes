@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0a1a914212a3ebeffd6b0f_audio_ranking_explanation_1780393693767.webm",
+  "transcript": " Um, I ranked the, uh, my most preferred as Modern Green Utopia, um, because it's sustainable and secure, and those are the things, uh, I hold in high regard for if I did want to live in some type of utopia. That one made the most sense, at least, you know. For the religious utopia, I'm not really a faith-based person, and I'm not super religious, so that's the more like the least one that I would prefer yeah just not for me and the and the idea of having a religious utopia based on like whatever religion just didn't sound appealing at least sounded very biased and not innovative or thought-provoking at all You",
+  "language": "unknown",
+  "processing_time_seconds": 16.538723,
+  "timestamp": "2026-06-08T10:33:58.359515",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.54
+      ],
+      "text": " Um, I ranked the, uh, my most preferred as Modern Green Utopia, um, because it's sustainable"
+    },
+    {
+      "timestamp": [
+        13.54,
+        23.42
+      ],
+      "text": " and secure, and those are the things, uh, I hold in high regard for if I did want to"
+    },
+    {
+      "timestamp": [
+        23.42,
+        34.4
+      ],
+      "text": " live in some type of utopia. That one made the most sense, at least, you know. For the"
+    },
+    {
+      "timestamp": [
+        34.4,
+        41.04
+      ],
+      "text": " religious utopia, I'm not really a faith-based person, and I'm not super religious, so that's"
+    },
+    {
+      "timestamp": [
+        41.04,
+        50.64
+      ],
+      "text": " the more like the least one that I would prefer yeah just not for me and the"
+    },
+    {
+      "timestamp": [
+        50.64,
+        61.2
+      ],
+      "text": " and the idea of having a religious utopia based on like whatever religion just didn't sound"
+    },
+    {
+      "timestamp": [
+        61.2,
+        70.48
+      ],
+      "text": " appealing at least sounded very biased and not innovative or thought-provoking at all"
+    },
+    {
+      "timestamp": [
+        71.04,
+        73.04
+      ],
+      "text": " You"
+    }
+  ]
+}

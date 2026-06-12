@@ -1,0 +1,31 @@
+{
+  "audio_file": "663cceb7909a43d4d01e0c24_audio_missing_utopia_1780422956642.webm",
+  "transcript": " I guess more of a God-driven theme was missing from them, opposed to the AI. I feel like more God theme would be more primitive than just the AI and what it can do. Although it's very good, it's missing a God theme theme.",
+  "language": "unknown",
+  "processing_time_seconds": 6.054152,
+  "timestamp": "2026-06-08T08:34:27.610803",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.36
+      ],
+      "text": " I guess more of a God-driven theme was missing from them, opposed to the AI."
+    },
+    {
+      "timestamp": [
+        8.88,
+        18.5
+      ],
+      "text": " I feel like more God theme would be more primitive than just the AI and what it can do."
+    },
+    {
+      "timestamp": [
+        19.04,
+        24.9
+      ],
+      "text": " Although it's very good, it's missing a God theme theme."
+    }
+  ]
+}

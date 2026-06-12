@@ -1,0 +1,66 @@
+{
+  "audio_file": "5b72d3f8afce7600019fe275_audio_ranking_explanation_1780413249127.webm",
+  "transcript": " well i chose a moral commonwealth commonwealth as my most preferred because i would rather live in a society where morals come first you know whether we're thinking about people that have less than us and you know situations like that animals children things like that i I would rather, you know, everyone have the same moral compass and pretty much we don't have to worry about someone breaking it. I chose Modern Green Utopia as my second because, you know, I would like for more people like collectively for us to, you know, take care of the environment. And I have my religious, religious utopia on the bottom, because I think when you're dealing with religion, something that's moral and something that that's immoral, it kind of it's kind of the lines get blurred. For example, like sacrifices and things of that nature. I wouldn't want to live in a society where, you know, we have to do things of that nature.",
+  "language": "unknown",
+  "processing_time_seconds": 15.181905,
+  "timestamp": "2026-06-08T08:12:01.381693",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.12
+      ],
+      "text": " well i chose a moral commonwealth commonwealth as my most preferred because i would rather"
+    },
+    {
+      "timestamp": [
+        10.12,
+        16.76
+      ],
+      "text": " live in a society where morals come first you know whether we're thinking about people"
+    },
+    {
+      "timestamp": [
+        16.76,
+        26.08
+      ],
+      "text": " that have less than us and you know situations like that animals children things like that i"
+    },
+    {
+      "timestamp": [
+        26.08,
+        35.02
+      ],
+      "text": " I would rather, you know, everyone have the same moral compass and pretty much we don't have to worry about someone breaking it."
+    },
+    {
+      "timestamp": [
+        36.14,
+        49.76
+      ],
+      "text": " I chose Modern Green Utopia as my second because, you know, I would like for more people like collectively for us to, you know, take care of the environment."
+    },
+    {
+      "timestamp": [
+        50.6,
+        49.76
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        67.48,
+        67.98
+      ],
+      "text": " And I have my religious, religious utopia on the bottom, because I think when you're dealing with religion, something that's moral and something that that's immoral, it kind of it's kind of the lines get blurred."
+    },
+    {
+      "timestamp": [
+        75.48,
+        null
+      ],
+      "text": " For example, like sacrifices and things of that nature. I wouldn't want to live in a society where, you know, we have to do things of that nature."
+    }
+  ]
+}

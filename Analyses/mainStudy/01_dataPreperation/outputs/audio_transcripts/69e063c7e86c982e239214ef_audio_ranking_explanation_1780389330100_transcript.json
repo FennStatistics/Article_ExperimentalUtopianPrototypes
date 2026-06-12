@@ -1,0 +1,66 @@
+{
+  "audio_file": "69e063c7e86c982e239214ef_audio_ranking_explanation_1780389330100.webm",
+  "transcript": " The reason I ranked Modern Green Utopia first is because I feel like that's an ideal society that correlates with my specific views and beliefs. I feel like it's very sustainable and secure, as it already says. Not only does it not harm Earth in a great way as we are already doing it, but it's secure in a way that's going to last for a while and my least preferred was religious utopia simply because based on the way society is now i feel like it'll just get more crazier people use religion to hate to force rules onto others and if somebody doesn't fit within that perfect bubble well all of a sudden they're not a person anymore",
+  "language": "unknown",
+  "processing_time_seconds": 11.216963,
+  "timestamp": "2026-06-08T09:36:03.724323",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.82
+      ],
+      "text": " The reason I ranked Modern Green Utopia first is because I feel like that's an ideal society"
+    },
+    {
+      "timestamp": [
+        7.82,
+        13.66
+      ],
+      "text": " that correlates with my specific views and beliefs."
+    },
+    {
+      "timestamp": [
+        15.14,
+        20.92
+      ],
+      "text": " I feel like it's very sustainable and secure, as it already says."
+    },
+    {
+      "timestamp": [
+        21.46,
+        27.44
+      ],
+      "text": " Not only does it not harm Earth in a great way as we are already doing it,"
+    },
+    {
+      "timestamp": [
+        27.44,
+        33.06
+      ],
+      "text": " but it's secure in a way that's going to last for a while and my least preferred was religious"
+    },
+    {
+      "timestamp": [
+        33.06,
+        41.82
+      ],
+      "text": " utopia simply because based on the way society is now i feel like it'll just get more crazier"
+    },
+    {
+      "timestamp": [
+        41.82,
+        49.24
+      ],
+      "text": " people use religion to hate to force rules onto others and if somebody doesn't fit within"
+    },
+    {
+      "timestamp": [
+        49.24,
+        52.8
+      ],
+      "text": " that perfect bubble well all of a sudden they're not a person anymore"
+    }
+  ]
+}

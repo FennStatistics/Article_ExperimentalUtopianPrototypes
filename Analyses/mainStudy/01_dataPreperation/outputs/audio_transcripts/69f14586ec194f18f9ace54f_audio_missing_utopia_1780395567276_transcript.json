@@ -1,0 +1,38 @@
+{
+  "audio_file": "69f14586ec194f18f9ace54f_audio_missing_utopia_1780395567276.webm",
+  "transcript": " I feel like everything was represented well. I can't really think of any future societies that I would personally want to represent, because, in all honesty, I don't believe in bringing anyone into this world at this point, and I don't want to see what it is. future holds I just want to be here for now and you know when I die I die and I don't I don't want to see what the future holds because this world's terrible enough as it is",
+  "language": "unknown",
+  "processing_time_seconds": 9.656368,
+  "timestamp": "2026-06-08T09:53:52.402699",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.98
+      ],
+      "text": " I feel like everything was represented well. I can't really think of any future societies that I would personally want to represent, because, in all honesty, I don't believe in bringing anyone into this world at this point, and I don't want to see what it is."
+    },
+    {
+      "timestamp": [
+        30.0,
+        37.74
+      ],
+      "text": " future holds I just want to be here for now and you know when I die I die and I"
+    },
+    {
+      "timestamp": [
+        37.74,
+        41.24
+      ],
+      "text": " don't I don't want to see what the future holds because this world's terrible"
+    },
+    {
+      "timestamp": [
+        41.24,
+        44.0
+      ],
+      "text": " enough as it is"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "audio_file": "63bc87f783afb5aed2c937d2_audio_ranking_explanation_1780314510356.webm",
+  "transcript": " I ranked the futurist utopia first because it's based on science and innovation. It seems like it does have some some laws as well. And it seems like it's like it's based on logic and it seems, you know, like a society that's going to move forward. And I like how I've talked about that it is into like, you know, improving the environment, but like within reason. And it's more about like, you know, innovation. It's got a good balance to it. I put the AI centered utopia last because even in the description, it was talking about like there could be problems with the AI. Even though I do like AI, you know, AI does sometimes encounter problems and, you know, it's still going to take like a long, long, long, long time for it to be like, you know, fully realized. So that's why I put that one last.",
+  "language": "unknown",
+  "processing_time_seconds": 15.616811,
+  "timestamp": "2026-06-08T08:28:04.134814",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.46
+      ],
+      "text": " I ranked the futurist utopia first because it's based on science and innovation. It seems like it does have some some laws as well. And it seems like it's like it's based on logic and it seems, you know, like a society that's going to move forward."
+    },
+    {
+      "timestamp": [
+        22.46,
+        28.02
+      ],
+      "text": " And I like how I've talked about that it is into like, you know, improving the environment, but like within reason."
+    },
+    {
+      "timestamp": [
+        28.3,
+        32.44
+      ],
+      "text": " And it's more about like, you know, innovation. It's got a good balance to it."
+    },
+    {
+      "timestamp": [
+        33.2,
+        44.52
+      ],
+      "text": " I put the AI centered utopia last because even in the description, it was talking about like there could be problems with the AI."
+    },
+    {
+      "timestamp": [
+        44.52,
+        60.52
+      ],
+      "text": " Even though I do like AI, you know, AI does sometimes encounter problems and, you know, it's still going to take like a long, long, long, long time for it to be like, you know, fully realized."
+    },
+    {
+      "timestamp": [
+        61.52,
+        65.14
+      ],
+      "text": " So that's why I put that one last."
+    }
+  ]
+}

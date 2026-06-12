@@ -1,0 +1,45 @@
+{
+  "audio_file": "69e83c91e2420c0266697081_audio_missing_utopia_1780397703618.webm",
+  "transcript": " I think the approach that was closest to my ideal as I described was the green utopia but I think I would like to combine aspects of the science one with it and also I mean it was already kind of socialist in the way it was described like sharing resources but I would maybe an ideal society for me would be more explicitly socialist with an ownership of resources shared among all people, with all people being treated equally.",
+  "language": "unknown",
+  "processing_time_seconds": 9.339837,
+  "timestamp": "2026-06-08T09:42:07.008591",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.64,
+        9.6
+      ],
+      "text": " I think the approach that was closest to my ideal as I described was the green"
+    },
+    {
+      "timestamp": [
+        10.64,
+        18.0
+      ],
+      "text": " utopia but I think I would like to combine aspects of the science one with it and also I mean it was"
+    },
+    {
+      "timestamp": [
+        18.0,
+        27.36
+      ],
+      "text": " already kind of socialist in the way it was described like sharing resources but I would"
+    },
+    {
+      "timestamp": [
+        27.36,
+        37.84
+      ],
+      "text": " maybe an ideal society for me would be more explicitly socialist with an ownership of"
+    },
+    {
+      "timestamp": [
+        38.96,
+        44.8
+      ],
+      "text": " resources shared among all people, with all people being treated equally."
+    }
+  ]
+}

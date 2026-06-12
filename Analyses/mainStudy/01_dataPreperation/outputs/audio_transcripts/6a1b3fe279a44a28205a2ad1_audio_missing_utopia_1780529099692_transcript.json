@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a1b3fe279a44a28205a2ad1_audio_missing_utopia_1780529099692.webm",
+  "transcript": " I think the Missing Society is, you know, a society that is, you know, more so focused on personal freedom and happiness. And, you know, it would cover basic needs, use technology, you know, in a more helpful way. And, you know, it also help people choose their own path, which I think is, you know, a great idea so people can follow their dreams.",
+  "language": "unknown",
+  "processing_time_seconds": 7.219845,
+  "timestamp": "2026-06-08T11:16:52.674009",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.98
+      ],
+      "text": " I think the Missing Society is, you know, a society that is, you know, more so focused on personal freedom and happiness."
+    },
+    {
+      "timestamp": [
+        12.36,
+        19.36
+      ],
+      "text": " And, you know, it would cover basic needs, use technology, you know, in a more helpful way."
+    },
+    {
+      "timestamp": [
+        20.4,
+        28.08
+      ],
+      "text": " And, you know, it also help people choose their own path, which I think is, you know, a great idea so people can follow their dreams."
+    }
+  ]
+}

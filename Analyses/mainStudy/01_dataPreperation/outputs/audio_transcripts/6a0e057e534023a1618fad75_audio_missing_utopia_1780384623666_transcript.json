@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a0e057e534023a1618fad75_audio_missing_utopia_1780384623666.webm",
+  "transcript": " So I think a missing society is a participatory utopia where decisions are made directly by citizens through local assemblies and digital tools and not by AI or the AI. So what matters most of the genuine individual freedom, the collective deliberation and no centralized power.",
+  "language": "unknown",
+  "processing_time_seconds": 6.136399,
+  "timestamp": "2026-06-08T10:44:20.426475",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.32
+      ],
+      "text": " So I think a missing society is a participatory utopia where decisions are made directly by"
+    },
+    {
+      "timestamp": [
+        8.32,
+        12.88
+      ],
+      "text": " citizens through local assemblies and digital tools and not by AI or the AI."
+    },
+    {
+      "timestamp": [
+        12.88,
+        17.16
+      ],
+      "text": " So what matters most of the genuine individual freedom, the collective deliberation and no"
+    },
+    {
+      "timestamp": [
+        17.16,
+        19.56
+      ],
+      "text": " centralized power."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "69e9718147d1bb9c75f8e14f_audio_missing_utopia_1780393250030.webm",
+  "transcript": " Prompts describing a missing future society",
+  "language": "unknown",
+  "processing_time_seconds": 4.48688,
+  "timestamp": "2026-06-08T09:44:31.392162",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.04
+      ],
+      "text": " Prompts describing a missing future society"
+    }
+  ]
+}

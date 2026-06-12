@@ -1,0 +1,45 @@
+{
+  "audio_file": "69fdda7b1de3674cc53ee356_audio_ranking_explanation_1780395665752.webm",
+  "transcript": " I believe in freedom, and I believe that the moral commonwealth gives people the greatest amount of personal freedom. But I also believe in the benefits of technology, so that's why I rank futurist and modern green utopias second and third, and AI as well. And the nightmare dystopian scenario for me is living in a theocracy, or just above that, living in a society which has no technological capacity at all.",
+  "language": "unknown",
+  "processing_time_seconds": 9.50597,
+  "timestamp": "2026-06-08T10:11:26.092657",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.38
+      ],
+      "text": " I believe in freedom, and I believe that the moral commonwealth gives people the greatest"
+    },
+    {
+      "timestamp": [
+        11.38,
+        18.3
+      ],
+      "text": " amount of personal freedom. But I also believe in the benefits of technology, so that's why I rank"
+    },
+    {
+      "timestamp": [
+        18.3,
+        27.84
+      ],
+      "text": " futurist and modern green utopias second and third, and AI as well. And the nightmare dystopian"
+    },
+    {
+      "timestamp": [
+        27.84,
+        35.14
+      ],
+      "text": " scenario for me is living in a theocracy, or just above that, living in a society which"
+    },
+    {
+      "timestamp": [
+        35.14,
+        38.08
+      ],
+      "text": " has no technological capacity at all."
+    }
+  ]
+}

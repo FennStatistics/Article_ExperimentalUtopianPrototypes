@@ -1,0 +1,192 @@
+{
+  "audio_file": "62effa539a08b7896593d694_audio_ranking_explanation_1780409598788.webm",
+  "transcript": " So for me, I believe that science is the best way to prove something to be true. So if we're getting a bunch of people together, having them live together, I think the best way to come to a consensus on what is true would be to use things that the scientific method, things that are provable. So that's why I would put science and innovation first. I think that's the best way to move forward. um so number two um uh would be the modern green utopia um i believe we need to take care of the planet it's the only planet we got and i think kind of science and um sustainability i think they kind of go hand in hand and they'll kind of balance each other out so i think it makes sense to put them next to each other uh number three um is number three and number one are really similar It's just three. It's kind of number one on a lower scale and then taking parts of number two and tying them into it. So that's why number three is where it is. Number four, moral commonwealth. I think if you have a lot of people living together, it does make sense to try to have some basis of understanding on, I guess, how do you even explain this? It makes sense to me that you want to take people's perspectives on what morality is. you want everyone to feel like they have a say. But the problem is, is what if someone doesn't have the best morals? And so you get in this weird little area there. And that's why I think it's perfect at number four, almost in the middle. Number five, institutional rule of law. I mean, that's pretty much where we are now, if you ask me. And look how that's going. It's just, you know, I found that when you really rely heavily on the law to enforce order, a lot of times what you find is that it's not really about maintaining a sense of right and wrong. It's about maintaining power, maintaining authority, maintaining a sense of control, regardless of if that control is bad or unwarranted. It doesn't matter. That's what we find out in a lot of these instances. So that's why it's at number five. Number six, AI centered. Oh man. I mean, we already see the kind of the negatives of that now, and it hasn't even really even started yet. Like we're just going to see power go up, just like jobs getting lost. I mean, it just seems like an absolute nightmare to me. The only thing possibly worse, and this will always be less for me, is is the religious utopia. It's not a utopia. It is a dystopia. It's absolute chaos. Just religion is used to control the masses, and it's just awful. So that's always going to be last.",
+  "language": "unknown",
+  "processing_time_seconds": 41.217139,
+  "timestamp": "2026-06-08T08:26:12.983551",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        1.0,
+        7.36
+      ],
+      "text": " So for me, I believe that science is the best way to prove something to be true."
+    },
+    {
+      "timestamp": [
+        7.36,
+        19.04
+      ],
+      "text": " So if we're getting a bunch of people together, having them live together, I think the best way to come to a consensus on what is true would be to use things that the scientific method, things that are provable."
+    },
+    {
+      "timestamp": [
+        19.66,
+        23.3
+      ],
+      "text": " So that's why I would put science and innovation first."
+    },
+    {
+      "timestamp": [
+        23.38,
+        26.42
+      ],
+      "text": " I think that's the best way to move forward."
+    },
+    {
+      "timestamp": [
+        27.88,
+        26.42
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.92,
+        41.16
+      ],
+      "text": " um so number two um uh would be the modern green utopia um i believe we need to take care of the planet it's the only planet we got and i think kind of science and um sustainability i think"
+    },
+    {
+      "timestamp": [
+        41.16,
+        45.06
+      ],
+      "text": " they kind of go hand in hand and they'll kind of balance each other out so i think it makes sense"
+    },
+    {
+      "timestamp": [
+        45.06,
+        53.16
+      ],
+      "text": " to put them next to each other uh number three um is number three and number one are really similar"
+    },
+    {
+      "timestamp": [
+        53.16,
+        62.6
+      ],
+      "text": " It's just three. It's kind of number one on a lower scale and then taking parts of number two and tying them into it."
+    },
+    {
+      "timestamp": [
+        62.72,
+        69.02
+      ],
+      "text": " So that's why number three is where it is. Number four, moral commonwealth."
+    },
+    {
+      "timestamp": [
+        69.02,
+        85.88
+      ],
+      "text": " I think if you have a lot of people living together, it does make sense to try to have some basis of understanding on, I guess, how do you even explain this?"
+    },
+    {
+      "timestamp": [
+        85.98,
+        93.32
+      ],
+      "text": " It makes sense to me that you want to take people's perspectives on what morality is."
+    },
+    {
+      "timestamp": [
+        93.32,
+        100.66
+      ],
+      "text": " you want everyone to feel like they have a say. But the problem is, is what if someone doesn't"
+    },
+    {
+      "timestamp": [
+        100.66,
+        105.06
+      ],
+      "text": " have the best morals? And so you get in this weird little area there. And that's why I think"
+    },
+    {
+      "timestamp": [
+        105.06,
+        112.68
+      ],
+      "text": " it's perfect at number four, almost in the middle. Number five, institutional rule of law. I mean,"
+    },
+    {
+      "timestamp": [
+        112.68,
+        118.66
+      ],
+      "text": " that's pretty much where we are now, if you ask me. And look how that's going. It's just,"
+    },
+    {
+      "timestamp": [
+        118.86,
+        118.66
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        125.38,
+        134.5
+      ],
+      "text": " you know, I found that when you really rely heavily on the law to enforce order, a lot of times what you find is that it's not really about maintaining a sense of right and wrong. It's about"
+    },
+    {
+      "timestamp": [
+        134.5,
+        139.92
+      ],
+      "text": " maintaining power, maintaining authority, maintaining a sense of control, regardless of"
+    },
+    {
+      "timestamp": [
+        139.92,
+        144.64
+      ],
+      "text": " if that control is bad or unwarranted. It doesn't matter. That's what we find out in a lot of these"
+    },
+    {
+      "timestamp": [
+        144.64,
+        151.22
+      ],
+      "text": " instances. So that's why it's at number five. Number six, AI centered. Oh man. I mean, we already"
+    },
+    {
+      "timestamp": [
+        151.22,
+        159.82
+      ],
+      "text": " see the kind of the negatives of that now, and it hasn't even really even started yet. Like we're"
+    },
+    {
+      "timestamp": [
+        159.82,
+        164.66
+      ],
+      "text": " just going to see power go up, just like jobs getting lost. I mean, it just seems like an"
+    },
+    {
+      "timestamp": [
+        164.66,
+        171.14
+      ],
+      "text": " absolute nightmare to me. The only thing possibly worse, and this will always be less for me, is"
+    },
+    {
+      "timestamp": [
+        171.14,
+        178.58
+      ],
+      "text": " is the religious utopia. It's not a utopia. It is a dystopia. It's absolute chaos. Just"
+    },
+    {
+      "timestamp": [
+        178.58,
+        191.56
+      ],
+      "text": " religion is used to control the masses, and it's just awful. So that's always going to be last."
+    }
+  ]
+}

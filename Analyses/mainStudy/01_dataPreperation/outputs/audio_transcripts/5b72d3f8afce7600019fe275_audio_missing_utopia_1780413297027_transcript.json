@@ -1,0 +1,45 @@
+{
+  "audio_file": "5b72d3f8afce7600019fe275_audio_missing_utopia_1780413297027.webm",
+  "transcript": " I think the type of society that was missing was a society that had a mix of both morals and the green-focused society. Because if we could combine the two, then it's pretty much a perfect world. We care about people, we care about animals, and we care about the environment. And if we care about all of that, if we care about the environment and each other, it'll show in our work and how we treat each other. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 9.6882,
+  "timestamp": "2026-06-08T08:11:46.110658",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.78
+      ],
+      "text": " I think the type of society that was missing was a society that had a mix of both morals and the green-focused society."
+    },
+    {
+      "timestamp": [
+        11.36,
+        15.52
+      ],
+      "text": " Because if we could combine the two, then it's pretty much a perfect world."
+    },
+    {
+      "timestamp": [
+        16.12,
+        20.74
+      ],
+      "text": " We care about people, we care about animals, and we care about the environment."
+    },
+    {
+      "timestamp": [
+        21.3,
+        29.78
+      ],
+      "text": " And if we care about all of that, if we care about the environment and each other, it'll show in our work and how we treat each other."
+    },
+    {
+      "timestamp": [
+        30.0,
+        59.98
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

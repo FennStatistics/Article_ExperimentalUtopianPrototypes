@@ -1,0 +1,59 @@
+{
+  "audio_file": "6978c19595331238482129c4_audio_ranking_explanation_1780507147291.webm",
+  "transcript": " um i would i rank these this way because i believe that religion and our moral responsibilities our moral duties should drive the way of life and i think that the way that god created the earth is the way that we're supposed to live it out and i ranked ai and science like innovations at the bottom because i just i think that's dangerous and it's not it's just not human like it is all these new things are i feel like are making the world it's a little too complicated and complex where i think we can just live life how we're supposed to live it",
+  "language": "unknown",
+  "processing_time_seconds": 10.436318,
+  "timestamp": "2026-06-08T08:56:02.527823",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.54
+      ],
+      "text": " um i would i rank these this way because i believe that religion and our moral responsibilities"
+    },
+    {
+      "timestamp": [
+        11.54,
+        19.78
+      ],
+      "text": " our moral duties should drive the way of life and i think that the way that god created"
+    },
+    {
+      "timestamp": [
+        19.78,
+        27.1
+      ],
+      "text": " the earth is the way that we're supposed to live it out and i ranked ai and science"
+    },
+    {
+      "timestamp": [
+        27.1,
+        32.48
+      ],
+      "text": " like innovations at the bottom because i just i think that's dangerous and it's not"
+    },
+    {
+      "timestamp": [
+        32.48,
+        38.78
+      ],
+      "text": " it's just not human like it is all these new things are i feel like are making the world"
+    },
+    {
+      "timestamp": [
+        38.78,
+        43.12
+      ],
+      "text": " it's a little too complicated and complex where i think we can just"
+    },
+    {
+      "timestamp": [
+        43.12,
+        45.76
+      ],
+      "text": " live life how we're supposed to live it"
+    }
+  ]
+}

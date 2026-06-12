@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a1dcf19488db85c9fd3e14c_audio_missing_utopia_1780343159200.webm",
+  "transcript": " My ideal society would be one that balances sustainability in the green sense with a faith-based society as well as the rule of law and a strict moral compass.",
+  "language": "unknown",
+  "processing_time_seconds": 5.322674,
+  "timestamp": "2026-06-08T11:29:22.955433",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.72
+      ],
+      "text": " My ideal society would be one that balances sustainability in the green sense with a faith-based society as well as the rule of law and a strict moral compass."
+    }
+  ]
+}

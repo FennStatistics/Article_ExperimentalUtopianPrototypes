@@ -1,0 +1,150 @@
+{
+  "audio_file": "69cff429bb84c7afcf70990d_audio_ranking_explanation_1780391369882.webm",
+  "transcript": " All right, so the only one that I think of all these utopias that could ever be feasible is the institutional utopia and perhaps the futurist utopia. All the other ones I can't see being possible with humanity. That being said, let me explain my choices. I would hate the idea of living in a intentionally low-tech and small-scale society. The primitivist utopia I would just be miserable in. Very similarly to the religious utopia, I do organize religion and the utopias just don't mix in my opinion. Those are the two that I actively dislike. And then as far as the Modern Green Utopia and the Moral Commonwealth, these are more preferred than the others. Obviously, it's because we're ranked higher. I will note that the institutional utopia is the one that I feel is closest to our regular society, so I put that in the middle as it's just kind of a middle, most representative of reality, and kind of the baseline to compare with the others now the moral commonwealth would be nice and i think about it yeah i can't change the rankings now it's pretty tied i would say with the ai centered utopia um i like i mean i don't hate the i i should say i don't like the idea of the ai centered utopia in the current stage of ai If there was some kind of major advances in the technology, or if we're just going off science fiction-type AI, and there were some kind of safeguard and assurances that the AI would not destroy or exploit humanity, then that could probably work out. but the best would be the futurist utopia that aligns most with my interests and values and that's probably the society I'd be the happiest living in",
+  "language": "unknown",
+  "processing_time_seconds": 30.805125,
+  "timestamp": "2026-06-08T09:30:41.114932",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.96
+      ],
+      "text": " All right, so the only one that I think of all these utopias that could ever be feasible"
+    },
+    {
+      "timestamp": [
+        10.96,
+        16.96
+      ],
+      "text": " is the institutional utopia and perhaps the futurist utopia. All the other ones I can't"
+    },
+    {
+      "timestamp": [
+        16.96,
+        25.36
+      ],
+      "text": " see being possible with humanity. That being said, let me explain my choices. I would hate"
+    },
+    {
+      "timestamp": [
+        25.36,
+        31.42
+      ],
+      "text": " the idea of living in a intentionally low-tech and small-scale society. The"
+    },
+    {
+      "timestamp": [
+        31.42,
+        36.4
+      ],
+      "text": " primitivist utopia I would just be miserable in. Very similarly to the"
+    },
+    {
+      "timestamp": [
+        36.4,
+        46.42
+      ],
+      "text": " religious utopia, I do organize religion and the utopias just don't mix in my"
+    },
+    {
+      "timestamp": [
+        46.42,
+        60.3
+      ],
+      "text": " opinion. Those are the two that I actively dislike. And then as far as the"
+    },
+    {
+      "timestamp": [
+        60.3,
+        68.92
+      ],
+      "text": " Modern Green Utopia and the Moral Commonwealth, these are more preferred"
+    },
+    {
+      "timestamp": [
+        68.92,
+        77.02
+      ],
+      "text": " than the others. Obviously, it's because we're ranked higher. I will note that the institutional"
+    },
+    {
+      "timestamp": [
+        77.02,
+        85.0
+      ],
+      "text": " utopia is the one that I feel is closest to our regular society, so I put that in the middle as"
+    },
+    {
+      "timestamp": [
+        85.0,
+        93.88
+      ],
+      "text": " it's just kind of a middle, most representative of reality, and kind of the baseline to compare"
+    },
+    {
+      "timestamp": [
+        93.88,
+        105.42
+      ],
+      "text": " with the others now the moral commonwealth would be nice and i think about it yeah i can't change"
+    },
+    {
+      "timestamp": [
+        105.42,
+        112.64
+      ],
+      "text": " the rankings now it's pretty tied i would say with the ai centered utopia um i like i mean i don't"
+    },
+    {
+      "timestamp": [
+        112.64,
+        120.2
+      ],
+      "text": " hate the i i should say i don't like the idea of the ai centered utopia in the current stage of ai"
+    },
+    {
+      "timestamp": [
+        120.2,
+        142.6
+      ],
+      "text": " If there was some kind of major advances in the technology, or if we're just going off science fiction-type AI, and there were some kind of safeguard and assurances that the AI would not destroy or exploit humanity, then that could probably work out."
+    },
+    {
+      "timestamp": [
+        143.72,
+        142.6
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        145.5,
+        146.56
+      ],
+      "text": " but the best would be the futurist utopia"
+    },
+    {
+      "timestamp": [
+        146.56,
+        149.4
+      ],
+      "text": " that aligns most with my interests"
+    },
+    {
+      "timestamp": [
+        149.4,
+        151.54
+      ],
+      "text": " and values and that's probably the society"
+    },
+    {
+      "timestamp": [
+        151.54,
+        152.86
+      ],
+      "text": " I'd be the happiest living in"
+    }
+  ]
+}

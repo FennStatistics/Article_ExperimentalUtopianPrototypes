@@ -1,0 +1,45 @@
+{
+  "audio_file": "66646ef0caf9de9a699b6993_audio_ranking_explanation_1780240218359.webm",
+  "transcript": " I ranked the societies this way because I thought that, for example, like the futurist utopia, I thought that seemed, I like ranked them based on how realistic I felt like they were. so the like for example the moral commonwealth isn't very realistic although that would be nice so i put that at three futurist utopia on the science and innovation i liked better than like the ai driven one so i put that at one and institutional utopia rule of law because because that's similar to where it is now I put it to.",
+  "language": "unknown",
+  "processing_time_seconds": 13.825729,
+  "timestamp": "2026-06-08T08:37:17.047994",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.64
+      ],
+      "text": " I ranked the societies this way because I thought that, for example, like the futurist utopia, I thought that seemed, I like ranked them based on how realistic I felt like they were."
+    },
+    {
+      "timestamp": [
+        14.64,
+        21.92
+      ],
+      "text": " so the like for example the moral commonwealth isn't very realistic although that would be nice"
+    },
+    {
+      "timestamp": [
+        21.92,
+        28.0
+      ],
+      "text": " so i put that at three futurist utopia on the science and innovation i liked better than like"
+    },
+    {
+      "timestamp": [
+        28.0,
+        34.64
+      ],
+      "text": " the ai driven one so i put that at one and institutional utopia rule of law because"
+    },
+    {
+      "timestamp": [
+        34.64,
+        36.9
+      ],
+      "text": " because that's similar to where it is now I put it to."
+    }
+  ]
+}

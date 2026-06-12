@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a1c6e4718629102f9535935_audio_ranking_explanation_1780516980144.webm",
+  "transcript": " I put the modern green utopia first because it seemed like it had the best balance between security and sustainability and just the everyday quality of life. In second place, I put the religious utopia because I think that shared values and morals is important to keep a society united. The technology-focused societies came next because innovation, I think, is important. But I don't think technology alone should guide a society. In the last two places, I put the primitives utopia and the moral commonwealth. Because they seem less practical than the others and they'd be harder to actually maintain in the real world.",
+  "language": "unknown",
+  "processing_time_seconds": 10.75191,
+  "timestamp": "2026-06-08T11:18:10.420392",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.26
+      ],
+      "text": " I put the modern green utopia first because it seemed like it had the best balance between security and sustainability and just the everyday quality of life."
+    },
+    {
+      "timestamp": [
+        12.66,
+        26.18
+      ],
+      "text": " In second place, I put the religious utopia because I think that shared values and morals is important to keep a society united."
+    },
+    {
+      "timestamp": [
+        27.38,
+        26.18
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.5,
+        33.14
+      ],
+      "text": " The technology-focused societies came next because innovation, I think, is important."
+    },
+    {
+      "timestamp": [
+        36.18,
+        37.3
+      ],
+      "text": " But I don't think technology alone should guide a society."
+    },
+    {
+      "timestamp": [
+        44.42,
+        46.5
+      ],
+      "text": " In the last two places, I put the primitives utopia and the moral commonwealth."
+    },
+    {
+      "timestamp": [
+        53.22,
+        null
+      ],
+      "text": " Because they seem less practical than the others and they'd be harder to actually maintain in the real world."
+    }
+  ]
+}

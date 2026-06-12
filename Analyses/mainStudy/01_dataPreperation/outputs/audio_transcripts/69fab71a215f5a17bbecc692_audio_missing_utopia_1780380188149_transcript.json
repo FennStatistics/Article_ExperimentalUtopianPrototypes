@@ -1,0 +1,101 @@
+{
+  "audio_file": "69fab71a215f5a17bbecc692_audio_missing_utopia_1780380188149.webm",
+  "transcript": " I think something that I would appreciate, whether the society is we're one whole society, right now we are very separate in countries, for example, right? And such. And I don't think any of these really clarify that humanity as a whole, are one and only one race, in a sense, one planet. um because then we won't have to deal with border disputes we don't have to worry about limiting food or things with others and such so if it's possible it's like if you read enough sci-fi books you know uh take in point the expanse they don't separate the united the the world earth from like in separate countries they just do it by planet earth versus mars right versus the Belters, for example. I watched the series. But the point is that the whole planet is aligned on the same values and core things. There are no bickering and no separation, whether it be country lines and such. All of that is all melded together. I think that's a future society where we're all looking at each other. We're just people from Earth, Terrans, Terra, whatever you want to call it. We're from Mars. We're Martians and such. I don't think any of these examples really said that all these people would be concluded as one giant group aka the whole planet in case in point um for example one of them was small i think it was the sixth one i used like small urban communities in low tech like that no need for separation",
+  "language": "unknown",
+  "processing_time_seconds": 21.397471,
+  "timestamp": "2026-06-08T10:04:42.160083",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.58
+      ],
+      "text": " I think something that I would appreciate, whether the society is we're one whole society, right now we are very separate in countries, for example, right? And such. And I don't think any of these really clarify that humanity as a whole, are one and only one race, in a sense, one planet."
+    },
+    {
+      "timestamp": [
+        28.24,
+        26.58
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.22,
+        39.5
+      ],
+      "text": " um because then we won't have to deal with border disputes we don't have to worry about limiting food or things with others and such so if it's possible it's like if you read enough"
+    },
+    {
+      "timestamp": [
+        39.5,
+        46.32
+      ],
+      "text": " sci-fi books you know uh take in point the expanse they don't separate the united the the world"
+    },
+    {
+      "timestamp": [
+        46.32,
+        53.0
+      ],
+      "text": " earth from like in separate countries they just do it by planet earth versus mars right versus"
+    },
+    {
+      "timestamp": [
+        53.0,
+        59.42
+      ],
+      "text": " the Belters, for example. I watched the series. But the point is that the whole planet is aligned"
+    },
+    {
+      "timestamp": [
+        59.42,
+        66.38
+      ],
+      "text": " on the same values and core things. There are no bickering and no separation, whether it be"
+    },
+    {
+      "timestamp": [
+        66.38,
+        72.28
+      ],
+      "text": " country lines and such. All of that is all melded together. I think that's a future society where"
+    },
+    {
+      "timestamp": [
+        72.28,
+        76.92
+      ],
+      "text": " we're all looking at each other. We're just people from Earth, Terrans, Terra, whatever you want to"
+    },
+    {
+      "timestamp": [
+        76.92,
+        82.34
+      ],
+      "text": " call it. We're from Mars. We're Martians and such. I don't think any of these examples really said"
+    },
+    {
+      "timestamp": [
+        82.34,
+        89.86
+      ],
+      "text": " that all these people would be concluded as one giant group aka the whole planet in case in point"
+    },
+    {
+      "timestamp": [
+        89.86,
+        96.18
+      ],
+      "text": " um for example one of them was small i think it was the sixth one i used like small urban"
+    },
+    {
+      "timestamp": [
+        96.82,
+        110.34
+      ],
+      "text": " communities in low tech like that no need for separation"
+    }
+  ]
+}

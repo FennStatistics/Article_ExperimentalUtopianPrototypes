@@ -1,0 +1,164 @@
+{
+  "audio_file": "69601b75e222e16eba858689_audio_ranking_explanation_1780422174912.webm",
+  "transcript": " oh yeah as a man that follows christ obviously you know the religious utopia you know i think that um the teachings in the bible the followings of christ uh teachings of christ as well i mean that's i mean it's all right there you know if you read it it's it's all right there you know it's how to live a good life it's all right there now i'm gonna go with an institute institutional utopia as the bottom one because i think back at like stalin's regime hitler's regime um you know they were they were branded as socialist and communist but they were authoritarian you know they were they were institutional right they were um built around fear um but you know the futurist utopia going up to second um you know who doesn't watch a sci-fi film and think wow that's that's cool that's cool and you know how did they get there well by focusing on science and innovation modern green utopia seems very nice right now especially where we're at um in this world with global warming and resource resources being scarce um you know there's still rampant starvation in countries like africa um some asian countries struggle with that as well primitivist utopia low tech and small scale seems great until you know you need a surgery that is so delicate that only you know someone operating a, um, uh, mechanical or robotic interface can do, you know, that's, you know, and if it's, uh, if they're trying to keep things low tech and only depend on, you know, technology when needed, then something like that, even if it does exist in that utopia might not be in working enough order to be reliable, uh, AI centered utopia just doesn't seem great i just think about terminator i think about um a psychopaths um kind of an underrated anime kind of uh delves into that as well um ergo proxy another anime kind of deals with that kind of in a way a moral commonwealth well who decides what is moral what is not you know as humans we uh we have sin we can't decide that for ourselves you know so yeah",
+  "language": "unknown",
+  "processing_time_seconds": 32.899162,
+  "timestamp": "2026-06-08T08:54:00.500711",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        6.08
+      ],
+      "text": " oh yeah as a man that follows christ obviously you know the religious utopia you know i think"
+    },
+    {
+      "timestamp": [
+        6.08,
+        11.76
+      ],
+      "text": " that um the teachings in the bible the followings of christ uh teachings of christ as well i mean"
+    },
+    {
+      "timestamp": [
+        11.76,
+        18.48
+      ],
+      "text": " that's i mean it's all right there you know if you read it it's it's all right there you know it's"
+    },
+    {
+      "timestamp": [
+        19.44,
+        27.52
+      ],
+      "text": " how to live a good life it's all right there now i'm gonna go with an institute institutional"
+    },
+    {
+      "timestamp": [
+        27.52,
+        36.74
+      ],
+      "text": " utopia as the bottom one because i think back at like stalin's regime hitler's regime um you know"
+    },
+    {
+      "timestamp": [
+        36.74,
+        42.18
+      ],
+      "text": " they were they were branded as socialist and communist but they were authoritarian you know"
+    },
+    {
+      "timestamp": [
+        42.18,
+        53.26
+      ],
+      "text": " they were they were institutional right they were um built around fear um but"
+    },
+    {
+      "timestamp": [
+        53.26,
+        61.84
+      ],
+      "text": " you know the futurist utopia going up to second um you know who doesn't watch a sci-fi film and"
+    },
+    {
+      "timestamp": [
+        61.84,
+        66.54
+      ],
+      "text": " think wow that's that's cool that's cool and you know how did they get there well by focusing on"
+    },
+    {
+      "timestamp": [
+        66.54,
+        71.96
+      ],
+      "text": " science and innovation modern green utopia seems very nice right now especially where we're at"
+    },
+    {
+      "timestamp": [
+        71.96,
+        77.12
+      ],
+      "text": " um in this world with global warming and resource"
+    },
+    {
+      "timestamp": [
+        77.12,
+        84.48
+      ],
+      "text": " resources being scarce um you know there's still rampant starvation in countries like africa"
+    },
+    {
+      "timestamp": [
+        84.48,
+        92.68
+      ],
+      "text": " um some asian countries struggle with that as well primitivist utopia low tech and small scale"
+    },
+    {
+      "timestamp": [
+        92.68,
+        99.34
+      ],
+      "text": " seems great until you know you need a surgery that is so delicate that only you know someone"
+    },
+    {
+      "timestamp": [
+        99.34,
+        107.22
+      ],
+      "text": " operating a, um, uh, mechanical or robotic interface can do, you know, that's, you know,"
+    },
+    {
+      "timestamp": [
+        107.22,
+        112.2
+      ],
+      "text": " and if it's, uh, if they're trying to keep things low tech and only depend on, you know,"
+    },
+    {
+      "timestamp": [
+        112.2,
+        117.1
+      ],
+      "text": " technology when needed, then something like that, even if it does exist in that utopia"
+    },
+    {
+      "timestamp": [
+        117.1,
+        125.88
+      ],
+      "text": " might not be in working enough order to be reliable, uh, AI centered utopia just doesn't"
+    },
+    {
+      "timestamp": [
+        125.88,
+        135.52
+      ],
+      "text": " seem great i just think about terminator i think about um a psychopaths um kind of an underrated"
+    },
+    {
+      "timestamp": [
+        135.52,
+        142.0
+      ],
+      "text": " anime kind of uh delves into that as well um ergo proxy another anime kind of deals with that"
+    },
+    {
+      "timestamp": [
+        142.0,
+        149.9
+      ],
+      "text": " kind of in a way a moral commonwealth well who decides what is moral what is not you know as"
+    },
+    {
+      "timestamp": [
+        149.9,
+        156.46
+      ],
+      "text": " humans we uh we have sin we can't decide that for ourselves you know so yeah"
+    }
+  ]
+}

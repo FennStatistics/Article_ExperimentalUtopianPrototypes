@@ -1,0 +1,31 @@
+{
+  "audio_file": "691ca2d38b8a43121da1e781_audio_missing_utopia_1780399412242.webm",
+  "transcript": " I think what was missing for me in this would be discussions of economic equality. I understand that resources are limited, but I can't imagine a society where money is not important for, you know, housing, medical care, things like that. So I guess that if I were to add anything, I would add some sort of financial safety net or quality that would allow there to be less of a divide between classes.",
+  "language": "unknown",
+  "processing_time_seconds": 9.28644,
+  "timestamp": "2026-06-08T08:47:46.133584",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.3
+      ],
+      "text": " I think what was missing for me in this would be discussions of economic equality."
+    },
+    {
+      "timestamp": [
+        9.8,
+        26.56
+      ],
+      "text": " I understand that resources are limited, but I can't imagine a society where money is not important for, you know, housing, medical care, things like that."
+    },
+    {
+      "timestamp": [
+        26.56,
+        50.76
+      ],
+      "text": " So I guess that if I were to add anything, I would add some sort of financial safety net or quality that would allow there to be less of a divide between classes."
+    }
+  ]
+}

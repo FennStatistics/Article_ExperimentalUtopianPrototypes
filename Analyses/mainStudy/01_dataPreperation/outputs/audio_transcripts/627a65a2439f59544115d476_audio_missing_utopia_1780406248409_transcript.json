@@ -1,0 +1,24 @@
+{
+  "audio_file": "627a65a2439f59544115d476_audio_missing_utopia_1780406248409.webm",
+  "transcript": " Um, something I was, like, taking into was what could, you know, futurely help us evolve in the years, what could help us, and what, um, could restrict us over the years, um,",
+  "language": "unknown",
+  "processing_time_seconds": 5.960932,
+  "timestamp": "2026-06-08T08:24:45.419432",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.82
+      ],
+      "text": " Um, something I was, like, taking into was what could, you know, futurely help us evolve"
+    },
+    {
+      "timestamp": [
+        10.82,
+        25.44
+      ],
+      "text": " in the years, what could help us, and what, um, could restrict us over the years, um,"
+    }
+  ]
+}

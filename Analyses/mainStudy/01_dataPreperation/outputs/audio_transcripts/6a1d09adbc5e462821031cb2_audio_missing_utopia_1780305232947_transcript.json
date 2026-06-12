@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a1d09adbc5e462821031cb2_audio_missing_utopia_1780305232947.webm",
+  "transcript": " Um, yeah, an important value for me would be, um, the gay thing, um, I'm a homosexual, so I don't know, I just have fear of any other society as, um, with good reason, obviously gay people don't do too well in, um, our current society, well, I mean, we do pretty good here in america but you know as the world as a whole no um so the life of the life of me in general just alone being gay i mean they might put me right to death so yeah that would really matter to me personally",
+  "language": "unknown",
+  "processing_time_seconds": 10.623211,
+  "timestamp": "2026-06-08T11:23:13.297175",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.5
+      ],
+      "text": " Um, yeah, an important value for me would be, um, the gay thing, um, I'm a homosexual,"
+    },
+    {
+      "timestamp": [
+        11.5,
+        19.82
+      ],
+      "text": " so I don't know, I just have fear of any other society as, um, with good reason, obviously"
+    },
+    {
+      "timestamp": [
+        19.82,
+        27.68
+      ],
+      "text": " gay people don't do too well in, um, our current society, well, I mean, we do pretty good here"
+    },
+    {
+      "timestamp": [
+        27.68,
+        37.12
+      ],
+      "text": " in america but you know as the world as a whole no um so the life of the life of me in general"
+    },
+    {
+      "timestamp": [
+        37.12,
+        42.48
+      ],
+      "text": " just alone being gay i mean they might put me right to death so"
+    },
+    {
+      "timestamp": [
+        47.36,
+        57.52
+      ],
+      "text": " yeah that would really matter to me personally"
+    }
+  ]
+}

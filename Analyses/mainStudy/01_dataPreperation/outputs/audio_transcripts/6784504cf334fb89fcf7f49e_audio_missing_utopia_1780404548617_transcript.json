@@ -1,0 +1,24 @@
+{
+  "audio_file": "6784504cf334fb89fcf7f49e_audio_missing_utopia_1780404548617.webm",
+  "transcript": " I feel like one that was missing, which it kind of goes into the morality, but just a society full of kindness and respect and fairness, regardless of individuals' backgrounds, where everyone can have access to good quality education, health care, and just a lot of opportunities to succeed, where people truly support one another. and a safe space.",
+  "language": "unknown",
+  "processing_time_seconds": 8.722084,
+  "timestamp": "2026-06-08T08:47:06.102065",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.98
+      ],
+      "text": " I feel like one that was missing, which it kind of goes into the morality, but just a society full of kindness and respect and fairness, regardless of individuals' backgrounds, where everyone can have access to good quality education, health care, and just a lot of opportunities to succeed, where people truly support one another."
+    },
+    {
+      "timestamp": [
+        26.98,
+        31.22
+      ],
+      "text": " and a safe space."
+    }
+  ]
+}

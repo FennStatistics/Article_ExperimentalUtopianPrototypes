@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a1ec1fad25db28c877281e4_audio_missing_utopia_1780486661166.webm",
+  "transcript": " Nothing, nothing much is missing, but I, but if I may insist, I think we need to focus more on the future, the future of AI. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 5.383273,
+  "timestamp": "2026-06-08T11:37:51.977677",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.98
+      ],
+      "text": " Nothing, nothing much is missing, but I, but if I may insist, I think we need to focus more on the future, the future of AI. Thank you."
+    }
+  ]
+}

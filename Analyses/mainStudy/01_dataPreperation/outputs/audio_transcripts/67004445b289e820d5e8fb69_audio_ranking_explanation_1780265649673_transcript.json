@@ -1,0 +1,45 @@
+{
+  "audio_file": "67004445b289e820d5e8fb69_audio_ranking_explanation_1780265649673.webm",
+  "transcript": " I chose my rankings because I'd rather live in a futuristic utopia where it's more relied on science and innovation, whereas the moral commonwealth preferred society is my least favorite because I would not want to rely on people and how they act and their inner morality. I would rather just prefer to stick with science because it's a definite answer and you know how it will turn out.",
+  "language": "unknown",
+  "processing_time_seconds": 7.004819,
+  "timestamp": "2026-06-08T08:40:06.877242",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.28
+      ],
+      "text": " I chose my rankings because I'd rather live in a futuristic utopia where it's more relied"
+    },
+    {
+      "timestamp": [
+        5.28,
+        10.7
+      ],
+      "text": " on science and innovation, whereas the moral commonwealth preferred society is my least"
+    },
+    {
+      "timestamp": [
+        10.7,
+        16.76
+      ],
+      "text": " favorite because I would not want to rely on people and how they act and their inner morality."
+    },
+    {
+      "timestamp": [
+        17.22,
+        21.28
+      ],
+      "text": " I would rather just prefer to stick with science because it's a definite answer and you know"
+    },
+    {
+      "timestamp": [
+        21.28,
+        21.9
+      ],
+      "text": " how it will turn out."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "audio_file": "6a1ca3d3b59fba790e76cabb_audio_ranking_explanation_1780286589071.webm",
+  "transcript": " For the first society, I resonated with it the most because I'm big into philosophy. I'm actually going to probably take some philosophy classes along with my major in college. And I find it really interesting. I think it'd be really cool living in a society where it's governed by inner morality. the utopia i'm also super into technology so it's just like something interesting for me rule of law um i used to debate for actually for four or five years so that'd be cool to live in for the low tech and small scale i think that would allow people to spend much more time outdoors and it would still have some tech obviously since it says low tech but due to that it would look i I think a perfect balance of technology as well as embracing the outdoors. Data-driven governance, honestly, for these last few societies, I didn't like them at all. I think that would be kind of odd, just tying everyone to a number. Modern, green, utopia, sustainable, and secure. I think that's slightly worse than data-driven governance because, I don't know, I'm not super keen on caring for the environment. and for faith-based order i think that's the reason it's the last is it's like the character opposite of the first one uh inner morality and i i don't think it would be cool to live in that type of society",
+  "language": "unknown",
+  "processing_time_seconds": 20.984411,
+  "timestamp": "2026-06-08T11:20:36.458092",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        1.0,
+        9.88
+      ],
+      "text": " For the first society, I resonated with it the most because I'm big into philosophy."
+    },
+    {
+      "timestamp": [
+        10.32,
+        15.32
+      ],
+      "text": " I'm actually going to probably take some philosophy classes along with my major in college."
+    },
+    {
+      "timestamp": [
+        16.44,
+        19.78
+      ],
+      "text": " And I find it really interesting."
+    },
+    {
+      "timestamp": [
+        19.94,
+        24.88
+      ],
+      "text": " I think it'd be really cool living in a society where it's governed by inner morality."
+    },
+    {
+      "timestamp": [
+        25.64,
+        24.88
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.88,
+        38.44
+      ],
+      "text": " the utopia i'm also super into technology so it's just like something interesting for me rule of law um i used to debate for actually for four or five years so that'd be cool to live in"
+    },
+    {
+      "timestamp": [
+        38.44,
+        45.36
+      ],
+      "text": " for the low tech and small scale i think that would allow people to spend much more time outdoors and"
+    },
+    {
+      "timestamp": [
+        45.36,
+        51.74
+      ],
+      "text": " it would still have some tech obviously since it says low tech but due to that it would look i"
+    },
+    {
+      "timestamp": [
+        51.74,
+        55.78
+      ],
+      "text": " I think a perfect balance of technology as well as embracing the outdoors."
+    },
+    {
+      "timestamp": [
+        56.68,
+        61.84
+      ],
+      "text": " Data-driven governance, honestly, for these last few societies, I didn't like them at all."
+    },
+    {
+      "timestamp": [
+        62.18,
+        65.54
+      ],
+      "text": " I think that would be kind of odd, just tying everyone to a number."
+    },
+    {
+      "timestamp": [
+        66.38,
+        68.58
+      ],
+      "text": " Modern, green, utopia, sustainable, and secure."
+    },
+    {
+      "timestamp": [
+        69.12,
+        77.36
+      ],
+      "text": " I think that's slightly worse than data-driven governance because, I don't know, I'm not super keen on caring for the environment."
+    },
+    {
+      "timestamp": [
+        77.84,
+        77.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        82.18,
+        86.74
+      ],
+      "text": " and for faith-based order i think that's the reason it's the last is it's like the character opposite of the first one uh inner morality and i i don't think it would be cool"
+    },
+    {
+      "timestamp": [
+        86.74,
+        88.24
+      ],
+      "text": " to live in that type of society"
+    }
+  ]
+}

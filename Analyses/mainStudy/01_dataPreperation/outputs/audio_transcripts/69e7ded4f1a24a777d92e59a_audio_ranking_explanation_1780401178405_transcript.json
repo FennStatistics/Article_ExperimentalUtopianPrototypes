@@ -1,0 +1,80 @@
+{
+  "audio_file": "69e7ded4f1a24a777d92e59a_audio_ranking_explanation_1780401178405.webm",
+  "transcript": " So the reason that I chose this order is basically because I knew I wanted AI-centered utopia to be at the bottom. I'm just not a huge fan of AI, and I think letting it govern a society is extremely dangerous. I think a religious-based utopia is also extremely dangerous to the greater good. Um, and then as we work up from lowest to highest, I think it becomes more sustainable for a society to, um, thrive on some of these ideas. I think, um, having a society that's sustainable and secure is extremely important. While I also think that innovation helps push a society forward. Um, I believe that the rule of law is important, which is why I placed it above intermorality. I do think there has to be rules, um, to create structure. So that's basically why I chose the order that I did.",
+  "language": "unknown",
+  "processing_time_seconds": 14.883219,
+  "timestamp": "2026-06-08T09:41:09.104509",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.98,
+        10.66
+      ],
+      "text": " So the reason that I chose this order is basically because I knew I wanted AI-centered utopia to be at the bottom."
+    },
+    {
+      "timestamp": [
+        11.12,
+        16.42
+      ],
+      "text": " I'm just not a huge fan of AI, and I think letting it govern a society is extremely dangerous."
+    },
+    {
+      "timestamp": [
+        17.02,
+        22.92
+      ],
+      "text": " I think a religious-based utopia is also extremely dangerous to the greater good."
+    },
+    {
+      "timestamp": [
+        23.64,
+        22.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        28.84,
+        34.12
+      ],
+      "text": " Um, and then as we work up from lowest to highest, I think it becomes more sustainable for a society to, um, thrive on some of these ideas."
+    },
+    {
+      "timestamp": [
+        34.38,
+        39.7
+      ],
+      "text": " I think, um, having a society that's sustainable and secure is extremely important."
+    },
+    {
+      "timestamp": [
+        39.7,
+        43.3
+      ],
+      "text": " While I also think that innovation helps push a society forward."
+    },
+    {
+      "timestamp": [
+        43.88,
+        49.38
+      ],
+      "text": " Um, I believe that the rule of law is important, which is why I placed it above intermorality."
+    },
+    {
+      "timestamp": [
+        49.38,
+        52.8
+      ],
+      "text": " I do think there has to be rules, um, to create structure."
+    },
+    {
+      "timestamp": [
+        52.92,
+        55.8
+      ],
+      "text": " So that's basically why I chose the order that I did."
+    }
+  ]
+}

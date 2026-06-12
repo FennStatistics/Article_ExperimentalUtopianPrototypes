@@ -1,0 +1,38 @@
+{
+  "audio_file": "5c40e28ffe87360001a5677e_audio_missing_utopia_1780408626900.webm",
+  "transcript": " i believe one thing that was missing from each um future of the society is just happiness um i feel like the happiness goes a long way in life and that people need to learn how to have joy and happiness to get through things in life um i feel like that one of um everything else was driven on You know, technology, the world, sustainability, but sometimes happiness is all the person need.",
+  "language": "unknown",
+  "processing_time_seconds": 9.384486,
+  "timestamp": "2026-06-08T08:13:11.004535",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.76
+      ],
+      "text": " i believe one thing that was missing from each um future of the society is just happiness um i feel"
+    },
+    {
+      "timestamp": [
+        9.76,
+        15.6
+      ],
+      "text": " like the happiness goes a long way in life and that people need to learn how to have joy and"
+    },
+    {
+      "timestamp": [
+        15.6,
+        24.64
+      ],
+      "text": " happiness to get through things in life um i feel like that one of um everything else was driven on"
+    },
+    {
+      "timestamp": [
+        24.64,
+        31.58
+      ],
+      "text": " You know, technology, the world, sustainability, but sometimes happiness is all the person need."
+    }
+  ]
+}

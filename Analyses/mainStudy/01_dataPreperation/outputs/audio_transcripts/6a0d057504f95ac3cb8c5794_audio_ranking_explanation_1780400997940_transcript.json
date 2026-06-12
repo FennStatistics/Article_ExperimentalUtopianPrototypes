@@ -1,0 +1,192 @@
+{
+  "audio_file": "6a0d057504f95ac3cb8c5794_audio_ranking_explanation_1780400997940.webm",
+  "transcript": " um i mean i rank them these way because i see science and innovation as the most interesting and also most viable way forward into a utopia because it's the science and innovation that drives a lot of designs that better our lives better the lives of everyone in the community help to reduce inequalities and make everyone's life easier, more sustainable, and better in that way. I next chose the modern green utopia, as I felt that was another very innovative one, working on sustainable technologies, integrating ourselves much more with nature and green practices, I think is important and something that I found to be a world I would like to live in, where it's clean and we still have a lot of technology and innovation, but we're doing it all with consciousness towards the world. Next, I chose the moral commonwealth, which I really liked, but I liked the other two more. I thought this was a very utopian idea and one that would obviously, if worked correctly, create a very great society where everyone is just acting as they should. However, it's still difficult to imagine that with the way that we act in our world today. Next, I chose the primitive utopia. I think I would really enjoy this one as well. I didn't see anything wrong with it. Very different than the other ones above that I put first, but also a very viable option where people would be living good lives and the planet would not be getting ruined in the process. Next, I chose the AI-centered utopia. I think this is actually one of those ideas that could either be really good or really bad. And if it was implemented correctly and trained correctly, I think it could reduce a lot of bias and unwanted racism, sexism, and other discrimination in institutions. So I'm a little cautious of it, but I do think that if it ran correctly, it could be a very interesting and successful idea. Then I chose the institutional utopia. I'm not against institutions, but this one seems slightly strict, and I just thought the other ones were even more interesting and innovative ideas for the future, and same with the religious utopia. I didn't exactly see it as a utopia, but instead like more of a past society that it would be hard to unify everybody over a single idea like that in a society. And so I'm not against it by any means, but I just found the other ones more interesting.",
+  "language": "unknown",
+  "processing_time_seconds": 35.242032,
+  "timestamp": "2026-06-08T10:42:21.266886",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.26
+      ],
+      "text": " um i mean i rank them these way because i see science and innovation as the most interesting"
+    },
+    {
+      "timestamp": [
+        9.26,
+        18.0
+      ],
+      "text": " and also most viable way forward into a utopia because it's the science and innovation that"
+    },
+    {
+      "timestamp": [
+        18.0,
+        25.0
+      ],
+      "text": " drives a lot of designs that better our lives better the lives of everyone in the community"
+    },
+    {
+      "timestamp": [
+        25.0,
+        32.88
+      ],
+      "text": " help to reduce inequalities and make everyone's life easier, more sustainable, and better in that"
+    },
+    {
+      "timestamp": [
+        32.88,
+        38.3
+      ],
+      "text": " way. I next chose the modern green utopia, as I felt that was another very innovative one,"
+    },
+    {
+      "timestamp": [
+        38.64,
+        46.54
+      ],
+      "text": " working on sustainable technologies, integrating ourselves much more with nature and green"
+    },
+    {
+      "timestamp": [
+        46.54,
+        53.78
+      ],
+      "text": " practices, I think is important and something that I found to be a world I would like to live in,"
+    },
+    {
+      "timestamp": [
+        53.78,
+        59.26
+      ],
+      "text": " where it's clean and we still have a lot of technology and innovation, but we're doing it all"
+    },
+    {
+      "timestamp": [
+        59.26,
+        64.84
+      ],
+      "text": " with consciousness towards the world. Next, I chose the moral commonwealth, which"
+    },
+    {
+      "timestamp": [
+        64.84,
+        71.72
+      ],
+      "text": " I really liked, but I liked the other two more. I thought this was a very utopian idea"
+    },
+    {
+      "timestamp": [
+        71.72,
+        80.64
+      ],
+      "text": " and one that would obviously, if worked correctly, create a very great society where everyone is just"
+    },
+    {
+      "timestamp": [
+        80.64,
+        85.94
+      ],
+      "text": " acting as they should. However, it's still difficult to imagine that with the way that"
+    },
+    {
+      "timestamp": [
+        85.94,
+        92.54
+      ],
+      "text": " we act in our world today. Next, I chose the primitive utopia. I think I would really"
+    },
+    {
+      "timestamp": [
+        92.54,
+        99.18
+      ],
+      "text": " enjoy this one as well. I didn't see anything wrong with it. Very different than the other"
+    },
+    {
+      "timestamp": [
+        99.18,
+        105.52
+      ],
+      "text": " ones above that I put first, but also a very viable option where people would be living good"
+    },
+    {
+      "timestamp": [
+        105.52,
+        112.02
+      ],
+      "text": " lives and the planet would not be getting ruined in the process. Next, I chose the AI-centered"
+    },
+    {
+      "timestamp": [
+        112.02,
+        117.74
+      ],
+      "text": " utopia. I think this is actually one of those ideas that could either be really good or really"
+    },
+    {
+      "timestamp": [
+        117.74,
+        123.62
+      ],
+      "text": " bad. And if it was implemented correctly and trained correctly, I think it could reduce a lot"
+    },
+    {
+      "timestamp": [
+        123.62,
+        132.68
+      ],
+      "text": " of bias and unwanted racism, sexism, and other discrimination in institutions. So I'm a little"
+    },
+    {
+      "timestamp": [
+        132.68,
+        137.68
+      ],
+      "text": " cautious of it, but I do think that if it ran correctly, it could be a very interesting and"
+    },
+    {
+      "timestamp": [
+        137.68,
+        144.38
+      ],
+      "text": " successful idea. Then I chose the institutional utopia. I'm not against institutions, but this"
+    },
+    {
+      "timestamp": [
+        144.38,
+        150.2
+      ],
+      "text": " one seems slightly strict, and I just thought the other ones were even more interesting and"
+    },
+    {
+      "timestamp": [
+        150.2,
+        155.34
+      ],
+      "text": " innovative ideas for the future, and same with the religious utopia. I didn't exactly see it"
+    },
+    {
+      "timestamp": [
+        155.34,
+        164.46
+      ],
+      "text": " as a utopia, but instead like more of a past society that it would be hard to unify everybody"
+    },
+    {
+      "timestamp": [
+        164.46,
+        171.38
+      ],
+      "text": " over a single idea like that in a society. And so I'm not against it by any means, but"
+    },
+    {
+      "timestamp": [
+        171.38,
+        173.6
+      ],
+      "text": " I just found the other ones more interesting."
+    }
+  ]
+}

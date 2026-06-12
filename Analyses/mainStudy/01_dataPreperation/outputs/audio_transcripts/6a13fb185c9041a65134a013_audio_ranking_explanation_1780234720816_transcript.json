@@ -1,0 +1,430 @@
+{
+  "audio_file": "6a13fb185c9041a65134a013_audio_ranking_explanation_1780234720816.webm",
+  "transcript": " Alright, so let's go over this. I chose primitivist utopia first because there's more of like a community, which I think is important when it comes to primitivist economics and living. and lower tech, um, helps people understand how to kind of get back to our roots and work together a little more efficiently and effectively and morally. I chose modern green utopia a second. Um, because it's, uh, I feel like the world would be a little more conscious of the world's resources, and that would be surrounded around that, and it would be more effective that way into maintaining and keeping the resources that we have. I chose moral commonwealth for number three, simply because not that I truly believe that humanity is capable of living in that type of um, utopia, but, um, because humans are sinful and that's, um, it's not exactly a, uh, realistic look or a realistic, uh, future that I can see, but I put it as three as because it is probably my third most preferred not that i'm saying it's the most logical or that it's the most um probable but it is a highly preferred option the futurist utopia is based off science and innovation is placed at number four because um it's not the the best my not it's not my most preferred but it's not my least preferred it's like somewhere like a little bit right in the middle it um science and innovation um have always kind of moved humanity forward thus far that but also it has its setbacks because the more innovative you get the more resources you use and so if we're in a world with low resources and everyone's still trying to strive for new innovation, new science, like, uh, science, uh, and maybe the science, uh, um, the, the increase in understanding of science and new learnings and discoveries may, uh, actually help in preservation of resources, but it's, um, it seems to be more consuming as of right now. So that's why I based my decision off that. The fifth religious utopia, faith-based order is all dependence on the religion, I guess. Um, it's, it's lower on the list because that's my concern is like, what, what, what type of religion are we talking here? Cause there could be a very, um, sacrificial religious where there's, you know, there's, um, it depends on what the religion is, and what people believe because there's a very drastic extent that morality and choices and discipline and punishments for actions can go. It could be very extreme, which could in terms be not the most peaceful way of life. Or it could be completely the opposite, and it could be a very loving and caring and righteous religion that is very communal and very healthy for the entirety of society. So it's kind of a \u2013 it's like a two-faced coin, I feel like. So that's why it's lower on the list. The institutional utopia is number six. Rule of law, I feel like it's kind of the one that we live in right now. it has its things that work it has the things that doesn't work like the prison systems that are probably on the side of things that it has a very drastic cause and effect which costs resources and which kind of put that stress on humanity as far as their rules, and they can be broken. And if you do break them, then there will be severe punishment. So it's like if those rules were like in these other utopias, they still probably have stuff like that. You punish, there's rules, and you can be punished for them if you break them. Um, so it seems kind of like that's, uh, I don't know. It's preferable. I mean, it's where we live right now, but it has its drawbacks and it's obviously not exactly saving resources. So, uh, the AI centered utopia just is at the last, it's at the bottom of the list because it's And everyone kind of remembers the movie Terminator or The Matrix and stuff. And I know it's kind of cliche, but it's basically describing that, you know, an AI-centered utopia where humanity is run by AI, artificial intelligence. It seems like more of like human needs are going to be overlooked for hard just rules as far as like it doesn't matter if humanity has to take some drawbacks in order to save the planet. It looks like humanity is in the resources The resources are going to be protected And I feel like it's going to have a little bit more of a crackdown On humanity and the comfortability of living",
+  "language": "unknown",
+  "processing_time_seconds": 73.408226,
+  "timestamp": "2026-06-08T10:58:24.213709",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.34
+      ],
+      "text": " Alright, so let's go over this. I chose primitivist utopia first because there's more of like a community, which I think is important when it comes to primitivist economics and living."
+    },
+    {
+      "timestamp": [
+        26.96,
+        26.34
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.54,
+        42.98
+      ],
+      "text": " and lower tech, um, helps people understand how to kind of get back to our roots and work together a little more efficiently and effectively and morally. I chose modern green utopia a second."
+    },
+    {
+      "timestamp": [
+        42.98,
+        55.18
+      ],
+      "text": " Um, because it's, uh, I feel like the world would be a little more conscious of the world's"
+    },
+    {
+      "timestamp": [
+        55.18,
+        58.64
+      ],
+      "text": " resources, and that would be"
+    },
+    {
+      "timestamp": [
+        58.64,
+        63.18
+      ],
+      "text": " surrounded around that, and it would be more effective that way"
+    },
+    {
+      "timestamp": [
+        63.18,
+        66.92
+      ],
+      "text": " into maintaining and keeping"
+    },
+    {
+      "timestamp": [
+        66.92,
+        70.82
+      ],
+      "text": " the resources that we have. I chose moral"
+    },
+    {
+      "timestamp": [
+        70.82,
+        75.02
+      ],
+      "text": " commonwealth for number three, simply because"
+    },
+    {
+      "timestamp": [
+        75.02,
+        78.96
+      ],
+      "text": " not that I truly believe that humanity"
+    },
+    {
+      "timestamp": [
+        78.96,
+        82.12
+      ],
+      "text": " is capable of living in that type of"
+    },
+    {
+      "timestamp": [
+        82.12,
+        96.96
+      ],
+      "text": " um, utopia, but, um, because humans are sinful and that's, um, it's not exactly a, uh,"
+    },
+    {
+      "timestamp": [
+        99.02,
+        107.2
+      ],
+      "text": " realistic look or a realistic, uh, future that I can see, but I put it as three as because it is"
+    },
+    {
+      "timestamp": [
+        107.2,
+        113.24
+      ],
+      "text": " probably my third most preferred not that i'm saying it's the most logical or that it's the"
+    },
+    {
+      "timestamp": [
+        113.24,
+        122.5
+      ],
+      "text": " most um probable but it is a highly preferred option the futurist utopia is based off science"
+    },
+    {
+      "timestamp": [
+        122.5,
+        130.78
+      ],
+      "text": " and innovation is placed at number four because um it's not the the best my not it's not my most"
+    },
+    {
+      "timestamp": [
+        130.78,
+        134.04
+      ],
+      "text": " preferred but it's not my least preferred it's like somewhere like a little bit right in the"
+    },
+    {
+      "timestamp": [
+        134.04,
+        144.32
+      ],
+      "text": " middle it um science and innovation um have always kind of moved humanity forward thus far"
+    },
+    {
+      "timestamp": [
+        144.32,
+        153.04
+      ],
+      "text": " that but also it has its setbacks because the more innovative you get the more resources you use"
+    },
+    {
+      "timestamp": [
+        153.04,
+        160.28
+      ],
+      "text": " and so if we're in a world with low resources and everyone's still trying to strive for new"
+    },
+    {
+      "timestamp": [
+        160.28,
+        169.12
+      ],
+      "text": " innovation, new science, like, uh, science, uh, and maybe the science, uh, um, the, the"
+    },
+    {
+      "timestamp": [
+        169.12,
+        175.96
+      ],
+      "text": " increase in understanding of science and new learnings and discoveries may, uh, actually"
+    },
+    {
+      "timestamp": [
+        175.96,
+        186.38
+      ],
+      "text": " help in preservation of resources, but it's, um, it seems to be more consuming as of right"
+    },
+    {
+      "timestamp": [
+        186.38,
+        192.38
+      ],
+      "text": " now. So that's why I based my decision off that. The fifth religious utopia, faith-based order"
+    },
+    {
+      "timestamp": [
+        192.38,
+        199.46
+      ],
+      "text": " is all dependence on the religion, I guess. Um, it's, it's lower on the list because that's my"
+    },
+    {
+      "timestamp": [
+        199.46,
+        205.46
+      ],
+      "text": " concern is like, what, what, what type of religion are we talking here? Cause there could be a very,"
+    },
+    {
+      "timestamp": [
+        205.46,
+        213.56
+      ],
+      "text": " um, sacrificial religious where there's, you know, there's, um, it depends on what the religion is,"
+    },
+    {
+      "timestamp": [
+        213.56,
+        220.54
+      ],
+      "text": " and what people believe because there's a very drastic extent that morality and choices"
+    },
+    {
+      "timestamp": [
+        220.54,
+        230.48
+      ],
+      "text": " and discipline and punishments for actions can go."
+    },
+    {
+      "timestamp": [
+        230.48,
+        243.36
+      ],
+      "text": " It could be very extreme, which could in terms be not the most peaceful way of life."
+    },
+    {
+      "timestamp": [
+        243.56,
+        260.1
+      ],
+      "text": " Or it could be completely the opposite, and it could be a very loving and caring and righteous religion that is very communal and very healthy for the entirety of society."
+    },
+    {
+      "timestamp": [
+        260.66,
+        264.34
+      ],
+      "text": " So it's kind of a \u2013 it's like a two-faced coin, I feel like."
+    },
+    {
+      "timestamp": [
+        264.78,
+        266.04
+      ],
+      "text": " So that's why it's lower on the list."
+    },
+    {
+      "timestamp": [
+        266.52,
+        268.58
+      ],
+      "text": " The institutional utopia is number six."
+    },
+    {
+      "timestamp": [
+        268.66,
+        271.34
+      ],
+      "text": " Rule of law, I feel like it's kind of the one that we live in right now."
+    },
+    {
+      "timestamp": [
+        272.74,
+        271.34
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        274.5,
+        276.58
+      ],
+      "text": " it has its things that work it has the things that doesn't work"
+    },
+    {
+      "timestamp": [
+        276.58,
+        279.84
+      ],
+      "text": " like the prison systems"
+    },
+    {
+      "timestamp": [
+        279.84,
+        282.2
+      ],
+      "text": " that are probably on the side of things that"
+    },
+    {
+      "timestamp": [
+        282.2,
+        285.18
+      ],
+      "text": " it has a very"
+    },
+    {
+      "timestamp": [
+        285.18,
+        288.28
+      ],
+      "text": " drastic cause and effect"
+    },
+    {
+      "timestamp": [
+        288.28,
+        290.86
+      ],
+      "text": " which costs resources"
+    },
+    {
+      "timestamp": [
+        290.86,
+        292.66
+      ],
+      "text": " and which"
+    },
+    {
+      "timestamp": [
+        292.66,
+        295.7
+      ],
+      "text": " kind of"
+    },
+    {
+      "timestamp": [
+        295.7,
+        300.32
+      ],
+      "text": " put that stress on humanity"
+    },
+    {
+      "timestamp": [
+        300.32,
+        305.2
+      ],
+      "text": " as far as their rules, and they can be broken."
+    },
+    {
+      "timestamp": [
+        305.48,
+        307.96
+      ],
+      "text": " And if you do break them, then there will be severe punishment."
+    },
+    {
+      "timestamp": [
+        307.96,
+        315.12
+      ],
+      "text": " So it's like if those rules were like in these other utopias,"
+    },
+    {
+      "timestamp": [
+        315.36,
+        319.5
+      ],
+      "text": " they still probably have stuff like that."
+    },
+    {
+      "timestamp": [
+        319.68,
+        324.32
+      ],
+      "text": " You punish, there's rules, and you can be punished for them if you break them."
+    },
+    {
+      "timestamp": [
+        327.36,
+        324.32
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        335.34,
+        342.1
+      ],
+      "text": " Um, so it seems kind of like that's, uh, I don't know. It's preferable. I mean, it's where we live right now, but it has its drawbacks and it's obviously not exactly saving resources. So,"
+    },
+    {
+      "timestamp": [
+        342.1,
+        348.18
+      ],
+      "text": " uh, the AI centered utopia just is at the last, it's at the bottom of the list because it's"
+    },
+    {
+      "timestamp": [
+        348.18,
+        357.28
+      ],
+      "text": " And everyone kind of remembers the movie Terminator or The Matrix and stuff."
+    },
+    {
+      "timestamp": [
+        357.56,
+        371.12
+      ],
+      "text": " And I know it's kind of cliche, but it's basically describing that, you know, an AI-centered utopia where humanity is run by AI, artificial intelligence."
+    },
+    {
+      "timestamp": [
+        371.12,
+        392.4
+      ],
+      "text": " It seems like more of like human needs are going to be overlooked for hard just rules as far as like it doesn't matter if humanity has to take some drawbacks in order to save the planet."
+    },
+    {
+      "timestamp": [
+        392.4,
+        396.4
+      ],
+      "text": " It looks like humanity is in the resources"
+    },
+    {
+      "timestamp": [
+        396.4,
+        399.2
+      ],
+      "text": " The resources are going to be protected"
+    },
+    {
+      "timestamp": [
+        399.2,
+        403.92
+      ],
+      "text": " And I feel like it's going to have a little bit more of a crackdown"
+    },
+    {
+      "timestamp": [
+        403.92,
+        407.84
+      ],
+      "text": " On humanity and the comfortability of living"
+    }
+  ]
+}

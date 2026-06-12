@@ -1,0 +1,52 @@
+{
+  "audio_file": "69c55b66d8ade7f9bd6109d6_audio_missing_utopia_1780381522944.webm",
+  "transcript": " None of the seven let ordinal people actually decide things together. I'm missing democratic participation like grid voting, debating and governing as communities. My utopia wouldn't be ruled by a high laws or weight. It wouldn't be messy, human and self-governing. That transparency and collective race matters most. That's what I didn't see.",
+  "language": "unknown",
+  "processing_time_seconds": 6.89851,
+  "timestamp": "2026-06-08T09:22:51.587967",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.6
+      ],
+      "text": " None of the seven let ordinal people actually decide things together."
+    },
+    {
+      "timestamp": [
+        6.6,
+        12.2
+      ],
+      "text": " I'm missing democratic participation like grid voting, debating and governing as communities."
+    },
+    {
+      "timestamp": [
+        12.2,
+        16.2
+      ],
+      "text": " My utopia wouldn't be ruled by a high laws or weight."
+    },
+    {
+      "timestamp": [
+        16.2,
+        20.3
+      ],
+      "text": " It wouldn't be messy, human and self-governing."
+    },
+    {
+      "timestamp": [
+        20.3,
+        23.9
+      ],
+      "text": " That transparency and collective race matters most."
+    },
+    {
+      "timestamp": [
+        23.9,
+        25.62
+      ],
+      "text": " That's what I didn't see."
+    }
+  ]
+}

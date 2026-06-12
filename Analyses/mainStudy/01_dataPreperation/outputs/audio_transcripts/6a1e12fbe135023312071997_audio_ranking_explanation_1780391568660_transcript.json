@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a1e12fbe135023312071997_audio_ranking_explanation_1780391568660.webm",
+  "transcript": " um I rank science and innovation as number one because I believe keeping um order in a science and orderly factual way instead of um ambiguous moral rules and um like faith-based principles can become a little tricky um I'm a big fan of sustainability so I that is my number two I feel the low tech and small scale sounds good in theory, but maybe wouldn't be as good in practice with a large group of people. I think the intermorality one, again, is good in theory, but has a lot of ambiguity as to what we declare as moral. um the rule of law one sounds a little hunger games-esque very strict so i don't think that would be um good for maintaining peace and happiness in society um on top of that i think data data driven governance by ai is nothing but bad um and then i think a faith-based order is as we've seen in society today, can be very dangerous and very oppressive. That one is below. That is, AI is below, or one above the religious one, because I am unsure of how bad the AI censored one could be, but we have seen how bad faith-based orders can be.",
+  "language": "unknown",
+  "processing_time_seconds": 19.185985,
+  "timestamp": "2026-06-08T11:30:59.905528",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.78
+      ],
+      "text": " um I rank science and innovation as number one because I believe keeping um order in a science"
+    },
+    {
+      "timestamp": [
+        9.78,
+        20.46
+      ],
+      "text": " and orderly factual way instead of um ambiguous moral rules and um like faith-based principles"
+    },
+    {
+      "timestamp": [
+        20.46,
+        26.6
+      ],
+      "text": " can become a little tricky um I'm a big fan of sustainability so I that is my number two"
+    },
+    {
+      "timestamp": [
+        26.6,
+        38.66
+      ],
+      "text": " I feel the low tech and small scale sounds good in theory, but maybe wouldn't be as good in practice with a large group of people."
+    },
+    {
+      "timestamp": [
+        39.34,
+        49.0
+      ],
+      "text": " I think the intermorality one, again, is good in theory, but has a lot of ambiguity as to what we declare as moral."
+    },
+    {
+      "timestamp": [
+        49.6,
+        49.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        58.3,
+        66.3
+      ],
+      "text": " um the rule of law one sounds a little hunger games-esque very strict so i don't think that would be um good for maintaining peace and happiness in society um on top of that i think"
+    },
+    {
+      "timestamp": [
+        66.3,
+        73.28
+      ],
+      "text": " data data driven governance by ai is nothing but bad um and then i think a faith-based order is"
+    },
+    {
+      "timestamp": [
+        73.28,
+        79.78
+      ],
+      "text": " as we've seen in society today, can be very dangerous and very oppressive. That one is below."
+    },
+    {
+      "timestamp": [
+        87.28,
+        94.74
+      ],
+      "text": " That is, AI is below, or one above the religious one, because I am unsure of how bad the AI"
+    },
+    {
+      "timestamp": [
+        94.74,
+        99.52
+      ],
+      "text": " censored one could be, but we have seen how bad faith-based orders can be."
+    }
+  ]
+}

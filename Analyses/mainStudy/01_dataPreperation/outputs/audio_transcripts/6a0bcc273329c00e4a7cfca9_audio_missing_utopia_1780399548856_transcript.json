@@ -1,0 +1,192 @@
+{
+  "audio_file": "6a0bcc273329c00e4a7cfca9_audio_missing_utopia_1780399548856.webm",
+  "transcript": " I do think there were some important values and approaches that were absent from all of these societies, namely an aspect of pluralism. I think that in any society, and I'm thinking, when I'm thinking about all these societies, I'm sort of thinking about them in terms of a global, unified system. Um, so I think that in, in, in that sort of context, one of the approaches that I think is missing from all these examples is pluralism. Um, that is like, you know, I think that there are elements of all these different sort of arrangements that I think are, um, beneficial when applied in different contexts, uh, across different times and different spaces like i think i you know talked about this earlier but you know i think for example the sort of green utopian society is a good stepping stone towards the moral commonwealth um i think that um there's just there's an element of well what's good for me might not be good for for thee um what's good in this part of the world might not work in another part of the world or in this economic or political context versus that one um and i think that that's something that any kind of um perfect future society will have to accept and be okay with they're gonna have to be okay with experimenting they're gonna have to be okay uh with establishing you know different kinds of zones where different kinds of possibilities can occur they're going to have to be okay with you know the free movement between different registers of control or of cooperation of domination etc i think that any kind of future society is going i have to be flexible almost above all else and i think that's just the element of of this flexibility and pluralism are the two sort of elements that i think are missing from all these different examples so yeah i don't think there's any any kind particular kind of society that's missing i still think i would rank them um exactly how i did before but i think with the additional caveat that um you know even in maybe not in the most perfect form which is i think the moral commonwealth would be the most perfect form of society and i think in that once you figure out what the core moral principles are and how to internalize these moral principles across the species essentially i don't think you really need to do any of this anymore but But when you're sort of building that up, you're going to have to make compromises and be flexible. And yeah, I think that that's sort of the main thing that was sort of absent from all these sort of examples.",
+  "language": "unknown",
+  "processing_time_seconds": 37.745459,
+  "timestamp": "2026-06-08T10:38:37.518185",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.12
+      ],
+      "text": " I do think there were some important values and approaches that were absent from all of these societies, namely an aspect of pluralism."
+    },
+    {
+      "timestamp": [
+        12.12,
+        27.86
+      ],
+      "text": " I think that in any society, and I'm thinking, when I'm thinking about all these societies, I'm sort of thinking about them in terms of a global, unified system."
+    },
+    {
+      "timestamp": [
+        28.6,
+        27.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.9,
+        38.0
+      ],
+      "text": " Um, so I think that in, in, in that sort of context, one of the approaches that I think is missing from all these examples is pluralism."
+    },
+    {
+      "timestamp": [
+        38.0,
+        44.74
+      ],
+      "text": " Um, that is like, you know, I think that there are elements of all these different sort of"
+    },
+    {
+      "timestamp": [
+        44.74,
+        55.24
+      ],
+      "text": " arrangements that I think are, um, beneficial when applied in different contexts, uh, across"
+    },
+    {
+      "timestamp": [
+        55.24,
+        62.62
+      ],
+      "text": " different times and different spaces like i think i you know talked about this earlier but you know"
+    },
+    {
+      "timestamp": [
+        62.62,
+        70.06
+      ],
+      "text": " i think for example the sort of green utopian society is a good stepping stone towards the"
+    },
+    {
+      "timestamp": [
+        70.06,
+        81.8
+      ],
+      "text": " moral commonwealth um i think that um there's just there's an element of well what's good for me"
+    },
+    {
+      "timestamp": [
+        81.8,
+        88.18
+      ],
+      "text": " might not be good for for thee um what's good in this part of the world might not work in another"
+    },
+    {
+      "timestamp": [
+        88.18,
+        94.5
+      ],
+      "text": " part of the world or in this economic or political context versus that one um and i think that that's"
+    },
+    {
+      "timestamp": [
+        94.5,
+        102.7
+      ],
+      "text": " something that any kind of um perfect future society will have to accept and be okay with"
+    },
+    {
+      "timestamp": [
+        102.7,
+        108.6
+      ],
+      "text": " they're gonna have to be okay with experimenting they're gonna have to be okay uh with establishing"
+    },
+    {
+      "timestamp": [
+        108.6,
+        115.02
+      ],
+      "text": " you know different kinds of zones where different kinds of possibilities can occur"
+    },
+    {
+      "timestamp": [
+        115.02,
+        125.66
+      ],
+      "text": " they're going to have to be okay with you know the free movement between different registers of"
+    },
+    {
+      "timestamp": [
+        125.66,
+        134.2
+      ],
+      "text": " control or of cooperation of domination etc i think that any kind of future society is going"
+    },
+    {
+      "timestamp": [
+        134.2,
+        140.86
+      ],
+      "text": " i have to be flexible almost above all else and i think that's just the element of of this"
+    },
+    {
+      "timestamp": [
+        140.86,
+        146.12
+      ],
+      "text": " flexibility and pluralism are the two sort of elements that i think are missing from all these"
+    },
+    {
+      "timestamp": [
+        146.12,
+        152.46
+      ],
+      "text": " different examples so yeah i don't think there's any any kind particular kind of society that's"
+    },
+    {
+      "timestamp": [
+        152.46,
+        159.68
+      ],
+      "text": " missing i still think i would rank them um exactly how i did before but i think with the additional"
+    },
+    {
+      "timestamp": [
+        159.68,
+        167.14
+      ],
+      "text": " caveat that um you know even in maybe not in the most perfect form which is i think the moral"
+    },
+    {
+      "timestamp": [
+        167.14,
+        172.12
+      ],
+      "text": " commonwealth would be the most perfect form of society and i think in that once you figure out"
+    },
+    {
+      "timestamp": [
+        172.12,
+        177.92
+      ],
+      "text": " what the core moral principles are and how to internalize these moral principles across"
+    },
+    {
+      "timestamp": [
+        177.92,
+        182.9
+      ],
+      "text": " the species essentially i don't think you really need to do any of this anymore but"
+    },
+    {
+      "timestamp": [
+        182.9,
+        191.94
+      ],
+      "text": " But when you're sort of building that up, you're going to have to make compromises and be flexible."
+    },
+    {
+      "timestamp": [
+        192.72,
+        202.74
+      ],
+      "text": " And yeah, I think that that's sort of the main thing that was sort of absent from all these sort of examples."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "audio_file": "6994b577aff7c16f28cb7589_audio_ranking_explanation_1780407963661.webm",
+  "transcript": " Yeah, I kind of feel that the religious utopia is the least desirable because everyone will have to conform to the chosen religion. It's kind of like the rule of law one, but AI is only slightly better than that because it's not like you're being forced to conform to any specific thing. I think that the modern green one is the best one. It's the one I most prefer because it aligns my beliefs and my goals for the world. It would be the best for the planet. The futurist one would be the second best because it would just do them. I rank them because I believe I rank them in terms of what would be the best good for most people. So it kind of follows down the scale. Yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 11.997833,
+  "timestamp": "2026-06-08T09:05:36.000653",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.84,
+        6.14
+      ],
+      "text": " Yeah, I kind of feel that the religious utopia is the least desirable"
+    },
+    {
+      "timestamp": [
+        6.14,
+        10.54
+      ],
+      "text": " because everyone will have to conform to the chosen religion."
+    },
+    {
+      "timestamp": [
+        10.8,
+        13.7
+      ],
+      "text": " It's kind of like the rule of law one,"
+    },
+    {
+      "timestamp": [
+        13.9,
+        16.98
+      ],
+      "text": " but AI is only slightly better than that"
+    },
+    {
+      "timestamp": [
+        16.98,
+        21.18
+      ],
+      "text": " because it's not like you're being forced to conform to any specific thing."
+    },
+    {
+      "timestamp": [
+        22.98,
+        26.66
+      ],
+      "text": " I think that the modern green one is the best one."
+    },
+    {
+      "timestamp": [
+        26.66,
+        32.54
+      ],
+      "text": " It's the one I most prefer because it aligns my beliefs and my goals for the world."
+    },
+    {
+      "timestamp": [
+        32.68,
+        33.72
+      ],
+      "text": " It would be the best for the planet."
+    },
+    {
+      "timestamp": [
+        34.68,
+        41.12
+      ],
+      "text": " The futurist one would be the second best because it would just do them."
+    },
+    {
+      "timestamp": [
+        41.2,
+        45.92
+      ],
+      "text": " I rank them because I believe I rank them in terms of what would be the best good for most people."
+    },
+    {
+      "timestamp": [
+        46.16,
+        47.92
+      ],
+      "text": " So it kind of follows down the scale."
+    },
+    {
+      "timestamp": [
+        48.86,
+        49.02
+      ],
+      "text": " Yeah."
+    }
+  ]
+}

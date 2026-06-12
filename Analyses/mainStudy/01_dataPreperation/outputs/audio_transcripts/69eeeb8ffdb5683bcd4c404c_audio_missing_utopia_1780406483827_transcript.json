@@ -1,0 +1,52 @@
+{
+  "audio_file": "69eeeb8ffdb5683bcd4c404c_audio_missing_utopia_1780406483827.webm",
+  "transcript": " Well, I think for a utopia to be possible, we would need to either abolish, you know, religion or either come up with some sort of compromise amongst all the religions, as well as some sort of agreed upon ultimate compromise in politics, you know, and there would need to be enough resources to maintain that society. And for an extra, how should I say, emphasis on scientific exploration, everything would need to be balanced. There needs to be checks and balances, different departments dedicated to overseeing each department that runs our society. And at the end of the day, everything's towards the people, beneficial for the people, and nothing more. That's what the ultimate utopian society would look like. I think, to me.",
+  "language": "unknown",
+  "processing_time_seconds": 13.746796,
+  "timestamp": "2026-06-08T09:50:09.960959",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.62
+      ],
+      "text": " Well, I think for a utopia to be possible, we would need to either abolish, you know, religion or either come up with some sort of compromise amongst all the religions, as well as some sort of agreed upon ultimate compromise in politics, you know, and there would need to be enough resources to maintain that society."
+    },
+    {
+      "timestamp": [
+        23.62,
+        34.42
+      ],
+      "text": " And for an extra, how should I say, emphasis on scientific exploration, everything would need to be balanced."
+    },
+    {
+      "timestamp": [
+        34.66,
+        42.18
+      ],
+      "text": " There needs to be checks and balances, different departments dedicated to overseeing each department that runs our society."
+    },
+    {
+      "timestamp": [
+        43.56,
+        49.82
+      ],
+      "text": " And at the end of the day, everything's towards the people, beneficial for the people, and nothing more."
+    },
+    {
+      "timestamp": [
+        50.24,
+        53.06
+      ],
+      "text": " That's what the ultimate utopian society would look like."
+    },
+    {
+      "timestamp": [
+        53.06,
+        54.54
+      ],
+      "text": " I think, to me."
+    }
+  ]
+}

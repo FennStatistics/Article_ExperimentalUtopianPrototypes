@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a1c7f66eee691b4c70c2d3e_audio_missing_utopia_1780262425260.webm",
+  "transcript": " Yeah, so in my future society, what I believe to be the most important is having, I think having a clear set of rules of what's right and wrong is quite important and not deviating from that based on certain scenarios just because of some of these certain circumstances. I think that's quite important. Having that written down in black and white. And unlike the U.S. government, which kind of can change its interpretation over time based on different people's interpretation of the law, I think it's important to have a clear law kind of of what's right and wrong. And obviously, over time, this can change as, you know, advancements are made, societal standards change, and the world just changes overall. I think it is important that it changes. However, I also think it's important that those rules are written in, like, black and white, and they are clear to everyone. It's not based on interpretation. Another idea I did like from some of the societies was sharing of resources. However, while I do think that's important, I understand that people wouldn't work as hard just based on, because they would have no incentive to, to work for themselves. So I think a system where people do get rewarded for working hard, but also resources are shared for the betterment of the community would be important. And also, I think having community that engages in globalization is really important, just because I think the more people, the more perspectives we have on situations and scenarios just advances the human race and makes us better off overall.",
+  "language": "unknown",
+  "processing_time_seconds": 25.143297,
+  "timestamp": "2026-06-08T11:18:35.692214",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.66
+      ],
+      "text": " Yeah, so in my future society, what I believe to be the most important is having, I think having a clear set of rules of what's right and wrong is quite important and not deviating from that based on certain scenarios just because of some of these certain circumstances."
+    },
+    {
+      "timestamp": [
+        18.66,
+        44.64
+      ],
+      "text": " I think that's quite important. Having that written down in black and white. And unlike the U.S. government, which kind of can change its interpretation over time based on different people's interpretation of the law, I think it's important to have a clear law kind of of what's right and wrong."
+    },
+    {
+      "timestamp": [
+        44.64,
+        54.36
+      ],
+      "text": " And obviously, over time, this can change as, you know, advancements are made, societal standards change, and the world just changes overall."
+    },
+    {
+      "timestamp": [
+        54.54,
+        55.88
+      ],
+      "text": " I think it is important that it changes."
+    },
+    {
+      "timestamp": [
+        56.4,
+        63.86
+      ],
+      "text": " However, I also think it's important that those rules are written in, like, black and white, and they are clear to everyone."
+    },
+    {
+      "timestamp": [
+        63.98,
+        65.28
+      ],
+      "text": " It's not based on interpretation."
+    },
+    {
+      "timestamp": [
+        66.3,
+        70.66
+      ],
+      "text": " Another idea I did like from some of the societies was sharing of resources."
+    },
+    {
+      "timestamp": [
+        71.08,
+        71.34
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        77.28,
+        82.16
+      ],
+      "text": " However, while I do think that's important, I understand that people wouldn't work as hard just based on, because they would have no incentive to, to work for themselves."
+    },
+    {
+      "timestamp": [
+        82.76,
+        89.5
+      ],
+      "text": " So I think a system where people do get rewarded for working hard, but also resources are shared"
+    },
+    {
+      "timestamp": [
+        89.5,
+        93.96
+      ],
+      "text": " for the betterment of the community would be important."
+    },
+    {
+      "timestamp": [
+        93.96,
+        112.34
+      ],
+      "text": " And also, I think having community that engages in globalization is really important, just because I think the more people, the more perspectives we have on situations and scenarios just advances the human race and makes us better off overall."
+    }
+  ]
+}

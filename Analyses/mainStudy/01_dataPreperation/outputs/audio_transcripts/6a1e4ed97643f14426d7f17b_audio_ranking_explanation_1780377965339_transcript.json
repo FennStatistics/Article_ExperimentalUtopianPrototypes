@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a1e4ed97643f14426d7f17b_audio_ranking_explanation_1780377965339.webm",
+  "transcript": " while the description of the modern green utopia came a while back and it would be helpful to see that again i certainly feel confident that living in a society governed by technology alone not considering our own moral, uh, morality would be quite dangerous, at least in the state where AI is right now. And I see, you know, the rule of law as reflected in some current, um, that doesn't feel like a utopia, I guess, and like can get dangerous really quickly, So just based on the little parentheticals, a world that focuses on sustainability feels important in terms of the longevity of life on the planet. And then security, of course, feeling safe in both our ability to live off the land and have the resources we need, but also in terms of our interactions with each other, in terms of prioritizing morality is sort of what I'm thinking about.",
+  "language": "unknown",
+  "processing_time_seconds": 19.009013,
+  "timestamp": "2026-06-08T11:34:48.288077",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.68
+      ],
+      "text": " while the description of the modern green utopia came a while back and it would be helpful to see"
+    },
+    {
+      "timestamp": [
+        8.68,
+        18.16
+      ],
+      "text": " that again i certainly feel confident that living in a society governed by technology alone not"
+    },
+    {
+      "timestamp": [
+        18.16,
+        30.64
+      ],
+      "text": " considering our own moral, uh, morality would be quite dangerous, at least in the state where"
+    },
+    {
+      "timestamp": [
+        30.64,
+        39.76
+      ],
+      "text": " AI is right now. And I see, you know, the rule of law as reflected in some current, um,"
+    },
+    {
+      "timestamp": [
+        41.84,
+        48.06
+      ],
+      "text": " that doesn't feel like a utopia, I guess, and like can get dangerous really quickly,"
+    },
+    {
+      "timestamp": [
+        48.16,
+        61.22
+      ],
+      "text": " So just based on the little parentheticals, a world that focuses on sustainability feels important in terms of the longevity of life on the planet."
+    },
+    {
+      "timestamp": [
+        61.22,
+        79.68
+      ],
+      "text": " And then security, of course, feeling safe in both our ability to live off the land and have the resources we need, but also in terms of our interactions with each other, in terms of prioritizing morality is sort of what I'm thinking about."
+    }
+  ]
+}

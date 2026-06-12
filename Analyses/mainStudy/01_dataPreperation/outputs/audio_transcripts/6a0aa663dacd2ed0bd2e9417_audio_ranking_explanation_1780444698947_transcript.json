@@ -1,0 +1,143 @@
+{
+  "audio_file": "6a0aa663dacd2ed0bd2e9417_audio_ranking_explanation_1780444698947.webm",
+  "transcript": " When I read the explanations of these societies, I kind of thought about it in a perfect world scenario where people actually do obey laws and people are motivated by intrinsic morality. so that's why i made the moral commonwealth my most preferred because ideally if everybody were to be actually motivated by morality and by that moral like internal moral compass and people actually listen to that then i think that would be an ideal world because you would have people who would cooperate intrinsically um but unfortunately like i don't think that's necessarily a realistic um society and i don't think that it would ever come into play um my next one was the futurists and the science and innovation one um i feel like that one's the closest to like the way that our society is now in that we want experts in charge um and a lot of our economy and a lot of our goals as a society is to advance and to innovate um and to get to move as far forward as we can in those realms um the next one i put was the green one again similar to the science one but more about like focusing on protecting like our sustainability and making sure that we have like a stable way of life which i think is also great religious utopia i think this one can go either direction i like if it were to be a religious utopia of like my religion then sure that might be good but then there's always that like again people are easily corrupted so there's there's a high likelihood that wouldn't work um the primitivist and the institutional ones are just like not that great like I wouldn't want to be in any of those situations um and then the AI one which is like I'd put that last because I think that humans need to be in charge of the way that we run our society and like using everything like data like data-driven governance is just not great because you don't have that human component of decision-making.",
+  "language": "unknown",
+  "processing_time_seconds": 28.979076,
+  "timestamp": "2026-06-08T10:35:58.329203",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.64
+      ],
+      "text": " When I read the explanations of these societies, I kind of thought about it in a perfect world scenario where people actually do obey laws and people are motivated by intrinsic morality."
+    },
+    {
+      "timestamp": [
+        16.64,
+        21.66
+      ],
+      "text": " so that's why i made the moral commonwealth my most preferred because ideally if everybody were"
+    },
+    {
+      "timestamp": [
+        21.66,
+        27.98
+      ],
+      "text": " to be actually motivated by morality and by that moral like internal moral compass and people"
+    },
+    {
+      "timestamp": [
+        27.98,
+        33.56
+      ],
+      "text": " actually listen to that then i think that would be an ideal world because you would have people"
+    },
+    {
+      "timestamp": [
+        33.56,
+        40.4
+      ],
+      "text": " who would cooperate intrinsically um but unfortunately like i don't think that's"
+    },
+    {
+      "timestamp": [
+        40.4,
+        46.36
+      ],
+      "text": " necessarily a realistic um society and i don't think that it would ever come into play um my"
+    },
+    {
+      "timestamp": [
+        46.36,
+        50.56
+      ],
+      "text": " next one was the futurists and the science and innovation one um i feel like that one's the"
+    },
+    {
+      "timestamp": [
+        50.56,
+        57.3
+      ],
+      "text": " closest to like the way that our society is now in that we want experts in charge um and a lot of"
+    },
+    {
+      "timestamp": [
+        57.3,
+        64.84
+      ],
+      "text": " our economy and a lot of our goals as a society is to advance and to innovate um and to get to move"
+    },
+    {
+      "timestamp": [
+        64.84,
+        71.36
+      ],
+      "text": " as far forward as we can in those realms um the next one i put was the green one again similar to"
+    },
+    {
+      "timestamp": [
+        71.36,
+        78.36
+      ],
+      "text": " the science one but more about like focusing on protecting like our sustainability and making"
+    },
+    {
+      "timestamp": [
+        78.36,
+        84.62
+      ],
+      "text": " sure that we have like a stable way of life which i think is also great religious utopia i think this"
+    },
+    {
+      "timestamp": [
+        84.62,
+        90.48
+      ],
+      "text": " one can go either direction i like if it were to be a religious utopia of like my religion"
+    },
+    {
+      "timestamp": [
+        90.48,
+        99.02
+      ],
+      "text": " then sure that might be good but then there's always that like again people are easily corrupted"
+    },
+    {
+      "timestamp": [
+        99.02,
+        105.4
+      ],
+      "text": " so there's there's a high likelihood that wouldn't work um the primitivist and the"
+    },
+    {
+      "timestamp": [
+        105.4,
+        111.44
+      ],
+      "text": " institutional ones are just like not that great like I wouldn't want to be in any of those"
+    },
+    {
+      "timestamp": [
+        111.44,
+        119.64
+      ],
+      "text": " situations um and then the AI one which is like I'd put that last because I think that humans need"
+    },
+    {
+      "timestamp": [
+        119.64,
+        125.6
+      ],
+      "text": " to be in charge of the way that we run our society and like using everything like data like"
+    },
+    {
+      "timestamp": [
+        125.6,
+        133.12
+      ],
+      "text": " data-driven governance is just not great because you don't have that human component of decision-making."
+    }
+  ]
+}

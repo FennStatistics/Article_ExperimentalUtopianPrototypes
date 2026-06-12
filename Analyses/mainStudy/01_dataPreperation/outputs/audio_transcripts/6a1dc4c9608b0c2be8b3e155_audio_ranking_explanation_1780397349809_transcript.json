@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a1dc4c9608b0c2be8b3e155_audio_ranking_explanation_1780397349809.webm",
+  "transcript": " I'm not religious, and the over-reliance on AI is scary, so I'd rather live somewhere where morality, science, and innovation rule. I have modern green utopia, primitivist utopia, institutional utopia in the middle, because they're not ideal, but more ideal than the others.",
+  "language": "unknown",
+  "processing_time_seconds": 6.547659,
+  "timestamp": "2026-06-08T11:27:27.567436",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.0
+      ],
+      "text": " I'm not religious, and the over-reliance on AI is scary, so I'd rather live somewhere where morality, science, and innovation rule."
+    },
+    {
+      "timestamp": [
+        11.0,
+        20.4
+      ],
+      "text": " I have modern green utopia, primitivist utopia, institutional utopia in the middle, because they're not ideal, but more ideal than the others."
+    }
+  ]
+}

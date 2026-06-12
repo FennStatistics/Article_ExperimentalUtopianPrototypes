@@ -1,0 +1,122 @@
+{
+  "audio_file": "69c6aaf2837e061bf8c5afaa_audio_ranking_explanation_1780397001987.webm",
+  "transcript": " I ranked it this way because I think our duty as human beings is to keep everything sustainable and to make sure both nature is provided for alongside humanity. as for the other ones i place a high value on inner morality and i think it is also our duty as human beings to be kind to other people ideally morals would be very important in a society too but let's just forget that the futurist utopia as it was called I think everyone wants to place their faith in science and that progress is always a good thing yet the very pursuit of progress can undo what makes us human, in my opinion. The rule of law just feels more similar to how life is now and I don't really think it's working very well. the primitives the primitivist utopia i do believe has some merit as humans i think living simply or off nature is important for us and abandoning all that together is a bad idea but i don't think most people could adapt to that or would want it i don't think it's the way humanity should go a religious utopia already creates ostracization from the get-go despite being described as a utopia, I don't believe it can really work. And the AI-centered utopia, I don't believe can work, simply because I don't think AI could ever manage the well-being of humans ultimately, though it can assist in such things.",
+  "language": "unknown",
+  "processing_time_seconds": 23.62575,
+  "timestamp": "2026-06-08T09:24:25.879441",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.62
+      ],
+      "text": " I ranked it this way because I think our duty as human beings is to keep everything sustainable and to make sure both nature is provided for alongside humanity."
+    },
+    {
+      "timestamp": [
+        21.34,
+        16.62
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.52,
+        35.48
+      ],
+      "text": " as for the other ones i place a high value on inner morality and i think it is also our duty as human beings to be kind to other people ideally morals would be very important in a"
+    },
+    {
+      "timestamp": [
+        35.48,
+        44.08
+      ],
+      "text": " society too but let's just forget that the futurist utopia as it was called"
+    },
+    {
+      "timestamp": [
+        44.08,
+        54.16
+      ],
+      "text": " I think everyone wants to place their faith in science"
+    },
+    {
+      "timestamp": [
+        54.16,
+        57.2
+      ],
+      "text": " and that progress is always a good thing"
+    },
+    {
+      "timestamp": [
+        57.2,
+        63.06
+      ],
+      "text": " yet the very pursuit of progress can undo what makes us human, in my opinion."
+    },
+    {
+      "timestamp": [
+        65.26,
+        69.92
+      ],
+      "text": " The rule of law just feels more similar to how life is now"
+    },
+    {
+      "timestamp": [
+        69.92,
+        73.94
+      ],
+      "text": " and I don't really think it's working very well."
+    },
+    {
+      "timestamp": [
+        74.08,
+        83.16
+      ],
+      "text": " the primitives the primitivist utopia i do believe has some merit as humans i think living"
+    },
+    {
+      "timestamp": [
+        83.16,
+        90.5
+      ],
+      "text": " simply or off nature is important for us and abandoning all that together is a bad idea"
+    },
+    {
+      "timestamp": [
+        90.5,
+        96.0
+      ],
+      "text": " but i don't think most people could adapt to that or would want it i don't think it's the"
+    },
+    {
+      "timestamp": [
+        96.0,
+        103.74
+      ],
+      "text": " way humanity should go a religious utopia already creates ostracization from the get-go despite"
+    },
+    {
+      "timestamp": [
+        103.74,
+        109.34
+      ],
+      "text": " being described as a utopia, I don't believe it can really work. And the AI-centered utopia,"
+    },
+    {
+      "timestamp": [
+        110.06,
+        115.58
+      ],
+      "text": " I don't believe can work, simply because I don't think AI could ever manage the well-being of"
+    },
+    {
+      "timestamp": [
+        115.58,
+        119.66
+      ],
+      "text": " humans ultimately, though it can assist in such things."
+    }
+  ]
+}

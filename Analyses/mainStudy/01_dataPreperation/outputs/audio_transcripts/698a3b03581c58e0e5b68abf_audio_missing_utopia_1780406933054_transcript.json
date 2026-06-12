@@ -1,0 +1,17 @@
+{
+  "audio_file": "698a3b03581c58e0e5b68abf_audio_missing_utopia_1780406933054.webm",
+  "transcript": " I don't think there is a missing future of society because if there was one I would pick, I would say maybe in the metaverse and that is already under AI because the blockchain and AI can handle all those. So I don't think there is anyone missing.",
+  "language": "unknown",
+  "processing_time_seconds": 6.039541,
+  "timestamp": "2026-06-08T09:01:33.778804",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.68
+      ],
+      "text": " I don't think there is a missing future of society because if there was one I would pick, I would say maybe in the metaverse and that is already under AI because the blockchain and AI can handle all those. So I don't think there is anyone missing."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a10d07b7e0d58d42b8f33a1_audio_missing_utopia_1780415452358.webm",
+  "transcript": " I don't think any society was missing so much as my perfect utopia would be a combination of my first two of a technology driven civilization that is governed and ruled by their morality.",
+  "language": "unknown",
+  "processing_time_seconds": 5.422066,
+  "timestamp": "2026-06-08T10:53:45.666158",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.16
+      ],
+      "text": " I don't think any society was missing so much as my perfect utopia would be a combination of my first two of a technology driven civilization that is governed and ruled by their morality."
+    }
+  ]
+}

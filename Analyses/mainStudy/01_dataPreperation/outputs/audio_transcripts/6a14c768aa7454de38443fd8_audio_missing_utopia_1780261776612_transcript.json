@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a14c768aa7454de38443fd8_audio_missing_utopia_1780261776612.webm",
+  "transcript": " I think the main thing is that for all of them, the abundance, they were shorter in abundance, which means that in all of them, supplies and everything are still short. Even the one where it says you get exactly what you want. There's so many greedy people in the world and everybody don't know what they want, I guess. So I guess what's missing is that everything's in abundance versus when you want it or how much you can get. Yeah, I got to get out of here.",
+  "language": "unknown",
+  "processing_time_seconds": 9.992071,
+  "timestamp": "2026-06-08T11:02:30.432654",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.38
+      ],
+      "text": " I think the main thing is that for all of them, the abundance, they were shorter in abundance, which means that in all of them, supplies and everything are still short."
+    },
+    {
+      "timestamp": [
+        11.72,
+        14.42
+      ],
+      "text": " Even the one where it says you get exactly what you want."
+    },
+    {
+      "timestamp": [
+        14.5,
+        19.04
+      ],
+      "text": " There's so many greedy people in the world and everybody don't know what they want, I guess."
+    },
+    {
+      "timestamp": [
+        19.04,
+        29.1
+      ],
+      "text": " So I guess what's missing is that everything's in abundance versus when you want it or how much you can get."
+    },
+    {
+      "timestamp": [
+        30.0,
+        32.0
+      ],
+      "text": " Yeah, I got to get out of here."
+    }
+  ]
+}

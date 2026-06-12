@@ -1,0 +1,73 @@
+{
+  "audio_file": "69c737b258a269a8f17fea85_audio_missing_utopia_1780428430948.webm",
+  "transcript": " I think that most of the values that I would think of would be there, but the one thing that I noticed, I'm pretty sure in all of them, and maybe this was supposed to be this way as like a constant variable, but I don't know with resources being limited I think that was like in the first little uh the first couple lines of each one I I guess like ideally wouldn't we want to overcome that with any of these I don't know that would be my thought of like I really liked the just enough um aspect of i think there were two of them that stated that explicitly um i'm pretty sure the the one that i put as the top like the uh modern green utopia included that um but i I don't know. I think realistically, it would be good to go above, not above what's just needed, but there was still like an aspect of scarcity, you know?",
+  "language": "unknown",
+  "processing_time_seconds": 17.763553,
+  "timestamp": "2026-06-08T09:25:23.832105",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.48
+      ],
+      "text": " I think that most of the values that I would think of would be there, but the one thing that I noticed, I'm pretty sure in all of them, and maybe this was supposed to be this way as like a constant variable,"
+    },
+    {
+      "timestamp": [
+        21.48,
+        31.06
+      ],
+      "text": " but I don't know with resources being limited I think that was like in the first little uh the"
+    },
+    {
+      "timestamp": [
+        31.06,
+        38.6
+      ],
+      "text": " first couple lines of each one I I guess like ideally wouldn't we want to overcome that with"
+    },
+    {
+      "timestamp": [
+        38.6,
+        49.94
+      ],
+      "text": " any of these I don't know that would be my thought of like I really liked the just enough"
+    },
+    {
+      "timestamp": [
+        49.94,
+        60.26
+      ],
+      "text": " um aspect of i think there were two of them that stated that explicitly um i'm pretty sure"
+    },
+    {
+      "timestamp": [
+        60.26,
+        72.62
+      ],
+      "text": " the the one that i put as the top like the uh modern green utopia included that um but i"
+    },
+    {
+      "timestamp": [
+        72.62,
+        76.24
+      ],
+      "text": " I don't know. I think"
+    },
+    {
+      "timestamp": [
+        76.24,
+        85.8
+      ],
+      "text": " realistically, it would be good to go above, not above what's just needed, but"
+    },
+    {
+      "timestamp": [
+        85.8,
+        92.24
+      ],
+      "text": " there was still like an aspect of scarcity, you know?"
+    }
+  ]
+}

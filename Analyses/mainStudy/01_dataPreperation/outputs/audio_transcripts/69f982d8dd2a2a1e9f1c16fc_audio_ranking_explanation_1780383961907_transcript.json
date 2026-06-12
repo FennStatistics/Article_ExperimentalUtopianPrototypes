@@ -1,0 +1,101 @@
+{
+  "audio_file": "69f982d8dd2a2a1e9f1c16fc_audio_ranking_explanation_1780383961907.webm",
+  "transcript": " um to go through my rankings i put moral commonwealth first because obviously that feels very utopian but i feel like a society where we just show a general like empathy for each other and take things equally and base like everything off just morals and a general conscience for humanity. I think that's important. And then going into things that were focused on sustainability, I thought that was also very ideal. Science being the next one, you know, that's just grounded in facts and reality. Primitivist was next, you know, just low tech and small scale so it was giving sustainability um going into rule of law I put that at fifth just because you know I feel like that's something um we have a lot of in modern day and obviously it shows that it works maybe it's not ideal but for the most part it works um number six I put faith-based because I feel like that just can often be very narrow-minded and exclusive of a lot of science and reality. And lastly, I put AI just because I feel like it's too soon for that and humans don't really need to give up things that humans should be responsible for. I don't think AI needs to control us and govern the way society rules. That just makes me uncomfortable.",
+  "language": "unknown",
+  "processing_time_seconds": 22.653418,
+  "timestamp": "2026-06-08T10:03:04.749403",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.14
+      ],
+      "text": " um to go through my rankings i put moral commonwealth first because obviously that"
+    },
+    {
+      "timestamp": [
+        7.14,
+        15.26
+      ],
+      "text": " feels very utopian but i feel like a society where we just show a general like empathy for"
+    },
+    {
+      "timestamp": [
+        15.26,
+        24.32
+      ],
+      "text": " each other and take things equally and base like everything off just morals and a general"
+    },
+    {
+      "timestamp": [
+        24.32,
+        31.92
+      ],
+      "text": " conscience for humanity. I think that's important. And then going into things that were focused on"
+    },
+    {
+      "timestamp": [
+        31.92,
+        39.7
+      ],
+      "text": " sustainability, I thought that was also very ideal. Science being the next one, you know,"
+    },
+    {
+      "timestamp": [
+        39.7,
+        48.22
+      ],
+      "text": " that's just grounded in facts and reality. Primitivist was next, you know, just low tech"
+    },
+    {
+      "timestamp": [
+        48.22,
+        56.04
+      ],
+      "text": " and small scale so it was giving sustainability um going into rule of law I put that at fifth"
+    },
+    {
+      "timestamp": [
+        56.04,
+        63.2
+      ],
+      "text": " just because you know I feel like that's something um we have a lot of in modern day and obviously"
+    },
+    {
+      "timestamp": [
+        63.2,
+        70.72
+      ],
+      "text": " it shows that it works maybe it's not ideal but for the most part it works um number six I put"
+    },
+    {
+      "timestamp": [
+        70.72,
+        78.4
+      ],
+      "text": " faith-based because I feel like that just can often be very narrow-minded and exclusive of a"
+    },
+    {
+      "timestamp": [
+        78.4,
+        87.28
+      ],
+      "text": " lot of science and reality. And lastly, I put AI just because I feel like it's too soon for that"
+    },
+    {
+      "timestamp": [
+        87.28,
+        94.36
+      ],
+      "text": " and humans don't really need to give up things that humans should be responsible for. I don't"
+    },
+    {
+      "timestamp": [
+        94.36,
+        101.56
+      ],
+      "text": " think AI needs to control us and govern the way society rules. That just makes me uncomfortable."
+    }
+  ]
+}

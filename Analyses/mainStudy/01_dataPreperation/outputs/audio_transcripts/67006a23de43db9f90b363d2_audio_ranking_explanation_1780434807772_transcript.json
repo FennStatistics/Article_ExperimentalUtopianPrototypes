@@ -1,0 +1,129 @@
+{
+  "audio_file": "67006a23de43db9f90b363d2_audio_ranking_explanation_1780434807772.webm",
+  "transcript": " So the short explanation of why I rank the societies this way is because with a modern green utopia, that sounds and is most likely going to be with very little government insight, no government ruling, probably no money system where things are sustainable without having to go with the madness of green money. so that's that the second would be a religious utopia a faith-based order because well I mean that one's up for grabs but basically if it's a Christian-based one because I think that's the best faith to follow not that it's because I think it's the most correct or anything but I think because it's the most civil and a primitivist utopia low-tech and small scale that would also be my one of my top picks because once again there's not too much government overreach and them being involved in the local population's life. And then a moral, moral commonwealth, inner morality, that just means that people are going to be more open to being a group of together and not fighting instead of what we have now where everyone bickers back and forth and no one really has in their inner, no one really has any inner mortality, a futuristic utopia. I don't really care too much for it. It sounds good and it would be good for a few days or months, maybe even a few years. But the reason it doesn't work is because people that usually are big with science and innovation are also greedy people and they'll try to control everything. And that's where you'll run into things like an institutional utopia. That's a no brainer to say no to. Same with the AI center utopia, which we're going into right now in modern day. Those are all where it's basically just where your every move is monitored by the government and AI. And I think that's too much and invasion of privacy.",
+  "language": "unknown",
+  "processing_time_seconds": 26.397906,
+  "timestamp": "2026-06-08T08:40:49.453570",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.62
+      ],
+      "text": " So the short explanation of why I rank the societies this way is because with a modern green utopia, that sounds and is most likely going to be with very little government insight, no government ruling, probably no money system where things are sustainable without having to go with the madness of green money."
+    },
+    {
+      "timestamp": [
+        23.92,
+        23.62
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.98,
+        36.98
+      ],
+      "text": " so that's that the second would be a religious utopia a faith-based order because well I mean that one's up for grabs but basically if it's a Christian-based one because I think that's the"
+    },
+    {
+      "timestamp": [
+        36.98,
+        41.36
+      ],
+      "text": " best faith to follow not that it's because I think it's the most correct or anything but I"
+    },
+    {
+      "timestamp": [
+        41.36,
+        46.94
+      ],
+      "text": " think because it's the most civil and a primitivist utopia low-tech and small scale that would also be"
+    },
+    {
+      "timestamp": [
+        46.94,
+        52.9
+      ],
+      "text": " my one of my top picks because once again there's not too much government overreach and them being"
+    },
+    {
+      "timestamp": [
+        52.9,
+        59.38
+      ],
+      "text": " involved in the local population's life. And then a moral, moral commonwealth, inner morality,"
+    },
+    {
+      "timestamp": [
+        59.38,
+        66.7
+      ],
+      "text": " that just means that people are going to be more open to being a group of together and not fighting"
+    },
+    {
+      "timestamp": [
+        66.7,
+        71.02
+      ],
+      "text": " instead of what we have now where everyone bickers back and forth and no one really has"
+    },
+    {
+      "timestamp": [
+        71.02,
+        76.78
+      ],
+      "text": " in their inner, no one really has any inner mortality, a futuristic utopia. I don't really"
+    },
+    {
+      "timestamp": [
+        76.78,
+        81.8
+      ],
+      "text": " care too much for it. It sounds good and it would be good for a few days or months, maybe even a few"
+    },
+    {
+      "timestamp": [
+        81.8,
+        88.56
+      ],
+      "text": " years. But the reason it doesn't work is because people that usually are big with science and"
+    },
+    {
+      "timestamp": [
+        88.56,
+        93.66
+      ],
+      "text": " innovation are also greedy people and they'll try to control everything. And that's where you'll"
+    },
+    {
+      "timestamp": [
+        93.66,
+        99.2
+      ],
+      "text": " run into things like an institutional utopia. That's a no brainer to say no to. Same with the"
+    },
+    {
+      "timestamp": [
+        99.2,
+        105.22
+      ],
+      "text": " AI center utopia, which we're going into right now in modern day. Those are all where it's basically"
+    },
+    {
+      "timestamp": [
+        105.22,
+        111.54
+      ],
+      "text": " just where your every move is monitored by the government and AI. And I think that's too much"
+    },
+    {
+      "timestamp": [
+        111.54,
+        112.52
+      ],
+      "text": " and invasion of privacy."
+    }
+  ]
+}

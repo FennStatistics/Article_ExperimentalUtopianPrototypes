@@ -1,0 +1,80 @@
+{
+  "audio_file": "69e96f9a9720314bfef36394_audio_missing_utopia_1780381109348.webm",
+  "transcript": " I think something like the green utopia and the science and innovation and also maybe a mix of rule of law would be a good society. Mainly the green one just because we have to take care of our planet because we live here and nature in general. Yeah. oh describe briefly the type of future you you was missing um i don't think anything was missing i feel like it's not like a matter of missing it's more just combining a few together instead of just having one as itself I'll see you next time.",
+  "language": "unknown",
+  "processing_time_seconds": 12.505187,
+  "timestamp": "2026-06-08T09:44:12.796688",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.34
+      ],
+      "text": " I think something like the green utopia and the science and innovation"
+    },
+    {
+      "timestamp": [
+        6.34,
+        11.86
+      ],
+      "text": " and also maybe a mix of rule of law would be a good society."
+    },
+    {
+      "timestamp": [
+        12.52,
+        15.62
+      ],
+      "text": " Mainly the green one just because we have to take care of our planet"
+    },
+    {
+      "timestamp": [
+        15.62,
+        18.68
+      ],
+      "text": " because we live here and nature in general."
+    },
+    {
+      "timestamp": [
+        20.38,
+        20.9
+      ],
+      "text": " Yeah."
+    },
+    {
+      "timestamp": [
+        25.36,
+        20.9
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.14,
+        37.04
+      ],
+      "text": " oh describe briefly the type of future you you was missing um i don't think anything was missing i feel like it's not like a matter of missing it's more just combining"
+    },
+    {
+      "timestamp": [
+        37.04,
+        41.1
+      ],
+      "text": " a few together instead of just having one as"
+    },
+    {
+      "timestamp": [
+        41.1,
+        43.94
+      ],
+      "text": " itself"
+    },
+    {
+      "timestamp": [
+        43.94,
+        73.92
+      ],
+      "text": " I'll see you next time."
+    }
+  ]
+}

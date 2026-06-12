@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a040bdbd59cb32784363045_audio_missing_utopia_1780398072819.webm",
+  "transcript": " The future society I would want to I think would be called a balanced progress society and it combines environmental sustainability, technological innovation and strong institutions to create a safe and prosperous future and in this society I think technology would be used to improve health care, things like education and economic opportunities while also protecting personal freedoms. The decisions would be guided by evidence and long-term thinking but of course human values remain at the center. The goal in this society would be to create a society that is secure fair and environmentally responsible and also which constantly improves the quality of everyone's lives so that would be my mission to just search",
+  "language": "unknown",
+  "processing_time_seconds": 13.212504,
+  "timestamp": "2026-06-08T10:22:13.217606",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.14
+      ],
+      "text": " The future society I would want to I think would be called a balanced progress society"
+    },
+    {
+      "timestamp": [
+        9.14,
+        17.46
+      ],
+      "text": " and it combines environmental sustainability, technological innovation and strong institutions"
+    },
+    {
+      "timestamp": [
+        17.46,
+        26.76
+      ],
+      "text": " to create a safe and prosperous future and in this society I think technology would be"
+    },
+    {
+      "timestamp": [
+        26.76,
+        35.4
+      ],
+      "text": " used to improve health care, things like education and economic opportunities while also protecting"
+    },
+    {
+      "timestamp": [
+        35.4,
+        45.56
+      ],
+      "text": " personal freedoms. The decisions would be guided by evidence and long-term thinking but of course"
+    },
+    {
+      "timestamp": [
+        45.56,
+        53.64
+      ],
+      "text": " human values remain at the center. The goal in this society would be to create a society that"
+    },
+    {
+      "timestamp": [
+        53.64,
+        62.4
+      ],
+      "text": " is secure fair and environmentally responsible and also which"
+    },
+    {
+      "timestamp": [
+        62.4,
+        70.46
+      ],
+      "text": " constantly improves the quality of everyone's lives so that would be my"
+    },
+    {
+      "timestamp": [
+        70.46,
+        74.44
+      ],
+      "text": " mission to just search"
+    }
+  ]
+}

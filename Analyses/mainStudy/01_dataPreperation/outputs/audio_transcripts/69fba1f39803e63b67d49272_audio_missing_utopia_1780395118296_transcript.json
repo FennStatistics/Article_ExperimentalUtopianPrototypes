@@ -1,0 +1,73 @@
+{
+  "audio_file": "69fba1f39803e63b67d49272_audio_missing_utopia_1780395118296.webm",
+  "transcript": " no i didn't think there's anything missing from all of them but i would say the ideal or i guess closest thing to utopia would be to have human civilization be technologically innovative while also having a large portion of it still be uh recognizing just the actual benefits of living in a like kind of a low-tech small communal village but the problem is is how do how do you how do you get humans or people or society civilization in general to actually separate themselves from technology enough to actually support their well-being and help the environment while also there is just a massive establishment in which humans are still technologically expanding without drowning out resources at a crazy rate and also just destroying the world while at it yeah that's really good",
+  "language": "unknown",
+  "processing_time_seconds": 14.22937,
+  "timestamp": "2026-06-08T10:07:32.256842",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.44
+      ],
+      "text": " no i didn't think there's anything missing from all of them but i would say the ideal or i guess"
+    },
+    {
+      "timestamp": [
+        4.44,
+        10.0
+      ],
+      "text": " closest thing to utopia would be to have human civilization be technologically innovative while"
+    },
+    {
+      "timestamp": [
+        10.0,
+        16.98
+      ],
+      "text": " also having a large portion of it still be uh recognizing just the actual benefits of living in"
+    },
+    {
+      "timestamp": [
+        16.98,
+        23.18
+      ],
+      "text": " a like kind of a low-tech small communal village but the problem is is how do how do you how do"
+    },
+    {
+      "timestamp": [
+        23.18,
+        28.2
+      ],
+      "text": " you get humans or people or society civilization in general to actually separate themselves"
+    },
+    {
+      "timestamp": [
+        28.2,
+        36.54
+      ],
+      "text": " from technology enough to actually support their well-being and help the environment while also"
+    },
+    {
+      "timestamp": [
+        36.54,
+        45.66
+      ],
+      "text": " there is just a massive establishment in which humans are still technologically expanding"
+    },
+    {
+      "timestamp": [
+        45.66,
+        52.26
+      ],
+      "text": " without drowning out resources at a crazy rate and also just destroying the world while at it"
+    },
+    {
+      "timestamp": [
+        52.26,
+        58.44
+      ],
+      "text": " yeah that's really good"
+    }
+  ]
+}

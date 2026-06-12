@@ -1,0 +1,171 @@
+{
+  "audio_file": "699cb899a44da9a053ba9235_audio_ranking_explanation_1780238294262.webm",
+  "transcript": " okay so i'll just go through the rankings as i put them futurist utopia that sounds pretty much really our present day but i'm assuming it would be in the future so you know obviously more futuristic more tech oriented um yeah this is about as good as it gets as is if people were to just stop fighting more innovation would occur over time so that'd be good modern green utopia has that as my number two that sounds kind of it's really close to futurist utopia but um it has less technology to ensure that the environment is secured which is a very important thing because it's for our future generations um sure we would you know cut back on things but uh i think that would be a really good choice um obviously there would be some caveats but you know if that were to happen we'll get there and we'll see when it happens institutional utopia that would kind of be strict really strict but um it would you know keep in place that was my third option it would keep in place um peace over time it would guarantee stability so that's why i put that one there moral commonwealth uh that's and i had that as fourth um it's more like lesser of the evils because these last four are my least favorites so um i did not like everything based on morality um because different people can have different opinions and that could cause some trouble number five i get religious utopia i'm not very religious i'll say it now um i don't have anything against religion it's just i i myself i'm not very religious so um having this in fifth is you know i i can't i don't have blind faith i i need something you know um ai centered utopia is is at sixth um while this would guarantee human evolution and human prosperity i i just i don't like the idea of everything being run by data and an ai that's just terrible and i actually meant i meant that to be seventh my last choice i guess i accidentally swapped them when i was lowering it um what is sixth what is seventh but really should have been sixth is primitivist utopia that is terrible low tech small scale uh that's the worst you're just going back a thousand years in human history for no reason",
+  "language": "unknown",
+  "processing_time_seconds": 35.068506,
+  "timestamp": "2026-06-08T09:08:38.153230",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        8.0
+      ],
+      "text": " okay so i'll just go through the rankings as i put them futurist utopia that sounds"
+    },
+    {
+      "timestamp": [
+        8.0,
+        12.08
+      ],
+      "text": " pretty much really our present day but i'm assuming it would be in the future"
+    },
+    {
+      "timestamp": [
+        13.84,
+        22.8
+      ],
+      "text": " so you know obviously more futuristic more tech oriented um yeah this is about as good as it gets"
+    },
+    {
+      "timestamp": [
+        22.8,
+        31.76
+      ],
+      "text": " as is if people were to just stop fighting more innovation would occur over time so that'd be good"
+    },
+    {
+      "timestamp": [
+        31.76,
+        37.6
+      ],
+      "text": " modern green utopia has that as my number two that sounds kind of it's really close to futurist"
+    },
+    {
+      "timestamp": [
+        37.6,
+        48.32
+      ],
+      "text": " utopia but um it has less technology to ensure that the environment is secured which is a very"
+    },
+    {
+      "timestamp": [
+        48.32,
+        57.92
+      ],
+      "text": " important thing because it's for our future generations um sure we would you know cut back"
+    },
+    {
+      "timestamp": [
+        57.92,
+        65.92
+      ],
+      "text": " on things but uh i think that would be a really good choice um obviously there would be some"
+    },
+    {
+      "timestamp": [
+        65.92,
+        71.6
+      ],
+      "text": " caveats but you know if that were to happen we'll get there and we'll see when it happens"
+    },
+    {
+      "timestamp": [
+        72.32,
+        71.6
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        79.66,
+        86.64
+      ],
+      "text": " institutional utopia that would kind of be strict really strict but um it would you know keep in place that was my third option it would keep in place um peace over time it would guarantee"
+    },
+    {
+      "timestamp": [
+        86.64,
+        93.62
+      ],
+      "text": " stability so that's why i put that one there moral commonwealth uh that's and i had that as fourth"
+    },
+    {
+      "timestamp": [
+        93.62,
+        100.78
+      ],
+      "text": " um it's more like lesser of the evils because these last four are my least favorites so"
+    },
+    {
+      "timestamp": [
+        100.78,
+        107.78
+      ],
+      "text": " um i did not like everything based on morality um because different people can have different"
+    },
+    {
+      "timestamp": [
+        107.78,
+        115.52
+      ],
+      "text": " opinions and that could cause some trouble number five i get religious utopia i'm not very religious"
+    },
+    {
+      "timestamp": [
+        115.52,
+        122.86
+      ],
+      "text": " i'll say it now um i don't have anything against religion it's just i i myself i'm not very"
+    },
+    {
+      "timestamp": [
+        122.86,
+        130.66
+      ],
+      "text": " religious so um having this in fifth is you know i i can't i don't have blind faith i i need"
+    },
+    {
+      "timestamp": [
+        130.66,
+        137.52
+      ],
+      "text": " something you know um ai centered utopia is is at sixth um while this would guarantee human"
+    },
+    {
+      "timestamp": [
+        137.52,
+        144.98
+      ],
+      "text": " evolution and human prosperity i i just i don't like the idea of everything being run by data"
+    },
+    {
+      "timestamp": [
+        144.98,
+        151.96
+      ],
+      "text": " and an ai that's just terrible and i actually meant i meant that to be seventh my last choice"
+    },
+    {
+      "timestamp": [
+        151.96,
+        158.28
+      ],
+      "text": " i guess i accidentally swapped them when i was lowering it um what is sixth what is"
+    },
+    {
+      "timestamp": [
+        158.28,
+        163.4
+      ],
+      "text": " seventh but really should have been sixth is primitivist utopia that is terrible low tech"
+    },
+    {
+      "timestamp": [
+        163.4,
+        170.52
+      ],
+      "text": " small scale uh that's the worst you're just going back a thousand years in human history for no reason"
+    }
+  ]
+}

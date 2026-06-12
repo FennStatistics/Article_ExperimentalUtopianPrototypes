@@ -1,0 +1,17 @@
+{
+  "audio_file": "69f11c9f9a42a013e07426d3_audio_missing_utopia_1780384393246.webm",
+  "transcript": " The most important value to me was sustainability, and that was already mentioned.",
+  "language": "unknown",
+  "processing_time_seconds": 4.67682,
+  "timestamp": "2026-06-08T09:53:16.323703",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.6
+      ],
+      "text": " The most important value to me was sustainability, and that was already mentioned."
+    }
+  ]
+}

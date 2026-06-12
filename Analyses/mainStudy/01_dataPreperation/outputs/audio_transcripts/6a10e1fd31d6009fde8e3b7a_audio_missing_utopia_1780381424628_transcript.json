@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a10e1fd31d6009fde8e3b7a_audio_missing_utopia_1780381424628.webm",
+  "transcript": " Something that would matter most in my desired society would be order due to like high morality and the greater good and not people breaking laws.",
+  "language": "unknown",
+  "processing_time_seconds": 5.11336,
+  "timestamp": "2026-06-08T10:54:05.347355",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.48
+      ],
+      "text": " Something that would matter most in my desired society would be order due to like high morality and the greater good and not people breaking laws."
+    }
+  ]
+}

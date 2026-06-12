@@ -1,0 +1,45 @@
+{
+  "audio_file": "69fb8d85c239a57e0df4e1d3_audio_missing_utopia_1780243693268.webm",
+  "transcript": " okay um for me i don't feel that there is any missing uh future site i feel that all the um future societies have been highlighted on the past page and uh the they've been uh actually they've covered every part of the uh future society and um as i had explained before i prefer that green on that green utopia because it comes with its own importances",
+  "language": "unknown",
+  "processing_time_seconds": 9.047911,
+  "timestamp": "2026-06-08T10:06:01.225076",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.64,
+        10.4
+      ],
+      "text": " okay um for me i don't feel that there is any missing uh future site i feel that all the um"
+    },
+    {
+      "timestamp": [
+        10.4,
+        17.12
+      ],
+      "text": " future societies have been highlighted on the past page and uh the they've been uh actually"
+    },
+    {
+      "timestamp": [
+        17.12,
+        24.8
+      ],
+      "text": " they've covered every part of the uh future society and um as i had explained before"
+    },
+    {
+      "timestamp": [
+        25.6,
+        24.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        31.2,
+        null
+      ],
+      "text": " i prefer that green on that green utopia because it comes with its own importances"
+    }
+  ]
+}

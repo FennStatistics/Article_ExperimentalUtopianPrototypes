@@ -1,0 +1,73 @@
+{
+  "audio_file": "69d80f78366c24151c6abed6_audio_ranking_explanation_1780325530519.webm",
+  "transcript": " um i ranked science and innovation at the top um because just personally i want to see um scientific exploration and innovation continue further um but i think humanity as a whole could benefit from understanding our universe a lot more than we do currently um moral commonwealth i think is also pretty important um i like the idea of you know everybody the futuristic in a futuristic society everybody um kind of relying on their own moral morality which kind of assumes that you know everybody's pretty moral so that would be nice um my last one ai centered utopia i just do not like the sound of that whatsoever that sounds absolutely terrible to me modern green utopia is right in the middle i like the sound of it but i also don't like the sound of it i think it's perfect right in the middle",
+  "language": "unknown",
+  "processing_time_seconds": 14.021278,
+  "timestamp": "2026-06-08T09:34:40.094353",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.24
+      ],
+      "text": " um i ranked science and innovation at the top um because just personally i want to see"
+    },
+    {
+      "timestamp": [
+        10.8,
+        21.12
+      ],
+      "text": " um scientific exploration and innovation continue further um but i think humanity as a whole could"
+    },
+    {
+      "timestamp": [
+        21.12,
+        30.8
+      ],
+      "text": " benefit from understanding our universe a lot more than we do currently um moral commonwealth"
+    },
+    {
+      "timestamp": [
+        30.8,
+        35.28
+      ],
+      "text": " i think is also pretty important um i like the idea of you know everybody"
+    },
+    {
+      "timestamp": [
+        36.72,
+        44.32
+      ],
+      "text": " the futuristic in a futuristic society everybody um kind of relying on their own moral morality"
+    },
+    {
+      "timestamp": [
+        44.32,
+        50.96
+      ],
+      "text": " which kind of assumes that you know everybody's pretty moral so that would be nice um"
+    },
+    {
+      "timestamp": [
+        50.96,
+        57.68
+      ],
+      "text": " my last one ai centered utopia i just do not like the sound of that whatsoever that sounds"
+    },
+    {
+      "timestamp": [
+        57.68,
+        65.12
+      ],
+      "text": " absolutely terrible to me modern green utopia is right in the middle i like the sound of it but"
+    },
+    {
+      "timestamp": [
+        65.76,
+        78.96
+      ],
+      "text": " i also don't like the sound of it i think it's perfect right in the middle"
+    }
+  ]
+}

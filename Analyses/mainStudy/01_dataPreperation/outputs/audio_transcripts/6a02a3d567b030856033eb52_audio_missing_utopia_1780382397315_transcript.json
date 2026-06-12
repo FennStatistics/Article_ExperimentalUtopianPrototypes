@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a02a3d567b030856033eb52_audio_missing_utopia_1780382397315.webm",
+  "transcript": " The basic value for me is individual freedom and personal choice. Most societies rely on institutions, AI laws or shared morality to control behavior. I'd add a society where institutions provide basic security and sustainability, but people have maximum freedom to choose their own lifestyle, work and beliefs. What matters most is balancing collective safety with individual autonomy.",
+  "language": "unknown",
+  "processing_time_seconds": 6.711004,
+  "timestamp": "2026-06-08T10:20:27.284045",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        5.6
+      ],
+      "text": " The basic value for me is individual freedom and personal choice."
+    },
+    {
+      "timestamp": [
+        5.6,
+        12.88
+      ],
+      "text": " Most societies rely on institutions, AI laws or shared morality to control behavior."
+    },
+    {
+      "timestamp": [
+        12.88,
+        18.56
+      ],
+      "text": " I'd add a society where institutions provide basic security and sustainability,"
+    },
+    {
+      "timestamp": [
+        18.56,
+        22.64
+      ],
+      "text": " but people have maximum freedom to choose their own lifestyle,"
+    },
+    {
+      "timestamp": [
+        22.64,
+        29.12
+      ],
+      "text": " work and beliefs. What matters most is balancing collective safety with individual autonomy."
+    }
+  ]
+}

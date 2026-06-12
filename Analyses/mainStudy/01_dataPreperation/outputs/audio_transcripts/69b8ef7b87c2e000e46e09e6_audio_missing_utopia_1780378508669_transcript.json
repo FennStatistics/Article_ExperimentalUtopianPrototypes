@@ -1,0 +1,38 @@
+{
+  "audio_file": "69b8ef7b87c2e000e46e09e6_audio_missing_utopia_1780378508669.webm",
+  "transcript": " My ideal society is one in which people can find fulfillment in ways other than labor, and labor isn't the top priority. This isn't necessarily at odds with all of the options, but it wasn't discussed by any of them, and so I'd like to see a more human-focused version of society.",
+  "language": "unknown",
+  "processing_time_seconds": 6.499968,
+  "timestamp": "2026-06-08T09:17:52.344732",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.96
+      ],
+      "text": " My ideal society is one in which people can find fulfillment in ways other than labor,"
+    },
+    {
+      "timestamp": [
+        10.96,
+        13.48
+      ],
+      "text": " and labor isn't the top priority."
+    },
+    {
+      "timestamp": [
+        13.48,
+        19.06
+      ],
+      "text": " This isn't necessarily at odds with all of the options, but it wasn't discussed by any"
+    },
+    {
+      "timestamp": [
+        19.06,
+        27.78
+      ],
+      "text": " of them, and so I'd like to see a more human-focused version of society."
+    }
+  ]
+}

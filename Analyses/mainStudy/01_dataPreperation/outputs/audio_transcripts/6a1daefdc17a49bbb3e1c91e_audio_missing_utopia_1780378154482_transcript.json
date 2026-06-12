@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1daefdc17a49bbb3e1c91e_audio_missing_utopia_1780378154482.webm",
+  "transcript": " I feel like a good mix of the top three that I picked, the primitivist, the green, and then the futurist, you basically just have communism, not in the way that Americans describe it, in the way that it's actually supposed to be. um and honestly a good mixture of those two just uh or of those three with the collectivist mindset but with a uh central i don't want to say state state to set the system up until you can go stateless and classless Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 12.314795,
+  "timestamp": "2026-06-08T11:25:53.478827",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.86
+      ],
+      "text": " I feel like a good mix of the top three that I picked, the primitivist, the green, and then the futurist, you basically just have communism, not in the way that Americans describe it, in the way that it's actually supposed to be."
+    },
+    {
+      "timestamp": [
+        22.98,
+        20.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.84,
+        33.78
+      ],
+      "text": " um and honestly a good mixture of those two just uh or of those three with the collectivist mindset but with a uh central"
+    },
+    {
+      "timestamp": [
+        33.78,
+        43.34
+      ],
+      "text": " i don't want to say state state to set the system up until you can go stateless and classless"
+    },
+    {
+      "timestamp": [
+        43.34,
+        73.32
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "audio_file": "69fff7076b68ecf72d03cab7_audio_ranking_explanation_1780233141039.webm",
+  "transcript": " so like my reasoning for this right is you know like i'm a scientist at heart i really enjoy like you know all the newest innovations coming up so like i put futures utopias first i'm also like i do think that you know more green like the environment is also really important but like i generally like science and innovation so i put modern green utopia underneath that i also do believe that you know uh you know like a country ruled by what by like a shared set of morals like in the broadest of sense right i think that's a good idea but like also i put it lower because you know morality is very subjective right um for institutional utopia i put something i put in like the middle because like you know there are laws and you know like of course it's great to you know follow laws and adhere to like whatever rules society places but like also some of them you know it doesn't take into account like all the socioeconomic factors and all the AI-centered utopia like I think I think it's fine right data-driven governance is really cool but at the same time you know there's a lot of human biases and other factors that can also affect like the way data is generated so I put that primitivist utopia like the idea sounds like you know you're pretty nice and cool but like that that isn't a life that i would enjoy at all and seven like i'm not really religious so like i would not want to have a faith-based order because like a lot of the religious texts are based are not like they haven't gone undergone like modernization right so like i don't want to be living upon ideals like crafted in like the past two thousand three thousand years",
+  "language": "unknown",
+  "processing_time_seconds": 23.320167,
+  "timestamp": "2026-06-08T10:15:26.081896",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        5.6
+      ],
+      "text": " so like my reasoning for this right is you know like i'm a scientist at heart i really enjoy like"
+    },
+    {
+      "timestamp": [
+        5.6,
+        11.12
+      ],
+      "text": " you know all the newest innovations coming up so like i put futures utopias first i'm also like i"
+    },
+    {
+      "timestamp": [
+        11.12,
+        15.6
+      ],
+      "text": " do think that you know more green like the environment is also really important but like"
+    },
+    {
+      "timestamp": [
+        15.6,
+        22.16
+      ],
+      "text": " i generally like science and innovation so i put modern green utopia underneath that i also do"
+    },
+    {
+      "timestamp": [
+        22.16,
+        31.3
+      ],
+      "text": " believe that you know uh you know like a country ruled by what by like a shared set of morals like"
+    },
+    {
+      "timestamp": [
+        31.3,
+        36.24
+      ],
+      "text": " in the broadest of sense right i think that's a good idea but like also i put it lower because"
+    },
+    {
+      "timestamp": [
+        36.24,
+        41.82
+      ],
+      "text": " you know morality is very subjective right um for institutional utopia i put something i put in like"
+    },
+    {
+      "timestamp": [
+        41.82,
+        47.4
+      ],
+      "text": " the middle because like you know there are laws and you know like of course it's great to you know"
+    },
+    {
+      "timestamp": [
+        47.4,
+        53.66
+      ],
+      "text": " follow laws and adhere to like whatever rules society places but like also some of them you"
+    },
+    {
+      "timestamp": [
+        53.66,
+        57.86
+      ],
+      "text": " know it doesn't take into account like all the socioeconomic factors and all the AI-centered"
+    },
+    {
+      "timestamp": [
+        57.86,
+        63.48
+      ],
+      "text": " utopia like I think I think it's fine right data-driven governance is really cool but at"
+    },
+    {
+      "timestamp": [
+        63.48,
+        67.52
+      ],
+      "text": " the same time you know there's a lot of human biases and other factors that can also affect"
+    },
+    {
+      "timestamp": [
+        67.52,
+        73.8
+      ],
+      "text": " like the way data is generated so I put that primitivist utopia like the idea sounds like"
+    },
+    {
+      "timestamp": [
+        73.8,
+        79.18
+      ],
+      "text": " you know you're pretty nice and cool but like that that isn't a life that i would enjoy at all"
+    },
+    {
+      "timestamp": [
+        79.18,
+        84.2
+      ],
+      "text": " and seven like i'm not really religious so like i would not want to have a faith-based order"
+    },
+    {
+      "timestamp": [
+        84.2,
+        87.92
+      ],
+      "text": " because like a lot of the religious texts are based are not like they haven't gone undergone"
+    },
+    {
+      "timestamp": [
+        87.92,
+        91.6
+      ],
+      "text": " like modernization right so like i don't want to be living upon ideals like"
+    },
+    {
+      "timestamp": [
+        91.6,
+        95.0
+      ],
+      "text": " crafted in like the past two thousand three thousand years"
+    }
+  ]
+}

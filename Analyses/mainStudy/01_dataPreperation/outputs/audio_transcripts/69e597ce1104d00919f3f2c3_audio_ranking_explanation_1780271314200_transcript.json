@@ -1,0 +1,108 @@
+{
+  "audio_file": "69e597ce1104d00919f3f2c3_audio_ranking_explanation_1780271314200.webm",
+  "transcript": " so i ranked modern green utopia first because i as it says it's the most sustainable and secure i also just think it's the most realistic and safest and most fair for everyone i also think the primitivist utopia the low tech and small scale one could also be good because we're not relying on ai but like we also use some technology and we're not doing it on a large level and then I ranked three institutional utopia because I think laws are important but when it gets too strict it's not always good and then four I ranked moral commonwealth is four because it's hard to rely on people to be super moral so that could be an issue then I ranked futuristic utopia five because science and innovation are important but we cannot rely on that and I think we shouldn't be moving too much towards futuristic things because I think that does go back to AI a lot and then six I ranked religious utopia because I think not everyone has the same religion not everyone believes in a religion so that wouldn't be fair to anyone and we wouldn't have set laws that would always make sense and then for seven I put AI centered utopia last because we should not be relying on AI technology maybe sometimes it would be accurate, but it wouldn't be looking at emotions and what people actually think.",
+  "language": "unknown",
+  "processing_time_seconds": 21.027481,
+  "timestamp": "2026-06-08T09:40:20.390565",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.0
+      ],
+      "text": " so i ranked modern green utopia first because i as it says it's the most sustainable and secure"
+    },
+    {
+      "timestamp": [
+        8.0,
+        14.26
+      ],
+      "text": " i also just think it's the most realistic and safest and most fair for everyone"
+    },
+    {
+      "timestamp": [
+        14.26,
+        21.96
+      ],
+      "text": " i also think the primitivist utopia the low tech and small scale one could also be good"
+    },
+    {
+      "timestamp": [
+        21.96,
+        27.44
+      ],
+      "text": " because we're not relying on ai but like we also use some technology and we're not doing it"
+    },
+    {
+      "timestamp": [
+        27.44,
+        34.34
+      ],
+      "text": " on a large level and then I ranked three institutional utopia because I think laws"
+    },
+    {
+      "timestamp": [
+        34.34,
+        39.52
+      ],
+      "text": " are important but when it gets too strict it's not always good and then four I ranked moral"
+    },
+    {
+      "timestamp": [
+        39.52,
+        45.6
+      ],
+      "text": " commonwealth is four because it's hard to rely on people to be super moral so that could be"
+    },
+    {
+      "timestamp": [
+        45.6,
+        53.44
+      ],
+      "text": " an issue then I ranked futuristic utopia five because science and innovation are important but"
+    },
+    {
+      "timestamp": [
+        53.44,
+        58.1
+      ],
+      "text": " we cannot rely on that and I think we shouldn't be moving too much towards futuristic things"
+    },
+    {
+      "timestamp": [
+        58.1,
+        64.5
+      ],
+      "text": " because I think that does go back to AI a lot and then six I ranked religious utopia because I think"
+    },
+    {
+      "timestamp": [
+        64.5,
+        69.52
+      ],
+      "text": " not everyone has the same religion not everyone believes in a religion so that wouldn't be fair"
+    },
+    {
+      "timestamp": [
+        69.52,
+        75.88
+      ],
+      "text": " to anyone and we wouldn't have set laws that would always make sense and then for seven I put"
+    },
+    {
+      "timestamp": [
+        75.88,
+        82.24
+      ],
+      "text": " AI centered utopia last because we should not be relying on AI technology maybe sometimes it would"
+    },
+    {
+      "timestamp": [
+        82.24,
+        85.82
+      ],
+      "text": " be accurate, but it wouldn't be looking at emotions and what people actually think."
+    }
+  ]
+}

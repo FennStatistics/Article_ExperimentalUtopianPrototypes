@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a0122424f5dfae04edaa4b4_audio_missing_utopia_1780406789431.webm",
+  "transcript": " I guess that I would want a combination of the green, kind of sustainable society and the moral, just because I feel like it's important to recognize, like, what is good and truly good. But also we want to think about, and I guess this is where we'd incorporate, like, the science as well. We'd want to look at sometimes what we feel isn't scientific, so I think it's important to kind of combine the logical with the emotional so that we're being scientific and at the same time thinking about like, okay, what is best for humanity and the earth at the same time and animals and, you know, the whole ecosystem. of the entire world, right? Like, I think we need to consider everything on earth instead of just us as humans in a selfish way, which I feel like many of us are doing.",
+  "language": "unknown",
+  "processing_time_seconds": 14.673433,
+  "timestamp": "2026-06-08T10:17:09.441462",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.08
+      ],
+      "text": " I guess that I would want a combination of the green, kind of sustainable society and the moral, just because I feel like it's important to recognize, like, what is good and truly good."
+    },
+    {
+      "timestamp": [
+        22.12,
+        29.6
+      ],
+      "text": " But also we want to think about, and I guess this is where we'd incorporate, like, the science as well."
+    },
+    {
+      "timestamp": [
+        29.7,
+        29.6
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        58.26,
+        59.6
+      ],
+      "text": " We'd want to look at sometimes what we feel isn't scientific, so I think it's important to kind of combine the logical with the emotional so that we're being scientific and at the same time thinking about like, okay, what is best for humanity and the earth at the same time and animals and, you know, the whole ecosystem."
+    },
+    {
+      "timestamp": [
+        61.66,
+        61.72
+      ],
+      "text": " of the entire world, right?"
+    },
+    {
+      "timestamp": [
+        67.74,
+        74.48
+      ],
+      "text": " Like, I think we need to consider everything on earth instead of just us as humans in a selfish way,"
+    },
+    {
+      "timestamp": [
+        74.58,
+        80.32
+      ],
+      "text": " which I feel like many of us are doing."
+    }
+  ]
+}

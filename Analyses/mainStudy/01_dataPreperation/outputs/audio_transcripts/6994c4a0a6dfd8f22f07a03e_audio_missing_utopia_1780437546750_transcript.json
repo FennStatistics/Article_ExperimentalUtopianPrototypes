@@ -1,0 +1,17 @@
+{
+  "audio_file": "6994c4a0a6dfd8f22f07a03e_audio_missing_utopia_1780437546750.webm",
+  "transcript": " Yeah, most of these things I picked are like most important values, you know, so like the, yeah, like the number six and number eight and number nine, those are like the most important values to me.",
+  "language": "unknown",
+  "processing_time_seconds": 5.630816,
+  "timestamp": "2026-06-08T09:05:41.661739",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.98
+      ],
+      "text": " Yeah, most of these things I picked are like most important values, you know, so like the, yeah, like the number six and number eight and number nine, those are like the most important values to me."
+    }
+  ]
+}

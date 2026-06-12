@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a1f54c907df6d6555a168a7_audio_missing_utopia_1780444339941.webm",
+  "transcript": " I think there needs to be a society that mixes innovation and science with beliefs and moral values. I think you need a little bit of all of them so that we can keep our world sustainable inside ourselves internally and also on the outside with our environment and our air and no pollutants or anything like that.",
+  "language": "unknown",
+  "processing_time_seconds": 6.402629,
+  "timestamp": "2026-06-08T11:39:00.148428",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.06
+      ],
+      "text": " I think there needs to be a society that mixes innovation and science with beliefs and moral values."
+    },
+    {
+      "timestamp": [
+        9.06,
+        27.36
+      ],
+      "text": " I think you need a little bit of all of them so that we can keep our world sustainable inside ourselves internally and also on the outside with our environment and our air and no pollutants or anything like that."
+    }
+  ]
+}

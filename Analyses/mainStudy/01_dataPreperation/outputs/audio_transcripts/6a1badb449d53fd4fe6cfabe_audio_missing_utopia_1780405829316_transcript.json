@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1badb449d53fd4fe6cfabe_audio_missing_utopia_1780405829316.webm",
+  "transcript": " Something that was missing across all of these societies is the notion of family and how families would matter in terms of making decisions. I think they also, a lot of them depended on rational choices by humans, and we know that humans are not rational actors. And so I feel like that would need to be incorporated into each of these societies.",
+  "language": "unknown",
+  "processing_time_seconds": 8.93402,
+  "timestamp": "2026-06-08T11:17:36.724021",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.32
+      ],
+      "text": " Something that was missing across all of these societies is the notion of family and how"
+    },
+    {
+      "timestamp": [
+        9.32,
+        13.12
+      ],
+      "text": " families would matter in terms of making decisions."
+    },
+    {
+      "timestamp": [
+        13.12,
+        19.72
+      ],
+      "text": " I think they also, a lot of them depended on rational choices by humans, and we know"
+    },
+    {
+      "timestamp": [
+        19.72,
+        23.88
+      ],
+      "text": " that humans are not rational actors."
+    },
+    {
+      "timestamp": [
+        23.88,
+        30.04
+      ],
+      "text": " And so I feel like that would need to be incorporated into each of these societies."
+    }
+  ]
+}

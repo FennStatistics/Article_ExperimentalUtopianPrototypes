@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a0a28cd6f2eb90a33a396f5_audio_missing_utopia_1780390893975.webm",
+  "transcript": " I honestly don't think any utopia is missing here because these are carefully considered every section of future possibility of living. I feel it was fully covered and I don't think I have any imputes so far on a missing utopia.",
+  "language": "unknown",
+  "processing_time_seconds": 5.921691,
+  "timestamp": "2026-06-08T10:34:04.308317",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.14
+      ],
+      "text": " I honestly don't think any utopia is missing here because these are carefully considered"
+    },
+    {
+      "timestamp": [
+        6.14,
+        12.06
+      ],
+      "text": " every section of future possibility of living."
+    },
+    {
+      "timestamp": [
+        12.06,
+        20.16
+      ],
+      "text": " I feel it was fully covered and I don't think I have any imputes so far on a missing utopia."
+    }
+  ]
+}

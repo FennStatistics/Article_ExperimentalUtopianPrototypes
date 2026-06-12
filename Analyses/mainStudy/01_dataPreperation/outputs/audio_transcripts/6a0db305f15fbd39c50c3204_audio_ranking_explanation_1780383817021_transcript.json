@@ -1,0 +1,255 @@
+{
+  "audio_file": "6a0db305f15fbd39c50c3204_audio_ranking_explanation_1780383817021.webm",
+  "transcript": " Okay, let me start from the beginning. I guess an institutional utopia, having a set base of rules and laws based in, you know, for me, I would say common morality, like having this is absolutely wrong. this is absolutely you know you could do this and stuff like that and making sure there are punishments behind committing harsh crimes and minor punishments for minor crimes and getting that out of the way um just having to me that makes you know common sense having you know set of laws based off of common sense and morality. To green utopia, honestly, you'd want to be able to preserve the area that you're living in for as long as you can and having any sort of technology to be able to not only preserve that, but also be able to advance yourself. And that's why I think I have, in all honesty, I think the modern green utopia and a futurist utopia, those are the two opposite sides really in common world politics. Should we just, you know, go green all the way and forego a lot of innovation? Or can we, you know, continue going with innovation and sacrifice the environment? That's one issue. But I feel with our rule of law at the top and thinking also of trying to sustain ourselves and sustain our environment, we can morally and pretty favorably and successfully pursue a futuristic utopia through science and innovation with those other, I guess, ideas. ideals of, you know, having a set rule of law and having sustainability and security in the back of our mind. I don't think I could do a primitivist utopia, low tech, small scale. That's like a minimalist thing. I just personally wouldn't be able to want to live in that particular society. And AI-centered, having data-driven computers run everything without anybody being able to think for themselves or have any input or have a human side being able to make decisions and having morality being an influence in decisions. I just, I wouldn't be able to live in that AI centered in particular for me. Moral commonwealth, just using inner morality that doesn't seem any like that doesn't really seem to make sense for me because um you you have to expect everybody their own inner self to make the exact decision that everybody would want and you'd have to assume that that person doesn't have bad intentions that they're not a serial killer, that they're not, you know, sick or sadistic or have a sadist mentality. Then a religious utopia, we've seen that used throughout history for the wrong reasons. The Crusades, going after other religions because they don't believe the same that you do. having certain societies have their complete politics dominated by having a religious supreme leader and having and shunning any dissent to that or preventing the pursuance of an education to be able to find facts and scientific innovations to support what you learn in your faith-based studies i mean that should be that should you know be used to go hand in hand hey i use this it helps me strengthen my religious beliefs and stuff like that but there shouldn't be any limits in my opinion as long as these studies are moral",
+  "language": "unknown",
+  "processing_time_seconds": 50.022621,
+  "timestamp": "2026-06-08T10:44:14.262689",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.42
+      ],
+      "text": " Okay, let me start from the beginning. I guess an institutional utopia, having a set base of rules and laws based in, you know, for me, I would say common morality, like having this is absolutely wrong."
+    },
+    {
+      "timestamp": [
+        21.42,
+        26.86
+      ],
+      "text": " this is absolutely you know you could do this and stuff like that and making sure there are"
+    },
+    {
+      "timestamp": [
+        26.86,
+        36.26
+      ],
+      "text": " punishments behind committing harsh crimes and minor punishments for minor crimes and getting"
+    },
+    {
+      "timestamp": [
+        36.26,
+        45.04
+      ],
+      "text": " that out of the way um just having to me that makes you know common sense having you know"
+    },
+    {
+      "timestamp": [
+        45.04,
+        54.74
+      ],
+      "text": " set of laws based off of common sense and morality. To green utopia, honestly, you'd want"
+    },
+    {
+      "timestamp": [
+        54.74,
+        60.36
+      ],
+      "text": " to be able to preserve the area that you're living in for as long as you can and having"
+    },
+    {
+      "timestamp": [
+        60.36,
+        67.58
+      ],
+      "text": " any sort of technology to be able to not only preserve that, but also be able to advance"
+    },
+    {
+      "timestamp": [
+        67.58,
+        72.36
+      ],
+      "text": " yourself. And that's why I think I have, in all honesty, I think the modern green utopia"
+    },
+    {
+      "timestamp": [
+        72.36,
+        77.32
+      ],
+      "text": " and a futurist utopia, those are the two opposite sides really"
+    },
+    {
+      "timestamp": [
+        77.32,
+        82.58
+      ],
+      "text": " in common world politics."
+    },
+    {
+      "timestamp": [
+        83.3,
+        85.76
+      ],
+      "text": " Should we just, you know, go green all the way"
+    },
+    {
+      "timestamp": [
+        85.76,
+        90.16
+      ],
+      "text": " and forego a lot of innovation?"
+    },
+    {
+      "timestamp": [
+        90.46,
+        94.64
+      ],
+      "text": " Or can we, you know, continue going with innovation"
+    },
+    {
+      "timestamp": [
+        94.64,
+        97.8
+      ],
+      "text": " and sacrifice the environment?"
+    },
+    {
+      "timestamp": [
+        99.48,
+        100.8
+      ],
+      "text": " That's one issue."
+    },
+    {
+      "timestamp": [
+        100.88,
+        100.8
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        130.78,
+        130.8
+      ],
+      "text": " But I feel with our rule of law at the top and thinking also of trying to sustain ourselves and sustain our environment, we can morally and pretty favorably and successfully pursue a futuristic utopia through science and innovation with those other, I guess, ideas."
+    },
+    {
+      "timestamp": [
+        136.32,
+        143.78
+      ],
+      "text": " ideals of, you know, having a set rule of law and having sustainability and security in the back of our mind. I don't think I could do a primitivist utopia, low tech, small scale."
+    },
+    {
+      "timestamp": [
+        144.68,
+        149.34
+      ],
+      "text": " That's like a minimalist thing. I just personally wouldn't be able to want to live in that"
+    },
+    {
+      "timestamp": [
+        149.34,
+        157.54
+      ],
+      "text": " particular society. And AI-centered, having data-driven computers run everything without"
+    },
+    {
+      "timestamp": [
+        157.54,
+        165.22
+      ],
+      "text": " anybody being able to think for themselves or have any input or have a human side being able"
+    },
+    {
+      "timestamp": [
+        165.22,
+        177.98
+      ],
+      "text": " to make decisions and having morality being an influence in decisions. I just, I wouldn't be"
+    },
+    {
+      "timestamp": [
+        177.98,
+        185.88
+      ],
+      "text": " able to live in that AI centered in particular for me. Moral commonwealth, just using inner"
+    },
+    {
+      "timestamp": [
+        185.88,
+        193.76
+      ],
+      "text": " morality that doesn't seem any like that doesn't really seem to make sense for me because um you"
+    },
+    {
+      "timestamp": [
+        193.76,
+        202.58
+      ],
+      "text": " you have to expect everybody their own inner self to make the exact decision that everybody would"
+    },
+    {
+      "timestamp": [
+        202.58,
+        208.14
+      ],
+      "text": " want and you'd have to assume that that person doesn't have bad intentions that they're not a"
+    },
+    {
+      "timestamp": [
+        208.14,
+        216.74
+      ],
+      "text": " serial killer, that they're not, you know, sick or sadistic or have a sadist mentality."
+    },
+    {
+      "timestamp": [
+        218.22,
+        224.18
+      ],
+      "text": " Then a religious utopia, we've seen that used throughout history for the wrong reasons."
+    },
+    {
+      "timestamp": [
+        224.18,
+        235.36
+      ],
+      "text": " The Crusades, going after other religions because they don't believe the same that you do."
+    },
+    {
+      "timestamp": [
+        235.5,
+        235.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        243.16,
+        252.46
+      ],
+      "text": " having certain societies have their complete politics dominated by having a religious supreme leader and having and shunning any dissent to that or preventing the pursuance of an education"
+    },
+    {
+      "timestamp": [
+        252.46,
+        264.18
+      ],
+      "text": " to be able to find facts and scientific innovations to support what you learn in your faith-based"
+    },
+    {
+      "timestamp": [
+        264.18,
+        270.26
+      ],
+      "text": " studies i mean that should be that should you know be used to go hand in hand hey i use this"
+    },
+    {
+      "timestamp": [
+        270.26,
+        273.96
+      ],
+      "text": " it helps me strengthen my religious beliefs and stuff like that but"
+    },
+    {
+      "timestamp": [
+        273.96,
+        278.46
+      ],
+      "text": " there shouldn't be any limits in my opinion as long as these studies are moral"
+    }
+  ]
+}

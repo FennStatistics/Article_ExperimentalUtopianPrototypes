@@ -1,0 +1,45 @@
+{
+  "audio_file": "66908eecc135ec77905c2810_audio_missing_utopia_1780436448979.webm",
+  "transcript": " um the missing future utopia um i think it's the utopia that includes every single one of those into one using all of them together in unity and which is the one i believe we have today which uses them all for the fastest progression would be the one that I would like to live in which is the one we have today which is a little bit of everything and you can choose which one you like",
+  "language": "unknown",
+  "processing_time_seconds": 9.231596,
+  "timestamp": "2026-06-08T08:38:22.036728",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.0
+      ],
+      "text": " um the missing future utopia um i think it's the utopia that includes every single one of those"
+    },
+    {
+      "timestamp": [
+        17.0,
+        28.2
+      ],
+      "text": " into one using all of them together in unity and which is the one i believe we have today"
+    },
+    {
+      "timestamp": [
+        28.2,
+        36.36
+      ],
+      "text": " which uses them all for the fastest progression would be the one that I"
+    },
+    {
+      "timestamp": [
+        36.36,
+        39.9
+      ],
+      "text": " would like to live in which is the one we have today which is a little bit of"
+    },
+    {
+      "timestamp": [
+        39.9,
+        44.06
+      ],
+      "text": " everything and you can choose which one you like"
+    }
+  ]
+}

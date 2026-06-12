@@ -1,0 +1,164 @@
+{
+  "audio_file": "67062295123561f8241f65fc_audio_ranking_explanation_1780339141441.webm",
+  "transcript": " so i listed them in this order because the modern green utopia seems to be something that is most like the american system i'm not someone who thinks that the american system is perfect but i do like that in its ideal uh implementation has checks and balances representation but safeguards from mob rule and those things can always be implemented incorrectly or correctly but i think that they have more checks and balances than giving absolute authority to either individuals such as divine right or ais or um just government even if it's like a mass um like a mob rule where that everyone individual can vote in a simple majority is enough to overturn anything means that a nation could get whiplash going back and forth too quickly and very quickly limits would be placed for the sake of the country and because it would be added after the fact it would be difficult um to sorry to implement correctly um ideally i personally don't believe that people are capable of arriving at a permanent place of utopia themselves uh i do believe in god um in the christian god and that ultimately the hearts of people are evil not that people can't make good choices but that ultimately will overall make bad choices and that it's never we we never stop trying but that the ultimate good and the ultimate authority isn't ours alone um that also means that we are supposed to take care of the world that we're in we are masters of it but we're supposed to take care of it um so i would say my ideal society is not listed because the religious utopia is people coming up with things just basically to be cult leaders and dictators uh but a modern green utopia i think gives the most freedom for the possibility of freedom of religion and things like that the moral commonwealth is very interesting but it requires an inner morality that someone's morals could be that someone dies and the other one's morals dictates that no one dies and then there's conflict and so having rules and a system in place is the uh superior system",
+  "language": "unknown",
+  "processing_time_seconds": 31.713067,
+  "timestamp": "2026-06-08T08:43:23.093060",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.74
+      ],
+      "text": " so i listed them in this order because the modern green utopia seems to be something that"
+    },
+    {
+      "timestamp": [
+        6.74,
+        14.2
+      ],
+      "text": " is most like the american system i'm not someone who thinks that the american system is perfect"
+    },
+    {
+      "timestamp": [
+        14.2,
+        23.64
+      ],
+      "text": " but i do like that in its ideal uh implementation has checks and balances representation but"
+    },
+    {
+      "timestamp": [
+        23.64,
+        31.1
+      ],
+      "text": " safeguards from mob rule and those things can always be implemented incorrectly or correctly"
+    },
+    {
+      "timestamp": [
+        31.1,
+        35.22
+      ],
+      "text": " but i think that they have more checks and balances than giving absolute authority to"
+    },
+    {
+      "timestamp": [
+        35.22,
+        43.68
+      ],
+      "text": " either individuals such as divine right or ais or um just government even if it's like a mass"
+    },
+    {
+      "timestamp": [
+        43.68,
+        51.18
+      ],
+      "text": " um like a mob rule where that everyone individual can vote in a simple majority is enough to"
+    },
+    {
+      "timestamp": [
+        51.18,
+        56.74
+      ],
+      "text": " overturn anything means that a nation could get whiplash going back and forth too quickly"
+    },
+    {
+      "timestamp": [
+        56.74,
+        65.4
+      ],
+      "text": " and very quickly limits would be placed for the sake of the country and because it would be added"
+    },
+    {
+      "timestamp": [
+        65.4,
+        74.8
+      ],
+      "text": " after the fact it would be difficult um to sorry to implement correctly um ideally i personally"
+    },
+    {
+      "timestamp": [
+        74.8,
+        84.92
+      ],
+      "text": " don't believe that people are capable of arriving at a permanent place of utopia themselves uh i do"
+    },
+    {
+      "timestamp": [
+        84.92,
+        92.68
+      ],
+      "text": " believe in god um in the christian god and that ultimately the hearts of people are evil not that"
+    },
+    {
+      "timestamp": [
+        92.68,
+        100.76
+      ],
+      "text": " people can't make good choices but that ultimately will overall make bad choices and that it's never"
+    },
+    {
+      "timestamp": [
+        100.76,
+        108.36
+      ],
+      "text": " we we never stop trying but that the ultimate good and the ultimate authority isn't ours alone"
+    },
+    {
+      "timestamp": [
+        108.36,
+        114.86
+      ],
+      "text": " um that also means that we are supposed to take care of the world that we're in we are"
+    },
+    {
+      "timestamp": [
+        114.86,
+        123.22
+      ],
+      "text": " masters of it but we're supposed to take care of it um so i would say my ideal society is not listed"
+    },
+    {
+      "timestamp": [
+        123.22,
+        129.06
+      ],
+      "text": " because the religious utopia is people coming up with things just basically to be cult leaders and"
+    },
+    {
+      "timestamp": [
+        129.06,
+        138.56
+      ],
+      "text": " dictators uh but a modern green utopia i think gives the most freedom for the possibility of"
+    },
+    {
+      "timestamp": [
+        138.56,
+        144.92
+      ],
+      "text": " freedom of religion and things like that the moral commonwealth is very interesting but it"
+    },
+    {
+      "timestamp": [
+        144.92,
+        151.36
+      ],
+      "text": " requires an inner morality that someone's morals could be that someone dies and the other one's"
+    },
+    {
+      "timestamp": [
+        151.36,
+        160.02
+      ],
+      "text": " morals dictates that no one dies and then there's conflict and so having rules and a system in place"
+    },
+    {
+      "timestamp": [
+        160.02,
+        163.7
+      ],
+      "text": " is the uh superior system"
+    }
+  ]
+}

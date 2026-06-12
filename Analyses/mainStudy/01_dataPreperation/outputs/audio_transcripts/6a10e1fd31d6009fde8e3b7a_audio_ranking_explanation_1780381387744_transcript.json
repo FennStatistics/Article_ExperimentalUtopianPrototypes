@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a10e1fd31d6009fde8e3b7a_audio_ranking_explanation_1780381387744.webm",
+  "transcript": " The society I ranked the highest was the sustainable and secure, just because I believe that saving the planet and our food is very important. However, my least favourite was religious, because I think it's very controlling and patriarchal, as it has proved in the past.",
+  "language": "unknown",
+  "processing_time_seconds": 6.009783,
+  "timestamp": "2026-06-08T10:54:11.428423",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.4
+      ],
+      "text": " The society I ranked the highest was the sustainable and secure, just because I believe that saving the planet and our food is very important."
+    },
+    {
+      "timestamp": [
+        14.08,
+        24.58
+      ],
+      "text": " However, my least favourite was religious, because I think it's very controlling and patriarchal, as it has proved in the past."
+    }
+  ]
+}

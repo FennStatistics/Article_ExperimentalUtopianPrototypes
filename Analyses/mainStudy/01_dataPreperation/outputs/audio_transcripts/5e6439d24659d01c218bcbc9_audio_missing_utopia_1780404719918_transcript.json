@@ -1,0 +1,38 @@
+{
+  "audio_file": "5e6439d24659d01c218bcbc9_audio_missing_utopia_1780404719918.webm",
+  "transcript": " So looking back at the ones I just ranked, were any important values? No, I don't think that there were any values that were missing. Well, maybe I guess friendship and community was missing. I feel like maybe that could be the small scale primitive utopia. but i feel like also one just based on friendship and community kind of like small like communal farms would be absent um what would matter there is everyone would contribute to the land and and they'd all have a kind of a similar goal together.",
+  "language": "unknown",
+  "processing_time_seconds": 13.50337,
+  "timestamp": "2026-06-08T08:16:05.155976",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.92
+      ],
+      "text": " So looking back at the ones I just ranked, were any important values? No, I don't think that there were any values that were missing. Well, maybe I guess friendship and community was missing. I feel like maybe that could be the small scale primitive utopia."
+    },
+    {
+      "timestamp": [
+        17.92,
+        24.16
+      ],
+      "text": " but i feel like also one just based on friendship and community kind of like small like communal"
+    },
+    {
+      "timestamp": [
+        24.16,
+        31.28
+      ],
+      "text": " farms would be absent um what would matter there is everyone would contribute to the land and"
+    },
+    {
+      "timestamp": [
+        31.28,
+        33.82
+      ],
+      "text": " and they'd all have a kind of a similar goal together."
+    }
+  ]
+}

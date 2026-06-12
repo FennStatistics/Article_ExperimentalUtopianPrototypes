@@ -38,7 +38,7 @@ const study = new lab.flow.Sequence({
     // new lab.plugins.Debug(), // comment out finally !!!
     // new lab.plugins.Download()
   ],
-  content: [
+  content: [  
     Greetings_htmlForm,
     InformCon_htmlForm,
     InformConsentNO_htmlForm,

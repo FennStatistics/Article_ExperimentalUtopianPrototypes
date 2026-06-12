@@ -1,0 +1,87 @@
+{
+  "audio_file": "6a1db879da54dbca719304ac_audio_ranking_explanation_1780431002506.webm",
+  "transcript": " So when ranking these societies, I ranked the AI-centered utopia last because the idea of my life being dictated purely by that of artificial intelligence just ain't it for me. I already don't like sometimes when AI I find out is running everything or I've been using something and it's AI-powered. um people have a lot of skills and we're just letting computers do all of it and i don't want to end up in a society where the robots decide to kill me and take over but also i i just think that computers need not be in charge and that people have a place in society so i just really don't like the ai-centered utopia you know the one that i like the most was the moral commonwealth so being driven by inner morality. This isn't perfect to think that would happen, but if there were a perfect society that one could dream up, it would be this. If we could live in a society where everyone just followed correct morals and cared about one another and made decisions not based on how it helps them, but how it helps them and everyone and are willing to help others and aren't forced to help others, that would be the true ideal utopian society.",
+  "language": "unknown",
+  "processing_time_seconds": 19.507615,
+  "timestamp": "2026-06-08T11:26:46.966437",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.72
+      ],
+      "text": " So when ranking these societies, I ranked the AI-centered utopia last because the idea of my life being dictated purely by that of artificial intelligence just ain't it for me."
+    },
+    {
+      "timestamp": [
+        14.28,
+        23.36
+      ],
+      "text": " I already don't like sometimes when AI I find out is running everything or I've been using something and it's AI-powered."
+    },
+    {
+      "timestamp": [
+        24.72,
+        23.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        29.42,
+        35.82
+      ],
+      "text": " um people have a lot of skills and we're just letting computers do all of it and i don't want to end up in a society where the robots decide to kill me and take over but also i i just think"
+    },
+    {
+      "timestamp": [
+        35.82,
+        41.68
+      ],
+      "text": " that computers need not be in charge and that people have a place in society so i just really"
+    },
+    {
+      "timestamp": [
+        41.68,
+        47.22
+      ],
+      "text": " don't like the ai-centered utopia you know the one that i like the most was the moral commonwealth"
+    },
+    {
+      "timestamp": [
+        47.22,
+        53.54
+      ],
+      "text": " so being driven by inner morality. This isn't perfect to think that would happen, but if there"
+    },
+    {
+      "timestamp": [
+        53.54,
+        58.98
+      ],
+      "text": " were a perfect society that one could dream up, it would be this. If we could live in a society"
+    },
+    {
+      "timestamp": [
+        58.98,
+        65.48
+      ],
+      "text": " where everyone just followed correct morals and cared about one another and made decisions not"
+    },
+    {
+      "timestamp": [
+        65.48,
+        71.56
+      ],
+      "text": " based on how it helps them, but how it helps them and everyone and are willing to help others and"
+    },
+    {
+      "timestamp": [
+        71.56,
+        77.38
+      ],
+      "text": " aren't forced to help others, that would be the true ideal utopian society."
+    }
+  ]
+}

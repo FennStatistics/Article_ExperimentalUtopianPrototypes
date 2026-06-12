@@ -1,0 +1,45 @@
+{
+  "audio_file": "6705bf2688ed88bcafd57446_audio_missing_utopia_1780383912236.webm",
+  "transcript": " I feel like that a very beneficial future society that wasn't mentioned in the list that I feel like would be a positive for a society would be a Unitarian society. In other words, a society that values uniting of the people in a city, a society, a nation, and globally. I feel like that if people and societies are more open to uniting with other societies, that they are able to learn and develop and progress through each other's experiences and knowledge that they have progressed throughout the months and years. I feel like that this also offers a very secure society that they all are working together to a specific goal or a specific issue or working together to keep peace, order, and knowledge. So I feel like that this society would be very beneficial and would definitely be in the top of my list for societies that I would want to be a part of.",
+  "language": "unknown",
+  "processing_time_seconds": 19.36003,
+  "timestamp": "2026-06-08T08:41:35.110116",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.88
+      ],
+      "text": " I feel like that a very beneficial future society that wasn't mentioned in the list that I feel like would be a positive for a society would be a Unitarian society."
+    },
+    {
+      "timestamp": [
+        21.88,
+        36.72
+      ],
+      "text": " In other words, a society that values uniting of the people in a city, a society, a nation, and globally."
+    },
+    {
+      "timestamp": [
+        36.72,
+        66.7
+      ],
+      "text": " I feel like that if people and societies are more open to uniting with other societies, that they are able to learn and develop and progress through each other's experiences and knowledge that they have progressed throughout the months and years."
+    },
+    {
+      "timestamp": [
+        66.72,
+        91.8
+      ],
+      "text": " I feel like that this also offers a very secure society that they all are working together to a specific goal or a specific issue or working together to keep peace, order, and knowledge."
+    },
+    {
+      "timestamp": [
+        91.8,
+        104.72
+      ],
+      "text": " So I feel like that this society would be very beneficial and would definitely be in the top of my list for societies that I would want to be a part of."
+    }
+  ]
+}

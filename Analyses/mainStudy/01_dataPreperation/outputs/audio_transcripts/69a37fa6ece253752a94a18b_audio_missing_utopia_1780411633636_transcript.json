@@ -1,0 +1,52 @@
+{
+  "audio_file": "69a37fa6ece253752a94a18b_audio_missing_utopia_1780411633636.webm",
+  "transcript": " um as of right now i cannot think of any missing future society that would like to add in there but oh a society but i think that would at the end of the day that was to back back to the um ai ai governance or whatever i'm going to call it um it would be a society where even those in power still get penalized like if they realize that oh someone in power is misusing their power stuff like that it does not get thrown under the rug no matter who the person is yeah stuff like",
+  "language": "unknown",
+  "processing_time_seconds": 10.152876,
+  "timestamp": "2026-06-08T09:09:27.809508",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        10.24
+      ],
+      "text": " um as of right now i cannot think of any missing future society that would like to add in there"
+    },
+    {
+      "timestamp": [
+        11.6,
+        19.76
+      ],
+      "text": " but oh a society but i think that would at the end of the day that was to back back to the um ai"
+    },
+    {
+      "timestamp": [
+        20.88,
+        28.96
+      ],
+      "text": " ai governance or whatever i'm going to call it um it would be a society where even those in power"
+    },
+    {
+      "timestamp": [
+        29.92,
+        29.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        39.84,
+        40.56
+      ],
+      "text": " still get penalized like if they realize that oh someone in power is misusing their power"
+    },
+    {
+      "timestamp": [
+        48.4,
+        null
+      ],
+      "text": " stuff like that it does not get thrown under the rug no matter who the person is yeah stuff like"
+    }
+  ]
+}

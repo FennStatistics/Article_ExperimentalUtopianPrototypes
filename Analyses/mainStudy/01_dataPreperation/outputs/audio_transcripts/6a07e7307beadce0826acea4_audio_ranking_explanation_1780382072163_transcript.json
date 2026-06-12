@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a07e7307beadce0826acea4_audio_ranking_explanation_1780382072163.webm",
+  "transcript": " um i believe i rank them this way because i think a green utopia would be the most ideal sustainable and secure and also low-tech and small-scale permittivist utopia i would think is comparable to the modern green utopia they're very simple in that aspect as for the third option a futurist utopia science and innovation is nice but technology is it has its limits and the other ones i found them relatively comparable the ai utopia i think wouldn't work out",
+  "language": "unknown",
+  "processing_time_seconds": 10.427352,
+  "timestamp": "2026-06-08T10:30:58.565208",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.56
+      ],
+      "text": " um i believe i rank them this way because i think a green utopia would be the most ideal"
+    },
+    {
+      "timestamp": [
+        7.52,
+        14.72
+      ],
+      "text": " sustainable and secure and also low-tech and small-scale permittivist utopia i would think"
+    },
+    {
+      "timestamp": [
+        14.72,
+        21.2
+      ],
+      "text": " is comparable to the modern green utopia they're very simple in that aspect as for the third option"
+    },
+    {
+      "timestamp": [
+        21.2,
+        29.92
+      ],
+      "text": " a futurist utopia science and innovation is nice but technology is it has its limits and"
+    },
+    {
+      "timestamp": [
+        31.44,
+        39.92
+      ],
+      "text": " the other ones i found them relatively comparable the ai utopia i think wouldn't work out"
+    }
+  ]
+}

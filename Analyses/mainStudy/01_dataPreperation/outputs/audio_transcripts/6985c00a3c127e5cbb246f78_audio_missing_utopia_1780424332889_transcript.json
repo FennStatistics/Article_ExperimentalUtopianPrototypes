@@ -1,0 +1,24 @@
+{
+  "audio_file": "6985c00a3c127e5cbb246f78_audio_missing_utopia_1780424332889.webm",
+  "transcript": " Um, no, they listed mostly all the ones that I could think of. Um, I don't think anyone's particularly missing.",
+  "language": "unknown",
+  "processing_time_seconds": 5.112106,
+  "timestamp": "2026-06-08T08:58:58.571765",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.44
+      ],
+      "text": " Um, no, they listed mostly all the ones that I could think of."
+    },
+    {
+      "timestamp": [
+        4.08,
+        8.24
+      ],
+      "text": " Um, I don't think anyone's particularly missing."
+    }
+  ]
+}

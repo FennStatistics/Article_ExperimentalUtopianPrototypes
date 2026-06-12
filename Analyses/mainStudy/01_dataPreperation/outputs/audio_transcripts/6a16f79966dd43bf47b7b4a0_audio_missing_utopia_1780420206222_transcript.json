@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a16f79966dd43bf47b7b4a0_audio_missing_utopia_1780420206222.webm",
+  "transcript": " A missing society is probably, like, maybe state-led, or, like, each state has their own set of rules. It's not, like, a whole government. Okay.",
+  "language": "unknown",
+  "processing_time_seconds": 5.610508,
+  "timestamp": "2026-06-08T11:08:46.018213",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.18
+      ],
+      "text": " A missing society is probably, like, maybe state-led, or, like, each state has their own set of rules."
+    },
+    {
+      "timestamp": [
+        13.28,
+        14.68
+      ],
+      "text": " It's not, like, a whole government."
+    },
+    {
+      "timestamp": [
+        18.26,
+        18.78
+      ],
+      "text": " Okay."
+    }
+  ]
+}

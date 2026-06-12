@@ -1,0 +1,108 @@
+{
+  "audio_file": "634865f77fe29563ec6f621c_audio_ranking_explanation_1780409360672.webm",
+  "transcript": " I think the futuristic utopia society is probably the best of all, because it is based on science. So, on things like objective facts that ideally people can agree on. I think a religious utopia faith-based order is just the one that has the most potential for danger. So that one is placed at the bottom. What if people don't agree? Modern green utopia is number two. I think it could be a good place to live as we try to be more sustainable. Low-tech, small-scale utopia I thought was also potentially a good idea where people can, the way I envision it, live off the land and only take the things that they need and then the other ones are sort of I'm in between about institutional law can be used in ways that it disadvantages some people I would want to know more about the society before I agree to something like the moral commonwealth I'm not sure that I can trust people's inner morality and the data-driven governance the AI one just sounds a bit dangerous given how much we don't know about AI and how it works.",
+  "language": "unknown",
+  "processing_time_seconds": 18.923376,
+  "timestamp": "2026-06-08T08:26:44.345999",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.1
+      ],
+      "text": " I think the futuristic utopia society is probably the best of all, because it is based on science."
+    },
+    {
+      "timestamp": [
+        12.1,
+        18.3
+      ],
+      "text": " So, on things like objective facts that ideally people can agree on."
+    },
+    {
+      "timestamp": [
+        19.44,
+        28.04
+      ],
+      "text": " I think a religious utopia faith-based order is just the one that has the most potential for danger."
+    },
+    {
+      "timestamp": [
+        28.68,
+        31.1
+      ],
+      "text": " So that one is placed at the bottom."
+    },
+    {
+      "timestamp": [
+        31.34,
+        32.9
+      ],
+      "text": " What if people don't agree?"
+    },
+    {
+      "timestamp": [
+        34.24,
+        36.56
+      ],
+      "text": " Modern green utopia is number two."
+    },
+    {
+      "timestamp": [
+        36.56,
+        44.28
+      ],
+      "text": " I think it could be a good place to live as we try to be more sustainable."
+    },
+    {
+      "timestamp": [
+        45.58,
+        52.74
+      ],
+      "text": " Low-tech, small-scale utopia I thought was also potentially a good idea"
+    },
+    {
+      "timestamp": [
+        52.74,
+        56.68
+      ],
+      "text": " where people can, the way I envision it, live off the land"
+    },
+    {
+      "timestamp": [
+        56.68,
+        64.14
+      ],
+      "text": " and only take the things that they need and then the other ones are sort of I'm in between about"
+    },
+    {
+      "timestamp": [
+        64.14,
+        71.9
+      ],
+      "text": " institutional law can be used in ways that it disadvantages some people I would want to know"
+    },
+    {
+      "timestamp": [
+        71.9,
+        77.96
+      ],
+      "text": " more about the society before I agree to something like the moral commonwealth I'm not sure that I"
+    },
+    {
+      "timestamp": [
+        77.96,
+        85.26
+      ],
+      "text": " can trust people's inner morality and the data-driven governance the AI one just sounds a"
+    },
+    {
+      "timestamp": [
+        85.26,
+        91.1
+      ],
+      "text": " bit dangerous given how much we don't know about AI and how it works."
+    }
+  ]
+}

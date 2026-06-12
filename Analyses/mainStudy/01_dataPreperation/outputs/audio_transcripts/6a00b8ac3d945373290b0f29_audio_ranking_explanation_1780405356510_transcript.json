@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a00b8ac3d945373290b0f29_audio_ranking_explanation_1780405356510.webm",
+  "transcript": " I ordered my utopias from a place of environmental concern. I put AI at the bottom because I think it's not sustainable. And whereas I think the modern green and primitive primitivist utopias are the most sustainable and going to help us like in the long term and truly be a utopia. AI also I don't think breeds any sort of creativity or like diversity things that make humans who they are um so I opted for the more environmentally friendly and also um conservative with resources as well as like um utopias that were based off of like social and moral concern too So,",
+  "language": "unknown",
+  "processing_time_seconds": 12.785293,
+  "timestamp": "2026-06-08T10:15:46.082235",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.36
+      ],
+      "text": " I ordered my utopias from a place of environmental concern. I put AI at the bottom because I think it's not sustainable. And whereas I think the modern green and primitive primitivist utopias are the most sustainable and going to help us like in the long term and truly be a utopia."
+    },
+    {
+      "timestamp": [
+        22.68,
+        22.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        29.92,
+        39.92
+      ],
+      "text": " AI also I don't think breeds any sort of creativity or like diversity things that make humans who they are um so I opted for the more environmentally friendly and also um conservative with resources"
+    },
+    {
+      "timestamp": [
+        39.92,
+        47.98
+      ],
+      "text": " as well as like um utopias that were based off of like social and moral concern too"
+    },
+    {
+      "timestamp": [
+        47.98,
+        49.98
+      ],
+      "text": " So,"
+    }
+  ]
+}

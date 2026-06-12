@@ -1,0 +1,227 @@
+{
+  "audio_file": "69e17b4489b488c473d5c608_audio_ranking_explanation_1780415031203.webm",
+  "transcript": " Okay, so scrolling up here, we have Modern Green Utopia as number one, and then the primitive utopia, the low-tech utopia. Okay, so personally, I actually really like the low-tech utopia with a small scale, with the less government involved. That sounds perfect for me, but I know that's not going to work for everybody for society as a whole. Um, but the next best thing for society as a whole, I would think is, um, the modern green utopia. Cause if you think now we have like plastic is a amazing innovation that we have right now. And the green version of that would be like, we swapped over to like biodegradable plastic, like sugarcane plastic. And it seems like just like the best of both worlds like you get the i guess convenience of society and um what is less damaging to the earth so i guess that seems the best but that still has issues like major issues that could be about because it's like limiting freedom about i don't know certain things are like oh you can't use oil anymore like okay where are we going to use there's a lot to figure out there but 100 years from now who knows maybe we'll have something better so then we go down we got the science and innovation yes we have the science and innovation and the inner morality so those are both um science and innovation can sometimes be really cold so i'm not really that's on paper that sounds like a really good thing but um not always because you could end up giving up a lot of freedom with the science one and then the intermorality one just doesn't really sound like a good idea because everybody has so many different opinions and it's just i don't know how anything would get done honestly like anything law-wise because if you look at things broadly it's i don't like that um like for as far as rules and laws and stuff i don't know it depends how deep people get with it but okay so then we go down we have rule of law that's like pretty much what we're in now without the morality and that sounds like a terrible idea also because if you only have law and don't have morality in there it's um you're gonna have people fighting over rules eventually when something comes up that's like not left it's not right it's gray area and so they're like okay well we just have to follow the law anyways and it's gonna upset a lot of people now the bottom two i really really really really don't like i don't i put the ai before the religious utopia because um what religion is it what religion is it you know what i mean uh i'm not really too fond of most of the major religions there's a lot of it's no thank you so i put ai above that even though i equally dislike both of those because ai is pretty bad of um there's no human choice there's a lot of technical error and it's just very wrong so yeah that's my answers",
+  "language": "unknown",
+  "processing_time_seconds": 41.013214,
+  "timestamp": "2026-06-08T09:37:35.028118",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        7.16
+      ],
+      "text": " Okay, so scrolling up here, we have Modern Green Utopia as number one, and then the primitive"
+    },
+    {
+      "timestamp": [
+        7.16,
+        16.74
+      ],
+      "text": " utopia, the low-tech utopia. Okay, so personally, I actually really like the low-tech utopia with"
+    },
+    {
+      "timestamp": [
+        16.74,
+        23.12
+      ],
+      "text": " a small scale, with the less government involved. That sounds perfect for me, but I know that's"
+    },
+    {
+      "timestamp": [
+        23.12,
+        31.78
+      ],
+      "text": " not going to work for everybody for society as a whole. Um, but the next best thing for society as"
+    },
+    {
+      "timestamp": [
+        31.78,
+        36.62
+      ],
+      "text": " a whole, I would think is, um, the modern green utopia. Cause if you think now we have like"
+    },
+    {
+      "timestamp": [
+        36.62,
+        43.1
+      ],
+      "text": " plastic is a amazing innovation that we have right now. And the green version of that would"
+    },
+    {
+      "timestamp": [
+        43.1,
+        47.64
+      ],
+      "text": " be like, we swapped over to like biodegradable plastic, like sugarcane plastic. And it seems"
+    },
+    {
+      "timestamp": [
+        47.64,
+        55.78
+      ],
+      "text": " like just like the best of both worlds like you get the i guess convenience of society and um"
+    },
+    {
+      "timestamp": [
+        55.78,
+        62.52
+      ],
+      "text": " what is less damaging to the earth so i guess that seems the best but that still has issues"
+    },
+    {
+      "timestamp": [
+        62.52,
+        69.04
+      ],
+      "text": " like major issues that could be about because it's like limiting freedom about i don't know"
+    },
+    {
+      "timestamp": [
+        69.04,
+        72.74
+      ],
+      "text": " certain things are like oh you can't use oil anymore like okay where are we going to use"
+    },
+    {
+      "timestamp": [
+        72.74,
+        77.52
+      ],
+      "text": " there's a lot to figure out there but 100 years from now who knows maybe we'll have something"
+    },
+    {
+      "timestamp": [
+        77.52,
+        84.24
+      ],
+      "text": " better so then we go down we got the science and innovation yes we have the science and"
+    },
+    {
+      "timestamp": [
+        84.24,
+        93.02
+      ],
+      "text": " innovation and the inner morality so those are both um science and innovation can sometimes be"
+    },
+    {
+      "timestamp": [
+        93.02,
+        98.86
+      ],
+      "text": " really cold so i'm not really that's on paper that sounds like a really good thing but um"
+    },
+    {
+      "timestamp": [
+        98.86,
+        107.02
+      ],
+      "text": " not always because you could end up giving up a lot of freedom with the science one and then"
+    },
+    {
+      "timestamp": [
+        107.02,
+        112.7
+      ],
+      "text": " the intermorality one just doesn't really sound like a good idea because everybody has so many"
+    },
+    {
+      "timestamp": [
+        112.7,
+        120.28
+      ],
+      "text": " different opinions and it's just i don't know how anything would get done honestly like anything"
+    },
+    {
+      "timestamp": [
+        120.28,
+        128.04
+      ],
+      "text": " law-wise because if you look at things broadly it's i don't like that um"
+    },
+    {
+      "timestamp": [
+        128.04,
+        135.68
+      ],
+      "text": " like for as far as rules and laws and stuff i don't know it depends how deep people get with"
+    },
+    {
+      "timestamp": [
+        135.68,
+        141.02
+      ],
+      "text": " it but okay so then we go down we have rule of law that's like pretty much what we're in now"
+    },
+    {
+      "timestamp": [
+        141.02,
+        146.3
+      ],
+      "text": " without the morality and that sounds like a terrible idea also because if you only have"
+    },
+    {
+      "timestamp": [
+        146.3,
+        152.0
+      ],
+      "text": " law and don't have morality in there it's um you're gonna have people fighting over rules"
+    },
+    {
+      "timestamp": [
+        152.0,
+        159.12
+      ],
+      "text": " eventually when something comes up that's like not left it's not right it's gray area and so"
+    },
+    {
+      "timestamp": [
+        159.12,
+        163.7
+      ],
+      "text": " they're like okay well we just have to follow the law anyways and it's gonna upset a lot of people"
+    },
+    {
+      "timestamp": [
+        163.7,
+        169.26
+      ],
+      "text": " now the bottom two i really really really really don't like i don't i put the ai before the"
+    },
+    {
+      "timestamp": [
+        169.26,
+        174.48
+      ],
+      "text": " religious utopia because um what religion is it what religion is it you know what i mean"
+    },
+    {
+      "timestamp": [
+        174.48,
+        183.08
+      ],
+      "text": " uh i'm not really too fond of most of the major religions there's a lot of it's no thank you so"
+    },
+    {
+      "timestamp": [
+        183.08,
+        189.02
+      ],
+      "text": " i put ai above that even though i equally dislike both of those because ai is pretty bad of um"
+    },
+    {
+      "timestamp": [
+        189.02,
+        195.98
+      ],
+      "text": " there's no human choice there's a lot of technical error and it's just very wrong so yeah that's my"
+    },
+    {
+      "timestamp": [
+        195.98,
+        196.3
+      ],
+      "text": " answers"
+    }
+  ]
+}

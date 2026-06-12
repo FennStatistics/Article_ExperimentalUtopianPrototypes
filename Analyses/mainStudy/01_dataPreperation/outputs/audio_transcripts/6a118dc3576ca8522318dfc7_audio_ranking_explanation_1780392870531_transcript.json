@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a118dc3576ca8522318dfc7_audio_ranking_explanation_1780392870531.webm",
+  "transcript": " I arranged the list based on a progressive transition from highly advanced collective and systemic societal structures to deeply traditional, individualized, and low-tech ideals. I prioritize modern green utopia and AI-centered utopia at the top because I value sustainable security and data-driven governance is the most pragmatic scalable foundation for a thriving future as the list progresses through science law and morality it gradually shifts away from technological infrastructure towards personal belief systems i place religious utopia and primitivist utopia at the very bottom because i find a regression to strict faith faith-based orders or low-tech small-scale living to be the least practical or desirable solutions for modern global challenges",
+  "language": "unknown",
+  "processing_time_seconds": 13.445721,
+  "timestamp": "2026-06-08T10:54:38.183429",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.48
+      ],
+      "text": " I arranged the list based on a progressive transition from highly advanced collective"
+    },
+    {
+      "timestamp": [
+        9.48,
+        16.64
+      ],
+      "text": " and systemic societal structures to deeply traditional, individualized, and low-tech"
+    },
+    {
+      "timestamp": [
+        16.64,
+        17.64
+      ],
+      "text": " ideals."
+    },
+    {
+      "timestamp": [
+        17.64,
+        25.2
+      ],
+      "text": " I prioritize modern green utopia and AI-centered utopia at the top because I value sustainable"
+    },
+    {
+      "timestamp": [
+        25.2,
+        31.6
+      ],
+      "text": " security and data-driven governance is the most pragmatic scalable foundation for a thriving"
+    },
+    {
+      "timestamp": [
+        31.6,
+        38.88
+      ],
+      "text": " future as the list progresses through science law and morality it gradually shifts away from"
+    },
+    {
+      "timestamp": [
+        38.88,
+        46.16
+      ],
+      "text": " technological infrastructure towards personal belief systems i place religious utopia and"
+    },
+    {
+      "timestamp": [
+        46.16,
+        52.64
+      ],
+      "text": " primitivist utopia at the very bottom because i find a regression to strict faith faith-based"
+    },
+    {
+      "timestamp": [
+        52.64,
+        61.44
+      ],
+      "text": " orders or low-tech small-scale living to be the least practical or desirable solutions for modern"
+    },
+    {
+      "timestamp": [
+        61.44,
+        63.44
+      ],
+      "text": " global challenges"
+    }
+  ]
+}

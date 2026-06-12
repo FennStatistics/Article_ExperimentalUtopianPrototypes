@@ -1,0 +1,17 @@
+{
+  "audio_file": "67004445b289e820d5e8fb69_audio_missing_utopia_1780265693369.webm",
+  "transcript": " Although nearly impossible, it would be nice to find a good balance in between religion and science-based society.",
+  "language": "unknown",
+  "processing_time_seconds": 4.906801,
+  "timestamp": "2026-06-08T08:39:59.839638",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.02
+      ],
+      "text": " Although nearly impossible, it would be nice to find a good balance in between religion and science-based society."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "audio_file": "69bf5ff40b94d1ab39ec795e_audio_missing_utopia_1780404481308.webm",
+  "transcript": " I do feel like most of the potential societies that we can experience in the future were already covered. There's not one that really comes to mind where I think it could be a possibility. If anything, it would just be the society that we have now kind of continuing on and maybe advancing ever so slightly. i think one of the most realistic ones that are going to happen in the next 100 or 200 years is the ai option i feel like that's something that's kind of already taking place i already know people that are losing jobs because of ai um so i think that's something that's really realistic even though i don't love the idea of it but i wouldn't say i feel that one is missing and like i said i the most realistic one is the ai one and my most preferred of course was the one where laws are kind of instilled like the one that we have currently",
+  "language": "unknown",
+  "processing_time_seconds": 14.715924,
+  "timestamp": "2026-06-08T09:20:04.189420",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.32
+      ],
+      "text": " I do feel like most of the potential societies that we can experience in the future were already covered. There's not one that really comes to mind where I think it could be a possibility. If anything, it would just be the society that we have now kind of continuing on and maybe advancing ever so slightly."
+    },
+    {
+      "timestamp": [
+        18.68,
+        18.32
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        24.1,
+        31.7
+      ],
+      "text": " i think one of the most realistic ones that are going to happen in the next 100 or 200 years is the ai option i feel like that's something that's kind of already taking place i already know people"
+    },
+    {
+      "timestamp": [
+        31.7,
+        37.86
+      ],
+      "text": " that are losing jobs because of ai um so i think that's something that's really realistic even"
+    },
+    {
+      "timestamp": [
+        37.86,
+        45.3
+      ],
+      "text": " though i don't love the idea of it but i wouldn't say i feel that one is missing and like i said i"
+    },
+    {
+      "timestamp": [
+        45.3,
+        50.66
+      ],
+      "text": " the most realistic one is the ai one and my most preferred of course was the one where"
+    },
+    {
+      "timestamp": [
+        50.66,
+        54.02
+      ],
+      "text": " laws are kind of instilled like the one that we have currently"
+    }
+  ]
+}

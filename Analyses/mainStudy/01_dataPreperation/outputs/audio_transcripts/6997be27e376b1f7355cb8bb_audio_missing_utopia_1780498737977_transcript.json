@@ -1,0 +1,24 @@
+{
+  "audio_file": "6997be27e376b1f7355cb8bb_audio_missing_utopia_1780498737977.webm",
+  "transcript": " I think one thing that was absent from the missing utopia was the ability to vote in elections. It seemed like there wasn't as much power to the people in any of these things in sense of choosing where they wanted their leaders to go and look like and be.",
+  "language": "unknown",
+  "processing_time_seconds": 6.206973,
+  "timestamp": "2026-06-08T09:05:59.539857",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.02
+      ],
+      "text": " I think one thing that was absent from the missing utopia was the ability to vote in elections."
+    },
+    {
+      "timestamp": [
+        10.02,
+        22.32
+      ],
+      "text": " It seemed like there wasn't as much power to the people in any of these things in sense of choosing where they wanted their leaders to go and look like and be."
+    }
+  ]
+}

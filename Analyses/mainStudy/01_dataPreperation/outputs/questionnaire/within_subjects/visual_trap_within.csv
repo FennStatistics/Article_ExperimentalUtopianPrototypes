@@ -557,3 +557,2367 @@
 119,"6a1bc40efaf7defaede89aa6",3,"CafeWall","3","Slanted / Diagonal",TRUE,11697
 119,"6a1bc40efaf7defaede89aa6",4,"Planets","2","Orange",TRUE,13940
 119,"6a1bc40efaf7defaede89aa6",5,"Circles","2","Red Circle",TRUE,6936
+121,"69b2fc05f91b3889d80e9d4f",0,"Robot","3","Mostly around the center of the square",TRUE,44961
+121,"69b2fc05f91b3889d80e9d4f",1,"Circles","2","Red Circle",TRUE,25805
+121,"69b2fc05f91b3889d80e9d4f",2,"Collision","1","Green Triangle Only",TRUE,32847
+121,"69b2fc05f91b3889d80e9d4f",3,"CafeWall","3","Slanted / Diagonal",TRUE,44407
+121,"69b2fc05f91b3889d80e9d4f",4,"Lines","1","Blue Line",TRUE,8776
+121,"69b2fc05f91b3889d80e9d4f",5,"Planets","2","Orange",TRUE,35117
+122,"6a1b2b3948c6cbae0a769e5c",0,"Lines","1","Blue Line",TRUE,11985
+122,"6a1b2b3948c6cbae0a769e5c",1,"Robot","3","Mostly around the center of the square",TRUE,33828
+122,"6a1b2b3948c6cbae0a769e5c",2,"Circles","2","Red Circle",TRUE,13960
+122,"6a1b2b3948c6cbae0a769e5c",3,"Collision","1","Green Triangle Only",TRUE,19753
+122,"6a1b2b3948c6cbae0a769e5c",4,"CafeWall","3","Slanted / Diagonal",TRUE,15659
+122,"6a1b2b3948c6cbae0a769e5c",5,"Planets","2","Orange",TRUE,28471
+123,"6a080333f7001eaf175c94ab",0,"Circles","2","Red Circle",TRUE,39502
+123,"6a080333f7001eaf175c94ab",1,"Planets","2","Orange",TRUE,28915
+123,"6a080333f7001eaf175c94ab",2,"Collision","1","Green Triangle Only",TRUE,30566
+123,"6a080333f7001eaf175c94ab",3,"CafeWall","4","Mixed: some straight, some slanted",FALSE,32085
+123,"6a080333f7001eaf175c94ab",4,"Lines","1","Blue Line",TRUE,17080
+123,"6a080333f7001eaf175c94ab",5,"Robot","3","Mostly around the center of the square",TRUE,14378
+124,"6a1b32acfd7ac5cad675de0a",0,"Collision","1","Green Triangle Only",TRUE,82804
+124,"6a1b32acfd7ac5cad675de0a",1,"Circles","2","Red Circle",TRUE,48876
+124,"6a1b32acfd7ac5cad675de0a",2,"Robot","2","Mostly on the upper right of the square",FALSE,34543
+124,"6a1b32acfd7ac5cad675de0a",3,"Planets","2","Orange",TRUE,59041
+124,"6a1b32acfd7ac5cad675de0a",4,"Lines","4","Cannot be determined from the image",FALSE,23550
+124,"6a1b32acfd7ac5cad675de0a",5,"CafeWall","3","Slanted / Diagonal",TRUE,21296
+125,"6a14868c742361e67df4d0d0",0,"Collision","1","Green Triangle Only",TRUE,23695
+125,"6a14868c742361e67df4d0d0",1,"Lines","1","Blue Line",TRUE,10031
+125,"6a14868c742361e67df4d0d0",2,"CafeWall","4","Mixed: some straight, some slanted",FALSE,72071
+125,"6a14868c742361e67df4d0d0",3,"Robot","3","Mostly around the center of the square",TRUE,20077
+125,"6a14868c742361e67df4d0d0",4,"Circles","2","Red Circle",TRUE,12871
+125,"6a14868c742361e67df4d0d0",5,"Planets","2","Orange",TRUE,25546
+127,"6a19a7b2150cd11eb43fc07b",0,"Lines","1","Blue Line",TRUE,8284
+127,"6a19a7b2150cd11eb43fc07b",1,"CafeWall","3","Slanted / Diagonal",TRUE,19835
+127,"6a19a7b2150cd11eb43fc07b",2,"Robot","3","Mostly around the center of the square",TRUE,19847
+127,"6a19a7b2150cd11eb43fc07b",3,"Planets","2","Orange",TRUE,19064
+127,"6a19a7b2150cd11eb43fc07b",4,"Circles","2","Red Circle",TRUE,6665
+127,"6a19a7b2150cd11eb43fc07b",5,"Collision","1","Green Triangle Only",TRUE,21823
+128,"69fba19c13731b3f706e38b1",0,"Circles","2","Red Circle",TRUE,16797
+128,"69fba19c13731b3f706e38b1",1,"Planets","2","Orange",TRUE,77086
+128,"69fba19c13731b3f706e38b1",2,"Collision","1","Green Triangle Only",TRUE,44424
+128,"69fba19c13731b3f706e38b1",3,"Lines","1","Blue Line",TRUE,12840
+128,"69fba19c13731b3f706e38b1",4,"CafeWall","3","Slanted / Diagonal",TRUE,9282
+128,"69fba19c13731b3f706e38b1",5,"Robot","3","Mostly around the center of the square",TRUE,42842
+129,"6a0d91ece6bcf739a03b80bc",0,"Circles","2","Red Circle",TRUE,17733
+129,"6a0d91ece6bcf739a03b80bc",1,"Lines","1","Blue Line",TRUE,4795
+129,"6a0d91ece6bcf739a03b80bc",2,"CafeWall","4","Mixed: some straight, some slanted",FALSE,36868
+129,"6a0d91ece6bcf739a03b80bc",3,"Collision","1","Green Triangle Only",TRUE,30772
+129,"6a0d91ece6bcf739a03b80bc",4,"Planets","2","Orange",TRUE,34351
+129,"6a0d91ece6bcf739a03b80bc",5,"Robot","3","Mostly around the center of the square",TRUE,14222
+131,"69e96d63ea37c8245128778f",0,"Planets","2","Orange",TRUE,26065
+131,"69e96d63ea37c8245128778f",1,"Collision","1","Green Triangle Only",TRUE,17302
+131,"69e96d63ea37c8245128778f",2,"Robot","3","Mostly around the center of the square",TRUE,20048
+131,"69e96d63ea37c8245128778f",3,"Circles","2","Red Circle",TRUE,9886
+131,"69e96d63ea37c8245128778f",4,"Lines","1","Blue Line",TRUE,14973
+131,"69e96d63ea37c8245128778f",5,"CafeWall","3","Slanted / Diagonal",TRUE,15681
+133,"5dad4c34b3446a0015e3de93",0,"Lines","1","Blue Line",TRUE,9982
+133,"5dad4c34b3446a0015e3de93",1,"Circles","2","Red Circle",TRUE,8820
+133,"5dad4c34b3446a0015e3de93",2,"Planets","2","Orange",TRUE,40240
+133,"5dad4c34b3446a0015e3de93",3,"Collision","1","Green Triangle Only",TRUE,22162
+133,"5dad4c34b3446a0015e3de93",4,"CafeWall","3","Slanted / Diagonal",TRUE,11667
+133,"5dad4c34b3446a0015e3de93",5,"Robot","3","Mostly around the center of the square",TRUE,11175
+134,"6a13fb185c9041a65134a013",0,"Planets","2","Orange",TRUE,50991
+134,"6a13fb185c9041a65134a013",1,"Robot","3","Mostly around the center of the square",TRUE,28706
+134,"6a13fb185c9041a65134a013",2,"Collision","1","Green Triangle Only",TRUE,41883
+134,"6a13fb185c9041a65134a013",3,"CafeWall","4","Mixed: some straight, some slanted",FALSE,53942
+134,"6a13fb185c9041a65134a013",4,"Circles","2","Red Circle",TRUE,9886
+134,"6a13fb185c9041a65134a013",5,"Lines","1","Blue Line",TRUE,8855
+135,"69fff7076b68ecf72d03cab7",0,"Robot","3","Mostly around the center of the square",TRUE,6832
+135,"69fff7076b68ecf72d03cab7",1,"Collision","1","Green Triangle Only",TRUE,14581
+135,"69fff7076b68ecf72d03cab7",2,"Lines","1","Blue Line",TRUE,4331
+135,"69fff7076b68ecf72d03cab7",3,"CafeWall","3","Slanted / Diagonal",TRUE,6915
+135,"69fff7076b68ecf72d03cab7",4,"Planets","2","Orange",TRUE,10382
+135,"69fff7076b68ecf72d03cab7",5,"Circles","2","Red Circle",TRUE,5898
+136,"6644a91c5e71bd18d4ae8c26",0,"Circles","2","Red Circle",TRUE,7798
+136,"6644a91c5e71bd18d4ae8c26",1,"Collision","1","Green Triangle Only",TRUE,14339
+136,"6644a91c5e71bd18d4ae8c26",2,"Planets","2","Orange",TRUE,21804
+136,"6644a91c5e71bd18d4ae8c26",3,"Robot","2","Mostly on the upper right of the square",FALSE,18390
+136,"6644a91c5e71bd18d4ae8c26",4,"Lines","1","Blue Line",TRUE,7715
+136,"6644a91c5e71bd18d4ae8c26",5,"CafeWall","3","Slanted / Diagonal",TRUE,31101
+137,"606f9bca353fc36aba9ccb8b",0,"Lines","1","Blue Line",TRUE,9964
+137,"606f9bca353fc36aba9ccb8b",1,"Collision","1","Green Triangle Only",TRUE,14419
+137,"606f9bca353fc36aba9ccb8b",2,"Planets","2","Orange",TRUE,6401
+137,"606f9bca353fc36aba9ccb8b",3,"Circles","2","Red Circle",TRUE,37578
+137,"606f9bca353fc36aba9ccb8b",4,"CafeWall","3","Slanted / Diagonal",TRUE,6613
+137,"606f9bca353fc36aba9ccb8b",5,"Robot","3","Mostly around the center of the square",TRUE,5318
+139,"699cb899a44da9a053ba9235",0,"Collision","1","Green Triangle Only",TRUE,22146
+139,"699cb899a44da9a053ba9235",1,"Circles","2","Red Circle",TRUE,10299
+139,"699cb899a44da9a053ba9235",2,"Robot","3","Mostly around the center of the square",TRUE,5409
+139,"699cb899a44da9a053ba9235",3,"CafeWall","3","Slanted / Diagonal",TRUE,7363
+139,"699cb899a44da9a053ba9235",4,"Planets","2","Orange",TRUE,23863
+139,"699cb899a44da9a053ba9235",5,"Lines","1","Blue Line",TRUE,4453
+140,"6a0f1248929227af059d9345",0,"Planets","2","Orange",TRUE,25556
+140,"6a0f1248929227af059d9345",1,"Lines","1","Blue Line",TRUE,8627
+140,"6a0f1248929227af059d9345",2,"Circles","2","Red Circle",TRUE,6702
+140,"6a0f1248929227af059d9345",3,"Robot","3","Mostly around the center of the square",TRUE,17001
+140,"6a0f1248929227af059d9345",4,"CafeWall","3","Slanted / Diagonal",TRUE,23568
+140,"6a0f1248929227af059d9345",5,"Collision","1","Green Triangle Only",TRUE,26593
+141,"66646ef0caf9de9a699b6993",0,"CafeWall","3","Slanted / Diagonal",TRUE,17953
+141,"66646ef0caf9de9a699b6993",1,"Collision","1","Green Triangle Only",TRUE,37336
+141,"66646ef0caf9de9a699b6993",2,"Robot","3","Mostly around the center of the square",TRUE,81679
+141,"66646ef0caf9de9a699b6993",3,"Lines","1","Blue Line",TRUE,9062
+141,"66646ef0caf9de9a699b6993",4,"Planets","2","Orange",TRUE,18821
+141,"66646ef0caf9de9a699b6993",5,"Circles","2","Red Circle",TRUE,5084
+142,"6a16714ecf227557cde36510",0,"CafeWall","3","Slanted / Diagonal",TRUE,229167
+142,"6a16714ecf227557cde36510",1,"Planets","2","Orange",TRUE,110044
+142,"6a16714ecf227557cde36510",2,"Collision","1","Green Triangle Only",TRUE,110952
+142,"6a16714ecf227557cde36510",3,"Lines","1","Blue Line",TRUE,21391
+142,"6a16714ecf227557cde36510",4,"Circles","2","Red Circle",TRUE,19440
+142,"6a16714ecf227557cde36510",5,"Robot","3","Mostly around the center of the square",TRUE,14007
+143,"6942bb71de4537642d064f8b",0,"Planets","2","Orange",TRUE,25963
+143,"6942bb71de4537642d064f8b",1,"Lines","1","Blue Line",TRUE,16598
+143,"6942bb71de4537642d064f8b",2,"Collision","1","Green Triangle Only",TRUE,16534
+143,"6942bb71de4537642d064f8b",3,"Robot","3","Mostly around the center of the square",TRUE,17811
+143,"6942bb71de4537642d064f8b",4,"Circles","2","Red Circle",TRUE,11107
+143,"6942bb71de4537642d064f8b",5,"CafeWall","3","Slanted / Diagonal",TRUE,15434
+144,"69d663a1e229a12f6c8bf2a4",0,"Lines","1","Blue Line",TRUE,17798
+144,"69d663a1e229a12f6c8bf2a4",1,"Circles","2","Red Circle",TRUE,9458
+144,"69d663a1e229a12f6c8bf2a4",2,"Collision","4","No object would be hit",FALSE,38780
+144,"69d663a1e229a12f6c8bf2a4",3,"CafeWall","3","Slanted / Diagonal",TRUE,23994
+144,"69d663a1e229a12f6c8bf2a4",4,"Planets","2","Orange",TRUE,31396
+144,"69d663a1e229a12f6c8bf2a4",5,"Robot","3","Mostly around the center of the square",TRUE,11271
+145,"66b3dc1490445aa410abd41e",0,"Planets","2","Orange",TRUE,16629
+145,"66b3dc1490445aa410abd41e",1,"Lines","1","Blue Line",TRUE,4862
+145,"66b3dc1490445aa410abd41e",2,"CafeWall","3","Slanted / Diagonal",TRUE,6796
+145,"66b3dc1490445aa410abd41e",3,"Robot","3","Mostly around the center of the square",TRUE,9175
+145,"66b3dc1490445aa410abd41e",4,"Circles","2","Red Circle",TRUE,5292
+145,"66b3dc1490445aa410abd41e",5,"Collision","1","Green Triangle Only",TRUE,22258
+146,"69fb8d85c239a57e0df4e1d3",0,"Planets","2","Orange",TRUE,104016
+146,"69fb8d85c239a57e0df4e1d3",1,"CafeWall","3","Slanted / Diagonal",TRUE,91445
+146,"69fb8d85c239a57e0df4e1d3",2,"Circles","2","Red Circle",TRUE,35420
+146,"69fb8d85c239a57e0df4e1d3",3,"Lines","1","Blue Line",TRUE,20250
+146,"69fb8d85c239a57e0df4e1d3",4,"Robot","3","Mostly around the center of the square",TRUE,62362
+146,"69fb8d85c239a57e0df4e1d3",5,"Collision","1","Green Triangle Only",TRUE,78263
+147,"5f6cd1061eba7b0de28b704d",0,"Planets","2","Orange",TRUE,46837
+147,"5f6cd1061eba7b0de28b704d",1,"Circles","2","Red Circle",TRUE,15180
+147,"5f6cd1061eba7b0de28b704d",2,"CafeWall","3","Slanted / Diagonal",TRUE,31158
+147,"5f6cd1061eba7b0de28b704d",3,"Robot","3","Mostly around the center of the square",TRUE,30998
+147,"5f6cd1061eba7b0de28b704d",4,"Lines","1","Blue Line",TRUE,22021
+147,"5f6cd1061eba7b0de28b704d",5,"Collision","1","Green Triangle Only",TRUE,25117
+151,"6a0628fd557d4459b8721f04",0,"Robot","3","Mostly around the center of the square",TRUE,23382
+151,"6a0628fd557d4459b8721f04",1,"CafeWall","3","Slanted / Diagonal",TRUE,15672
+151,"6a0628fd557d4459b8721f04",2,"Circles","2","Red Circle",TRUE,10917
+151,"6a0628fd557d4459b8721f04",3,"Planets","2","Orange",TRUE,44350
+151,"6a0628fd557d4459b8721f04",4,"Collision","1","Green Triangle Only",TRUE,19794
+151,"6a0628fd557d4459b8721f04",5,"Lines","1","Blue Line",TRUE,8672
+152,"69a45369fbd4a6aa79ac6def",0,"Collision","1","Green Triangle Only",TRUE,37080
+152,"69a45369fbd4a6aa79ac6def",1,"Robot","3","Mostly around the center of the square",TRUE,18481
+152,"69a45369fbd4a6aa79ac6def",2,"Circles","2","Red Circle",TRUE,16223
+152,"69a45369fbd4a6aa79ac6def",3,"Planets","2","Orange",TRUE,21603
+152,"69a45369fbd4a6aa79ac6def",4,"Lines","1","Blue Line",TRUE,9790
+152,"69a45369fbd4a6aa79ac6def",5,"CafeWall","3","Slanted / Diagonal",TRUE,28028
+153,"6a1237564d7849671a47f339",0,"Robot","3","Mostly around the center of the square",TRUE,10807
+153,"6a1237564d7849671a47f339",1,"Lines","1","Blue Line",TRUE,3058
+153,"6a1237564d7849671a47f339",2,"CafeWall","3","Slanted / Diagonal",TRUE,4096
+153,"6a1237564d7849671a47f339",3,"Planets","2","Orange",TRUE,7753
+153,"6a1237564d7849671a47f339",4,"Collision","2","Green Triangle and Green Rectangle",FALSE,18390
+153,"6a1237564d7849671a47f339",5,"Circles","2","Red Circle",TRUE,2925
+157,"6a1a4623681345636d84c0f2",0,"Lines","1","Blue Line",TRUE,17731
+157,"6a1a4623681345636d84c0f2",1,"CafeWall","3","Slanted / Diagonal",TRUE,17282
+157,"6a1a4623681345636d84c0f2",2,"Planets","2","Orange",TRUE,33654
+157,"6a1a4623681345636d84c0f2",3,"Robot","3","Mostly around the center of the square",TRUE,13236
+157,"6a1a4623681345636d84c0f2",4,"Collision","1","Green Triangle Only",TRUE,19582
+157,"6a1a4623681345636d84c0f2",5,"Circles","2","Red Circle",TRUE,13145
+158,"605b8cf6c07b6842b5cab429",0,"Circles","2","Red Circle",TRUE,9496
+158,"605b8cf6c07b6842b5cab429",1,"CafeWall","3","Slanted / Diagonal",TRUE,12258
+158,"605b8cf6c07b6842b5cab429",2,"Collision","1","Green Triangle Only",TRUE,14299
+158,"605b8cf6c07b6842b5cab429",3,"Lines","1","Blue Line",TRUE,8571
+158,"605b8cf6c07b6842b5cab429",4,"Planets","2","Orange",TRUE,19813
+158,"605b8cf6c07b6842b5cab429",5,"Robot","3","Mostly around the center of the square",TRUE,19809
+159,"6a1767604593efadad3bd3d9",0,"Lines","1","Blue Line",TRUE,6004
+159,"6a1767604593efadad3bd3d9",1,"Collision","1","Green Triangle Only",TRUE,15457
+159,"6a1767604593efadad3bd3d9",2,"Planets","2","Orange",TRUE,17156
+159,"6a1767604593efadad3bd3d9",3,"CafeWall","3","Slanted / Diagonal",TRUE,14490
+159,"6a1767604593efadad3bd3d9",4,"Robot","3","Mostly around the center of the square",TRUE,12343
+159,"6a1767604593efadad3bd3d9",5,"Circles","2","Red Circle",TRUE,9515
+160,"69841529a788bdf0a448ba8b",0,"Circles","2","Red Circle",TRUE,5884
+160,"69841529a788bdf0a448ba8b",1,"Robot","3","Mostly around the center of the square",TRUE,6413
+160,"69841529a788bdf0a448ba8b",2,"Collision","1","Green Triangle Only",TRUE,10386
+160,"69841529a788bdf0a448ba8b",3,"CafeWall","3","Slanted / Diagonal",TRUE,10980
+160,"69841529a788bdf0a448ba8b",4,"Lines","1","Blue Line",TRUE,5612
+160,"69841529a788bdf0a448ba8b",5,"Planets","2","Orange",TRUE,15582
+161,"6a09e5c1a9303faa82c6f2ad",0,"Circles","2","Red Circle",TRUE,9715
+161,"6a09e5c1a9303faa82c6f2ad",1,"Robot","2","Mostly on the upper right of the square",FALSE,16435
+161,"6a09e5c1a9303faa82c6f2ad",2,"CafeWall","3","Slanted / Diagonal",TRUE,8718
+161,"6a09e5c1a9303faa82c6f2ad",3,"Collision","1","Green Triangle Only",TRUE,17329
+161,"6a09e5c1a9303faa82c6f2ad",4,"Planets","2","Orange",TRUE,16108
+161,"6a09e5c1a9303faa82c6f2ad",5,"Lines","1","Blue Line",TRUE,6505
+162,"69b1b9c93046383751d6fe0c",0,"Robot","2","Mostly on the upper right of the square",FALSE,10527
+162,"69b1b9c93046383751d6fe0c",1,"Planets","2","Orange",TRUE,42513
+162,"69b1b9c93046383751d6fe0c",2,"Circles","2","Red Circle",TRUE,6554
+162,"69b1b9c93046383751d6fe0c",3,"CafeWall","3","Slanted / Diagonal",TRUE,9463
+162,"69b1b9c93046383751d6fe0c",4,"Collision","1","Green Triangle Only",TRUE,19653
+162,"69b1b9c93046383751d6fe0c",5,"Lines","1","Blue Line",TRUE,3581
+163,"69c04ef1c9c3020ebf70e0fe",0,"Planets","2","Orange",TRUE,38005
+163,"69c04ef1c9c3020ebf70e0fe",1,"Circles","2","Red Circle",TRUE,13724
+163,"69c04ef1c9c3020ebf70e0fe",2,"CafeWall","3","Slanted / Diagonal",TRUE,16718
+163,"69c04ef1c9c3020ebf70e0fe",3,"Collision","1","Green Triangle Only",TRUE,43221
+163,"69c04ef1c9c3020ebf70e0fe",4,"Lines","1","Blue Line",TRUE,10002
+163,"69c04ef1c9c3020ebf70e0fe",5,"Robot","3","Mostly around the center of the square",TRUE,12636
+164,"6a04c01c963d770b4182218f",0,"Circles","2","Red Circle",TRUE,6495
+164,"6a04c01c963d770b4182218f",1,"Robot","3","Mostly around the center of the square",TRUE,6015
+164,"6a04c01c963d770b4182218f",2,"CafeWall","3","Slanted / Diagonal",TRUE,16228
+164,"6a04c01c963d770b4182218f",3,"Planets","2","Orange",TRUE,16740
+164,"6a04c01c963d770b4182218f",4,"Lines","1","Blue Line",TRUE,3998
+164,"6a04c01c963d770b4182218f",5,"Collision","1","Green Triangle Only",TRUE,13370
+165,"6a14c768aa7454de38443fd8",0,"Lines","1","Blue Line",TRUE,36245
+165,"6a14c768aa7454de38443fd8",1,"Circles","2","Red Circle",TRUE,22782
+165,"6a14c768aa7454de38443fd8",2,"Robot","3","Mostly around the center of the square",TRUE,29961
+165,"6a14c768aa7454de38443fd8",3,"Planets","2","Orange",TRUE,24886
+165,"6a14c768aa7454de38443fd8",4,"CafeWall","3","Slanted / Diagonal",TRUE,15242
+165,"6a14c768aa7454de38443fd8",5,"Collision","1","Green Triangle Only",TRUE,24968
+166,"6a1c7f66eee691b4c70c2d3e",0,"CafeWall","3","Slanted / Diagonal",TRUE,20035
+166,"6a1c7f66eee691b4c70c2d3e",1,"Planets","2","Orange",TRUE,28595
+166,"6a1c7f66eee691b4c70c2d3e",2,"Collision","1","Green Triangle Only",TRUE,24946
+166,"6a1c7f66eee691b4c70c2d3e",3,"Circles","2","Red Circle",TRUE,12613
+166,"6a1c7f66eee691b4c70c2d3e",4,"Lines","1","Blue Line",TRUE,17987
+166,"6a1c7f66eee691b4c70c2d3e",5,"Robot","3","Mostly around the center of the square",TRUE,17599
+170,"69f135284e35bc7ed69af8a8",0,"Robot","3","Mostly around the center of the square",TRUE,17498
+170,"69f135284e35bc7ed69af8a8",1,"Lines","1","Blue Line",TRUE,21115
+170,"69f135284e35bc7ed69af8a8",2,"Collision","1","Green Triangle Only",TRUE,22489
+170,"69f135284e35bc7ed69af8a8",3,"Planets","2","Orange",TRUE,28754
+170,"69f135284e35bc7ed69af8a8",4,"Circles","2","Red Circle",TRUE,8508
+170,"69f135284e35bc7ed69af8a8",5,"CafeWall","3","Slanted / Diagonal",TRUE,6723
+171,"67004445b289e820d5e8fb69",0,"Robot","2","Mostly on the upper right of the square",FALSE,39497
+171,"67004445b289e820d5e8fb69",1,"Planets","2","Orange",TRUE,27698
+171,"67004445b289e820d5e8fb69",2,"CafeWall","3","Slanted / Diagonal",TRUE,14258
+171,"67004445b289e820d5e8fb69",3,"Collision","1","Green Triangle Only",TRUE,20001
+171,"67004445b289e820d5e8fb69",4,"Lines","2","Red Line",FALSE,8944
+171,"67004445b289e820d5e8fb69",5,"Circles","1","Blue Circle",FALSE,10578
+172,"6a09fcbcfd5a54ade03e9ca3",0,"Planets","2","Orange",TRUE,70537
+172,"6a09fcbcfd5a54ade03e9ca3",1,"CafeWall","4","Mixed: some straight, some slanted",FALSE,67134
+172,"6a09fcbcfd5a54ade03e9ca3",2,"Lines","1","Blue Line",TRUE,40410
+172,"6a09fcbcfd5a54ade03e9ca3",3,"Circles","2","Red Circle",TRUE,13200
+172,"6a09fcbcfd5a54ade03e9ca3",4,"Robot","3","Mostly around the center of the square",TRUE,36917
+172,"6a09fcbcfd5a54ade03e9ca3",5,"Collision","1","Green Triangle Only",TRUE,85317
+173,"69e2e8831029b11b8a50d076",0,"Collision","1","Green Triangle Only",TRUE,28513
+173,"69e2e8831029b11b8a50d076",1,"Circles","2","Red Circle",TRUE,12299
+173,"69e2e8831029b11b8a50d076",2,"Lines","1","Blue Line",TRUE,7680
+173,"69e2e8831029b11b8a50d076",3,"Robot","2","Mostly on the upper right of the square",FALSE,12299
+173,"69e2e8831029b11b8a50d076",4,"Planets","2","Orange",TRUE,30072
+173,"69e2e8831029b11b8a50d076",5,"CafeWall","3","Slanted / Diagonal",TRUE,35671
+174,"6623d91f14f7871134e8ad01",0,"Lines","1","Blue Line",TRUE,83066
+174,"6623d91f14f7871134e8ad01",1,"Collision","1","Green Triangle Only",TRUE,14524
+174,"6623d91f14f7871134e8ad01",2,"CafeWall","3","Slanted / Diagonal",TRUE,14454
+174,"6623d91f14f7871134e8ad01",3,"Planets","2","Orange",TRUE,226115
+174,"6623d91f14f7871134e8ad01",4,"Robot","3","Mostly around the center of the square",TRUE,21770
+174,"6623d91f14f7871134e8ad01",5,"Circles","2","Red Circle",TRUE,26255
+175,"69e597ce1104d00919f3f2c3",0,"Collision","1","Green Triangle Only",TRUE,20715
+175,"69e597ce1104d00919f3f2c3",1,"Lines","1","Blue Line",TRUE,5198
+175,"69e597ce1104d00919f3f2c3",2,"Planets","2","Orange",TRUE,15750
+175,"69e597ce1104d00919f3f2c3",3,"Robot","3","Mostly around the center of the square",TRUE,12166
+175,"69e597ce1104d00919f3f2c3",4,"Circles","2","Red Circle",TRUE,4255
+175,"69e597ce1104d00919f3f2c3",5,"CafeWall","3","Slanted / Diagonal",TRUE,18759
+176,"677b591c703b1749329c9b7c",0,"Planets","2","Orange",TRUE,29333
+176,"677b591c703b1749329c9b7c",1,"Lines","1","Blue Line",TRUE,16698
+176,"677b591c703b1749329c9b7c",2,"Robot","2","Mostly on the upper right of the square",FALSE,15832
+176,"677b591c703b1749329c9b7c",3,"CafeWall","3","Slanted / Diagonal",TRUE,10416
+176,"677b591c703b1749329c9b7c",4,"Collision","1","Green Triangle Only",TRUE,27382
+176,"677b591c703b1749329c9b7c",5,"Circles","2","Red Circle",TRUE,7099
+177,"697cb3a2bae053be15cdd35e",0,"Planets","2","Orange",TRUE,47208
+177,"697cb3a2bae053be15cdd35e",1,"Circles","2","Red Circle",TRUE,14609
+177,"697cb3a2bae053be15cdd35e",2,"CafeWall","3","Slanted / Diagonal",TRUE,36994
+177,"697cb3a2bae053be15cdd35e",3,"Robot","3","Mostly around the center of the square",TRUE,21723
+177,"697cb3a2bae053be15cdd35e",4,"Lines","1","Blue Line",TRUE,41327
+177,"697cb3a2bae053be15cdd35e",5,"Collision","1","Green Triangle Only",TRUE,40130
+178,"698ef6b9ab29d51d9ec4928a",0,"CafeWall","3","Slanted / Diagonal",TRUE,13217
+178,"698ef6b9ab29d51d9ec4928a",1,"Robot","3","Mostly around the center of the square",TRUE,12873
+178,"698ef6b9ab29d51d9ec4928a",2,"Collision","1","Green Triangle Only",TRUE,21286
+178,"698ef6b9ab29d51d9ec4928a",3,"Circles","2","Red Circle",TRUE,10765
+178,"698ef6b9ab29d51d9ec4928a",4,"Planets","2","Orange",TRUE,19822
+178,"698ef6b9ab29d51d9ec4928a",5,"Lines","1","Blue Line",TRUE,7825
+179,"69fe8789002b61a3f797722e",0,"Collision","1","Green Triangle Only",TRUE,138340
+179,"69fe8789002b61a3f797722e",1,"Lines","1","Blue Line",TRUE,18870
+179,"69fe8789002b61a3f797722e",2,"CafeWall","3","Slanted / Diagonal",TRUE,132801
+179,"69fe8789002b61a3f797722e",3,"Planets","2","Orange",TRUE,68985
+179,"69fe8789002b61a3f797722e",4,"Circles","2","Red Circle",TRUE,40520
+179,"69fe8789002b61a3f797722e",5,"Robot","3","Mostly around the center of the square",TRUE,94762
+182,"6a1ca3d3b59fba790e76cabb",0,"CafeWall","3","Slanted / Diagonal",TRUE,9367
+182,"6a1ca3d3b59fba790e76cabb",1,"Circles","2","Red Circle",TRUE,4231
+182,"6a1ca3d3b59fba790e76cabb",2,"Lines","1","Blue Line",TRUE,3048
+182,"6a1ca3d3b59fba790e76cabb",3,"Collision","1","Green Triangle Only",TRUE,15400
+182,"6a1ca3d3b59fba790e76cabb",4,"Planets","2","Orange",TRUE,14448
+182,"6a1ca3d3b59fba790e76cabb",5,"Robot","3","Mostly around the center of the square",TRUE,12114
+183,"6a134308555ec936abb413da",0,"CafeWall","3","Slanted / Diagonal",TRUE,44598
+183,"6a134308555ec936abb413da",1,"Lines","1","Blue Line",TRUE,11853
+183,"6a134308555ec936abb413da",2,"Collision","1","Green Triangle Only",TRUE,20862
+183,"6a134308555ec936abb413da",3,"Planets","2","Orange",TRUE,18312
+183,"6a134308555ec936abb413da",4,"Robot","3","Mostly around the center of the square",TRUE,17340
+183,"6a134308555ec936abb413da",5,"Circles","2","Red Circle",TRUE,8649
+185,"6a197e385f626d5e26565122",0,"Circles","2","Red Circle",TRUE,7079
+185,"6a197e385f626d5e26565122",1,"Lines","1","Blue Line",TRUE,6966
+185,"6a197e385f626d5e26565122",2,"Planets","2","Orange",TRUE,24275
+185,"6a197e385f626d5e26565122",3,"CafeWall","3","Slanted / Diagonal",TRUE,9881
+185,"6a197e385f626d5e26565122",4,"Robot","3","Mostly around the center of the square",TRUE,8189
+185,"6a197e385f626d5e26565122",5,"Collision","1","Green Triangle Only",TRUE,26922
+186,"6a1d185b08240fd3e99f27b4",0,"Collision","1","Green Triangle Only",TRUE,25202
+186,"6a1d185b08240fd3e99f27b4",1,"Planets","2","Orange",TRUE,26097
+186,"6a1d185b08240fd3e99f27b4",2,"Robot","2","Mostly on the upper right of the square",FALSE,19326
+186,"6a1d185b08240fd3e99f27b4",3,"Lines","1","Blue Line",TRUE,10089
+186,"6a1d185b08240fd3e99f27b4",4,"Circles","2","Red Circle",TRUE,9382
+186,"6a1d185b08240fd3e99f27b4",5,"CafeWall","3","Slanted / Diagonal",TRUE,11376
+187,"6a1a8611e4d4c64780e67811",0,"Circles","2","Red Circle",TRUE,36162
+187,"6a1a8611e4d4c64780e67811",1,"CafeWall","3","Slanted / Diagonal",TRUE,42324
+187,"6a1a8611e4d4c64780e67811",2,"Collision","1","Green Triangle Only",TRUE,46702
+187,"6a1a8611e4d4c64780e67811",3,"Lines","1","Blue Line",TRUE,22526
+187,"6a1a8611e4d4c64780e67811",4,"Robot","3","Mostly around the center of the square",TRUE,63907
+187,"6a1a8611e4d4c64780e67811",5,"Planets","2","Orange",TRUE,107805
+189,"6a1d1de8c53680eca8b73455",0,"Collision","1","Green Triangle Only",TRUE,37204
+189,"6a1d1de8c53680eca8b73455",1,"Planets","2","Orange",TRUE,24295
+189,"6a1d1de8c53680eca8b73455",2,"Robot","3","Mostly around the center of the square",TRUE,41493
+189,"6a1d1de8c53680eca8b73455",3,"Lines","1","Blue Line",TRUE,9558
+189,"6a1d1de8c53680eca8b73455",4,"Circles","2","Red Circle",TRUE,22829
+189,"6a1d1de8c53680eca8b73455",5,"CafeWall","3","Slanted / Diagonal",TRUE,34226
+192,"6a1d09adbc5e462821031cb2",0,"Planets","2","Orange",TRUE,42545
+192,"6a1d09adbc5e462821031cb2",1,"Robot","3","Mostly around the center of the square",TRUE,23580
+192,"6a1d09adbc5e462821031cb2",2,"Collision","1","Green Triangle Only",TRUE,62019
+192,"6a1d09adbc5e462821031cb2",3,"Lines","3","NONE (they are the same size)",FALSE,14943
+192,"6a1d09adbc5e462821031cb2",4,"Circles","2","Red Circle",TRUE,25797
+192,"6a1d09adbc5e462821031cb2",5,"CafeWall","3","Slanted / Diagonal",TRUE,30144
+193,"698ace13573202db139fc761",0,"CafeWall","1","Straight / Horizontal",FALSE,247024
+193,"698ace13573202db139fc761",1,"Robot","4","Off-screen (outside the square)",FALSE,75300
+193,"698ace13573202db139fc761",2,"Circles","2","Red Circle",TRUE,14959
+193,"698ace13573202db139fc761",3,"Planets","4","Green",FALSE,34357
+193,"698ace13573202db139fc761",4,"Lines","1","Blue Line",TRUE,7909
+193,"698ace13573202db139fc761",5,"Collision","2","Green Triangle and Green Rectangle",FALSE,47466
+195,"696560f45f4ef7a14a6e58d3",0,"Robot","3","Mostly around the center of the square",TRUE,17061
+195,"696560f45f4ef7a14a6e58d3",1,"Planets","1","Purple",FALSE,25543
+195,"696560f45f4ef7a14a6e58d3",2,"CafeWall","3","Slanted / Diagonal",TRUE,7432
+195,"696560f45f4ef7a14a6e58d3",3,"Collision","1","Green Triangle Only",TRUE,16723
+195,"696560f45f4ef7a14a6e58d3",4,"Circles","2","Red Circle",TRUE,15758
+195,"696560f45f4ef7a14a6e58d3",5,"Lines","1","Blue Line",TRUE,6145
+196,"63bc87f783afb5aed2c937d2",0,"Lines","1","Blue Line",TRUE,11037
+196,"63bc87f783afb5aed2c937d2",1,"Robot","3","Mostly around the center of the square",TRUE,18798
+196,"63bc87f783afb5aed2c937d2",2,"CafeWall","3","Slanted / Diagonal",TRUE,21339
+196,"63bc87f783afb5aed2c937d2",3,"Circles","2","Red Circle",TRUE,8953
+196,"63bc87f783afb5aed2c937d2",4,"Planets","2","Orange",TRUE,28133
+196,"63bc87f783afb5aed2c937d2",5,"Collision","1","Green Triangle Only",TRUE,24459
+198,"6a1d806a103f5fa249221a3c",0,"Circles","2","Red Circle",TRUE,6931
+198,"6a1d806a103f5fa249221a3c",1,"Lines","1","Blue Line",TRUE,6085
+198,"6a1d806a103f5fa249221a3c",2,"CafeWall","3","Slanted / Diagonal",TRUE,7431
+198,"6a1d806a103f5fa249221a3c",3,"Collision","1","Green Triangle Only",TRUE,12375
+198,"6a1d806a103f5fa249221a3c",4,"Robot","3","Mostly around the center of the square",TRUE,12154
+198,"6a1d806a103f5fa249221a3c",5,"Planets","2","Orange",TRUE,13853
+200,"69f2911e70d459bc627005be",0,"Circles","2","Red Circle",TRUE,24968
+200,"69f2911e70d459bc627005be",1,"Lines","1","Blue Line",TRUE,8071
+200,"69f2911e70d459bc627005be",2,"Planets","2","Orange",TRUE,22359
+200,"69f2911e70d459bc627005be",3,"CafeWall","1","Straight / Horizontal",FALSE,49334
+200,"69f2911e70d459bc627005be",4,"Collision","1","Green Triangle Only",TRUE,32687
+200,"69f2911e70d459bc627005be",5,"Robot","3","Mostly around the center of the square",TRUE,18446
+203,"69d80f78366c24151c6abed6",0,"Lines","1","Blue Line",TRUE,5680
+203,"69d80f78366c24151c6abed6",1,"CafeWall","3","Slanted / Diagonal",TRUE,20623
+203,"69d80f78366c24151c6abed6",2,"Collision","1","Green Triangle Only",TRUE,13888
+203,"69d80f78366c24151c6abed6",3,"Planets","2","Orange",TRUE,15888
+203,"69d80f78366c24151c6abed6",4,"Robot","3","Mostly around the center of the square",TRUE,8632
+203,"69d80f78366c24151c6abed6",5,"Circles","2","Red Circle",TRUE,6983
+204,"69daf52bfa2575ae0bdf3d2c",0,"Collision","1","Green Triangle Only",TRUE,33421
+204,"69daf52bfa2575ae0bdf3d2c",1,"Robot","2","Mostly on the upper right of the square",FALSE,35260
+204,"69daf52bfa2575ae0bdf3d2c",2,"Planets","2","Orange",TRUE,37292
+204,"69daf52bfa2575ae0bdf3d2c",3,"Circles","2","Red Circle",TRUE,16314
+204,"69daf52bfa2575ae0bdf3d2c",4,"CafeWall","3","Slanted / Diagonal",TRUE,20403
+204,"69daf52bfa2575ae0bdf3d2c",5,"Lines","1","Blue Line",TRUE,7265
+206,"69f8f44ee6bf15c5d2f9e595",0,"CafeWall","1","Straight / Horizontal",FALSE,37627
+206,"69f8f44ee6bf15c5d2f9e595",1,"Lines","1","Blue Line",TRUE,16920
+206,"69f8f44ee6bf15c5d2f9e595",2,"Collision","1","Green Triangle Only",TRUE,62577
+206,"69f8f44ee6bf15c5d2f9e595",3,"Robot","3","Mostly around the center of the square",TRUE,42637
+206,"69f8f44ee6bf15c5d2f9e595",4,"Planets","2","Orange",TRUE,49762
+206,"69f8f44ee6bf15c5d2f9e595",5,"Circles","2","Red Circle",TRUE,20526
+209,"69416fb4dbb55f6ae968fb6c",0,"Lines","1","Blue Line",TRUE,17198
+209,"69416fb4dbb55f6ae968fb6c",1,"Circles","2","Red Circle",TRUE,12637
+209,"69416fb4dbb55f6ae968fb6c",2,"Robot","3","Mostly around the center of the square",TRUE,23029
+209,"69416fb4dbb55f6ae968fb6c",3,"Collision","1","Green Triangle Only",TRUE,32547
+209,"69416fb4dbb55f6ae968fb6c",4,"CafeWall","3","Slanted / Diagonal",TRUE,17925
+209,"69416fb4dbb55f6ae968fb6c",5,"Planets","2","Orange",TRUE,139282
+210,"6a00c7ba2c43eaaf569dfe24",0,"Robot","3","Mostly around the center of the square",TRUE,56152
+210,"6a00c7ba2c43eaaf569dfe24",1,"Lines","1","Blue Line",TRUE,48284
+210,"6a00c7ba2c43eaaf569dfe24",2,"Planets","2","Orange",TRUE,76601
+210,"6a00c7ba2c43eaaf569dfe24",3,"Collision","2","Green Triangle and Green Rectangle",FALSE,93553
+210,"6a00c7ba2c43eaaf569dfe24",4,"Circles","3","NONE (they are the same size)",FALSE,55276
+210,"6a00c7ba2c43eaaf569dfe24",5,"CafeWall","3","Slanted / Diagonal",TRUE,29939
+211,"6a077566f7ea052517e6557c",0,"Collision","1","Green Triangle Only",TRUE,23649
+211,"6a077566f7ea052517e6557c",1,"Circles","2","Red Circle",TRUE,18248
+211,"6a077566f7ea052517e6557c",2,"Planets","2","Orange",TRUE,29715
+211,"6a077566f7ea052517e6557c",3,"Lines","1","Blue Line",TRUE,11531
+211,"6a077566f7ea052517e6557c",4,"Robot","3","Mostly around the center of the square",TRUE,15935
+211,"6a077566f7ea052517e6557c",5,"CafeWall","3","Slanted / Diagonal",TRUE,44191
+212,"5f4a835e9e84256238129995",0,"Robot","3","Mostly around the center of the square",TRUE,25568
+212,"5f4a835e9e84256238129995",1,"Circles","2","Red Circle",TRUE,12011
+212,"5f4a835e9e84256238129995",2,"Collision","1","Green Triangle Only",TRUE,27142
+212,"5f4a835e9e84256238129995",3,"Lines","1","Blue Line",TRUE,7173
+212,"5f4a835e9e84256238129995",4,"CafeWall","3","Slanted / Diagonal",TRUE,30205
+212,"5f4a835e9e84256238129995",5,"Planets","2","Orange",TRUE,16669
+213,"6a049d0164653881b734e2dd",0,"CafeWall","3","Slanted / Diagonal",TRUE,14754
+213,"6a049d0164653881b734e2dd",1,"Planets","2","Orange",TRUE,23204
+213,"6a049d0164653881b734e2dd",2,"Circles","2","Red Circle",TRUE,18028
+213,"6a049d0164653881b734e2dd",3,"Lines","1","Blue Line",TRUE,5906
+213,"6a049d0164653881b734e2dd",4,"Robot","3","Mostly around the center of the square",TRUE,13312
+213,"6a049d0164653881b734e2dd",5,"Collision","1","Green Triangle Only",TRUE,42226
+214,"69a5d894d35286e2b0ff3f6c",0,"Collision","1","Green Triangle Only",TRUE,31305
+214,"69a5d894d35286e2b0ff3f6c",1,"Robot","3","Mostly around the center of the square",TRUE,21586
+214,"69a5d894d35286e2b0ff3f6c",2,"Lines","1","Blue Line",TRUE,6730
+214,"69a5d894d35286e2b0ff3f6c",3,"CafeWall","3","Slanted / Diagonal",TRUE,19577
+214,"69a5d894d35286e2b0ff3f6c",4,"Planets","2","Orange",TRUE,23331
+214,"69a5d894d35286e2b0ff3f6c",5,"Circles","2","Red Circle",TRUE,8275
+215,"67062295123561f8241f65fc",0,"Planets","2","Orange",TRUE,52131
+215,"67062295123561f8241f65fc",1,"Lines","1","Blue Line",TRUE,17808
+215,"67062295123561f8241f65fc",2,"CafeWall","3","Slanted / Diagonal",TRUE,67833
+215,"67062295123561f8241f65fc",3,"Circles","2","Red Circle",TRUE,10821
+215,"67062295123561f8241f65fc",4,"Collision","1","Green Triangle Only",TRUE,59722
+215,"67062295123561f8241f65fc",5,"Robot","3","Mostly around the center of the square",TRUE,39513
+216,"5d453e8723a5bb0001492546",0,"Lines","1","Blue Line",TRUE,113180
+216,"5d453e8723a5bb0001492546",1,"Planets","2","Orange",TRUE,73790
+216,"5d453e8723a5bb0001492546",2,"Robot","3","Mostly around the center of the square",TRUE,38479
+216,"5d453e8723a5bb0001492546",3,"CafeWall","4","Mixed: some straight, some slanted",FALSE,68435
+216,"5d453e8723a5bb0001492546",4,"Circles","2","Red Circle",TRUE,44919
+216,"5d453e8723a5bb0001492546",5,"Collision","1","Green Triangle Only",TRUE,33322
+217,"6a1dcf19488db85c9fd3e14c",0,"CafeWall","4","Mixed: some straight, some slanted",FALSE,10146
+217,"6a1dcf19488db85c9fd3e14c",1,"Lines","1","Blue Line",TRUE,7980
+217,"6a1dcf19488db85c9fd3e14c",2,"Circles","2","Red Circle",TRUE,5027
+217,"6a1dcf19488db85c9fd3e14c",3,"Planets","2","Orange",TRUE,10862
+217,"6a1dcf19488db85c9fd3e14c",4,"Collision","1","Green Triangle Only",TRUE,18002
+217,"6a1dcf19488db85c9fd3e14c",5,"Robot","3","Mostly around the center of the square",TRUE,12911
+218,"6a0e38bb67e1c728c354f66c",0,"Robot","3","Mostly around the center of the square",TRUE,10541
+218,"6a0e38bb67e1c728c354f66c",1,"Lines","1","Blue Line",TRUE,7188
+218,"6a0e38bb67e1c728c354f66c",2,"Circles","2","Red Circle",TRUE,6676
+218,"6a0e38bb67e1c728c354f66c",3,"Planets","2","Orange",TRUE,12493
+218,"6a0e38bb67e1c728c354f66c",4,"Collision","1","Green Triangle Only",TRUE,20584
+218,"6a0e38bb67e1c728c354f66c",5,"CafeWall","3","Slanted / Diagonal",TRUE,8264
+219,"67758b914f06b14a31669644",0,"Circles","2","Red Circle",TRUE,17672
+219,"67758b914f06b14a31669644",1,"Planets","2","Orange",TRUE,31475
+219,"67758b914f06b14a31669644",2,"Collision","1","Green Triangle Only",TRUE,21058
+219,"67758b914f06b14a31669644",3,"Lines","1","Blue Line",TRUE,5019
+219,"67758b914f06b14a31669644",4,"Robot","3","Mostly around the center of the square",TRUE,29941
+219,"67758b914f06b14a31669644",5,"CafeWall","3","Slanted / Diagonal",TRUE,10153
+220,"6a0cad159c5686edc83282c6",0,"Robot","3","Mostly around the center of the square",TRUE,25097
+220,"6a0cad159c5686edc83282c6",1,"Planets","2","Orange",TRUE,21781
+220,"6a0cad159c5686edc83282c6",2,"CafeWall","3","Slanted / Diagonal",TRUE,18907
+220,"6a0cad159c5686edc83282c6",3,"Lines","1","Blue Line",TRUE,10854
+220,"6a0cad159c5686edc83282c6",4,"Collision","1","Green Triangle Only",TRUE,15370
+220,"6a0cad159c5686edc83282c6",5,"Circles","2","Red Circle",TRUE,7248
+221,"6a1e4ed97643f14426d7f17b",0,"Lines","1","Blue Line",TRUE,8179
+221,"6a1e4ed97643f14426d7f17b",1,"Robot","2","Mostly on the upper right of the square",FALSE,13698
+221,"6a1e4ed97643f14426d7f17b",2,"Collision","1","Green Triangle Only",TRUE,22561
+221,"6a1e4ed97643f14426d7f17b",3,"CafeWall","3","Slanted / Diagonal",TRUE,14016
+221,"6a1e4ed97643f14426d7f17b",4,"Circles","2","Red Circle",TRUE,6530
+221,"6a1e4ed97643f14426d7f17b",5,"Planets","2","Orange",TRUE,24097
+222,"6a16fa4524731436353d8f60",0,"Circles","2","Red Circle",TRUE,11800
+222,"6a16fa4524731436353d8f60",1,"Collision","1","Green Triangle Only",TRUE,31465
+222,"6a16fa4524731436353d8f60",2,"Robot","3","Mostly around the center of the square",TRUE,14031
+222,"6a16fa4524731436353d8f60",3,"Planets","2","Orange",TRUE,22516
+222,"6a16fa4524731436353d8f60",4,"Lines","1","Blue Line",TRUE,10749
+222,"6a16fa4524731436353d8f60",5,"CafeWall","3","Slanted / Diagonal",TRUE,29965
+223,"6a037bdccdf50aa9efd14b0b",0,"Circles","2","Red Circle",TRUE,21907
+223,"6a037bdccdf50aa9efd14b0b",1,"CafeWall","3","Slanted / Diagonal",TRUE,36635
+223,"6a037bdccdf50aa9efd14b0b",2,"Lines","1","Blue Line",TRUE,8536
+223,"6a037bdccdf50aa9efd14b0b",3,"Robot","3","Mostly around the center of the square",TRUE,21194
+223,"6a037bdccdf50aa9efd14b0b",4,"Collision","1","Green Triangle Only",TRUE,22751
+223,"6a037bdccdf50aa9efd14b0b",5,"Planets","2","Orange",TRUE,21604
+225,"6a1daefdc17a49bbb3e1c91e",0,"Lines","1","Blue Line",TRUE,18048
+225,"6a1daefdc17a49bbb3e1c91e",1,"Collision","1","Green Triangle Only",TRUE,21735
+225,"6a1daefdc17a49bbb3e1c91e",2,"CafeWall","3","Slanted / Diagonal",TRUE,20222
+225,"6a1daefdc17a49bbb3e1c91e",3,"Robot","3","Mostly around the center of the square",TRUE,21048
+225,"6a1daefdc17a49bbb3e1c91e",4,"Planets","2","Orange",TRUE,21205
+225,"6a1daefdc17a49bbb3e1c91e",5,"Circles","2","Red Circle",TRUE,7941
+226,"69efcfba84d2e0f9dccd0692",0,"Collision","1","Green Triangle Only",TRUE,31568
+226,"69efcfba84d2e0f9dccd0692",1,"Planets","2","Orange",TRUE,34315
+226,"69efcfba84d2e0f9dccd0692",2,"CafeWall","4","Mixed: some straight, some slanted",FALSE,48135
+226,"69efcfba84d2e0f9dccd0692",3,"Lines","1","Blue Line",TRUE,9496
+226,"69efcfba84d2e0f9dccd0692",4,"Robot","2","Mostly on the upper right of the square",FALSE,27847
+226,"69efcfba84d2e0f9dccd0692",5,"Circles","2","Red Circle",TRUE,7147
+227,"698a6f9a70f427ea2c5019e6",0,"Circles","2","Red Circle",TRUE,21029
+227,"698a6f9a70f427ea2c5019e6",1,"Collision","1","Green Triangle Only",TRUE,61653
+227,"698a6f9a70f427ea2c5019e6",2,"Planets","2","Orange",TRUE,55399
+227,"698a6f9a70f427ea2c5019e6",3,"Robot","3","Mostly around the center of the square",TRUE,49211
+227,"698a6f9a70f427ea2c5019e6",4,"CafeWall","3","Slanted / Diagonal",TRUE,31090
+227,"698a6f9a70f427ea2c5019e6",5,"Lines","1","Blue Line",TRUE,17949
+228,"65e6edd1a876f1d8487f379b",0,"Circles","2","Red Circle",TRUE,7047
+228,"65e6edd1a876f1d8487f379b",1,"Robot","2","Mostly on the upper right of the square",FALSE,17932
+228,"65e6edd1a876f1d8487f379b",2,"Collision","1","Green Triangle Only",TRUE,96568
+228,"65e6edd1a876f1d8487f379b",3,"Lines","1","Blue Line",TRUE,5185
+228,"65e6edd1a876f1d8487f379b",4,"Planets","2","Orange",TRUE,98283
+228,"65e6edd1a876f1d8487f379b",5,"CafeWall","3","Slanted / Diagonal",TRUE,10603
+229,"6a15dfee7dec81efc11475cb",0,"Planets","2","Orange",TRUE,41357
+229,"6a15dfee7dec81efc11475cb",1,"Robot","3","Mostly around the center of the square",TRUE,18466
+229,"6a15dfee7dec81efc11475cb",2,"Lines","1","Blue Line",TRUE,10429
+229,"6a15dfee7dec81efc11475cb",3,"Collision","1","Green Triangle Only",TRUE,38745
+229,"6a15dfee7dec81efc11475cb",4,"CafeWall","3","Slanted / Diagonal",TRUE,24010
+229,"6a15dfee7dec81efc11475cb",5,"Circles","2","Red Circle",TRUE,19586
+230,"6a0d55dd872343b4ca601b43",0,"CafeWall","3","Slanted / Diagonal",TRUE,7673
+230,"6a0d55dd872343b4ca601b43",1,"Circles","2","Red Circle",TRUE,9135
+230,"6a0d55dd872343b4ca601b43",2,"Lines","1","Blue Line",TRUE,3710
+230,"6a0d55dd872343b4ca601b43",3,"Robot","3","Mostly around the center of the square",TRUE,6752
+230,"6a0d55dd872343b4ca601b43",4,"Planets","2","Orange",TRUE,92180
+230,"6a0d55dd872343b4ca601b43",5,"Collision","1","Green Triangle Only",TRUE,11306
+231,"6a02d6ae830868fc71cdbdb9",0,"CafeWall","3","Slanted / Diagonal",TRUE,29329
+231,"6a02d6ae830868fc71cdbdb9",1,"Lines","1","Blue Line",TRUE,9385
+231,"6a02d6ae830868fc71cdbdb9",2,"Collision","1","Green Triangle Only",TRUE,24899
+231,"6a02d6ae830868fc71cdbdb9",3,"Planets","2","Orange",TRUE,26619
+231,"6a02d6ae830868fc71cdbdb9",4,"Circles","2","Red Circle",TRUE,9952
+231,"6a02d6ae830868fc71cdbdb9",5,"Robot","3","Mostly around the center of the square",TRUE,20068
+233,"69cdeee6463e07f2a989cfd9",0,"Collision","1","Green Triangle Only",TRUE,24267
+233,"69cdeee6463e07f2a989cfd9",1,"Circles","2","Red Circle",TRUE,8619
+233,"69cdeee6463e07f2a989cfd9",2,"Robot","3","Mostly around the center of the square",TRUE,16114
+233,"69cdeee6463e07f2a989cfd9",3,"Lines","1","Blue Line",TRUE,5667
+233,"69cdeee6463e07f2a989cfd9",4,"CafeWall","3","Slanted / Diagonal",TRUE,18835
+233,"69cdeee6463e07f2a989cfd9",5,"Planets","2","Orange",TRUE,23450
+234,"69ebb894f8655d8b98d1b469",0,"CafeWall","3","Slanted / Diagonal",TRUE,53248
+234,"69ebb894f8655d8b98d1b469",1,"Circles","2","Red Circle",TRUE,16288
+234,"69ebb894f8655d8b98d1b469",2,"Collision","1","Green Triangle Only",TRUE,24714
+234,"69ebb894f8655d8b98d1b469",3,"Robot","3","Mostly around the center of the square",TRUE,37546
+234,"69ebb894f8655d8b98d1b469",4,"Lines","1","Blue Line",TRUE,14001
+234,"69ebb894f8655d8b98d1b469",5,"Planets","2","Orange",TRUE,97265
+235,"69b8ef7b87c2e000e46e09e6",0,"Planets","2","Orange",TRUE,23224
+235,"69b8ef7b87c2e000e46e09e6",1,"CafeWall","3","Slanted / Diagonal",TRUE,28564
+235,"69b8ef7b87c2e000e46e09e6",2,"Lines","1","Blue Line",TRUE,20828
+235,"69b8ef7b87c2e000e46e09e6",3,"Collision","1","Green Triangle Only",TRUE,18350
+235,"69b8ef7b87c2e000e46e09e6",4,"Circles","2","Red Circle",TRUE,17169
+235,"69b8ef7b87c2e000e46e09e6",5,"Robot","3","Mostly around the center of the square",TRUE,14504
+236,"6a1d037d028b02741282aeef",0,"Lines","1","Blue Line",TRUE,26083
+236,"6a1d037d028b02741282aeef",1,"Circles","2","Red Circle",TRUE,8562
+236,"6a1d037d028b02741282aeef",2,"CafeWall","3","Slanted / Diagonal",TRUE,15800
+236,"6a1d037d028b02741282aeef",3,"Planets","2","Orange",TRUE,24232
+236,"6a1d037d028b02741282aeef",4,"Robot","3","Mostly around the center of the square",TRUE,12798
+236,"6a1d037d028b02741282aeef",5,"Collision","1","Green Triangle Only",TRUE,25332
+237,"69cc50b7d8b69400a3cc5e0f",0,"Planets","2","Orange",TRUE,29727
+237,"69cc50b7d8b69400a3cc5e0f",1,"Collision","1","Green Triangle Only",TRUE,61982
+237,"69cc50b7d8b69400a3cc5e0f",2,"CafeWall","3","Slanted / Diagonal",TRUE,11164
+237,"69cc50b7d8b69400a3cc5e0f",3,"Robot","2","Mostly on the upper right of the square",FALSE,15931
+237,"69cc50b7d8b69400a3cc5e0f",4,"Circles","2","Red Circle",TRUE,6279
+237,"69cc50b7d8b69400a3cc5e0f",5,"Lines","1","Blue Line",TRUE,7301
+240,"69f9d194b0eebbd9aea739b5",0,"Collision","1","Green Triangle Only",TRUE,64884
+240,"69f9d194b0eebbd9aea739b5",1,"CafeWall","4","Mixed: some straight, some slanted",FALSE,14855
+240,"69f9d194b0eebbd9aea739b5",2,"Planets","2","Orange",TRUE,34873
+240,"69f9d194b0eebbd9aea739b5",3,"Robot","2","Mostly on the upper right of the square",FALSE,44242
+240,"69f9d194b0eebbd9aea739b5",4,"Circles","2","Red Circle",TRUE,16250
+240,"69f9d194b0eebbd9aea739b5",5,"Lines","1","Blue Line",TRUE,8014
+242,"6a153be09f19ea5c581933d7",0,"Collision","1","Green Triangle Only",TRUE,21852
+242,"6a153be09f19ea5c581933d7",1,"Circles","2","Red Circle",TRUE,9712
+242,"6a153be09f19ea5c581933d7",2,"Lines","1","Blue Line",TRUE,4915
+242,"6a153be09f19ea5c581933d7",3,"Robot","3","Mostly around the center of the square",TRUE,20281
+242,"6a153be09f19ea5c581933d7",4,"CafeWall","3","Slanted / Diagonal",TRUE,25914
+242,"6a153be09f19ea5c581933d7",5,"Planets","2","Orange",TRUE,14918
+245,"69fba31786a9f62439a74897",0,"Collision","1","Green Triangle Only",TRUE,27069
+245,"69fba31786a9f62439a74897",1,"Lines","1","Blue Line",TRUE,9481
+245,"69fba31786a9f62439a74897",2,"CafeWall","3","Slanted / Diagonal",TRUE,58079
+245,"69fba31786a9f62439a74897",3,"Robot","3","Mostly around the center of the square",TRUE,24697
+245,"69fba31786a9f62439a74897",4,"Circles","2","Red Circle",TRUE,18084
+245,"69fba31786a9f62439a74897",5,"Planets","2","Orange",TRUE,32498
+246,"6a1e60cacee7c00918fcd799",0,"Collision","1","Green Triangle Only",TRUE,19800
+246,"6a1e60cacee7c00918fcd799",1,"Lines","1","Blue Line",TRUE,7821
+246,"6a1e60cacee7c00918fcd799",2,"Robot","3","Mostly around the center of the square",TRUE,13542
+246,"6a1e60cacee7c00918fcd799",3,"Circles","2","Red Circle",TRUE,6230
+246,"6a1e60cacee7c00918fcd799",4,"CafeWall","3","Slanted / Diagonal",TRUE,20752
+246,"6a1e60cacee7c00918fcd799",5,"Planets","2","Orange",TRUE,16749
+247,"69c01ad32e8258f62bd58aeb",0,"Robot","2","Mostly on the upper right of the square",FALSE,54559
+247,"69c01ad32e8258f62bd58aeb",1,"Lines","1","Blue Line",TRUE,9753
+247,"69c01ad32e8258f62bd58aeb",2,"Collision","2","Green Triangle and Green Rectangle",FALSE,33679
+247,"69c01ad32e8258f62bd58aeb",3,"CafeWall","3","Slanted / Diagonal",TRUE,23710
+247,"69c01ad32e8258f62bd58aeb",4,"Planets","2","Orange",TRUE,59312
+247,"69c01ad32e8258f62bd58aeb",5,"Circles","2","Red Circle",TRUE,13336
+248,"69b4cd1edb91fb79284441cd",0,"Planets","2","Orange",TRUE,33649
+248,"69b4cd1edb91fb79284441cd",1,"Lines","1","Blue Line",TRUE,9037
+248,"69b4cd1edb91fb79284441cd",2,"Robot","3","Mostly around the center of the square",TRUE,29312
+248,"69b4cd1edb91fb79284441cd",3,"Circles","2","Red Circle",TRUE,8333
+248,"69b4cd1edb91fb79284441cd",4,"CafeWall","3","Slanted / Diagonal",TRUE,18929
+248,"69b4cd1edb91fb79284441cd",5,"Collision","1","Green Triangle Only",TRUE,30763
+249,"69fab71a215f5a17bbecc692",0,"Circles","2","Red Circle",TRUE,13772
+249,"69fab71a215f5a17bbecc692",1,"Lines","1","Blue Line",TRUE,7207
+249,"69fab71a215f5a17bbecc692",2,"Collision","1","Green Triangle Only",TRUE,16282
+249,"69fab71a215f5a17bbecc692",3,"CafeWall","3","Slanted / Diagonal",TRUE,12071
+249,"69fab71a215f5a17bbecc692",4,"Robot","3","Mostly around the center of the square",TRUE,10062
+249,"69fab71a215f5a17bbecc692",5,"Planets","2","Orange",TRUE,19430
+250,"69fba1d76bc977f982998a3a",0,"Circles","2","Red Circle",TRUE,7484
+250,"69fba1d76bc977f982998a3a",1,"CafeWall","3","Slanted / Diagonal",TRUE,9966
+250,"69fba1d76bc977f982998a3a",2,"Planets","2","Orange",TRUE,17881
+250,"69fba1d76bc977f982998a3a",3,"Collision","1","Green Triangle Only",TRUE,18067
+250,"69fba1d76bc977f982998a3a",4,"Robot","3","Mostly around the center of the square",TRUE,16800
+250,"69fba1d76bc977f982998a3a",5,"Lines","1","Blue Line",TRUE,12683
+251,"698a276f955516bd3c07b19d",0,"Collision","1","Green Triangle Only",TRUE,37749
+251,"698a276f955516bd3c07b19d",1,"Circles","2","Red Circle",TRUE,23181
+251,"698a276f955516bd3c07b19d",2,"CafeWall","3","Slanted / Diagonal",TRUE,22280
+251,"698a276f955516bd3c07b19d",3,"Planets","2","Orange",TRUE,65632
+251,"698a276f955516bd3c07b19d",4,"Lines","1","Blue Line",TRUE,18149
+251,"698a276f955516bd3c07b19d",5,"Robot","3","Mostly around the center of the square",TRUE,16364
+253,"69f11abbcb74929a2bf4a175",0,"Planets","2","Orange",TRUE,122326
+253,"69f11abbcb74929a2bf4a175",1,"Lines","1","Blue Line",TRUE,75237
+253,"69f11abbcb74929a2bf4a175",2,"Robot","3","Mostly around the center of the square",TRUE,28774
+253,"69f11abbcb74929a2bf4a175",3,"CafeWall","4","Mixed: some straight, some slanted",FALSE,47644
+253,"69f11abbcb74929a2bf4a175",4,"Collision","1","Green Triangle Only",TRUE,36049
+253,"69f11abbcb74929a2bf4a175",5,"Circles","2","Red Circle",TRUE,20935
+254,"69c55b66d8ade7f9bd6109d6",0,"Lines","1","Blue Line",TRUE,13635
+254,"69c55b66d8ade7f9bd6109d6",1,"Circles","2","Red Circle",TRUE,5621
+254,"69c55b66d8ade7f9bd6109d6",2,"CafeWall","3","Slanted / Diagonal",TRUE,7729
+254,"69c55b66d8ade7f9bd6109d6",3,"Collision","1","Green Triangle Only",TRUE,38040
+254,"69c55b66d8ade7f9bd6109d6",4,"Robot","3","Mostly around the center of the square",TRUE,37165
+254,"69c55b66d8ade7f9bd6109d6",5,"Planets","2","Orange",TRUE,33235
+255,"6a16592d134be35f3050afad",0,"Planets","2","Orange",TRUE,35917
+255,"6a16592d134be35f3050afad",1,"CafeWall","3","Slanted / Diagonal",TRUE,29212
+255,"6a16592d134be35f3050afad",2,"Circles","2","Red Circle",TRUE,14766
+255,"6a16592d134be35f3050afad",3,"Collision","1","Green Triangle Only",TRUE,26198
+255,"6a16592d134be35f3050afad",4,"Robot","3","Mostly around the center of the square",TRUE,23464
+255,"6a16592d134be35f3050afad",5,"Lines","1","Blue Line",TRUE,7614
+256,"6a1dc49806c1dbbcce420f7d",0,"Planets","2","Orange",TRUE,35117
+256,"6a1dc49806c1dbbcce420f7d",1,"Robot","3","Mostly around the center of the square",TRUE,23158
+256,"6a1dc49806c1dbbcce420f7d",2,"Lines","1","Blue Line",TRUE,11977
+256,"6a1dc49806c1dbbcce420f7d",3,"Circles","2","Red Circle",TRUE,21056
+256,"6a1dc49806c1dbbcce420f7d",4,"Collision","1","Green Triangle Only",TRUE,55302
+256,"6a1dc49806c1dbbcce420f7d",5,"CafeWall","3","Slanted / Diagonal",TRUE,106137
+257,"676334ae578dda6ef33f5886",0,"Circles","2","Red Circle",TRUE,21929
+257,"676334ae578dda6ef33f5886",1,"Planets","2","Orange",TRUE,761331
+257,"676334ae578dda6ef33f5886",2,"CafeWall","4","Mixed: some straight, some slanted",FALSE,12163
+257,"676334ae578dda6ef33f5886",3,"Robot","3","Mostly around the center of the square",TRUE,45035
+257,"676334ae578dda6ef33f5886",4,"Collision","1","Green Triangle Only",TRUE,31898
+257,"676334ae578dda6ef33f5886",5,"Lines","1","Blue Line",TRUE,7160
+259,"69e81749c5b5f9c50b132749",0,"Collision","1","Green Triangle Only",TRUE,46296
+259,"69e81749c5b5f9c50b132749",1,"Planets","2","Orange",TRUE,60917
+259,"69e81749c5b5f9c50b132749",2,"CafeWall","3","Slanted / Diagonal",TRUE,17796
+259,"69e81749c5b5f9c50b132749",3,"Circles","2","Red Circle",TRUE,14298
+259,"69e81749c5b5f9c50b132749",4,"Robot","3","Mostly around the center of the square",TRUE,33449
+259,"69e81749c5b5f9c50b132749",5,"Lines","1","Blue Line",TRUE,11818
+260,"6a0eacf3d053fe992e0ca9c4",0,"Planets","2","Orange",TRUE,16946
+260,"6a0eacf3d053fe992e0ca9c4",1,"Collision","1","Green Triangle Only",TRUE,13327
+260,"6a0eacf3d053fe992e0ca9c4",2,"CafeWall","3","Slanted / Diagonal",TRUE,15593
+260,"6a0eacf3d053fe992e0ca9c4",3,"Circles","2","Red Circle",TRUE,10690
+260,"6a0eacf3d053fe992e0ca9c4",4,"Robot","3","Mostly around the center of the square",TRUE,9836
+260,"6a0eacf3d053fe992e0ca9c4",5,"Lines","1","Blue Line",TRUE,7612
+261,"6a0553f1cb81aadcd605a362",0,"Planets","2","Orange",TRUE,23914
+261,"6a0553f1cb81aadcd605a362",1,"Robot","3","Mostly around the center of the square",TRUE,20578
+261,"6a0553f1cb81aadcd605a362",2,"Collision","1","Green Triangle Only",TRUE,22249
+261,"6a0553f1cb81aadcd605a362",3,"Lines","1","Blue Line",TRUE,7833
+261,"6a0553f1cb81aadcd605a362",4,"Circles","2","Red Circle",TRUE,8464
+261,"6a0553f1cb81aadcd605a362",5,"CafeWall","3","Slanted / Diagonal",TRUE,12527
+262,"69f62e8b80575ae2288b14b2",0,"Collision","2","Green Triangle and Green Rectangle",FALSE,74785
+262,"69f62e8b80575ae2288b14b2",1,"Lines","1","Blue Line",TRUE,10032
+262,"69f62e8b80575ae2288b14b2",2,"CafeWall","1","Straight / Horizontal",FALSE,45336
+262,"69f62e8b80575ae2288b14b2",3,"Robot","3","Mostly around the center of the square",TRUE,50078
+262,"69f62e8b80575ae2288b14b2",4,"Circles","2","Red Circle",TRUE,29233
+262,"69f62e8b80575ae2288b14b2",5,"Planets","3","Blue",FALSE,50169
+263,"6a0e3cadbbd96b6266000443",0,"Robot","3","Mostly around the center of the square",TRUE,38334
+263,"6a0e3cadbbd96b6266000443",1,"Circles","2","Red Circle",TRUE,8513
+263,"6a0e3cadbbd96b6266000443",2,"Collision","1","Green Triangle Only",TRUE,15617
+263,"6a0e3cadbbd96b6266000443",3,"CafeWall","3","Slanted / Diagonal",TRUE,10299
+263,"6a0e3cadbbd96b6266000443",4,"Lines","1","Blue Line",TRUE,4015
+263,"6a0e3cadbbd96b6266000443",5,"Planets","2","Orange",TRUE,28831
+264,"61647de75314468d5cb57f93",0,"Robot","3","Mostly around the center of the square",TRUE,6954
+264,"61647de75314468d5cb57f93",1,"Planets","2","Orange",TRUE,14249
+264,"61647de75314468d5cb57f93",2,"Collision","1","Green Triangle Only",TRUE,6130
+264,"61647de75314468d5cb57f93",3,"CafeWall","3","Slanted / Diagonal",TRUE,8460
+264,"61647de75314468d5cb57f93",4,"Circles","2","Red Circle",TRUE,6836
+264,"61647de75314468d5cb57f93",5,"Lines","1","Blue Line",TRUE,5432
+265,"69e96f9a9720314bfef36394",0,"Robot","3","Mostly around the center of the square",TRUE,16250
+265,"69e96f9a9720314bfef36394",1,"Collision","1","Green Triangle Only",TRUE,23662
+265,"69e96f9a9720314bfef36394",2,"Lines","1","Blue Line",TRUE,4965
+265,"69e96f9a9720314bfef36394",3,"Planets","2","Orange",TRUE,20531
+265,"69e96f9a9720314bfef36394",4,"CafeWall","3","Slanted / Diagonal",TRUE,10483
+265,"69e96f9a9720314bfef36394",5,"Circles","2","Red Circle",TRUE,7663
+266,"6a02a3d567b030856033eb52",0,"Circles","2","Red Circle",TRUE,7652
+266,"6a02a3d567b030856033eb52",1,"Collision","1","Green Triangle Only",TRUE,53712
+266,"6a02a3d567b030856033eb52",2,"Lines","1","Blue Line",TRUE,14415
+266,"6a02a3d567b030856033eb52",3,"Robot","3","Mostly around the center of the square",TRUE,21239
+266,"6a02a3d567b030856033eb52",4,"CafeWall","3","Slanted / Diagonal",TRUE,34472
+266,"6a02a3d567b030856033eb52",5,"Planets","2","Orange",TRUE,60506
+267,"6998bda4ed63e85917285fd8",0,"Lines","1","Blue Line",TRUE,10200
+267,"6998bda4ed63e85917285fd8",1,"Planets","2","Orange",TRUE,22591
+267,"6998bda4ed63e85917285fd8",2,"Circles","1","Blue Circle",FALSE,6232
+267,"6998bda4ed63e85917285fd8",3,"Collision","1","Green Triangle Only",TRUE,24488
+267,"6998bda4ed63e85917285fd8",4,"Robot","3","Mostly around the center of the square",TRUE,14087
+267,"6998bda4ed63e85917285fd8",5,"CafeWall","3","Slanted / Diagonal",TRUE,9471
+268,"6a0fdb7eecaf669f854c5abb",0,"Circles","2","Red Circle",TRUE,21415
+268,"6a0fdb7eecaf669f854c5abb",1,"Collision","1","Green Triangle Only",TRUE,46265
+268,"6a0fdb7eecaf669f854c5abb",2,"Lines","1","Blue Line",TRUE,12727
+268,"6a0fdb7eecaf669f854c5abb",3,"Planets","2","Orange",TRUE,41340
+268,"6a0fdb7eecaf669f854c5abb",4,"Robot","3","Mostly around the center of the square",TRUE,25125
+268,"6a0fdb7eecaf669f854c5abb",5,"CafeWall","3","Slanted / Diagonal",TRUE,34911
+269,"6a04b76d9bbaf4af16d57088",0,"Circles","2","Red Circle",TRUE,21031
+269,"6a04b76d9bbaf4af16d57088",1,"CafeWall","3","Slanted / Diagonal",TRUE,17382
+269,"6a04b76d9bbaf4af16d57088",2,"Collision","3","Blue Triangle and Orange Circle",FALSE,80409
+269,"6a04b76d9bbaf4af16d57088",3,"Lines","1","Blue Line",TRUE,23997
+269,"6a04b76d9bbaf4af16d57088",4,"Robot","2","Mostly on the upper right of the square",FALSE,27672
+269,"6a04b76d9bbaf4af16d57088",5,"Planets","1","Purple",FALSE,118695
+270,"6a10e1fd31d6009fde8e3b7a",0,"CafeWall","3","Slanted / Diagonal",TRUE,11584
+270,"6a10e1fd31d6009fde8e3b7a",1,"Circles","2","Red Circle",TRUE,7179
+270,"6a10e1fd31d6009fde8e3b7a",2,"Collision","1","Green Triangle Only",TRUE,17783
+270,"6a10e1fd31d6009fde8e3b7a",3,"Lines","1","Blue Line",TRUE,4931
+270,"6a10e1fd31d6009fde8e3b7a",4,"Planets","2","Orange",TRUE,17050
+270,"6a10e1fd31d6009fde8e3b7a",5,"Robot","3","Mostly around the center of the square",TRUE,14515
+271,"69fe0a1379c697a122be3c51",0,"Planets","2","Orange",TRUE,26119
+271,"69fe0a1379c697a122be3c51",1,"CafeWall","3","Slanted / Diagonal",TRUE,8875
+271,"69fe0a1379c697a122be3c51",2,"Circles","2","Red Circle",TRUE,9466
+271,"69fe0a1379c697a122be3c51",3,"Lines","1","Blue Line",TRUE,5331
+271,"69fe0a1379c697a122be3c51",4,"Robot","2","Mostly on the upper right of the square",FALSE,6683
+271,"69fe0a1379c697a122be3c51",5,"Collision","1","Green Triangle Only",TRUE,14650
+272,"6a1dc5243a38d709fa76621e",0,"Lines","1","Blue Line",TRUE,14567
+272,"6a1dc5243a38d709fa76621e",1,"Planets","2","Orange",TRUE,24222
+272,"6a1dc5243a38d709fa76621e",2,"Circles","2","Red Circle",TRUE,9782
+272,"6a1dc5243a38d709fa76621e",3,"Robot","3","Mostly around the center of the square",TRUE,14902
+272,"6a1dc5243a38d709fa76621e",4,"Collision","1","Green Triangle Only",TRUE,28359
+272,"6a1dc5243a38d709fa76621e",5,"CafeWall","4","Mixed: some straight, some slanted",FALSE,24183
+273,"6a07e7307beadce0826acea4",0,"CafeWall","3","Slanted / Diagonal",TRUE,8005
+273,"6a07e7307beadce0826acea4",1,"Lines","1","Blue Line",TRUE,4576
+273,"6a07e7307beadce0826acea4",2,"Circles","2","Red Circle",TRUE,5048
+273,"6a07e7307beadce0826acea4",3,"Robot","3","Mostly around the center of the square",TRUE,7752
+273,"6a07e7307beadce0826acea4",4,"Planets","2","Orange",TRUE,14172
+273,"6a07e7307beadce0826acea4",5,"Collision","1","Green Triangle Only",TRUE,13436
+274,"63d7fb6ee49281f6c41d6630",0,"Robot","2","Mostly on the upper right of the square",FALSE,17571
+274,"63d7fb6ee49281f6c41d6630",1,"CafeWall","1","Straight / Horizontal",FALSE,6033
+274,"63d7fb6ee49281f6c41d6630",2,"Circles","2","Red Circle",TRUE,6071
+274,"63d7fb6ee49281f6c41d6630",3,"Lines","1","Blue Line",TRUE,4996
+274,"63d7fb6ee49281f6c41d6630",4,"Planets","2","Orange",TRUE,19594
+274,"63d7fb6ee49281f6c41d6630",5,"Collision","1","Green Triangle Only",TRUE,27330
+275,"69b085994bfdf00ac5908a2a",0,"Robot","3","Mostly around the center of the square",TRUE,15066
+275,"69b085994bfdf00ac5908a2a",1,"Lines","1","Blue Line",TRUE,4833
+275,"69b085994bfdf00ac5908a2a",2,"Collision","1","Green Triangle Only",TRUE,20277
+275,"69b085994bfdf00ac5908a2a",3,"CafeWall","3","Slanted / Diagonal",TRUE,4474
+275,"69b085994bfdf00ac5908a2a",4,"Planets","2","Orange",TRUE,16202
+275,"69b085994bfdf00ac5908a2a",5,"Circles","2","Red Circle",TRUE,17628
+276,"69b72d785c20e3f3bfcae82f",0,"Collision","1","Green Triangle Only",TRUE,36540
+276,"69b72d785c20e3f3bfcae82f",1,"CafeWall","3","Slanted / Diagonal",TRUE,18573
+276,"69b72d785c20e3f3bfcae82f",2,"Lines","1","Blue Line",TRUE,5735
+276,"69b72d785c20e3f3bfcae82f",3,"Planets","2","Orange",TRUE,23600
+276,"69b72d785c20e3f3bfcae82f",4,"Robot","3","Mostly around the center of the square",TRUE,28655
+276,"69b72d785c20e3f3bfcae82f",5,"Circles","2","Red Circle",TRUE,9141
+277,"6a0db305f15fbd39c50c3204",0,"Collision","1","Green Triangle Only",TRUE,44354
+277,"6a0db305f15fbd39c50c3204",1,"Circles","2","Red Circle",TRUE,16557
+277,"6a0db305f15fbd39c50c3204",2,"Lines","1","Blue Line",TRUE,17313
+277,"6a0db305f15fbd39c50c3204",3,"Planets","2","Orange",TRUE,49985
+277,"6a0db305f15fbd39c50c3204",4,"CafeWall","3","Slanted / Diagonal",TRUE,36101
+277,"6a0db305f15fbd39c50c3204",5,"Robot","3","Mostly around the center of the square",TRUE,17029
+279,"69a82e484e9029ef1a4a99d4",0,"Collision","1","Green Triangle Only",TRUE,74780
+279,"69a82e484e9029ef1a4a99d4",1,"Robot","2","Mostly on the upper right of the square",FALSE,53012
+279,"69a82e484e9029ef1a4a99d4",2,"Lines","3","NONE (they are the same size)",FALSE,45179
+279,"69a82e484e9029ef1a4a99d4",3,"Planets","4","Green",FALSE,42960
+279,"69a82e484e9029ef1a4a99d4",4,"CafeWall","1","Straight / Horizontal",FALSE,66898
+279,"69a82e484e9029ef1a4a99d4",5,"Circles","2","Red Circle",TRUE,37320
+281,"6a08dbd428d6c1df00610751",0,"Collision","1","Green Triangle Only",TRUE,60095
+281,"6a08dbd428d6c1df00610751",1,"Planets","2","Orange",TRUE,116958
+281,"6a08dbd428d6c1df00610751",2,"Circles","2","Red Circle",TRUE,11681
+281,"6a08dbd428d6c1df00610751",3,"CafeWall","4","Mixed: some straight, some slanted",FALSE,29418
+281,"6a08dbd428d6c1df00610751",4,"Lines","1","Blue Line",TRUE,8356
+281,"6a08dbd428d6c1df00610751",5,"Robot","2","Mostly on the upper right of the square",FALSE,29151
+282,"6705bf2688ed88bcafd57446",0,"Planets","2","Orange",TRUE,50807
+282,"6705bf2688ed88bcafd57446",1,"Lines","1","Blue Line",TRUE,15691
+282,"6705bf2688ed88bcafd57446",2,"Collision","1","Green Triangle Only",TRUE,33946
+282,"6705bf2688ed88bcafd57446",3,"CafeWall","3","Slanted / Diagonal",TRUE,23948
+282,"6705bf2688ed88bcafd57446",4,"Circles","2","Red Circle",TRUE,8230
+282,"6705bf2688ed88bcafd57446",5,"Robot","3","Mostly around the center of the square",TRUE,37546
+283,"69866c151e89ae8ed8ebc85b",0,"Robot","2","Mostly on the upper right of the square",FALSE,39429
+283,"69866c151e89ae8ed8ebc85b",1,"CafeWall","3","Slanted / Diagonal",TRUE,20098
+283,"69866c151e89ae8ed8ebc85b",2,"Circles","1","Blue Circle",FALSE,13561
+283,"69866c151e89ae8ed8ebc85b",3,"Collision","3","Blue Triangle and Orange Circle",FALSE,46886
+283,"69866c151e89ae8ed8ebc85b",4,"Lines","1","Blue Line",TRUE,26571
+283,"69866c151e89ae8ed8ebc85b",5,"Planets","2","Orange",TRUE,36099
+285,"6a0b4342858b03ad3dcb830a",0,"Planets","2","Orange",TRUE,23634
+285,"6a0b4342858b03ad3dcb830a",1,"CafeWall","3","Slanted / Diagonal",TRUE,30925
+285,"6a0b4342858b03ad3dcb830a",2,"Collision","1","Green Triangle Only",TRUE,22233
+285,"6a0b4342858b03ad3dcb830a",3,"Lines","1","Blue Line",TRUE,10184
+285,"6a0b4342858b03ad3dcb830a",4,"Circles","2","Red Circle",TRUE,14698
+285,"6a0b4342858b03ad3dcb830a",5,"Robot","3","Mostly around the center of the square",TRUE,11091
+286,"69f982d8dd2a2a1e9f1c16fc",0,"Lines","1","Blue Line",TRUE,9255
+286,"69f982d8dd2a2a1e9f1c16fc",1,"Circles","2","Red Circle",TRUE,7181
+286,"69f982d8dd2a2a1e9f1c16fc",2,"Robot","2","Mostly on the upper right of the square",FALSE,15407
+286,"69f982d8dd2a2a1e9f1c16fc",3,"CafeWall","3","Slanted / Diagonal",TRUE,22123
+286,"69f982d8dd2a2a1e9f1c16fc",4,"Collision","1","Green Triangle Only",TRUE,19201
+286,"69f982d8dd2a2a1e9f1c16fc",5,"Planets","2","Orange",TRUE,18353
+287,"69a5173e79a786eadc643c31",0,"CafeWall","3","Slanted / Diagonal",TRUE,22412
+287,"69a5173e79a786eadc643c31",1,"Collision","1","Green Triangle Only",TRUE,24718
+287,"69a5173e79a786eadc643c31",2,"Robot","3","Mostly around the center of the square",TRUE,11290
+287,"69a5173e79a786eadc643c31",3,"Circles","2","Red Circle",TRUE,6307
+287,"69a5173e79a786eadc643c31",4,"Lines","1","Blue Line",TRUE,4182
+287,"69a5173e79a786eadc643c31",5,"Planets","2","Orange",TRUE,19397
+288,"6a0e057e534023a1618fad75",0,"Collision","1","Green Triangle Only",TRUE,37388
+288,"6a0e057e534023a1618fad75",1,"Planets","2","Orange",TRUE,24690
+288,"6a0e057e534023a1618fad75",2,"Lines","1","Blue Line",TRUE,4625
+288,"6a0e057e534023a1618fad75",3,"CafeWall","4","Mixed: some straight, some slanted",FALSE,12650
+288,"6a0e057e534023a1618fad75",4,"Robot","2","Mostly on the upper right of the square",FALSE,9569
+288,"6a0e057e534023a1618fad75",5,"Circles","2","Red Circle",TRUE,14357
+289,"6a1629cc5dcd6ea2c000c9af",0,"CafeWall","1","Straight / Horizontal",FALSE,57304
+289,"6a1629cc5dcd6ea2c000c9af",1,"Robot","3","Mostly around the center of the square",TRUE,24094
+289,"6a1629cc5dcd6ea2c000c9af",2,"Collision","4","No object would be hit",FALSE,33810
+289,"6a1629cc5dcd6ea2c000c9af",3,"Circles","2","Red Circle",TRUE,14955
+289,"6a1629cc5dcd6ea2c000c9af",4,"Lines","1","Blue Line",TRUE,9766
+289,"6a1629cc5dcd6ea2c000c9af",5,"Planets","3","Blue",FALSE,30856
+291,"69f11c9f9a42a013e07426d3",0,"Lines","1","Blue Line",TRUE,6785
+291,"69f11c9f9a42a013e07426d3",1,"Circles","2","Red Circle",TRUE,4708
+291,"69f11c9f9a42a013e07426d3",2,"Collision","1","Green Triangle Only",TRUE,22721
+291,"69f11c9f9a42a013e07426d3",3,"Robot","2","Mostly on the upper right of the square",FALSE,7597
+291,"69f11c9f9a42a013e07426d3",4,"CafeWall","3","Slanted / Diagonal",TRUE,9066
+291,"69f11c9f9a42a013e07426d3",5,"Planets","2","Orange",TRUE,12750
+292,"6296bef3248bf76cc113926b",0,"Lines","3","NONE (they are the same size)",FALSE,7665
+292,"6296bef3248bf76cc113926b",1,"Planets","2","Orange",TRUE,17485
+292,"6296bef3248bf76cc113926b",2,"Circles","2","Red Circle",TRUE,14423
+292,"6296bef3248bf76cc113926b",3,"Collision","1","Green Triangle Only",TRUE,54750
+292,"6296bef3248bf76cc113926b",4,"Robot","2","Mostly on the upper right of the square",FALSE,6913
+292,"6296bef3248bf76cc113926b",5,"CafeWall","4","Mixed: some straight, some slanted",FALSE,47991
+293,"6a1d2072e93c3d8f49fb7c47",0,"Collision","1","Green Triangle Only",TRUE,37865
+293,"6a1d2072e93c3d8f49fb7c47",1,"CafeWall","3","Slanted / Diagonal",TRUE,32482
+293,"6a1d2072e93c3d8f49fb7c47",2,"Planets","2","Orange",TRUE,33131
+293,"6a1d2072e93c3d8f49fb7c47",3,"Lines","2","Red Line",FALSE,14814
+293,"6a1d2072e93c3d8f49fb7c47",4,"Robot","3","Mostly around the center of the square",TRUE,14418
+293,"6a1d2072e93c3d8f49fb7c47",5,"Circles","2","Red Circle",TRUE,16748
+295,"6714d7f42c208253099ac9d9",0,"Robot","3","Mostly around the center of the square",TRUE,28750
+295,"6714d7f42c208253099ac9d9",1,"Planets","2","Orange",TRUE,30193
+295,"6714d7f42c208253099ac9d9",2,"Circles","2","Red Circle",TRUE,12346
+295,"6714d7f42c208253099ac9d9",3,"CafeWall","3","Slanted / Diagonal",TRUE,8606
+295,"6714d7f42c208253099ac9d9",4,"Lines","1","Blue Line",TRUE,5479
+295,"6714d7f42c208253099ac9d9",5,"Collision","1","Green Triangle Only",TRUE,28308
+296,"698a70a7fbff18d798825bbc",0,"Circles","2","Red Circle",TRUE,8938
+296,"698a70a7fbff18d798825bbc",1,"Collision","1","Green Triangle Only",TRUE,18774
+296,"698a70a7fbff18d798825bbc",2,"Lines","1","Blue Line",TRUE,4922
+296,"698a70a7fbff18d798825bbc",3,"Planets","2","Orange",TRUE,12295
+296,"698a70a7fbff18d798825bbc",4,"Robot","3","Mostly around the center of the square",TRUE,11197
+296,"698a70a7fbff18d798825bbc",5,"CafeWall","3","Slanted / Diagonal",TRUE,7682
+297,"6a07dde8fe131191c3d2be63",0,"Collision","1","Green Triangle Only",TRUE,53331
+297,"6a07dde8fe131191c3d2be63",1,"Lines","1","Blue Line",TRUE,20725
+297,"6a07dde8fe131191c3d2be63",2,"Planets","2","Orange",TRUE,51296
+297,"6a07dde8fe131191c3d2be63",3,"CafeWall","3","Slanted / Diagonal",TRUE,32270
+297,"6a07dde8fe131191c3d2be63",4,"Robot","2","Mostly on the upper right of the square",FALSE,38813
+297,"6a07dde8fe131191c3d2be63",5,"Circles","2","Red Circle",TRUE,10755
+300,"6a06233ac83a1d709b365e59",0,"CafeWall","3","Slanted / Diagonal",TRUE,22777
+300,"6a06233ac83a1d709b365e59",1,"Planets","2","Orange",TRUE,51573
+300,"6a06233ac83a1d709b365e59",2,"Circles","2","Red Circle",TRUE,18963
+300,"6a06233ac83a1d709b365e59",3,"Robot","3","Mostly around the center of the square",TRUE,26841
+300,"6a06233ac83a1d709b365e59",4,"Collision","1","Green Triangle Only",TRUE,20555
+300,"6a06233ac83a1d709b365e59",5,"Lines","1","Blue Line",TRUE,8031
+301,"6a1e601b20d193f9a706e875",0,"CafeWall","3","Slanted / Diagonal",TRUE,58248
+301,"6a1e601b20d193f9a706e875",1,"Robot","3","Mostly around the center of the square",TRUE,31991
+301,"6a1e601b20d193f9a706e875",2,"Planets","2","Orange",TRUE,31103
+301,"6a1e601b20d193f9a706e875",3,"Collision","1","Green Triangle Only",TRUE,20271
+301,"6a1e601b20d193f9a706e875",4,"Lines","1","Blue Line",TRUE,28503
+301,"6a1e601b20d193f9a706e875",5,"Circles","2","Red Circle",TRUE,9992
+304,"697d5c69036bee0ad31df6a9",0,"CafeWall","3","Slanted / Diagonal",TRUE,15747
+304,"697d5c69036bee0ad31df6a9",1,"Robot","3","Mostly around the center of the square",TRUE,12688
+304,"697d5c69036bee0ad31df6a9",2,"Lines","1","Blue Line",TRUE,11810
+304,"697d5c69036bee0ad31df6a9",3,"Planets","2","Orange",TRUE,20477
+304,"697d5c69036bee0ad31df6a9",4,"Collision","1","Green Triangle Only",TRUE,24351
+304,"697d5c69036bee0ad31df6a9",5,"Circles","2","Red Circle",TRUE,11126
+305,"69e197974406b0a6289223db",0,"Planets","2","Orange",TRUE,39121
+305,"69e197974406b0a6289223db",1,"CafeWall","3","Slanted / Diagonal",TRUE,10319
+305,"69e197974406b0a6289223db",2,"Robot","3","Mostly around the center of the square",TRUE,13012
+305,"69e197974406b0a6289223db",3,"Collision","1","Green Triangle Only",TRUE,15847
+305,"69e197974406b0a6289223db",4,"Lines","1","Blue Line",TRUE,5804
+305,"69e197974406b0a6289223db",5,"Circles","2","Red Circle",TRUE,7177
+308,"6666556a57f997a0004f5e5a",0,"Planets","2","Orange",TRUE,10918
+308,"6666556a57f997a0004f5e5a",1,"CafeWall","4","Mixed: some straight, some slanted",FALSE,9427
+308,"6666556a57f997a0004f5e5a",2,"Robot","3","Mostly around the center of the square",TRUE,6354
+308,"6666556a57f997a0004f5e5a",3,"Lines","1","Blue Line",TRUE,9431
+308,"6666556a57f997a0004f5e5a",4,"Circles","2","Red Circle",TRUE,7061
+308,"6666556a57f997a0004f5e5a",5,"Collision","1","Green Triangle Only",TRUE,11920
+309,"6a1cd450a79bf6b9973fa75f",0,"Collision","1","Green Triangle Only",TRUE,30555
+309,"6a1cd450a79bf6b9973fa75f",1,"Lines","1","Blue Line",TRUE,15051
+309,"6a1cd450a79bf6b9973fa75f",2,"CafeWall","4","Mixed: some straight, some slanted",FALSE,41787
+309,"6a1cd450a79bf6b9973fa75f",3,"Robot","3","Mostly around the center of the square",TRUE,13709
+309,"6a1cd450a79bf6b9973fa75f",4,"Planets","2","Orange",TRUE,20555
+309,"6a1cd450a79bf6b9973fa75f",5,"Circles","2","Red Circle",TRUE,9928
+310,"6a1952e70e604793be75659b",0,"CafeWall","3","Slanted / Diagonal",TRUE,32831
+310,"6a1952e70e604793be75659b",1,"Robot","3","Mostly around the center of the square",TRUE,38566
+310,"6a1952e70e604793be75659b",2,"Collision","1","Green Triangle Only",TRUE,34971
+310,"6a1952e70e604793be75659b",3,"Lines","2","Red Line",FALSE,23336
+310,"6a1952e70e604793be75659b",4,"Circles","2","Red Circle",TRUE,171606
+310,"6a1952e70e604793be75659b",5,"Planets","2","Orange",TRUE,33320
+313,"69e980c89da1ccaa91f5672a",0,"CafeWall","3","Slanted / Diagonal",TRUE,12497
+313,"69e980c89da1ccaa91f5672a",1,"Circles","2","Red Circle",TRUE,7059
+313,"69e980c89da1ccaa91f5672a",2,"Lines","1","Blue Line",TRUE,4372
+313,"69e980c89da1ccaa91f5672a",3,"Collision","1","Green Triangle Only",TRUE,23483
+313,"69e980c89da1ccaa91f5672a",4,"Robot","3","Mostly around the center of the square",TRUE,11635
+313,"69e980c89da1ccaa91f5672a",5,"Planets","2","Orange",TRUE,21979
+314,"6a0fbc5c1cab3242613bd8f9",0,"Circles","2","Red Circle",TRUE,33021
+314,"6a0fbc5c1cab3242613bd8f9",1,"Collision","1","Green Triangle Only",TRUE,51973
+314,"6a0fbc5c1cab3242613bd8f9",2,"CafeWall","4","Mixed: some straight, some slanted",FALSE,37169
+314,"6a0fbc5c1cab3242613bd8f9",3,"Robot","3","Mostly around the center of the square",TRUE,37472
+314,"6a0fbc5c1cab3242613bd8f9",4,"Planets","2","Orange",TRUE,86574
+314,"6a0fbc5c1cab3242613bd8f9",5,"Lines","1","Blue Line",TRUE,23635
+315,"69e063c7e86c982e239214ef",0,"Collision","1","Green Triangle Only",TRUE,19300
+315,"69e063c7e86c982e239214ef",1,"Robot","3","Mostly around the center of the square",TRUE,22448
+315,"69e063c7e86c982e239214ef",2,"Lines","1","Blue Line",TRUE,6147
+315,"69e063c7e86c982e239214ef",3,"CafeWall","3","Slanted / Diagonal",TRUE,15215
+315,"69e063c7e86c982e239214ef",4,"Planets","2","Orange",TRUE,16882
+315,"69e063c7e86c982e239214ef",5,"Circles","2","Red Circle",TRUE,7514
+316,"69bc0ba177847fde0a18ec3d",0,"Collision","1","Green Triangle Only",TRUE,48492
+316,"69bc0ba177847fde0a18ec3d",1,"Robot","3","Mostly around the center of the square",TRUE,34306
+316,"69bc0ba177847fde0a18ec3d",2,"Lines","1","Blue Line",TRUE,9998
+316,"69bc0ba177847fde0a18ec3d",3,"Circles","2","Red Circle",TRUE,10611
+316,"69bc0ba177847fde0a18ec3d",4,"CafeWall","3","Slanted / Diagonal",TRUE,9113
+316,"69bc0ba177847fde0a18ec3d",5,"Planets","2","Orange",TRUE,44937
+317,"69f0ef2a58d846e3bbe5a68f",0,"CafeWall","1","Straight / Horizontal",FALSE,53399
+317,"69f0ef2a58d846e3bbe5a68f",1,"Circles","2","Red Circle",TRUE,11510
+317,"69f0ef2a58d846e3bbe5a68f",2,"Planets","2","Orange",TRUE,43958
+317,"69f0ef2a58d846e3bbe5a68f",3,"Collision","1","Green Triangle Only",TRUE,44431
+317,"69f0ef2a58d846e3bbe5a68f",4,"Lines","1","Blue Line",TRUE,6768
+317,"69f0ef2a58d846e3bbe5a68f",5,"Robot","3","Mostly around the center of the square",TRUE,58424
+318,"6a0a28cd6f2eb90a33a396f5",0,"Lines","1","Blue Line",TRUE,10922
+318,"6a0a28cd6f2eb90a33a396f5",1,"Planets","2","Orange",TRUE,40279
+318,"6a0a28cd6f2eb90a33a396f5",2,"Collision","1","Green Triangle Only",TRUE,35695
+318,"6a0a28cd6f2eb90a33a396f5",3,"CafeWall","3","Slanted / Diagonal",TRUE,21804
+318,"6a0a28cd6f2eb90a33a396f5",4,"Circles","2","Red Circle",TRUE,8823
+318,"6a0a28cd6f2eb90a33a396f5",5,"Robot","2","Mostly on the upper right of the square",FALSE,27878
+319,"655f9bb3070d42d4bc67e866",0,"Lines","1","Blue Line",TRUE,9970
+319,"655f9bb3070d42d4bc67e866",1,"Planets","2","Orange",TRUE,12235
+319,"655f9bb3070d42d4bc67e866",2,"CafeWall","1","Straight / Horizontal",FALSE,23328
+319,"655f9bb3070d42d4bc67e866",3,"Collision","2","Green Triangle and Green Rectangle",FALSE,11198
+319,"655f9bb3070d42d4bc67e866",4,"Circles","2","Red Circle",TRUE,4963
+319,"655f9bb3070d42d4bc67e866",5,"Robot","2","Mostly on the upper right of the square",FALSE,6265
+320,"69fba866c48220909d281e3f",0,"CafeWall","3","Slanted / Diagonal",TRUE,19479
+320,"69fba866c48220909d281e3f",1,"Collision","1","Green Triangle Only",TRUE,32886
+320,"69fba866c48220909d281e3f",2,"Planets","2","Orange",TRUE,30970
+320,"69fba866c48220909d281e3f",3,"Circles","2","Red Circle",TRUE,8458
+320,"69fba866c48220909d281e3f",4,"Robot","3","Mostly around the center of the square",TRUE,8596
+320,"69fba866c48220909d281e3f",5,"Lines","1","Blue Line",TRUE,6702
+321,"698ce4ba931f89581ecc6d7d",0,"Collision","3","Blue Triangle and Orange Circle",FALSE,36289
+321,"698ce4ba931f89581ecc6d7d",1,"Planets","2","Orange",TRUE,61783
+321,"698ce4ba931f89581ecc6d7d",2,"Lines","1","Blue Line",TRUE,7443
+321,"698ce4ba931f89581ecc6d7d",3,"Robot","3","Mostly around the center of the square",TRUE,13549
+321,"698ce4ba931f89581ecc6d7d",4,"Circles","2","Red Circle",TRUE,8697
+321,"698ce4ba931f89581ecc6d7d",5,"CafeWall","3","Slanted / Diagonal",TRUE,12555
+322,"6a1e0720b565233b3d6a164c",0,"Planets","2","Orange",TRUE,33244
+322,"6a1e0720b565233b3d6a164c",1,"Circles","2","Red Circle",TRUE,19215
+322,"6a1e0720b565233b3d6a164c",2,"CafeWall","4","Mixed: some straight, some slanted",FALSE,17130
+322,"6a1e0720b565233b3d6a164c",3,"Collision","1","Green Triangle Only",TRUE,26611
+322,"6a1e0720b565233b3d6a164c",4,"Lines","2","Red Line",FALSE,10560
+322,"6a1e0720b565233b3d6a164c",5,"Robot","3","Mostly around the center of the square",TRUE,16024
+323,"69ee4a93e4b6f636b49e6771",0,"CafeWall","4","Mixed: some straight, some slanted",FALSE,57971
+323,"69ee4a93e4b6f636b49e6771",1,"Circles","2","Red Circle",TRUE,16776
+323,"69ee4a93e4b6f636b49e6771",2,"Collision","2","Green Triangle and Green Rectangle",FALSE,159426
+323,"69ee4a93e4b6f636b49e6771",3,"Planets","2","Orange",TRUE,31752
+323,"69ee4a93e4b6f636b49e6771",4,"Lines","1","Blue Line",TRUE,8263
+323,"69ee4a93e4b6f636b49e6771",5,"Robot","2","Mostly on the upper right of the square",FALSE,21463
+324,"69cff429bb84c7afcf70990d",0,"Robot","3","Mostly around the center of the square",TRUE,21698
+324,"69cff429bb84c7afcf70990d",1,"Planets","2","Orange",TRUE,18630
+324,"69cff429bb84c7afcf70990d",2,"CafeWall","3","Slanted / Diagonal",TRUE,16843
+324,"69cff429bb84c7afcf70990d",3,"Lines","1","Blue Line",TRUE,27403
+324,"69cff429bb84c7afcf70990d",4,"Collision","1","Green Triangle Only",TRUE,16234
+324,"69cff429bb84c7afcf70990d",5,"Circles","2","Red Circle",TRUE,21121
+325,"6a1e12fbe135023312071997",0,"Robot","3","Mostly around the center of the square",TRUE,24399
+325,"6a1e12fbe135023312071997",1,"Lines","1","Blue Line",TRUE,18264
+325,"6a1e12fbe135023312071997",2,"Planets","2","Orange",TRUE,18265
+325,"6a1e12fbe135023312071997",3,"Circles","2","Red Circle",TRUE,10781
+325,"6a1e12fbe135023312071997",4,"CafeWall","3","Slanted / Diagonal",TRUE,12984
+325,"6a1e12fbe135023312071997",5,"Collision","1","Green Triangle Only",TRUE,18980
+326,"6a1e3eff23e120042c4a1545",0,"CafeWall","3","Slanted / Diagonal",TRUE,21105
+326,"6a1e3eff23e120042c4a1545",1,"Circles","2","Red Circle",TRUE,27751
+326,"6a1e3eff23e120042c4a1545",2,"Lines","1","Blue Line",TRUE,18351
+326,"6a1e3eff23e120042c4a1545",3,"Planets","2","Orange",TRUE,25980
+326,"6a1e3eff23e120042c4a1545",4,"Collision","1","Green Triangle Only",TRUE,35434
+326,"6a1e3eff23e120042c4a1545",5,"Robot","3","Mostly around the center of the square",TRUE,22454
+328,"6a118dc3576ca8522318dfc7",0,"Robot","3","Mostly around the center of the square",TRUE,29320
+328,"6a118dc3576ca8522318dfc7",1,"Planets","2","Orange",TRUE,39038
+328,"6a118dc3576ca8522318dfc7",2,"Lines","1","Blue Line",TRUE,10431
+328,"6a118dc3576ca8522318dfc7",3,"CafeWall","3","Slanted / Diagonal",TRUE,42479
+328,"6a118dc3576ca8522318dfc7",4,"Circles","2","Red Circle",TRUE,16391
+328,"6a118dc3576ca8522318dfc7",5,"Collision","1","Green Triangle Only",TRUE,32647
+329,"6a0fa0bb264bd2475ec1f37d",0,"Lines","1","Blue Line",TRUE,13986
+329,"6a0fa0bb264bd2475ec1f37d",1,"Collision","2","Green Triangle and Green Rectangle",FALSE,28896
+329,"6a0fa0bb264bd2475ec1f37d",2,"Robot","2","Mostly on the upper right of the square",FALSE,14430
+329,"6a0fa0bb264bd2475ec1f37d",3,"Circles","2","Red Circle",TRUE,11640
+329,"6a0fa0bb264bd2475ec1f37d",4,"CafeWall","3","Slanted / Diagonal",TRUE,15638
+329,"6a0fa0bb264bd2475ec1f37d",5,"Planets","2","Orange",TRUE,30011
+331,"69e9718147d1bb9c75f8e14f",0,"Planets","2","Orange",TRUE,117311
+331,"69e9718147d1bb9c75f8e14f",1,"Collision","1","Green Triangle Only",TRUE,30904
+331,"69e9718147d1bb9c75f8e14f",2,"Lines","1","Blue Line",TRUE,18387
+331,"69e9718147d1bb9c75f8e14f",3,"Circles","2","Red Circle",TRUE,13123
+331,"69e9718147d1bb9c75f8e14f",4,"Robot","2","Mostly on the upper right of the square",FALSE,38735
+331,"69e9718147d1bb9c75f8e14f",5,"CafeWall","3","Slanted / Diagonal",TRUE,22423
+332,"69f49562a94a4da9c8520aa1",0,"CafeWall","3","Slanted / Diagonal",TRUE,17183
+332,"69f49562a94a4da9c8520aa1",1,"Planets","2","Orange",TRUE,48797
+332,"69f49562a94a4da9c8520aa1",2,"Circles","2","Red Circle",TRUE,11430
+332,"69f49562a94a4da9c8520aa1",3,"Collision","1","Green Triangle Only",TRUE,14744
+332,"69f49562a94a4da9c8520aa1",4,"Lines","1","Blue Line",TRUE,10448
+332,"69f49562a94a4da9c8520aa1",5,"Robot","3","Mostly around the center of the square",TRUE,10132
+333,"69eb9aa32511bd79b8d72580",0,"Circles","2","Red Circle",TRUE,11853
+333,"69eb9aa32511bd79b8d72580",1,"Robot","3","Mostly around the center of the square",TRUE,28631
+333,"69eb9aa32511bd79b8d72580",2,"Lines","1","Blue Line",TRUE,7586
+333,"69eb9aa32511bd79b8d72580",3,"CafeWall","3","Slanted / Diagonal",TRUE,15320
+333,"69eb9aa32511bd79b8d72580",4,"Planets","2","Orange",TRUE,26853
+333,"69eb9aa32511bd79b8d72580",5,"Collision","1","Green Triangle Only",TRUE,20465
+335,"6a135169985a5d0aeaf2a31d",0,"Circles","2","Red Circle",TRUE,15659
+335,"6a135169985a5d0aeaf2a31d",1,"Lines","1","Blue Line",TRUE,7031
+335,"6a135169985a5d0aeaf2a31d",2,"CafeWall","3","Slanted / Diagonal",TRUE,13718
+335,"6a135169985a5d0aeaf2a31d",3,"Planets","2","Orange",TRUE,75590
+335,"6a135169985a5d0aeaf2a31d",4,"Collision","1","Green Triangle Only",TRUE,145755
+335,"6a135169985a5d0aeaf2a31d",5,"Robot","2","Mostly on the upper right of the square",FALSE,76372
+336,"6a0a1a914212a3ebeffd6b0f",0,"Robot","3","Mostly around the center of the square",TRUE,26267
+336,"6a0a1a914212a3ebeffd6b0f",1,"Planets","2","Orange",TRUE,37966
+336,"6a0a1a914212a3ebeffd6b0f",2,"Lines","1","Blue Line",TRUE,25271
+336,"6a0a1a914212a3ebeffd6b0f",3,"Collision","1","Green Triangle Only",TRUE,25559
+336,"6a0a1a914212a3ebeffd6b0f",4,"Circles","2","Red Circle",TRUE,11405
+336,"6a0a1a914212a3ebeffd6b0f",5,"CafeWall","3","Slanted / Diagonal",TRUE,18806
+337,"69c8e432059037ce2956ee67",0,"Circles","2","Red Circle",TRUE,5927
+337,"69c8e432059037ce2956ee67",1,"Collision","1","Green Triangle Only",TRUE,27848
+337,"69c8e432059037ce2956ee67",2,"CafeWall","3","Slanted / Diagonal",TRUE,13228
+337,"69c8e432059037ce2956ee67",3,"Robot","3","Mostly around the center of the square",TRUE,10231
+337,"69c8e432059037ce2956ee67",4,"Planets","2","Orange",TRUE,52677
+337,"69c8e432059037ce2956ee67",5,"Lines","1","Blue Line",TRUE,9885
+339,"69fba1f39803e63b67d49272",0,"CafeWall","3","Slanted / Diagonal",TRUE,33483
+339,"69fba1f39803e63b67d49272",1,"Circles","2","Red Circle",TRUE,13662
+339,"69fba1f39803e63b67d49272",2,"Lines","1","Blue Line",TRUE,9577
+339,"69fba1f39803e63b67d49272",3,"Collision","1","Green Triangle Only",TRUE,20246
+339,"69fba1f39803e63b67d49272",4,"Planets","2","Orange",TRUE,28016
+339,"69fba1f39803e63b67d49272",5,"Robot","3","Mostly around the center of the square",TRUE,17558
+341,"69f14586ec194f18f9ace54f",0,"Circles","2","Red Circle",TRUE,27436
+341,"69f14586ec194f18f9ace54f",1,"Planets","2","Orange",TRUE,43354
+341,"69f14586ec194f18f9ace54f",2,"CafeWall","3","Slanted / Diagonal",TRUE,63242
+341,"69f14586ec194f18f9ace54f",3,"Robot","3","Mostly around the center of the square",TRUE,31784
+341,"69f14586ec194f18f9ace54f",4,"Collision","1","Green Triangle Only",TRUE,41597
+341,"69f14586ec194f18f9ace54f",5,"Lines","1","Blue Line",TRUE,14954
+343,"696948d74e6e23586daf57f6",0,"Robot","3","Mostly around the center of the square",TRUE,19750
+343,"696948d74e6e23586daf57f6",1,"CafeWall","3","Slanted / Diagonal",TRUE,12330
+343,"696948d74e6e23586daf57f6",2,"Lines","1","Blue Line",TRUE,21648
+343,"696948d74e6e23586daf57f6",3,"Circles","2","Red Circle",TRUE,5814
+343,"696948d74e6e23586daf57f6",4,"Collision","1","Green Triangle Only",TRUE,17950
+343,"696948d74e6e23586daf57f6",5,"Planets","2","Orange",TRUE,17566
+345,"60ce89c7357eeffe77fca946",0,"Collision","1","Green Triangle Only",TRUE,26263
+345,"60ce89c7357eeffe77fca946",1,"Lines","1","Blue Line",TRUE,7265
+345,"60ce89c7357eeffe77fca946",2,"Planets","2","Orange",TRUE,50855
+345,"60ce89c7357eeffe77fca946",3,"CafeWall","3","Slanted / Diagonal",TRUE,13533
+345,"60ce89c7357eeffe77fca946",4,"Robot","2","Mostly on the upper right of the square",FALSE,102076
+345,"60ce89c7357eeffe77fca946",5,"Circles","2","Red Circle",TRUE,22695
+346,"69fdda7b1de3674cc53ee356",0,"CafeWall","3","Slanted / Diagonal",TRUE,37187
+346,"69fdda7b1de3674cc53ee356",1,"Robot","3","Mostly around the center of the square",TRUE,16408
+346,"69fdda7b1de3674cc53ee356",2,"Collision","1","Green Triangle Only",TRUE,27964
+346,"69fdda7b1de3674cc53ee356",3,"Circles","2","Red Circle",TRUE,9766
+346,"69fdda7b1de3674cc53ee356",4,"Lines","1","Blue Line",TRUE,11813
+346,"69fdda7b1de3674cc53ee356",5,"Planets","2","Orange",TRUE,31615
+347,"6a0bcc273329c00e4a7cfca9",0,"CafeWall","3","Slanted / Diagonal",TRUE,99566
+347,"6a0bcc273329c00e4a7cfca9",1,"Circles","2","Red Circle",TRUE,36270
+347,"6a0bcc273329c00e4a7cfca9",2,"Robot","3","Mostly around the center of the square",TRUE,46396
+347,"6a0bcc273329c00e4a7cfca9",3,"Planets","2","Orange",TRUE,40999
+347,"6a0bcc273329c00e4a7cfca9",4,"Lines","1","Blue Line",TRUE,30689
+347,"6a0bcc273329c00e4a7cfca9",5,"Collision","1","Green Triangle Only",TRUE,52227
+348,"699a00f4a3f5b24104f03fca",0,"Lines","1","Blue Line",TRUE,10390
+348,"699a00f4a3f5b24104f03fca",1,"Planets","2","Orange",TRUE,23382
+348,"699a00f4a3f5b24104f03fca",2,"CafeWall","3","Slanted / Diagonal",TRUE,13571
+348,"699a00f4a3f5b24104f03fca",3,"Circles","2","Red Circle",TRUE,9565
+348,"699a00f4a3f5b24104f03fca",4,"Collision","2","Green Triangle and Green Rectangle",FALSE,19575
+348,"699a00f4a3f5b24104f03fca",5,"Robot","2","Mostly on the upper right of the square",FALSE,15913
+349,"699ba39cfb07c3c928d4146d",0,"Planets","2","Orange",TRUE,39717
+349,"699ba39cfb07c3c928d4146d",1,"Robot","3","Mostly around the center of the square",TRUE,27698
+349,"699ba39cfb07c3c928d4146d",2,"CafeWall","3","Slanted / Diagonal",TRUE,33888
+349,"699ba39cfb07c3c928d4146d",3,"Lines","1","Blue Line",TRUE,12558
+349,"699ba39cfb07c3c928d4146d",4,"Circles","2","Red Circle",TRUE,7496
+349,"699ba39cfb07c3c928d4146d",5,"Collision","1","Green Triangle Only",TRUE,46178
+350,"6a040bdbd59cb32784363045",0,"Collision","1","Green Triangle Only",TRUE,34437
+350,"6a040bdbd59cb32784363045",1,"Circles","2","Red Circle",TRUE,11712
+350,"6a040bdbd59cb32784363045",2,"Robot","3","Mostly around the center of the square",TRUE,30871
+350,"6a040bdbd59cb32784363045",3,"CafeWall","3","Slanted / Diagonal",TRUE,46443
+350,"6a040bdbd59cb32784363045",4,"Planets","2","Orange",TRUE,22812
+350,"6a040bdbd59cb32784363045",5,"Lines","1","Blue Line",TRUE,14808
+351,"69c6aaf2837e061bf8c5afaa",0,"Circles","2","Red Circle",TRUE,14197
+351,"69c6aaf2837e061bf8c5afaa",1,"Robot","3","Mostly around the center of the square",TRUE,20459
+351,"69c6aaf2837e061bf8c5afaa",2,"CafeWall","3","Slanted / Diagonal",TRUE,16581
+351,"69c6aaf2837e061bf8c5afaa",3,"Planets","2","Orange",TRUE,15329
+351,"69c6aaf2837e061bf8c5afaa",4,"Lines","1","Blue Line",TRUE,12281
+351,"69c6aaf2837e061bf8c5afaa",5,"Collision","1","Green Triangle Only",TRUE,20921
+352,"69befa2e133968bfac9921bb",0,"Planets","2","Orange",TRUE,205215
+352,"69befa2e133968bfac9921bb",1,"Robot","2","Mostly on the upper right of the square",FALSE,9930
+352,"69befa2e133968bfac9921bb",2,"Collision","3","Blue Triangle and Orange Circle",FALSE,29948
+352,"69befa2e133968bfac9921bb",3,"CafeWall","3","Slanted / Diagonal",TRUE,6048
+352,"69befa2e133968bfac9921bb",4,"Lines","1","Blue Line",TRUE,5600
+352,"69befa2e133968bfac9921bb",5,"Circles","2","Red Circle",TRUE,5549
+353,"61338374ecef87bfdfd1c7bb",0,"CafeWall","3","Slanted / Diagonal",TRUE,11764
+353,"61338374ecef87bfdfd1c7bb",1,"Robot","3","Mostly around the center of the square",TRUE,8367
+353,"61338374ecef87bfdfd1c7bb",2,"Collision","3","Blue Triangle and Orange Circle",FALSE,15580
+353,"61338374ecef87bfdfd1c7bb",3,"Lines","1","Blue Line",TRUE,5334
+353,"61338374ecef87bfdfd1c7bb",4,"Planets","2","Orange",TRUE,7798
+353,"61338374ecef87bfdfd1c7bb",5,"Circles","2","Red Circle",TRUE,4315
+354,"69a51d629d67227b3f4e89cb",0,"Robot","3","Mostly around the center of the square",TRUE,16902
+354,"69a51d629d67227b3f4e89cb",1,"Planets","2","Orange",TRUE,15696
+354,"69a51d629d67227b3f4e89cb",2,"CafeWall","3","Slanted / Diagonal",TRUE,11547
+354,"69a51d629d67227b3f4e89cb",3,"Circles","2","Red Circle",TRUE,66003
+354,"69a51d629d67227b3f4e89cb",4,"Lines","1","Blue Line",TRUE,35407
+354,"69a51d629d67227b3f4e89cb",5,"Collision","1","Green Triangle Only",TRUE,23154
+355,"69e83c91e2420c0266697081",0,"CafeWall","3","Slanted / Diagonal",TRUE,15119
+355,"69e83c91e2420c0266697081",1,"Robot","3","Mostly around the center of the square",TRUE,8437
+355,"69e83c91e2420c0266697081",2,"Lines","1","Blue Line",TRUE,7704
+355,"69e83c91e2420c0266697081",3,"Circles","2","Red Circle",TRUE,7918
+355,"69e83c91e2420c0266697081",4,"Collision","1","Green Triangle Only",TRUE,15455
+355,"69e83c91e2420c0266697081",5,"Planets","2","Orange",TRUE,17365
+356,"6a1dc4c9608b0c2be8b3e155",0,"Collision","2","Green Triangle and Green Rectangle",FALSE,15232
+356,"6a1dc4c9608b0c2be8b3e155",1,"Circles","2","Red Circle",TRUE,10318
+356,"6a1dc4c9608b0c2be8b3e155",2,"Robot","3","Mostly around the center of the square",TRUE,7597
+356,"6a1dc4c9608b0c2be8b3e155",3,"CafeWall","3","Slanted / Diagonal",TRUE,4308
+356,"6a1dc4c9608b0c2be8b3e155",4,"Lines","1","Blue Line",TRUE,7003
+356,"6a1dc4c9608b0c2be8b3e155",5,"Planets","2","Orange",TRUE,16249
+357,"6a097d48727aa9f0ed80980e",0,"Circles","2","Red Circle",TRUE,17983
+357,"6a097d48727aa9f0ed80980e",1,"Planets","2","Orange",TRUE,25430
+357,"6a097d48727aa9f0ed80980e",2,"Robot","2","Mostly on the upper right of the square",FALSE,18648
+357,"6a097d48727aa9f0ed80980e",3,"CafeWall","3","Slanted / Diagonal",TRUE,25367
+357,"6a097d48727aa9f0ed80980e",4,"Collision","1","Green Triangle Only",TRUE,22097
+357,"6a097d48727aa9f0ed80980e",5,"Lines","1","Blue Line",TRUE,12199
+360,"6a0e1bb9007c77ed742177fd",0,"Circles","2","Red Circle",TRUE,10200
+360,"6a0e1bb9007c77ed742177fd",1,"Robot","3","Mostly around the center of the square",TRUE,20039
+360,"6a0e1bb9007c77ed742177fd",2,"CafeWall","3","Slanted / Diagonal",TRUE,15892
+360,"6a0e1bb9007c77ed742177fd",3,"Planets","2","Orange",TRUE,21488
+360,"6a0e1bb9007c77ed742177fd",4,"Collision","1","Green Triangle Only",TRUE,24915
+360,"6a0e1bb9007c77ed742177fd",5,"Lines","1","Blue Line",TRUE,5744
+361,"63b6be1516a2c70bb43fbccd",0,"Collision","1","Green Triangle Only",TRUE,21411
+361,"63b6be1516a2c70bb43fbccd",1,"Planets","2","Orange",TRUE,21781
+361,"63b6be1516a2c70bb43fbccd",2,"Lines","1","Blue Line",TRUE,7616
+361,"63b6be1516a2c70bb43fbccd",3,"CafeWall","3","Slanted / Diagonal",TRUE,21269
+361,"63b6be1516a2c70bb43fbccd",4,"Circles","2","Red Circle",TRUE,9903
+361,"63b6be1516a2c70bb43fbccd",5,"Robot","2","Mostly on the upper right of the square",FALSE,11941
+362,"6a05ba89c966c0fa42d112d6",0,"Circles","2","Red Circle",TRUE,15414
+362,"6a05ba89c966c0fa42d112d6",1,"Planets","2","Orange",TRUE,19929
+362,"6a05ba89c966c0fa42d112d6",2,"CafeWall","3","Slanted / Diagonal",TRUE,20696
+362,"6a05ba89c966c0fa42d112d6",3,"Robot","3","Mostly around the center of the square",TRUE,24467
+362,"6a05ba89c966c0fa42d112d6",4,"Collision","1","Green Triangle Only",TRUE,32679
+362,"6a05ba89c966c0fa42d112d6",5,"Lines","1","Blue Line",TRUE,6676
+363,"6a04c0e236a93ae493d6aaf5",0,"Planets","2","Orange",TRUE,7990
+363,"6a04c0e236a93ae493d6aaf5",1,"Collision","2","Green Triangle and Green Rectangle",FALSE,6541
+363,"6a04c0e236a93ae493d6aaf5",2,"CafeWall","3","Slanted / Diagonal",TRUE,6397
+363,"6a04c0e236a93ae493d6aaf5",3,"Lines","1","Blue Line",TRUE,7450
+363,"6a04c0e236a93ae493d6aaf5",4,"Circles","2","Red Circle",TRUE,4743
+363,"6a04c0e236a93ae493d6aaf5",5,"Robot","3","Mostly around the center of the square",TRUE,12274
+365,"69ea85a781acc0db1d9ebd8f",0,"Collision","1","Green Triangle Only",TRUE,25782
+365,"69ea85a781acc0db1d9ebd8f",1,"Planets","2","Orange",TRUE,41658
+365,"69ea85a781acc0db1d9ebd8f",2,"Robot","3","Mostly around the center of the square",TRUE,14114
+365,"69ea85a781acc0db1d9ebd8f",3,"CafeWall","4","Mixed: some straight, some slanted",FALSE,25965
+365,"69ea85a781acc0db1d9ebd8f",4,"Circles","2","Red Circle",TRUE,48262
+365,"69ea85a781acc0db1d9ebd8f",5,"Lines","1","Blue Line",TRUE,8671
+367,"691ca2d38b8a43121da1e781",0,"Lines","1","Blue Line",TRUE,7683
+367,"691ca2d38b8a43121da1e781",1,"Collision","1","Green Triangle Only",TRUE,17015
+367,"691ca2d38b8a43121da1e781",2,"CafeWall","3","Slanted / Diagonal",TRUE,11482
+367,"691ca2d38b8a43121da1e781",3,"Robot","3","Mostly around the center of the square",TRUE,8182
+367,"691ca2d38b8a43121da1e781",4,"Planets","2","Orange",TRUE,14699
+367,"691ca2d38b8a43121da1e781",5,"Circles","2","Red Circle",TRUE,6382
+368,"69dfcf2e08825e91a38a5c17",0,"Lines","1","Blue Line",TRUE,20229
+368,"69dfcf2e08825e91a38a5c17",1,"Planets","2","Orange",TRUE,50479
+368,"69dfcf2e08825e91a38a5c17",2,"Circles","2","Red Circle",TRUE,76731
+368,"69dfcf2e08825e91a38a5c17",3,"Robot","3","Mostly around the center of the square",TRUE,25472
+368,"69dfcf2e08825e91a38a5c17",4,"CafeWall","1","Straight / Horizontal",FALSE,68868
+368,"69dfcf2e08825e91a38a5c17",5,"Collision","1","Green Triangle Only",TRUE,64461
+370,"58a1fe40ea3d11000170d9b9",0,"CafeWall","3","Slanted / Diagonal",TRUE,18257
+370,"58a1fe40ea3d11000170d9b9",1,"Collision","1","Green Triangle Only",TRUE,13974
+370,"58a1fe40ea3d11000170d9b9",2,"Robot","2","Mostly on the upper right of the square",FALSE,10645
+370,"58a1fe40ea3d11000170d9b9",3,"Planets","2","Orange",TRUE,22202
+370,"58a1fe40ea3d11000170d9b9",4,"Circles","2","Red Circle",TRUE,11163
+370,"58a1fe40ea3d11000170d9b9",5,"Lines","1","Blue Line",TRUE,4123
+372,"6a0d057504f95ac3cb8c5794",0,"Robot","3","Mostly around the center of the square",TRUE,20434
+372,"6a0d057504f95ac3cb8c5794",1,"Planets","2","Orange",TRUE,23402
+372,"6a0d057504f95ac3cb8c5794",2,"Circles","2","Red Circle",TRUE,10768
+372,"6a0d057504f95ac3cb8c5794",3,"Collision","1","Green Triangle Only",TRUE,22245
+372,"6a0d057504f95ac3cb8c5794",4,"Lines","1","Blue Line",TRUE,10525
+372,"6a0d057504f95ac3cb8c5794",5,"CafeWall","3","Slanted / Diagonal",TRUE,33720
+374,"6a0213950776ba356a324177",0,"Planets","2","Orange",TRUE,41997
+374,"6a0213950776ba356a324177",1,"CafeWall","3","Slanted / Diagonal",TRUE,34770
+374,"6a0213950776ba356a324177",2,"Circles","2","Red Circle",TRUE,12721
+374,"6a0213950776ba356a324177",3,"Lines","1","Blue Line",TRUE,9035
+374,"6a0213950776ba356a324177",4,"Robot","3","Mostly around the center of the square",TRUE,22131
+374,"6a0213950776ba356a324177",5,"Collision","1","Green Triangle Only",TRUE,26525
+375,"6a09e70ed4f900f0db78254f",0,"Lines","1","Blue Line",TRUE,10857
+375,"6a09e70ed4f900f0db78254f",1,"Planets","2","Orange",TRUE,33136
+375,"6a09e70ed4f900f0db78254f",2,"Collision","1","Green Triangle Only",TRUE,22960
+375,"6a09e70ed4f900f0db78254f",3,"CafeWall","3","Slanted / Diagonal",TRUE,17464
+375,"6a09e70ed4f900f0db78254f",4,"Circles","2","Red Circle",TRUE,38395
+375,"6a09e70ed4f900f0db78254f",5,"Robot","3","Mostly around the center of the square",TRUE,35658
+377,"69d674ffe1b69e81eb00dee2",0,"Planets","2","Orange",TRUE,28281
+377,"69d674ffe1b69e81eb00dee2",1,"Lines","1","Blue Line",TRUE,3973
+377,"69d674ffe1b69e81eb00dee2",2,"Collision","4","No object would be hit",FALSE,41112
+377,"69d674ffe1b69e81eb00dee2",3,"Circles","2","Red Circle",TRUE,6619
+377,"69d674ffe1b69e81eb00dee2",4,"Robot","3","Mostly around the center of the square",TRUE,25204
+377,"69d674ffe1b69e81eb00dee2",5,"CafeWall","3","Slanted / Diagonal",TRUE,13812
+378,"6a04bb8d89ca054e84cf57b3",0,"Circles","2","Red Circle",TRUE,7894
+378,"6a04bb8d89ca054e84cf57b3",1,"Robot","3","Mostly around the center of the square",TRUE,5821
+378,"6a04bb8d89ca054e84cf57b3",2,"Lines","1","Blue Line",TRUE,7356
+378,"6a04bb8d89ca054e84cf57b3",3,"Collision","1","Green Triangle Only",TRUE,20038
+378,"6a04bb8d89ca054e84cf57b3",4,"CafeWall","3","Slanted / Diagonal",TRUE,27433
+378,"6a04bb8d89ca054e84cf57b3",5,"Planets","2","Orange",TRUE,23694
+379,"69e7ded4f1a24a777d92e59a",0,"Circles","2","Red Circle",TRUE,5869
+379,"69e7ded4f1a24a777d92e59a",1,"Planets","2","Orange",TRUE,17986
+379,"69e7ded4f1a24a777d92e59a",2,"CafeWall","3","Slanted / Diagonal",TRUE,19804
+379,"69e7ded4f1a24a777d92e59a",3,"Lines","1","Blue Line",TRUE,3800
+379,"69e7ded4f1a24a777d92e59a",4,"Robot","3","Mostly around the center of the square",TRUE,5050
+379,"69e7ded4f1a24a777d92e59a",5,"Collision","2","Green Triangle and Green Rectangle",FALSE,39977
+380,"698a4bcb96c388d31b40916a",0,"Robot","3","Mostly around the center of the square",TRUE,8621
+380,"698a4bcb96c388d31b40916a",1,"Circles","2","Red Circle",TRUE,5478
+380,"698a4bcb96c388d31b40916a",2,"Collision","1","Green Triangle Only",TRUE,21825
+380,"698a4bcb96c388d31b40916a",3,"CafeWall","3","Slanted / Diagonal",TRUE,6984
+380,"698a4bcb96c388d31b40916a",4,"Planets","2","Orange",TRUE,19623
+380,"698a4bcb96c388d31b40916a",5,"Lines","1","Blue Line",TRUE,5092
+381,"6a0daeb41822c6ae499edbb8",0,"Circles","2","Red Circle",TRUE,6390
+381,"6a0daeb41822c6ae499edbb8",1,"Planets","2","Orange",TRUE,13642
+381,"6a0daeb41822c6ae499edbb8",2,"CafeWall","3","Slanted / Diagonal",TRUE,9612
+381,"6a0daeb41822c6ae499edbb8",3,"Robot","2","Mostly on the upper right of the square",FALSE,10047
+381,"6a0daeb41822c6ae499edbb8",4,"Lines","1","Blue Line",TRUE,5547
+381,"6a0daeb41822c6ae499edbb8",5,"Collision","1","Green Triangle Only",TRUE,11750
+382,"66b38d503ed52b99179c870e",0,"Lines","1","Blue Line",TRUE,6570
+382,"66b38d503ed52b99179c870e",1,"Robot","2","Mostly on the upper right of the square",FALSE,13972
+382,"66b38d503ed52b99179c870e",2,"Circles","2","Red Circle",TRUE,5687
+382,"66b38d503ed52b99179c870e",3,"CafeWall","1","Straight / Horizontal",FALSE,24322
+382,"66b38d503ed52b99179c870e",4,"Planets","2","Orange",TRUE,28610
+382,"66b38d503ed52b99179c870e",5,"Collision","1","Green Triangle Only",TRUE,45299
+383,"69ea7367c2fff52ec22449cd",0,"Robot","3","Mostly around the center of the square",TRUE,11742
+383,"69ea7367c2fff52ec22449cd",1,"Lines","1","Blue Line",TRUE,6414
+383,"69ea7367c2fff52ec22449cd",2,"Circles","2","Red Circle",TRUE,10083
+383,"69ea7367c2fff52ec22449cd",3,"Planets","2","Orange",TRUE,28736
+383,"69ea7367c2fff52ec22449cd",4,"Collision","1","Green Triangle Only",TRUE,18967
+383,"69ea7367c2fff52ec22449cd",5,"CafeWall","3","Slanted / Diagonal",TRUE,8201
+384,"664bc61062c2afbacbb5f2f8",0,"Lines","1","Blue Line",TRUE,22102
+384,"664bc61062c2afbacbb5f2f8",1,"Collision","1","Green Triangle Only",TRUE,35862
+384,"664bc61062c2afbacbb5f2f8",2,"Robot","3","Mostly around the center of the square",TRUE,22636
+384,"664bc61062c2afbacbb5f2f8",3,"Planets","2","Orange",TRUE,24029
+384,"664bc61062c2afbacbb5f2f8",4,"Circles","2","Red Circle",TRUE,18972
+384,"664bc61062c2afbacbb5f2f8",5,"CafeWall","3","Slanted / Diagonal",TRUE,22936
+385,"69f8efeeb3152a5e550bf057",0,"Collision","1","Green Triangle Only",TRUE,12364
+385,"69f8efeeb3152a5e550bf057",1,"Planets","2","Orange",TRUE,12426
+385,"69f8efeeb3152a5e550bf057",2,"Circles","2","Red Circle",TRUE,4916
+385,"69f8efeeb3152a5e550bf057",3,"Lines","1","Blue Line",TRUE,3483
+385,"69f8efeeb3152a5e550bf057",4,"Robot","3","Mostly around the center of the square",TRUE,3169
+385,"69f8efeeb3152a5e550bf057",5,"CafeWall","3","Slanted / Diagonal",TRUE,10081
+386,"69f0d6ece0af9c37a6adc97c",0,"Lines","1","Blue Line",TRUE,5056
+386,"69f0d6ece0af9c37a6adc97c",1,"Collision","1","Green Triangle Only",TRUE,30915
+386,"69f0d6ece0af9c37a6adc97c",2,"Planets","2","Orange",TRUE,40873
+386,"69f0d6ece0af9c37a6adc97c",3,"Circles","2","Red Circle",TRUE,17645
+386,"69f0d6ece0af9c37a6adc97c",4,"Robot","2","Mostly on the upper right of the square",FALSE,12097
+386,"69f0d6ece0af9c37a6adc97c",5,"CafeWall","1","Straight / Horizontal",FALSE,8110
+387,"5c04872c55614800012b7cf0",0,"Robot","3","Mostly around the center of the square",TRUE,18348
+387,"5c04872c55614800012b7cf0",1,"CafeWall","3","Slanted / Diagonal",TRUE,22285
+387,"5c04872c55614800012b7cf0",2,"Lines","1","Blue Line",TRUE,6269
+387,"5c04872c55614800012b7cf0",3,"Collision","1","Green Triangle Only",TRUE,20325
+387,"5c04872c55614800012b7cf0",4,"Circles","2","Red Circle",TRUE,12231
+387,"5c04872c55614800012b7cf0",5,"Planets","2","Orange",TRUE,26807
+389,"69fc6d63d6ac9d6a76e329ad",0,"Lines","1","Blue Line",TRUE,5523
+389,"69fc6d63d6ac9d6a76e329ad",1,"Planets","2","Orange",TRUE,19563
+389,"69fc6d63d6ac9d6a76e329ad",2,"Circles","2","Red Circle",TRUE,5746
+389,"69fc6d63d6ac9d6a76e329ad",3,"Robot","3","Mostly around the center of the square",TRUE,10850
+389,"69fc6d63d6ac9d6a76e329ad",4,"CafeWall","3","Slanted / Diagonal",TRUE,10676
+389,"69fc6d63d6ac9d6a76e329ad",5,"Collision","1","Green Triangle Only",TRUE,17253
+390,"6a14979f3b71a45ef4c10048",0,"Lines","1","Blue Line",TRUE,11690
+390,"6a14979f3b71a45ef4c10048",1,"Planets","2","Orange",TRUE,23318
+390,"6a14979f3b71a45ef4c10048",2,"Collision","1","Green Triangle Only",TRUE,23232
+390,"6a14979f3b71a45ef4c10048",3,"CafeWall","3","Slanted / Diagonal",TRUE,23277
+390,"6a14979f3b71a45ef4c10048",4,"Robot","3","Mostly around the center of the square",TRUE,12398
+390,"6a14979f3b71a45ef4c10048",5,"Circles","2","Red Circle",TRUE,9641
+391,"6a1eb325aee064a08a749fe9",0,"CafeWall","3","Slanted / Diagonal",TRUE,34035
+391,"6a1eb325aee064a08a749fe9",1,"Collision","1","Green Triangle Only",TRUE,26259
+391,"6a1eb325aee064a08a749fe9",2,"Robot","3","Mostly around the center of the square",TRUE,18211
+391,"6a1eb325aee064a08a749fe9",3,"Planets","2","Orange",TRUE,31437
+391,"6a1eb325aee064a08a749fe9",4,"Circles","2","Red Circle",TRUE,10745
+391,"6a1eb325aee064a08a749fe9",5,"Lines","1","Blue Line",TRUE,10689
+392,"69e67cd1550480b8c9967eeb",0,"Lines","1","Blue Line",TRUE,5519
+392,"69e67cd1550480b8c9967eeb",1,"Collision","1","Green Triangle Only",TRUE,12583
+392,"69e67cd1550480b8c9967eeb",2,"Circles","1","Blue Circle",FALSE,7539
+392,"69e67cd1550480b8c9967eeb",3,"CafeWall","3","Slanted / Diagonal",TRUE,8736
+392,"69e67cd1550480b8c9967eeb",4,"Planets","2","Orange",TRUE,72530
+392,"69e67cd1550480b8c9967eeb",5,"Robot","3","Mostly around the center of the square",TRUE,176225
+393,"5f50b1bbe29c992335098fb1",0,"Collision","1","Green Triangle Only",TRUE,36222
+393,"5f50b1bbe29c992335098fb1",1,"Lines","1","Blue Line",TRUE,18546
+393,"5f50b1bbe29c992335098fb1",2,"Planets","2","Orange",TRUE,19119
+393,"5f50b1bbe29c992335098fb1",3,"CafeWall","3","Slanted / Diagonal",TRUE,18630
+393,"5f50b1bbe29c992335098fb1",4,"Robot","3","Mostly around the center of the square",TRUE,16599
+393,"5f50b1bbe29c992335098fb1",5,"Circles","2","Red Circle",TRUE,11235
+394,"6a13540ccbc7a07cfa404887",0,"CafeWall","3","Slanted / Diagonal",TRUE,33443
+394,"6a13540ccbc7a07cfa404887",1,"Lines","1","Blue Line",TRUE,5266
+394,"6a13540ccbc7a07cfa404887",2,"Planets","2","Orange",TRUE,23712
+394,"6a13540ccbc7a07cfa404887",3,"Collision","1","Green Triangle Only",TRUE,19337
+394,"6a13540ccbc7a07cfa404887",4,"Circles","2","Red Circle",TRUE,9379
+394,"6a13540ccbc7a07cfa404887",5,"Robot","2","Mostly on the upper right of the square",FALSE,16528
+395,"69dbba2af76a02c2bbb1c3f7",0,"CafeWall","3","Slanted / Diagonal",TRUE,15793
+395,"69dbba2af76a02c2bbb1c3f7",1,"Collision","1","Green Triangle Only",TRUE,18014
+395,"69dbba2af76a02c2bbb1c3f7",2,"Lines","1","Blue Line",TRUE,6417
+395,"69dbba2af76a02c2bbb1c3f7",3,"Circles","2","Red Circle",TRUE,6634
+395,"69dbba2af76a02c2bbb1c3f7",4,"Robot","3","Mostly around the center of the square",TRUE,9042
+395,"69dbba2af76a02c2bbb1c3f7",5,"Planets","2","Orange",TRUE,16497
+396,"6a14d8fd539a02a7fe9b4980",0,"Lines","1","Blue Line",TRUE,14558
+396,"6a14d8fd539a02a7fe9b4980",1,"Collision","1","Green Triangle Only",TRUE,24417
+396,"6a14d8fd539a02a7fe9b4980",2,"Circles","2","Red Circle",TRUE,10495
+396,"6a14d8fd539a02a7fe9b4980",3,"CafeWall","3","Slanted / Diagonal",TRUE,18304
+396,"6a14d8fd539a02a7fe9b4980",4,"Planets","2","Orange",TRUE,28037
+396,"6a14d8fd539a02a7fe9b4980",5,"Robot","3","Mostly around the center of the square",TRUE,18843
+397,"69c6b743152dbd93f339bdff",0,"Collision","1","Green Triangle Only",TRUE,22080
+397,"69c6b743152dbd93f339bdff",1,"Planets","2","Orange",TRUE,25562
+397,"69c6b743152dbd93f339bdff",2,"Lines","1","Blue Line",TRUE,6033
+397,"69c6b743152dbd93f339bdff",3,"CafeWall","3","Slanted / Diagonal",TRUE,17374
+397,"69c6b743152dbd93f339bdff",4,"Robot","3","Mostly around the center of the square",TRUE,18678
+397,"69c6b743152dbd93f339bdff",5,"Circles","2","Red Circle",TRUE,8972
+399,"69bf5ff40b94d1ab39ec795e",0,"Lines","1","Blue Line",TRUE,14301
+399,"69bf5ff40b94d1ab39ec795e",1,"Planets","2","Orange",TRUE,48918
+399,"69bf5ff40b94d1ab39ec795e",2,"Robot","3","Mostly around the center of the square",TRUE,19766
+399,"69bf5ff40b94d1ab39ec795e",3,"CafeWall","3","Slanted / Diagonal",TRUE,11748
+399,"69bf5ff40b94d1ab39ec795e",4,"Circles","2","Red Circle",TRUE,28850
+399,"69bf5ff40b94d1ab39ec795e",5,"Collision","1","Green Triangle Only",TRUE,17150
+400,"69caa04535e88acc639b3656",0,"Robot","3","Mostly around the center of the square",TRUE,44097
+400,"69caa04535e88acc639b3656",1,"Planets","2","Orange",TRUE,83697
+400,"69caa04535e88acc639b3656",2,"CafeWall","1","Straight / Horizontal",FALSE,80433
+400,"69caa04535e88acc639b3656",3,"Collision","1","Green Triangle Only",TRUE,66061
+400,"69caa04535e88acc639b3656",4,"Lines","3","NONE (they are the same size)",FALSE,31037
+400,"69caa04535e88acc639b3656",5,"Circles","3","NONE (they are the same size)",FALSE,27259
+402,"6a0a337f18eb5d251e3fff02",0,"CafeWall","3","Slanted / Diagonal",TRUE,16817
+402,"6a0a337f18eb5d251e3fff02",1,"Planets","2","Orange",TRUE,24480
+402,"6a0a337f18eb5d251e3fff02",2,"Robot","3","Mostly around the center of the square",TRUE,24782
+402,"6a0a337f18eb5d251e3fff02",3,"Collision","1","Green Triangle Only",TRUE,23498
+402,"6a0a337f18eb5d251e3fff02",4,"Circles","2","Red Circle",TRUE,9999
+402,"6a0a337f18eb5d251e3fff02",5,"Lines","1","Blue Line",TRUE,5982
+403,"6a148fec1af42aeeffddea3d",0,"Planets","2","Orange",TRUE,20418
+403,"6a148fec1af42aeeffddea3d",1,"Circles","2","Red Circle",TRUE,10485
+403,"6a148fec1af42aeeffddea3d",2,"Robot","2","Mostly on the upper right of the square",FALSE,24897
+403,"6a148fec1af42aeeffddea3d",3,"Lines","1","Blue Line",TRUE,5078
+403,"6a148fec1af42aeeffddea3d",4,"CafeWall","3","Slanted / Diagonal",TRUE,24330
+403,"6a148fec1af42aeeffddea3d",5,"Collision","1","Green Triangle Only",TRUE,18362
+404,"6a1cc806227a3142ceb4df72",0,"Robot","3","Mostly around the center of the square",TRUE,15737
+404,"6a1cc806227a3142ceb4df72",1,"Collision","1","Green Triangle Only",TRUE,24695
+404,"6a1cc806227a3142ceb4df72",2,"Planets","2","Orange",TRUE,21237
+404,"6a1cc806227a3142ceb4df72",3,"Lines","1","Blue Line",TRUE,19111
+404,"6a1cc806227a3142ceb4df72",4,"CafeWall","4","Mixed: some straight, some slanted",FALSE,22352
+404,"6a1cc806227a3142ceb4df72",5,"Circles","2","Red Circle",TRUE,12761
+405,"6a08835adcebea92d39aa175",0,"CafeWall","3","Slanted / Diagonal",TRUE,17300
+405,"6a08835adcebea92d39aa175",1,"Lines","1","Blue Line",TRUE,7848
+405,"6a08835adcebea92d39aa175",2,"Planets","2","Orange",TRUE,29999
+405,"6a08835adcebea92d39aa175",3,"Collision","1","Green Triangle Only",TRUE,36131
+405,"6a08835adcebea92d39aa175",4,"Robot","3","Mostly around the center of the square",TRUE,19749
+405,"6a08835adcebea92d39aa175",5,"Circles","2","Red Circle",TRUE,8582
+406,"6a0cd2ff43d215fbf9c1f003",0,"Collision","2","Green Triangle and Green Rectangle",FALSE,61287
+406,"6a0cd2ff43d215fbf9c1f003",1,"Circles","2","Red Circle",TRUE,14448
+406,"6a0cd2ff43d215fbf9c1f003",2,"Robot","3","Mostly around the center of the square",TRUE,19282
+406,"6a0cd2ff43d215fbf9c1f003",3,"Planets","2","Orange",TRUE,34651
+406,"6a0cd2ff43d215fbf9c1f003",4,"Lines","1","Blue Line",TRUE,5181
+406,"6a0cd2ff43d215fbf9c1f003",5,"CafeWall","3","Slanted / Diagonal",TRUE,28967
+407,"6784504cf334fb89fcf7f49e",0,"Circles","2","Red Circle",TRUE,10751
+407,"6784504cf334fb89fcf7f49e",1,"Collision","1","Green Triangle Only",TRUE,16063
+407,"6784504cf334fb89fcf7f49e",2,"Lines","1","Blue Line",TRUE,5374
+407,"6784504cf334fb89fcf7f49e",3,"Robot","3","Mostly around the center of the square",TRUE,8914
+407,"6784504cf334fb89fcf7f49e",4,"Planets","2","Orange",TRUE,22384
+407,"6784504cf334fb89fcf7f49e",5,"CafeWall","3","Slanted / Diagonal",TRUE,13833
+408,"697cd0433f63f30292b20c1b",0,"Robot","2","Mostly on the upper right of the square",FALSE,30964
+408,"697cd0433f63f30292b20c1b",1,"Collision","1","Green Triangle Only",TRUE,39589
+408,"697cd0433f63f30292b20c1b",2,"Planets","2","Orange",TRUE,34931
+408,"697cd0433f63f30292b20c1b",3,"Circles","2","Red Circle",TRUE,12766
+408,"697cd0433f63f30292b20c1b",4,"CafeWall","3","Slanted / Diagonal",TRUE,14145
+408,"697cd0433f63f30292b20c1b",5,"Lines","1","Blue Line",TRUE,7929
+409,"6a0516eb6b8a9b19c4df58be",0,"Planets","2","Orange",TRUE,43513
+409,"6a0516eb6b8a9b19c4df58be",1,"CafeWall","3","Slanted / Diagonal",TRUE,33771
+409,"6a0516eb6b8a9b19c4df58be",2,"Collision","1","Green Triangle Only",TRUE,44305
+409,"6a0516eb6b8a9b19c4df58be",3,"Lines","1","Blue Line",TRUE,13118
+409,"6a0516eb6b8a9b19c4df58be",4,"Robot","3","Mostly around the center of the square",TRUE,31911
+409,"6a0516eb6b8a9b19c4df58be",5,"Circles","2","Red Circle",TRUE,24999
+411,"6a1c990b43838fd3a302fedf",0,"CafeWall","3","Slanted / Diagonal",TRUE,23699
+411,"6a1c990b43838fd3a302fedf",1,"Planets","2","Orange",TRUE,23565
+411,"6a1c990b43838fd3a302fedf",2,"Robot","3","Mostly around the center of the square",TRUE,16215
+411,"6a1c990b43838fd3a302fedf",3,"Circles","2","Red Circle",TRUE,22098
+411,"6a1c990b43838fd3a302fedf",4,"Collision","1","Green Triangle Only",TRUE,22266
+411,"6a1c990b43838fd3a302fedf",5,"Lines","1","Blue Line",TRUE,8932
+412,"663ff8ce62a847c71db3e8e6",0,"Lines","1","Blue Line",TRUE,28409
+412,"663ff8ce62a847c71db3e8e6",1,"Planets","2","Orange",TRUE,19532
+412,"663ff8ce62a847c71db3e8e6",2,"Robot","3","Mostly around the center of the square",TRUE,13491
+412,"663ff8ce62a847c71db3e8e6",3,"Circles","2","Red Circle",TRUE,11374
+412,"663ff8ce62a847c71db3e8e6",4,"CafeWall","3","Slanted / Diagonal",TRUE,27095
+412,"663ff8ce62a847c71db3e8e6",5,"Collision","1","Green Triangle Only",TRUE,37557
+413,"6a1dcc3b22e5ae41876d613e",0,"Robot","3","Mostly around the center of the square",TRUE,25631
+413,"6a1dcc3b22e5ae41876d613e",1,"CafeWall","3","Slanted / Diagonal",TRUE,27029
+413,"6a1dcc3b22e5ae41876d613e",2,"Planets","2","Orange",TRUE,30570
+413,"6a1dcc3b22e5ae41876d613e",3,"Circles","2","Red Circle",TRUE,16634
+413,"6a1dcc3b22e5ae41876d613e",4,"Lines","1","Blue Line",TRUE,13128
+413,"6a1dcc3b22e5ae41876d613e",5,"Collision","1","Green Triangle Only",TRUE,25974
+414,"5e6439d24659d01c218bcbc9",0,"Lines","1","Blue Line",TRUE,5076
+414,"5e6439d24659d01c218bcbc9",1,"Collision","1","Green Triangle Only",TRUE,15909
+414,"5e6439d24659d01c218bcbc9",2,"CafeWall","3","Slanted / Diagonal",TRUE,16479
+414,"5e6439d24659d01c218bcbc9",3,"Robot","3","Mostly around the center of the square",TRUE,7195
+414,"5e6439d24659d01c218bcbc9",4,"Planets","2","Orange",TRUE,12427
+414,"5e6439d24659d01c218bcbc9",5,"Circles","2","Red Circle",TRUE,4802
+415,"69eeeb8ffdb5683bcd4c404c",0,"Collision","1","Green Triangle Only",TRUE,29161
+415,"69eeeb8ffdb5683bcd4c404c",1,"Circles","2","Red Circle",TRUE,9084
+415,"69eeeb8ffdb5683bcd4c404c",2,"Planets","2","Orange",TRUE,20182
+415,"69eeeb8ffdb5683bcd4c404c",3,"Robot","3","Mostly around the center of the square",TRUE,9330
+415,"69eeeb8ffdb5683bcd4c404c",4,"Lines","1","Blue Line",TRUE,3832
+415,"69eeeb8ffdb5683bcd4c404c",5,"CafeWall","3","Slanted / Diagonal",TRUE,18761
+417,"6942b9546065aeb7e30fd87a",0,"CafeWall","3","Slanted / Diagonal",TRUE,32829
+417,"6942b9546065aeb7e30fd87a",1,"Collision","1","Green Triangle Only",TRUE,33176
+417,"6942b9546065aeb7e30fd87a",2,"Robot","3","Mostly around the center of the square",TRUE,36664
+417,"6942b9546065aeb7e30fd87a",3,"Lines","1","Blue Line",TRUE,18121
+417,"6942b9546065aeb7e30fd87a",4,"Planets","2","Orange",TRUE,23093
+417,"6942b9546065aeb7e30fd87a",5,"Circles","2","Red Circle",TRUE,15022
+418,"69a07eca2f369e740df3a36e",0,"Circles","2","Red Circle",TRUE,10781
+418,"69a07eca2f369e740df3a36e",1,"CafeWall","3","Slanted / Diagonal",TRUE,16400
+418,"69a07eca2f369e740df3a36e",2,"Planets","2","Orange",TRUE,26723
+418,"69a07eca2f369e740df3a36e",3,"Collision","3","Blue Triangle and Orange Circle",FALSE,28011
+418,"69a07eca2f369e740df3a36e",4,"Robot","3","Mostly around the center of the square",TRUE,20584
+418,"69a07eca2f369e740df3a36e",5,"Lines","1","Blue Line",TRUE,8783
+420,"6a00b8ac3d945373290b0f29",0,"Planets","2","Orange",TRUE,15198
+420,"6a00b8ac3d945373290b0f29",1,"CafeWall","3","Slanted / Diagonal",TRUE,8917
+420,"6a00b8ac3d945373290b0f29",2,"Robot","3","Mostly around the center of the square",TRUE,19199
+420,"6a00b8ac3d945373290b0f29",3,"Collision","1","Green Triangle Only",TRUE,12049
+420,"6a00b8ac3d945373290b0f29",4,"Lines","1","Blue Line",TRUE,7049
+420,"6a00b8ac3d945373290b0f29",5,"Circles","2","Red Circle",TRUE,7632
+421,"698a3b03581c58e0e5b68abf",0,"Collision","1","Green Triangle Only",TRUE,100103
+421,"698a3b03581c58e0e5b68abf",1,"Lines","1","Blue Line",TRUE,7828
+421,"698a3b03581c58e0e5b68abf",2,"CafeWall","3","Slanted / Diagonal",TRUE,9571
+421,"698a3b03581c58e0e5b68abf",3,"Circles","2","Red Circle",TRUE,12273
+421,"698a3b03581c58e0e5b68abf",4,"Robot","2","Mostly on the upper right of the square",FALSE,12769
+421,"698a3b03581c58e0e5b68abf",5,"Planets","2","Orange",TRUE,42390
+422,"69432f5eec27bf29567095f7",0,"Collision","1","Green Triangle Only",TRUE,39392
+422,"69432f5eec27bf29567095f7",1,"CafeWall","3","Slanted / Diagonal",TRUE,16036
+422,"69432f5eec27bf29567095f7",2,"Robot","3","Mostly around the center of the square",TRUE,16445
+422,"69432f5eec27bf29567095f7",3,"Circles","2","Red Circle",TRUE,8909
+422,"69432f5eec27bf29567095f7",4,"Lines","1","Blue Line",TRUE,4454
+422,"69432f5eec27bf29567095f7",5,"Planets","2","Orange",TRUE,28800
+423,"6a1badb449d53fd4fe6cfabe",0,"CafeWall","3","Slanted / Diagonal",TRUE,20849
+423,"6a1badb449d53fd4fe6cfabe",1,"Circles","2","Red Circle",TRUE,10815
+423,"6a1badb449d53fd4fe6cfabe",2,"Planets","2","Orange",TRUE,23315
+423,"6a1badb449d53fd4fe6cfabe",3,"Robot","3","Mostly around the center of the square",TRUE,21132
+423,"6a1badb449d53fd4fe6cfabe",4,"Lines","1","Blue Line",TRUE,9349
+423,"6a1badb449d53fd4fe6cfabe",5,"Collision","1","Green Triangle Only",TRUE,22882
+424,"69ffe5da917d458e31b7f33c",0,"Planets","2","Orange",TRUE,25810
+424,"69ffe5da917d458e31b7f33c",1,"Robot","3","Mostly around the center of the square",TRUE,35702
+424,"69ffe5da917d458e31b7f33c",2,"CafeWall","3","Slanted / Diagonal",TRUE,10620
+424,"69ffe5da917d458e31b7f33c",3,"Lines","1","Blue Line",TRUE,7108
+424,"69ffe5da917d458e31b7f33c",4,"Circles","2","Red Circle",TRUE,9355
+424,"69ffe5da917d458e31b7f33c",5,"Collision","1","Green Triangle Only",TRUE,48174
+426,"698a3b03581c58e0e5b68abf",0,"CafeWall","3","Slanted / Diagonal",TRUE,10589
+426,"698a3b03581c58e0e5b68abf",1,"Collision","1","Green Triangle Only",TRUE,7789
+426,"698a3b03581c58e0e5b68abf",2,"Robot","2","Mostly on the upper right of the square",FALSE,8317
+426,"698a3b03581c58e0e5b68abf",3,"Planets","2","Orange",TRUE,11275
+426,"698a3b03581c58e0e5b68abf",4,"Lines","1","Blue Line",TRUE,7138
+426,"698a3b03581c58e0e5b68abf",5,"Circles","2","Red Circle",TRUE,6268
+427,"6a0e17f56a5029d874631975",0,"Collision","1","Green Triangle Only",TRUE,30651
+427,"6a0e17f56a5029d874631975",1,"Planets","2","Orange",TRUE,31432
+427,"6a0e17f56a5029d874631975",2,"Circles","2","Red Circle",TRUE,11729
+427,"6a0e17f56a5029d874631975",3,"CafeWall","3","Slanted / Diagonal",TRUE,20230
+427,"6a0e17f56a5029d874631975",4,"Lines","1","Blue Line",TRUE,8373
+427,"6a0e17f56a5029d874631975",5,"Robot","3","Mostly around the center of the square",TRUE,13844
+428,"69fa44cccc681b5f8be84e23",0,"Planets","2","Orange",TRUE,40084
+428,"69fa44cccc681b5f8be84e23",1,"Robot","2","Mostly on the upper right of the square",FALSE,22082
+428,"69fa44cccc681b5f8be84e23",2,"Circles","2","Red Circle",TRUE,13515
+428,"69fa44cccc681b5f8be84e23",3,"Lines","1","Blue Line",TRUE,7999
+428,"69fa44cccc681b5f8be84e23",4,"CafeWall","4","Mixed: some straight, some slanted",FALSE,21815
+428,"69fa44cccc681b5f8be84e23",5,"Collision","1","Green Triangle Only",TRUE,15817
+429,"699313b98002a6139c85af1a",0,"Robot","2","Mostly on the upper right of the square",FALSE,51382
+429,"699313b98002a6139c85af1a",1,"CafeWall","1","Straight / Horizontal",FALSE,68035
+429,"699313b98002a6139c85af1a",2,"Lines","1","Blue Line",TRUE,38601
+429,"699313b98002a6139c85af1a",3,"Collision","1","Green Triangle Only",TRUE,46746
+429,"699313b98002a6139c85af1a",4,"Planets","2","Orange",TRUE,37682
+429,"699313b98002a6139c85af1a",5,"Circles","2","Red Circle",TRUE,17514
+430,"6a0122424f5dfae04edaa4b4",0,"CafeWall","3","Slanted / Diagonal",TRUE,37333
+430,"6a0122424f5dfae04edaa4b4",1,"Lines","1","Blue Line",TRUE,17947
+430,"6a0122424f5dfae04edaa4b4",2,"Planets","2","Orange",TRUE,26598
+430,"6a0122424f5dfae04edaa4b4",3,"Circles","2","Red Circle",TRUE,12066
+430,"6a0122424f5dfae04edaa4b4",4,"Collision","1","Green Triangle Only",TRUE,42964
+430,"6a0122424f5dfae04edaa4b4",5,"Robot","3","Mostly around the center of the square",TRUE,23116
+431,"69ffa3efb10faa3cf2733a24",0,"CafeWall","3","Slanted / Diagonal",TRUE,23877
+431,"69ffa3efb10faa3cf2733a24",1,"Collision","2","Green Triangle and Green Rectangle",FALSE,85491
+431,"69ffa3efb10faa3cf2733a24",2,"Planets","2","Orange",TRUE,156965
+431,"69ffa3efb10faa3cf2733a24",3,"Lines","1","Blue Line",TRUE,14717
+431,"69ffa3efb10faa3cf2733a24",4,"Robot","3","Mostly around the center of the square",TRUE,27852
+431,"69ffa3efb10faa3cf2733a24",5,"Circles","2","Red Circle",TRUE,49918
+432,"627a65a2439f59544115d476",0,"CafeWall","3","Slanted / Diagonal",TRUE,6399
+432,"627a65a2439f59544115d476",1,"Planets","2","Orange",TRUE,8460
+432,"627a65a2439f59544115d476",2,"Lines","1","Blue Line",TRUE,3979
+432,"627a65a2439f59544115d476",3,"Robot","3","Mostly around the center of the square",TRUE,8977
+432,"627a65a2439f59544115d476",4,"Collision","1","Green Triangle Only",TRUE,19974
+432,"627a65a2439f59544115d476",5,"Circles","2","Red Circle",TRUE,3801
+434,"69ee82889c93673d3fe5ff5a",0,"CafeWall","4","Mixed: some straight, some slanted",FALSE,88861
+434,"69ee82889c93673d3fe5ff5a",1,"Collision","1","Green Triangle Only",TRUE,38976
+434,"69ee82889c93673d3fe5ff5a",2,"Lines","1","Blue Line",TRUE,12301
+434,"69ee82889c93673d3fe5ff5a",3,"Planets","2","Orange",TRUE,36871
+434,"69ee82889c93673d3fe5ff5a",4,"Circles","2","Red Circle",TRUE,21641
+434,"69ee82889c93673d3fe5ff5a",5,"Robot","3","Mostly around the center of the square",TRUE,21555
+435,"615509a589a34f7cb9fb075f",0,"Planets","2","Orange",TRUE,18842
+435,"615509a589a34f7cb9fb075f",1,"Robot","3","Mostly around the center of the square",TRUE,15909
+435,"615509a589a34f7cb9fb075f",2,"Collision","1","Green Triangle Only",TRUE,12631
+435,"615509a589a34f7cb9fb075f",3,"Lines","1","Blue Line",TRUE,8686
+435,"615509a589a34f7cb9fb075f",4,"Circles","2","Red Circle",TRUE,8934
+435,"615509a589a34f7cb9fb075f",5,"CafeWall","3","Slanted / Diagonal",TRUE,11537
+436,"69fb69fc0d2413c89f9896e6",0,"Robot","2","Mostly on the upper right of the square",FALSE,18049
+436,"69fb69fc0d2413c89f9896e6",1,"Circles","2","Red Circle",TRUE,7431
+436,"69fb69fc0d2413c89f9896e6",2,"Lines","1","Blue Line",TRUE,6431
+436,"69fb69fc0d2413c89f9896e6",3,"Collision","1","Green Triangle Only",TRUE,17498
+436,"69fb69fc0d2413c89f9896e6",4,"Planets","2","Orange",TRUE,13198
+436,"69fb69fc0d2413c89f9896e6",5,"CafeWall","3","Slanted / Diagonal",TRUE,13031
+437,"6547a05ca3b182bd3f2d9af8",0,"Lines","1","Blue Line",TRUE,7350
+437,"6547a05ca3b182bd3f2d9af8",1,"Collision","1","Green Triangle Only",TRUE,12707
+437,"6547a05ca3b182bd3f2d9af8",2,"Planets","2","Orange",TRUE,15339
+437,"6547a05ca3b182bd3f2d9af8",3,"Circles","2","Red Circle",TRUE,6299
+437,"6547a05ca3b182bd3f2d9af8",4,"CafeWall","4","Mixed: some straight, some slanted",FALSE,13945
+437,"6547a05ca3b182bd3f2d9af8",5,"Robot","3","Mostly around the center of the square",TRUE,6278
+438,"69f63c887d8133dc046897fa",0,"Robot","3","Mostly around the center of the square",TRUE,46588
+438,"69f63c887d8133dc046897fa",1,"Collision","1","Green Triangle Only",TRUE,39485
+438,"69f63c887d8133dc046897fa",2,"Circles","2","Red Circle",TRUE,17157
+438,"69f63c887d8133dc046897fa",3,"Lines","1","Blue Line",TRUE,10393
+438,"69f63c887d8133dc046897fa",4,"Planets","2","Orange",TRUE,41523
+438,"69f63c887d8133dc046897fa",5,"CafeWall","3","Slanted / Diagonal",TRUE,45737
+439,"61097e0464a4a922602d495b",0,"Circles","2","Red Circle",TRUE,11093
+439,"61097e0464a4a922602d495b",1,"Lines","1","Blue Line",TRUE,5154
+439,"61097e0464a4a922602d495b",2,"CafeWall","3","Slanted / Diagonal",TRUE,13730
+439,"61097e0464a4a922602d495b",3,"Collision","1","Green Triangle Only",TRUE,20877
+439,"61097e0464a4a922602d495b",4,"Robot","3","Mostly around the center of the square",TRUE,32960
+439,"61097e0464a4a922602d495b",5,"Planets","2","Orange",TRUE,14490
+440,"6a14f917d82408828ca7045b",0,"Robot","3","Mostly around the center of the square",TRUE,12364
+440,"6a14f917d82408828ca7045b",1,"Circles","2","Red Circle",TRUE,7033
+440,"6a14f917d82408828ca7045b",2,"Planets","2","Orange",TRUE,17757
+440,"6a14f917d82408828ca7045b",3,"Collision","1","Green Triangle Only",TRUE,12456
+440,"6a14f917d82408828ca7045b",4,"Lines","1","Blue Line",TRUE,6642
+440,"6a14f917d82408828ca7045b",5,"CafeWall","3","Slanted / Diagonal",TRUE,16094
+441,"5bdfb648484288000130dad0",0,"CafeWall","3","Slanted / Diagonal",TRUE,37646
+441,"5bdfb648484288000130dad0",1,"Lines","1","Blue Line",TRUE,17567
+441,"5bdfb648484288000130dad0",2,"Circles","2","Red Circle",TRUE,15431
+441,"5bdfb648484288000130dad0",3,"Planets","2","Orange",TRUE,31493
+441,"5bdfb648484288000130dad0",4,"Robot","3","Mostly around the center of the square",TRUE,33248
+441,"5bdfb648484288000130dad0",5,"Collision","1","Green Triangle Only",TRUE,39606
+442,"5c40e28ffe87360001a5677e",0,"Robot","2","Mostly on the upper right of the square",FALSE,9210
+442,"5c40e28ffe87360001a5677e",1,"Planets","2","Orange",TRUE,172929
+442,"5c40e28ffe87360001a5677e",2,"CafeWall","3","Slanted / Diagonal",TRUE,14075
+442,"5c40e28ffe87360001a5677e",3,"Circles","2","Red Circle",TRUE,77470
+442,"5c40e28ffe87360001a5677e",4,"Lines","1","Blue Line",TRUE,14158
+442,"5c40e28ffe87360001a5677e",5,"Collision","1","Green Triangle Only",TRUE,51528
+444,"6a1b4826a9d1bd7172e2961e",0,"CafeWall","4","Mixed: some straight, some slanted",FALSE,26962
+444,"6a1b4826a9d1bd7172e2961e",1,"Planets","2","Orange",TRUE,43694
+444,"6a1b4826a9d1bd7172e2961e",2,"Robot","3","Mostly around the center of the square",TRUE,26505
+444,"6a1b4826a9d1bd7172e2961e",3,"Collision","1","Green Triangle Only",TRUE,52220
+444,"6a1b4826a9d1bd7172e2961e",4,"Circles","2","Red Circle",TRUE,15464
+444,"6a1b4826a9d1bd7172e2961e",5,"Lines","1","Blue Line",TRUE,11568
+445,"6a02ab669081e158531f77f6",0,"Planets","2","Orange",TRUE,21191
+445,"6a02ab669081e158531f77f6",1,"Lines","1","Blue Line",TRUE,14271
+445,"6a02ab669081e158531f77f6",2,"Circles","2","Red Circle",TRUE,10011
+445,"6a02ab669081e158531f77f6",3,"Collision","1","Green Triangle Only",TRUE,13839
+445,"6a02ab669081e158531f77f6",4,"Robot","3","Mostly around the center of the square",TRUE,10189
+445,"6a02ab669081e158531f77f6",5,"CafeWall","3","Slanted / Diagonal",TRUE,8827
+446,"69b87d2899ff8b885daeea48",0,"Lines","1","Blue Line",TRUE,8875
+446,"69b87d2899ff8b885daeea48",1,"CafeWall","3","Slanted / Diagonal",TRUE,6646
+446,"69b87d2899ff8b885daeea48",2,"Circles","2","Red Circle",TRUE,8240
+446,"69b87d2899ff8b885daeea48",3,"Robot","3","Mostly around the center of the square",TRUE,23977
+446,"69b87d2899ff8b885daeea48",4,"Planets","2","Orange",TRUE,36932
+446,"69b87d2899ff8b885daeea48",5,"Collision","1","Green Triangle Only",TRUE,31236
+447,"6a1df769b69ebcd2ecca9375",0,"Circles","2","Red Circle",TRUE,16105
+447,"6a1df769b69ebcd2ecca9375",1,"Lines","1","Blue Line",TRUE,11188
+447,"6a1df769b69ebcd2ecca9375",2,"CafeWall","3","Slanted / Diagonal",TRUE,36682
+447,"6a1df769b69ebcd2ecca9375",3,"Robot","3","Mostly around the center of the square",TRUE,18634
+447,"6a1df769b69ebcd2ecca9375",4,"Collision","1","Green Triangle Only",TRUE,18283
+447,"6a1df769b69ebcd2ecca9375",5,"Planets","2","Orange",TRUE,21043
+448,"6994b577aff7c16f28cb7589",0,"Circles","2","Red Circle",TRUE,7704
+448,"6994b577aff7c16f28cb7589",1,"Robot","3","Mostly around the center of the square",TRUE,11208
+448,"6994b577aff7c16f28cb7589",2,"Lines","1","Blue Line",TRUE,4356
+448,"6994b577aff7c16f28cb7589",3,"Collision","1","Green Triangle Only",TRUE,15319
+448,"6994b577aff7c16f28cb7589",4,"Planets","2","Orange",TRUE,13120
+448,"6994b577aff7c16f28cb7589",5,"CafeWall","3","Slanted / Diagonal",TRUE,7545
+450,"6a0ea4f8733aee44ede4cefe",0,"Robot","3","Mostly around the center of the square",TRUE,29734
+450,"6a0ea4f8733aee44ede4cefe",1,"Circles","2","Red Circle",TRUE,21931
+450,"6a0ea4f8733aee44ede4cefe",2,"Collision","1","Green Triangle Only",TRUE,25081
+450,"6a0ea4f8733aee44ede4cefe",3,"CafeWall","3","Slanted / Diagonal",TRUE,31949
+450,"6a0ea4f8733aee44ede4cefe",4,"Lines","1","Blue Line",TRUE,14682
+450,"6a0ea4f8733aee44ede4cefe",5,"Planets","2","Orange",TRUE,26532
+451,"69f9dfe6814b936120d97ac9",0,"CafeWall","3","Slanted / Diagonal",TRUE,24002
+451,"69f9dfe6814b936120d97ac9",1,"Planets","2","Orange",TRUE,29633
+451,"69f9dfe6814b936120d97ac9",2,"Lines","1","Blue Line",TRUE,12686
+451,"69f9dfe6814b936120d97ac9",3,"Circles","2","Red Circle",TRUE,14753
+451,"69f9dfe6814b936120d97ac9",4,"Robot","3","Mostly around the center of the square",TRUE,29943
+451,"69f9dfe6814b936120d97ac9",5,"Collision","1","Green Triangle Only",TRUE,20838
+452,"6a19a268a5702fee0407ab36",0,"Lines","1","Blue Line",TRUE,13152
+452,"6a19a268a5702fee0407ab36",1,"Planets","2","Orange",TRUE,36679
+452,"6a19a268a5702fee0407ab36",2,"CafeWall","3","Slanted / Diagonal",TRUE,34358
+452,"6a19a268a5702fee0407ab36",3,"Collision","1","Green Triangle Only",TRUE,23493
+452,"6a19a268a5702fee0407ab36",4,"Robot","3","Mostly around the center of the square",TRUE,23714
+452,"6a19a268a5702fee0407ab36",5,"Circles","2","Red Circle",TRUE,41726
+453,"69adf185dcc8cda73749368d",0,"Robot","3","Mostly around the center of the square",TRUE,74597
+453,"69adf185dcc8cda73749368d",1,"CafeWall","4","Mixed: some straight, some slanted",FALSE,14902
+453,"69adf185dcc8cda73749368d",2,"Lines","1","Blue Line",TRUE,19612
+453,"69adf185dcc8cda73749368d",3,"Collision","1","Green Triangle Only",TRUE,29429
+453,"69adf185dcc8cda73749368d",4,"Circles","3","NONE (they are the same size)",FALSE,11345
+453,"69adf185dcc8cda73749368d",5,"Planets","2","Orange",TRUE,54598
+455,"69937bbdf2301ad69c9d4312",0,"Robot","3","Mostly around the center of the square",TRUE,20861
+455,"69937bbdf2301ad69c9d4312",1,"Lines","1","Blue Line",TRUE,32325
+455,"69937bbdf2301ad69c9d4312",2,"CafeWall","3","Slanted / Diagonal",TRUE,35723
+455,"69937bbdf2301ad69c9d4312",3,"Planets","2","Orange",TRUE,22447
+455,"69937bbdf2301ad69c9d4312",4,"Circles","2","Red Circle",TRUE,19531
+455,"69937bbdf2301ad69c9d4312",5,"Collision","1","Green Triangle Only",TRUE,25301
+456,"6a00eb1bf01dccf542628044",0,"Lines","1","Blue Line",TRUE,22824
+456,"6a00eb1bf01dccf542628044",1,"Robot","3","Mostly around the center of the square",TRUE,41779
+456,"6a00eb1bf01dccf542628044",2,"Collision","1","Green Triangle Only",TRUE,44680
+456,"6a00eb1bf01dccf542628044",3,"Planets","2","Orange",TRUE,80120
+456,"6a00eb1bf01dccf542628044",4,"Circles","2","Red Circle",TRUE,10702
+456,"6a00eb1bf01dccf542628044",5,"CafeWall","3","Slanted / Diagonal",TRUE,161722
+458,"6413ba814d48703a89b5ee31",0,"Circles","2","Red Circle",TRUE,8797
+458,"6413ba814d48703a89b5ee31",1,"Collision","1","Green Triangle Only",TRUE,13015
+458,"6413ba814d48703a89b5ee31",2,"Robot","3","Mostly around the center of the square",TRUE,16233
+458,"6413ba814d48703a89b5ee31",3,"Planets","2","Orange",TRUE,16817
+458,"6413ba814d48703a89b5ee31",4,"CafeWall","3","Slanted / Diagonal",TRUE,18223
+458,"6413ba814d48703a89b5ee31",5,"Lines","1","Blue Line",TRUE,5704
+459,"69f3fc26bbf5ecb0a37b73af",0,"Planets","2","Orange",TRUE,32693
+459,"69f3fc26bbf5ecb0a37b73af",1,"CafeWall","3","Slanted / Diagonal",TRUE,276582
+459,"69f3fc26bbf5ecb0a37b73af",2,"Lines","1","Blue Line",TRUE,4421
+459,"69f3fc26bbf5ecb0a37b73af",3,"Collision","1","Green Triangle Only",TRUE,31461
+459,"69f3fc26bbf5ecb0a37b73af",4,"Robot","3","Mostly around the center of the square",TRUE,10153
+459,"69f3fc26bbf5ecb0a37b73af",5,"Circles","2","Red Circle",TRUE,7372
+461,"63e51bdade16b861346088b4",0,"Lines","1","Blue Line",TRUE,8771
+461,"63e51bdade16b861346088b4",1,"Robot","3","Mostly around the center of the square",TRUE,11027
+461,"63e51bdade16b861346088b4",2,"Circles","2","Red Circle",TRUE,9104
+461,"63e51bdade16b861346088b4",3,"Planets","2","Orange",TRUE,14254
+461,"63e51bdade16b861346088b4",4,"Collision","1","Green Triangle Only",TRUE,14031
+461,"63e51bdade16b861346088b4",5,"CafeWall","3","Slanted / Diagonal",TRUE,14558
+462,"6a1e19d1285179a116fdcd95",0,"Circles","2","Red Circle",TRUE,32536
+462,"6a1e19d1285179a116fdcd95",1,"CafeWall","3","Slanted / Diagonal",TRUE,37730
+462,"6a1e19d1285179a116fdcd95",2,"Planets","2","Orange",TRUE,27849
+462,"6a1e19d1285179a116fdcd95",3,"Robot","3","Mostly around the center of the square",TRUE,34615
+462,"6a1e19d1285179a116fdcd95",4,"Lines","1","Blue Line",TRUE,19365
+462,"6a1e19d1285179a116fdcd95",5,"Collision","1","Green Triangle Only",TRUE,27698
+463,"60fec0bdae6ef40674a8a77a",0,"Planets","2","Orange",TRUE,17042
+463,"60fec0bdae6ef40674a8a77a",1,"Robot","3","Mostly around the center of the square",TRUE,8331
+463,"60fec0bdae6ef40674a8a77a",2,"CafeWall","3","Slanted / Diagonal",TRUE,16730
+463,"60fec0bdae6ef40674a8a77a",3,"Circles","2","Red Circle",TRUE,5768
+463,"60fec0bdae6ef40674a8a77a",4,"Collision","1","Green Triangle Only",TRUE,19229
+463,"60fec0bdae6ef40674a8a77a",5,"Lines","1","Blue Line",TRUE,4905
+464,"62effa539a08b7896593d694",0,"Lines","1","Blue Line",TRUE,14613
+464,"62effa539a08b7896593d694",1,"Robot","3","Mostly around the center of the square",TRUE,22943
+464,"62effa539a08b7896593d694",2,"Collision","1","Green Triangle Only",TRUE,20597
+464,"62effa539a08b7896593d694",3,"CafeWall","3","Slanted / Diagonal",TRUE,30851
+464,"62effa539a08b7896593d694",4,"Planets","2","Orange",TRUE,25779
+464,"62effa539a08b7896593d694",5,"Circles","2","Red Circle",TRUE,10263
+467,"69f2bd53f07ed3cf6fc6fd94",0,"Robot","3","Mostly around the center of the square",TRUE,14723
+467,"69f2bd53f07ed3cf6fc6fd94",1,"Planets","2","Orange",TRUE,27763
+467,"69f2bd53f07ed3cf6fc6fd94",2,"Circles","2","Red Circle",TRUE,9824
+467,"69f2bd53f07ed3cf6fc6fd94",3,"CafeWall","3","Slanted / Diagonal",TRUE,19494
+467,"69f2bd53f07ed3cf6fc6fd94",4,"Collision","1","Green Triangle Only",TRUE,25728
+467,"69f2bd53f07ed3cf6fc6fd94",5,"Lines","1","Blue Line",TRUE,8935
+468,"634865f77fe29563ec6f621c",0,"CafeWall","4","Mixed: some straight, some slanted",FALSE,21984
+468,"634865f77fe29563ec6f621c",1,"Lines","1","Blue Line",TRUE,7648
+468,"634865f77fe29563ec6f621c",2,"Circles","2","Red Circle",TRUE,5606
+468,"634865f77fe29563ec6f621c",3,"Robot","3","Mostly around the center of the square",TRUE,8661
+468,"634865f77fe29563ec6f621c",4,"Planets","2","Orange",TRUE,13664
+468,"634865f77fe29563ec6f621c",5,"Collision","1","Green Triangle Only",TRUE,11669
+469,"60ad344265fa9865ff45c0bf",0,"Collision","1","Green Triangle Only",TRUE,97694
+469,"60ad344265fa9865ff45c0bf",1,"CafeWall","2","Slightly curved",FALSE,24043
+469,"60ad344265fa9865ff45c0bf",2,"Robot","3","Mostly around the center of the square",TRUE,17956
+469,"60ad344265fa9865ff45c0bf",3,"Lines","1","Blue Line",TRUE,9645
+469,"60ad344265fa9865ff45c0bf",4,"Planets","2","Orange",TRUE,39836
+469,"60ad344265fa9865ff45c0bf",5,"Circles","2","Red Circle",TRUE,12042
+470,"5a947fb0f05361000171b5a3",0,"CafeWall","3","Slanted / Diagonal",TRUE,11103
+470,"5a947fb0f05361000171b5a3",1,"Lines","1","Blue Line",TRUE,7359
+470,"5a947fb0f05361000171b5a3",2,"Collision","1","Green Triangle Only",TRUE,22807
+470,"5a947fb0f05361000171b5a3",3,"Planets","2","Orange",TRUE,13855
+470,"5a947fb0f05361000171b5a3",4,"Circles","2","Red Circle",TRUE,642872
+470,"5a947fb0f05361000171b5a3",5,"Robot","3","Mostly around the center of the square",TRUE,12896
+471,"6978efc5f431052d33e72398",0,"CafeWall","3","Slanted / Diagonal",TRUE,22457
+471,"6978efc5f431052d33e72398",1,"Planets","2","Orange",TRUE,27150
+471,"6978efc5f431052d33e72398",2,"Collision","1","Green Triangle Only",TRUE,26578
+471,"6978efc5f431052d33e72398",3,"Circles","2","Red Circle",TRUE,12035
+471,"6978efc5f431052d33e72398",4,"Lines","1","Blue Line",TRUE,6954
+471,"6978efc5f431052d33e72398",5,"Robot","3","Mostly around the center of the square",TRUE,11192
+472,"675ebd1fb3aef884a42df656",0,"Collision","2","Green Triangle and Green Rectangle",FALSE,19175
+472,"675ebd1fb3aef884a42df656",1,"Lines","1","Blue Line",TRUE,11130
+472,"675ebd1fb3aef884a42df656",2,"CafeWall","3","Slanted / Diagonal",TRUE,25991
+472,"675ebd1fb3aef884a42df656",3,"Robot","3","Mostly around the center of the square",TRUE,11578
+472,"675ebd1fb3aef884a42df656",4,"Planets","3","Blue",FALSE,62027
+472,"675ebd1fb3aef884a42df656",5,"Circles","2","Red Circle",TRUE,15937
+473,"6a04d37b32fa27d1a3b284a9",0,"Circles","2","Red Circle",TRUE,3854
+473,"6a04d37b32fa27d1a3b284a9",1,"Planets","2","Orange",TRUE,9533
+473,"6a04d37b32fa27d1a3b284a9",2,"Collision","1","Green Triangle Only",TRUE,14056
+473,"6a04d37b32fa27d1a3b284a9",3,"Robot","3","Mostly around the center of the square",TRUE,14035
+473,"6a04d37b32fa27d1a3b284a9",4,"CafeWall","3","Slanted / Diagonal",TRUE,8229
+473,"6a04d37b32fa27d1a3b284a9",5,"Lines","1","Blue Line",TRUE,2430
+474,"69bcd49ce95af67521ac752f",0,"Lines","1","Blue Line",TRUE,7713
+474,"69bcd49ce95af67521ac752f",1,"Robot","3","Mostly around the center of the square",TRUE,13674
+474,"69bcd49ce95af67521ac752f",2,"CafeWall","3","Slanted / Diagonal",TRUE,15661
+474,"69bcd49ce95af67521ac752f",3,"Collision","1","Green Triangle Only",TRUE,18335
+474,"69bcd49ce95af67521ac752f",4,"Planets","2","Orange",TRUE,17509
+474,"69bcd49ce95af67521ac752f",5,"Circles","2","Red Circle",TRUE,5285
+475,"69d6b45ed142e5a639ebca81",0,"Robot","3","Mostly around the center of the square",TRUE,9784
+475,"69d6b45ed142e5a639ebca81",1,"Lines","1","Blue Line",TRUE,8903
+475,"69d6b45ed142e5a639ebca81",2,"Planets","2","Orange",TRUE,13613
+475,"69d6b45ed142e5a639ebca81",3,"Collision","1","Green Triangle Only",TRUE,9703
+475,"69d6b45ed142e5a639ebca81",4,"CafeWall","3","Slanted / Diagonal",TRUE,20083
+475,"69d6b45ed142e5a639ebca81",5,"Circles","2","Red Circle",TRUE,6043
+476,"6a01d75da4748c5deb7237d7",0,"CafeWall","3","Slanted / Diagonal",TRUE,56113
+476,"6a01d75da4748c5deb7237d7",1,"Circles","2","Red Circle",TRUE,15858
+476,"6a01d75da4748c5deb7237d7",2,"Collision","1","Green Triangle Only",TRUE,38552
+476,"6a01d75da4748c5deb7237d7",3,"Robot","2","Mostly on the upper right of the square",FALSE,45462
+476,"6a01d75da4748c5deb7237d7",4,"Planets","2","Orange",TRUE,39850
+476,"6a01d75da4748c5deb7237d7",5,"Lines","1","Blue Line",TRUE,14893
+477,"6a01da6beb0da70a25f5dbf5",0,"Lines","1","Blue Line",TRUE,5803
+477,"6a01da6beb0da70a25f5dbf5",1,"CafeWall","3","Slanted / Diagonal",TRUE,16668
+477,"6a01da6beb0da70a25f5dbf5",2,"Robot","3","Mostly around the center of the square",TRUE,9733
+477,"6a01da6beb0da70a25f5dbf5",3,"Collision","1","Green Triangle Only",TRUE,19392
+477,"6a01da6beb0da70a25f5dbf5",4,"Circles","2","Red Circle",TRUE,8474
+477,"6a01da6beb0da70a25f5dbf5",5,"Planets","2","Orange",TRUE,18179
+478,"69860bbcee09b238984c4158",0,"Collision","1","Green Triangle Only",TRUE,27576
+478,"69860bbcee09b238984c4158",1,"CafeWall","3","Slanted / Diagonal",TRUE,16349
+478,"69860bbcee09b238984c4158",2,"Circles","2","Red Circle",TRUE,12091
+478,"69860bbcee09b238984c4158",3,"Lines","1","Blue Line",TRUE,8276
+478,"69860bbcee09b238984c4158",4,"Robot","3","Mostly around the center of the square",TRUE,10219
+478,"69860bbcee09b238984c4158",5,"Planets","2","Orange",TRUE,14941
+479,"6946df52c8f481594f455bdf",0,"Planets","2","Orange",TRUE,24835
+479,"6946df52c8f481594f455bdf",1,"Robot","3","Mostly around the center of the square",TRUE,14265
+479,"6946df52c8f481594f455bdf",2,"Collision","1","Green Triangle Only",TRUE,17408
+479,"6946df52c8f481594f455bdf",3,"CafeWall","3","Slanted / Diagonal",TRUE,11497
+479,"6946df52c8f481594f455bdf",4,"Circles","2","Red Circle",TRUE,4461
+479,"6946df52c8f481594f455bdf",5,"Lines","1","Blue Line",TRUE,6905
+480,"69a37fa6ece253752a94a18b",0,"Lines","1","Blue Line",TRUE,10235
+480,"69a37fa6ece253752a94a18b",1,"Collision","1","Green Triangle Only",TRUE,22830
+480,"69a37fa6ece253752a94a18b",2,"CafeWall","3","Slanted / Diagonal",TRUE,17308
+480,"69a37fa6ece253752a94a18b",3,"Circles","2","Red Circle",TRUE,13241
+480,"69a37fa6ece253752a94a18b",4,"Planets","2","Orange",TRUE,15650
+480,"69a37fa6ece253752a94a18b",5,"Robot","2","Mostly on the upper right of the square",FALSE,16958
+481,"5f494c1ba043204912fb6be1",0,"Collision","1","Green Triangle Only",TRUE,46386
+481,"5f494c1ba043204912fb6be1",1,"CafeWall","3","Slanted / Diagonal",TRUE,26174
+481,"5f494c1ba043204912fb6be1",2,"Planets","2","Orange",TRUE,39936
+481,"5f494c1ba043204912fb6be1",3,"Robot","3","Mostly around the center of the square",TRUE,29355
+481,"5f494c1ba043204912fb6be1",4,"Lines","1","Blue Line",TRUE,7497
+481,"5f494c1ba043204912fb6be1",5,"Circles","2","Red Circle",TRUE,6431
+482,"698383f571211f272ff1c000",0,"Planets","2","Orange",TRUE,18791
+482,"698383f571211f272ff1c000",1,"Collision","2","Green Triangle and Green Rectangle",FALSE,19193
+482,"698383f571211f272ff1c000",2,"Robot","3","Mostly around the center of the square",TRUE,8192
+482,"698383f571211f272ff1c000",3,"Circles","2","Red Circle",TRUE,6465
+482,"698383f571211f272ff1c000",4,"Lines","1","Blue Line",TRUE,4639
+482,"698383f571211f272ff1c000",5,"CafeWall","3","Slanted / Diagonal",TRUE,10659
+483,"69ed0e642867961fbd1ac973",0,"CafeWall","3","Slanted / Diagonal",TRUE,15341
+483,"69ed0e642867961fbd1ac973",1,"Collision","1","Green Triangle Only",TRUE,14721
+483,"69ed0e642867961fbd1ac973",2,"Circles","2","Red Circle",TRUE,10205
+483,"69ed0e642867961fbd1ac973",3,"Robot","3","Mostly around the center of the square",TRUE,15444
+483,"69ed0e642867961fbd1ac973",4,"Planets","2","Orange",TRUE,20945
+483,"69ed0e642867961fbd1ac973",5,"Lines","1","Blue Line",TRUE,5025
+484,"6a147ae189fb8e6281395326",0,"Robot","3","Mostly around the center of the square",TRUE,42116
+484,"6a147ae189fb8e6281395326",1,"CafeWall","3","Slanted / Diagonal",TRUE,26912
+484,"6a147ae189fb8e6281395326",2,"Collision","1","Green Triangle Only",TRUE,43704
+484,"6a147ae189fb8e6281395326",3,"Planets","2","Orange",TRUE,52414
+484,"6a147ae189fb8e6281395326",4,"Lines","1","Blue Line",TRUE,16324
+484,"6a147ae189fb8e6281395326",5,"Circles","2","Red Circle",TRUE,40419
+485,"69beddef130e4b750f5a4823",0,"Circles","2","Red Circle",TRUE,5808
+485,"69beddef130e4b750f5a4823",1,"Collision","1","Green Triangle Only",TRUE,14320
+485,"69beddef130e4b750f5a4823",2,"Lines","1","Blue Line",TRUE,4228
+485,"69beddef130e4b750f5a4823",3,"CafeWall","3","Slanted / Diagonal",TRUE,10041
+485,"69beddef130e4b750f5a4823",4,"Planets","2","Orange",TRUE,13504
+485,"69beddef130e4b750f5a4823",5,"Robot","3","Mostly around the center of the square",TRUE,7281
+486,"60ffc4070d4285f4d85199b7",0,"Robot","3","Mostly around the center of the square",TRUE,17492
+486,"60ffc4070d4285f4d85199b7",1,"Lines","1","Blue Line",TRUE,20831
+486,"60ffc4070d4285f4d85199b7",2,"CafeWall","3","Slanted / Diagonal",TRUE,14724
+486,"60ffc4070d4285f4d85199b7",3,"Collision","1","Green Triangle Only",TRUE,15069
+486,"60ffc4070d4285f4d85199b7",4,"Planets","2","Orange",TRUE,23221
+486,"60ffc4070d4285f4d85199b7",5,"Circles","2","Red Circle",TRUE,8802
+490,"6948e6378d2aed5bf5841c0a",0,"Planets","2","Orange",TRUE,52010
+490,"6948e6378d2aed5bf5841c0a",1,"Collision","1","Green Triangle Only",TRUE,32897
+490,"6948e6378d2aed5bf5841c0a",2,"CafeWall","3","Slanted / Diagonal",TRUE,25649
+490,"6948e6378d2aed5bf5841c0a",3,"Lines","1","Blue Line",TRUE,13290
+490,"6948e6378d2aed5bf5841c0a",4,"Robot","2","Mostly on the upper right of the square",FALSE,57622
+490,"6948e6378d2aed5bf5841c0a",5,"Circles","2","Red Circle",TRUE,17324
+491,"69e91af54ecc31385a08bc37",0,"Collision","1","Green Triangle Only",TRUE,24408
+491,"69e91af54ecc31385a08bc37",1,"Planets","2","Orange",TRUE,28281
+491,"69e91af54ecc31385a08bc37",2,"Circles","2","Red Circle",TRUE,13515
+491,"69e91af54ecc31385a08bc37",3,"CafeWall","3","Slanted / Diagonal",TRUE,18519
+491,"69e91af54ecc31385a08bc37",4,"Robot","3","Mostly around the center of the square",TRUE,9946
+491,"69e91af54ecc31385a08bc37",5,"Lines","1","Blue Line",TRUE,5554
+492,"6a0a5c5f6016f11ccaa396e3",0,"Circles","2","Red Circle",TRUE,11016
+492,"6a0a5c5f6016f11ccaa396e3",1,"Collision","1","Green Triangle Only",TRUE,22166
+492,"6a0a5c5f6016f11ccaa396e3",2,"Lines","1","Blue Line",TRUE,5297
+492,"6a0a5c5f6016f11ccaa396e3",3,"Planets","2","Orange",TRUE,23730
+492,"6a0a5c5f6016f11ccaa396e3",4,"Robot","2","Mostly on the upper right of the square",FALSE,12984
+492,"6a0a5c5f6016f11ccaa396e3",5,"CafeWall","3","Slanted / Diagonal",TRUE,22016
+493,"5b72d3f8afce7600019fe275",0,"Collision","1","Green Triangle Only",TRUE,19979
+493,"5b72d3f8afce7600019fe275",1,"Circles","2","Red Circle",TRUE,7804
+493,"5b72d3f8afce7600019fe275",2,"Planets","2","Orange",TRUE,14638
+493,"5b72d3f8afce7600019fe275",3,"Robot","3","Mostly around the center of the square",TRUE,17957
+493,"5b72d3f8afce7600019fe275",4,"Lines","1","Blue Line",TRUE,4420
+493,"5b72d3f8afce7600019fe275",5,"CafeWall","3","Slanted / Diagonal",TRUE,3700
+494,"69e408f53c6834fd1ceadad4",0,"Collision","2","Green Triangle and Green Rectangle",FALSE,31576
+494,"69e408f53c6834fd1ceadad4",1,"Planets","2","Orange",TRUE,17609
+494,"69e408f53c6834fd1ceadad4",2,"Lines","1","Blue Line",TRUE,6278
+494,"69e408f53c6834fd1ceadad4",3,"CafeWall","3","Slanted / Diagonal",TRUE,9618
+494,"69e408f53c6834fd1ceadad4",4,"Robot","3","Mostly around the center of the square",TRUE,9609
+494,"69e408f53c6834fd1ceadad4",5,"Circles","2","Red Circle",TRUE,4839
+496,"69c02eb0784caa385a6ea4a5",0,"Lines","1","Blue Line",TRUE,9146
+496,"69c02eb0784caa385a6ea4a5",1,"Collision","1","Green Triangle Only",TRUE,14929
+496,"69c02eb0784caa385a6ea4a5",2,"Circles","2","Red Circle",TRUE,7528
+496,"69c02eb0784caa385a6ea4a5",3,"CafeWall","3","Slanted / Diagonal",TRUE,19256
+496,"69c02eb0784caa385a6ea4a5",4,"Planets","2","Orange",TRUE,18534
+496,"69c02eb0784caa385a6ea4a5",5,"Robot","3","Mostly around the center of the square",TRUE,13078
+497,"69e17b4489b488c473d5c608",0,"CafeWall","3","Slanted / Diagonal",TRUE,13469
+497,"69e17b4489b488c473d5c608",1,"Circles","2","Red Circle",TRUE,13386
+497,"69e17b4489b488c473d5c608",2,"Robot","3","Mostly around the center of the square",TRUE,21597
+497,"69e17b4489b488c473d5c608",3,"Planets","2","Orange",TRUE,35649
+497,"69e17b4489b488c473d5c608",4,"Lines","1","Blue Line",TRUE,9357
+497,"69e17b4489b488c473d5c608",5,"Collision","1","Green Triangle Only",TRUE,47184
+498,"6a177da8b59d5576eaca4df0",0,"Circles","2","Red Circle",TRUE,4127
+498,"6a177da8b59d5576eaca4df0",1,"Robot","3","Mostly around the center of the square",TRUE,4069
+498,"6a177da8b59d5576eaca4df0",2,"Planets","2","Orange",TRUE,7285
+498,"6a177da8b59d5576eaca4df0",3,"Collision","1","Green Triangle Only",TRUE,4305
+498,"6a177da8b59d5576eaca4df0",4,"CafeWall","3","Slanted / Diagonal",TRUE,3537
+498,"6a177da8b59d5576eaca4df0",5,"Lines","1","Blue Line",TRUE,4318
+500,"6a15d6a799a27da826906cdb",0,"Collision","4","No object would be hit",FALSE,36649
+500,"6a15d6a799a27da826906cdb",1,"CafeWall","2","Slightly curved",FALSE,18565
+500,"6a15d6a799a27da826906cdb",2,"Lines","1","Blue Line",TRUE,4698
+500,"6a15d6a799a27da826906cdb",3,"Robot","3","Mostly around the center of the square",TRUE,21748
+500,"6a15d6a799a27da826906cdb",4,"Circles","2","Red Circle",TRUE,8882
+500,"6a15d6a799a27da826906cdb",5,"Planets","2","Orange",TRUE,27498
+502,"69699d1a4c8aab1ce7a5f231",0,"CafeWall","3","Slanted / Diagonal",TRUE,6789
+502,"69699d1a4c8aab1ce7a5f231",1,"Lines","1","Blue Line",TRUE,3012
+502,"69699d1a4c8aab1ce7a5f231",2,"Robot","2","Mostly on the upper right of the square",FALSE,6236
+502,"69699d1a4c8aab1ce7a5f231",3,"Planets","2","Orange",TRUE,12977
+502,"69699d1a4c8aab1ce7a5f231",4,"Collision","1","Green Triangle Only",TRUE,13466
+502,"69699d1a4c8aab1ce7a5f231",5,"Circles","2","Red Circle",TRUE,5455
+503,"6a0b28fb42e64e7b3201649e",0,"Lines","1","Blue Line",TRUE,19749
+503,"6a0b28fb42e64e7b3201649e",1,"Circles","2","Red Circle",TRUE,12990
+503,"6a0b28fb42e64e7b3201649e",2,"Planets","2","Orange",TRUE,29412
+503,"6a0b28fb42e64e7b3201649e",3,"Robot","3","Mostly around the center of the square",TRUE,41073
+503,"6a0b28fb42e64e7b3201649e",4,"Collision","1","Green Triangle Only",TRUE,29482
+503,"6a0b28fb42e64e7b3201649e",5,"CafeWall","3","Slanted / Diagonal",TRUE,53277
+504,"691dd723559ca7c89564ea8b",0,"Circles","2","Red Circle",TRUE,10378
+504,"691dd723559ca7c89564ea8b",1,"Robot","3","Mostly around the center of the square",TRUE,126911
+504,"691dd723559ca7c89564ea8b",2,"Planets","2","Orange",TRUE,24721
+504,"691dd723559ca7c89564ea8b",3,"CafeWall","3","Slanted / Diagonal",TRUE,23989
+504,"691dd723559ca7c89564ea8b",4,"Lines","1","Blue Line",TRUE,8982
+504,"691dd723559ca7c89564ea8b",5,"Collision","1","Green Triangle Only",TRUE,21368
+505,"6a10d07b7e0d58d42b8f33a1",0,"CafeWall","3","Slanted / Diagonal",TRUE,3985
+505,"6a10d07b7e0d58d42b8f33a1",1,"Circles","2","Red Circle",TRUE,5099
+505,"6a10d07b7e0d58d42b8f33a1",2,"Planets","2","Orange",TRUE,4873
+505,"6a10d07b7e0d58d42b8f33a1",3,"Robot","3","Mostly around the center of the square",TRUE,3160
+505,"6a10d07b7e0d58d42b8f33a1",4,"Collision","1","Green Triangle Only",TRUE,3653
+505,"6a10d07b7e0d58d42b8f33a1",5,"Lines","1","Blue Line",TRUE,3809
+507,"6a0f2fff8ede7e13a4906213",0,"Planets","2","Orange",TRUE,28635
+507,"6a0f2fff8ede7e13a4906213",1,"Robot","3","Mostly around the center of the square",TRUE,12578
+507,"6a0f2fff8ede7e13a4906213",2,"CafeWall","3","Slanted / Diagonal",TRUE,23995
+507,"6a0f2fff8ede7e13a4906213",3,"Circles","2","Red Circle",TRUE,10300
+507,"6a0f2fff8ede7e13a4906213",4,"Lines","1","Blue Line",TRUE,5613
+507,"6a0f2fff8ede7e13a4906213",5,"Collision","1","Green Triangle Only",TRUE,13566
+508,"69f938d4d5bd55e66f88f331",0,"Collision","1","Green Triangle Only",TRUE,63224
+508,"69f938d4d5bd55e66f88f331",1,"CafeWall","3","Slanted / Diagonal",TRUE,50263
+508,"69f938d4d5bd55e66f88f331",2,"Planets","2","Orange",TRUE,27404
+508,"69f938d4d5bd55e66f88f331",3,"Lines","1","Blue Line",TRUE,9993
+508,"69f938d4d5bd55e66f88f331",4,"Circles","2","Red Circle",TRUE,6611
+508,"69f938d4d5bd55e66f88f331",5,"Robot","2","Mostly on the upper right of the square",FALSE,12260
+509,"6a1874d2b6c7c957c0da8155",0,"Planets","2","Orange",TRUE,24927
+509,"6a1874d2b6c7c957c0da8155",1,"Robot","3","Mostly around the center of the square",TRUE,21993
+509,"6a1874d2b6c7c957c0da8155",2,"Circles","2","Red Circle",TRUE,9044
+509,"6a1874d2b6c7c957c0da8155",3,"Lines","1","Blue Line",TRUE,4735
+509,"6a1874d2b6c7c957c0da8155",4,"Collision","1","Green Triangle Only",TRUE,23781
+509,"6a1874d2b6c7c957c0da8155",5,"CafeWall","3","Slanted / Diagonal",TRUE,8653
+510,"66f0bcad545ecf68df970a46",0,"Lines","1","Blue Line",TRUE,23651
+510,"66f0bcad545ecf68df970a46",1,"CafeWall","3","Slanted / Diagonal",TRUE,13766
+510,"66f0bcad545ecf68df970a46",2,"Collision","1","Green Triangle Only",TRUE,35488
+510,"66f0bcad545ecf68df970a46",3,"Robot","3","Mostly around the center of the square",TRUE,24753
+510,"66f0bcad545ecf68df970a46",4,"Planets","2","Orange",TRUE,23564
+510,"66f0bcad545ecf68df970a46",5,"Circles","2","Red Circle",TRUE,16329
+511,"69fe57468b52fe5dd81773d0",0,"Planets","2","Orange",TRUE,79765
+511,"69fe57468b52fe5dd81773d0",1,"CafeWall","1","Straight / Horizontal",FALSE,72295
+511,"69fe57468b52fe5dd81773d0",2,"Collision","1","Green Triangle Only",TRUE,35170
+511,"69fe57468b52fe5dd81773d0",3,"Robot","2","Mostly on the upper right of the square",FALSE,83038
+511,"69fe57468b52fe5dd81773d0",4,"Lines","1","Blue Line",TRUE,9828
+511,"69fe57468b52fe5dd81773d0",5,"Circles","2","Red Circle",TRUE,13509
+513,"69ed51c1fdcc2febba6a8024",0,"Collision","1","Green Triangle Only",TRUE,40184
+513,"69ed51c1fdcc2febba6a8024",1,"Planets","2","Orange",TRUE,21949
+513,"69ed51c1fdcc2febba6a8024",2,"CafeWall","3","Slanted / Diagonal",TRUE,14225
+513,"69ed51c1fdcc2febba6a8024",3,"Lines","1","Blue Line",TRUE,6905
+513,"69ed51c1fdcc2febba6a8024",4,"Circles","2","Red Circle",TRUE,8335
+513,"69ed51c1fdcc2febba6a8024",5,"Robot","3","Mostly around the center of the square",TRUE,19739
+514,"6a0c94055e48270dd211c7d6",0,"Lines","1","Blue Line",TRUE,16053
+514,"6a0c94055e48270dd211c7d6",1,"Planets","2","Orange",TRUE,24925
+514,"6a0c94055e48270dd211c7d6",2,"CafeWall","3","Slanted / Diagonal",TRUE,35621
+514,"6a0c94055e48270dd211c7d6",3,"Circles","2","Red Circle",TRUE,9871
+514,"6a0c94055e48270dd211c7d6",4,"Collision","1","Green Triangle Only",TRUE,15250
+514,"6a0c94055e48270dd211c7d6",5,"Robot","2","Mostly on the upper right of the square",FALSE,14185
+515,"69d51b7efe3296cf710e3362",0,"Lines","1","Blue Line",TRUE,12134
+515,"69d51b7efe3296cf710e3362",1,"Collision","1","Green Triangle Only",TRUE,23110
+515,"69d51b7efe3296cf710e3362",2,"Planets","2","Orange",TRUE,76405
+515,"69d51b7efe3296cf710e3362",3,"Robot","3","Mostly around the center of the square",TRUE,34186
+515,"69d51b7efe3296cf710e3362",4,"CafeWall","3","Slanted / Diagonal",TRUE,20462
+515,"69d51b7efe3296cf710e3362",5,"Circles","2","Red Circle",TRUE,9001
+516,"69f2e41b9e247db43c69fb42",0,"Circles","2","Red Circle",TRUE,8007
+516,"69f2e41b9e247db43c69fb42",1,"Lines","1","Blue Line",TRUE,5396
+516,"69f2e41b9e247db43c69fb42",2,"Planets","2","Orange",TRUE,14474
+516,"69f2e41b9e247db43c69fb42",3,"Robot","3","Mostly around the center of the square",TRUE,9804
+516,"69f2e41b9e247db43c69fb42",4,"Collision","1","Green Triangle Only",TRUE,17670
+516,"69f2e41b9e247db43c69fb42",5,"CafeWall","3","Slanted / Diagonal",TRUE,16028
+517,"6a0af583f35a9221994f91cb",0,"Planets","2","Orange",TRUE,26402
+517,"6a0af583f35a9221994f91cb",1,"Circles","2","Red Circle",TRUE,15840
+517,"6a0af583f35a9221994f91cb",2,"Collision","1","Green Triangle Only",TRUE,23252
+517,"6a0af583f35a9221994f91cb",3,"Lines","1","Blue Line",TRUE,5644
+517,"6a0af583f35a9221994f91cb",4,"Robot","3","Mostly around the center of the square",TRUE,23503
+517,"6a0af583f35a9221994f91cb",5,"CafeWall","3","Slanted / Diagonal",TRUE,12190
+518,"6a1e3a774a64aef0ecce3a94",0,"Lines","1","Blue Line",TRUE,17889
+518,"6a1e3a774a64aef0ecce3a94",1,"Circles","2","Red Circle",TRUE,16019
+518,"6a1e3a774a64aef0ecce3a94",2,"Collision","1","Green Triangle Only",TRUE,39822
+518,"6a1e3a774a64aef0ecce3a94",3,"Robot","3","Mostly around the center of the square",TRUE,24791
+518,"6a1e3a774a64aef0ecce3a94",4,"CafeWall","4","Mixed: some straight, some slanted",FALSE,36702
+518,"6a1e3a774a64aef0ecce3a94",5,"Planets","2","Orange",TRUE,47278
+519,"6a16f79966dd43bf47b7b4a0",0,"CafeWall","3","Slanted / Diagonal",TRUE,28100
+519,"6a16f79966dd43bf47b7b4a0",1,"Planets","2","Orange",TRUE,42620
+519,"6a16f79966dd43bf47b7b4a0",2,"Lines","1","Blue Line",TRUE,29432
+519,"6a16f79966dd43bf47b7b4a0",3,"Circles","2","Red Circle",TRUE,8484
+519,"6a16f79966dd43bf47b7b4a0",4,"Robot","3","Mostly around the center of the square",TRUE,15474
+519,"6a16f79966dd43bf47b7b4a0",5,"Collision","1","Green Triangle Only",TRUE,26794
+521,"69c5a87efe4b84961a9b36e2",0,"Lines","1","Blue Line",TRUE,7579
+521,"69c5a87efe4b84961a9b36e2",1,"Circles","2","Red Circle",TRUE,9565
+521,"69c5a87efe4b84961a9b36e2",2,"Collision","1","Green Triangle Only",TRUE,27160
+521,"69c5a87efe4b84961a9b36e2",3,"Planets","2","Orange",TRUE,22122
+521,"69c5a87efe4b84961a9b36e2",4,"Robot","3","Mostly around the center of the square",TRUE,18944
+521,"69c5a87efe4b84961a9b36e2",5,"CafeWall","3","Slanted / Diagonal",TRUE,7865
+522,"65f1d783d4cbe20c636b813c",0,"Collision","1","Green Triangle Only",TRUE,14160
+522,"65f1d783d4cbe20c636b813c",1,"Planets","2","Orange",TRUE,11443
+522,"65f1d783d4cbe20c636b813c",2,"Lines","1","Blue Line",TRUE,4102
+522,"65f1d783d4cbe20c636b813c",3,"CafeWall","1","Straight / Horizontal",FALSE,14992
+522,"65f1d783d4cbe20c636b813c",4,"Circles","2","Red Circle",TRUE,4084
+522,"65f1d783d4cbe20c636b813c",5,"Robot","3","Mostly around the center of the square",TRUE,6378
+524,"695fbbddeef702fe7cea44bd",0,"Collision","1","Green Triangle Only",TRUE,35725
+524,"695fbbddeef702fe7cea44bd",1,"Planets","2","Orange",TRUE,20082
+524,"695fbbddeef702fe7cea44bd",2,"Lines","1","Blue Line",TRUE,3540
+524,"695fbbddeef702fe7cea44bd",3,"Robot","3","Mostly around the center of the square",TRUE,8492
+524,"695fbbddeef702fe7cea44bd",4,"CafeWall","3","Slanted / Diagonal",TRUE,8974
+524,"695fbbddeef702fe7cea44bd",5,"Circles","2","Red Circle",TRUE,7410
+525,"6a10ce308cd75eec15c0d39d",0,"CafeWall","3","Slanted / Diagonal",TRUE,21983
+525,"6a10ce308cd75eec15c0d39d",1,"Circles","2","Red Circle",TRUE,12314
+525,"6a10ce308cd75eec15c0d39d",2,"Robot","3","Mostly around the center of the square",TRUE,16034
+525,"6a10ce308cd75eec15c0d39d",3,"Planets","2","Orange",TRUE,20772
+525,"6a10ce308cd75eec15c0d39d",4,"Collision","1","Green Triangle Only",TRUE,17014
+525,"6a10ce308cd75eec15c0d39d",5,"Lines","1","Blue Line",TRUE,8676
+526,"69601b75e222e16eba858689",0,"CafeWall","3","Slanted / Diagonal",TRUE,10373
+526,"69601b75e222e16eba858689",1,"Circles","2","Red Circle",TRUE,6002
+526,"69601b75e222e16eba858689",2,"Planets","2","Orange",TRUE,18399
+526,"69601b75e222e16eba858689",3,"Lines","1","Blue Line",TRUE,3270
+526,"69601b75e222e16eba858689",4,"Robot","3","Mostly around the center of the square",TRUE,8821
+526,"69601b75e222e16eba858689",5,"Collision","1","Green Triangle Only",TRUE,16238
+527,"6985c00a3c127e5cbb246f78",0,"Robot","3","Mostly around the center of the square",TRUE,6947
+527,"6985c00a3c127e5cbb246f78",1,"Collision","1","Green Triangle Only",TRUE,26808
+527,"6985c00a3c127e5cbb246f78",2,"CafeWall","3","Slanted / Diagonal",TRUE,8669
+527,"6985c00a3c127e5cbb246f78",3,"Circles","2","Red Circle",TRUE,6398
+527,"6985c00a3c127e5cbb246f78",4,"Lines","1","Blue Line",TRUE,4386
+527,"6985c00a3c127e5cbb246f78",5,"Planets","2","Orange",TRUE,21521
+528,"69bb8162456b2987e106973e",0,"Lines","1","Blue Line",TRUE,28876
+528,"69bb8162456b2987e106973e",1,"Robot","3","Mostly around the center of the square",TRUE,19521
+528,"69bb8162456b2987e106973e",2,"CafeWall","3","Slanted / Diagonal",TRUE,65981
+528,"69bb8162456b2987e106973e",3,"Collision","1","Green Triangle Only",TRUE,18797
+528,"69bb8162456b2987e106973e",4,"Planets","2","Orange",TRUE,48947
+528,"69bb8162456b2987e106973e",5,"Circles","2","Red Circle",TRUE,48333
+529,"69db4351e975384150644e17",0,"CafeWall","3","Slanted / Diagonal",TRUE,26846
+529,"69db4351e975384150644e17",1,"Robot","3","Mostly around the center of the square",TRUE,32890
+529,"69db4351e975384150644e17",2,"Collision","4","No object would be hit",FALSE,35125
+529,"69db4351e975384150644e17",3,"Planets","2","Orange",TRUE,101143
+529,"69db4351e975384150644e17",4,"Lines","1","Blue Line",TRUE,8215
+529,"69db4351e975384150644e17",5,"Circles","2","Red Circle",TRUE,11459
+530,"665cc37706c5e959d6f680a3",0,"Lines","3","NONE (they are the same size)",FALSE,30569
+530,"665cc37706c5e959d6f680a3",1,"Collision","1","Green Triangle Only",TRUE,101565
+530,"665cc37706c5e959d6f680a3",2,"Robot","3","Mostly around the center of the square",TRUE,13261
+530,"665cc37706c5e959d6f680a3",3,"Planets","2","Orange",TRUE,20370
+530,"665cc37706c5e959d6f680a3",4,"CafeWall","1","Straight / Horizontal",FALSE,31278
+530,"665cc37706c5e959d6f680a3",5,"Circles","2","Red Circle",TRUE,57953
+532,"6a1ef3bfa9b1fa8954118970",0,"Circles","2","Red Circle",TRUE,21458
+532,"6a1ef3bfa9b1fa8954118970",1,"Lines","1","Blue Line",TRUE,18341
+532,"6a1ef3bfa9b1fa8954118970",2,"Robot","3","Mostly around the center of the square",TRUE,17183
+532,"6a1ef3bfa9b1fa8954118970",3,"Planets","2","Orange",TRUE,31525
+532,"6a1ef3bfa9b1fa8954118970",4,"Collision","1","Green Triangle Only",TRUE,18841
+532,"6a1ef3bfa9b1fa8954118970",5,"CafeWall","3","Slanted / Diagonal",TRUE,25968
+533,"6a159a999f776296ec0f7001",0,"Planets","2","Orange",TRUE,45302
+533,"6a159a999f776296ec0f7001",1,"Robot","3","Mostly around the center of the square",TRUE,30983
+533,"6a159a999f776296ec0f7001",2,"Collision","2","Green Triangle and Green Rectangle",FALSE,29952
+533,"6a159a999f776296ec0f7001",3,"CafeWall","3","Slanted / Diagonal",TRUE,13926
+533,"6a159a999f776296ec0f7001",4,"Lines","1","Blue Line",TRUE,6519
+533,"6a159a999f776296ec0f7001",5,"Circles","2","Red Circle",TRUE,9767
+534,"69d3b723c1ce9682b57d0e27",0,"CafeWall","3","Slanted / Diagonal",TRUE,20483
+534,"69d3b723c1ce9682b57d0e27",1,"Circles","2","Red Circle",TRUE,8511
+534,"69d3b723c1ce9682b57d0e27",2,"Planets","2","Orange",TRUE,38840
+534,"69d3b723c1ce9682b57d0e27",3,"Lines","1","Blue Line",TRUE,12524
+534,"69d3b723c1ce9682b57d0e27",4,"Robot","3","Mostly around the center of the square",TRUE,16825
+534,"69d3b723c1ce9682b57d0e27",5,"Collision","1","Green Triangle Only",TRUE,20014
+537,"6a18843526336de36269db51",0,"Planets","2","Orange",TRUE,32745
+537,"6a18843526336de36269db51",1,"CafeWall","3","Slanted / Diagonal",TRUE,47321
+537,"6a18843526336de36269db51",2,"Robot","3","Mostly around the center of the square",TRUE,17702
+537,"6a18843526336de36269db51",3,"Collision","1","Green Triangle Only",TRUE,27088
+537,"6a18843526336de36269db51",4,"Circles","2","Red Circle",TRUE,20590
+537,"6a18843526336de36269db51",5,"Lines","1","Blue Line",TRUE,10136
+538,"69861287eabfebf2ba128f74",0,"Collision","1","Green Triangle Only",TRUE,30916
+538,"69861287eabfebf2ba128f74",1,"Robot","3","Mostly around the center of the square",TRUE,32664
+538,"69861287eabfebf2ba128f74",2,"CafeWall","3","Slanted / Diagonal",TRUE,14972
+538,"69861287eabfebf2ba128f74",3,"Lines","1","Blue Line",TRUE,11053
+538,"69861287eabfebf2ba128f74",4,"Planets","2","Orange",TRUE,30015
+538,"69861287eabfebf2ba128f74",5,"Circles","2","Red Circle",TRUE,7663
+539,"69f0d72473ebbbfb5bdab2fb",0,"Robot","2","Mostly on the upper right of the square",FALSE,16831
+539,"69f0d72473ebbbfb5bdab2fb",1,"Collision","1","Green Triangle Only",TRUE,32124
+539,"69f0d72473ebbbfb5bdab2fb",2,"Circles","2","Red Circle",TRUE,10738
+539,"69f0d72473ebbbfb5bdab2fb",3,"Lines","1","Blue Line",TRUE,8564
+539,"69f0d72473ebbbfb5bdab2fb",4,"CafeWall","3","Slanted / Diagonal",TRUE,9360
+539,"69f0d72473ebbbfb5bdab2fb",5,"Planets","2","Orange",TRUE,26208
+540,"69e63e9413ec828e97526757",0,"CafeWall","3","Slanted / Diagonal",TRUE,14988
+540,"69e63e9413ec828e97526757",1,"Lines","1","Blue Line",TRUE,5387
+540,"69e63e9413ec828e97526757",2,"Collision","1","Green Triangle Only",TRUE,15311
+540,"69e63e9413ec828e97526757",3,"Circles","2","Red Circle",TRUE,7312
+540,"69e63e9413ec828e97526757",4,"Planets","2","Orange",TRUE,16725
+540,"69e63e9413ec828e97526757",5,"Robot","3","Mostly around the center of the square",TRUE,31566
+541,"69fff1bc3883a7ede899af09",0,"Circles","2","Red Circle",TRUE,19543
+541,"69fff1bc3883a7ede899af09",1,"Robot","2","Mostly on the upper right of the square",FALSE,17927
+541,"69fff1bc3883a7ede899af09",2,"Lines","1","Blue Line",TRUE,5878
+541,"69fff1bc3883a7ede899af09",3,"Planets","2","Orange",TRUE,20958
+541,"69fff1bc3883a7ede899af09",4,"CafeWall","3","Slanted / Diagonal",TRUE,18266
+541,"69fff1bc3883a7ede899af09",5,"Collision","1","Green Triangle Only",TRUE,31014
+542,"65f4ab7884f8411c9e11a34e",0,"Circles","2","Red Circle",TRUE,14447
+542,"65f4ab7884f8411c9e11a34e",1,"Robot","3","Mostly around the center of the square",TRUE,14730
+542,"65f4ab7884f8411c9e11a34e",2,"Collision","1","Green Triangle Only",TRUE,17346
+542,"65f4ab7884f8411c9e11a34e",3,"CafeWall","3","Slanted / Diagonal",TRUE,33232
+542,"65f4ab7884f8411c9e11a34e",4,"Planets","2","Orange",TRUE,19132
+542,"65f4ab7884f8411c9e11a34e",5,"Lines","1","Blue Line",TRUE,8191
+543,"69ed6b56ec2b40534d6806ad",0,"Circles","2","Red Circle",TRUE,12922
+543,"69ed6b56ec2b40534d6806ad",1,"Lines","1","Blue Line",TRUE,12313
+543,"69ed6b56ec2b40534d6806ad",2,"CafeWall","3","Slanted / Diagonal",TRUE,31485
+543,"69ed6b56ec2b40534d6806ad",3,"Planets","2","Orange",TRUE,26104
+543,"69ed6b56ec2b40534d6806ad",4,"Collision","1","Green Triangle Only",TRUE,30488
+543,"69ed6b56ec2b40534d6806ad",5,"Robot","3","Mostly around the center of the square",TRUE,20505
+545,"6a1ee8665e4028caf11f66be",0,"Collision","1","Green Triangle Only",TRUE,21633
+545,"6a1ee8665e4028caf11f66be",1,"Lines","1","Blue Line",TRUE,11095
+545,"6a1ee8665e4028caf11f66be",2,"Planets","2","Orange",TRUE,18774
+545,"6a1ee8665e4028caf11f66be",3,"CafeWall","3","Slanted / Diagonal",TRUE,20416
+545,"6a1ee8665e4028caf11f66be",4,"Circles","2","Red Circle",TRUE,7579
+545,"6a1ee8665e4028caf11f66be",5,"Robot","3","Mostly around the center of the square",TRUE,19871
+546,"69c737b258a269a8f17fea85",0,"Collision","1","Green Triangle Only",TRUE,26683
+546,"69c737b258a269a8f17fea85",1,"Planets","2","Orange",TRUE,23169
+546,"69c737b258a269a8f17fea85",2,"Lines","1","Blue Line",TRUE,6657
+546,"69c737b258a269a8f17fea85",3,"CafeWall","3","Slanted / Diagonal",TRUE,19180
+546,"69c737b258a269a8f17fea85",4,"Robot","3","Mostly around the center of the square",TRUE,13742
+546,"69c737b258a269a8f17fea85",5,"Circles","2","Red Circle",TRUE,7732
+547,"6a0f59faa4c6e2f189433bd0",0,"Circles","2","Red Circle",TRUE,13620
+547,"6a0f59faa4c6e2f189433bd0",1,"Lines","1","Blue Line",TRUE,8986
+547,"6a0f59faa4c6e2f189433bd0",2,"Planets","2","Orange",TRUE,17908
+547,"6a0f59faa4c6e2f189433bd0",3,"Collision","1","Green Triangle Only",TRUE,15815
+547,"6a0f59faa4c6e2f189433bd0",4,"Robot","2","Mostly on the upper right of the square",FALSE,16709
+547,"6a0f59faa4c6e2f189433bd0",5,"CafeWall","3","Slanted / Diagonal",TRUE,12867
+549,"6a025143ab399f83cdaa9f16",0,"Robot","2","Mostly on the upper right of the square",FALSE,45425
+549,"6a025143ab399f83cdaa9f16",1,"CafeWall","1","Straight / Horizontal",FALSE,6187
+549,"6a025143ab399f83cdaa9f16",2,"Planets","2","Orange",TRUE,50313
+549,"6a025143ab399f83cdaa9f16",3,"Lines","1","Blue Line",TRUE,8827
+549,"6a025143ab399f83cdaa9f16",4,"Collision","1","Green Triangle Only",TRUE,26903
+549,"6a025143ab399f83cdaa9f16",5,"Circles","2","Red Circle",TRUE,12378
+550,"6a1db879da54dbca719304ac",0,"Lines","1","Blue Line",TRUE,11432
+550,"6a1db879da54dbca719304ac",1,"Collision","1","Green Triangle Only",TRUE,95610
+550,"6a1db879da54dbca719304ac",2,"Circles","2","Red Circle",TRUE,90602
+550,"6a1db879da54dbca719304ac",3,"CafeWall","3","Slanted / Diagonal",TRUE,66615
+550,"6a1db879da54dbca719304ac",4,"Robot","3","Mostly around the center of the square",TRUE,28972
+550,"6a1db879da54dbca719304ac",5,"Planets","2","Orange",TRUE,38213
+551,"6a1e059be15d3ecab31583cc",0,"Robot","2","Mostly on the upper right of the square",FALSE,13034
+551,"6a1e059be15d3ecab31583cc",1,"Circles","2","Red Circle",TRUE,7446
+551,"6a1e059be15d3ecab31583cc",2,"Collision","1","Green Triangle Only",TRUE,19194
+551,"6a1e059be15d3ecab31583cc",3,"Lines","1","Blue Line",TRUE,5420
+551,"6a1e059be15d3ecab31583cc",4,"Planets","2","Orange",TRUE,19747
+551,"6a1e059be15d3ecab31583cc",5,"CafeWall","3","Slanted / Diagonal",TRUE,13015
+552,"6a187b2c3dbf26183135f1b0",0,"Lines","1","Blue Line",TRUE,21536
+552,"6a187b2c3dbf26183135f1b0",1,"CafeWall","4","Mixed: some straight, some slanted",FALSE,64654
+552,"6a187b2c3dbf26183135f1b0",2,"Collision","1","Green Triangle Only",TRUE,104207
+552,"6a187b2c3dbf26183135f1b0",3,"Robot","2","Mostly on the upper right of the square",FALSE,85175
+552,"6a187b2c3dbf26183135f1b0",4,"Planets","2","Orange",TRUE,95260
+552,"6a187b2c3dbf26183135f1b0",5,"Circles","2","Red Circle",TRUE,35362
+553,"69ef36098cf562a8a5b1251f",0,"Robot","3","Mostly around the center of the square",TRUE,32835
+553,"69ef36098cf562a8a5b1251f",1,"Circles","1","Blue Circle",FALSE,28788
+553,"69ef36098cf562a8a5b1251f",2,"Lines","1","Blue Line",TRUE,9939
+553,"69ef36098cf562a8a5b1251f",3,"CafeWall","3","Slanted / Diagonal",TRUE,17088
+553,"69ef36098cf562a8a5b1251f",4,"Planets","2","Orange",TRUE,29774
+553,"69ef36098cf562a8a5b1251f",5,"Collision","2","Green Triangle and Green Rectangle",FALSE,23669
+554,"6a145aa365c08c04658ffeee",0,"Collision","1","Green Triangle Only",TRUE,24146
+554,"6a145aa365c08c04658ffeee",1,"Robot","3","Mostly around the center of the square",TRUE,24265
+554,"6a145aa365c08c04658ffeee",2,"CafeWall","3","Slanted / Diagonal",TRUE,26876
+554,"6a145aa365c08c04658ffeee",3,"Circles","2","Red Circle",TRUE,7277
+554,"6a145aa365c08c04658ffeee",4,"Planets","2","Orange",TRUE,11604
+554,"6a145aa365c08c04658ffeee",5,"Lines","1","Blue Line",TRUE,5657
+555,"69ed0c6734ee18b16b158c67",0,"Collision","1","Green Triangle Only",TRUE,21829
+555,"69ed0c6734ee18b16b158c67",1,"CafeWall","3","Slanted / Diagonal",TRUE,32989
+555,"69ed0c6734ee18b16b158c67",2,"Circles","2","Red Circle",TRUE,7494
+555,"69ed0c6734ee18b16b158c67",3,"Lines","1","Blue Line",TRUE,8302
+555,"69ed0c6734ee18b16b158c67",4,"Robot","3","Mostly around the center of the square",TRUE,15278
+555,"69ed0c6734ee18b16b158c67",5,"Planets","2","Orange",TRUE,23934
+556,"694eedb7740d679db46ab074",0,"Robot","2","Mostly on the upper right of the square",FALSE,37202
+556,"694eedb7740d679db46ab074",1,"Collision","1","Green Triangle Only",TRUE,30317
+556,"694eedb7740d679db46ab074",2,"CafeWall","1","Straight / Horizontal",FALSE,7754
+556,"694eedb7740d679db46ab074",3,"Lines","1","Blue Line",TRUE,14371
+556,"694eedb7740d679db46ab074",4,"Planets","2","Orange",TRUE,19950
+556,"694eedb7740d679db46ab074",5,"Circles","2","Red Circle",TRUE,8275
+558,"6a1069d8aa0ff8c561d3dc38",0,"Collision","1","Green Triangle Only",TRUE,14638
+558,"6a1069d8aa0ff8c561d3dc38",1,"Robot","3","Mostly around the center of the square",TRUE,17845
+558,"6a1069d8aa0ff8c561d3dc38",2,"CafeWall","3","Slanted / Diagonal",TRUE,30738
+558,"6a1069d8aa0ff8c561d3dc38",3,"Circles","2","Red Circle",TRUE,7014
+558,"6a1069d8aa0ff8c561d3dc38",4,"Planets","2","Orange",TRUE,19558
+558,"6a1069d8aa0ff8c561d3dc38",5,"Lines","1","Blue Line",TRUE,6680
+559,"6a123c523b041f4c3938a72b",0,"Robot","2","Mostly on the upper right of the square",FALSE,51984
+559,"6a123c523b041f4c3938a72b",1,"Lines","1","Blue Line",TRUE,27847
+559,"6a123c523b041f4c3938a72b",2,"Planets","2","Orange",TRUE,42051
+559,"6a123c523b041f4c3938a72b",3,"Circles","2","Red Circle",TRUE,32361
+559,"6a123c523b041f4c3938a72b",4,"CafeWall","3","Slanted / Diagonal",TRUE,76590
+559,"6a123c523b041f4c3938a72b",5,"Collision","1","Green Triangle Only",TRUE,53943
+561,"67006a23de43db9f90b363d2",0,"Robot","2","Mostly on the upper right of the square",FALSE,37306
+561,"67006a23de43db9f90b363d2",1,"Lines","1","Blue Line",TRUE,12934
+561,"67006a23de43db9f90b363d2",2,"Planets","2","Orange",TRUE,20931
+561,"67006a23de43db9f90b363d2",3,"Collision","1","Green Triangle Only",TRUE,38645
+561,"67006a23de43db9f90b363d2",4,"Circles","2","Red Circle",TRUE,9064
+561,"67006a23de43db9f90b363d2",5,"CafeWall","3","Slanted / Diagonal",TRUE,20513
+564,"66908eecc135ec77905c2810",0,"Robot","3","Mostly around the center of the square",TRUE,22219
+564,"66908eecc135ec77905c2810",1,"Circles","2","Red Circle",TRUE,19698
+564,"66908eecc135ec77905c2810",2,"Collision","1","Green Triangle Only",TRUE,28051
+564,"66908eecc135ec77905c2810",3,"Planets","2","Orange",TRUE,58800
+564,"66908eecc135ec77905c2810",4,"Lines","1","Blue Line",TRUE,13237
+564,"66908eecc135ec77905c2810",5,"CafeWall","3","Slanted / Diagonal",TRUE,25219
+565,"69e91f33f049227e93ed364b",0,"Collision","1","Green Triangle Only",TRUE,32590
+565,"69e91f33f049227e93ed364b",1,"Circles","2","Red Circle",TRUE,6500
+565,"69e91f33f049227e93ed364b",2,"CafeWall","3","Slanted / Diagonal",TRUE,16777
+565,"69e91f33f049227e93ed364b",3,"Planets","2","Orange",TRUE,21317
+565,"69e91f33f049227e93ed364b",4,"Lines","1","Blue Line",TRUE,8653
+565,"69e91f33f049227e93ed364b",5,"Robot","3","Mostly around the center of the square",TRUE,21574
+566,"6994c4a0a6dfd8f22f07a03e",0,"Lines","1","Blue Line",TRUE,21287
+566,"6994c4a0a6dfd8f22f07a03e",1,"Planets","2","Orange",TRUE,77818
+566,"6994c4a0a6dfd8f22f07a03e",2,"Robot","2","Mostly on the upper right of the square",FALSE,25474
+566,"6994c4a0a6dfd8f22f07a03e",3,"Collision","1","Green Triangle Only",TRUE,151787
+566,"6994c4a0a6dfd8f22f07a03e",4,"CafeWall","3","Slanted / Diagonal",TRUE,47874
+566,"6994c4a0a6dfd8f22f07a03e",5,"Circles","2","Red Circle",TRUE,40380
+568,"69e9e4b0403f283ee70a50ec",0,"Planets","2","Orange",TRUE,16047
+568,"69e9e4b0403f283ee70a50ec",1,"CafeWall","1","Straight / Horizontal",FALSE,15145
+568,"69e9e4b0403f283ee70a50ec",2,"Lines","1","Blue Line",TRUE,9142
+568,"69e9e4b0403f283ee70a50ec",3,"Circles","2","Red Circle",TRUE,6409
+568,"69e9e4b0403f283ee70a50ec",4,"Robot","2","Mostly on the upper right of the square",FALSE,11886
+568,"69e9e4b0403f283ee70a50ec",5,"Collision","1","Green Triangle Only",TRUE,36650
+569,"671d553e0d035028da7d29a1",0,"Robot","3","Mostly around the center of the square",TRUE,4756
+569,"671d553e0d035028da7d29a1",1,"Planets","2","Orange",TRUE,17023
+569,"671d553e0d035028da7d29a1",2,"Circles","2","Red Circle",TRUE,6083
+569,"671d553e0d035028da7d29a1",3,"CafeWall","3","Slanted / Diagonal",TRUE,3271
+569,"671d553e0d035028da7d29a1",4,"Collision","1","Green Triangle Only",TRUE,4439
+569,"671d553e0d035028da7d29a1",5,"Lines","1","Blue Line",TRUE,4951
+570,"6a0e33404f04beba45d473e5",0,"Lines","1","Blue Line",TRUE,6550
+570,"6a0e33404f04beba45d473e5",1,"Planets","2","Orange",TRUE,28419
+570,"6a0e33404f04beba45d473e5",2,"Robot","2","Mostly on the upper right of the square",FALSE,7738
+570,"6a0e33404f04beba45d473e5",3,"Circles","2","Red Circle",TRUE,4568
+570,"6a0e33404f04beba45d473e5",4,"Collision","1","Green Triangle Only",TRUE,19176
+570,"6a0e33404f04beba45d473e5",5,"CafeWall","4","Mixed: some straight, some slanted",FALSE,11779
+571,"69f97c65d0bbaa97a2a0eee9",0,"Robot","2","Mostly on the upper right of the square",FALSE,9952
+571,"69f97c65d0bbaa97a2a0eee9",1,"Planets","2","Orange",TRUE,27821
+571,"69f97c65d0bbaa97a2a0eee9",2,"Lines","1","Blue Line",TRUE,5484
+571,"69f97c65d0bbaa97a2a0eee9",3,"CafeWall","2","Slightly curved",FALSE,192750
+571,"69f97c65d0bbaa97a2a0eee9",4,"Collision","1","Green Triangle Only",TRUE,54791
+571,"69f97c65d0bbaa97a2a0eee9",5,"Circles","2","Red Circle",TRUE,9509
+572,"69fb85c62b92db7fae0e42a2",0,"Planets","2","Orange",TRUE,31782
+572,"69fb85c62b92db7fae0e42a2",1,"CafeWall","3","Slanted / Diagonal",TRUE,20172
+572,"69fb85c62b92db7fae0e42a2",2,"Lines","1","Blue Line",TRUE,8309
+572,"69fb85c62b92db7fae0e42a2",3,"Circles","2","Red Circle",TRUE,10635
+572,"69fb85c62b92db7fae0e42a2",4,"Robot","3","Mostly around the center of the square",TRUE,10193
+572,"69fb85c62b92db7fae0e42a2",5,"Collision","1","Green Triangle Only",TRUE,37421
+573,"6a1a833bccaec91552e625e0",0,"Planets","2","Orange",TRUE,38548
+573,"6a1a833bccaec91552e625e0",1,"Lines","1","Blue Line",TRUE,5757
+573,"6a1a833bccaec91552e625e0",2,"Robot","3","Mostly around the center of the square",TRUE,13369
+573,"6a1a833bccaec91552e625e0",3,"Circles","2","Red Circle",TRUE,8789
+573,"6a1a833bccaec91552e625e0",4,"CafeWall","3","Slanted / Diagonal",TRUE,13113
+573,"6a1a833bccaec91552e625e0",5,"Collision","1","Green Triangle Only",TRUE,16629
+574,"69c5d1997571942e781bc34d",0,"Collision","1","Green Triangle Only",TRUE,28579
+574,"69c5d1997571942e781bc34d",1,"Lines","1","Blue Line",TRUE,19523
+574,"69c5d1997571942e781bc34d",2,"Circles","2","Red Circle",TRUE,10632
+574,"69c5d1997571942e781bc34d",3,"Planets","2","Orange",TRUE,24739
+574,"69c5d1997571942e781bc34d",4,"CafeWall","3","Slanted / Diagonal",TRUE,46900
+574,"69c5d1997571942e781bc34d",5,"Robot","3","Mostly around the center of the square",TRUE,22654
+575,"6400db77211380d3116572fc",0,"CafeWall","3","Slanted / Diagonal",TRUE,18938
+575,"6400db77211380d3116572fc",1,"Lines","1","Blue Line",TRUE,8514
+575,"6400db77211380d3116572fc",2,"Robot","3","Mostly around the center of the square",TRUE,15439
+575,"6400db77211380d3116572fc",3,"Collision","1","Green Triangle Only",TRUE,18699
+575,"6400db77211380d3116572fc",4,"Planets","2","Orange",TRUE,29820
+575,"6400db77211380d3116572fc",5,"Circles","2","Red Circle",TRUE,8569
+576,"69fe12a3cbb83e4d288a6082",0,"Planets","2","Orange",TRUE,20204
+576,"69fe12a3cbb83e4d288a6082",1,"Circles","2","Red Circle",TRUE,10732
+576,"69fe12a3cbb83e4d288a6082",2,"Lines","1","Blue Line",TRUE,5187
+576,"69fe12a3cbb83e4d288a6082",3,"Collision","1","Green Triangle Only",TRUE,12234
+576,"69fe12a3cbb83e4d288a6082",4,"CafeWall","3","Slanted / Diagonal",TRUE,17729
+576,"69fe12a3cbb83e4d288a6082",5,"Robot","3","Mostly around the center of the square",TRUE,9239
+577,"67ad361485e9e78975aa08bb",0,"Collision","1","Green Triangle Only",TRUE,19796
+577,"67ad361485e9e78975aa08bb",1,"Circles","2","Red Circle",TRUE,215720
+577,"67ad361485e9e78975aa08bb",2,"CafeWall","3","Slanted / Diagonal",TRUE,17950
+577,"67ad361485e9e78975aa08bb",3,"Robot","3","Mostly around the center of the square",TRUE,15126
+577,"67ad361485e9e78975aa08bb",4,"Planets","2","Orange",TRUE,25167
+577,"67ad361485e9e78975aa08bb",5,"Lines","1","Blue Line",TRUE,19344
+580,"6a04738e80818a63446d3854",0,"Collision","1","Green Triangle Only",TRUE,33581
+580,"6a04738e80818a63446d3854",1,"Planets","2","Orange",TRUE,25119
+580,"6a04738e80818a63446d3854",2,"Lines","1","Blue Line",TRUE,8588
+580,"6a04738e80818a63446d3854",3,"CafeWall","3","Slanted / Diagonal",TRUE,24968
+580,"6a04738e80818a63446d3854",4,"Circles","2","Red Circle",TRUE,14796
+580,"6a04738e80818a63446d3854",5,"Robot","3","Mostly around the center of the square",TRUE,12937
+581,"6a0ba8cf0028e2dbd9543d01",0,"Circles","2","Red Circle",TRUE,18753
+581,"6a0ba8cf0028e2dbd9543d01",1,"Planets","2","Orange",TRUE,40183
+581,"6a0ba8cf0028e2dbd9543d01",2,"Lines","1","Blue Line",TRUE,6196
+581,"6a0ba8cf0028e2dbd9543d01",3,"CafeWall","3","Slanted / Diagonal",TRUE,23179
+581,"6a0ba8cf0028e2dbd9543d01",4,"Robot","2","Mostly on the upper right of the square",FALSE,11216
+581,"6a0ba8cf0028e2dbd9543d01",5,"Collision","1","Green Triangle Only",TRUE,44378
+582,"6a0225434a6fa72955c8b5cb",0,"Collision","1","Green Triangle Only",TRUE,39851
+582,"6a0225434a6fa72955c8b5cb",1,"Planets","1","Purple",FALSE,80593
+582,"6a0225434a6fa72955c8b5cb",2,"Lines","1","Blue Line",TRUE,10470
+582,"6a0225434a6fa72955c8b5cb",3,"CafeWall","4","Mixed: some straight, some slanted",FALSE,32306
+582,"6a0225434a6fa72955c8b5cb",4,"Circles","2","Red Circle",TRUE,12650
+582,"6a0225434a6fa72955c8b5cb",5,"Robot","3","Mostly around the center of the square",TRUE,27774
+583,"6a1f54c907df6d6555a168a7",0,"Lines","1","Blue Line",TRUE,16849
+583,"6a1f54c907df6d6555a168a7",1,"CafeWall","3","Slanted / Diagonal",TRUE,12714
+583,"6a1f54c907df6d6555a168a7",2,"Robot","3","Mostly around the center of the square",TRUE,29094
+583,"6a1f54c907df6d6555a168a7",3,"Planets","2","Orange",TRUE,25111
+583,"6a1f54c907df6d6555a168a7",4,"Collision","1","Green Triangle Only",TRUE,21589
+583,"6a1f54c907df6d6555a168a7",5,"Circles","2","Red Circle",TRUE,9430
+584,"6a14434573bcee3f17b7f762",0,"CafeWall","3","Slanted / Diagonal",TRUE,21717
+584,"6a14434573bcee3f17b7f762",1,"Robot","3","Mostly around the center of the square",TRUE,23047
+584,"6a14434573bcee3f17b7f762",2,"Planets","2","Orange",TRUE,25365
+584,"6a14434573bcee3f17b7f762",3,"Circles","2","Red Circle",TRUE,16618
+584,"6a14434573bcee3f17b7f762",4,"Collision","1","Green Triangle Only",TRUE,98933
+584,"6a14434573bcee3f17b7f762",5,"Lines","1","Blue Line",TRUE,42065
+585,"6a0aa663dacd2ed0bd2e9417",0,"Lines","1","Blue Line",TRUE,8083
+585,"6a0aa663dacd2ed0bd2e9417",1,"CafeWall","3","Slanted / Diagonal",TRUE,31498
+585,"6a0aa663dacd2ed0bd2e9417",2,"Collision","1","Green Triangle Only",TRUE,11398
+585,"6a0aa663dacd2ed0bd2e9417",3,"Robot","3","Mostly around the center of the square",TRUE,30549
+585,"6a0aa663dacd2ed0bd2e9417",4,"Planets","2","Orange",TRUE,28881
+585,"6a0aa663dacd2ed0bd2e9417",5,"Circles","2","Red Circle",TRUE,6965
+586,"69f636b26cb93c1c2da8b5e8",0,"CafeWall","3","Slanted / Diagonal",TRUE,18809
+586,"69f636b26cb93c1c2da8b5e8",1,"Robot","2","Mostly on the upper right of the square",FALSE,47012
+586,"69f636b26cb93c1c2da8b5e8",2,"Circles","2","Red Circle",TRUE,18173
+586,"69f636b26cb93c1c2da8b5e8",3,"Lines","1","Blue Line",TRUE,8043
+586,"69f636b26cb93c1c2da8b5e8",4,"Collision","1","Green Triangle Only",TRUE,31004
+586,"69f636b26cb93c1c2da8b5e8",5,"Planets","2","Orange",TRUE,36395
+587,"696a8631d83007aa07ed3744",0,"Planets","2","Orange",TRUE,93619
+587,"696a8631d83007aa07ed3744",1,"Robot","2","Mostly on the upper right of the square",FALSE,64535
+587,"696a8631d83007aa07ed3744",2,"Collision","1","Green Triangle Only",TRUE,52968
+587,"696a8631d83007aa07ed3744",3,"Lines","1","Blue Line",TRUE,41347
+587,"696a8631d83007aa07ed3744",4,"Circles","2","Red Circle",TRUE,10541
+587,"696a8631d83007aa07ed3744",5,"CafeWall","3","Slanted / Diagonal",TRUE,12971
+588,"6a0e8d08d2555ad9bd898834",0,"Collision","1","Green Triangle Only",TRUE,17781
+588,"6a0e8d08d2555ad9bd898834",1,"CafeWall","3","Slanted / Diagonal",TRUE,14874
+588,"6a0e8d08d2555ad9bd898834",2,"Circles","2","Red Circle",TRUE,11198
+588,"6a0e8d08d2555ad9bd898834",3,"Lines","1","Blue Line",TRUE,8183
+588,"6a0e8d08d2555ad9bd898834",4,"Robot","3","Mostly around the center of the square",TRUE,11563
+588,"6a0e8d08d2555ad9bd898834",5,"Planets","2","Orange",TRUE,20857
+590,"69b7603c614bdbf78dd9517d",0,"Collision","1","Green Triangle Only",TRUE,45125
+590,"69b7603c614bdbf78dd9517d",1,"CafeWall","3","Slanted / Diagonal",TRUE,21836
+590,"69b7603c614bdbf78dd9517d",2,"Circles","2","Red Circle",TRUE,15079
+590,"69b7603c614bdbf78dd9517d",3,"Robot","3","Mostly around the center of the square",TRUE,16971
+590,"69b7603c614bdbf78dd9517d",4,"Lines","1","Blue Line",TRUE,6733
+590,"69b7603c614bdbf78dd9517d",5,"Planets","2","Orange",TRUE,34649
+591,"69cec7f5dd3995a6f516889e",0,"Robot","3","Mostly around the center of the square",TRUE,17408
+591,"69cec7f5dd3995a6f516889e",1,"CafeWall","3","Slanted / Diagonal",TRUE,16737
+591,"69cec7f5dd3995a6f516889e",2,"Collision","1","Green Triangle Only",TRUE,19498
+591,"69cec7f5dd3995a6f516889e",3,"Lines","1","Blue Line",TRUE,14067
+591,"69cec7f5dd3995a6f516889e",4,"Circles","2","Red Circle",TRUE,10858
+591,"69cec7f5dd3995a6f516889e",5,"Planets","2","Orange",TRUE,37397
+592,"69c76cae3dd59b0360b7963b",0,"Collision","1","Green Triangle Only",TRUE,25407
+592,"69c76cae3dd59b0360b7963b",1,"Circles","2","Red Circle",TRUE,12041
+592,"69c76cae3dd59b0360b7963b",2,"Planets","2","Orange",TRUE,24118
+592,"69c76cae3dd59b0360b7963b",3,"Lines","1","Blue Line",TRUE,6105
+592,"69c76cae3dd59b0360b7963b",4,"Robot","3","Mostly around the center of the square",TRUE,17146
+592,"69c76cae3dd59b0360b7963b",5,"CafeWall","3","Slanted / Diagonal",TRUE,21144
+593,"6727e176e5f011b020a6a2db",0,"Robot","2","Mostly on the upper right of the square",FALSE,6834
+593,"6727e176e5f011b020a6a2db",1,"Planets","2","Orange",TRUE,23084
+593,"6727e176e5f011b020a6a2db",2,"CafeWall","3","Slanted / Diagonal",TRUE,26166
+593,"6727e176e5f011b020a6a2db",3,"Circles","2","Red Circle",TRUE,9649
+593,"6727e176e5f011b020a6a2db",4,"Collision","1","Green Triangle Only",TRUE,15963
+593,"6727e176e5f011b020a6a2db",5,"Lines","1","Blue Line",TRUE,4433
+594,"698eb6b5e44d9777c0534149",0,"Planets","2","Orange",TRUE,68417
+594,"698eb6b5e44d9777c0534149",1,"CafeWall","3","Slanted / Diagonal",TRUE,11799
+594,"698eb6b5e44d9777c0534149",2,"Robot","3","Mostly around the center of the square",TRUE,14881
+594,"698eb6b5e44d9777c0534149",3,"Circles","2","Red Circle",TRUE,16749
+594,"698eb6b5e44d9777c0534149",4,"Collision","1","Green Triangle Only",TRUE,17648
+594,"698eb6b5e44d9777c0534149",5,"Lines","2","Red Line",FALSE,4966
+595,"5c84ed7d4b0de20019350e1e",0,"Circles","2","Red Circle",TRUE,8392
+595,"5c84ed7d4b0de20019350e1e",1,"Lines","1","Blue Line",TRUE,6243
+595,"5c84ed7d4b0de20019350e1e",2,"CafeWall","3","Slanted / Diagonal",TRUE,6716
+595,"5c84ed7d4b0de20019350e1e",3,"Collision","1","Green Triangle Only",TRUE,20262
+595,"5c84ed7d4b0de20019350e1e",4,"Planets","2","Orange",TRUE,16503
+595,"5c84ed7d4b0de20019350e1e",5,"Robot","3","Mostly around the center of the square",TRUE,10362
+596,"69a3995c9cb670e922c6646c",0,"Robot","3","Mostly around the center of the square",TRUE,12371
+596,"69a3995c9cb670e922c6646c",1,"Lines","1","Blue Line",TRUE,8335
+596,"69a3995c9cb670e922c6646c",2,"Circles","2","Red Circle",TRUE,9698
+596,"69a3995c9cb670e922c6646c",3,"CafeWall","3","Slanted / Diagonal",TRUE,15113
+596,"69a3995c9cb670e922c6646c",4,"Collision","1","Green Triangle Only",TRUE,23918
+596,"69a3995c9cb670e922c6646c",5,"Planets","2","Orange",TRUE,22329
+598,"6a0b156642edf5bdaa85593c",0,"Collision","1","Green Triangle Only",TRUE,12713
+598,"6a0b156642edf5bdaa85593c",1,"Lines","1","Blue Line",TRUE,7955
+598,"6a0b156642edf5bdaa85593c",2,"CafeWall","3","Slanted / Diagonal",TRUE,13947
+598,"6a0b156642edf5bdaa85593c",3,"Planets","2","Orange",TRUE,18725
+598,"6a0b156642edf5bdaa85593c",4,"Circles","2","Red Circle",TRUE,6467
+598,"6a0b156642edf5bdaa85593c",5,"Robot","3","Mostly around the center of the square",TRUE,13733
+602,NA,0,"Lines","1","Blue Line",TRUE,14371
+602,NA,1,"Robot","3","Mostly around the center of the square",TRUE,45581
+602,NA,2,"CafeWall","3","Slanted / Diagonal",TRUE,31630
+602,NA,3,"Planets","2","Orange",TRUE,23946
+602,NA,4,"Circles","2","Red Circle",TRUE,12433
+602,NA,5,"Collision","1","Green Triangle Only",TRUE,17963
+604,"69caa4d91032ecb7350b7df1",0,"CafeWall","3","Slanted / Diagonal",TRUE,84350
+604,"69caa4d91032ecb7350b7df1",1,"Collision","1","Green Triangle Only",TRUE,23747
+604,"69caa4d91032ecb7350b7df1",2,"Robot","3","Mostly around the center of the square",TRUE,11948
+604,"69caa4d91032ecb7350b7df1",3,"Circles","2","Red Circle",TRUE,5816
+604,"69caa4d91032ecb7350b7df1",4,"Planets","2","Orange",TRUE,35314
+604,"69caa4d91032ecb7350b7df1",5,"Lines","1","Blue Line",TRUE,5098
+605,"6a058f04b3b6ce4728fbb3a3",0,"Collision","1","Green Triangle Only",TRUE,10800
+605,"6a058f04b3b6ce4728fbb3a3",1,"Lines","1","Blue Line",TRUE,4649
+605,"6a058f04b3b6ce4728fbb3a3",2,"CafeWall","1","Straight / Horizontal",FALSE,9238
+605,"6a058f04b3b6ce4728fbb3a3",3,"Robot","3","Mostly around the center of the square",TRUE,21159
+605,"6a058f04b3b6ce4728fbb3a3",4,"Planets","2","Orange",TRUE,10455
+605,"6a058f04b3b6ce4728fbb3a3",5,"Circles","2","Red Circle",TRUE,13688
+607,"69f5ffead896ece4c5fe58e2",0,"Circles","2","Red Circle",TRUE,6672
+607,"69f5ffead896ece4c5fe58e2",1,"Robot","2","Mostly on the upper right of the square",FALSE,16643
+607,"69f5ffead896ece4c5fe58e2",2,"Lines","1","Blue Line",TRUE,15362
+607,"69f5ffead896ece4c5fe58e2",3,"CafeWall","1","Straight / Horizontal",FALSE,11575
+607,"69f5ffead896ece4c5fe58e2",4,"Collision","1","Green Triangle Only",TRUE,60294
+607,"69f5ffead896ece4c5fe58e2",5,"Planets","1","Purple",FALSE,44696
+608,"6a1ec1fad25db28c877281e4",0,"Collision","1","Green Triangle Only",TRUE,147568
+608,"6a1ec1fad25db28c877281e4",1,"Planets","1","Purple",FALSE,110378
+608,"6a1ec1fad25db28c877281e4",2,"CafeWall","4","Mixed: some straight, some slanted",FALSE,80472
+608,"6a1ec1fad25db28c877281e4",3,"Circles","2","Red Circle",TRUE,24741
+608,"6a1ec1fad25db28c877281e4",4,"Robot","3","Mostly around the center of the square",TRUE,76402
+608,"6a1ec1fad25db28c877281e4",5,"Lines","1","Blue Line",TRUE,10076
+609,"69a775b189904fa2c43c4cf7",0,"CafeWall","3","Slanted / Diagonal",TRUE,10945
+609,"69a775b189904fa2c43c4cf7",1,"Collision","1","Green Triangle Only",TRUE,30229
+609,"69a775b189904fa2c43c4cf7",2,"Robot","3","Mostly around the center of the square",TRUE,13088
+609,"69a775b189904fa2c43c4cf7",3,"Lines","1","Blue Line",TRUE,13737
+609,"69a775b189904fa2c43c4cf7",4,"Planets","2","Orange",TRUE,17032
+609,"69a775b189904fa2c43c4cf7",5,"Circles","2","Red Circle",TRUE,9872
+610,"671d3d7670c13868fc01e5f6",0,"Collision","1","Green Triangle Only",TRUE,26088
+610,"671d3d7670c13868fc01e5f6",1,"Planets","2","Orange",TRUE,28196
+610,"671d3d7670c13868fc01e5f6",2,"Robot","3","Mostly around the center of the square",TRUE,32213
+610,"671d3d7670c13868fc01e5f6",3,"Circles","2","Red Circle",TRUE,10360
+610,"671d3d7670c13868fc01e5f6",4,"Lines","2","Red Line",FALSE,15065
+610,"671d3d7670c13868fc01e5f6",5,"CafeWall","4","Mixed: some straight, some slanted",FALSE,16115
+612,"670420d4f05d7af4f85651e4",0,"Planets","2","Orange",TRUE,26643
+612,"670420d4f05d7af4f85651e4",1,"Robot","3","Mostly around the center of the square",TRUE,15665
+612,"670420d4f05d7af4f85651e4",2,"Lines","1","Blue Line",TRUE,9347
+612,"670420d4f05d7af4f85651e4",3,"Collision","1","Green Triangle Only",TRUE,38460
+612,"670420d4f05d7af4f85651e4",4,"Circles","2","Red Circle",TRUE,6421
+612,"670420d4f05d7af4f85651e4",5,"CafeWall","3","Slanted / Diagonal",TRUE,8133
+613,"6997be27e376b1f7355cb8bb",0,"Lines","1","Blue Line",TRUE,5814
+613,"6997be27e376b1f7355cb8bb",1,"Planets","2","Orange",TRUE,15415
+613,"6997be27e376b1f7355cb8bb",2,"Robot","3","Mostly around the center of the square",TRUE,6930
+613,"6997be27e376b1f7355cb8bb",3,"Collision","1","Green Triangle Only",TRUE,15118
+613,"6997be27e376b1f7355cb8bb",4,"CafeWall","3","Slanted / Diagonal",TRUE,6564
+613,"6997be27e376b1f7355cb8bb",5,"Circles","2","Red Circle",TRUE,5080
+614,"69e12b3d97a65aaf13fe0ea3",0,"Robot","3","Mostly around the center of the square",TRUE,16333
+614,"69e12b3d97a65aaf13fe0ea3",1,"Lines","1","Blue Line",TRUE,6620
+614,"69e12b3d97a65aaf13fe0ea3",2,"Planets","2","Orange",TRUE,31743
+614,"69e12b3d97a65aaf13fe0ea3",3,"Collision","1","Green Triangle Only",TRUE,24755
+614,"69e12b3d97a65aaf13fe0ea3",4,"CafeWall","3","Slanted / Diagonal",TRUE,7980
+614,"69e12b3d97a65aaf13fe0ea3",5,"Circles","2","Red Circle",TRUE,10986
+616,"675b6faf10ae4b79d1d6455e",0,"CafeWall","4","Mixed: some straight, some slanted",FALSE,43438
+616,"675b6faf10ae4b79d1d6455e",1,"Planets","1","Purple",FALSE,157242
+616,"675b6faf10ae4b79d1d6455e",2,"Collision","3","Blue Triangle and Orange Circle",FALSE,46907
+616,"675b6faf10ae4b79d1d6455e",3,"Lines","1","Blue Line",TRUE,20684
+616,"675b6faf10ae4b79d1d6455e",4,"Circles","2","Red Circle",TRUE,13228
+616,"675b6faf10ae4b79d1d6455e",5,"Robot","3","Mostly around the center of the square",TRUE,32607
+619,"6978c19595331238482129c4",0,"Planets","2","Orange",TRUE,16934
+619,"6978c19595331238482129c4",1,"Circles","2","Red Circle",TRUE,9096
+619,"6978c19595331238482129c4",2,"Lines","1","Blue Line",TRUE,5714
+619,"6978c19595331238482129c4",3,"Collision","1","Green Triangle Only",TRUE,14831
+619,"6978c19595331238482129c4",4,"Robot","3","Mostly around the center of the square",TRUE,9649
+619,"6978c19595331238482129c4",5,"CafeWall","3","Slanted / Diagonal",TRUE,19547
+622,"6a202d4defe12049536d8206",0,"Lines","1","Blue Line",TRUE,18930
+622,"6a202d4defe12049536d8206",1,"Collision","1","Green Triangle Only",TRUE,24051
+622,"6a202d4defe12049536d8206",2,"CafeWall","3","Slanted / Diagonal",TRUE,27059
+622,"6a202d4defe12049536d8206",3,"Planets","2","Orange",TRUE,19288
+622,"6a202d4defe12049536d8206",4,"Robot","3","Mostly around the center of the square",TRUE,10094
+622,"6a202d4defe12049536d8206",5,"Circles","2","Red Circle",TRUE,6227
+623,"6a1c6e4718629102f9535935",0,"Circles","2","Red Circle",TRUE,12500
+623,"6a1c6e4718629102f9535935",1,"Lines","1","Blue Line",TRUE,15131
+623,"6a1c6e4718629102f9535935",2,"CafeWall","3","Slanted / Diagonal",TRUE,43964
+623,"6a1c6e4718629102f9535935",3,"Collision","1","Green Triangle Only",TRUE,23649
+623,"6a1c6e4718629102f9535935",4,"Robot","3","Mostly around the center of the square",TRUE,26199
+623,"6a1c6e4718629102f9535935",5,"Planets","2","Orange",TRUE,18265
+625,"69d6a13d0c2c7773c90c35ea",0,"CafeWall","3","Slanted / Diagonal",TRUE,10770
+625,"69d6a13d0c2c7773c90c35ea",1,"Lines","1","Blue Line",TRUE,5672
+625,"69d6a13d0c2c7773c90c35ea",2,"Circles","2","Red Circle",TRUE,9325
+625,"69d6a13d0c2c7773c90c35ea",3,"Robot","2","Mostly on the upper right of the square",FALSE,11904
+625,"69d6a13d0c2c7773c90c35ea",4,"Collision","1","Green Triangle Only",TRUE,14634
+625,"69d6a13d0c2c7773c90c35ea",5,"Planets","2","Orange",TRUE,20198
+626,"69adf2cdaf8da92b2d67c99a",0,"Collision","1","Green Triangle Only",TRUE,24135
+626,"69adf2cdaf8da92b2d67c99a",1,"Planets","2","Orange",TRUE,25264
+626,"69adf2cdaf8da92b2d67c99a",2,"Robot","3","Mostly around the center of the square",TRUE,13215
+626,"69adf2cdaf8da92b2d67c99a",3,"Lines","1","Blue Line",TRUE,15185
+626,"69adf2cdaf8da92b2d67c99a",4,"Circles","2","Red Circle",TRUE,6517
+626,"69adf2cdaf8da92b2d67c99a",5,"CafeWall","3","Slanted / Diagonal",TRUE,14166
+627,"5eeebe538b23c013d8843b85",0,"Planets","2","Orange",TRUE,56999
+627,"5eeebe538b23c013d8843b85",1,"Robot","3","Mostly around the center of the square",TRUE,27294
+627,"5eeebe538b23c013d8843b85",2,"CafeWall","3","Slanted / Diagonal",TRUE,66854
+627,"5eeebe538b23c013d8843b85",3,"Collision","1","Green Triangle Only",TRUE,39679
+627,"5eeebe538b23c013d8843b85",4,"Lines","1","Blue Line",TRUE,15230
+627,"5eeebe538b23c013d8843b85",5,"Circles","2","Red Circle",TRUE,9832
+628,"69f7d0570e04b2ae2c3e7e26",0,"Planets","2","Orange",TRUE,16049
+628,"69f7d0570e04b2ae2c3e7e26",1,"Circles","2","Red Circle",TRUE,15380
+628,"69f7d0570e04b2ae2c3e7e26",2,"Lines","1","Blue Line",TRUE,14314
+628,"69f7d0570e04b2ae2c3e7e26",3,"Collision","1","Green Triangle Only",TRUE,30382
+628,"69f7d0570e04b2ae2c3e7e26",4,"Robot","3","Mostly around the center of the square",TRUE,11048
+628,"69f7d0570e04b2ae2c3e7e26",5,"CafeWall","3","Slanted / Diagonal",TRUE,13532
+630,"6a1b3fe279a44a28205a2ad1",0,"Circles","2","Red Circle",TRUE,16640
+630,"6a1b3fe279a44a28205a2ad1",1,"Lines","1","Blue Line",TRUE,7543
+630,"6a1b3fe279a44a28205a2ad1",2,"CafeWall","4","Mixed: some straight, some slanted",FALSE,48261
+630,"6a1b3fe279a44a28205a2ad1",3,"Robot","2","Mostly on the upper right of the square",FALSE,16368
+630,"6a1b3fe279a44a28205a2ad1",4,"Planets","2","Orange",TRUE,30299
+630,"6a1b3fe279a44a28205a2ad1",5,"Collision","1","Green Triangle Only",TRUE,30263

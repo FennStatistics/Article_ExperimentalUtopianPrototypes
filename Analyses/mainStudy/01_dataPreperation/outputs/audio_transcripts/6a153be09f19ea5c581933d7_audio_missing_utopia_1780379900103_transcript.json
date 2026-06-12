@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a153be09f19ea5c581933d7_audio_missing_utopia_1780379900103.webm",
+  "transcript": " My missing society would probably have to be interdisciplinary, some of the values interdisciplinary, not just a strong focus on one sector, like eco-friendly laws, scientific laws, a law society, a moral society. I want like overlap. So if there was an interdisciplinary world that combined components of multiple of what we saw, that would probably be a missing utopia. But I can't think of just like a single category itself that could be missing off the top of my mind. I can't really find one personally.",
+  "language": "unknown",
+  "processing_time_seconds": 10.125396,
+  "timestamp": "2026-06-08T11:03:50.735271",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.78
+      ],
+      "text": " My missing society would probably have to be interdisciplinary, some of the values interdisciplinary, not just a strong focus on one sector, like eco-friendly laws, scientific laws, a law society, a moral society."
+    },
+    {
+      "timestamp": [
+        23.78,
+        32.24
+      ],
+      "text": " I want like overlap. So if there was an interdisciplinary world that combined components"
+    },
+    {
+      "timestamp": [
+        32.24,
+        39.6
+      ],
+      "text": " of multiple of what we saw, that would probably be a missing utopia. But I can't think of just"
+    },
+    {
+      "timestamp": [
+        39.6,
+        46.96
+      ],
+      "text": " like a single category itself that could be missing off the top of my mind. I can't really"
+    },
+    {
+      "timestamp": [
+        46.96,
+        48.68
+      ],
+      "text": " find one personally."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a18843526336de36269db51_audio_missing_utopia_1780425881550.webm",
+  "transcript": " I don't think there was anything missing. I think all the societies were pretty good. Yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 4.972658,
+  "timestamp": "2026-06-08T11:10:39.782381",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.4
+      ],
+      "text": " I don't think there was anything missing. I think all the societies were pretty good. Yeah."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "audio_file": "627a65a2439f59544115d476_audio_ranking_explanation_1780406199344.webm",
+  "transcript": " um i think with like the futuristic utopia uh with the science and innovation um you could um you know grow the society and you know be more technologically advanced over the years whereas you know the religious utopia um it would be more restricted um you would have to follow strict um beliefs that you even may not even believe in and it would just be more restricted into more daily lives.",
+  "language": "unknown",
+  "processing_time_seconds": 9.181091,
+  "timestamp": "2026-06-08T08:24:54.642009",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.64
+      ],
+      "text": " um i think with like the futuristic utopia uh with the science and innovation um you could um"
+    },
+    {
+      "timestamp": [
+        8.64,
+        16.52
+      ],
+      "text": " you know grow the society and you know be more technologically advanced over the years whereas"
+    },
+    {
+      "timestamp": [
+        16.52,
+        22.48
+      ],
+      "text": " you know the religious utopia um it would be more restricted um you would have to follow strict"
+    },
+    {
+      "timestamp": [
+        22.48,
+        28.96
+      ],
+      "text": " um beliefs that you even may not even believe in and it would just be more restricted into"
+    },
+    {
+      "timestamp": [
+        28.96,
+        30.92
+      ],
+      "text": " more daily lives."
+    }
+  ]
+}

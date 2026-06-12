@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a1e0720b565233b3d6a164c_audio_missing_utopia_1780390991651.webm",
+  "transcript": " I feel that most of my values were in each of the approaches because what I value is honesty, kindness, taking responsibility for one's actions, and being able to live together peacefully.",
+  "language": "unknown",
+  "processing_time_seconds": 5.646428,
+  "timestamp": "2026-06-08T11:30:20.407953",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.68
+      ],
+      "text": " I feel that most of my values were in each of the approaches because what I"
+    },
+    {
+      "timestamp": [
+        8.68,
+        16.78
+      ],
+      "text": " value is honesty, kindness, taking responsibility for one's actions, and"
+    },
+    {
+      "timestamp": [
+        16.78,
+        21.9
+      ],
+      "text": " being able to live together peacefully."
+    }
+  ]
+}

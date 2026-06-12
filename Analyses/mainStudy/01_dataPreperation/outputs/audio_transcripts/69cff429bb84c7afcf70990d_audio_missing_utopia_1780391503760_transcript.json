@@ -1,0 +1,87 @@
+{
+  "audio_file": "69cff429bb84c7afcf70990d_audio_missing_utopia_1780391503760.webm",
+  "transcript": " Yeah, I mean, as far as values that were completely missing, as this study has definitely kind of touched the basis of what's important to society. um what i feel is closest or what is missing the closest comparison would be with the morality based society is there's a difference between doing the right thing and then actively doing more to benefit your fellow man and i and in my version of like a perfect utopia the organizing It's basically like a benevolent dictatorship, I guess, where for one way or another, there's people who actually have the best interest of the society at heart, and it somehow stays that way. and their whole lives are dedicated to actually improving the lives of the people who live in the society and taking care of them as opposed to what we have where leaders in society are pretty much just the elite and there's so many ways they exploit us. I feel like that is the best kind of utopia that could happen. and also ideally more realistic than the others.",
+  "language": "unknown",
+  "processing_time_seconds": 19.93223,
+  "timestamp": "2026-06-08T09:30:10.148889",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.92
+      ],
+      "text": " Yeah, I mean, as far as values that were completely missing, as this study has definitely kind of touched the basis of what's important to society."
+    },
+    {
+      "timestamp": [
+        15.9,
+        14.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        23.0,
+        30.48
+      ],
+      "text": " um what i feel is closest or what is missing the closest comparison would be with the morality based society is there's a difference between doing the right thing and then actively doing"
+    },
+    {
+      "timestamp": [
+        30.48,
+        41.62
+      ],
+      "text": " more to benefit your fellow man and i and in my version of like a perfect utopia the organizing"
+    },
+    {
+      "timestamp": [
+        41.62,
+        63.24
+      ],
+      "text": " It's basically like a benevolent dictatorship, I guess, where for one way or another, there's people who actually have the best interest of the society at heart, and it somehow stays that way."
+    },
+    {
+      "timestamp": [
+        63.7,
+        63.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        70.04,
+        75.56
+      ],
+      "text": " and their whole lives are dedicated to actually improving the lives of the people who live in the society and taking care of them"
+    },
+    {
+      "timestamp": [
+        75.56,
+        81.48
+      ],
+      "text": " as opposed to what we have where leaders in society are pretty much just the elite"
+    },
+    {
+      "timestamp": [
+        81.48,
+        85.32
+      ],
+      "text": " and there's so many ways they exploit us."
+    },
+    {
+      "timestamp": [
+        86.94,
+        91.44
+      ],
+      "text": " I feel like that is the best kind of utopia that could happen."
+    },
+    {
+      "timestamp": [
+        93.24,
+        98.24
+      ],
+      "text": " and also ideally more realistic than the others."
+    }
+  ]
+}

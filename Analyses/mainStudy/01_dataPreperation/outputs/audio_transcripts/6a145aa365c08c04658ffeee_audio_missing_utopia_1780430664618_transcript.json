@@ -1,0 +1,73 @@
+{
+  "audio_file": "6a145aa365c08c04658ffeee_audio_missing_utopia_1780430664618.webm",
+  "transcript": " i think that there are a lot of these i could combine into one and maybe set some specific ideals or morals or um just specific things that i could that i could change there are a lot of these that i would answer like it depends based on like again i'm a christian if it was a if it's islamic majority and that's the religion we're under obviously i wouldn't be a fan if it's a christian majority obviously i would be a fan and there's a lot that goes into that and i'm not saying like you know hey any christian should run you know the government and make all the rules um but there's a lot more that goes into it than just like than that but uh i think there's there's a part of it that is like a lot of these seven could be taken parts of them and be um the ideal future society.",
+  "language": "unknown",
+  "processing_time_seconds": 15.618856,
+  "timestamp": "2026-06-08T10:59:28.055736",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.36
+      ],
+      "text": " i think that there are a lot of these i could combine into one and maybe set some specific"
+    },
+    {
+      "timestamp": [
+        8.36,
+        16.9
+      ],
+      "text": " ideals or morals or um just specific things that i could that i could change there are a lot of"
+    },
+    {
+      "timestamp": [
+        16.9,
+        21.54
+      ],
+      "text": " these that i would answer like it depends based on like again i'm a christian if it was a if it's"
+    },
+    {
+      "timestamp": [
+        21.54,
+        25.76
+      ],
+      "text": " islamic majority and that's the religion we're under obviously i wouldn't be a fan if it's a"
+    },
+    {
+      "timestamp": [
+        25.76,
+        30.22
+      ],
+      "text": " christian majority obviously i would be a fan and there's a lot that goes into that and i'm not"
+    },
+    {
+      "timestamp": [
+        30.22,
+        37.3
+      ],
+      "text": " saying like you know hey any christian should run you know the government and make all the rules um"
+    },
+    {
+      "timestamp": [
+        37.3,
+        46.1
+      ],
+      "text": " but there's a lot more that goes into it than just like than that but uh i think there's there's a"
+    },
+    {
+      "timestamp": [
+        46.1,
+        54.56
+      ],
+      "text": " part of it that is like a lot of these seven could be taken parts of them and be um the ideal future"
+    },
+    {
+      "timestamp": [
+        54.56,
+        55.12
+      ],
+      "text": " society."
+    }
+  ]
+}

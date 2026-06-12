@@ -1,0 +1,17 @@
+{
+  "audio_file": "69860bbcee09b238984c4158_audio_ranking_explanation_1780410532419.webm",
+  "transcript": " AI government is not ideal and with a religious center just wouldn't do the best, but I think, you know, science and innovation is our future and being sustainable and mature as well as just having the rule of law is the best way to do it.",
+  "language": "unknown",
+  "processing_time_seconds": 5.903489,
+  "timestamp": "2026-06-08T08:59:30.886273",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.72
+      ],
+      "text": " AI government is not ideal and with a religious center just wouldn't do the best, but I think, you know, science and innovation is our future and being sustainable and mature as well as just having the rule of law is the best way to do it."
+    }
+  ]
+}

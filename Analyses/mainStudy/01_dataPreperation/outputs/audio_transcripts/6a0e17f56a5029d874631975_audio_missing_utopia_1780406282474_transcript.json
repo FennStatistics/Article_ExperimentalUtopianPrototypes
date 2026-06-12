@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a0e17f56a5029d874631975_audio_missing_utopia_1780406282474.webm",
+  "transcript": " I think living in like a Hunger Games society would probably be the only thing that was missing. I think that type of society could be something that actually happens and it's kind of a combination of all of them.",
+  "language": "unknown",
+  "processing_time_seconds": 5.885531,
+  "timestamp": "2026-06-08T10:44:40.770428",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.0
+      ],
+      "text": " I think living in like a Hunger Games society would probably be the only thing that was"
+    },
+    {
+      "timestamp": [
+        7.0,
+        8.0
+      ],
+      "text": " missing."
+    },
+    {
+      "timestamp": [
+        8.0,
+        13.54
+      ],
+      "text": " I think that type of society could be something that actually happens and it's kind of a combination"
+    },
+    {
+      "timestamp": [
+        13.54,
+        16.08
+      ],
+      "text": " of all of them."
+    }
+  ]
+}

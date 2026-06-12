@@ -1,0 +1,17 @@
+{
+  "audio_file": "69f636b26cb93c1c2da8b5e8_audio_ranking_explanation_1780447412047.webm",
+  "transcript": " Do you want to go back inside?",
+  "language": "unknown",
+  "processing_time_seconds": 4.457095,
+  "timestamp": "2026-06-08T09:59:29.662698",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.6
+      ],
+      "text": " Do you want to go back inside?"
+    }
+  ]
+}

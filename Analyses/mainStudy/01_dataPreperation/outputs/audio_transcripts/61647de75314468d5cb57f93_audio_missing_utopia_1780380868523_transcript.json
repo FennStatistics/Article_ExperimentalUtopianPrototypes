@@ -1,0 +1,17 @@
+{
+  "audio_file": "61647de75314468d5cb57f93_audio_missing_utopia_1780380868523.webm",
+  "transcript": " I feel what was missing would be entertainment because I think that's an important aspect of society like having sports, having celebrities, having music. That's what makes a society exciting and what we live upon. And I feel like that was missing from my vision of society.",
+  "language": "unknown",
+  "processing_time_seconds": 6.082722,
+  "timestamp": "2026-06-08T08:24:30.701293",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.64
+      ],
+      "text": " I feel what was missing would be entertainment because I think that's an important aspect of society like having sports, having celebrities, having music. That's what makes a society exciting and what we live upon. And I feel like that was missing from my vision of society."
+    }
+  ]
+}

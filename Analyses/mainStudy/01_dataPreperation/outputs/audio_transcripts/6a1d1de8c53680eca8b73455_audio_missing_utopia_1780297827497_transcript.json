@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a1d1de8c53680eca8b73455_audio_missing_utopia_1780297827497.webm",
+  "transcript": " I do like some of the ones that had religion and law because you need good values and then in protection you need law and regulation to uphold how everything is ran.",
+  "language": "unknown",
+  "processing_time_seconds": 5.351864,
+  "timestamp": "2026-06-08T11:24:31.588530",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.68
+      ],
+      "text": " I do like some of the ones that had religion and law because you need good values and then in protection you need law and regulation to uphold how everything is ran."
+    }
+  ]
+}

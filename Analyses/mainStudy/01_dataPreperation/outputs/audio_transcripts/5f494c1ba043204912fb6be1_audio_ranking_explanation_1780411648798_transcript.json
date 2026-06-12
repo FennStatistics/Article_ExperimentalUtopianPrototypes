@@ -1,0 +1,59 @@
+{
+  "audio_file": "5f494c1ba043204912fb6be1_audio_ranking_explanation_1780411648798.webm",
+  "transcript": " I ranked them in the order that I would want to live um moral commonwealth seemed the most preferred to me the most ideal I think I'd be happiest I'd be most happy in that society um primitive primitive utopia not so much seems like would be hard and lacking a lot of necessities definitely wouldn't want the religious one to live in a religious society and i wouldn't want to live in an ai driven one either Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 11.808951,
+  "timestamp": "2026-06-08T08:17:36.621532",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.84
+      ],
+      "text": " I ranked them in the order that I would want to live um moral commonwealth seemed the most"
+    },
+    {
+      "timestamp": [
+        11.84,
+        21.68
+      ],
+      "text": " preferred to me the most ideal I think I'd be happiest I'd be most happy in that society"
+    },
+    {
+      "timestamp": [
+        23.44,
+        21.68
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        35.2,
+        38.88
+      ],
+      "text": " um primitive primitive utopia not so much seems like would be hard and lacking a lot of necessities"
+    },
+    {
+      "timestamp": [
+        43.52,
+        46.08
+      ],
+      "text": " definitely wouldn't want the religious one to live in a religious society"
+    },
+    {
+      "timestamp": [
+        48.96,
+        51.68
+      ],
+      "text": " and i wouldn't want to live in an ai driven one either"
+    },
+    {
+      "timestamp": [
+        81.66,
+        null
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

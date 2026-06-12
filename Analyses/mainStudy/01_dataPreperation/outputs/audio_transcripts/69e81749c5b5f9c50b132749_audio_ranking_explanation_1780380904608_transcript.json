@@ -1,0 +1,31 @@
+{
+  "audio_file": "69e81749c5b5f9c50b132749_audio_ranking_explanation_1780380904608.webm",
+  "transcript": " I ranked most of these societies on the fact that if I would really want to live in them, and the law and order one is most important to me. I live in America, so it's kind of familiar to me, and I guess that's why I chose it. I do not like AI centers taking land, so that's why I chose that one as the least preferred.",
+  "language": "unknown",
+  "processing_time_seconds": 9.28872,
+  "timestamp": "2026-06-08T09:41:57.616374",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.04
+      ],
+      "text": " I ranked most of these societies on the fact that if I would really want to live in them, and the law and order one is most important to me."
+    },
+    {
+      "timestamp": [
+        16.82,
+        23.74
+      ],
+      "text": " I live in America, so it's kind of familiar to me, and I guess that's why I chose it."
+    },
+    {
+      "timestamp": [
+        23.74,
+        34.42
+      ],
+      "text": " I do not like AI centers taking land, so that's why I chose that one as the least preferred."
+    }
+  ]
+}

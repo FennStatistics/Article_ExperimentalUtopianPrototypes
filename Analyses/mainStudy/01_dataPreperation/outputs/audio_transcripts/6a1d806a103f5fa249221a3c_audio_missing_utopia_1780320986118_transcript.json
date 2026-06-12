@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a1d806a103f5fa249221a3c_audio_missing_utopia_1780320986118.webm",
+  "transcript": " i honestly don't know that anything was like missing i think i don't know i think a balance between like i i do agree that our like in a future society we need law and then we need like living in a small scale like i wish there was like in between almost like something that we're doing now but like not um corrupted because our law and our government is so corrupted and I don't know what a re um like a re-figuring of that looks like but I I do really like the idea of us living small scale and um working with each other to like trade the things that we need um but I also recognize that like we used to do that as a society and we've since grown to be what we are now which is great like the advancement of technology and like you know we didn't have the things we were like accessible to us now back then and people a lot of people died because of it so I feel like there's a middle ground between balancing technology that we have and small scale living but I don't know exactly what that looks like",
+  "language": "unknown",
+  "processing_time_seconds": 16.280179,
+  "timestamp": "2026-06-08T11:25:07.520653",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.14
+      ],
+      "text": " i honestly don't know that anything was like missing i think"
+    },
+    {
+      "timestamp": [
+        4.14,
+        13.68
+      ],
+      "text": " i don't know i think a balance between like i i do agree that our like in a future society we"
+    },
+    {
+      "timestamp": [
+        13.68,
+        19.32
+      ],
+      "text": " need law and then we need like living in a small scale like i wish there was like in between"
+    },
+    {
+      "timestamp": [
+        19.32,
+        28.18
+      ],
+      "text": " almost like something that we're doing now but like not um corrupted because our law and our"
+    },
+    {
+      "timestamp": [
+        28.18,
+        36.56
+      ],
+      "text": " government is so corrupted and I don't know what a re um like a re-figuring of that looks like but"
+    },
+    {
+      "timestamp": [
+        36.56,
+        44.58
+      ],
+      "text": " I I do really like the idea of us living small scale and um working with each other to like"
+    },
+    {
+      "timestamp": [
+        44.58,
+        49.98
+      ],
+      "text": " trade the things that we need um but I also recognize that like we used to do that as a"
+    },
+    {
+      "timestamp": [
+        49.98,
+        56.5
+      ],
+      "text": " society and we've since grown to be what we are now which is great like the advancement of"
+    },
+    {
+      "timestamp": [
+        56.5,
+        63.48
+      ],
+      "text": " technology and like you know we didn't have the things we were like accessible to us now back"
+    },
+    {
+      "timestamp": [
+        63.48,
+        68.66
+      ],
+      "text": " then and people a lot of people died because of it so I feel like there's a middle ground between"
+    },
+    {
+      "timestamp": [
+        68.66,
+        76.1
+      ],
+      "text": " balancing technology that we have and small scale living but I don't know exactly what that looks"
+    },
+    {
+      "timestamp": [
+        76.1,
+        76.42
+      ],
+      "text": " like"
+    }
+  ]
+}

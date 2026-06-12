@@ -1,0 +1,199 @@
+{
+  "audio_file": "69fba1d76bc977f982998a3a_audio_ranking_explanation_1780380176999.webm",
+  "transcript": " um there's a few reasons why i made this my list and after reading through all of them um i have a way of like how i prefer one um to call it a society more than the other so the first society that was mentioned was moral commonwealth and i feel like this might be the most beneficial but it takes a lot of power because a lot of people have to be selfless when it comes to this and you have to be willing to just have enough and not go beyond more it's it's more give and take with this but i feel like this is the most beneficial for everyone why i chose ai-centered utopia at the end because we lose our control over that we are basically run by robots we have given the power to another greater being and then in no time we are probably just gonna be extinct and this is gonna be ruling the world religious utopia why i chose that second to last is because i'm not sure if this is one specific faith or multiple faith um if it's an acceptance of multiple faiths then i would be open to it however if it's just one faith and that's the way they're allowed to live i do not like that as much um going back to the top my second one would be modern green utopia because i do think it is important that we try to save the earth the more we try to save the earth the longer we live the longer our future generations can live so we do have to do with just enough and i feel like that's what modern green utopia is um focusing on the second one here i mean the third one here is institutional utopia which is the rule of law which i think we're already living in right now which i think it is working but obviously it has its ups and downs um but the fact that it is working is something that i'd be still like okay then we're familiar with this we know how this works that's why i rated it at number three but it's not the best number four was low tech and small scale i feel like technology well yes it is harmful for our environment is very beneficial especially when it comes to medical uh like health care and just being innovative in other ways that can save our lives and kind of grow our future i think that's great so doing too much low tech is not that great futures utopia where it's like everything is based on science and innovation well if we focus on that i feel like we're going to just ruin our planet and we're just gonna eventually go extinct again and just ruin our our environment so yeah that is why I kind of ranked them in the way I did I hope that makes sense",
+  "language": "unknown",
+  "processing_time_seconds": 38.385282,
+  "timestamp": "2026-06-08T10:07:17.955285",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.14
+      ],
+      "text": " um there's a few reasons why i made this my list and after reading through all of them"
+    },
+    {
+      "timestamp": [
+        8.14,
+        16.78
+      ],
+      "text": " um i have a way of like how i prefer one um to call it a society more than the other"
+    },
+    {
+      "timestamp": [
+        16.78,
+        22.88
+      ],
+      "text": " so the first society that was mentioned was moral commonwealth and i feel like this might be the"
+    },
+    {
+      "timestamp": [
+        22.88,
+        27.5
+      ],
+      "text": " most beneficial but it takes a lot of power because a lot of people have to be selfless"
+    },
+    {
+      "timestamp": [
+        27.5,
+        35.6
+      ],
+      "text": " when it comes to this and you have to be willing to just have enough and not go beyond more it's"
+    },
+    {
+      "timestamp": [
+        35.6,
+        40.36
+      ],
+      "text": " it's more give and take with this but i feel like this is the most beneficial for everyone"
+    },
+    {
+      "timestamp": [
+        40.36,
+        47.8
+      ],
+      "text": " why i chose ai-centered utopia at the end because we lose our control over that we are basically run"
+    },
+    {
+      "timestamp": [
+        47.8,
+        56.0
+      ],
+      "text": " by robots we have given the power to another greater being and then in no time we are probably"
+    },
+    {
+      "timestamp": [
+        56.0,
+        63.44
+      ],
+      "text": " just gonna be extinct and this is gonna be ruling the world religious utopia why i chose that second"
+    },
+    {
+      "timestamp": [
+        63.44,
+        71.04
+      ],
+      "text": " to last is because i'm not sure if this is one specific faith or multiple faith um if it's an"
+    },
+    {
+      "timestamp": [
+        71.04,
+        77.84
+      ],
+      "text": " acceptance of multiple faiths then i would be open to it however if it's just one faith and that's"
+    },
+    {
+      "timestamp": [
+        77.84,
+        85.68
+      ],
+      "text": " the way they're allowed to live i do not like that as much um going back to the top my second"
+    },
+    {
+      "timestamp": [
+        85.68,
+        90.32
+      ],
+      "text": " one would be modern green utopia because i do think it is important that we try to save the"
+    },
+    {
+      "timestamp": [
+        90.32,
+        95.28
+      ],
+      "text": " earth the more we try to save the earth the longer we live the longer our future generations can live"
+    },
+    {
+      "timestamp": [
+        95.28,
+        101.68
+      ],
+      "text": " so we do have to do with just enough and i feel like that's what modern green utopia is um"
+    },
+    {
+      "timestamp": [
+        102.8,
+        107.52
+      ],
+      "text": " focusing on the second one here i mean the third one here is institutional utopia which is"
+    },
+    {
+      "timestamp": [
+        107.84,
+        112.3
+      ],
+      "text": " the rule of law which i think we're already living in right now which i think it is working but"
+    },
+    {
+      "timestamp": [
+        112.3,
+        117.88
+      ],
+      "text": " obviously it has its ups and downs um but the fact that it is working is something that i'd be"
+    },
+    {
+      "timestamp": [
+        117.88,
+        122.76
+      ],
+      "text": " still like okay then we're familiar with this we know how this works that's why i rated it at"
+    },
+    {
+      "timestamp": [
+        122.76,
+        127.74
+      ],
+      "text": " number three but it's not the best number four was low tech and small scale i feel like technology"
+    },
+    {
+      "timestamp": [
+        127.74,
+        133.42
+      ],
+      "text": " well yes it is harmful for our environment is very beneficial especially when it comes to medical"
+    },
+    {
+      "timestamp": [
+        134.2,
+        133.42
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        141.02,
+        148.76
+      ],
+      "text": " uh like health care and just being innovative in other ways that can save our lives and kind of grow our future i think that's great so doing too much low tech is not that great"
+    },
+    {
+      "timestamp": [
+        148.76,
+        153.72
+      ],
+      "text": " futures utopia where it's like everything is based on science and innovation well if we focus on that"
+    },
+    {
+      "timestamp": [
+        153.72,
+        161.5
+      ],
+      "text": " i feel like we're going to just ruin our planet and we're just gonna eventually go extinct again"
+    },
+    {
+      "timestamp": [
+        161.5,
+        167.26
+      ],
+      "text": " and just ruin our our environment so yeah that is why I kind of ranked them"
+    },
+    {
+      "timestamp": [
+        167.26,
+        172.68
+      ],
+      "text": " in the way I did I hope that makes sense"
+    }
+  ]
+}

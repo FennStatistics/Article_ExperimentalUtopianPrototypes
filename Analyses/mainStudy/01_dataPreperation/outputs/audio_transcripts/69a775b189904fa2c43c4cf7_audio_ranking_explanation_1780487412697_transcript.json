@@ -1,0 +1,136 @@
+{
+  "audio_file": "69a775b189904fa2c43c4cf7_audio_ranking_explanation_1780487412697.webm",
+  "transcript": " So, thinking back in the past, I can think in the last hundred years that we've taken leaps and bounds forward. In the 1920s, your average lifespan could be anywhere between maybe 30 to 50 years, maybe even 60. And now we have people living closer to 100. it so futurist clearly is the way to go because it would help guide and it is factual followed closely behind by modern green i am currently trying to do this myself uh i do like my uh i do enjoy my technology however having a green side does help the environment solar's wind that's the type of thing that i'm very interested in as well as well as sea power i don't know if that's very uh interesting technology as well uh primitivist is the next one down because i could be a farmer and i could see myself giving and helping and having a strong community moral everybody has to have the same morals is a problem and we hope that it's the same it's it's good but everybody and everybody kind of what's good for everybody kind of thing and it feels weird feels really weird air-centered utopia it's just scary i wouldn't be opposed to it as much but it's just there's too many what ifs and that's generally where everybody else is going to put it as well as myself institutional i don't trust the institutions already yeah that's that's going to be a hard no and then religious i grew up religious so i saw a lot of really bad things i didn't like uh and it's very much a disgusting thing behind closed doors",
+  "language": "unknown",
+  "processing_time_seconds": 24.243509,
+  "timestamp": "2026-06-08T09:12:58.465866",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        7.78
+      ],
+      "text": " So, thinking back in the past, I can think in the last hundred years that we've taken"
+    },
+    {
+      "timestamp": [
+        7.78,
+        10.38
+      ],
+      "text": " leaps and bounds forward."
+    },
+    {
+      "timestamp": [
+        10.96,
+        18.18
+      ],
+      "text": " In the 1920s, your average lifespan could be anywhere between maybe 30 to 50 years,"
+    },
+    {
+      "timestamp": [
+        19.34,
+        20.56
+      ],
+      "text": " maybe even 60."
+    },
+    {
+      "timestamp": [
+        22.14,
+        26.86
+      ],
+      "text": " And now we have people living closer to 100."
+    },
+    {
+      "timestamp": [
+        28.48,
+        26.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        37.02,
+        46.14
+      ],
+      "text": " it so futurist clearly is the way to go because it would help guide and it is factual followed closely behind by modern green i am currently trying to do this myself uh i do like"
+    },
+    {
+      "timestamp": [
+        46.14,
+        55.66
+      ],
+      "text": " my uh i do enjoy my technology however having a green side does help the environment"
+    },
+    {
+      "timestamp": [
+        55.66,
+        61.04
+      ],
+      "text": " solar's wind that's the type of thing that i'm very interested in as well as well as sea power"
+    },
+    {
+      "timestamp": [
+        61.04,
+        67.14
+      ],
+      "text": " i don't know if that's very uh interesting technology as well uh primitivist is the next"
+    },
+    {
+      "timestamp": [
+        67.14,
+        77.22
+      ],
+      "text": " one down because i could be a farmer and i could see myself giving and helping and having a strong"
+    },
+    {
+      "timestamp": [
+        77.22,
+        86.7
+      ],
+      "text": " community moral everybody has to have the same morals is a problem and we hope that it's the"
+    },
+    {
+      "timestamp": [
+        86.7,
+        95.04
+      ],
+      "text": " same it's it's good but everybody and everybody kind of what's good for everybody kind of thing"
+    },
+    {
+      "timestamp": [
+        95.04,
+        100.44
+      ],
+      "text": " and it feels weird feels really weird air-centered utopia it's just scary i wouldn't be opposed to"
+    },
+    {
+      "timestamp": [
+        100.44,
+        104.94
+      ],
+      "text": " it as much but it's just there's too many what ifs and that's generally where everybody else"
+    },
+    {
+      "timestamp": [
+        104.94,
+        109.92
+      ],
+      "text": " is going to put it as well as myself institutional i don't trust the institutions already yeah that's"
+    },
+    {
+      "timestamp": [
+        109.92,
+        116.46
+      ],
+      "text": " that's going to be a hard no and then religious i grew up religious so i saw a lot of really"
+    },
+    {
+      "timestamp": [
+        116.46,
+        125.48
+      ],
+      "text": " bad things i didn't like uh and it's very much a disgusting thing behind closed doors"
+    }
+  ]
+}

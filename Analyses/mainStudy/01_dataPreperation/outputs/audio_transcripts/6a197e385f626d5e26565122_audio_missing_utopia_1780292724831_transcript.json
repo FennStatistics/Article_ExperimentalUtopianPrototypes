@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a197e385f626d5e26565122_audio_missing_utopia_1780292724831.webm",
+  "transcript": " Um, there were no options that involved multiple aspects. Like you could have AI implementation and governance positions without it being the main focus. And you can have, um, especially in a utopian society with foods providing everything, uh, societies entirely focused on scientific development or green energy. You don't have to go all the way with any of these decisions. I feel like a good society would still have rule of law, would still have focus on green technology, and would still have smaller communities, but they would have aspects of all of these in moderation.",
+  "language": "unknown",
+  "processing_time_seconds": 10.285342,
+  "timestamp": "2026-06-08T11:11:31.302830",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        26.86
+      ],
+      "text": " Um, there were no options that involved multiple aspects. Like you could have AI implementation and governance positions without it being the main focus. And you can have, um, especially in a utopian society with foods providing everything, uh, societies entirely focused on scientific development or green energy."
+    },
+    {
+      "timestamp": [
+        26.86,
+        43.68
+      ],
+      "text": " You don't have to go all the way with any of these decisions. I feel like a good society would still have rule of law, would still have focus on green technology, and would still have smaller communities, but they would have aspects of all of these in moderation."
+    }
+  ]
+}

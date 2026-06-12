@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a1069d8aa0ff8c561d3dc38_audio_ranking_explanation_1780433927433.webm",
+  "transcript": " I'm a big advocate for sustainability, so I think the modern green utopia would be good and not just for safety and stability, but also for sustainability and protection of the resources. I think the futurists would be good, science and innovation is something that is needed to um have order commonwealth would be great if everybody thought that way but i struggle to believe people would act in that way the rule of law is kind of similar to what we live in now the the primitive one seems nice but the lack of technology i think would make everyday life hard the faith-based be potentially uh kind of scary based on like forcing people in the ai center it sounds like a nightmare",
+  "language": "unknown",
+  "processing_time_seconds": 13.521837,
+  "timestamp": "2026-06-08T10:53:18.585861",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.44
+      ],
+      "text": " I'm a big advocate for sustainability, so I think the modern green utopia would be good"
+    },
+    {
+      "timestamp": [
+        8.44,
+        16.88
+      ],
+      "text": " and not just for safety and stability, but also for sustainability and protection of"
+    },
+    {
+      "timestamp": [
+        16.88,
+        17.88
+      ],
+      "text": " the resources."
+    },
+    {
+      "timestamp": [
+        17.88,
+        23.36
+      ],
+      "text": " I think the futurists would be good, science and innovation is something that is needed"
+    },
+    {
+      "timestamp": [
+        23.36,
+        34.32
+      ],
+      "text": " to um have order commonwealth would be great if everybody thought that way but i struggle to"
+    },
+    {
+      "timestamp": [
+        34.32,
+        39.04
+      ],
+      "text": " believe people would act in that way the rule of law is kind of similar to what we live in now"
+    },
+    {
+      "timestamp": [
+        40.72,
+        44.24
+      ],
+      "text": " the the primitive one seems nice but the lack of technology"
+    },
+    {
+      "timestamp": [
+        44.8,
+        51.04
+      ],
+      "text": " i think would make everyday life hard the faith-based be potentially"
+    },
+    {
+      "timestamp": [
+        53.04,
+        51.04
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        60.88,
+        null
+      ],
+      "text": " uh kind of scary based on like forcing people in the ai center it sounds like a nightmare"
+    }
+  ]
+}

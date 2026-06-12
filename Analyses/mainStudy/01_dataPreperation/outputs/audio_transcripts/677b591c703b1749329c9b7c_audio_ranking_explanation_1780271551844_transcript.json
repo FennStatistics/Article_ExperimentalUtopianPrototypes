@@ -1,0 +1,38 @@
+{
+  "audio_file": "677b591c703b1749329c9b7c_audio_ranking_explanation_1780271551844.webm",
+  "transcript": " I feel like we should prioritize being good people and sustainability and security are also important. I think science is a priority rather than faith-based, even though that's important as well.",
+  "language": "unknown",
+  "processing_time_seconds": 5.611955,
+  "timestamp": "2026-06-08T08:46:57.338341",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.32
+      ],
+      "text": " I feel like we should prioritize being good people and sustainability and security are"
+    },
+    {
+      "timestamp": [
+        13.32,
+        14.32
+      ],
+      "text": " also important."
+    },
+    {
+      "timestamp": [
+        14.32,
+        22.4
+      ],
+      "text": " I think science is a priority rather than faith-based, even though that's important"
+    },
+    {
+      "timestamp": [
+        22.4,
+        25.86
+      ],
+      "text": " as well."
+    }
+  ]
+}

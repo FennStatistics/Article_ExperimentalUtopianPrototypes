@@ -1,0 +1,31 @@
+{
+  "audio_file": "69c6aaf2837e061bf8c5afaa_audio_missing_utopia_1780397037236.webm",
+  "transcript": " I personally don't have many beliefs in anything else that would make this study better. I think this was a good spectrum of determining different values that a person might have. For me, sustainability and morals were the most important, and they were already there.",
+  "language": "unknown",
+  "processing_time_seconds": 5.989256,
+  "timestamp": "2026-06-08T09:24:02.124626",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.62
+      ],
+      "text": " I personally don't have many beliefs in anything else that would make this study better."
+    },
+    {
+      "timestamp": [
+        9.12,
+        14.72
+      ],
+      "text": " I think this was a good spectrum of determining different values that a person might have."
+    },
+    {
+      "timestamp": [
+        14.72,
+        20.1
+      ],
+      "text": " For me, sustainability and morals were the most important, and they were already there."
+    }
+  ]
+}

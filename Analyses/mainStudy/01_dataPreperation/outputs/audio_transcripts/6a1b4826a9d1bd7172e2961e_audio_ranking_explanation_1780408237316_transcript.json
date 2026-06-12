@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1b4826a9d1bd7172e2961e_audio_ranking_explanation_1780408237316.webm",
+  "transcript": " I told AI-centered utopia because it's easier and everything is automated and you don't have to do a lot of things and unnecessary efforts to be exalted. Institutional utopia is better because all roles are made and it makes moral commonwealth easier to continue. Modern green utopia helps you plant organic foods without chemicals. Futuristic utopia helps us think through the future and make plans accordingly. Primitive utopia and religious utopia are kind of not my favorite ones.",
+  "language": "unknown",
+  "processing_time_seconds": 10.263659,
+  "timestamp": "2026-06-08T11:17:27.744199",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.0
+      ],
+      "text": " I told AI-centered utopia because it's easier and everything is automated and you don't have to do a lot of things and unnecessary efforts to be exalted."
+    },
+    {
+      "timestamp": [
+        14.0,
+        23.0
+      ],
+      "text": " Institutional utopia is better because all roles are made and it makes moral commonwealth easier to continue."
+    },
+    {
+      "timestamp": [
+        23.0,
+        32.0
+      ],
+      "text": " Modern green utopia helps you plant organic foods without chemicals."
+    },
+    {
+      "timestamp": [
+        32.0,
+        41.0
+      ],
+      "text": " Futuristic utopia helps us think through the future and make plans accordingly."
+    },
+    {
+      "timestamp": [
+        41.0,
+        48.0
+      ],
+      "text": " Primitive utopia and religious utopia are kind of not my favorite ones."
+    }
+  ]
+}

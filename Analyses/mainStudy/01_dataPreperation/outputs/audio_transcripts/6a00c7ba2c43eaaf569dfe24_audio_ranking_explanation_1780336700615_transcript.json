@@ -1,0 +1,129 @@
+{
+  "audio_file": "6a00c7ba2c43eaaf569dfe24_audio_ranking_explanation_1780336700615.webm",
+  "transcript": " okay so for number one I picked the moral Commonwealth I just I think this is the closest to what our society is and I think this is the most desirable one to have I think the green utopia one I went with modern green utopia for the second one I think this one was alright something they were trying to like really sustained and secure I like this one a lot the Futurist one was really cool like I like all the tech and stuff in this one it didn't seem like a really bad one to live in for me so that's why I put it in top three the primitive one this is where he starts to get a little bad I just think this is I just don't know how anyone can live like this it just doesn't seem right to me and that really just one just below that I just they're just making their decisions purely off of scriptures and stuff because I really don't like that one then I went for the AI centered utopia next this one it's just I don't want AI it's like make all the decisions I just don't think it's right and for the seven I went through the institutional utopia I just I don't think someone's right either it's just everyone's guided by strict laws and kind of ignoring just what's the what I'm looking for you know morals you know this one just doesn't seem right everything's just governed by just strict laws and I just don't like that one at all. Well, that's my list.",
+  "language": "unknown",
+  "processing_time_seconds": 24.38751,
+  "timestamp": "2026-06-08T10:16:20.373949",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.5
+      ],
+      "text": " okay so for number one I picked the moral Commonwealth I just I think this"
+    },
+    {
+      "timestamp": [
+        7.5,
+        12.0
+      ],
+      "text": " is the closest to what our society is and I think this is the most desirable"
+    },
+    {
+      "timestamp": [
+        12.0,
+        18.0
+      ],
+      "text": " one to have I think the green utopia one I went with modern green utopia for the"
+    },
+    {
+      "timestamp": [
+        18.0,
+        25.16
+      ],
+      "text": " second one I think this one was alright something they were trying to like"
+    },
+    {
+      "timestamp": [
+        25.16,
+        36.02
+      ],
+      "text": " really sustained and secure I like this one a lot the Futurist one was really cool like I like all"
+    },
+    {
+      "timestamp": [
+        36.02,
+        40.46
+      ],
+      "text": " the tech and stuff in this one it didn't seem like a really bad one to live in for me so that's why I"
+    },
+    {
+      "timestamp": [
+        40.46,
+        49.16
+      ],
+      "text": " put it in top three the primitive one this is where he starts to get a little bad I just think"
+    },
+    {
+      "timestamp": [
+        49.16,
+        55.46
+      ],
+      "text": " this is I just don't know how anyone can live like this it just doesn't seem"
+    },
+    {
+      "timestamp": [
+        55.46,
+        60.44
+      ],
+      "text": " right to me and that really just one just below that I just they're just"
+    },
+    {
+      "timestamp": [
+        60.44,
+        65.18
+      ],
+      "text": " making their decisions purely off of scriptures and stuff because I really"
+    },
+    {
+      "timestamp": [
+        65.18,
+        72.22
+      ],
+      "text": " don't like that one then I went for the AI centered utopia next this one it's"
+    },
+    {
+      "timestamp": [
+        72.22,
+        78.54
+      ],
+      "text": " just I don't want AI it's like make all the decisions I just don't think it's"
+    },
+    {
+      "timestamp": [
+        78.54,
+        88.14
+      ],
+      "text": " right and for the seven I went through the institutional utopia I just I don't"
+    },
+    {
+      "timestamp": [
+        88.14,
+        94.78
+      ],
+      "text": " think someone's right either it's just everyone's guided by strict laws and kind"
+    },
+    {
+      "timestamp": [
+        94.78,
+        101.76
+      ],
+      "text": " of ignoring just what's the what I'm looking for you know morals you know"
+    },
+    {
+      "timestamp": [
+        101.76,
+        104.7
+      ],
+      "text": " this one just doesn't seem right everything's just governed by just"
+    },
+    {
+      "timestamp": [
+        104.7,
+        110.34
+      ],
+      "text": " strict laws and I just don't like that one at all. Well, that's my list."
+    }
+  ]
+}

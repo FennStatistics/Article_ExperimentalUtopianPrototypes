@@ -1,0 +1,45 @@
+{
+  "audio_file": "63bc87f783afb5aed2c937d2_audio_missing_utopia_1780314625145.webm",
+  "transcript": " So I don't know, but something that just came to the top of my head is like none of them really talked about, you know, any any health care. So, you know, a like a society with affordable health care would be pretty darn good in case, you know, people are getting injured. and a lot of the uh societies talked about you know that research resources were scarce so if there was some sort of farming program or you know like i don't know some natural like food program i think that might be good as well",
+  "language": "unknown",
+  "processing_time_seconds": 10.175843,
+  "timestamp": "2026-06-08T08:27:48.441698",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.98
+      ],
+      "text": " So I don't know, but something that just came to the top of my head is like none of them really talked about, you know, any any health care."
+    },
+    {
+      "timestamp": [
+        11.98,
+        25.24
+      ],
+      "text": " So, you know, a like a society with affordable health care would be pretty darn good in case, you know, people are getting injured."
+    },
+    {
+      "timestamp": [
+        25.68,
+        25.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.76,
+        42.32
+      ],
+      "text": " and a lot of the uh societies talked about you know that research resources were scarce so if there was some sort of farming program or you know like i don't know some natural like food program"
+    },
+    {
+      "timestamp": [
+        42.32,
+        44.64
+      ],
+      "text": " i think that might be good as well"
+    }
+  ]
+}

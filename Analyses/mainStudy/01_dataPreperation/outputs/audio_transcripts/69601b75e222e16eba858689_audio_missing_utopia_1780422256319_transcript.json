@@ -1,0 +1,38 @@
+{
+  "audio_file": "69601b75e222e16eba858689_audio_missing_utopia_1780422256319.webm",
+  "transcript": " Yeah, obviously, you know, I didn't like the way that the religious one was kind of ambiguous about religion. I think there's a society that values Christ and also, you know, values fairness, values enjoyment of things. Think about sports. I live in the South, so obviously like football, baseball, huge things for me. And also one that looks at science and innovation. We're all given different gifts. There are some people whose mind is so inclined to learn math. Others, it's medicine. And I think an educational system that is more dynamic rather than static would be good to focus on in this utopia, one that moves and kind of is fluid with children and learners rather than one that is decided by angry middle-aged soccer moms and tennis dads that just want to control children. I think that that is a big missing key as well.",
+  "language": "unknown",
+  "processing_time_seconds": 18.44956,
+  "timestamp": "2026-06-08T08:53:27.430620",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.14
+      ],
+      "text": " Yeah, obviously, you know, I didn't like the way that the religious one was kind of ambiguous about religion. I think there's a society that values Christ and also, you know, values fairness, values enjoyment of things."
+    },
+    {
+      "timestamp": [
+        16.14,
+        38.14
+      ],
+      "text": " Think about sports. I live in the South, so obviously like football, baseball, huge things for me. And also one that looks at science and innovation. We're all given different gifts. There are some people whose mind is so inclined to learn math. Others, it's medicine."
+    },
+    {
+      "timestamp": [
+        38.14,
+        65.9
+      ],
+      "text": " And I think an educational system that is more dynamic rather than static would be good to focus on in this utopia, one that moves and kind of is fluid with children and learners rather than one that is decided by angry middle-aged soccer moms and tennis dads that just want to control children."
+    },
+    {
+      "timestamp": [
+        65.9,
+        69.2
+      ],
+      "text": " I think that that is a big missing key as well."
+    }
+  ]
+}

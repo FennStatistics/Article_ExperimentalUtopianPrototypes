@@ -1,0 +1,122 @@
+{
+  "audio_file": "6a04bb8d89ca054e84cf57b3_audio_ranking_explanation_1780401369211.webm",
+  "transcript": " so i ranked the modern green utopia um first because i mean today climate change is a huge risk risk it's happening but i don't feel like there's enough being done to stop it So in a modern green utopia, I think it will contribute to stopping climate change or reducing its impact. Same thing with the second one, the primitivist utopia. Kind of the same idea behind that. And then the futurist utopia. um it wasn't so focused on the environment but I do think science and technology is important moral commonwealth I put that in the middle because while like I think it's important to have a society filled with people who have morals um i just it's not really focused on the environment or technology institutional utopia is towards the bottom obviously laws are important but as i was reading the description it felt like it was very like authoritarian and then religious utopia i think there's just especially today there's not a whole lot of people that follow religion or at least not very strongly i just don't feel like that would be good and then ai centered utopia that's horrible for the environment and data concerns, it's just all bad.",
+  "language": "unknown",
+  "processing_time_seconds": 23.737512,
+  "timestamp": "2026-06-08T10:24:13.173703",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.16
+      ],
+      "text": " so i ranked the modern green utopia um first because"
+    },
+    {
+      "timestamp": [
+        13.16,
+        17.84
+      ],
+      "text": " i mean today climate change is a huge"
+    },
+    {
+      "timestamp": [
+        17.84,
+        26.14
+      ],
+      "text": " risk risk it's happening but i don't feel like there's enough being done to stop it"
+    },
+    {
+      "timestamp": [
+        26.14,
+        35.36
+      ],
+      "text": " So in a modern green utopia, I think it will contribute to stopping climate change or reducing its impact."
+    },
+    {
+      "timestamp": [
+        36.78,
+        42.0
+      ],
+      "text": " Same thing with the second one, the primitivist utopia."
+    },
+    {
+      "timestamp": [
+        42.7,
+        44.54
+      ],
+      "text": " Kind of the same idea behind that."
+    },
+    {
+      "timestamp": [
+        45.62,
+        47.92
+      ],
+      "text": " And then the futurist utopia."
+    },
+    {
+      "timestamp": [
+        51.42,
+        47.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        58.78,
+        67.18
+      ],
+      "text": " um it wasn't so focused on the environment but I do think science and technology is important moral commonwealth I put that in the middle because while like I think it's important"
+    },
+    {
+      "timestamp": [
+        67.18,
+        78.64
+      ],
+      "text": " to have a society filled with people who have morals um i just it's not really focused on"
+    },
+    {
+      "timestamp": [
+        78.64,
+        85.36
+      ],
+      "text": " the environment or technology institutional utopia is towards the bottom obviously laws"
+    },
+    {
+      "timestamp": [
+        85.36,
+        90.92
+      ],
+      "text": " are important but as i was reading the description it felt like it was very like"
+    },
+    {
+      "timestamp": [
+        90.92,
+        101.22
+      ],
+      "text": " authoritarian and then religious utopia i think there's just especially today there's not a whole"
+    },
+    {
+      "timestamp": [
+        101.22,
+        109.1
+      ],
+      "text": " lot of people that follow religion or at least not very strongly i just don't feel like that"
+    },
+    {
+      "timestamp": [
+        109.1,
+        116.78
+      ],
+      "text": " would be good and then ai centered utopia that's horrible for the environment and"
+    },
+    {
+      "timestamp": [
+        116.78,
+        119.94
+      ],
+      "text": " data concerns, it's just all bad."
+    }
+  ]
+}

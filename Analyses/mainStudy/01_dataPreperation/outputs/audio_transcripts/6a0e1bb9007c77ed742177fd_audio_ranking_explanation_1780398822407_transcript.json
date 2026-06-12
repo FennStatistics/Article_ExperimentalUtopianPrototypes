@@ -1,0 +1,164 @@
+{
+  "audio_file": "6a0e1bb9007c77ed742177fd_audio_ranking_explanation_1780398822407.webm",
+  "transcript": " So I chose the modern green utopia as the most preferred just because like sustainability and security I think were driving factors of keeping the utopia functioning and without that sustainability piece there might not be a world in which people can live. I ranked the modern commonwealth second because the idea of like inner morality and working in pro-social ways and for a common good was appealing to me however I do that only works if everybody's inner morality is you know similarly aligned and then I chose the futurist utopia where science and innovation were highly valued and so looking to that for I don't know, before, you know, continued innovation, continued discovery, and optimization of the society seemed attractive to me. But also, again, there's the issue as the prompt had said about establishing trust and maintaining trust. So I put it a little bit further down on the list. the institutional utopia I put um kind of midway because on paper it seems fine um you know we have rules we have regulations for people to follow but it that to me seems like a slippery slope into like dictatorship into something that's really severe and so depending on how it's enacted I think it could be fine, but also I think that it opens itself up to some difficulties, certainly. Then the primitive utopia, this one seemed fine. It's just my personal preference is not to live in a primitive society. And so while I think the building blocks of this society were sound and that, you know, we only use what we need, like it's pretty low tech, we live in a small community, I don't know I like my technology then I chose a religious utopia which to me seems again like it could slippery slope into like fanaticism and kind of like a cult like behavior and putting a lot of power into specific people that was something that was concerning to me and the one thing about longevity of it. And then finally, I chose my least preferred to be the AI-centered utopia as I think that this opens itself up to an incredible amount of bias depending on who the AI has been built by, what decisions the AI makes. It just, I don't like things without humans. And so that seems to be the least attractive option for me.",
+  "language": "unknown",
+  "processing_time_seconds": 34.103892,
+  "timestamp": "2026-06-08T10:45:41.602000",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.98
+      ],
+      "text": " So I chose the modern green utopia as the most preferred just because like sustainability and security I think were driving factors of keeping the utopia functioning and without that sustainability piece there might not be a world in which people can live."
+    },
+    {
+      "timestamp": [
+        21.98,
+        27.42
+      ],
+      "text": " I ranked the modern commonwealth second because the idea of like inner morality and working"
+    },
+    {
+      "timestamp": [
+        27.42,
+        32.14
+      ],
+      "text": " in pro-social ways and for a common good was appealing to me however I do"
+    },
+    {
+      "timestamp": [
+        32.14,
+        40.74
+      ],
+      "text": " that only works if everybody's inner morality is you know similarly aligned and then I chose"
+    },
+    {
+      "timestamp": [
+        40.74,
+        51.44
+      ],
+      "text": " the futurist utopia where science and innovation were highly valued and so looking to that for"
+    },
+    {
+      "timestamp": [
+        51.98,
+        60.06
+      ],
+      "text": " I don't know, before, you know, continued innovation, continued discovery, and optimization"
+    },
+    {
+      "timestamp": [
+        60.06,
+        68.66
+      ],
+      "text": " of the society seemed attractive to me. But also, again, there's the issue as the prompt had said"
+    },
+    {
+      "timestamp": [
+        68.66,
+        74.16
+      ],
+      "text": " about establishing trust and maintaining trust. So I put it a little bit further down on the list."
+    },
+    {
+      "timestamp": [
+        74.16,
+        83.42
+      ],
+      "text": " the institutional utopia I put um kind of midway because on paper it seems fine um you know we have"
+    },
+    {
+      "timestamp": [
+        83.42,
+        90.8
+      ],
+      "text": " rules we have regulations for people to follow but it that to me seems like a slippery slope"
+    },
+    {
+      "timestamp": [
+        90.8,
+        97.08
+      ],
+      "text": " into like dictatorship into something that's really severe and so depending on how it's enacted"
+    },
+    {
+      "timestamp": [
+        97.08,
+        104.92
+      ],
+      "text": " I think it could be fine, but also I think that it opens itself up to some difficulties, certainly."
+    },
+    {
+      "timestamp": [
+        105.44,
+        113.42
+      ],
+      "text": " Then the primitive utopia, this one seemed fine. It's just my personal preference is not to live"
+    },
+    {
+      "timestamp": [
+        113.42,
+        121.26
+      ],
+      "text": " in a primitive society. And so while I think the building blocks of this society were sound and"
+    },
+    {
+      "timestamp": [
+        121.26,
+        126.64
+      ],
+      "text": " that, you know, we only use what we need, like it's pretty low tech, we live in a small community,"
+    },
+    {
+      "timestamp": [
+        127.08,
+        137.5
+      ],
+      "text": " I don't know I like my technology then I chose a religious utopia which to me seems again like it"
+    },
+    {
+      "timestamp": [
+        137.5,
+        144.64
+      ],
+      "text": " could slippery slope into like fanaticism and kind of like a cult like behavior and putting a lot of"
+    },
+    {
+      "timestamp": [
+        144.64,
+        152.42
+      ],
+      "text": " power into specific people that was something that was concerning to me and the one thing about"
+    },
+    {
+      "timestamp": [
+        152.42,
+        161.24
+      ],
+      "text": " longevity of it. And then finally, I chose my least preferred to be the AI-centered utopia as"
+    },
+    {
+      "timestamp": [
+        161.24,
+        166.18
+      ],
+      "text": " I think that this opens itself up to an incredible amount of bias depending on"
+    },
+    {
+      "timestamp": [
+        166.18,
+        174.94
+      ],
+      "text": " who the AI has been built by, what decisions the AI makes. It just, I don't like things without"
+    },
+    {
+      "timestamp": [
+        174.94,
+        181.28
+      ],
+      "text": " humans. And so that seems to be the least attractive option for me."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "audio_file": "69f5ffead896ece4c5fe58e2_audio_ranking_explanation_1780486235289.webm",
+  "transcript": " I rank the Futurist Utopia because I think scientific progress is really important. Using technology to solve problems rather than relying on stuff from the older days is what pushes society forward. So I think that's really important for various reasons, health and just education, everything. for second i put modern green utopia because sustainability and of course going green is very important for future for our future generations if we don't handle that today um i don't think it's as important as the first one but it's still obviously is very important for the third one i chose ai-centered utopia um this one i like i really love it and i really hate it at the same time um i think ai is super important but it's still new and we still And we still have so much to learn. So it can make mistakes and it won't always be perfect. But I do think that it would help improve efficiency. And of course, with the touch of some human oversight there, that's why it's not ranked as high. um the fourth one i chose was moral commonwealth i i believe that everybody has different you know different um moral compasses so we can't really put a whole society to be driven by by a moral commonwealth because i don't believe everybody would cooperate the same and it would just lead to more chaos but it can work for the people that do cooperate um institutional utopia i it was hard between this one and the religious utopia because again everybody has different needs and different capabilities so i don't feel like everyone in a society will be able to follow and that goes for the same with religious utopia that's definitely not going to be uh working for everyone and there's going to be a lot of problems and a lot of um you know this one didn't follow this religious law and i feel like it would lead to wars and which, you know, clearly that happens today. So that's why these are lower. And the last one I chose was the primitalist utopia because I prefer technology and science advancement over low tech just because there's no way that we can go back to living like, you know, in our primal phase. I don't think it would work.",
+  "language": "unknown",
+  "processing_time_seconds": 35.110688,
+  "timestamp": "2026-06-08T09:58:59.170472",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.12
+      ],
+      "text": " I rank the Futurist Utopia because I think scientific progress is really important."
+    },
+    {
+      "timestamp": [
+        8.82,
+        16.74
+      ],
+      "text": " Using technology to solve problems rather than relying on stuff from the older days is what pushes society forward."
+    },
+    {
+      "timestamp": [
+        17.44,
+        25.62
+      ],
+      "text": " So I think that's really important for various reasons, health and just education, everything."
+    },
+    {
+      "timestamp": [
+        30.0,
+        39.52
+      ],
+      "text": " for second i put modern green utopia because sustainability and of course going green"
+    },
+    {
+      "timestamp": [
+        39.52,
+        45.76
+      ],
+      "text": " is very important for future for our future generations if we don't handle that today"
+    },
+    {
+      "timestamp": [
+        46.88,
+        54.4
+      ],
+      "text": " um i don't think it's as important as the first one but it's still obviously is very important"
+    },
+    {
+      "timestamp": [
+        60.0,
+        75.6
+      ],
+      "text": " for the third one i chose ai-centered utopia um this one i like i really love it and i really"
+    },
+    {
+      "timestamp": [
+        75.6,
+        84.0
+      ],
+      "text": " hate it at the same time um i think ai is super important but it's still new and we still"
+    },
+    {
+      "timestamp": [
+        84.0,
+        107.22
+      ],
+      "text": " And we still have so much to learn. So it can make mistakes and it won't always be perfect. But I do think that it would help improve efficiency. And of course, with the touch of some human oversight there, that's why it's not ranked as high."
+    },
+    {
+      "timestamp": [
+        109.6,
+        107.22
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        121.08,
+        128.1
+      ],
+      "text": " um the fourth one i chose was moral commonwealth i i believe that everybody has different you know different um moral compasses so we can't really put a whole society to be driven by"
+    },
+    {
+      "timestamp": [
+        128.1,
+        135.3
+      ],
+      "text": " by a moral commonwealth because i don't believe everybody would cooperate the same and it would"
+    },
+    {
+      "timestamp": [
+        135.3,
+        143.96
+      ],
+      "text": " just lead to more chaos but it can work for the people that do cooperate um institutional"
+    },
+    {
+      "timestamp": [
+        143.96,
+        154.96
+      ],
+      "text": " utopia i it was hard between this one and the religious utopia because again everybody has"
+    },
+    {
+      "timestamp": [
+        154.96,
+        161.22
+      ],
+      "text": " different needs and different capabilities so i don't feel like everyone in a society will"
+    },
+    {
+      "timestamp": [
+        161.22,
+        168.9
+      ],
+      "text": " be able to follow and that goes for the same with religious utopia that's definitely not going to be"
+    },
+    {
+      "timestamp": [
+        169.92,
+        175.48
+      ],
+      "text": " uh working for everyone and there's going to be a lot of problems and a lot of um"
+    },
+    {
+      "timestamp": [
+        175.48,
+        183.48
+      ],
+      "text": " you know this one didn't follow this religious law and i feel like it would lead to wars and"
+    },
+    {
+      "timestamp": [
+        183.48,
+        192.3
+      ],
+      "text": " which, you know, clearly that happens today. So that's why these are lower. And the last one I"
+    },
+    {
+      "timestamp": [
+        192.3,
+        201.8
+      ],
+      "text": " chose was the primitalist utopia because I prefer technology and science advancement over low tech"
+    },
+    {
+      "timestamp": [
+        201.8,
+        209.58
+      ],
+      "text": " just because there's no way that we can go back to living like, you know, in our primal phase."
+    },
+    {
+      "timestamp": [
+        209.58,
+        211.2
+      ],
+      "text": " I don't think it would work."
+    }
+  ]
+}

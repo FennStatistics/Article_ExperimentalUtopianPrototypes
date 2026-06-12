@@ -1,0 +1,94 @@
+{
+  "audio_file": "695fbbddeef702fe7cea44bd_audio_missing_utopia_1780421637745.webm",
+  "transcript": " Uh, I mean, I feel like you covered most general things, unless you, like, get into, like, the crazy, weird sci-fi kind of stuff, but I don't think it's that sort of a question, but most of them weren't very, like, I would say, like, morality, but nothing about, like, principles, honor, code of ethics, stuff like that, but I assume that would fall under, like, the law, or I would hope so. if it's anything like the law we have here especially in america i would not want anything to do with that one um so no nothing was really missing what would matter most to me uh living off the earth living in a community of people like as one no no real like excessive technology which i mean it's good to a point but it ruins bonding with people like people don't talk anymore they're all in their own world especially here everyone's just staring at their phones it's kind of crazy uh but yeah just live off the land take care of the earth eat what you need no like excessive like eating or terrible food just living off the land taking care of it as best we can taking care of each other like it's how it should be bartering skills like hey i'm a mechanic I have construction background you're a farmer or whatever like you teach me I'll teach you that sort of thing or you flow my land or help me plant seeds I'll help you with your car something like that",
+  "language": "unknown",
+  "processing_time_seconds": 21.299439,
+  "timestamp": "2026-06-08T08:52:53.987543",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.1
+      ],
+      "text": " Uh, I mean, I feel like you covered most general things, unless you, like, get into, like, the crazy, weird sci-fi kind of stuff, but I don't think it's that sort of a question, but most of them weren't very, like, I would say, like, morality, but nothing about, like, principles, honor, code of ethics, stuff like that, but I assume that would fall under, like, the law, or I would hope so."
+    },
+    {
+      "timestamp": [
+        28.1,
+        33.24
+      ],
+      "text": " if it's anything like the law we have here especially in america i would not want anything"
+    },
+    {
+      "timestamp": [
+        33.24,
+        41.5
+      ],
+      "text": " to do with that one um so no nothing was really missing what would matter most to me uh living"
+    },
+    {
+      "timestamp": [
+        41.5,
+        49.52
+      ],
+      "text": " off the earth living in a community of people like as one no no real like excessive technology"
+    },
+    {
+      "timestamp": [
+        49.52,
+        54.64
+      ],
+      "text": " which i mean it's good to a point but it ruins bonding with people like people don't talk anymore"
+    },
+    {
+      "timestamp": [
+        54.64,
+        59.66
+      ],
+      "text": " they're all in their own world especially here everyone's just staring at their phones it's"
+    },
+    {
+      "timestamp": [
+        59.66,
+        66.18
+      ],
+      "text": " kind of crazy uh but yeah just live off the land take care of the earth eat what you need no like"
+    },
+    {
+      "timestamp": [
+        66.18,
+        73.46
+      ],
+      "text": " excessive like eating or terrible food just living off the land taking care of it as best"
+    },
+    {
+      "timestamp": [
+        73.46,
+        79.78
+      ],
+      "text": " we can taking care of each other like it's how it should be bartering skills like hey i'm a"
+    },
+    {
+      "timestamp": [
+        79.78,
+        85.18
+      ],
+      "text": " mechanic I have construction background you're a farmer or whatever like you"
+    },
+    {
+      "timestamp": [
+        85.18,
+        89.98
+      ],
+      "text": " teach me I'll teach you that sort of thing or you flow my land or help me"
+    },
+    {
+      "timestamp": [
+        89.98,
+        95.22
+      ],
+      "text": " plant seeds I'll help you with your car something like that"
+    }
+  ]
+}

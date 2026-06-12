@@ -1,0 +1,164 @@
+{
+  "audio_file": "69c737b258a269a8f17fea85_audio_ranking_explanation_1780428322045.webm",
+  "transcript": " Okay, so I think the modern green utopia sounded the best for everyone involved, like for society as a whole. I don't know if it is realistic, but I think that it would be most desirable for everyone involved. um similar or same thinking for the futurist utopia um especially with like the science and innovation focus again i i'm not sure if the moral commonwealth like the inner morality would be realistic but do i think that it would be good for everyone if they got on board yes um I don't know if low tech and small scale would be beneficial I guess if you're focused on trying to keep the peace I feel like it would be um religious I don't know about like a hundred years in the future or whatever but like it's worked in the past you know um i feel like when people are are able to rally around a shared belief like that um i feel like it's successful i don't know if it's good but it it has worked i my concerns with the institutional utopia and the ai centered one would be that it would be to what's the word it would encroach on people's lives and rights too much it feels a little bit too demanding or I don't know government focused and I don't know if that is what's best for everyone. Um, I, I mean, I, as someone with a background in science, like I, I appreciate those, uh, those like benchmarks for how to, to live, uh, and the focus on data, but I just see things going wrong, uh, with those pretty easily more so than the others.",
+  "language": "unknown",
+  "processing_time_seconds": 29.010195,
+  "timestamp": "2026-06-08T09:25:53.013819",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.94
+      ],
+      "text": " Okay, so I think the modern green utopia sounded the best for everyone involved, like for society as a whole."
+    },
+    {
+      "timestamp": [
+        15.68,
+        24.44
+      ],
+      "text": " I don't know if it is realistic, but I think that it would be most desirable for everyone involved."
+    },
+    {
+      "timestamp": [
+        25.8,
+        24.44
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        32.1,
+        40.48
+      ],
+      "text": " um similar or same thinking for the futurist utopia um especially with like the science and innovation focus again i i'm not sure if the moral commonwealth like the inner morality"
+    },
+    {
+      "timestamp": [
+        40.48,
+        49.1
+      ],
+      "text": " would be realistic but do i think that it would be good for everyone if they got on board yes um"
+    },
+    {
+      "timestamp": [
+        49.1,
+        58.62
+      ],
+      "text": " I don't know if low tech and small scale would be beneficial"
+    },
+    {
+      "timestamp": [
+        58.62,
+        69.64
+      ],
+      "text": " I guess if you're focused on trying to keep the peace I feel like it would be um religious"
+    },
+    {
+      "timestamp": [
+        69.64,
+        76.72
+      ],
+      "text": " I don't know about like a hundred years in the future or whatever but like it's worked in the"
+    },
+    {
+      "timestamp": [
+        76.72,
+        85.28
+      ],
+      "text": " past you know um i feel like when people are are able to rally around a shared belief like that"
+    },
+    {
+      "timestamp": [
+        85.28,
+        95.88
+      ],
+      "text": " um i feel like it's successful i don't know if it's good but it it has worked"
+    },
+    {
+      "timestamp": [
+        95.88,
+        104.28
+      ],
+      "text": " i my concerns with the institutional utopia and the ai centered one would be that it would be to"
+    },
+    {
+      "timestamp": [
+        104.28,
+        107.38
+      ],
+      "text": " what's the word"
+    },
+    {
+      "timestamp": [
+        107.38,
+        112.16
+      ],
+      "text": " it would encroach on people's"
+    },
+    {
+      "timestamp": [
+        112.16,
+        115.86
+      ],
+      "text": " lives and rights too much"
+    },
+    {
+      "timestamp": [
+        115.86,
+        119.56
+      ],
+      "text": " it feels a little bit too"
+    },
+    {
+      "timestamp": [
+        119.56,
+        123.98
+      ],
+      "text": " demanding or"
+    },
+    {
+      "timestamp": [
+        123.98,
+        129.0
+      ],
+      "text": " I don't know"
+    },
+    {
+      "timestamp": [
+        129.0,
+        134.04
+      ],
+      "text": " government focused and I don't know"
+    },
+    {
+      "timestamp": [
+        134.04,
+        143.44
+      ],
+      "text": " if that is what's best for everyone. Um, I, I mean, I, as someone with a background in science,"
+    },
+    {
+      "timestamp": [
+        143.44,
+        152.92
+      ],
+      "text": " like I, I appreciate those, uh, those like benchmarks for how to, to live, uh, and the"
+    },
+    {
+      "timestamp": [
+        152.92,
+        163.14
+      ],
+      "text": " focus on data, but I just see things going wrong, uh, with those pretty easily more so than the"
+    },
+    {
+      "timestamp": [
+        163.14,
+        165.38
+      ],
+      "text": " others."
+    }
+  ]
+}

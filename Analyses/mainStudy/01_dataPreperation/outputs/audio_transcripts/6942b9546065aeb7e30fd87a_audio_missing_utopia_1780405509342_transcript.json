@@ -1,0 +1,17 @@
+{
+  "audio_file": "6942b9546065aeb7e30fd87a_audio_missing_utopia_1780405509342.webm",
+  "transcript": " I do feel like all of the important values and everything were already talked about in the different societies. So yeah, I think that was captured really well.",
+  "language": "unknown",
+  "processing_time_seconds": 5.398665,
+  "timestamp": "2026-06-08T08:49:13.470162",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.5
+      ],
+      "text": " I do feel like all of the important values and everything were already talked about in the different societies. So yeah, I think that was captured really well."
+    }
+  ]
+}

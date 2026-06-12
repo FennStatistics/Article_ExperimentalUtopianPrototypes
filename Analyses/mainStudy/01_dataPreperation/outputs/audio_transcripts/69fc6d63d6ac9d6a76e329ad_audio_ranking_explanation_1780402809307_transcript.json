@@ -1,0 +1,164 @@
+{
+  "audio_file": "69fc6d63d6ac9d6a76e329ad_audio_ranking_explanation_1780402809307.webm",
+  "transcript": " So, I ranked the modern green utopia as my most preferred society. I really like sustainability and keeping the environment safe and clean. It also provides us a more secure society, which I think is pretty helpful, especially since the society in this scenario has resources, but they're not super abundant. Um, my least preferred is the religious utopia. I think organized religion has some pluses, but a lot of minuses. Um, there are too many religious cults for my liking. Um, I'm not religious myself, so I just don't see how, and there's also so many religions that not everyone will identify with a single religion. So there will be a lot of pushback in this society. The Moral Commonwealth and Futurist Utopia are also up there um, my rankings. Um, definitely, we could probably live off of inner morality, but at the same time, everyone's morals are different, so it would just depend. Um, I think this could be good, though, because I think holding each other accountable is definitely a good method. As far as futurists, I like science and innovation, and I think that it could definitely help keep the society running, especially with the resources. The institutional utopia is in the middle. I think there needs to be some laws, but I think some things are definitely too restricted so that's where the moral commonwealth comes in um the ai-centered utopia could be interesting um but i put this under the rule of law because i think i would kind of trust human judgment as far as laws better than i would ai but also i don't really know because some of our laws are questionable right now um and then the primitivist i think low tech and small scale could be good but i think that you need some technology i mean i know it says low tech uh but i think you would need a little bit more than what the society would actually offer um but again it's still better than religious utopia Here we go.",
+  "language": "unknown",
+  "processing_time_seconds": 34.23586,
+  "timestamp": "2026-06-08T10:11:07.587596",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.0
+      ],
+      "text": " So, I ranked the modern green utopia as my most preferred society."
+    },
+    {
+      "timestamp": [
+        9.0,
+        18.0
+      ],
+      "text": " I really like sustainability and keeping the environment safe and clean."
+    },
+    {
+      "timestamp": [
+        18.0,
+        29.0
+      ],
+      "text": " It also provides us a more secure society, which I think is pretty helpful, especially since the society in this scenario has resources,"
+    },
+    {
+      "timestamp": [
+        29.0,
+        38.3
+      ],
+      "text": " but they're not super abundant. Um, my least preferred is the religious utopia. I think"
+    },
+    {
+      "timestamp": [
+        38.3,
+        46.12
+      ],
+      "text": " organized religion has some pluses, but a lot of minuses. Um, there are too many religious"
+    },
+    {
+      "timestamp": [
+        46.12,
+        56.7
+      ],
+      "text": " cults for my liking. Um, I'm not religious myself, so I just don't see how, and there's"
+    },
+    {
+      "timestamp": [
+        56.7,
+        64.7
+      ],
+      "text": " also so many religions that not everyone will identify with a single religion. So there will"
+    },
+    {
+      "timestamp": [
+        64.7,
+        80.22
+      ],
+      "text": " be a lot of pushback in this society. The Moral Commonwealth and Futurist Utopia are also up there"
+    },
+    {
+      "timestamp": [
+        80.22,
+        95.96
+      ],
+      "text": " um, my rankings. Um, definitely, we could probably live off of inner morality, but"
+    },
+    {
+      "timestamp": [
+        95.96,
+        103.64
+      ],
+      "text": " at the same time, everyone's morals are different, so it would just depend. Um,"
+    },
+    {
+      "timestamp": [
+        104.34,
+        108.24
+      ],
+      "text": " I think this could be good, though, because I think holding each other accountable is definitely"
+    },
+    {
+      "timestamp": [
+        109.68,
+        108.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        119.42,
+        126.42
+      ],
+      "text": " a good method. As far as futurists, I like science and innovation, and I think that it could definitely help keep the society running, especially with the resources. The institutional"
+    },
+    {
+      "timestamp": [
+        126.42,
+        135.46
+      ],
+      "text": " utopia is in the middle. I think there needs to be some laws, but I think some things are"
+    },
+    {
+      "timestamp": [
+        135.46,
+        144.0
+      ],
+      "text": " definitely too restricted so that's where the moral commonwealth comes in um the ai-centered"
+    },
+    {
+      "timestamp": [
+        144.0,
+        152.66
+      ],
+      "text": " utopia could be interesting um but i put this under the rule of law because i think i would"
+    },
+    {
+      "timestamp": [
+        152.66,
+        160.86
+      ],
+      "text": " kind of trust human judgment as far as laws better than i would ai but also i don't really"
+    },
+    {
+      "timestamp": [
+        160.86,
+        167.34
+      ],
+      "text": " know because some of our laws are questionable right now um and then the primitivist i think"
+    },
+    {
+      "timestamp": [
+        167.34,
+        174.9
+      ],
+      "text": " low tech and small scale could be good but i think that you need some technology i mean i know it says"
+    },
+    {
+      "timestamp": [
+        174.9,
+        183.22
+      ],
+      "text": " low tech uh but i think you would need a little bit more than what the society would actually"
+    },
+    {
+      "timestamp": [
+        183.22,
+        187.6
+      ],
+      "text": " offer um but again it's still better than religious utopia"
+    },
+    {
+      "timestamp": [
+        187.6,
+        188.6
+      ],
+      "text": " Here we go."
+    }
+  ]
+}

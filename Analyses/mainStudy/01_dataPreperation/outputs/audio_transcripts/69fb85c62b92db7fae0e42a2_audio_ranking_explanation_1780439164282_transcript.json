@@ -1,0 +1,80 @@
+{
+  "audio_file": "69fb85c62b92db7fae0e42a2_audio_ranking_explanation_1780439164282.webm",
+  "transcript": " uh i think i did it this way just because one faith-based is too extreme you're never gonna get anybody or everybody uh ai centered is just terrifying to think about um rule of law in theory i mean like essentially what we have now is great i think it could be expanded upon and it probably will need to be uh primitivist utopia i like the idea um i just don't think it'd be doable at this point in time same with going green you know i feel like it's it'd be a great concept but fully going green it'd be tricky um me personally i've always liked the idea of futuristic you know so being innovative we have science yes but maybe not centralized around ai would be awesome. And then number two, you know, intermorality. Everybody does work together and tries to find a common ground and common peace. And we try to work out everything amongst ourselves.",
+  "language": "unknown",
+  "processing_time_seconds": 15.407207,
+  "timestamp": "2026-06-08T10:05:52.138869",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.06
+      ],
+      "text": " uh i think i did it this way just because one faith-based is too extreme you're never gonna"
+    },
+    {
+      "timestamp": [
+        7.06,
+        16.4
+      ],
+      "text": " get anybody or everybody uh ai centered is just terrifying to think about um rule of law"
+    },
+    {
+      "timestamp": [
+        16.4,
+        20.04
+      ],
+      "text": " in theory i mean like essentially what we have now is great"
+    },
+    {
+      "timestamp": [
+        20.04,
+        24.48
+      ],
+      "text": " i think it could be expanded upon and it probably will need to be"
+    },
+    {
+      "timestamp": [
+        25.52,
+        24.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        35.18,
+        40.62
+      ],
+      "text": " uh primitivist utopia i like the idea um i just don't think it'd be doable at this point in time same with going green you know i feel like it's it'd be a great concept but fully going green"
+    },
+    {
+      "timestamp": [
+        40.62,
+        45.84
+      ],
+      "text": " it'd be tricky um me personally i've always liked the idea of futuristic"
+    },
+    {
+      "timestamp": [
+        45.84,
+        51.36
+      ],
+      "text": " you know so being innovative we have science yes but maybe not centralized around ai"
+    },
+    {
+      "timestamp": [
+        51.36,
+        57.66
+      ],
+      "text": " would be awesome. And then number two, you know, intermorality. Everybody does work together and"
+    },
+    {
+      "timestamp": [
+        57.66,
+        62.96
+      ],
+      "text": " tries to find a common ground and common peace. And we try to work out everything amongst ourselves."
+    }
+  ]
+}

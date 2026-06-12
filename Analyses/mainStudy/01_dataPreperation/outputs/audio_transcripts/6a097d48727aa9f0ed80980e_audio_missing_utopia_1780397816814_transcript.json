@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a097d48727aa9f0ed80980e_audio_missing_utopia_1780397816814.webm",
+  "transcript": " nothing really absent from all of them but I think any like my missing utopia would be a mix of all of them and not just one specific factor",
+  "language": "unknown",
+  "processing_time_seconds": 5.257428,
+  "timestamp": "2026-06-08T10:32:15.426327",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.38
+      ],
+      "text": " nothing really absent from all of them but I think any like my missing utopia"
+    },
+    {
+      "timestamp": [
+        9.38,
+        16.62
+      ],
+      "text": " would be a mix of all of them and not just one specific factor"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a09e5c1a9303faa82c6f2ad_audio_ranking_explanation_1780255279024.webm",
+  "transcript": " I believe that people have a moral compass so we all know right from wrong and I think that in a world where we were allowed to live as we wanted to as long as we follow that moral compass would be the most beneficial I do think that rules and laws would still need to be in place but I think that if if there wasn't as many rules and laws and that we could just live off of what we know is right versus wrong that we would all be happier and we're probably able to get along a lot better.",
+  "language": "unknown",
+  "processing_time_seconds": 10.295134,
+  "timestamp": "2026-06-08T10:32:41.834465",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.86
+      ],
+      "text": " I believe that people have a moral compass so we all know right from wrong"
+    },
+    {
+      "timestamp": [
+        4.86,
+        11.1
+      ],
+      "text": " and I think that in a world where we were allowed to live as we wanted to as"
+    },
+    {
+      "timestamp": [
+        11.1,
+        14.94
+      ],
+      "text": " long as we follow that moral compass would be the most beneficial I do think"
+    },
+    {
+      "timestamp": [
+        14.94,
+        18.78
+      ],
+      "text": " that rules and laws would still need to be in place but I think that if if there"
+    },
+    {
+      "timestamp": [
+        18.78,
+        24.48
+      ],
+      "text": " wasn't as many rules and laws and that we could just live off of what we know is"
+    },
+    {
+      "timestamp": [
+        24.48,
+        28.38
+      ],
+      "text": " right versus wrong that we would all be happier and we're probably able to get"
+    },
+    {
+      "timestamp": [
+        28.38,
+        29.38
+      ],
+      "text": " along a lot better."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "69699d1a4c8aab1ce7a5f231_audio_missing_utopia_1780414864077.webm",
+  "transcript": " I think even for my number one pick, which was the religious utopia, you still need law because even the Bible says give to Caesar what is Caesar's. So I think the law can be used along with religion as a way to hold people accountable.",
+  "language": "unknown",
+  "processing_time_seconds": 5.94679,
+  "timestamp": "2026-06-08T08:55:12.171508",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.96
+      ],
+      "text": " I think even for my number one pick, which was the religious utopia, you still need law because even the Bible says give to Caesar what is Caesar's. So I think the law can be used along with religion as a way to hold people accountable."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "69f9dfe6814b936120d97ac9_audio_missing_utopia_1780408415982.webm",
+  "transcript": " Maybe it's intentional, but there was no real description as far as, like, family or overall jobs, like this utopia that prioritized family over technology or even the resources available would be an interesting one.",
+  "language": "unknown",
+  "processing_time_seconds": 5.618244,
+  "timestamp": "2026-06-08T10:03:23.165911",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.9
+      ],
+      "text": " Maybe it's intentional, but there was no real description as far as, like, family or overall jobs, like this utopia that prioritized family over technology or even the resources available would be an interesting one."
+    }
+  ]
+}

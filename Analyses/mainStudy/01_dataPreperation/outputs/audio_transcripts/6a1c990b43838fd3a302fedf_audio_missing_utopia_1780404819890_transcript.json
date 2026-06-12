@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a1c990b43838fd3a302fedf_audio_missing_utopia_1780404819890.webm",
+  "transcript": " Um, I like that a lot of them mentioned the environment, um, and valuing nature and sustainability. Um, and something that I felt like maybe they were missing or did it explicitly say was like a society structured around like no violence and no war. And, um, that was something that I didn't, at least I don't remember specifically saying something about that. And then something about, something more specific about economic equality and like wealth disparities, something more specific about that would have been good to hear, good to see, I mean.",
+  "language": "unknown",
+  "processing_time_seconds": 10.244466,
+  "timestamp": "2026-06-08T11:19:50.618390",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.94
+      ],
+      "text": " Um, I like that a lot of them mentioned the environment, um, and valuing nature and"
+    },
+    {
+      "timestamp": [
+        7.94,
+        16.04
+      ],
+      "text": " sustainability. Um, and something that I felt like maybe they were missing or did it explicitly say"
+    },
+    {
+      "timestamp": [
+        16.04,
+        26.5
+      ],
+      "text": " was like a society structured around like no violence and no war. And, um, that was something"
+    },
+    {
+      "timestamp": [
+        26.5,
+        29.78
+      ],
+      "text": " that I didn't, at least I don't remember specifically saying something about that."
+    },
+    {
+      "timestamp": [
+        30.0,
+        44.68
+      ],
+      "text": " And then something about, something more specific about economic equality and like wealth disparities, something more specific about that would have been good to hear, good to see, I mean."
+    }
+  ]
+}

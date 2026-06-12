@@ -1,0 +1,122 @@
+{
+  "audio_file": "5c04872c55614800012b7cf0_audio_ranking_explanation_1780402729049.webm",
+  "transcript": " So I really liked that the modern green utopia and the primitivist utopia focused on sort of not going beyond, I guess, the capacity environment. I chose the modern green utopia as the first one because it seemed most, I guess, you know, it doesn't necessarily have to be primitive. It just has to be in harmony with the environment. But the primitivist utopia, well, it still wanted to help the environment, but it was a little bit more low tech. So that just gets second. The AI-centered utopia, actually, for the rest of these, I sort of try to think of the society that would least depend on human nature. And so that's why I chose the AI-centered utopia next. on the futurist utopia science and innovation that seem to be most grounded by logic even if it's still very human centered and i figured with true adherence to science then that would also mean that they do work to protect the environment and live more in harmony with nature simply as a consequence of doing good science um for five the institutional utopia rule of law that's kind of almost what we have now, and well, it's not the worst, but it's very human-centered, so that went next, mainly because number six, relying on people's inner morality is just kind of awful, and it, it, that's not, that's not going to work, we're people, we're humans, and then seven, religious utopia, well, that's, that's like the worst of humanity, so I put that at the very bottom.",
+  "language": "unknown",
+  "processing_time_seconds": 24.998303,
+  "timestamp": "2026-06-08T08:13:01.576647",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.54
+      ],
+      "text": " So I really liked that the modern green utopia and the primitivist utopia focused on sort of not going beyond, I guess, the capacity environment."
+    },
+    {
+      "timestamp": [
+        15.16,
+        23.62
+      ],
+      "text": " I chose the modern green utopia as the first one because it seemed most, I guess, you know, it doesn't necessarily have to be primitive."
+    },
+    {
+      "timestamp": [
+        23.76,
+        26.66
+      ],
+      "text": " It just has to be in harmony with the environment."
+    },
+    {
+      "timestamp": [
+        27.36,
+        26.66
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        36.14,
+        36.26
+      ],
+      "text": " But the primitivist utopia, well, it still wanted to help the environment, but it was a little bit more low tech."
+    },
+    {
+      "timestamp": [
+        46.52,
+        47.16
+      ],
+      "text": " So that just gets second. The AI-centered utopia, actually, for the rest of these, I sort of try to think of the society that would least depend on human nature."
+    },
+    {
+      "timestamp": [
+        50.16,
+        50.6
+      ],
+      "text": " And so that's why I chose the AI-centered utopia next."
+    },
+    {
+      "timestamp": [
+        50.16,
+        60.2
+      ],
+      "text": " on the futurist utopia science and innovation that seem to be most grounded by logic even if"
+    },
+    {
+      "timestamp": [
+        60.2,
+        67.74
+      ],
+      "text": " it's still very human centered and i figured with true adherence to science then that would also"
+    },
+    {
+      "timestamp": [
+        67.74,
+        73.0
+      ],
+      "text": " mean that they do work to protect the environment and live more in harmony with nature simply as a"
+    },
+    {
+      "timestamp": [
+        73.0,
+        79.54
+      ],
+      "text": " consequence of doing good science um for five the institutional utopia rule of law that's kind of"
+    },
+    {
+      "timestamp": [
+        79.54,
+        84.22
+      ],
+      "text": " almost what we have now, and well, it's not the worst, but it's very human-centered, so"
+    },
+    {
+      "timestamp": [
+        84.22,
+        90.22
+      ],
+      "text": " that went next, mainly because number six, relying on people's inner morality is just"
+    },
+    {
+      "timestamp": [
+        90.22,
+        96.06
+      ],
+      "text": " kind of awful, and it, it, that's not, that's not going to work, we're people, we're humans,"
+    },
+    {
+      "timestamp": [
+        96.9,
+        105.62
+      ],
+      "text": " and then seven, religious utopia, well, that's, that's like the worst of humanity, so I put"
+    },
+    {
+      "timestamp": [
+        105.62,
+        108.42
+      ],
+      "text": " that at the very bottom."
+    }
+  ]
+}

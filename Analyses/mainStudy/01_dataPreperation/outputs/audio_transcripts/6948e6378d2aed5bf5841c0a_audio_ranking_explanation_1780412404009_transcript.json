@@ -1,0 +1,108 @@
+{
+  "audio_file": "6948e6378d2aed5bf5841c0a_audio_ranking_explanation_1780412404009.webm",
+  "transcript": " I picked modern-growing Utopia first because it talks more about sustainable, secure living and it's going to help a lot for normal people. Another thing, for Futurist Utopia, I just picked that because it has a lot of issues a lot of, you know, innovations and the rest. For AI, why I put it on number three, AI center, why I put it on number three, would be mainly because of how, as much as, oh AI is the future or, you know, making AI, you know, your government AI centered, it's not, you know, completely safe currently. So that was why it's on my, it's like number three. for uh the rest is they are just i just like you know please them please them based on preference personal preference well those do those first uh the ones i you know thought about a lot before um ranking",
+  "language": "unknown",
+  "processing_time_seconds": 15.407922,
+  "timestamp": "2026-06-08T08:52:11.306471",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.0
+      ],
+      "text": " I picked modern-growing Utopia first because it talks more about sustainable, secure living"
+    },
+    {
+      "timestamp": [
+        13.0,
+        19.0
+      ],
+      "text": " and it's going to help a lot for normal people."
+    },
+    {
+      "timestamp": [
+        19.0,
+        29.0
+      ],
+      "text": " Another thing, for Futurist Utopia, I just picked that because it has a lot of issues"
+    },
+    {
+      "timestamp": [
+        29.0,
+        32.7
+      ],
+      "text": " a lot of, you know, innovations and the rest."
+    },
+    {
+      "timestamp": [
+        32.7,
+        35.3
+      ],
+      "text": " For AI, why I put it on number three,"
+    },
+    {
+      "timestamp": [
+        35.3,
+        37.52
+      ],
+      "text": " AI center, why I put it on number three,"
+    },
+    {
+      "timestamp": [
+        37.52,
+        41.8
+      ],
+      "text": " would be mainly because of how,"
+    },
+    {
+      "timestamp": [
+        43.56,
+        47.34
+      ],
+      "text": " as much as, oh AI is the future or, you know,"
+    },
+    {
+      "timestamp": [
+        47.34,
+        51.5
+      ],
+      "text": " making AI, you know, your government AI centered,"
+    },
+    {
+      "timestamp": [
+        51.5,
+        54.86
+      ],
+      "text": " it's not, you know, completely safe currently."
+    },
+    {
+      "timestamp": [
+        54.86,
+        58.72
+      ],
+      "text": " So that was why it's on my, it's like number three."
+    },
+    {
+      "timestamp": [
+        58.72,
+        64.4
+      ],
+      "text": " for uh the rest is they are just i just like you know please them please them based on preference"
+    },
+    {
+      "timestamp": [
+        64.4,
+        72.0
+      ],
+      "text": " personal preference well those do those first uh the ones i you know thought about a lot before um"
+    },
+    {
+      "timestamp": [
+        72.0,
+        76.0
+      ],
+      "text": " ranking"
+    }
+  ]
+}

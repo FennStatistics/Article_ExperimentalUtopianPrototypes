@@ -1,0 +1,45 @@
+{
+  "audio_file": "69adf2cdaf8da92b2d67c99a_audio_missing_utopia_1780520158036.webm",
+  "transcript": " I don't think there were any that were necessarily missing, but I think the closest thing to today's society would be the moral commonwealth or the institutional law. but i think the moral commonwealth makes a little more sense to me because with the institution of law there's can be some corruptness to it and it can get to a point where it's almost impossible to deal with for the people but with the morality side it makes a lot of sense because it's just based on people's inherent values if that makes any sense",
+  "language": "unknown",
+  "processing_time_seconds": 12.670751,
+  "timestamp": "2026-06-08T09:13:38.111575",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.26
+      ],
+      "text": " I don't think there were any that were necessarily missing, but I think the closest thing to today's society would be the moral commonwealth or the institutional law."
+    },
+    {
+      "timestamp": [
+        12.58,
+        12.26
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        19.44,
+        28.76
+      ],
+      "text": " but i think the moral commonwealth makes a little more sense to me because with the institution of law there's can be some corruptness to it and it can get to a point where it's almost impossible"
+    },
+    {
+      "timestamp": [
+        28.76,
+        34.28
+      ],
+      "text": " to deal with for the people but with the morality side it makes a lot of sense because"
+    },
+    {
+      "timestamp": [
+        34.28,
+        43.08
+      ],
+      "text": " it's just based on people's inherent values if that makes any sense"
+    }
+  ]
+}

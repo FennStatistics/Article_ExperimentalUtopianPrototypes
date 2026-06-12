@@ -1,0 +1,304 @@
+{
+  "audio_file": "6a14434573bcee3f17b7f762_audio_ranking_explanation_1780444963008.webm",
+  "transcript": " I ranked the moral commonwealth as the most preferred because I think a shared vision between the people and the shared moralities between people are probably going to lead to the best future. Primitive utopia, primitivist utopia I chose because, or a second, because I don't really like the way that we were going with technology and control over people and I just almost yearned for, you know, the good old days. The religious utopia was third because, again, I think it's sort of similar to the moral commonwealth because the religious utopia is shared visions, shared realities between people, especially within one region, and that can dictate society well. modern green utopia i had behind that still not a bad one um obviously need to save the planet for future generations need to preserve nature as much as possible and preserve resources as much as possible um along with living life so that's for futurist utopia again not bad but i Still, I like the good old-fashioned days, and I don't think that, as a society, the future holds out well for the society. I think a lot of complacency will come into play. A lot of humans changing in ways that I'm not a fan of. institutional utopia sort of like in 1984 by George Orwell it's just like a surveillance state, I don't really want to live in that I don't think a lot of people want to live in that, and it lacks a lot of freedom again, laws are good, things like that are good, but when when it's the entire society is under surveillance constantly, I don't like that an AI-centered utopia. Again, that is the least preferred because that is so easily controlled by money and power, and just a few bad tech billionaires or leaders will throw, will completely change society and will make it a police state if necessary. And if they can And if they want to So I am not Liking the outlook of AI And obviously I do not want that in the future Yeah, I sounded utopia",
+  "language": "unknown",
+  "processing_time_seconds": 33.945246,
+  "timestamp": "2026-06-08T10:59:12.370563",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        3.74
+      ],
+      "text": " I ranked the moral commonwealth as the most preferred"
+    },
+    {
+      "timestamp": [
+        3.74,
+        7.86
+      ],
+      "text": " because I think a shared vision between the people"
+    },
+    {
+      "timestamp": [
+        7.86,
+        9.66
+      ],
+      "text": " and the shared moralities between people"
+    },
+    {
+      "timestamp": [
+        9.66,
+        13.82
+      ],
+      "text": " are probably going to lead to the best future."
+    },
+    {
+      "timestamp": [
+        14.9,
+        18.78
+      ],
+      "text": " Primitive utopia, primitivist utopia I chose because,"
+    },
+    {
+      "timestamp": [
+        18.78,
+        23.98
+      ],
+      "text": " or a second, because I don't really like the way"
+    },
+    {
+      "timestamp": [
+        23.98,
+        29.0
+      ],
+      "text": " that we were going with technology and control over people"
+    },
+    {
+      "timestamp": [
+        29.0,
+        35.8
+      ],
+      "text": " and I just almost yearned for, you know, the good old days."
+    },
+    {
+      "timestamp": [
+        36.42,
+        44.0
+      ],
+      "text": " The religious utopia was third because, again, I think it's sort of similar to the moral commonwealth"
+    },
+    {
+      "timestamp": [
+        44.54,
+        50.08
+      ],
+      "text": " because the religious utopia is shared visions, shared realities between people,"
+    },
+    {
+      "timestamp": [
+        50.24,
+        56.12
+      ],
+      "text": " especially within one region, and that can dictate society well."
+    },
+    {
+      "timestamp": [
+        56.74,
+        56.12
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        62.8,
+        68.64
+      ],
+      "text": " modern green utopia i had behind that still not a bad one um obviously need to save the planet for future generations need to preserve nature as much as possible and preserve resources as"
+    },
+    {
+      "timestamp": [
+        68.64,
+        77.2
+      ],
+      "text": " much as possible um along with living life so that's for futurist utopia again not bad but i"
+    },
+    {
+      "timestamp": [
+        77.2,
+        88.86
+      ],
+      "text": " Still, I like the good old-fashioned days, and I don't think that, as a society, the future holds out well for the society."
+    },
+    {
+      "timestamp": [
+        91.14,
+        93.66
+      ],
+      "text": " I think a lot of complacency will come into play."
+    },
+    {
+      "timestamp": [
+        95.04,
+        100.2
+      ],
+      "text": " A lot of humans changing in ways that I'm not a fan of."
+    },
+    {
+      "timestamp": [
+        102.2,
+        100.2
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        103.46,
+        107.82
+      ],
+      "text": " institutional utopia sort of like in 1984 by George Orwell"
+    },
+    {
+      "timestamp": [
+        107.82,
+        111.72
+      ],
+      "text": " it's just like a surveillance state, I don't really want to live in that"
+    },
+    {
+      "timestamp": [
+        111.72,
+        116.24
+      ],
+      "text": " I don't think a lot of people want to live in that, and it lacks a lot of freedom"
+    },
+    {
+      "timestamp": [
+        116.24,
+        119.38
+      ],
+      "text": " again, laws are good, things like that are good, but when"
+    },
+    {
+      "timestamp": [
+        119.38,
+        123.68
+      ],
+      "text": " when it's the entire society"
+    },
+    {
+      "timestamp": [
+        123.68,
+        127.48
+      ],
+      "text": " is under surveillance constantly, I don't like that"
+    },
+    {
+      "timestamp": [
+        127.48,
+        128.74
+      ],
+      "text": " an AI-centered utopia."
+    },
+    {
+      "timestamp": [
+        130.18,
+        131.8
+      ],
+      "text": " Again, that is the least preferred because"
+    },
+    {
+      "timestamp": [
+        131.8,
+        137.72
+      ],
+      "text": " that is so easily"
+    },
+    {
+      "timestamp": [
+        137.72,
+        139.4
+      ],
+      "text": " controlled by money and"
+    },
+    {
+      "timestamp": [
+        139.4,
+        141.48
+      ],
+      "text": " power, and"
+    },
+    {
+      "timestamp": [
+        141.48,
+        142.6
+      ],
+      "text": " just a few bad"
+    },
+    {
+      "timestamp": [
+        142.6,
+        145.54
+      ],
+      "text": " tech billionaires or"
+    },
+    {
+      "timestamp": [
+        145.54,
+        147.56
+      ],
+      "text": " leaders"
+    },
+    {
+      "timestamp": [
+        147.56,
+        149.66
+      ],
+      "text": " will"
+    },
+    {
+      "timestamp": [
+        149.66,
+        151.54
+      ],
+      "text": " throw, will"
+    },
+    {
+      "timestamp": [
+        151.54,
+        153.56
+      ],
+      "text": " completely change society and will"
+    },
+    {
+      "timestamp": [
+        153.56,
+        155.86
+      ],
+      "text": " make it a police state if necessary."
+    },
+    {
+      "timestamp": [
+        157.02,
+        155.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        157.8,
+        158.88
+      ],
+      "text": " And if they can And if they want to"
+    },
+    {
+      "timestamp": [
+        158.88,
+        160.86
+      ],
+      "text": " So I am not"
+    },
+    {
+      "timestamp": [
+        160.86,
+        163.34
+      ],
+      "text": " Liking the outlook of AI"
+    },
+    {
+      "timestamp": [
+        163.34,
+        165.22
+      ],
+      "text": " And obviously I do not want that in the future"
+    },
+    {
+      "timestamp": [
+        165.22,
+        167.16
+      ],
+      "text": " Yeah, I sounded utopia"
+    }
+  ]
+}

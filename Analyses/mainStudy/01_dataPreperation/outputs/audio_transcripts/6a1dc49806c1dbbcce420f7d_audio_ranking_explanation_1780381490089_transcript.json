@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a1dc49806c1dbbcce420f7d_audio_ranking_explanation_1780381490089.webm",
+  "transcript": " I personally chose this ranking because the low-tech and small-scale description fit closer to my own culture, which is within the Navajo Nation, in which we live in Hujo, or we live in balance with Mother Nature, and we don't take more than that we need, and we always give back to our Earth. um as for the modern green utopia uh that one was also more leaning towards um protecting our earth and wildlife so that's why i chose that the moral commonwealth of the inner morality that wasn't was a bit more debatable and i switched i was back and forth with it with the futurist utopia um just because some people in immorality could lead more to destruction just because overall most humans are um internally um greedy um things like that um as for my last one religious utopia i have grown up in a home partly in a home that was very religious and it was As I've gotten older, I've come to realize that most religions are over-the-top, and especially the forms of Christianity are less accepting of people rather than doing a greater good than what they claim to.",
+  "language": "unknown",
+  "processing_time_seconds": 19.414702,
+  "timestamp": "2026-06-08T11:27:16.354762",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.54
+      ],
+      "text": " I personally chose this ranking because the low-tech and small-scale description fit closer to my own culture,"
+    },
+    {
+      "timestamp": [
+        9.54,
+        19.14
+      ],
+      "text": " which is within the Navajo Nation, in which we live in Hujo, or we live in balance with Mother Nature,"
+    },
+    {
+      "timestamp": [
+        19.32,
+        24.4
+      ],
+      "text": " and we don't take more than that we need, and we always give back to our Earth."
+    },
+    {
+      "timestamp": [
+        25.5,
+        24.4
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.32,
+        41.42
+      ],
+      "text": " um as for the modern green utopia uh that one was also more leaning towards um protecting our earth and wildlife so that's why i chose that the moral commonwealth of the inner morality"
+    },
+    {
+      "timestamp": [
+        41.42,
+        46.88
+      ],
+      "text": " that wasn't was a bit more debatable and i switched i was back and forth with it with"
+    },
+    {
+      "timestamp": [
+        46.88,
+        55.38
+      ],
+      "text": " the futurist utopia um just because some people in immorality could lead more to destruction just"
+    },
+    {
+      "timestamp": [
+        55.38,
+        66.56
+      ],
+      "text": " because overall most humans are um internally um greedy um things like that um as for my last one"
+    },
+    {
+      "timestamp": [
+        66.56,
+        73.82
+      ],
+      "text": " religious utopia i have grown up in a home partly in a home that was very religious and it was"
+    },
+    {
+      "timestamp": [
+        73.82,
+        91.88
+      ],
+      "text": " As I've gotten older, I've come to realize that most religions are over-the-top, and especially the forms of Christianity are less accepting of people rather than doing a greater good than what they claim to."
+    }
+  ]
+}

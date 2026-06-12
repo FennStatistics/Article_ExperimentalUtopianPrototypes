@@ -1,0 +1,24 @@
+{
+  "audio_file": "60ce89c7357eeffe77fca946_audio_missing_utopia_1780395716370.webm",
+  "transcript": " I think the most important value is going to be to keep the environment safe. So making sure that we are focusing on sustainability, yes, but also focusing a lot on making sure that people know how to survive. I think we have lost touch with how to create our own from nothing, so gardening and just being that kind of society rather than relying strictly on everything that is going to be like data centers or the internet, honestly.",
+  "language": "unknown",
+  "processing_time_seconds": 10.050341,
+  "timestamp": "2026-06-08T08:21:07.112096",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.04
+      ],
+      "text": " I think the most important value is going to be to keep the environment safe. So making sure that we are focusing on sustainability, yes, but also focusing a lot on making sure that people know how to survive."
+    },
+    {
+      "timestamp": [
+        18.04,
+        38.36
+      ],
+      "text": " I think we have lost touch with how to create our own from nothing, so gardening and just being that kind of society rather than relying strictly on everything that is going to be like data centers or the internet, honestly."
+    }
+  ]
+}

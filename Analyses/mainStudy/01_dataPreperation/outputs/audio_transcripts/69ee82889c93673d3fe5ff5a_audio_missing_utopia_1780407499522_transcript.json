@@ -1,0 +1,38 @@
+{
+  "audio_file": "69ee82889c93673d3fe5ff5a_audio_missing_utopia_1780407499522.webm",
+  "transcript": " i think the missing utopia is one that balances freedom opportunity and community it will combine strong democratic institution innovation and sustainability and equal asset to opportunity the most important value will be individual rights fairness accountability and helping people improve their lives well preserving freedom of choice",
+  "language": "unknown",
+  "processing_time_seconds": 5.984957,
+  "timestamp": "2026-06-08T09:49:47.563291",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        7.52
+      ],
+      "text": " i think the missing utopia is one that balances freedom opportunity and community it will combine"
+    },
+    {
+      "timestamp": [
+        7.52,
+        13.12
+      ],
+      "text": " strong democratic institution innovation and sustainability and equal asset to opportunity"
+    },
+    {
+      "timestamp": [
+        13.12,
+        18.8
+      ],
+      "text": " the most important value will be individual rights fairness accountability and helping"
+    },
+    {
+      "timestamp": [
+        18.8,
+        23.04
+      ],
+      "text": " people improve their lives well preserving freedom of choice"
+    }
+  ]
+}

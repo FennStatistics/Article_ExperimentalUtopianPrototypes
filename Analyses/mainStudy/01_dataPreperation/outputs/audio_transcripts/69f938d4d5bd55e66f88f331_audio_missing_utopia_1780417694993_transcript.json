@@ -1,0 +1,108 @@
+{
+  "audio_file": "69f938d4d5bd55e66f88f331_audio_missing_utopia_1780417694993.webm",
+  "transcript": " I think a combination of a few of them would work with a little bit of, I don't remember the names, I wish there was like a list up here, but the first option I picked, a little bit of that one, a little bit of the green one, a little bit of the religious one, just squashed together. I don't think we need smart technology. I'm okay. I grew up in the 90s. I'm okay with, you know, a regular TV or regular radio, a landline phone, a washing machine. I want electricity, you know, washer and dryer and all of that but all of the smart technology the the the internet the like cell phones all that can go um being in balance with nature i think also in combination with the low tech is important we don't need to take more than we need and as a species we're greedy and gluttonous so i definitely think trying to maintain balance with nature more is good and of course being a christian the religious aspect of being bible based and everybody kind of being on the same term and page as each other morals and everything about that i don't like you know one set person or one set group in charge like i had said previously the bible dictates how to properly run a society i think using that format with the balance uh with nature and still having our a little bit of technology is a good balance",
+  "language": "unknown",
+  "processing_time_seconds": 20.854975,
+  "timestamp": "2026-06-08T10:01:35.632568",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.48
+      ],
+      "text": " I think a combination of a few of them would work with a little bit of, I don't remember the"
+    },
+    {
+      "timestamp": [
+        6.48,
+        11.04
+      ],
+      "text": " names, I wish there was like a list up here, but the first option I picked, a little bit of that"
+    },
+    {
+      "timestamp": [
+        11.04,
+        16.7
+      ],
+      "text": " one, a little bit of the green one, a little bit of the religious one, just squashed together. I"
+    },
+    {
+      "timestamp": [
+        16.7,
+        21.66
+      ],
+      "text": " don't think we need smart technology. I'm okay. I grew up in the 90s. I'm okay with, you know,"
+    },
+    {
+      "timestamp": [
+        21.68,
+        28.96
+      ],
+      "text": " a regular TV or regular radio, a landline phone, a washing machine. I want electricity, you know,"
+    },
+    {
+      "timestamp": [
+        29.12,
+        28.96
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        36.08,
+        37.76
+      ],
+      "text": " washer and dryer and all of that but all of the smart technology the the the internet the"
+    },
+    {
+      "timestamp": [
+        42.24,
+        43.04
+      ],
+      "text": " like cell phones all that can go um being in balance with nature i think also"
+    },
+    {
+      "timestamp": [
+        48.56,
+        49.36
+      ],
+      "text": " in combination with the low tech is important we don't need to take more than we need and as a"
+    },
+    {
+      "timestamp": [
+        56.0,
+        62.56
+      ],
+      "text": " species we're greedy and gluttonous so i definitely think trying to maintain balance with nature more is good and of course being a christian the religious aspect of being bible"
+    },
+    {
+      "timestamp": [
+        62.56,
+        71.2
+      ],
+      "text": " based and everybody kind of being on the same term and page as each other morals and everything about"
+    },
+    {
+      "timestamp": [
+        71.2,
+        80.08
+      ],
+      "text": " that i don't like you know one set person or one set group in charge like i had said previously"
+    },
+    {
+      "timestamp": [
+        80.08,
+        86.96
+      ],
+      "text": " the bible dictates how to properly run a society i think using that format with the"
+    },
+    {
+      "timestamp": [
+        88.16,
+        99.04
+      ],
+      "text": " balance uh with nature and still having our a little bit of technology is a good balance"
+    }
+  ]
+}

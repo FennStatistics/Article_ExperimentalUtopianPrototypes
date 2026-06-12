@@ -1,0 +1,45 @@
+{
+  "audio_file": "69c04ef1c9c3020ebf70e0fe_audio_missing_utopia_1780257570256.webm",
+  "transcript": " To be honest, like my my ideal society or future society, I probably would say is a combination of like a futuristic utopia, a green utopia and like a data driven utopia where people are morally upright. Right. And just a combination of those four, it just dictate, you know, certain laws that we put in place just for like preservation or, you know, how resources are shared or what they're allocated to. And everybody has their own freedoms. It's like a post-scarcity society where the things that we do need, we found ways to create things that we need in a very renewable way, right? Renewable, eco-friendly way. So it's just like we're not hurting the environment. We don't litter, but we're also not hurting the environment. So anything that goes into the landfill is still biodegradable, still reusable. You know, we take care of the land. We're very like we're very conscious of our environment. Yet we still want to innovate. We still push the needle. We still push the boundaries of what we know, what we could do, you know, in every industry, you know, not just not just in science and technology and engineering and math, but also in the arts as well. You know, so it's like STEM feeds into art, art feeds into STEM. It's just like a it's just like a back and forth type of situation where we constantly push what we know, push our creativity and just push ourselves to be better, better humans, better us.",
+  "language": "unknown",
+  "processing_time_seconds": 21.490361,
+  "timestamp": "2026-06-08T09:22:00.958151",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.0
+      ],
+      "text": " To be honest, like my my ideal society or future society, I probably would say is a combination of like a futuristic utopia, a green utopia and like a data driven utopia where people are morally upright."
+    },
+    {
+      "timestamp": [
+        14.4,
+        26.18
+      ],
+      "text": " Right. And just a combination of those four, it just dictate, you know, certain laws that we put in place just for like preservation or, you know, how resources are shared or what they're allocated to."
+    },
+    {
+      "timestamp": [
+        26.5,
+        26.18
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        50.24,
+        69.36
+      ],
+      "text": " And everybody has their own freedoms. It's like a post-scarcity society where the things that we do need, we found ways to create things that we need in a very renewable way, right? Renewable, eco-friendly way. So it's just like we're not hurting the environment. We don't litter, but we're also not hurting the environment. So anything that goes into the landfill is still biodegradable, still reusable. You know, we take care of the land. We're very like we're very conscious of our environment. Yet we still want to innovate. We still push the needle. We still push the boundaries of what we know, what we could do, you know, in every industry, you know, not just not just in science and technology and engineering and math, but also in the arts as well."
+    },
+    {
+      "timestamp": [
+        69.36,
+        85.2
+      ],
+      "text": " You know, so it's like STEM feeds into art, art feeds into STEM. It's just like a it's just like a back and forth type of situation where we constantly push what we know, push our creativity and just push ourselves to be better, better humans, better us."
+    }
+  ]
+}

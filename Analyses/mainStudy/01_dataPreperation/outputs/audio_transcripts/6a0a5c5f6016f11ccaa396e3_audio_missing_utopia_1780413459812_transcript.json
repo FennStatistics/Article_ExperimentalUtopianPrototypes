@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0a5c5f6016f11ccaa396e3_audio_missing_utopia_1780413459812.webm",
+  "transcript": " um important values or approaches that were absent i don't really think so it was pretty um spaced out a type of future society that i believe could be missing could be one where everyone tries each other with respect i don't know how to call it making sure that people care about other people keeping people first and like loving thy neighbor which i guess goes back to religion one but something like that because i feel like there's not enough compassion everyone hates each other everyone thinks we're no war with each other no one thinks we're on the same team over all humans we're literally all on the same team so i feel like that's what i feel should matter most in our society having our own backs",
+  "language": "unknown",
+  "processing_time_seconds": 11.317885,
+  "timestamp": "2026-06-08T10:34:53.447858",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.64
+      ],
+      "text": " um important values or approaches that were absent i don't really think so it was pretty"
+    },
+    {
+      "timestamp": [
+        5.64,
+        12.74
+      ],
+      "text": " um spaced out a type of future society that i believe could be missing could be"
+    },
+    {
+      "timestamp": [
+        12.74,
+        18.62
+      ],
+      "text": " one where everyone tries each other with respect i don't know how to call it"
+    },
+    {
+      "timestamp": [
+        18.62,
+        25.88
+      ],
+      "text": " making sure that people care about other people keeping people first and like loving thy neighbor"
+    },
+    {
+      "timestamp": [
+        25.88,
+        30.8
+      ],
+      "text": " which i guess goes back to religion one but something like that because i feel like there's"
+    },
+    {
+      "timestamp": [
+        30.8,
+        35.52
+      ],
+      "text": " not enough compassion everyone hates each other everyone thinks we're no war with each other"
+    },
+    {
+      "timestamp": [
+        35.52,
+        40.2
+      ],
+      "text": " no one thinks we're on the same team over all humans we're literally all on the same team"
+    },
+    {
+      "timestamp": [
+        40.2,
+        46.9
+      ],
+      "text": " so i feel like that's what i feel should matter most in our society having our own backs"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "audio_file": "6a04d37b32fa27d1a3b284a9_audio_ranking_explanation_1780410252898.webm",
+  "transcript": " okay so um starting with what i ranked at the top was the futurist utopia of all the choices i think one that focuses on innovation science driving progress forward through science is most likely to yield preferable outcomes we generally see that good things happen when you know we we trust in and we put our backing behind human creativity specifically in technology and science especially if we're trying to rise up out of a a period of crisis um the next two were sort of uh still interesting still preferable but less preferable so modern green utopia sustainable and secure i think is great because um would be preferable in many cases because of its understanding of sort of building this human coalition to work towards the preservation of nature um moral commonwealth i also ranked higher because it seemed like um the idea of it was a very individualistic approach which i think can be beneficial the middle the primitive primitivist utopia um not super ideal but better than the bottom three i feel like um low tech and small scale so less seemingly i would expect less um you know more community focused and driven still low quality of life because of the low tech and small scale i think we look back to history and find you know civilizations that live like that they they did survive but certainly the the quality of life was was not great into the bottom three with the religious utopia faith-based order um personally i would rank this this one's in five because i i am religious though if i was not i certainly would rank this one lower i'm sure um i think for a lot of human history we've used sort of faith-based order and it had its downsides but it did have um some of those principles that brought people together gave them a very you know clear direction and where to look institutional utopia rule of law well i think law is important that's what i put for number six um I think building a society with no room for any of the human experience and all codified into laws is an issue. And then lastly, AI-centered utopia. Again, I think when you take humans out of the picture, out of the decision-making picture, regardless of what the data says, there are still human aspects that need to be considered. That's something that, at least right now, that I don't believe AI is capable of.",
+  "language": "unknown",
+  "processing_time_seconds": 32.065778,
+  "timestamp": "2026-06-08T10:26:22.405393",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.2
+      ],
+      "text": " okay so um starting with what i ranked at the top was the futurist utopia of all the choices i think"
+    },
+    {
+      "timestamp": [
+        7.2,
+        16.32
+      ],
+      "text": " one that focuses on innovation science driving progress forward through science is most likely to"
+    },
+    {
+      "timestamp": [
+        16.32,
+        23.68
+      ],
+      "text": " yield preferable outcomes we generally see that good things happen when you know we we trust in"
+    },
+    {
+      "timestamp": [
+        23.68,
+        29.12
+      ],
+      "text": " and we put our backing behind human creativity specifically in technology and science especially"
+    },
+    {
+      "timestamp": [
+        29.12,
+        36.88
+      ],
+      "text": " if we're trying to rise up out of a a period of crisis um the next two were sort of uh still"
+    },
+    {
+      "timestamp": [
+        36.88,
+        42.96
+      ],
+      "text": " interesting still preferable but less preferable so modern green utopia sustainable and secure i"
+    },
+    {
+      "timestamp": [
+        42.96,
+        49.44
+      ],
+      "text": " think is great because um would be preferable in many cases because of its understanding of"
+    },
+    {
+      "timestamp": [
+        49.44,
+        56.48
+      ],
+      "text": " sort of building this human coalition to work towards the preservation of nature"
+    },
+    {
+      "timestamp": [
+        58.48,
+        56.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        66.72,
+        69.84
+      ],
+      "text": " um moral commonwealth i also ranked higher because it seemed like um the idea of it was a very individualistic approach which i think can be beneficial"
+    },
+    {
+      "timestamp": [
+        71.6,
+        74.96
+      ],
+      "text": " the middle the primitive primitivist utopia um"
+    },
+    {
+      "timestamp": [
+        76.24,
+        84.4
+      ],
+      "text": " not super ideal but better than the bottom three i feel like um low tech and small scale so less"
+    },
+    {
+      "timestamp": [
+        84.4,
+        94.24
+      ],
+      "text": " seemingly i would expect less um you know more community focused and driven still low quality"
+    },
+    {
+      "timestamp": [
+        94.24,
+        100.08
+      ],
+      "text": " of life because of the low tech and small scale i think we look back to history and find you know"
+    },
+    {
+      "timestamp": [
+        100.08,
+        105.76
+      ],
+      "text": " civilizations that live like that they they did survive but certainly the the quality of life was"
+    },
+    {
+      "timestamp": [
+        105.76,
+        112.56
+      ],
+      "text": " was not great into the bottom three with the religious utopia faith-based order um personally"
+    },
+    {
+      "timestamp": [
+        112.56,
+        117.44
+      ],
+      "text": " i would rank this this one's in five because i i am religious though if i was not i certainly"
+    },
+    {
+      "timestamp": [
+        117.44,
+        123.36
+      ],
+      "text": " would rank this one lower i'm sure um i think for a lot of human history we've used sort of"
+    },
+    {
+      "timestamp": [
+        123.36,
+        130.64
+      ],
+      "text": " faith-based order and it had its downsides but it did have um some of those principles"
+    },
+    {
+      "timestamp": [
+        130.64,
+        135.92
+      ],
+      "text": " that brought people together gave them a very you know clear direction and where to look"
+    },
+    {
+      "timestamp": [
+        137.12,
+        142.0
+      ],
+      "text": " institutional utopia rule of law well i think law is important that's what i put for number six um"
+    },
+    {
+      "timestamp": [
+        142.56,
+        149.86
+      ],
+      "text": " I think building a society with no room for any of the human experience and all codified into laws is an issue."
+    },
+    {
+      "timestamp": [
+        150.5,
+        151.96
+      ],
+      "text": " And then lastly, AI-centered utopia."
+    },
+    {
+      "timestamp": [
+        153.24,
+        162.36
+      ],
+      "text": " Again, I think when you take humans out of the picture, out of the decision-making picture, regardless of what the data says, there are still human aspects that need to be considered."
+    },
+    {
+      "timestamp": [
+        162.9,
+        166.22
+      ],
+      "text": " That's something that, at least right now, that I don't believe AI is capable of."
+    }
+  ]
+}

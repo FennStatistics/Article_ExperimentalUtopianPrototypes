@@ -1,0 +1,360 @@
+{
+  "audio_file": "6a1c7f66eee691b4c70c2d3e_audio_ranking_explanation_1780262291217.webm",
+  "transcript": " Hi there. Yeah, so I put my number one choice as the AI standard utopia, the data-driven governance, I believe because that sets clear boundaries on what's right and wrong, and that's going to be easy for people to understand, while also continuing to advance society. Also, I think it's important that we treat each situation fairly and based on a certain criteria, we shouldn't base it just based off a person's specific circumstances at the time. And that's kind of going into my second choice of the institutional utopia rule of law. I think it's important to have clear boundaries on what's right and wrong. And I understand that there are situations, there are certain circumstances where why people might have to do something wrong, per se. But I think there should still be consequences for that. Going to number three, I think the futuristic utopia, science and innovation. I think it's quite important for humans to continue to advance and improve because without that, we're going to become stagnant. And I think we're just going to die out at that point. So, yeah, I think that's important that we continue to advance. After that, I feel like for me, there's probably a big gap between the first three and the last four. And then the primitive utopia, the low tech and small scale. I think this is kind of going back in time to where it was more village based and community based. not as much globalization and connectiveness just throughout the world. I think that's just worse overall for everyone. There's going to be less advancement, less wealth, and almost everyone is just going to be worse off. I understand that we are sharing with one another. I do think that is a decent idea. However, it is on such a small scale in those small communities that I just don't think it would be very sustainable simple or good for the human race for the future. However, going off the points of how likely it would be for ordinary people to affect it, I think this is the one that most ordinary people could affect or could change since it would take just a small group of people to start this and then more people continuing to make their own communities based on starting either religious or, uh, common, uh, commonalities they have with people. Uh, and then five, the modern green utopia based on sustainability and secure. Um, while I do think, uh, environment is important and, uh, sustaining it is important. Um, I believe that we will have technological, technological advancements in the future, uh, to better support that. And, uh, I believed in this society, it really focused on sustaining the environment currently. And while I do believe it is a problem, I don't think it's a major problem. I think it is something we can figure out in the future. So I think this would really hinder advancements in the human race and would kind of slow us down, kind of stalling us out, making us worse overall. And I don't think ordinary people would be able to affect this i think it would be mostly um large governmental bodies um have control over this and i think this would only kind of happen um after a uh big event maybe like knocking out a large uh portion of resources in on earth um then moral commonwealth i put that sixth second to last intermorality um i i just don't think it's that important i think it's more important to have a set rules of people or of what people know to expect and the consequences based on that and shouldn't just be based on a case-by-case scenario um based on everybody's feelings of the situation um because then you have to kind of decide like who who gets to decide what's right and wrong. And that's just going to change over time as people will pass and new people step up to that role. So it should be kind of hard to decide who gets to say what's right and wrong in that scenario. And then I just say, I believe that wouldn't help society overall advancement wise, just because we'd kind of be stuck behind a certain person's vision uh up until a certain point until they died and they would go into another person's vision however i think that would cause us to really stagnate and not use everybody's uh perspective and lastly religious utopia i put this last because um i believe uh religious freedom is important and uh having just one common religion where everybody follows the same rules would just not be fair to everyone.",
+  "language": "unknown",
+  "processing_time_seconds": 64.256561,
+  "timestamp": "2026-06-08T11:19:40.302531",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        20.24
+      ],
+      "text": " Hi there. Yeah, so I put my number one choice as the AI standard utopia, the data-driven governance, I believe because that sets clear boundaries on what's right and wrong, and that's going to be easy for people to understand, while also continuing to advance society."
+    },
+    {
+      "timestamp": [
+        21.16,
+        21.24
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        35.56,
+        36.5
+      ],
+      "text": " Also, I think it's important that we treat each situation fairly and based on a certain criteria, we shouldn't base it just based off a person's specific circumstances at the time."
+    },
+    {
+      "timestamp": [
+        42.0,
+        42.3
+      ],
+      "text": " And that's kind of going into my second choice of the institutional utopia rule of law."
+    },
+    {
+      "timestamp": [
+        45.32,
+        45.62
+      ],
+      "text": " I think it's important to have clear boundaries on what's right and wrong."
+    },
+    {
+      "timestamp": [
+        45.32,
+        53.58
+      ],
+      "text": " And I understand that there are situations, there are certain circumstances where why people might have to do something wrong, per se."
+    },
+    {
+      "timestamp": [
+        54.2,
+        57.02
+      ],
+      "text": " But I think there should still be consequences for that."
+    },
+    {
+      "timestamp": [
+        57.86,
+        64.18
+      ],
+      "text": " Going to number three, I think the futuristic utopia, science and innovation."
+    },
+    {
+      "timestamp": [
+        64.76,
+        74.3
+      ],
+      "text": " I think it's quite important for humans to continue to advance and improve because without that, we're going to become stagnant."
+    },
+    {
+      "timestamp": [
+        74.3,
+        76.78
+      ],
+      "text": " And I think we're just going to die out at that point."
+    },
+    {
+      "timestamp": [
+        76.78,
+        81.06
+      ],
+      "text": " So, yeah, I think that's important that we continue to advance."
+    },
+    {
+      "timestamp": [
+        81.8,
+        88.72
+      ],
+      "text": " After that, I feel like for me, there's probably a big gap between the first three and the last four."
+    },
+    {
+      "timestamp": [
+        90.8,
+        95.0
+      ],
+      "text": " And then the primitive utopia, the low tech and small scale."
+    },
+    {
+      "timestamp": [
+        95.86,
+        103.82
+      ],
+      "text": " I think this is kind of going back in time to where it was more village based and community based."
+    },
+    {
+      "timestamp": [
+        104.3,
+        108.72
+      ],
+      "text": " not as much globalization and connectiveness just throughout the world."
+    },
+    {
+      "timestamp": [
+        109.1,
+        111.36
+      ],
+      "text": " I think that's just worse overall for everyone."
+    },
+    {
+      "timestamp": [
+        111.36,
+        114.58
+      ],
+      "text": " There's going to be less advancement, less wealth,"
+    },
+    {
+      "timestamp": [
+        115.0,
+        119.02
+      ],
+      "text": " and almost everyone is just going to be worse off."
+    },
+    {
+      "timestamp": [
+        119.76,
+        121.92
+      ],
+      "text": " I understand that we are sharing with one another."
+    },
+    {
+      "timestamp": [
+        122.02,
+        125.46
+      ],
+      "text": " I do think that is a decent idea."
+    },
+    {
+      "timestamp": [
+        125.58,
+        129.2
+      ],
+      "text": " However, it is on such a small scale in those small communities"
+    },
+    {
+      "timestamp": [
+        129.2,
+        131.88
+      ],
+      "text": " that I just don't think it would be very sustainable"
+    },
+    {
+      "timestamp": [
+        131.88,
+        142.08
+      ],
+      "text": " simple or good for the human race for the future. However, going off the points of how likely it"
+    },
+    {
+      "timestamp": [
+        142.08,
+        147.86
+      ],
+      "text": " would be for ordinary people to affect it, I think this is the one that most ordinary people"
+    },
+    {
+      "timestamp": [
+        147.86,
+        153.96
+      ],
+      "text": " could affect or could change since it would take just a small group of people to start this and"
+    },
+    {
+      "timestamp": [
+        153.96,
+        159.28
+      ],
+      "text": " then more people continuing to make their own communities based on starting either religious"
+    },
+    {
+      "timestamp": [
+        159.28,
+        167.72
+      ],
+      "text": " or, uh, common, uh, commonalities they have with people. Uh, and then five, the modern green"
+    },
+    {
+      "timestamp": [
+        167.72,
+        175.04
+      ],
+      "text": " utopia based on sustainability and secure. Um, while I do think, uh, environment is important"
+    },
+    {
+      "timestamp": [
+        175.04,
+        180.68
+      ],
+      "text": " and, uh, sustaining it is important. Um, I believe that we will have technological,"
+    },
+    {
+      "timestamp": [
+        180.88,
+        186.48
+      ],
+      "text": " technological advancements in the future, uh, to better support that. And, uh, I believed in"
+    },
+    {
+      "timestamp": [
+        186.48,
+        193.62
+      ],
+      "text": " this society, it really focused on sustaining the environment currently. And while I do believe it"
+    },
+    {
+      "timestamp": [
+        193.62,
+        197.18
+      ],
+      "text": " is a problem, I don't think it's a major problem. I think it is something we can figure out in the"
+    },
+    {
+      "timestamp": [
+        197.18,
+        204.98
+      ],
+      "text": " future. So I think this would really hinder advancements in the human race and would kind"
+    },
+    {
+      "timestamp": [
+        204.98,
+        211.94
+      ],
+      "text": " of slow us down, kind of stalling us out, making us worse overall. And I don't think ordinary people"
+    },
+    {
+      "timestamp": [
+        211.94,
+        218.3
+      ],
+      "text": " would be able to affect this i think it would be mostly um large governmental bodies um have"
+    },
+    {
+      "timestamp": [
+        218.3,
+        228.52
+      ],
+      "text": " control over this and i think this would only kind of happen um after a uh big event maybe like"
+    },
+    {
+      "timestamp": [
+        228.52,
+        235.76
+      ],
+      "text": " knocking out a large uh portion of resources in on earth um then moral commonwealth i put that"
+    },
+    {
+      "timestamp": [
+        235.76,
+        242.84
+      ],
+      "text": " sixth second to last intermorality um i i just don't think it's that important i think it's more"
+    },
+    {
+      "timestamp": [
+        242.84,
+        249.92
+      ],
+      "text": " important to have a set rules of people or of what people know to expect and the consequences"
+    },
+    {
+      "timestamp": [
+        249.92,
+        256.04
+      ],
+      "text": " based on that and shouldn't just be based on a case-by-case scenario um based on everybody's"
+    },
+    {
+      "timestamp": [
+        256.04,
+        265.1
+      ],
+      "text": " feelings of the situation um because then you have to kind of decide like who who gets to decide"
+    },
+    {
+      "timestamp": [
+        265.1,
+        271.38
+      ],
+      "text": " what's right and wrong. And that's just going to change over time as people will pass and new"
+    },
+    {
+      "timestamp": [
+        271.38,
+        278.84
+      ],
+      "text": " people step up to that role. So it should be kind of hard to decide who gets to say what's right and"
+    },
+    {
+      "timestamp": [
+        278.84,
+        284.38
+      ],
+      "text": " wrong in that scenario. And then I just say, I believe that wouldn't help society overall"
+    },
+    {
+      "timestamp": [
+        284.38,
+        290.62
+      ],
+      "text": " advancement wise, just because we'd kind of be stuck behind a certain person's vision"
+    },
+    {
+      "timestamp": [
+        290.62,
+        295.56
+      ],
+      "text": " uh up until a certain point until they died and they would go into another person's vision"
+    },
+    {
+      "timestamp": [
+        295.56,
+        301.74
+      ],
+      "text": " however i think that would cause us to really stagnate and not use everybody's uh perspective"
+    },
+    {
+      "timestamp": [
+        301.74,
+        308.9
+      ],
+      "text": " and lastly religious utopia i put this last because um i believe uh religious freedom is"
+    },
+    {
+      "timestamp": [
+        308.9,
+        315.4
+      ],
+      "text": " important and uh having just one common religion where everybody follows the same"
+    },
+    {
+      "timestamp": [
+        315.4,
+        319.88
+      ],
+      "text": " rules would just not be fair to everyone."
+    }
+  ]
+}

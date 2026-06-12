@@ -1,0 +1,17 @@
+{
+  "audio_file": "69b4cd1edb91fb79284441cd_audio_ranking_explanation_1780379883267.webm",
+  "transcript": " Based from Personal Opinion",
+  "language": "unknown",
+  "processing_time_seconds": 4.398668,
+  "timestamp": "2026-06-08T09:15:12.672566",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        4.26
+      ],
+      "text": " Based from Personal Opinion"
+    }
+  ]
+}

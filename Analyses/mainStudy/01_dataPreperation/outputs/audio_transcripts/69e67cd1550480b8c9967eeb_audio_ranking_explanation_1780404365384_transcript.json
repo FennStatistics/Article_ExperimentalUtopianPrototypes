@@ -1,0 +1,52 @@
+{
+  "audio_file": "69e67cd1550480b8c9967eeb_audio_ranking_explanation_1780404365384.webm",
+  "transcript": " As a faith-based person myself, I think that this society could be beneficial. I think that convictions drive people to act. And I think that that society morally could help people. And then I also think that the second one is moral. I think a sustainable society would also be good. And Rule of Law is my least favorite.",
+  "language": "unknown",
+  "processing_time_seconds": 8.861132,
+  "timestamp": "2026-06-08T09:40:44.773878",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.44
+      ],
+      "text": " As a faith-based person myself, I think that this society could be beneficial."
+    },
+    {
+      "timestamp": [
+        8.44,
+        11.92
+      ],
+      "text": " I think that convictions drive people to act."
+    },
+    {
+      "timestamp": [
+        13.9,
+        20.22
+      ],
+      "text": " And I think that that society morally could help people."
+    },
+    {
+      "timestamp": [
+        21.06,
+        26.18
+      ],
+      "text": " And then I also think that the second one is moral."
+    },
+    {
+      "timestamp": [
+        26.78,
+        29.9
+      ],
+      "text": " I think a sustainable society would also be good."
+    },
+    {
+      "timestamp": [
+        30.0,
+        32.0
+      ],
+      "text": " And Rule of Law is my least favorite."
+    }
+  ]
+}

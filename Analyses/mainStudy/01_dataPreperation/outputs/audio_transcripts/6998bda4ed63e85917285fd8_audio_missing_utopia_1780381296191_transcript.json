@@ -1,0 +1,38 @@
+{
+  "audio_file": "6998bda4ed63e85917285fd8_audio_missing_utopia_1780381296191.webm",
+  "transcript": " I think a healthy mix of relying on morality to dictate things, while also pushing for more sustainable energy and honestly more religious freedom would be pretty ideal for me in the future, while also giving space to the rise of technology that helps us advance, while also making sure resources are still being used for people that need it. I think the focus should always be on humans rather than something else.",
+  "language": "unknown",
+  "processing_time_seconds": 9.287573,
+  "timestamp": "2026-06-08T09:06:33.149167",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        25.96
+      ],
+      "text": " I think a healthy mix of relying on morality to dictate things, while also pushing for more sustainable energy and honestly more religious freedom would be pretty ideal for me in the future, while also giving space to the rise of technology that helps us advance,"
+    },
+    {
+      "timestamp": [
+        26.76,
+        25.96
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.34,
+        34.54
+      ],
+      "text": " while also making sure resources are still being used for people that need it."
+    },
+    {
+      "timestamp": [
+        39.04,
+        null
+      ],
+      "text": " I think the focus should always be on humans rather than something else."
+    }
+  ]
+}

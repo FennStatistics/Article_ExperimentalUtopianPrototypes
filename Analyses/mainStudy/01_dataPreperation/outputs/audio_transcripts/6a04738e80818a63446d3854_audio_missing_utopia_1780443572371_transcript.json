@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a04738e80818a63446d3854_audio_missing_utopia_1780443572371.webm",
+  "transcript": " I can't really think of an important value that was missing from all of them. I felt like all seven seemed pretty comprehensive put together. I guess maybe a utopia that was missing is an eighth utopia that could be a combination of two of the utopias that were listed. For example, a combination of the faith-based one and the science and technology one. But I can't really think of a value that was missing from all of them.",
+  "language": "unknown",
+  "processing_time_seconds": 9.684586,
+  "timestamp": "2026-06-08T10:22:22.951822",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.44
+      ],
+      "text": " I can't really think of an important value that was missing from all of them."
+    },
+    {
+      "timestamp": [
+        7.44,
+        12.04
+      ],
+      "text": " I felt like all seven seemed pretty comprehensive put together."
+    },
+    {
+      "timestamp": [
+        12.62,
+        26.3
+      ],
+      "text": " I guess maybe a utopia that was missing is an eighth utopia that could be a combination of two of the utopias that were listed."
+    },
+    {
+      "timestamp": [
+        26.3,
+        33.92
+      ],
+      "text": " For example, a combination of the faith-based one and the science and technology one."
+    },
+    {
+      "timestamp": [
+        34.9,
+        39.92
+      ],
+      "text": " But I can't really think of a value that was missing from all of them."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audio_file": "69f135284e35bc7ed69af8a8_audio_missing_utopia_1780263995124.webm",
+  "transcript": " I feel like you covered mostly utopias. I think that the one you would miss would do more so like cultist versus religion to where there's just kind of smaller groups of more so clans versus cults. I think like back in the Viking era where there was a lot of different clans versus the idea of, I guess, religion, although they did have a lot of religion and it did play a factor into it.",
+  "language": "unknown",
+  "processing_time_seconds": 7.158997,
+  "timestamp": "2026-06-08T09:53:32.650101",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.18
+      ],
+      "text": " I feel like you covered mostly utopias. I think that the one you would miss would do more so like cultist versus religion to where there's just kind of smaller groups of more so clans versus cults."
+    },
+    {
+      "timestamp": [
+        15.18,
+        27.06
+      ],
+      "text": " I think like back in the Viking era where there was a lot of different clans versus the idea of, I guess, religion, although they did have a lot of religion and it did play a factor into it."
+    }
+  ]
+}

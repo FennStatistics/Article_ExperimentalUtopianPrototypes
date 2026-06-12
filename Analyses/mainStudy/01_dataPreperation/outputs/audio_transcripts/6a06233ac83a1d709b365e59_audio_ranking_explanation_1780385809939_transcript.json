@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a06233ac83a1d709b365e59_audio_ranking_explanation_1780385809939.webm",
+  "transcript": " I rank everything this way because, well, neither one of the futures seem good, but I guess the moral commonwealth, that logically seems like the most preferred, as well as the premise utopia and the modern green utopia, down to, like, the number six, the institutional utopia, it's not really, none of these are utopias. um number six is seems to be like i think that's like life like right now is it's like um just utopia that just seems like a complete dystopia uh faith that just seems like a nightmare that's probably like how like the world was and like the dark ages and medieval ages and shit um yeah it's all those seem like nightmares to me so there there's my input Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 14.016979,
+  "timestamp": "2026-06-08T10:29:08.464247",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.54
+      ],
+      "text": " I rank everything this way because, well, neither one of the futures seem good, but I guess the moral commonwealth, that logically seems like the most preferred, as well as the premise utopia and the modern green utopia, down to, like, the number six, the institutional utopia, it's not really, none of these are utopias."
+    },
+    {
+      "timestamp": [
+        25.88,
+        24.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        35.12,
+        41.14
+      ],
+      "text": " um number six is seems to be like i think that's like life like right now is it's like um just utopia that just seems like a complete dystopia uh faith that just seems like a nightmare that's"
+    },
+    {
+      "timestamp": [
+        41.14,
+        46.9
+      ],
+      "text": " probably like how like the world was and like the dark ages and medieval ages and shit um yeah"
+    },
+    {
+      "timestamp": [
+        46.9,
+        52.22
+      ],
+      "text": " it's all those seem like nightmares to me so there there's my input"
+    },
+    {
+      "timestamp": [
+        52.22,
+        82.2
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

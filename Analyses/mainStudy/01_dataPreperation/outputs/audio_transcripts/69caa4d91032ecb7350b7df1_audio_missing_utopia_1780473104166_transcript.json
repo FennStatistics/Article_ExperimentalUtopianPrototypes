@@ -1,0 +1,52 @@
+{
+  "audio_file": "69caa4d91032ecb7350b7df1_audio_missing_utopia_1780473104166.webm",
+  "transcript": " As I kind of discussed in the last section, I like the society that's more familiar to me. I like the role of law, and I like evidence-based things. But as a healthcare professional, my idea of society would be one that also really focuses on the flourishment of our species as humans and also, you know, the world in which we live and preserving that. And, again, as a healthcare professional, I think prioritizing things like minimizing, you know, unnecessary suffering and, you know, trying to decrease conflict and corruption would also be really important.",
+  "language": "unknown",
+  "processing_time_seconds": 10.571426,
+  "timestamp": "2026-06-08T09:27:37.076012",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.94
+      ],
+      "text": " As I kind of discussed in the last section, I like the society that's more familiar to me."
+    },
+    {
+      "timestamp": [
+        6.94,
+        11.16
+      ],
+      "text": " I like the role of law, and I like evidence-based things."
+    },
+    {
+      "timestamp": [
+        12.56,
+        24.72
+      ],
+      "text": " But as a healthcare professional, my idea of society would be one that also really focuses on the flourishment of our species as humans"
+    },
+    {
+      "timestamp": [
+        24.72,
+        30.26
+      ],
+      "text": " and also, you know, the world in which we live and preserving that."
+    },
+    {
+      "timestamp": [
+        31.44,
+        37.16
+      ],
+      "text": " And, again, as a healthcare professional, I think prioritizing things like minimizing, you know,"
+    },
+    {
+      "timestamp": [
+        37.2,
+        45.88
+      ],
+      "text": " unnecessary suffering and, you know, trying to decrease conflict and corruption would also be really important."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "audio_file": "5f50b1bbe29c992335098fb1_audio_missing_utopia_1780403581586.webm",
+  "transcript": " I think the only thing that was missing from the societies was explaining, um, work and how people make money. Uh, I think that the best way, really, for that to be in a future utopia would be, um, that everybody would kind of rotate jobs, kind of like a communal type thing, where everybody would take a chance at each different job. and that they would all earn relatively the same.",
+  "language": "unknown",
+  "processing_time_seconds": 9.269136,
+  "timestamp": "2026-06-08T08:18:00.807019",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.7
+      ],
+      "text": " I think the only thing that was missing from the societies was explaining, um, work and how people make money. Uh, I think that the best way, really, for that to be in a future utopia would be, um, that everybody would kind of rotate jobs, kind of like a communal type thing, where everybody would take a chance at each different job."
+    },
+    {
+      "timestamp": [
+        29.42,
+        28.7
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.32,
+        null
+      ],
+      "text": " and that they would all earn relatively the same."
+    }
+  ]
+}

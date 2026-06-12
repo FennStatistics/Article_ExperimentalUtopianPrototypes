@@ -1,0 +1,38 @@
+{
+  "audio_file": "61647de75314468d5cb57f93_audio_ranking_explanation_1780380793527.webm",
+  "transcript": " I chose the rankings that way, because I wanted to be in a futuristic society with a lot of innovation, because that would be exciting to me, rather than based on something like a boring, faith-based society where there might not be as many morals and people are relying on old traditions.",
+  "language": "unknown",
+  "processing_time_seconds": 8.676366,
+  "timestamp": "2026-06-08T08:24:39.423305",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.22
+      ],
+      "text": " I chose the rankings that way, because I wanted to be in a futuristic society with a lot of innovation, because that would be exciting to me, rather than based on something like a boring, faith-based society where there might not be"
+    },
+    {
+      "timestamp": [
+        29.22,
+        30.84
+      ],
+      "text": " as many morals"
+    },
+    {
+      "timestamp": [
+        30.84,
+        33.58
+      ],
+      "text": " and people are relying on"
+    },
+    {
+      "timestamp": [
+        33.58,
+        34.7
+      ],
+      "text": " old traditions."
+    }
+  ]
+}

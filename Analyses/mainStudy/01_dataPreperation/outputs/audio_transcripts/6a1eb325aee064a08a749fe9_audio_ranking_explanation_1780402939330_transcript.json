@@ -1,0 +1,143 @@
+{
+  "audio_file": "6a1eb325aee064a08a749fe9_audio_ranking_explanation_1780402939330.webm",
+  "transcript": " The reason I rank the society this way is because I believe that we should still have some technology, but like Barcelona become good, be more and more kind of a socialistic kind of society and not really like too much in the rule of law, basing our role in controlling each other through religion or like AI, I just don't believe in that at all. I think there's a sense of that we can all come together and, you know, be society together and be more connected as people rather than be stuck dealing with corporations, controlling us and controlling what we have access to and what we don't have access to and where and what we can do. So I think society is like the market utopia, the moral commonwealth are ones that I most prefer And ones that rely on, again, the rule of law, things that we kind of already have in place, faith-based AI, I think those are just generally bad ideas that will just kind of destroy humanity as we know it. That's why I picked the ones that I did from most referred to this.",
+  "language": "unknown",
+  "processing_time_seconds": 16.978233,
+  "timestamp": "2026-06-08T11:37:46.570954",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.88
+      ],
+      "text": " The reason I rank the society this way is because I believe that we should still have"
+    },
+    {
+      "timestamp": [
+        7.88,
+        15.18
+      ],
+      "text": " some technology, but like Barcelona become good, be more and more kind of a socialistic"
+    },
+    {
+      "timestamp": [
+        15.18,
+        23.5
+      ],
+      "text": " kind of society and not really like too much in the rule of law, basing our role in controlling"
+    },
+    {
+      "timestamp": [
+        23.5,
+        29.64
+      ],
+      "text": " each other through religion or like AI, I just don't believe in that at all."
+    },
+    {
+      "timestamp": [
+        29.64,
+        33.42
+      ],
+      "text": " I think there's a sense of that we can all come together"
+    },
+    {
+      "timestamp": [
+        33.42,
+        36.36
+      ],
+      "text": " and, you know, be society together"
+    },
+    {
+      "timestamp": [
+        36.36,
+        39.06
+      ],
+      "text": " and be more connected as people"
+    },
+    {
+      "timestamp": [
+        39.06,
+        42.46
+      ],
+      "text": " rather than be stuck dealing with corporations,"
+    },
+    {
+      "timestamp": [
+        42.46,
+        45.4
+      ],
+      "text": " controlling us and controlling what we have access to"
+    },
+    {
+      "timestamp": [
+        45.4,
+        46.62
+      ],
+      "text": " and what we don't have access to"
+    },
+    {
+      "timestamp": [
+        46.62,
+        50.22
+      ],
+      "text": " and where and what we can do."
+    },
+    {
+      "timestamp": [
+        51.24,
+        54.58
+      ],
+      "text": " So I think society is like the market utopia,"
+    },
+    {
+      "timestamp": [
+        54.58,
+        59.46
+      ],
+      "text": " the moral commonwealth are ones that I most prefer"
+    },
+    {
+      "timestamp": [
+        59.46,
+        65.22
+      ],
+      "text": " And ones that rely on, again, the rule of law,"
+    },
+    {
+      "timestamp": [
+        65.22,
+        67.88
+      ],
+      "text": " things that we kind of already have in place,"
+    },
+    {
+      "timestamp": [
+        67.88,
+        70.98
+      ],
+      "text": " faith-based AI, I think those are just generally bad ideas"
+    },
+    {
+      "timestamp": [
+        70.98,
+        74.64
+      ],
+      "text": " that will just kind of destroy humanity as we know it."
+    },
+    {
+      "timestamp": [
+        74.64,
+        79.32
+      ],
+      "text": " That's why I picked the ones that I did from most referred"
+    },
+    {
+      "timestamp": [
+        79.32,
+        80.74
+      ],
+      "text": " to this."
+    }
+  ]
+}

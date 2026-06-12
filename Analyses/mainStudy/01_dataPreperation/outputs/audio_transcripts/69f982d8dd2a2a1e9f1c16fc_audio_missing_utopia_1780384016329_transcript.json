@@ -1,0 +1,24 @@
+{
+  "audio_file": "69f982d8dd2a2a1e9f1c16fc_audio_missing_utopia_1780384016329.webm",
+  "transcript": " I guess maybe something that was just talking about, like the distribution of resources, since none of them were abundant in it, and maybe just ensuring that that was equal, maybe this sounds a bit like communism, but, you know, if we're discussing ideal utopian societies, then I think it's fair to bring that in. And just more traits like that that just ensure that if we're just basing it on morality and conscience and general goodwill, then, you know, just ensuring that everybody gets access to the same things.",
+  "language": "unknown",
+  "processing_time_seconds": 9.959831,
+  "timestamp": "2026-06-08T10:02:41.982033",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.44
+      ],
+      "text": " I guess maybe something that was just talking about, like the distribution of resources, since none of them were abundant in it, and maybe just ensuring that that was equal, maybe this sounds a bit like communism, but, you know, if we're discussing ideal utopian societies, then I think it's fair to bring that in."
+    },
+    {
+      "timestamp": [
+        24.44,
+        41.02
+      ],
+      "text": " And just more traits like that that just ensure that if we're just basing it on morality and conscience and general goodwill, then, you know, just ensuring that everybody gets access to the same things."
+    }
+  ]
+}

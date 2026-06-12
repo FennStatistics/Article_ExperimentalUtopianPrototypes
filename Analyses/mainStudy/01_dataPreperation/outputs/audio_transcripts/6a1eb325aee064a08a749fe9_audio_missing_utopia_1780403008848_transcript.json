@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a1eb325aee064a08a749fe9_audio_missing_utopia_1780403008848.webm",
+  "transcript": " Maybe a missing future society would be one where we start gathering resources from other parts of our solar system, maybe even under as we have space travel, I don't know. I think the ones up there are pretty good. But again, since we were running resources, we would eventually probably have to start gathering resources from other planets in our solar system, other social bodies, and I think that would be just an added benefit to Earth if we want to continue living here on Earth. I would suggest one more. Maybe it's a little sci-fi, but I think gathering resources from our solar system and anything else that comes near our planet would be helpful.",
+  "language": "unknown",
+  "processing_time_seconds": 11.527725,
+  "timestamp": "2026-06-08T11:37:29.487501",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.48
+      ],
+      "text": " Maybe a missing future society would be one where we start gathering resources from other"
+    },
+    {
+      "timestamp": [
+        7.48,
+        14.28
+      ],
+      "text": " parts of our solar system, maybe even under as we have space travel, I don't know."
+    },
+    {
+      "timestamp": [
+        14.28,
+        18.72
+      ],
+      "text": " I think the ones up there are pretty good."
+    },
+    {
+      "timestamp": [
+        18.72,
+        23.26
+      ],
+      "text": " But again, since we were running resources, we would eventually probably have to start"
+    },
+    {
+      "timestamp": [
+        23.26,
+        28.1
+      ],
+      "text": " gathering resources from other planets in our solar system, other social bodies, and"
+    },
+    {
+      "timestamp": [
+        28.1,
+        32.02
+      ],
+      "text": " I think that would be just an added benefit to Earth"
+    },
+    {
+      "timestamp": [
+        32.02,
+        33.48
+      ],
+      "text": " if we want to continue living here on Earth."
+    },
+    {
+      "timestamp": [
+        33.48,
+        34.68
+      ],
+      "text": " I would suggest one more."
+    },
+    {
+      "timestamp": [
+        36.16,
+        37.8
+      ],
+      "text": " Maybe it's a little sci-fi,"
+    },
+    {
+      "timestamp": [
+        37.96,
+        41.3
+      ],
+      "text": " but I think gathering resources from our solar system"
+    },
+    {
+      "timestamp": [
+        41.3,
+        45.12
+      ],
+      "text": " and anything else that comes near our planet"
+    },
+    {
+      "timestamp": [
+        45.12,
+        46.2
+      ],
+      "text": " would be helpful."
+    }
+  ]
+}

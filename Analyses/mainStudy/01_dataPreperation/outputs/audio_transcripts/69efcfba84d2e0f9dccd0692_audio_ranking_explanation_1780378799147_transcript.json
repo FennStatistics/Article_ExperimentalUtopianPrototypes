@@ -1,0 +1,185 @@
+{
+  "audio_file": "69efcfba84d2e0f9dccd0692_audio_ranking_explanation_1780378799147.webm",
+  "transcript": " I ranked these societies this way because the modern green utopia just seemed to be more, I guess, appealing when it comes to the long-term human nature balance. um the i like i like the fact that it's providing security and sustainability and um sufficiency i like that the laws and the institutions are arranged to keep society um working reliably which balances you know the human desires and the limited natural resources the religious is last on my list because not all people live this way so forcing them to live that way or forcing that to happen I feel will cause more of an uproar as well as it kind of sounds like a cult like they force you to behave in these practices believe in these practices and then you're living that way and you're kind of seems brainwashed in a way people should be free to live how they feel and not be forced into a religion um ai was number six because though i do like ai i don't want it to completely rule us and ai is supposed to be a support or an assistant. And having AI to be the full thing or to be in complete control, it just sounds like a complete problem. For number two, moral commonwealth. I like that one because because I like that people would have to, it would be based off of people's, their moral, sorry, that it would be based off of people's moral concerns, moral respect, and things of that nature. and their commitment to each other. I like that each person will be treated as a backbone of order. The institutional utopia I put as number three because we need law. um regardless of how much we say we don't it is needed sometimes so i can't say that um that it will have to it could be last because we need it the futuristic utopia is number five i chose that one because sometimes when things get too scientific and stuff i feel like it can cause problems and it can cause too many experimentations that can lead to bad things. The low-tech and small-scale, I like that one because it was kind of normal in a way, and it caused people to really kind of be one with one another and, take care of one another and we wouldn't be relying so much on technology.",
+  "language": "unknown",
+  "processing_time_seconds": 40.306602,
+  "timestamp": "2026-06-08T09:51:58.598340",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.74
+      ],
+      "text": " I ranked these societies this way because the modern green utopia just seemed to be more, I guess, appealing when it comes to the long-term human nature balance."
+    },
+    {
+      "timestamp": [
+        22.74,
+        19.74
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        29.58,
+        37.62
+      ],
+      "text": " um the i like i like the fact that it's providing security and sustainability and um sufficiency i like that the laws and the institutions are arranged to keep society"
+    },
+    {
+      "timestamp": [
+        37.62,
+        44.44
+      ],
+      "text": " um working reliably which balances you know the human desires and the limited natural resources"
+    },
+    {
+      "timestamp": [
+        44.44,
+        56.04
+      ],
+      "text": " the religious is last on my list because not all people live this way so forcing them to live that"
+    },
+    {
+      "timestamp": [
+        56.04,
+        64.04
+      ],
+      "text": " way or forcing that to happen I feel will cause more of an uproar as well as it kind of sounds"
+    },
+    {
+      "timestamp": [
+        64.04,
+        69.76
+      ],
+      "text": " like a cult like they force you to behave in these practices believe in these practices"
+    },
+    {
+      "timestamp": [
+        69.76,
+        77.2
+      ],
+      "text": " and then you're living that way and you're kind of seems brainwashed in a way people should be"
+    },
+    {
+      "timestamp": [
+        77.2,
+        87.66
+      ],
+      "text": " free to live how they feel and not be forced into a religion um ai was number six because"
+    },
+    {
+      "timestamp": [
+        87.66,
+        97.72
+      ],
+      "text": " though i do like ai i don't want it to completely rule us and ai is supposed to be a support or an"
+    },
+    {
+      "timestamp": [
+        97.72,
+        107.46
+      ],
+      "text": " assistant. And having AI to be the full thing or to be in complete control, it just sounds like"
+    },
+    {
+      "timestamp": [
+        107.46,
+        116.64
+      ],
+      "text": " a complete problem. For number two, moral commonwealth. I like that one because"
+    },
+    {
+      "timestamp": [
+        116.64,
+        127.44
+      ],
+      "text": " because I like that people would have to, it would be based off of people's, their moral,"
+    },
+    {
+      "timestamp": [
+        130.14,
+        141.48
+      ],
+      "text": " sorry, that it would be based off of people's moral concerns, moral respect, and things of that nature."
+    },
+    {
+      "timestamp": [
+        144.88,
+        141.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        153.4,
+        166.08
+      ],
+      "text": " and their commitment to each other. I like that each person will be treated as a backbone of order. The institutional utopia I put as number three because we need law."
+    },
+    {
+      "timestamp": [
+        168.24,
+        166.08
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        176.96,
+        186.94
+      ],
+      "text": " um regardless of how much we say we don't it is needed sometimes so i can't say that um that it will have to it could be last because we need it the futuristic utopia is number five"
+    },
+    {
+      "timestamp": [
+        186.94,
+        195.32
+      ],
+      "text": " i chose that one because sometimes when things get too scientific and stuff i feel like it can"
+    },
+    {
+      "timestamp": [
+        195.32,
+        200.34
+      ],
+      "text": " cause problems and it can cause too many experimentations that can lead to bad things."
+    },
+    {
+      "timestamp": [
+        202.08,
+        208.32
+      ],
+      "text": " The low-tech and small-scale, I like that one because it was kind of"
+    },
+    {
+      "timestamp": [
+        208.94,
+        219.42
+      ],
+      "text": " normal in a way, and it caused people to really kind of be one with one another and,"
+    },
+    {
+      "timestamp": [
+        219.42,
+        222.14
+      ],
+      "text": " take care of one another"
+    },
+    {
+      "timestamp": [
+        222.14,
+        224.18
+      ],
+      "text": " and we wouldn't be"
+    },
+    {
+      "timestamp": [
+        224.18,
+        225.92
+      ],
+      "text": " relying so much on technology."
+    }
+  ]
+}

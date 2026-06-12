@@ -1,0 +1,38 @@
+{
+  "audio_file": "67ad361485e9e78975aa08bb_audio_ranking_explanation_1780443120166.webm",
+  "transcript": " The reason why I ranked them the way I did is because I don't like the AI-centered utopia or the institutional rule of law because to me it just seems like you don't have control of what's around you. everything is just being monitored and it's very like straight compared to, to me, sustainable and secure modern gamutopia. It just seems more like eco-friendly and I feel like most people would like that being...",
+  "language": "unknown",
+  "processing_time_seconds": 10.054825,
+  "timestamp": "2026-06-08T08:47:36.786033",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.72,
+        21.78
+      ],
+      "text": " The reason why I ranked them the way I did is because I don't like the AI-centered utopia or the institutional rule of law because to me it just seems like you don't have control of what's around you."
+    },
+    {
+      "timestamp": [
+        21.78,
+        28.14
+      ],
+      "text": " everything is just being monitored and it's very like straight compared to, to"
+    },
+    {
+      "timestamp": [
+        28.14,
+        36.12
+      ],
+      "text": " me, sustainable and secure modern gamutopia. It just seems more like eco-friendly and I feel like"
+    },
+    {
+      "timestamp": [
+        36.12,
+        40.78
+      ],
+      "text": " most people would like that being..."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "audio_file": "6a1b32acfd7ac5cad675de0a_audio_missing_utopia_1780215387367.webm",
+  "transcript": " I think some of the important values that were absent was equitability. And also the predicting of the future. It's not easy to balance things, but balancing is important. We need both AI and we also need a modern, green and sustainable society. This is because people keep on evolving and humans involve, and as we involve, we need technology, but still need to preserve our true nature as human beings and the way human beings were meant to live. Therefore I think what was missing is a balance between the two. We needed to have something that felt fair and balanced, to make sure that we value where nature and human being and data can be able to live together.",
+  "language": "unknown",
+  "processing_time_seconds": 13.909317,
+  "timestamp": "2026-06-08T11:16:34.815188",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.2
+      ],
+      "text": " I think some of the important values that were absent was equitability."
+    },
+    {
+      "timestamp": [
+        13.2,
+        18.44
+      ],
+      "text": " And also the predicting of the future."
+    },
+    {
+      "timestamp": [
+        18.44,
+        24.62
+      ],
+      "text": " It's not easy to balance things, but balancing is important."
+    },
+    {
+      "timestamp": [
+        24.62,
+        32.0
+      ],
+      "text": " We need both AI and we also need a modern, green and sustainable society."
+    },
+    {
+      "timestamp": [
+        32.0,
+        37.34
+      ],
+      "text": " This is because people keep on evolving and humans involve, and as we involve, we need"
+    },
+    {
+      "timestamp": [
+        37.34,
+        43.78
+      ],
+      "text": " technology, but still need to preserve our true nature as human beings and the way human"
+    },
+    {
+      "timestamp": [
+        43.78,
+        46.94
+      ],
+      "text": " beings were meant to live."
+    },
+    {
+      "timestamp": [
+        46.94,
+        53.62
+      ],
+      "text": " Therefore I think what was missing is a balance between the two."
+    },
+    {
+      "timestamp": [
+        53.62,
+        64.74
+      ],
+      "text": " We needed to have something that felt fair and balanced, to make sure that we value where"
+    },
+    {
+      "timestamp": [
+        64.74,
+        70.06
+      ],
+      "text": " nature and human being and data can be able to live together."
+    }
+  ]
+}

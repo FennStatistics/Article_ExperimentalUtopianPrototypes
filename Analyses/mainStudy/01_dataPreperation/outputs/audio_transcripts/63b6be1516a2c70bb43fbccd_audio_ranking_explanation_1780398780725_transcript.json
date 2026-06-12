@@ -1,0 +1,136 @@
+{
+  "audio_file": "63b6be1516a2c70bb43fbccd_audio_ranking_explanation_1780398780725.webm",
+  "transcript": " I really like the idea of the inner morality. It seems like everybody was working together with the greater good in mind and using their own morals and ethics to be a better society, and I think that's really ideal. I think it's really nice when people can think for themselves and have the freedom to think for themselves and, um, you know, like work cohesively with others. Um, my least preferred is definitely the rule of law. Um, I also don't like the faith-based order. I feel like they are not ideal for me. I feel like they're very restrictive. I feel like they are forcing people to do things that they may not necessarily agree with. And I think it creates a lot of tension and just makes me uncomfortable thinking about it. So I really liked the modern green utopia. I thought that it was kind of cool, you know, just thinking about earth and actually, you know, working towards being sustainable and taking care of the planet that we live on. Um, I also like the science one too. Um, I think that, you know, science is super valuable and, you know, obviously we've learned so much through science. Um, and it just kind of makes sense. The low tech and small scale I thought was kind of cool. Um, but I, I worry a little bit like what that would actually look like, like seeing myself in it. I'm not sure that I would be totally happy in that society. Um, but I did think that it was like a kind of cool idea. I wouldn't mind living in it, but it wouldn't be my preferred choice. Um, the data driven and relying solely on AI was, um, you know, definitely not ideal. I don't, I don't want to live in an AI driven, um, AI driven world. No, thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 28.330589,
+  "timestamp": "2026-06-08T08:27:38.208442",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.98
+      ],
+      "text": " I really like the idea of the inner morality. It seems like everybody was working together"
+    },
+    {
+      "timestamp": [
+        7.98,
+        18.12
+      ],
+      "text": " with the greater good in mind and using their own morals and ethics to be a better society,"
+    },
+    {
+      "timestamp": [
+        18.12,
+        24.22
+      ],
+      "text": " and I think that's really ideal. I think it's really nice when people can think for themselves"
+    },
+    {
+      "timestamp": [
+        24.22,
+        31.02
+      ],
+      "text": " and have the freedom to think for themselves and, um, you know, like work cohesively with"
+    },
+    {
+      "timestamp": [
+        31.02,
+        39.58
+      ],
+      "text": " others. Um, my least preferred is definitely the rule of law. Um, I also don't like the faith-based"
+    },
+    {
+      "timestamp": [
+        39.58,
+        49.0
+      ],
+      "text": " order. I feel like they are not ideal for me. I feel like they're very restrictive. I feel like"
+    },
+    {
+      "timestamp": [
+        49.0,
+        57.74
+      ],
+      "text": " they are forcing people to do things that they may not necessarily agree with. And I think it"
+    },
+    {
+      "timestamp": [
+        57.74,
+        66.46
+      ],
+      "text": " creates a lot of tension and just makes me uncomfortable thinking about it. So I really"
+    },
+    {
+      "timestamp": [
+        66.46,
+        74.14
+      ],
+      "text": " liked the modern green utopia. I thought that it was kind of cool, you know, just thinking about"
+    },
+    {
+      "timestamp": [
+        74.14,
+        81.04
+      ],
+      "text": " earth and actually, you know, working towards being sustainable and taking care of the planet"
+    },
+    {
+      "timestamp": [
+        81.04,
+        87.44
+      ],
+      "text": " that we live on. Um, I also like the science one too. Um, I think that, you know, science is super"
+    },
+    {
+      "timestamp": [
+        87.44,
+        93.96
+      ],
+      "text": " valuable and, you know, obviously we've learned so much through science. Um, and it just kind of"
+    },
+    {
+      "timestamp": [
+        93.96,
+        100.28
+      ],
+      "text": " makes sense. The low tech and small scale I thought was kind of cool. Um, but I, I worry a little bit"
+    },
+    {
+      "timestamp": [
+        100.28,
+        104.04
+      ],
+      "text": " like what that would actually look like, like seeing myself in it. I'm not sure that I would"
+    },
+    {
+      "timestamp": [
+        104.04,
+        108.94
+      ],
+      "text": " be totally happy in that society. Um, but I did think that it was like a kind of cool idea. I"
+    },
+    {
+      "timestamp": [
+        108.94,
+        114.54
+      ],
+      "text": " wouldn't mind living in it, but it wouldn't be my preferred choice. Um, the data driven and relying"
+    },
+    {
+      "timestamp": [
+        114.54,
+        120.42
+      ],
+      "text": " solely on AI was, um, you know, definitely not ideal. I don't, I don't want to live in an AI"
+    },
+    {
+      "timestamp": [
+        120.42,
+        124.34
+      ],
+      "text": " driven, um, AI driven world. No, thank you."
+    }
+  ]
+}

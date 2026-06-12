@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a0fa0bb264bd2475ec1f37d_audio_ranking_explanation_1780393175831.webm",
+  "transcript": " Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 4.504077,
+  "timestamp": "2026-06-08T10:51:49.390283",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.98
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

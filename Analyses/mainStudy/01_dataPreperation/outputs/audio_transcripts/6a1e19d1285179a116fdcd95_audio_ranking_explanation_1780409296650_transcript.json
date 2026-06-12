@@ -1,0 +1,346 @@
+{
+  "audio_file": "6a1e19d1285179a116fdcd95_audio_ranking_explanation_1780409296650.webm",
+  "transcript": " Okay, so I ranked the modern green utopia as my most preferred option since it focuses on sustainability and security. And I feel like that is a trait that we should follow to make sure that we as the human species continue living on this planet. following that i went to the futuristic utopia which falls on science and innovation which i feel is a step below the modern green utopia where you need science and innovation in order for that green utopia to exist so if i were to choose between two it had to be the modern green utopia than the futurist utopia i feel like some innovation can result in bad things happening but it can also lead to good things happening so i'll rank them as my highest ones then for third i put the institutional utopia or rule of law i feel like that closely resembles what we do here in the united states and around the world where we have laws and we we're supposed to follow them and do everything we can to make sure we uphold the rule of law but it feels like the law can be abused against some individuals like as we've seen in history then in the middle middle i put the moral commonwealth where morality would be the driving factor in that society. I feel like if everything was based on morality, then some things would be better, but some things would also be wrong. It's not good, but it's also not bad. So it's in the middle. Then for fifth, I put the AI center utopia. I feel like the sentiment towards artificial intelligence and my current opinions about it I don't believe that we should rely on large language models ones and zeros that predict what what what's the next text that's the next word or number or character to come after this word should be the driving factor towards So it's a society. Then for my least preferred, I put for number six, the primitive utopia or the low-tech and small-scale. I feel like if the world revolves around the entire globalization, I can order a laptop, having made in another part of asia make it travel to southeast asia to put in batteries travel around the world in ships or planes travel to an airport and be delivered to me all that because of everything's connected around the world but if we choose to go low tech and small scale, then technology will be limited. Things improved because we created new technologies and improved on existing technologies. Just look at the Industrial Revolution. We took basic machines. We took, let's see if I can remember. we we took people machines put them together in factories and we created large quantities of goods there were some bad things but it led to the world today now my least preferred society is the religious utopia i don't i feel like religious religion can be used for good but it's also being used for bad and i feel that if we just rely on religion and not just i mean you can use religion as a as a guiding basis in any of these societies but if we mainly revolve around religion then then some things like gay rights, LGBTQ rights transgenderism slavery these are some things that might be restricted in a religious based utopia and the way we use religion in the past to justify some of these things I don't like it makes me dislike having a faith based order as the religious utopia.",
+  "language": "unknown",
+  "processing_time_seconds": 55.815928,
+  "timestamp": "2026-06-08T11:32:19.262536",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.08
+      ],
+      "text": " Okay, so I ranked the modern green utopia as my most preferred option since it focuses on sustainability and security."
+    },
+    {
+      "timestamp": [
+        14.3,
+        25.7
+      ],
+      "text": " And I feel like that is a trait that we should follow to make sure that we as the human species continue living on this planet."
+    },
+    {
+      "timestamp": [
+        27.42,
+        25.7
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.12,
+        43.94
+      ],
+      "text": " following that i went to the futuristic utopia which falls on science and innovation which i feel is a step below the modern green utopia where you need science and innovation in order"
+    },
+    {
+      "timestamp": [
+        43.94,
+        51.64
+      ],
+      "text": " for that green utopia to exist so if i were to choose between two it had to be the modern green"
+    },
+    {
+      "timestamp": [
+        51.64,
+        60.38
+      ],
+      "text": " utopia than the futurist utopia i feel like some innovation can result in bad things happening"
+    },
+    {
+      "timestamp": [
+        60.38,
+        65.42
+      ],
+      "text": " but it can also lead to good things happening so i'll rank them as my highest ones"
+    },
+    {
+      "timestamp": [
+        65.42,
+        74.04
+      ],
+      "text": " then for third i put the institutional utopia or rule of law i feel like that closely resembles"
+    },
+    {
+      "timestamp": [
+        74.04,
+        80.32
+      ],
+      "text": " what we do here in the united states and around the world where we have laws and"
+    },
+    {
+      "timestamp": [
+        80.32,
+        87.82
+      ],
+      "text": " we we're supposed to follow them and do everything we can to make sure we uphold the rule of law but"
+    },
+    {
+      "timestamp": [
+        87.82,
+        95.7
+      ],
+      "text": " it feels like the law can be abused against some individuals like as we've seen in history"
+    },
+    {
+      "timestamp": [
+        95.7,
+        103.56
+      ],
+      "text": " then in the middle middle i put the moral commonwealth where morality would be the"
+    },
+    {
+      "timestamp": [
+        103.56,
+        110.0
+      ],
+      "text": " driving factor in that society. I feel like if everything was based on morality, then"
+    },
+    {
+      "timestamp": [
+        110.0,
+        117.7
+      ],
+      "text": " some things would be better, but some things would also be wrong. It's not good, but it's also not"
+    },
+    {
+      "timestamp": [
+        117.7,
+        128.0
+      ],
+      "text": " bad. So it's in the middle. Then for fifth, I put the AI center utopia. I feel like the sentiment"
+    },
+    {
+      "timestamp": [
+        128.0,
+        134.66
+      ],
+      "text": " towards artificial intelligence and my current opinions about it I don't"
+    },
+    {
+      "timestamp": [
+        134.66,
+        141.06
+      ],
+      "text": " believe that we should rely on large language models ones and zeros that"
+    },
+    {
+      "timestamp": [
+        141.06,
+        146.76
+      ],
+      "text": " predict what what what's the next text that's the next word or number or"
+    },
+    {
+      "timestamp": [
+        146.76,
+        152.3
+      ],
+      "text": " character to come after this word should be the driving factor towards"
+    },
+    {
+      "timestamp": [
+        152.3,
+        153.58
+      ],
+      "text": " So it's a society."
+    },
+    {
+      "timestamp": [
+        155.7,
+        163.34
+      ],
+      "text": " Then for my least preferred, I put for number six, the primitive utopia or the low-tech and small-scale."
+    },
+    {
+      "timestamp": [
+        164.38,
+        177.08
+      ],
+      "text": " I feel like if the world revolves around the entire globalization, I can order a laptop,"
+    },
+    {
+      "timestamp": [
+        177.08,
+        184.5
+      ],
+      "text": " having made in another part of asia make it travel to southeast asia to put in batteries"
+    },
+    {
+      "timestamp": [
+        184.5,
+        192.96
+      ],
+      "text": " travel around the world in ships or planes travel to an airport and be delivered to me"
+    },
+    {
+      "timestamp": [
+        192.96,
+        199.38
+      ],
+      "text": " all that because of everything's connected around the world but if we choose to go low tech"
+    },
+    {
+      "timestamp": [
+        199.38,
+        204.74
+      ],
+      "text": " and small scale, then technology will be limited."
+    },
+    {
+      "timestamp": [
+        205.96,
+        209.86
+      ],
+      "text": " Things improved because we created new technologies"
+    },
+    {
+      "timestamp": [
+        209.86,
+        211.6
+      ],
+      "text": " and improved on existing technologies."
+    },
+    {
+      "timestamp": [
+        213.04,
+        214.82
+      ],
+      "text": " Just look at the Industrial Revolution."
+    },
+    {
+      "timestamp": [
+        215.94,
+        218.18
+      ],
+      "text": " We took basic machines."
+    },
+    {
+      "timestamp": [
+        219.68,
+        223.16
+      ],
+      "text": " We took, let's see if I can remember."
+    },
+    {
+      "timestamp": [
+        226.16,
+        223.16
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        234.32,
+        239.74
+      ],
+      "text": " we we took people machines put them together in factories and we created large quantities of goods there were some bad things but it led to the world today"
+    },
+    {
+      "timestamp": [
+        239.74,
+        245.1
+      ],
+      "text": " now my least preferred society is the religious utopia i don't"
+    },
+    {
+      "timestamp": [
+        245.1,
+        255.48
+      ],
+      "text": " i feel like religious religion can be used for good but it's also being used for bad and i feel"
+    },
+    {
+      "timestamp": [
+        255.48,
+        262.1
+      ],
+      "text": " that if we just rely on religion and not just i mean you can use religion as a as a guiding basis"
+    },
+    {
+      "timestamp": [
+        262.1,
+        270.18
+      ],
+      "text": " in any of these societies but if we mainly revolve around religion then then some things like"
+    },
+    {
+      "timestamp": [
+        270.18,
+        274.02
+      ],
+      "text": " gay rights, LGBTQ rights"
+    },
+    {
+      "timestamp": [
+        274.02,
+        275.98
+      ],
+      "text": " transgenderism"
+    },
+    {
+      "timestamp": [
+        275.98,
+        278.38
+      ],
+      "text": " slavery"
+    },
+    {
+      "timestamp": [
+        278.38,
+        281.88
+      ],
+      "text": " these are some things that might be restricted"
+    },
+    {
+      "timestamp": [
+        281.88,
+        283.68
+      ],
+      "text": " in a religious based utopia"
+    },
+    {
+      "timestamp": [
+        283.68,
+        287.38
+      ],
+      "text": " and the way we use religion in the past"
+    },
+    {
+      "timestamp": [
+        287.38,
+        289.68
+      ],
+      "text": " to justify some of these things"
+    },
+    {
+      "timestamp": [
+        289.68,
+        291.62
+      ],
+      "text": " I don't like"
+    },
+    {
+      "timestamp": [
+        291.62,
+        295.24
+      ],
+      "text": " it makes me dislike"
+    },
+    {
+      "timestamp": [
+        295.24,
+        298.4
+      ],
+      "text": " having a faith based order"
+    },
+    {
+      "timestamp": [
+        298.4,
+        301.48
+      ],
+      "text": " as the religious utopia."
+    }
+  ]
+}

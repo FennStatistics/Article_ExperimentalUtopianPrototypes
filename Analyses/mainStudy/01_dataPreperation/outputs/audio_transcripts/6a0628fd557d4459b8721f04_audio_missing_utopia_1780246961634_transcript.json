@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a0628fd557d4459b8721f04_audio_missing_utopia_1780246961634.webm",
+  "transcript": " I think it would be great if you could put together my top two choices. So low tech and science. So I know that kind of is contradictory because science revolves around technology, but I think that technology should be utilized only in the sense of progression versus not the daily consumer. So if you don't work in a field of science or healthcare, you shouldn't have that unlimited access to technology. The day-to-day people should have low-tech. I think those combined together would be a great option.",
+  "language": "unknown",
+  "processing_time_seconds": 9.848866,
+  "timestamp": "2026-06-08T10:29:18.361978",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.36
+      ],
+      "text": " I think it would be great if you could put together my top two choices. So low tech and science. So I know that kind of is contradictory because science revolves around technology, but I think that technology should be utilized only in the sense of progression versus not the daily consumer."
+    },
+    {
+      "timestamp": [
+        21.84,
+        21.36
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        39.42,
+        null
+      ],
+      "text": " So if you don't work in a field of science or healthcare, you shouldn't have that unlimited access to technology. The day-to-day people should have low-tech. I think those combined together would be a great option."
+    }
+  ]
+}

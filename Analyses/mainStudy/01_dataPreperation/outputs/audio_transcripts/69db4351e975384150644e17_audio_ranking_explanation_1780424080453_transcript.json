@@ -1,0 +1,38 @@
+{
+  "audio_file": "69db4351e975384150644e17_audio_ranking_explanation_1780424080453.webm",
+  "transcript": " I rank the moral commonwealth first because it feels the most balanced and humane. People actually caring about each other and doing the right thing without needing heavy control. After that, I put the green sustainable one and the simple low-tech one since I like the idea of living more lightly and in tune with nature. I put the AI and religious ones at the bottom because they feel too controlling or rigid for me.",
+  "language": "unknown",
+  "processing_time_seconds": 7.112906,
+  "timestamp": "2026-06-08T09:35:10.124181",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        6.16
+      ],
+      "text": " I rank the moral commonwealth first because it feels the most balanced and humane."
+    },
+    {
+      "timestamp": [
+        6.78,
+        12.1
+      ],
+      "text": " People actually caring about each other and doing the right thing without needing heavy control."
+    },
+    {
+      "timestamp": [
+        12.8,
+        21.16
+      ],
+      "text": " After that, I put the green sustainable one and the simple low-tech one since I like the idea of living more lightly and in tune with nature."
+    },
+    {
+      "timestamp": [
+        21.72,
+        28.02
+      ],
+      "text": " I put the AI and religious ones at the bottom because they feel too controlling or rigid for me."
+    }
+  ]
+}

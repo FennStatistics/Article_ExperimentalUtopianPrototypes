@@ -1,0 +1,45 @@
+{
+  "audio_file": "69eb9aa32511bd79b8d72580_audio_missing_utopia_1780393189005.webm",
+  "transcript": " A missing future society would be one that's built on Judeo-Christian values, but also allowing for people to live how they want and to not bother others. Most people would be able to live how they see fit, but not being able to infringe on others. And I think the moral utopia that I put in first place was the closest to that, but it was still missing the ability for advancement in society. But it had the least drawbacks of the seven that we had to pick from.",
+  "language": "unknown",
+  "processing_time_seconds": 9.92473,
+  "timestamp": "2026-06-08T09:46:06.511989",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        16.38
+      ],
+      "text": " A missing future society would be one that's built on Judeo-Christian values, but also allowing for people to live how they want and to not bother others."
+    },
+    {
+      "timestamp": [
+        16.82,
+        28.26
+      ],
+      "text": " Most people would be able to live how they see fit, but not being able to infringe on others."
+    },
+    {
+      "timestamp": [
+        29.26,
+        28.26
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        43.36,
+        46.64
+      ],
+      "text": " And I think the moral utopia that I put in first place was the closest to that, but it was still missing the ability for advancement in society."
+    },
+    {
+      "timestamp": [
+        50.78,
+        null
+      ],
+      "text": " But it had the least drawbacks of the seven that we had to pick from."
+    }
+  ]
+}

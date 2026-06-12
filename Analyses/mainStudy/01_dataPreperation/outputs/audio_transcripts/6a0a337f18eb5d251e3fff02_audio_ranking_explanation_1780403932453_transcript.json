@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0a337f18eb5d251e3fff02_audio_ranking_explanation_1780403932453.webm",
+  "transcript": " I ranked these societies in the way that I did because in my personal beliefs, I fall kind of in the middle, not super conservative, not super liberal. And so I want a society that has rules, that has a government to abide by, but that is not as strict as the institutional utopia, where it's just complete rule of law. But I also don't want something as lax as the moral commonwealth or a faith-based order where there really isn't many laws or rules that govern the society. I think every society needs laws and rules to govern, to keep peace, but there's also certain sustainability, science, innovative measures that can provide a more modernized version of a society. And so I think that the modern green utopia is mostly closer to the world we currently live in, which I'm content with. And so I think that that would be a society in the near future that I would want to live in to be able to have the best quality of life.",
+  "language": "unknown",
+  "processing_time_seconds": 18.79366,
+  "timestamp": "2026-06-08T10:34:42.074424",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.68
+      ],
+      "text": " I ranked these societies in the way that I did because in my personal beliefs, I fall kind of in the middle, not super conservative, not super liberal."
+    },
+    {
+      "timestamp": [
+        12.68,
+        27.96
+      ],
+      "text": " And so I want a society that has rules, that has a government to abide by, but that is not as strict as the institutional utopia, where it's just complete rule of law."
+    },
+    {
+      "timestamp": [
+        27.96,
+        42.5
+      ],
+      "text": " But I also don't want something as lax as the moral commonwealth or a faith-based order where there really isn't many laws or rules that govern the society."
+    },
+    {
+      "timestamp": [
+        42.5,
+        61.66
+      ],
+      "text": " I think every society needs laws and rules to govern, to keep peace, but there's also certain sustainability, science, innovative measures that can provide a more modernized version of a society."
+    },
+    {
+      "timestamp": [
+        61.66,
+        74.54
+      ],
+      "text": " And so I think that the modern green utopia is mostly closer to the world we currently live in, which I'm content with."
+    },
+    {
+      "timestamp": [
+        75.1,
+        86.92
+      ],
+      "text": " And so I think that that would be a society in the near future that I would want to live in to be able to have the best quality of life."
+    }
+  ]
+}

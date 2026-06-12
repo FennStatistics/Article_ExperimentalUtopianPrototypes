@@ -1,0 +1,73 @@
+{
+  "audio_file": "6784504cf334fb89fcf7f49e_audio_ranking_explanation_1780404475810.webm",
+  "transcript": " i chose the moral commonwealth as my most preferred society just because i feel like intermorality is crucial and more important than other things in a society with religious following just because i'm very a very faith-based person and then the modern green utopia just because it is sustainable and secure i think that's also very important institutional closely follows that one just because i think it is important to have laws set into place and for people to get disciplined when they deserve it and then the low tech and small scale next futurist next just because i'm not really all that into science and innovation and then definitely ai centered last today to japan just because i don't think a society is going to flourish when it is AI-centered, in my opinion.",
+  "language": "unknown",
+  "processing_time_seconds": 14.005703,
+  "timestamp": "2026-06-08T08:47:20.178203",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.38
+      ],
+      "text": " i chose the moral commonwealth as my most preferred society just because i feel like"
+    },
+    {
+      "timestamp": [
+        6.38,
+        14.56
+      ],
+      "text": " intermorality is crucial and more important than other things in a society with religious"
+    },
+    {
+      "timestamp": [
+        14.56,
+        21.16
+      ],
+      "text": " following just because i'm very a very faith-based person and then the modern green utopia just"
+    },
+    {
+      "timestamp": [
+        21.16,
+        28.38
+      ],
+      "text": " because it is sustainable and secure i think that's also very important institutional closely"
+    },
+    {
+      "timestamp": [
+        28.38,
+        33.48
+      ],
+      "text": " follows that one just because i think it is important to have laws set into place and for"
+    },
+    {
+      "timestamp": [
+        33.48,
+        41.02
+      ],
+      "text": " people to get disciplined when they deserve it and then the low tech and small scale next futurist"
+    },
+    {
+      "timestamp": [
+        41.02,
+        47.14
+      ],
+      "text": " next just because i'm not really all that into science and innovation and then definitely ai"
+    },
+    {
+      "timestamp": [
+        47.14,
+        55.64
+      ],
+      "text": " centered last today to japan just because i don't think a society is going to flourish"
+    },
+    {
+      "timestamp": [
+        55.64,
+        59.9
+      ],
+      "text": " when it is AI-centered, in my opinion."
+    }
+  ]
+}

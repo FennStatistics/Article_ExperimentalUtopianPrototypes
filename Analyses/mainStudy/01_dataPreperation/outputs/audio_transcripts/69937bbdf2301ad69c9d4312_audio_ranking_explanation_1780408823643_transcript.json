@@ -1,0 +1,122 @@
+{
+  "audio_file": "69937bbdf2301ad69c9d4312_audio_ranking_explanation_1780408823643.webm",
+  "transcript": " um when it comes to ai i think uh a lot of people would assume that they're very cold and clinical and the trade-off would be that they're fair but i and i do think they'll be fair and that that is one of the big appeals but like talking to them i think they'll understand um human intuition to some degree uh just in general like on my top three like i i believe in climate change i i trust science and science and technology are one of the only things that's you know proactively increased quality of life over the past like few decades in my opinion um uh i i generally have like a um harm done uh idea of morality so i think you know morality that are based on like like pre-constructed principles that sort of are like kind of exist for their own sake um i'm not really compelled by that uh it's kind of the same with law i again i it's harm done to me that's what matters um i don't remember what the primitive utopia was but the religious utopia it's very similar i just i think human bias is um extremely poisonous and pernicious and um maybe in the long run we our culture would develop enough to get past it but i just don't see it happening anytime soon um and religious of course there's like great people in religions and i met great people in religions but um they they don't there's a lot there's a lot of people who take things very literally and are stuck in moral frameworks from like 2000 years ago and i don't think that's good so um yeah",
+  "language": "unknown",
+  "processing_time_seconds": 24.167687,
+  "timestamp": "2026-06-08T09:05:18.740099",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.38
+      ],
+      "text": " um when it comes to ai i think uh a lot of people would assume that they're very cold"
+    },
+    {
+      "timestamp": [
+        6.38,
+        12.32
+      ],
+      "text": " and clinical and the trade-off would be that they're fair but i and i do think they'll be fair"
+    },
+    {
+      "timestamp": [
+        12.32,
+        19.74
+      ],
+      "text": " and that that is one of the big appeals but like talking to them i think they'll understand um"
+    },
+    {
+      "timestamp": [
+        19.74,
+        28.02
+      ],
+      "text": " human intuition to some degree uh just in general like on my top three like i i believe in climate"
+    },
+    {
+      "timestamp": [
+        28.02,
+        34.02
+      ],
+      "text": " change i i trust science and science and technology are one of the only things that's you know"
+    },
+    {
+      "timestamp": [
+        34.02,
+        40.58
+      ],
+      "text": " proactively increased quality of life over the past like few decades in my opinion um"
+    },
+    {
+      "timestamp": [
+        42.98,
+        55.14
+      ],
+      "text": " uh i i generally have like a um harm done uh idea of morality so i think you know morality"
+    },
+    {
+      "timestamp": [
+        55.14,
+        66.1
+      ],
+      "text": " that are based on like like pre-constructed principles that sort of are like kind of exist"
+    },
+    {
+      "timestamp": [
+        66.1,
+        73.14
+      ],
+      "text": " for their own sake um i'm not really compelled by that uh it's kind of the same with law i"
+    },
+    {
+      "timestamp": [
+        73.14,
+        83.38
+      ],
+      "text": " again i it's harm done to me that's what matters um i don't remember what the primitive utopia was"
+    },
+    {
+      "timestamp": [
+        83.38,
+        91.44
+      ],
+      "text": " but the religious utopia it's very similar i just i think human bias is um extremely poisonous and"
+    },
+    {
+      "timestamp": [
+        91.44,
+        101.0
+      ],
+      "text": " pernicious and um maybe in the long run we our culture would develop enough to get past it but"
+    },
+    {
+      "timestamp": [
+        101.0,
+        107.58
+      ],
+      "text": " i just don't see it happening anytime soon um and religious of course there's like great people"
+    },
+    {
+      "timestamp": [
+        107.58,
+        115.68
+      ],
+      "text": " in religions and i met great people in religions but um they they don't there's a lot there's a"
+    },
+    {
+      "timestamp": [
+        115.68,
+        120.02
+      ],
+      "text": " lot of people who take things very literally and are stuck in moral frameworks from like"
+    },
+    {
+      "timestamp": [
+        120.02,
+        126.08
+      ],
+      "text": " 2000 years ago and i don't think that's good so um yeah"
+    }
+  ]
+}

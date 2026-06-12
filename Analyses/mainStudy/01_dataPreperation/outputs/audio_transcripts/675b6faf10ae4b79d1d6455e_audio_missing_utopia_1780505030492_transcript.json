@@ -1,0 +1,38 @@
+{
+  "audio_file": "675b6faf10ae4b79d1d6455e_audio_missing_utopia_1780505030492.webm",
+  "transcript": " Well, I really miss that society that used traditional values to rank morality and good character and therefore I would really be glad if that kind of society is brought back because it did set discipline and morals on a different scale as compared to that that is being used in this century and era.",
+  "language": "unknown",
+  "processing_time_seconds": 6.299724,
+  "timestamp": "2026-06-08T08:45:17.251600",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.38
+      ],
+      "text": " Well, I really miss that society that used traditional values to rank morality and good"
+    },
+    {
+      "timestamp": [
+        8.38,
+        15.7
+      ],
+      "text": " character and therefore I would really be glad if that kind of society is brought back"
+    },
+    {
+      "timestamp": [
+        15.7,
+        25.62
+      ],
+      "text": " because it did set discipline and morals on a different scale as compared to that that"
+    },
+    {
+      "timestamp": [
+        25.62,
+        29.16
+      ],
+      "text": " is being used in this century and era."
+    }
+  ]
+}

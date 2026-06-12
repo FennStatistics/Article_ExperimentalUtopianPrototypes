@@ -1,0 +1,59 @@
+{
+  "audio_file": "69adf2cdaf8da92b2d67c99a_audio_ranking_explanation_1780520090293.webm",
+  "transcript": " Well, I don't think that most of these options came off as utopias to me. I think the only acceptable option to be the number one choice is the moral commonwealth because it allows everybody to be on the same scale and it really just channels what humans are about and their morality and that's something that you can't really change in a human and it can't be corrupted by corrupt law officials. or anything like that i think utopias especially ai centered is my least favorite out of them all because you're just being ran by a computer at that point and from my understanding of ai it's derived off of what we say to it anyways so we're pretty much just regurgitating our own knowledge to the ai and then having it spit it back to us and judge us on it at that point like why aren't we just judging each other at that point and having a good law system or a good morality system to keep people in check",
+  "language": "unknown",
+  "processing_time_seconds": 15.67913,
+  "timestamp": "2026-06-08T09:13:53.870967",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.98
+      ],
+      "text": " Well, I don't think that most of these options came off as utopias to me. I think the only acceptable option to be the number one choice is the moral commonwealth because it allows everybody to be on the same scale and it really just channels what humans are about and their morality and that's something that you can't really change in a human and it can't be corrupted by corrupt law officials."
+    },
+    {
+      "timestamp": [
+        30.0,
+        37.38
+      ],
+      "text": " or anything like that i think utopias especially ai centered is my least favorite out of them all"
+    },
+    {
+      "timestamp": [
+        37.38,
+        44.08
+      ],
+      "text": " because you're just being ran by a computer at that point and from my understanding of ai it's"
+    },
+    {
+      "timestamp": [
+        44.08,
+        51.0
+      ],
+      "text": " derived off of what we say to it anyways so we're pretty much just regurgitating our own"
+    },
+    {
+      "timestamp": [
+        51.0,
+        56.5
+      ],
+      "text": " knowledge to the ai and then having it spit it back to us and"
+    },
+    {
+      "timestamp": [
+        56.5,
+        62.42
+      ],
+      "text": " judge us on it at that point like why aren't we just judging each other"
+    },
+    {
+      "timestamp": [
+        62.42,
+        68.7
+      ],
+      "text": " at that point and having a good law system or a good morality system to keep people in check"
+    }
+  ]
+}

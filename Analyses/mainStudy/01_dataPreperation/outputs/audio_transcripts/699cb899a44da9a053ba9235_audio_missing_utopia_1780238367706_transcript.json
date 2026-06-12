@@ -1,0 +1,73 @@
+{
+  "audio_file": "699cb899a44da9a053ba9235_audio_missing_utopia_1780238367706.webm",
+  "transcript": " I think that everything, not to say no, I pretty much think that everything was covered, but I'll just go with this. If you could combine the Futurist Utopia with some of the Environmentalist Utopia, I forgot the name of that one, I think it was Environmentalist, but just having the futurist with environmentalist ideals where you're trying to protect the environment through technology and also having barely any ai so you have ai recommendations that could be implemented not controlled not everything is done by ai just Just AI looks at it and says, hey, this might be better if you do it this way. That would be the only thing that I would add. Yeah, I think that would be a perfect society.",
+  "language": "unknown",
+  "processing_time_seconds": 14.432946,
+  "timestamp": "2026-06-08T09:08:02.898233",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.58
+      ],
+      "text": " I think that everything, not to say no, I pretty much think that everything was covered, but I'll just go with this."
+    },
+    {
+      "timestamp": [
+        10.58,
+        25.4
+      ],
+      "text": " If you could combine the Futurist Utopia with some of the Environmentalist Utopia, I forgot the name of that one, I think it was Environmentalist,"
+    },
+    {
+      "timestamp": [
+        25.4,
+        33.32
+      ],
+      "text": " but just having the futurist with environmentalist ideals where you're trying to protect the"
+    },
+    {
+      "timestamp": [
+        33.32,
+        42.28
+      ],
+      "text": " environment through technology and also having barely any ai so you have ai"
+    },
+    {
+      "timestamp": [
+        45.16,
+        50.84
+      ],
+      "text": " recommendations that could be implemented not controlled not everything is done by ai just"
+    },
+    {
+      "timestamp": [
+        51.64,
+        50.84
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        54.88,
+        55.26
+      ],
+      "text": " Just AI looks at it and says, hey, this might be better if you do it this way."
+    },
+    {
+      "timestamp": [
+        57.0,
+        60.52
+      ],
+      "text": " That would be the only thing that I would add."
+    },
+    {
+      "timestamp": [
+        63.58,
+        null
+      ],
+      "text": " Yeah, I think that would be a perfect society."
+    }
+  ]
+}

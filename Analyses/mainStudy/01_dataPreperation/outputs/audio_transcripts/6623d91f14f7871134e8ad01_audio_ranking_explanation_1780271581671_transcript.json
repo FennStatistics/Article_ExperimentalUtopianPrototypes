@@ -1,0 +1,38 @@
+{
+  "audio_file": "6623d91f14f7871134e8ad01_audio_ranking_explanation_1780271581671.webm",
+  "transcript": " The reason I chose these rankings is because futuristic utopia is more science and innovation is more AI driven. So it'd be more keen to be more progressive for everybody living in it. I chose the top three because of that reason. And I chose religion as a utopias bottom because it's kind of what we're already living in. Religion's in every corner of the country and the world, and that's not really progressive towards human nature, humankind.",
+  "language": "unknown",
+  "processing_time_seconds": 10.018488,
+  "timestamp": "2026-06-08T08:34:21.526423",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.92
+      ],
+      "text": " The reason I chose these rankings is because futuristic utopia is more science and innovation is more AI driven. So it'd be more keen to be more progressive for everybody living in it. I chose the top three because of that reason."
+    },
+    {
+      "timestamp": [
+        16.3,
+        14.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        21.38,
+        21.62
+      ],
+      "text": " And I chose religion as a utopias bottom because it's kind of what we're already living in."
+    },
+    {
+      "timestamp": [
+        31.98,
+        null
+      ],
+      "text": " Religion's in every corner of the country and the world, and that's not really progressive towards human nature, humankind."
+    }
+  ]
+}

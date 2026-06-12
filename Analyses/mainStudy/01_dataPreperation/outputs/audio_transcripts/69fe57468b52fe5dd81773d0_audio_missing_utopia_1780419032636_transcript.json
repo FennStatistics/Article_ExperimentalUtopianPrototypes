@@ -1,0 +1,17 @@
+{
+  "audio_file": "69fe57468b52fe5dd81773d0_audio_missing_utopia_1780419032636.webm",
+  "transcript": " Personally, I don't have any missing future among the ones that you've listed and among the ones that I've ranked because my interest was about the AI. Yeah, and that's where my interest is all about.",
+  "language": "unknown",
+  "processing_time_seconds": 5.709723,
+  "timestamp": "2026-06-08T10:12:55.258856",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.52
+      ],
+      "text": " Personally, I don't have any missing future among the ones that you've listed and among the ones that I've ranked because my interest was about the AI. Yeah, and that's where my interest is all about."
+    }
+  ]
+}

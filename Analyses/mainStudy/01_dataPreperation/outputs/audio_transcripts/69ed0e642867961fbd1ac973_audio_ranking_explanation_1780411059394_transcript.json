@@ -1,0 +1,94 @@
+{
+  "audio_file": "69ed0e642867961fbd1ac973_audio_ranking_explanation_1780411059394.webm",
+  "transcript": " I chose this ranking because I think intermorality is idealistic, but absolutely not realistic. I chose AI-driven utopia over faith-based order because I've seen how biased faith-based orders can be. Not that I'm not a faith-based person. I would never want someone else to live according to my faith necessarily. Low-tech, small-scale seems like a step backwards. I think it would be difficult to attend to large-scale problems that way. I chose the modern green utopia. I think it's unrealistic to make that sustainable, and it's a tie sort of between institutional and futurist science and innovation and the rule of law. Science can also be biased. I think it would be very challenging to keep up with constant innovation. And although people do break the law, it seems to be sort of the best bet that we have had thus far in our history. And so it seems more achievable.",
+  "language": "unknown",
+  "processing_time_seconds": 15.48271,
+  "timestamp": "2026-06-08T09:47:25.848581",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.2
+      ],
+      "text": " I chose this ranking because I think intermorality is idealistic, but absolutely not realistic."
+    },
+    {
+      "timestamp": [
+        9.74,
+        19.44
+      ],
+      "text": " I chose AI-driven utopia over faith-based order because I've seen how biased faith-based orders"
+    },
+    {
+      "timestamp": [
+        19.44,
+        27.46
+      ],
+      "text": " can be. Not that I'm not a faith-based person. I would never want someone else to live according"
+    },
+    {
+      "timestamp": [
+        27.46,
+        37.52
+      ],
+      "text": " to my faith necessarily. Low-tech, small-scale seems like a step backwards. I think it would"
+    },
+    {
+      "timestamp": [
+        37.52,
+        47.5
+      ],
+      "text": " be difficult to attend to large-scale problems that way. I chose the modern green utopia."
+    },
+    {
+      "timestamp": [
+        47.5,
+        56.42
+      ],
+      "text": " I think it's unrealistic to make that sustainable, and it's a tie sort of between institutional"
+    },
+    {
+      "timestamp": [
+        56.42,
+        60.66
+      ],
+      "text": " and futurist science and innovation and the rule of law."
+    },
+    {
+      "timestamp": [
+        63.08,
+        65.22
+      ],
+      "text": " Science can also be biased."
+    },
+    {
+      "timestamp": [
+        65.36,
+        68.88
+      ],
+      "text": " I think it would be very challenging to keep up with constant innovation."
+    },
+    {
+      "timestamp": [
+        69.48,
+        73.42
+      ],
+      "text": " And although people do break the law,"
+    },
+    {
+      "timestamp": [
+        74.42,
+        78.96
+      ],
+      "text": " it seems to be sort of the best bet that we have had thus far in our history."
+    },
+    {
+      "timestamp": [
+        78.96,
+        80.48
+      ],
+      "text": " And so it seems more achievable."
+    }
+  ]
+}

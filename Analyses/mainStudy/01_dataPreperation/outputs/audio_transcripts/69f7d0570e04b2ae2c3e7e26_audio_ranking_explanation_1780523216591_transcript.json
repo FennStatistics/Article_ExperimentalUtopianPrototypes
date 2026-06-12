@@ -1,0 +1,136 @@
+{
+  "audio_file": "69f7d0570e04b2ae2c3e7e26_audio_ranking_explanation_1780523216591.webm",
+  "transcript": " All right. So the reason that I ranked them as I did, I thought the primitivist utopia where low tech and small scale, I think that would probably be the most beneficial for society. Beneficial for the environment. People would be free to make their own decisions. Second, I went with futurist utopia, which was science and innovation. I think that would just be a cool society to live in. I think we would make some great technological bounds. you know, see a lot of cool things. Number three, I went with moral commonwealth where people just use their inner morality. I have some concerns about that because some people's inner morality is not sound. They would use that to take advantage of other people. So I'm not sure that's the greatest, but it's still a good option. Number four was modern green utopia. I, you know, I think that's a great idea, but that was the one where, you know, resources were split by, you know, governing bodies. And, you know, I just don't think that would work out in the long run. Somebody is going to be getting more than somebody else. Number five was institutional utopia. I don't know that that would be so great either with all of the laws and rules. It would feel more like, you know, communism, I guess. number six ai centered utopia i don't have a whole lot of faith in in uh you ai just yet i mean i use it quite often but i don't know that i would want it running society um that almost seems like a skynet scenario and then number seven religious faith-based order um you know that that was a thing for many many years across many generations for many civilizations and none of those ended very well so I don't think that would end very well for for us either.",
+  "language": "unknown",
+  "processing_time_seconds": 27.358156,
+  "timestamp": "2026-06-08T10:00:21.647771",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.4
+      ],
+      "text": " All right. So the reason that I ranked them as I did, I thought the primitivist utopia where low tech and small scale, I think that would probably be the most beneficial for society. Beneficial for the environment. People would be free to make their own decisions."
+    },
+    {
+      "timestamp": [
+        18.76,
+        28.86
+      ],
+      "text": " Second, I went with futurist utopia, which was science and innovation. I think that would just be a cool society to live in. I think we would make some great technological bounds."
+    },
+    {
+      "timestamp": [
+        30.0,
+        36.3
+      ],
+      "text": " you know, see a lot of cool things. Number three, I went with moral commonwealth where people just"
+    },
+    {
+      "timestamp": [
+        36.3,
+        41.52
+      ],
+      "text": " use their inner morality. I have some concerns about that because some people's inner morality"
+    },
+    {
+      "timestamp": [
+        41.52,
+        47.12
+      ],
+      "text": " is not sound. They would use that to take advantage of other people. So I'm not sure that's"
+    },
+    {
+      "timestamp": [
+        47.12,
+        55.48
+      ],
+      "text": " the greatest, but it's still a good option. Number four was modern green utopia. I, you know,"
+    },
+    {
+      "timestamp": [
+        55.58,
+        55.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        63.36,
+        63.6
+      ],
+      "text": " I think that's a great idea, but that was the one where, you know, resources were split by, you know, governing bodies."
+    },
+    {
+      "timestamp": [
+        66.94,
+        67.06
+      ],
+      "text": " And, you know, I just don't think that would work out in the long run."
+    },
+    {
+      "timestamp": [
+        69.4,
+        70.16
+      ],
+      "text": " Somebody is going to be getting more than somebody else."
+    },
+    {
+      "timestamp": [
+        72.58,
+        74.74
+      ],
+      "text": " Number five was institutional utopia."
+    },
+    {
+      "timestamp": [
+        79.1,
+        79.2
+      ],
+      "text": " I don't know that that would be so great either with all of the laws and rules."
+    },
+    {
+      "timestamp": [
+        82.4,
+        82.92
+      ],
+      "text": " It would feel more like, you know, communism, I guess."
+    },
+    {
+      "timestamp": [
+        82.4,
+        90.56
+      ],
+      "text": " number six ai centered utopia i don't have a whole lot of faith in in uh you ai just yet i mean i use"
+    },
+    {
+      "timestamp": [
+        90.56,
+        96.08
+      ],
+      "text": " it quite often but i don't know that i would want it running society um that almost seems like a"
+    },
+    {
+      "timestamp": [
+        96.08,
+        103.42
+      ],
+      "text": " skynet scenario and then number seven religious faith-based order um you know that that was a"
+    },
+    {
+      "timestamp": [
+        103.42,
+        110.02
+      ],
+      "text": " thing for many many years across many generations for many civilizations and none of those ended"
+    },
+    {
+      "timestamp": [
+        110.02,
+        115.54
+      ],
+      "text": " very well so I don't think that would end very well for for us either."
+    }
+  ]
+}

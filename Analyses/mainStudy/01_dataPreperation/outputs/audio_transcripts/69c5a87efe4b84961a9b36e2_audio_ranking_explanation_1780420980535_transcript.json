@@ -1,0 +1,38 @@
+{
+  "audio_file": "69c5a87efe4b84961a9b36e2_audio_ranking_explanation_1780420980535.webm",
+  "transcript": " I rant these the way I did because I'm one that would like to have science as a way of life instead of AI driven governance, which kind of goes kind of hand in hand because AI is driven by science and innovation. However, having AI rule us is another thing I think that a human judgment is very important to have in a society. Kind of with that, low tech in society is not great either, as I want science to rule the world. And then the rest of them kind of seemed like the rule of law, faith-based order, like government can be too big, which I did not like at all.",
+  "language": "unknown",
+  "processing_time_seconds": 10.771665,
+  "timestamp": "2026-06-08T09:23:16.242960",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.38
+      ],
+      "text": " I rant these the way I did because I'm one that would like to have science as a way of life instead of AI driven governance, which kind of goes kind of hand in hand because AI is driven by science and innovation."
+    },
+    {
+      "timestamp": [
+        18.38,
+        28.52
+      ],
+      "text": " However, having AI rule us is another thing I think that a human judgment is very important to have in a society."
+    },
+    {
+      "timestamp": [
+        30.0,
+        38.5
+      ],
+      "text": " Kind of with that, low tech in society is not great either, as I want science to rule the world."
+    },
+    {
+      "timestamp": [
+        39.6,
+        48.92
+      ],
+      "text": " And then the rest of them kind of seemed like the rule of law, faith-based order, like government can be too big, which I did not like at all."
+    }
+  ]
+}

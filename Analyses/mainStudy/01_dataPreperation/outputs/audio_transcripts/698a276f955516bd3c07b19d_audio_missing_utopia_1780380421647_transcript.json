@@ -1,0 +1,24 @@
+{
+  "audio_file": "698a276f955516bd3c07b19d_audio_missing_utopia_1780380421647.webm",
+  "transcript": " I'm not sure if this would be realistic, but the utopias that I saw listed science and religion, morality, technology, and laws as different things that a utopia or a society would be based around. And I think it would be cool for a utopia society to be based upon the arts and the creatives and just living to create itself. I'm not sure how sustainable it would be, but it would be a cool kind of utopia in an artistic way.",
+  "language": "unknown",
+  "processing_time_seconds": 9.618497,
+  "timestamp": "2026-06-08T09:00:50.293449",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        19.2
+      ],
+      "text": " I'm not sure if this would be realistic, but the utopias that I saw listed science and religion, morality, technology, and laws as different things that a utopia or a society would be based around."
+    },
+    {
+      "timestamp": [
+        19.2,
+        36.58
+      ],
+      "text": " And I think it would be cool for a utopia society to be based upon the arts and the creatives and just living to create itself. I'm not sure how sustainable it would be, but it would be a cool kind of utopia in an artistic way."
+    }
+  ]
+}

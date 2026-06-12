@@ -1,0 +1,143 @@
+{
+  "audio_file": "6a1cd450a79bf6b9973fa75f_audio_ranking_explanation_1780387822334.webm",
+  "transcript": " While ranking the societies, I preferred societies that provided the potential for more human autonomy or that solved immediate problems such as climate change. My most preferred society was the modern greenoot utopia, as before a society can focus on other aspects, I think climate change and a sustainable world is very important. and my second option was the Futurist Utopia as it focuses on science and innovation and I think science and innovation is a very important aspect of the human nature as well as we can find more cure for diseases or more energy efficient methods to generate electricity that may also be able to provide for a more sustainable world. My third option was the institutional utopia as this society kind of is a middle ground in the list and it's similar to uh the world we have now maybe uh like a democratic world where people can maybe decide what they want um my fourth option was the moral commonwealth and it relies on the internal ethics of the citizens. I think it's a good concept, but it ranks a bit lower because I think relying just on the inner morality of people can be a bit futile in practice. My fifth option was the primitivist utopia. I think that the societies I ranked on the bottom sacrifice a lot of individual freedom. I think while a simple life sounds good, but I think a total rejection of technology can have a lot of problems that come with it, such as the lack of a lot of medical treatment in the modern day, and the lack of communication and travel my sixth option was the ai centered utopia which is kind of the opposite situation from number five even if the ai could manage everything perfectly i think giving total control to something like that is can be can go very wrong and my last option was the religious utopia i think A society dictated entirely by religion can also go very wrong in practice, as shown by history, and even some societies in the modern day, where people sacrifice a lot of rights for just the belief system.",
+  "language": "unknown",
+  "processing_time_seconds": 35.968552,
+  "timestamp": "2026-06-08T11:22:17.171501",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.34
+      ],
+      "text": " While ranking the societies, I preferred societies that provided the potential for more human autonomy or that solved immediate problems such as climate change."
+    },
+    {
+      "timestamp": [
+        17.34,
+        33.74
+      ],
+      "text": " My most preferred society was the modern greenoot utopia, as before a society can focus on other aspects, I think climate change and a sustainable world is very important."
+    },
+    {
+      "timestamp": [
+        39.74,
+        33.74
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        47.48,
+        55.28
+      ],
+      "text": " and my second option was the Futurist Utopia as it focuses on science and innovation and I think science and innovation is a very important aspect of the human nature as well"
+    },
+    {
+      "timestamp": [
+        55.28,
+        63.4
+      ],
+      "text": " as we can find more cure for diseases or more energy efficient methods"
+    },
+    {
+      "timestamp": [
+        63.4,
+        72.16
+      ],
+      "text": " to generate electricity that may also be able to provide for a more sustainable world."
+    },
+    {
+      "timestamp": [
+        73.08,
+        84.96
+      ],
+      "text": " My third option was the institutional utopia as this society kind of is a middle ground in the"
+    },
+    {
+      "timestamp": [
+        84.96,
+        95.12
+      ],
+      "text": " list and it's similar to uh the world we have now maybe uh like a democratic world where people can"
+    },
+    {
+      "timestamp": [
+        95.12,
+        105.36
+      ],
+      "text": " maybe decide what they want um my fourth option was the moral commonwealth and"
+    },
+    {
+      "timestamp": [
+        105.36,
+        116.28
+      ],
+      "text": " it relies on the internal ethics of the citizens. I think it's a good concept, but it ranks a bit"
+    },
+    {
+      "timestamp": [
+        116.28,
+        125.16
+      ],
+      "text": " lower because I think relying just on the inner morality of people can be a bit futile in practice."
+    },
+    {
+      "timestamp": [
+        125.56,
+        134.32
+      ],
+      "text": " My fifth option was the primitivist utopia. I think that the societies I ranked on the bottom"
+    },
+    {
+      "timestamp": [
+        134.32,
+        146.54
+      ],
+      "text": " sacrifice a lot of individual freedom. I think while a simple life sounds good, but I think"
+    },
+    {
+      "timestamp": [
+        146.54,
+        154.26
+      ],
+      "text": " a total rejection of technology can have a lot of problems that come with it, such as"
+    },
+    {
+      "timestamp": [
+        154.26,
+        162.68
+      ],
+      "text": " the lack of a lot of medical treatment in the modern day, and the lack of communication and"
+    },
+    {
+      "timestamp": [
+        162.68,
+        171.14
+      ],
+      "text": " travel my sixth option was the ai centered utopia which is kind of the opposite situation from"
+    },
+    {
+      "timestamp": [
+        171.14,
+        179.44
+      ],
+      "text": " number five even if the ai could manage everything perfectly i think giving total control to something"
+    },
+    {
+      "timestamp": [
+        179.44,
+        188.26
+      ],
+      "text": " like that is can be can go very wrong and my last option was the religious utopia i think"
+    },
+    {
+      "timestamp": [
+        188.26,
+        209.22
+      ],
+      "text": " A society dictated entirely by religion can also go very wrong in practice, as shown by history, and even some societies in the modern day, where people sacrifice a lot of rights for just the belief system."
+    }
+  ]
+}

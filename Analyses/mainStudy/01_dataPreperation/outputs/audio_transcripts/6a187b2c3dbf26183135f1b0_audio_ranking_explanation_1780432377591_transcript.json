@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a187b2c3dbf26183135f1b0_audio_ranking_explanation_1780432377591.webm",
+  "transcript": " Okay, for me, I put futuristic first. Science and innovation, solve hunger, disease and poverty, without stopping the progress. Secondly, I put the modern green second. We need sustainability and security together, followed by AI-centered. efficient but data control worries me on fourth I put institutional rules are good but not enough in fifth place I put a moral commonwealth in a virtue is unreliable at scale sixth I put them really just feet can exclude okay and the last time they put the primitive last rejecting technology means rejecting medicine comfort and basic safety yeah so progress past nature second low-tech fat last",
+  "language": "unknown",
+  "processing_time_seconds": 12.996228,
+  "timestamp": "2026-06-08T11:10:34.791308",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.0
+      ],
+      "text": " Okay, for me, I put futuristic first. Science and innovation, solve hunger, disease and poverty, without stopping the progress."
+    },
+    {
+      "timestamp": [
+        15.0,
+        22.0
+      ],
+      "text": " Secondly, I put the modern green second."
+    },
+    {
+      "timestamp": [
+        22.0,
+        29.0
+      ],
+      "text": " We need sustainability and security together, followed by AI-centered."
+    },
+    {
+      "timestamp": [
+        29.0,
+        43.04
+      ],
+      "text": " efficient but data control worries me on fourth I put institutional rules are good but not enough"
+    },
+    {
+      "timestamp": [
+        43.04,
+        56.36
+      ],
+      "text": " in fifth place I put a moral commonwealth in a virtue is unreliable at scale sixth I put them"
+    },
+    {
+      "timestamp": [
+        56.36,
+        67.7
+      ],
+      "text": " really just feet can exclude okay and the last time they put the primitive last rejecting"
+    },
+    {
+      "timestamp": [
+        67.7,
+        78.44
+      ],
+      "text": " technology means rejecting medicine comfort and basic safety yeah so progress past nature second"
+    },
+    {
+      "timestamp": [
+        78.44,
+        80.5
+      ],
+      "text": " low-tech fat last"
+    }
+  ]
+}

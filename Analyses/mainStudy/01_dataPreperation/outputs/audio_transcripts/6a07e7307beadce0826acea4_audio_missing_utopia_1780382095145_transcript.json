@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a07e7307beadce0826acea4_audio_missing_utopia_1780382095145.webm",
+  "transcript": " I don't think anything was necessarily missing um it seemed to really go over everything that you would get in a society",
+  "language": "unknown",
+  "processing_time_seconds": 5.111957,
+  "timestamp": "2026-06-08T10:30:48.081917",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.16
+      ],
+      "text": " I don't think anything was necessarily missing um it seemed to really go over"
+    },
+    {
+      "timestamp": [
+        5.16,
+        9.36
+      ],
+      "text": " everything that you would get in a society"
+    }
+  ]
+}

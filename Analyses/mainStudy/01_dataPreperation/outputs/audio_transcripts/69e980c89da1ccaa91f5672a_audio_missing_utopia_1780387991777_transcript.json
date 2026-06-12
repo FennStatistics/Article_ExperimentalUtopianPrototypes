@@ -1,0 +1,31 @@
+{
+  "audio_file": "69e980c89da1ccaa91f5672a_audio_missing_utopia_1780387991777.webm",
+  "transcript": " I feel as if none of them really leaned into pure equality a lot. A lot of these could be taken advantage of and have a kind of hierarchy system where some people get more than others. Obviously, a lot of them are equalized, but you can still take advantage in some way, and I think there needs to be ways to prevent that in these write-ups.",
+  "language": "unknown",
+  "processing_time_seconds": 6.797826,
+  "timestamp": "2026-06-08T09:44:42.914545",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.44
+      ],
+      "text": " I feel as if none of them really leaned into pure equality a lot."
+    },
+    {
+      "timestamp": [
+        7.44,
+        17.12
+      ],
+      "text": " A lot of these could be taken advantage of and have a kind of hierarchy system where some people get more than others."
+    },
+    {
+      "timestamp": [
+        17.96,
+        28.38
+      ],
+      "text": " Obviously, a lot of them are equalized, but you can still take advantage in some way, and I think there needs to be ways to prevent that in these write-ups."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a202d4defe12049536d8206_audio_missing_utopia_1780514147802.webm",
+  "transcript": " um i think the society that it's missing is actually like a healthy mix of like somewhere between the low tech one and the religious one and the nature one because i feel like those can all coincide with each other you have the moral backing of a religious society so people know how to act you don't have to worry all that much and you expect people to be a good person you have the nature you can still have the nature part of it where it's like you know the earth matters you stay close to your roots you get outside the earth is healing you you know a lot of things that come from nature almost most of them that we practice are a healthy manner and then like a little bit of tech involved with that some because you know we are a creature that over time evolved to use tools. So I think being able to have access to some tools to better what we're doing while limiting the text so it doesn't take over our natural tendencies while having a religious code to stand on and, you know, being a part of nature as a whole is overall, I think that would be an extremely healthy way and a good society to live in.",
+  "language": "unknown",
+  "processing_time_seconds": 17.481308,
+  "timestamp": "2026-06-08T11:39:31.664839",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        5.24
+      ],
+      "text": " um i think the society that it's missing is actually like a healthy mix of like somewhere"
+    },
+    {
+      "timestamp": [
+        5.24,
+        13.28
+      ],
+      "text": " between the low tech one and the religious one and the nature one because i feel like those can"
+    },
+    {
+      "timestamp": [
+        13.28,
+        19.0
+      ],
+      "text": " all coincide with each other you have the moral backing of a religious society so people know how"
+    },
+    {
+      "timestamp": [
+        19.0,
+        24.02
+      ],
+      "text": " to act you don't have to worry all that much and you expect people to be a good person you have the"
+    },
+    {
+      "timestamp": [
+        24.02,
+        30.48
+      ],
+      "text": " nature you can still have the nature part of it where it's like you know the earth matters you"
+    },
+    {
+      "timestamp": [
+        30.48,
+        36.46
+      ],
+      "text": " stay close to your roots you get outside the earth is healing you you know a lot of things"
+    },
+    {
+      "timestamp": [
+        36.46,
+        41.94
+      ],
+      "text": " that come from nature almost most of them that we practice are a healthy manner and then like a"
+    },
+    {
+      "timestamp": [
+        41.94,
+        47.7
+      ],
+      "text": " little bit of tech involved with that some because you know we are a creature that over time evolved"
+    },
+    {
+      "timestamp": [
+        47.7,
+        54.62
+      ],
+      "text": " to use tools. So I think being able to have access to some tools to better what we're doing"
+    },
+    {
+      "timestamp": [
+        54.62,
+        61.46
+      ],
+      "text": " while limiting the text so it doesn't take over our natural tendencies while having a religious"
+    },
+    {
+      "timestamp": [
+        61.46,
+        67.62
+      ],
+      "text": " code to stand on and, you know, being a part of nature as a whole is overall, I think that would"
+    },
+    {
+      "timestamp": [
+        67.62,
+        71.38
+      ],
+      "text": " be an extremely healthy way and a good society to live in."
+    }
+  ]
+}

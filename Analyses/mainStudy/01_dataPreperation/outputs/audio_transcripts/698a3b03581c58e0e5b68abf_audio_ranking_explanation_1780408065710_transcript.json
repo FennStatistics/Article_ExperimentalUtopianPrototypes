@@ -1,0 +1,31 @@
+{
+  "audio_file": "698a3b03581c58e0e5b68abf_audio_ranking_explanation_1780408065710.webm",
+  "transcript": " Okay, so my decision was based off the fact that in a society where law doesn't stand, there will be chaos, so I prefer to live in a society with rule of law, then moving to science and innovation, and for the last one I picked religion. So you can do the maths and you know what's good. But this is based on my preference, my choice, where I think I should live.",
+  "language": "unknown",
+  "processing_time_seconds": 9.216803,
+  "timestamp": "2026-06-08T09:02:04.019892",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.62
+      ],
+      "text": " Okay, so my decision was based off the fact that in a society where law doesn't stand, there will be chaos, so I prefer to live in a society with rule of law, then moving to science and innovation, and for the last one I picked religion."
+    },
+    {
+      "timestamp": [
+        30.0,
+        37.12
+      ],
+      "text": " So you can do the maths and you know what's good."
+    },
+    {
+      "timestamp": [
+        37.68,
+        43.32
+      ],
+      "text": " But this is based on my preference, my choice, where I think I should live."
+    }
+  ]
+}

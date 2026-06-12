@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a0516eb6b8a9b19c4df58be_audio_missing_utopia_1780405726517.webm",
+  "transcript": " Yes, I do think there is a society where, at least from the religious standpoint, where you can incorporate high-functioning technology and still have that moral background behind it. um that's what I feel like was missing just more like hybrid in that sense um which really would be um I do think would be beneficial and it would keep people more grounded in just family community as far as just us really advancing um things on the technology front in a moral ethical way based off of the foundation of that religion.",
+  "language": "unknown",
+  "processing_time_seconds": 12.533636,
+  "timestamp": "2026-06-08T10:26:34.996685",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        18.54
+      ],
+      "text": " Yes, I do think there is a society where, at least from the religious standpoint, where you can incorporate high-functioning technology and still have that moral background behind it."
+    },
+    {
+      "timestamp": [
+        20.94,
+        18.54
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        29.18,
+        35.46
+      ],
+      "text": " um that's what I feel like was missing just more like hybrid in that sense um which really would be um I do think would be beneficial and it would keep people more grounded in just family community"
+    },
+    {
+      "timestamp": [
+        35.46,
+        43.5
+      ],
+      "text": " as far as just us really advancing um things on the technology front in a moral ethical way"
+    },
+    {
+      "timestamp": [
+        43.5,
+        47.42
+      ],
+      "text": " based off of the foundation of that religion."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "audio_file": "6a097d48727aa9f0ed80980e_audio_ranking_explanation_1780397787801.webm",
+  "transcript": " Sorry, going straight to what human beings are internally and how we're connected to nature. I think that's more plausible and I guess more feasible in the long run as opposed to like a society that's governed by like robots and computers. Yeah.",
+  "language": "unknown",
+  "processing_time_seconds": 5.972364,
+  "timestamp": "2026-06-08T10:32:21.434163",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.08
+      ],
+      "text": " Sorry, going straight to what human beings are internally and how we're connected to nature."
+    },
+    {
+      "timestamp": [
+        8.08,
+        25.18
+      ],
+      "text": " I think that's more plausible and I guess more feasible in the long run as opposed to like a society that's governed by like robots and computers."
+    },
+    {
+      "timestamp": [
+        27.18,
+        27.78
+      ],
+      "text": " Yeah."
+    }
+  ]
+}

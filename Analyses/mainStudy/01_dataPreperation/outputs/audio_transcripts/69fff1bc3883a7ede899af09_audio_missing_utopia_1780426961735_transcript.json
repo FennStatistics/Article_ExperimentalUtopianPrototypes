@@ -1,0 +1,80 @@
+{
+  "audio_file": "69fff1bc3883a7ede899af09_audio_missing_utopia_1780426961735.webm",
+  "transcript": " You're missing a society where religion, as well as technology, as well as AI and everything else can be hybridized very easily. As long as we continue to follow the lines of just a basic moral society that doesn't lean towards degeneracy or at least is as a factor of shame within it, then we can go don't occur of negative human behavior, as they saw, but when the behaviors aren't curbed, and there is no kind of religious or moral authority in that realm, then it just tends to lean towards degeneracy, and that's exactly what you're experiencing in society today. Because there's nothing to stop it. There is no public shame for certain things, actions, or even repercussions for that fact in many cases.",
+  "language": "unknown",
+  "processing_time_seconds": 12.081309,
+  "timestamp": "2026-06-08T10:14:31.610347",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.42
+      ],
+      "text": " You're missing a society where religion, as well as technology, as well as AI and everything"
+    },
+    {
+      "timestamp": [
+        9.42,
+        12.56
+      ],
+      "text": " else can be hybridized very easily."
+    },
+    {
+      "timestamp": [
+        12.56,
+        20.5
+      ],
+      "text": " As long as we continue to follow the lines of just a basic moral society that doesn't"
+    },
+    {
+      "timestamp": [
+        20.5,
+        26.88
+      ],
+      "text": " lean towards degeneracy or at least is as a factor of shame within it, then we can go"
+    },
+    {
+      "timestamp": [
+        26.88,
+        33.58
+      ],
+      "text": " don't occur of negative human behavior, as they saw, but when the behaviors aren't curbed,"
+    },
+    {
+      "timestamp": [
+        33.58,
+        41.4
+      ],
+      "text": " and there is no kind of religious or moral authority in that realm, then it just tends"
+    },
+    {
+      "timestamp": [
+        41.4,
+        47.0
+      ],
+      "text": " to lean towards degeneracy, and that's exactly what you're experiencing in society today."
+    },
+    {
+      "timestamp": [
+        47.0,
+        48.16
+      ],
+      "text": " Because there's nothing to stop it."
+    },
+    {
+      "timestamp": [
+        48.16,
+        54.48
+      ],
+      "text": " There is no public shame for certain things, actions, or even repercussions for that fact"
+    },
+    {
+      "timestamp": [
+        54.48,
+        55.48
+      ],
+      "text": " in many cases."
+    }
+  ]
+}

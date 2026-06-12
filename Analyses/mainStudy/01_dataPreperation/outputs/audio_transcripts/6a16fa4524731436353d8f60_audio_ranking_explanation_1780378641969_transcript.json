@@ -1,0 +1,234 @@
+{
+  "audio_file": "6a16fa4524731436353d8f60_audio_ranking_explanation_1780378641969.webm",
+  "transcript": " so i think just sort of going down the list here um i rated the modern green utopia first i think that to me just sounded like the society that had the best balance of everything um with the sustainability side you're keeping the environment and nature and your natural resources in good condition, but you're also sort of having this continued technological or some sort of innovation, even if it is sort of that green technology. Going to number two, I rated the Futurist Utopia. I think just science and innovation, I think that's always sort of a good thing for the continued advancement of society. I think I just ranked that number two below the Modern Green utopia just because i think it's missing that environmental piece and i think to some degree there can be too much advancement um and you're sort of then just using up the earth and the climate and the environment um going to number three i rated just the moral commonwealth um sort of that immorality i think that always just sounds really nice um and i think it can have some really good components to it but of course you know there's a lot of margin for error there so i think that's why that's just a little bit further down on the list um going to number four the primitive primitive primitivist utopia um i rank that just a little bit kind of in the middle of the list you know um i think low tech small scale i think that just sounds you know sort of like you're stalling as a society and not really sort of advancing or or doing anything so i think that's just sort of middle of the road going to number five the religious utopia i think i rank that sort of in the bottom half of that list at that fifth position just because you know i think faith can do a lot of good things whether that's just different kinds of organized or non-organized religion or spirituality in general i think that can have a lot of positives for people but again i think there also leaves a lot of room for coercion and misinterpretation and abuse so i think that's sort of farther down on the list for me going to number six that institutional utopia the rule of law i think that's just sort of always just seen as a classic dystopia um so i think that can have a lot of abuse and corruption and i think that can be bad for a lot of different people um and groups of people so i think that is seems pretty pretty undesirable um going to number seven that ai-centered utopia um i think data driven always sounds good just face value but thinking if you're having your society ruled as that i think that is just you're putting the decision making 100 in the hands of a machine um that even though it has data as evidence there's no reasoning behind it besides what is coded into it and what it quote unquote learns um and i think there's no reasoning with that. There's no margin for error. There's no human emotional understanding. So I think that to me is the least desirable.",
+  "language": "unknown",
+  "processing_time_seconds": 41.509592,
+  "timestamp": "2026-06-08T11:09:43.325286",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.34
+      ],
+      "text": " so i think just sort of going down the list here um i rated the modern green utopia first i think"
+    },
+    {
+      "timestamp": [
+        10.34,
+        17.44
+      ],
+      "text": " that to me just sounded like the society that had the best balance of everything um with the"
+    },
+    {
+      "timestamp": [
+        17.44,
+        24.08
+      ],
+      "text": " sustainability side you're keeping the environment and nature and your natural resources in good"
+    },
+    {
+      "timestamp": [
+        24.08,
+        30.82
+      ],
+      "text": " condition, but you're also sort of having this continued technological or some sort of innovation,"
+    },
+    {
+      "timestamp": [
+        30.82,
+        39.02
+      ],
+      "text": " even if it is sort of that green technology. Going to number two, I rated the Futurist Utopia."
+    },
+    {
+      "timestamp": [
+        39.76,
+        43.8
+      ],
+      "text": " I think just science and innovation, I think that's always sort of a good thing for the"
+    },
+    {
+      "timestamp": [
+        43.8,
+        51.14
+      ],
+      "text": " continued advancement of society. I think I just ranked that number two below the Modern Green"
+    },
+    {
+      "timestamp": [
+        51.14,
+        56.6
+      ],
+      "text": " utopia just because i think it's missing that environmental piece and i think to some degree"
+    },
+    {
+      "timestamp": [
+        56.6,
+        63.4
+      ],
+      "text": " there can be too much advancement um and you're sort of then just using up the earth and the"
+    },
+    {
+      "timestamp": [
+        63.4,
+        70.48
+      ],
+      "text": " climate and the environment um going to number three i rated just the moral commonwealth um"
+    },
+    {
+      "timestamp": [
+        70.48,
+        76.86
+      ],
+      "text": " sort of that immorality i think that always just sounds really nice um and i think it can have some"
+    },
+    {
+      "timestamp": [
+        76.86,
+        80.6
+      ],
+      "text": " really good components to it but of course you know there's a lot of margin for error there"
+    },
+    {
+      "timestamp": [
+        80.6,
+        83.84
+      ],
+      "text": " so i think that's why that's just a little bit further down on the list"
+    },
+    {
+      "timestamp": [
+        83.84,
+        92.68
+      ],
+      "text": " um going to number four the primitive primitive primitivist utopia um i rank that just a little"
+    },
+    {
+      "timestamp": [
+        92.68,
+        97.68
+      ],
+      "text": " bit kind of in the middle of the list you know um i think low tech small scale i think that just"
+    },
+    {
+      "timestamp": [
+        97.68,
+        102.84
+      ],
+      "text": " sounds you know sort of like you're stalling as a society and not really sort of advancing or"
+    },
+    {
+      "timestamp": [
+        102.84,
+        109.96
+      ],
+      "text": " or doing anything so i think that's just sort of middle of the road going to number five the"
+    },
+    {
+      "timestamp": [
+        109.96,
+        114.5
+      ],
+      "text": " religious utopia i think i rank that sort of in the bottom half of that list at that fifth position"
+    },
+    {
+      "timestamp": [
+        114.5,
+        120.8
+      ],
+      "text": " just because you know i think faith can do a lot of good things whether that's just different kinds"
+    },
+    {
+      "timestamp": [
+        120.8,
+        125.08
+      ],
+      "text": " of organized or non-organized religion or spirituality in general i think that can have"
+    },
+    {
+      "timestamp": [
+        125.08,
+        131.64
+      ],
+      "text": " a lot of positives for people but again i think there also leaves a lot of room for coercion and"
+    },
+    {
+      "timestamp": [
+        131.64,
+        137.96
+      ],
+      "text": " misinterpretation and abuse so i think that's sort of farther down on the list for me"
+    },
+    {
+      "timestamp": [
+        137.96,
+        143.88
+      ],
+      "text": " going to number six that institutional utopia the rule of law i think that's just sort of"
+    },
+    {
+      "timestamp": [
+        143.88,
+        151.14
+      ],
+      "text": " always just seen as a classic dystopia um so i think that can have a lot of abuse and corruption"
+    },
+    {
+      "timestamp": [
+        151.14,
+        157.14
+      ],
+      "text": " and i think that can be bad for a lot of different people um and groups of people so i think that is"
+    },
+    {
+      "timestamp": [
+        157.14,
+        163.66
+      ],
+      "text": " seems pretty pretty undesirable um going to number seven that ai-centered utopia"
+    },
+    {
+      "timestamp": [
+        163.66,
+        170.18
+      ],
+      "text": " um i think data driven always sounds good just face value but thinking if you're having your"
+    },
+    {
+      "timestamp": [
+        170.18,
+        177.4
+      ],
+      "text": " society ruled as that i think that is just you're putting the decision making 100 in the hands of"
+    },
+    {
+      "timestamp": [
+        177.4,
+        185.02
+      ],
+      "text": " a machine um that even though it has data as evidence there's no reasoning behind it besides"
+    },
+    {
+      "timestamp": [
+        185.02,
+        191.22
+      ],
+      "text": " what is coded into it and what it quote unquote learns um and i think there's no reasoning with"
+    },
+    {
+      "timestamp": [
+        191.22,
+        196.76
+      ],
+      "text": " that. There's no margin for error. There's no human emotional understanding. So I think that"
+    },
+    {
+      "timestamp": [
+        196.76,
+        198.42
+      ],
+      "text": " to me is the least desirable."
+    }
+  ]
+}

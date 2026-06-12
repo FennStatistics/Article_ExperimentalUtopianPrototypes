@@ -1,0 +1,143 @@
+{
+  "audio_file": "6a1952e70e604793be75659b_audio_missing_utopia_1780388931414.webm",
+  "transcript": " i think all seven societies liked one thing and i feel like that one thing is fallbacks i feel like any type of government no matter how perfect it is can be exploited by those who want to do it a type of society that i envision would be a combination of a few from uh a few societies ever mentioned here in the study i think um rule of law from the government society with a combination of a green energy from the modern green utopia in a uh and the technological innovation from the techno utopia i think i feel like a combination of those three would be it would be the ideal society for me I'm not sure what that would be called but I feel like that would be the one that would be missing and what would matter most to me in that society is just fairness justice and liberty for all you",
+  "language": "unknown",
+  "processing_time_seconds": 17.218362,
+  "timestamp": "2026-06-08T11:11:14.962734",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.46
+      ],
+      "text": " i think all seven societies liked one thing and i feel like that one thing is fallbacks"
+    },
+    {
+      "timestamp": [
+        8.46,
+        15.3
+      ],
+      "text": " i feel like any type of government no matter how perfect it is can be exploited by those who want"
+    },
+    {
+      "timestamp": [
+        15.3,
+        27.68
+      ],
+      "text": " to do it a type of society that i envision would be a combination of a few from uh a few societies"
+    },
+    {
+      "timestamp": [
+        27.68,
+        37.26
+      ],
+      "text": " ever mentioned here in the study i think um rule of law from the government society"
+    },
+    {
+      "timestamp": [
+        37.26,
+        45.9
+      ],
+      "text": " with a combination of a green energy from the modern green utopia in a uh and the technological"
+    },
+    {
+      "timestamp": [
+        45.9,
+        53.82
+      ],
+      "text": " innovation from the techno utopia i think i feel like a combination of those three"
+    },
+    {
+      "timestamp": [
+        53.82,
+        55.02
+      ],
+      "text": " would be"
+    },
+    {
+      "timestamp": [
+        55.02,
+        57.84
+      ],
+      "text": " it would be the ideal society"
+    },
+    {
+      "timestamp": [
+        57.84,
+        58.4
+      ],
+      "text": " for me"
+    },
+    {
+      "timestamp": [
+        58.4,
+        61.86
+      ],
+      "text": " I'm not sure what that would be called"
+    },
+    {
+      "timestamp": [
+        61.86,
+        65.6
+      ],
+      "text": " but I feel like"
+    },
+    {
+      "timestamp": [
+        65.6,
+        67.86
+      ],
+      "text": " that would be the one that would be"
+    },
+    {
+      "timestamp": [
+        67.86,
+        68.14
+      ],
+      "text": " missing"
+    },
+    {
+      "timestamp": [
+        68.14,
+        75.68
+      ],
+      "text": " and what would matter most to me"
+    },
+    {
+      "timestamp": [
+        75.68,
+        77.64
+      ],
+      "text": " in that society is just"
+    },
+    {
+      "timestamp": [
+        77.64,
+        79.24
+      ],
+      "text": " fairness"
+    },
+    {
+      "timestamp": [
+        79.24,
+        82.08
+      ],
+      "text": " justice and liberty"
+    },
+    {
+      "timestamp": [
+        82.08,
+        83.62
+      ],
+      "text": " for all"
+    },
+    {
+      "timestamp": [
+        83.62,
+        85.68
+      ],
+      "text": " you"
+    }
+  ]
+}

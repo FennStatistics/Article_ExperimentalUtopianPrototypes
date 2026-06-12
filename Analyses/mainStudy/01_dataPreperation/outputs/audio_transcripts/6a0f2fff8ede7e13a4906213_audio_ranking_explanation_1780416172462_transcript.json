@@ -1,0 +1,108 @@
+{
+  "audio_file": "6a0f2fff8ede7e13a4906213_audio_ranking_explanation_1780416172462.webm",
+  "transcript": " i would say that i put the futuristic utopia at the top because the science and innovation is going to lead to constant growth among the society and second i did the sustainable and secure modern green utopia because that seems like the most i guess environmentally friendly and i think would produce the most longevity and just obviously because it says sustainable and secure and then third i did the primitivist utopia which is the low tech and small scale i think that one would highly promote as it said in the passage um like small groups and just getting together with people since it's a lot less tech oriented um the only one that i didn't really like was the institutional utopia which is the role of law one that i had at the bottom um i think that That's slightly what we live in now, but obviously there's people who don't follow that law or don't follow the rule of law, and then there's also people who do follow the rule of law but occasionally break the laws. So it would really depend on how the laws are enforced, and I think it would also depend on the type of laws that are being put into place to keep people from doing quote-unquote wrongdoings.",
+  "language": "unknown",
+  "processing_time_seconds": 17.267449,
+  "timestamp": "2026-06-08T10:50:50.884699",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.36
+      ],
+      "text": " i would say that i put the futuristic utopia at the top because the science and innovation is"
+    },
+    {
+      "timestamp": [
+        6.36,
+        12.92
+      ],
+      "text": " going to lead to constant growth among the society and second i did the sustainable and secure"
+    },
+    {
+      "timestamp": [
+        12.92,
+        19.96
+      ],
+      "text": " modern green utopia because that seems like the most i guess environmentally friendly and i think"
+    },
+    {
+      "timestamp": [
+        19.96,
+        24.98
+      ],
+      "text": " would produce the most longevity and just obviously because it says sustainable and secure"
+    },
+    {
+      "timestamp": [
+        24.98,
+        32.28
+      ],
+      "text": " and then third i did the primitivist utopia which is the low tech and small scale i think that one"
+    },
+    {
+      "timestamp": [
+        32.28,
+        40.38
+      ],
+      "text": " would highly promote as it said in the passage um like small groups and just getting together"
+    },
+    {
+      "timestamp": [
+        40.38,
+        47.68
+      ],
+      "text": " with people since it's a lot less tech oriented um the only one that i didn't really like was"
+    },
+    {
+      "timestamp": [
+        47.68,
+        54.96
+      ],
+      "text": " the institutional utopia which is the role of law one that i had at the bottom um i think that"
+    },
+    {
+      "timestamp": [
+        54.96,
+        62.4
+      ],
+      "text": " That's slightly what we live in now, but obviously there's people who don't follow that law or"
+    },
+    {
+      "timestamp": [
+        62.4,
+        66.56
+      ],
+      "text": " don't follow the rule of law, and then there's also people who do follow the rule of law"
+    },
+    {
+      "timestamp": [
+        66.56,
+        67.8
+      ],
+      "text": " but occasionally break the laws."
+    },
+    {
+      "timestamp": [
+        68.14,
+        73.26
+      ],
+      "text": " So it would really depend on how the laws are enforced, and I think it would also depend"
+    },
+    {
+      "timestamp": [
+        73.26,
+        80.82
+      ],
+      "text": " on the type of laws that are being put into place to keep people from doing quote-unquote"
+    },
+    {
+      "timestamp": [
+        80.82,
+        81.66
+      ],
+      "text": " wrongdoings."
+    }
+  ]
+}

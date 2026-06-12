@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a0daeb41822c6ae499edbb8_audio_missing_utopia_1780401649037.webm",
+  "transcript": " I guess my ideal would be closest to The Moralist, but just something that was focused on everybody helping others out and giving everyone the basic tools for, you know, basic needs, human dignity, things like that. and like no racial, gender, religion, sexuality biases, but I guess that might be implied by the moral one.",
+  "language": "unknown",
+  "processing_time_seconds": 8.70413,
+  "timestamp": "2026-06-08T10:42:46.950130",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.16
+      ],
+      "text": " I guess my ideal would be closest to The Moralist, but just something that was focused on everybody helping others out and giving everyone the basic tools for, you know, basic needs, human dignity, things like that."
+    },
+    {
+      "timestamp": [
+        21.22,
+        20.16
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        28.98,
+        29.3
+      ],
+      "text": " and like no racial, gender, religion, sexuality biases,"
+    },
+    {
+      "timestamp": [
+        32.88,
+        null
+      ],
+      "text": " but I guess that might be implied by the moral one."
+    }
+  ]
+}

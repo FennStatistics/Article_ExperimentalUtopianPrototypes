@@ -1,0 +1,178 @@
+{
+  "audio_file": "6666556a57f997a0004f5e5a_audio_ranking_explanation_1780387615072.webm",
+  "transcript": " I ranked my decision this way because I feel like human society will do better with a moral inner morality type of type of government where we all look after each other and just have basic morals to do the right thing so that's why I put that at number one and then the religious utopia that could go either way. Sometimes it can go extreme, you know, but, um, I, I believe in God and I believe that, you know, if it's, you know, if they're doing the right thing as far as, you know, worshiping God and stuff, then that would be a pretty decent, um, place. Um, as long as not extreme or turn into like you know um the way they start persecuting people and things like that um the futuristic utopia the futurist utopia science and innovation um you know because um it's good to have a little bit of science to fix things say someone gets sick you know they have of um the medicine to be able to uh you know heal people things like that but also um that actually takes experiments and stuff so it's like they still have to experiment and harm beings maybe animals or something to still learn how to um use the the science the right way so i don't know that one still has kind of something bad behind it um modern green utopia sustainable and secure um yeah just a regular um modern uh green actually uh just that one sounds nice stable secure um the other one after that low tech and small scale yeah like a little bit of technology but not too much you know might be okay um so that way you know move society along um so they're not bored but there's things to do and a little bit of futuristic in there um institutional utopia i would definitely not like that one it sounds like very like there's a dictator and that they're going to be very very um you know have no freedom and be very um scared to express themselves and it would just be a horrible place ai centered basically to me that's like um data driven government that's like uh almost like the matrix where it's like you're run by robots so i don't want i don't think that's a good option either where you're completely ran by robots and things like that so that's why i chose that one last.",
+  "language": "unknown",
+  "processing_time_seconds": 36.454197,
+  "timestamp": "2026-06-08T08:38:12.744082",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.9
+      ],
+      "text": " I ranked my decision this way because I feel like human society will do better with a moral"
+    },
+    {
+      "timestamp": [
+        10.9,
+        22.2
+      ],
+      "text": " inner morality type of type of government where we all look after each other and just have basic"
+    },
+    {
+      "timestamp": [
+        22.2,
+        28.92
+      ],
+      "text": " morals to do the right thing so that's why I put that at number one and then the religious utopia"
+    },
+    {
+      "timestamp": [
+        28.92,
+        35.86
+      ],
+      "text": " that could go either way. Sometimes it can go extreme, you know, but, um, I, I believe in God"
+    },
+    {
+      "timestamp": [
+        35.86,
+        42.42
+      ],
+      "text": " and I believe that, you know, if it's, you know, if they're doing the right thing as far as, you"
+    },
+    {
+      "timestamp": [
+        42.42,
+        51.46
+      ],
+      "text": " know, worshiping God and stuff, then that would be a pretty decent, um, place. Um, as long as"
+    },
+    {
+      "timestamp": [
+        51.46,
+        59.38
+      ],
+      "text": " not extreme or turn into like you know um the way they start persecuting people and things like that"
+    },
+    {
+      "timestamp": [
+        60.02,
+        70.26
+      ],
+      "text": " um the futuristic utopia the futurist utopia science and innovation um you know because um"
+    },
+    {
+      "timestamp": [
+        70.26,
+        76.18
+      ],
+      "text": " it's good to have a little bit of science to fix things say someone gets sick you know they have"
+    },
+    {
+      "timestamp": [
+        76.18,
+        84.54
+      ],
+      "text": " of um the medicine to be able to uh you know heal people things like that but also um that actually"
+    },
+    {
+      "timestamp": [
+        84.54,
+        89.94
+      ],
+      "text": " takes experiments and stuff so it's like they still have to experiment and harm beings maybe"
+    },
+    {
+      "timestamp": [
+        89.94,
+        97.86
+      ],
+      "text": " animals or something to still learn how to um use the the science the right way so i don't know that"
+    },
+    {
+      "timestamp": [
+        97.86,
+        105.48
+      ],
+      "text": " one still has kind of something bad behind it um modern green utopia sustainable and secure"
+    },
+    {
+      "timestamp": [
+        105.48,
+        115.4
+      ],
+      "text": " um yeah just a regular um modern uh green actually uh just that one sounds nice"
+    },
+    {
+      "timestamp": [
+        115.4,
+        121.24
+      ],
+      "text": " stable secure um the other one after that low tech and small scale"
+    },
+    {
+      "timestamp": [
+        121.24,
+        126.14
+      ],
+      "text": " yeah like a little bit of technology but not too much you know might be okay"
+    },
+    {
+      "timestamp": [
+        126.14,
+        135.46
+      ],
+      "text": " um so that way you know move society along um so they're not bored but there's things to do"
+    },
+    {
+      "timestamp": [
+        135.46,
+        143.34
+      ],
+      "text": " and a little bit of futuristic in there um institutional utopia i would definitely not"
+    },
+    {
+      "timestamp": [
+        143.34,
+        151.2
+      ],
+      "text": " like that one it sounds like very like there's a dictator and that they're going to be very very"
+    },
+    {
+      "timestamp": [
+        151.2,
+        158.76
+      ],
+      "text": " um you know have no freedom and be very um scared to express themselves and it would just be a"
+    },
+    {
+      "timestamp": [
+        158.76,
+        168.6
+      ],
+      "text": " horrible place ai centered basically to me that's like um data driven government that's like uh"
+    },
+    {
+      "timestamp": [
+        168.6,
+        175.02
+      ],
+      "text": " almost like the matrix where it's like you're run by robots so i don't want i don't think that's a"
+    },
+    {
+      "timestamp": [
+        175.02,
+        184.5
+      ],
+      "text": " good option either where you're completely ran by robots and things like that so that's why i chose"
+    },
+    {
+      "timestamp": [
+        184.5,
+        185.34
+      ],
+      "text": " that one last."
+    }
+  ]
+}

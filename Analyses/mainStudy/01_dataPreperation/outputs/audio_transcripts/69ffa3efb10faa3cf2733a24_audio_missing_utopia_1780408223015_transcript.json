@@ -1,0 +1,24 @@
+{
+  "audio_file": "69ffa3efb10faa3cf2733a24_audio_missing_utopia_1780408223015.webm",
+  "transcript": " I, looking back at the seven societies, uh, I don't think there were any approaches that I felt were missing, um, again, the science-based one just seems like the more logical one to me. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 8.195012,
+  "timestamp": "2026-06-08T10:13:18.437684",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.94
+      ],
+      "text": " I, looking back at the seven societies, uh, I don't think there were any approaches that I felt were missing, um, again, the science-based one just seems like the more logical one to me."
+    },
+    {
+      "timestamp": [
+        30.0,
+        59.98
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "audio_file": "6a0d057504f95ac3cb8c5794_audio_missing_utopia_1780401082851.webm",
+  "transcript": " A future society that I think was missing was something between the top three that I answered to something that was science and technology driven, but focused on innovation and green design and sustainability. And I think through that, you need something with very empathetic and compassionate people. So just some sort of mix of those top three is in my future society, One where a lot of people are pushing to make it better in good ways for people and the planet, but everyone still has good intentions and good moral drivings that are pushing this technology further so there's not any bad products being made or bad technology that is for the greater good of one person and not another person. And so I think we need some sort of scientifically innovative society, but also driven by strong moral guidelines in my ideal society.",
+  "language": "unknown",
+  "processing_time_seconds": 14.191746,
+  "timestamp": "2026-06-08T10:41:45.837697",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.26
+      ],
+      "text": " A future society that I think was missing was something between the top three that I answered"
+    },
+    {
+      "timestamp": [
+        6.26,
+        13.76
+      ],
+      "text": " to something that was science and technology driven, but focused on innovation and green"
+    },
+    {
+      "timestamp": [
+        13.76,
+        20.72
+      ],
+      "text": " design and sustainability. And I think through that, you need something with very empathetic"
+    },
+    {
+      "timestamp": [
+        20.72,
+        27.22
+      ],
+      "text": " and compassionate people. So just some sort of mix of those top three is in my future society,"
+    },
+    {
+      "timestamp": [
+        27.22,
+        50.72
+      ],
+      "text": " One where a lot of people are pushing to make it better in good ways for people and the planet, but everyone still has good intentions and good moral drivings that are pushing this technology further so there's not any bad products being made or bad technology that is for the greater good of one person and not another person."
+    },
+    {
+      "timestamp": [
+        50.72,
+        60.88
+      ],
+      "text": " And so I think we need some sort of scientifically innovative society, but also driven by strong moral guidelines in my ideal society."
+    }
+  ]
+}

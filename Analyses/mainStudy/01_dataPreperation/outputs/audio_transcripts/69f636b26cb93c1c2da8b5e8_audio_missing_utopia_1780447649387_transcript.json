@@ -1,0 +1,31 @@
+{
+  "audio_file": "69f636b26cb93c1c2da8b5e8_audio_missing_utopia_1780447649387.webm",
+  "transcript": " I like the five years of the society and I think one thing that was missing and I think the society should have is we should try to engage everyone and encourage everyone to me productive and tech-parin education.",
+  "language": "unknown",
+  "processing_time_seconds": 7.849577,
+  "timestamp": "2026-06-08T09:59:25.194305",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.22
+      ],
+      "text": " I like the five years of the society and I think one thing that was missing and I think"
+    },
+    {
+      "timestamp": [
+        17.22,
+        27.28
+      ],
+      "text": " the society should have is we should try to engage everyone and encourage everyone to"
+    },
+    {
+      "timestamp": [
+        27.28,
+        33.04
+      ],
+      "text": " me productive and tech-parin education."
+    }
+  ]
+}

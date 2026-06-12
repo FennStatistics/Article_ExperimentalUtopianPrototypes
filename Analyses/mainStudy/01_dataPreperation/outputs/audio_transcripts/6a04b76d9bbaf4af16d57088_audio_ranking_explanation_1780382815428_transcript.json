@@ -1,0 +1,59 @@
+{
+  "audio_file": "6a04b76d9bbaf4af16d57088_audio_ranking_explanation_1780382815428.webm",
+  "transcript": " First, AI utopia. Cranked fast because it offers maximum efficiency, automation, and advanced problem solving. Futurist utopia focuses on innovation and technological advancement that improves human life. Modern green utopia balances development within environmental protection and sustainability sustainable living institutional utopia strong system and laws create orders fairness and stability moral commonwealth emphasizes good ethics quality and peaceful coexistence religious utopia promotes spiritual and unity moral guidance in society primitive utopia rank last because it relies on simple living with limited technology and development",
+  "language": "unknown",
+  "processing_time_seconds": 10.208773,
+  "timestamp": "2026-06-08T10:23:40.109273",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.8
+      ],
+      "text": " First, AI utopia. Cranked fast because it offers maximum efficiency, automation, and"
+    },
+    {
+      "timestamp": [
+        10.8,
+        19.0
+      ],
+      "text": " advanced problem solving. Futurist utopia focuses on innovation and technological advancement"
+    },
+    {
+      "timestamp": [
+        19.0,
+        24.6
+      ],
+      "text": " that improves human life. Modern green utopia balances development within environmental"
+    },
+    {
+      "timestamp": [
+        24.6,
+        31.0
+      ],
+      "text": " protection and sustainability sustainable living institutional utopia strong system and laws create"
+    },
+    {
+      "timestamp": [
+        31.0,
+        38.28
+      ],
+      "text": " orders fairness and stability moral commonwealth emphasizes good ethics quality and peaceful"
+    },
+    {
+      "timestamp": [
+        38.28,
+        45.0
+      ],
+      "text": " coexistence religious utopia promotes spiritual and unity moral guidance in society primitive"
+    },
+    {
+      "timestamp": [
+        45.0,
+        52.12
+      ],
+      "text": " utopia rank last because it relies on simple living with limited technology and development"
+    }
+  ]
+}

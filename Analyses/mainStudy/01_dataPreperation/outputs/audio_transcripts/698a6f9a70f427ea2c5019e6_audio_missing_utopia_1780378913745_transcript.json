@@ -1,0 +1,45 @@
+{
+  "audio_file": "698a6f9a70f427ea2c5019e6_audio_missing_utopia_1780378913745.webm",
+  "transcript": " Um, I think what was missing for me was, I guess that people have a choice in what kind of society they want. Um, in my mind, having like a more morality based society would be great if everyone was a good person and if everyone wanted to be good. to each other and to help each other out and to make life easier for other people. But I know not everyone is interested in that, so if those people could then go on their own way and choose whatever version of society they wanted and leave good people alone, that would be cool.",
+  "language": "unknown",
+  "processing_time_seconds": 10.357217,
+  "timestamp": "2026-06-08T09:02:26.027933",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.98
+      ],
+      "text": " Um, I think what was missing for me was, I guess that people have a choice in what kind of society they want. Um, in my mind, having like a more morality based society would be great if everyone was a good person and if everyone wanted to be good."
+    },
+    {
+      "timestamp": [
+        30.0,
+        35.58
+      ],
+      "text": " to each other and to help each other out and to make life easier for other people."
+    },
+    {
+      "timestamp": [
+        35.58,
+        44.94
+      ],
+      "text": " But I know not everyone is interested in that, so if those people could then go on their"
+    },
+    {
+      "timestamp": [
+        44.94,
+        54.0
+      ],
+      "text": " own way and choose whatever version of society they wanted and leave good people alone, that"
+    },
+    {
+      "timestamp": [
+        54.0,
+        54.8
+      ],
+      "text": " would be cool."
+    }
+  ]
+}

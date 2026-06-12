@@ -1,0 +1,45 @@
+{
+  "audio_file": "69f7d0570e04b2ae2c3e7e26_audio_missing_utopia_1780523260426.webm",
+  "transcript": " I think the ideal society would be, you know, one similar to what we have now, where we have a government, but people are free to make more decisions. If we could get rid of some of the division that we have currently with, you know, blacks versus whites and, you know, immigration and all this other stuff. I mean, if there was just an ideal society, it would be one where, you know, we all got along. I know that seems unreasonable, and it probably is, but that would be my ideal of an ideal society.",
+  "language": "unknown",
+  "processing_time_seconds": 10.279786,
+  "timestamp": "2026-06-08T09:59:54.163275",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.04
+      ],
+      "text": " I think the ideal society would be, you know, one similar to what we have now, where we have a government, but people are free to make more decisions."
+    },
+    {
+      "timestamp": [
+        11.56,
+        21.9
+      ],
+      "text": " If we could get rid of some of the division that we have currently with, you know, blacks versus whites and, you know, immigration and all this other stuff."
+    },
+    {
+      "timestamp": [
+        22.0,
+        26.92
+      ],
+      "text": " I mean, if there was just an ideal society, it would be one where, you know, we all got along."
+    },
+    {
+      "timestamp": [
+        27.06,
+        26.92
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        33.24,
+        null
+      ],
+      "text": " I know that seems unreasonable, and it probably is, but that would be my ideal of an ideal society."
+    }
+  ]
+}

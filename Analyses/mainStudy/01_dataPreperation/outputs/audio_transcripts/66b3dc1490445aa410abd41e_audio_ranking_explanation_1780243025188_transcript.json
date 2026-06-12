@@ -1,0 +1,45 @@
+{
+  "audio_file": "66b3dc1490445aa410abd41e_audio_ranking_explanation_1780243025188.webm",
+  "transcript": " I decided to rank my societies this way because in first place, I believe that a sustainable society is the most important because it helps future generations. On top of that, in second place, science is the most important as well because without science, you can't really focus on sustainability and do the right things to make sure our future generations are taken care of. The reason I chose religious utopias last is because I believe a religious society has several downfalls and usually involves the persecution of individuals that people view as lesser than. And other than that, I just aimed for sustainability, environment, and morality as the top choices.",
+  "language": "unknown",
+  "processing_time_seconds": 10.680368,
+  "timestamp": "2026-06-08T08:39:32.901177",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.8,
+        11.42
+      ],
+      "text": " I decided to rank my societies this way because in first place, I believe that a sustainable society is the most important because it helps future generations."
+    },
+    {
+      "timestamp": [
+        12.0,
+        24.48
+      ],
+      "text": " On top of that, in second place, science is the most important as well because without science, you can't really focus on sustainability and do the right things to make sure our future generations are taken care of."
+    },
+    {
+      "timestamp": [
+        24.96,
+        24.48
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        37.42,
+        38.82
+      ],
+      "text": " The reason I chose religious utopias last is because I believe a religious society has several downfalls and usually involves the persecution of individuals that people view as lesser than."
+    },
+    {
+      "timestamp": [
+        46.5,
+        null
+      ],
+      "text": " And other than that, I just aimed for sustainability, environment, and morality as the top choices."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audio_file": "6a1ec1fad25db28c877281e4_audio_ranking_explanation_1780486594609.webm",
+  "transcript": " actually you know a low-tech a primitivist utopia let's say a low-tech and small scale society is not for me thank you",
+  "language": "unknown",
+  "processing_time_seconds": 5.445318,
+  "timestamp": "2026-06-08T11:37:57.444354",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.34
+      ],
+      "text": " actually you know a low-tech a primitivist utopia let's say a low-tech and small scale society is"
+    },
+    {
+      "timestamp": [
+        11.34,
+        15.06
+      ],
+      "text": " not for me thank you"
+    }
+  ]
+}

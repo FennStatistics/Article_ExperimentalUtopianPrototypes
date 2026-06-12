@@ -1,0 +1,66 @@
+{
+  "audio_file": "61338374ecef87bfdfd1c7bb_audio_missing_utopia_1780398149125.webm",
+  "transcript": " I think that these were all different valid values or approaches that could at least be considered, even if some of them weren't constructive organization ways to me. So what's a type of future society that would be missing? Um, I feel like there's, there's one, like, if it's centered around abundance and letting the free market work, like, yes, maybe it's impossible to have a utopian society like that. like capitalism has failed in a lot of ways like even in places with a healthier equality dynamic like the than the u.s but it could be worth considering if there's one that's concerned with both welfare and growth so yeah i was just kind of coming up with that to try to describe something and maybe it is covered by some of those types if it were discussed but yeah i do think the seven were very diverse and a good mixture of different types",
+  "language": "unknown",
+  "processing_time_seconds": 17.075883,
+  "timestamp": "2026-06-08T08:23:44.027104",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.32
+      ],
+      "text": " I think that these were all different valid values or approaches that could at least be considered, even if some of them weren't constructive organization ways to me."
+    },
+    {
+      "timestamp": [
+        14.26,
+        20.3
+      ],
+      "text": " So what's a type of future society that would be missing?"
+    },
+    {
+      "timestamp": [
+        20.3,
+        39.7
+      ],
+      "text": " Um, I feel like there's, there's one, like, if it's centered around abundance and letting the free market work, like, yes, maybe it's impossible to have a utopian society like that."
+    },
+    {
+      "timestamp": [
+        40.02,
+        39.7
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        47.46,
+        54.58
+      ],
+      "text": " like capitalism has failed in a lot of ways like even in places with a healthier equality dynamic like the than the u.s but it could be worth considering if there's one that's concerned"
+    },
+    {
+      "timestamp": [
+        54.58,
+        62.44
+      ],
+      "text": " with both welfare and growth so yeah i was just kind of coming up with that to try to describe"
+    },
+    {
+      "timestamp": [
+        62.44,
+        68.84
+      ],
+      "text": " something and maybe it is covered by some of those types if it were discussed but"
+    },
+    {
+      "timestamp": [
+        70.92,
+        78.84
+      ],
+      "text": " yeah i do think the seven were very diverse and a good mixture of different types"
+    }
+  ]
+}

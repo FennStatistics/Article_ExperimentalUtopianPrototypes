@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a1ca3d3b59fba790e76cabb_audio_missing_utopia_1780286639022.webm",
+  "transcript": " I feel like all the important values were already represented in these societies. Yeah, I couldn't think of anything else. I mean, I guess the only one that's not represented is like literally like a communist, like a dystopian society like that of somewhere like North Korea. I think that might be the only society that's not explicitly mentioned.",
+  "language": "unknown",
+  "processing_time_seconds": 8.891431,
+  "timestamp": "2026-06-08T11:20:15.372172",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.98
+      ],
+      "text": " I feel like all the important values were already represented in these societies."
+    },
+    {
+      "timestamp": [
+        11.98,
+        16.06
+      ],
+      "text": " Yeah, I couldn't think of anything else."
+    },
+    {
+      "timestamp": [
+        17.42,
+        28.18
+      ],
+      "text": " I mean, I guess the only one that's not represented is like literally like a communist, like a dystopian society like that of somewhere like North Korea."
+    },
+    {
+      "timestamp": [
+        28.18,
+        31.64
+      ],
+      "text": " I think that might be the only society that's not explicitly mentioned."
+    }
+  ]
+}

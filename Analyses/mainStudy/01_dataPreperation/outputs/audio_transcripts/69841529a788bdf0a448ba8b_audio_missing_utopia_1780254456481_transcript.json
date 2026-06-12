@@ -1,0 +1,52 @@
+{
+  "audio_file": "69841529a788bdf0a448ba8b_audio_missing_utopia_1780254456481.webm",
+  "transcript": " if i had to think of a version of utopia that was missing from this list i think it would be one where these references of the individual are maximized one that lets me as a citizen do the most things where it isn't just about setting up the society for the good of the society but setting up the society for the good of individual members in the society i would love some sort of like personal choice utopia, where what the organization or the government does is help people's personal choices come true, where that's the focus.",
+  "language": "unknown",
+  "processing_time_seconds": 10.165611,
+  "timestamp": "2026-06-08T08:58:37.003715",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.8
+      ],
+      "text": " if i had to think of a version of utopia that was missing from this list i think it would be one"
+    },
+    {
+      "timestamp": [
+        6.8,
+        14.68
+      ],
+      "text": " where these references of the individual are maximized one that lets me as a citizen do the"
+    },
+    {
+      "timestamp": [
+        14.68,
+        20.04
+      ],
+      "text": " most things where it isn't just about setting up the society for the good of the society but setting"
+    },
+    {
+      "timestamp": [
+        20.04,
+        26.8
+      ],
+      "text": " up the society for the good of individual members in the society i would love some sort of like"
+    },
+    {
+      "timestamp": [
+        26.8,
+        32.54
+      ],
+      "text": " personal choice utopia, where what the organization or the government does is help"
+    },
+    {
+      "timestamp": [
+        32.54,
+        36.84
+      ],
+      "text": " people's personal choices come true, where that's the focus."
+    }
+  ]
+}

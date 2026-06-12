@@ -1,0 +1,24 @@
+{
+  "audio_file": "69fba19c13731b3f706e38b1_audio_missing_utopia_1780219612622.webm",
+  "transcript": " I think those societies that were covered are like actually probabilistic, according to the society that can rise up if a crisis occurs. I think they were good and they were all covered. I don't think there is something missing because they were mostly probably to happen.",
+  "language": "unknown",
+  "processing_time_seconds": 5.990675,
+  "timestamp": "2026-06-08T10:06:24.197600",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.44
+      ],
+      "text": " I think those societies that were covered are like actually probabilistic, according to the society that can rise up if a crisis occurs."
+    },
+    {
+      "timestamp": [
+        15.44,
+        26.28
+      ],
+      "text": " I think they were good and they were all covered. I don't think there is something missing because they were mostly probably to happen."
+    }
+  ]
+}

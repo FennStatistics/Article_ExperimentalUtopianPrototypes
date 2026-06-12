@@ -1,0 +1,45 @@
+{
+  "audio_file": "634865f77fe29563ec6f621c_audio_missing_utopia_1780409418411.webm",
+  "transcript": " Maybe I just didn't notice it in the utopias or the societies that were described, but I would hope that some element of a hypothetical society involves a strong norm to collaborate, to cooperate, to work with one another. I'm not sure what this would look like in practice in terms of the guiding principles of the society but I would want something in which people are expected to work collaboratively so creating norms or rules or ideals about that or surrounding that I think would be important Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 12.265282,
+  "timestamp": "2026-06-08T08:26:25.318219",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.78
+      ],
+      "text": " Maybe I just didn't notice it in the utopias or the societies that were described, but I would hope that some element of a hypothetical society involves a strong norm to collaborate, to cooperate, to work with one another."
+    },
+    {
+      "timestamp": [
+        23.04,
+        22.78
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.74,
+        37.74
+      ],
+      "text": " I'm not sure what this would look like in practice in terms of the guiding principles of the society but I would want something in which people are expected to work collaboratively"
+    },
+    {
+      "timestamp": [
+        37.74,
+        45.54
+      ],
+      "text": " so creating norms or rules or ideals about that or surrounding that I think would be important"
+    },
+    {
+      "timestamp": [
+        45.54,
+        75.52
+      ],
+      "text": " Thank you."
+    }
+  ]
+}

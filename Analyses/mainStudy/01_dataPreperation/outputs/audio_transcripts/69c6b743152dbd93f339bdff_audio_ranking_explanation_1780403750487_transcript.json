@@ -1,0 +1,150 @@
+{
+  "audio_file": "69c6b743152dbd93f339bdff_audio_ranking_explanation_1780403750487.webm",
+  "transcript": " So, I ranked the societies this way because, first of all, the green utopia seems like the one that is the most sustainable and still appealing, followed by the Futurist Utopia because it also seemed to have science, evidence-based decisions regarding things like resource use and regulation and laws. So those top two seem to be the most ideal and livable for a normal person. um i didn't love the institutional utopia because it seems like an abuse of power could happen really quickly but i still liked it more than the moral commonwealth one which i have an issue with the moral commonwealth one relying on inner morality just because it's dependent on what people believe is right and wrong and as someone who is part of the queer community sometimes people just believe things are immoral that other people choose to do that are completely benign however i still ranked institutional and moral above the primitivist utopia because i don't really want to live in a low-tech world i liked the small-scale community part of it but i wouldn't want to live in a world that's kind of moved away from technology um the last two were ai and religious i put ai above religious because the ai centered utopia at least is still using some data-based or evidence-based decision making even though i don't trust AI at all, and I hate AI because it constantly makes mistakes and is completely unreliable, it's still better to me than a religious-based society because I find that religions tend to be completely off-base and irrational and drive people to do irrational hateful things for no reason. And nothing in the religious utopia description sounded like they were caring about how resources were used or doing anything to divide resources or take care of society in a way that made sense at all.",
+  "language": "unknown",
+  "processing_time_seconds": 30.447415,
+  "timestamp": "2026-06-08T09:25:05.966608",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.02
+      ],
+      "text": " So, I ranked the societies this way because, first of all, the green utopia seems like the one that is the most sustainable and still appealing,"
+    },
+    {
+      "timestamp": [
+        16.24,
+        15.02
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        25.84,
+        35.14
+      ],
+      "text": " followed by the Futurist Utopia because it also seemed to have science, evidence-based decisions regarding things like resource use and regulation and laws."
+    },
+    {
+      "timestamp": [
+        36.06,
+        43.56
+      ],
+      "text": " So those top two seem to be the most ideal and livable for a normal person."
+    },
+    {
+      "timestamp": [
+        44.62,
+        43.56
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        54.46,
+        61.6
+      ],
+      "text": " um i didn't love the institutional utopia because it seems like an abuse of power could happen really quickly but i still liked it more than the moral commonwealth one which i have an issue with"
+    },
+    {
+      "timestamp": [
+        61.6,
+        69.18
+      ],
+      "text": " the moral commonwealth one relying on inner morality just because it's dependent on what"
+    },
+    {
+      "timestamp": [
+        69.18,
+        75.74
+      ],
+      "text": " people believe is right and wrong and as someone who is part of the queer community sometimes"
+    },
+    {
+      "timestamp": [
+        75.74,
+        82.66
+      ],
+      "text": " people just believe things are immoral that other people choose to do that are completely benign"
+    },
+    {
+      "timestamp": [
+        82.66,
+        92.3
+      ],
+      "text": " however i still ranked institutional and moral above the primitivist utopia because i don't"
+    },
+    {
+      "timestamp": [
+        92.3,
+        98.5
+      ],
+      "text": " really want to live in a low-tech world i liked the small-scale community part of it but"
+    },
+    {
+      "timestamp": [
+        98.5,
+        103.96
+      ],
+      "text": " i wouldn't want to live in a world that's kind of moved away from technology"
+    },
+    {
+      "timestamp": [
+        103.96,
+        115.1
+      ],
+      "text": " um the last two were ai and religious i put ai above religious because the ai centered utopia"
+    },
+    {
+      "timestamp": [
+        115.1,
+        121.54
+      ],
+      "text": " at least is still using some data-based or evidence-based decision making even though i"
+    },
+    {
+      "timestamp": [
+        121.54,
+        128.82
+      ],
+      "text": " don't trust AI at all, and I hate AI because it constantly makes mistakes and is completely"
+    },
+    {
+      "timestamp": [
+        128.82,
+        142.52
+      ],
+      "text": " unreliable, it's still better to me than a religious-based society because I find that"
+    },
+    {
+      "timestamp": [
+        142.52,
+        151.52
+      ],
+      "text": " religions tend to be completely off-base and irrational and drive people to do irrational"
+    },
+    {
+      "timestamp": [
+        151.52,
+        158.86
+      ],
+      "text": " hateful things for no reason. And nothing in the religious utopia description sounded like"
+    },
+    {
+      "timestamp": [
+        158.86,
+        167.42
+      ],
+      "text": " they were caring about how resources were used or doing anything to divide resources"
+    },
+    {
+      "timestamp": [
+        167.42,
+        171.42
+      ],
+      "text": " or take care of society in a way that made sense at all."
+    }
+  ]
+}

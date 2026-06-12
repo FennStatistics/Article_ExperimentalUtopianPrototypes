@@ -1,0 +1,59 @@
+{
+  "audio_file": "6644a91c5e71bd18d4ae8c26_audio_ranking_explanation_1780235862083.webm",
+  "transcript": " I went with the modern green utopia first because I think sustainable and secure, that's something we're missing today that would solve a lot of problems that we have currently. I went with inner morality next because I think everyone doing the right thing on their own sounds great, but I'm not sure who's deciding what's moral. Different people kind of have different opinions about that, so that seems tricky. Okay, let me put me back a little bit, let's try again. Okay.",
+  "language": "unknown",
+  "processing_time_seconds": 10.021712,
+  "timestamp": "2026-06-08T08:36:08.593548",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.12
+      ],
+      "text": " I went with the modern green utopia first because I think sustainable and secure, that's"
+    },
+    {
+      "timestamp": [
+        6.12,
+        10.04
+      ],
+      "text": " something we're missing today that would solve a lot of problems that we have currently."
+    },
+    {
+      "timestamp": [
+        10.04,
+        15.56
+      ],
+      "text": " I went with inner morality next because I think everyone doing the right thing on their"
+    },
+    {
+      "timestamp": [
+        15.56,
+        20.1
+      ],
+      "text": " own sounds great, but I'm not sure who's deciding what's moral."
+    },
+    {
+      "timestamp": [
+        20.1,
+        24.64
+      ],
+      "text": " Different people kind of have different opinions about that, so that seems tricky."
+    },
+    {
+      "timestamp": [
+        30.0,
+        47.0
+      ],
+      "text": " Okay, let me put me back a little bit, let's try again."
+    },
+    {
+      "timestamp": [
+        47.0,
+        48.0
+      ],
+      "text": " Okay."
+    }
+  ]
+}

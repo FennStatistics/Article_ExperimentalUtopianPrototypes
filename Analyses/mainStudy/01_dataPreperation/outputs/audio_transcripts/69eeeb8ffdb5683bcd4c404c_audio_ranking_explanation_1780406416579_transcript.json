@@ -1,0 +1,59 @@
+{
+  "audio_file": "69eeeb8ffdb5683bcd4c404c_audio_ranking_explanation_1780406416579.webm",
+  "transcript": " I think their personal responsibility and general moral code and more communal thinking in that everybody needs to help out in society, as well as a mixture of scientific progress is probably most beneficial for society, rather than having imposed control from you know these like um um huge like you know overarching forces you know like a religious institution or authority or like an authoritarian sort of situation yeah i think uh i would very much go with the more sustainable and greener options and communal living options i think it just sounds like it would be a more peaceful way of living a more natural way of living and we're closer to nature, you know, and, um, sounds healthier in general.",
+  "language": "unknown",
+  "processing_time_seconds": 13.876107,
+  "timestamp": "2026-06-08T09:50:23.903599",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        21.06
+      ],
+      "text": " I think their personal responsibility and general moral code and more communal thinking in that everybody needs to help out in society, as well as a mixture of scientific progress is probably most beneficial for society,"
+    },
+    {
+      "timestamp": [
+        21.06,
+        31.06
+      ],
+      "text": " rather than having imposed control from you know these like um um huge like you know overarching"
+    },
+    {
+      "timestamp": [
+        31.06,
+        37.56
+      ],
+      "text": " forces you know like a religious institution or authority or like an authoritarian sort of"
+    },
+    {
+      "timestamp": [
+        37.56,
+        43.44
+      ],
+      "text": " situation yeah i think uh i would very much go with the more sustainable and greener options"
+    },
+    {
+      "timestamp": [
+        43.44,
+        49.96
+      ],
+      "text": " and communal living options i think it just sounds like it would be a more peaceful way of living a"
+    },
+    {
+      "timestamp": [
+        49.96,
+        54.68
+      ],
+      "text": " more natural way of living and we're closer to nature, you know, and, um,"
+    },
+    {
+      "timestamp": [
+        55.06,
+        56.68
+      ],
+      "text": " sounds healthier in general."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "audio_file": "69fba1d76bc977f982998a3a_audio_missing_utopia_1780380272295.webm",
+  "transcript": " um yeah i okay i agree with the majority of them however i want to see a future with a leader and i know that's hard but i want a good moral leader in one of these future societies that's guiding us and i feel like these type of societies are kind of lacking that but we need a guide and we need someone to tell like like we can learn our morals and we can learn what's good and bad but if we don't have someone that's ultimately being like the watcher the look the looker the observer i feel like we'd be a lost cause and i think that's what these societies kind of lacked i really wanted to see that in a type of future in the like if or a type of future society that i would want to live in um and i don't want someone that's corrupt i want someone that's like they care for their people and they want the betterment of their people.",
+  "language": "unknown",
+  "processing_time_seconds": 15.10962,
+  "timestamp": "2026-06-08T10:06:39.383617",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.28
+      ],
+      "text": " um yeah i okay i agree with the majority of them however i want to see a future"
+    },
+    {
+      "timestamp": [
+        7.28,
+        15.16
+      ],
+      "text": " with a leader and i know that's hard but i want a good moral leader in one of these future"
+    },
+    {
+      "timestamp": [
+        15.16,
+        19.46
+      ],
+      "text": " societies that's guiding us and i feel like these type of societies are kind of lacking"
+    },
+    {
+      "timestamp": [
+        19.46,
+        29.48
+      ],
+      "text": " that but we need a guide and we need someone to tell like like we can learn our morals and we can"
+    },
+    {
+      "timestamp": [
+        29.48,
+        35.36
+      ],
+      "text": " learn what's good and bad but if we don't have someone that's ultimately being like the watcher"
+    },
+    {
+      "timestamp": [
+        35.36,
+        41.24
+      ],
+      "text": " the look the looker the observer i feel like we'd be a lost cause and i think that's what these"
+    },
+    {
+      "timestamp": [
+        41.24,
+        48.16
+      ],
+      "text": " societies kind of lacked i really wanted to see that in a type of future in the like if or a type"
+    },
+    {
+      "timestamp": [
+        48.16,
+        53.98
+      ],
+      "text": " of future society that i would want to live in um and i don't want someone that's corrupt i want"
+    },
+    {
+      "timestamp": [
+        53.98,
+        63.34
+      ],
+      "text": " someone that's like they care for their people and they want the betterment of their people."
+    }
+  ]
+}

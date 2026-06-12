@@ -1,0 +1,52 @@
+{
+  "audio_file": "69f97c65d0bbaa97a2a0eee9_audio_ranking_explanation_1780439625864.webm",
+  "transcript": " so i believe that a society that is based around religious faith would be the best society if you look at america people would say america is the best country in the whole entire world it is based off christian values now i understand that things might be slightly changing but the core values and faith are christian and that's why america is the best society in the world and the best country in the world as far as the least preferred i believe that modern green utopias it's i understand the concept behind it but it's not something that would be the top priority just specifically for me",
+  "language": "unknown",
+  "processing_time_seconds": 11.262662,
+  "timestamp": "2026-06-08T10:02:31.970667",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.28
+      ],
+      "text": " so i believe that a society that is based around religious faith would be the best society if you"
+    },
+    {
+      "timestamp": [
+        7.28,
+        12.2
+      ],
+      "text": " look at america people would say america is the best country in the whole entire world it is based"
+    },
+    {
+      "timestamp": [
+        12.2,
+        17.76
+      ],
+      "text": " off christian values now i understand that things might be slightly changing but the core values and"
+    },
+    {
+      "timestamp": [
+        17.76,
+        23.96
+      ],
+      "text": " faith are christian and that's why america is the best society in the world and the best country in"
+    },
+    {
+      "timestamp": [
+        23.96,
+        31.44
+      ],
+      "text": " the world as far as the least preferred i believe that modern green utopias it's i understand the"
+    },
+    {
+      "timestamp": [
+        31.44,
+        36.92
+      ],
+      "text": " concept behind it but it's not something that would be the top priority just specifically for me"
+    }
+  ]
+}

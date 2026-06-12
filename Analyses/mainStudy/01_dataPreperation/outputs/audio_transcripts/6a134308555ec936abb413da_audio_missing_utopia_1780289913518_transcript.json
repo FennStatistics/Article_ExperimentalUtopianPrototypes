@@ -1,0 +1,17 @@
+{
+  "audio_file": "6a134308555ec936abb413da_audio_missing_utopia_1780289913518.webm",
+  "transcript": " I would say the only possible future that I can see missing is a combination of faith-based and high-tech or futuristic, you know, utopia, because they could definitely go hand-in-hand into the preservation and the, you know, they can definitely coexist to improve society.",
+  "language": "unknown",
+  "processing_time_seconds": 6.125524,
+  "timestamp": "2026-06-08T10:56:02.207096",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        28.74
+      ],
+      "text": " I would say the only possible future that I can see missing is a combination of faith-based and high-tech or futuristic, you know, utopia, because they could definitely go hand-in-hand into the preservation and the, you know, they can definitely coexist to improve society."
+    }
+  ]
+}

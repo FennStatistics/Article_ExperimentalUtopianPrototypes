@@ -1,0 +1,52 @@
+{
+  "audio_file": "69699d1a4c8aab1ce7a5f231_audio_ranking_explanation_1780414839015.webm",
+  "transcript": " I picked the religious utopia as the first most preferred one because religion gives you your morals. It allows you to know right from wrong. If everybody is that like-minded same religion, then we all have very similar morals and senses of right and wrong. so that's why that would be preferred the least would be ai centered because that one just freaks me out a little bit there's just a lot of unknown a lot of error so far with ai and i'm afraid that we would get into trouble if we had a society governed purely by that ai",
+  "language": "unknown",
+  "processing_time_seconds": 10.366488,
+  "timestamp": "2026-06-08T08:55:22.670587",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        11.02
+      ],
+      "text": " I picked the religious utopia as the first most preferred one because religion gives you your"
+    },
+    {
+      "timestamp": [
+        11.02,
+        20.3
+      ],
+      "text": " morals. It allows you to know right from wrong. If everybody is that like-minded same religion,"
+    },
+    {
+      "timestamp": [
+        20.3,
+        26.86
+      ],
+      "text": " then we all have very similar morals and senses of right and wrong."
+    },
+    {
+      "timestamp": [
+        27.84,
+        26.86
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        34.08,
+        41.38
+      ],
+      "text": " so that's why that would be preferred the least would be ai centered because that one just freaks me out a little bit there's just a lot of unknown a lot of error so far with ai and i'm afraid that"
+    },
+    {
+      "timestamp": [
+        41.38,
+        47.34
+      ],
+      "text": " we would get into trouble if we had a society governed purely by that ai"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a06233ac83a1d709b365e59_audio_missing_utopia_1780385889058.webm",
+  "transcript": " I guess my ideal future society would be one that was heavily like science-based, heavily like based on like just everyone getting along and we were using logic more than whatever our emotions or people or people are like they stopped being so involved with themselves. themselves to a point where it's like people are just really greedy and hoarding all of these resources for themselves i mean people can still like gain wealth and whatnot but i don't know one word that we're human humanity is working towards like advancing into like going to another planet or um et cetera et cetera",
+  "language": "unknown",
+  "processing_time_seconds": 10.245833,
+  "timestamp": "2026-06-08T10:28:54.384423",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        29.0
+      ],
+      "text": " I guess my ideal future society would be one that was heavily like science-based, heavily like based on like just everyone getting along and we were using logic more than whatever our emotions or people or people are like they stopped being so involved with themselves."
+    },
+    {
+      "timestamp": [
+        30.0,
+        34.78
+      ],
+      "text": " themselves to a point where it's like people are just really greedy and hoarding all of these"
+    },
+    {
+      "timestamp": [
+        34.78,
+        41.2
+      ],
+      "text": " resources for themselves i mean people can still like gain wealth and whatnot but i don't know one"
+    },
+    {
+      "timestamp": [
+        41.2,
+        47.96
+      ],
+      "text": " word that we're human humanity is working towards like advancing into like going to another planet"
+    },
+    {
+      "timestamp": [
+        47.96,
+        51.86
+      ],
+      "text": " or um et cetera et cetera"
+    }
+  ]
+}

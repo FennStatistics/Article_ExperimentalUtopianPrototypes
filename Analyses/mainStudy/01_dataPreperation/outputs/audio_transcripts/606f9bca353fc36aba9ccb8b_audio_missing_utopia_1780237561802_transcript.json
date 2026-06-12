@@ -1,0 +1,24 @@
+{
+  "audio_file": "606f9bca353fc36aba9ccb8b_audio_missing_utopia_1780237561802.webm",
+  "transcript": " Um, I think something that's missing is just like a, like a place where there's an elected, uh, government that runs everything. I didn't see any options like that.",
+  "language": "unknown",
+  "processing_time_seconds": 7.727826,
+  "timestamp": "2026-06-08T08:19:39.606265",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.96
+      ],
+      "text": " Um, I think something that's missing is just like a, like a place where there's an"
+    },
+    {
+      "timestamp": [
+        24.96,
+        33.18
+      ],
+      "text": " elected, uh, government that runs everything. I didn't see any options like that."
+    }
+  ]
+}

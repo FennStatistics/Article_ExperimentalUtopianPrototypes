@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a0122424f5dfae04edaa4b4_audio_ranking_explanation_1780406691561.webm",
+  "transcript": " So I decided to rank the societies this way, the most preferred being moral commonwealth, just because I feel like there's a real lack of morality in our society. And I feel like everything, especially in American government right now, is either influenced by money, ego, or religion. religion. And so that's why I put it as my least desired religious utopia, because I think that religion can be used to justify really heinous acts of violence towards humanity and animals and the earth. And I feel like that is like a dangerous way to run society. I think the modern green utopia would also be a great way um just to make sure it's sustainable and that we're using earth's resources in a way that respects earth um and doesn't take from it and doesn't contribute to climate change um and same with like the science and everything",
+  "language": "unknown",
+  "processing_time_seconds": 17.967247,
+  "timestamp": "2026-06-08T10:17:27.499214",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        17.42
+      ],
+      "text": " So I decided to rank the societies this way, the most preferred being moral commonwealth, just because I feel like there's a real lack of morality in our society."
+    },
+    {
+      "timestamp": [
+        17.42,
+        29.42
+      ],
+      "text": " And I feel like everything, especially in American government right now, is either influenced by money, ego, or religion."
+    },
+    {
+      "timestamp": [
+        29.42,
+        36.82
+      ],
+      "text": " religion. And so that's why I put it as my least desired religious utopia, because I think that"
+    },
+    {
+      "timestamp": [
+        36.82,
+        47.68
+      ],
+      "text": " religion can be used to justify really heinous acts of violence towards humanity and animals"
+    },
+    {
+      "timestamp": [
+        47.68,
+        57.0
+      ],
+      "text": " and the earth. And I feel like that is like a dangerous way to run society. I think the modern"
+    },
+    {
+      "timestamp": [
+        57.0,
+        62.36
+      ],
+      "text": " green utopia would also be a great way um just to make sure it's sustainable and that we're"
+    },
+    {
+      "timestamp": [
+        63.48,
+        72.04
+      ],
+      "text": " using earth's resources in a way that respects earth um and doesn't take from it and doesn't"
+    },
+    {
+      "timestamp": [
+        72.04,
+        85.0
+      ],
+      "text": " contribute to climate change um and same with like the science and everything"
+    }
+  ]
+}

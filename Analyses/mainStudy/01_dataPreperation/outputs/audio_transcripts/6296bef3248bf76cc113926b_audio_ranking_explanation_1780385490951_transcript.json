@@ -1,0 +1,73 @@
+{
+  "audio_file": "6296bef3248bf76cc113926b_audio_ranking_explanation_1780385490951.webm",
+  "transcript": " So, I basically sorted all of the societies kind of based on what I think would make sense in a long-term successful society, and I think that science and innovation are basically at the top of the list in terms of being able to stay innovative and keeping the degree of just staying up with the times and having new information that we can use to make life easier with research. And I also added having AI next to that, because it kind of falls in mind, and then having green energy, morality following that, having the rule of law, and then on the bottom, anything religious or primitive with low technology to me. It's just overall a waste of time, I would say.",
+  "language": "unknown",
+  "processing_time_seconds": 11.407352,
+  "timestamp": "2026-06-08T08:25:16.640727",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.68
+      ],
+      "text": " So, I basically sorted all of the societies kind of based on what I think would make sense"
+    },
+    {
+      "timestamp": [
+        7.68,
+        13.3
+      ],
+      "text": " in a long-term successful society, and I think that science and innovation are basically"
+    },
+    {
+      "timestamp": [
+        13.3,
+        20.5
+      ],
+      "text": " at the top of the list in terms of being able to stay innovative and keeping the degree"
+    },
+    {
+      "timestamp": [
+        20.5,
+        25.96
+      ],
+      "text": " of just staying up with the times and having new information that we can use to make life"
+    },
+    {
+      "timestamp": [
+        25.96,
+        27.98
+      ],
+      "text": " easier with research."
+    },
+    {
+      "timestamp": [
+        27.98,
+        34.38
+      ],
+      "text": " And I also added having AI next to that, because it kind of falls in mind, and then having"
+    },
+    {
+      "timestamp": [
+        34.38,
+        42.12
+      ],
+      "text": " green energy, morality following that, having the rule of law, and then on the bottom, anything"
+    },
+    {
+      "timestamp": [
+        42.12,
+        45.16
+      ],
+      "text": " religious or primitive with low technology to me."
+    },
+    {
+      "timestamp": [
+        45.92,
+        48.38
+      ],
+      "text": " It's just overall a waste of time, I would say."
+    }
+  ]
+}

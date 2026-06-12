@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a058f04b3b6ce4728fbb3a3_audio_missing_utopia_1780479456655.webm",
+  "transcript": " I feel that all seven societies focus heavily on one main principle, technology, AI, sustainability, law, morality, religion, or simplicity. but none fully balance all aspects of human life my missing future society will combine technological progress with human well-being freedom creativity and community what will matter most in this society is ensuring that innovation serves people rather than controlling them citizens have access to quality education health care economic opportunities and healthy environment while maintaining personal freedom and meaningful social connections decisions will be guided by both evidence and compassion ensuring that progress benefits everyone and not just a few groups",
+  "language": "unknown",
+  "processing_time_seconds": 12.871352,
+  "timestamp": "2026-06-08T10:28:01.825742",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        13.56
+      ],
+      "text": " I feel that all seven societies focus heavily on one main principle, technology, AI, sustainability, law, morality, religion, or simplicity."
+    },
+    {
+      "timestamp": [
+        13.56,
+        24.82
+      ],
+      "text": " but none fully balance all aspects of human life my missing future society will combine technological progress with human well-being freedom creativity and community"
+    },
+    {
+      "timestamp": [
+        24.82,
+        32.24
+      ],
+      "text": " what will matter most in this society is ensuring that innovation serves people rather than controlling them"
+    },
+    {
+      "timestamp": [
+        32.24,
+        43.52
+      ],
+      "text": " citizens have access to quality education health care economic opportunities and healthy environment while maintaining personal freedom and"
+    },
+    {
+      "timestamp": [
+        43.56,
+        56.34
+      ],
+      "text": " meaningful social connections decisions will be guided by both evidence and compassion ensuring that progress benefits everyone and not just a few groups"
+    }
+  ]
+}

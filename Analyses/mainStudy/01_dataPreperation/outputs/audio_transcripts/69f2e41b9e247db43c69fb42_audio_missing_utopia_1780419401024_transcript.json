@@ -1,0 +1,38 @@
+{
+  "audio_file": "69f2e41b9e247db43c69fb42_audio_missing_utopia_1780419401024.webm",
+  "transcript": " i'm not sure what an ideal society would be all of these societies like there's good to them and then there's bad to them um i feel like the religious one seems good um but then it's also like besides the point um i guess if i had to mix some more privatism utopia and like a religious utopia future society combination um could be the best but",
+  "language": "unknown",
+  "processing_time_seconds": 8.981316,
+  "timestamp": "2026-06-08T09:56:28.669985",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.3
+      ],
+      "text": " i'm not sure what an ideal society would be all of these societies like there's good to them and"
+    },
+    {
+      "timestamp": [
+        9.3,
+        19.42
+      ],
+      "text": " then there's bad to them um i feel like the religious one seems good um but then it's also"
+    },
+    {
+      "timestamp": [
+        19.42,
+        32.4
+      ],
+      "text": " like besides the point um i guess if i had to mix some more privatism utopia and like a religious"
+    },
+    {
+      "timestamp": [
+        32.4,
+        42.26
+      ],
+      "text": " utopia future society combination um could be the best but"
+    }
+  ]
+}

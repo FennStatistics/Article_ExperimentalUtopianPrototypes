@@ -1,0 +1,94 @@
+{
+  "audio_file": "6a0a337f18eb5d251e3fff02_audio_missing_utopia_1780404028446.webm",
+  "transcript": " I think that most of the important values were already represented, but I do say that there wasn't my perfect society from the options listed. I think the closest one that came to it was the modern green society or utopia that focused on sustainability. Um, but I think if I could take that and keep the, um, ability for people to kind of have a little bit of, um, choices and decisions in the sustainability measures that they take to help keep the society running, I think, um, I didn't, wasn't a fan of the just enough portion of it. I think that people should be able to live a little bit more than just the bare necessities in bare minimum beyond their needs. So if the rules can be a little bit lax on, you know, making sure everybody only has just enough and also maybe incorporating a little bit more slightly stricter governing laws just so that the society isn't a complete free-for-all and that there are rules to abide by, but that the primary focus still stays for sustainability measures.",
+  "language": "unknown",
+  "processing_time_seconds": 18.792811,
+  "timestamp": "2026-06-08T10:34:23.184973",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.24
+      ],
+      "text": " I think that most of the important values were already represented, but I do say that there wasn't my perfect society from the options listed."
+    },
+    {
+      "timestamp": [
+        9.24,
+        17.74
+      ],
+      "text": " I think the closest one that came to it was the modern green society or utopia that focused on sustainability."
+    },
+    {
+      "timestamp": [
+        19.62,
+        17.74
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        27.44,
+        33.8
+      ],
+      "text": " Um, but I think if I could take that and keep the, um, ability for people to kind of have a little bit of, um, choices and decisions in the sustainability measures that they take"
+    },
+    {
+      "timestamp": [
+        33.8,
+        39.72
+      ],
+      "text": " to help keep the society running, I think, um, I didn't, wasn't a fan of the just enough"
+    },
+    {
+      "timestamp": [
+        39.72,
+        40.62
+      ],
+      "text": " portion of it."
+    },
+    {
+      "timestamp": [
+        40.7,
+        46.08
+      ],
+      "text": " I think that people should be able to live a little bit more than just the bare necessities"
+    },
+    {
+      "timestamp": [
+        46.08,
+        48.5
+      ],
+      "text": " in bare minimum beyond their needs."
+    },
+    {
+      "timestamp": [
+        48.5,
+        55.84
+      ],
+      "text": " So if the rules can be a little bit lax on, you know, making sure everybody only has just"
+    },
+    {
+      "timestamp": [
+        55.84,
+        63.2
+      ],
+      "text": " enough and also maybe incorporating a little bit more slightly stricter governing laws"
+    },
+    {
+      "timestamp": [
+        63.2,
+        68.7
+      ],
+      "text": " just so that the society isn't a complete free-for-all and that there are rules to abide by, but"
+    },
+    {
+      "timestamp": [
+        68.7,
+        72.62
+      ],
+      "text": " that the primary focus still stays for sustainability measures."
+    }
+  ]
+}

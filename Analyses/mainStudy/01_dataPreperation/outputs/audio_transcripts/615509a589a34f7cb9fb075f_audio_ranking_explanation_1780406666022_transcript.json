@@ -1,0 +1,101 @@
+{
+  "audio_file": "615509a589a34f7cb9fb075f_audio_ranking_explanation_1780406666022.webm",
+  "transcript": " I feel like the best one would be the Futurist Utopia for Science and Innovation. It'd be always looking for ways to find new ways to help the society and do new things to help the innovation and stuff like that. The AI centered dystopian, the Utopia would be less opportunity to innovate and people would have less say so in what was going on.",
+  "language": "unknown",
+  "processing_time_seconds": 7.565559,
+  "timestamp": "2026-06-08T08:24:24.569341",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        2.4
+      ],
+      "text": " I feel like the best one would be"
+    },
+    {
+      "timestamp": [
+        2.4,
+        4.54
+      ],
+      "text": " the Futurist Utopia for Science"
+    },
+    {
+      "timestamp": [
+        4.54,
+        6.48
+      ],
+      "text": " and Innovation. It'd be always looking"
+    },
+    {
+      "timestamp": [
+        6.48,
+        8.58
+      ],
+      "text": " for ways to find new"
+    },
+    {
+      "timestamp": [
+        8.58,
+        10.06
+      ],
+      "text": " ways to help the society and"
+    },
+    {
+      "timestamp": [
+        10.06,
+        12.46
+      ],
+      "text": " do new things to help the"
+    },
+    {
+      "timestamp": [
+        12.46,
+        16.58
+      ],
+      "text": " innovation"
+    },
+    {
+      "timestamp": [
+        16.58,
+        18.36
+      ],
+      "text": " and stuff like that. The AI"
+    },
+    {
+      "timestamp": [
+        18.36,
+        20.52
+      ],
+      "text": " centered dystopian, the Utopia"
+    },
+    {
+      "timestamp": [
+        20.52,
+        21.16
+      ],
+      "text": " would be"
+    },
+    {
+      "timestamp": [
+        21.16,
+        24.22
+      ],
+      "text": " less opportunity to innovate"
+    },
+    {
+      "timestamp": [
+        24.22,
+        26.36
+      ],
+      "text": " and people would have less say so"
+    },
+    {
+      "timestamp": [
+        26.36,
+        28.02
+      ],
+      "text": " in what was going on."
+    }
+  ]
+}

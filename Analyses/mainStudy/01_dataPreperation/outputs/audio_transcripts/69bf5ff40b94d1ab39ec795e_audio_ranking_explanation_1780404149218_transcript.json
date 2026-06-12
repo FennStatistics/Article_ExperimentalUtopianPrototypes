@@ -1,0 +1,164 @@
+{
+  "audio_file": "69bf5ff40b94d1ab39ec795e_audio_ranking_explanation_1780404149218.webm",
+  "transcript": " okay so the reason that i ranked the orders this way for the first one i did rule of law i think that people really need laws to kind of for there to be order i think without that there would be chaos and people would really just be doing whatever they want and so that's why i placed the institutional utopia at number one after that i have the futurist utopia i think to me science and innovation is really important I think science is just fact and science is logic and I feel that we should follow that rather than subjective feelings um so it's really it's really stating facts and I think that's important that's a good thing to be guided by um after that I have low tech and small scale um I don't really have much of an opinion on this one in all honesty I think it is just the one that I would pick after having the one of science and innovation and number four I did AI centered utopia I don't love this one either but I did rank it as number four I think AI is a really dangerous thing I don't I think it just makes the population dumber in all honesty and I don't think it's something well there is logic it's like how credible is the logic in the data that's being provided so that's why I gave it number four number five I think there's a lot of different religions in the world so there's a lot of different beliefs and for that to be universal I just don't think that makes much sense and not everybody's religious too so I don't think that's something that would work then we have the modern green utopia I rated that number six I think in terms of like order and just order and lack of chaos in general I think this has nothing to do with it and while it would help the environment what else is it really helping so that's why i ranked it a six and then for the last one i did moral commonwealth i think a lot of people aren't so great deep down at heart and when it comes to it i don't know that people have the best morals so i feel like a lot of bad decisions would be made and a lot of consequences and i feel like that would really disrupt order and cause chaos",
+  "language": "unknown",
+  "processing_time_seconds": 30.900939,
+  "timestamp": "2026-06-08T09:20:35.253273",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.64
+      ],
+      "text": " okay so the reason that i ranked the orders this way for the first one i did rule of law"
+    },
+    {
+      "timestamp": [
+        6.64,
+        13.32
+      ],
+      "text": " i think that people really need laws to kind of for there to be order i think without that there"
+    },
+    {
+      "timestamp": [
+        13.32,
+        19.0
+      ],
+      "text": " would be chaos and people would really just be doing whatever they want and so that's why i"
+    },
+    {
+      "timestamp": [
+        19.0,
+        27.5
+      ],
+      "text": " placed the institutional utopia at number one after that i have the futurist utopia i think"
+    },
+    {
+      "timestamp": [
+        27.5,
+        33.88
+      ],
+      "text": " to me science and innovation is really important I think science is just fact and science is logic"
+    },
+    {
+      "timestamp": [
+        33.88,
+        41.9
+      ],
+      "text": " and I feel that we should follow that rather than subjective feelings um so it's really"
+    },
+    {
+      "timestamp": [
+        41.9,
+        46.84
+      ],
+      "text": " it's really stating facts and I think that's important that's a good thing to be guided by"
+    },
+    {
+      "timestamp": [
+        46.84,
+        58.58
+      ],
+      "text": " um after that I have low tech and small scale um I don't really have much of an opinion on this one"
+    },
+    {
+      "timestamp": [
+        58.58,
+        64.96
+      ],
+      "text": " in all honesty I think it is just the one that I would pick after having the one of science and"
+    },
+    {
+      "timestamp": [
+        64.96,
+        71.44
+      ],
+      "text": " innovation and number four I did AI centered utopia I don't love this one either but I did"
+    },
+    {
+      "timestamp": [
+        71.44,
+        77.02
+      ],
+      "text": " rank it as number four I think AI is a really dangerous thing I don't I think it just makes"
+    },
+    {
+      "timestamp": [
+        77.02,
+        83.64
+      ],
+      "text": " the population dumber in all honesty and I don't think it's something well there is logic it's like"
+    },
+    {
+      "timestamp": [
+        83.64,
+        91.5
+      ],
+      "text": " how credible is the logic in the data that's being provided so that's why I gave it number four"
+    },
+    {
+      "timestamp": [
+        91.5,
+        99.4
+      ],
+      "text": " number five I think there's a lot of different religions in the world so there's a lot of"
+    },
+    {
+      "timestamp": [
+        99.4,
+        104.3
+      ],
+      "text": " different beliefs and for that to be universal I just don't think that makes much sense and not"
+    },
+    {
+      "timestamp": [
+        104.3,
+        110.28
+      ],
+      "text": " everybody's religious too so I don't think that's something that would work then we have the modern"
+    },
+    {
+      "timestamp": [
+        110.28,
+        121.08
+      ],
+      "text": " green utopia I rated that number six I think in terms of like order and just order and lack of"
+    },
+    {
+      "timestamp": [
+        121.08,
+        127.18
+      ],
+      "text": " chaos in general I think this has nothing to do with it and while it would help the environment"
+    },
+    {
+      "timestamp": [
+        127.18,
+        133.48
+      ],
+      "text": " what else is it really helping so that's why i ranked it a six and then for the last one i did"
+    },
+    {
+      "timestamp": [
+        133.48,
+        139.28
+      ],
+      "text": " moral commonwealth i think a lot of people aren't so great deep down at heart and when it comes to"
+    },
+    {
+      "timestamp": [
+        139.28,
+        143.26
+      ],
+      "text": " it i don't know that people have the best morals so i feel like a lot of bad decisions would be"
+    },
+    {
+      "timestamp": [
+        143.26,
+        148.02
+      ],
+      "text": " made and a lot of consequences and i feel like that would really disrupt order and cause chaos"
+    }
+  ]
+}

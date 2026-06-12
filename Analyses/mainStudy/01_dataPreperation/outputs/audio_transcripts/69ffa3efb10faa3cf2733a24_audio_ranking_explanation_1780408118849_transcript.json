@@ -1,0 +1,115 @@
+{
+  "audio_file": "69ffa3efb10faa3cf2733a24_audio_ranking_explanation_1780408118849.webm",
+  "transcript": " I ranked the futuristic utopia first because I think it would make sense as science and innovation would be a good way to govern, or I guess rule things. I chose the rule of law next and then the modern green utopia. Next, as I think the green utopia would be. you a decent means of which is lower tech and small scale, I could see that playing out pretty fairly because I think people would kind of group together and not having to rely on technology as much sort of would push people to kind of get over their indifferences. I think, and work towards the better good of society. The faith-based wouldn't be bad either necessarily, but I put it lower on the list. The commonwealth and the intermorality, I'm not entirely sure. This one, I remember, was said to have the least amount of government regulation, I think, which I don't necessarily trust, I don't think people, or I just don't see that working necessarily in the AI-centered utopia just sounds very suspicious to me as AI is extremely I just see a lot of errors happening with that, that there are a lot of errors in AI today, and as a society driven by AI, just does not seem to make a lot of sense for me, and I could see a lot of problems happening with that.",
+  "language": "unknown",
+  "processing_time_seconds": 31.579597,
+  "timestamp": "2026-06-08T10:13:50.258984",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        24.22
+      ],
+      "text": " I ranked the futuristic utopia first because I think it would make sense as science and innovation would be a good way to govern, or I guess rule things."
+    },
+    {
+      "timestamp": [
+        30.0,
+        56.12
+      ],
+      "text": " I chose the rule of law next and then the modern green utopia."
+    },
+    {
+      "timestamp": [
+        60.0,
+        65.0
+      ],
+      "text": " Next, as I think the green utopia would be."
+    },
+    {
+      "timestamp": [
+        88.0,
+        65.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        67.0,
+        88.2
+      ],
+      "text": " you"
+    },
+    {
+      "timestamp": [
+        89.9,
+        95.0
+      ],
+      "text": " a decent means of"
+    },
+    {
+      "timestamp": [
+        124.98,
+        125.0
+      ],
+      "text": " which is lower tech and small scale, I could see that playing out pretty fairly because I think people would kind of group together and not having to rely on technology as much sort of would push people to kind of get over their indifferences."
+    },
+    {
+      "timestamp": [
+        135.0,
+        148.52
+      ],
+      "text": " I think, and work towards the better good of society. The faith-based wouldn't be bad either necessarily, but I put it lower on the list."
+    },
+    {
+      "timestamp": [
+        155.0,
+        167.08
+      ],
+      "text": " The commonwealth and the intermorality, I'm not entirely sure."
+    },
+    {
+      "timestamp": [
+        167.08,
+        178.32
+      ],
+      "text": " This one, I remember, was said to have the least amount of government regulation, I think,"
+    },
+    {
+      "timestamp": [
+        178.32,
+        195.32
+      ],
+      "text": " which I don't necessarily trust, I don't think people, or I just don't see that working"
+    },
+    {
+      "timestamp": [
+        195.32,
+        206.48
+      ],
+      "text": " necessarily in the AI-centered utopia just sounds very suspicious to me as AI is extremely"
+    },
+    {
+      "timestamp": [
+        206.48,
+        217.82
+      ],
+      "text": " I just see a lot of errors happening with that, that there are a lot of errors in AI"
+    },
+    {
+      "timestamp": [
+        217.82,
+        226.76
+      ],
+      "text": " today, and as a society driven by AI, just does not seem to make a lot of sense for me,"
+    },
+    {
+      "timestamp": [
+        226.76,
+        229.52
+      ],
+      "text": " and I could see a lot of problems happening with that."
+    }
+  ]
+}

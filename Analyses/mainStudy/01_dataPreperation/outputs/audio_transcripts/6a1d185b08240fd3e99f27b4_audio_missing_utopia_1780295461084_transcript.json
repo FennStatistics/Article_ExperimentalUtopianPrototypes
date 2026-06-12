@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a1d185b08240fd3e99f27b4_audio_missing_utopia_1780295461084.webm",
+  "transcript": " Um, one future society that I feel like was missing only because you asked, um, maybe a world where we had to rely on, this is, this may be a little weird, but we have to rely on the children. Because as they say, the children are the future. And maybe we should give them a chance to speak up on what they want to see their world turn into as adults. I think that matters most in my vision for the society that's coming up because it's ultimately going to be the world that they're going to be stuck with and living in. So if they can have some say in certain things and not be the leaders but they have more say I feel like that's missing in our society",
+  "language": "unknown",
+  "processing_time_seconds": 14.832176,
+  "timestamp": "2026-06-08T11:23:40.285711",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        12.66
+      ],
+      "text": " Um, one future society that I feel like was missing only because you asked, um, maybe"
+    },
+    {
+      "timestamp": [
+        12.66,
+        23.76
+      ],
+      "text": " a world where we had to rely on, this is, this may be a little weird, but we have to"
+    },
+    {
+      "timestamp": [
+        23.76,
+        31.98
+      ],
+      "text": " rely on the children. Because as they say, the children are the future. And maybe we should"
+    },
+    {
+      "timestamp": [
+        31.98,
+        37.62
+      ],
+      "text": " give them a chance to speak up on what they want to see their world turn into as adults."
+    },
+    {
+      "timestamp": [
+        38.9,
+        45.88
+      ],
+      "text": " I think that matters most in my vision for the society that's coming up because"
+    },
+    {
+      "timestamp": [
+        45.88,
+        53.08
+      ],
+      "text": " it's ultimately going to be the world that they're going to be stuck with and living in. So if they"
+    },
+    {
+      "timestamp": [
+        53.08,
+        62.14
+      ],
+      "text": " can have some say in certain things and not be the leaders but they have more"
+    },
+    {
+      "timestamp": [
+        62.14,
+        67.14
+      ],
+      "text": " say I feel like that's missing in our society"
+    }
+  ]
+}

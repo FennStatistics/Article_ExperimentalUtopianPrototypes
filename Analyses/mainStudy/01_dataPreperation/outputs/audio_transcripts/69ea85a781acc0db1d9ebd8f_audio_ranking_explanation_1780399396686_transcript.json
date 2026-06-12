@@ -1,0 +1,73 @@
+{
+  "audio_file": "69ea85a781acc0db1d9ebd8f_audio_ranking_explanation_1780399396686.webm",
+  "transcript": " so my favorite is going to be the science and innovation i already prefer that i think about that often i think that that's something that makes a lot of sense that we we have these people to study this stuff like it makes a lot of sense that you know giving them a higher authority to kind of give us some understanding over how we should even function this way makes a lot of sense but the ai-centered utopia why would why in the hell would we do that that's ridiculous these things that have no idea how we function exist that are data sets already data-driven sets that argue with themselves that's ridiculous that would be silly um everything in between kind of confuses me a little bit except for the green one and low-tech driven faith-based would would be horrifying um yeah no this was interesting",
+  "language": "unknown",
+  "processing_time_seconds": 14.307285,
+  "timestamp": "2026-06-08T09:45:56.525921",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.48
+      ],
+      "text": " so my favorite is going to be the science and innovation i already prefer that i think about"
+    },
+    {
+      "timestamp": [
+        6.48,
+        12.82
+      ],
+      "text": " that often i think that that's something that makes a lot of sense that we we have these people"
+    },
+    {
+      "timestamp": [
+        12.82,
+        19.2
+      ],
+      "text": " to study this stuff like it makes a lot of sense that you know giving them a higher authority to"
+    },
+    {
+      "timestamp": [
+        19.2,
+        26.04
+      ],
+      "text": " kind of give us some understanding over how we should even function this way makes a lot of sense"
+    },
+    {
+      "timestamp": [
+        26.04,
+        32.52
+      ],
+      "text": " but the ai-centered utopia why would why in the hell would we do that that's ridiculous"
+    },
+    {
+      "timestamp": [
+        33.32,
+        41.56
+      ],
+      "text": " these things that have no idea how we function exist that are data sets already data-driven sets"
+    },
+    {
+      "timestamp": [
+        41.56,
+        47.32
+      ],
+      "text": " that argue with themselves that's ridiculous that would be silly um everything in between"
+    },
+    {
+      "timestamp": [
+        47.32,
+        53.32
+      ],
+      "text": " kind of confuses me a little bit except for the green one and low-tech driven faith-based would"
+    },
+    {
+      "timestamp": [
+        53.32,
+        58.5
+      ],
+      "text": " would be horrifying um yeah no this was interesting"
+    }
+  ]
+}

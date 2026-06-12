@@ -1,0 +1,101 @@
+{
+  "audio_file": "69f49562a94a4da9c8520aa1_audio_ranking_explanation_1780393051583.webm",
+  "transcript": " so i choose the futurist utopian science and innovation society as my most preferred society because yeah being a futurist is what i describe myself as like we have to take the side to the future like we have to make new innovations invent new things like we have to use ai to the fullest like to the maximum so that is my best society so far then i ranked number two modern green utopia number three moral commonwealth number four institutional utopia number five ai centered utopia number six religious utopia and number seven is my worst previous utopia because it sounds like we are going back to the stone ages like when we didn't have machines we didn't have development so that is my least preferred society because it seems like we're going back to the past instead of progressing which is how human society is supposed to be like so my most preferred society is the future utopia because i feel like a lot of innovation can come about you can get rid of disease we can stop death can stop aging we can produce food for everyone we won't have poverty anymore so that sounds like the ideal the very ideal society the future utopia is my favorite and most preferred society so far",
+  "language": "unknown",
+  "processing_time_seconds": 19.097934,
+  "timestamp": "2026-06-08T09:57:54.405954",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.88,
+        8.32
+      ],
+      "text": " so i choose the futurist utopian science and innovation society as my most preferred society"
+    },
+    {
+      "timestamp": [
+        8.88,
+        16.0
+      ],
+      "text": " because yeah being a futurist is what i describe myself as like we have to take the side to the"
+    },
+    {
+      "timestamp": [
+        16.0,
+        23.6
+      ],
+      "text": " future like we have to make new innovations invent new things like we have to use ai to the fullest"
+    },
+    {
+      "timestamp": [
+        23.6,
+        32.72
+      ],
+      "text": " like to the maximum so that is my best society so far then i ranked number two modern green utopia"
+    },
+    {
+      "timestamp": [
+        32.72,
+        38.08
+      ],
+      "text": " number three moral commonwealth number four institutional utopia number five ai centered"
+    },
+    {
+      "timestamp": [
+        38.08,
+        44.08
+      ],
+      "text": " utopia number six religious utopia and number seven is my worst previous utopia because it"
+    },
+    {
+      "timestamp": [
+        44.08,
+        50.4
+      ],
+      "text": " sounds like we are going back to the stone ages like when we didn't have machines we didn't have"
+    },
+    {
+      "timestamp": [
+        50.4,
+        56.4
+      ],
+      "text": " development so that is my least preferred society because it seems like we're going back to the past"
+    },
+    {
+      "timestamp": [
+        56.4,
+        63.12
+      ],
+      "text": " instead of progressing which is how human society is supposed to be like so my most preferred society"
+    },
+    {
+      "timestamp": [
+        63.12,
+        68.0
+      ],
+      "text": " is the future utopia because i feel like a lot of innovation can come about you can get rid of"
+    },
+    {
+      "timestamp": [
+        68.0,
+        74.4
+      ],
+      "text": " disease we can stop death can stop aging we can produce food for everyone we won't have poverty"
+    },
+    {
+      "timestamp": [
+        74.4,
+        81.44
+      ],
+      "text": " anymore so that sounds like the ideal the very ideal society the future utopia is my"
+    },
+    {
+      "timestamp": [
+        81.44,
+        84.56
+      ],
+      "text": " favorite and most preferred society so far"
+    }
+  ]
+}

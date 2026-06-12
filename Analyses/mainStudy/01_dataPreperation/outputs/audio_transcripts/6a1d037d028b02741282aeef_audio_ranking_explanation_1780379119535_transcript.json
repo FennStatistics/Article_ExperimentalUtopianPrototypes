@@ -1,0 +1,101 @@
+{
+  "audio_file": "6a1d037d028b02741282aeef_audio_ranking_explanation_1780379119535.webm",
+  "transcript": " Okay, so I ranked the Modern Green Utopia first because I feel like it's more, it's the most future forward, it's practical and it's conserving of resources while also making sure that everyone gets what they need. um the primitivist utopia i rank second because i just think i would enjoy that um because there's less technology and you're not having to worry about a huge society and all the problems with different groups you just have your group um and it's low stakes and there's a big sense of community um moral commonwealth is third because i think it would be really cool but i'm not sure if it would be sustainable or realistic um institutional utopia rule of law i feel like that's kind of how america is right now and i mean it keeps people safe for the most part um but you lose a bit of autonomy um the futurist utopia is fifth because i didn't like that they continued to make new things even if it wasn't smart given the lack of resources um and i also think that at some point you gotta just chill a little bit um religious utopia i put sixth um because i'm not religious and i just think that blind faith it can be protective in some ways, but it's also naive. Then last I put the AI centered utopia because it takes humans completely out of the situation.",
+  "language": "unknown",
+  "processing_time_seconds": 22.645179,
+  "timestamp": "2026-06-08T11:23:02.615595",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        23.04
+      ],
+      "text": " Okay, so I ranked the Modern Green Utopia first because I feel like it's more, it's the most future forward, it's practical and it's conserving of resources while also making sure that everyone gets what they need."
+    },
+    {
+      "timestamp": [
+        24.6,
+        23.04
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.62,
+        38.18
+      ],
+      "text": " um the primitivist utopia i rank second because i just think i would enjoy that um because there's less technology and you're not having to worry about a huge society and"
+    },
+    {
+      "timestamp": [
+        38.18,
+        44.46
+      ],
+      "text": " all the problems with different groups you just have your group um and it's low stakes and there's"
+    },
+    {
+      "timestamp": [
+        44.46,
+        50.72
+      ],
+      "text": " a big sense of community um moral commonwealth is third because i think it would be really cool"
+    },
+    {
+      "timestamp": [
+        50.72,
+        58.32
+      ],
+      "text": " but i'm not sure if it would be sustainable or realistic um institutional utopia"
+    },
+    {
+      "timestamp": [
+        58.32,
+        64.88
+      ],
+      "text": " rule of law i feel like that's kind of how america is right now and i mean it keeps"
+    },
+    {
+      "timestamp": [
+        64.88,
+        74.94
+      ],
+      "text": " people safe for the most part um but you lose a bit of autonomy um the futurist utopia is fifth"
+    },
+    {
+      "timestamp": [
+        74.94,
+        84.94
+      ],
+      "text": " because i didn't like that they continued to make new things even if it wasn't smart given the lack"
+    },
+    {
+      "timestamp": [
+        84.94,
+        93.0
+      ],
+      "text": " of resources um and i also think that at some point you gotta just chill a little bit um religious"
+    },
+    {
+      "timestamp": [
+        93.0,
+        101.8
+      ],
+      "text": " utopia i put sixth um because i'm not religious and i just think that blind faith it can be"
+    },
+    {
+      "timestamp": [
+        101.8,
+        109.82
+      ],
+      "text": " protective in some ways, but it's also naive. Then last I put the AI centered utopia because"
+    },
+    {
+      "timestamp": [
+        109.82,
+        113.74
+      ],
+      "text": " it takes humans completely out of the situation."
+    }
+  ]
+}

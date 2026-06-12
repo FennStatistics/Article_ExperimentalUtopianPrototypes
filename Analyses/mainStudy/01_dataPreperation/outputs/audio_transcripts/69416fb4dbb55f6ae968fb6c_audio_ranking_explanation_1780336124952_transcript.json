@@ -1,0 +1,157 @@
+{
+  "audio_file": "69416fb4dbb55f6ae968fb6c_audio_ranking_explanation_1780336124952.webm",
+  "transcript": " So the reason that I ranked them the way that they were was just based on my preference. So starting with inner morality, just giving the people, I feel like this one would be the hardest for just people to genuinely care about one another and have that be the rule. But again, I feel that would be the hardest to achieve, but yet bring about the greatest results. Faith-based, a second. Obviously, I'm biased. I am a religious person, but I guess I truly feel that if the principles of my faith were put into practice, that the world could benefit from them. Low-tech. I'm not the most tech-savvy norm. Am I the one to really seek after new technology? But yeah, so just living in a society that didn't utilize tech as much. The institution of law, having concrete laws to kind of guide us in everyday life, I find good. of science, futuristic, futuristic utopia. I, um, despite my, my, what is the word, despite my, not a willingness, but the fact that I'm just very uninformed with, with technology and just the advancements that we are like i do see the importance so for that reason i do see value in having a science um well science and innovation and modern green utopia sustainable i it's just not appealing to me really and then ai centered utopia just a data driven no That, to me, is the least preferred. And the reason is I just feel as AI progresses, just the need or the usefulness of humans, of mankind, decreases.",
+  "language": "unknown",
+  "processing_time_seconds": 27.970152,
+  "timestamp": "2026-06-08T08:49:08.047170",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        8.52
+      ],
+      "text": " So the reason that I ranked them the way that they were was just based on my preference."
+    },
+    {
+      "timestamp": [
+        8.64,
+        23.04
+      ],
+      "text": " So starting with inner morality, just giving the people, I feel like this one would be the hardest for just people to genuinely care about one another and have that be the rule."
+    },
+    {
+      "timestamp": [
+        23.22,
+        23.04
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.52,
+        30.68
+      ],
+      "text": " But again, I feel that would be the hardest to achieve, but yet bring about the greatest results."
+    },
+    {
+      "timestamp": [
+        31.72,
+        32.8
+      ],
+      "text": " Faith-based, a second."
+    },
+    {
+      "timestamp": [
+        33.78,
+        33.92
+      ],
+      "text": " Obviously, I'm biased."
+    },
+    {
+      "timestamp": [
+        42.08,
+        42.3
+      ],
+      "text": " I am a religious person, but I guess I truly feel that if the principles of my faith were put into practice,"
+    },
+    {
+      "timestamp": [
+        46.92,
+        48.98
+      ],
+      "text": " that the world could benefit from them."
+    },
+    {
+      "timestamp": [
+        49.8,
+        51.26
+      ],
+      "text": " Low-tech."
+    },
+    {
+      "timestamp": [
+        53.0,
+        53.04
+      ],
+      "text": " I'm not the most tech-savvy norm."
+    },
+    {
+      "timestamp": [
+        58.58,
+        63.04
+      ],
+      "text": " Am I the one to really seek after new technology?"
+    },
+    {
+      "timestamp": [
+        68.28,
+        69.06
+      ],
+      "text": " But yeah, so just living in a society that didn't utilize tech as much."
+    },
+    {
+      "timestamp": [
+        80.66,
+        81.6
+      ],
+      "text": " The institution of law, having concrete laws to kind of guide us in everyday life, I find good."
+    },
+    {
+      "timestamp": [
+        80.66,
+        84.5
+      ],
+      "text": " of science, futuristic, futuristic utopia."
+    },
+    {
+      "timestamp": [
+        87.78,
+        102.4
+      ],
+      "text": " I, um, despite my, my, what is the word, despite my, not a willingness, but the fact"
+    },
+    {
+      "timestamp": [
+        102.4,
+        106.5
+      ],
+      "text": " that I'm just very uninformed with, with technology and just the advancements that"
+    },
+    {
+      "timestamp": [
+        106.5,
+        114.96
+      ],
+      "text": " we are like i do see the importance so for that reason i do see value in having a science"
+    },
+    {
+      "timestamp": [
+        114.96,
+        120.94
+      ],
+      "text": " um well science and innovation and modern green utopia sustainable i"
+    },
+    {
+      "timestamp": [
+        120.94,
+        130.36
+      ],
+      "text": " it's just not appealing to me really and then ai centered utopia just a data driven no"
+    },
+    {
+      "timestamp": [
+        130.36,
+        136.08
+      ],
+      "text": " That, to me, is the least preferred."
+    },
+    {
+      "timestamp": [
+        136.38,
+        145.62
+      ],
+      "text": " And the reason is I just feel as AI progresses, just the need or the usefulness of humans, of mankind, decreases."
+    }
+  ]
+}

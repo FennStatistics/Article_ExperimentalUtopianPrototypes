@@ -1,0 +1,206 @@
+{
+  "audio_file": "698a276f955516bd3c07b19d_audio_ranking_explanation_1780380361343.webm",
+  "transcript": " okay so i chose futurist utopia as my first pick because i just believe that being able to innovate and being able to create and develop new things for society is really important and innovation is the only way that we can count on our own survival so i feel like science innovation trumps everything else. Right afterwards, I chose modern green utopia. I figured that's green energy and sustainability. Looking at the environment, I feel like that's a form of science and innovation. It's a sector of it. So that came in close second. Third was institutional utopia. I feel like that's almost close to what we have, just in the sense of the laws. And it's not perfect because laws aren't perfect and not everything is black and white. So you definitely need people and having positions of power to be able to determine certain situations that laws cannot. So that's why I didn't rank it any higher. But I think that laws are necessary to keep people in shape and to keep people on their best behavior. And this will go into number four which is moral commonwealth um it would be nice if everyone could be morally righteous but unfortunately that's not how people are so it's rated number four because although intermorality would be a great compassionate way for human survival people aren't exactly looking at the best interests of others at all times so that's why it's ranked number four afterwards i have primitive uh primitivist utopia it's the low tech and small scale utopia um i just believe that this wouldn't last very long um being able to do community-wide things would be impossible just having a very primitive society i just don't think would be very beneficial um in the long run i don't think it'd be able to thrive and grow um as a society afterwards i have religious utopia i feel like depending on whatever person is in power could make or break the uh society so religion doesn't really play a part in it It's way too subjective and can easily lead to corruption. And then it goes into number seven, AI-centered utopia. I just feel like humans should be involved yet again, just like institutional utopia. This is a similar vein. People should be involved when it comes to governance. in my opinion. So a data-driven governance is way too black and white and there's no nuance there. So that's why it's my last pick.",
+  "language": "unknown",
+  "processing_time_seconds": 37.208099,
+  "timestamp": "2026-06-08T09:01:27.709599",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        14.78
+      ],
+      "text": " okay so i chose futurist utopia as my first pick because i just believe that being able to innovate"
+    },
+    {
+      "timestamp": [
+        14.78,
+        20.08
+      ],
+      "text": " and being able to create and develop new things for society is really important and innovation"
+    },
+    {
+      "timestamp": [
+        20.08,
+        26.54
+      ],
+      "text": " is the only way that we can count on our own survival so i feel like science innovation"
+    },
+    {
+      "timestamp": [
+        26.54,
+        31.9
+      ],
+      "text": " trumps everything else. Right afterwards, I chose modern green utopia. I figured that's"
+    },
+    {
+      "timestamp": [
+        31.9,
+        37.28
+      ],
+      "text": " green energy and sustainability. Looking at the environment, I feel like that's a form of science"
+    },
+    {
+      "timestamp": [
+        37.28,
+        43.26
+      ],
+      "text": " and innovation. It's a sector of it. So that came in close second. Third was institutional utopia."
+    },
+    {
+      "timestamp": [
+        43.26,
+        50.94
+      ],
+      "text": " I feel like that's almost close to what we have, just in the sense of the laws. And"
+    },
+    {
+      "timestamp": [
+        50.94,
+        59.0
+      ],
+      "text": " it's not perfect because laws aren't perfect and not everything is black and white. So you"
+    },
+    {
+      "timestamp": [
+        59.0,
+        66.48
+      ],
+      "text": " definitely need people and having positions of power to be able to determine certain situations"
+    },
+    {
+      "timestamp": [
+        66.48,
+        73.28
+      ],
+      "text": " that laws cannot. So that's why I didn't rank it any higher. But I think that laws are necessary"
+    },
+    {
+      "timestamp": [
+        73.28,
+        80.1
+      ],
+      "text": " to keep people in shape and to keep people on their best behavior. And this will go into number"
+    },
+    {
+      "timestamp": [
+        80.1,
+        87.94
+      ],
+      "text": " four which is moral commonwealth um it would be nice if everyone could be morally righteous but"
+    },
+    {
+      "timestamp": [
+        87.94,
+        97.86
+      ],
+      "text": " unfortunately that's not how people are so it's rated number four because although"
+    },
+    {
+      "timestamp": [
+        97.86,
+        104.88
+      ],
+      "text": " intermorality would be a great compassionate way for human survival"
+    },
+    {
+      "timestamp": [
+        106.98,
+        104.88
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        112.18,
+        119.52
+      ],
+      "text": " people aren't exactly looking at the best interests of others at all times so that's why it's ranked number four afterwards i have primitive uh primitivist utopia it's the low"
+    },
+    {
+      "timestamp": [
+        119.52,
+        126.92
+      ],
+      "text": " tech and small scale utopia um i just believe that this wouldn't last very long um being able"
+    },
+    {
+      "timestamp": [
+        126.92,
+        133.76
+      ],
+      "text": " to do community-wide things would be impossible just having a very primitive society i just don't"
+    },
+    {
+      "timestamp": [
+        133.76,
+        138.68
+      ],
+      "text": " think would be very beneficial um in the long run i don't think it'd be able to thrive and grow"
+    },
+    {
+      "timestamp": [
+        138.68,
+        145.28
+      ],
+      "text": " um as a society afterwards i have religious utopia i feel like depending on whatever person"
+    },
+    {
+      "timestamp": [
+        145.28,
+        152.48
+      ],
+      "text": " is in power could make or break the uh society so religion doesn't really play a part in it"
+    },
+    {
+      "timestamp": [
+        152.48,
+        162.4
+      ],
+      "text": " It's way too subjective and can easily lead to corruption."
+    },
+    {
+      "timestamp": [
+        163.4,
+        169.24
+      ],
+      "text": " And then it goes into number seven, AI-centered utopia."
+    },
+    {
+      "timestamp": [
+        169.42,
+        175.14
+      ],
+      "text": " I just feel like humans should be involved yet again, just like institutional utopia."
+    },
+    {
+      "timestamp": [
+        175.42,
+        176.54
+      ],
+      "text": " This is a similar vein."
+    },
+    {
+      "timestamp": [
+        177.06,
+        182.14
+      ],
+      "text": " People should be involved when it comes to governance."
+    },
+    {
+      "timestamp": [
+        182.48,
+        188.5
+      ],
+      "text": " in my opinion. So a data-driven governance is way too black and white and there's no"
+    },
+    {
+      "timestamp": [
+        188.5,
+        190.82
+      ],
+      "text": " nuance there. So that's why it's my last pick."
+    }
+  ]
+}

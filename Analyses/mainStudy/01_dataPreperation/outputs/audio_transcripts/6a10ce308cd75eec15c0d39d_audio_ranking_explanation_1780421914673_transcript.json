@@ -1,0 +1,66 @@
+{
+  "audio_file": "6a10ce308cd75eec15c0d39d_audio_ranking_explanation_1780421914673.webm",
+  "transcript": " So the reason why I ranked this the way it is, I think technology has done a lot of good but it's also done a lot of bad and I think if we somehow can revert back to just low tech and just have a smaller scale of what that is, I think that would just be for the greater good of humanity. Two, I ranked Religious Utopia second because I'm big in faith and I believe that Jesus is Lord and that He's died on the cross to save us and that through Him we can get eternal life. So that's just a big part of my life. But jumping down to six and seven, I think the AI-centered utopia was a little bit too much. I think AI has done a lot of good, but to have it make the decisions for us, I think we lose a lot of our free will in doing that.",
+  "language": "unknown",
+  "processing_time_seconds": 15.365196,
+  "timestamp": "2026-06-08T10:53:40.213579",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        25.0
+      ],
+      "text": " So the reason why I ranked this the way it is, I think technology has done a lot of good but it's also done a lot of bad and I think if we somehow can revert back to just low tech and just have a smaller scale of what that is, I think that would just be for the greater good of humanity."
+    },
+    {
+      "timestamp": [
+        26.0,
+        25.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        41.0,
+        42.1
+      ],
+      "text": " Two, I ranked Religious Utopia second because I'm big in faith and I believe that Jesus is Lord and that He's died on the cross to save us and that through Him we can get eternal life."
+    },
+    {
+      "timestamp": [
+        41.0,
+        45.76
+      ],
+      "text": " So that's just a big part of my life."
+    },
+    {
+      "timestamp": [
+        45.76,
+        55.08
+      ],
+      "text": " But jumping down to six and seven, I think the AI-centered utopia was a little bit too"
+    },
+    {
+      "timestamp": [
+        55.08,
+        56.08
+      ],
+      "text": " much."
+    },
+    {
+      "timestamp": [
+        56.08,
+        62.24
+      ],
+      "text": " I think AI has done a lot of good, but to have it make the decisions for us, I think"
+    },
+    {
+      "timestamp": [
+        62.24,
+        67.52
+      ],
+      "text": " we lose a lot of our free will in doing that."
+    }
+  ]
+}

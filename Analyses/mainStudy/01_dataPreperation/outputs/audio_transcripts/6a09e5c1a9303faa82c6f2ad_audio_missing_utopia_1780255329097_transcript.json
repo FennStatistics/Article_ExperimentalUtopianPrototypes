@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a09e5c1a9303faa82c6f2ad_audio_missing_utopia_1780255329097.webm",
+  "transcript": " I like the idea of AI to help us develop further, but I don't like the fact that it could potentially take over some jobs or people's daily lifestyles. I like living off of the land as well. I also like the idea of a moral compass, but having laws as well. So I think the world we live in now, although there are a lot of bad things that go on, I think that it is headed in the right direction. We just the biggest thing is a division between everybody",
+  "language": "unknown",
+  "processing_time_seconds": 10.028547,
+  "timestamp": "2026-06-08T10:32:31.501681",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        9.04
+      ],
+      "text": " I like the idea of AI to help us develop further, but I don't like the fact that it could potentially"
+    },
+    {
+      "timestamp": [
+        10.4,
+        18.0
+      ],
+      "text": " take over some jobs or people's daily lifestyles. I like living off of the land as well. I also"
+    },
+    {
+      "timestamp": [
+        18.0,
+        23.76
+      ],
+      "text": " like the idea of a moral compass, but having laws as well. So I think the world we live in now,"
+    },
+    {
+      "timestamp": [
+        23.76,
+        29.68
+      ],
+      "text": " although there are a lot of bad things that go on, I think that it is headed in the right direction."
+    },
+    {
+      "timestamp": [
+        30.0,
+        33.04
+      ],
+      "text": " We just the biggest thing is a division between everybody"
+    }
+  ]
+}

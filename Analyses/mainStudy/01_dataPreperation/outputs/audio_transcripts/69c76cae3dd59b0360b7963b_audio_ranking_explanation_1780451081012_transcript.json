@@ -1,0 +1,129 @@
+{
+  "audio_file": "69c76cae3dd59b0360b7963b_audio_ranking_explanation_1780451081012.webm",
+  "transcript": " All right, I think these societies are where I did because the most obvious to me was the Futurist Ethiopia, but it runs on science and communication, all because most of science is repeatable, easy to verify and can be tested. So we can test what's most beneficial for society in a lot of places. Some things cannot be quantified, like we don't know where the universe came from, we don't know where time came from, all those things. But I think it can serve as a generally as a god. The second one is that not in being utopia. I think a a society that's conscious about the environment also benefits itself by not over consuming or and limiting harmful practices that might damage the environment and usually things that damage And then I think for third I put the institutional utopia because I think setting a clear set of rules is a really good way to guide the society so that everybody knows what not to do. The question in that is who sets the ears, and then the AI is going to be said here, it sounds like a good concept, but you have to make sure that the AI is fair and handles things the right way, which is very hard to do because who decides? AI is always made by a person, so that person will always have some influence on what the AI prioritizes. And then I put the third clip from the universe, utopia, low tech and small scale. I put that fifth because it just seemed better than the last two religions, utopia. I don't think that's a good idea because we can't at least ask me what religion we base society on, and even though I'm a man of faith myself, it's not fair to anybody to base society on religion. when none of us can agree, just like with the moral commonwealth, the seventh one, and the morality. I think that leads to chaos because then it becomes a hearsay about what I think is right versus what you think is right, and there's no structure.",
+  "language": "unknown",
+  "processing_time_seconds": 34.698245,
+  "timestamp": "2026-06-08T09:26:36.437485",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        7.0
+      ],
+      "text": " All right, I think these societies are where I did because the most obvious to me was the"
+    },
+    {
+      "timestamp": [
+        7.0,
+        15.0
+      ],
+      "text": " Futurist Ethiopia, but it runs on science and communication, all because most of science"
+    },
+    {
+      "timestamp": [
+        15.0,
+        25.0
+      ],
+      "text": " is repeatable, easy to verify and can be tested. So we can test what's most beneficial for"
+    },
+    {
+      "timestamp": [
+        25.0,
+        32.0
+      ],
+      "text": " society in a lot of places. Some things cannot be quantified, like we don't know where the"
+    },
+    {
+      "timestamp": [
+        32.0,
+        41.0
+      ],
+      "text": " universe came from, we don't know where time came from, all those things. But I think it"
+    },
+    {
+      "timestamp": [
+        41.0,
+        52.0
+      ],
+      "text": " can serve as a generally as a god. The second one is that not in being utopia. I think a"
+    },
+    {
+      "timestamp": [
+        52.0,
+        62.56
+      ],
+      "text": " a society that's conscious about the environment also benefits itself by not over consuming or"
+    },
+    {
+      "timestamp": [
+        63.6,
+        73.84
+      ],
+      "text": " and limiting harmful practices that might damage the environment and usually things that damage"
+    },
+    {
+      "timestamp": [
+        73.84,
+        93.84
+      ],
+      "text": " And then I think for third I put the institutional utopia because I think setting a clear set of rules is a really good way to guide the society so that everybody knows what not to do."
+    },
+    {
+      "timestamp": [
+        93.84,
+        115.58
+      ],
+      "text": " The question in that is who sets the ears, and then the AI is going to be said here, it sounds like a good concept, but you have to make sure that the AI is fair and handles things the right way, which is very hard to do because who decides?"
+    },
+    {
+      "timestamp": [
+        115.58,
+        125.58
+      ],
+      "text": " AI is always made by a person, so that person will always have some influence on what the AI prioritizes."
+    },
+    {
+      "timestamp": [
+        125.58,
+        135.58
+      ],
+      "text": " And then I put the third clip from the universe, utopia, low tech and small scale."
+    },
+    {
+      "timestamp": [
+        135.58,
+        141.58
+      ],
+      "text": " I put that fifth because it just seemed better than the last two religions, utopia."
+    },
+    {
+      "timestamp": [
+        141.58,
+        162.08
+      ],
+      "text": " I don't think that's a good idea because we can't at least ask me what religion we base society on, and even though I'm a man of faith myself, it's not fair to anybody to base society on religion."
+    },
+    {
+      "timestamp": [
+        162.08,
+        174.08
+      ],
+      "text": " when none of us can agree, just like with the moral commonwealth, the seventh one, and the morality."
+    },
+    {
+      "timestamp": [
+        174.08,
+        182.08
+      ],
+      "text": " I think that leads to chaos because then it becomes a hearsay about what I think is right"
+    },
+    {
+      "timestamp": [
+        182.08,
+        187.08
+      ],
+      "text": " versus what you think is right, and there's no structure."
+    }
+  ]
+}

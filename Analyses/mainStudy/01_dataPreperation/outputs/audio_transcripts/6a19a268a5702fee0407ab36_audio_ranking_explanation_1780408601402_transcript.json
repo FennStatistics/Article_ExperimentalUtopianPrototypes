@@ -1,0 +1,45 @@
+{
+  "audio_file": "6a19a268a5702fee0407ab36_audio_ranking_explanation_1780408601402.webm",
+  "transcript": " I think rule of law is the best utopia because without laws, I think people will be inclined to do whatever they want in a sense. They don't really care about justice and whatever they deem is right, they will see right. But with rule of law, there is law telling you what is right and what is wrong. I think data-driven is the least preferred because everything is based off analytics and data, and sometimes those things can be wrong or mistaken, depending on who is looking at it and how they interpret it. So I think that data-driven is least preferred because everything is based off of pre-factual things and not actual fact.",
+  "language": "unknown",
+  "processing_time_seconds": 13.493194,
+  "timestamp": "2026-06-08T11:12:10.052862",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        15.56
+      ],
+      "text": " I think rule of law is the best utopia because without laws, I think people will be inclined to do whatever they want in a sense."
+    },
+    {
+      "timestamp": [
+        15.56,
+        25.84
+      ],
+      "text": " They don't really care about justice and whatever they deem is right, they will see right."
+    },
+    {
+      "timestamp": [
+        26.36,
+        29.98
+      ],
+      "text": " But with rule of law, there is law telling you what is right and what is wrong."
+    },
+    {
+      "timestamp": [
+        30.0,
+        52.66
+      ],
+      "text": " I think data-driven is the least preferred because everything is based off analytics and data, and sometimes those things can be wrong or mistaken, depending on who is looking at it and how they interpret it."
+    },
+    {
+      "timestamp": [
+        52.66,
+        70.44
+      ],
+      "text": " So I think that data-driven is least preferred because everything is based off of pre-factual things and not actual fact."
+    }
+  ]
+}

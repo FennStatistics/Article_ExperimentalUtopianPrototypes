@@ -1,0 +1,108 @@
+{
+  "audio_file": "6a05ba89c966c0fa42d112d6_audio_ranking_explanation_1780398920251.webm",
+  "transcript": " So I ranked Modern Green Utopia as the highest because it just seems like the best for our living environment and the earth and everyone's resources that will be available from the present time into the future. it just seems like the best long-term solution um the low-tech and small-scale utopia i feel like that's something that was done you know like hundreds of years ago and people still do it to this day it's a very simple way of living but also very sustainable um futurist utopia i don't know it sounds cool like just living based off of like research and knowing what the earth needs what humans really need moral commonwealth um it sounds nice it's not really realistic because not everyone has the same morals the rule of law i feel like that's it's, you know, it's pretty straightforward, but not like the most, because like who determines the law? And, you know, if you don't agree with that law, then you're screwed. Religious utopia, same with that. It's like, yes, we could be faith-based and that's great, but not everybody believes in that. So it's not really fair to people who don't share the same beliefs. And the AI center, it sounds terrifying. And also who is determining what the AI, you know, determines is right or wrong? Like who sets up the framework and, you know, like I know the AI is not supposed to be biased, but there's someone has to, you know, create the, I don't know, I don't know the right word. They have to create the beliefs that the AI has. Can't just have it on its own.",
+  "language": "unknown",
+  "processing_time_seconds": 27.988626,
+  "timestamp": "2026-06-08T10:28:44.076051",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        20.68
+      ],
+      "text": " So I ranked Modern Green Utopia as the highest because it just seems like the best for our living environment and the earth and everyone's resources that will be available from the present time into the future."
+    },
+    {
+      "timestamp": [
+        20.68,
+        29.56
+      ],
+      "text": " it just seems like the best long-term solution um the low-tech and small-scale utopia i feel like"
+    },
+    {
+      "timestamp": [
+        29.56,
+        36.1
+      ],
+      "text": " that's something that was done you know like hundreds of years ago and people still do it"
+    },
+    {
+      "timestamp": [
+        36.1,
+        43.46
+      ],
+      "text": " to this day it's a very simple way of living but also very sustainable um futurist utopia"
+    },
+    {
+      "timestamp": [
+        43.46,
+        53.46
+      ],
+      "text": " i don't know it sounds cool like just living based off of like research and knowing what"
+    },
+    {
+      "timestamp": [
+        53.46,
+        62.52
+      ],
+      "text": " the earth needs what humans really need moral commonwealth um it sounds nice it's not really"
+    },
+    {
+      "timestamp": [
+        62.52,
+        67.58
+      ],
+      "text": " realistic because not everyone has the same morals the rule of law i feel like that's"
+    },
+    {
+      "timestamp": [
+        68.58,
+        67.58
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        75.46,
+        83.74
+      ],
+      "text": " it's, you know, it's pretty straightforward, but not like the most, because like who determines the law? And, you know, if you don't agree with that law, then you're screwed. Religious utopia,"
+    },
+    {
+      "timestamp": [
+        83.92,
+        89.08
+      ],
+      "text": " same with that. It's like, yes, we could be faith-based and that's great, but not everybody"
+    },
+    {
+      "timestamp": [
+        89.08,
+        94.38
+      ],
+      "text": " believes in that. So it's not really fair to people who don't share the same beliefs."
+    },
+    {
+      "timestamp": [
+        95.34,
+        94.38
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        121.88,
+        126.44
+      ],
+      "text": " And the AI center, it sounds terrifying. And also who is determining what the AI, you know, determines is right or wrong? Like who sets up the framework and, you know, like I know the AI is not supposed to be biased, but there's someone has to, you know, create the, I don't know, I don't know the right word. They have to create the beliefs that the AI has."
+    },
+    {
+      "timestamp": [
+        127.04,
+        128.34
+      ],
+      "text": " Can't just have it on its own."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "audio_file": "69ed0e642867961fbd1ac973_audio_missing_utopia_1780411091941.webm",
+  "transcript": " I think all of these future societies were missing pieces of one another, so if we could have sort of a melting pot of all seven of these societies, that would be great because none of these tenets are infallible.",
+  "language": "unknown",
+  "processing_time_seconds": 5.936167,
+  "timestamp": "2026-06-08T09:47:10.275613",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        9.54
+      ],
+      "text": " I think all of these future societies were missing pieces of one another, so if we could"
+    },
+    {
+      "timestamp": [
+        9.54,
+        15.82
+      ],
+      "text": " have sort of a melting pot of all seven of these societies, that would be great because"
+    },
+    {
+      "timestamp": [
+        15.82,
+        20.24
+      ],
+      "text": " none of these tenets are infallible."
+    }
+  ]
+}

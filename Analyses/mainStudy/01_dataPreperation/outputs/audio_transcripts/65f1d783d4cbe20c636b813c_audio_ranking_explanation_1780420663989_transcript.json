@@ -1,0 +1,17 @@
+{
+  "audio_file": "65f1d783d4cbe20c636b813c_audio_ranking_explanation_1780420663989.webm",
+  "transcript": " I'd rather have science and everything associated with it than anything else.",
+  "language": "unknown",
+  "processing_time_seconds": 4.689205,
+  "timestamp": "2026-06-08T08:33:03.133030",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.66
+      ],
+      "text": " I'd rather have science and everything associated with it than anything else."
+    }
+  ]
+}

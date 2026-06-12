@@ -1,0 +1,150 @@
+{
+  "audio_file": "69ef36098cf562a8a5b1251f_audio_ranking_explanation_1780431094952.webm",
+  "transcript": " For my first choice, I chose a modern green utopia, sustainable and secure. I like the idea of something being secure, as the world can be very dangerous where we are today. Most societies give up on green utopia, such as trees, rivers. i chose moral commonwealth intermorality the second choice because i think morality is a very important thing for human society a futurist utopia is what i chose for my third choice science and innovation i think science is very innovative and it helps humans in ways that in more ways that we don't understand, but it's also really beneficial for us to understand it. For my fourth choice, I chose an AI-centered utopia. I guess the idea of AI isn't as scary as I would think. I do like technology, and I do like using assistive technology. It's just easier. For my fifth choice, I chose a primalist utopia, low-tech and small-scale. As much as I like AI and technology, I do believe that a lot of people spend a little too much time with the Internet, and this can have negative impact on their health and mental health. For my sixth choice, I chose institutional utopia, rule of law. I do respect a rule of law, but I do think that people should have freedom of choice. For my seventh option, I chose a religious utopia, faith-based order. I chose this last because a lot of people have different faiths. So religion is just different for everybody, and I don't think you could just have somebody believe one thing and they would go around with it without believing another thing truly in their hearts.",
+  "language": "unknown",
+  "processing_time_seconds": 25.081838,
+  "timestamp": "2026-06-08T09:50:55.697436",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.96,
+        6.62
+      ],
+      "text": " For my first choice, I chose a modern green utopia, sustainable and secure."
+    },
+    {
+      "timestamp": [
+        7.06,
+        13.26
+      ],
+      "text": " I like the idea of something being secure, as the world can be very dangerous where we are today."
+    },
+    {
+      "timestamp": [
+        14.28,
+        24.68
+      ],
+      "text": " Most societies give up on green utopia, such as trees, rivers."
+    },
+    {
+      "timestamp": [
+        27.32,
+        24.68
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        36.78,
+        44.3
+      ],
+      "text": " i chose moral commonwealth intermorality the second choice because i think morality is a very important thing for human society a futurist utopia is what i chose for my third"
+    },
+    {
+      "timestamp": [
+        44.3,
+        50.8
+      ],
+      "text": " choice science and innovation i think science is very innovative and it helps humans in ways that"
+    },
+    {
+      "timestamp": [
+        50.8,
+        57.42
+      ],
+      "text": " in more ways that we don't understand, but it's also really beneficial for us to understand it."
+    },
+    {
+      "timestamp": [
+        59.06,
+        62.82
+      ],
+      "text": " For my fourth choice, I chose an AI-centered utopia."
+    },
+    {
+      "timestamp": [
+        62.82,
+        66.86
+      ],
+      "text": " I guess the idea of AI isn't as scary as I would think."
+    },
+    {
+      "timestamp": [
+        67.38,
+        72.2
+      ],
+      "text": " I do like technology, and I do like using assistive technology."
+    },
+    {
+      "timestamp": [
+        72.48,
+        73.6
+      ],
+      "text": " It's just easier."
+    },
+    {
+      "timestamp": [
+        74.88,
+        80.46
+      ],
+      "text": " For my fifth choice, I chose a primalist utopia, low-tech and small-scale."
+    },
+    {
+      "timestamp": [
+        80.8,
+        96.08
+      ],
+      "text": " As much as I like AI and technology, I do believe that a lot of people spend a little too much time with the Internet, and this can have negative impact on their health and mental health."
+    },
+    {
+      "timestamp": [
+        97.08,
+        102.42
+      ],
+      "text": " For my sixth choice, I chose institutional utopia, rule of law."
+    },
+    {
+      "timestamp": [
+        103.48,
+        110.1
+      ],
+      "text": " I do respect a rule of law, but I do think that people should have freedom of choice."
+    },
+    {
+      "timestamp": [
+        110.8,
+        117.7
+      ],
+      "text": " For my seventh option, I chose a religious utopia, faith-based order."
+    },
+    {
+      "timestamp": [
+        118.3,
+        121.9
+      ],
+      "text": " I chose this last because a lot of people have different faiths."
+    },
+    {
+      "timestamp": [
+        122.96,
+        126.2
+      ],
+      "text": " So religion is just different for everybody,"
+    },
+    {
+      "timestamp": [
+        126.2,
+        130.14
+      ],
+      "text": " and I don't think you could just have somebody believe one thing"
+    },
+    {
+      "timestamp": [
+        130.14,
+        135.3
+      ],
+      "text": " and they would go around with it without believing another thing truly in their hearts."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "audio_file": "69e63e9413ec828e97526757_audio_ranking_explanation_1780426469346.webm",
+  "transcript": " I ranked the societies this way not from personal preference, but from how likely they are to actually work and be sustainable.",
+  "language": "unknown",
+  "processing_time_seconds": 4.95774,
+  "timestamp": "2026-06-08T09:40:29.892165",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.92
+      ],
+      "text": " I ranked the societies this way not from personal preference, but from how likely they are to actually work and be sustainable."
+    }
+  ]
+}

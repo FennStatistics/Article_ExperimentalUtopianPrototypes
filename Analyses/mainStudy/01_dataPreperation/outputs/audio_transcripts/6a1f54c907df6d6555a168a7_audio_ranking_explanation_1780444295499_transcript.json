@@ -1,0 +1,38 @@
+{
+  "audio_file": "6a1f54c907df6d6555a168a7_audio_ranking_explanation_1780444295499.webm",
+  "transcript": " I ranked these in this order because I believe that having a faith-based order and a religious utopia is what would allow people to follow their morals and ideals in more of a godly way, realizing that this world is temporary and that we are not in charge of everything that happens. I think having God at the forefront of our life would allow for us to treat others with kindness and love our neighbors way more than how we do in society these days. And I ranked AI technology basically ruling the world as the worst one because I think that would give us the chance to weaponize AI and have it take over and cause anarchy and technology to overrule humans.",
+  "language": "unknown",
+  "processing_time_seconds": 13.87733,
+  "timestamp": "2026-06-08T11:39:14.099564",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        22.84
+      ],
+      "text": " I ranked these in this order because I believe that having a faith-based order and a religious utopia is what would allow people to follow their morals and ideals in more of a godly way, realizing that this world is temporary and that we are not in charge of everything that happens."
+    },
+    {
+      "timestamp": [
+        22.84,
+        35.06
+      ],
+      "text": " I think having God at the forefront of our life would allow for us to treat others with kindness and love our neighbors way more than how we do in society these days."
+    },
+    {
+      "timestamp": [
+        35.6,
+        35.06
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        63.5,
+        null
+      ],
+      "text": " And I ranked AI technology basically ruling the world as the worst one because I think that would give us the chance to weaponize AI and have it take over and cause anarchy and technology to overrule humans."
+    }
+  ]
+}

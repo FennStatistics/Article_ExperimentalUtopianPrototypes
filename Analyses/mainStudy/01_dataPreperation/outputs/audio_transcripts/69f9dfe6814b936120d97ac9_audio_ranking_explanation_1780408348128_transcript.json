@@ -1,0 +1,87 @@
+{
+  "audio_file": "69f9dfe6814b936120d97ac9_audio_ranking_explanation_1780408348128.webm",
+  "transcript": " i thought the futurist utopia using the science and innovation would be the most successful out of the seven uh just because there would be innovation there would be seems like more well rounded uh civilization i like the sustainable and secure one uh just because it would probably last the longest uh aka be sustainable the long term i'm not a huge fan of a whole governance being derived from ai i think that just raises a lot of issues with just being dependent on computers and not people while being religious myself i think a religious utopia probably would not work for a general civilization at least one that we would want to uh be innovative and then the last one was the low tech and small scale just seems like that's a utopia that just is not something that i would be interested in for the future i think that's something that would be holding on to the past if we were to pick that utopia",
+  "language": "unknown",
+  "processing_time_seconds": 17.241545,
+  "timestamp": "2026-06-08T10:03:40.489694",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.8
+      ],
+      "text": " i thought the futurist utopia using the science and innovation would be the most successful out"
+    },
+    {
+      "timestamp": [
+        6.8,
+        13.52
+      ],
+      "text": " of the seven uh just because there would be innovation there would be seems like more well"
+    },
+    {
+      "timestamp": [
+        13.52,
+        23.84
+      ],
+      "text": " rounded uh civilization i like the sustainable and secure one uh just because it would probably"
+    },
+    {
+      "timestamp": [
+        23.84,
+        32.88
+      ],
+      "text": " last the longest uh aka be sustainable the long term i'm not a huge fan of a whole"
+    },
+    {
+      "timestamp": [
+        33.76,
+        39.76
+      ],
+      "text": " governance being derived from ai i think that just raises a lot of issues with"
+    },
+    {
+      "timestamp": [
+        41.04,
+        48.0
+      ],
+      "text": " just being dependent on computers and not people while being religious myself i think a religious"
+    },
+    {
+      "timestamp": [
+        48.0,
+        52.96
+      ],
+      "text": " utopia probably would not work for a general civilization at least one that we would want to"
+    },
+    {
+      "timestamp": [
+        53.84,
+        60.48
+      ],
+      "text": " uh be innovative and then the last one was the low tech and small scale"
+    },
+    {
+      "timestamp": [
+        60.48,
+        67.44
+      ],
+      "text": " just seems like that's a utopia that just is not something that i would be interested in for the"
+    },
+    {
+      "timestamp": [
+        67.44,
+        74.24
+      ],
+      "text": " future i think that's something that would be holding on to the past if we were to pick that"
+    },
+    {
+      "timestamp": [
+        74.24,
+        76.24
+      ],
+      "text": " utopia"
+    }
+  ]
+}

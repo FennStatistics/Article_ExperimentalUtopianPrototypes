@@ -1,0 +1,199 @@
+{
+  "audio_file": "69ed6b56ec2b40534d6806ad_audio_ranking_explanation_1780428811408.webm",
+  "transcript": " so i chose my rankings the way i did because so firstly i chose a faith-based order um as somebody who is a christian i think it would be cool to see a world that lived that way biblically if everybody you know just followed the way and the commandments of the bible I just think that would be a cool society to live in and we wouldn't have as much I wouldn't think as much issues with crime you know there's all kinds of issues a long list of issues that we deal with today in the world but that one was more of a personal value to me so that's why i picked that one i thought the next one was kind of cool the green utopia um i honestly just think that would be more beneficial for the world um as far as like global warming and then also probably things would be a lot cleaner um a lot less pollution um a lot less chemicals things like that um so i think overall we would be healthier as a population. And I think it would also be cool to live in that society. The next one was the low tech, small scale. I just liked this one because I think this one mentioned just taking and using what you needed. So greedy people couldn't live in that society. But, you know, if people in that society learned to share and only take took what they needed, I think that could be definitely a livable, beneficial society. The inner morality, I don't remember that one as much, but I thought that was the one that was just following your core morals. And so I don't really have a huge reason for ranking that one where it's at I just didn't like the last ones as much which was the AI centered I do love AI myself but the reason why I ranked that one lower although I do feel it would be cool to see I feel like that would take a lot of jobs away from people um so that might be a harder society to live in although seeing a totally centered ai society i think would be pretty cool um i do love ai myself the science and innovation i'm just not really a huge i mean i love science but it's not my belief so just living in a society that just bases everything off of science that's just not doesn't really align with my personal beliefs and then the last one was the rule of law and I believe that one was like the government controlling everything and I just am not a fan of that at all I feel like the government honestly is a little bit corrupt so I would very less likely to see this one or live in that society so that is why I ranked the way that I did",
+  "language": "unknown",
+  "processing_time_seconds": 41.47314,
+  "timestamp": "2026-06-08T09:48:40.783079",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        10.44
+      ],
+      "text": " so i chose my rankings the way i did because so firstly i chose a faith-based order"
+    },
+    {
+      "timestamp": [
+        10.44,
+        18.68
+      ],
+      "text": " um as somebody who is a christian i think it would be cool to see a world that lived"
+    },
+    {
+      "timestamp": [
+        18.68,
+        26.56
+      ],
+      "text": " that way biblically if everybody you know just followed the way and the commandments"
+    },
+    {
+      "timestamp": [
+        26.56,
+        35.86
+      ],
+      "text": " of the bible I just think that would be a cool society to live in and we wouldn't have as much"
+    },
+    {
+      "timestamp": [
+        35.86,
+        44.26
+      ],
+      "text": " I wouldn't think as much issues with crime you know there's all kinds of issues a long list of"
+    },
+    {
+      "timestamp": [
+        44.26,
+        50.46
+      ],
+      "text": " issues that we deal with today in the world but that one was more of a personal value to me so"
+    },
+    {
+      "timestamp": [
+        50.46,
+        55.82
+      ],
+      "text": " that's why i picked that one i thought the next one was kind of cool the green utopia"
+    },
+    {
+      "timestamp": [
+        55.82,
+        63.6
+      ],
+      "text": " um i honestly just think that would be more beneficial for the world um as far as like"
+    },
+    {
+      "timestamp": [
+        63.6,
+        71.22
+      ],
+      "text": " global warming and then also probably things would be a lot cleaner um a lot less pollution"
+    },
+    {
+      "timestamp": [
+        71.22,
+        79.4
+      ],
+      "text": " um a lot less chemicals things like that um so i think overall we would be healthier as a"
+    },
+    {
+      "timestamp": [
+        79.4,
+        86.38
+      ],
+      "text": " population. And I think it would also be cool to live in that society. The next one was the low"
+    },
+    {
+      "timestamp": [
+        86.38,
+        94.06
+      ],
+      "text": " tech, small scale. I just liked this one because I think this one mentioned just taking and using"
+    },
+    {
+      "timestamp": [
+        94.06,
+        101.78
+      ],
+      "text": " what you needed. So greedy people couldn't live in that society. But, you know, if people in that"
+    },
+    {
+      "timestamp": [
+        101.78,
+        108.86
+      ],
+      "text": " society learned to share and only take took what they needed, I think that could be definitely a"
+    },
+    {
+      "timestamp": [
+        108.86,
+        120.5
+      ],
+      "text": " livable, beneficial society. The inner morality, I don't remember that one as much, but I thought"
+    },
+    {
+      "timestamp": [
+        120.5,
+        130.8
+      ],
+      "text": " that was the one that was just following your core morals. And so I don't really have a huge"
+    },
+    {
+      "timestamp": [
+        130.8,
+        139.12
+      ],
+      "text": " reason for ranking that one where it's at I just didn't like the last ones as much which was the"
+    },
+    {
+      "timestamp": [
+        139.12,
+        148.06
+      ],
+      "text": " AI centered I do love AI myself but the reason why I ranked that one lower although I do feel"
+    },
+    {
+      "timestamp": [
+        148.06,
+        154.72
+      ],
+      "text": " it would be cool to see I feel like that would take a lot of jobs away from people"
+    },
+    {
+      "timestamp": [
+        154.72,
+        164.9
+      ],
+      "text": " um so that might be a harder society to live in although seeing a totally centered ai society i"
+    },
+    {
+      "timestamp": [
+        164.9,
+        172.62
+      ],
+      "text": " think would be pretty cool um i do love ai myself the science and innovation i'm just not really a"
+    },
+    {
+      "timestamp": [
+        172.62,
+        183.32
+      ],
+      "text": " huge i mean i love science but it's not my belief so just living in a society that just bases"
+    },
+    {
+      "timestamp": [
+        183.32,
+        190.66
+      ],
+      "text": " everything off of science that's just not doesn't really align with my personal beliefs"
+    },
+    {
+      "timestamp": [
+        190.66,
+        196.16
+      ],
+      "text": " and then the last one was the rule of law and I believe that one was like the government"
+    },
+    {
+      "timestamp": [
+        196.16,
+        205.64
+      ],
+      "text": " controlling everything and I just am not a fan of that at all I feel like the government honestly"
+    },
+    {
+      "timestamp": [
+        205.64,
+        214.3
+      ],
+      "text": " is a little bit corrupt so I would very less likely to see this one or live in that society"
+    },
+    {
+      "timestamp": [
+        214.3,
+        217.58
+      ],
+      "text": " so that is why I ranked the way that I did"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "audio_file": "6a0cad159c5686edc83282c6_audio_ranking_explanation_1780377983594.webm",
+  "transcript": " I really do believe that a true utopia would be based off of some type of moral commonwealth. Like, I feel like if we based our world and the things that we do based off of, like, an internal moral compass, and that compass was justifiable and rooted in the belief that all humans are equal, humans deserve respect, all, like, all of these things. Like, I feel like if we could base our world and our decisions off of those things, that is the most preferred society, like, possible. In a kind of opposite way, I feel like institutional utopia is the worst possible, because more often than not, like even in the utopia, I can't really see a universe in which this wouldn't have been set by like one or two people or like one class of people. And so any deviant behavior would really just be any behavior they don't like, which really puts me off. the same reason why religious utopias isn't very highly ranked i i put it higher than ai utopia because i feel like at the very least um it's uh it's a human basis and i feel like humans are better equipped to deal with this type of thing than than a robot which is how i see ais but even still all three of those feel like it would be driven by something that's not very um humane um i put primidus terminus utopia as four because i personally don't like it i personally really like technology i personally really like tvs phones instagram um but but it's probably fine like we'd probably all live on it'd probably be good even for society if we did this i just personally wouldn't like it would like encroach upon my personal freedoms um this that's why modern green utopia isn't very high either because even though I know some things are bad for the environment I do still like doing them so I don't feel too bad about doing them because I do like it I'm a little bit hedonistic in that way but for Futurist Utopia I feel like we'd be able to find a way like through science and innovation be able to find a way for everyone to have what they want the only drawback is that it's based off of science which can sometimes really be divorced from humanity. So that's why it's second instead of first. Thank you.",
+  "language": "unknown",
+  "processing_time_seconds": 32.645504,
+  "timestamp": "2026-06-08T10:41:31.569766",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.0,
+        6.7
+      ],
+      "text": " I really do believe that a true utopia would be based off of some type of moral commonwealth."
+    },
+    {
+      "timestamp": [
+        7.42,
+        13.88
+      ],
+      "text": " Like, I feel like if we based our world and the things that we do based off of, like, an internal moral compass,"
+    },
+    {
+      "timestamp": [
+        13.88,
+        22.6
+      ],
+      "text": " and that compass was justifiable and rooted in the belief that all humans are equal, humans deserve respect, all, like, all of these things."
+    },
+    {
+      "timestamp": [
+        22.66,
+        29.74
+      ],
+      "text": " Like, I feel like if we could base our world and our decisions off of those things, that is the most preferred society, like, possible."
+    },
+    {
+      "timestamp": [
+        30.0,
+        45.04
+      ],
+      "text": " In a kind of opposite way, I feel like institutional utopia is the worst possible, because more often than not, like even in the utopia, I can't really see a universe in which this wouldn't have been set by like one or two people or like one class of people."
+    },
+    {
+      "timestamp": [
+        46.04,
+        53.58
+      ],
+      "text": " And so any deviant behavior would really just be any behavior they don't like, which really puts me off."
+    },
+    {
+      "timestamp": [
+        53.58,
+        60.38
+      ],
+      "text": " the same reason why religious utopias isn't very highly ranked i i put it higher than ai utopia"
+    },
+    {
+      "timestamp": [
+        60.38,
+        67.58
+      ],
+      "text": " because i feel like at the very least um it's uh it's a human basis and i feel like humans are"
+    },
+    {
+      "timestamp": [
+        67.58,
+        72.78
+      ],
+      "text": " better equipped to deal with this type of thing than than a robot which is how i see ais but"
+    },
+    {
+      "timestamp": [
+        73.82,
+        80.06
+      ],
+      "text": " even still all three of those feel like it would be driven by something that's not very um humane"
+    },
+    {
+      "timestamp": [
+        81.34,
+        80.06
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        88.56,
+        96.0
+      ],
+      "text": " um i put primidus terminus utopia as four because i personally don't like it i personally really like technology i personally really like tvs phones instagram um but but it's probably fine"
+    },
+    {
+      "timestamp": [
+        96.0,
+        101.64
+      ],
+      "text": " like we'd probably all live on it'd probably be good even for society if we did this i just"
+    },
+    {
+      "timestamp": [
+        101.64,
+        106.44
+      ],
+      "text": " personally wouldn't like it would like encroach upon my personal freedoms um this that's why"
+    },
+    {
+      "timestamp": [
+        106.44,
+        110.98
+      ],
+      "text": " modern green utopia isn't very high either because even though I know some"
+    },
+    {
+      "timestamp": [
+        110.98,
+        115.0
+      ],
+      "text": " things are bad for the environment I do still like doing them so I don't feel"
+    },
+    {
+      "timestamp": [
+        115.0,
+        118.74
+      ],
+      "text": " too bad about doing them because I do like it I'm a little bit hedonistic in"
+    },
+    {
+      "timestamp": [
+        118.74,
+        126.44
+      ],
+      "text": " that way but for Futurist Utopia I feel like we'd be able to find a way like"
+    },
+    {
+      "timestamp": [
+        126.44,
+        129.44
+      ],
+      "text": " through science and innovation be able to find a way for everyone to have what"
+    },
+    {
+      "timestamp": [
+        129.44,
+        135.24
+      ],
+      "text": " they want the only drawback is that it's based off of science which can"
+    },
+    {
+      "timestamp": [
+        135.24,
+        142.26
+      ],
+      "text": " sometimes really be divorced from humanity. So that's why it's second instead of first. Thank you."
+    }
+  ]
+}

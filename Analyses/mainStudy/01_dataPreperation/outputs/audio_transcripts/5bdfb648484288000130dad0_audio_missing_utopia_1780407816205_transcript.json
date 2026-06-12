@@ -1,0 +1,80 @@
+{
+  "audio_file": "5bdfb648484288000130dad0_audio_missing_utopia_1780407816205.webm",
+  "transcript": " I can't think of anything that was specifically missing. The one that I did rank at the top with the Holy Scriptures, I feel like it's important with that one to make sure that Scripture remains the authority and not an institution. If we can base beliefs off of that and just go by literal, strict interpretation, sola scriptura, and not allow the institution to become more than the writing. So maybe if I were to add another one, one that's completely based on the Holy Scripture, where there is an institution, but the institution is in subjection to the authority of the foundation, which is the Scriptures.",
+  "language": "unknown",
+  "processing_time_seconds": 10.945992,
+  "timestamp": "2026-06-08T08:12:12.376358",
+  "model": "openai/whisper-large-v3-turbo",
+  "chunks": [
+    {
+      "timestamp": [
+        0.58,
+        3.66
+      ],
+      "text": " I can't think of anything that was specifically missing."
+    },
+    {
+      "timestamp": [
+        4.02,
+        6.84
+      ],
+      "text": " The one that I did rank at the top with the Holy Scriptures,"
+    },
+    {
+      "timestamp": [
+        6.96,
+        11.82
+      ],
+      "text": " I feel like it's important with that one to make sure that Scripture remains the authority"
+    },
+    {
+      "timestamp": [
+        11.82,
+        13.18
+      ],
+      "text": " and not an institution."
+    },
+    {
+      "timestamp": [
+        14.34,
+        21.02
+      ],
+      "text": " If we can base beliefs off of that and just go by literal, strict interpretation,"
+    },
+    {
+      "timestamp": [
+        21.36,
+        25.32
+      ],
+      "text": " sola scriptura, and not allow the institution to become more than the writing."
+    },
+    {
+      "timestamp": [
+        25.7,
+        26.0
+      ],
+      "text": ""
+    },
+    {
+      "timestamp": [
+        30.24,
+        30.8
+      ],
+      "text": " So maybe if I were to add another one, one that's completely based on the Holy Scripture,"
+    },
+    {
+      "timestamp": [
+        36.4,
+        36.6
+      ],
+      "text": " where there is an institution, but the institution is in subjection to the authority of the foundation,"
+    },
+    {
+      "timestamp": [
+        37.54,
+        null
+      ],
+      "text": " which is the Scriptures."
+    }
+  ]
+}
