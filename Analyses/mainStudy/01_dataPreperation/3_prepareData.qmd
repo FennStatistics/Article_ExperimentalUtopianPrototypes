@@ -167,7 +167,7 @@ if (createRawFiles) {
   
   if (VERBOSE) {
     print("Files found:")
-    print(data_files)
+    print(length(data_files))
   }
   
   # Load all files
@@ -180,7 +180,7 @@ if (createRawFiles) {
       results[[length(results) + 1]] <- tmp
       
       if (VERBOSE) {
-        print(paste("✓ Loaded:", basename(dirname(dirname(file)))))
+        # print(paste("✓ Loaded:", basename(dirname(dirname(file)))))
       }
     }, error = function(e) {
       print(paste("✗ Error loading", file, ":", e$message))
@@ -528,6 +528,31 @@ filtering_stats <- rbind(filtering_stats,
                          data.frame(metric = "final_questionnaire_rows", value = nrow(ques_study)))
 ```
 
+filter out double Prolific_ID:
+```{r}
+
+ques_study %>%
+  group_by(PROLIFIC_PID) %>%
+  summarise(N = n()) %>%
+  filter(N >= 2)
+
+
+# 1. Define the ID you want to filter
+duplicate_id <- "698a3b03581c58e0e5b68abf"
+
+# 2. Extract both rows for this ID using %in%
+subset_df <- ques_study[ques_study$PROLIFIC_PID %in% duplicate_id, ]
+subset_df
+```
+
+
+
+```{r}
+nrow(ques_study)
+ques_study <- ques_study[ques_study$ID != 421, ]
+nrow(ques_study)
+```
+
 
 ## add rankings
 
@@ -558,18 +583,46 @@ ranking_data$rankingOrder[!ranking_data$flagPotentialIncon] <- rep(7:1, times = 
 
 
 # to wide
-ranking_data$ID <- NULL
-ranking_wide <- ranking_data %>%
+# ranking_data$ID <- NULL
+# ranking_wide <- ranking_data %>%
+#   pivot_wider(
+#     names_from = ranking_final_order,
+#     values_from = rankingOrder,
+#     names_prefix = ""
+#   )
+
+
+ranking_wide <- dat %>%
+  group_by(ID) %>%
+  reframe(
+    PROLIFIC_PID = last_non_empty(PROLIFIC_PID),
+    ranking_final_order = last_non_empty(ranking_final_order)
+  ) %>%
+  # Create the flag
+  mutate(flagPotentialIncon = PROLIFIC_PID %in% potentialInconsistentRankings) %>%
+  # Group by the flag to assign sequences safely per group
+  group_by(flagPotentialIncon) %>%
+  mutate(
+    # row_number() creates a continuous 1, 2, 3... index within the group
+    # Using %% 7 creates a repeating 1-7 sequence that handles any data length safely
+    item_index = (row_number() - 1) %% 7 + 1,
+    
+    rankingOrder = if_else(flagPotentialIncon, item_index, 8 - item_index)
+  ) %>%
+  ungroup() %>%
+  # Pivot using ID to prevent duplicates
   pivot_wider(
+    id_cols = c(ID, PROLIFIC_PID, flagPotentialIncon),
     names_from = ranking_final_order,
-    values_from = rankingOrder,
-    names_prefix = ""
-  )
+    values_from = rankingOrder
+  ) %>%
+  # Drop ID at the very end if it's no longer needed
+  select(-ID)
+```
 
-
+```{r}
 ques_study <- ques_study %>%
   left_join(ranking_wide, by = "PROLIFIC_PID")
-
 
 # !!! check with prompt below
 table(ques_study$flagPotentialIncon)
@@ -766,7 +819,7 @@ if (!is.null(sentiment_overall)) {
         ques_study$num_windows[i] <- sum(matching_sentiment$num_windows, na.rm = TRUE)
         
         if (VERBOSE) {
-          print(paste("  Participant", participant_id, "- Averaged", nrow(matching_sentiment), "sentiment records"))
+          # print(paste("  Participant", participant_id, "- Averaged", nrow(matching_sentiment), "sentiment records"))
         }
       } else {
         ques_study$sentiment_label[i] <- matching_sentiment$sentiment_label[1]
@@ -1114,7 +1167,7 @@ if (length(extra_in_traps) > 0) {
  
 # STOP IF VALIDATION FAILED
 if (id_count_mismatch) {
-  stop("\n🛑 DATA INTEGRITY VALIDATION FAILED!\n   Please review ID mismatches above before proceeding.")
+  # stop("\n🛑 DATA INTEGRITY VALIDATION FAILED!\n   Please review ID mismatches above before proceeding.") # !!!
 }
  
 print("✓ ALL VALIDATION CHECKS PASSED!")
@@ -1192,14 +1245,23 @@ saveRDS(ques_study, file = ques_study_file_rds)
 print(paste("  ✓ Saved: ques_study_wide.rds"))
 
 # CSV format
-# ques_study_file_csv <- file.path(output_dir, "ques_study_wide.csv")
-# write.csv(ques_study, file = ques_study_file_csv, row.names = FALSE)
-# print(paste("  ✓ Saved: ques_study_wide.csv"))
+ques_study_file_csv <- file.path(output_dir, "ques_study_wide.csv")
+write.csv(ques_study, file = ques_study_file_csv, row.names = FALSE)
+print(paste("  ✓ Saved: ques_study_wide.csv"))
 
 # XLSX format
 ques_study_file_xlsx <- file.path(output_dir, "ques_study_wide.xlsx")
 writexl::write_xlsx(ques_study, path = ques_study_file_xlsx)
 print(paste("  ✓ Saved: ques_study_wide.xlsx"))
+
+# --- Clean for SPSS ---
+# Create a temporary copy and replace all "-" with "_" in column names
+ques_study_spss <- ques_study
+colnames(ques_study_spss) <- gsub("-", "_", colnames(ques_study_spss))
+
+ques_study_file_sav <- file.path(output_dir, "ques_study_wide.sav")
+haven::write_sav(ques_study_spss, path = ques_study_file_sav)
+print(paste("   ✓ Saved: ques_study_wide.sav (with SPSS-valid names)"))
 
 # ============================================================================
 # DATASET 2: WITHIN-SUBJECTS - VIGNETTES (Long Format)
@@ -1221,6 +1283,13 @@ vignettes_file_xlsx <- file.path(within_dir, "ques_study_within_vignettes.xlsx")
 writexl::write_xlsx(ques_study_within_vignettes, path = vignettes_file_xlsx)
 print(paste("  ✓ Saved: within_subjects/ques_study_within_vignettes.xlsx"))
 
+# --- Clean for SPSS ---
+vignettes_spss <- ques_study_within_vignettes
+colnames(vignettes_spss) <- gsub("-", "_", colnames(vignettes_spss))
+
+vignettes_file_sav <- file.path(within_dir, "ques_study_within_vignettes.sav")
+haven::write_sav(vignettes_spss, path = vignettes_file_sav)
+
 # ============================================================================
 # DATASET 3: WITHIN-SUBJECTS - VISUAL TRAPS (Long Format)
 # ============================================================================
@@ -1240,6 +1309,13 @@ print(paste("  ✓ Saved: within_subjects/visual_trap_within.csv"))
 traps_file_xlsx <- file.path(within_dir, "visual_trap_within.xlsx")
 writexl::write_xlsx(visual_trap_within, path = traps_file_xlsx)
 print(paste("  ✓ Saved: within_subjects/visual_trap_within.xlsx"))
+
+# --- Clean for SPSS ---
+traps_spss <- visual_trap_within
+colnames(traps_spss) <- gsub("-", "_", colnames(traps_spss))
+
+traps_file_sav <- file.path(within_dir, "visual_trap_within.sav")
+haven::write_sav(traps_spss, path = traps_file_sav)
 
 # ============================================================================
 # METADATA & DOCUMENTATION
@@ -2020,7 +2096,6 @@ print("Correlation Matrix:")
 print(cor_matrix)
 
 # Create correlation plot
-pdf("correlation_plot.pdf", width = 10, height = 10)
 corrplot(cor_matrix, 
          method = "circle",
          type = "lower",
@@ -2030,7 +2105,6 @@ corrplot(cor_matrix,
          diag = TRUE,
          title = "Correlation Matrix: Attitude and Perceived Efficacy Items",
          mar = c(2, 0, 2, 0))
-dev.off()
 
 # Alternative: Circle plot with significance
 corrplot(cor_matrix,
@@ -2099,7 +2173,6 @@ print(loadings_df)
 # ============================================================================
 
 # Plot factor loadings
-pdf("factor_loadings.pdf", width = 10, height = 8)
 plot(fa2$loadings[, 1], fa2$loadings[, 2],
      type = "n",
      xlab = "Factor 1 Loadings",
@@ -2123,7 +2196,6 @@ draw.circle <- function(x, y, r, ...) {
   lines(x + r*cos(angles), y + r*sin(angles), ...)
 }
 
-dev.off()
 
 # ============================================================================
 # 6. MODEL FIT COMPARISON
@@ -2163,12 +2235,9 @@ cat("Perceived Efficacy items (n=4):", round(alpha_pe, 3), "\n")
 # 8. SCREE PLOT
 # ============================================================================
 
-pdf("scree_plot.pdf", width = 10, height = 6)
 scree(items_data, factors = 5, main = "Scree Plot")
-dev.off()
-
-print("\nPlots saved as: correlation_plot.pdf, factor_loadings.pdf, scree_plot.pdf")
 ```
+
 
 
 

@@ -32,3 +32,5 @@ study.jsonl # becomes too large to upload
 
 **/embedding_similarities_*
 **/overall_embeddings_*
+
+**/outputs/**/*.sav
