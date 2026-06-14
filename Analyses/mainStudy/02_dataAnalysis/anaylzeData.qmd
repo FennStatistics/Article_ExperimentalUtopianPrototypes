@@ -1,5 +1,5 @@
 ---
-title: "Data Preparation: Survey + Transcripts + Sentiment Analysis"
+title: "Data Analysis: Pia Masterthesis"
 author: "Julius Fenn"
 date: "`r Sys.Date()`"
 format:
@@ -13,12 +13,6 @@ format:
 
 # Overview
 
-This document prepares the complete dataset by combining:
-1. **Survey Data** from `data/results_survey/` (questionnaire responses)
-2. **Audio Transcripts** from `outputs/audio_transcripts/` (text_missingUtopia, text_rankingUtopias)
-3. **Sentiment Analysis** from `outputs/sentiment_analysis/` (overall + window-level)
-
-Final output: One row per participant with all metadata integrated.
 
 ---
 
@@ -33,2373 +27,860 @@ Final output: One row per participant with all metadata integrated.
 rm(list = ls())
 
 # Set control variables
-createRawFiles <- TRUE  # Set to FALSE to skip raw file creation
 VERBOSE <- TRUE
 
 # Load packages
 require(pacman)
-p_load('tidyverse', 'jsonlite', 'writexl', 'lubridate', 'DT', 'psych')
+p_load('tidyverse', 'jsonlite',
+       'stargazer',  'DT', 'psych',
+       'writexl', 'associatoR',
+       'ggstatsplot', 
+       'afex', 'emmeans', 'effectsize',
+       'moments', 'lavaan', 'semPlot')
 
 # Set base directory
 BASE_DIR <- getwd()
 print(paste("Working directory:", BASE_DIR))
 
-# Define paths
-DATA_SURVEY_DIR <- file.path(BASE_DIR, "data", "results_survey")
-AUDIO_TRANSCRIPT_DIR <- file.path(BASE_DIR, "outputs", "audio_transcripts")
-SENTIMENT_DIR <- file.path(BASE_DIR, "outputs", "sentiment_analysis")
-
-OUTPUT_RAW_DIR <- file.path(BASE_DIR, "outputs", "raw")
-OUTPUT_QUESTIONNAIRE_DIR <- file.path(BASE_DIR, "outputs", "questionnaire")
+OUTPUT_QUESTIONNAIRE_DIR <- file.path(BASE_DIR, "../01_dataPreperation/outputs", "questionnaire")
+OUTPUT_QUESTIONNAIRE_PIA_DIR <- file.path(BASE_DIR, "outputs", "questionnaire_Pia")
 
 # Create output directories if they don't exist
-dir.create(OUTPUT_RAW_DIR, showWarnings = FALSE, recursive = TRUE)
-dir.create(OUTPUT_QUESTIONNAIRE_DIR, showWarnings = FALSE, recursive = TRUE)
+dir.create(OUTPUT_QUESTIONNAIRE_PIA_DIR, showWarnings = FALSE, recursive = TRUE)
 
 print("✓ Setup complete")
 ```
-
----
-
-# Helper Functions
-
-## Questionnaire Type Function
+## load external functions
 
 ```{r}
-#| label: questionnaire-function
+#| echo: true
+#| warning: false
 
-questionnairetype <- function(dataset,
-                              listvars = ques_mixed,
-                              notNumeric = vec_notNumeric,
-                              verbose = FALSE) {
 
-  # Convert JATOS data to classical 2D data frame
-  # 
-  # Args:
-  #   dataset: Raw data frame from JATOS
-  #   listvars: Vector of column names to extract
-  #   notNumeric: Vector of column names to keep as character
-  #   verbose: Print progress
-  # 
-  # Returns:
-  #   Data frame with 1 row per unique ID
-
-  
-  datasetques <- data.frame(ID = unique(dataset$ID))
-  
-  for (c in 1:length(listvars)) {
-    if (verbose) {
-      print(c)
-    }
-    
-    if (any(colnames(dataset) == listvars[c])) {
-      if (verbose) {
-        print(listvars[c])
-      }
-      
-      ## tmp IDs
-      tmpid <- dataset$ID[!is.na(dataset[, listvars[c]])]
-      ## tmp value variable
-      tmpvalue <- dataset[, listvars[c]][!is.na(dataset[, listvars[c]])]
-      datasetques[listvars[c]] <- NA
-      
-      if (listvars[c] %in% notNumeric) {
-        datasetques[datasetques$ID %in% tmpid, listvars[c]] <- tmpvalue
-      } else if (is.list(tmpvalue)) {
-        tmpvalue_tmp <- unique(tmpvalue)
-        tmpvalue <- c()
-        counter <- 1
-        for (i in 1:length(tmpvalue_tmp)) {
-          if (!is.null(tmpvalue_tmp[[i]])) {
-            tmpvalue[counter] <- paste0(tmpvalue_tmp[[i]], collapse = " - ")
-            counter <- counter + 1
-          }
-        }
-        datasetques[datasetques$ID %in% tmpid, listvars[c]] <- tmpvalue
-      } else {
-        datasetques[datasetques$ID %in% tmpid, listvars[c]] <- as.numeric(tmpvalue)
-      }
-    }
-  }
-  return(datasetques)
+### load functions
+setwd("functions")
+for(i in 1:length(dir())){
+  # print(dir()[i])
+  source(dir()[i], encoding = "utf-8")
 }
-
-
-last_non_empty <- function(x) {
-  if (length(x) == 0) return(NA)
-  for (i in seq_along(x)[length(x):1]) {
-    val <- x[[i]]
-    if (is.null(val)) next
-    if (!is.list(val) && length(val) == 1 && is.na(val)) next
-    if (is.character(val) && length(val) == 1 && isTRUE(val == "")) next
-    return(val)
-  }
-  return(NA)
-}
-
-
-
-print("✓ Helper functions defined")
 ```
 
 ---
 
-# Load & Process Raw Survey Data
-
-## Load all data.txt files
+# Load Prepared Survey Data
 
 ```{r}
-#| label: load-raw-survey-data
+#| label: load-prepared-survey-data
 #| message: false
 
-if (createRawFiles) {
-  print("Loading raw survey data from data.txt files...")
-  
-  # Find all data.txt files
-  data_files <- list.files(
-    path = DATA_SURVEY_DIR,
-    pattern = "^data\\.txt$",
-    full.names = TRUE,
-    recursive = TRUE
+setwd(OUTPUT_QUESTIONNAIRE_DIR)
+
+
+ques_study_wide <- readRDS(file = "ques_study_wide.rds")
+
+setwd("within_subjects")
+ques_study_within_vignettes <- readRDS(file = "ques_study_within_vignettes.rds")
+```
+
+---
+
+# Prepare Survey Data
+
+## L2 variables
+
+```{r}
+## =====================================================================
+## Per-scale validation via CFAstats() + composite descriptives
+## Loops your CFAstats() wrapper over every scale, then computes the
+## scale-score mean_<short> / SD_<short> objects (e.g. mean_cmq, SD_cmq).
+##
+## Requires in scope:
+##   - stringr, psych, lavaan, semPlot, moments, ggplot2/dplyr/tidyr/forcats
+##   - your helpers: CFAstats(), getDescriptivesSurvey(), model_lavaan(),
+##     dimensionalityTest(), explorativeFactorAnalysis()
+##   - the data frame `ques_study`
+## =====================================================================
+
+## ---------------------------------------------------------------------
+## 1. Scale definitions
+##    - list name   = suffix for mean_<name> / SD_<name>
+##    - labelLatent = passed to CFAstats(); also used as the lavaan latent
+##                    variable name, so it MUST be a valid identifier
+##                    (no spaces, no "-"). CFAstats strips "-" from the
+##                    *item* names/regex itself, so keep "-" in regEx.
+##    - regEx       = column selector (matches the ORIGINAL column names)
+##    The ^ anchor stops "^utopianism" from catching "anti_utopianism".
+## ---------------------------------------------------------------------
+scaleConfig <- list(
+  activism   = list(labelLatent = "ARIS_Activism",               regEx = "^aris_scale-ais"),
+  radicalism = list(labelLatent = "ARIS_Radicalism",             regEx = "^aris_scale-ris"),
+  utop       = list(labelLatent = "Utopianism",                  regEx = "^utopianism_scale-utop"),
+  antiutop   = list(labelLatent = "AntiUtopianism",              regEx = "^anti_utopianism_scale-antiutop"),
+  nfc        = list(labelLatent = "NeedForChaos",                regEx = "^nfc_scale-nfc"),
+  sjs        = list(labelLatent = "SystemJustification",         regEx = "^sjs_scale-sjs"),
+  swls       = list(labelLatent = "SatisfactionWithLife",        regEx = "^swls_scale-swls"),
+  brs        = list(labelLatent = "BriefResilience",             regEx = "^brs_scale-brs"),
+  prds       = list(labelLatent = "PersonalRelativeDeprivation", regEx = "^prds_scale-prds"),
+  cmq        = list(labelLatent = "ConspiracyMentality",         regEx = "^cmq_scale-cmq")
+)
+
+## ---------------------------------------------------------------------
+## 1b. Reverse-code the reverse-keyed (…r) items  --  RUN ONCE
+##     Formula (as requested): reversed = max(item) - item, using each
+##     item's own (empirical) maximum.
+##     Applied to the global ques_study BEFORE CFAstats() and the
+##     composites, so EFA/CFA loadings come out positive and the scale
+##     means are correct.
+##     Guarded against accidental re-running (re-flipping would corrupt
+##     the values) -- reload ques_study fresh if you need to redo it.
+##     Note: max(item) - item puts the reversed items on a 0..(max-min)
+##     range. To keep them on the original min..max scale instead, use
+##     (min(item) + max(item)) - item.
+## ---------------------------------------------------------------------
+revCols <- c("sjs_scale-sjs3r", "sjs_scale-sjs7r",
+             "brs_scale-brs2r", "brs_scale-brs4r", "brs_scale-brs6r",
+             "prds_scale-prds2r", "prds_scale-prds4r")
+
+if (!exists("reverseCodingDone") || !isTRUE(reverseCodingDone)) {
+  for (col in revCols) {
+    ques_study_wide[[col]] <- max(ques_study_wide[[col]], na.rm = TRUE) - ques_study_wide[[col]]
+  }
+  reverseCodingDone <- TRUE
+  message("Reverse-coded (max - item): ", paste(revCols, collapse = ", "))
+} else {
+  message("Reverse coding already applied; skipping. Reload ques_study_wide to redo.")
+}
+
+## ---------------------------------------------------------------------
+## 2. Run CFAstats() for every scale
+##    Toggle the components once here; they apply to all scales.
+##    NB: CFAstats() runs the EFA as a fixed 1-factor solution and the
+##        CFA as a 1-factor (unidimensional) lavaan model.
+##        Mplus is OFF (needs Mplus installed; latent name must be <=8
+##        chars for Mplus -- shorten labelLatent above if you enable it).
+## ---------------------------------------------------------------------
+opt_showPlots       <- TRUE   # cor.plot + getDescriptivesSurvey()
+opt_computeEFA      <- TRUE   # dimensionalityTest() + 1-factor EFA
+opt_computeCFA      <- TRUE   # lavaan 1-factor CFA (MLR) + semPaths + MIs
+opt_computeCFAMplus <- FALSE  # Mplus CFA + McDonald's omega
+
+cfaResults <- list()
+for (short in names(scaleConfig)) {
+  cfg <- scaleConfig[[short]]
+  cat("\n\n===================== ", cfg$labelLatent, " =====================\n")
+
+  cfaResults[[short]] <- CFAstats(
+    dataset         = ques_study_wide,
+    regularExp      = cfg$regEx,
+    labelLatent     = cfg$labelLatent,
+    showPlots       = opt_showPlots,
+    computeEFA      = opt_computeEFA,
+    computeCFA      = opt_computeCFA,
+    computeCFAMplus = opt_computeCFAMplus
   )
-  
-  print(paste("Found", length(data_files), "survey data files"))
-  
-  if (VERBOSE) {
-    print("Files found:")
-    print(length(data_files))
-  }
-  
-  # Load all files
-  results <- list()
-  
-  for (file in data_files) {
-    tryCatch({
-      tmp <- fromJSON(file)
-      tmp[, colnames(tmp) == ""] <- NULL # remove empty variable
-      results[[length(results) + 1]] <- tmp
-      
-      if (VERBOSE) {
-        # print(paste("✓ Loaded:", basename(dirname(dirname(file)))))
-      }
-    }, error = function(e) {
-      print(paste("✗ Error loading", file, ":", e$message))
-    })
-  }
-  
-  print(paste("Successfully loaded", length(results), "files"))
-  
-  # Save as RDS
-  saveRDS(results, file = file.path(OUTPUT_RAW_DIR, "study.rds"))
-  
-  # Optionally save as JSONL
-  json_lines <- map_chr(results, ~ toJSON(.x, auto_unbox = TRUE))
-  writeLines(json_lines, con = file.path(OUTPUT_RAW_DIR, "study.jsonl"))
-  
-  print("✓ Raw files saved (study.rds and study.jsonl)")
-  
-} else {
-  print("Loading pre-saved raw data...")
-  results <- readRDS(file = file.path(OUTPUT_RAW_DIR, "study.rds"))
-  print(paste("Loaded", length(results), "records from study.rds"))
 }
-```
+## inspect later, e.g.:
+##   cfaResults$cmq$EFA[[1]]$loadings
+##   cfaResults$cmq$cronbachAlpha$total$raw_alpha
+##   summary(cfaResults$cmq$CFA, fit.measures = TRUE)
 
----
+## ---------------------------------------------------------------------
+## 3. Per-participant scale scores -> bind as new columns to ques_study_wide
+##    For every scale and every participant (row), ONE value each:
+##      mean_<short> = row mean across the scale's items   (na.rm = TRUE)
+##      sd_<short>   = row SD   across the scale's items    (na.rm = TRUE)
+##    sd_<short> captures within-person spread across that scale's items.
+##    Reverse coding (step 1b) is already applied to ques_study_wide, so the
+##    items are correctly oriented here.
+##    (For large data, apply(.,1,sd) can be replaced by matrixStats::rowSds.)
+## ---------------------------------------------------------------------
+for (short in names(scaleConfig)) {
+  cfg   <- scaleConfig[[short]]
+  sel   <- str_detect(colnames(ques_study_wide), cfg$regEx)
+  items <- as.matrix(ques_study_wide[, sel])
 
-# Create Questionnaire DataFrame with Filtering
-
-
-## Combine and prepare raw data
-
-```{r}
-#| label: combine-raw-data
-
-for(i in 1:length(results)) {
-  tmp <- results[[i]]$meta
-  results[[i]]$meta <- NULL
-  
-    if(any(colnames(results[[i]]) %in% "paradata_general")) {
-      results[[i]]$paradata_general <- NULL
-    }
-  
-  results[[i]] <- cbind(results[[i]], tmp)
+  ques_study_wide[[paste0("mean_", short)]] <- rowMeans(items, na.rm = TRUE)
+  ques_study_wide[[paste0("sd_",   short)]] <- apply(items, 1L, sd, na.rm = TRUE)
 }
 
+## peek at the new columns
+head(ques_study_wide[, grep("^(mean|sd)_", colnames(ques_study_wide)), drop = FALSE])
 
-# Combine all records into single dataframe
-suppressMessages({
-  dat <- bind_rows(results)
-})
-
-
-# Combine all records into single dataframe
-suppressMessages({
-  dat <- bind_rows(results)
-})
-
-print(paste("Combined data shape:", nrow(dat), "rows x", ncol(dat), "columns"))
-rm(results)
-
-# Add ID counter
-dat$ID <- cumsum(dat$sender == "Greetings" & !is.na(dat$sender))
-
-print("\n=== Initial ID Distribution ===")
-print(table(dat$ID))
-
-# Check record counts per ID
-tmp <- dat %>%
-  group_by(ID) %>%
-  summarise(N = n(), .groups = 'drop')
-
-print("\n=== Record Count Distribution ===")
-print(table(tmp$N))
-
-max_N <- max(tmp$N)
-print(paste("Maximum records per ID:", max_N))
+## OPTIONAL: sample-level summary (mean & SD ACROSS participants of each
+## scale's mean score) -- the earlier mean_<short>/SD_<short> table.
+descriptives <- do.call(rbind, lapply(names(scaleConfig), function(short) {
+  sc <- ques_study_wide[[paste0("mean_", short)]]
+  data.frame(scale   = scaleConfig[[short]]$labelLatent,
+             mean    = mean(sc, na.rm = TRUE),
+             sd      = sd(sc,   na.rm = TRUE),
+             n_items = sum(str_detect(colnames(ques_study_wide),
+                                      scaleConfig[[short]]$regEx)))
+}))
+descriptives
 ```
 
 
-## Identify incomplete records and test data
-
 ```{r}
-#| label: filter-incomplete-records
-
-# Initialize filtering tracking
-filtering_stats <- data.frame(
-  metric = character(),
-  value = numeric(),
-  stringsAsFactors = FALSE
-)
-
-starting_N <- nrow(dat)
-filtering_stats <- rbind(filtering_stats, 
-                         data.frame(metric = "starting_total_records", value = starting_N))
-
-# Find IDs with incomplete records
-tmp_full <- dat %>%
-  group_by(ID) %>%
-  summarise(N = n(), .groups = 'drop')
-
-incomplete_IDs <- tmp_full$ID[tmp_full$N != max_N]
-n_incomplete_before <- length(incomplete_IDs)
-
-print(paste("\n=== Filtering Step 1: Identify Incomplete Records ==="))
-print(paste("IDs with fewer than", max_N, "records:", n_incomplete_before))
-if (VERBOSE & n_incomplete_before > 0) {
-  print("Incomplete IDs:")
-  print(incomplete_IDs)
-  
-  filtering_stats <- rbind(filtering_stats, 
-                         data.frame(metric = "incomplete_ids", value = paste0(incomplete_IDs, collapse = " // ")))
+########################################
+# correlation plot of all scale means
+########################################
+corPlotMeans <- function(dataset, pattern = "^mean_", main = "Scale means") {
+  sel <- stringr::str_detect(colnames(dataset), pattern)
+  m   <- dataset[, sel, drop = FALSE]
+  colnames(m) <- sub(pattern, "", colnames(m))      # drop "mean_" for cleaner labels
+  tmp_cor <- cor(m, use = "pairwise.complete.obs")
+  psych::cor.plot(r = tmp_cor, upper = FALSE, xlas = 2, main = main)
+  invisible(tmp_cor)                                # returns the matrix too
 }
 
-dat <- dat[!dat$ID %in% incomplete_IDs, ]
+corPlotMeans(ques_study_wide)
+```
 
-if (VERBOSE & n_incomplete_before > 0) {
-  filtering_stats <- rbind(filtering_stats, 
-                         data.frame(metric = "after_filtering_incomplete_records", value = nrow(dat)))
+
+
+## L1 variables
+
+
+```{r}
+## =====================================================================
+## Within-vignettes analysis (long -> per-row composites -> wide EFA)
+## Data: ques_study_within_vignettes
+##   one row per participant x vignette; 7 vignettes (condition_FutureSociety)
+##   per PROLIFIC_PID. No reverse coding needed.
+## Requires: stringr, psych, dplyr, tidyr
+##   (+ your helpers CFAstats(), dimensionalityTest(),
+##      explorativeFactorAnalysis() if you run the optional item-level part)
+## =====================================================================
+
+
+## ---------------------------------------------------------------------
+## 0. Items are stored as <chr> -> convert to numeric
+## ---------------------------------------------------------------------
+itemCols <- c("pe1", "pe2", "pe3", "pe4",
+              "att_ideal", "att_beneficial", "att_utopian",
+              "att_desirable", "att_innovative", "att_live_in")
+
+ques_study_within_vignettes[itemCols] <-
+  lapply(ques_study_within_vignettes[itemCols], as.numeric)
+
+## ---------------------------------------------------------------------
+## 1. Scale definitions (no reverse items here)
+## ---------------------------------------------------------------------
+scaleConfigWithin <- list(
+  pe  = list(labelLatent = "PE",  regEx = "^pe[0-9]+$"),  # pe1..pe4
+  att = list(labelLatent = "ATT", regEx = "^att_")        # the 6 att_* items
+)
+
+## ---------------------------------------------------------------------
+## 2. (OPTIONAL) item-level validation via CFAstats(), same as before.
+##    pe/att items are ordered Likert, so polychoric (the helper's
+##    non-"Overall" path) is appropriate here.
+## ---------------------------------------------------------------------
+# cfaResultsWithin <- list()
+# for (short in names(scaleConfigWithin)) {
+#   cfg <- scaleConfigWithin[[short]]
+#   cat("\n\n===================== ", cfg$labelLatent, " =====================\n")
+#   cfaResultsWithin[[short]] <- CFAstats(
+#     dataset = as.data.frame(ques_study_within_vignettes),
+#     regularExp = cfg$regEx, labelLatent = cfg$labelLatent,
+#     showPlots = TRUE, computeEFA = TRUE, computeCFA = TRUE, computeCFAMplus = FALSE)
+# }
+
+## ---------------------------------------------------------------------
+## 3. Per-participant-per-vignette composites -> bind to the long data
+##    mean_<short> = row mean across the scale's items   (na.rm = TRUE)
+##    sd_<short>   = row SD   across the scale's items    (na.rm = TRUE)
+##    -> one value per row (participant x vignette).
+## ---------------------------------------------------------------------
+for (short in names(scaleConfigWithin)) {
+  cfg   <- scaleConfigWithin[[short]]
+  sel   <- str_detect(colnames(ques_study_within_vignettes), cfg$regEx)
+  items <- as.matrix(ques_study_within_vignettes[, sel])
+
+  ques_study_within_vignettes[[paste0("mean_", short)]] <- rowMeans(items, na.rm = TRUE)
+  ques_study_within_vignettes[[paste0("sd_",   short)]] <- apply(items, 1L, sd, na.rm = TRUE)
 }
 
-
-
-# Handle test ID "111" - Special logic
-print("\n=== Filtering Step 2: Handle Test ID '111' ===")
-
-test_ids <- dat$ID[dat$PROLIFIC_PID == "111"] # !!!
-test_ids <- test_ids[!is.na(test_ids)]
-n_test_runs <- length(unique(test_ids))
-
-print(paste("Found", n_test_runs, "test run(s) with ID '111'"))
-
-if (VERBOSE & n_test_runs > 0) {
-  print("Test IDs:")
-  print(test_ids)
-  
-  filtering_stats <- rbind(filtering_stats, 
-                         data.frame(metric = "test_ids", value = paste0(test_ids, collapse = " // ")))
-}
-
-dat <- dat[!dat$ID %in% test_ids, ]
-
-
-if (VERBOSE & n_test_runs > 0) {
-  filtering_stats <- rbind(filtering_stats, 
-                         data.frame(metric = "after_removing_testIDs_records", value = nrow(dat)))
-}
-
-
-# Update participant count
-n_participants_final <- length(unique(dat$ID))
-filtering_stats <- rbind(filtering_stats,
-                         data.frame(metric = "final_unique_participants", value = n_participants_final))
-
-cat("\n✓ Final unique participants:", n_participants_final)
-```
-
-## Extract questionnaire
-
-```{r}
-colnames(dat)[sapply(dat, is.list)]
-```
-
-
-```{r}
-colnames(dat)
-```
-
-```{r}
-tmp <- dat %>%
-  select(-where(is.list)) %>%
-  mutate(across(-ID, as.character)) %>%
-  pivot_longer(-ID) %>%
-  group_by(ID, name) %>%
-  summarise(n_unique = n_distinct(value, na.rm = TRUE), .groups = 'drop') %>%
-  filter(n_unique > 1)
-
-tmp$name
-```
-
-
-
-```{r}
-print("\n=== Creating Questionnaire DataFrame ===")
-
-
-# ============================================================================
-# PSYCHOLOGICAL SCALES - Organized by Type
-# ============================================================================
-
-# --- ACTIVISM & RADICALISM INTENTIONS (ARIS-adapted) ---
-aris_activism <- c(
-  "aris_scale-ais1",   # Join organization
-  "aris_scale-ais2",   # Donate money
-  "aris_scale-ais3",   # Volunteer time
-  "aris_scale-ais4"    # Travel to rally
-)
-
-aris_radicalism <- c(
-  "aris_scale-ris1",   # Support despite breaking law
-  "aris_scale-ris2",   # Support despite violence
-  "aris_scale-ris3",   # Protest despite violence
-  "aris_scale-ris4"    # Attack security forces
-)
-
-# --- UTOPIAN THINKING (Fernando et al. 2018) ---
-utopianism <- c(
-  "utopianism_scale-utop1",   # Think about ideal society
-  "utopianism_scale-utop2",   # Spend time thinking
-  "utopianism_scale-utop3",   # What world I'd like
-  "utopianism_scale-utop4"    # Important to think
-)
-
-anti_utopianism <- c(
-  "anti_utopianism_scale-antiutop1",   # Could be dangerous
-  "anti_utopianism_scale-antiutop2",   # Negative consequences
-  "anti_utopianism_scale-antiutop3",   # Shouldn't envision
-  "anti_utopianism_scale-antiutop4"    # Useless to dream
-)
-
-# --- NEED FOR CHAOS (NFC) - Arceneaux et al. 2021 ---
-need_for_chaos <- c(
-  "nfc_scale-nfc1",   # Kick from disasters
-  "nfc_scale-nfc2",   # Fantasize wipeout
-  "nfc_scale-nfc3",   # Burn society
-  "nfc_scale-nfc4",   # Let them burn
-  "nfc_scale-nfc5",   # Tear down & restart
-  "nfc_scale-nfc6",   # Need chaos
-  "nfc_scale-nfc7"    # Destroy beautiful things
-)
-
-# --- POLITICAL/INSTITUTIONAL ATTITUDES ---
-system_justification <- c(
-  "sjs_scale-sjs1",    # Society is fair
-  "sjs_scale-sjs2",    # Political system works
-  "sjs_scale-sjs3r",   # [REVERSE] Needs restructuring
-  "sjs_scale-sjs4",    # Best country
-  "sjs_scale-sjs5",    # Policies serve greater good
-  "sjs_scale-sjs6",    # Fair shot at wealth
-  "sjs_scale-sjs7r",   # [REVERSE] Getting worse
-  "sjs_scale-sjs8"     # Get what they deserve
-)
-
-# --- WELL-BEING & RESILIENCE ---
-satisfaction_with_life <- c(
-  "swls_scale-swls1",  # Close to ideal
-  "swls_scale-swls2",  # Excellent conditions
-  "swls_scale-swls3",  # Satisfied with life
-  "swls_scale-swls4",  # Got important things
-  "swls_scale-swls5"   # Change almost nothing
-)
-
-brief_resilience <- c(
-  "brs_scale-brs1",    # Bounce back quickly
-  "brs_scale-brs2r",   # [REVERSE] Hard time through stress
-  "brs_scale-brs3",    # Don't take long to recover
-  "brs_scale-brs4r",   # [REVERSE] Hard to snap back
-  "brs_scale-brs5",    # Come through with trouble
-  "brs_scale-brs6r"    # [REVERSE] Long time to get over
-)
-
-# --- DEPRIVATION & CONSPIRACY ---
-personal_relative_deprivation <- c(
-  "prds_scale-prds1",  # Feel deprived
-  "prds_scale-prds2r", # [REVERSE] Feel privileged
-  "prds_scale-prds3",  # Feel resentful
-  "prds_scale-prds4r", # [REVERSE] Quite well off
-  "prds_scale-prds5"   # Dissatisfied
-)
-
-conspiracy_mentality <- c(
-  "cmq_scale-cmq1",    # Important things hidden
-  "cmq_scale-cmq2",    # Politicians don't tell truth
-  "cmq_scale-cmq3",    # Government monitors
-  "cmq_scale-cmq4",    # Secret activities
-  "cmq_scale-cmq5"     # Secret organizations influence
-)
-
-
-
-# ============================================================================
-# SOCIO-DEMOGRAPHIC VARIABLES, FEEDBACK
-# ============================================================================
-socio_demo <- c(
-  "age",
-  "gender",
-  "education",
-  "employment_status",
-  "employment_is_employed",
-  "lrscale",           # Left-right political scale
-  "rlgdgr"             # Religious degree
-)
-
-# --- COMBINED SCALE VECTOR ---
-vec_ques <- c(
-  "PROLIFIC_PID",
-  "dummy_informedconsent",
-  "commCheck",
-  "mic_test_passed",
-  "feedback_critic",
-  socio_demo,
-  # scales:
-  aris_activism,
-  aris_radicalism,
-  utopianism,
-  anti_utopianism,
-  need_for_chaos,
-  system_justification,
-  satisfaction_with_life,
-  brief_resilience,
-  personal_relative_deprivation,
-  conspiracy_mentality
-)
-
-
-vec_notNumeric <- c(
-  "PROLIFIC_PID",
-  # Socio-demographic non-numeric
-  "gender",
-  "education",
-  "employment_status",
-  # Other non-numeric
-  "mic_test_passed",
-  "feedback_critic"
-)
-
-
-# ============================================================================
-# Create questionnaire
-# ============================================================================
-ques_study <- questionnairetype(
-  dataset = dat,
-  listvars = vec_ques,
-  notNumeric = vec_notNumeric,
-  verbose = FALSE
-)
-
-
-ques_study$gender <- factor(x = ques_study$gender)
-ques_study$education <- factor(x = ques_study$education)
-ques_study$employment_status <- factor(x = ques_study$employment_status)
-
-
-# Save summary
-filtering_stats <- rbind(filtering_stats,
-                         data.frame(metric = "final_questionnaire_rows", value = nrow(ques_study)))
-```
-
-filter out double Prolific_ID:
-```{r}
-
-ques_study %>%
-  group_by(PROLIFIC_PID) %>%
-  summarise(N = n()) %>%
-  filter(N >= 2)
-
-
-# 1. Define the ID you want to filter
-duplicate_id <- "698a3b03581c58e0e5b68abf"
-
-# 2. Extract both rows for this ID using %in%
-subset_df <- ques_study[ques_study$PROLIFIC_PID %in% duplicate_id, ]
-subset_df
-```
-
-
-
-```{r}
-nrow(ques_study)
-ques_study <- ques_study[ques_study$ID != 421, ]
-nrow(ques_study)
-```
-
-
-## add rankings
-
-
-
-```{r}
-## PROLIFIC_PIDs first run BEFORE improved ranking task:
-potentialInconsistentRankings <- c("6a08b810d807f5805aabe02e", "67103e4ed56cde03a0f2476b", "59a07638bfd73c00010ea394", "63d7b1a77e23b5460ab88069", "69c4160ec318cfcd7d4f37a4", "69fe9e67a20599144f688b50", "69e91fd1a613772e648e565a", "673e5fc42cbf961c153d09d3", "6a04a5a7e230bb73b88bd6e6", "5f68fdce1c675a0baf13e0ff")
-
-ranking_data <- dat %>%
-  group_by(ID) %>%
-  reframe(
-    PROLIFIC_PID = last_non_empty(PROLIFIC_PID),
-    ranking_final_order = last_non_empty(ranking_final_order)
-  ) 
-
-
-ranking_data$flagPotentialIncon <- FALSE
-ranking_data$flagPotentialIncon[ranking_data$PROLIFIC_PID %in% potentialInconsistentRankings] <- TRUE
-
-ranking_data$rankingOrder <- NA
-ranking_data$rankingOrder[ranking_data$flagPotentialIncon] <- rep(1:7, times = length(potentialInconsistentRankings))
-
-
-## for non-inconsistent potential rankings the new order:
-num_non_InconsistentRankings <- sum(!unique(ranking_data$PROLIFIC_PID) %in% potentialInconsistentRankings)
-ranking_data$rankingOrder[!ranking_data$flagPotentialIncon] <- rep(7:1, times = length(num_non_InconsistentRankings))
-
-
-# to wide
-# ranking_data$ID <- NULL
-# ranking_wide <- ranking_data %>%
-#   pivot_wider(
-#     names_from = ranking_final_order,
-#     values_from = rankingOrder,
-#     names_prefix = ""
-#   )
-
-
-ranking_wide <- dat %>%
-  group_by(ID) %>%
-  reframe(
-    PROLIFIC_PID = last_non_empty(PROLIFIC_PID),
-    ranking_final_order = last_non_empty(ranking_final_order)
-  ) %>%
-  # Create the flag
-  mutate(flagPotentialIncon = PROLIFIC_PID %in% potentialInconsistentRankings) %>%
-  # Group by the flag to assign sequences safely per group
-  group_by(flagPotentialIncon) %>%
-  mutate(
-    # row_number() creates a continuous 1, 2, 3... index within the group
-    # Using %% 7 creates a repeating 1-7 sequence that handles any data length safely
-    item_index = (row_number() - 1) %% 7 + 1,
-    
-    rankingOrder = if_else(flagPotentialIncon, item_index, 8 - item_index)
-  ) %>%
-  ungroup() %>%
-  # Pivot using ID to prevent duplicates
-  pivot_wider(
-    id_cols = c(ID, PROLIFIC_PID, flagPotentialIncon),
-    names_from = ranking_final_order,
-    values_from = rankingOrder
-  ) %>%
-  # Drop ID at the very end if it's no longer needed
-  select(-ID)
-```
-
-```{r}
-ques_study <- ques_study %>%
-  left_join(ranking_wide, by = "PROLIFIC_PID")
-
-# !!! check with prompt below
-table(ques_study$flagPotentialIncon)
-```
-
-
-
-
-# Add Transcripts
-
-## Load transcript files
-
-```{r}
-#| label: load-transcripts
-
-print("\n=== Loading Transcripts ===")
-
-# Find all transcript files
-transcript_files <- list.files(
-  path = AUDIO_TRANSCRIPT_DIR,
-  pattern = "_transcript\\.json$",
-  full.names = TRUE
-)
-
-print(paste("Found", length(transcript_files), "transcript files"))
-
-# Parse all transcripts
-transcripts <- list()
-
-for (file in transcript_files) {
-  tryCatch({
-    transcript <- fromJSON(file)
-    filename <- basename(file)
-    
-    # Extract participant ID from filename
-    # Format: {id_person}_{type}_{timestamp}_transcript.json
-    participant_id <- str_extract(filename, "^[^_]+")
-    audio_type <- str_extract(filename, "(?<=_)(audio_[^_]+)(?=_)")
-    
-    transcripts[[length(transcripts) + 1]] <- list(
-      filename = filename,
-      participant_id = participant_id,
-      audio_type = audio_type,
-      transcript_text = transcript$transcript,
-      timestamp = transcript$timestamp
+head(ques_study_within_vignettes[, grep("^(mean|sd)_(pe|att)$",
+                                         colnames(ques_study_within_vignettes)),
+                                  drop = FALSE])
+
+## ---------------------------------------------------------------------
+## 4. Reshape to WIDE: one row per PROLIFIC_PID, one column per society.
+##    Cell = that participant's composite score for that society.
+##    values_fn guards against a participant seeing a society >1 time.
+## ---------------------------------------------------------------------
+makeWide <- function(data, valueCol,
+                     idCol  = "PROLIFIC_PID",
+                     keyCol = "condition_FutureSociety") {
+  data %>%
+    dplyr::select(dplyr::all_of(c(idCol, keyCol, valueCol))) %>%
+    tidyr::pivot_wider(
+      id_cols     = dplyr::all_of(idCol),
+      names_from  = dplyr::all_of(keyCol),
+      values_from = dplyr::all_of(valueCol),
+      values_fn   = function(x) mean(x, na.rm = TRUE)
     )
-    
-  }, error = function(e) {
-    print(paste("✗ Error loading", file, ":", e$message))
-  })
 }
 
-print(paste("Successfully parsed", length(transcripts), "transcripts"))
+## ---------------------------------------------------------------------
+## 5. Correlation plot + parallel analysis + EFA on the wide matrix.
+##    Composites are continuous, so use Pearson (not polychoric).
+## ---------------------------------------------------------------------
+corEFAwide <- function(wide, idCol = "PROLIFIC_PID", label = "wide") {
+  m <- as.data.frame(wide[, setdiff(colnames(wide), idCol), drop = FALSE])
 
-# Convert to dataframe for easier processing
-transcripts_df <- bind_rows(lapply(transcripts, as.data.frame, stringsAsFactors = FALSE))
+  ## correlation heat-map across the 7 societies
+  tmp_cor <- cor(m, use = "pairwise.complete.obs")
+  psych::cor.plot(r = tmp_cor, upper = FALSE, xlas = 2, main = label)
 
-if (VERBOSE) {
-  print("Sample transcripts:")
-  print(head(transcripts_df))
-  print("\nTranscript types found:")
-  print(table(transcripts_df$audio_type))
+  ## parallel analysis -> suggested number of factors
+  pa <- psych::fa.parallel(m, fm = "minres", fa = "both", main = label, cor = "cor")
+  nf <- max(1, pa$nfact)
+
+  ## EFA
+  efa <- psych::fa(r = tmp_cor, nfactors = nf,
+                   rotate = if (nf > 1) "promax" else "none",
+                   n.obs = nrow(m))
+  cat("\n", label, " - EFA loadings (", nf, " factor(s)):\n", sep = "")
+  print(efa$loadings)
+
+  list(cor = tmp_cor, parallel = pa, nfact = nf, efa = efa)
 }
+
+## build wide data + run, for each composite
+wide_pe  <- makeWide(ques_study_within_vignettes, "mean_pe")
+wide_att <- makeWide(ques_study_within_vignettes, "mean_att")
+
+res_pe_wide  <- corEFAwide(wide_pe,  label = "PE across societies")
+res_att_wide <- corEFAwide(wide_att, label = "ATT across societies")
+
+## inspect later, e.g. res_att_wide$efa$loadings ; res_att_wide$nfact
 ```
 
-## Match transcripts to questionnaire and add
 
 ```{r}
-#| label: add-transcripts-to-questionnaire
+pe_items_long <- CFAstats(
+    dataset         = ques_study_within_vignettes,
+    regularExp      = "^pe",
+    labelLatent     = "pe",
+    showPlots       = opt_showPlots,
+    computeEFA      = opt_computeEFA,
+    computeCFA      = opt_computeCFA,
+    computeCFAMplus = opt_computeCFAMplus
+  )
 
-print("\n=== Adding Transcripts to Questionnaire ===")
 
-# Initialize columns
-ques_study$text_missingUtopia <- NA_character_
-ques_study$text_rankingUtopias <- NA_character_
 
-# For each participant in questionnaire
-for (i in 1:nrow(ques_study)) {
-  participant_id <- ques_study$PROLIFIC_PID[i]
-  
-  # Find matching transcripts
-  matching_transcripts <- transcripts_df %>%
-    filter(participant_id == !! participant_id)
-  
-  if (nrow(matching_transcripts) > 0) {
-    # Process missing utopia transcripts
-    missing_utopia <- matching_transcripts %>%
-      filter(audio_type == "audio_missing") %>%
-      arrange(desc(timestamp))
-    
-    if (nrow(missing_utopia) > 0) {
-      # Keep only most recent
-      ques_study$text_missingUtopia[i] <- missing_utopia$transcript_text[1]
-      
-      if (VERBOSE & nrow(missing_utopia) > 1) {
-        print(paste("  Participant", participant_id, "- Kept 1 of", nrow(missing_utopia), "missingUtopia transcripts"))
-      }
-    }
-    
-    # Process ranking explanation transcripts
-    ranking <- matching_transcripts %>%
-      filter(audio_type == "audio_ranking") %>%
-      arrange(desc(timestamp))
-    
-    if (nrow(ranking) > 0) {
-      # Keep only most recent
-      ques_study$text_rankingUtopias[i] <- ranking$transcript_text[1]
-      
-      if (VERBOSE & nrow(ranking) > 1) {
-        print(paste("  Participant", participant_id, "- Kept 1 of", nrow(ranking), "rankingUtopias transcripts"))
-      }
-    }
-  }
-}
-
-# Check coverage
-n_with_missing_utopia <- sum(!is.na(ques_study$text_missingUtopia))
-n_with_ranking <- sum(!is.na(ques_study$text_rankingUtopias))
-
-print(paste("Transcripts added:"))
-print(paste("  - text_missingUtopia:", n_with_missing_utopia, "/", nrow(ques_study)))
-print(paste("  - text_rankingUtopias:", n_with_ranking, "/", nrow(ques_study)))
-
-print("✓ Transcripts merged successfully")
+att_items_long <- CFAstats(
+    dataset         = ques_study_within_vignettes,
+    regularExp      = "^att",
+    labelLatent     = "att",
+    showPlots       = opt_showPlots,
+    computeEFA      = opt_computeEFA,
+    computeCFA      = opt_computeCFA,
+    computeCFAMplus = opt_computeCFAMplus
+  )
 ```
+
 
 
 ---
 
-# Add Sentiment Analysis
+# Get Data for Hypothesis
 
-## Load overall sentiment data
+## H1
 
 ```{r}
-#| label: load-overall-sentiment
+## ---------------------------------------------------------------------
+## 0. Variable groups to keep
+## ---------------------------------------------------------------------
+sampleVars <- c("age", "gender", "education", "employment_status", "employment_is_employed",
+                "lrscale", "rlgdgr")                       # sample description
+rankVars   <- grep("^rank_", colnames(ques_study_wide), value = TRUE)  # ranking task
+ 
+## Governance grouping (EDIT here if a prototype belongs elsewhere).
+## self-governed = self-determined societal change; everything else
+## (religious, aicentered, lawBased, futurist) = externally determined.
+self_governed_conditions <- c("moderngreen", "primitivist", "anarchic") # all others are non-self governed
+ 
+## ---------------------------------------------------------------------
+## 1. Build the H1 subset (long; keeps ranking + sample descriptors)
+## ---------------------------------------------------------------------
+data_H1 <- ques_study_within_vignettes %>%
+  dplyr::mutate(
+    self_externally_governed = factor(
+      ifelse(condition_FutureSociety %in% self_governed_conditions,
+             "self_governed", "externally_governed"),
+      levels = c("externally_governed", "self_governed"))   # external = reference
+  ) %>%
+  dplyr::select(ID, PROLIFIC_PID, condition_FutureSociety, vignette_id,
+                self_externally_governed,
+                mean_pe, sd_pe, att_live_in, mean_att, sd_att) %>%
+  dplyr::left_join(
+    dplyr::select(ques_study_wide,
+                  dplyr::all_of(c("PROLIFIC_PID", sampleVars, rankVars))),
+    by = "PROLIFIC_PID")
+ 
+## sanity: which prototypes landed in each bucket
+table(data_H1$condition_FutureSociety, data_H1$self_externally_governed)
+ 
+## ---------------------------------------------------------------------
+## 2. Describe the sample (participant level: one row per person)
+## ---------------------------------------------------------------------
+sample_desc <- ques_study_wide %>%
+  dplyr::select(dplyr::all_of(c("PROLIFIC_PID", sampleVars))) %>%
+  dplyr::distinct()
+psych::describe(sample_desc[, c("age", "lrscale", "rlgdgr")])
+lapply(sample_desc[, c("gender", "education", "employment_status")], table)
+ 
+## ---------------------------------------------------------------------
+## 3. Test H1 (within-person: random intercept per participant)
+## ---------------------------------------------------------------------
+## group means
+data_H1 %>%
+  dplyr::group_by(self_externally_governed) %>%
+  dplyr::summarise(M_pe   = mean(mean_pe,     na.rm = TRUE),
+                   SD_pe  = sd(mean_pe,       na.rm = TRUE),
+                   M_live = mean(att_live_in, na.rm = TRUE),
+                   SD_live= sd(att_live_in,   na.rm = TRUE), .groups = "drop")
+ 
+## participative efficacy
+m_pe   <- lmer(mean_pe     ~ self_externally_governed + (1 | PROLIFIC_PID), data = data_H1)
+## "want to live in" evaluation
+m_live <- lmer(att_live_in ~ self_externally_governed + (1 | PROLIFIC_PID), data = data_H1)
+summary(m_pe)
+summary(m_live)
+ 
+## ---------------------------------------------------------------------
+## 4. Export the H1 subset: SPSS (.sav), Excel (.xlsx), R (.rds)
+## ---------------------------------------------------------------------
+exportDataset <- function(df, base, dir = ".") {
+  if (!dir.exists(dir)) dir.create(dir, recursive = TRUE)
+  clean <- df; names(clean) <- gsub("[^A-Za-z0-9_]", "_", names(clean))  # SPSS/Excel-safe names
+  haven::write_sav(clean, file.path(dir, paste0(base, ".sav")))          # factors -> labelled
+  xl <- clean; f <- vapply(xl, is.factor, logical(1))
+  xl[f] <- lapply(xl[f], as.character)                                   # writexl wants atomic cols
+  writexl::write_xlsx(xl, file.path(dir, paste0(base, ".xlsx")))
+  saveRDS(df, file.path(dir, paste0(base, ".rds")))                      # keeps original names/types
+  invisible(NULL)
+}
+ 
+exportDataset(data_H1, "data_H1", OUTPUT_QUESTIONNAIRE_PIA_DIR)
+```
 
-print("\n=== Loading Overall Sentiment Analysis ===")
+### plots H1
 
-# Find sentiment file
-sentiment_files <- list.files(
-  path = SENTIMENT_DIR,
-  pattern = "overall_sentiment_and_embedding.*\\.csv$",
-  full.names = TRUE
+```{r}
+## =====================================================================
+## Plot H1: participative efficacy & "want to live in" by governance group
+## =====================================================================
+## ---------------------------------------------------------------------
+## A) Descriptive plot straight from the group means (mean +/- 95% CI)
+## ---------------------------------------------------------------------
+plot_dat <- data_H1 %>%
+  dplyr::group_by(self_externally_governed) %>%
+  dplyr::summarise(
+    M_pe   = mean(mean_pe,     na.rm = TRUE),
+    SE_pe  = sd(mean_pe,       na.rm = TRUE) / sqrt(sum(!is.na(mean_pe))),
+    M_live = mean(att_live_in, na.rm = TRUE),
+    SE_live= sd(att_live_in,   na.rm = TRUE) / sqrt(sum(!is.na(att_live_in))),
+    .groups = "drop") %>%
+  tidyr::pivot_longer(-self_externally_governed,
+                      names_to = c(".value", "outcome"), names_sep = "_") %>%
+  dplyr::mutate(
+    outcome = factor(outcome, levels = c("pe", "live"),
+                     labels = c("Participative efficacy", "Want to live in")),
+    lo = M - 1.96 * SE, hi = M + 1.96 * SE)
+
+ggplot(plot_dat, aes(self_externally_governed, M, fill = self_externally_governed)) +
+  geom_col(width = .6) +
+  geom_errorbar(aes(ymin = lo, ymax = hi), width = .15) +
+  geom_text(aes(label = sprintf("%.2f", M)), vjust = -0.6, size = 3.5) +
+  facet_wrap(~ outcome, scales = "free_y") +
+  scale_fill_manual(values = c(externally_governed = "#9aa6b2",
+                               self_governed        = "#3f7cac")) +
+  labs(x = NULL, y = "Mean (\u00B1 95% CI)",
+       title = "H1: prototype agency",
+       subtitle = "Self- vs externally-governed future societies") +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "none",
+        axis.text.x = element_text(angle = 15, hjust = 1))
+
+## ---------------------------------------------------------------------
+## B) Model-based plot from the mixed models (marginal means + 95% CI)
+##    Matches the lmer tests; install.packages("emmeans") if needed.
+## ---------------------------------------------------------------------
+library(emmeans)
+
+emm <- dplyr::bind_rows(
+  as.data.frame(emmeans(m_pe,   ~ self_externally_governed)) %>%
+    dplyr::mutate(outcome = "Participative efficacy"),
+  as.data.frame(emmeans(m_live, ~ self_externally_governed)) %>%
+    dplyr::mutate(outcome = "Want to live in")
 )
 
-if (length(sentiment_files) > 0) {
-  # Use most recent if multiple files exist
-  sentiment_file <- sentiment_files[which.max(file.info(sentiment_files)$mtime)]
-  
-  print(paste("Using:", basename(sentiment_file)))
-  
-  sentiment_overall <- read.csv(sentiment_file, stringsAsFactors = FALSE)
-  
-  print(paste("Loaded", nrow(sentiment_overall), "sentiment records"))
-  print("\nSample data:")
-  print(head(sentiment_overall))
-  
-} else {
-  print("✗ No overall sentiment file found!")
-  sentiment_overall <- NULL
-}
+## emmeans names the CI columns lower.CL/upper.CL (t-based) OR
+## asymp.LCL/asymp.UCL (z-based, as with lmer). Normalise to lo/hi.
+emm$lo <- if ("lower.CL" %in% names(emm)) emm$lower.CL else emm$asymp.LCL
+emm$hi <- if ("upper.CL" %in% names(emm)) emm$upper.CL else emm$asymp.UCL
+
+ggplot(emm, aes(self_externally_governed, emmean, colour = self_externally_governed)) +
+  geom_point(size = 3) +
+  geom_errorbar(aes(ymin = lo, ymax = hi), width = .15) +
+  facet_wrap(~ outcome, scales = "free_y") +
+  scale_colour_manual(values = c(externally_governed = "#9aa6b2",
+                                 self_governed        = "#3f7cac")) +
+  labs(x = NULL, y = "Estimated marginal mean (\u00B1 95% CI)",
+       title = "H1: model-estimated means") +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "none",
+        axis.text.x = element_text(angle = 15, hjust = 1))
+
+## ---------------------------------------------------------------------
+## C) Grouped barplot for the SEVEN single conditions (mean +/- 95% CI),
+##    coloured by governance bucket, faceted by outcome.
+## ---------------------------------------------------------------------
+cond_dat <- data_H1 %>%
+  dplyr::group_by(condition_FutureSociety, self_externally_governed) %>%
+  dplyr::summarise(
+    M_pe   = mean(mean_pe,     na.rm = TRUE),
+    SE_pe  = sd(mean_pe,       na.rm = TRUE) / sqrt(sum(!is.na(mean_pe))),
+    M_live = mean(att_live_in, na.rm = TRUE),
+    SE_live= sd(att_live_in,   na.rm = TRUE) / sqrt(sum(!is.na(att_live_in))),
+    .groups = "drop") %>%
+  tidyr::pivot_longer(c(M_pe, SE_pe, M_live, SE_live),
+                      names_to = c(".value", "outcome"), names_sep = "_") %>%
+  dplyr::mutate(
+    outcome = factor(outcome, levels = c("pe", "live"),
+                     labels = c("Participative efficacy", "Want to live in")),
+    lo = M - 1.96 * SE, hi = M + 1.96 * SE)
+
+ggplot(cond_dat,
+       aes(x = reorder(condition_FutureSociety, M), y = M,
+           fill = self_externally_governed)) +
+  geom_col(width = .7) +
+  geom_errorbar(aes(ymin = lo, ymax = hi), width = .2) +
+  facet_wrap(~ outcome, scales = "free_y") +
+  scale_fill_manual(values = c(externally_governed = "#9aa6b2",
+                               self_governed        = "#3f7cac"),
+                    name = "Governance") +
+  labs(x = NULL, y = "Mean (\u00B1 95% CI)",
+       title = "H1: per-condition means",
+       subtitle = "Seven future-society prototypes, coloured by governance bucket") +
+  theme_minimal(base_size = 12) +
+  theme(axis.text.x = element_text(angle = 35, hjust = 1),
+        legend.position = "top")
 ```
 
-## Add overall sentiment to questionnaire
+
+## H2
+
+
+
 
 ```{r}
-#| label: add-overall-sentiment
+## =====================================================================
+## H2 setup: pull each participant's preferred-society row(s)
+## Ranking (ques_study_wide, rank_* columns) -> most preferred society
+## per participant -> extract that participant's matching row from the
+## long within-vignettes data (pe = participative efficacy, att = eval.,
+## plus any BI / AIS-adapted columns it contains).
+## Requires: stringr, dplyr, tidyr
+## =====================================================================
 
-if (!is.null(sentiment_overall)) {
-  print("\n=== Adding Overall Sentiment to Questionnaire ===")
-  
-  # Initialize columns
-  ques_study$sentiment_label <- NA_character_
-  ques_study$sentiment_score <- NA_real_
-  ques_study$num_windows <- NA_integer_
-  
-  # For each participant
-  for (i in 1:nrow(ques_study)) {
-    participant_id <- ques_study$PROLIFIC_PID[i]
-    
-    # Find matching sentiment records
-    # Match using json_file which contains participant_id
-    matching_sentiment <- sentiment_overall %>%
-      filter(grepl(participant_id, json_file, fixed = TRUE))
-    
-    if (nrow(matching_sentiment) > 0) {
-      # If multiple matches, use most recent (first one after sort)
-      # For now, combine or average if multiple
-      
-      if (nrow(matching_sentiment) > 1) {
-        # Average sentiment scores, keep first label
-        ques_study$sentiment_label[i] <- matching_sentiment$sentiment_label[1]
-        ques_study$sentiment_score[i] <- mean(matching_sentiment$sentiment_score, na.rm = TRUE)
-        ques_study$num_windows[i] <- sum(matching_sentiment$num_windows, na.rm = TRUE)
-        
-        if (VERBOSE) {
-          # print(paste("  Participant", participant_id, "- Averaged", nrow(matching_sentiment), "sentiment records"))
-        }
-      } else {
-        ques_study$sentiment_label[i] <- matching_sentiment$sentiment_label[1]
-        ques_study$sentiment_score[i] <- matching_sentiment$sentiment_score[1]
-        ques_study$num_windows[i] <- matching_sentiment$num_windows[1]
-      }
-    }
-  }
-  
-  n_with_sentiment <- sum(!is.na(ques_study$sentiment_label))
-  print(paste("Overall sentiment added to", n_with_sentiment, "participants"))
-  
-} else {
-  print("Skipping overall sentiment (file not found)")
-}
-```
+## ---------------------------------------------------------------------
+## ASSUMPTIONS -- check these against your codebook
+## ---------------------------------------------------------------------
+idCol <- "PROLIFIC_PID"   # common key in BOTH datasets; switch to "ID" if needed
 
-## Load window-level sentiment data
+## rank value 1 == MOST preferred (L1), 2 == second (L2), ... 7 == least.
+## (If 7 is most preferred in your coding, flip with: rank <- 8 - rank.)
 
-```{r}
-#| label: load-window-sentiment
-
-print("\n=== Loading Window-Level Sentiment ===")
-
-# Find window sentiment file
-window_files <- list.files(
-  path = SENTIMENT_DIR,
-  pattern = "window_sentiments.*\\.csv$",
-  full.names = TRUE
+## map rank_* suffixes -> condition_FutureSociety labels in the long data.
+## LEFT = suffix after "rank_"  ;  RIGHT = value in condition_FutureSociety.
+society_map <- c(
+  religious      = "religious",
+  ai_centered    = "aicentered",
+  primitivist    = "primitivist",
+  institutional  = "lawBased",
+  moral_anarchic = "anarchic",
+  futurist       = "futurist",
+  modern_green   = "moderngreen"
 )
 
-if (length(window_files) > 0) {
-  # Use most recent if multiple files exist
-  window_file <- window_files[which.max(file.info(window_files)$mtime)]
-  
-  print(paste("Using:", basename(window_file)))
-  
-  sentiment_windows <- read.csv(window_file, stringsAsFactors = FALSE)
-  
-  # Calculate max window index
-  max_window_idx <- max(sentiment_windows$window_index, na.rm = TRUE)
-  
-  print(paste("Loaded", nrow(sentiment_windows), "window sentiment records"))
-  print(paste("Maximum window index:", max_window_idx))
-  
-  # Show sample
-  print("\nSample data:")
-  print(head(sentiment_windows))
-  
-} else {
-  print("✗ No window sentiment file found!")
-  sentiment_windows <- NULL
-  max_window_idx <- 0
-}
-```
+## ---------------------------------------------------------------------
+## Function: rows from the long data for each participant's n-th
+## preferred society (level = 1 -> L1 most preferred, 2 -> L2, ...).
+## ---------------------------------------------------------------------
+extractPreferredRows <- function(level     = 1,
+                                 wide      = ques_study_wide,
+                                 long      = ques_study_within_vignettes,
+                                 id        = idCol,
+                                 societyMap = society_map) {
 
-## Add window sentiment columns
+  rankCols <- stringr::str_subset(colnames(wide), "^rank")
 
-```{r}
-#| label: add-window-sentiment
-
-if (!is.null(sentiment_windows)) {
-  print("\n=== Adding Window-Level Sentiment Columns ===")
-  
-  # Create column names dynamically
-  window_cols <- paste0("window_", 0:max_window_idx, "_sentimentLabel")
-  
-  print(paste("Creating", length(window_cols), "window sentiment columns"))
-  
-  # Initialize columns with NA
-  for (col in window_cols) {
-    ques_study[[col]] <- NA_character_
-  }
-  
-  # Fill window sentiment for each participant
-  for (i in 1:nrow(ques_study)) {
-    participant_id <- ques_study$PROLIFIC_PID[i]
-    
-    # Find windows for this participant
-    participant_windows <- sentiment_windows %>%
-      filter(grepl(participant_id, json_file, fixed = TRUE))
-    
-    if (nrow(participant_windows) > 0) {
-      # Fill window columns
-      for (j in 1:nrow(participant_windows)) {
-        window_idx <- participant_windows$window_index[j]
-        col_name <- paste0("window_", window_idx, "_sentimentLabel")
-        
-        # Only fill if column exists
-        if (col_name %in% colnames(ques_study)) {
-          ques_study[i, col_name] <- participant_windows$sentiment_label[j]
-        }
-      }
-      
-      if (VERBOSE & i %in% c(1, 5, 10)) {
-        print(paste("  Participant", participant_id, "- Added", nrow(participant_windows), "window sentiments"))
-      }
-    }
-  }
-  
-  print(paste("✓ Window sentiment columns added"))
-  
-} else {
-  print("Skipping window sentiment (file not found)")
-}
-```
-```{r}
-# Before
-cat("Original columns:", ncol(ques_study), "\n")
-cat("Columns that are all NA:", sum(sapply(ques_study, function(x) all(is.na(x)))), "\n")
-
-# Apply removal (Option 1)
-ques_study <- ques_study[, colSums(is.na(ques_study)) < nrow(ques_study)]
-
-# After
-cat("Final columns:", ncol(ques_study), "\n")
-```
-
-
----
-
-# Get within part of study
-
-
-
-## vignette part
-
-```{r}
-# --- Get PROLIFIC_PID mapping ---
-pid_lookup <- dat %>%
-  group_by(ID) %>%
-  summarise(PROLIFIC_PID = last_non_empty(PROLIFIC_PID), .groups = 'drop')
-
-# --- Initialize results list ---
-vignette_list <- list()
-
-# --- Get unique IDs ---
-unique_ids <- unique(dat$ID)
-
-# --- LOOP 1: For each participant ---
-for (id in unique_ids) {
-  
-  # Filter data for this participant
-  dat_id <- dat %>% filter(ID == id)
-  
-  # Get their PROLIFIC_PID
-  prolific_pid <- pid_lookup %>% 
-    filter(ID == id) %>% 
-    pull(PROLIFIC_PID)
-  
-  # --- LOOP 2: For each vignette trial (counterScenarios) ---
-  unique_trials <- unique(na.omit(dat_id$counterScenarios))
-  
-  for (trial in unique_trials) {
-    
-    # Filter data for this trial
-    trial_data <- dat_id %>% filter(counterScenarios == trial)
-    
-    # Extract values (take last non-empty per variable)
-    row <- tibble(
-      ID = id,
-      PROLIFIC_PID = prolific_pid,
-      counterScenarios = trial,
-      vignette_order_position = last_non_empty(trial_data$vignette_order_position),
-      vignette_id = last_non_empty(trial_data$vignette_id),
-      condition_FutureSociety = last_non_empty(trial_data$condition_FutureSociety),
-      # Participative efficacy
-      pe1 = last_non_empty(trial_data$pe1),
-      pe2 = last_non_empty(trial_data$pe2),
-      pe3 = last_non_empty(trial_data$pe3),
-      pe4 = last_non_empty(trial_data$pe4),
-      # Attributes
-      att_ideal = last_non_empty(trial_data$att_ideal),
-      att_beneficial = last_non_empty(trial_data$att_beneficial),
-      att_utopian = last_non_empty(trial_data$att_utopian),
-      att_desirable = last_non_empty(trial_data$att_desirable),
-      att_innovative = last_non_empty(trial_data$att_innovative),
-      att_live_in = last_non_empty(trial_data$att_live_in),
-      # Paradata
-      para_countclicks = last_non_empty(trial_data$para_countclicks),
-      time_run = last_non_empty(trial_data$time_run),
-      time_render = last_non_empty(trial_data$time_render),
-      time_show = last_non_empty(trial_data$time_show)
-    )
-    
-    # Add to results list
-    vignette_list[[length(vignette_list) + 1]] <- row
-  }
-  
-  # Progress indicator
-  # cat("Processed ID:", id, "\n")
-}
-
-# --- Combine all results into one dataframe ---
-ques_study_within_vignettes <- bind_rows(vignette_list)
-
-# --- Remove trials with all NA in PE/ATT ---
-ques_study_within_vignettes <- ques_study_within_vignettes %>%
-  filter(!if_all(pe1:att_live_in, is.na)) %>%
-  arrange(ID, counterScenarios)
-
-# --- Inspect results ---
-head(ques_study_within_vignettes)
-cat("Total vignette trials:", nrow(ques_study_within_vignettes), "\n")
-cat("Trials per participant:\n")
-print(table(ques_study_within_vignettes$ID))
-```
-
-## visual trap part
-
-```{r}
-trap_types <- c("Planets", "Robot", "Circles", "Lines", "CafeWall", "Collision")
-
-visual_trap_within <- map_df(trap_types, function(trap) {
-  dat %>%
-    select(
-      ID,
-      counterVisualTraps,
-      all_of(paste0("visualTrap_", trap, "_response")),
-      all_of(paste0("visualTrap_", trap, "_responseLabel")),
-      all_of(paste0("visualTrap_", trap, "_correct")),
-      all_of(paste0("visualTrap_", trap, "_rtMs"))
+  pref <- wide %>%
+    dplyr::select(dplyr::all_of(c(id, rankCols))) %>%
+    tidyr::pivot_longer(dplyr::all_of(rankCols),
+                        names_to = "society_rankvar", values_to = "rank") %>%
+    dplyr::mutate(
+      society_rank            = sub("^rank_", "", society_rankvar),
+      condition_FutureSociety = unname(societyMap[society_rank])
     ) %>%
-    # Remove rows where this trap is all NA
-    filter(!if_all(starts_with("visualTrap_"), is.na)) %>%
-    distinct(ID, counterVisualTraps, .keep_all = TRUE) %>%
-    mutate(
-      trap_type = trap,
-      response = .data[[paste0("visualTrap_", trap, "_response")]],
-      response_label = .data[[paste0("visualTrap_", trap, "_responseLabel")]],
-      correct = .data[[paste0("visualTrap_", trap, "_correct")]],
-      rt_ms = .data[[paste0("visualTrap_", trap, "_rtMs")]]
-    ) %>%
-    select(ID, counterVisualTraps, trap_type, response, response_label, correct, rt_ms)
-}) %>%
-  # Add PROLIFIC_PID from lookup
-  left_join(pid_lookup, by = "ID") %>%
-  select(ID, PROLIFIC_PID, counterVisualTraps, trap_type, everything()) %>%
-  arrange(ID, counterVisualTraps, trap_type)
+    dplyr::filter(rank == level) %>%                 # rank == 1 -> L1, == 2 -> L2
+    dplyr::select(dplyr::all_of(id), condition_FutureSociety, rank) %>%
+    dplyr::rename(pref_rank = rank)
 
-# --- Inspect results ---
-head(visual_trap_within)
-cat("Total vignette trials:", nrow(visual_trap_within), "\n")
-cat("Trials per participant:\n")
-print(table(visual_trap_within$ID))
-```
+  ## warn if any society_rank wasn't mapped
+  unmapped <- setdiff(sub("^rank_", "", rankCols), names(societyMap))
+  if (length(unmapped)) warning("Unmapped rank suffixes: ",
+                                paste(unmapped, collapse = ", "))
 
-# Summary stats and Quality checks
-
-
-```{r}
-print("FINAL DATA SUMMARY & VALIDATION")
-print(strrep("=", 80))
- 
-# --- Count unique IDs across datasets ---
-n_ids_wide <- n_distinct(ques_study$ID)
-n_ids_vignettes <- n_distinct(ques_study_within_vignettes$ID)
-n_ids_traps <- n_distinct(visual_trap_within$ID)
- 
-print("\n📊 PARTICIPANT COUNTS:")
-print(paste("  - Between-subjects (ques_study):", n_ids_wide, "unique IDs"))
-print(paste("  - Within-vignettes dataset:", n_ids_vignettes, "unique IDs"))
-print(paste("  - Within-traps dataset:", n_ids_traps, "unique IDs"))
-```
-
-## VALIDATION CHECK 1: Matching ID counts
-
-```{r}
-print("VALIDATION 1: ID Count Matching")
-print(strrep("-", 80))
- 
-id_count_mismatch <- FALSE
- 
-if (n_ids_wide != n_ids_vignettes) {
-  print("❌ ERROR: ID count mismatch between ques_study and vignettes dataset!")
-  print(paste("   ques_study IDs:", n_ids_wide))
-  print(paste("   vignettes IDs:", n_ids_vignettes))
-  id_count_mismatch <- TRUE
+  ## pull the matching within-vignette row for that participant + society
+  dplyr::inner_join(long, pref, by = c(id, "condition_FutureSociety"))
 }
- 
-if (n_ids_wide != n_ids_traps) {
-  print("❌ ERROR: ID count mismatch between ques_study and traps dataset!")
-  print(paste("   ques_study IDs:", n_ids_wide))
-  print(paste("   traps IDs:", n_ids_traps))
-  id_count_mismatch <- TRUE
-}
- 
-if (n_ids_vignettes != n_ids_traps) {
-  print("❌ ERROR: ID count mismatch between vignettes and traps datasets!")
-  print(paste("   vignettes IDs:", n_ids_vignettes))
-  print(paste("   traps IDs:", n_ids_traps))
-  id_count_mismatch <- TRUE
-}
- 
-if (!id_count_mismatch) {
-  print("✓ All datasets have matching ID counts")
-}
-```
 
-## VALIDATION CHECK 2: ID set matching
+## ---------------------------------------------------------------------
+## Extract
+## ---------------------------------------------------------------------
+L1_rows <- extractPreferredRows(level = 1)   # each participant's MOST preferred society
+L2_rows <- extractPreferredRows(level = 2)   # each participant's 2nd preferred society
 
-```{r}
-print("VALIDATION 2: ID Set Matching")
-print(strrep("-", 80))
- 
-ids_wide <- sort(unique(ques_study$ID))
-ids_vignettes <- sort(unique(ques_study_within_vignettes$ID))
-ids_traps <- sort(unique(visual_trap_within$ID))
- 
-# Check vignettes vs wide
-missing_in_vignettes <- setdiff(ids_wide, ids_vignettes)
-extra_in_vignettes <- setdiff(ids_vignettes, ids_wide)
- 
-if (length(missing_in_vignettes) > 0) {
-  print("❌ ERROR: IDs in ques_study but missing from vignettes dataset:")
-  print(paste("   Missing:", paste(missing_in_vignettes, collapse = ", ")))
-  id_count_mismatch <- TRUE
-} else {
-  print("✓ All ques_study IDs present in vignettes dataset")
-}
- 
-if (length(extra_in_vignettes) > 0) {
-  print("❌ ERROR: IDs in vignettes but not in ques_study:")
-  print(paste("   Extra:", paste(extra_in_vignettes, collapse = ", ")))
-  id_count_mismatch <- TRUE
-}
- 
-# Check traps vs wide
-missing_in_traps <- setdiff(ids_wide, ids_traps)
-extra_in_traps <- setdiff(ids_traps, ids_wide)
- 
-if (length(missing_in_traps) > 0) {
-  print("❌ ERROR: IDs in ques_study but missing from traps dataset:")
-  print(paste("   Missing:", paste(missing_in_traps, collapse = ", ")))
-  id_count_mismatch <- TRUE
-} else {
-  print("✓ All ques_study IDs present in traps dataset")
-}
- 
-if (length(extra_in_traps) > 0) {
-  print("❌ ERROR: IDs in traps but not in ques_study:")
-  print(paste("   Extra:", paste(extra_in_traps, collapse = ", ")))
-  id_count_mismatch <- TRUE
-}
- 
-# STOP IF VALIDATION FAILED
-if (id_count_mismatch) {
-  # stop("\n🛑 DATA INTEGRITY VALIDATION FAILED!\n   Please review ID mismatches above before proceeding.") # !!!
-}
- 
-print("✓ ALL VALIDATION CHECKS PASSED!")
-print(strrep("✓", 80))
-```
+## quick checks
+nrow(L1_rows)                                 # ~ one row per participant
+count(L1_rows, condition_FutureSociety)       # how often each society is the L1 pick
 
-
-## MISSING DATA REPORT
-
-```{r}
-print("MISSING DATA REPORT")
-print(strrep("=", 80))
- 
-# For between-subjects (top columns with most missing)
-missing_wide <- data.frame(
-  Column = colnames(ques_study),
-  Missing_Count = colSums(is.na(ques_study)),
-  Missing_Percent = round(colSums(is.na(ques_study)) / nrow(ques_study) * 100, 2),
-  stringsAsFactors = FALSE
+## ---------------------------------------------------------------------
+## L1 vs L2 in long form (for the AIS-adapted BI comparison / H2)
+## -> one participant contributes two rows: pref_level L1 and L2.
+## Run paired comparisons on the BI / AIS-adapted column(s) here.
+## ---------------------------------------------------------------------
+pref_L1L2 <- dplyr::bind_rows(
+  dplyr::mutate(L1_rows, pref_level = "L1"),
+  dplyr::mutate(L2_rows, pref_level = "L2")
 ) %>%
-  filter(Missing_Count > 0) %>%
-  arrange(desc(Missing_Count)) %>%
-  head(15)
- 
-if (nrow(missing_wide) > 0) {
-  print("\nBetween-subjects (ques_study) - Top 15 columns with missing data:")
-  print(missing_wide)
-} else {
-  print("\n✓ No missing values in ques_study")
-}
-```
+  dplyr::arrange(.data[[idCol]], pref_level)
 
-# Save Datasets
-
-
-```{r}
-# --- Vignette trials per participant ---
-trial_dist <- ques_study_within_vignettes %>%
-  group_by(ID) %>%
-  summarise(n_trials = n(), .groups = 'drop') %>%
-  pull(n_trials)
-
-# --- Trap trials per participant ---
-trap_dist <- visual_trap_within %>%
-  group_by(ID) %>%
-  summarise(n_trials = n(), .groups = 'drop') %>%
-  pull(n_trials)
-```
-
-
-```{r}
-# ============================================================================
-# SAVE ALL DATASETS
-# ============================================================================
-
-print("SAVING FINAL DATASETS")
-print(strrep("=", 80))
-
-# --- Output directories ---
-output_dir <- file.path(OUTPUT_QUESTIONNAIRE_DIR)
-within_dir <- file.path(OUTPUT_QUESTIONNAIRE_DIR, "within_subjects")
-
-# Create directories if they don't exist
-dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
-dir.create(within_dir, showWarnings = FALSE, recursive = TRUE)
-
-# ============================================================================
-# DATASET 1: BETWEEN-SUBJECTS (Wide Format)
-# ============================================================================
-print("\n📋 Saving BETWEEN-SUBJECTS dataset (ques_study)...")
-
-# RDS format (preserves data types)
-ques_study_file_rds <- file.path(output_dir, "ques_study_wide.rds")
-saveRDS(ques_study, file = ques_study_file_rds)
-print(paste("  ✓ Saved: ques_study_wide.rds"))
-
-# CSV format
-ques_study_file_csv <- file.path(output_dir, "ques_study_wide.csv")
-write.csv(ques_study, file = ques_study_file_csv, row.names = FALSE)
-print(paste("  ✓ Saved: ques_study_wide.csv"))
-
-# XLSX format
-ques_study_file_xlsx <- file.path(output_dir, "ques_study_wide.xlsx")
-writexl::write_xlsx(ques_study, path = ques_study_file_xlsx)
-print(paste("  ✓ Saved: ques_study_wide.xlsx"))
-
-# --- Clean for SPSS ---
-# Create a temporary copy and replace all "-" with "_" in column names
-ques_study_spss <- ques_study
-colnames(ques_study_spss) <- gsub("-", "_", colnames(ques_study_spss))
-
-ques_study_file_sav <- file.path(output_dir, "ques_study_wide.sav")
-haven::write_sav(ques_study_spss, path = ques_study_file_sav)
-print(paste("   ✓ Saved: ques_study_wide.sav (with SPSS-valid names)"))
-
-# ============================================================================
-# DATASET 2: WITHIN-SUBJECTS - VIGNETTES (Long Format)
-# ============================================================================
-print("\n📊 Saving WITHIN-SUBJECTS VIGNETTES dataset (ques_study_within_vignettes)...")
-
-# RDS format
-vignettes_file_rds <- file.path(within_dir, "ques_study_within_vignettes.rds")
-saveRDS(ques_study_within_vignettes, file = vignettes_file_rds)
-print(paste("  ✓ Saved: within_subjects/ques_study_within_vignettes.rds"))
-
-# CSV format
-vignettes_file_csv <- file.path(within_dir, "ques_study_within_vignettes.csv")
-write.csv(ques_study_within_vignettes, file = vignettes_file_csv, row.names = FALSE)
-print(paste("  ✓ Saved: within_subjects/ques_study_within_vignettes.csv"))
-
-# XLSX format
-vignettes_file_xlsx <- file.path(within_dir, "ques_study_within_vignettes.xlsx")
-writexl::write_xlsx(ques_study_within_vignettes, path = vignettes_file_xlsx)
-print(paste("  ✓ Saved: within_subjects/ques_study_within_vignettes.xlsx"))
-
-# --- Clean for SPSS ---
-vignettes_spss <- ques_study_within_vignettes
-colnames(vignettes_spss) <- gsub("-", "_", colnames(vignettes_spss))
-
-vignettes_file_sav <- file.path(within_dir, "ques_study_within_vignettes.sav")
-haven::write_sav(vignettes_spss, path = vignettes_file_sav)
-
-# ============================================================================
-# DATASET 3: WITHIN-SUBJECTS - VISUAL TRAPS (Long Format)
-# ============================================================================
-print("\n🎯 Saving WITHIN-SUBJECTS VISUAL TRAPS dataset (visual_trap_within)...")
-
-# RDS format
-traps_file_rds <- file.path(within_dir, "visual_trap_within.rds")
-saveRDS(visual_trap_within, file = traps_file_rds)
-print(paste("  ✓ Saved: within_subjects/visual_trap_within.rds"))
-
-# CSV format
-traps_file_csv <- file.path(within_dir, "visual_trap_within.csv")
-write.csv(visual_trap_within, file = traps_file_csv, row.names = FALSE)
-print(paste("  ✓ Saved: within_subjects/visual_trap_within.csv"))
-
-# XLSX format
-traps_file_xlsx <- file.path(within_dir, "visual_trap_within.xlsx")
-writexl::write_xlsx(visual_trap_within, path = traps_file_xlsx)
-print(paste("  ✓ Saved: within_subjects/visual_trap_within.xlsx"))
-
-# --- Clean for SPSS ---
-traps_spss <- visual_trap_within
-colnames(traps_spss) <- gsub("-", "_", colnames(traps_spss))
-
-traps_file_sav <- file.path(within_dir, "visual_trap_within.sav")
-haven::write_sav(traps_spss, path = traps_file_sav)
-
-# ============================================================================
-# METADATA & DOCUMENTATION
-# ============================================================================
-print("\n📄 Creating dataset metadata...")
-
-dataset_metadata <- data.frame(
-  Dataset = c(
-    "ques_study (Between-subjects)",
-    "ques_study_within_vignettes (Within-vignettes)",
-    "visual_trap_within (Within-traps)"
-  ),
-  Format = c("Wide", "Long", "Long"),
-  Rows = c(
-    nrow(ques_study),
-    nrow(ques_study_within_vignettes),
-    nrow(visual_trap_within)
-  ),
-  Columns = c(
-    ncol(ques_study),
-    ncol(ques_study_within_vignettes),
-    ncol(visual_trap_within)
-  ),
-  Unique_IDs = c(
-    n_ids_wide,
-    n_ids_vignettes,
-    n_ids_traps
-  ),
-  Primary_Keys = c(
-    "ID, PROLIFIC_PID",
-    "ID, PROLIFIC_PID, counterScenarios",
-    "ID, PROLIFIC_PID, counterVisualTraps, trap_type"
-  ),
-  Key_Variables = c(
-    "Demographics, Scales (52 items), Transcripts, Sentiment",
-    "PE (4 items), Attributes (6 items), Trial metadata, Paradata",
-    "Response, Correctness, RT (reaction time), Trap type"
-  ),
-  Trials_Per_Participant = c(
-    "1 row per participant",
-    paste(min(trial_dist), "-", max(trial_dist), "trials (median:", median(trial_dist), ")"),
-    paste(min(trap_dist), "-", max(trap_dist), "trials (median:", median(trap_dist), ")")
-  )
-)
-
-metadata_file <- file.path(output_dir, "dataset_metadata.csv")
-write.csv(dataset_metadata, file = metadata_file, row.names = FALSE)
-print(paste("  ✓ Saved: dataset_metadata.csv"))
-
-# ============================================================================
-# CODEBOOK SUMMARY
-# ============================================================================
-print("\n📚 Creating codebook summary...")
-
-codebook_summary <- data.frame(
-  Section = c(
-    "Identifiers",
-    "Demographics",
-    "Psychological Scales",
-    "Transcripts",
-    "Sentiment Analysis",
-    "Vignette Variables (within)",
-    "Trap Variables (within)"
-  ),
-  Variables = c(
-    "ID, PROLIFIC_PID",
-    paste(socio_demo, collapse = ", "),
-    "52 items across 10 scales (BRS, SWLS, ARIS, NFC, SJS, etc.)",
-    "text_missingUtopia, text_rankingUtopias",
-    "sentiment_label, sentiment_score, num_windows, window_*_sentimentLabel",
-    "vignette_order_position, vignette_id, condition_FutureSociety, pe1-pe4, att_ideal, att_beneficial, etc.",
-    "trap_type, response, response_label, correct, rt_ms"
-  ),
-  Dataset_Location = c(
-    "All datasets",
-    "ques_study (wide only)",
-    "ques_study (wide only)",
-    "ques_study (wide only)",
-    "ques_study (wide only)",
-    "ques_study_within_vignettes",
-    "visual_trap_within"
-  ),
-  Notes = c(
-    "Integer ID and Prolific participant ID",
-    "7 socio-demographic variables",
-    "See scale documentation for item wording and scoring",
-    "Text transcripts from audio recordings",
-    "Sentiment labels (positive/negative/neutral) and scores",
-    "One row per vignette trial, aggregated from long raw data",
-    "One row per visual trap trial, responses and performance"
-  )
-)
-
-codebook_file <- file.path(output_dir, "codebook_summary.csv")
-write.csv(codebook_summary, file = codebook_file, row.names = FALSE)
-print(paste("  ✓ Saved: codebook_summary.csv"))
-
-# ============================================================================
-# FINAL SUMMARY
-# ============================================================================
-print("✅ DATA EXPORT COMPLETE")
-print(strrep("=", 80))
-
-
-print("\n📋 BETWEEN-SUBJECTS (1 row per participant):")
-print(paste("  • ques_study_wide.rds    ", round(file.size(ques_study_file_rds)/1024/1024, 2), "MB"))
-print(paste("  • ques_study_wide.csv    ", round(file.size(ques_study_file_csv)/1024/1024, 2), "MB"))
-print(paste("  • ques_study_wide.xlsx   ", round(file.size(ques_study_file_xlsx)/1024/1024, 2), "MB"))
-
-print("\n📊 WITHIN-SUBJECTS VIGNETTES (one row per vignette trial):")
-print(paste("  • ques_study_within_vignettes.rds   ", round(file.size(vignettes_file_rds)/1024/1024, 2), "MB"))
-print(paste("  • ques_study_within_vignettes.csv   ", round(file.size(vignettes_file_csv)/1024/1024, 2), "MB"))
-print(paste("  • ques_study_within_vignettes.xlsx  ", round(file.size(vignettes_file_xlsx)/1024/1024, 2), "MB"))
-
-print("\n🎯 WITHIN-SUBJECTS VISUAL TRAPS (one row per trap trial):")
-print(paste("  • visual_trap_within.rds   ", round(file.size(traps_file_rds)/1024/1024, 2), "MB"))
-print(paste("  • visual_trap_within.csv   ", round(file.size(traps_file_csv)/1024/1024, 2), "MB"))
-print(paste("  • visual_trap_within.xlsx  ", round(file.size(traps_file_xlsx)/1024/1024, 2), "MB"))
-
-print("\n📄 DOCUMENTATION:")
-print("  • dataset_metadata.csv")
-print("  • codebook_summary.csv")
-
-
-# Clean up
-rm(dataset_metadata, codebook_summary, missing_wide)
-gc()
-
-print("\n✓ All done!")
-```
-
-
-```{r}
-# ============================================================================
-# SAVE FILTERING STATISTICS
-# ============================================================================
-print("\n📊 Saving filtering statistics...")
-
-# Save filtering_stats as CSV
-filtering_stats_file <- file.path(OUTPUT_QUESTIONNAIRE_DIR, "filtering_statistics.csv")
-write.csv(filtering_stats, file = filtering_stats_file, row.names = FALSE)
-print(paste("  ✓ filtering_statistics.csv"))
-
-# Print summary
-print("\n📋 FILTERING STATISTICS SUMMARY:")
-print(filtering_stats)
-```
-
-# tests
-
-
-```{r}
-library(tidyverse)
-library(corrplot)
-
-# Create correlation matrix
-ranking_cols <- c("rank_religious", "rank_ai_centered", "rank_primitivist", 
-                  "rank_institutional", "rank_moral_anarchic", "rank_futurist", 
-                  "rank_modern_green")
-demo_cols <- c("lrscale", "rlgdgr")
-
-# Calculate correlations
-rank_demo_corr <- ques_study %>%
-  select(all_of(c(ranking_cols, demo_cols))) %>%
-  cor(use = "complete.obs")
-
-# Extract just the rankings vs demographics
-rank_vs_demo <- rank_demo_corr[ranking_cols, demo_cols]
-
-# Visualize
-corrplot(rank_vs_demo, method = "circle", type = "full", 
-         diag = FALSE, tl.col = "black", tl.srt = 45,
-         col = colorRampPalette(c("blue", "white", "red"))(200),
-         main = "Utopia Rankings vs Political & Religious Orientation")
-
-# Print correlation values
-round(rank_vs_demo, 3)
-
-# ============================================================================
-# 2. MEAN RANKINGS by Demographics Groups
-# ============================================================================
-
-# Group by political orientation quartiles
-ques_study_ranked <- ques_study %>%
-  mutate(
-    lrscale_group = case_when(
-      lrscale <= 3 ~ "Left",
-      lrscale <= 5 ~ "Center-Left",
-      lrscale <= 7 ~ "Center-Right",
-      TRUE ~ "Right"
-    ),
-    rlgdgr_group = case_when(
-      rlgdgr <= 2 ~ "Non-religious",
-      rlgdgr <= 4 ~ "Somewhat religious",
-      TRUE ~ "Very religious"
-    )
-  )
-
-# Mean rankings by political orientation
-rank_by_lrscale <- ques_study_ranked %>%
-  group_by(lrscale_group) %>%
-  summarise(
-    across(all_of(ranking_cols), 
-           list(mean = ~ mean(., na.rm = TRUE)), 
-           .names = "{.col}_mean"),
-    n = n()
-  )
-
-print(rank_by_lrscale)
-
-# Mean rankings by religiosity
-rank_by_rlgdgr <- ques_study_ranked %>%
-  group_by(rlgdgr_group) %>%
-  summarise(
-    across(all_of(ranking_cols), 
-           list(mean = ~ mean(., na.rm = TRUE)), 
-           .names = "{.col}_mean"),
-    n = n()
-  )
-
-print(rank_by_rlgdgr)
-
-```
-
-```{r}
-ggplot(ques_study, aes(x = lrscale, y = rank_moral_anarchic)) +
-  geom_jitter(width = 0.15, height = 0.3, alpha = 0.5, size = 2.5, color = "#0C447C") +
-  geom_smooth(method = "lm", se = TRUE, color = "#185FA5", fill = "#B5D4F4", linewidth = 1) +
-  scale_x_continuous(breaks = 1:7, labels = c("Far Left", "2", "3", "Center", "5", "6", "Far Right")) +
-  scale_y_continuous(breaks = 1:7, labels = c("1\n(least)", "2", "3", "4", "5", "6", "7\n(most)")) +
-  labs(
-    title = "Political Orientation vs Moral Commonwealth Preference",
-    subtitle = "Left-leaning participants strongly prefer self-regulating moral societies",
-    x = "Political Orientation (Left ← → Right)",
-    y = "Ranking: Moral Commonwealth Utopia"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold", size = 14),
-    plot.subtitle = element_text(size = 11, color = "#666"),
-    panel.grid.minor = element_blank(),
-    panel.grid.major = element_line(color = "#eee")
-  )
-
-
-ques_study %>%
-  mutate(
-    political_group = case_when(
-      lrscale <= 2 ~ "Far Left",
-      lrscale <= 3 ~ "Left",
-      lrscale <= 4 ~ "Center-Left",
-      lrscale == 5 ~ "Center",
-      lrscale <= 6 ~ "Center-Right",
-      lrscale <= 7 ~ "Right",
-      TRUE ~ "Far Right"
-    ),
-    political_group = factor(political_group, 
-                            levels = c("Far Left", "Left", "Center-Left", "Center", 
-                                     "Center-Right", "Right", "Far Right"))
-  ) %>%
-  ggplot(aes(x = political_group, y = rank_moral_anarchic, fill = political_group)) +
-  geom_boxplot(alpha = 0.7, outlier.alpha = 0.5) +
-  geom_jitter(width = 0.15, alpha = 0.3, size = 1.5) +
-  scale_fill_manual(values = c(
-    "Far Left" = "#042C53",
-    "Left" = "#185FA5",
-    "Center-Left" = "#85B7EB",
-    "Center" = "#D3D1C7",
-    "Center-Right" = "#F0997B",
-    "Right" = "#993C1D",
-    "Far Right" = "#4A1B0C"
-  )) +
-  scale_y_continuous(breaks = 1:7) +
-  labs(
-    title = "Moral Commonwealth Ranking by Political Group",
-    x = "Political Orientation",
-    y = "Ranking (1=least preferred, 7=most preferred)",
-    fill = "Group"
-  ) +
-  theme_minimal() +
-  theme(
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    legend.position = "none",
-    plot.title = element_text(face = "bold", size = 14)
-  )
-
+head(pref_L1L2)
 ```
 
 
 
 ```{r}
-# ============================================================================
-# 1. SCATTER PLOT with jitter, trend, and marginal distributions
-# ============================================================================
+## =====================================================================
+## Join each participant's L1 (most-preferred society) row onto the wide
+## between-person data -> H2 analysis frame.
+## ques_study_wide already holds the AIS-adapted BI (aris_scale-ais1..4);
+## L1_rows adds that society's pe (participative efficacy) + att (eval.).
+## Requires: dplyr ; objects ques_study_wide and L1_rows in scope.
+## =====================================================================
+## one L1 row per participant?  (ties/missing ranks would break the 1:1 join)
+if (anyDuplicated(L1_rows$PROLIFIC_PID))
+  warning("L1_rows has >1 row for some PROLIFIC_PID -- the join will fan out.")
 
-ggplot(ques_study, aes(x = rlgdgr, y = rank_religious)) +
-  geom_jitter(width = 0.15, height = 0.3, alpha = 0.5, size = 2.5, color = "#A32D2D") +
-  geom_smooth(method = "lm", se = TRUE, color = "#993C1D", fill = "#F0997B", linewidth = 1) +
-  scale_x_continuous(breaks = 1:7, labels = c("Not Religious", "2", "3", "Moderate", "5", "6", "Very Religious")) +
-  scale_y_continuous(breaks = 1:7, labels = c("1\n(least)", "2", "3", "4", "5", "6", "7\n(most)")) +
-  labs(
-    title = "Religious Commitment vs Religious Utopia Preference",
-    subtitle = "Very religious participants strongly prefer faith-based future societies",
-    x = "Religious Commitment (Not Religious ← → Very Religious)",
-    y = "Ranking: Religious Utopia"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold", size = 14),
-    plot.subtitle = element_text(size = 11, color = "#666"),
-    panel.grid.minor = element_blank(),
-    panel.grid.major = element_line(color = "#eee")
-  )
+## prep L1 side: drop its ID (keep wide's), prefix the rest with "L1_",
+## join key PROLIFIC_PID stays unprefixed.
+L1_pref <- L1_rows %>%
+  dplyr::select(-ID) %>%
+  dplyr::rename_with(~ paste0("L1_", .x), .cols = -PROLIFIC_PID)
 
-# ============================================================================
-# 2. BOX PLOT (by religiosity groups)
-# ============================================================================
+## attach to the wide frame (keep all 486 participants; NA where no L1 match)
+ques_study_wide_L1 <- dplyr::left_join(ques_study_wide, L1_pref,
+                                       by = "PROLIFIC_PID")
 
-ques_study %>%
-  mutate(
-    religion_group = case_when(
-      rlgdgr <= 2 ~ "Not Religious",
-      rlgdgr <= 3 ~ "Slightly Religious",
-      rlgdgr <= 4 ~ "Somewhat Religious",
-      rlgdgr == 5 ~ "Moderate",
-      rlgdgr <= 6 ~ "Quite Religious",
-      rlgdgr <= 7 ~ "Very Religious",
-      TRUE ~ "Unknown"
-    ),
-    religion_group = factor(religion_group, 
-                           levels = c("Not Religious", "Slightly Religious", "Somewhat Religious", 
-                                    "Moderate", "Quite Religious", "Very Religious"))
-  ) %>%
-  ggplot(aes(x = religion_group, y = rank_religious, fill = religion_group)) +
-  geom_boxplot(alpha = 0.7, outlier.alpha = 0.5) +
-  geom_jitter(width = 0.15, alpha = 0.3, size = 1.5) +
-  scale_fill_manual(values = c(
-    "Not Religious" = "#042C53",
-    "Slightly Religious" = "#185FA5",
-    "Somewhat Religious" = "#85B7EB",
-    "Moderate" = "#D3D1C7",
-    "Quite Religious" = "#F0997B",
-    "Very Religious" = "#993C1D"
-  )) +
-  scale_y_continuous(breaks = 1:7) +
-  labs(
-    title = "Religious Utopia Ranking by Religious Commitment",
-    x = "Religious Commitment",
-    y = "Ranking (1=least preferred, 7=most preferred)",
-    fill = "Group"
-  ) +
-  theme_minimal() +
-  theme(
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    legend.position = "none",
-    plot.title = element_text(face = "bold", size = 14)
-  )
+## checks
+nrow(ques_study_wide_L1)                       # should stay 486
+sum(is.na(ques_study_wide_L1$L1_condition_FutureSociety))  # unmatched participants
+table(ques_study_wide_L1$L1_condition_FutureSociety, useNA = "ifany")
 
+## now ready for H2, e.g. the AIS-adapted BI vs L1 evaluation:
+##   ques_study_wide_L1$L1_mean_att   # desirability/attainability of L1 society
+##   ques_study_wide_L1$L1_mean_pe    # participative efficacy for L1 society
+##   ques_study_wide_L1[, c("aris_scale-ais1","aris_scale-ais2",
+##                          "aris_scale-ais3","aris_scale-ais4")]  # BI items
 ```
 
 
 
 
-```{r}
-# Create faceted plot for all rankings
-plot_data <- ques_study %>%
-  select(lrscale, all_of(ranking_cols)) %>%
-  pivot_longer(cols = -lrscale, names_to = "utopia", values_to = "ranking") %>%
-  mutate(
-    utopia = case_when(
-      utopia == "rank_religious" ~ "Religious",
-      utopia == "rank_ai_centered" ~ "AI-Centered",
-      utopia == "rank_primitivist" ~ "Primitivist",
-      utopia == "rank_institutional" ~ "Institutional",
-      utopia == "rank_moral_anarchic" ~ "Moral Commonwealth",
-      utopia == "rank_futurist" ~ "Futurist",
-      utopia == "rank_modern_green" ~ "Modern Green",
-      TRUE ~ utopia
-    )
-  )
-
-ggplot(plot_data, aes(x = lrscale, y = ranking)) +
-  geom_jitter(width = 0.15, height = 0.2, alpha = 0.4, size = 2, color = "#185FA5") +
-  geom_smooth(method = "lm", se = TRUE, color = "#042C53", fill = "#B5D4F4", linewidth = 0.8) +
-  facet_wrap(~ utopia, ncol = 3) +
-  scale_x_continuous(breaks = c(1, 4, 7), labels = c("Left", "Center", "Right")) +
-  scale_y_continuous(breaks = c(1, 4, 7)) +
-  labs(
-    title = "Political Orientation vs Each Utopia Ranking",
-    x = "Political Orientation",
-    y = "Ranking (1=least, 7=most preferred)"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold", size = 14),
-    strip.text = element_text(face = "bold", size = 10),
-    panel.grid.minor = element_blank()
-  )
-```
-
 
 ```{r}
-# Create faceted plot for all rankings
-plot_data <- ques_study %>%
-  select(rlgdgr, all_of(ranking_cols)) %>%
-  pivot_longer(cols = -rlgdgr, names_to = "utopia", values_to = "ranking") %>%
-  mutate(
-    utopia = case_when(
-      utopia == "rank_religious" ~ "Religious",
-      utopia == "rank_ai_centered" ~ "AI-Centered",
-      utopia == "rank_primitivist" ~ "Primitivist",
-      utopia == "rank_institutional" ~ "Institutional",
-      utopia == "rank_moral_anarchic" ~ "Moral Commonwealth",
-      utopia == "rank_futurist" ~ "Futurist",
-      utopia == "rank_modern_green" ~ "Modern Green",
-      TRUE ~ utopia
-    )
-  )
-
-ggplot(plot_data, aes(x = rlgdgr, y = ranking)) +
-  geom_jitter(width = 0.15, height = 0.2, alpha = 0.4, size = 2, color = "#185FA5") +
-  geom_smooth(method = "lm", se = TRUE, color = "#042C53", fill = "#B5D4F4", linewidth = 0.8) +
-  facet_wrap(~ utopia, ncol = 3) +
-  labs(
-    title = "Religiousness vs Each Utopia Ranking",
-    x = "Religiousness Orientation",
-    y = "Ranking (1=least, 7=most preferred)"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(face = "bold", size = 14),
-    strip.text = element_text(face = "bold", size = 10),
-    panel.grid.minor = element_blank()
-  )
-```
+## =====================================================================
+## H2 -- Evaluation -> motivation link (within individuals)
+## Visions evaluated as more desirable/attainable should evoke higher
+## participative efficacy (mean_pe) and stronger behavioural intentions
+## (AIS-adapted BI).
+## Vignette-level (long) data; the BI side is tested via the L1 setup.
+## >>> RUN THIS AFTER the L1/L2 extraction + join chunks <<<
+##     needs in scope: ques_study_within_vignettes, pref_L1L2,
+##     ques_study_wide_L1  (the latter two come from those chunks).
+## Requires: dplyr, lme4, lmerTest, psych, haven, writexl
+## =====================================================================
 
 
-## within part
+## ---------------------------------------------------------------------
+## 0. Variable groups to keep
+## ---------------------------------------------------------------------
+sampleVars <- c("age", "gender", "education", "employment_status",
+                "lrscale", "rlgdgr")
+rankVars   <- grep("^rank_",          colnames(ques_study_wide), value = TRUE)  # ranking task
+biVars     <- grep("^aris_scale-ais", colnames(ques_study_wide), value = TRUE)  # AIS-adapted BI
 
-```{r}
-library(tidyverse)
-library(afex)
-library(ggplot2)
- 
-# Assumption: ques_study_within_vignettes is already loaded
- ques_study_within_vignettes <- ques_study_within_vignettes %>%
-  mutate(
-    # Convert PE items to numeric
-    pe1 = as.numeric(pe1),
-    pe2 = as.numeric(pe2),
-    pe3 = as.numeric(pe3),
-    pe4 = as.numeric(pe4),
-    # Convert ATT items to numeric
-    att_ideal = as.numeric(att_ideal),
-    att_beneficial = as.numeric(att_beneficial),
-    att_utopian = as.numeric(att_utopian),
-    att_desirable = as.numeric(att_desirable),
-    att_innovative = as.numeric(att_innovative),
-    att_live_in = as.numeric(att_live_in)
-  )
-```
+## ---------------------------------------------------------------------
+## 1. Build the H2 subset (long; evaluation + efficacy per vignette,
+##    BI merged from wide, ranking + sample descriptors kept)
+##    Evaluation = mean_att (composite); att_desirable = desirability item.
+##    NOTE: there is no explicit "attainable" item among att_* (ideal,
+##    beneficial, utopian, desirable, innovative, live_in) -- map your
+##    intended attainability measure here if you have one.
+## ---------------------------------------------------------------------
+data_H2 <- ques_study_within_vignettes %>%
+  dplyr::select(ID, PROLIFIC_PID, condition_FutureSociety, vignette_id,
+                mean_att, sd_att, att_desirable, att_ideal,
+                mean_pe, sd_pe) %>%
+  dplyr::left_join(
+    dplyr::select(ques_study_wide,
+                  dplyr::all_of(c("PROLIFIC_PID", sampleVars, rankVars, biVars))),
+    by = "PROLIFIC_PID")
 
+## between-person AIS-adapted BI score (one value per person, repeated
+## across that person's 7 vignette rows). No reverse items in AIS.
+data_H2$mean_BI_AIS <- rowMeans(data_H2[biVars], na.rm = TRUE)
 
-```{r}
-# ============================================================================
-# PART 1: PREPARE DATA FOR ANALYSIS
-# ============================================================================
- 
-analysis_vignettes <- ques_study_within_vignettes %>%
-  # Calculate composite PE score (mean of pe1-pe4)
-  mutate(
-    pe_composite = rowMeans(select(., pe1:pe4), na.rm = TRUE)
-  ) %>%
-  # Calculate composite ATT score (mean of att_ideal through att_live_in)
-  mutate(
-    att_composite = rowMeans(select(., att_ideal, att_beneficial, att_utopian, 
-                                      att_desirable, att_innovative, att_live_in), 
-                             na.rm = TRUE)
-  ) %>%
-  # Keep only complete cases for main analysis
-  filter(!is.na(pe_composite), !is.na(att_composite), !is.na(condition_FutureSociety))
- 
-print(paste("Analysis sample size:", nrow(analysis_vignettes), "vignette trials"))
-print(paste("Unique participants:", n_distinct(analysis_vignettes$ID)))
-print(paste("Unique vignette conditions:", paste(unique(analysis_vignettes$condition_FutureSociety), collapse = ", ")))
-print(paste("Trials per participant:", paste(table(analysis_vignettes$ID), collapse = ", ")))
- 
- 
-# ============================================================================
-# PART 2: DESCRIPTIVE STATISTICS BY CONDITION
-# ============================================================================
- 
-desc_stats <- analysis_vignettes %>%
-  pivot_longer(
-    cols = c(pe_composite, att_composite),
-    names_to = "measure",
-    values_to = "value"
-  ) %>%
-  group_by(condition_FutureSociety, measure) %>%
-  summarise(
-    mean = mean(value, na.rm = TRUE),
-    sd = sd(value, na.rm = TRUE),
-    n = dplyr::n(),
-    se = sd / sqrt(n),
-    .groups = "drop"
-  ) %>%
-  mutate(
-    measure = recode(
-      measure,
-      pe_composite = "Participative Efficacy",
-      att_composite = "Attributes (Positive)"
-    )
-  )
- 
-print("\n=== DESCRIPTIVE STATISTICS ===")
-print(desc_stats)
- 
- 
-# ============================================================================
-# PART 3: WITHIN-SUBJECTS ANOVA ANALYSES
-# ============================================================================
- 
-# ANOVA 1: Participative Efficacy by Condition (within-subjects)
-print("\n=== ANOVA 1: PARTICIPATIVE EFFICACY (Within-Subjects) ===")
-anova_pe <- afex::aov_ez(
-  id = "ID",
-  dv = "pe_composite",
-  within = "condition_FutureSociety",
-  data = analysis_vignettes
-)
-print(summary(anova_pe))
- 
- 
-# ANOVA 2: Attributes by Condition (within-subjects)
-print("\n=== ANOVA 2: ATTRIBUTES COMPOSITE (Within-Subjects) ===")
-anova_att <- afex::aov_ez(
-  id = "ID",
-  dv = "att_composite",
-  within = "condition_FutureSociety",
-  data = analysis_vignettes
-)
-print(summary(anova_att))
-```
+## ---------------------------------------------------------------------
+## 2. Test H2
+## ---------------------------------------------------------------------
+## (a) WITHIN-person evaluation -> participative efficacy
+##     mean_att varies across vignettes within a person.
+m_eff <- lmer(mean_pe ~ mean_att + (1 | PROLIFIC_PID), data = data_H2)
+summary(m_eff)
+# optional random slope (if it converges):
+# m_eff_rs <- lmer(mean_pe ~ mean_att + (1 + mean_att | PROLIFIC_PID), data = data_H2)
 
+## (b) L1 vs L2 WITHIN-person contrast (evaluation/efficacy side):
+##     the more-preferred vision (L1) should show higher pe / att than L2.
+m_L1L2_pe  <- lmer(mean_pe  ~ pref_level + (1 | PROLIFIC_PID), data = pref_L1L2)
+m_L1L2_att <- lmer(mean_att ~ pref_level + (1 | PROLIFIC_PID), data = pref_L1L2)
+summary(m_L1L2_pe)
+summary(m_L1L2_att)
 
+## (c) BEHAVIOURAL INTENTIONS (AIS-adapted) are measured once per person,
+##     so the att -> BI link is between-person. Tie BI to the evaluation of
+##     each person's MOST-preferred (L1) society via the joined frame:
+biVars_L1 <- grep("^aris_scale-ais", colnames(ques_study_wide_L1), value = TRUE)
+ques_study_wide_L1$mean_BI_AIS <- rowMeans(ques_study_wide_L1[biVars_L1], na.rm = TRUE)
 
-```{r}
-# ============================================================================
-# ATTRIBUTE ITEMS ANALYSIS (att_ideal, att_beneficial, att_utopian, etc.)
-# ============================================================================
+cor.test(ques_study_wide_L1$L1_mean_att, ques_study_wide_L1$mean_BI_AIS)
+summary(lm(mean_BI_AIS ~ L1_mean_att + L1_mean_pe, data = ques_study_wide_L1))
+## If BI was asked separately for L1 and L2, add those columns to
+## pref_L1L2 and run a paired test there instead.
 
-# Attribute item label mappings from survey
-attr_item_labels <- tibble(
-  item_label = c("ideal", "beneficial", "utopian", "desirable", "innovative", "live_in"),
-  full_label = c(
-    "This society is ideal.",
-    "This society is beneficial for the greater good.",
-    "This society is utopian.",
-    "This society is desirable.",
-    "This society is innovative.",
-    "I would like to live in a society like the one just described."
-  )
-)
-
-# Convert attitude variables to long format
-attr_long <- ques_study_within_vignettes %>%
-  select(ID, condition_FutureSociety, 
-         att_ideal, att_beneficial, att_utopian, att_desirable, att_innovative, att_live_in) %>%
-  pivot_longer(
-    cols = starts_with("att_"),
-    names_to = "item_label",
-    values_to = "value"
-  ) %>%
-  mutate(item_label = str_remove(item_label, "^att_"))
-
-# Calculate effect sizes (eta-squared) for each attribute item
-attr_effects <- attr_long %>%
-  group_by(item_label) %>%
-  summarise(
-    # Calculate eta-squared for one-way ANOVA
-    ss_between = sum(tapply(value, condition_FutureSociety, length) * 
-                       (tapply(value, condition_FutureSociety, mean) - mean(value, na.rm=T))^2, na.rm=T),
-    ss_total = sum((value - mean(value, na.rm=T))^2, na.rm=T),
-    eta_sq = ss_between / ss_total,
-    .groups = "drop"
-  ) %>%
-  left_join(attr_item_labels, by = "item_label") %>%
-  mutate(eta_label = paste0("η² = ", round(eta_sq, 3)))
-
-# Order items by effect size (largest first)
-item_order <- attr_effects %>%
-  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
-  arrange(desc(eta_order)) %>%
-  pull(item_label)
-
-# Create labels with full item text and eta-squared values
-label_order <- attr_effects %>%
-  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
-  arrange(desc(eta_order)) %>%
-  mutate(facet_label = paste0(full_label, "\n", eta_label)) %>%
-  pull(facet_label)
-
-# Summarize by condition and item
-attr_summary <- attr_long %>%
-  group_by(condition_FutureSociety, item_label) %>%
-  summarise(
-    mean = mean(value, na.rm = TRUE),
-    sd = sd(value, na.rm = TRUE),
-    n = dplyr::n(),
-    se = sd / sqrt(n),
-    .groups = "drop"
-  ) %>%
-  left_join(attr_effects %>% select(item_label, full_label, eta_label), by = "item_label") %>%
-  mutate(
-    item_label = factor(item_label, levels = item_order),
-    facet_label = factor(paste0(full_label, "\n", eta_label), levels = label_order)
-  )
-
-# Order conditions alphabetically
-condition_order <- attr_long %>%
-  distinct(condition_FutureSociety) %>%
-  arrange(condition_FutureSociety) %>%
-  pull(condition_FutureSociety)
-
-attr_summary <- attr_summary %>%
-  mutate(condition_FutureSociety = factor(condition_FutureSociety, levels = condition_order))
-
-# Visualization - Attributes (with full item labels)
-ggplot(attr_summary, aes(x = condition_FutureSociety, y = mean, fill = condition_FutureSociety)) +
-  geom_col(width = 0.7) +
-  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.2) +
-  geom_text(aes(label = round(mean, 2)), vjust = -0.3, size = 3) +
-  facet_wrap(~ facet_label, ncol = 3) +
-  labs(x = "Condition", y = "Mean Rating", fill = "Condition",
-       title = "Attributes: How Participants Evaluated Each Society") +
-  theme_minimal() +
-  theme(
-    legend.position = "bottom", 
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(size = 7.5, face = "italic"),
-    plot.title = element_text(hjust = 0.5, size = 11),
-    panel.spacing = unit(1, "lines")
-  )
-```
-
-
-
-
-```{r}
-# ============================================================================
-# PERCEIVED EFFICACY ITEMS ANALYSIS (pe1, pe2, pe3, pe4)
-# ============================================================================
-
-# Item label mappings from survey
-pe_item_labels <- tibble(
-  item_label = c("pe1", "pe2", "pe3", "pe4"),
-  full_label = c(
-    "Ordinary people like me can play a part in bringing about this kind of society.",
-    "This kind of society can be realized through the actions of ordinary individuals like me.",
-    "Ordinary people can help realize this version of society.",
-    "Ordinary people are needed to realize this version of society."
-  )
-)
-
-# Convert perceived efficacy variables to long format
-pe_long <- ques_study_within_vignettes %>%
-  select(ID, condition_FutureSociety, 
-         pe1, pe2, pe3, pe4) %>%
-  pivot_longer(
-    cols = starts_with("pe"),
-    names_to = "item_label",
-    values_to = "value"
-  )
-
-# Calculate effect sizes (eta-squared) for each perceived efficacy item
-pe_effects <- pe_long %>%
-  group_by(item_label) %>%
-  summarise(
-    # Calculate eta-squared for one-way ANOVA
-    ss_between = sum(tapply(value, condition_FutureSociety, length) * 
-                       (tapply(value, condition_FutureSociety, mean) - mean(value, na.rm=T))^2, na.rm=T),
-    ss_total = sum((value - mean(value, na.rm=T))^2, na.rm=T),
-    eta_sq = ss_between / ss_total,
-    .groups = "drop"
-  ) %>%
-  left_join(pe_item_labels, by = "item_label") %>%
-  mutate(eta_label = paste0("η² = ", round(eta_sq, 3)))
-
-# Order items by effect size (largest first)
-item_order <- pe_effects %>%
-  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
-  arrange(desc(eta_order)) %>%
-  pull(item_label)
-
-# Create labels with full item text and eta-squared values
-label_order <- pe_effects %>%
-  mutate(eta_order = ifelse(is.na(eta_sq), -Inf, eta_sq)) %>%
-  arrange(desc(eta_order)) %>%
-  mutate(facet_label = paste0(full_label, "\n", eta_label)) %>%
-  pull(facet_label)
-
-# Summarize by condition and item
-pe_summary <- pe_long %>%
-  group_by(condition_FutureSociety, item_label) %>%
-  summarise(
-    mean = mean(value, na.rm = TRUE),
-    sd = sd(value, na.rm = TRUE),
-    n = dplyr::n(),
-    se = sd / sqrt(n),
-    .groups = "drop"
-  ) %>%
-  left_join(pe_effects %>% select(item_label, full_label, eta_label), by = "item_label") %>%
-  mutate(
-    item_label = factor(item_label, levels = item_order),
-    facet_label = factor(paste0(full_label, "\n", eta_label), levels = label_order)
-  )
-
-# Order conditions alphabetically
-condition_order <- pe_long %>%
-  distinct(condition_FutureSociety) %>%
-  arrange(condition_FutureSociety) %>%
-  pull(condition_FutureSociety)
-
-pe_summary <- pe_summary %>%
-  mutate(condition_FutureSociety = factor(condition_FutureSociety, levels = condition_order))
-
-# Visualization - Perceived Efficacy (with full item labels)
-ggplot(pe_summary, aes(x = condition_FutureSociety, y = mean, fill = condition_FutureSociety)) +
-  geom_col(width = 0.7) +
-  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.2) +
-  geom_text(aes(label = round(mean, 2)), vjust = -0.3, size = 3) +
-  facet_wrap(~ facet_label, ncol = 2) +
-  labs(x = "Condition", y = "Mean Rating", fill = "Condition",
-       title = "Perceived Efficacy: Ordinary Citizens Can Contribute to Realizing Society") +
-  theme_minimal() +
-  theme(
-    legend.position = "bottom", 
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    strip.text = element_text(size = 7.5, face = "italic"),
-    plot.title = element_text(hjust = 0.5, size = 11),
-    panel.spacing = unit(1, "lines")
-  )
-```
-
-
-## EFA
-
-```{r}
-library(tidyverse)
-library(corrplot)
-library(psych)
-library(factoextra)
-
-# ============================================================================
-# PREPARE DATA: Convert from long to wide format
-# ============================================================================
-
-# Create wide format with all items for each observation
-data_wide <- ques_study_within_vignettes %>%
-  select(ID, condition_FutureSociety, vignette_id,
-         att_ideal, att_beneficial, att_utopian, att_desirable, att_innovative, att_live_in,
-         pe1, pe2, pe3, pe4)
-
-# ============================================================================
-# 1. CORRELATION MATRIX & VISUALIZATION
-# ============================================================================
-
-# Extract only the items
-items_data <- data_wide %>%
-  select(att_ideal, att_beneficial, att_utopian, att_desirable, att_innovative, att_live_in,
-         pe1, pe2, pe3, pe4)
-
-# Calculate correlation matrix
-cor_matrix <- cor(items_data, use = "complete.obs")
-
-# Print correlation matrix
-print("Correlation Matrix:")
-print(cor_matrix)
-
-# Create correlation plot
-corrplot(cor_matrix, 
-         method = "circle",
-         type = "lower",
-         addCoef.col = "black",
-         number.cex = 0.7,
-         tl.cex = 0.8,
-         diag = TRUE,
-         title = "Correlation Matrix: Attitude and Perceived Efficacy Items",
-         mar = c(2, 0, 2, 0))
-
-# Alternative: Circle plot with significance
-corrplot(cor_matrix,
-         method = "shade",
-         type = "lower",
-         addCoef.col = "white",
-         tl.cex = 0.8,
-         title = "Correlation Matrix (Shade)",
-         mar = c(2, 0, 2, 0))
-
-# ============================================================================
-# 2. PARALLEL ANALYSIS (to determine number of factors)
-# ============================================================================
-
-print("\n========== PARALLEL ANALYSIS ==========\n")
-
-# Run parallel analysis
-pa <- fa.parallel(items_data, 
-                  fm = "minres",           # Factor extraction method
-                  fa = "fa",               # Factor analysis (not principal components)
-                  n.iter = 100,
-                  show.legend = TRUE)
-
-# Print summary
-print(pa)
-
-# ============================================================================
-# 3. FACTOR ANALYSIS - Test different numbers of factors
-# ============================================================================
-
-print("\n========== FACTOR ANALYSIS RESULTS ==========\n")
-
-# 1-Factor Solution
-fa1 <- fa(items_data, nfactors = 1, fm = "minres", rotate = "promax")
-print("\n--- 1-Factor Solution ---")
-print(fa1)
-
-# 2-Factor Solution
-fa2 <- fa(items_data, nfactors = 2, fm = "minres", rotate = "promax")
-print("\n--- 2-Factor Solution ---")
-print(fa2)
-
-# 3-Factor Solution
-fa3 <- fa(items_data, nfactors = 3, fm = "minres", rotate = "promax")
-print("\n--- 3-Factor Solution ---")
-print(fa3)
-
-# ============================================================================
-# 4. FACTOR LOADINGS COMPARISON
-# ============================================================================
-
-print("\n========== FACTOR LOADINGS COMPARISON ==========\n")
-
-# Extract loadings for comparison
-loadings_df <- data.frame(
-  Item = rownames(fa2$loadings),
-  FA1 = fa2$loadings[, 1],
-  FA2 = fa2$loadings[, 2],
-  Communality = fa2$communalities
-)
-
-print(loadings_df)
-
-# ============================================================================
-# 5. VISUALIZE FACTOR STRUCTURE (2-Factor Solution)
-# ============================================================================
-
-# Plot factor loadings
-plot(fa2$loadings[, 1], fa2$loadings[, 2],
-     type = "n",
-     xlab = "Factor 1 Loadings",
-     ylab = "Factor 2 Loadings",
-     main = "Factor Loadings Plot (2-Factor Solution)",
-     xlim = c(-1, 1),
-     ylim = c(-1, 1))
-
-# Add reference lines
-abline(h = 0, v = 0, lty = 2, col = "gray")
-
-# Add labels
-text(fa2$loadings[, 1], fa2$loadings[, 2], 
-     rownames(fa2$loadings), 
-     cex = 0.8,
-     pos = 3)
-
-# Add circles for item grouping
-draw.circle <- function(x, y, r, ...) {
-  angles <- seq(0, 2*pi, length.out = 100)
-  lines(x + r*cos(angles), y + r*sin(angles), ...)
+## ---------------------------------------------------------------------
+## 3. Export the H2 subset: SPSS (.sav), Excel (.xlsx), R (.rds)
+## ---------------------------------------------------------------------
+exportDataset <- function(df, base, dir = ".") {
+  if (!dir.exists(dir)) dir.create(dir, recursive = TRUE)
+  clean <- df; names(clean) <- gsub("[^A-Za-z0-9_]", "_", names(clean))  # SPSS/Excel-safe names
+  haven::write_sav(clean, file.path(dir, paste0(base, ".sav")))
+  xl <- clean; f <- vapply(xl, is.factor, logical(1))
+  xl[f] <- lapply(xl[f], as.character)
+  writexl::write_xlsx(xl, file.path(dir, paste0(base, ".xlsx")))
+  saveRDS(df, file.path(dir, paste0(base, ".rds")))
+  invisible(NULL)
 }
 
-
-# ============================================================================
-# 6. MODEL FIT COMPARISON
-# ============================================================================
-
-print("\n========== MODEL FIT INDICES ==========\n")
-
-fit_comparison <- data.frame(
-  Factors = c(1, 2, 3),
-  RMSR = c(fa1$rms, fa2$rms, fa3$rms),
-  BIC = c(fa1$BIC, fa2$BIC, fa3$BIC),
-  RMSEA = c(fa1$RMSEA[1], fa2$RMSEA[1], fa3$RMSEA[1]),
-  TLI = c(fa1$TLI, fa2$TLI, fa3$TLI)
-)
-
-print(fit_comparison)
-
-# ============================================================================
-# 7. INTERNAL CONSISTENCY (Cronbach's Alpha)
-# ============================================================================
-
-print("\n========== CRONBACH'S ALPHA - INTERNAL CONSISTENCY ==========\n")
-
-# All items
-alpha_all <- alpha(items_data)$total$raw_alpha
-cat("All items (n=10):", round(alpha_all, 3), "\n")
-
-# Attitude items only
-alpha_att <- alpha(items_data %>% select(starts_with("att_")))$total$raw_alpha
-cat("Attitude items (n=6):", round(alpha_att, 3), "\n")
-
-# Perceived efficacy items only
-alpha_pe <- alpha(items_data %>% select(starts_with("pe")))$total$raw_alpha
-cat("Perceived Efficacy items (n=4):", round(alpha_pe, 3), "\n")
-
-# ============================================================================
-# 8. SCREE PLOT
-# ============================================================================
-
-scree(items_data, factors = 5, main = "Scree Plot")
+exportDataset(data_H2, "data_H2", OUTPUT_QUESTIONNAIRE_PIA_DIR)
 ```
 
 
 
 
-## prompts
 
-
+### aa
 
 
 ```{r}
-library(glue)
+## =====================================================================
+## H2 -- Evaluation -> motivation link (within individuals)
+## Visions evaluated as more desirable/attainable should evoke higher
+## participative efficacy (mean_pe) and stronger behavioural intentions
+## (AIS-adapted BI).
+## Vignette-level (long) data; the BI side is tested via the L1 setup.
+## >>> RUN THIS AFTER the L1/L2 extraction + join chunks <<<
+##     needs in scope: ques_study_within_vignettes, pref_L1L2,
+##     ques_study_wide_L1  (the latter two come from those chunks).
+## Requires: dplyr, lme4, lmerTest, psych, haven, writexl
+## =====================================================================
 
-# ============================================================================
-# 3. CREATE LLM VALIDATION PROMPT DATASET
-# ============================================================================
+## ---------------------------------------------------------------------
+## 0. Variable groups to keep
+## ---------------------------------------------------------------------
+sampleVars <- c("age", "gender", "education", "employment_status",
+                "lrscale", "rlgdgr")
+rankVars   <- grep("^rank_",          colnames(ques_study_wide), value = TRUE)  # ranking task
+biVars     <- grep("^aris_scale-ais", colnames(ques_study_wide), value = TRUE)  # AIS-adapted BI
 
-# Build validation dataset with context for each participant
-llm_validation_data <- ques_study %>%
-  select(
-    ID, PROLIFIC_PID, age, gender, education, lrscale, rlgdgr,
-    all_of(ranking_cols),
-    text_missingUtopia, text_rankingUtopias,
-    sentiment_label, sentiment_score
-  ) %>%
-  filter(!is.na(text_rankingUtopias) | !is.na(text_missingUtopia)) %>%
-  mutate(
-    # Create ranking summary
-    ranking_summary = paste(
-      "1st (least preferred):", 
-      case_when(rank_religious == 1 ~ "Religious",
-                rank_ai_centered == 1 ~ "AI-Centered",
-                rank_primitivist == 1 ~ "Primitivist",
-                rank_institutional == 1 ~ "Institutional",
-                rank_moral_anarchic == 1 ~ "Moral Commonwealth",
-                rank_futurist == 1 ~ "Futurist",
-                rank_modern_green == 1 ~ "Modern Green",
-                TRUE ~ "Unknown"),
-      "\n7th (most preferred):",
-      case_when(rank_religious == 7 ~ "Religious",
-                rank_ai_centered == 7 ~ "AI-Centered",
-                rank_primitivist == 7 ~ "Primitivist",
-                rank_institutional == 7 ~ "Institutional",
-                rank_moral_anarchic == 7 ~ "Moral Commonwealth",
-                rank_futurist == 7 ~ "Futurist",
-                rank_modern_green == 7 ~ "Modern Green",
-                TRUE ~ "Unknown"),
-      sep = " "
-    ),
-    # Political orientation label
-    political_orientation = case_when(
-      lrscale <= 3 ~ "Left-leaning",
-      lrscale <= 5 ~ "Center",
-      lrscale >= 7 ~ "Right-leaning",
-      TRUE ~ "Moderate"
-    ),
-    # Religiosity label
-    religiosity = case_when(
-      rlgdgr <= 2 ~ "Non-religious",
-      rlgdgr <= 4 ~ "Somewhat religious",
-      rlgdgr >= 6 ~ "Very religious",
-      TRUE ~ "Moderate religiosity"
-    )
-  )
+## ---------------------------------------------------------------------
+## 1. H2 subset = each participant's PREFERRED (L1) society ONLY
+##    L1 evaluation/efficacy (from L1_rows) + AIS-adapted activism
+##    + ranking + sample descriptors  ->  ONE row per participant (486).
+##    Evaluation = mean_att (composite); att_desirable = desirability item.
+##    NOTE: no explicit "attainable" item among att_* (ideal, beneficial,
+##    utopian, desirable, innovative, live_in) -- map yours here if you have one.
+## ---------------------------------------------------------------------
+data_H2 <- L1_rows %>%
+  dplyr::select(ID, PROLIFIC_PID, condition_FutureSociety, vignette_id, pref_rank,
+                mean_att, sd_att, att_desirable, att_ideal,
+                mean_pe, sd_pe) %>%
+  dplyr::left_join(
+    dplyr::select(ques_study_wide,
+                  dplyr::all_of(c("PROLIFIC_PID", sampleVars, rankVars, biVars))),
+    by = "PROLIFIC_PID")
 
-head(llm_validation_data)
+## AIS-adapted ACTIVISM intention (composite of the aris_scale-ais items;
+## one value per person). No reverse items in AIS.
+data_H2$mean_activism <- rowMeans(data_H2[biVars], na.rm = TRUE)
+data_H2$sd_activism   <- apply(data_H2[biVars], 1L, sd, na.rm = TRUE)
 
-# ============================================================================
-# FIXED: CREATE LLM VALIDATION PROMPT FUNCTION
-# ============================================================================
+## ---------------------------------------------------------------------
+## 2. Test H2  (data_H2 is now one row per person -> between-person)
+## ---------------------------------------------------------------------
+## (a) Evaluation of the PREFERRED society -> participative efficacy
+cor.test(data_H2$mean_att, data_H2$mean_pe)
 
-create_llm_validation_prompt <- function(id, data) {
-  row <- data %>% filter(ID == id) %>% slice(1)
-  
-  if (nrow(row) == 0) return("")
-  
-  prompt <- glue(
-    "
-# Consistency Check: Participant {row$ID[[1]]}
+## (b) Evaluation / efficacy of the preferred society -> activism intentions
+cor.test(data_H2$mean_att, data_H2$mean_activism)
+summary(lm(mean_activism ~ mean_att + mean_pe, data = data_H2))
 
-## Demographics
-- Age: {row$age[[1]]}
-- Gender: {row$gender[[1]]}
-- Political Orientation: {row$political_orientation[[1]]} (lrscale={row$lrscale[[1]]})
-- Religiosity: {row$religiosity[[1]]} (rlgdgr={row$rlgdgr[[1]]})
+## (c) WITHIN-person check: L1 vs L2 contrast on evaluation/efficacy.
+##     The more-preferred vision (L1) should show higher pe / att than L2.
+##     (uses pref_L1L2, which carries two rows per person.)
+m_L1L2_pe  <- lmer(mean_pe  ~ pref_level + (1 | PROLIFIC_PID), data = pref_L1L2)
+m_L1L2_att <- lmer(mean_att ~ pref_level + (1 | PROLIFIC_PID), data = pref_L1L2)
+summary(m_L1L2_pe)
+summary(m_L1L2_att)
 
-## Rankings (1=least preferred, 7=most preferred)
-- Religious Utopia: {row$rank_religious[[1]]}
-- AI-Centered Utopia: {row$rank_ai_centered[[1]]}
-- Primitivist Utopia: {row$rank_primitivist[[1]]}
-- Institutional Utopia: {row$rank_institutional[[1]]}
-- Moral Commonwealth: {row$rank_moral_anarchic[[1]]}
-- Futurist Utopia: {row$rank_futurist[[1]]}
-- Modern Green Utopia: {row$rank_modern_green[[1]]}
-
-## Sentiment Analysis
-- Overall sentiment: {row$sentiment_label[[1]]} (score={round(row$sentiment_score[[1]], 2)})
-
-## Text Responses
-
-### Ranking Explanation
-\"{row$text_rankingUtopias[[1]]}\"
-
-### Missing Utopia Description
-\"{row$text_missingUtopia[[1]]}\"
-
-## Task
-
-Evaluate whether the participant's **text responses** are consistent with their **demographic profile** and **utopia rankings**. 
-
-For each dimension, rate consistency (1-5, where 1=completely inconsistent, 5=highly consistent):
-
-1. **Political-Ideological Consistency**: Do the text responses reflect their political orientation (left/center/right)?
-2. **Religious-Philosophical Consistency**: Do the text responses align with their religiosity level?
-3. **Ranking-Text Alignment**: Do the rankings they chose match what they describe in text?
-4. **Overall Coherence**: Does the person's overall vision (across all responses) hang together logically?
-
-Provide:
-- Rating (1-5) for each dimension
-- Brief explanation (1-2 sentences per dimension)
-- Flag any red flags (contradictions, suspicious patterns, potential comprehension issues)
-
----
-"
-  )
-  return(prompt)
+## ---------------------------------------------------------------------
+## 3. Export the H2 subset: SPSS (.sav), Excel (.xlsx), R (.rds)
+## ---------------------------------------------------------------------
+exportDataset <- function(df, base, dir = ".") {
+  if (!dir.exists(dir)) dir.create(dir, recursive = TRUE)
+  clean <- df; names(clean) <- gsub("[^A-Za-z0-9_]", "_", names(clean))  # SPSS/Excel-safe names
+  haven::write_sav(clean, file.path(dir, paste0(base, ".sav")))
+  xl <- clean; f <- vapply(xl, is.factor, logical(1))
+  xl[f] <- lapply(xl[f], as.character)
+  writexl::write_xlsx(xl, file.path(dir, paste0(base, ".xlsx")))
+  saveRDS(df, file.path(dir, paste0(base, ".rds")))
+  invisible(NULL)
 }
 
-# ============================================================================
-# GENERATE PROMPTS FOR ALL PARTICIPANTS
-# ============================================================================
+exportDataset(data_H2, "data_H2", OUTPUT_QUESTIONNAIRE_PIA_DIR)
+```
 
-all_prompts <- map_chr(
-  llm_validation_data$ID,
-  ~ create_llm_validation_prompt(., llm_validation_data)
-)
-
-
-
-# ============================================================================
-# ALTERNATIVE: CREATE A DATAFRAME FOR BATCH LLM PROCESSING
-# ============================================================================
-
-# More efficient: keep data structured, send to LLM as CSV/JSON
-llm_batch_data <- llm_validation_data %>%
-  select(
-    ID, PROLIFIC_PID, age, gender, 
-    political_orientation, religiosity, lrscale, rlgdgr,
-    rank_religious, rank_ai_centered, rank_primitivist, 
-    rank_institutional, rank_moral_anarchic, rank_futurist, rank_modern_green,
-    sentiment_label, sentiment_score,
-    text_rankingUtopias, text_missingUtopia
-  ) %>%
-  rename(
-    ranking_explanation = text_rankingUtopias,
-    missing_utopia = text_missingUtopia
-  )
-
-
-
-# Print first 2 samples
-cat(all_prompts[[1]])
-cat("\n\n===================\n\n")
-cat(all_prompts[[3]])
-
+```{r}
+cor.test(data_H2$mean_att, data_H2$mean_activism)
+cor.test(data_H2$mean_pe, data_H2$mean_activism)
 ```
 
