@@ -360,6 +360,13 @@ res_att_wide <- corEFAwide(wide_att, label = "ATT across societies")
 
 
 ```{r}
+cor.plot(r = res_pe_wide$cor)
+cor.plot(r = res_att_wide$cor)
+```
+
+
+
+```{r}
 pe_items_long <- CFAstats(
     dataset         = ques_study_within_vignettes,
     regularExp      = "^pe",
@@ -384,503 +391,294 @@ att_items_long <- CFAstats(
 ```
 
 
-
----
-
-# Get Data for Hypothesis
-
-## H1
+# k means
 
 ```{r}
-## ---------------------------------------------------------------------
-## 0. Variable groups to keep
-## ---------------------------------------------------------------------
-sampleVars <- c("age", "gender", "education", "employment_status", "employment_is_employed",
-                "lrscale", "rlgdgr")                       # sample description
-rankVars   <- grep("^rank_", colnames(ques_study_wide), value = TRUE)  # ranking task
- 
-## Governance grouping (EDIT here if a prototype belongs elsewhere).
-## self-governed = self-determined societal change; everything else
-## (religious, aicentered, lawBased, futurist) = externally determined.
-self_governed_conditions <- c("moderngreen", "primitivist", "anarchic") # all others are non-self governed
- 
-## ---------------------------------------------------------------------
-## 1. Build the H1 subset (long; keeps ranking + sample descriptors)
-## ---------------------------------------------------------------------
-data_H1 <- ques_study_within_vignettes %>%
-  dplyr::mutate(
-    self_externally_governed = factor(
-      ifelse(condition_FutureSociety %in% self_governed_conditions,
-             "self_governed", "externally_governed"),
-      levels = c("externally_governed", "self_governed"))   # external = reference
-  ) %>%
-  dplyr::select(ID, PROLIFIC_PID, condition_FutureSociety, vignette_id,
-                self_externally_governed,
-                mean_pe, sd_pe, att_live_in, mean_att, sd_att) %>%
-  dplyr::left_join(
-    dplyr::select(ques_study_wide,
-                  dplyr::all_of(c("PROLIFIC_PID", sampleVars, rankVars))),
-    by = "PROLIFIC_PID")
- 
-## sanity: which prototypes landed in each bucket
-table(data_H1$condition_FutureSociety, data_H1$self_externally_governed)
- 
-## ---------------------------------------------------------------------
-## 2. Describe the sample (participant level: one row per person)
-## ---------------------------------------------------------------------
-sample_desc <- ques_study_wide %>%
-  dplyr::select(dplyr::all_of(c("PROLIFIC_PID", sampleVars))) %>%
-  dplyr::distinct()
-psych::describe(sample_desc[, c("age", "lrscale", "rlgdgr")])
-lapply(sample_desc[, c("gender", "education", "employment_status")], table)
- 
-## ---------------------------------------------------------------------
-## 3. Test H1 (within-person: random intercept per participant)
-## ---------------------------------------------------------------------
-## group means
-data_H1 %>%
-  dplyr::group_by(self_externally_governed) %>%
-  dplyr::summarise(M_pe   = mean(mean_pe,     na.rm = TRUE),
-                   SD_pe  = sd(mean_pe,       na.rm = TRUE),
-                   M_live = mean(att_live_in, na.rm = TRUE),
-                   SD_live= sd(att_live_in,   na.rm = TRUE), .groups = "drop")
- 
-## participative efficacy
-m_pe   <- lmer(mean_pe     ~ self_externally_governed + (1 | PROLIFIC_PID), data = data_H1)
-## "want to live in" evaluation
-m_live <- lmer(att_live_in ~ self_externally_governed + (1 | PROLIFIC_PID), data = data_H1)
-summary(m_pe)
-summary(m_live)
- 
-## ---------------------------------------------------------------------
-## 4. Export the H1 subset: SPSS (.sav), Excel (.xlsx), R (.rds)
-## ---------------------------------------------------------------------
-exportDataset <- function(df, base, dir = ".") {
-  if (!dir.exists(dir)) dir.create(dir, recursive = TRUE)
-  clean <- df; names(clean) <- gsub("[^A-Za-z0-9_]", "_", names(clean))  # SPSS/Excel-safe names
-  haven::write_sav(clean, file.path(dir, paste0(base, ".sav")))          # factors -> labelled
-  xl <- clean; f <- vapply(xl, is.factor, logical(1))
-  xl[f] <- lapply(xl[f], as.character)                                   # writexl wants atomic cols
-  writexl::write_xlsx(xl, file.path(dir, paste0(base, ".xlsx")))
-  saveRDS(df, file.path(dir, paste0(base, ".rds")))                      # keeps original names/types
-  invisible(NULL)
-}
- 
-exportDataset(data_H1, "data_H1", OUTPUT_QUESTIONNAIRE_PIA_DIR)
-```
+# =============================================================================
+# Merge Participative Efficacy + Attribute scores and cluster participants
+# with k-means using the mlr3 / mlr3cluster framework.
+# =============================================================================
 
-### plots H1
+# ---- Packages ---------------------------------------------------------------
+# install.packages(c("dplyr", "mlr3", "mlr3cluster", "mlr3pipelines"))
+library(dplyr)
+library(mlr3)
+library(mlr3cluster)
+library(mlr3pipelines)
 
-```{r}
-## =====================================================================
-## Plot H1: participative efficacy & "want to live in" by governance group
-## =====================================================================
-## ---------------------------------------------------------------------
-## A) Descriptive plot straight from the group means (mean +/- 95% CI)
-## ---------------------------------------------------------------------
-plot_dat <- data_H1 %>%
-  dplyr::group_by(self_externally_governed) %>%
-  dplyr::summarise(
-    M_pe   = mean(mean_pe,     na.rm = TRUE),
-    SE_pe  = sd(mean_pe,       na.rm = TRUE) / sqrt(sum(!is.na(mean_pe))),
-    M_live = mean(att_live_in, na.rm = TRUE),
-    SE_live= sd(att_live_in,   na.rm = TRUE) / sqrt(sum(!is.na(att_live_in))),
-    .groups = "drop") %>%
-  tidyr::pivot_longer(-self_externally_governed,
-                      names_to = c(".value", "outcome"), names_sep = "_") %>%
-  dplyr::mutate(
-    outcome = factor(outcome, levels = c("pe", "live"),
-                     labels = c("Participative efficacy", "Want to live in")),
-    lo = M - 1.96 * SE, hi = M + 1.96 * SE)
+set.seed(42)  # reproducibility (k-means uses random starts)
 
-ggplot(plot_dat, aes(self_externally_governed, M, fill = self_externally_governed)) +
-  geom_col(width = .6) +
-  geom_errorbar(aes(ymin = lo, ymax = hi), width = .15) +
-  geom_text(aes(label = sprintf("%.2f", M)), vjust = -0.6, size = 3.5) +
-  facet_wrap(~ outcome, scales = "free_y") +
-  scale_fill_manual(values = c(externally_governed = "#9aa6b2",
-                               self_governed        = "#3f7cac")) +
-  labs(x = NULL, y = "Mean (\u00B1 95% CI)",
-       title = "H1: prototype agency",
-       subtitle = "Self- vs externally-governed future societies") +
-  theme_minimal(base_size = 12) +
-  theme(legend.position = "none",
-        axis.text.x = element_text(angle = 15, hjust = 1))
+# ---- 1. Merge the two wide data sets ----------------------------------------
+# Both tibbles share the same 7 utopia column names, so we suffix them
+# (_pe = Participative Efficacy, _att = Attributes) before joining on the ID.
+pe  <- wide_pe  %>% rename_with(~ paste0(.x, "_pe"),  .cols = -PROLIFIC_PID)
+att <- wide_att %>% rename_with(~ paste0(.x, "_att"), .cols = -PROLIFIC_PID)
 
-## ---------------------------------------------------------------------
-## B) Model-based plot from the mixed models (marginal means + 95% CI)
-##    Matches the lmer tests; install.packages("emmeans") if needed.
-## ---------------------------------------------------------------------
-library(emmeans)
+merged <- inner_join(pe, att, by = "PROLIFIC_PID")
 
-emm <- dplyr::bind_rows(
-  as.data.frame(emmeans(m_pe,   ~ self_externally_governed)) %>%
-    dplyr::mutate(outcome = "Participative efficacy"),
-  as.data.frame(emmeans(m_live, ~ self_externally_governed)) %>%
-    dplyr::mutate(outcome = "Want to live in")
+merged <- att 
+
+# Sanity checks: k-means cannot handle missing values, and the join should
+# keep all participants present in both tables.
+cat("Rows after merge:", nrow(merged), "\n")          # expect 486
+cat("Missing values  :", sum(is.na(merged)), "\n")    # must be 0
+# If NAs exist, decide how to handle them, e.g.:
+merged <- tidyr::drop_na(merged)
+
+# ---- 2. Build the clustering task (drop the ID column) ----------------------
+# The PROLIFIC_PID is an identifier, not a feature, so it is excluded.
+feat <- merged %>% select(-PROLIFIC_PID)
+task <- as_task_clust(feat)
+
+# ---- 3. Choose the number of clusters (silhouette sweep) --------------------
+# Average silhouette width: higher = better-separated clusters.
+k_grid <- 2:12
+sil <- vapply(k_grid, function(kk) {
+  gl <- as_learner(
+    po("scale") %>>% lrn("clust.kmeans", centers = kk,
+                         algorithm = "Lloyd", nstart = 25, iter.max = 100)
+  )
+  gl$train(task)
+  gl$predict(task)$score(msr("clust.silhouette"), task = task)
+}, numeric(1))
+
+k_selection <- data.frame(k = k_grid, silhouette = round(sil, 4))
+print(k_selection)
+best_k <- 7 # k_grid[which.max(sil)]
+cat("Best k by silhouette:", best_k, "\n")
+
+# ---- 4. Fit the final k-means model -----------------------------------------
+# Set k to the value you decide on (here: the silhouette-optimal one; replace
+# with a substantively justified number, e.g. k <- 3, if you prefer).
+k <- best_k
+
+final_learner <- as_learner(
+  po("scale") %>>%
+  lrn("clust.kmeans", centers = k, algorithm = "Lloyd",
+      nstart = 25, iter.max = 100)
 )
+final_learner$train(task)
 
-## emmeans names the CI columns lower.CL/upper.CL (t-based) OR
-## asymp.LCL/asymp.UCL (z-based, as with lmer). Normalise to lo/hi.
-emm$lo <- if ("lower.CL" %in% names(emm)) emm$lower.CL else emm$asymp.LCL
-emm$hi <- if ("upper.CL" %in% names(emm)) emm$upper.CL else emm$asymp.UCL
+# ---- 5. Assign the most likely class to every participant -------------------
+pred <- final_learner$predict(task)
+merged$cluster <- pred$partition          # integer cluster label per row
 
-ggplot(emm, aes(self_externally_governed, emmean, colour = self_externally_governed)) +
-  geom_point(size = 3) +
-  geom_errorbar(aes(ymin = lo, ymax = hi), width = .15) +
-  facet_wrap(~ outcome, scales = "free_y") +
-  scale_colour_manual(values = c(externally_governed = "#9aa6b2",
-                                 self_governed        = "#3f7cac")) +
-  labs(x = NULL, y = "Estimated marginal mean (\u00B1 95% CI)",
-       title = "H1: model-estimated means") +
-  theme_minimal(base_size = 12) +
-  theme(legend.position = "none",
-        axis.text.x = element_text(angle = 15, hjust = 1))
+result <- merged %>% select(PROLIFIC_PID, cluster)
+print(head(result, 10))
 
-## ---------------------------------------------------------------------
-## C) Grouped barplot for the SEVEN single conditions (mean +/- 95% CI),
-##    coloured by governance bucket, faceted by outcome.
-## ---------------------------------------------------------------------
-cond_dat <- data_H1 %>%
-  dplyr::group_by(condition_FutureSociety, self_externally_governed) %>%
-  dplyr::summarise(
-    M_pe   = mean(mean_pe,     na.rm = TRUE),
-    SE_pe  = sd(mean_pe,       na.rm = TRUE) / sqrt(sum(!is.na(mean_pe))),
-    M_live = mean(att_live_in, na.rm = TRUE),
-    SE_live= sd(att_live_in,   na.rm = TRUE) / sqrt(sum(!is.na(att_live_in))),
-    .groups = "drop") %>%
-  tidyr::pivot_longer(c(M_pe, SE_pe, M_live, SE_live),
-                      names_to = c(".value", "outcome"), names_sep = "_") %>%
-  dplyr::mutate(
-    outcome = factor(outcome, levels = c("pe", "live"),
-                     labels = c("Participative efficacy", "Want to live in")),
-    lo = M - 1.96 * SE, hi = M + 1.96 * SE)
+# Cluster sizes
+print(table(merged$cluster))
 
-ggplot(cond_dat,
-       aes(x = reorder(condition_FutureSociety, M), y = M,
-           fill = self_externally_governed)) +
-  geom_col(width = .7) +
-  geom_errorbar(aes(ymin = lo, ymax = hi), width = .2) +
-  facet_wrap(~ outcome, scales = "free_y") +
-  scale_fill_manual(values = c(externally_governed = "#9aa6b2",
-                               self_governed        = "#3f7cac"),
-                    name = "Governance") +
-  labs(x = NULL, y = "Mean (\u00B1 95% CI)",
-       title = "H1: per-condition means",
-       subtitle = "Seven future-society prototypes, coloured by governance bucket") +
-  theme_minimal(base_size = 12) +
-  theme(axis.text.x = element_text(angle = 35, hjust = 1),
-        legend.position = "top")
+# ---- 6. (Optional) Inspect cluster profiles ---------------------------------
+# Mean feature values per cluster help you interpret/label the clusters.
+profiles <- merged %>%
+  group_by(cluster) %>%
+  summarise(across(-PROLIFIC_PID, ~ round(mean(.x), 2)), .groups = "drop")
+print(profiles)
 ```
 
+```{r}
+profiles_long <- profiles %>%
+  pivot_longer(-cluster, names_to = "variable", values_to = "mean") %>%
+  mutate(cluster = factor(cluster))
 
-## H2
-
+ggplot(profiles_long, aes(x = variable, y = mean,
+                          group = cluster, colour = cluster)) +
+  geom_line(linewidth = 0.8) +
+  geom_point(size = 2) +
+  labs(x = NULL, y = "Mean rating", colour = "Cluster",
+       title = "Cluster profiles across utopia variables (PE & attributes)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
 
 
 
 ```{r}
-## =====================================================================
-## H2 setup: pull each participant's preferred-society row(s)
-## Ranking (ques_study_wide, rank_* columns) -> most preferred society
-## per participant -> extract that participant's matching row from the
-## long within-vignettes data (pe = participative efficacy, att = eval.,
-## plus any BI / AIS-adapted columns it contains).
-## Requires: stringr, dplyr, tidyr
-## =====================================================================
+# Merge cluster labels onto the full questionnaire data
+ques_clustered <- ques_study_wide %>%
+  left_join(result, by = "PROLIFIC_PID")   # result = PROLIFIC_PID + cluster
 
-## ---------------------------------------------------------------------
-## ASSUMPTIONS -- check these against your codebook
-## ---------------------------------------------------------------------
-idCol <- "PROLIFIC_PID"   # common key in BOTH datasets; switch to "ID" if needed
+# Aggregate the mean_* variables per cluster
+mean_vars <- c("mean_activism", "mean_radicalism", "mean_utop", "mean_antiutop",
+               "mean_nfc", "mean_sjs", "mean_swls", "mean_brs",
+               "mean_prds") # , "mean_cmq"
 
-## rank value 1 == MOST preferred (L1), 2 == second (L2), ... 7 == least.
-## (If 7 is most preferred in your coding, flip with: rank <- 8 - rank.)
+mean_profiles_long <- ques_clustered %>%
+  filter(!is.na(cluster)) %>%
+  group_by(cluster) %>%
+  summarise(across(all_of(mean_vars), ~ mean(.x, na.rm = TRUE)), .groups = "drop") %>%
+  pivot_longer(-cluster, names_to = "variable", values_to = "mean") %>%
+  mutate(cluster  = factor(cluster),
+         variable = sub("^mean_", "", variable))   # tidy labels
 
-## map rank_* suffixes -> condition_FutureSociety labels in the long data.
-## LEFT = suffix after "rank_"  ;  RIGHT = value in condition_FutureSociety.
-society_map <- c(
-  religious      = "religious",
-  ai_centered    = "aicentered",
-  primitivist    = "primitivist",
-  institutional  = "lawBased",
-  moral_anarchic = "anarchic",
-  futurist       = "futurist",
-  modern_green   = "moderngreen"
-)
+ggplot(mean_profiles_long, aes(x = variable, y = mean,
+                               group = cluster, colour = cluster)) +
+  geom_line(linewidth = 0.8) +
+  geom_point(size = 2) +
+  labs(x = NULL, y = "Mean score", colour = "Cluster",
+       title = "Mean dispositional/scale variables by cluster") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
 
-## ---------------------------------------------------------------------
-## Function: rows from the long data for each participant's n-th
-## preferred society (level = 1 -> L1 most preferred, 2 -> L2, ...).
-## ---------------------------------------------------------------------
-extractPreferredRows <- function(level     = 1,
-                                 wide      = ques_study_wide,
-                                 long      = ques_study_within_vignettes,
-                                 id        = idCol,
-                                 societyMap = society_map) {
 
-  rankCols <- stringr::str_subset(colnames(wide), "^rank")
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(broom)
+# Cluster labels already merged onto the questionnaire data:
+# ques_clustered <- ques_study_wide %>% left_join(result, by = "PROLIFIC_PID")
+dat <- ques_clustered %>%
+  filter(!is.na(cluster)) %>%
+  mutate(cluster = factor(cluster))
 
-  pref <- wide %>%
-    dplyr::select(dplyr::all_of(c(id, rankCols))) %>%
-    tidyr::pivot_longer(dplyr::all_of(rankCols),
-                        names_to = "society_rankvar", values_to = "rank") %>%
-    dplyr::mutate(
-      society_rank            = sub("^rank_", "", society_rankvar),
-      condition_FutureSociety = unname(societyMap[society_rank])
-    ) %>%
-    dplyr::filter(rank == level) %>%                 # rank == 1 -> L1, == 2 -> L2
-    dplyr::select(dplyr::all_of(id), condition_FutureSociety, rank) %>%
-    dplyr::rename(pref_rank = rank)
+mean_vars <- c("mean_activism", "mean_radicalism", "mean_utop", "mean_antiutop",
+               "mean_nfc", "mean_sjs", "mean_swls", "mean_brs",
+               "mean_prds", "mean_cmq")
 
-  ## warn if any society_rank wasn't mapped
-  unmapped <- setdiff(sub("^rank_", "", rankCols), names(societyMap))
-  if (length(unmapped)) warning("Unmapped rank suffixes: ",
-                                paste(unmapped, collapse = ", "))
+# ---- ANOVA per variable -----------------------------------------------------
+anova_results <- lapply(mean_vars, function(v) {
+  fit <- aov(reformulate("cluster", response = v), data = dat)
+  tidy(fit) %>%
+    filter(term == "cluster") %>%
+    transmute(variable = v, df = df, F = statistic, p = p.value)
+}) %>%
+  bind_rows() %>%
+  mutate(p_adj = p.adjust(p, method = "holm"),   # correct for 10 tests
+         sig   = cut(p_adj, c(-Inf, .001, .01, .05, Inf),
+                     labels = c("***", "**", "*", "ns")))
 
-  ## pull the matching within-vignette row for that participant + society
-  dplyr::inner_join(long, pref, by = c(id, "condition_FutureSociety"))
+print(anova_results)
+
+# ---- Post-hoc (only for variables that are significant) ---------------------
+sig_vars <- anova_results$variable[anova_results$p_adj < .05]
+posthoc <- lapply(sig_vars, function(v) {
+  TukeyHSD(aov(reformulate("cluster", response = v), data = dat))$cluster %>%
+    as.data.frame() %>%
+    tibble::rownames_to_column("contrast") %>%
+    mutate(variable = v)
+}) %>% bind_rows()
+print(posthoc)
+```
+
+
+```{r}
+# ---- Simple plot: cluster means for all variables --------------------------
+
+mean_vars <- c(mean_vars, "lrscale", "rlgdgr")
+plot_df <- dat %>%
+  group_by(cluster) %>%
+  summarise(across(all_of(mean_vars),
+                   list(m  = ~ mean(.x, na.rm = TRUE),
+                        se = ~ sd(.x, na.rm = TRUE) / sqrt(sum(!is.na(.x)))),
+                   .names = "{.col}__{.fn}"),
+            .groups = "drop") %>%
+  pivot_longer(-cluster, names_to = c("variable", ".value"), names_sep = "__") %>%
+  mutate(variable = sub("^mean_", "", variable))
+
+ggplot(plot_df, aes(x = cluster, y = m, fill = cluster)) +
+  geom_col() +
+  geom_errorbar(aes(ymin = m - se, ymax = m + se), width = .3) +
+  facet_wrap(~ variable, scales = "free_y") +
+  labs(x = "Cluster", y = "Mean (± SE)",
+       title = "Cluster means by scale variable (one-way ANOVA)") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+## ranking 
+
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# 1. Define ranking columns
+rank_cols <- c("rank_ai_centered", "rank_primitivist", "rank_institutional", 
+               "rank_moral_anarchic", "rank_futurist", "rank_modern_green")
+
+# dat <- dat %>%
+#   mutate(across(all_of(rank_cols), ~ 8 - .)) # !!!!!!!
+
+# 2. Reshape to long format
+dat_long <- dat %>%
+  select(cluster, all_of(rank_cols)) %>%
+  pivot_longer(cols = -cluster, names_to = "utopia_type", values_to = "rank") %>%
+  mutate(utopia_type = gsub("rank_", "", utopia_type)) 
+
+# 3. Calculate mean rank (lower = better)
+mean_ranks <- dat_long %>%
+  group_by(cluster, utopia_type) %>%
+  summarise(mean_rank = mean(rank, na.rm = TRUE), .groups = "drop")
+
+# 4. Heatmap with reversed color scale 
+# Low values (1) are now visually highlighted as the strongest preferences
+ggplot(mean_ranks, aes(x = utopia_type, y = as.factor(cluster), fill = mean_rank)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient(low = "darkred", high = "white") + 
+  theme_minimal() +
+  labs(
+    title = "Dominance of Utopian Preferences",
+    subtitle = "Darker red indicates a lower mean rank (higher preference/closer to 1)",
+    x = "Utopian Society Type",
+    y = "Cluster ID",
+    fill = "Mean Rank"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+
+
+
+
+
+
+
+# bbb
+
+```{r}
+library(dplyr)
+scale_cols <- c("mean_activism","mean_radicalism","mean_nfc","mean_cmq",
+                "mean_brs","mean_swls","mean_prds","mean_sjs",
+                "mean_utop","mean_antiutop")
+z <- ques_clustered %>%
+  mutate(across(all_of(scale_cols), ~ as.numeric(scale(.x)), .names = "z_{.col}"))
+
+library(psych)
+syndrome <- z %>% select(z_mean_radicalism, z_mean_nfc, z_mean_cmq,
+                         z_mean_brs, z_mean_swls)
+corr.test(syndrome)   # r, n, and p (holm-adjusted) in one object
+```
+```{r}
+# library(tidyLPA)
+# z %>% select(z_mean_radicalism, z_mean_nfc, z_mean_cmq,
+#              z_mean_brs, z_mean_swls) %>%
+#   single_imputation() %>%
+#   estimate_profiles(2:5) %>%
+#   compare_solutions(statistics = c("BIC","Entropy"))
+```
+
+
+```{r}
+hist(ques_study_wide$mean_nfc)
+```
+```{r}
+grp <- z %>%
+  mutate(destructive = ifelse(mean_radicalism < 2 & mean_nfc < 2, "non-violent","other"))
+# 4 = scale midpoint => genuine endorsement, not just "less opposed"
+table(grp$destructive)
+
+# outcomes NOT used to define the group:
+for (v in c("mean_brs","mean_swls","mean_cmq", "mean_antiutop")) {
+  cat("\n", v, "\n")
+  print(t.test(reformulate("destructive", v), data = grp))   # Welch, unequal var
+  print(effectsize::cohens_d(reformulate("destructive", v), data = grp))
 }
-
-## ---------------------------------------------------------------------
-## Extract
-## ---------------------------------------------------------------------
-L1_rows <- extractPreferredRows(level = 1)   # each participant's MOST preferred society
-L2_rows <- extractPreferredRows(level = 2)   # each participant's 2nd preferred society
-
-## quick checks
-nrow(L1_rows)                                 # ~ one row per participant
-count(L1_rows, condition_FutureSociety)       # how often each society is the L1 pick
-
-## ---------------------------------------------------------------------
-## L1 vs L2 in long form (for the AIS-adapted BI comparison / H2)
-## -> one participant contributes two rows: pref_level L1 and L2.
-## Run paired comparisons on the BI / AIS-adapted column(s) here.
-## ---------------------------------------------------------------------
-pref_L1L2 <- dplyr::bind_rows(
-  dplyr::mutate(L1_rows, pref_level = "L1"),
-  dplyr::mutate(L2_rows, pref_level = "L2")
-) %>%
-  dplyr::arrange(.data[[idCol]], pref_level)
-
-head(pref_L1L2)
 ```
-
-
-
-```{r}
-## =====================================================================
-## Join each participant's L1 (most-preferred society) row onto the wide
-## between-person data -> H2 analysis frame.
-## ques_study_wide already holds the AIS-adapted BI (aris_scale-ais1..4);
-## L1_rows adds that society's pe (participative efficacy) + att (eval.).
-## Requires: dplyr ; objects ques_study_wide and L1_rows in scope.
-## =====================================================================
-## one L1 row per participant?  (ties/missing ranks would break the 1:1 join)
-if (anyDuplicated(L1_rows$PROLIFIC_PID))
-  warning("L1_rows has >1 row for some PROLIFIC_PID -- the join will fan out.")
-
-## prep L1 side: drop its ID (keep wide's), prefix the rest with "L1_",
-## join key PROLIFIC_PID stays unprefixed.
-L1_pref <- L1_rows %>%
-  dplyr::select(-ID) %>%
-  dplyr::rename_with(~ paste0("L1_", .x), .cols = -PROLIFIC_PID)
-
-## attach to the wide frame (keep all 486 participants; NA where no L1 match)
-ques_study_wide_L1 <- dplyr::left_join(ques_study_wide, L1_pref,
-                                       by = "PROLIFIC_PID")
-
-## checks
-nrow(ques_study_wide_L1)                       # should stay 486
-sum(is.na(ques_study_wide_L1$L1_condition_FutureSociety))  # unmatched participants
-table(ques_study_wide_L1$L1_condition_FutureSociety, useNA = "ifany")
-
-## now ready for H2, e.g. the AIS-adapted BI vs L1 evaluation:
-##   ques_study_wide_L1$L1_mean_att   # desirability/attainability of L1 society
-##   ques_study_wide_L1$L1_mean_pe    # participative efficacy for L1 society
-##   ques_study_wide_L1[, c("aris_scale-ais1","aris_scale-ais2",
-##                          "aris_scale-ais3","aris_scale-ais4")]  # BI items
-```
-
-
-
-
-
-```{r}
-## =====================================================================
-## H2 -- Evaluation -> motivation link (within individuals)
-## Visions evaluated as more desirable/attainable should evoke higher
-## participative efficacy (mean_pe) and stronger behavioural intentions
-## (AIS-adapted BI).
-## Vignette-level (long) data; the BI side is tested via the L1 setup.
-## >>> RUN THIS AFTER the L1/L2 extraction + join chunks <<<
-##     needs in scope: ques_study_within_vignettes, pref_L1L2,
-##     ques_study_wide_L1  (the latter two come from those chunks).
-## Requires: dplyr, lme4, lmerTest, psych, haven, writexl
-## =====================================================================
-
-
-## ---------------------------------------------------------------------
-## 0. Variable groups to keep
-## ---------------------------------------------------------------------
-sampleVars <- c("age", "gender", "education", "employment_status",
-                "lrscale", "rlgdgr")
-rankVars   <- grep("^rank_",          colnames(ques_study_wide), value = TRUE)  # ranking task
-biVars     <- grep("^aris_scale-ais", colnames(ques_study_wide), value = TRUE)  # AIS-adapted BI
-
-## ---------------------------------------------------------------------
-## 1. Build the H2 subset (long; evaluation + efficacy per vignette,
-##    BI merged from wide, ranking + sample descriptors kept)
-##    Evaluation = mean_att (composite); att_desirable = desirability item.
-##    NOTE: there is no explicit "attainable" item among att_* (ideal,
-##    beneficial, utopian, desirable, innovative, live_in) -- map your
-##    intended attainability measure here if you have one.
-## ---------------------------------------------------------------------
-data_H2 <- ques_study_within_vignettes %>%
-  dplyr::select(ID, PROLIFIC_PID, condition_FutureSociety, vignette_id,
-                mean_att, sd_att, att_desirable, att_ideal,
-                mean_pe, sd_pe) %>%
-  dplyr::left_join(
-    dplyr::select(ques_study_wide,
-                  dplyr::all_of(c("PROLIFIC_PID", sampleVars, rankVars, biVars))),
-    by = "PROLIFIC_PID")
-
-## between-person AIS-adapted BI score (one value per person, repeated
-## across that person's 7 vignette rows). No reverse items in AIS.
-data_H2$mean_BI_AIS <- rowMeans(data_H2[biVars], na.rm = TRUE)
-
-## ---------------------------------------------------------------------
-## 2. Test H2
-## ---------------------------------------------------------------------
-## (a) WITHIN-person evaluation -> participative efficacy
-##     mean_att varies across vignettes within a person.
-m_eff <- lmer(mean_pe ~ mean_att + (1 | PROLIFIC_PID), data = data_H2)
-summary(m_eff)
-# optional random slope (if it converges):
-# m_eff_rs <- lmer(mean_pe ~ mean_att + (1 + mean_att | PROLIFIC_PID), data = data_H2)
-
-## (b) L1 vs L2 WITHIN-person contrast (evaluation/efficacy side):
-##     the more-preferred vision (L1) should show higher pe / att than L2.
-m_L1L2_pe  <- lmer(mean_pe  ~ pref_level + (1 | PROLIFIC_PID), data = pref_L1L2)
-m_L1L2_att <- lmer(mean_att ~ pref_level + (1 | PROLIFIC_PID), data = pref_L1L2)
-summary(m_L1L2_pe)
-summary(m_L1L2_att)
-
-## (c) BEHAVIOURAL INTENTIONS (AIS-adapted) are measured once per person,
-##     so the att -> BI link is between-person. Tie BI to the evaluation of
-##     each person's MOST-preferred (L1) society via the joined frame:
-biVars_L1 <- grep("^aris_scale-ais", colnames(ques_study_wide_L1), value = TRUE)
-ques_study_wide_L1$mean_BI_AIS <- rowMeans(ques_study_wide_L1[biVars_L1], na.rm = TRUE)
-
-cor.test(ques_study_wide_L1$L1_mean_att, ques_study_wide_L1$mean_BI_AIS)
-summary(lm(mean_BI_AIS ~ L1_mean_att + L1_mean_pe, data = ques_study_wide_L1))
-## If BI was asked separately for L1 and L2, add those columns to
-## pref_L1L2 and run a paired test there instead.
-
-## ---------------------------------------------------------------------
-## 3. Export the H2 subset: SPSS (.sav), Excel (.xlsx), R (.rds)
-## ---------------------------------------------------------------------
-exportDataset <- function(df, base, dir = ".") {
-  if (!dir.exists(dir)) dir.create(dir, recursive = TRUE)
-  clean <- df; names(clean) <- gsub("[^A-Za-z0-9_]", "_", names(clean))  # SPSS/Excel-safe names
-  haven::write_sav(clean, file.path(dir, paste0(base, ".sav")))
-  xl <- clean; f <- vapply(xl, is.factor, logical(1))
-  xl[f] <- lapply(xl[f], as.character)
-  writexl::write_xlsx(xl, file.path(dir, paste0(base, ".xlsx")))
-  saveRDS(df, file.path(dir, paste0(base, ".rds")))
-  invisible(NULL)
-}
-
-exportDataset(data_H2, "data_H2", OUTPUT_QUESTIONNAIRE_PIA_DIR)
-```
-
-
-
-
-
-### aa
-
-
-```{r}
-## =====================================================================
-## H2 -- Evaluation -> motivation link (within individuals)
-## Visions evaluated as more desirable/attainable should evoke higher
-## participative efficacy (mean_pe) and stronger behavioural intentions
-## (AIS-adapted BI).
-## Vignette-level (long) data; the BI side is tested via the L1 setup.
-## >>> RUN THIS AFTER the L1/L2 extraction + join chunks <<<
-##     needs in scope: ques_study_within_vignettes, pref_L1L2,
-##     ques_study_wide_L1  (the latter two come from those chunks).
-## Requires: dplyr, lme4, lmerTest, psych, haven, writexl
-## =====================================================================
-
-## ---------------------------------------------------------------------
-## 0. Variable groups to keep
-## ---------------------------------------------------------------------
-sampleVars <- c("age", "gender", "education", "employment_status",
-                "lrscale", "rlgdgr")
-rankVars   <- grep("^rank_",          colnames(ques_study_wide), value = TRUE)  # ranking task
-biVars     <- grep("^aris_scale-ais", colnames(ques_study_wide), value = TRUE)  # AIS-adapted BI
-
-## ---------------------------------------------------------------------
-## 1. H2 subset = each participant's PREFERRED (L1) society ONLY
-##    L1 evaluation/efficacy (from L1_rows) + AIS-adapted activism
-##    + ranking + sample descriptors  ->  ONE row per participant (486).
-##    Evaluation = mean_att (composite); att_desirable = desirability item.
-##    NOTE: no explicit "attainable" item among att_* (ideal, beneficial,
-##    utopian, desirable, innovative, live_in) -- map yours here if you have one.
-## ---------------------------------------------------------------------
-data_H2 <- L1_rows %>%
-  dplyr::select(ID, PROLIFIC_PID, condition_FutureSociety, vignette_id, pref_rank,
-                mean_att, sd_att, att_desirable, att_ideal,
-                mean_pe, sd_pe) %>%
-  dplyr::left_join(
-    dplyr::select(ques_study_wide,
-                  dplyr::all_of(c("PROLIFIC_PID", sampleVars, rankVars, biVars))),
-    by = "PROLIFIC_PID")
-
-## AIS-adapted ACTIVISM intention (composite of the aris_scale-ais items;
-## one value per person). No reverse items in AIS.
-data_H2$mean_activism <- rowMeans(data_H2[biVars], na.rm = TRUE)
-data_H2$sd_activism   <- apply(data_H2[biVars], 1L, sd, na.rm = TRUE)
-
-## ---------------------------------------------------------------------
-## 2. Test H2  (data_H2 is now one row per person -> between-person)
-## ---------------------------------------------------------------------
-## (a) Evaluation of the PREFERRED society -> participative efficacy
-cor.test(data_H2$mean_att, data_H2$mean_pe)
-
-## (b) Evaluation / efficacy of the preferred society -> activism intentions
-cor.test(data_H2$mean_att, data_H2$mean_activism)
-summary(lm(mean_activism ~ mean_att + mean_pe, data = data_H2))
-
-## (c) WITHIN-person check: L1 vs L2 contrast on evaluation/efficacy.
-##     The more-preferred vision (L1) should show higher pe / att than L2.
-##     (uses pref_L1L2, which carries two rows per person.)
-m_L1L2_pe  <- lmer(mean_pe  ~ pref_level + (1 | PROLIFIC_PID), data = pref_L1L2)
-m_L1L2_att <- lmer(mean_att ~ pref_level + (1 | PROLIFIC_PID), data = pref_L1L2)
-summary(m_L1L2_pe)
-summary(m_L1L2_att)
-
-## ---------------------------------------------------------------------
-## 3. Export the H2 subset: SPSS (.sav), Excel (.xlsx), R (.rds)
-## ---------------------------------------------------------------------
-exportDataset <- function(df, base, dir = ".") {
-  if (!dir.exists(dir)) dir.create(dir, recursive = TRUE)
-  clean <- df; names(clean) <- gsub("[^A-Za-z0-9_]", "_", names(clean))  # SPSS/Excel-safe names
-  haven::write_sav(clean, file.path(dir, paste0(base, ".sav")))
-  xl <- clean; f <- vapply(xl, is.factor, logical(1))
-  xl[f] <- lapply(xl[f], as.character)
-  writexl::write_xlsx(xl, file.path(dir, paste0(base, ".xlsx")))
-  saveRDS(df, file.path(dir, paste0(base, ".rds")))
-  invisible(NULL)
-}
-
-exportDataset(data_H2, "data_H2", OUTPUT_QUESTIONNAIRE_PIA_DIR)
-```
-
-```{r}
-cor.test(data_H2$mean_att, data_H2$mean_activism)
-cor.test(data_H2$mean_pe, data_H2$mean_activism)
 ```
 
