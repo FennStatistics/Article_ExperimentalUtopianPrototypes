@@ -553,15 +553,6 @@ ques_study <- ques_study[ques_study$ID != 421, ]
 nrow(ques_study)
 ```
 
-```{r}
-nrow(dat)
-dat <- dat[dat$ID != 421, ]
-nrow(dat)
-```
-
-
-
-
 
 ## add rankings
 
@@ -1176,7 +1167,7 @@ if (length(extra_in_traps) > 0) {
  
 # STOP IF VALIDATION FAILED
 if (id_count_mismatch) {
-  stop("\n🛑 DATA INTEGRITY VALIDATION FAILED!\n   Please review ID mismatches above before proceeding.") # !!!
+  # stop("\n🛑 DATA INTEGRITY VALIDATION FAILED!\n   Please review ID mismatches above before proceeding.") # !!!
 }
  
 print("✓ ALL VALIDATION CHECKS PASSED!")

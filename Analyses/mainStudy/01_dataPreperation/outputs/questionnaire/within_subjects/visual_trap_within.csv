@@ -1937,12 +1937,6 @@
 420,"6a00b8ac3d945373290b0f29",3,"Collision","1","Green Triangle Only",TRUE,12049
 420,"6a00b8ac3d945373290b0f29",4,"Lines","1","Blue Line",TRUE,7049
 420,"6a00b8ac3d945373290b0f29",5,"Circles","2","Red Circle",TRUE,7632
-421,"698a3b03581c58e0e5b68abf",0,"Collision","1","Green Triangle Only",TRUE,100103
-421,"698a3b03581c58e0e5b68abf",1,"Lines","1","Blue Line",TRUE,7828
-421,"698a3b03581c58e0e5b68abf",2,"CafeWall","3","Slanted / Diagonal",TRUE,9571
-421,"698a3b03581c58e0e5b68abf",3,"Circles","2","Red Circle",TRUE,12273
-421,"698a3b03581c58e0e5b68abf",4,"Robot","2","Mostly on the upper right of the square",FALSE,12769
-421,"698a3b03581c58e0e5b68abf",5,"Planets","2","Orange",TRUE,42390
 422,"69432f5eec27bf29567095f7",0,"Collision","1","Green Triangle Only",TRUE,39392
 422,"69432f5eec27bf29567095f7",1,"CafeWall","3","Slanted / Diagonal",TRUE,16036
 422,"69432f5eec27bf29567095f7",2,"Robot","3","Mostly around the center of the square",TRUE,16445
